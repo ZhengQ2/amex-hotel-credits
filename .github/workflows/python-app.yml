@@ -2,7 +2,7 @@ name: Update Hilton Resort List
 
 on:
   schedule:
-    # Run once per day at 05:00 UTC (adjust as you like)
+    # Run once per day at 05:00 UTC (adjust as desired)
     - cron: "0 5 * * *"
   workflow_dispatch:
 
@@ -10,13 +10,13 @@ jobs:
   scrape-and-geocode:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # needed to push changes back to repo
+      contents: write   # needed to push changes
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # so we can diff against previous commit
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -30,18 +30,19 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: Run Hilton scraper
-        # Change the filename if your scraper is named differently
+        # capture stdout so we can inspect it
         run: |
-          python hilton.py
+          python hilton.py | tee hilton.log
 
-      - name: Check if hotel list CSV changed
+      - name: Did Hilton list change vs geocode cache?
         id: check_list
         run: |
-          # Detect changes in the main list CSV compared to last commit
-          if git diff --quiet --exit-code -- hilton_resort_credit_hotels_by_brand.csv; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
+          # Look for headers that are only printed when there ARE changes
+          if grep -q "Hotels NOT found in geocode cache (new hotels):" hilton.log || \
+             grep -q "Hotels in geocode cache but NOT in current scraped list (removed):" hilton.log; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Run Google geocoding (google-convert.py)
@@ -51,11 +52,19 @@ jobs:
         run: |
           python google-convert.py
 
+      - name: Check if any tracked files changed
+        id: check_git_changes
+        run: |
+          if git diff --quiet --exit-code; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Send email with updated hotels_geocoded_google.csv
-        if: steps.check_list.outputs.changed == 'true'
+        if: steps.check_git_changes.outputs.changed == 'true'
         uses: dawidd6/action-send-mail@v3
         with:
-          # Configure these secrets in your repo settings
           server_address: ${{ secrets.SMTP_SERVER }}
           server_port: ${{ secrets.SMTP_PORT }}
           username: ${{ secrets.SMTP_USERNAME }}
@@ -65,23 +74,19 @@ jobs:
           to: "liqiu2003@icloud.com"
           from: "Hilton Bot <${{ secrets.SMTP_USERNAME }}>"
           body: |
-            The Hilton resort-credit hotel list has changed.
+            The Hilton resort-credit hotel list and/or geocoded data has changed.
             Attached is the latest hotels_geocoded_google.csv file.
-
-          # Path is relative to repository root
           attachments: |
             hotels_geocoded_google.csv
 
       - name: Commit and push updated CSV/JSON files
-        if: steps.check_list.outputs.changed == 'true'
+        if: steps.check_git_changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Add the files that are expected to change; extend this list if needed
           git add hilton_resort_credit_hotels_by_brand.csv hotels_geocoded_google.csv geocode_cache_google.json || true
 
-          # Only commit if there is actually something to commit
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Update Hilton resort-credit list and geocoding [CI]"
             git push
