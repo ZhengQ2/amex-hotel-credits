@@ -1,0 +1,90 @@
+name: Update Hilton Resort List
+
+on:
+  schedule:
+    # Run once per day at 05:00 UTC (adjust as you like)
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+jobs:
+  scrape-and-geocode:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to push changes back to repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # so we can diff against previous commit
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright pandas requests tenacity python-dotenv
+          python -m playwright install --with-deps chromium
+
+      - name: Run Hilton scraper
+        # Change the filename if your scraper is named differently
+        run: |
+          python hilton.py
+
+      - name: Check if hotel list CSV changed
+        id: check_list
+        run: |
+          # Detect changes in the main list CSV compared to last commit
+          if git diff --quiet --exit-code -- hilton_resort_credit_hotels_by_brand.csv; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run Google geocoding (google-convert.py)
+        if: steps.check_list.outputs.changed == 'true'
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+        run: |
+          python google-convert.py
+
+      - name: Send email with updated hotels_geocoded_google.csv
+        if: steps.check_list.outputs.changed == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          # Configure these secrets in your repo settings
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+
+          subject: "Hilton resort-credit hotel list updated"
+          to: "liqiu2003@icloud.com"
+          from: "Hilton Bot <${{ secrets.SMTP_USERNAME }}>"
+          body: |
+            The Hilton resort-credit hotel list has changed.
+            Attached is the latest hotels_geocoded_google.csv file.
+
+          # Path is relative to repository root
+          attachments: |
+            hotels_geocoded_google.csv
+
+      - name: Commit and push updated CSV/JSON files
+        if: steps.check_list.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Add the files that are expected to change; extend this list if needed
+          git add hilton_resort_credit_hotels_by_brand.csv hotels_geocoded_google.csv geocode_cache_google.json || true
+
+          # Only commit if there is actually something to commit
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Update Hilton resort-credit list and geocoding [CI]"
+            git push
+          else
+            echo "No changes to commit."
+          fi
