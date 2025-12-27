@@ -397,10 +397,6 @@ def _update_cache_with_new_hotels(
             hotel_name = _clean_text(hotel_data["hotel_name"])
             brand = _clean_text(hotel_data["group_label"])
             
-            # Skip if already in cache (double check)
-            if _is_hotel_in_cache(hotel_name, brand, cache_index):
-                continue
-            
             # Build query list similar to google-convert.py format
             queries = [hotel_name]
             
@@ -414,9 +410,8 @@ def _update_cache_with_new_hotels(
             
             # Add placeholder entry (will be geocoded later)
             # Using None to indicate it needs geocoding
-            if cache_key not in cache:
-                cache[cache_key] = None
-                added_count += 1
+            cache[cache_key] = None
+            added_count += 1
         
         # Save updated cache
         if added_count > 0:
@@ -555,10 +550,11 @@ def main(headless=True):
                 scraped_index.setdefault(bkey, []).append(nkey)
 
             # 1) Scraped hotels that are NOT in geocode cache (new)
-            new_hotels = []
-            for _, row in df.iterrows():
-                if not _is_hotel_in_cache(row["hotel_name"], row["group_label"], cache_index):
-                    new_hotels.append(row.to_dict())
+            new_hotels_mask = df.apply(
+                lambda row: not _is_hotel_in_cache(row["hotel_name"], row["group_label"], cache_index),
+                axis=1
+            )
+            new_hotels = df[new_hotels_mask].to_dict('records')
 
             if not new_hotels:
                 print("All scraped hotels appear to be present in geocode cache.")
@@ -588,8 +584,8 @@ def main(headless=True):
                 added = _update_cache_with_new_hotels(CACHE_FILE, new_hotels, cache_index)
                 if added > 0:
                     print(f"✓ Added {added} new hotel(s) to cache")
-                else:
-                    print("⚠ No new hotels were added to cache (they may already exist)")
+                elif added == 0:
+                    print("⚠ Failed to add hotels to cache (check file permissions)")
             
             # 4) Remove hotels from cache that are no longer scraped
             if removed_hotels:
@@ -597,8 +593,8 @@ def main(headless=True):
                 removed = _remove_hotels_from_cache(CACHE_FILE, removed_hotels, scraped_index)
                 if removed > 0:
                     print(f"✓ Removed {removed} hotel(s) from cache")
-                else:
-                    print("⚠ No hotels were removed from cache")
+                elif removed == 0:
+                    print("⚠ Failed to remove hotels from cache (check file permissions)")
 
         browser.close()
 
