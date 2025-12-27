@@ -330,7 +330,7 @@ def _is_hotel_in_cache(hotel_name: str, brand: str, cache_index) -> bool:
 
     name = _clean_text(hotel_name).lower()
     for q in queries:
-        if name in q or q in name:
+        if _names_match(name, q):
             return True
     return False
 
@@ -345,9 +345,24 @@ def _is_cached_hotel_in_scraped(cached_name: str, brand: str, scraped_index) -> 
 
     scraped_names = scraped_index.get(brand_key, [])
     for s in scraped_names:
-        if name in s or s in name:
+        if _names_match(name, s):
             return True
     return False
+
+
+def _names_match(name1: str, name2: str) -> bool:
+    """
+    Check if two hotel names match using fuzzy logic.
+    Returns True if one name contains the other or they're equal.
+    
+    Args:
+        name1: First name (lowercase)
+        name2: Second name (lowercase)
+        
+    Returns:
+        True if names match, False otherwise
+    """
+    return name1 in name2 or name2 in name1
 
 
 def _update_cache_with_new_hotels(
@@ -468,9 +483,7 @@ def _remove_hotels_from_cache(
                     # Match by brand and name
                     if brand == removed_brand_clean:
                         # Check if names match (using same fuzzy logic)
-                        if canonical_name == removed_name_clean or \
-                           canonical_name in removed_name_clean or \
-                           removed_name_clean in canonical_name:
+                        if _names_match(canonical_name, removed_name_clean):
                             # Double check it's not in scraped list
                             if not _is_cached_hotel_in_scraped(canonical_name, brand, scraped_index):
                                 keys_to_remove.append(key)
@@ -545,7 +558,7 @@ def main(headless=True):
             new_hotels = []
             for _, row in df.iterrows():
                 if not _is_hotel_in_cache(row["hotel_name"], row["group_label"], cache_index):
-                    new_hotels.append(row)
+                    new_hotels.append(row.to_dict())
 
             if not new_hotels:
                 print("All scraped hotels appear to be present in geocode cache.")
