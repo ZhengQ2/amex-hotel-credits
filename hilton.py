@@ -10,7 +10,7 @@ import os
 
 URL = "https://www.hilton.com/en/p/hilton-honors/resort-credit-eligible-hotels/"
 OUT = "cache/hilton_hotels.csv"
-CACHE_FILE = "cache/geocode_cache_google.json"
+CACHE_FILE = "cache/geocode_cache_google_hilton.json"
 
 
 def _clean_text(s: str) -> str:
@@ -269,7 +269,7 @@ def scrape_mobile(page):
 
 def _load_geocode_cache_index(cache_path: str = CACHE_FILE):
     """
-    Load geocode_cache_google.json and build:
+    Load cache/geocode_cache_google_hilton.json and build:
       - index: { brand_lower: set([query_lower, ...]) }
       - cached_hotels: set([(hotel_name_lower, brand_lower), ...])
 

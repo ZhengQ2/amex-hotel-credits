@@ -52,8 +52,8 @@ jobs:
         run: |
           python google-convert.py \
             --input cache/hilton_hotels.csv \
-            --output cache/hotels_geocoded_google.csv \
-            --cache cache/geocode_cache_google.json \
+            --output cache/hilton_hotels_geocoded_google.csv \
+            --cache cache/geocode_cache_google_hilton.json \
             --input-format hilton | tee -a hilton.log
 
       - name: Write Google service account credentials
@@ -70,7 +70,7 @@ jobs:
           from google.oauth2.service_account import Credentials
 
           SHEET_ID = "1YyLN_w8Es1gtMjL-l0SzTmXYbFjDHAAacbvBqvyfhio"
-          CSV_PATH = "cache/hotels_geocoded_google.csv"
+          CSV_PATH = "cache/hilton_hotels_geocoded_google.csv"
 
           df = pd.read_csv(CSV_PATH)
           scopes = ["https://www.googleapis.com/auth/spreadsheets"]
@@ -97,7 +97,7 @@ jobs:
           from: "Hilton Bot <hilton@zhengqiu.net>"
           body: file://hilton.log
           attachments: |
-            cache/hotels_geocoded_google.csv
+            cache/hilton_hotels_geocoded_google.csv
 
       - name: Commit and push cache updates
         if: steps.check_list.outputs.changed == 'true'
@@ -105,7 +105,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add cache/geocode_cache_google.json cache/hotels_geocoded_google.csv cache/hilton_hotels.csv || true
+          git add cache/geocode_cache_google_hilton.json cache/hilton_hotels_geocoded_google.csv cache/hilton_hotels.csv || true
 
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Update Hilton cache and geocoded hotels [CI]"

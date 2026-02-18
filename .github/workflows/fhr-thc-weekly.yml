@@ -41,7 +41,7 @@ jobs:
           python google-convert.py \
             --input cache/fhr_thc_hotels.csv \
             --output cache/fhr_thc_hotels_geocoded_google.csv \
-            --cache cache/geocode_cache_google.json \
+            --cache cache/geocode_cache_google_fhr_thc.json \
             --input-format fhrthc | tee -a fhrthc.log
 
       - name: Commit and push cache updates
@@ -49,7 +49,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add cache/fhr_thc_hotels.csv cache/fhr_thc_hotels_geocoded_google.csv cache/geocode_cache_google.json || true
+          git add cache/fhr_thc_hotels.csv cache/fhr_thc_hotels_geocoded_google.csv cache/geocode_cache_google_fhr_thc.json || true
 
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Update FHR+THC cache and geocoded hotels [CI]"
