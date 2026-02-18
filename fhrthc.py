@@ -102,6 +102,9 @@ class AmexCardHTMLParser(HTMLParser):
         self._stack.append((tag, attrs))
 
         if tag == "div" and self._class_has(attrs, "card-program"):
+            # New card boundary: clear stale brand in case this card has no
+            # explicit brand section.
+            self._last_brand = ""
             self._capture_program = True
             self._program_buf = []
 
@@ -310,4 +313,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
