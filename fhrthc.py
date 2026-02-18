@@ -99,7 +99,14 @@ class AmexCardHTMLParser(HTMLParser):
         if not self._pending_row.get("brand"):
             self._pending_row["brand"] = self._effective_text(self._capture_brand, self._brand_buf, "")
         if not self._pending_row.get("location"):
-            self._pending_row["location"] = self._effective_text(self._capture_location, self._location_buf, "")
+            # Location often appears after supplierName; when that happens the
+            # pending row is created before location is parsed. Prefer current
+            # buffer text, then current-card finalized location.
+            location_text = _clean_text("".join(self._location_buf))
+            if location_text:
+                self._pending_row["location"] = location_text
+            elif self._last_location:
+                self._pending_row["location"] = self._last_location
 
         self.rows.append(self._pending_row)
         self._pending_row = None
@@ -109,9 +116,10 @@ class AmexCardHTMLParser(HTMLParser):
         self._stack.append((tag, attrs))
 
         if tag == "div" and self._class_has(attrs, "card-program"):
-            # New card boundary: clear stale brand in case this card has no
-            # explicit brand section.
+            # New card boundary: clear stale card-scoped fields so cards that
+            # omit them do not inherit values from a previous hotel.
             self._last_brand = ""
+            self._last_location = ""
             self._capture_program = True
             self._program_buf = []
 
