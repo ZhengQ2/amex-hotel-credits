@@ -42,6 +42,7 @@ class AmexCardHTMLParser(HTMLParser):
         self._last_program = ""
         self._last_brand = ""
         self._last_location = ""
+        self._pending_row = None
 
     @staticmethod
     def _class_has(attrs, needle):
@@ -63,6 +64,39 @@ class AmexCardHTMLParser(HTMLParser):
                 return started_tag, started_attrs
         return None, None
 
+    @staticmethod
+    def _effective_text(is_capturing, buf, last_value):
+        """Prefer in-flight buffer text when a field hasn't closed yet."""
+        if is_capturing:
+            candidate = _clean_text("".join(buf))
+            if candidate:
+                return candidate
+        return last_value
+
+    def _build_row_from_current_state(self, hotel_name, href):
+        program = self._effective_text(self._capture_program, self._program_buf, self._last_program)
+        brand = self._effective_text(self._capture_brand, self._brand_buf, self._last_brand)
+        location = self._effective_text(self._capture_location, self._location_buf, self._last_location)
+        if hotel_name and href and program:
+            return {
+                "program": program,
+                "brand": brand,
+                "location": location,
+                "hotel_name": hotel_name,
+                "hotel_url": href,
+            }
+        return None
+
+    def _flush_pending_row(self):
+        if not self._pending_row:
+            return
+        # Refresh location/brand/program from latest parsed state before flush.
+        self._pending_row["program"] = self._effective_text(self._capture_program, self._program_buf, self._last_program or self._pending_row.get("program", ""))
+        self._pending_row["brand"] = self._effective_text(self._capture_brand, self._brand_buf, self._last_brand or self._pending_row.get("brand", ""))
+        self._pending_row["location"] = self._effective_text(self._capture_location, self._location_buf, self._last_location or self._pending_row.get("location", ""))
+        self.rows.append(self._pending_row)
+        self._pending_row = None
+
     def handle_starttag(self, tag, attrs_list):
         attrs = dict(attrs_list)
         self._stack.append((tag, attrs))
@@ -80,9 +114,10 @@ class AmexCardHTMLParser(HTMLParser):
             self._location_buf = []
 
         if tag == "div" and self._class_has(attrs, "wst-footer"):
-            # Footer begins after the property title area; stop any in-flight
-            # supplier-name capture to avoid swallowing CTA text like
-            # "View Hotel".
+            # Footer marks end of card content; flush any parsed supplier row.
+            self._flush_pending_row()
+            # Also stop any in-flight supplier-name capture to avoid swallowing
+            # CTA text like "View Hotel".
             self._capture_supplier = False
             self._supplier_buf = []
             self._current_href = ""
@@ -92,6 +127,9 @@ class AmexCardHTMLParser(HTMLParser):
             # Only capture the explicit supplier-name anchor. Broad href-based
             # matching also captures CTA links (e.g., "View Hotel").
             if self._class_has(attrs, "card-supplierName"):
+                # If previous card had no footer marker, finalize it before
+                # starting a new supplier capture.
+                self._flush_pending_row()
                 self._capture_supplier = True
                 self._supplier_buf = []
                 self._current_href = href
@@ -115,16 +153,8 @@ class AmexCardHTMLParser(HTMLParser):
             self._capture_supplier = False
             hotel_name = _clean_text("".join(self._supplier_buf))
             href = (self._current_href or "").strip()
-            if hotel_name and href and self._last_program:
-                self.rows.append(
-                    {
-                        "program": self._last_program,
-                        "brand": self._last_brand,
-                        "location": self._last_location,
-                        "hotel_name": hotel_name,
-                        "hotel_url": href,
-                    }
-                )
+
+            self._pending_row = self._build_row_from_current_state(hotel_name, href)
             self._supplier_buf = []
             self._current_href = ""
 
@@ -137,6 +167,10 @@ class AmexCardHTMLParser(HTMLParser):
             self._location_buf.append(data)
         if self._capture_supplier:
             self._supplier_buf.append(data)
+
+    def close(self):
+        self._flush_pending_row()
+        super().close()
 
 
 def _dumb_fetch_html(url, opener, timeout=45):
@@ -276,3 +310,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
