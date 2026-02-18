@@ -31,8 +31,8 @@ jobs:
 
       - name: Run Hilton scraper
         run: |
-          # Capture stdout to hilton.log
-          python hilton.py | tee hilton.log
+          # Capture stdout and stderr separately
+          python hilton.py > >(tee hilton.log) 2> >(tee hilton.stderr.log >&2)
 
       - name: Did Hilton list change vs geocode cache?
         id: check_list
@@ -43,6 +43,16 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Pick URL-normalization email body
+        id: normalization_email_body
+        run: |
+          # If hilton.py printed warnings to stderr, keep original combined body context.
+          if [ -s hilton.stderr.log ]; then
+            echo "body_file=hilton.log" >> "$GITHUB_OUTPUT"
+          else
+            echo "body_file=hilton_normalized_urls.log" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Run Google geocoding (google-convert.py)
@@ -107,6 +117,21 @@ jobs:
 
           attachments: |
             hotels_geocoded_google.csv
+
+      - name: Send separate URL normalization email from Hilton Bot
+        if: steps.check_list.outputs.changed == 'true'
+        uses: dawidd6/action-send-mail@v6
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+
+          subject: "Hilton URL normalization report"
+          to: "liqiu2003@icloud.com"
+          from: "Hilton Bot <hilton@zhengqiu.net>"
+
+          body: file://${{ steps.normalization_email_body.outputs.body_file }}
 
       - name: Commit and push cache updates
         if: steps.check_list.outputs.changed == 'true'

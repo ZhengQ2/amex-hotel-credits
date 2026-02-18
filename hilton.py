@@ -3,6 +3,7 @@ from playwright.sync_api import sync_playwright, TimeoutError
 import pandas as pd
 import re
 import unicodedata
+import sys
 from urllib.parse import urljoin, urlparse, urlunparse, parse_qsl, urlencode
 from typing import Dict, List, Tuple, Any, Optional
 import json
@@ -11,6 +12,13 @@ import os
 URL = "https://www.hilton.com/en/p/hilton-honors/resort-credit-eligible-hotels/"
 OUT = "hilton_resort_credit_hotels_by_brand.csv"
 CACHE_FILE = "geocode_cache_google.json"
+NORMALIZED_URL_LOG = "hilton_normalized_urls.log"
+
+SPECIAL_URL_MAP = {
+    "https://romecavalieri.com/": "https://www.hilton.com/en/hotels/romhiwa-rome-cavalieri/",
+    "https://www.grandwailea.com/": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/",
+    "https://www.waldorfastoriamonarchbeach.com/": "https://www.hilton.com/en/hotels/snamowa-waldorf-astoria-monarch-beach/resort/",
+}
 
 
 def _clean_text(s: str) -> str:
@@ -55,6 +63,62 @@ def _clean_url(u: str) -> str:
         return urlunparse(p)
     except Exception:
         return u
+
+
+def _normalize_hilton_url(u: str) -> Tuple[str, bool]:
+    """
+    Normalize hotel URL to Hilton English property URL format.
+
+    Returns:
+        (url_to_use, has_stderr_warning)
+    """
+    cleaned = _clean_url(u)
+    if not cleaned:
+        return "", False
+
+    lower = cleaned.lower()
+    for source, target in SPECIAL_URL_MAP.items():
+        if lower == source.lower():
+            return target, False
+
+    parsed = urlparse(cleaned)
+    path_parts = [p for p in parsed.path.split("/") if p]
+
+    # Expect: /{lang}/hotels/...
+    if parsed.netloc.lower() == "www.hilton.com" and len(path_parts) >= 2 and path_parts[1].lower() == "hotels":
+        lang = path_parts[0].lower()
+        if lang != "en":
+            path_parts[0] = "en"
+            parsed = parsed._replace(path="/" + "/".join(path_parts) + ("/" if parsed.path.endswith("/") else ""))
+            return urlunparse(parsed), False
+        return cleaned, False
+
+    print(
+        f"WARNING: URL does not start with https://www.hilton.com/(language)/hotels: {u}",
+        file=sys.stderr,
+    )
+    return u, True
+
+
+def _extract_hotel_location(page) -> str:
+    """Extract hotel address text from the Google Maps search anchor."""
+    selectors = [
+        "a[target='_blank'][href*='google.com/maps/search/?api=1'] span.underline-offset-2",
+        "a[target='_blank'][href*='google.com/maps/search/?api=1'] span.underline",
+        "a[href*='google.com/maps/search/?api=1'] span[class*='whitespace-pre-line']",
+    ]
+
+    for sel in selectors:
+        try:
+            loc = page.locator(sel).first
+            if loc.count() == 0:
+                continue
+            text = _clean_text(loc.inner_text())
+            if text:
+                return text
+        except Exception:
+            continue
+    return ""
 
 
 def _visible_text(el):
@@ -174,7 +238,19 @@ def _collect_hotel_links(panel, base_url):
             continue
         if not urlparse(href).scheme:
             href = urljoin(base_url, href)
-        cleaned.append({"name": name, "href": href})
+
+        normalized_href, has_warning = _normalize_hilton_url(href)
+        if not normalized_href:
+            continue
+
+        cleaned.append(
+            {
+                "name": name,
+                "href": normalized_href,
+                "original_href": href,
+                "url_warning": has_warning,
+            }
+        )
 
     # Dedup per name, preferring Hilton property pages when multiple URLs exist
     def score(u: str) -> int:
@@ -206,11 +282,35 @@ def _grab_from_panel(panel, brand_label, base_url):
             {
                 "hotel_name": it["name"],
                 "hotel_url": it["href"],
+                "original_hotel_url": it["original_href"],
+                "url_warning": it["url_warning"],
+                "hotel_location": "",
                 "group_label": brand_label,
                 "group_type": "Brand",
             }
         )
     return rows
+
+
+def _fetch_hotel_locations(context, rows: List[Dict[str, Any]]) -> int:
+    """Visit each hotel URL and extract hotel_location text from Google Maps anchor."""
+    fetched = 0
+    for row in rows:
+        hotel_url = row.get("hotel_url", "")
+        if not hotel_url:
+            continue
+        page = context.new_page()
+        page.set_default_navigation_timeout(60000)
+        try:
+            page.goto(hotel_url, wait_until="domcontentloaded")
+            location = _extract_hotel_location(page)
+            row["hotel_location"] = location
+            fetched += 1
+        except Exception:
+            row["hotel_location"] = row.get("hotel_location", "")
+        finally:
+            page.close()
+    return fetched
 
 
 def scrape_desktop(page):
@@ -523,6 +623,15 @@ def main(headless=True):
         if not rows:
             rows = scrape_mobile(page)
 
+        print("Normalized hotel URLs:")
+        for r in rows:
+            print(f"- {r['hotel_name']} -> {r['hotel_url']}")
+
+        with open(NORMALIZED_URL_LOG, "w", encoding="utf-8") as f:
+            f.write("Normalized hotel URLs:\n")
+            for r in rows:
+                f.write(f"- {r['hotel_name']} -> {r['hotel_url']}\n")
+
         # Dedup by (hotel, brand) while preferring the "best" URL picked above
         dedup = {}
         for r in rows:
@@ -530,8 +639,22 @@ def main(headless=True):
             # first one already chosen by _collect_hotel_links' preference; keep it
             dedup.setdefault(key, r)
 
+        dedup_rows = list(dedup.values())
+
+        location_count = _fetch_hotel_locations(context, dedup_rows)
+        print(f"Fetched hotel locations for {location_count} URLs")
+
         df = pd.DataFrame(
-            dedup.values(), columns=["hotel_name", "hotel_url", "group_label", "group_type"]
+            dedup_rows,
+            columns=[
+                "hotel_name",
+                "hotel_location",
+                "hotel_url",
+                "original_hotel_url",
+                "url_warning",
+                "group_label",
+                "group_type",
+            ],
         ).sort_values(by=["group_label", "hotel_name"])
 
         df.to_csv(OUT, index=False)
@@ -600,7 +723,5 @@ def main(headless=True):
 
 
 if __name__ == "__main__":
-    import sys
-
     headed = "--headed" in sys.argv
     main(headless=not headed)
