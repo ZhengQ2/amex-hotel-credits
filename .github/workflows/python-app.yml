@@ -147,7 +147,12 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           # Commit cache + geocoded CSV so future runs see an up-to-date cache
-          git add cache/geocode_cache_google.json cache/hotels_geocoded_google.csv cache/hilton_normalized_urls.log || true
+          git add \
+            cache/geocode_cache_google.json \
+            cache/hotels_geocoded_google.csv \
+            cache/hilton_normalized_urls.log \
+            cache/hilton_hotels_list_cache.json \
+            cache/hilton_hotel_location_cache.json || true
 
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Update geocode cache and geocoded hotels [CI]"

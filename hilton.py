@@ -1,9 +1,13 @@
 import json
 import os
+import random
 import re
 import sys
+import time
 import unicodedata
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from html.parser import HTMLParser
+from threading import Lock
 from typing import Any, Dict, List, Optional, Tuple
 from urllib.error import HTTPError, URLError
 from urllib.parse import parse_qsl, urlencode, urljoin, urlparse, urlunparse
@@ -16,7 +20,15 @@ CACHE_DIR = os.environ.get("HILTON_CACHE_DIR", "cache")
 OUT = os.path.join(CACHE_DIR, "hilton_resort_credit_hotels_by_brand.csv")
 CACHE_FILE = os.path.join(CACHE_DIR, "geocode_cache_google.json")
 NORMALIZED_URL_LOG = os.path.join(CACHE_DIR, "hilton_normalized_urls.log")
+HOTELS_LIST_CACHE_FILE = os.path.join(CACHE_DIR, "hilton_hotels_list_cache.json")
+HOTEL_LOCATION_CACHE_FILE = os.path.join(CACHE_DIR, "hilton_hotel_location_cache.json")
 LEGACY_CACHE_FILE = "geocode_cache_google.json"
+
+HOTELS_CACHE_TTL_HOURS = int(os.environ.get("HILTON_HOTELS_CACHE_TTL_HOURS", "24"))
+LOCATION_CACHE_TTL_HOURS = int(os.environ.get("HILTON_LOCATION_CACHE_TTL_HOURS", "168"))
+MAX_WORKERS = max(1, int(os.environ.get("HILTON_FETCH_WORKERS", "8")))
+REQUEST_BASE_SLEEP_S = float(os.environ.get("HILTON_REQUEST_BASE_SLEEP_S", "0.25"))
+REQUEST_JITTER_SLEEP_S = float(os.environ.get("HILTON_REQUEST_JITTER_SLEEP_S", "0.35"))
 
 SPECIAL_URL_MAP = {
     "https://romecavalieri.com/": "https://www.hilton.com/en/hotels/romhiwa-rome-cavalieri/",
@@ -27,6 +39,42 @@ SPECIAL_URL_MAP = {
 
 def _ensure_cache_dir() -> None:
     os.makedirs(CACHE_DIR, exist_ok=True)
+
+
+def _utc_now_ts() -> float:
+    return time.time()
+
+
+def _is_cache_fresh(path: str, ttl_hours: int) -> bool:
+    if not os.path.exists(path):
+        return False
+    if ttl_hours <= 0:
+        return True
+    age_s = _utc_now_ts() - os.path.getmtime(path)
+    return age_s <= ttl_hours * 3600
+
+
+def _sleep_with_jitter() -> None:
+    delay = max(0.0, REQUEST_BASE_SLEEP_S + random.uniform(0.0, max(0.0, REQUEST_JITTER_SLEEP_S)))
+    if delay > 0:
+        time.sleep(delay)
+
+
+def _read_json_file(path: str, default):
+    if not os.path.exists(path):
+        return default
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return default
+
+
+def _write_json_file(path: str, data: Any) -> None:
+    tmp_path = f"{path}.tmp"
+    with open(tmp_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    os.replace(tmp_path, path)
 
 
 def _clean_text(s: str) -> str:
@@ -189,7 +237,13 @@ def _dumb_fetch_html(url: str, opener, timeout: int = 60) -> str:
 
 
 def _collect_hotels_dumb_fetch() -> List[Dict[str, Any]]:
+    if _is_cache_fresh(HOTELS_LIST_CACHE_FILE, HOTELS_CACHE_TTL_HOURS):
+        cached_rows = _read_json_file(HOTELS_LIST_CACHE_FILE, [])
+        if isinstance(cached_rows, list) and cached_rows:
+            return cached_rows
+
     opener = build_opener(HTTPCookieProcessor())
+    _sleep_with_jitter()
     html = _dumb_fetch_html(URL, opener)
     parser = HiltonBrandParser()
     parser.feed(html)
@@ -227,7 +281,9 @@ def _collect_hotels_dumb_fetch() -> List[Dict[str, Any]]:
     for r in rows:
         key = (r["hotel_name"].lower(), r["group_label"].lower())
         dedup.setdefault(key, r)
-    return list(dedup.values())
+    dedup_rows = list(dedup.values())
+    _write_json_file(HOTELS_LIST_CACHE_FILE, dedup_rows)
+    return dedup_rows
 
 
 class HotelAddressParser(HTMLParser):
@@ -264,21 +320,58 @@ class HotelAddressParser(HTMLParser):
             self._buf.append(data)
 
 
-def _fetch_hotel_locations(rows: List[Dict[str, Any]]) -> int:
+def _fetch_hotel_location_one(url: str) -> str:
     opener = build_opener(HTTPCookieProcessor())
+    _sleep_with_jitter()
+    html = _dumb_fetch_html(url, opener, timeout=45)
+    parser = HotelAddressParser()
+    parser.feed(html)
+    return parser.location
+
+
+def _fetch_hotel_locations(rows: List[Dict[str, Any]]) -> int:
+    location_cache = _read_json_file(HOTEL_LOCATION_CACHE_FILE, {})
+    if not isinstance(location_cache, dict):
+        location_cache = {}
+
+    cache_lock = Lock()
     fetched = 0
-    for row in rows:
-        url = row.get("hotel_url", "")
+    now = _utc_now_ts()
+    ttl_s = max(0, LOCATION_CACHE_TTL_HOURS * 3600)
+
+    pending = []
+    for idx, row in enumerate(rows):
+        url = (row.get("hotel_url") or "").strip()
         if not url:
             continue
-        try:
-            html = _dumb_fetch_html(url, opener, timeout=45)
-            parser = HotelAddressParser()
-            parser.feed(html)
-            row["hotel_location"] = parser.location
-            fetched += 1
-        except Exception:
-            row["hotel_location"] = row.get("hotel_location", "")
+
+        cached_entry = location_cache.get(url)
+        if isinstance(cached_entry, dict):
+            ts = float(cached_entry.get("ts", 0) or 0)
+            loc = _clean_text(cached_entry.get("location", ""))
+            if loc and (ttl_s == 0 or (now - ts) <= ttl_s):
+                row["hotel_location"] = loc
+                continue
+
+        pending.append((idx, url))
+
+    if not pending:
+        return fetched
+
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        future_map = {executor.submit(_fetch_hotel_location_one, url): (idx, url) for idx, url in pending}
+        for future in as_completed(future_map):
+            idx, url = future_map[future]
+            try:
+                location = _clean_text(future.result())
+                rows[idx]["hotel_location"] = location
+                with cache_lock:
+                    location_cache[url] = {"location": location, "ts": _utc_now_ts()}
+                fetched += 1
+            except Exception:
+                rows[idx]["hotel_location"] = rows[idx].get("hotel_location", "")
+
+    _write_json_file(HOTEL_LOCATION_CACHE_FILE, location_cache)
     return fetched
 
 
