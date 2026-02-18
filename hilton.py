@@ -36,6 +36,8 @@ SPECIAL_URL_MAP = {
     "https://www.waldorfastoriamonarchbeach.com/": "https://www.hilton.com/en/hotels/snamowa-waldorf-astoria-monarch-beach/resort/",
 }
 
+SPECIAL_URL_DOMAINS = {urlparse(k).netloc.lower() for k in SPECIAL_URL_MAP.keys()}
+
 
 def _ensure_cache_dir() -> None:
     os.makedirs(CACHE_DIR, exist_ok=True)
@@ -143,6 +145,35 @@ def _normalize_hilton_url(u: str) -> Tuple[str, bool]:
     return u, True
 
 
+def _is_candidate_hotel_href(href: str) -> bool:
+    """Only keep hrefs that can reasonably be hotel property URLs."""
+    if not href:
+        return False
+
+    cleaned = _clean_url(href)
+    if not cleaned:
+        return False
+
+    parsed = urlparse(cleaned)
+    if parsed.scheme and parsed.scheme not in {"http", "https"}:
+        return False
+
+    netloc = parsed.netloc.lower()
+    path_l = parsed.path.lower()
+
+    if netloc in SPECIAL_URL_DOMAINS:
+        return True
+
+    if netloc == "www.hilton.com" and "/hotels/" in path_l:
+        return True
+
+    # allow relative hotel paths from the listing page
+    if not netloc and "/hotels/" in path_l:
+        return True
+
+    return False
+
+
 class HiltonBrandParser(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -178,7 +209,7 @@ class HiltonBrandParser(HTMLParser):
 
         if tag == "a":
             href = (attrs.get("href") or "").strip()
-            if href and not href.startswith(("#", "javascript:")):
+            if self._brand_stack and href and _is_candidate_hotel_href(href):
                 self._capture_anchor = True
                 self._anchor_href = href
                 self._anchor_buf = []
