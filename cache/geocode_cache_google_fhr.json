@@ -204880,5 +204880,1414 @@
       ],
       "website": "https://www.hilton.com/en/hotels/sealxol-hotel-1000/?SEO_id=GMB-AMER-OL-SEALXOL&y_source=1_MjYwNjIwNDEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cameron House on Loch Lomond Hotel\", \"Cameron House on Loch Lomond Resort\", \"Cameron House on Loch Lomond\", \"Cameron House on Loch Lomond Alexandria, Scotland Hotel\", \"Cameron House on Loch Lomond Alexandria, Scotland Resort\", \"Cameron House on Loch Lomond Alexandria, Scotland\", \"Cameron House On Loch Lomond Hotel\", \"Cameron House On Loch Lomond Resort\", \"Cameron House On Loch Lomond\", \"Cameron House On Loch Lomond Alexandria, Scotland Hotel\", \"Cameron House On Loch Lomond Alexandria, Scotland Resort\", \"Cameron House On Loch Lomond Alexandria, Scotland\"], \"v\": 3}": {
+    "lat": 56.0132151,
+    "lon": -4.6077486,
+    "formatted_address": "Loch Lomond, A82, Alexandria G83 8QZ, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ7RRv2rOsiUgRpWxpy3f3Lxs",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Loch Lomond, A82, Alexandria G83 8QZ, UK",
+      "geometry": {
+        "location": {
+          "lat": 56.0132151,
+          "lng": -4.6077486
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 56.01453953029149,
+            "lng": -4.605815569708498
+          },
+          "southwest": {
+            "lat": 56.01184156970849,
+            "lng": -4.608513530291503
+          }
+        }
+      },
+      "name": "Cameron House",
+      "place_id": "ChIJ7RRv2rOsiUgRpWxpy3f3Lxs",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.cameronhouse.co.uk/?utm_source=google_my_business&utm_medium=organic&utm_campaign=gmb_homepage"
+    }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Royal Crescent Hotel & Spa Hotel\", \"The Royal Crescent Hotel & Spa Resort\", \"The Royal Crescent Hotel & Spa\", \"The Royal Crescent Hotel & Spa Bath, England Hotel\", \"The Royal Crescent Hotel & Spa Bath, England Resort\", \"The Royal Crescent Hotel & Spa Bath, England\", \"Royal Crescent Hotel Spa Hotel\", \"Royal Crescent Hotel Spa Resort\", \"Royal Crescent Hotel Spa\", \"Royal Crescent Hotel Spa Bath, England Hotel\", \"Royal Crescent Hotel Spa Bath, England Resort\", \"Royal Crescent Hotel Spa Bath, England\"], \"v\": 3}": {
+    "lat": 51.3874679,
+    "lon": -2.3681134,
+    "formatted_address": "16 Royal Cres, Bath BA1 2LS, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJZUo6omqBcUgRBxusGzy3GoI",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "16 Royal Cres, Bath BA1 2LS, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.3874679,
+          "lng": -2.3681134
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.3887153302915,
+            "lng": -2.366793869708498
+          },
+          "southwest": {
+            "lat": 51.3860173697085,
+            "lng": -2.369491830291502
+          }
+        }
+      },
+      "name": "The Royal Crescent Hotel & Spa",
+      "place_id": "ChIJZUo6omqBcUgRBxusGzy3GoI",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.royalcrescent.co.uk/?utm_source=google&utm_medium=organic&utm_campaign=google_local_royal_crescent"
+    }
+  },
+  "{\"brand\": \"Aman\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amanemu Aman Hotel\", \"Amanemu Aman Resort\", \"Amanemu Aman\", \"Amanemu Aman Shima-shi, Japan Hotel\", \"Amanemu Aman Shima-shi, Japan Resort\", \"Amanemu Aman Shima-shi, Japan\", \"Amanemu Hilton Hotel\", \"Amanemu Hilton Resort\", \"Amanemu Hilton\", \"Amanemu Hilton Shima-shi, Japan Hotel\", \"Amanemu Hilton Shima-shi, Japan Resort\", \"Amanemu Hilton Shima-shi, Japan\", \"Amanemu Hotel\", \"Amanemu Resort\", \"Amanemu\", \"Amanemu Shima-shi, Japan Hotel\", \"Amanemu Shima-shi, Japan Resort\", \"Amanemu Shima-shi, Japan\"], \"v\": 3}": {
+    "lat": 34.2925404,
+    "lon": 136.7969576,
+    "formatted_address": "Hamajima-cho, 2165 Hamajimachō Hazako, Shima, Mie 517-0403, Japan",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJFZmD84epBWARx8-NHR5HgAU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Hamajima-cho, 2165 Hamajimachō Hazako, Shima, Mie 517-0403, Japan",
+      "geometry": {
+        "location": {
+          "lat": 34.2925404,
+          "lng": 136.7969576
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 34.2939785302915,
+            "lng": 136.7981006802915
+          },
+          "southwest": {
+            "lat": 34.2912805697085,
+            "lng": 136.7954027197085
+          }
+        }
+      },
+      "name": "Amanemu",
+      "place_id": "ChIJFZmD84epBWARx8-NHR5HgAU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.aman.com/resorts/amanemu?utm_source=Google&utm_medium=Yext&y_source=1_MTU3MDc3MTYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"Aman\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aman Tokyo Aman Hotel\", \"Aman Tokyo Aman Resort\", \"Aman Tokyo Aman\", \"Aman Tokyo Aman Tokyo, Japan Hotel\", \"Aman Tokyo Aman Tokyo, Japan Resort\", \"Aman Tokyo Aman Tokyo, Japan\", \"Aman Tokyo Hilton Hotel\", \"Aman Tokyo Hilton Resort\", \"Aman Tokyo Hilton\", \"Aman Tokyo Hilton Tokyo, Japan Hotel\", \"Aman Tokyo Hilton Tokyo, Japan Resort\", \"Aman Tokyo Hilton Tokyo, Japan\", \"Aman Tokyo Hotel\", \"Aman Tokyo Resort\", \"Aman Tokyo\", \"Aman Tokyo Tokyo, Japan Hotel\", \"Aman Tokyo Tokyo, Japan Resort\", \"Aman Tokyo Tokyo, Japan\"], \"v\": 3}": {
+    "lat": 35.6854887,
+    "lon": 139.7655445,
+    "formatted_address": "The Otemachi Tower, 1-chōme-5-6 Ōtemachi, Chiyoda City, Tokyo 100-0004, Japan",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJfV9KdPiLGGARn4ma2GUEoJo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "The Otemachi Tower, 1-chōme-5-6 Ōtemachi, Chiyoda City, Tokyo 100-0004, Japan",
+      "geometry": {
+        "location": {
+          "lat": 35.6854887,
+          "lng": 139.7655445
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.6868062802915,
+            "lng": 139.7670881302915
+          },
+          "southwest": {
+            "lat": 35.6841083197085,
+            "lng": 139.7643901697085
+          }
+        }
+      },
+      "name": "Aman Tokyo",
+      "place_id": "ChIJfV9KdPiLGGARn4ma2GUEoJo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.aman.com/hotels/aman-tokyo?utm_source=Google&utm_medium=Yext&y_source=1_MTU3MDc3MDUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"Autograph Collection Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"TIAD, Autograph Collection Autograph Collection Hotels Hotel\", \"TIAD, Autograph Collection Autograph Collection Hotels Resort\", \"TIAD, Autograph Collection Autograph Collection Hotels\", \"TIAD, Autograph Collection Autograph Collection Hotels Nagoya, Japan Hotel\", \"TIAD, Autograph Collection Autograph Collection Hotels Nagoya, Japan Resort\", \"TIAD, Autograph Collection Autograph Collection Hotels Nagoya, Japan\", \"TIAD, Autograph Collection Hilton Hotel\", \"TIAD, Autograph Collection Hilton Resort\", \"TIAD, Autograph Collection Hilton\", \"TIAD, Autograph Collection Hilton Nagoya, Japan Hotel\", \"TIAD, Autograph Collection Hilton Nagoya, Japan Resort\", \"TIAD, Autograph Collection Hilton Nagoya, Japan\", \"Tiad Autograph Collection Autograph Collection Hotels Hotel\", \"Tiad Autograph Collection Autograph Collection Hotels Resort\", \"Tiad Autograph Collection Autograph Collection Hotels\", \"Tiad Autograph Collection Autograph Collection Hotels Nagoya, Japan Hotel\", \"Tiad Autograph Collection Autograph Collection Hotels Nagoya, Japan Resort\", \"Tiad Autograph Collection Autograph Collection Hotels Nagoya, Japan\", \"Tiad Autograph Collection Hilton Hotel\", \"Tiad Autograph Collection Hilton Resort\", \"Tiad Autograph Collection Hilton\", \"Tiad Autograph Collection Hilton Nagoya, Japan Hotel\", \"Tiad Autograph Collection Hilton Nagoya, Japan Resort\", \"Tiad Autograph Collection Hilton Nagoya, Japan\", \"TIAD, Autograph Collection Hotel\", \"TIAD, Autograph Collection Resort\", \"TIAD, Autograph Collection\", \"TIAD, Autograph Collection Nagoya, Japan Hotel\", \"TIAD, Autograph Collection Nagoya, Japan Resort\", \"TIAD, Autograph Collection Nagoya, Japan\"], \"v\": 3}": {
+    "lat": 35.163837,
+    "lon": 136.9097187,
+    "formatted_address": "5-chōme-15-19 Sakae, Naka Ward, Nagoya, Aichi 460-0008, Japan",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJO_zJmPVxA2AR7KyOgNsgs4o",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "5-chōme-15-19 Sakae, Naka Ward, Nagoya, Aichi 460-0008, Japan",
+      "geometry": {
+        "location": {
+          "lat": 35.163837,
+          "lng": 136.9097187
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.16516543029149,
+            "lng": 136.9109683302915
+          },
+          "southwest": {
+            "lat": 35.1624674697085,
+            "lng": 136.9082703697085
+          }
+        }
+      },
+      "name": "TIAD, Autograph Collection",
+      "place_id": "ChIJO_zJmPVxA2AR7KyOgNsgs4o",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/ngoak-tiad-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Autograph Collection Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mapito Safari Camp, Serengeti, Autograph Collection Autograph Collection Hotels Hotel\", \"Mapito Safari Camp, Serengeti, Autograph Collection Autograph Collection Hotels Resort\", \"Mapito Safari Camp, Serengeti, Autograph Collection Autograph Collection Hotels\", \"Mapito Safari Camp, Serengeti, Autograph Collection Autograph Collection Hotels Robanda, Tanzania Hotel\", \"Mapito Safari Camp, Serengeti, Autograph Collection Autograph Collection Hotels Robanda, Tanzania Resort\", \"Mapito Safari Camp, Serengeti, Autograph Collection Autograph Collection Hotels Robanda, Tanzania\", \"Mapito Safari Camp, Serengeti, Autograph Collection Hilton Hotel\", \"Mapito Safari Camp, Serengeti, Autograph Collection Hilton Resort\", \"Mapito Safari Camp, Serengeti, Autograph Collection Hilton\", \"Mapito Safari Camp, Serengeti, Autograph Collection Hilton Robanda, Tanzania Hotel\", \"Mapito Safari Camp, Serengeti, Autograph Collection Hilton Robanda, Tanzania Resort\", \"Mapito Safari Camp, Serengeti, Autograph Collection Hilton Robanda, Tanzania\", \"Mapito Safari Camp Serengeti Autograph Collection Autograph Collection Hotels Hotel\", \"Mapito Safari Camp Serengeti Autograph Collection Autograph Collection Hotels Resort\", \"Mapito Safari Camp Serengeti Autograph Collection Autograph Collection Hotels\", \"Mapito Safari Camp Serengeti Autograph Collection Autograph Collection Hotels Robanda, Tanzania Hotel\", \"Mapito Safari Camp Serengeti Autograph Collection Autograph Collection Hotels Robanda, Tanzania Resort\", \"Mapito Safari Camp Serengeti Autograph Collection Autograph Collection Hotels Robanda, Tanzania\", \"Mapito Safari Camp Serengeti Autograph Collection Hilton Hotel\", \"Mapito Safari Camp Serengeti Autograph Collection Hilton Resort\", \"Mapito Safari Camp Serengeti Autograph Collection Hilton\", \"Mapito Safari Camp Serengeti Autograph Collection Hilton Robanda, Tanzania Hotel\", \"Mapito Safari Camp Serengeti Autograph Collection Hilton Robanda, Tanzania Resort\", \"Mapito Safari Camp Serengeti Autograph Collection Hilton Robanda, Tanzania\", \"Mapito Safari Camp, Serengeti, Autograph Collection Hotel\", \"Mapito Safari Camp, Serengeti, Autograph Collection Resort\", \"Mapito Safari Camp, Serengeti, Autograph Collection\", \"Mapito Safari Camp, Serengeti, Autograph Collection Robanda, Tanzania Hotel\", \"Mapito Safari Camp, Serengeti, Autograph Collection Robanda, Tanzania Resort\", \"Mapito Safari Camp, Serengeti, Autograph Collection Robanda, Tanzania\"], \"v\": 3}": {
+    "lat": -2.1785354,
+    "lon": 34.6813098,
+    "formatted_address": "Ikoma Region, Robanda, Tanzania",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJsTYpj3mwMhgRaqGiAvbDvP4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Ikoma Region, Robanda, Tanzania",
+      "geometry": {
+        "location": {
+          "lat": -2.1785354,
+          "lng": 34.6813098
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -2.178535399999999,
+            "lng": 34.6825545302915
+          },
+          "southwest": {
+            "lat": -2.182241200000001,
+            "lng": 34.6798565697085
+          }
+        }
+      },
+      "name": "Mapito Safari Camp, Serengeti, Autograph Collection",
+      "place_id": "ChIJsTYpj3mwMhgRaqGiAvbDvP4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/jrosk-mapito-safari-camp-serengeti-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Four Seasons Hotels and Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Beverly Wilshire, Beverly Hills, A Four Seasons Hotel Four Seasons Hotels and Resorts Hotel\", \"Beverly Wilshire, Beverly Hills, A Four Seasons Hotel Four Seasons Hotels and Resorts Resort\", \"Beverly Wilshire, Beverly Hills, A Four Seasons Hotel Four Seasons Hotels and Resorts\", \"Beverly Wilshire, Beverly Hills, A Four Seasons Hotel Four Seasons Hotels and Resorts Beverly Hills, California US Hotel\", \"Beverly Wilshire, Beverly Hills, A Four Seasons Hotel Four Seasons Hotels and Resorts Beverly Hills, California US Resort\", \"Beverly Wilshire, Beverly Hills, A Four Seasons Hotel Four Seasons Hotels and Resorts Beverly Hills, California US\", \"Beverly Wilshire, Beverly Hills, A Four Seasons Hotel Hilton Hotel\", \"Beverly Wilshire, Beverly Hills, A Four Seasons Hotel Hilton Resort\", \"Beverly Wilshire, Beverly Hills, A Four Seasons Hotel Hilton\", \"Beverly Wilshire, Beverly Hills, A Four Seasons Hotel Hilton Beverly Hills, California US Hotel\", \"Beverly Wilshire, Beverly Hills, A Four Seasons Hotel Hilton Beverly Hills, California US Resort\", \"Beverly Wilshire, Beverly Hills, A Four Seasons Hotel Hilton Beverly Hills, California US\", \"Beverly Wilshire Beverly Hills A Four Seasons Hotel Four Seasons Hotels and Resorts Hotel\", \"Beverly Wilshire Beverly Hills A Four Seasons Hotel Four Seasons Hotels and Resorts Resort\", \"Beverly Wilshire Beverly Hills A Four Seasons Hotel Four Seasons Hotels and Resorts\", \"Beverly Wilshire Beverly Hills A Four Seasons Hotel Four Seasons Hotels and Resorts Beverly Hills, California US Hotel\", \"Beverly Wilshire Beverly Hills A Four Seasons Hotel Four Seasons Hotels and Resorts Beverly Hills, California US Resort\", \"Beverly Wilshire Beverly Hills A Four Seasons Hotel Four Seasons Hotels and Resorts Beverly Hills, California US\", \"Beverly Wilshire Beverly Hills A Four Seasons Hotel Hilton Hotel\", \"Beverly Wilshire Beverly Hills A Four Seasons Hotel Hilton Resort\", \"Beverly Wilshire Beverly Hills A Four Seasons Hotel Hilton\", \"Beverly Wilshire Beverly Hills A Four Seasons Hotel Hilton Beverly Hills, California US Hotel\", \"Beverly Wilshire Beverly Hills A Four Seasons Hotel Hilton Beverly Hills, California US Resort\", \"Beverly Wilshire Beverly Hills A Four Seasons Hotel Hilton Beverly Hills, California US\", \"Beverly Wilshire, Beverly Hills, A Four Seasons Hotel Hotel\", \"Beverly Wilshire, Beverly Hills, A Four Seasons Hotel Resort\", \"Beverly Wilshire, Beverly Hills, A Four Seasons Hotel\", \"Beverly Wilshire, Beverly Hills, A Four Seasons Hotel Beverly Hills, California US Hotel\", \"Beverly Wilshire, Beverly Hills, A Four Seasons Hotel Beverly Hills, California US Resort\", \"Beverly Wilshire, Beverly Hills, A Four Seasons Hotel Beverly Hills, California US\"], \"v\": 3}": {
+    "lat": 34.0668765,
+    "lon": -118.4004226,
+    "formatted_address": "9500 Wilshire Blvd, Beverly Hills, CA 90212, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJz-22Hfm7woARmoLOmvYW4J0",
+    "types": [
+      "establishment",
+      "health",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "9500 Wilshire Blvd, Beverly Hills, CA 90212, USA",
+      "geometry": {
+        "location": {
+          "lat": 34.0668765,
+          "lng": -118.4004226
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 34.0683290802915,
+            "lng": -118.3992356697085
+          },
+          "southwest": {
+            "lat": 34.0656311197085,
+            "lng": -118.4019336302915
+          }
+        }
+      },
+      "name": "Beverly Wilshire, A Four Seasons Hotel",
+      "place_id": "ChIJz-22Hfm7woARmoLOmvYW4J0",
+      "types": [
+        "establishment",
+        "health",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.fourseasons.com/beverlywilshire/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-bev-hre-mid-seo-na&utm_content=na-na&utm_term=na"
+    }
+  },
+  "{\"brand\": \"Hyatt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Georgian Hyatt Hotel\", \"The Georgian Hyatt Resort\", \"The Georgian Hyatt\", \"The Georgian Hyatt Santa Monica, California US Hotel\", \"The Georgian Hyatt Santa Monica, California US Resort\", \"The Georgian Hyatt Santa Monica, California US\", \"The Georgian Hilton Hotel\", \"The Georgian Hilton Resort\", \"The Georgian Hilton\", \"The Georgian Hilton Santa Monica, California US Hotel\", \"The Georgian Hilton Santa Monica, California US Resort\", \"The Georgian Hilton Santa Monica, California US\", \"The Georgian Hotel\", \"The Georgian Resort\", \"The Georgian\", \"The Georgian Santa Monica, California US Hotel\", \"The Georgian Santa Monica, California US Resort\", \"The Georgian Santa Monica, California US\"], \"v\": 3}": {
+    "lat": 34.013851,
+    "lon": -118.49725,
+    "formatted_address": "1415 Ocean Ave, Santa Monica, CA 90401, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJe1_X9oilwoARPCYnwz3xNIY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1415 Ocean Ave, Santa Monica, CA 90401, USA",
+      "geometry": {
+        "location": {
+          "lat": 34.013851,
+          "lng": -118.49725
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 34.01519193029149,
+            "lng": -118.4960141197085
+          },
+          "southwest": {
+            "lat": 34.01249396970849,
+            "lng": -118.4987120802915
+          }
+        }
+      },
+      "name": "The Georgian - The Unbound Collection by Hyatt",
+      "place_id": "ChIJe1_X9oilwoARPCYnwz3xNIY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/unbound-collection/en-US/ucaab-the-georgian?src=corp_lclb_google_seo_ucaab&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"Jumeirah Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Jumeirah Capri Palace Jumeirah Hotels & Resorts Hotel\", \"Jumeirah Capri Palace Jumeirah Hotels & Resorts Resort\", \"Jumeirah Capri Palace Jumeirah Hotels & Resorts\", \"Jumeirah Capri Palace Jumeirah Hotels & Resorts Capri, Italy Hotel\", \"Jumeirah Capri Palace Jumeirah Hotels & Resorts Capri, Italy Resort\", \"Jumeirah Capri Palace Jumeirah Hotels & Resorts Capri, Italy\", \"Jumeirah Capri Palace Hilton Hotel\", \"Jumeirah Capri Palace Hilton Resort\", \"Jumeirah Capri Palace Hilton\", \"Jumeirah Capri Palace Hilton Capri, Italy Hotel\", \"Jumeirah Capri Palace Hilton Capri, Italy Resort\", \"Jumeirah Capri Palace Hilton Capri, Italy\", \"Jumeirah Capri Palace Hotel\", \"Jumeirah Capri Palace Resort\", \"Jumeirah Capri Palace\", \"Jumeirah Capri Palace Capri, Italy Hotel\", \"Jumeirah Capri Palace Capri, Italy Resort\", \"Jumeirah Capri Palace Capri, Italy\"], \"v\": 3}": {
+    "lat": 40.55572980000001,
+    "lon": 14.221849,
+    "formatted_address": "Via Capodimonte, 14, 80071 Isola di Capri, NA, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ-S_r1d55OxMRUx3283M6SL0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "CLOSED_TEMPORARILY",
+      "formatted_address": "Via Capodimonte, 14, 80071 Isola di Capri, NA, Italy",
+      "geometry": {
+        "location": {
+          "lat": 40.55572980000001,
+          "lng": 14.221849
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.55709958029151,
+            "lng": 14.2231519802915
+          },
+          "southwest": {
+            "lat": 40.55440161970851,
+            "lng": 14.2204540197085
+          }
+        }
+      },
+      "name": "Jumeirah Capri Palace",
+      "place_id": "ChIJ-S_r1d55OxMRUx3283M6SL0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.jumeirah.com/en/stay/italy/capri-palace-jumeirah?utm_source=google&utm_medium=google%20places&utm_campaign=hotel"
+    }
+  },
+  "{\"brand\": \"JW Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"JW Marriott Crete Resort & Spa JW Marriott Hotel\", \"JW Marriott Crete Resort & Spa JW Marriott Resort\", \"JW Marriott Crete Resort & Spa JW Marriott\", \"JW Marriott Crete Resort & Spa JW Marriott Chania, Greece Hotel\", \"JW Marriott Crete Resort & Spa JW Marriott Chania, Greece Resort\", \"JW Marriott Crete Resort & Spa JW Marriott Chania, Greece\", \"JW Marriott Crete Resort & Spa Hilton Hotel\", \"JW Marriott Crete Resort & Spa Hilton Resort\", \"JW Marriott Crete Resort & Spa Hilton\", \"JW Marriott Crete Resort & Spa Hilton Chania, Greece Hotel\", \"JW Marriott Crete Resort & Spa Hilton Chania, Greece Resort\", \"JW Marriott Crete Resort & Spa Hilton Chania, Greece\", \"Jw Marriott Crete Resort Spa JW Marriott Hotel\", \"Jw Marriott Crete Resort Spa JW Marriott Resort\", \"Jw Marriott Crete Resort Spa JW Marriott\", \"Jw Marriott Crete Resort Spa JW Marriott Chania, Greece Hotel\", \"Jw Marriott Crete Resort Spa JW Marriott Chania, Greece Resort\", \"Jw Marriott Crete Resort Spa JW Marriott Chania, Greece\", \"Jw Marriott Crete Resort Spa Hilton Hotel\", \"Jw Marriott Crete Resort Spa Hilton Resort\", \"Jw Marriott Crete Resort Spa Hilton\", \"Jw Marriott Crete Resort Spa Hilton Chania, Greece Hotel\", \"Jw Marriott Crete Resort Spa Hilton Chania, Greece Resort\", \"Jw Marriott Crete Resort Spa Hilton Chania, Greece\", \"JW Marriott Crete Resort & Spa Hotel\", \"JW Marriott Crete Resort & Spa Resort\", \"JW Marriott Crete Resort & Spa\", \"JW Marriott Crete Resort & Spa Chania, Greece Hotel\", \"JW Marriott Crete Resort & Spa Chania, Greece Resort\", \"JW Marriott Crete Resort & Spa Chania, Greece\"], \"v\": 3}": {
+    "lat": 35.5046396,
+    "lon": 24.1790582,
+    "formatted_address": "Marathi 73500, Greece",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJx5CSc9uBmxQRguItYqS_trg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Marathi 73500, Greece",
+      "geometry": {
+        "location": {
+          "lat": 35.5046396,
+          "lng": 24.1790582
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.5061663802915,
+            "lng": 24.1798266302915
+          },
+          "southwest": {
+            "lat": 35.5034684197085,
+            "lng": 24.17712866970849
+          }
+        }
+      },
+      "name": "JW Marriott Crete Resort & Spa",
+      "place_id": "ChIJx5CSc9uBmxQRguItYqS_trg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/chqmj-jw-marriott-crete-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Mandarin Oriental Hotel Group\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mandarin Oriental Punta Negra, Mallorca Mandarin Oriental Hotel Group Hotel\", \"Mandarin Oriental Punta Negra, Mallorca Mandarin Oriental Hotel Group Resort\", \"Mandarin Oriental Punta Negra, Mallorca Mandarin Oriental Hotel Group\", \"Mandarin Oriental Punta Negra, Mallorca Mandarin Oriental Hotel Group Calvi\\u00e0, Spain Hotel\", \"Mandarin Oriental Punta Negra, Mallorca Mandarin Oriental Hotel Group Calvi\\u00e0, Spain Resort\", \"Mandarin Oriental Punta Negra, Mallorca Mandarin Oriental Hotel Group Calvi\\u00e0, Spain\", \"Mandarin Oriental Punta Negra, Mallorca Hilton Hotel\", \"Mandarin Oriental Punta Negra, Mallorca Hilton Resort\", \"Mandarin Oriental Punta Negra, Mallorca Hilton\", \"Mandarin Oriental Punta Negra, Mallorca Hilton Calvi\\u00e0, Spain Hotel\", \"Mandarin Oriental Punta Negra, Mallorca Hilton Calvi\\u00e0, Spain Resort\", \"Mandarin Oriental Punta Negra, Mallorca Hilton Calvi\\u00e0, Spain\", \"Mandarin Oriental Punta Negra Mallorca Mandarin Oriental Hotel Group Hotel\", \"Mandarin Oriental Punta Negra Mallorca Mandarin Oriental Hotel Group Resort\", \"Mandarin Oriental Punta Negra Mallorca Mandarin Oriental Hotel Group\", \"Mandarin Oriental Punta Negra Mallorca Mandarin Oriental Hotel Group Calvi\\u00e0, Spain Hotel\", \"Mandarin Oriental Punta Negra Mallorca Mandarin Oriental Hotel Group Calvi\\u00e0, Spain Resort\", \"Mandarin Oriental Punta Negra Mallorca Mandarin Oriental Hotel Group Calvi\\u00e0, Spain\", \"Mandarin Oriental Punta Negra Mallorca Hilton Hotel\", \"Mandarin Oriental Punta Negra Mallorca Hilton Resort\", \"Mandarin Oriental Punta Negra Mallorca Hilton\", \"Mandarin Oriental Punta Negra Mallorca Hilton Calvi\\u00e0, Spain Hotel\", \"Mandarin Oriental Punta Negra Mallorca Hilton Calvi\\u00e0, Spain Resort\", \"Mandarin Oriental Punta Negra Mallorca Hilton Calvi\\u00e0, Spain\", \"Mandarin Oriental Punta Negra, Mallorca Hotel\", \"Mandarin Oriental Punta Negra, Mallorca Resort\", \"Mandarin Oriental Punta Negra, Mallorca\", \"Mandarin Oriental Punta Negra, Mallorca Calvi\\u00e0, Spain Hotel\", \"Mandarin Oriental Punta Negra, Mallorca Calvi\\u00e0, Spain Resort\", \"Mandarin Oriental Punta Negra, Mallorca Calvi\\u00e0, Spain\"], \"v\": 3}": {
+    "lat": 39.52667599999999,
+    "lon": 2.5528871,
+    "formatted_address": "Carrer Punta Negra, 12, 07181 Punta Negra, Illes Balears, Spain",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
+    "place_id": "ChIJoRgfFwCPlxIRA_a9FsT4MWg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": true,
+    "raw": {
+      "address_components": [
+        {
+          "long_name": "12",
+          "short_name": "12",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Carrer Punta Negra",
+          "short_name": "Carrer Punta Negra",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Punta Negra",
+          "short_name": "Punta Negra",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Illes Balears",
+          "short_name": "PM",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Illes Balears",
+          "short_name": "IB",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Spain",
+          "short_name": "ES",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "07181",
+          "short_name": "07181",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Carrer Punta Negra, 12, 07181 Punta Negra, Illes Balears, Spain",
+      "geometry": {
+        "location": {
+          "lat": 39.52667599999999,
+          "lng": 2.5528871
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 39.52805113029149,
+            "lng": 2.554254530291502
+          },
+          "southwest": {
+            "lat": 39.5253531697085,
+            "lng": 2.551556569708498
+          }
+        }
+      },
+      "navigation_points": [
+        {
+          "location": {
+            "latitude": 39.5266775,
+            "longitude": 2.5528814
+          }
+        }
+      ],
+      "partial_match": true,
+      "place_id": "ChIJoRgfFwCPlxIRA_a9FsT4MWg",
+      "plus_code": {
+        "compound_code": "GHG3+M5 Punta Negra, Spain",
+        "global_code": "8FF4GHG3+M5"
+      },
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
+    }
+  },
+  "{\"brand\": \"Mandarin Oriental Hotel Group\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mandarin Oriental, Doha Mandarin Oriental Hotel Group Hotel\", \"Mandarin Oriental, Doha Mandarin Oriental Hotel Group Resort\", \"Mandarin Oriental, Doha Mandarin Oriental Hotel Group\", \"Mandarin Oriental, Doha Mandarin Oriental Hotel Group Doha, Qatar Hotel\", \"Mandarin Oriental, Doha Mandarin Oriental Hotel Group Doha, Qatar Resort\", \"Mandarin Oriental, Doha Mandarin Oriental Hotel Group Doha, Qatar\", \"Mandarin Oriental, Doha Hilton Hotel\", \"Mandarin Oriental, Doha Hilton Resort\", \"Mandarin Oriental, Doha Hilton\", \"Mandarin Oriental, Doha Hilton Doha, Qatar Hotel\", \"Mandarin Oriental, Doha Hilton Doha, Qatar Resort\", \"Mandarin Oriental, Doha Hilton Doha, Qatar\", \"Mandarin Oriental Doha Mandarin Oriental Hotel Group Hotel\", \"Mandarin Oriental Doha Mandarin Oriental Hotel Group Resort\", \"Mandarin Oriental Doha Mandarin Oriental Hotel Group\", \"Mandarin Oriental Doha Mandarin Oriental Hotel Group Doha, Qatar Hotel\", \"Mandarin Oriental Doha Mandarin Oriental Hotel Group Doha, Qatar Resort\", \"Mandarin Oriental Doha Mandarin Oriental Hotel Group Doha, Qatar\", \"Mandarin Oriental Doha Hilton Hotel\", \"Mandarin Oriental Doha Hilton Resort\", \"Mandarin Oriental Doha Hilton\", \"Mandarin Oriental Doha Hilton Doha, Qatar Hotel\", \"Mandarin Oriental Doha Hilton Doha, Qatar Resort\", \"Mandarin Oriental Doha Hilton Doha, Qatar\", \"Mandarin Oriental, Doha Hotel\", \"Mandarin Oriental, Doha Resort\", \"Mandarin Oriental, Doha\", \"Mandarin Oriental, Doha Doha, Qatar Hotel\", \"Mandarin Oriental, Doha Doha, Qatar Resort\", \"Mandarin Oriental, Doha Doha, Qatar\"], \"v\": 3}": {
+    "lat": 25.2859463,
+    "lon": 51.5258152,
+    "formatted_address": "Barahat Msheireb St, Doha, Qatar",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ4emM5jnFRT4RVmlXl06hM18",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Barahat Msheireb St, Doha, Qatar",
+      "geometry": {
+        "location": {
+          "lat": 25.2859463,
+          "lng": 51.5258152
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.2872015302915,
+            "lng": 51.5273695802915
+          },
+          "southwest": {
+            "lat": 25.2845035697085,
+            "lng": 51.5246716197085
+          }
+        }
+      },
+      "name": "Mandarin Oriental, Doha",
+      "place_id": "ChIJ4emM5jnFRT4RVmlXl06hM18",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.mandarinoriental.com/en/doha/msheireb?src=loc.yext.modoh.ggl"
+    }
+  },
+  "{\"brand\": \"Mandarin Oriental Hotel Group\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mandarin Oriental The Landmark, Hong Kong Mandarin Oriental Hotel Group Hotel\", \"Mandarin Oriental The Landmark, Hong Kong Mandarin Oriental Hotel Group Resort\", \"Mandarin Oriental The Landmark, Hong Kong Mandarin Oriental Hotel Group\", \"Mandarin Oriental The Landmark, Hong Kong Mandarin Oriental Hotel Group Hong Kong, China Hotel\", \"Mandarin Oriental The Landmark, Hong Kong Mandarin Oriental Hotel Group Hong Kong, China Resort\", \"Mandarin Oriental The Landmark, Hong Kong Mandarin Oriental Hotel Group Hong Kong, China\", \"Mandarin Oriental The Landmark, Hong Kong Hilton Hotel\", \"Mandarin Oriental The Landmark, Hong Kong Hilton Resort\", \"Mandarin Oriental The Landmark, Hong Kong Hilton\", \"Mandarin Oriental The Landmark, Hong Kong Hilton Hong Kong, China Hotel\", \"Mandarin Oriental The Landmark, Hong Kong Hilton Hong Kong, China Resort\", \"Mandarin Oriental The Landmark, Hong Kong Hilton Hong Kong, China\", \"Mandarin Oriental Landmark Hong Kong Mandarin Oriental Hotel Group Hotel\", \"Mandarin Oriental Landmark Hong Kong Mandarin Oriental Hotel Group Resort\", \"Mandarin Oriental Landmark Hong Kong Mandarin Oriental Hotel Group\", \"Mandarin Oriental Landmark Hong Kong Mandarin Oriental Hotel Group Hong Kong, China Hotel\", \"Mandarin Oriental Landmark Hong Kong Mandarin Oriental Hotel Group Hong Kong, China Resort\", \"Mandarin Oriental Landmark Hong Kong Mandarin Oriental Hotel Group Hong Kong, China\", \"Mandarin Oriental Landmark Hong Kong Hilton Hotel\", \"Mandarin Oriental Landmark Hong Kong Hilton Resort\", \"Mandarin Oriental Landmark Hong Kong Hilton\", \"Mandarin Oriental Landmark Hong Kong Hilton Hong Kong, China Hotel\", \"Mandarin Oriental Landmark Hong Kong Hilton Hong Kong, China Resort\", \"Mandarin Oriental Landmark Hong Kong Hilton Hong Kong, China\", \"Mandarin Oriental The Landmark, Hong Kong Hotel\", \"Mandarin Oriental The Landmark, Hong Kong Resort\", \"Mandarin Oriental The Landmark, Hong Kong\", \"Mandarin Oriental The Landmark, Hong Kong Hong Kong, China Hotel\", \"Mandarin Oriental The Landmark, Hong Kong Hong Kong, China Resort\", \"Mandarin Oriental The Landmark, Hong Kong Hong Kong, China\"], \"v\": 3}": {
+    "lat": 22.2818794,
+    "lon": 114.1594433,
+    "formatted_address": "5 Connaught Road, Central, Hong Kong",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJuY8iZWQABDQR81RwhbR5TXE",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "5 Connaught Road, Central, Hong Kong",
+      "geometry": {
+        "location": {
+          "lat": 22.2818794,
+          "lng": 114.1594433
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 22.2830937302915,
+            "lng": 114.1607285302915
+          },
+          "southwest": {
+            "lat": 22.28039576970849,
+            "lng": 114.1580305697085
+          }
+        }
+      },
+      "name": "Mandarin Oriental, Hong Kong",
+      "place_id": "ChIJuY8iZWQABDQR81RwhbR5TXE",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour?src=loc.yext.mohkg.ggl"
+    }
+  },
+  "{\"brand\": \"Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Resort at Kapalua Bay, Maui Marriott Hotel\", \"The Resort at Kapalua Bay, Maui Marriott Resort\", \"The Resort at Kapalua Bay, Maui Marriott\", \"The Resort at Kapalua Bay, Maui Marriott Lahaina, Hawaii US Hotel\", \"The Resort at Kapalua Bay, Maui Marriott Lahaina, Hawaii US Resort\", \"The Resort at Kapalua Bay, Maui Marriott Lahaina, Hawaii US\", \"The Resort at Kapalua Bay, Maui Hilton Hotel\", \"The Resort at Kapalua Bay, Maui Hilton Resort\", \"The Resort at Kapalua Bay, Maui Hilton\", \"The Resort at Kapalua Bay, Maui Hilton Lahaina, Hawaii US Hotel\", \"The Resort at Kapalua Bay, Maui Hilton Lahaina, Hawaii US Resort\", \"The Resort at Kapalua Bay, Maui Hilton Lahaina, Hawaii US\", \"Resort Kapalua Bay Maui Marriott Hotel\", \"Resort Kapalua Bay Maui Marriott Resort\", \"Resort Kapalua Bay Maui Marriott\", \"Resort Kapalua Bay Maui Marriott Lahaina, Hawaii US Hotel\", \"Resort Kapalua Bay Maui Marriott Lahaina, Hawaii US Resort\", \"Resort Kapalua Bay Maui Marriott Lahaina, Hawaii US\", \"Resort Kapalua Bay Maui Hilton Hotel\", \"Resort Kapalua Bay Maui Hilton Resort\", \"Resort Kapalua Bay Maui Hilton\", \"Resort Kapalua Bay Maui Hilton Lahaina, Hawaii US Hotel\", \"Resort Kapalua Bay Maui Hilton Lahaina, Hawaii US Resort\", \"Resort Kapalua Bay Maui Hilton Lahaina, Hawaii US\", \"The Resort at Kapalua Bay, Maui Hotel\", \"The Resort at Kapalua Bay, Maui Resort\", \"The Resort at Kapalua Bay, Maui\", \"The Resort at Kapalua Bay, Maui Lahaina, Hawaii US Hotel\", \"The Resort at Kapalua Bay, Maui Lahaina, Hawaii US Resort\", \"The Resort at Kapalua Bay, Maui Lahaina, Hawaii US\"], \"v\": 3}": {
+    "lat": 21.0010684,
+    "lon": -156.6541142,
+    "formatted_address": "1 Ritz Carlton Dr, Lahaina, HI 96761, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ8Vu0vLfVqn4RQQDK9iKIUXw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1 Ritz Carlton Dr, Lahaina, HI 96761, USA",
+      "geometry": {
+        "location": {
+          "lat": 21.0010684,
+          "lng": -156.6541142
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 21.0022466302915,
+            "lng": -156.6527566197085
+          },
+          "southwest": {
+            "lat": 20.9995486697085,
+            "lng": -156.6554545802915
+          }
+        }
+      },
+      "name": "The Ritz-Carlton Maui, Kapalua",
+      "place_id": "ChIJ8Vu0vLfVqn4RQQDK9iKIUXw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ritzcarlton.com/en/hotels/jhmrz-the-ritz-carlton-maui-kapalua/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Noble House Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Little Palm Island Resort Noble House Hotels & Resorts Hotel\", \"Little Palm Island Resort Noble House Hotels & Resorts Resort\", \"Little Palm Island Resort Noble House Hotels & Resorts\", \"Little Palm Island Resort Noble House Hotels & Resorts Little Torch Key, Florida US Hotel\", \"Little Palm Island Resort Noble House Hotels & Resorts Little Torch Key, Florida US Resort\", \"Little Palm Island Resort Noble House Hotels & Resorts Little Torch Key, Florida US\", \"Little Palm Island Resort Hilton Hotel\", \"Little Palm Island Resort Hilton Resort\", \"Little Palm Island Resort Hilton\", \"Little Palm Island Resort Hilton Little Torch Key, Florida US Hotel\", \"Little Palm Island Resort Hilton Little Torch Key, Florida US Resort\", \"Little Palm Island Resort Hilton Little Torch Key, Florida US\", \"Little Palm Island Resort Hotel\", \"Little Palm Island Resort Resort\", \"Little Palm Island Resort\", \"Little Palm Island Resort Little Torch Key, Florida US Hotel\", \"Little Palm Island Resort Little Torch Key, Florida US Resort\", \"Little Palm Island Resort Little Torch Key, Florida US\"], \"v\": 3}": {
+    "lat": 24.6657197,
+    "lon": -81.3868516,
+    "formatted_address": "28500 Overseas Hwy, Little Torch Key, FL 33042, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJu3d2VoL90IgRuZAr56lGuN0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "28500 Overseas Hwy, Little Torch Key, FL 33042, USA",
+      "geometry": {
+        "location": {
+          "lat": 24.6657197,
+          "lng": -81.3868516
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 24.66704283029151,
+            "lng": -81.3855927197085
+          },
+          "southwest": {
+            "lat": 24.6643448697085,
+            "lng": -81.3882906802915
+          }
+        }
+      },
+      "name": "Little Palm Island",
+      "place_id": "ChIJu3d2VoL90IgRuZAr56lGuN0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.littlepalmisland.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"Park Hyatt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Park Hyatt Tokyo Park Hyatt Hotel\", \"Park Hyatt Tokyo Park Hyatt Resort\", \"Park Hyatt Tokyo Park Hyatt\", \"Park Hyatt Tokyo Park Hyatt Tokyo, Japan Hotel\", \"Park Hyatt Tokyo Park Hyatt Tokyo, Japan Resort\", \"Park Hyatt Tokyo Park Hyatt Tokyo, Japan\", \"Park Hyatt Tokyo Hilton Hotel\", \"Park Hyatt Tokyo Hilton Resort\", \"Park Hyatt Tokyo Hilton\", \"Park Hyatt Tokyo Hilton Tokyo, Japan Hotel\", \"Park Hyatt Tokyo Hilton Tokyo, Japan Resort\", \"Park Hyatt Tokyo Hilton Tokyo, Japan\", \"Park Hyatt Tokyo Hotel\", \"Park Hyatt Tokyo Resort\", \"Park Hyatt Tokyo\", \"Park Hyatt Tokyo Tokyo, Japan Hotel\", \"Park Hyatt Tokyo Tokyo, Japan Resort\", \"Park Hyatt Tokyo Tokyo, Japan\"], \"v\": 3}": {
+    "lat": 35.6862131,
+    "lon": 139.6904828,
+    "formatted_address": "2, 3-chōme-7-1 Nishishinjuku, Shinjuku City, Tokyo 163-1055, Japan",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJJ7La1yzzGGARln2OypSj2Cw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2, 3-chōme-7-1 Nishishinjuku, Shinjuku City, Tokyo 163-1055, Japan",
+      "geometry": {
+        "location": {
+          "lat": 35.6862131,
+          "lng": 139.6904828
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.68688703029149,
+            "lng": 139.6921031302915
+          },
+          "southwest": {
+            "lat": 35.68418906970849,
+            "lng": 139.6894051697085
+          }
+        }
+      },
+      "name": "Park Hyatt Tokyo",
+      "place_id": "ChIJJ7La1yzzGGARln2OypSj2Cw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/en-US/hotel/japan/park-hyatt-tokyo/tyoph?src=corp_lclb_google_seo_tyoph&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"Ritz-Carlton Reserve\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Siari, a Ritz-Carlton Reserve Ritz-Carlton Reserve Hotel\", \"Siari, a Ritz-Carlton Reserve Ritz-Carlton Reserve Resort\", \"Siari, a Ritz-Carlton Reserve Ritz-Carlton Reserve\", \"Siari, a Ritz-Carlton Reserve Ritz-Carlton Reserve La Pe\\u00f1ita de Jaltemba, Nayarit MX Hotel\", \"Siari, a Ritz-Carlton Reserve Ritz-Carlton Reserve La Pe\\u00f1ita de Jaltemba, Nayarit MX Resort\", \"Siari, a Ritz-Carlton Reserve Ritz-Carlton Reserve La Pe\\u00f1ita de Jaltemba, Nayarit MX\", \"Siari, a Ritz-Carlton Reserve Hilton Hotel\", \"Siari, a Ritz-Carlton Reserve Hilton Resort\", \"Siari, a Ritz-Carlton Reserve Hilton\", \"Siari, a Ritz-Carlton Reserve Hilton La Pe\\u00f1ita de Jaltemba, Nayarit MX Hotel\", \"Siari, a Ritz-Carlton Reserve Hilton La Pe\\u00f1ita de Jaltemba, Nayarit MX Resort\", \"Siari, a Ritz-Carlton Reserve Hilton La Pe\\u00f1ita de Jaltemba, Nayarit MX\", \"Siari a Ritz carlton Reserve Ritz-Carlton Reserve Hotel\", \"Siari a Ritz carlton Reserve Ritz-Carlton Reserve Resort\", \"Siari a Ritz carlton Reserve Ritz-Carlton Reserve\", \"Siari a Ritz carlton Reserve Ritz-Carlton Reserve La Pe\\u00f1ita de Jaltemba, Nayarit MX Hotel\", \"Siari a Ritz carlton Reserve Ritz-Carlton Reserve La Pe\\u00f1ita de Jaltemba, Nayarit MX Resort\", \"Siari a Ritz carlton Reserve Ritz-Carlton Reserve La Pe\\u00f1ita de Jaltemba, Nayarit MX\", \"Siari a Ritz carlton Reserve Hilton Hotel\", \"Siari a Ritz carlton Reserve Hilton Resort\", \"Siari a Ritz carlton Reserve Hilton\", \"Siari a Ritz carlton Reserve Hilton La Pe\\u00f1ita de Jaltemba, Nayarit MX Hotel\", \"Siari a Ritz carlton Reserve Hilton La Pe\\u00f1ita de Jaltemba, Nayarit MX Resort\", \"Siari a Ritz carlton Reserve Hilton La Pe\\u00f1ita de Jaltemba, Nayarit MX\", \"Siari, a Ritz-Carlton Reserve Hotel\", \"Siari, a Ritz-Carlton Reserve Resort\", \"Siari, a Ritz-Carlton Reserve\", \"Siari, a Ritz-Carlton Reserve La Pe\\u00f1ita de Jaltemba, Nayarit MX Hotel\", \"Siari, a Ritz-Carlton Reserve La Pe\\u00f1ita de Jaltemba, Nayarit MX Resort\", \"Siari, a Ritz-Carlton Reserve La Pe\\u00f1ita de Jaltemba, Nayarit MX\"], \"v\": 3}": {
+    "lat": 21.0940325,
+    "lon": -105.2218514,
+    "formatted_address": "Carretera Federal 200, Tepic - Puerto Vallarta Km.88 300, Col., Las Cabras, 63720 La Peñita de Jaltemba, Nay., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJuQ6oAQcpJ4QRaMr9fwg27P4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carretera Federal 200, Tepic - Puerto Vallarta Km.88 300, Col., Las Cabras, 63720 La Peñita de Jaltemba, Nay., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 21.0940325,
+          "lng": -105.2218514
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 21.0953814802915,
+            "lng": -105.2205024197085
+          },
+          "southwest": {
+            "lat": 21.0926835197085,
+            "lng": -105.2232003802915
+          }
+        }
+      },
+      "name": "Siari Riviera Nayarit, a Ritz-Carlton Reserve",
+      "place_id": "ChIJuQ6oAQcpJ4QRaMr9fwg27P4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ritzcarlton.com/en/hotels/pvrcc-siari-riviera-nayarit-a-ritz-carlton-reserve/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Rosewood Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rosewood Courchevel Le Jardin Alpin Rosewood Hotels & Resorts Hotel\", \"Rosewood Courchevel Le Jardin Alpin Rosewood Hotels & Resorts Resort\", \"Rosewood Courchevel Le Jardin Alpin Rosewood Hotels & Resorts\", \"Rosewood Courchevel Le Jardin Alpin Rosewood Hotels & Resorts Courchevel, France Hotel\", \"Rosewood Courchevel Le Jardin Alpin Rosewood Hotels & Resorts Courchevel, France Resort\", \"Rosewood Courchevel Le Jardin Alpin Rosewood Hotels & Resorts Courchevel, France\", \"Rosewood Courchevel Le Jardin Alpin Hilton Hotel\", \"Rosewood Courchevel Le Jardin Alpin Hilton Resort\", \"Rosewood Courchevel Le Jardin Alpin Hilton\", \"Rosewood Courchevel Le Jardin Alpin Hilton Courchevel, France Hotel\", \"Rosewood Courchevel Le Jardin Alpin Hilton Courchevel, France Resort\", \"Rosewood Courchevel Le Jardin Alpin Hilton Courchevel, France\", \"Rosewood Courchevel Le Jardin Alpin Hotel\", \"Rosewood Courchevel Le Jardin Alpin Resort\", \"Rosewood Courchevel Le Jardin Alpin\", \"Rosewood Courchevel Le Jardin Alpin Courchevel, France Hotel\", \"Rosewood Courchevel Le Jardin Alpin Courchevel, France Resort\", \"Rosewood Courchevel Le Jardin Alpin Courchevel, France\"], \"v\": 3}": {
+    "lat": 45.4105728,
+    "lon": 6.6346515,
+    "formatted_address": "Rue du Jardin Alpin, 73120 Courchevel, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJHaXQ0qt4iUcRcH63hsrnjIA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Rue du Jardin Alpin, 73120 Courchevel, France",
+      "geometry": {
+        "location": {
+          "lat": 45.4105728,
+          "lng": 6.6346515
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.4120012802915,
+            "lng": 6.636208930291502
+          },
+          "southwest": {
+            "lat": 45.4093033197085,
+            "lng": 6.633510969708498
+          }
+        }
+      },
+      "name": "Rosewood Courchevel Le Jardin Alpin",
+      "place_id": "ChIJHaXQ0qt4iUcRcH63hsrnjIA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.rosewoodhotels.com/en/courchevel"
+    }
+  },
+  "{\"brand\": \"Rosewood Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rosewood Hotel Georgia Rosewood Hotels & Resorts Hotel\", \"Rosewood Hotel Georgia Rosewood Hotels & Resorts Resort\", \"Rosewood Hotel Georgia Rosewood Hotels & Resorts\", \"Rosewood Hotel Georgia Rosewood Hotels & Resorts Vancouver, British Columbia CA Hotel\", \"Rosewood Hotel Georgia Rosewood Hotels & Resorts Vancouver, British Columbia CA Resort\", \"Rosewood Hotel Georgia Rosewood Hotels & Resorts Vancouver, British Columbia CA\", \"Rosewood Hotel Georgia Hilton Hotel\", \"Rosewood Hotel Georgia Hilton Resort\", \"Rosewood Hotel Georgia Hilton\", \"Rosewood Hotel Georgia Hilton Vancouver, British Columbia CA Hotel\", \"Rosewood Hotel Georgia Hilton Vancouver, British Columbia CA Resort\", \"Rosewood Hotel Georgia Hilton Vancouver, British Columbia CA\", \"Rosewood Hotel Georgia Hotel\", \"Rosewood Hotel Georgia Resort\", \"Rosewood Hotel Georgia\", \"Rosewood Hotel Georgia Vancouver, British Columbia CA Hotel\", \"Rosewood Hotel Georgia Vancouver, British Columbia CA Resort\", \"Rosewood Hotel Georgia Vancouver, British Columbia CA\"], \"v\": 3}": {
+    "lat": 49.283465,
+    "lon": -123.119031,
+    "formatted_address": "801 W Georgia St, Vancouver, BC V6C 1P7, Canada",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJgQmKXX9xhlQRXmNfRsbZ4w4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "801 W Georgia St, Vancouver, BC V6C 1P7, Canada",
+      "geometry": {
+        "location": {
+          "lat": 49.283465,
+          "lng": -123.119031
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.2847833802915,
+            "lng": -123.1175735697085
+          },
+          "southwest": {
+            "lat": 49.2820854197085,
+            "lng": -123.1202715302915
+          }
+        }
+      },
+      "name": "Rosewood Hotel Georgia",
+      "place_id": "ChIJgQmKXX9xhlQRXmNfRsbZ4w4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.rosewoodhotels.com/en/hotel-georgia-vancouver/offers"
+    }
+  },
+  "{\"brand\": \"The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Maxx Royal Kemer Resort The Leading Hotels of the World Hotel\", \"Maxx Royal Kemer Resort The Leading Hotels of the World Resort\", \"Maxx Royal Kemer Resort The Leading Hotels of the World\", \"Maxx Royal Kemer Resort The Leading Hotels of the World Antalya, Turkey Hotel\", \"Maxx Royal Kemer Resort The Leading Hotels of the World Antalya, Turkey Resort\", \"Maxx Royal Kemer Resort The Leading Hotels of the World Antalya, Turkey\", \"Maxx Royal Kemer Resort Hilton Hotel\", \"Maxx Royal Kemer Resort Hilton Resort\", \"Maxx Royal Kemer Resort Hilton\", \"Maxx Royal Kemer Resort Hilton Antalya, Turkey Hotel\", \"Maxx Royal Kemer Resort Hilton Antalya, Turkey Resort\", \"Maxx Royal Kemer Resort Hilton Antalya, Turkey\", \"Maxx Royal Kemer Resort Hotel\", \"Maxx Royal Kemer Resort Resort\", \"Maxx Royal Kemer Resort\", \"Maxx Royal Kemer Resort Antalya, Turkey Hotel\", \"Maxx Royal Kemer Resort Antalya, Turkey Resort\", \"Maxx Royal Kemer Resort Antalya, Turkey\"], \"v\": 3}": {
+    "lat": 36.57901,
+    "lon": 30.5842437,
+    "formatted_address": "Kiriş Mh., Kiriş Cad. No:88, Kiriş, 07980 Kemer/Antalya, Türkiye",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ7eqmUgO3wxQRWdi1f02_Mk8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Kiriş Mh., Kiriş Cad. No:88, Kiriş, 07980 Kemer/Antalya, Türkiye",
+      "geometry": {
+        "location": {
+          "lat": 36.57901,
+          "lng": 30.5842437
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.5804088302915,
+            "lng": 30.5854844802915
+          },
+          "southwest": {
+            "lat": 36.5777108697085,
+            "lng": 30.58278651970851
+          }
+        }
+      },
+      "name": "Maxx Royal Kemer Resort",
+      "place_id": "ChIJ7eqmUgO3wxQRWdi1f02_Mk8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.maxxroyal.com/"
+    }
+  },
+  "{\"brand\": \"The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Le Massif The Leading Hotels of the World Hotel\", \"Le Massif The Leading Hotels of the World Resort\", \"Le Massif The Leading Hotels of the World\", \"Le Massif The Leading Hotels of the World Courmayeur, Italy Hotel\", \"Le Massif The Leading Hotels of the World Courmayeur, Italy Resort\", \"Le Massif The Leading Hotels of the World Courmayeur, Italy\", \"Le Massif Hilton Hotel\", \"Le Massif Hilton Resort\", \"Le Massif Hilton\", \"Le Massif Hilton Courmayeur, Italy Hotel\", \"Le Massif Hilton Courmayeur, Italy Resort\", \"Le Massif Hilton Courmayeur, Italy\", \"Le Massif Hotel\", \"Le Massif Resort\", \"Le Massif\", \"Le Massif Courmayeur, Italy Hotel\", \"Le Massif Courmayeur, Italy Resort\", \"Le Massif Courmayeur, Italy\"], \"v\": 3}": {
+    "lat": 45.785324,
+    "lon": 6.972756299999999,
+    "formatted_address": "SR, 38, 11013 Courmayeur AO, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJYWK490JHiUcR7bTH5ct0qR8",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "SR, 38, 11013 Courmayeur AO, Italy",
+      "geometry": {
+        "location": {
+          "lat": 45.785324,
+          "lng": 6.972756299999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.7867339802915,
+            "lng": 6.974001930291503
+          },
+          "southwest": {
+            "lat": 45.7840360197085,
+            "lng": 6.971303969708498
+          }
+        }
+      },
+      "name": "Le Massif Courmayeur",
+      "place_id": "ChIJYWK490JHiUcR7bTH5ct0qR8",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.lemassifcourmayeur.com/?utm_source=gbp&utm_medium=organic"
+    }
+  },
+  "{\"brand\": \"The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Palmaia - The House of AiA The Leading Hotels of the World Hotel\", \"Palmaia - The House of AiA The Leading Hotels of the World Resort\", \"Palmaia - The House of AiA The Leading Hotels of the World\", \"Palmaia - The House of AiA The Leading Hotels of the World Playa del Carmen, Quintana Roo MX Hotel\", \"Palmaia - The House of AiA The Leading Hotels of the World Playa del Carmen, Quintana Roo MX Resort\", \"Palmaia - The House of AiA The Leading Hotels of the World Playa del Carmen, Quintana Roo MX\", \"Palmaia - The House of AiA Hilton Hotel\", \"Palmaia - The House of AiA Hilton Resort\", \"Palmaia - The House of AiA Hilton\", \"Palmaia - The House of AiA Hilton Playa del Carmen, Quintana Roo MX Hotel\", \"Palmaia - The House of AiA Hilton Playa del Carmen, Quintana Roo MX Resort\", \"Palmaia - The House of AiA Hilton Playa del Carmen, Quintana Roo MX\", \"Palmaia House Of Aia The Leading Hotels of the World Hotel\", \"Palmaia House Of Aia The Leading Hotels of the World Resort\", \"Palmaia House Of Aia The Leading Hotels of the World\", \"Palmaia House Of Aia The Leading Hotels of the World Playa del Carmen, Quintana Roo MX Hotel\", \"Palmaia House Of Aia The Leading Hotels of the World Playa del Carmen, Quintana Roo MX Resort\", \"Palmaia House Of Aia The Leading Hotels of the World Playa del Carmen, Quintana Roo MX\", \"Palmaia House Of Aia Hilton Hotel\", \"Palmaia House Of Aia Hilton Resort\", \"Palmaia House Of Aia Hilton\", \"Palmaia House Of Aia Hilton Playa del Carmen, Quintana Roo MX Hotel\", \"Palmaia House Of Aia Hilton Playa del Carmen, Quintana Roo MX Resort\", \"Palmaia House Of Aia Hilton Playa del Carmen, Quintana Roo MX\", \"Palmaia - The House of AiA Hotel\", \"Palmaia - The House of AiA Resort\", \"Palmaia - The House of AiA\", \"Palmaia - The House of AiA Playa del Carmen, Quintana Roo MX Hotel\", \"Palmaia - The House of AiA Playa del Carmen, Quintana Roo MX Resort\", \"Palmaia - The House of AiA Playa del Carmen, Quintana Roo MX\"], \"v\": 3}": {
+    "lat": 20.5974512,
+    "lon": -87.0962334,
+    "formatted_address": "P.º Xaman - Ha, Playacar, 77710 Playa del Carmen, Q.R., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJiYGTGO5DTo8RmYv72l7NPcw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "P.º Xaman - Ha, Playacar, 77710 Playa del Carmen, Q.R., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 20.5974512,
+          "lng": -87.0962334
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 20.5988001802915,
+            "lng": -87.0948844197085
+          },
+          "southwest": {
+            "lat": 20.5961022197085,
+            "lng": -87.09758238029151
+          }
+        }
+      },
+      "name": "Palmaïa - The House of AïA",
+      "place_id": "ChIJiYGTGO5DTo8RmYv72l7NPcw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://thehouseofaia.com/?utm_source=gmb_organic&utm_medium=thehouseofaiagmb&utm_campaign=gmb_traffic"
+    }
+  },
+  "{\"brand\": \"The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The One Monumental Palace The Leading Hotels of the World Hotel\", \"The One Monumental Palace The Leading Hotels of the World Resort\", \"The One Monumental Palace The Leading Hotels of the World\", \"The One Monumental Palace The Leading Hotels of the World Porto, Portugal Hotel\", \"The One Monumental Palace The Leading Hotels of the World Porto, Portugal Resort\", \"The One Monumental Palace The Leading Hotels of the World Porto, Portugal\", \"The One Monumental Palace Hilton Hotel\", \"The One Monumental Palace Hilton Resort\", \"The One Monumental Palace Hilton\", \"The One Monumental Palace Hilton Porto, Portugal Hotel\", \"The One Monumental Palace Hilton Porto, Portugal Resort\", \"The One Monumental Palace Hilton Porto, Portugal\", \"One Monumental Palace The Leading Hotels of the World Hotel\", \"One Monumental Palace The Leading Hotels of the World Resort\", \"One Monumental Palace The Leading Hotels of the World\", \"One Monumental Palace The Leading Hotels of the World Porto, Portugal Hotel\", \"One Monumental Palace The Leading Hotels of the World Porto, Portugal Resort\", \"One Monumental Palace The Leading Hotels of the World Porto, Portugal\", \"One Monumental Palace Hilton Hotel\", \"One Monumental Palace Hilton Resort\", \"One Monumental Palace Hilton\", \"One Monumental Palace Hilton Porto, Portugal Hotel\", \"One Monumental Palace Hilton Porto, Portugal Resort\", \"One Monumental Palace Hilton Porto, Portugal\", \"The One Monumental Palace Hotel\", \"The One Monumental Palace Resort\", \"The One Monumental Palace\", \"The One Monumental Palace Porto, Portugal Hotel\", \"The One Monumental Palace Porto, Portugal Resort\", \"The One Monumental Palace Porto, Portugal\"], \"v\": 3}": {
+    "lat": 41.1485625,
+    "lon": -8.6114879,
+    "formatted_address": "Av. dos Aliados 151, 4000-067 Porto, Portugal",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ_9W8ZwhlJA0REyPO0-_EFBs",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "health",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Av. dos Aliados 151, 4000-067 Porto, Portugal",
+      "geometry": {
+        "location": {
+          "lat": 41.1485625,
+          "lng": -8.6114879
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.1498661802915,
+            "lng": -8.610007069708498
+          },
+          "southwest": {
+            "lat": 41.1471682197085,
+            "lng": -8.612705030291503
+          }
+        }
+      },
+      "name": "The One Monumental Palace",
+      "place_id": "ChIJ_9W8ZwhlJA0REyPO0-_EFBs",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "health",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.hotelstheone.com/en/porto-hotels/the-one-monumental-palace?utm_source=google_my_business&utm_medium=boton_sitio_web&utm_campaign=tmp"
+    }
+  },
+  "{\"brand\": \"The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Bless Ibiza Cala Nova The Leading Hotels of the World Hotel\", \"Bless Ibiza Cala Nova The Leading Hotels of the World Resort\", \"Bless Ibiza Cala Nova The Leading Hotels of the World\", \"Bless Ibiza Cala Nova The Leading Hotels of the World Santa Eulalia del Rio, Spain Hotel\", \"Bless Ibiza Cala Nova The Leading Hotels of the World Santa Eulalia del Rio, Spain Resort\", \"Bless Ibiza Cala Nova The Leading Hotels of the World Santa Eulalia del Rio, Spain\", \"Bless Ibiza Cala Nova Hilton Hotel\", \"Bless Ibiza Cala Nova Hilton Resort\", \"Bless Ibiza Cala Nova Hilton\", \"Bless Ibiza Cala Nova Hilton Santa Eulalia del Rio, Spain Hotel\", \"Bless Ibiza Cala Nova Hilton Santa Eulalia del Rio, Spain Resort\", \"Bless Ibiza Cala Nova Hilton Santa Eulalia del Rio, Spain\", \"Bless Ibiza Cala Nova Hotel\", \"Bless Ibiza Cala Nova Resort\", \"Bless Ibiza Cala Nova\", \"Bless Ibiza Cala Nova Santa Eulalia del Rio, Spain Hotel\", \"Bless Ibiza Cala Nova Santa Eulalia del Rio, Spain Resort\", \"Bless Ibiza Cala Nova Santa Eulalia del Rio, Spain\"], \"v\": 3}": {
+    "lat": 39.0065063,
+    "lon": 1.5805917,
+    "formatted_address": "Av. Cala Nova, S/N, 07849 Es Canar, Illes Balears, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJmzwxlesUmRIREWR_MOJ0Kkw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Av. Cala Nova, S/N, 07849 Es Canar, Illes Balears, Spain",
+      "geometry": {
+        "location": {
+          "lat": 39.0065063,
+          "lng": 1.5805917
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.0079191302915,
+            "lng": 1.581834580291502
+          },
+          "southwest": {
+            "lat": 39.0052211697085,
+            "lng": 1.579136619708498
+          }
+        }
+      },
+      "name": "Bless Hotel Ibiza",
+      "place_id": "ChIJmzwxlesUmRIREWR_MOJ0Kkw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.blesscollectionhotels.com/es/ibiza/bless-hotel-ibiza?partner=10214&utm_source=organic&utm_medium=mybusiness&utm_campaign=EC_ES_blessibiza"
+    }
+  },
+  "{\"brand\": \"The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Bardo Savannah The Leading Hotels of the World Hotel\", \"Hotel Bardo Savannah The Leading Hotels of the World Resort\", \"Hotel Bardo Savannah The Leading Hotels of the World\", \"Hotel Bardo Savannah The Leading Hotels of the World Savannah, Georgia US Hotel\", \"Hotel Bardo Savannah The Leading Hotels of the World Savannah, Georgia US Resort\", \"Hotel Bardo Savannah The Leading Hotels of the World Savannah, Georgia US\", \"Hotel Bardo Savannah Hilton Hotel\", \"Hotel Bardo Savannah Hilton Resort\", \"Hotel Bardo Savannah Hilton\", \"Hotel Bardo Savannah Hilton Savannah, Georgia US Hotel\", \"Hotel Bardo Savannah Hilton Savannah, Georgia US Resort\", \"Hotel Bardo Savannah Hilton Savannah, Georgia US\", \"Hotel Bardo Savannah Hotel\", \"Hotel Bardo Savannah Resort\", \"Hotel Bardo Savannah\", \"Hotel Bardo Savannah Savannah, Georgia US Hotel\", \"Hotel Bardo Savannah Savannah, Georgia US Resort\", \"Hotel Bardo Savannah Savannah, Georgia US\"], \"v\": 3}": {
+    "lat": 32.0673368,
+    "lon": -81.0948743,
+    "formatted_address": "700 Drayton St, Savannah, GA 31401, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJOZVgHWue-4gRI1VZrZ2ipUI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "700 Drayton St, Savannah, GA 31401, USA",
+      "geometry": {
+        "location": {
+          "lat": 32.0673368,
+          "lng": -81.0948743
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.0686811302915,
+            "lng": -81.09363611970849
+          },
+          "southwest": {
+            "lat": 32.0659831697085,
+            "lng": -81.0963340802915
+          }
+        }
+      },
+      "name": "Hotel Bardo Savannah",
+      "place_id": "ChIJOZVgHWue-4gRI1VZrZ2ipUI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.staybardo.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"The Luxury Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Santa Marina, a Luxury Collection Resort, Mykonos The Luxury Collection Hotel\", \"Santa Marina, a Luxury Collection Resort, Mykonos The Luxury Collection Resort\", \"Santa Marina, a Luxury Collection Resort, Mykonos The Luxury Collection\", \"Santa Marina, a Luxury Collection Resort, Mykonos The Luxury Collection Mykonos, Greece Hotel\", \"Santa Marina, a Luxury Collection Resort, Mykonos The Luxury Collection Mykonos, Greece Resort\", \"Santa Marina, a Luxury Collection Resort, Mykonos The Luxury Collection Mykonos, Greece\", \"Santa Marina, a Luxury Collection Resort, Mykonos Hilton Hotel\", \"Santa Marina, a Luxury Collection Resort, Mykonos Hilton Resort\", \"Santa Marina, a Luxury Collection Resort, Mykonos Hilton\", \"Santa Marina, a Luxury Collection Resort, Mykonos Hilton Mykonos, Greece Hotel\", \"Santa Marina, a Luxury Collection Resort, Mykonos Hilton Mykonos, Greece Resort\", \"Santa Marina, a Luxury Collection Resort, Mykonos Hilton Mykonos, Greece\", \"Santa Marina a Luxury Collection Resort Mykonos The Luxury Collection Hotel\", \"Santa Marina a Luxury Collection Resort Mykonos The Luxury Collection Resort\", \"Santa Marina a Luxury Collection Resort Mykonos The Luxury Collection\", \"Santa Marina a Luxury Collection Resort Mykonos The Luxury Collection Mykonos, Greece Hotel\", \"Santa Marina a Luxury Collection Resort Mykonos The Luxury Collection Mykonos, Greece Resort\", \"Santa Marina a Luxury Collection Resort Mykonos The Luxury Collection Mykonos, Greece\", \"Santa Marina a Luxury Collection Resort Mykonos Hilton Hotel\", \"Santa Marina a Luxury Collection Resort Mykonos Hilton Resort\", \"Santa Marina a Luxury Collection Resort Mykonos Hilton\", \"Santa Marina a Luxury Collection Resort Mykonos Hilton Mykonos, Greece Hotel\", \"Santa Marina a Luxury Collection Resort Mykonos Hilton Mykonos, Greece Resort\", \"Santa Marina a Luxury Collection Resort Mykonos Hilton Mykonos, Greece\", \"Santa Marina, a Luxury Collection Resort, Mykonos Hotel\", \"Santa Marina, a Luxury Collection Resort, Mykonos Resort\", \"Santa Marina, a Luxury Collection Resort, Mykonos\", \"Santa Marina, a Luxury Collection Resort, Mykonos Mykonos, Greece Hotel\", \"Santa Marina, a Luxury Collection Resort, Mykonos Mykonos, Greece Resort\", \"Santa Marina, a Luxury Collection Resort, Mykonos Mykonos, Greece\"], \"v\": 3}": {
+    "lat": 37.418269,
+    "lon": 25.3261947,
+    "formatted_address": "Ornos Bay, Mikonos 846 00, Greece",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJx9AWKWG-ohQRc_7gfyskSU4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Ornos Bay, Mikonos 846 00, Greece",
+      "geometry": {
+        "location": {
+          "lat": 37.418269,
+          "lng": 25.3261947
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.4196469302915,
+            "lng": 25.3275970302915
+          },
+          "southwest": {
+            "lat": 37.4169489697085,
+            "lng": 25.3248990697085
+          }
+        }
+      },
+      "name": "Santa Marina, a Luxury Collection Resort, Mykonos",
+      "place_id": "ChIJx9AWKWG-ohQRc_7gfyskSU4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/jmklc-santa-marina-a-luxury-collection-resort-mykonos/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"The Luxury Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Patmos Aktis, a Luxury Collection Resort & Spa, Greece The Luxury Collection Hotel\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece The Luxury Collection Resort\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece The Luxury Collection\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece The Luxury Collection Patmos, Greece Hotel\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece The Luxury Collection Patmos, Greece Resort\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece The Luxury Collection Patmos, Greece\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece Hilton Hotel\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece Hilton Resort\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece Hilton\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece Hilton Patmos, Greece Hotel\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece Hilton Patmos, Greece Resort\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece Hilton Patmos, Greece\", \"Patmos Aktis a Luxury Collection Resort Spa Greece The Luxury Collection Hotel\", \"Patmos Aktis a Luxury Collection Resort Spa Greece The Luxury Collection Resort\", \"Patmos Aktis a Luxury Collection Resort Spa Greece The Luxury Collection\", \"Patmos Aktis a Luxury Collection Resort Spa Greece The Luxury Collection Patmos, Greece Hotel\", \"Patmos Aktis a Luxury Collection Resort Spa Greece The Luxury Collection Patmos, Greece Resort\", \"Patmos Aktis a Luxury Collection Resort Spa Greece The Luxury Collection Patmos, Greece\", \"Patmos Aktis a Luxury Collection Resort Spa Greece Hilton Hotel\", \"Patmos Aktis a Luxury Collection Resort Spa Greece Hilton Resort\", \"Patmos Aktis a Luxury Collection Resort Spa Greece Hilton\", \"Patmos Aktis a Luxury Collection Resort Spa Greece Hilton Patmos, Greece Hotel\", \"Patmos Aktis a Luxury Collection Resort Spa Greece Hilton Patmos, Greece Resort\", \"Patmos Aktis a Luxury Collection Resort Spa Greece Hilton Patmos, Greece\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece Hotel\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece Resort\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece Patmos, Greece Hotel\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece Patmos, Greece Resort\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece Patmos, Greece\"], \"v\": 3}": {
+    "lat": 37.3045073,
+    "lon": 26.5617772,
+    "formatted_address": "Grikos, Patmos 855 00, Greece",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJAyPVf_ikvRQROUP4IKdy8YA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Grikos, Patmos 855 00, Greece",
+      "geometry": {
+        "location": {
+          "lat": 37.3045073,
+          "lng": 26.5617772
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.30581868029149,
+            "lng": 26.5630901802915
+          },
+          "southwest": {
+            "lat": 37.3031207197085,
+            "lng": 26.5603922197085
+          }
+        }
+      },
+      "name": "Patmos Aktis, a Luxury Collection Resort & Spa, Greece",
+      "place_id": "ChIJAyPVf_ikvRQROUP4IKdy8YA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/kgspi-patmos-aktis-a-luxury-collection-resort-and-spa-greece/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"The Luxury Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Laurus, a Luxury Collection Resort, Singapore The Luxury Collection Hotel\", \"The Laurus, a Luxury Collection Resort, Singapore The Luxury Collection Resort\", \"The Laurus, a Luxury Collection Resort, Singapore The Luxury Collection\", \"The Laurus, a Luxury Collection Resort, Singapore The Luxury Collection Singapore, Singapore Hotel\", \"The Laurus, a Luxury Collection Resort, Singapore The Luxury Collection Singapore, Singapore Resort\", \"The Laurus, a Luxury Collection Resort, Singapore The Luxury Collection Singapore, Singapore\", \"The Laurus, a Luxury Collection Resort, Singapore Hilton Hotel\", \"The Laurus, a Luxury Collection Resort, Singapore Hilton Resort\", \"The Laurus, a Luxury Collection Resort, Singapore Hilton\", \"The Laurus, a Luxury Collection Resort, Singapore Hilton Singapore, Singapore Hotel\", \"The Laurus, a Luxury Collection Resort, Singapore Hilton Singapore, Singapore Resort\", \"The Laurus, a Luxury Collection Resort, Singapore Hilton Singapore, Singapore\", \"Laurus a Luxury Collection Resort Singapore The Luxury Collection Hotel\", \"Laurus a Luxury Collection Resort Singapore The Luxury Collection Resort\", \"Laurus a Luxury Collection Resort Singapore The Luxury Collection\", \"Laurus a Luxury Collection Resort Singapore The Luxury Collection Singapore, Singapore Hotel\", \"Laurus a Luxury Collection Resort Singapore The Luxury Collection Singapore, Singapore Resort\", \"Laurus a Luxury Collection Resort Singapore The Luxury Collection Singapore, Singapore\", \"Laurus a Luxury Collection Resort Singapore Hilton Hotel\", \"Laurus a Luxury Collection Resort Singapore Hilton Resort\", \"Laurus a Luxury Collection Resort Singapore Hilton\", \"Laurus a Luxury Collection Resort Singapore Hilton Singapore, Singapore Hotel\", \"Laurus a Luxury Collection Resort Singapore Hilton Singapore, Singapore Resort\", \"Laurus a Luxury Collection Resort Singapore Hilton Singapore, Singapore\", \"The Laurus, a Luxury Collection Resort, Singapore Hotel\", \"The Laurus, a Luxury Collection Resort, Singapore Resort\", \"The Laurus, a Luxury Collection Resort, Singapore\", \"The Laurus, a Luxury Collection Resort, Singapore Singapore, Singapore Hotel\", \"The Laurus, a Luxury Collection Resort, Singapore Singapore, Singapore Resort\", \"The Laurus, a Luxury Collection Resort, Singapore Singapore, Singapore\"], \"v\": 3}": {
+    "lat": 1.2579577,
+    "lon": 103.8188252,
+    "formatted_address": "28 Sentosa Gateway, Singapore 098139",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJGTclM_wb2jERMfjjLAEv90A",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "28 Sentosa Gateway, Singapore 098139",
+      "geometry": {
+        "location": {
+          "lat": 1.2579577,
+          "lng": 103.8188252
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 1.259307030291502,
+            "lng": 103.8201706802915
+          },
+          "southwest": {
+            "lat": 1.256609069708498,
+            "lng": 103.8174727197085
+          }
+        }
+      },
+      "name": "The Laurus, a Luxury Collection Resort, Singapore",
+      "place_id": "ChIJGTclM_wb2jERMfjjLAEv90A",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/sinsl-the-laurus-a-luxury-collection-resort-singapore/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"The Ritz-Carlton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Ritz-Carlton Suzhou The Ritz-Carlton Hotel\", \"The Ritz-Carlton Suzhou The Ritz-Carlton Resort\", \"The Ritz-Carlton Suzhou The Ritz-Carlton\", \"The Ritz-Carlton Suzhou The Ritz-Carlton Suzhou, China Hotel\", \"The Ritz-Carlton Suzhou The Ritz-Carlton Suzhou, China Resort\", \"The Ritz-Carlton Suzhou The Ritz-Carlton Suzhou, China\", \"The Ritz-Carlton Suzhou Hilton Hotel\", \"The Ritz-Carlton Suzhou Hilton Resort\", \"The Ritz-Carlton Suzhou Hilton\", \"The Ritz-Carlton Suzhou Hilton Suzhou, China Hotel\", \"The Ritz-Carlton Suzhou Hilton Suzhou, China Resort\", \"The Ritz-Carlton Suzhou Hilton Suzhou, China\", \"Ritz carlton Suzhou The Ritz-Carlton Hotel\", \"Ritz carlton Suzhou The Ritz-Carlton Resort\", \"Ritz carlton Suzhou The Ritz-Carlton\", \"Ritz carlton Suzhou The Ritz-Carlton Suzhou, China Hotel\", \"Ritz carlton Suzhou The Ritz-Carlton Suzhou, China Resort\", \"Ritz carlton Suzhou The Ritz-Carlton Suzhou, China\", \"Ritz carlton Suzhou Hilton Hotel\", \"Ritz carlton Suzhou Hilton Resort\", \"Ritz carlton Suzhou Hilton\", \"Ritz carlton Suzhou Hilton Suzhou, China Hotel\", \"Ritz carlton Suzhou Hilton Suzhou, China Resort\", \"Ritz carlton Suzhou Hilton Suzhou, China\", \"The Ritz-Carlton Suzhou Hotel\", \"The Ritz-Carlton Suzhou Resort\", \"The Ritz-Carlton Suzhou\", \"The Ritz-Carlton Suzhou Suzhou, China Hotel\", \"The Ritz-Carlton Suzhou Suzhou, China Resort\", \"The Ritz-Carlton Suzhou Suzhou, China\"], \"v\": 3}": {
+    "lat": 31.298689,
+    "lon": 120.584247,
+    "formatted_address": "369 Guang Ji Nan Lu, Gu Su Qu, Su Zhou Shi, Jiang Su Sheng, China, 215000",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJb5KvDY6gszURQbU7iNEuRWg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "369 Guang Ji Nan Lu, Gu Su Qu, Su Zhou Shi, Jiang Su Sheng, China, 215000",
+      "geometry": {
+        "location": {
+          "lat": 31.298689,
+          "lng": 120.584247
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 31.3000379802915,
+            "lng": 120.5855959802915
+          },
+          "southwest": {
+            "lat": 31.2973400197085,
+            "lng": 120.5828980197085
+          }
+        }
+      },
+      "name": "The Ritz-Carlton, Suzhou",
+      "place_id": "ChIJb5KvDY6gszURQbU7iNEuRWg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
+    }
+  },
+  "{\"brand\": \"The Unbound Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Maison Metier by Hyatt The Unbound Collection Hotel\", \"Maison Metier by Hyatt The Unbound Collection Resort\", \"Maison Metier by Hyatt The Unbound Collection\", \"Maison Metier by Hyatt The Unbound Collection New Orleans, Louisiana US Hotel\", \"Maison Metier by Hyatt The Unbound Collection New Orleans, Louisiana US Resort\", \"Maison Metier by Hyatt The Unbound Collection New Orleans, Louisiana US\", \"Maison Metier by Hyatt Hilton Hotel\", \"Maison Metier by Hyatt Hilton Resort\", \"Maison Metier by Hyatt Hilton\", \"Maison Metier by Hyatt Hilton New Orleans, Louisiana US Hotel\", \"Maison Metier by Hyatt Hilton New Orleans, Louisiana US Resort\", \"Maison Metier by Hyatt Hilton New Orleans, Louisiana US\", \"Maison Metier Hyatt The Unbound Collection Hotel\", \"Maison Metier Hyatt The Unbound Collection Resort\", \"Maison Metier Hyatt The Unbound Collection\", \"Maison Metier Hyatt The Unbound Collection New Orleans, Louisiana US Hotel\", \"Maison Metier Hyatt The Unbound Collection New Orleans, Louisiana US Resort\", \"Maison Metier Hyatt The Unbound Collection New Orleans, Louisiana US\", \"Maison Metier Hyatt Hilton Hotel\", \"Maison Metier Hyatt Hilton Resort\", \"Maison Metier Hyatt Hilton\", \"Maison Metier Hyatt Hilton New Orleans, Louisiana US Hotel\", \"Maison Metier Hyatt Hilton New Orleans, Louisiana US Resort\", \"Maison Metier Hyatt Hilton New Orleans, Louisiana US\", \"Maison Metier by Hyatt Hotel\", \"Maison Metier by Hyatt Resort\", \"Maison Metier by Hyatt\", \"Maison Metier by Hyatt New Orleans, Louisiana US Hotel\", \"Maison Metier by Hyatt New Orleans, Louisiana US Resort\", \"Maison Metier by Hyatt New Orleans, Louisiana US\"], \"v\": 3}": {
+    "lat": 29.9487885,
+    "lon": -90.07202339999999,
+    "formatted_address": "546 Carondelet St, New Orleans, LA 70130, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJL6iBXKynIIYRJOBmuzLEg1Q",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "546 Carondelet St, New Orleans, LA 70130, USA",
+      "geometry": {
+        "location": {
+          "lat": 29.9487885,
+          "lng": -90.07202339999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 29.9500143802915,
+            "lng": -90.0707028697085
+          },
+          "southwest": {
+            "lat": 29.9473164197085,
+            "lng": -90.07340083029152
+          }
+        }
+      },
+      "name": "Maison Métier - The Unbound Collection by Hyatt",
+      "place_id": "ChIJL6iBXKynIIYRJOBmuzLEg1Q",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://maisonmetier.com/?src=corp_lclb_google_seo_msyum&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"W Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W Florence W Hotels Hotel\", \"W Florence W Hotels Resort\", \"W Florence W Hotels\", \"W Florence W Hotels Florence, Italy Hotel\", \"W Florence W Hotels Florence, Italy Resort\", \"W Florence W Hotels Florence, Italy\", \"W Florence Hilton Hotel\", \"W Florence Hilton Resort\", \"W Florence Hilton\", \"W Florence Hilton Florence, Italy Hotel\", \"W Florence Hilton Florence, Italy Resort\", \"W Florence Hilton Florence, Italy\", \"W Florence Hotel\", \"W Florence Resort\", \"W Florence\", \"W Florence Florence, Italy Hotel\", \"W Florence Florence, Italy Resort\", \"W Florence Florence, Italy\"], \"v\": 3}": {
+    "lat": 43.7749154,
+    "lon": 11.2511415,
+    "formatted_address": "Via del Melarancio, 1, 50123 Firenze FI, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJcfBiIkdXKhMR1JKLpOXV6SM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via del Melarancio, 1, 50123 Firenze FI, Italy",
+      "geometry": {
+        "location": {
+          "lat": 43.7749154,
+          "lng": 11.2511415
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.77621493029149,
+            "lng": 11.2525427302915
+          },
+          "southwest": {
+            "lat": 43.7735169697085,
+            "lng": 11.2498447697085
+          }
+        }
+      },
+      "name": "W Florence",
+      "place_id": "ChIJcfBiIkdXKhMR1JKLpOXV6SM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/flrwh-w-florence/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
   }
 }
