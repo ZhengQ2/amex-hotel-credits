@@ -1,4 +1,5 @@
 import csv
+import json
 import re
 import unicodedata
 from html.parser import HTMLParser
@@ -8,6 +9,11 @@ from urllib.request import HTTPCookieProcessor, Request, build_opener
 
 URL_TEMPLATE = "https://www.americanexpress.com/en-us/travel/discover/property-results/r/{page}"
 OUT = "cache/fhr_thc_hotels.csv"
+OUT_JSON = "cache/fhr_thc_hotels.json"
+OUT_FHR = "cache/fhr_hotels.csv"
+OUT_THC = "cache/thc_hotels.csv"
+OUT_FHR_JSON = "cache/fhr_hotels.json"
+OUT_THC_JSON = "cache/thc_hotels.json"
 
 
 def _clean_text(s: str) -> str:
@@ -316,7 +322,34 @@ def write_output(rows):
         for row in sorted_rows:
             writer.writerow({c: row.get(c, "") for c in cols})
 
+    def _program_bucket(program_label):
+        p = (program_label or "").strip().lower()
+        if "hotel collection" in p or p == "thc":
+            return "thc"
+        if "fine hotels" in p or "fhr" in p:
+            return "fhr"
+        return "other"
+
+    fhr_rows = [r for r in sorted_rows if _program_bucket(r.get("program_label")) == "fhr"]
+    thc_rows = [r for r in sorted_rows if _program_bucket(r.get("program_label")) == "thc"]
+
+    for path, subset in ((OUT_FHR, fhr_rows), (OUT_THC, thc_rows)):
+        with open(path, "w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=cols)
+            writer.writeheader()
+            for row in subset:
+                writer.writerow({c: row.get(c, "") for c in cols})
+
+    with open(OUT_JSON, "w", encoding="utf-8") as f:
+        json.dump(sorted_rows, f, ensure_ascii=False, indent=2)
+    with open(OUT_FHR_JSON, "w", encoding="utf-8") as f:
+        json.dump(fhr_rows, f, ensure_ascii=False, indent=2)
+    with open(OUT_THC_JSON, "w", encoding="utf-8") as f:
+        json.dump(thc_rows, f, ensure_ascii=False, indent=2)
+
     print(f"Wrote {len(sorted_rows)} rows -> {OUT} (source=dumb-fetch)")
+    print(f"Wrote {len(fhr_rows)} rows -> {OUT_FHR} / {OUT_FHR_JSON}")
+    print(f"Wrote {len(thc_rows)} rows -> {OUT_THC} / {OUT_THC_JSON}")
 
 
 def main():
