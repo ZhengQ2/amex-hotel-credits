@@ -66,6 +66,7 @@ jobs:
 
       - name: Update Google Sheet with geocoded Hilton CSV
         if: steps.check_list.outputs.changed == 'true'
+        continue-on-error: true
         env:
           HILTON_SHEET_ID: ${{ vars.HILTON_SHEET_ID || secrets.HILTON_SHEET_ID }}
         run: |
