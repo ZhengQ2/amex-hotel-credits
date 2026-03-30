@@ -7,7 +7,8 @@ from urllib.parse import urljoin
 from urllib.request import HTTPCookieProcessor, Request, build_opener
 
 URL_TEMPLATE = "https://www.americanexpress.com/en-us/travel/discover/property-results/r/{page}"
-OUT = "cache/fhr_thc_hotels.csv"
+OUT_FHR = "cache/fhr_hotels.csv"
+OUT_THC = "cache/thc_hotels.csv"
 
 
 def _clean_text(s: str) -> str:
@@ -18,6 +19,16 @@ def _clean_text(s: str) -> str:
     s = s.replace("–", "-").replace("—", "-").replace("’", "'")
     s = re.sub(r"\s+", " ", s).strip()
     return s
+
+
+def _program_bucket(label: str) -> str:
+    raw = _clean_text(label).upper()
+    compact = re.sub(r"[^A-Z0-9]+", "", raw)
+    if "FHR" in compact or "FINEHOTELS" in compact:
+        return "FHR"
+    if "THC" in compact or "HOTELCOLLECTION" in compact:
+        return "THC"
+    return ""
 
 
 class AmexCardHTMLParser(HTMLParser):
@@ -289,7 +300,7 @@ def scrape_all_pages(max_pages=50):
     return list(dedup.values())
 
 
-def write_output(rows):
+def _write_rows(rows, out_path):
     cols = [
         "program_label",
         "brand_label",
@@ -310,13 +321,34 @@ def write_output(rows):
         ),
     )
 
-    with open(OUT, "w", newline="", encoding="utf-8") as f:
+    with open(out_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=cols)
         writer.writeheader()
         for row in sorted_rows:
             writer.writerow({c: row.get(c, "") for c in cols})
 
-    print(f"Wrote {len(sorted_rows)} rows -> {OUT} (source=dumb-fetch)")
+    print(f"Wrote {len(sorted_rows)} rows -> {out_path} (source=dumb-fetch)")
+
+
+def write_output(rows):
+    fhr_rows = []
+    thc_rows = []
+    unknown_rows = 0
+
+    for row in rows:
+        bucket = _program_bucket(row.get("program_label", ""))
+        if bucket == "FHR":
+            fhr_rows.append(row)
+        elif bucket == "THC":
+            thc_rows.append(row)
+        else:
+            unknown_rows += 1
+
+    if unknown_rows:
+        print(f"Skipped {unknown_rows} rows with unknown program labels.")
+
+    _write_rows(fhr_rows, OUT_FHR)
+    _write_rows(thc_rows, OUT_THC)
 
 
 def main():
