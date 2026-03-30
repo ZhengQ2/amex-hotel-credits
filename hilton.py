@@ -88,24 +88,35 @@ def _click_all_show_more(panel):
 
 
 def _force_lazy_render(panel):
+    # Some brand panels are virtualized; keep scrolling until content
+    # growth stabilizes instead of using a fixed number of attempts.
+    stable_rounds = 0
+    last_height = -1
+    last_anchor_count = -1
+
     try:
-        panel.evaluate(
-            """
-        (root) => {
-            const el = root;
-            if (!el) return;
-            el.scrollTop = 0;
-        }
-        """
-        )
+        panel.evaluate("(el) => { if (el) el.scrollTop = 0; }")
     except Exception:
-        pass
-    for _ in range(10):
+        return
+
+    for _ in range(40):
         try:
-            panel.evaluate("(el) => { el.scrollTop = el.scrollHeight; }")
+            height = panel.evaluate("(el) => el ? el.scrollHeight : 0")
+            anchor_count = panel.evaluate("(el) => el ? el.querySelectorAll('a').length : 0")
+            panel.evaluate("(el) => { if (el) el.scrollTop = el.scrollHeight; }")
+            panel.page.wait_for_timeout(180)
         except Exception:
             break
-        panel.page.wait_for_timeout(150)
+
+        if height == last_height and anchor_count == last_anchor_count:
+            stable_rounds += 1
+        else:
+            stable_rounds = 0
+        last_height = height
+        last_anchor_count = anchor_count
+
+        if stable_rounds >= 3:
+            break
 
 
 def _collect_hotel_links(panel, base_url):
@@ -120,6 +131,19 @@ def _collect_hotel_links(panel, base_url):
       const abs = (href) => {
         try { return new URL(href, location.href).href; } catch { return href || ""; }
       };
+      const titleFromHref = (href) => {
+        try {
+          const u = new URL(href, location.href);
+          const parts = u.pathname.split("/").filter(Boolean);
+          const slug = parts[parts.length - 1] || "";
+          if (!slug) return "";
+          return slug
+            .replace(/[-_]+/g, " ")
+            .replace(/\b\w/g, c => c.toUpperCase());
+        } catch {
+          return "";
+        }
+      };
 
       const push = (name, href) => {
         name = clean(name);
@@ -131,8 +155,15 @@ def _collect_hotel_links(panel, base_url):
 
       // Primary: anchors that look like property links
       root.querySelectorAll("a").forEach(a => {
-        const t = clean(a.textContent || a.getAttribute("aria-label") || "");
+        let t = clean(
+          a.textContent ||
+          a.getAttribute("aria-label") ||
+          a.getAttribute("title") ||
+          a.getAttribute("data-track-label") ||
+          ""
+        );
         const href = a.getAttribute("href") || "";
+        if (!t && href) t = clean(titleFromHref(href));
         if (!t || t.length > 160) return;
         if (isJunkText(t)) return;
         push(t, href);
