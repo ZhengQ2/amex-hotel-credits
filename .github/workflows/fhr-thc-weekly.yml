@@ -37,15 +37,67 @@ jobs:
       - name: Did FHR+THC list change vs geocode cache?
         id: check_list
         run: |
-          if [ ! -s cache/geocode_cache_google_fhr_thc.json ]; then
-            echo "No cache index built (file missing or empty: cache/geocode_cache_google_fhr_thc.json)." | tee -a fhrthc.log
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          elif grep -q "Hotels NOT found in geocode cache (new hotels):" fhrthc.log || \
-             grep -q "Hotels in geocode cache but NOT in current scraped list (removed):" fhrthc.log; then
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          fi
+          python - << 'PY'
+          import csv
+          from pathlib import Path
+
+          scraped_path = Path("cache/fhr_thc_hotels.csv")
+          geocoded_path = Path("cache/fhr_thc_hotels_geocoded_google.csv")
+          cache_path = Path("cache/geocode_cache_google_fhr_thc.json")
+
+          def row_key(row):
+              return (
+                  (row.get("program_label") or "").strip().lower(),
+                  (row.get("brand_label") or "").strip().lower(),
+                  (row.get("hotel_location") or "").strip().lower(),
+                  (row.get("hotel_name") or "").strip().lower(),
+              )
+
+          if not cache_path.exists() or cache_path.stat().st_size == 0:
+              print("No cache index built (file missing or empty: cache/geocode_cache_google_fhr_thc.json).")
+              Path("/tmp/fhrthc_changed").write_text("true", encoding="utf-8")
+              raise SystemExit(0)
+
+          if not geocoded_path.exists():
+              print("No previous geocoded CSV found; treating as changed.")
+              Path("/tmp/fhrthc_changed").write_text("true", encoding="utf-8")
+              raise SystemExit(0)
+
+          scraped_rows = set()
+          with scraped_path.open(newline="", encoding="utf-8") as f:
+              for row in csv.DictReader(f):
+                  scraped_rows.add(row_key(row))
+
+          geocoded_rows = set()
+          with geocoded_path.open(newline="", encoding="utf-8") as f:
+              for row in csv.DictReader(f):
+                  geocoded_rows.add(row_key(row))
+
+          added = sorted(scraped_rows - geocoded_rows)
+          removed = sorted(geocoded_rows - scraped_rows)
+
+          if added:
+              print("Hotels NOT found in geocode cache (new hotels):")
+              for p, b, l, h in added[:30]:
+                  print(f"- {h} [program: {p}] [brand: {b}] [location: {l}]")
+              if len(added) > 30:
+                  print(f"... and {len(added) - 30} more")
+
+          if removed:
+              print("Hotels in geocode cache but NOT in current scraped list (removed):")
+              for p, b, l, h in removed[:30]:
+                  print(f"- {h} [program: {p}] [brand: {b}] [location: {l}]")
+              if len(removed) > 30:
+                  print(f"... and {len(removed) - 30} more")
+
+          Path("/tmp/fhrthc_changed").write_text(
+              "true" if (added or removed) else "false", encoding="utf-8"
+          )
+          PY
+
+          changed="$(cat /tmp/fhrthc_changed)"
+          echo "changed=${changed}" >> "$GITHUB_OUTPUT"
+          cat /tmp/fhrthc_changed >> /dev/null
 
       - name: Run Google geocoding (FHR+THC)
         if: steps.check_list.outputs.changed == 'true'
