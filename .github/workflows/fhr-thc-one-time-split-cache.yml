@@ -1,0 +1,159 @@
+name: One-time Split FHR/THC Geocode Cache
+
+on:
+  workflow_dispatch:
+
+jobs:
+  split-existing-fhr-thc-cache:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas
+
+      - name: Split existing combined geocoded CSV + cache into FHR/THC
+        run: |
+          python - << 'PY'
+          import csv
+          import json
+          import re
+          from pathlib import Path
+
+          COMBINED_CSV = Path("cache/fhr_thc_hotels_geocoded_google.csv")
+          COMBINED_CACHE = Path("cache/geocode_cache_google_fhr_thc.json")
+
+          FHR_CSV = Path("cache/fhr_hotels_geocoded_google.csv")
+          THC_CSV = Path("cache/thc_hotels_geocoded_google.csv")
+          FHR_JSON = Path("cache/fhr_hotels_geocoded_google.json")
+          THC_JSON = Path("cache/thc_hotels_geocoded_google.json")
+          FHR_CACHE = Path("cache/geocode_cache_google_fhr.json")
+          THC_CACHE = Path("cache/geocode_cache_google_thc.json")
+
+          if not COMBINED_CSV.exists():
+              raise SystemExit(f"Missing required input file: {COMBINED_CSV}")
+          if not COMBINED_CACHE.exists():
+              raise SystemExit(f"Missing required input file: {COMBINED_CACHE}")
+
+          def bucket(program_label: str) -> str:
+              p = (program_label or "").strip().lower()
+              if "hotel collection" in p or p == "thc":
+                  return "thc"
+              if "fine hotels" in p or p == "fhr":
+                  return "fhr"
+              return "other"
+
+          with COMBINED_CSV.open(newline="", encoding="utf-8") as f:
+              rows = list(csv.DictReader(f))
+              cols = rows[0].keys() if rows else []
+
+          fhr_rows = [r for r in rows if bucket(r.get("program_label", "")) == "fhr"]
+          thc_rows = [r for r in rows if bucket(r.get("program_label", "")) == "thc"]
+
+          for path, subset in ((FHR_CSV, fhr_rows), (THC_CSV, thc_rows)):
+              with path.open("w", newline="", encoding="utf-8") as f:
+                  writer = csv.DictWriter(f, fieldnames=list(cols))
+                  writer.writeheader()
+                  writer.writerows(subset)
+
+          with FHR_JSON.open("w", encoding="utf-8") as f:
+              json.dump(fhr_rows, f, ensure_ascii=False, indent=2)
+          with THC_JSON.open("w", encoding="utf-8") as f:
+              json.dump(thc_rows, f, ensure_ascii=False, indent=2)
+
+          # Build hotel-name lookup for classifying old combined cache keys.
+          # Cache keys are JSON strings containing generated query arrays.
+          def norm(s: str) -> str:
+              s = (s or "").lower()
+              s = re.sub(r"\s+", " ", s).strip()
+              return s
+
+          name_to_program = {}
+          for r in fhr_rows:
+              n = norm(r.get("hotel_name", ""))
+              if n:
+                  name_to_program[n] = "fhr"
+          for r in thc_rows:
+              n = norm(r.get("hotel_name", ""))
+              if n and n not in name_to_program:
+                  name_to_program[n] = "thc"
+
+          # Longest-name-first reduces accidental partial matches.
+          sorted_names = sorted(name_to_program.keys(), key=len, reverse=True)
+
+          with COMBINED_CACHE.open(encoding="utf-8") as f:
+              combined_cache = json.load(f)
+
+          fhr_cache = {}
+          thc_cache = {}
+          unmatched = []
+
+          for key, value in combined_cache.items():
+              program = None
+              try:
+                  key_obj = json.loads(key)
+                  queries = key_obj.get("queries") or []
+                  query_blob = " || ".join(norm(q) for q in queries)
+              except Exception:
+                  query_blob = norm(key)
+
+              for hotel_name in sorted_names:
+                  if hotel_name and hotel_name in query_blob:
+                      program = name_to_program[hotel_name]
+                      break
+
+              if program == "fhr":
+                  fhr_cache[key] = value
+              elif program == "thc":
+                  thc_cache[key] = value
+              else:
+                  unmatched.append(key)
+
+          # Put unmatched keys in both caches so one-time split does not lose data.
+          for key in unmatched:
+              val = combined_cache[key]
+              fhr_cache[key] = val
+              thc_cache[key] = val
+
+          with FHR_CACHE.open("w", encoding="utf-8") as f:
+              json.dump(fhr_cache, f, ensure_ascii=False, indent=2)
+          with THC_CACHE.open("w", encoding="utf-8") as f:
+              json.dump(thc_cache, f, ensure_ascii=False, indent=2)
+
+          print(f"Split rows -> FHR: {len(fhr_rows)}, THC: {len(thc_rows)}")
+          print(f"Split cache keys -> FHR: {len(fhr_cache)}, THC: {len(thc_cache)}")
+          print(f"Unmatched cache keys duplicated into both caches: {len(unmatched)}")
+          PY
+
+      - name: Commit and push split cache artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            cache/fhr_hotels_geocoded_google.csv \
+            cache/thc_hotels_geocoded_google.csv \
+            cache/fhr_hotels_geocoded_google.json \
+            cache/thc_hotels_geocoded_google.json \
+            cache/geocode_cache_google_fhr.json \
+            cache/geocode_cache_google_thc.json
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "One-time split of combined FHR+THC geocode cache"
+            git push
+          else
+            echo "No changes detected after split."
+          fi

@@ -42,8 +42,14 @@ jobs:
           from pathlib import Path
 
           scraped_path = Path("cache/fhr_thc_hotels.csv")
-          geocoded_path = Path("cache/fhr_thc_hotels_geocoded_google.csv")
-          cache_path = Path("cache/geocode_cache_google_fhr_thc.json")
+          geocoded_paths = [
+              Path("cache/fhr_hotels_geocoded_google.csv"),
+              Path("cache/thc_hotels_geocoded_google.csv"),
+          ]
+          cache_paths = [
+              Path("cache/geocode_cache_google_fhr.json"),
+              Path("cache/geocode_cache_google_thc.json"),
+          ]
 
           def row_key(row):
               return (
@@ -53,13 +59,19 @@ jobs:
                   (row.get("hotel_name") or "").strip().lower(),
               )
 
-          if not cache_path.exists() or cache_path.stat().st_size == 0:
-              print("No cache index built (file missing or empty: cache/geocode_cache_google_fhr_thc.json).")
+          missing_or_empty_cache = [p for p in cache_paths if (not p.exists() or p.stat().st_size == 0)]
+          if missing_or_empty_cache:
+              print("No cache index built for one or more program caches:")
+              for p in missing_or_empty_cache:
+                  print(f"- {p}")
               Path("/tmp/fhrthc_changed").write_text("true", encoding="utf-8")
               raise SystemExit(0)
 
-          if not geocoded_path.exists():
-              print("No previous geocoded CSV found; treating as changed.")
+          missing_geocoded = [p for p in geocoded_paths if not p.exists()]
+          if missing_geocoded:
+              print("No previous geocoded CSV found for one or more programs; treating as changed.")
+              for p in missing_geocoded:
+                  print(f"- missing: {p}")
               Path("/tmp/fhrthc_changed").write_text("true", encoding="utf-8")
               raise SystemExit(0)
 
@@ -69,9 +81,10 @@ jobs:
                   scraped_rows.add(row_key(row))
 
           geocoded_rows = set()
-          with geocoded_path.open(newline="", encoding="utf-8") as f:
-              for row in csv.DictReader(f):
-                  geocoded_rows.add(row_key(row))
+          for geocoded_path in geocoded_paths:
+              with geocoded_path.open(newline="", encoding="utf-8") as f:
+                  for row in csv.DictReader(f):
+                      geocoded_rows.add(row_key(row))
 
           added = sorted(scraped_rows - geocoded_rows)
           removed = sorted(geocoded_rows - scraped_rows)
@@ -99,26 +112,55 @@ jobs:
           echo "changed=${changed}" >> "$GITHUB_OUTPUT"
           cat /tmp/fhrthc_changed >> /dev/null
 
-      - name: Run Google geocoding (FHR+THC)
+      - name: Run Google geocoding (FHR)
         if: steps.check_list.outputs.changed == 'true'
         env:
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
         run: |
           python google-convert.py \
-            --input cache/fhr_thc_hotels.csv \
-            --output cache/fhr_thc_hotels_geocoded_google.csv \
-            --cache cache/geocode_cache_google_fhr_thc.json \
+            --input cache/fhr_hotels.csv \
+            --output cache/fhr_hotels_geocoded_google.csv \
+            --cache cache/geocode_cache_google_fhr.json \
             --input-format fhrthc | tee -a fhrthc.log
+
+      - name: Run Google geocoding (THC)
+        if: steps.check_list.outputs.changed == 'true'
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+        run: |
+          python google-convert.py \
+            --input cache/thc_hotels.csv \
+            --output cache/thc_hotels_geocoded_google.csv \
+            --cache cache/geocode_cache_google_thc.json \
+            --input-format fhrthc | tee -a fhrthc.log
+
+      - name: Export geocoded CSV files to JSON
+        if: steps.check_list.outputs.changed == 'true'
+        run: |
+          python - << 'PY'
+          import json
+          import pandas as pd
+
+          for csv_path, json_path in [
+            ("cache/fhr_hotels_geocoded_google.csv", "cache/fhr_hotels_geocoded_google.json"),
+            ("cache/thc_hotels_geocoded_google.csv", "cache/thc_hotels_geocoded_google.json"),
+          ]:
+            df = pd.read_csv(csv_path)
+            with open(json_path, "w", encoding="utf-8") as f:
+              json.dump(df.astype(object).where(df.notnull(), "").to_dict(orient="records"), f, ensure_ascii=False, indent=2)
+            print(f"Wrote {json_path} ({len(df)} rows)")
+          PY
 
       - name: Write Google service account credentials
         if: steps.check_list.outputs.changed == 'true'
         run: |
           echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}' > service_account.json
 
-      - name: Update Google Sheet with geocoded FHR+THC CSV
+      - name: Update Google Sheets with geocoded FHR and THC CSVs
         if: steps.check_list.outputs.changed == 'true'
         env:
-          FHR_THC_SHEET_ID: ${{ vars.FHR_THC_SHEET_ID || secrets.FHR_THC_SHEET_ID }}
+          FHR_SHEET_ID: ${{ vars.FHR_SHEET_ID || secrets.FHR_SHEET_ID }}
+          THC_SHEET_ID: ${{ vars.THC_SHEET_ID || secrets.THC_SHEET_ID }}
         run: |
           python - << 'PY'
           import os
@@ -127,29 +169,38 @@ jobs:
           from google.oauth2.service_account import Credentials
           from gspread.exceptions import SpreadsheetNotFound
 
-          SHEET_ID = os.getenv("FHR_THC_SHEET_ID", "").strip()
-          CSV_PATH = "cache/fhr_thc_hotels_geocoded_google.csv"
-          if not SHEET_ID:
-            raise SystemExit("Missing FHR_THC_SHEET_ID (set vars.FHR_THC_SHEET_ID or secrets.FHR_THC_SHEET_ID)")
+          SHEETS = {
+            "FHR": (os.getenv("FHR_SHEET_ID", "").strip(), "cache/fhr_hotels_geocoded_google.csv"),
+            "THC": (os.getenv("THC_SHEET_ID", "").strip(), "cache/thc_hotels_geocoded_google.csv"),
+          }
+          missing = [name for name, (sid, _) in SHEETS.items() if not sid]
+          if missing:
+            raise SystemExit(
+              "Missing sheet id(s): "
+              + ", ".join(missing)
+              + " (set vars/secrets FHR_SHEET_ID and THC_SHEET_ID)"
+            )
 
-          df = pd.read_csv(CSV_PATH)
           scopes = ["https://www.googleapis.com/auth/spreadsheets"]
           creds = Credentials.from_service_account_file("service_account.json", scopes=scopes)
           client = gspread.authorize(creds)
           print(f"Using service account: {creds.service_account_email}")
-          print(f"Target sheet id prefix: {SHEET_ID[:6]}... (len={len(SHEET_ID)})")
 
-          try:
-            sh = client.open_by_key(SHEET_ID)
-          except SpreadsheetNotFound as ex:
-            raise SystemExit(
-              "Spreadsheet not found for this service account. "
-              "Share the target sheet with the service account email above."
-            ) from ex
-          ws = sh.sheet1
-          ws.clear()
-          rows = [df.columns.tolist()] + df.astype(object).where(df.notnull(), "").values.tolist()
-          ws.update(rows)
+          for name, (sheet_id, csv_path) in SHEETS.items():
+            print(f"{name} sheet id prefix: {sheet_id[:6]}... (len={len(sheet_id)})")
+            df = pd.read_csv(csv_path)
+            try:
+              sh = client.open_by_key(sheet_id)
+            except SpreadsheetNotFound as ex:
+              raise SystemExit(
+                f"{name} spreadsheet not found for this service account. "
+                "Share the target sheet with the service account email above."
+              ) from ex
+
+            ws = sh.sheet1
+            ws.clear()
+            rows = [df.columns.tolist()] + df.astype(object).where(df.notnull(), "").values.tolist()
+            ws.update(rows)
           PY
 
       - name: Send email with updated geocoded FHR+THC CSV
@@ -165,7 +216,10 @@ jobs:
           from: ${{ vars.EMAIL_FROM }}
           body: file://fhrthc.log
           attachments: |
-            cache/fhr_thc_hotels_geocoded_google.csv
+            cache/fhr_hotels_geocoded_google.csv
+            cache/thc_hotels_geocoded_google.csv
+            cache/fhr_hotels_geocoded_google.json
+            cache/thc_hotels_geocoded_google.json
 
       - name: Commit and push cache updates
         if: steps.check_list.outputs.changed == 'true'
@@ -173,7 +227,19 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add cache/fhr_thc_hotels.csv cache/fhr_thc_hotels_geocoded_google.csv cache/geocode_cache_google_fhr_thc.json || true
+          git add \
+            cache/fhr_thc_hotels.csv \
+            cache/fhr_thc_hotels.json \
+            cache/fhr_hotels.csv \
+            cache/fhr_hotels.json \
+            cache/thc_hotels.csv \
+            cache/thc_hotels.json \
+            cache/fhr_hotels_geocoded_google.csv \
+            cache/thc_hotels_geocoded_google.csv \
+            cache/fhr_hotels_geocoded_google.json \
+            cache/thc_hotels_geocoded_google.json \
+            cache/geocode_cache_google_fhr.json \
+            cache/geocode_cache_google_thc.json || true
 
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Update FHR+THC cache and geocoded hotels [CI]"
