@@ -88,24 +88,35 @@ def _click_all_show_more(panel):
 
 
 def _force_lazy_render(panel):
+    # Some brand panels are virtualized; keep scrolling until content
+    # growth stabilizes instead of using a fixed number of attempts.
+    stable_rounds = 0
+    last_height = -1
+    last_anchor_count = -1
+
     try:
-        panel.evaluate(
-            """
-        (root) => {
-            const el = root;
-            if (!el) return;
-            el.scrollTop = 0;
-        }
-        """
-        )
+        panel.evaluate("(el) => { if (el) el.scrollTop = 0; }")
     except Exception:
-        pass
-    for _ in range(10):
+        return
+
+    for _ in range(40):
         try:
-            panel.evaluate("(el) => { el.scrollTop = el.scrollHeight; }")
+            height = panel.evaluate("(el) => el ? el.scrollHeight : 0")
+            anchor_count = panel.evaluate("(el) => el ? el.querySelectorAll('a').length : 0")
+            panel.evaluate("(el) => { if (el) el.scrollTop = el.scrollHeight; }")
+            panel.page.wait_for_timeout(180)
         except Exception:
             break
-        panel.page.wait_for_timeout(150)
+
+        if height == last_height and anchor_count == last_anchor_count:
+            stable_rounds += 1
+        else:
+            stable_rounds = 0
+        last_height = height
+        last_anchor_count = anchor_count
+
+        if stable_rounds >= 3:
+            break
 
 
 def _collect_hotel_links(panel, base_url):
@@ -120,6 +131,19 @@ def _collect_hotel_links(panel, base_url):
       const abs = (href) => {
         try { return new URL(href, location.href).href; } catch { return href || ""; }
       };
+      const titleFromHref = (href) => {
+        try {
+          const u = new URL(href, location.href);
+          const parts = u.pathname.split("/").filter(Boolean);
+          const slug = parts[parts.length - 1] || "";
+          if (!slug) return "";
+          return slug
+            .replace(/[-_]+/g, " ")
+            .replace(/\b\w/g, c => c.toUpperCase());
+        } catch {
+          return "";
+        }
+      };
 
       const push = (name, href) => {
         name = clean(name);
@@ -131,8 +155,15 @@ def _collect_hotel_links(panel, base_url):
 
       // Primary: anchors that look like property links
       root.querySelectorAll("a").forEach(a => {
-        const t = clean(a.textContent || a.getAttribute("aria-label") || "");
+        let t = clean(
+          a.textContent ||
+          a.getAttribute("aria-label") ||
+          a.getAttribute("title") ||
+          a.getAttribute("data-track-label") ||
+          ""
+        );
         const href = a.getAttribute("href") || "";
+        if (!t && href) t = clean(titleFromHref(href));
         if (!t || t.length > 160) return;
         if (isJunkText(t)) return;
         push(t, href);
@@ -393,11 +424,23 @@ def _names_match(name1: str, name2: str) -> bool:
     if t1 == t2:
         return True
 
-    # Allow subset matches when there is substantial overlap and
-    # the non-overlapping tokens are only generic words.
+    # Avoid matching distinct hotels that only share city/region tokens
+    # (e.g. "Conrad Singapore Marina Bay" vs "Conrad Singapore Orchard").
     overlap = t1 & t2
-    smaller = min(len(t1), len(t2))
-    return bool(overlap) and len(overlap) >= max(1, smaller - 1)
+    if not overlap:
+        return False
+
+    smaller_set, larger_set = (t1, t2) if len(t1) <= len(t2) else (t2, t1)
+
+    # Strict subset tolerance: allow only when one side is almost identical
+    # to the other (at most one extra meaningful token).
+    if smaller_set.issubset(larger_set):
+        return (len(larger_set) - len(smaller_set)) <= 1
+
+    # Otherwise require very high overlap to avoid false positives.
+    overlap_ratio_1 = len(overlap) / len(t1)
+    overlap_ratio_2 = len(overlap) / len(t2)
+    return overlap_ratio_1 >= 0.8 and overlap_ratio_2 >= 0.8
 
 
 def _update_cache_with_new_hotels(
