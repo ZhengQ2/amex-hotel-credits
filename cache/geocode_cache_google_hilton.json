@@ -387,48 +387,6 @@
       "website": "https://www.hilton.com/en/hotels/usmksci-conrad-koh-samui/?SEO_id=GMB-APAC-CI-USMKSCI"
     }
   },
-  "{\"brand\": \"Conrad Hotels & Resorts\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Conrad Las Vegas  Conrad Hotels & Resorts Hotel\", \"Conrad Las Vegas  Conrad Hotels & Resorts Resort\", \"Conrad Las Vegas  Conrad Hotels & Resorts\", \"Conrad Las Vegas  Hilton Hotel\", \"Conrad Las Vegas  Hilton Resort\", \"Conrad Las Vegas  Hilton\", \"conrad las vegas Conrad Hotels & Resorts Hotel\", \"conrad las vegas Conrad Hotels & Resorts Resort\", \"conrad las vegas Conrad Hotels & Resorts\", \"conrad las vegas Hilton Hotel\", \"conrad las vegas Hilton Resort\", \"conrad las vegas Hilton\", \"Conrad Las Vegas  Hotel\", \"Conrad Las Vegas  Resort\", \"Conrad Las Vegas\"], \"v\": 3}": {
-    "lat": 36.1346181,
-    "lon": -115.1655924,
-    "formatted_address": "111 Resorts World Ave, Las Vegas, NV 89109, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJqXJSOhPEyIAR4P3NJ0XNHy0",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "111 Resorts World Ave, Las Vegas, NV 89109, USA",
-      "geometry": {
-        "location": {
-          "lat": 36.1346181,
-          "lng": -115.1655924
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 36.13607168029149,
-            "lng": -115.1640805197085
-          },
-          "southwest": {
-            "lat": 36.13337371970849,
-            "lng": -115.1667784802915
-          }
-        }
-      },
-      "name": "Conrad Las Vegas at Resorts World",
-      "place_id": "ChIJqXJSOhPEyIAR4P3NJ0XNHy0",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hilton.com/en/hotels/rslvhvh-resorts-world-las-vegas/?SEO_id=GMB-AMER-CN-LASCDCI&y_source=1_MjM0NTgwNzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
-    }
-  },
   "{\"brand\": \"Conrad Hotels & Resorts\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Conrad Maldives Rangali Island Conrad Hotels & Resorts Hotel\", \"Conrad Maldives Rangali Island Conrad Hotels & Resorts Resort\", \"Conrad Maldives Rangali Island Conrad Hotels & Resorts\", \"Conrad Maldives Rangali Island Hilton Hotel\", \"Conrad Maldives Rangali Island Hilton Resort\", \"Conrad Maldives Rangali Island Hilton\", \"mlehici conrad maldives rangali island Conrad Hotels & Resorts Hotel\", \"mlehici conrad maldives rangali island Conrad Hotels & Resorts Resort\", \"mlehici conrad maldives rangali island Conrad Hotels & Resorts\", \"mlehici conrad maldives rangali island Hilton Hotel\", \"mlehici conrad maldives rangali island Hilton Resort\", \"mlehici conrad maldives rangali island Hilton\", \"Conrad Maldives Rangali Island Hotel\", \"Conrad Maldives Rangali Island Resort\", \"Conrad Maldives Rangali Island\"], \"v\": 3}": {
     "lat": 3.6167957,
     "lon": 72.72283709999999,
@@ -13127,6 +13085,269 @@
         "spa"
       ],
       "website": "https://www.hilton.com/en/hotels/cdgtpwa-waldorf-astoria-versailles-trianon-palace/?SEO_id=GMB-EMEA-WA-CDGTPWA"
+    }
+  },
+  "{\"brand\": \"Curio Collection by Hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Keight Hotel Opatija, Curio Collection by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"Curio Collection by Hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"Curio Collection by Hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"Embassy Suites by Hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Embassy Suites by Hilton Aruba Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"Hilton Grand Vacation Club\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Grand Vacations Club Blue Mountain Canada\"], \"v\": 3}": null,
+  "{\"brand\": \"Conrad Hotels & Resorts\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Conrad Las Vegas  Conrad Hotels & Resorts Hotel\", \"Conrad Las Vegas  Conrad Hotels & Resorts Resort\", \"Conrad Las Vegas  Conrad Hotels & Resorts\", \"Conrad Las Vegas  Hilton Hotel\", \"Conrad Las Vegas  Hilton Resort\", \"Conrad Las Vegas  Hilton\", \"conrad las vegas Conrad Hotels & Resorts Hotel\", \"conrad las vegas Conrad Hotels & Resorts Resort\", \"conrad las vegas Conrad Hotels & Resorts\", \"conrad las vegas Hilton Hotel\", \"conrad las vegas Hilton Resort\", \"conrad las vegas Hilton\", \"Conrad Las Vegas  Hotel\", \"Conrad Las Vegas  Resort\", \"Conrad Las Vegas\"], \"v\": 3}": {
+    "lat": 36.1346181,
+    "lon": -115.1655924,
+    "formatted_address": "111 Resorts World Ave, Las Vegas, NV 89109, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJqXJSOhPEyIAR4P3NJ0XNHy0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "111 Resorts World Ave, Las Vegas, NV 89109, USA",
+      "geometry": {
+        "location": {
+          "lat": 36.1346181,
+          "lng": -115.1655924
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.13607168029149,
+            "lng": -115.1640805197085
+          },
+          "southwest": {
+            "lat": 36.13337371970849,
+            "lng": -115.1667784802915
+          }
+        }
+      },
+      "name": "Conrad Las Vegas at Resorts World",
+      "place_id": "ChIJqXJSOhPEyIAR4P3NJ0XNHy0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/rslvhvh-resorts-world-las-vegas/?SEO_id=GMB-AMER-CN-LASCDCI&y_source=1_MjM0NTgwNzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Keight Hotel Opatija, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"Keight Hotel Opatija, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"Keight Hotel Opatija, Curio Collection by Hilton Curio Collection by Hilton\", \"Keight Hotel Opatija, Curio Collection by Hilton Hilton Hotel\", \"Keight Hotel Opatija, Curio Collection by Hilton Hilton Resort\", \"Keight Hotel Opatija, Curio Collection by Hilton Hilton\", \"zagopqq keight hotel opatija Curio Collection by Hilton Hotel\", \"zagopqq keight hotel opatija Curio Collection by Hilton Resort\", \"zagopqq keight hotel opatija Curio Collection by Hilton\", \"zagopqq keight hotel opatija Hilton Hotel\", \"zagopqq keight hotel opatija Hilton Resort\", \"zagopqq keight hotel opatija Hilton\", \"Keight Hotel Opatija, Curio Collection by Hilton Hotel\", \"Keight Hotel Opatija, Curio Collection by Hilton Resort\", \"Keight Hotel Opatija, Curio Collection by Hilton\"], \"v\": 3}": {
+    "lat": 45.3332713,
+    "lon": 14.3018543,
+    "formatted_address": "Ul. Velog Jože 2, 51410, Opatija, Croatia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJX2JetvWpZEcR7celQHOTTN0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Ul. Velog Jože 2, 51410, Opatija, Croatia",
+      "geometry": {
+        "location": {
+          "lat": 45.3332713,
+          "lng": 14.3018543
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.3345020802915,
+            "lng": 14.3033477802915
+          },
+          "southwest": {
+            "lat": 45.3318041197085,
+            "lng": 14.3006498197085
+          }
+        }
+      },
+      "name": "Keight Hotel Opatija, Curio Collection by Hilton",
+      "place_id": "ChIJX2JetvWpZEcR7celQHOTTN0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/zagopqq-keight-hotel-opatija/?SEO_id=GMB-EMEA-QQ-ZAGOPQQ"
+    }
+  },
+  "{\"brand\": \"Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Curio Collection by Hilton\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Hilton Hotel\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Hilton Resort\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Hilton\", \"tlnleqq le hameau des pesquiers ecolodge Curio Collection by Hilton Hotel\", \"tlnleqq le hameau des pesquiers ecolodge Curio Collection by Hilton Resort\", \"tlnleqq le hameau des pesquiers ecolodge Curio Collection by Hilton\", \"tlnleqq le hameau des pesquiers ecolodge Hilton Hotel\", \"tlnleqq le hameau des pesquiers ecolodge Hilton Resort\", \"tlnleqq le hameau des pesquiers ecolodge Hilton\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Hotel\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Resort\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton\"], \"v\": 3}": {
+    "lat": 43.067377,
+    "lon": 6.1474243,
+    "formatted_address": "Hameau des Pesq, 1729 Rte de Giens, 83400 Hyères, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ5-aV_DUhyRIRi1btWEhkduU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Hameau des Pesq, 1729 Rte de Giens, 83400 Hyères, France",
+      "geometry": {
+        "location": {
+          "lat": 43.067377,
+          "lng": 6.1474243
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.0687259802915,
+            "lng": 6.148773280291503
+          },
+          "southwest": {
+            "lat": 43.0660280197085,
+            "lng": 6.146075319708499
+          }
+        }
+      },
+      "name": "Le Hameau des Pesquiers Ecolodge & Spa, Curio Collection by Hilton",
+      "place_id": "ChIJ5-aV_DUhyRIRi1btWEhkduU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/tlnleqq-le-hameau-des-pesquiers-ecolodge/?SEO_id=GMB-EMEA-QQ-TLNLEQQ"
+    }
+  },
+  "{\"brand\": \"Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection by Hilton Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection by Hilton Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection by Hilton\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton\", \"pujmiqq zemi miches all inclusive resort Curio Collection by Hilton Hotel\", \"pujmiqq zemi miches all inclusive resort Curio Collection by Hilton Resort\", \"pujmiqq zemi miches all inclusive resort Curio Collection by Hilton\", \"pujmiqq zemi miches all inclusive resort Hilton Hotel\", \"pujmiqq zemi miches all inclusive resort Hilton Resort\", \"pujmiqq zemi miches all inclusive resort Hilton\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton\"], \"v\": 3}": {
+    "lat": 18.9830931,
+    "lon": -69.03408879999999,
+    "formatted_address": "Carr. Miches - Higüey km. 2, Miches 24000, Dominican Republic",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ9wLTzcovr44RtqkkstsljLs",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carr. Miches - Higüey km. 2, Miches 24000, Dominican Republic",
+      "geometry": {
+        "location": {
+          "lat": 18.9830931,
+          "lng": -69.03408879999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 18.9844408302915,
+            "lng": -69.03278726970849
+          },
+          "southwest": {
+            "lat": 18.9817428697085,
+            "lng": -69.0354852302915
+          }
+        }
+      },
+      "name": "Temptation Miches Resort",
+      "place_id": "ChIJ9wLTzcovr44RtqkkstsljLs",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.temptationpuntacana.com/"
+    }
+  },
+  "{\"brand\": \"Embassy Suites by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Embassy Suites by Hilton Aruba Resort Embassy Suites by Hilton Hotel\", \"Embassy Suites by Hilton Aruba Resort Embassy Suites by Hilton Resort\", \"Embassy Suites by Hilton Aruba Resort Embassy Suites by Hilton\", \"Embassy Suites by Hilton Aruba Resort Hilton Hotel\", \"Embassy Suites by Hilton Aruba Resort Hilton Resort\", \"Embassy Suites by Hilton Aruba Resort Hilton\", \"auajmes embassy suites aruba resort Embassy Suites by Hilton Hotel\", \"auajmes embassy suites aruba resort Embassy Suites by Hilton Resort\", \"auajmes embassy suites aruba resort Embassy Suites by Hilton\", \"auajmes embassy suites aruba resort Hilton Hotel\", \"auajmes embassy suites aruba resort Hilton Resort\", \"auajmes embassy suites aruba resort Hilton\", \"Embassy Suites by Hilton Aruba Resort Hotel\", \"Embassy Suites by Hilton Aruba Resort Resort\", \"Embassy Suites by Hilton Aruba Resort\"], \"v\": 3}": {
+    "lat": 12.5618169,
+    "lon": -70.0527259,
+    "formatted_address": "J.E. Irausquin Blvd 268, Noord, Aruba",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJI5_v78NHhY4RFuEetTSOfEI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "J.E. Irausquin Blvd 268, Noord, Aruba",
+      "geometry": {
+        "location": {
+          "lat": 12.5618169,
+          "lng": -70.0527259
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 12.5631038302915,
+            "lng": -70.05169601970849
+          },
+          "southwest": {
+            "lat": 12.5604058697085,
+            "lng": -70.05439398029151
+          }
+        }
+      },
+      "name": "Embassy Suites by Hilton Aruba Resort",
+      "place_id": "ChIJI5_v78NHhY4RFuEetTSOfEI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/auajmes-embassy-suites-aruba-resort/?SEO_id=GMB-AMER-ES-AUAJMES&y_source=1_NzU2NzQ3NjQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"Hilton Grand Vacation Club\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Grand Vacations Club Blue Mountain Canada Hilton Grand Vacation Club Hotel\", \"Hilton Grand Vacations Club Blue Mountain Canada Hilton Grand Vacation Club Resort\", \"Hilton Grand Vacations Club Blue Mountain Canada Hilton Grand Vacation Club\", \"Hilton Grand Vacations Club Blue Mountain Canada Hilton Hotel\", \"Hilton Grand Vacations Club Blue Mountain Canada Hilton Resort\", \"Hilton Grand Vacations Club Blue Mountain Canada Hilton\", \"yyzblgv Hilton grand vacations club blue mountain canada Hilton Grand Vacation Club Hotel\", \"yyzblgv Hilton grand vacations club blue mountain canada Hilton Grand Vacation Club Resort\", \"yyzblgv Hilton grand vacations club blue mountain canada Hilton Grand Vacation Club\", \"yyzblgv Hilton grand vacations club blue mountain canada Hilton Hotel\", \"yyzblgv Hilton grand vacations club blue mountain canada Hilton Resort\", \"yyzblgv Hilton grand vacations club blue mountain canada Hilton\", \"Hilton Grand Vacations Club Blue Mountain Canada Hotel\", \"Hilton Grand Vacations Club Blue Mountain Canada Resort\", \"Hilton Grand Vacations Club Blue Mountain Canada\"], \"v\": 3}": {
+    "lat": 44.5029333,
+    "lon": -80.3060916,
+    "formatted_address": "277 Jozo Weider Blvd, The Blue Mountains, ON L9Y 0V2, Canada",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJkcFS3M9wKogR5qIhdSSB9q8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "277 Jozo Weider Blvd, The Blue Mountains, ON L9Y 0V2, Canada",
+      "geometry": {
+        "location": {
+          "lat": 44.5029333,
+          "lng": -80.3060916
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 44.5042571302915,
+            "lng": -80.3047719697085
+          },
+          "southwest": {
+            "lat": 44.5015591697085,
+            "lng": -80.3074699302915
+          }
+        }
+      },
+      "name": "Hilton Grand Vacations Club Blue Mountain Canada",
+      "place_id": "ChIJkcFS3M9wKogR5qIhdSSB9q8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/yyzblgv-hilton-grand-vacations-club-blue-mountain-canada/?SEO_id=GMB-AMER-HH-YYZBLGV&y_source=1_NTUyOTExMDUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   }
 }
