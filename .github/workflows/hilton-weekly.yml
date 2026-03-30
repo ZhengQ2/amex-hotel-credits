@@ -67,25 +67,34 @@ jobs:
       - name: Update Google Sheet with geocoded Hilton CSV
         if: steps.check_list.outputs.changed == 'true'
         env:
-          HILTON_SHEET_ID: ${{ vars.HILTON_SHEET_ID }}
+          HILTON_SHEET_ID: ${{ vars.HILTON_SHEET_ID || secrets.HILTON_SHEET_ID }}
         run: |
           python - << 'PY'
           import os
           import pandas as pd
           import gspread
           from google.oauth2.service_account import Credentials
+          from gspread.exceptions import SpreadsheetNotFound
 
           SHEET_ID = os.getenv("HILTON_SHEET_ID", "").strip()
           CSV_PATH = "cache/hilton_hotels_geocoded_google.csv"
           if not SHEET_ID:
-            raise SystemExit("Missing vars.HILTON_SHEET_ID")
+            raise SystemExit("Missing HILTON_SHEET_ID (set vars.HILTON_SHEET_ID or secrets.HILTON_SHEET_ID)")
 
           df = pd.read_csv(CSV_PATH)
           scopes = ["https://www.googleapis.com/auth/spreadsheets"]
           creds = Credentials.from_service_account_file("service_account.json", scopes=scopes)
           client = gspread.authorize(creds)
+          print(f"Using service account: {creds.service_account_email}")
+          print(f"Target sheet id prefix: {SHEET_ID[:6]}... (len={len(SHEET_ID)})")
 
-          sh = client.open_by_key(SHEET_ID)
+          try:
+            sh = client.open_by_key(SHEET_ID)
+          except SpreadsheetNotFound as ex:
+            raise SystemExit(
+              "Spreadsheet not found for this service account. "
+              "Share the target sheet with the service account email above."
+            ) from ex
           ws = sh.sheet1
           ws.clear()
           rows = [df.columns.tolist()] + df.astype(object).where(df.notnull(), "").values.tolist()
