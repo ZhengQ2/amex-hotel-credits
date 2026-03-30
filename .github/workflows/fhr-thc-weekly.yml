@@ -25,7 +25,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas requests tenacity python-dotenv
+          pip install pandas requests tenacity python-dotenv gspread google-auth
 
       - name: Ensure cache directory exists
         run: mkdir -p cache
@@ -57,6 +57,39 @@ jobs:
             --output cache/fhr_thc_hotels_geocoded_google.csv \
             --cache cache/geocode_cache_google_fhr_thc.json \
             --input-format fhrthc | tee -a fhrthc.log
+
+      - name: Write Google service account credentials
+        if: steps.check_list.outputs.changed == 'true'
+        run: |
+          echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}' > service_account.json
+
+      - name: Update Google Sheet with geocoded FHR+THC CSV
+        if: steps.check_list.outputs.changed == 'true'
+        env:
+          FHR_THC_SHEET_ID: ${{ vars.FHR_THC_SHEET_ID }}
+        run: |
+          python - << 'PY'
+          import os
+          import pandas as pd
+          import gspread
+          from google.oauth2.service_account import Credentials
+
+          SHEET_ID = os.getenv("FHR_THC_SHEET_ID", "").strip()
+          CSV_PATH = "cache/fhr_thc_hotels_geocoded_google.csv"
+          if not SHEET_ID:
+            raise SystemExit("Missing vars.FHR_THC_SHEET_ID")
+
+          df = pd.read_csv(CSV_PATH)
+          scopes = ["https://www.googleapis.com/auth/spreadsheets"]
+          creds = Credentials.from_service_account_file("service_account.json", scopes=scopes)
+          client = gspread.authorize(creds)
+
+          sh = client.open_by_key(SHEET_ID)
+          ws = sh.sheet1
+          ws.clear()
+          rows = [df.columns.tolist()] + df.astype(object).where(df.notnull(), "").values.tolist()
+          ws.update(rows)
+          PY
 
       - name: Send email with updated geocoded FHR+THC CSV
         if: steps.check_list.outputs.changed == 'true'

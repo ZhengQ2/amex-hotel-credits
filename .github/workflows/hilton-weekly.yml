@@ -66,14 +66,19 @@ jobs:
 
       - name: Update Google Sheet with geocoded Hilton CSV
         if: steps.check_list.outputs.changed == 'true'
+        env:
+          HILTON_SHEET_ID: ${{ vars.HILTON_SHEET_ID }}
         run: |
           python - << 'PY'
+          import os
           import pandas as pd
           import gspread
           from google.oauth2.service_account import Credentials
 
-          SHEET_ID = "1YyLN_w8Es1gtMjL-l0SzTmXYbFjDHAAacbvBqvyfhio"
+          SHEET_ID = os.getenv("HILTON_SHEET_ID", "").strip()
           CSV_PATH = "cache/hilton_hotels_geocoded_google.csv"
+          if not SHEET_ID:
+            raise SystemExit("Missing vars.HILTON_SHEET_ID")
 
           df = pd.read_csv(CSV_PATH)
           scopes = ["https://www.googleapis.com/auth/spreadsheets"]
