@@ -21,6 +21,16 @@ def _clean_text(s: str) -> str:
     return s
 
 
+def _program_bucket(label: str) -> str:
+    raw = _clean_text(label).upper()
+    compact = re.sub(r"[^A-Z0-9]+", "", raw)
+    if "FHR" in compact or "FINEHOTELS" in compact:
+        return "FHR"
+    if "THC" in compact or "HOTELCOLLECTION" in compact:
+        return "THC"
+    return ""
+
+
 class AmexCardHTMLParser(HTMLParser):
     """Parse AMEX property results cards from server-rendered HTML."""
 
@@ -321,8 +331,22 @@ def _write_rows(rows, out_path):
 
 
 def write_output(rows):
-    fhr_rows = [r for r in rows if (r.get("program_label", "") or "").strip().upper() == "FHR"]
-    thc_rows = [r for r in rows if (r.get("program_label", "") or "").strip().upper() == "THC"]
+    fhr_rows = []
+    thc_rows = []
+    unknown_rows = 0
+
+    for row in rows:
+        bucket = _program_bucket(row.get("program_label", ""))
+        if bucket == "FHR":
+            fhr_rows.append(row)
+        elif bucket == "THC":
+            thc_rows.append(row)
+        else:
+            unknown_rows += 1
+
+    if unknown_rows:
+        print(f"Skipped {unknown_rows} rows with unknown program labels.")
+
     _write_rows(fhr_rows, OUT_FHR)
     _write_rows(thc_rows, OUT_THC)
 
