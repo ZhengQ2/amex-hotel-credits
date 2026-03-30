@@ -393,11 +393,23 @@ def _names_match(name1: str, name2: str) -> bool:
     if t1 == t2:
         return True
 
-    # Allow subset matches when there is substantial overlap and
-    # the non-overlapping tokens are only generic words.
+    # Avoid matching distinct hotels that only share city/region tokens
+    # (e.g. "Conrad Singapore Marina Bay" vs "Conrad Singapore Orchard").
     overlap = t1 & t2
-    smaller = min(len(t1), len(t2))
-    return bool(overlap) and len(overlap) >= max(1, smaller - 1)
+    if not overlap:
+        return False
+
+    smaller_set, larger_set = (t1, t2) if len(t1) <= len(t2) else (t2, t1)
+
+    # Strict subset tolerance: allow only when one side is almost identical
+    # to the other (at most one extra meaningful token).
+    if smaller_set.issubset(larger_set):
+        return (len(larger_set) - len(smaller_set)) <= 1
+
+    # Otherwise require very high overlap to avoid false positives.
+    overlap_ratio_1 = len(overlap) / len(t1)
+    overlap_ratio_2 = len(overlap) / len(t2)
+    return overlap_ratio_1 >= 0.8 and overlap_ratio_2 >= 0.8
 
 
 def _update_cache_with_new_hotels(
