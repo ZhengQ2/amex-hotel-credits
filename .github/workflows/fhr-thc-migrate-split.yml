@@ -1,0 +1,193 @@
+name: Migrate FHR/THC Tables to Split Format
+
+on:
+  workflow_dispatch:
+
+jobs:
+  migrate-fhr-thc-split:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas gspread google-auth
+
+      - name: Ensure cache directory exists
+        run: mkdir -p cache
+
+      - name: Split legacy combined FHR+THC CSVs into FHR/THC CSVs
+        run: |
+          python - << 'PY'
+          import json
+          from pathlib import Path
+          import pandas as pd
+
+          def normalize_program(s: str) -> str:
+              return (s or "").strip().upper()
+
+          def split_csv(source: Path, fhr_out: Path, thc_out: Path) -> None:
+              if not source.exists():
+                  print(f"Missing source CSV (skip): {source}")
+                  return
+              df = pd.read_csv(source)
+              program_col = None
+              if "program_label" in df.columns:
+                  program_col = "program_label"
+              elif "group_label" in df.columns:
+                  # Legacy geocoded files may only have group_label; for
+                  # FHR/THC feeds this value mirrors the program label.
+                  program_col = "group_label"
+              if not program_col:
+                  print(
+                      f"Missing program discriminator in {source}; "
+                      "expected 'program_label' or 'group_label'. Skipping."
+                  )
+                  return
+
+              fhr_df = df[df[program_col].astype(str).map(normalize_program) == "FHR"].copy()
+              thc_df = df[df[program_col].astype(str).map(normalize_program) == "THC"].copy()
+
+              fhr_df.to_csv(fhr_out, index=False)
+              thc_df.to_csv(thc_out, index=False)
+              print(f"Wrote {len(fhr_df)} rows -> {fhr_out}")
+              print(f"Wrote {len(thc_df)} rows -> {thc_out}")
+
+          split_csv(
+              Path("cache/fhr_thc_hotels.csv"),
+              Path("cache/fhr_hotels.csv"),
+              Path("cache/thc_hotels.csv"),
+          )
+          split_csv(
+              Path("cache/fhr_thc_hotels_geocoded_google.csv"),
+              Path("cache/fhr_hotels_geocoded_google.csv"),
+              Path("cache/thc_hotels_geocoded_google.csv"),
+          )
+
+          legacy_cache = Path("cache/geocode_cache_google_fhr_thc.json")
+          fhr_cache = Path("cache/geocode_cache_google_fhr.json")
+          thc_cache = Path("cache/geocode_cache_google_thc.json")
+
+          if legacy_cache.exists():
+              payload = json.loads(legacy_cache.read_text(encoding="utf-8"))
+              if not fhr_cache.exists():
+                  fhr_cache.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+                  print(f"Seeded cache from legacy cache -> {fhr_cache}")
+              if not thc_cache.exists():
+                  thc_cache.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+                  print(f"Seeded cache from legacy cache -> {thc_cache}")
+          else:
+              print("Legacy cache file missing; not seeding split caches.")
+          PY
+
+      - name: Write Google service account credentials
+        run: |
+          echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}' > service_account.json
+
+      - name: Update Google Sheet with geocoded FHR CSV
+        env:
+          FHR_SHEET_ID: ${{ vars.FHR_SHEET_ID || secrets.FHR_SHEET_ID }}
+        run: |
+          python - << 'PY'
+          import os
+          import pandas as pd
+          import gspread
+          from google.oauth2.service_account import Credentials
+          from gspread.exceptions import SpreadsheetNotFound
+
+          SHEET_ID = os.getenv("FHR_SHEET_ID", "").strip()
+          CSV_PATH = "cache/fhr_hotels_geocoded_google.csv"
+          if not SHEET_ID:
+            raise SystemExit("Missing FHR_SHEET_ID (set vars.FHR_SHEET_ID or secrets.FHR_SHEET_ID)")
+          if not os.path.exists(CSV_PATH):
+            raise SystemExit(f"Missing required CSV for FHR sheet update: {CSV_PATH}")
+
+          df = pd.read_csv(CSV_PATH)
+          scopes = ["https://www.googleapis.com/auth/spreadsheets"]
+          creds = Credentials.from_service_account_file("service_account.json", scopes=scopes)
+          client = gspread.authorize(creds)
+          print(f"Using service account: {creds.service_account_email}")
+          print(f"Target sheet id prefix: {SHEET_ID[:6]}... (len={len(SHEET_ID)})")
+
+          try:
+            sh = client.open_by_key(SHEET_ID)
+          except SpreadsheetNotFound as ex:
+            raise SystemExit(
+              "Spreadsheet not found for this service account. "
+              "Share the target sheet with the service account email above."
+            ) from ex
+
+          ws = sh.sheet1
+          ws.clear()
+          rows = [df.columns.tolist()] + df.astype(object).where(df.notnull(), "").values.tolist()
+          ws.update(rows)
+          PY
+
+      - name: Update Google Sheet with geocoded THC CSV
+        env:
+          THC_SHEET_ID: ${{ vars.THC_SHEET_ID || secrets.THC_SHEET_ID }}
+        run: |
+          python - << 'PY'
+          import os
+          import pandas as pd
+          import gspread
+          from google.oauth2.service_account import Credentials
+          from gspread.exceptions import SpreadsheetNotFound
+
+          SHEET_ID = os.getenv("THC_SHEET_ID", "").strip()
+          CSV_PATH = "cache/thc_hotels_geocoded_google.csv"
+          if not SHEET_ID:
+            raise SystemExit("Missing THC_SHEET_ID (set vars.THC_SHEET_ID or secrets.THC_SHEET_ID)")
+          if not os.path.exists(CSV_PATH):
+            raise SystemExit(f"Missing required CSV for THC sheet update: {CSV_PATH}")
+
+          df = pd.read_csv(CSV_PATH)
+          scopes = ["https://www.googleapis.com/auth/spreadsheets"]
+          creds = Credentials.from_service_account_file("service_account.json", scopes=scopes)
+          client = gspread.authorize(creds)
+          print(f"Using service account: {creds.service_account_email}")
+          print(f"Target sheet id prefix: {SHEET_ID[:6]}... (len={len(SHEET_ID)})")
+
+          try:
+            sh = client.open_by_key(SHEET_ID)
+          except SpreadsheetNotFound as ex:
+            raise SystemExit(
+              "Spreadsheet not found for this service account. "
+              "Share the target sheet with the service account email above."
+            ) from ex
+
+          ws = sh.sheet1
+          ws.clear()
+          rows = [df.columns.tolist()] + df.astype(object).where(df.notnull(), "").values.tolist()
+          ws.update(rows)
+          PY
+
+      - name: Commit and push migrated split artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            cache/fhr_hotels_geocoded_google.csv \
+            cache/thc_hotels_geocoded_google.csv \
+            cache/geocode_cache_google_fhr.json \
+            cache/geocode_cache_google_thc.json || true
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Migrate legacy FHR+THC artifacts to split format [CI]"
+            git push
+          else
+            echo "No migration artifact changes to commit."
+          fi

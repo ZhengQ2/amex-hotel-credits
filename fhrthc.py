@@ -7,7 +7,8 @@ from urllib.parse import urljoin
 from urllib.request import HTTPCookieProcessor, Request, build_opener
 
 URL_TEMPLATE = "https://www.americanexpress.com/en-us/travel/discover/property-results/r/{page}"
-OUT = "cache/fhr_thc_hotels.csv"
+OUT_FHR = "cache/fhr_hotels.csv"
+OUT_THC = "cache/thc_hotels.csv"
 
 
 def _clean_text(s: str) -> str:
@@ -289,7 +290,7 @@ def scrape_all_pages(max_pages=50):
     return list(dedup.values())
 
 
-def write_output(rows):
+def _write_rows(rows, out_path):
     cols = [
         "program_label",
         "brand_label",
@@ -310,13 +311,20 @@ def write_output(rows):
         ),
     )
 
-    with open(OUT, "w", newline="", encoding="utf-8") as f:
+    with open(out_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=cols)
         writer.writeheader()
         for row in sorted_rows:
             writer.writerow({c: row.get(c, "") for c in cols})
 
-    print(f"Wrote {len(sorted_rows)} rows -> {OUT} (source=dumb-fetch)")
+    print(f"Wrote {len(sorted_rows)} rows -> {out_path} (source=dumb-fetch)")
+
+
+def write_output(rows):
+    fhr_rows = [r for r in rows if (r.get("program_label", "") or "").strip().upper() == "FHR"]
+    thc_rows = [r for r in rows if (r.get("program_label", "") or "").strip().upper() == "THC"]
+    _write_rows(fhr_rows, OUT_FHR)
+    _write_rows(thc_rows, OUT_THC)
 
 
 def main():
