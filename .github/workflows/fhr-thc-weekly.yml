@@ -37,77 +37,36 @@ jobs:
       - name: Did FHR or THC list change vs geocode cache?
         id: check_list
         run: |
-          python - << 'PY'
-          import csv
-          from pathlib import Path
-
-          SOURCES = {
-              "fhr": {
-                  "scraped": Path("cache/fhr_hotels.csv"),
-                  "geocoded": Path("cache/fhr_hotels_geocoded_google.csv"),
-                  "flag": Path("/tmp/fhr_changed"),
-              },
-              "thc": {
-                  "scraped": Path("cache/thc_hotels.csv"),
-                  "geocoded": Path("cache/thc_hotels_geocoded_google.csv"),
-                  "flag": Path("/tmp/thc_changed"),
-              },
-          }
-
-          def row_key(row):
-              return (
-                  (row.get("program_label") or "").strip().lower(),
-                  (row.get("brand_label") or "").strip().lower(),
-                  (row.get("hotel_location") or "").strip().lower(),
-                  (row.get("hotel_name") or "").strip().lower(),
-              )
-
-          for name, paths in SOURCES.items():
-              scraped_path = paths["scraped"]
-              geocoded_path = paths["geocoded"]
-              flag_path = paths["flag"]
-
-              if not geocoded_path.exists():
-                  print(f"[{name}] No previous geocoded CSV found; treating as changed.")
-                  flag_path.write_text("true", encoding="utf-8")
-                  continue
-
-              scraped_rows = set()
-              with scraped_path.open(newline="", encoding="utf-8") as f:
-                  for row in csv.DictReader(f):
-                      scraped_rows.add(row_key(row))
-
-              geocoded_rows = set()
-              with geocoded_path.open(newline="", encoding="utf-8") as f:
-                  for row in csv.DictReader(f):
-                      geocoded_rows.add(row_key(row))
-
-              added = sorted(scraped_rows - geocoded_rows)
-              removed = sorted(geocoded_rows - scraped_rows)
-
-              if added:
-                  print(f"[{name}] Hotels NOT found in geocode cache (new hotels):")
-                  for p, b, l, h in added[:30]:
-                      print(f"- {h} [program: {p}] [brand: {b}] [location: {l}]")
-                  if len(added) > 30:
-                      print(f"... and {len(added) - 30} more")
-
-              if removed:
-                  print(f"[{name}] Hotels in geocode cache but NOT in current scraped list (removed):")
-                  for p, b, l, h in removed[:30]:
-                      print(f"- {h} [program: {p}] [brand: {b}] [location: {l}]")
-                  if len(removed) > 30:
-                      print(f"... and {len(removed) - 30} more")
-
-              flag_path.write_text("true" if (added or removed) else "false", encoding="utf-8")
-          PY
-
-          fhr_changed="$(cat /tmp/fhr_changed)"
-          thc_changed="$(cat /tmp/thc_changed)"
+          fhr_changed="false"
+          thc_changed="false"
           any_changed="false"
+
+          if [ ! -s cache/geocode_cache_google_fhr_thc.json ]; then
+            echo "No cache index built (file missing or empty: cache/geocode_cache_google_fhr_thc.json)." | tee -a fhrthc.log
+            fhr_changed="true"
+            thc_changed="true"
+            any_changed="true"
+          elif grep -q "FHR/THC hotels NOT found in geocode cache (new hotels):" fhrthc.log || \
+               grep -q "FHR/THC hotels in geocode cache but NOT in current scraped list (removed):" fhrthc.log; then
+            any_changed="true"
+            if grep -q "\[program: FHR\]" fhrthc.log; then
+              fhr_changed="true"
+            fi
+            if grep -q "\[program: THC\]" fhrthc.log; then
+              thc_changed="true"
+            fi
+            # If change was detected but per-program tags are missing/unknown,
+            # treat both programs as changed to avoid skipping required updates.
+            if [ "$fhr_changed" = "false" ] && [ "$thc_changed" = "false" ]; then
+              fhr_changed="true"
+              thc_changed="true"
+            fi
+          fi
+
           if [ "$fhr_changed" = "true" ] || [ "$thc_changed" = "true" ]; then
             any_changed="true"
           fi
+
           echo "fhr_changed=${fhr_changed}" >> "$GITHUB_OUTPUT"
           echo "thc_changed=${thc_changed}" >> "$GITHUB_OUTPUT"
           echo "any_changed=${any_changed}" >> "$GITHUB_OUTPUT"
