@@ -1,4 +1,5 @@
 import csv
+import difflib
 import json
 import os
 import re
@@ -402,7 +403,45 @@ def _names_match(name1: str, name2: str) -> bool:
 
     overlap_ratio_1 = len(overlap) / len(t1)
     overlap_ratio_2 = len(overlap) / len(t2)
-    return overlap_ratio_1 >= 0.8 and overlap_ratio_2 >= 0.8
+    if overlap_ratio_1 >= 0.8 and overlap_ratio_2 >= 0.8:
+        return True
+
+    # Final fallback for near-identical renames with punctuation/word-order
+    # differences after upstream copy updates.
+    return difflib.SequenceMatcher(a=n1, b=n2).ratio() >= 0.92
+
+
+def _likely_same_hotel_rename(name1: str, name2: str) -> bool:
+    """Looser matcher used only to reconcile new-vs-removed rename churn."""
+    if _names_match(name1, name2):
+        return True
+
+    noise = {
+        "hotel", "resort", "spa", "and", "the", "at", "by", "collection",
+        "autograph", "luxury", "curio", "hilton", "marriott", "hyatt",
+        "jw", "canopy", "graduate", "a", "an", "of"
+    }
+
+    def sig_tokens(s: str) -> set:
+        return {
+            t
+            for t in re.findall(r"[a-z0-9]+", _clean_text(s).lower())
+            if t and t not in noise
+        }
+
+    t1 = sig_tokens(name1)
+    t2 = sig_tokens(name2)
+    if not t1 or not t2:
+        return False
+    overlap = t1 & t2
+    if len(overlap) < 2:
+        return False
+
+    smaller, larger = (t1, t2) if len(t1) <= len(t2) else (t2, t1)
+    if smaller.issubset(larger):
+        return True
+
+    return (len(overlap) / len(smaller)) >= 0.8
 
 
 def _load_geocode_cache_index(cache_path: str = CACHE_FILE):
@@ -597,6 +636,37 @@ def main():
         if marker not in seen_removed:
             seen_removed.add(marker)
             removed_hotels.append(marker)
+
+    # Reconcile obvious rename pairs so they do not show up as both
+    # "new hotel" and "removed hotel" in the same run.
+    if new_hotels and removed_hotels:
+        consumed_removed = set()
+        reconciled_new = []
+        for row in new_hotels:
+            new_name = row["hotel_name"]
+            matched_idx = None
+            for idx, (removed_name, _removed_program) in enumerate(removed_hotels):
+                if idx in consumed_removed:
+                    continue
+                if _likely_same_hotel_rename(new_name, removed_name):
+                    matched_idx = idx
+                    break
+            if matched_idx is None:
+                reconciled_new.append(row)
+            else:
+                consumed_removed.add(matched_idx)
+
+        if consumed_removed:
+            keep_pairs = set()
+            for idx, pair in enumerate(removed_hotels):
+                if idx not in consumed_removed:
+                    keep_pairs.add(pair)
+            removed_hotels = [p for p in removed_hotels if p in keep_pairs]
+            removed_cache_keys = [
+                k for k in removed_cache_keys
+                if cached_hotels.get(k) in keep_pairs
+            ]
+            new_hotels = reconciled_new
 
     if not removed_hotels:
         print("No cached FHR/THC hotels appear to have been removed from the current list.")
