@@ -413,7 +413,7 @@ def _load_geocode_cache_index(cache_path: str = CACHE_FILE):
         except Exception:
             continue
 
-        program = _program_bucket(meta.get("brand", ""))
+        program = _program_bucket(meta.get("program", "") or meta.get("brand", ""))
         queries_raw = meta.get("queries", []) or []
         queries_clean = [_clean_text(q).lower() for q in queries_raw if q]
         if not queries_clean:
@@ -423,7 +423,12 @@ def _load_geocode_cache_index(cache_path: str = CACHE_FILE):
         if program:
             index.setdefault(program, set()).update(queries_clean)
 
-        canonical_name = queries_clean[-1]
+        # Query lists are ordered strongest -> weakest and often end with
+        # location-expanded variants. Picking the last query as canonical can
+        # create false "removed" matches because those entries include city/
+        # country tokens that are absent from scraped hotel names.
+        # Prefer the shortest query as the canonical cache name.
+        canonical_name = min(queries_clean, key=len)
         cached_hotels.add((canonical_name, program))
 
     return index, cached_hotels
@@ -526,11 +531,11 @@ def _remove_hotels_from_cache(
         for key in cache.keys():
             try:
                 meta = json.loads(key)
-                program = _program_bucket(meta.get("brand", ""))
-                queries = meta.get("queries", [])
+                program = _program_bucket(meta.get("program", "") or meta.get("brand", ""))
+                queries = [_clean_text(q).lower() for q in (meta.get("queries", []) or []) if q]
                 if not queries:
                     continue
-                canonical_name = _clean_text(queries[-1]).lower()
+                canonical_name = min(queries, key=len)
 
                 for removed_name, removed_program in removed_hotels:
                     removed_name_clean = _clean_text(removed_name).lower()
