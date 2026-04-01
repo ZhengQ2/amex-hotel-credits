@@ -364,6 +364,14 @@ def _names_match(name1: str, name2: str) -> bool:
     if n1 == n2:
         return True
 
+    # Many AMEX renames append neighborhood/location qualifiers while
+    # keeping the original base name intact (e.g., "... Downtown" ->
+    # "... Downtown Beale Street"). Treat long, explicit containment as
+    # a match to avoid "new + removed" churn for the same hotel.
+    shorter, longer = (n1, n2) if len(n1) <= len(n2) else (n2, n1)
+    if len(shorter) >= 18 and (f" {shorter} " in f" {longer} "):
+        return True
+
     generic_tokens = {
         "hotel", "resort", "spa", "and", "the", "at", "by", "&",
         "collection", "club", "property"
@@ -399,13 +407,13 @@ def _names_match(name1: str, name2: str) -> bool:
 
 def _load_geocode_cache_index(cache_path: str = CACHE_FILE):
     if not os.path.exists(cache_path):
-        return {"__any__": set()}, set()
+        return {"__any__": set()}, {}
 
     with open(cache_path, "r", encoding="utf-8") as f:
         cache = json.load(f)
 
     index = {"__any__": set()}
-    cached_hotels = set()
+    cached_hotels = {}
 
     for key in cache.keys():
         try:
@@ -429,7 +437,7 @@ def _load_geocode_cache_index(cache_path: str = CACHE_FILE):
         # country tokens that are absent from scraped hotel names.
         # Prefer the shortest query as the canonical cache name.
         canonical_name = min(queries_clean, key=len)
-        cached_hotels.add((canonical_name, program))
+        cached_hotels[key] = (canonical_name, program)
 
     return index, cached_hotels
 
@@ -514,10 +522,9 @@ def _update_cache_with_new_hotels(
 
 def _remove_hotels_from_cache(
     cache_path: str,
-    removed_hotels: List[Tuple[str, str]],
-    scraped_index: Dict[str, List[str]],
+    keys_to_remove: List[str],
 ) -> int:
-    if not removed_hotels:
+    if not keys_to_remove:
         return 0
 
     try:
@@ -526,30 +533,6 @@ def _remove_hotels_from_cache(
 
         with open(cache_path, "r", encoding="utf-8") as f:
             cache = json.load(f)
-
-        keys_to_remove = []
-        for key in cache.keys():
-            try:
-                meta = json.loads(key)
-                program = _program_bucket(meta.get("program", "") or meta.get("brand", ""))
-                queries = [_clean_text(q).lower() for q in (meta.get("queries", []) or []) if q]
-                if not queries:
-                    continue
-                canonical_name = min(queries, key=len)
-
-                for removed_name, removed_program in removed_hotels:
-                    removed_name_clean = _clean_text(removed_name).lower()
-                    removed_program_clean = _program_bucket(removed_program)
-
-                    if removed_program_clean and program and program != removed_program_clean:
-                        continue
-
-                    if _names_match(canonical_name, removed_name_clean):
-                        if not _is_cached_hotel_in_scraped(canonical_name, program, scraped_index):
-                            keys_to_remove.append(key)
-                            break
-            except Exception:
-                continue
 
         removed_count = 0
         for key in keys_to_remove:
@@ -603,10 +586,17 @@ def main():
         for r in new_hotels:
             print(f"- {r['hotel_name']}  [program: {_program_bucket(r['program_label'])}]  -> {r['hotel_url']}")
 
-    removed_hotels = []
-    for cached_name, cached_program in cached_hotels:
-        if not _is_cached_hotel_in_scraped(cached_name, cached_program, scraped_index):
-            removed_hotels.append((cached_name, cached_program))
+    removed_hotels: List[Tuple[str, str]] = []
+    removed_cache_keys: List[str] = []
+    seen_removed = set()
+    for cache_key, (cached_name, cached_program) in cached_hotels.items():
+        if _is_cached_hotel_in_scraped(cached_name, cached_program, scraped_index):
+            continue
+        removed_cache_keys.append(cache_key)
+        marker = (cached_name, cached_program)
+        if marker not in seen_removed:
+            seen_removed.add(marker)
+            removed_hotels.append(marker)
 
     if not removed_hotels:
         print("No cached FHR/THC hotels appear to have been removed from the current list.")
@@ -624,10 +614,13 @@ def main():
             print("⚠ Failed to add hotels to cache (check file permissions)")
 
     if removed_hotels:
-        print(f"\nRemoving {len(removed_hotels)} FHR/THC hotels from cache...")
-        removed = _remove_hotels_from_cache(CACHE_FILE, removed_hotels, scraped_index)
+        print(
+            f"\nRemoving {len(removed_hotels)} FHR/THC hotels "
+            f"({len(removed_cache_keys)} cache entries) from cache..."
+        )
+        removed = _remove_hotels_from_cache(CACHE_FILE, removed_cache_keys)
         if removed > 0:
-            print(f"✓ Removed {removed} hotel(s) from cache")
+            print(f"✓ Removed {removed} cache entr{'y' if removed == 1 else 'ies'}")
         elif removed == 0:
             print("⚠ Failed to remove hotels from cache (check file permissions)")
 
