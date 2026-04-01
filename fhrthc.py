@@ -571,6 +571,19 @@ def _remove_hotels_from_cache(
         return 0
 
 
+def _print_change_summary(new_hotels: List[Dict[str, Any]], removed_hotels: List[Tuple[str, str]]) -> bool:
+    """Emit a machine-readable change summary based on script output.
+
+    Returns True when at least one hotel was added or removed.
+    """
+    change_detected = bool(new_hotels or removed_hotels)
+    print("\nChange summary:")
+    print(f"- New hotels: {len(new_hotels)}")
+    print(f"- Removed hotels: {len(removed_hotels)}")
+    print(f"- CHANGE_DETECTED={str(change_detected).lower()}")
+    return change_detected
+
+
 def main():
     rows = scrape_all_pages()
     if not rows:
@@ -614,6 +627,8 @@ def main():
         print("FHR/THC hotels in geocode cache but NOT in current scraped list (removed):")
         for name, program in sorted(removed_hotels, key=lambda x: (x[1], x[0])):
             print(f"- {name}  [program: {program or 'UNKNOWN'}]")
+
+    _print_change_summary(new_hotels, removed_hotels)
 
     if new_hotels:
         print(f"\nUpdating cache with {len(new_hotels)} new FHR/THC hotels...")
