@@ -7,7 +7,7 @@ import unicodedata
 from html.parser import HTMLParser
 from typing import Any, Dict, List, Tuple
 from urllib.error import HTTPError, URLError
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse, unquote
 from urllib.request import HTTPCookieProcessor, Request, build_opener
 
 URL_TEMPLATE = "https://www.americanexpress.com/en-us/travel/discover/property-results/r/{page}"
@@ -434,8 +434,11 @@ def _likely_same_hotel_rename(name1: str, name2: str) -> bool:
     if not t1 or not t2:
         return False
     overlap = t1 & t2
-    if len(overlap) < 2:
-        return False
+    if len(overlap) == 1:
+        # Some known rename pairs only preserve one distinctive token
+        # (e.g., "Hotel AKA Brickell" -> "The Brickell Arch ...").
+        token = next(iter(overlap))
+        return len(token) >= 7
 
     smaller, larger = (t1, t2) if len(t1) <= len(t2) else (t2, t1)
     if smaller.issubset(larger):
@@ -481,17 +484,37 @@ def _load_geocode_cache_index(cache_path: str = CACHE_FILE):
     return index, cached_hotels
 
 
-def _is_hotel_in_cache(hotel_name: str, program: str, cache_index) -> bool:
-    name = _clean_text(hotel_name).lower()
+def _slug_title_from_url(url: str) -> str:
+    if not url:
+        return ""
+    try:
+        parsed = urlparse(url)
+        segs = [s for s in parsed.path.split("/") if s]
+        if not segs:
+            return ""
+        slug = unquote(segs[-1])
+        slug = re.sub(r"[^A-Za-z0-9 -]+", " ", slug)
+        slug = re.sub(r"[-_]+", " ", slug)
+        return _clean_text(slug)
+    except Exception:
+        return ""
+
+
+def _is_hotel_in_cache(hotel_name: str, program: str, cache_index, hotel_url: str = "") -> bool:
+    name_candidates = [_clean_text(hotel_name).lower()]
+    slug_title = _slug_title_from_url(hotel_url).lower()
+    if slug_title:
+        name_candidates.append(slug_title)
     program_key = _program_bucket(program)
 
     scoped_queries = set(cache_index.get("__any__", set()))
     if program_key:
         scoped_queries.update(cache_index.get(program_key, set()))
 
-    for query in scoped_queries:
-        if _names_match(name, query):
-            return True
+    for candidate in name_candidates:
+        for query in scoped_queries:
+            if _names_match(candidate, query):
+                return True
     return False
 
 
@@ -529,7 +552,7 @@ def _update_cache_with_new_hotels(
         for hotel_data in new_hotels:
             hotel_name = _clean_text(hotel_data["hotel_name"])
             program = _program_bucket(hotel_data["program_label"])
-            if _is_hotel_in_cache(hotel_name, program, cache_index):
+            if _is_hotel_in_cache(hotel_name, program, cache_index, hotel_data.get("hotel_url", "")):
                 continue
 
             cache_key = json.dumps(
@@ -615,7 +638,12 @@ def main():
     new_hotels = [
         row
         for row in rows
-        if not _is_hotel_in_cache(row["hotel_name"], row["program_label"], cache_index)
+        if not _is_hotel_in_cache(
+            row["hotel_name"],
+            row["program_label"],
+            cache_index,
+            row.get("hotel_url", ""),
+        )
     ]
 
     if not new_hotels:
