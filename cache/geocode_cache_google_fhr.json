@@ -206289,5 +206289,95 @@
       ],
       "website": "https://www.marriott.com/en-us/hotels/flrwh-w-florence/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Andronis Concept Hotel\", \"Andronis Concept Resort\", \"Andronis Concept\", \"Andronis Concept Imerovigli, Greece Hotel\", \"Andronis Concept Imerovigli, Greece Resort\", \"Andronis Concept Imerovigli, Greece\"], \"v\": 3}": {
+    "lat": 36.438076,
+    "lon": 25.4239616,
+    "formatted_address": "Epar.Od. Firon-Ias, Thira 847 00, Greece",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ4xk7jEzMmRQRW8rk7P7TXtQ",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Epar.Od. Firon-Ias, Thira 847 00, Greece",
+      "geometry": {
+        "location": {
+          "lat": 36.438076,
+          "lng": 25.4239616
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.43956788029149,
+            "lng": 25.4261319802915
+          },
+          "southwest": {
+            "lat": 36.43686991970849,
+            "lng": 25.42343401970849
+          }
+        }
+      },
+      "name": "Andronis Concept Wellness Resort",
+      "place_id": "ChIJ4xk7jEzMmRQRW8rk7P7TXtQ",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.andronis.com/hotels/andronis-concept/?utm_source=gmb%20listing&utm_medium=gmb&utm_campaign=google_my_business"
+    }
+  },
+  "{\"brand\": \"Ritz-Carlton Reserve\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Siari, a Ritz-Carlton Reserve Ritz-Carlton Reserve Hotel\", \"Siari, a Ritz-Carlton Reserve Ritz-Carlton Reserve Resort\", \"Siari, a Ritz-Carlton Reserve Ritz-Carlton Reserve\", \"Siari, a Ritz-Carlton Reserve Ritz-Carlton Reserve La Pe\\u00f1ita de Jaltemba, Compostela, Nayarit MX Hotel\", \"Siari, a Ritz-Carlton Reserve Ritz-Carlton Reserve La Pe\\u00f1ita de Jaltemba, Compostela, Nayarit MX Resort\", \"Siari, a Ritz-Carlton Reserve Ritz-Carlton Reserve La Pe\\u00f1ita de Jaltemba, Compostela, Nayarit MX\", \"Siari, a Ritz-Carlton Reserve Hilton Hotel\", \"Siari, a Ritz-Carlton Reserve Hilton Resort\", \"Siari, a Ritz-Carlton Reserve Hilton\", \"Siari, a Ritz-Carlton Reserve Hilton La Pe\\u00f1ita de Jaltemba, Compostela, Nayarit MX Hotel\", \"Siari, a Ritz-Carlton Reserve Hilton La Pe\\u00f1ita de Jaltemba, Compostela, Nayarit MX Resort\", \"Siari, a Ritz-Carlton Reserve Hilton La Pe\\u00f1ita de Jaltemba, Compostela, Nayarit MX\", \"Siari a Ritz carlton Reserve Ritz-Carlton Reserve Hotel\", \"Siari a Ritz carlton Reserve Ritz-Carlton Reserve Resort\", \"Siari a Ritz carlton Reserve Ritz-Carlton Reserve\", \"Siari a Ritz carlton Reserve Ritz-Carlton Reserve La Pe\\u00f1ita de Jaltemba, Compostela, Nayarit MX Hotel\", \"Siari a Ritz carlton Reserve Ritz-Carlton Reserve La Pe\\u00f1ita de Jaltemba, Compostela, Nayarit MX Resort\", \"Siari a Ritz carlton Reserve Ritz-Carlton Reserve La Pe\\u00f1ita de Jaltemba, Compostela, Nayarit MX\", \"Siari a Ritz carlton Reserve Hilton Hotel\", \"Siari a Ritz carlton Reserve Hilton Resort\", \"Siari a Ritz carlton Reserve Hilton\", \"Siari a Ritz carlton Reserve Hilton La Pe\\u00f1ita de Jaltemba, Compostela, Nayarit MX Hotel\", \"Siari a Ritz carlton Reserve Hilton La Pe\\u00f1ita de Jaltemba, Compostela, Nayarit MX Resort\", \"Siari a Ritz carlton Reserve Hilton La Pe\\u00f1ita de Jaltemba, Compostela, Nayarit MX\", \"Siari, a Ritz-Carlton Reserve Hotel\", \"Siari, a Ritz-Carlton Reserve Resort\", \"Siari, a Ritz-Carlton Reserve\", \"Siari, a Ritz-Carlton Reserve La Pe\\u00f1ita de Jaltemba, Compostela, Nayarit MX Hotel\", \"Siari, a Ritz-Carlton Reserve La Pe\\u00f1ita de Jaltemba, Compostela, Nayarit MX Resort\", \"Siari, a Ritz-Carlton Reserve La Pe\\u00f1ita de Jaltemba, Compostela, Nayarit MX\"], \"v\": 3}": {
+    "lat": 21.0940325,
+    "lon": -105.2218514,
+    "formatted_address": "Carretera Federal 200, Tepic - Puerto Vallarta Km.88 300, Col., Las Cabras, 63720 La Peñita de Jaltemba, Nay., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJuQ6oAQcpJ4QRaMr9fwg27P4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carretera Federal 200, Tepic - Puerto Vallarta Km.88 300, Col., Las Cabras, 63720 La Peñita de Jaltemba, Nay., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 21.0940325,
+          "lng": -105.2218514
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 21.0953814802915,
+            "lng": -105.2205024197085
+          },
+          "southwest": {
+            "lat": 21.0926835197085,
+            "lng": -105.2232003802915
+          }
+        }
+      },
+      "name": "Siari Riviera Nayarit, a Ritz-Carlton Reserve",
+      "place_id": "ChIJuQ6oAQcpJ4QRaMr9fwg27P4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ritzcarlton.com/en/hotels/pvrcc-siari-riviera-nayarit-a-ritz-carlton-reserve/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
   }
 }
