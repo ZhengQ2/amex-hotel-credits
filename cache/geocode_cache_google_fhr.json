@@ -206379,5 +206379,47 @@
       ],
       "website": "https://www.ritzcarlton.com/en/hotels/pvrcc-siari-riviera-nayarit-a-ritz-carlton-reserve/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cap Vermell Grand Hotel Hotel\", \"Cap Vermell Grand Hotel Resort\", \"Cap Vermell Grand Hotel\", \"Cap Vermell Grand Hotel Canyamel, Spain Hotel\", \"Cap Vermell Grand Hotel Canyamel, Spain Resort\", \"Cap Vermell Grand Hotel Canyamel, Spain\"], \"v\": 3}": {
+    "lat": 39.6689517,
+    "lon": 3.4395414,
+    "formatted_address": "Urb. Atalaya de Canyamel, Vial A, 12, 07589 Canyamel Platja, Illes Balears, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJQQkcsugVlhIR7bHWYfbZd3I",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Urb. Atalaya de Canyamel, Vial A, 12, 07589 Canyamel Platja, Illes Balears, Spain",
+      "geometry": {
+        "location": {
+          "lat": 39.6689517,
+          "lng": 3.4395414
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.6703412802915,
+            "lng": 3.440019880291502
+          },
+          "southwest": {
+            "lat": 39.6676433197085,
+            "lng": 3.437321919708499
+          }
+        }
+      },
+      "name": "Cap Vermell Grand Hotel",
+      "place_id": "ChIJQQkcsugVlhIR7bHWYfbZd3I",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://capvermellgrandhotel.com/"
+    }
   }
 }
