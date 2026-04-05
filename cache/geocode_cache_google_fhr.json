@@ -206421,5 +206421,47 @@
       ],
       "website": "https://capvermellgrandhotel.com/"
     }
+  },
+  "{\"brand\": \"Aman\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amanoi Aman Hotel\", \"Amanoi Aman Resort\", \"Amanoi Aman\", \"Amanoi Aman Ninh Hai, Vietnam Hotel\", \"Amanoi Aman Ninh Hai, Vietnam Resort\", \"Amanoi Aman Ninh Hai, Vietnam\", \"Amanoi Hilton Hotel\", \"Amanoi Hilton Resort\", \"Amanoi Hilton\", \"Amanoi Hilton Ninh Hai, Vietnam Hotel\", \"Amanoi Hilton Ninh Hai, Vietnam Resort\", \"Amanoi Hilton Ninh Hai, Vietnam\", \"Amanoi Hotel\", \"Amanoi Resort\", \"Amanoi\", \"Amanoi Ninh Hai, Vietnam Hotel\", \"Amanoi Ninh Hai, Vietnam Resort\", \"Amanoi Ninh Hai, Vietnam\"], \"v\": 3}": {
+    "lat": 11.7094081,
+    "lon": 109.1976347,
+    "formatted_address": "Commune, Vĩnh Hy, Vĩnh Hải, Khánh Hòa, Vietnam",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJUc7XdXC_cDERnMvOwIIE6yA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Commune, Vĩnh Hy, Vĩnh Hải, Khánh Hòa, Vietnam",
+      "geometry": {
+        "location": {
+          "lat": 11.7094081,
+          "lng": 109.1976347
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 11.7106247802915,
+            "lng": 109.1987996302915
+          },
+          "southwest": {
+            "lat": 11.7079268197085,
+            "lng": 109.1961016697085
+          }
+        }
+      },
+      "name": "Amanoi",
+      "place_id": "ChIJUc7XdXC_cDERnMvOwIIE6yA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.aman.com/resorts/amanoi?utm_source=Google&utm_medium=Yext&y_source=1_MTU3MDc5NjYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
   }
 }
