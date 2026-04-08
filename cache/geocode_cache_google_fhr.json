@@ -206463,5 +206463,47 @@
       ],
       "website": "https://www.aman.com/resorts/amanoi?utm_source=Google&utm_medium=Yext&y_source=1_MTU3MDc5NjYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Augustine, a Luxury Collection Hotel, Prague Hotel\", \"Augustine, a Luxury Collection Hotel, Prague Resort\", \"Augustine, a Luxury Collection Hotel, Prague\", \"Augustine, a Luxury Collection Hotel, Prague Prague, Czech Republic Hotel\", \"Augustine, a Luxury Collection Hotel, Prague Prague, Czech Republic Resort\", \"Augustine, a Luxury Collection Hotel, Prague Prague, Czech Republic\", \"Augustine a Luxury Collection Hotel Prague Hotel\", \"Augustine a Luxury Collection Hotel Prague Resort\", \"Augustine a Luxury Collection Hotel Prague\", \"Augustine a Luxury Collection Hotel Prague Prague, Czech Republic Hotel\", \"Augustine a Luxury Collection Hotel Prague Prague, Czech Republic Resort\", \"Augustine a Luxury Collection Hotel Prague Prague, Czech Republic\"], \"v\": 3}": {
+    "lat": 50.08879,
+    "lon": 14.4063774,
+    "formatted_address": "Letenská 12/33, Malá Strana, 118 00 Praha-Praha 1, Czechia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJV_2lbuGUC0cRKZfwxyBI4yU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Letenská 12/33, Malá Strana, 118 00 Praha-Praha 1, Czechia",
+      "geometry": {
+        "location": {
+          "lat": 50.08879,
+          "lng": 14.4063774
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 50.09008633029148,
+            "lng": 14.4077554802915
+          },
+          "southwest": {
+            "lat": 50.08738836970848,
+            "lng": 14.4050575197085
+          }
+        }
+      },
+      "name": "Augustine Hotel, Prague",
+      "place_id": "ChIJV_2lbuGUC0cRKZfwxyBI4yU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.augustinehotelprague.com/"
+    }
   }
 }
