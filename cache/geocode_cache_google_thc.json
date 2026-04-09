@@ -207618,5 +207618,53 @@
       ],
       "website": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
+  },
+  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts Palma, Spain Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts Palma, Spain Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts Palma, Spain\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton Palma, Spain Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton Palma, Spain Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton Palma, Spain\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts Hotel\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts Resort\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts Palma, Spain Hotel\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts Palma, Spain Resort\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts Palma, Spain\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton Hotel\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton Resort\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton Palma, Spain Hotel\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton Palma, Spain Resort\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton Palma, Spain\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Palma, Spain Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Palma, Spain Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Palma, Spain\"], \"v\": 3}": {
+    "lat": 39.5696597,
+    "lon": 2.6444226,
+    "formatted_address": "Carrer del Forn de la Glòria, 14, Centre, 07012 Palma, Illes Balears, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJJ9iDt0SSlxIRjTMWcgBy7ic",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carrer del Forn de la Glòria, 14, Centre, 07012 Palma, Illes Balears, Spain",
+      "geometry": {
+        "location": {
+          "lat": 39.5696597,
+          "lng": 2.6444226
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.5709530802915,
+            "lng": 2.645750930291502
+          },
+          "southwest": {
+            "lat": 39.5682551197085,
+            "lng": 2.643052969708498
+          }
+        }
+      },
+      "name": "Can Bordoy Grand House & Garden",
+      "place_id": "ChIJJ9iDt0SSlxIRjTMWcgBy7ic",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://canbordoy.com/"
+    }
   }
 }
