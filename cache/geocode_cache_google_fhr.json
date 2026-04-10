@@ -206505,5 +206505,88 @@
       ],
       "website": "https://www.augustinehotelprague.com/"
     }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Esencia Hotel\", \"Hotel Esencia Resort\", \"Hotel Esencia\", \"Hotel Esencia Xpu Ha, Quintana Roo MX Hotel\", \"Hotel Esencia Xpu Ha, Quintana Roo MX Resort\", \"Hotel Esencia Xpu Ha, Quintana Roo MX\"], \"v\": 3}": {
+    "lat": 20.481945,
+    "lon": -87.2561645,
+    "formatted_address": "77734 Xpu Há, Quintana Roo, Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJee1qZv8rTI8R-T_IOBbLXpI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "77734 Xpu Há, Quintana Roo, Mexico",
+      "geometry": {
+        "location": {
+          "lat": 20.481945,
+          "lng": -87.2561645
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 20.4833769802915,
+            "lng": -87.25503626970848
+          },
+          "southwest": {
+            "lat": 20.4806790197085,
+            "lng": -87.2577342302915
+          }
+        }
+      },
+      "name": "Hotel Esencia",
+      "place_id": "ChIJee1qZv8rTI8R-T_IOBbLXpI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
+    }
+  },
+  "{\"brand\": \"Bulgari Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Bvlgari Hotel Shanghai Bulgari Hotels & Resorts Hotel\", \"Bvlgari Hotel Shanghai Bulgari Hotels & Resorts Resort\", \"Bvlgari Hotel Shanghai Bulgari Hotels & Resorts\", \"Bvlgari Hotel Shanghai Bulgari Hotels & Resorts Shanghai, China Hotel\", \"Bvlgari Hotel Shanghai Bulgari Hotels & Resorts Shanghai, China Resort\", \"Bvlgari Hotel Shanghai Bulgari Hotels & Resorts Shanghai, China\", \"Bvlgari Hotel Shanghai Hilton Hotel\", \"Bvlgari Hotel Shanghai Hilton Resort\", \"Bvlgari Hotel Shanghai Hilton\", \"Bvlgari Hotel Shanghai Hilton Shanghai, China Hotel\", \"Bvlgari Hotel Shanghai Hilton Shanghai, China Resort\", \"Bvlgari Hotel Shanghai Hilton Shanghai, China\", \"Bvlgari Hotel Shanghai Hotel\", \"Bvlgari Hotel Shanghai Resort\", \"Bvlgari Hotel Shanghai\", \"Bvlgari Hotel Shanghai Shanghai, China Hotel\", \"Bvlgari Hotel Shanghai Shanghai, China Resort\", \"Bvlgari Hotel Shanghai Shanghai, China\"], \"v\": 3}": {
+    "lat": 40.0069299,
+    "lon": 119.83865,
+    "formatted_address": "108 Shanxi North Road, Shan Hai Guan Qu, Qin Huang Dao Shi, China, 066206",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ86uFal5wsjUR8zNDly9PIl0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "108 Shanxi North Road, Shan Hai Guan Qu, Qin Huang Dao Shi, China, 066206",
+      "geometry": {
+        "location": {
+          "lat": 40.0069299,
+          "lng": 119.83865
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.0082788802915,
+            "lng": 119.8399989802915
+          },
+          "southwest": {
+            "lat": 40.0055809197085,
+            "lng": 119.8373010197085
+          }
+        }
+      },
+      "name": "Bulgari Hotel, Shanghai",
+      "place_id": "ChIJ86uFal5wsjUR8zNDly9PIl0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.bulgarihotels.com/zh_CN/shanghai"
+    }
   }
 }
