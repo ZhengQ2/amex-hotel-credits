@@ -206588,5 +206588,91 @@
       ],
       "website": "https://www.bulgarihotels.com/zh_CN/shanghai"
     }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Augustine Hotel, Prague Hotel\", \"Augustine Hotel, Prague Resort\", \"Augustine Hotel, Prague\", \"Augustine Hotel, Prague Prague, Czech Republic Hotel\", \"Augustine Hotel, Prague Prague, Czech Republic Resort\", \"Augustine Hotel, Prague Prague, Czech Republic\", \"Augustine Hotel Prague Hotel\", \"Augustine Hotel Prague Resort\", \"Augustine Hotel Prague\", \"Augustine Hotel Prague Prague, Czech Republic Hotel\", \"Augustine Hotel Prague Prague, Czech Republic Resort\", \"Augustine Hotel Prague Prague, Czech Republic\"], \"v\": 3}": {
+    "lat": 50.08879,
+    "lon": 14.4063774,
+    "formatted_address": "Letenská 12/33, Malá Strana, 118 00 Praha-Praha 1, Czechia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJV_2lbuGUC0cRKZfwxyBI4yU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Letenská 12/33, Malá Strana, 118 00 Praha-Praha 1, Czechia",
+      "geometry": {
+        "location": {
+          "lat": 50.08879,
+          "lng": 14.4063774
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 50.09008633029148,
+            "lng": 14.4077554802915
+          },
+          "southwest": {
+            "lat": 50.08738836970848,
+            "lng": 14.4050575197085
+          }
+        }
+      },
+      "name": "Augustine Hotel, Prague",
+      "place_id": "ChIJV_2lbuGUC0cRKZfwxyBI4yU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.augustinehotelprague.com/"
+    }
+  },
+  "{\"brand\": \"Barri\\u00e8re Group\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fouquet's Paris Barri\\u00e8re Group Hotel\", \"Fouquet's Paris Barri\\u00e8re Group Resort\", \"Fouquet's Paris Barri\\u00e8re Group\", \"Fouquet's Paris Barri\\u00e8re Group Paris, France Hotel\", \"Fouquet's Paris Barri\\u00e8re Group Paris, France Resort\", \"Fouquet's Paris Barri\\u00e8re Group Paris, France\", \"Fouquet's Paris Hilton Hotel\", \"Fouquet's Paris Hilton Resort\", \"Fouquet's Paris Hilton\", \"Fouquet's Paris Hilton Paris, France Hotel\", \"Fouquet's Paris Hilton Paris, France Resort\", \"Fouquet's Paris Hilton Paris, France\", \"Fouquets Paris Barri\\u00e8re Group Hotel\", \"Fouquets Paris Barri\\u00e8re Group Resort\", \"Fouquets Paris Barri\\u00e8re Group\", \"Fouquets Paris Barri\\u00e8re Group Paris, France Hotel\", \"Fouquets Paris Barri\\u00e8re Group Paris, France Resort\", \"Fouquets Paris Barri\\u00e8re Group Paris, France\", \"Fouquets Paris Hilton Hotel\", \"Fouquets Paris Hilton Resort\", \"Fouquets Paris Hilton\", \"Fouquets Paris Hilton Paris, France Hotel\", \"Fouquets Paris Hilton Paris, France Resort\", \"Fouquets Paris Hilton Paris, France\", \"Fouquet's Paris Hotel\", \"Fouquet's Paris Resort\", \"Fouquet's Paris\", \"Fouquet's Paris Paris, France Hotel\", \"Fouquet's Paris Paris, France Resort\", \"Fouquet's Paris Paris, France\"], \"v\": 3}": {
+    "lat": 48.8710596,
+    "lon": 2.3013848,
+    "formatted_address": "46 Av. George V, 75008 Paris, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJB9ZcBsJv5kcRQ51kS655Vgo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "46 Av. George V, 75008 Paris, France",
+      "geometry": {
+        "location": {
+          "lat": 48.8710596,
+          "lng": 2.3013848
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.8724040802915,
+            "lng": 2.302489680291501
+          },
+          "southwest": {
+            "lat": 48.8697061197085,
+            "lng": 2.299791719708498
+          }
+        }
+      },
+      "name": "Hôtel Barrière Le Fouquet's",
+      "place_id": "ChIJB9ZcBsJv5kcRQ51kS655Vgo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hotelsbarriere.com/collection-fouquet-s/paris/fouquets-paris"
+    }
   }
 }
