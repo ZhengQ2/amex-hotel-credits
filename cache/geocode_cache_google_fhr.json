@@ -206674,5 +206674,299 @@
       ],
       "website": "https://www.hotelsbarriere.com/collection-fouquet-s/paris/fouquets-paris"
     }
+  },
+  "{\"brand\": \"Destination by Hyatt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"7Pines Resort Sardinia Destination by Hyatt Hotel\", \"7Pines Resort Sardinia Destination by Hyatt Resort\", \"7Pines Resort Sardinia Destination by Hyatt\", \"7Pines Resort Sardinia Destination by Hyatt Baja Sardinia, Italy Hotel\", \"7Pines Resort Sardinia Destination by Hyatt Baja Sardinia, Italy Resort\", \"7Pines Resort Sardinia Destination by Hyatt Baja Sardinia, Italy\", \"7Pines Resort Sardinia Hilton Hotel\", \"7Pines Resort Sardinia Hilton Resort\", \"7Pines Resort Sardinia Hilton\", \"7Pines Resort Sardinia Hilton Baja Sardinia, Italy Hotel\", \"7Pines Resort Sardinia Hilton Baja Sardinia, Italy Resort\", \"7Pines Resort Sardinia Hilton Baja Sardinia, Italy\", \"7pines Resort Sardinia Destination by Hyatt Hotel\", \"7pines Resort Sardinia Destination by Hyatt Resort\", \"7pines Resort Sardinia Destination by Hyatt\", \"7pines Resort Sardinia Destination by Hyatt Baja Sardinia, Italy Hotel\", \"7pines Resort Sardinia Destination by Hyatt Baja Sardinia, Italy Resort\", \"7pines Resort Sardinia Destination by Hyatt Baja Sardinia, Italy\", \"7pines Resort Sardinia Hilton Hotel\", \"7pines Resort Sardinia Hilton Resort\", \"7pines Resort Sardinia Hilton\", \"7pines Resort Sardinia Hilton Baja Sardinia, Italy Hotel\", \"7pines Resort Sardinia Hilton Baja Sardinia, Italy Resort\", \"7pines Resort Sardinia Hilton Baja Sardinia, Italy\", \"7Pines Resort Sardinia Hotel\", \"7Pines Resort Sardinia Resort\", \"7Pines Resort Sardinia\", \"7Pines Resort Sardinia Baja Sardinia, Italy Hotel\", \"7Pines Resort Sardinia Baja Sardinia, Italy Resort\", \"7Pines Resort Sardinia Baja Sardinia, Italy\"], \"v\": 3}": {
+    "lat": 41.1281896,
+    "lon": 9.471724799999999,
+    "formatted_address": "Loc. Li, Via Mucchi Bianchi, 07021 Baja Sardinia OT, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJT8JKzt5H2RIRjpLvOQVfgOQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Loc. Li, Via Mucchi Bianchi, 07021 Baja Sardinia OT, Italy",
+      "geometry": {
+        "location": {
+          "lat": 41.1281896,
+          "lng": 9.471724799999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.13000433029149,
+            "lng": 9.473478780291503
+          },
+          "southwest": {
+            "lat": 41.12730636970849,
+            "lng": 9.470780819708498
+          }
+        }
+      },
+      "name": "7Pines Resort Sardinia, part of Destination by Hyatt",
+      "place_id": "ChIJT8JKzt5H2RIRjpLvOQVfgOQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/destination-by-hyatt/en-US/sardh-7-pines-resort-sardinia?src=corp_lclb_google_seo_sardh&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"Destination by Hyatt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"SCHLOSS Roxburghe Destination by Hyatt Hotel\", \"SCHLOSS Roxburghe Destination by Hyatt Resort\", \"SCHLOSS Roxburghe Destination by Hyatt\", \"SCHLOSS Roxburghe Destination by Hyatt Kelso, Scotland Hotel\", \"SCHLOSS Roxburghe Destination by Hyatt Kelso, Scotland Resort\", \"SCHLOSS Roxburghe Destination by Hyatt Kelso, Scotland\", \"SCHLOSS Roxburghe Hilton Hotel\", \"SCHLOSS Roxburghe Hilton Resort\", \"SCHLOSS Roxburghe Hilton\", \"SCHLOSS Roxburghe Hilton Kelso, Scotland Hotel\", \"SCHLOSS Roxburghe Hilton Kelso, Scotland Resort\", \"SCHLOSS Roxburghe Hilton Kelso, Scotland\", \"Schloss Roxburghe Destination by Hyatt Hotel\", \"Schloss Roxburghe Destination by Hyatt Resort\", \"Schloss Roxburghe Destination by Hyatt\", \"Schloss Roxburghe Destination by Hyatt Kelso, Scotland Hotel\", \"Schloss Roxburghe Destination by Hyatt Kelso, Scotland Resort\", \"Schloss Roxburghe Destination by Hyatt Kelso, Scotland\", \"Schloss Roxburghe Hilton Hotel\", \"Schloss Roxburghe Hilton Resort\", \"Schloss Roxburghe Hilton\", \"Schloss Roxburghe Hilton Kelso, Scotland Hotel\", \"Schloss Roxburghe Hilton Kelso, Scotland Resort\", \"Schloss Roxburghe Hilton Kelso, Scotland\", \"SCHLOSS Roxburghe Hotel\", \"SCHLOSS Roxburghe Resort\", \"SCHLOSS Roxburghe\", \"SCHLOSS Roxburghe Kelso, Scotland Hotel\", \"SCHLOSS Roxburghe Kelso, Scotland Resort\", \"SCHLOSS Roxburghe Kelso, Scotland\"], \"v\": 3}": {
+    "lat": 55.558392,
+    "lon": -2.469059,
+    "formatted_address": "Heiton, Kelso TD5 8JZ, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJwVHnL9hkh0gR-8nSk6R5yyE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Heiton, Kelso TD5 8JZ, UK",
+      "geometry": {
+        "location": {
+          "lat": 55.558392,
+          "lng": -2.469059
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 55.5599047802915,
+            "lng": -2.467362569708498
+          },
+          "southwest": {
+            "lat": 55.5572068197085,
+            "lng": -2.470060530291502
+          }
+        }
+      },
+      "name": "SCHLOSS Roxburghe, a Destination by Hyatt Hotel",
+      "place_id": "ChIJwVHnL9hkh0gR-8nSk6R5yyE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/en-US/hotel/scotland-united-kingdom/schloss-roxburghe/edidr?src=corp_lclb_google_seo_edidr&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"Destination by Hyatt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Seabird Ocean Resort and Spa Destination by Hyatt Hotel\", \"The Seabird Ocean Resort and Spa Destination by Hyatt Resort\", \"The Seabird Ocean Resort and Spa Destination by Hyatt\", \"The Seabird Ocean Resort and Spa Destination by Hyatt Oceanside, California US Hotel\", \"The Seabird Ocean Resort and Spa Destination by Hyatt Oceanside, California US Resort\", \"The Seabird Ocean Resort and Spa Destination by Hyatt Oceanside, California US\", \"The Seabird Ocean Resort and Spa Hilton Hotel\", \"The Seabird Ocean Resort and Spa Hilton Resort\", \"The Seabird Ocean Resort and Spa Hilton\", \"The Seabird Ocean Resort and Spa Hilton Oceanside, California US Hotel\", \"The Seabird Ocean Resort and Spa Hilton Oceanside, California US Resort\", \"The Seabird Ocean Resort and Spa Hilton Oceanside, California US\", \"Seabird Ocean Resort Spa Destination by Hyatt Hotel\", \"Seabird Ocean Resort Spa Destination by Hyatt Resort\", \"Seabird Ocean Resort Spa Destination by Hyatt\", \"Seabird Ocean Resort Spa Destination by Hyatt Oceanside, California US Hotel\", \"Seabird Ocean Resort Spa Destination by Hyatt Oceanside, California US Resort\", \"Seabird Ocean Resort Spa Destination by Hyatt Oceanside, California US\", \"Seabird Ocean Resort Spa Hilton Hotel\", \"Seabird Ocean Resort Spa Hilton Resort\", \"Seabird Ocean Resort Spa Hilton\", \"Seabird Ocean Resort Spa Hilton Oceanside, California US Hotel\", \"Seabird Ocean Resort Spa Hilton Oceanside, California US Resort\", \"Seabird Ocean Resort Spa Hilton Oceanside, California US\", \"The Seabird Ocean Resort and Spa Hotel\", \"The Seabird Ocean Resort and Spa Resort\", \"The Seabird Ocean Resort and Spa\", \"The Seabird Ocean Resort and Spa Oceanside, California US Hotel\", \"The Seabird Ocean Resort and Spa Oceanside, California US Resort\", \"The Seabird Ocean Resort and Spa Oceanside, California US\"], \"v\": 3}": {
+    "lat": 33.1936532,
+    "lon": -117.3823686,
+    "formatted_address": "101 Mission Ave, Oceanside, CA 92054, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJCYFiKThu3IARMrkJy5RG5Vk",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "101 Mission Ave, Oceanside, CA 92054, USA",
+      "geometry": {
+        "location": {
+          "lat": 33.1936532,
+          "lng": -117.3823686
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.19514383029151,
+            "lng": -117.3812232197085
+          },
+          "southwest": {
+            "lat": 33.19244586970851,
+            "lng": -117.3839211802915
+          }
+        }
+      },
+      "name": "The Seabird Ocean Resort & Spa, a Destination by Hyatt Hotel",
+      "place_id": "ChIJCYFiKThu3IARMrkJy5RG5Vk",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/destination-by-hyatt/en-US/sando-the-seabird-ocean-resort-spa?src=corp_lclb_google_seo_sando&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"Destination by Hyatt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Lodge at Spruce Peak Destination by Hyatt Hotel\", \"The Lodge at Spruce Peak Destination by Hyatt Resort\", \"The Lodge at Spruce Peak Destination by Hyatt\", \"The Lodge at Spruce Peak Destination by Hyatt Stowe, Vermont US Hotel\", \"The Lodge at Spruce Peak Destination by Hyatt Stowe, Vermont US Resort\", \"The Lodge at Spruce Peak Destination by Hyatt Stowe, Vermont US\", \"The Lodge at Spruce Peak Hilton Hotel\", \"The Lodge at Spruce Peak Hilton Resort\", \"The Lodge at Spruce Peak Hilton\", \"The Lodge at Spruce Peak Hilton Stowe, Vermont US Hotel\", \"The Lodge at Spruce Peak Hilton Stowe, Vermont US Resort\", \"The Lodge at Spruce Peak Hilton Stowe, Vermont US\", \"Lodge Spruce Peak Destination by Hyatt Hotel\", \"Lodge Spruce Peak Destination by Hyatt Resort\", \"Lodge Spruce Peak Destination by Hyatt\", \"Lodge Spruce Peak Destination by Hyatt Stowe, Vermont US Hotel\", \"Lodge Spruce Peak Destination by Hyatt Stowe, Vermont US Resort\", \"Lodge Spruce Peak Destination by Hyatt Stowe, Vermont US\", \"Lodge Spruce Peak Hilton Hotel\", \"Lodge Spruce Peak Hilton Resort\", \"Lodge Spruce Peak Hilton\", \"Lodge Spruce Peak Hilton Stowe, Vermont US Hotel\", \"Lodge Spruce Peak Hilton Stowe, Vermont US Resort\", \"Lodge Spruce Peak Hilton Stowe, Vermont US\", \"The Lodge at Spruce Peak Hotel\", \"The Lodge at Spruce Peak Resort\", \"The Lodge at Spruce Peak\", \"The Lodge at Spruce Peak Stowe, Vermont US Hotel\", \"The Lodge at Spruce Peak Stowe, Vermont US Resort\", \"The Lodge at Spruce Peak Stowe, Vermont US\"], \"v\": 3}": {
+    "lat": 44.5300217,
+    "lon": -72.78151059999999,
+    "formatted_address": "7412 Mountain Rd, Stowe, VT 05672, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJJZFSrhWStUwRAJrKp4I7kZs",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "7412 Mountain Rd, Stowe, VT 05672, USA",
+      "geometry": {
+        "location": {
+          "lat": 44.5300217,
+          "lng": -72.78151059999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 44.53135878029151,
+            "lng": -72.7802079697085
+          },
+          "southwest": {
+            "lat": 44.52866081970851,
+            "lng": -72.7829059302915
+          }
+        }
+      },
+      "name": "The Lodge at Spruce Peak, a Destination by Hyatt Hotel",
+      "place_id": "ChIJJZFSrhWStUwRAJrKp4I7kZs",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/destination-by-hyatt/en-US/btvdh-the-lodge-at-spruce-peak?src=corp_lclb_google_seo_btvdh&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"ME by Meli\\u00e1\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"ME Malta ME by Meli\\u00e1 Hotel\", \"ME Malta ME by Meli\\u00e1 Resort\", \"ME Malta ME by Meli\\u00e1\", \"ME Malta ME by Meli\\u00e1 St Julian's, Malta Hotel\", \"ME Malta ME by Meli\\u00e1 St Julian's, Malta Resort\", \"ME Malta ME by Meli\\u00e1 St Julian's, Malta\", \"ME Malta Hilton Hotel\", \"ME Malta Hilton Resort\", \"ME Malta Hilton\", \"ME Malta Hilton St Julian's, Malta Hotel\", \"ME Malta Hilton St Julian's, Malta Resort\", \"ME Malta Hilton St Julian's, Malta\", \"Me Malta ME by Meli\\u00e1 Hotel\", \"Me Malta ME by Meli\\u00e1 Resort\", \"Me Malta ME by Meli\\u00e1\", \"Me Malta ME by Meli\\u00e1 St Julian's, Malta Hotel\", \"Me Malta ME by Meli\\u00e1 St Julian's, Malta Resort\", \"Me Malta ME by Meli\\u00e1 St Julian's, Malta\", \"Me Malta Hilton Hotel\", \"Me Malta Hilton Resort\", \"Me Malta Hilton\", \"Me Malta Hilton St Julian's, Malta Hotel\", \"Me Malta Hilton St Julian's, Malta Resort\", \"Me Malta Hilton St Julian's, Malta\", \"ME Malta Hotel\", \"ME Malta Resort\", \"ME Malta\", \"ME Malta St Julian's, Malta Hotel\", \"ME Malta St Julian's, Malta Resort\", \"ME Malta St Julian's, Malta\"], \"v\": 3}": {
+    "lat": 35.922444,
+    "lon": 14.489111,
+    "formatted_address": "Saint George's Road, Triq Gort, St Julian's, Malta",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ2ZfHIZpFDhMRZ8lSljEjmNU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Saint George's Road, Triq Gort, St Julian's, Malta",
+      "geometry": {
+        "location": {
+          "lat": 35.922444,
+          "lng": 14.489111
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.92371033029149,
+            "lng": 14.4904624802915
+          },
+          "southwest": {
+            "lat": 35.92101236970849,
+            "lng": 14.4877645197085
+          }
+        }
+      },
+      "name": "ME Malta",
+      "place_id": "ChIJ2ZfHIZpFDhMRZ8lSljEjmNU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.melia.com/en/hotels/malta/st-julians/me-malta?utm_campaign=google&utm_content=6491&utm_medium=organic&utm_source=directories"
+    }
+  },
+  "{\"brand\": \"The Luxury Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Salterra, a Luxury Collection Resort & Spa, South Caicos The Luxury Collection Hotel\", \"Salterra, a Luxury Collection Resort & Spa, South Caicos The Luxury Collection Resort\", \"Salterra, a Luxury Collection Resort & Spa, South Caicos The Luxury Collection\", \"Salterra, a Luxury Collection Resort & Spa, South Caicos The Luxury Collection Cockburn Harbour, Turks and Caicos Islands Hotel\", \"Salterra, a Luxury Collection Resort & Spa, South Caicos The Luxury Collection Cockburn Harbour, Turks and Caicos Islands Resort\", \"Salterra, a Luxury Collection Resort & Spa, South Caicos The Luxury Collection Cockburn Harbour, Turks and Caicos Islands\", \"Salterra, a Luxury Collection Resort & Spa, South Caicos Hilton Hotel\", \"Salterra, a Luxury Collection Resort & Spa, South Caicos Hilton Resort\", \"Salterra, a Luxury Collection Resort & Spa, South Caicos Hilton\", \"Salterra, a Luxury Collection Resort & Spa, South Caicos Hilton Cockburn Harbour, Turks and Caicos Islands Hotel\", \"Salterra, a Luxury Collection Resort & Spa, South Caicos Hilton Cockburn Harbour, Turks and Caicos Islands Resort\", \"Salterra, a Luxury Collection Resort & Spa, South Caicos Hilton Cockburn Harbour, Turks and Caicos Islands\", \"Salterra a Luxury Collection Resort Spa South Caicos The Luxury Collection Hotel\", \"Salterra a Luxury Collection Resort Spa South Caicos The Luxury Collection Resort\", \"Salterra a Luxury Collection Resort Spa South Caicos The Luxury Collection\", \"Salterra a Luxury Collection Resort Spa South Caicos The Luxury Collection Cockburn Harbour, Turks and Caicos Islands Hotel\", \"Salterra a Luxury Collection Resort Spa South Caicos The Luxury Collection Cockburn Harbour, Turks and Caicos Islands Resort\", \"Salterra a Luxury Collection Resort Spa South Caicos The Luxury Collection Cockburn Harbour, Turks and Caicos Islands\", \"Salterra a Luxury Collection Resort Spa South Caicos Hilton Hotel\", \"Salterra a Luxury Collection Resort Spa South Caicos Hilton Resort\", \"Salterra a Luxury Collection Resort Spa South Caicos Hilton\", \"Salterra a Luxury Collection Resort Spa South Caicos Hilton Cockburn Harbour, Turks and Caicos Islands Hotel\", \"Salterra a Luxury Collection Resort Spa South Caicos Hilton Cockburn Harbour, Turks and Caicos Islands Resort\", \"Salterra a Luxury Collection Resort Spa South Caicos Hilton Cockburn Harbour, Turks and Caicos Islands\", \"Salterra, a Luxury Collection Resort & Spa, South Caicos Hotel\", \"Salterra, a Luxury Collection Resort & Spa, South Caicos Resort\", \"Salterra, a Luxury Collection Resort & Spa, South Caicos\", \"Salterra, a Luxury Collection Resort & Spa, South Caicos Cockburn Harbour, Turks and Caicos Islands Hotel\", \"Salterra, a Luxury Collection Resort & Spa, South Caicos Cockburn Harbour, Turks and Caicos Islands Resort\", \"Salterra, a Luxury Collection Resort & Spa, South Caicos Cockburn Harbour, Turks and Caicos Islands\"], \"v\": 3}": {
+    "lat": 21.4907241,
+    "lon": -71.5223425,
+    "formatted_address": "1 Fourth St, TKCA 1ZZ, Turks and Caicos Islands",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJy5MfB-E1s44ReqGRGRXTE_8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1 Fourth St, TKCA 1ZZ, Turks and Caicos Islands",
+      "geometry": {
+        "location": {
+          "lat": 21.4907241,
+          "lng": -71.5223425
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 21.4921726802915,
+            "lng": -71.52106101970848
+          },
+          "southwest": {
+            "lat": 21.4894747197085,
+            "lng": -71.5237589802915
+          }
+        }
+      },
+      "name": "Salterra, a Luxury Collection Resort & Spa, South Caicos",
+      "place_id": "ChIJy5MfB-E1s44ReqGRGRXTE_8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/xsclc-salterra-a-luxury-collection-resort-and-spa-south-caicos/overview/?cid=NAT_google_hotel_url"
+    }
+  },
+  "{\"brand\": \"W Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W Sardinia - Poltu Quatu W Hotels Hotel\", \"W Sardinia - Poltu Quatu W Hotels Resort\", \"W Sardinia - Poltu Quatu W Hotels\", \"W Sardinia - Poltu Quatu W Hotels Arzachena, Italy Hotel\", \"W Sardinia - Poltu Quatu W Hotels Arzachena, Italy Resort\", \"W Sardinia - Poltu Quatu W Hotels Arzachena, Italy\", \"W Sardinia - Poltu Quatu Hilton Hotel\", \"W Sardinia - Poltu Quatu Hilton Resort\", \"W Sardinia - Poltu Quatu Hilton\", \"W Sardinia - Poltu Quatu Hilton Arzachena, Italy Hotel\", \"W Sardinia - Poltu Quatu Hilton Arzachena, Italy Resort\", \"W Sardinia - Poltu Quatu Hilton Arzachena, Italy\", \"W Sardinia Poltu Quatu W Hotels Hotel\", \"W Sardinia Poltu Quatu W Hotels Resort\", \"W Sardinia Poltu Quatu W Hotels\", \"W Sardinia Poltu Quatu W Hotels Arzachena, Italy Hotel\", \"W Sardinia Poltu Quatu W Hotels Arzachena, Italy Resort\", \"W Sardinia Poltu Quatu W Hotels Arzachena, Italy\", \"W Sardinia Poltu Quatu Hilton Hotel\", \"W Sardinia Poltu Quatu Hilton Resort\", \"W Sardinia Poltu Quatu Hilton\", \"W Sardinia Poltu Quatu Hilton Arzachena, Italy Hotel\", \"W Sardinia Poltu Quatu Hilton Arzachena, Italy Resort\", \"W Sardinia Poltu Quatu Hilton Arzachena, Italy\", \"W Sardinia - Poltu Quatu Hotel\", \"W Sardinia - Poltu Quatu Resort\", \"W Sardinia - Poltu Quatu\", \"W Sardinia - Poltu Quatu Arzachena, Italy Hotel\", \"W Sardinia - Poltu Quatu Arzachena, Italy Resort\", \"W Sardinia - Poltu Quatu Arzachena, Italy\"], \"v\": 3}": {
+    "lat": 41.1346418,
+    "lon": 9.4967322,
+    "formatted_address": "SP59, 07021 Poltu Quatu OT, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJb2yXVepB2RIRyc8peMpkuy8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "SP59, 07021 Poltu Quatu OT, Italy",
+      "geometry": {
+        "location": {
+          "lat": 41.1346418,
+          "lng": 9.4967322
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.1361623302915,
+            "lng": 9.498323930291502
+          },
+          "southwest": {
+            "lat": 41.13346436970851,
+            "lng": 9.495625969708497
+          }
+        }
+      },
+      "name": "W Sardinia - Poltu Quatu",
+      "place_id": "ChIJb2yXVepB2RIRyc8peMpkuy8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/olbpq-w-sardinia-poltu-quatu/overview/?cid=NAT_google_hotel_url"
+    }
   }
 }

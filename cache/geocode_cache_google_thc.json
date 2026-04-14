@@ -207666,5 +207666,837 @@
       ],
       "website": "https://canbordoy.com/"
     }
+  },
+  "{\"brand\": \"Design Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sir Prague Design Hotels Hotel\", \"Sir Prague Design Hotels Resort\", \"Sir Prague Design Hotels\", \"Sir Prague Design Hotels Prague, Czech Republic Hotel\", \"Sir Prague Design Hotels Prague, Czech Republic Resort\", \"Sir Prague Design Hotels Prague, Czech Republic\", \"Sir Prague Hilton Hotel\", \"Sir Prague Hilton Resort\", \"Sir Prague Hilton\", \"Sir Prague Hilton Prague, Czech Republic Hotel\", \"Sir Prague Hilton Prague, Czech Republic Resort\", \"Sir Prague Hilton Prague, Czech Republic\", \"Sir Prague Hotel\", \"Sir Prague Resort\", \"Sir Prague\", \"Sir Prague Prague, Czech Republic Hotel\", \"Sir Prague Prague, Czech Republic Resort\", \"Sir Prague Prague, Czech Republic\"], \"v\": 3}": {
+    "lat": 50.0768308,
+    "lon": 14.4153481,
+    "formatted_address": "Náplavní 6/120 00, Nové Město, 120 00 Praha-Praha 2, Czechia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJwZJ21QeVC0cRbu-e9hKyvIw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Náplavní 6/120 00, Nové Město, 120 00 Praha-Praha 2, Czechia",
+      "geometry": {
+        "location": {
+          "lat": 50.0768308,
+          "lng": 14.4153481
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 50.07818028029151,
+            "lng": 14.4166225802915
+          },
+          "southwest": {
+            "lat": 50.07548231970851,
+            "lng": 14.4139246197085
+          }
+        }
+      },
+      "name": "Sir Prague Hotel, part of Sircle Collection",
+      "place_id": "ChIJwZJ21QeVC0cRbu-e9hKyvIw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.sirhotels.com/en/prague/?utm_source=meta-channel&utm_medium=referral&utm_campaign=business-profile"
+    }
+  },
+  "{\"brand\": \"Design Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Granger Hotel Gaslamp Quarter, a Member of Design Hotels Design Hotels Hotel\", \"Granger Hotel Gaslamp Quarter, a Member of Design Hotels Design Hotels Resort\", \"Granger Hotel Gaslamp Quarter, a Member of Design Hotels Design Hotels\", \"Granger Hotel Gaslamp Quarter, a Member of Design Hotels Design Hotels San Diego, California US Hotel\", \"Granger Hotel Gaslamp Quarter, a Member of Design Hotels Design Hotels San Diego, California US Resort\", \"Granger Hotel Gaslamp Quarter, a Member of Design Hotels Design Hotels San Diego, California US\", \"Granger Hotel Gaslamp Quarter, a Member of Design Hotels Hilton Hotel\", \"Granger Hotel Gaslamp Quarter, a Member of Design Hotels Hilton Resort\", \"Granger Hotel Gaslamp Quarter, a Member of Design Hotels Hilton\", \"Granger Hotel Gaslamp Quarter, a Member of Design Hotels Hilton San Diego, California US Hotel\", \"Granger Hotel Gaslamp Quarter, a Member of Design Hotels Hilton San Diego, California US Resort\", \"Granger Hotel Gaslamp Quarter, a Member of Design Hotels Hilton San Diego, California US\", \"Granger Hotel Gaslamp Quarter a Member Of Design Hotels Design Hotels Hotel\", \"Granger Hotel Gaslamp Quarter a Member Of Design Hotels Design Hotels Resort\", \"Granger Hotel Gaslamp Quarter a Member Of Design Hotels Design Hotels\", \"Granger Hotel Gaslamp Quarter a Member Of Design Hotels Design Hotels San Diego, California US Hotel\", \"Granger Hotel Gaslamp Quarter a Member Of Design Hotels Design Hotels San Diego, California US Resort\", \"Granger Hotel Gaslamp Quarter a Member Of Design Hotels Design Hotels San Diego, California US\", \"Granger Hotel Gaslamp Quarter a Member Of Design Hotels Hilton Hotel\", \"Granger Hotel Gaslamp Quarter a Member Of Design Hotels Hilton Resort\", \"Granger Hotel Gaslamp Quarter a Member Of Design Hotels Hilton\", \"Granger Hotel Gaslamp Quarter a Member Of Design Hotels Hilton San Diego, California US Hotel\", \"Granger Hotel Gaslamp Quarter a Member Of Design Hotels Hilton San Diego, California US Resort\", \"Granger Hotel Gaslamp Quarter a Member Of Design Hotels Hilton San Diego, California US\", \"Granger Hotel Gaslamp Quarter, a Member of Design Hotels Hotel\", \"Granger Hotel Gaslamp Quarter, a Member of Design Hotels Resort\", \"Granger Hotel Gaslamp Quarter, a Member of Design Hotels\", \"Granger Hotel Gaslamp Quarter, a Member of Design Hotels San Diego, California US Hotel\", \"Granger Hotel Gaslamp Quarter, a Member of Design Hotels San Diego, California US Resort\", \"Granger Hotel Gaslamp Quarter, a Member of Design Hotels San Diego, California US\"], \"v\": 3}": {
+    "lat": 32.715386,
+    "lon": -117.1604515,
+    "formatted_address": "964 Fifth Ave, San Diego, CA 92101, USA",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
+    "place_id": "ChIJC2_68qdU2YARQjU-5SfA1aE",
+    "types": [
+      "bar",
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": true,
+    "raw": {
+      "address_components": [
+        {
+          "long_name": "964",
+          "short_name": "964",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Fifth Avenue",
+          "short_name": "Fifth Ave",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Gaslamp Quarter",
+          "short_name": "Gaslamp Quarter",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "San Diego",
+          "short_name": "San Diego",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "San Diego County",
+          "short_name": "San Diego County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "California",
+          "short_name": "CA",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "92101",
+          "short_name": "92101",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "964 Fifth Ave, San Diego, CA 92101, USA",
+      "geometry": {
+        "location": {
+          "lat": 32.715386,
+          "lng": -117.1604515
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 32.7167837302915,
+            "lng": -117.1589636197085
+          },
+          "southwest": {
+            "lat": 32.7140857697085,
+            "lng": -117.1616615802915
+          }
+        }
+      },
+      "navigation_points": [
+        {
+          "location": {
+            "latitude": 32.7154834,
+            "longitude": -117.1602485
+          }
+        }
+      ],
+      "partial_match": true,
+      "place_id": "ChIJC2_68qdU2YARQjU-5SfA1aE",
+      "plus_code": {
+        "compound_code": "PR8Q+5R San Diego, CA",
+        "global_code": "8544PR8Q+5R"
+      },
+      "types": [
+        "bar",
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
+    }
+  },
+  "{\"brand\": \"Destination by Hyatt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Wild Dunes Resort Destination by Hyatt Hotel\", \"Wild Dunes Resort Destination by Hyatt Resort\", \"Wild Dunes Resort Destination by Hyatt\", \"Wild Dunes Resort Destination by Hyatt Isle of Palms, South Carolina US Hotel\", \"Wild Dunes Resort Destination by Hyatt Isle of Palms, South Carolina US Resort\", \"Wild Dunes Resort Destination by Hyatt Isle of Palms, South Carolina US\", \"Wild Dunes Resort Hilton Hotel\", \"Wild Dunes Resort Hilton Resort\", \"Wild Dunes Resort Hilton\", \"Wild Dunes Resort Hilton Isle of Palms, South Carolina US Hotel\", \"Wild Dunes Resort Hilton Isle of Palms, South Carolina US Resort\", \"Wild Dunes Resort Hilton Isle of Palms, South Carolina US\", \"Wild Dunes Resort Hotel\", \"Wild Dunes Resort Resort\", \"Wild Dunes Resort\", \"Wild Dunes Resort Isle of Palms, South Carolina US Hotel\", \"Wild Dunes Resort Isle of Palms, South Carolina US Resort\", \"Wild Dunes Resort Isle of Palms, South Carolina US\"], \"v\": 3}": {
+    "lat": 32.8035623,
+    "lon": -79.74081509999999,
+    "formatted_address": "5757 Palm Blvd, Isle of Palms, SC 29451, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJX--dWc1y_ogRi2gSg8YzoBA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "5757 Palm Blvd, Isle of Palms, SC 29451, USA",
+      "geometry": {
+        "location": {
+          "lat": 32.8035623,
+          "lng": -79.74081509999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.80484338029149,
+            "lng": -79.73953131970849
+          },
+          "southwest": {
+            "lat": 32.8021454197085,
+            "lng": -79.7422292802915
+          }
+        }
+      },
+      "name": "Wild Dunes Resort - Sweetgrass Inn and Boardwalk Inn, a Destination by Hyatt Hotel",
+      "place_id": "ChIJX--dWc1y_ogRi2gSg8YzoBA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/en-US/hotel/south-carolina/wild-dunes-resort-sweetgrass-inn-and-boardwalk-inn/chsdb?src=corp_lclb_google_seo_chsdb&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"Destination by Hyatt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Tempe Mission Palms Destination by Hyatt Hotel\", \"Tempe Mission Palms Destination by Hyatt Resort\", \"Tempe Mission Palms Destination by Hyatt\", \"Tempe Mission Palms Destination by Hyatt Tempe, Arizona US Hotel\", \"Tempe Mission Palms Destination by Hyatt Tempe, Arizona US Resort\", \"Tempe Mission Palms Destination by Hyatt Tempe, Arizona US\", \"Tempe Mission Palms Hilton Hotel\", \"Tempe Mission Palms Hilton Resort\", \"Tempe Mission Palms Hilton\", \"Tempe Mission Palms Hilton Tempe, Arizona US Hotel\", \"Tempe Mission Palms Hilton Tempe, Arizona US Resort\", \"Tempe Mission Palms Hilton Tempe, Arizona US\", \"Tempe Mission Palms Hotel\", \"Tempe Mission Palms Resort\", \"Tempe Mission Palms\", \"Tempe Mission Palms Tempe, Arizona US Hotel\", \"Tempe Mission Palms Tempe, Arizona US Resort\", \"Tempe Mission Palms Tempe, Arizona US\"], \"v\": 3}": {
+    "lat": 33.4260667,
+    "lon": -111.9388799,
+    "formatted_address": "60 E 5th St, Tempe, AZ 85281, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJo5zyDNgIK4cRzhBIJbVdDAQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "60 E 5th St, Tempe, AZ 85281, USA",
+      "geometry": {
+        "location": {
+          "lat": 33.4260667,
+          "lng": -111.9388799
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.42759768029149,
+            "lng": -111.9375194697085
+          },
+          "southwest": {
+            "lat": 33.42489971970849,
+            "lng": -111.9402174302915
+          }
+        }
+      },
+      "name": "Tempe Mission Palms, a Destination by Hyatt Hotel",
+      "place_id": "ChIJo5zyDNgIK4cRzhBIJbVdDAQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/destination-by-hyatt/en-US/phxdt-tempe-mission-palms?src=corp_lclb_google_seo_phxdt&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"JW Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"JW Marriott Hotel Tokyo JW Marriott Hotel\", \"JW Marriott Hotel Tokyo JW Marriott Resort\", \"JW Marriott Hotel Tokyo JW Marriott\", \"JW Marriott Hotel Tokyo JW Marriott Tokyo, Japan Hotel\", \"JW Marriott Hotel Tokyo JW Marriott Tokyo, Japan Resort\", \"JW Marriott Hotel Tokyo JW Marriott Tokyo, Japan\", \"JW Marriott Hotel Tokyo Hilton Hotel\", \"JW Marriott Hotel Tokyo Hilton Resort\", \"JW Marriott Hotel Tokyo Hilton\", \"JW Marriott Hotel Tokyo Hilton Tokyo, Japan Hotel\", \"JW Marriott Hotel Tokyo Hilton Tokyo, Japan Resort\", \"JW Marriott Hotel Tokyo Hilton Tokyo, Japan\", \"Jw Marriott Hotel Tokyo JW Marriott Hotel\", \"Jw Marriott Hotel Tokyo JW Marriott Resort\", \"Jw Marriott Hotel Tokyo JW Marriott\", \"Jw Marriott Hotel Tokyo JW Marriott Tokyo, Japan Hotel\", \"Jw Marriott Hotel Tokyo JW Marriott Tokyo, Japan Resort\", \"Jw Marriott Hotel Tokyo JW Marriott Tokyo, Japan\", \"Jw Marriott Hotel Tokyo Hilton Hotel\", \"Jw Marriott Hotel Tokyo Hilton Resort\", \"Jw Marriott Hotel Tokyo Hilton\", \"Jw Marriott Hotel Tokyo Hilton Tokyo, Japan Hotel\", \"Jw Marriott Hotel Tokyo Hilton Tokyo, Japan Resort\", \"Jw Marriott Hotel Tokyo Hilton Tokyo, Japan\", \"JW Marriott Hotel Tokyo Hotel\", \"JW Marriott Hotel Tokyo Resort\", \"JW Marriott Hotel Tokyo\", \"JW Marriott Hotel Tokyo Tokyo, Japan Hotel\", \"JW Marriott Hotel Tokyo Tokyo, Japan Resort\", \"JW Marriott Hotel Tokyo Tokyo, Japan\"], \"v\": 3}": {
+    "lat": 35.6347309,
+    "lon": 139.7393849,
+    "formatted_address": "2-chōme-21-2 Takanawa, Minato City, Tokyo 108-0074, Japan",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJMxOJOACLGGARp-vkqIaixL8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2-chōme-21-2 Takanawa, Minato City, Tokyo 108-0074, Japan",
+      "geometry": {
+        "location": {
+          "lat": 35.6347309,
+          "lng": 139.7393849
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.63563733029149,
+            "lng": 139.7405714302915
+          },
+          "southwest": {
+            "lat": 35.6329393697085,
+            "lng": 139.7378734697085
+          }
+        }
+      },
+      "name": "JW Marriott Hotel Tokyo",
+      "place_id": "ChIJMxOJOACLGGARp-vkqIaixL8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/tyojw-jw-marriott-hotel-tokyo/overview/?cid=NAT_google_hotel_url"
+    }
+  },
+  "{\"brand\": \"Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Gaylord Palms Marriott Hotel\", \"Gaylord Palms Marriott Resort\", \"Gaylord Palms Marriott\", \"Gaylord Palms Marriott Kissimmee, Florida US Hotel\", \"Gaylord Palms Marriott Kissimmee, Florida US Resort\", \"Gaylord Palms Marriott Kissimmee, Florida US\", \"Gaylord Palms Hilton Hotel\", \"Gaylord Palms Hilton Resort\", \"Gaylord Palms Hilton\", \"Gaylord Palms Hilton Kissimmee, Florida US Hotel\", \"Gaylord Palms Hilton Kissimmee, Florida US Resort\", \"Gaylord Palms Hilton Kissimmee, Florida US\", \"Gaylord Palms Hotel\", \"Gaylord Palms Resort\", \"Gaylord Palms\", \"Gaylord Palms Kissimmee, Florida US Hotel\", \"Gaylord Palms Kissimmee, Florida US Resort\", \"Gaylord Palms Kissimmee, Florida US\"], \"v\": 3}": {
+    "lat": 28.343152,
+    "lon": -81.52601349999999,
+    "formatted_address": "6000 Osceola Pkwy, Kissimmee, FL 34746, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJl0CYCGZ_3YgRL05pG5wZSsE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "6000 Osceola Pkwy, Kissimmee, FL 34746, USA",
+      "geometry": {
+        "location": {
+          "lat": 28.343152,
+          "lng": -81.52601349999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 28.3452146,
+            "lng": -81.5235393697085
+          },
+          "southwest": {
+            "lat": 28.3419884,
+            "lng": -81.52623733029151
+          }
+        }
+      },
+      "name": "Gaylord Palms Resort & Convention Center",
+      "place_id": "ChIJl0CYCGZ_3YgRL05pG5wZSsE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/mcogp-gaylord-palms-resort-and-convention-center/overview/?cid=NAT_google_hotel_url"
+    }
+  },
+  "{\"brand\": \"Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Bohemian Orlando Marriott Hotel\", \"Grand Bohemian Orlando Marriott Resort\", \"Grand Bohemian Orlando Marriott\", \"Grand Bohemian Orlando Marriott Orlando, Florida US Hotel\", \"Grand Bohemian Orlando Marriott Orlando, Florida US Resort\", \"Grand Bohemian Orlando Marriott Orlando, Florida US\", \"Grand Bohemian Orlando Hilton Hotel\", \"Grand Bohemian Orlando Hilton Resort\", \"Grand Bohemian Orlando Hilton\", \"Grand Bohemian Orlando Hilton Orlando, Florida US Hotel\", \"Grand Bohemian Orlando Hilton Orlando, Florida US Resort\", \"Grand Bohemian Orlando Hilton Orlando, Florida US\", \"Grand Bohemian Orlando Hotel\", \"Grand Bohemian Orlando Resort\", \"Grand Bohemian Orlando\", \"Grand Bohemian Orlando Orlando, Florida US Hotel\", \"Grand Bohemian Orlando Orlando, Florida US Resort\", \"Grand Bohemian Orlando Orlando, Florida US\"], \"v\": 3}": {
+    "lat": 28.5389083,
+    "lon": -81.3782669,
+    "formatted_address": "325 S Orange Ave, Orlando, FL 32801, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJKwL9_gF754gRpAqJys_VQMo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "325 S Orange Ave, Orlando, FL 32801, USA",
+      "geometry": {
+        "location": {
+          "lat": 28.5389083,
+          "lng": -81.3782669
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 28.5401215802915,
+            "lng": -81.3772043697085
+          },
+          "southwest": {
+            "lat": 28.5374236197085,
+            "lng": -81.3799023302915
+          }
+        }
+      },
+      "name": "Grand Bohemian Orlando, Autograph Collection",
+      "place_id": "ChIJKwL9_gF754gRpAqJys_VQMo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/mcoak-grand-bohemian-orlando-autograph-collection/overview/?cid=NAT_google_hotel_url"
+    }
+  },
+  "{\"brand\": \"Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The REMI. Scottsdale Marriott Hotel\", \"The REMI. Scottsdale Marriott Resort\", \"The REMI. Scottsdale Marriott\", \"The REMI. Scottsdale Marriott Scottsdale, Arizona US Hotel\", \"The REMI. Scottsdale Marriott Scottsdale, Arizona US Resort\", \"The REMI. Scottsdale Marriott Scottsdale, Arizona US\", \"The REMI. Scottsdale Hilton Hotel\", \"The REMI. Scottsdale Hilton Resort\", \"The REMI. Scottsdale Hilton\", \"The REMI. Scottsdale Hilton Scottsdale, Arizona US Hotel\", \"The REMI. Scottsdale Hilton Scottsdale, Arizona US Resort\", \"The REMI. Scottsdale Hilton Scottsdale, Arizona US\", \"The Remi Scottsdale Marriott Hotel\", \"The Remi Scottsdale Marriott Resort\", \"The Remi Scottsdale Marriott\", \"The Remi Scottsdale Marriott Scottsdale, Arizona US Hotel\", \"The Remi Scottsdale Marriott Scottsdale, Arizona US Resort\", \"The Remi Scottsdale Marriott Scottsdale, Arizona US\", \"The Remi Scottsdale Hilton Hotel\", \"The Remi Scottsdale Hilton Resort\", \"The Remi Scottsdale Hilton\", \"The Remi Scottsdale Hilton Scottsdale, Arizona US Hotel\", \"The Remi Scottsdale Hilton Scottsdale, Arizona US Resort\", \"The Remi Scottsdale Hilton Scottsdale, Arizona US\", \"The REMI. Scottsdale Hotel\", \"The REMI. Scottsdale Resort\", \"The REMI. Scottsdale\", \"The REMI. Scottsdale Scottsdale, Arizona US Hotel\", \"The REMI. Scottsdale Scottsdale, Arizona US Resort\", \"The REMI. Scottsdale Scottsdale, Arizona US\"], \"v\": 3}": {
+    "lat": 33.5011856,
+    "lon": -111.9234042,
+    "formatted_address": "4415 N Buckboard Trail, Scottsdale, AZ 85251, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJcx2aE7sLK4cR4QKkILf7vtE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "4415 N Buckboard Trail, Scottsdale, AZ 85251, USA",
+      "geometry": {
+        "location": {
+          "lat": 33.5011856,
+          "lng": -111.9234042
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.5025382802915,
+            "lng": -111.9221466197085
+          },
+          "southwest": {
+            "lat": 33.4998403197085,
+            "lng": -111.9248445802915
+          }
+        }
+      },
+      "name": "The REMI., Scottsdale, Autograph Collection",
+      "place_id": "ChIJcx2aE7sLK4cR4QKkILf7vtE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/phxda-the-remi-scottsdale-autograph-collection/overview/?cid=NAT_google_hotel_url"
+    }
+  },
+  "{\"brand\": \"Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Origine Porto Gaia Marriott Hotel\", \"Origine Porto Gaia Marriott Resort\", \"Origine Porto Gaia Marriott\", \"Origine Porto Gaia Marriott Vila Nova de Gaia, Portugal Hotel\", \"Origine Porto Gaia Marriott Vila Nova de Gaia, Portugal Resort\", \"Origine Porto Gaia Marriott Vila Nova de Gaia, Portugal\", \"Origine Porto Gaia Hilton Hotel\", \"Origine Porto Gaia Hilton Resort\", \"Origine Porto Gaia Hilton\", \"Origine Porto Gaia Hilton Vila Nova de Gaia, Portugal Hotel\", \"Origine Porto Gaia Hilton Vila Nova de Gaia, Portugal Resort\", \"Origine Porto Gaia Hilton Vila Nova de Gaia, Portugal\", \"Origine Porto Gaia Hotel\", \"Origine Porto Gaia Resort\", \"Origine Porto Gaia\", \"Origine Porto Gaia Vila Nova de Gaia, Portugal Hotel\", \"Origine Porto Gaia Vila Nova de Gaia, Portugal Resort\", \"Origine Porto Gaia Vila Nova de Gaia, Portugal\"], \"v\": 3}": {
+    "lat": 41.1370219,
+    "lon": -8.6110246,
+    "formatted_address": "R. do Gen. Torres 219, 4430-108 Vila Nova de Gaia, Portugal",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJvwm8qbplJA0RoXANQQ_SKRo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "R. do Gen. Torres 219, 4430-108 Vila Nova de Gaia, Portugal",
+      "geometry": {
+        "location": {
+          "lat": 41.1370219,
+          "lng": -8.6110246
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.13841568029149,
+            "lng": -8.609718819708498
+          },
+          "southwest": {
+            "lat": 41.1357177197085,
+            "lng": -8.6124167802915
+          }
+        }
+      },
+      "name": "Origine Porto Gaia, a Tribute Portfolio Hotel",
+      "place_id": "ChIJvwm8qbplJA0RoXANQQ_SKRo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/opogt-origine-porto-gaia-a-tribute-portfolio-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"The Standard\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Standard, Bangkok Mahanakhon The Standard Hotel\", \"The Standard, Bangkok Mahanakhon The Standard Resort\", \"The Standard, Bangkok Mahanakhon The Standard\", \"The Standard, Bangkok Mahanakhon The Standard Bangkok, Thailand Hotel\", \"The Standard, Bangkok Mahanakhon The Standard Bangkok, Thailand Resort\", \"The Standard, Bangkok Mahanakhon The Standard Bangkok, Thailand\", \"The Standard, Bangkok Mahanakhon Hilton Hotel\", \"The Standard, Bangkok Mahanakhon Hilton Resort\", \"The Standard, Bangkok Mahanakhon Hilton\", \"The Standard, Bangkok Mahanakhon Hilton Bangkok, Thailand Hotel\", \"The Standard, Bangkok Mahanakhon Hilton Bangkok, Thailand Resort\", \"The Standard, Bangkok Mahanakhon Hilton Bangkok, Thailand\", \"Standard Bangkok Mahanakhon The Standard Hotel\", \"Standard Bangkok Mahanakhon The Standard Resort\", \"Standard Bangkok Mahanakhon The Standard\", \"Standard Bangkok Mahanakhon The Standard Bangkok, Thailand Hotel\", \"Standard Bangkok Mahanakhon The Standard Bangkok, Thailand Resort\", \"Standard Bangkok Mahanakhon The Standard Bangkok, Thailand\", \"Standard Bangkok Mahanakhon Hilton Hotel\", \"Standard Bangkok Mahanakhon Hilton Resort\", \"Standard Bangkok Mahanakhon Hilton\", \"Standard Bangkok Mahanakhon Hilton Bangkok, Thailand Hotel\", \"Standard Bangkok Mahanakhon Hilton Bangkok, Thailand Resort\", \"Standard Bangkok Mahanakhon Hilton Bangkok, Thailand\", \"The Standard, Bangkok Mahanakhon Hotel\", \"The Standard, Bangkok Mahanakhon Resort\", \"The Standard, Bangkok Mahanakhon\", \"The Standard, Bangkok Mahanakhon Bangkok, Thailand Hotel\", \"The Standard, Bangkok Mahanakhon Bangkok, Thailand Resort\", \"The Standard, Bangkok Mahanakhon Bangkok, Thailand\"], \"v\": 3}": {
+    "lat": 13.7234101,
+    "lon": 100.5285794,
+    "formatted_address": "114 Thanon Naradhiwat Rajanagarindra, Si Lom, Khet Bang Rak, Krung Thep Maha Nakhon 10500, Thailand",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJNZjBvcCf4jARzphih4xO9jc",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "114 Thanon Naradhiwat Rajanagarindra, Si Lom, Khet Bang Rak, Krung Thep Maha Nakhon 10500, Thailand",
+      "geometry": {
+        "location": {
+          "lat": 13.7234101,
+          "lng": 100.5285794
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 13.7247161302915,
+            "lng": 100.5299191802915
+          },
+          "southwest": {
+            "lat": 13.7220181697085,
+            "lng": 100.5272212197085
+          }
+        }
+      },
+      "name": "The Standard, Bangkok Mahanakhon",
+      "place_id": "ChIJNZjBvcCf4jARzphih4xO9jc",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/en-US/hotel/thailand/the-standard-bangkok/bkksb?src=corp_lclb_google_seo_bkksb&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"The Standard\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Standard, Ibiza The Standard Hotel\", \"The Standard, Ibiza The Standard Resort\", \"The Standard, Ibiza The Standard\", \"The Standard, Ibiza The Standard Eivissa, Spain Hotel\", \"The Standard, Ibiza The Standard Eivissa, Spain Resort\", \"The Standard, Ibiza The Standard Eivissa, Spain\", \"The Standard, Ibiza Hilton Hotel\", \"The Standard, Ibiza Hilton Resort\", \"The Standard, Ibiza Hilton\", \"The Standard, Ibiza Hilton Eivissa, Spain Hotel\", \"The Standard, Ibiza Hilton Eivissa, Spain Resort\", \"The Standard, Ibiza Hilton Eivissa, Spain\", \"The Standard Ibiza The Standard Hotel\", \"The Standard Ibiza The Standard Resort\", \"The Standard Ibiza The Standard\", \"The Standard Ibiza The Standard Eivissa, Spain Hotel\", \"The Standard Ibiza The Standard Eivissa, Spain Resort\", \"The Standard Ibiza The Standard Eivissa, Spain\", \"The Standard Ibiza Hilton Hotel\", \"The Standard Ibiza Hilton Resort\", \"The Standard Ibiza Hilton\", \"The Standard Ibiza Hilton Eivissa, Spain Hotel\", \"The Standard Ibiza Hilton Eivissa, Spain Resort\", \"The Standard Ibiza Hilton Eivissa, Spain\", \"The Standard, Ibiza Hotel\", \"The Standard, Ibiza Resort\", \"The Standard, Ibiza\", \"The Standard, Ibiza Eivissa, Spain Hotel\", \"The Standard, Ibiza Eivissa, Spain Resort\", \"The Standard, Ibiza Eivissa, Spain\"], \"v\": 3}": {
+    "lat": 38.9098865,
+    "lon": 1.4340948,
+    "formatted_address": "Carrer de Bartomeu Vicent Ramon, 9, 07800 Eivissa, Illes Balears, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJhfCGobBGmRIR6z_fbmgs4no",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carrer de Bartomeu Vicent Ramon, 9, 07800 Eivissa, Illes Balears, Spain",
+      "geometry": {
+        "location": {
+          "lat": 38.9098865,
+          "lng": 1.4340948
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.91130458029149,
+            "lng": 1.435345380291502
+          },
+          "southwest": {
+            "lat": 38.9086066197085,
+            "lng": 1.432647419708498
+          }
+        }
+      },
+      "name": "The Standard, Ibiza",
+      "place_id": "ChIJhfCGobBGmRIR6z_fbmgs4no",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/en-US/hotel/spain/the-standard-ibiza/ibzsi?src=corp_lclb_google_seo_ibzsi&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"The Standard\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Standard, London The Standard Hotel\", \"The Standard, London The Standard Resort\", \"The Standard, London The Standard\", \"The Standard, London The Standard London, England Hotel\", \"The Standard, London The Standard London, England Resort\", \"The Standard, London The Standard London, England\", \"The Standard, London Hilton Hotel\", \"The Standard, London Hilton Resort\", \"The Standard, London Hilton\", \"The Standard, London Hilton London, England Hotel\", \"The Standard, London Hilton London, England Resort\", \"The Standard, London Hilton London, England\", \"The Standard London The Standard Hotel\", \"The Standard London The Standard Resort\", \"The Standard London The Standard\", \"The Standard London The Standard London, England Hotel\", \"The Standard London The Standard London, England Resort\", \"The Standard London The Standard London, England\", \"The Standard London Hilton Hotel\", \"The Standard London Hilton Resort\", \"The Standard London Hilton\", \"The Standard London Hilton London, England Hotel\", \"The Standard London Hilton London, England Resort\", \"The Standard London Hilton London, England\", \"The Standard, London Hotel\", \"The Standard, London Resort\", \"The Standard, London\", \"The Standard, London London, England Hotel\", \"The Standard, London London, England Resort\", \"The Standard, London London, England\"], \"v\": 3}": {
+    "lat": 51.5295373,
+    "lon": -0.1243078,
+    "formatted_address": "10 Argyle St, London WC1H 8EG, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJcW4KxmEbdkgRrRNkLIHuQ2c",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "10 Argyle St, London WC1H 8EG, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.5295373,
+          "lng": -0.1243078
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5309114302915,
+            "lng": -0.122861219708498
+          },
+          "southwest": {
+            "lat": 51.5282134697085,
+            "lng": -0.125559180291502
+          }
+        }
+      },
+      "name": "The Standard, London",
+      "place_id": "ChIJcW4KxmEbdkgRrRNkLIHuQ2c",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/en-US/hotel/london/the-standard-london/lonsl?src=corp_lclb_google_seo_lonsl&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"The Standard\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The StandardX Melbourne The Standard Hotel\", \"The StandardX Melbourne The Standard Resort\", \"The StandardX Melbourne The Standard\", \"The StandardX Melbourne The Standard Melbourne, Australia Hotel\", \"The StandardX Melbourne The Standard Melbourne, Australia Resort\", \"The StandardX Melbourne The Standard Melbourne, Australia\", \"The StandardX Melbourne Hilton Hotel\", \"The StandardX Melbourne Hilton Resort\", \"The StandardX Melbourne Hilton\", \"The StandardX Melbourne Hilton Melbourne, Australia Hotel\", \"The StandardX Melbourne Hilton Melbourne, Australia Resort\", \"The StandardX Melbourne Hilton Melbourne, Australia\", \"The Standardx Melbourne The Standard Hotel\", \"The Standardx Melbourne The Standard Resort\", \"The Standardx Melbourne The Standard\", \"The Standardx Melbourne The Standard Melbourne, Australia Hotel\", \"The Standardx Melbourne The Standard Melbourne, Australia Resort\", \"The Standardx Melbourne The Standard Melbourne, Australia\", \"The Standardx Melbourne Hilton Hotel\", \"The Standardx Melbourne Hilton Resort\", \"The Standardx Melbourne Hilton\", \"The Standardx Melbourne Hilton Melbourne, Australia Hotel\", \"The Standardx Melbourne Hilton Melbourne, Australia Resort\", \"The Standardx Melbourne Hilton Melbourne, Australia\", \"The StandardX Melbourne Hotel\", \"The StandardX Melbourne Resort\", \"The StandardX Melbourne\", \"The StandardX Melbourne Melbourne, Australia Hotel\", \"The StandardX Melbourne Melbourne, Australia Resort\", \"The StandardX Melbourne Melbourne, Australia\"], \"v\": 3}": {
+    "lat": -37.7960459,
+    "lon": 144.9774903,
+    "formatted_address": "62 Rose St, Fitzroy VIC 3065, Australia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJKTNweHtD1moRl1bOZnhFS4c",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "62 Rose St, Fitzroy VIC 3065, Australia",
+      "geometry": {
+        "location": {
+          "lat": -37.7960459,
+          "lng": 144.9774903
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -37.79451581970849,
+            "lng": 144.9790037302915
+          },
+          "southwest": {
+            "lat": -37.79721378029149,
+            "lng": 144.9763057697085
+          }
+        }
+      },
+      "name": "The StandardX, Melbourne",
+      "place_id": "ChIJKTNweHtD1moRl1bOZnhFS4c",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/en-US/hotel/australia/the-standardx-melbourne/melsx?src=corp_lclb_google_seo_melsx&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"The Standard\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Standard, Hua Hin The Standard Hotel\", \"The Standard, Hua Hin The Standard Resort\", \"The Standard, Hua Hin The Standard\", \"The Standard, Hua Hin The Standard Prachuap Khiri Khan, Thailand Hotel\", \"The Standard, Hua Hin The Standard Prachuap Khiri Khan, Thailand Resort\", \"The Standard, Hua Hin The Standard Prachuap Khiri Khan, Thailand\", \"The Standard, Hua Hin Hilton Hotel\", \"The Standard, Hua Hin Hilton Resort\", \"The Standard, Hua Hin Hilton\", \"The Standard, Hua Hin Hilton Prachuap Khiri Khan, Thailand Hotel\", \"The Standard, Hua Hin Hilton Prachuap Khiri Khan, Thailand Resort\", \"The Standard, Hua Hin Hilton Prachuap Khiri Khan, Thailand\", \"Standard Hua Hin The Standard Hotel\", \"Standard Hua Hin The Standard Resort\", \"Standard Hua Hin The Standard\", \"Standard Hua Hin The Standard Prachuap Khiri Khan, Thailand Hotel\", \"Standard Hua Hin The Standard Prachuap Khiri Khan, Thailand Resort\", \"Standard Hua Hin The Standard Prachuap Khiri Khan, Thailand\", \"Standard Hua Hin Hilton Hotel\", \"Standard Hua Hin Hilton Resort\", \"Standard Hua Hin Hilton\", \"Standard Hua Hin Hilton Prachuap Khiri Khan, Thailand Hotel\", \"Standard Hua Hin Hilton Prachuap Khiri Khan, Thailand Resort\", \"Standard Hua Hin Hilton Prachuap Khiri Khan, Thailand\", \"The Standard, Hua Hin Hotel\", \"The Standard, Hua Hin Resort\", \"The Standard, Hua Hin\", \"The Standard, Hua Hin Prachuap Khiri Khan, Thailand Hotel\", \"The Standard, Hua Hin Prachuap Khiri Khan, Thailand Resort\", \"The Standard, Hua Hin Prachuap Khiri Khan, Thailand\"], \"v\": 3}": {
+    "lat": 12.5659002,
+    "lon": 99.9601316,
+    "formatted_address": "59 Soi Naresdamri, Tambon Hua Hin, Amphoe Hua Hin, Chang Wat Prachuap Khiri Khan 77110, Thailand",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJlVOmEc-r_TARYP26pc4_ggU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "59 Soi Naresdamri, Tambon Hua Hin, Amphoe Hua Hin, Chang Wat Prachuap Khiri Khan 77110, Thailand",
+      "geometry": {
+        "location": {
+          "lat": 12.5659002,
+          "lng": 99.9601316
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 12.5671582802915,
+            "lng": 99.9613430802915
+          },
+          "southwest": {
+            "lat": 12.5644603197085,
+            "lng": 99.95864511970848
+          }
+        }
+      },
+      "name": "The Standard, Hua Hin",
+      "place_id": "ChIJlVOmEc-r_TARYP26pc4_ggU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/en-US/hotel/thailand/the-standard-hua-hin/huash?src=corp_lclb_google_seo_huash&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"The Standard\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Standard, Huruvalhi Maldives The Standard Hotel\", \"The Standard, Huruvalhi Maldives The Standard Resort\", \"The Standard, Huruvalhi Maldives The Standard\", \"The Standard, Huruvalhi Maldives The Standard Raa Atoll, Maldives Hotel\", \"The Standard, Huruvalhi Maldives The Standard Raa Atoll, Maldives Resort\", \"The Standard, Huruvalhi Maldives The Standard Raa Atoll, Maldives\", \"The Standard, Huruvalhi Maldives Hilton Hotel\", \"The Standard, Huruvalhi Maldives Hilton Resort\", \"The Standard, Huruvalhi Maldives Hilton\", \"The Standard, Huruvalhi Maldives Hilton Raa Atoll, Maldives Hotel\", \"The Standard, Huruvalhi Maldives Hilton Raa Atoll, Maldives Resort\", \"The Standard, Huruvalhi Maldives Hilton Raa Atoll, Maldives\", \"Standard Huruvalhi Maldives The Standard Hotel\", \"Standard Huruvalhi Maldives The Standard Resort\", \"Standard Huruvalhi Maldives The Standard\", \"Standard Huruvalhi Maldives The Standard Raa Atoll, Maldives Hotel\", \"Standard Huruvalhi Maldives The Standard Raa Atoll, Maldives Resort\", \"Standard Huruvalhi Maldives The Standard Raa Atoll, Maldives\", \"Standard Huruvalhi Maldives Hilton Hotel\", \"Standard Huruvalhi Maldives Hilton Resort\", \"Standard Huruvalhi Maldives Hilton\", \"Standard Huruvalhi Maldives Hilton Raa Atoll, Maldives Hotel\", \"Standard Huruvalhi Maldives Hilton Raa Atoll, Maldives Resort\", \"Standard Huruvalhi Maldives Hilton Raa Atoll, Maldives\", \"The Standard, Huruvalhi Maldives Hotel\", \"The Standard, Huruvalhi Maldives Resort\", \"The Standard, Huruvalhi Maldives\", \"The Standard, Huruvalhi Maldives Raa Atoll, Maldives Hotel\", \"The Standard, Huruvalhi Maldives Raa Atoll, Maldives Resort\", \"The Standard, Huruvalhi Maldives Raa Atoll, Maldives\"], \"v\": 3}": {
+    "lat": 5.3922115,
+    "lon": 72.9789255,
+    "formatted_address": "Huruvalhi Island, Maldives",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ76lDAQ_kajsR4gCwNAxoVm8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Huruvalhi Island, Maldives",
+      "geometry": {
+        "location": {
+          "lat": 5.3922115,
+          "lng": 72.9789255
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 5.393560480291502,
+            "lng": 72.98027448029151
+          },
+          "southwest": {
+            "lat": 5.390862519708497,
+            "lng": 72.97757651970849
+          }
+        }
+      },
+      "name": "The Standard, Maldives",
+      "place_id": "ChIJ76lDAQ_kajsR4gCwNAxoVm8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/en-US/hotel/maldives/the-standard-maldives/mldsm?src=corp_lclb_google_seo_mldsm&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"The Standard\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Standard, Singapore The Standard Hotel\", \"The Standard, Singapore The Standard Resort\", \"The Standard, Singapore The Standard\", \"The Standard, Singapore The Standard Singapore, Singapore Hotel\", \"The Standard, Singapore The Standard Singapore, Singapore Resort\", \"The Standard, Singapore The Standard Singapore, Singapore\", \"The Standard, Singapore Hilton Hotel\", \"The Standard, Singapore Hilton Resort\", \"The Standard, Singapore Hilton\", \"The Standard, Singapore Hilton Singapore, Singapore Hotel\", \"The Standard, Singapore Hilton Singapore, Singapore Resort\", \"The Standard, Singapore Hilton Singapore, Singapore\", \"The Standard Singapore The Standard Hotel\", \"The Standard Singapore The Standard Resort\", \"The Standard Singapore The Standard\", \"The Standard Singapore The Standard Singapore, Singapore Hotel\", \"The Standard Singapore The Standard Singapore, Singapore Resort\", \"The Standard Singapore The Standard Singapore, Singapore\", \"The Standard Singapore Hilton Hotel\", \"The Standard Singapore Hilton Resort\", \"The Standard Singapore Hilton\", \"The Standard Singapore Hilton Singapore, Singapore Hotel\", \"The Standard Singapore Hilton Singapore, Singapore Resort\", \"The Standard Singapore Hilton Singapore, Singapore\", \"The Standard, Singapore Hotel\", \"The Standard, Singapore Resort\", \"The Standard, Singapore\", \"The Standard, Singapore Singapore, Singapore Hotel\", \"The Standard, Singapore Singapore, Singapore Resort\", \"The Standard, Singapore Singapore, Singapore\"], \"v\": 3}": {
+    "lat": 1.3101799,
+    "lon": 103.8261714,
+    "formatted_address": "12 Orange Grove Rd, Singapore 258353",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJzfcnKcAZ2jERv7TnhIwZHVE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "12 Orange Grove Rd, Singapore 258353",
+      "geometry": {
+        "location": {
+          "lat": 1.3101799,
+          "lng": 103.8261714
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 1.311530780291502,
+            "lng": 103.8274541302915
+          },
+          "southwest": {
+            "lat": 1.308832819708498,
+            "lng": 103.8247561697085
+          }
+        }
+      },
+      "name": "The Standard, Singapore",
+      "place_id": "ChIJzfcnKcAZ2jERv7TnhIwZHVE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/en-US/hotel/singapore/the-standard-singapore/sinss?src=corp_lclb_google_seo_sinss&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"Westin Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Moana Surfrider, A Westin Resort & Spa Westin Hotels & Resorts Hotel\", \"Moana Surfrider, A Westin Resort & Spa Westin Hotels & Resorts Resort\", \"Moana Surfrider, A Westin Resort & Spa Westin Hotels & Resorts\", \"Moana Surfrider, A Westin Resort & Spa Westin Hotels & Resorts Honolulu, Hawaii US Hotel\", \"Moana Surfrider, A Westin Resort & Spa Westin Hotels & Resorts Honolulu, Hawaii US Resort\", \"Moana Surfrider, A Westin Resort & Spa Westin Hotels & Resorts Honolulu, Hawaii US\", \"Moana Surfrider, A Westin Resort & Spa Hilton Hotel\", \"Moana Surfrider, A Westin Resort & Spa Hilton Resort\", \"Moana Surfrider, A Westin Resort & Spa Hilton\", \"Moana Surfrider, A Westin Resort & Spa Hilton Honolulu, Hawaii US Hotel\", \"Moana Surfrider, A Westin Resort & Spa Hilton Honolulu, Hawaii US Resort\", \"Moana Surfrider, A Westin Resort & Spa Hilton Honolulu, Hawaii US\", \"Moana Surfrider A Westin Resort Spa Westin Hotels & Resorts Hotel\", \"Moana Surfrider A Westin Resort Spa Westin Hotels & Resorts Resort\", \"Moana Surfrider A Westin Resort Spa Westin Hotels & Resorts\", \"Moana Surfrider A Westin Resort Spa Westin Hotels & Resorts Honolulu, Hawaii US Hotel\", \"Moana Surfrider A Westin Resort Spa Westin Hotels & Resorts Honolulu, Hawaii US Resort\", \"Moana Surfrider A Westin Resort Spa Westin Hotels & Resorts Honolulu, Hawaii US\", \"Moana Surfrider A Westin Resort Spa Hilton Hotel\", \"Moana Surfrider A Westin Resort Spa Hilton Resort\", \"Moana Surfrider A Westin Resort Spa Hilton\", \"Moana Surfrider A Westin Resort Spa Hilton Honolulu, Hawaii US Hotel\", \"Moana Surfrider A Westin Resort Spa Hilton Honolulu, Hawaii US Resort\", \"Moana Surfrider A Westin Resort Spa Hilton Honolulu, Hawaii US\", \"Moana Surfrider, A Westin Resort & Spa Hotel\", \"Moana Surfrider, A Westin Resort & Spa Resort\", \"Moana Surfrider, A Westin Resort & Spa\", \"Moana Surfrider, A Westin Resort & Spa Honolulu, Hawaii US Hotel\", \"Moana Surfrider, A Westin Resort & Spa Honolulu, Hawaii US Resort\", \"Moana Surfrider, A Westin Resort & Spa Honolulu, Hawaii US\"], \"v\": 3}": {
+    "lat": 21.2765498,
+    "lon": -157.8266319,
+    "formatted_address": "2365 Kalākaua Ave, Honolulu, HI 96815, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJzyVahnZyAHwRSexvrM_P95g",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2365 Kalākaua Ave, Honolulu, HI 96815, USA",
+      "geometry": {
+        "location": {
+          "lat": 21.2765498,
+          "lng": -157.8266319
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 21.2780467802915,
+            "lng": -157.8251691697085
+          },
+          "southwest": {
+            "lat": 21.2753488197085,
+            "lng": -157.8278671302915
+          }
+        }
+      },
+      "name": "Moana Surfrider, A Westin Resort & Spa, Waikiki Beach",
+      "place_id": "ChIJzyVahnZyAHwRSexvrM_P95g",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/hnlwi-moana-surfrider-a-westin-resort-and-spa-waikiki-beach/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Westin Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Westin St. Thomas Beach Resort & Spa Westin Hotels & Resorts Hotel\", \"The Westin St. Thomas Beach Resort & Spa Westin Hotels & Resorts Resort\", \"The Westin St. Thomas Beach Resort & Spa Westin Hotels & Resorts\", \"The Westin St. Thomas Beach Resort & Spa Westin Hotels & Resorts St. Thomas, U.S. Virgin Islands Hotel\", \"The Westin St. Thomas Beach Resort & Spa Westin Hotels & Resorts St. Thomas, U.S. Virgin Islands Resort\", \"The Westin St. Thomas Beach Resort & Spa Westin Hotels & Resorts St. Thomas, U.S. Virgin Islands\", \"The Westin St. Thomas Beach Resort & Spa Hilton Hotel\", \"The Westin St. Thomas Beach Resort & Spa Hilton Resort\", \"The Westin St. Thomas Beach Resort & Spa Hilton\", \"The Westin St. Thomas Beach Resort & Spa Hilton St. Thomas, U.S. Virgin Islands Hotel\", \"The Westin St. Thomas Beach Resort & Spa Hilton St. Thomas, U.S. Virgin Islands Resort\", \"The Westin St. Thomas Beach Resort & Spa Hilton St. Thomas, U.S. Virgin Islands\", \"Westin St Thomas Beach Resort Spa Westin Hotels & Resorts Hotel\", \"Westin St Thomas Beach Resort Spa Westin Hotels & Resorts Resort\", \"Westin St Thomas Beach Resort Spa Westin Hotels & Resorts\", \"Westin St Thomas Beach Resort Spa Westin Hotels & Resorts St. Thomas, U.S. Virgin Islands Hotel\", \"Westin St Thomas Beach Resort Spa Westin Hotels & Resorts St. Thomas, U.S. Virgin Islands Resort\", \"Westin St Thomas Beach Resort Spa Westin Hotels & Resorts St. Thomas, U.S. Virgin Islands\", \"Westin St Thomas Beach Resort Spa Hilton Hotel\", \"Westin St Thomas Beach Resort Spa Hilton Resort\", \"Westin St Thomas Beach Resort Spa Hilton\", \"Westin St Thomas Beach Resort Spa Hilton St. Thomas, U.S. Virgin Islands Hotel\", \"Westin St Thomas Beach Resort Spa Hilton St. Thomas, U.S. Virgin Islands Resort\", \"Westin St Thomas Beach Resort Spa Hilton St. Thomas, U.S. Virgin Islands\", \"The Westin St. Thomas Beach Resort & Spa Hotel\", \"The Westin St. Thomas Beach Resort & Spa Resort\", \"The Westin St. Thomas Beach Resort & Spa\", \"The Westin St. Thomas Beach Resort & Spa St. Thomas, U.S. Virgin Islands Hotel\", \"The Westin St. Thomas Beach Resort & Spa St. Thomas, U.S. Virgin Islands Resort\", \"The Westin St. Thomas Beach Resort & Spa St. Thomas, U.S. Virgin Islands\"], \"v\": 3}": {
+    "lat": 18.3205224,
+    "lon": -64.9220612,
+    "formatted_address": "5 Estate Bakkeroe, St Thomas 00801, USVI",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJu-RezREbBYwRfDm0a0crmoI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "5 Estate Bakkeroe, St Thomas 00801, USVI",
+      "geometry": {
+        "location": {
+          "lat": 18.3205224,
+          "lng": -64.9220612
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 18.3219648302915,
+            "lng": -64.92064901970849
+          },
+          "southwest": {
+            "lat": 18.3192668697085,
+            "lng": -64.9233469802915
+          }
+        }
+      },
+      "name": "The Westin St. Thomas Beach Resort & Spa",
+      "place_id": "ChIJu-RezREbBYwRfDm0a0crmoI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/sttwi-the-westin-st-thomas-beach-resort-and-spa/overview/?cid=NAT_google_hotel_url"
+    }
   }
 }
