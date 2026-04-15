@@ -208498,5 +208498,133 @@
       ],
       "website": "https://www.marriott.com/en-us/hotels/sttwi-the-westin-st-thomas-beach-resort-and-spa/overview/?cid=NAT_google_hotel_url"
     }
+  },
+  "{\"brand\": \"The Standard\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Standard Spa, Miami Beach The Standard Hotel\", \"The Standard Spa, Miami Beach The Standard Resort\", \"The Standard Spa, Miami Beach The Standard\", \"The Standard Spa, Miami Beach The Standard Miami Beach, Florida US Hotel\", \"The Standard Spa, Miami Beach The Standard Miami Beach, Florida US Resort\", \"The Standard Spa, Miami Beach The Standard Miami Beach, Florida US\", \"The Standard Spa, Miami Beach Hilton Hotel\", \"The Standard Spa, Miami Beach Hilton Resort\", \"The Standard Spa, Miami Beach Hilton\", \"The Standard Spa, Miami Beach Hilton Miami Beach, Florida US Hotel\", \"The Standard Spa, Miami Beach Hilton Miami Beach, Florida US Resort\", \"The Standard Spa, Miami Beach Hilton Miami Beach, Florida US\", \"Standard Spa Miami Beach The Standard Hotel\", \"Standard Spa Miami Beach The Standard Resort\", \"Standard Spa Miami Beach The Standard\", \"Standard Spa Miami Beach The Standard Miami Beach, Florida US Hotel\", \"Standard Spa Miami Beach The Standard Miami Beach, Florida US Resort\", \"Standard Spa Miami Beach The Standard Miami Beach, Florida US\", \"Standard Spa Miami Beach Hilton Hotel\", \"Standard Spa Miami Beach Hilton Resort\", \"Standard Spa Miami Beach Hilton\", \"Standard Spa Miami Beach Hilton Miami Beach, Florida US Hotel\", \"Standard Spa Miami Beach Hilton Miami Beach, Florida US Resort\", \"Standard Spa Miami Beach Hilton Miami Beach, Florida US\", \"The Standard Spa, Miami Beach Hotel\", \"The Standard Spa, Miami Beach Resort\", \"The Standard Spa, Miami Beach\", \"The Standard Spa, Miami Beach Miami Beach, Florida US Hotel\", \"The Standard Spa, Miami Beach Miami Beach, Florida US Resort\", \"The Standard Spa, Miami Beach Miami Beach, Florida US\"], \"v\": 3}": {
+    "lat": 25.79175,
+    "lon": -80.149086,
+    "formatted_address": "40 Island Ave, Miami Beach, FL 33139, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJi3iJenu02YgRFrHZlqynfjg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "40 Island Ave, Miami Beach, FL 33139, USA",
+      "geometry": {
+        "location": {
+          "lat": 25.79175,
+          "lng": -80.149086
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.7930773802915,
+            "lng": -80.14775406970848
+          },
+          "southwest": {
+            "lat": 25.79037941970849,
+            "lng": -80.15045203029149
+          }
+        }
+      },
+      "name": "The Standard Spa, Miami Beach",
+      "place_id": "ChIJi3iJenu02YgRFrHZlqynfjg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.standardhotels.com/miami/properties/miami-beach"
+    }
+  },
+  "{\"brand\": \"The Standard\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Standard, East Village The Standard Hotel\", \"The Standard, East Village The Standard Resort\", \"The Standard, East Village The Standard\", \"The Standard, East Village The Standard New York, New York US Hotel\", \"The Standard, East Village The Standard New York, New York US Resort\", \"The Standard, East Village The Standard New York, New York US\", \"The Standard, East Village Hilton Hotel\", \"The Standard, East Village Hilton Resort\", \"The Standard, East Village Hilton\", \"The Standard, East Village Hilton New York, New York US Hotel\", \"The Standard, East Village Hilton New York, New York US Resort\", \"The Standard, East Village Hilton New York, New York US\", \"Standard East Village The Standard Hotel\", \"Standard East Village The Standard Resort\", \"Standard East Village The Standard\", \"Standard East Village The Standard New York, New York US Hotel\", \"Standard East Village The Standard New York, New York US Resort\", \"Standard East Village The Standard New York, New York US\", \"Standard East Village Hilton Hotel\", \"Standard East Village Hilton Resort\", \"Standard East Village Hilton\", \"Standard East Village Hilton New York, New York US Hotel\", \"Standard East Village Hilton New York, New York US Resort\", \"Standard East Village Hilton New York, New York US\", \"The Standard, East Village Hotel\", \"The Standard, East Village Resort\", \"The Standard, East Village\", \"The Standard, East Village New York, New York US Hotel\", \"The Standard, East Village New York, New York US Resort\", \"The Standard, East Village New York, New York US\"], \"v\": 3}": {
+    "lat": 40.7278896,
+    "lon": -73.9907987,
+    "formatted_address": "25 Cooper Sq, New York, NY 10003, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJgWmjF5tZwokRiP8Uj3l8gXE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "25 Cooper Sq, New York, NY 10003, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.7278896,
+          "lng": -73.9907987
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.72922803029149,
+            "lng": -73.9895755697085
+          },
+          "southwest": {
+            "lat": 40.7265300697085,
+            "lng": -73.99227353029151
+          }
+        }
+      },
+      "name": "The Standard, East Village",
+      "place_id": "ChIJgWmjF5tZwokRiP8Uj3l8gXE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/en-US/hotel/new-york/the-standard-east-village/lgase?src=corp_lclb_google_seo_lgase&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"The Standard\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Standard, High Line The Standard Hotel\", \"The Standard, High Line The Standard Resort\", \"The Standard, High Line The Standard\", \"The Standard, High Line The Standard New York, New York US Hotel\", \"The Standard, High Line The Standard New York, New York US Resort\", \"The Standard, High Line The Standard New York, New York US\", \"The Standard, High Line Hilton Hotel\", \"The Standard, High Line Hilton Resort\", \"The Standard, High Line Hilton\", \"The Standard, High Line Hilton New York, New York US Hotel\", \"The Standard, High Line Hilton New York, New York US Resort\", \"The Standard, High Line Hilton New York, New York US\", \"Standard High Line The Standard Hotel\", \"Standard High Line The Standard Resort\", \"Standard High Line The Standard\", \"Standard High Line The Standard New York, New York US Hotel\", \"Standard High Line The Standard New York, New York US Resort\", \"Standard High Line The Standard New York, New York US\", \"Standard High Line Hilton Hotel\", \"Standard High Line Hilton Resort\", \"Standard High Line Hilton\", \"Standard High Line Hilton New York, New York US Hotel\", \"Standard High Line Hilton New York, New York US Resort\", \"Standard High Line Hilton New York, New York US\", \"The Standard, High Line Hotel\", \"The Standard, High Line Resort\", \"The Standard, High Line\", \"The Standard, High Line New York, New York US Hotel\", \"The Standard, High Line New York, New York US Resort\", \"The Standard, High Line New York, New York US\"], \"v\": 3}": {
+    "lat": 40.74081380000001,
+    "lon": -74.00786339999999,
+    "formatted_address": "848 Washington St, New York, NY 10014, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJN-93ZsBZwokRKqmdupb-XFA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "848 Washington St, New York, NY 10014, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.74081380000001,
+          "lng": -74.00786339999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.74229378029151,
+            "lng": -74.00647461970848
+          },
+          "southwest": {
+            "lat": 40.73959581970851,
+            "lng": -74.0091725802915
+          }
+        }
+      },
+      "name": "The Standard, High Line",
+      "place_id": "ChIJN-93ZsBZwokRKqmdupb-XFA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/en-US/hotel/new-york/the-standard-high-line/lgash?src=corp_lclb_google_seo_lgash&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
   }
 }
