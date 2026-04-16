@@ -206968,5 +206968,47 @@
       ],
       "website": "https://www.marriott.com/en-us/hotels/olbpq-w-sardinia-poltu-quatu/overview/?cid=NAT_google_hotel_url"
     }
+  },
+  "{\"brand\": \"St. Regis\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Houston Grand Hotel-River Oaks St. Regis Hotel\", \"Houston Grand Hotel-River Oaks St. Regis Resort\", \"Houston Grand Hotel-River Oaks St. Regis\", \"Houston Grand Hotel-River Oaks St. Regis Houston, Texas US Hotel\", \"Houston Grand Hotel-River Oaks St. Regis Houston, Texas US Resort\", \"Houston Grand Hotel-River Oaks St. Regis Houston, Texas US\", \"Houston Grand Hotel-River Oaks Hilton Hotel\", \"Houston Grand Hotel-River Oaks Hilton Resort\", \"Houston Grand Hotel-River Oaks Hilton\", \"Houston Grand Hotel-River Oaks Hilton Houston, Texas US Hotel\", \"Houston Grand Hotel-River Oaks Hilton Houston, Texas US Resort\", \"Houston Grand Hotel-River Oaks Hilton Houston, Texas US\", \"Houston Grand Hotel river Oaks St. Regis Hotel\", \"Houston Grand Hotel river Oaks St. Regis Resort\", \"Houston Grand Hotel river Oaks St. Regis\", \"Houston Grand Hotel river Oaks St. Regis Houston, Texas US Hotel\", \"Houston Grand Hotel river Oaks St. Regis Houston, Texas US Resort\", \"Houston Grand Hotel river Oaks St. Regis Houston, Texas US\", \"Houston Grand Hotel river Oaks Hilton Hotel\", \"Houston Grand Hotel river Oaks Hilton Resort\", \"Houston Grand Hotel river Oaks Hilton\", \"Houston Grand Hotel river Oaks Hilton Houston, Texas US Hotel\", \"Houston Grand Hotel river Oaks Hilton Houston, Texas US Resort\", \"Houston Grand Hotel river Oaks Hilton Houston, Texas US\", \"Houston Grand Hotel-River Oaks Hotel\", \"Houston Grand Hotel-River Oaks Resort\", \"Houston Grand Hotel-River Oaks\", \"Houston Grand Hotel-River Oaks Houston, Texas US Hotel\", \"Houston Grand Hotel-River Oaks Houston, Texas US Resort\", \"Houston Grand Hotel-River Oaks Houston, Texas US\"], \"v\": 3}": {
+    "lat": 29.7475564,
+    "lon": -95.450282,
+    "formatted_address": "1919 Briar Oaks Ln, Houston, TX 77027, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ1wqP7D3BQIYRN9xCJrWmj9M",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1919 Briar Oaks Ln, Houston, TX 77027, USA",
+      "geometry": {
+        "location": {
+          "lat": 29.7475564,
+          "lng": -95.450282
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 29.7487756802915,
+            "lng": -95.44902611970849
+          },
+          "southwest": {
+            "lat": 29.7460777197085,
+            "lng": -95.4517240802915
+          }
+        }
+      },
+      "name": "Houston Grand Hotel - River Oaks",
+      "place_id": "ChIJ1wqP7D3BQIYRN9xCJrWmj9M",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/houlx-houston-grand-hotel-river-oaks/overview/?cid=NAT_google_hotel_url"
+    }
   }
 }
