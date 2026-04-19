@@ -207010,5 +207010,89 @@
       ],
       "website": "https://www.marriott.com/en-us/hotels/houlx-houston-grand-hotel-river-oaks/overview/?cid=NAT_google_hotel_url"
     }
+  },
+  "{\"brand\": \"Ritz-Carlton Reserve\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Zadun Los Cabos, a Ritz-Carlton Reserve Ritz-Carlton Reserve Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Ritz-Carlton Reserve Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Ritz-Carlton Reserve\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Ritz-Carlton Reserve San Jose del Cabo, Baja California Sur MX Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Ritz-Carlton Reserve San Jose del Cabo, Baja California Sur MX Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Ritz-Carlton Reserve San Jose del Cabo, Baja California Sur MX\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Hilton Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Hilton Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Hilton\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Hilton San Jose del Cabo, Baja California Sur MX Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Hilton San Jose del Cabo, Baja California Sur MX Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Hilton San Jose del Cabo, Baja California Sur MX\", \"Zadun Los Cabos a Ritz carlton Reserve Ritz-Carlton Reserve Hotel\", \"Zadun Los Cabos a Ritz carlton Reserve Ritz-Carlton Reserve Resort\", \"Zadun Los Cabos a Ritz carlton Reserve Ritz-Carlton Reserve\", \"Zadun Los Cabos a Ritz carlton Reserve Ritz-Carlton Reserve San Jose del Cabo, Baja California Sur MX Hotel\", \"Zadun Los Cabos a Ritz carlton Reserve Ritz-Carlton Reserve San Jose del Cabo, Baja California Sur MX Resort\", \"Zadun Los Cabos a Ritz carlton Reserve Ritz-Carlton Reserve San Jose del Cabo, Baja California Sur MX\", \"Zadun Los Cabos a Ritz carlton Reserve Hilton Hotel\", \"Zadun Los Cabos a Ritz carlton Reserve Hilton Resort\", \"Zadun Los Cabos a Ritz carlton Reserve Hilton\", \"Zadun Los Cabos a Ritz carlton Reserve Hilton San Jose del Cabo, Baja California Sur MX Hotel\", \"Zadun Los Cabos a Ritz carlton Reserve Hilton San Jose del Cabo, Baja California Sur MX Resort\", \"Zadun Los Cabos a Ritz carlton Reserve Hilton San Jose del Cabo, Baja California Sur MX\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve\", \"Zadun Los Cabos, a Ritz-Carlton Reserve San Jose del Cabo, Baja California Sur MX Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve San Jose del Cabo, Baja California Sur MX Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve San Jose del Cabo, Baja California Sur MX\"], \"v\": 3}": {
+    "lat": 23.0693949,
+    "lon": -109.64768,
+    "formatted_address": "Blvd. Mar de Cortez, 23403 San José del Cabo, B.C.S., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJn_UrXThXr4YRyozWfYkmbuo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Blvd. Mar de Cortez, 23403 San José del Cabo, B.C.S., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 23.0693949,
+          "lng": -109.64768
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.0707366302915,
+            "lng": -109.6463540197085
+          },
+          "southwest": {
+            "lat": 23.06803866970849,
+            "lng": -109.6490519802915
+          }
+        }
+      },
+      "name": "Zadun Los Cabos, a Ritz-Carlton Reserve",
+      "place_id": "ChIJn_UrXThXr4YRyozWfYkmbuo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ritzcarlton.com/en/hotels/sjdzr-zadun-a-ritz-carlton-reserve/overview/?cid=NAT_google_hotel_url"
+    }
+  },
+  "{\"brand\": \"Ritz-Carlton Reserve\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Ritz-Carlton Reserve Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Ritz-Carlton Reserve Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Ritz-Carlton Reserve\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Ritz-Carlton Reserve San Jose del Cabo, Baja California Sur MX Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Ritz-Carlton Reserve San Jose del Cabo, Baja California Sur MX Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Ritz-Carlton Reserve San Jose del Cabo, Baja California Sur MX\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Hilton Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Hilton Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Hilton\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Hilton San Jose del Cabo, Baja California Sur MX Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Hilton San Jose del Cabo, Baja California Sur MX Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Hilton San Jose del Cabo, Baja California Sur MX\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Ritz-Carlton Reserve Hotel\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Ritz-Carlton Reserve Resort\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Ritz-Carlton Reserve\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Ritz-Carlton Reserve San Jose del Cabo, Baja California Sur MX Hotel\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Ritz-Carlton Reserve San Jose del Cabo, Baja California Sur MX Resort\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Ritz-Carlton Reserve San Jose del Cabo, Baja California Sur MX\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Hilton Hotel\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Hilton Resort\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Hilton\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Hilton San Jose del Cabo, Baja California Sur MX Hotel\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Hilton San Jose del Cabo, Baja California Sur MX Resort\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Hilton San Jose del Cabo, Baja California Sur MX\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence San Jose del Cabo, Baja California Sur MX Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence San Jose del Cabo, Baja California Sur MX Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence San Jose del Cabo, Baja California Sur MX\"], \"v\": 3}": {
+    "lat": 23.0693949,
+    "lon": -109.64768,
+    "formatted_address": "Blvd. Mar de Cortez, 23403 San José del Cabo, B.C.S., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJn_UrXThXr4YRyozWfYkmbuo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Blvd. Mar de Cortez, 23403 San José del Cabo, B.C.S., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 23.0693949,
+          "lng": -109.64768
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.0707366302915,
+            "lng": -109.6463540197085
+          },
+          "southwest": {
+            "lat": 23.06803866970849,
+            "lng": -109.6490519802915
+          }
+        }
+      },
+      "name": "Zadun Los Cabos, a Ritz-Carlton Reserve",
+      "place_id": "ChIJn_UrXThXr4YRyozWfYkmbuo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ritzcarlton.com/en/hotels/sjdzr-zadun-a-ritz-carlton-reserve/overview/?cid=NAT_google_hotel_url"
+    }
   }
 }
