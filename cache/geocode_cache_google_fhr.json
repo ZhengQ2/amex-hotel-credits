@@ -207094,5 +207094,181 @@
       ],
       "website": "https://www.ritzcarlton.com/en/hotels/sjdzr-zadun-a-ritz-carlton-reserve/overview/?cid=NAT_google_hotel_url"
     }
+  },
+  "{\"brand\": \"Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Houston Grand Hotel-River Oaks Marriott Hotel\", \"Houston Grand Hotel-River Oaks Marriott Resort\", \"Houston Grand Hotel-River Oaks Marriott\", \"Houston Grand Hotel-River Oaks Marriott Houston, Texas US Hotel\", \"Houston Grand Hotel-River Oaks Marriott Houston, Texas US Resort\", \"Houston Grand Hotel-River Oaks Marriott Houston, Texas US\", \"Houston Grand Hotel-River Oaks Hilton Hotel\", \"Houston Grand Hotel-River Oaks Hilton Resort\", \"Houston Grand Hotel-River Oaks Hilton\", \"Houston Grand Hotel-River Oaks Hilton Houston, Texas US Hotel\", \"Houston Grand Hotel-River Oaks Hilton Houston, Texas US Resort\", \"Houston Grand Hotel-River Oaks Hilton Houston, Texas US\", \"Houston Grand Hotel river Oaks Marriott Hotel\", \"Houston Grand Hotel river Oaks Marriott Resort\", \"Houston Grand Hotel river Oaks Marriott\", \"Houston Grand Hotel river Oaks Marriott Houston, Texas US Hotel\", \"Houston Grand Hotel river Oaks Marriott Houston, Texas US Resort\", \"Houston Grand Hotel river Oaks Marriott Houston, Texas US\", \"Houston Grand Hotel river Oaks Hilton Hotel\", \"Houston Grand Hotel river Oaks Hilton Resort\", \"Houston Grand Hotel river Oaks Hilton\", \"Houston Grand Hotel river Oaks Hilton Houston, Texas US Hotel\", \"Houston Grand Hotel river Oaks Hilton Houston, Texas US Resort\", \"Houston Grand Hotel river Oaks Hilton Houston, Texas US\", \"Houston Grand Hotel-River Oaks Hotel\", \"Houston Grand Hotel-River Oaks Resort\", \"Houston Grand Hotel-River Oaks\", \"Houston Grand Hotel-River Oaks Houston, Texas US Hotel\", \"Houston Grand Hotel-River Oaks Houston, Texas US Resort\", \"Houston Grand Hotel-River Oaks Houston, Texas US\"], \"v\": 3}": {
+    "lat": 29.7475564,
+    "lon": -95.450282,
+    "formatted_address": "1919 Briar Oaks Ln, Houston, TX 77027, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ1wqP7D3BQIYRN9xCJrWmj9M",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1919 Briar Oaks Ln, Houston, TX 77027, USA",
+      "geometry": {
+        "location": {
+          "lat": 29.7475564,
+          "lng": -95.450282
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 29.7487756802915,
+            "lng": -95.44902611970849
+          },
+          "southwest": {
+            "lat": 29.7460777197085,
+            "lng": -95.4517240802915
+          }
+        }
+      },
+      "name": "Houston Grand Hotel - River Oaks",
+      "place_id": "ChIJ1wqP7D3BQIYRN9xCJrWmj9M",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/houlx-houston-grand-hotel-river-oaks/overview/?cid=NAT_google_hotel_url"
+    }
+  },
+  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Carillon Miami Wellness Resort Preferred Hotels & Resorts Hotel\", \"Carillon Miami Wellness Resort Preferred Hotels & Resorts Resort\", \"Carillon Miami Wellness Resort Preferred Hotels & Resorts\", \"Carillon Miami Wellness Resort Preferred Hotels & Resorts Miami Beach, Florida US Hotel\", \"Carillon Miami Wellness Resort Preferred Hotels & Resorts Miami Beach, Florida US Resort\", \"Carillon Miami Wellness Resort Preferred Hotels & Resorts Miami Beach, Florida US\", \"Carillon Miami Wellness Resort Hilton Hotel\", \"Carillon Miami Wellness Resort Hilton Resort\", \"Carillon Miami Wellness Resort Hilton\", \"Carillon Miami Wellness Resort Hilton Miami Beach, Florida US Hotel\", \"Carillon Miami Wellness Resort Hilton Miami Beach, Florida US Resort\", \"Carillon Miami Wellness Resort Hilton Miami Beach, Florida US\", \"Carillon Miami Wellness Resort Hotel\", \"Carillon Miami Wellness Resort Resort\", \"Carillon Miami Wellness Resort\", \"Carillon Miami Wellness Resort Miami Beach, Florida US Hotel\", \"Carillon Miami Wellness Resort Miami Beach, Florida US Resort\", \"Carillon Miami Wellness Resort Miami Beach, Florida US\"], \"v\": 3}": {
+    "lat": 25.8529812,
+    "lon": -80.1201794,
+    "formatted_address": "6801 Collins Ave, Miami Beach, FL 33141, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJC5by7d2y2YgRUTaS1avvVmU",
+    "types": [
+      "establishment",
+      "gym",
+      "health",
+      "hospital",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "6801 Collins Ave, Miami Beach, FL 33141, USA",
+      "geometry": {
+        "location": {
+          "lat": 25.8529812,
+          "lng": -80.1201794
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.8541553802915,
+            "lng": -80.11885306970849
+          },
+          "southwest": {
+            "lat": 25.8514574197085,
+            "lng": -80.1215510302915
+          }
+        }
+      },
+      "name": "Carillon Miami Wellness Resort",
+      "place_id": "ChIJC5by7d2y2YgRUTaS1avvVmU",
+      "types": [
+        "establishment",
+        "gym",
+        "health",
+        "hospital",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "http://www.carillonhotel.com/"
+    }
+  },
+  "{\"brand\": \"Relais & Ch\\u00e2teaux\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Castle Hot Springs Relais & Ch\\u00e2teaux Hotel\", \"Castle Hot Springs Relais & Ch\\u00e2teaux Resort\", \"Castle Hot Springs Relais & Ch\\u00e2teaux\", \"Castle Hot Springs Relais & Ch\\u00e2teaux Morristown, Arizona US Hotel\", \"Castle Hot Springs Relais & Ch\\u00e2teaux Morristown, Arizona US Resort\", \"Castle Hot Springs Relais & Ch\\u00e2teaux Morristown, Arizona US\", \"Castle Hot Springs Hilton Hotel\", \"Castle Hot Springs Hilton Resort\", \"Castle Hot Springs Hilton\", \"Castle Hot Springs Hilton Morristown, Arizona US Hotel\", \"Castle Hot Springs Hilton Morristown, Arizona US Resort\", \"Castle Hot Springs Hilton Morristown, Arizona US\", \"Castle Hot Springs Hotel\", \"Castle Hot Springs Resort\", \"Castle Hot Springs\", \"Castle Hot Springs Morristown, Arizona US Hotel\", \"Castle Hot Springs Morristown, Arizona US Resort\", \"Castle Hot Springs Morristown, Arizona US\"], \"v\": 3}": {
+    "lat": 33.9827355,
+    "lon": -112.3618051,
+    "formatted_address": "5050 N Castle Hot Springs Rd, Morristown, AZ 85342, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJXytkaZelLIcRtj1nfYzy1Rc",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "5050 N Castle Hot Springs Rd, Morristown, AZ 85342, USA",
+      "geometry": {
+        "location": {
+          "lat": 33.9827355,
+          "lng": -112.3618051
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.9841640302915,
+            "lng": -112.3604471197085
+          },
+          "southwest": {
+            "lat": 33.9814660697085,
+            "lng": -112.3631450802915
+          }
+        }
+      },
+      "name": "Castle Hot Springs",
+      "place_id": "ChIJXytkaZelLIcRtj1nfYzy1Rc",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.castlehotsprings.com/"
+    }
+  },
+  "{\"brand\": \"The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Katikies Santorini - Gea House The Leading Hotels of the World Hotel\", \"Katikies Santorini - Gea House The Leading Hotels of the World Resort\", \"Katikies Santorini - Gea House The Leading Hotels of the World\", \"Katikies Santorini - Gea House The Leading Hotels of the World Oia, Greece Hotel\", \"Katikies Santorini - Gea House The Leading Hotels of the World Oia, Greece Resort\", \"Katikies Santorini - Gea House The Leading Hotels of the World Oia, Greece\", \"Katikies Santorini - Gea House Hilton Hotel\", \"Katikies Santorini - Gea House Hilton Resort\", \"Katikies Santorini - Gea House Hilton\", \"Katikies Santorini - Gea House Hilton Oia, Greece Hotel\", \"Katikies Santorini - Gea House Hilton Oia, Greece Resort\", \"Katikies Santorini - Gea House Hilton Oia, Greece\", \"Katikies Santorini Gea House The Leading Hotels of the World Hotel\", \"Katikies Santorini Gea House The Leading Hotels of the World Resort\", \"Katikies Santorini Gea House The Leading Hotels of the World\", \"Katikies Santorini Gea House The Leading Hotels of the World Oia, Greece Hotel\", \"Katikies Santorini Gea House The Leading Hotels of the World Oia, Greece Resort\", \"Katikies Santorini Gea House The Leading Hotels of the World Oia, Greece\", \"Katikies Santorini Gea House Hilton Hotel\", \"Katikies Santorini Gea House Hilton Resort\", \"Katikies Santorini Gea House Hilton\", \"Katikies Santorini Gea House Hilton Oia, Greece Hotel\", \"Katikies Santorini Gea House Hilton Oia, Greece Resort\", \"Katikies Santorini Gea House Hilton Oia, Greece\", \"Katikies Santorini - Gea House Hotel\", \"Katikies Santorini - Gea House Resort\", \"Katikies Santorini - Gea House\", \"Katikies Santorini - Gea House Oia, Greece Hotel\", \"Katikies Santorini - Gea House Oia, Greece Resort\", \"Katikies Santorini - Gea House Oia, Greece\"], \"v\": 3}": {
+    "lat": 36.4617363,
+    "lon": 25.3824513,
+    "formatted_address": "Nik. Nomikou, Oía 847 02, Greece",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJZfN8nIDMmRQRxE4k-4aOrXw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Nik. Nomikou, Oía 847 02, Greece",
+      "geometry": {
+        "location": {
+          "lat": 36.4617363,
+          "lng": 25.3824513
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.4632470802915,
+            "lng": 25.38393643029151
+          },
+          "southwest": {
+            "lat": 36.4605491197085,
+            "lng": 25.3812384697085
+          }
+        }
+      },
+      "name": "Katikies Santorini - Pelagos House",
+      "place_id": "ChIJZfN8nIDMmRQRxE4k-4aOrXw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.katikies.com/katikieshotelsantorini/"
+    }
   }
 }
