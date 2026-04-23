@@ -208710,5 +208710,131 @@
       ],
       "website": "https://www.hilton.com/en/hotels/laxmoqq-the-valorian-los-angeles/?SEO_id=GMB-AMER-QQ-LAXMOQQ&y_source=1_MjA0NDE2ODE3OC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
+  },
+  "{\"brand\": \"Andaz\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hyatt Regency Vienna Andaz Hotel\", \"Hyatt Regency Vienna Andaz Resort\", \"Hyatt Regency Vienna Andaz\", \"Hyatt Regency Vienna Andaz Vienna, Austria Hotel\", \"Hyatt Regency Vienna Andaz Vienna, Austria Resort\", \"Hyatt Regency Vienna Andaz Vienna, Austria\", \"Hyatt Regency Vienna Hilton Hotel\", \"Hyatt Regency Vienna Hilton Resort\", \"Hyatt Regency Vienna Hilton\", \"Hyatt Regency Vienna Hilton Vienna, Austria Hotel\", \"Hyatt Regency Vienna Hilton Vienna, Austria Resort\", \"Hyatt Regency Vienna Hilton Vienna, Austria\", \"Hyatt Regency Vienna Hotel\", \"Hyatt Regency Vienna Resort\", \"Hyatt Regency Vienna\", \"Hyatt Regency Vienna Vienna, Austria Hotel\", \"Hyatt Regency Vienna Vienna, Austria Resort\", \"Hyatt Regency Vienna Vienna, Austria\"], \"v\": 3}": {
+    "lat": 48.18527049999999,
+    "lon": 16.3833476,
+    "formatted_address": "Arsenalstraße 10, 1100 Wien, Austria",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJE3iZz8qpbUcRmt0SBbWlSZo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Arsenalstraße 10, 1100 Wien, Austria",
+      "geometry": {
+        "location": {
+          "lat": 48.18527049999999,
+          "lng": 16.3833476
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1865890802915,
+            "lng": 16.3848523302915
+          },
+          "southwest": {
+            "lat": 48.1838911197085,
+            "lng": 16.3821543697085
+          }
+        }
+      },
+      "name": "Hyatt Regency Vienna",
+      "place_id": "ChIJE3iZz8qpbUcRmt0SBbWlSZo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/hyatt-regency/en-US/vieaz-hyatt-regency-vienna?src=corp_lclb_google_seo_vieaz&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"Canopy by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Nashville Downtown the Gulch Canopy by Hilton Hotel\", \"Canopy by Hilton Nashville Downtown the Gulch Canopy by Hilton Resort\", \"Canopy by Hilton Nashville Downtown the Gulch Canopy by Hilton\", \"Canopy by Hilton Nashville Downtown the Gulch Canopy by Hilton Nashville, Tennessee US Hotel\", \"Canopy by Hilton Nashville Downtown the Gulch Canopy by Hilton Nashville, Tennessee US Resort\", \"Canopy by Hilton Nashville Downtown the Gulch Canopy by Hilton Nashville, Tennessee US\", \"Canopy by Hilton Nashville Downtown the Gulch Hilton Hotel\", \"Canopy by Hilton Nashville Downtown the Gulch Hilton Resort\", \"Canopy by Hilton Nashville Downtown the Gulch Hilton\", \"Canopy by Hilton Nashville Downtown the Gulch Hilton Nashville, Tennessee US Hotel\", \"Canopy by Hilton Nashville Downtown the Gulch Hilton Nashville, Tennessee US Resort\", \"Canopy by Hilton Nashville Downtown the Gulch Hilton Nashville, Tennessee US\", \"Canopy Hilton Nashville Downtown Gulch Canopy by Hilton Hotel\", \"Canopy Hilton Nashville Downtown Gulch Canopy by Hilton Resort\", \"Canopy Hilton Nashville Downtown Gulch Canopy by Hilton\", \"Canopy Hilton Nashville Downtown Gulch Canopy by Hilton Nashville, Tennessee US Hotel\", \"Canopy Hilton Nashville Downtown Gulch Canopy by Hilton Nashville, Tennessee US Resort\", \"Canopy Hilton Nashville Downtown Gulch Canopy by Hilton Nashville, Tennessee US\", \"Canopy Hilton Nashville Downtown Gulch Hilton Hotel\", \"Canopy Hilton Nashville Downtown Gulch Hilton Resort\", \"Canopy Hilton Nashville Downtown Gulch Hilton\", \"Canopy Hilton Nashville Downtown Gulch Hilton Nashville, Tennessee US Hotel\", \"Canopy Hilton Nashville Downtown Gulch Hilton Nashville, Tennessee US Resort\", \"Canopy Hilton Nashville Downtown Gulch Hilton Nashville, Tennessee US\", \"Canopy by Hilton Nashville Downtown the Gulch Hotel\", \"Canopy by Hilton Nashville Downtown the Gulch Resort\", \"Canopy by Hilton Nashville Downtown the Gulch\", \"Canopy by Hilton Nashville Downtown the Gulch Nashville, Tennessee US Hotel\", \"Canopy by Hilton Nashville Downtown the Gulch Nashville, Tennessee US Resort\", \"Canopy by Hilton Nashville Downtown the Gulch Nashville, Tennessee US\"], \"v\": 3}": {
+    "lat": 36.1511811,
+    "lon": -86.78199029999999,
+    "formatted_address": "920 Division St, Nashville, TN 37203, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJR8v9J0FnZIgR_nFBPnu-zTw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "920 Division St, Nashville, TN 37203, USA",
+      "geometry": {
+        "location": {
+          "lat": 36.1511811,
+          "lng": -86.78199029999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.1524421302915,
+            "lng": -86.78055391970848
+          },
+          "southwest": {
+            "lat": 36.1497441697085,
+            "lng": -86.7832518802915
+          }
+        }
+      },
+      "name": "Canopy by Hilton Nashville Downtown The Gulch",
+      "place_id": "ChIJR8v9J0FnZIgR_nFBPnu-zTw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/bnaglpy-canopy-nashville-downtown-the-gulch/?SEO_id=GMB-AMER-PY-BNAGLPY&y_source=1_ODE0MDczMjctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"Hyatt Regency\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hyatt Regency Lisbon Hyatt Regency Hotel\", \"Hyatt Regency Lisbon Hyatt Regency Resort\", \"Hyatt Regency Lisbon Hyatt Regency\", \"Hyatt Regency Lisbon Hyatt Regency Lisbon, Portugal Hotel\", \"Hyatt Regency Lisbon Hyatt Regency Lisbon, Portugal Resort\", \"Hyatt Regency Lisbon Hyatt Regency Lisbon, Portugal\", \"Hyatt Regency Lisbon Hilton Hotel\", \"Hyatt Regency Lisbon Hilton Resort\", \"Hyatt Regency Lisbon Hilton\", \"Hyatt Regency Lisbon Hilton Lisbon, Portugal Hotel\", \"Hyatt Regency Lisbon Hilton Lisbon, Portugal Resort\", \"Hyatt Regency Lisbon Hilton Lisbon, Portugal\", \"Hyatt Regency Lisbon Hotel\", \"Hyatt Regency Lisbon Resort\", \"Hyatt Regency Lisbon\", \"Hyatt Regency Lisbon Lisbon, Portugal Hotel\", \"Hyatt Regency Lisbon Lisbon, Portugal Resort\", \"Hyatt Regency Lisbon Lisbon, Portugal\"], \"v\": 3}": {
+    "lat": 38.6985453,
+    "lon": -9.1867144,
+    "formatted_address": "R. da Junqueira 65, 1300-343 Lisboa, Portugal",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJUyEQES41GQ0RYWRwKTboYrI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "R. da Junqueira 65, 1300-343 Lisboa, Portugal",
+      "geometry": {
+        "location": {
+          "lat": 38.6985453,
+          "lng": -9.1867144
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.6999926302915,
+            "lng": -9.185410569708498
+          },
+          "southwest": {
+            "lat": 38.6972946697085,
+            "lng": -9.188108530291501
+          }
+        }
+      },
+      "name": "Hyatt Regency Lisbon",
+      "place_id": "ChIJUyEQES41GQ0RYWRwKTboYrI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/hyatt-regency/en-US/lishr-hyatt-regency-lisbon?src=corp_lclb_google_seo_lishr&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
   }
 }
