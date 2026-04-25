@@ -13312,6 +13312,8 @@
   "{\"brand\": \"Hilton Hotels & Resorts\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Burau Bay Langkawi Resort Hilton Hotels & Resorts Hotel\", \"Hilton Burau Bay Langkawi Resort Hilton Hotels & Resorts Resort\", \"Hilton Burau Bay Langkawi Resort Hilton Hotels & Resorts\", \"Hilton Burau Bay Langkawi Resort Hilton Hotel\", \"Hilton Burau Bay Langkawi Resort Hilton Resort\", \"Hilton Burau Bay Langkawi Resort Hilton\", \"lgkbbhi Hilton burau bay langkawi resort Hilton Hotels & Resorts Hotel\", \"lgkbbhi Hilton burau bay langkawi resort Hilton Hotels & Resorts Resort\", \"lgkbbhi Hilton burau bay langkawi resort Hilton Hotels & Resorts\", \"lgkbbhi Hilton burau bay langkawi resort Hilton Hotel\", \"lgkbbhi Hilton burau bay langkawi resort Hilton Resort\", \"lgkbbhi Hilton burau bay langkawi resort Hilton\", \"Hilton Burau Bay Langkawi Resort Hotel\", \"Hilton Burau Bay Langkawi Resort Resort\", \"Hilton Burau Bay Langkawi Resort\"], \"v\": 3}": {
     "status": "NO_RESULT"
   },
+  "{\"brand\": \"Hilton Hotels & Resorts\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Quang Hanh Onsen Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"Tapestry Collection by Hilton\", \"provider\": \"google_places_first\", \"queries\": [\"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton\"], \"v\": 3}": null,
   "{\"brand\": \"Conrad Hotels & Resorts\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Conrad Las Vegas  Conrad Hotels & Resorts Hotel\", \"Conrad Las Vegas  Conrad Hotels & Resorts Resort\", \"Conrad Las Vegas  Conrad Hotels & Resorts\", \"Conrad Las Vegas  Hilton Hotel\", \"Conrad Las Vegas  Hilton Resort\", \"Conrad Las Vegas  Hilton\", \"conrad las vegas Conrad Hotels & Resorts Hotel\", \"conrad las vegas Conrad Hotels & Resorts Resort\", \"conrad las vegas Conrad Hotels & Resorts\", \"conrad las vegas Hilton Hotel\", \"conrad las vegas Hilton Resort\", \"conrad las vegas Hilton\", \"Conrad Las Vegas  Hotel\", \"Conrad Las Vegas  Resort\", \"Conrad Las Vegas\"], \"v\": 3}": {
     "lat": 36.1346181,
     "lon": -115.1655924,
@@ -13352,6 +13354,92 @@
         "point_of_interest"
       ],
       "website": "https://www.hilton.com/en/hotels/lascdci-conrad-las-vegas-at-resorts-world/?SEO_id=GMB-AMER-CN-LASCDCI&y_source=1_MjM0NTgwNzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"Hilton Hotels & Resorts\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Quang Hanh Onsen Resort Hilton Hotels & Resorts Hotel\", \"Hilton Quang Hanh Onsen Resort Hilton Hotels & Resorts Resort\", \"Hilton Quang Hanh Onsen Resort Hilton Hotels & Resorts\", \"Hilton Quang Hanh Onsen Resort Hilton Hotel\", \"Hilton Quang Hanh Onsen Resort Hilton Resort\", \"Hilton Quang Hanh Onsen Resort Hilton\", \"vdohohi Hilton quang hanh onsen resort Hilton Hotels & Resorts Hotel\", \"vdohohi Hilton quang hanh onsen resort Hilton Hotels & Resorts Resort\", \"vdohohi Hilton quang hanh onsen resort Hilton Hotels & Resorts\", \"vdohohi Hilton quang hanh onsen resort Hilton Hotel\", \"vdohohi Hilton quang hanh onsen resort Hilton Resort\", \"vdohohi Hilton quang hanh onsen resort Hilton\", \"Hilton Quang Hanh Onsen Resort Hotel\", \"Hilton Quang Hanh Onsen Resort Resort\", \"Hilton Quang Hanh Onsen Resort\"], \"v\": 3}": {
+    "lat": 20.9830201,
+    "lon": 107.2081302,
+    "formatted_address": "Block 5, Area 9B, Quang Hanh, Quảng Ninh 20000, Vietnam",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJZwiPJgD_SjERopEdg3fa31Y",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Block 5, Area 9B, Quang Hanh, Quảng Ninh 20000, Vietnam",
+      "geometry": {
+        "location": {
+          "lat": 20.9830201,
+          "lng": 107.2081302
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 20.9844488302915,
+            "lng": 107.2094938802915
+          },
+          "southwest": {
+            "lat": 20.9817508697085,
+            "lng": 107.2067959197085
+          }
+        }
+      },
+      "name": "Hilton Quang Hanh Onsen Resort",
+      "place_id": "ChIJZwiPJgD_SjERopEdg3fa31Y",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/vdohohi-hilton-quang-hanh-onsen-resort/?SEO_id=GMB-APAC-HI-VDOHOHI"
+    }
+  },
+  "{\"brand\": \"Tapestry Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Tapestry Collection by Hilton Hotel\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Tapestry Collection by Hilton Resort\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Tapestry Collection by Hilton\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Hilton Hotel\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Hilton Resort\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Hilton\", \"myrobup ellie beach resort myrtle beach Tapestry Collection by Hilton Hotel\", \"myrobup ellie beach resort myrtle beach Tapestry Collection by Hilton Resort\", \"myrobup ellie beach resort myrtle beach Tapestry Collection by Hilton\", \"myrobup ellie beach resort myrtle beach Hilton Hotel\", \"myrobup ellie beach resort myrtle beach Hilton Resort\", \"myrobup ellie beach resort myrtle beach Hilton\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Hotel\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Resort\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton\"], \"v\": 3}": {
+    "lat": 33.6575193,
+    "lon": -78.9194916,
+    "formatted_address": "3200 S Ocean Blvd, Myrtle Beach, SC 29577, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJU6Mqv_xpAIkR4dzSezcoRYI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "3200 S Ocean Blvd, Myrtle Beach, SC 29577, USA",
+      "geometry": {
+        "location": {
+          "lat": 33.6575193,
+          "lng": -78.9194916
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.6585964302915,
+            "lng": -78.9182847197085
+          },
+          "southwest": {
+            "lat": 33.6558984697085,
+            "lng": -78.9209826802915
+          }
+        }
+      },
+      "name": "The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton",
+      "place_id": "ChIJU6Mqv_xpAIkR4dzSezcoRYI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/myrobup-the-ellie-beach-resort-myrtle-beach/?SEO_id=GMB-AMER-UP-MYROBUP&y_source=1_MTAzNTYwMDc0Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   }
 }
