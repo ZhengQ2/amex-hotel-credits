@@ -207270,5 +207270,89 @@
       ],
       "website": "https://www.katikies.com/katikieshotelsantorini/"
     }
+  },
+  "{\"brand\": \"Meli\\u00e1 Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hacienda del Mar, The Melia Collection Meli\\u00e1 Hotels & Resorts Hotel\", \"Hacienda del Mar, The Melia Collection Meli\\u00e1 Hotels & Resorts Resort\", \"Hacienda del Mar, The Melia Collection Meli\\u00e1 Hotels & Resorts\", \"Hacienda del Mar, The Melia Collection Meli\\u00e1 Hotels & Resorts Estepona, Spain Hotel\", \"Hacienda del Mar, The Melia Collection Meli\\u00e1 Hotels & Resorts Estepona, Spain Resort\", \"Hacienda del Mar, The Melia Collection Meli\\u00e1 Hotels & Resorts Estepona, Spain\", \"Hacienda del Mar, The Melia Collection Hilton Hotel\", \"Hacienda del Mar, The Melia Collection Hilton Resort\", \"Hacienda del Mar, The Melia Collection Hilton\", \"Hacienda del Mar, The Melia Collection Hilton Estepona, Spain Hotel\", \"Hacienda del Mar, The Melia Collection Hilton Estepona, Spain Resort\", \"Hacienda del Mar, The Melia Collection Hilton Estepona, Spain\", \"Hacienda Del Mar Melia Collection Meli\\u00e1 Hotels & Resorts Hotel\", \"Hacienda Del Mar Melia Collection Meli\\u00e1 Hotels & Resorts Resort\", \"Hacienda Del Mar Melia Collection Meli\\u00e1 Hotels & Resorts\", \"Hacienda Del Mar Melia Collection Meli\\u00e1 Hotels & Resorts Estepona, Spain Hotel\", \"Hacienda Del Mar Melia Collection Meli\\u00e1 Hotels & Resorts Estepona, Spain Resort\", \"Hacienda Del Mar Melia Collection Meli\\u00e1 Hotels & Resorts Estepona, Spain\", \"Hacienda Del Mar Melia Collection Hilton Hotel\", \"Hacienda Del Mar Melia Collection Hilton Resort\", \"Hacienda Del Mar Melia Collection Hilton\", \"Hacienda Del Mar Melia Collection Hilton Estepona, Spain Hotel\", \"Hacienda Del Mar Melia Collection Hilton Estepona, Spain Resort\", \"Hacienda Del Mar Melia Collection Hilton Estepona, Spain\", \"Hacienda del Mar, The Melia Collection Hotel\", \"Hacienda del Mar, The Melia Collection Resort\", \"Hacienda del Mar, The Melia Collection\", \"Hacienda del Mar, The Melia Collection Estepona, Spain Hotel\", \"Hacienda del Mar, The Melia Collection Estepona, Spain Resort\", \"Hacienda del Mar, The Melia Collection Estepona, Spain\"], \"v\": 3}": {
+    "lat": 22.9145225,
+    "lon": -109.837207,
+    "formatted_address": "Carretera Transpeninsular Km 10.5 CSL-SJC Lote D Cabo del Sol, Tourist Corridor, 23450 Cabo San Lucas, B.C.S., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJhWYTGWRMr4YR7Z0hIg5V7o4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carretera Transpeninsular Km 10.5 CSL-SJC Lote D Cabo del Sol, Tourist Corridor, 23450 Cabo San Lucas, B.C.S., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 22.9145225,
+          "lng": -109.837207
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 22.91588073029151,
+            "lng": -109.8357472197085
+          },
+          "southwest": {
+            "lat": 22.9131827697085,
+            "lng": -109.8384451802915
+          }
+        }
+      },
+      "name": "Hacienda del Mar Los Cabos",
+      "place_id": "ChIJhWYTGWRMr4YR7Z0hIg5V7o4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.haciendadelmar.com.mx/"
+    }
+  },
+  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Iniala Valletta Preferred Hotels & Resorts Hotel\", \"Iniala Valletta Preferred Hotels & Resorts Resort\", \"Iniala Valletta Preferred Hotels & Resorts\", \"Iniala Valletta Preferred Hotels & Resorts Valletta, Malta Hotel\", \"Iniala Valletta Preferred Hotels & Resorts Valletta, Malta Resort\", \"Iniala Valletta Preferred Hotels & Resorts Valletta, Malta\", \"Iniala Valletta Hilton Hotel\", \"Iniala Valletta Hilton Resort\", \"Iniala Valletta Hilton\", \"Iniala Valletta Hilton Valletta, Malta Hotel\", \"Iniala Valletta Hilton Valletta, Malta Resort\", \"Iniala Valletta Hilton Valletta, Malta\", \"Iniala Valletta Hotel\", \"Iniala Valletta Resort\", \"Iniala Valletta\", \"Iniala Valletta Valletta, Malta Hotel\", \"Iniala Valletta Valletta, Malta Resort\", \"Iniala Valletta Valletta, Malta\"], \"v\": 3}": {
+    "lat": 35.8962596,
+    "lon": 14.5142703,
+    "formatted_address": "10 St.Barbara Bastion, Il-Belt Valletta VLT 1961, Malta",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJwQof8ixFDhMR7mjzR2DhbVE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "10 St.Barbara Bastion, Il-Belt Valletta VLT 1961, Malta",
+      "geometry": {
+        "location": {
+          "lat": 35.8962596,
+          "lng": 14.5142703
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.89760843029149,
+            "lng": 14.5156599302915
+          },
+          "southwest": {
+            "lat": 35.89491046970849,
+            "lng": 14.5129619697085
+          }
+        }
+      },
+      "name": "Iniala Valletta",
+      "place_id": "ChIJwQof8ixFDhMR7mjzR2DhbVE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.iniala.com/iniala-valletta"
+    }
   }
 }
