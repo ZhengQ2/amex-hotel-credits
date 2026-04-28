@@ -208836,5 +208836,47 @@
       ],
       "website": "https://www.hyatt.com/hyatt-regency/en-US/lishr-hyatt-regency-lisbon?src=corp_lclb_google_seo_lishr&utm_source=google&utm_medium=organic&utm_campaign=lmr"
     }
+  },
+  "{\"brand\": \"Hyatt Regency\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hyatt Regency Vienna Hyatt Regency Hotel\", \"Hyatt Regency Vienna Hyatt Regency Resort\", \"Hyatt Regency Vienna Hyatt Regency\", \"Hyatt Regency Vienna Hyatt Regency Vienna, Austria Hotel\", \"Hyatt Regency Vienna Hyatt Regency Vienna, Austria Resort\", \"Hyatt Regency Vienna Hyatt Regency Vienna, Austria\", \"Hyatt Regency Vienna Hilton Hotel\", \"Hyatt Regency Vienna Hilton Resort\", \"Hyatt Regency Vienna Hilton\", \"Hyatt Regency Vienna Hilton Vienna, Austria Hotel\", \"Hyatt Regency Vienna Hilton Vienna, Austria Resort\", \"Hyatt Regency Vienna Hilton Vienna, Austria\", \"Hyatt Regency Vienna Hotel\", \"Hyatt Regency Vienna Resort\", \"Hyatt Regency Vienna\", \"Hyatt Regency Vienna Vienna, Austria Hotel\", \"Hyatt Regency Vienna Vienna, Austria Resort\", \"Hyatt Regency Vienna Vienna, Austria\"], \"v\": 3}": {
+    "lat": 48.18527049999999,
+    "lon": 16.3833476,
+    "formatted_address": "Arsenalstraße 10, 1100 Wien, Austria",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJE3iZz8qpbUcRmt0SBbWlSZo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Arsenalstraße 10, 1100 Wien, Austria",
+      "geometry": {
+        "location": {
+          "lat": 48.18527049999999,
+          "lng": 16.3833476
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.1865890802915,
+            "lng": 16.3848523302915
+          },
+          "southwest": {
+            "lat": 48.1838911197085,
+            "lng": 16.3821543697085
+          }
+        }
+      },
+      "name": "Hyatt Regency Vienna",
+      "place_id": "ChIJE3iZz8qpbUcRmt0SBbWlSZo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/hyatt-regency/en-US/vieaz-hyatt-regency-vienna?src=corp_lclb_google_seo_vieaz&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
   }
 }

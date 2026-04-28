@@ -207354,5 +207354,97 @@
       ],
       "website": "http://www.iniala.com/iniala-valletta"
     }
+  },
+  "{\"brand\": \"Ritz-Carlton Reserve\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Nekajui, a Ritz-Carlton Reserve Residences Ritz-Carlton Reserve Hotel\", \"Nekajui, a Ritz-Carlton Reserve Residences Ritz-Carlton Reserve Resort\", \"Nekajui, a Ritz-Carlton Reserve Residences Ritz-Carlton Reserve\", \"Nekajui, a Ritz-Carlton Reserve Residences Ritz-Carlton Reserve Liberia, Costa Rica Hotel\", \"Nekajui, a Ritz-Carlton Reserve Residences Ritz-Carlton Reserve Liberia, Costa Rica Resort\", \"Nekajui, a Ritz-Carlton Reserve Residences Ritz-Carlton Reserve Liberia, Costa Rica\", \"Nekajui, a Ritz-Carlton Reserve Residences Hilton Hotel\", \"Nekajui, a Ritz-Carlton Reserve Residences Hilton Resort\", \"Nekajui, a Ritz-Carlton Reserve Residences Hilton\", \"Nekajui, a Ritz-Carlton Reserve Residences Hilton Liberia, Costa Rica Hotel\", \"Nekajui, a Ritz-Carlton Reserve Residences Hilton Liberia, Costa Rica Resort\", \"Nekajui, a Ritz-Carlton Reserve Residences Hilton Liberia, Costa Rica\", \"Nekajui a Ritz carlton Reserve Residences Ritz-Carlton Reserve Hotel\", \"Nekajui a Ritz carlton Reserve Residences Ritz-Carlton Reserve Resort\", \"Nekajui a Ritz carlton Reserve Residences Ritz-Carlton Reserve\", \"Nekajui a Ritz carlton Reserve Residences Ritz-Carlton Reserve Liberia, Costa Rica Hotel\", \"Nekajui a Ritz carlton Reserve Residences Ritz-Carlton Reserve Liberia, Costa Rica Resort\", \"Nekajui a Ritz carlton Reserve Residences Ritz-Carlton Reserve Liberia, Costa Rica\", \"Nekajui a Ritz carlton Reserve Residences Hilton Hotel\", \"Nekajui a Ritz carlton Reserve Residences Hilton Resort\", \"Nekajui a Ritz carlton Reserve Residences Hilton\", \"Nekajui a Ritz carlton Reserve Residences Hilton Liberia, Costa Rica Hotel\", \"Nekajui a Ritz carlton Reserve Residences Hilton Liberia, Costa Rica Resort\", \"Nekajui a Ritz carlton Reserve Residences Hilton Liberia, Costa Rica\", \"Nekajui, a Ritz-Carlton Reserve Residences Hotel\", \"Nekajui, a Ritz-Carlton Reserve Residences Resort\", \"Nekajui, a Ritz-Carlton Reserve Residences\", \"Nekajui, a Ritz-Carlton Reserve Residences Liberia, Costa Rica Hotel\", \"Nekajui, a Ritz-Carlton Reserve Residences Liberia, Costa Rica Resort\", \"Nekajui, a Ritz-Carlton Reserve Residences Liberia, Costa Rica\"], \"v\": 3}": {
+    "lat": 10.6300931,
+    "lon": -85.6833293,
+    "formatted_address": "End of the 253 National Route, Peninsula Papagayo, Provincia de Guanacaste, Liberia, 50104, Costa Rica",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJjeAjxX6BdY8RqQfkMepr4Go",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "End of the 253 National Route, Peninsula Papagayo, Provincia de Guanacaste, Liberia, 50104, Costa Rica",
+      "geometry": {
+        "location": {
+          "lat": 10.6300931,
+          "lng": -85.6833293
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.6311818302915,
+            "lng": -85.6818400197085
+          },
+          "southwest": {
+            "lat": 10.6284838697085,
+            "lng": -85.68453798029151
+          }
+        }
+      },
+      "name": "Nekajui Peninsula Papagayo, a Ritz-Carlton Reserve",
+      "place_id": "ChIJjeAjxX6BdY8RqQfkMepr4Go",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ritzcarlton.com/en/hotels/lirrz-nekajui-peninsula-papagayo-a-ritz-carlton-reserve/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Beaverbrook The Leading Hotels of the World Hotel\", \"Beaverbrook The Leading Hotels of the World Resort\", \"Beaverbrook The Leading Hotels of the World\", \"Beaverbrook The Leading Hotels of the World Leatherhead, England Hotel\", \"Beaverbrook The Leading Hotels of the World Leatherhead, England Resort\", \"Beaverbrook The Leading Hotels of the World Leatherhead, England\", \"Beaverbrook Hilton Hotel\", \"Beaverbrook Hilton Resort\", \"Beaverbrook Hilton\", \"Beaverbrook Hilton Leatherhead, England Hotel\", \"Beaverbrook Hilton Leatherhead, England Resort\", \"Beaverbrook Hilton Leatherhead, England\", \"Beaverbrook Hotel\", \"Beaverbrook Resort\", \"Beaverbrook\", \"Beaverbrook Leatherhead, England Hotel\", \"Beaverbrook Leatherhead, England Resort\", \"Beaverbrook Leatherhead, England\"], \"v\": 3}": {
+    "lat": 51.277009,
+    "lon": -0.3122132,
+    "formatted_address": "Reigate Rd, Leatherhead KT22 8QX, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ0_v_DDvhdUgRxzrIBql2T7c",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Reigate Rd, Leatherhead KT22 8QX, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.277009,
+          "lng": -0.3122132
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.2783880302915,
+            "lng": -0.310625869708498
+          },
+          "southwest": {
+            "lat": 51.2756900697085,
+            "lng": -0.3133238302915021
+          }
+        }
+      },
+      "name": "Beaverbrook",
+      "place_id": "ChIJ0_v_DDvhdUgRxzrIBql2T7c",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.beaverbrook.co.uk/"
+    }
   }
 }
