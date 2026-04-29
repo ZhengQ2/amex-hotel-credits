@@ -207446,5 +207446,1448 @@
       ],
       "website": "https://www.beaverbrook.co.uk/"
     }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Club House Hotel\", \"The Club House Resort\", \"The Club House\", \"The Club House Castelnuovo Berardenga, Italy Hotel\", \"The Club House Castelnuovo Berardenga, Italy Resort\", \"The Club House Castelnuovo Berardenga, Italy\"], \"v\": 3}": {
+    "lat": 52.6495055,
+    "lon": -7.251757099999999,
+    "formatted_address": "22 & 23 Lower Patrick St, Gardens, Kilkenny, R95 DX76, Ireland",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
+    "place_id": "ChIJ01oZ854wXUgRc53tyIAIH_M",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "address_components": [
+        {
+          "long_name": "22 & 23 Lower",
+          "short_name": "22 & 23 Lower",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Patrick Street",
+          "short_name": "Patrick St",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Gardens",
+          "short_name": "Gardens",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Kilkenny",
+          "short_name": "KK",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "County Kilkenny",
+          "short_name": "County Kilkenny",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Ireland",
+          "short_name": "IE",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "R95 DX76",
+          "short_name": "R95 DX76",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "22 & 23 Lower Patrick St, Gardens, Kilkenny, R95 DX76, Ireland",
+      "geometry": {
+        "location": {
+          "lat": 52.6495055,
+          "lng": -7.251757099999999
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 52.65086778029149,
+            "lng": -7.250302419708498
+          },
+          "southwest": {
+            "lat": 52.64816981970849,
+            "lng": -7.253000380291502
+          }
+        }
+      },
+      "navigation_points": [
+        {
+          "location": {
+            "latitude": 52.6495153,
+            "longitude": -7.2516458
+          }
+        }
+      ],
+      "place_id": "ChIJ01oZ854wXUgRc53tyIAIH_M",
+      "plus_code": {
+        "compound_code": "JPXX+R7 Kilkenny, County Kilkenny, Ireland",
+        "global_code": "9C4JJPXX+R7"
+      },
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ]
+    }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Orient Express La Minerva Hotel\", \"Orient Express La Minerva Resort\", \"Orient Express La Minerva\", \"Orient Express La Minerva Rome, Italy Hotel\", \"Orient Express La Minerva Rome, Italy Resort\", \"Orient Express La Minerva Rome, Italy\"], \"v\": 3}": {
+    "lat": 41.8977272,
+    "lon": 12.4775802,
+    "formatted_address": "Piazza della Minerva, 69, 00186 Roma RM, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJJU2bDU5gLxMRfoPUpIkerKU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Piazza della Minerva, 69, 00186 Roma RM, Italy",
+      "geometry": {
+        "location": {
+          "lat": 41.8977272,
+          "lng": 12.4775802
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.89911413029149,
+            "lng": 12.4788491302915
+          },
+          "southwest": {
+            "lat": 41.89641616970849,
+            "lng": 12.4761511697085
+          }
+        }
+      },
+      "name": "Orient Express La Minerva",
+      "place_id": "ChIJJU2bDU5gLxMRfoPUpIkerKU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://laminerva.orient-express.com/?goto=fiche_hotel&code_hotel=B914&merchantid=seo-maps-IT-B914&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
+    }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Orient Express Venezia Hotel\", \"Orient Express Venezia Resort\", \"Orient Express Venezia\", \"Orient Express Venezia Venice, Italy Hotel\", \"Orient Express Venezia Venice, Italy Resort\", \"Orient Express Venezia Venice, Italy\"], \"v\": 3}": {
+    "lat": 45.4426381,
+    "lon": 12.3324792,
+    "formatted_address": "Strada Nova, 2292, 30121 Venezia VE, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJkRpAbgCxfkcRp_9_k4levlI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Strada Nova, 2292, 30121 Venezia VE, Italy",
+      "geometry": {
+        "location": {
+          "lat": 45.4426381,
+          "lng": 12.3324792
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.44396083029149,
+            "lng": 12.3337690302915
+          },
+          "southwest": {
+            "lat": 45.4412628697085,
+            "lng": 12.3310710697085
+          }
+        }
+      },
+      "name": "Orient Express Venezia",
+      "place_id": "ChIJkRpAbgCxfkcRp_9_k4levlI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=C063&merchantid=seo-maps-Italy-C063&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
+    }
+  },
+  "{\"brand\": \"1 Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"1 Hotel Melbourne 1 Hotels Hotel\", \"1 Hotel Melbourne 1 Hotels Resort\", \"1 Hotel Melbourne 1 Hotels\", \"1 Hotel Melbourne 1 Hotels Docklands, Australia Hotel\", \"1 Hotel Melbourne 1 Hotels Docklands, Australia Resort\", \"1 Hotel Melbourne 1 Hotels Docklands, Australia\", \"1 Hotel Melbourne Hilton Hotel\", \"1 Hotel Melbourne Hilton Resort\", \"1 Hotel Melbourne Hilton\", \"1 Hotel Melbourne Hilton Docklands, Australia Hotel\", \"1 Hotel Melbourne Hilton Docklands, Australia Resort\", \"1 Hotel Melbourne Hilton Docklands, Australia\", \"1 Hotel Melbourne Hotel\", \"1 Hotel Melbourne Resort\", \"1 Hotel Melbourne\", \"1 Hotel Melbourne Docklands, Australia Hotel\", \"1 Hotel Melbourne Docklands, Australia Resort\", \"1 Hotel Melbourne Docklands, Australia\"], \"v\": 3}": {
+    "lat": -37.8229387,
+    "lon": 144.95023,
+    "formatted_address": "9 Maritime Place, Docklands VIC 3008, Australia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJu8kGUgBd1moRnPxfVzOxpCs",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "9 Maritime Place, Docklands VIC 3008, Australia",
+      "geometry": {
+        "location": {
+          "lat": -37.8229387,
+          "lng": 144.95023
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -37.8215070697085,
+            "lng": 144.9518524802915
+          },
+          "southwest": {
+            "lat": -37.82420503029149,
+            "lng": 144.9491545197085
+          }
+        }
+      },
+      "name": "1 Hotel Melbourne",
+      "place_id": "ChIJu8kGUgBd1moRnPxfVzOxpCs",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.1hotels.com/melbourne?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"Anantara\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Anantara Siam Bangkok Hotel Anantara Hotel\", \"Anantara Siam Bangkok Hotel Anantara Resort\", \"Anantara Siam Bangkok Hotel Anantara\", \"Anantara Siam Bangkok Hotel Anantara Bangkok, Thailand Hotel\", \"Anantara Siam Bangkok Hotel Anantara Bangkok, Thailand Resort\", \"Anantara Siam Bangkok Hotel Anantara Bangkok, Thailand\", \"Anantara Siam Bangkok Hotel Hilton Hotel\", \"Anantara Siam Bangkok Hotel Hilton Resort\", \"Anantara Siam Bangkok Hotel Hilton\", \"Anantara Siam Bangkok Hotel Hilton Bangkok, Thailand Hotel\", \"Anantara Siam Bangkok Hotel Hilton Bangkok, Thailand Resort\", \"Anantara Siam Bangkok Hotel Hilton Bangkok, Thailand\", \"Anantara Siam Bangkok Hotel Hotel\", \"Anantara Siam Bangkok Hotel Resort\", \"Anantara Siam Bangkok Hotel\", \"Anantara Siam Bangkok Hotel Bangkok, Thailand Hotel\", \"Anantara Siam Bangkok Hotel Bangkok, Thailand Resort\", \"Anantara Siam Bangkok Hotel Bangkok, Thailand\"], \"v\": 3}": {
+    "lat": 13.7408604,
+    "lon": 100.5399556,
+    "formatted_address": "155 Rajadamri Road, Khwaeng Lumphini, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJVwz7GcWe4jARatGDB6rxqcE",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "155 Rajadamri Road, Khwaeng Lumphini, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand",
+      "geometry": {
+        "location": {
+          "lat": 13.7408604,
+          "lng": 100.5399556
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 13.7422556302915,
+            "lng": 100.5413903802915
+          },
+          "southwest": {
+            "lat": 13.7395576697085,
+            "lng": 100.5386924197085
+          }
+        }
+      },
+      "name": "Anantara Siam Bangkok Hotel",
+      "place_id": "ChIJVwz7GcWe4jARatGDB6rxqcE",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.anantara.com/siam-bangkok?utm_source=GoogleMyBusiness&utm_medium=GMB&utm_term=Siam&utm_content=Home&utm_campaign=Google_GMB"
+    }
+  },
+  "{\"brand\": \"Andaz\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Andaz Miami Beach Resort and Spa Andaz Hotel\", \"Andaz Miami Beach Resort and Spa Andaz Resort\", \"Andaz Miami Beach Resort and Spa Andaz\", \"Andaz Miami Beach Resort and Spa Andaz Miami Beach, Florida US Hotel\", \"Andaz Miami Beach Resort and Spa Andaz Miami Beach, Florida US Resort\", \"Andaz Miami Beach Resort and Spa Andaz Miami Beach, Florida US\", \"Andaz Miami Beach Resort and Spa Hilton Hotel\", \"Andaz Miami Beach Resort and Spa Hilton Resort\", \"Andaz Miami Beach Resort and Spa Hilton\", \"Andaz Miami Beach Resort and Spa Hilton Miami Beach, Florida US Hotel\", \"Andaz Miami Beach Resort and Spa Hilton Miami Beach, Florida US Resort\", \"Andaz Miami Beach Resort and Spa Hilton Miami Beach, Florida US\", \"Andaz Miami Beach Resort Spa Andaz Hotel\", \"Andaz Miami Beach Resort Spa Andaz Resort\", \"Andaz Miami Beach Resort Spa Andaz\", \"Andaz Miami Beach Resort Spa Andaz Miami Beach, Florida US Hotel\", \"Andaz Miami Beach Resort Spa Andaz Miami Beach, Florida US Resort\", \"Andaz Miami Beach Resort Spa Andaz Miami Beach, Florida US\", \"Andaz Miami Beach Resort Spa Hilton Hotel\", \"Andaz Miami Beach Resort Spa Hilton Resort\", \"Andaz Miami Beach Resort Spa Hilton\", \"Andaz Miami Beach Resort Spa Hilton Miami Beach, Florida US Hotel\", \"Andaz Miami Beach Resort Spa Hilton Miami Beach, Florida US Resort\", \"Andaz Miami Beach Resort Spa Hilton Miami Beach, Florida US\", \"Andaz Miami Beach Resort and Spa Hotel\", \"Andaz Miami Beach Resort and Spa Resort\", \"Andaz Miami Beach Resort and Spa\", \"Andaz Miami Beach Resort and Spa Miami Beach, Florida US Hotel\", \"Andaz Miami Beach Resort and Spa Miami Beach, Florida US Resort\", \"Andaz Miami Beach Resort and Spa Miami Beach, Florida US\"], \"v\": 3}": {
+    "lat": 25.8127365,
+    "lon": -80.1226222,
+    "formatted_address": "4041 Collins Ave, Miami Beach, FL 33140, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJeX5TW2iz2YgR_Jt_HLuAdAc",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "4041 Collins Ave, Miami Beach, FL 33140, USA",
+      "geometry": {
+        "location": {
+          "lat": 25.8127365,
+          "lng": -80.1226222
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.8141326302915,
+            "lng": -80.12140776970848
+          },
+          "southwest": {
+            "lat": 25.8114346697085,
+            "lng": -80.1241057302915
+          }
+        }
+      },
+      "name": "Andaz Miami Beach Resort & Spa",
+      "place_id": "ChIJeX5TW2iz2YgR_Jt_HLuAdAc",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/andaz/en-US/miaob-andaz-miami-beach?src=corp_lclb_google_seo_miaob&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"Autograph Collection Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mauna Kea Beach Hotel, Autograph Collection Autograph Collection Hotels Hotel\", \"Mauna Kea Beach Hotel, Autograph Collection Autograph Collection Hotels Resort\", \"Mauna Kea Beach Hotel, Autograph Collection Autograph Collection Hotels\", \"Mauna Kea Beach Hotel, Autograph Collection Autograph Collection Hotels Waimea, Island of Hawaii US Hotel\", \"Mauna Kea Beach Hotel, Autograph Collection Autograph Collection Hotels Waimea, Island of Hawaii US Resort\", \"Mauna Kea Beach Hotel, Autograph Collection Autograph Collection Hotels Waimea, Island of Hawaii US\", \"Mauna Kea Beach Hotel, Autograph Collection Hilton Hotel\", \"Mauna Kea Beach Hotel, Autograph Collection Hilton Resort\", \"Mauna Kea Beach Hotel, Autograph Collection Hilton\", \"Mauna Kea Beach Hotel, Autograph Collection Hilton Waimea, Island of Hawaii US Hotel\", \"Mauna Kea Beach Hotel, Autograph Collection Hilton Waimea, Island of Hawaii US Resort\", \"Mauna Kea Beach Hotel, Autograph Collection Hilton Waimea, Island of Hawaii US\", \"Mauna Kea Beach Hotel Autograph Collection Autograph Collection Hotels Hotel\", \"Mauna Kea Beach Hotel Autograph Collection Autograph Collection Hotels Resort\", \"Mauna Kea Beach Hotel Autograph Collection Autograph Collection Hotels\", \"Mauna Kea Beach Hotel Autograph Collection Autograph Collection Hotels Waimea, Island of Hawaii US Hotel\", \"Mauna Kea Beach Hotel Autograph Collection Autograph Collection Hotels Waimea, Island of Hawaii US Resort\", \"Mauna Kea Beach Hotel Autograph Collection Autograph Collection Hotels Waimea, Island of Hawaii US\", \"Mauna Kea Beach Hotel Autograph Collection Hilton Hotel\", \"Mauna Kea Beach Hotel Autograph Collection Hilton Resort\", \"Mauna Kea Beach Hotel Autograph Collection Hilton\", \"Mauna Kea Beach Hotel Autograph Collection Hilton Waimea, Island of Hawaii US Hotel\", \"Mauna Kea Beach Hotel Autograph Collection Hilton Waimea, Island of Hawaii US Resort\", \"Mauna Kea Beach Hotel Autograph Collection Hilton Waimea, Island of Hawaii US\", \"Mauna Kea Beach Hotel, Autograph Collection Hotel\", \"Mauna Kea Beach Hotel, Autograph Collection Resort\", \"Mauna Kea Beach Hotel, Autograph Collection\", \"Mauna Kea Beach Hotel, Autograph Collection Waimea, Island of Hawaii US Hotel\", \"Mauna Kea Beach Hotel, Autograph Collection Waimea, Island of Hawaii US Resort\", \"Mauna Kea Beach Hotel, Autograph Collection Waimea, Island of Hawaii US\"], \"v\": 3}": {
+    "lat": 20.0064,
+    "lon": -155.8243427,
+    "formatted_address": "62-100 Mauna Kea Beach Dr, Waimea, HI 96743, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJvdJuxzOHU3kRRJHAxMMCaNY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "62-100 Mauna Kea Beach Dr, Waimea, HI 96743, USA",
+      "geometry": {
+        "location": {
+          "lat": 20.0064,
+          "lng": -155.8243427
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 20.0090700802915,
+            "lng": -155.8235542197085
+          },
+          "southwest": {
+            "lat": 20.0063721197085,
+            "lng": -155.8262521802915
+          }
+        }
+      },
+      "name": "Mauna Kea Beach Hotel, Autograph Collection",
+      "place_id": "ChIJvdJuxzOHU3kRRJHAxMMCaNY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/koaak-mauna-kea-beach-hotel-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Belmond\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Villa San Michele, A Belmond Hotel, Florence Belmond Hotel\", \"Villa San Michele, A Belmond Hotel, Florence Belmond Resort\", \"Villa San Michele, A Belmond Hotel, Florence Belmond\", \"Villa San Michele, A Belmond Hotel, Florence Belmond Florence, Italy Hotel\", \"Villa San Michele, A Belmond Hotel, Florence Belmond Florence, Italy Resort\", \"Villa San Michele, A Belmond Hotel, Florence Belmond Florence, Italy\", \"Villa San Michele, A Belmond Hotel, Florence Hilton Hotel\", \"Villa San Michele, A Belmond Hotel, Florence Hilton Resort\", \"Villa San Michele, A Belmond Hotel, Florence Hilton\", \"Villa San Michele, A Belmond Hotel, Florence Hilton Florence, Italy Hotel\", \"Villa San Michele, A Belmond Hotel, Florence Hilton Florence, Italy Resort\", \"Villa San Michele, A Belmond Hotel, Florence Hilton Florence, Italy\", \"Villa San Michele A Belmond Hotel Florence Belmond Hotel\", \"Villa San Michele A Belmond Hotel Florence Belmond Resort\", \"Villa San Michele A Belmond Hotel Florence Belmond\", \"Villa San Michele A Belmond Hotel Florence Belmond Florence, Italy Hotel\", \"Villa San Michele A Belmond Hotel Florence Belmond Florence, Italy Resort\", \"Villa San Michele A Belmond Hotel Florence Belmond Florence, Italy\", \"Villa San Michele A Belmond Hotel Florence Hilton Hotel\", \"Villa San Michele A Belmond Hotel Florence Hilton Resort\", \"Villa San Michele A Belmond Hotel Florence Hilton\", \"Villa San Michele A Belmond Hotel Florence Hilton Florence, Italy Hotel\", \"Villa San Michele A Belmond Hotel Florence Hilton Florence, Italy Resort\", \"Villa San Michele A Belmond Hotel Florence Hilton Florence, Italy\", \"Villa San Michele, A Belmond Hotel, Florence Hotel\", \"Villa San Michele, A Belmond Hotel, Florence Resort\", \"Villa San Michele, A Belmond Hotel, Florence\", \"Villa San Michele, A Belmond Hotel, Florence Florence, Italy Hotel\", \"Villa San Michele, A Belmond Hotel, Florence Florence, Italy Resort\", \"Villa San Michele, A Belmond Hotel, Florence Florence, Italy\"], \"v\": 3}": {
+    "lat": 43.8027492,
+    "lon": 11.298241,
+    "formatted_address": "Via Doccia, 4, 50014 Fiesole FI, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJF2z2dABVKhMRPIInRJw7xts",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Doccia, 4, 50014 Fiesole FI, Italy",
+      "geometry": {
+        "location": {
+          "lat": 43.8027492,
+          "lng": 11.298241
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.8041061302915,
+            "lng": 11.2994724802915
+          },
+          "southwest": {
+            "lat": 43.8014081697085,
+            "lng": 11.2967745197085
+          }
+        }
+      },
+      "name": "Villa San Michele, A Belmond Hotel, Florence",
+      "place_id": "ChIJF2z2dABVKhMRPIInRJw7xts",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.belmond.com/hotels/europe/italy/florence/belmond-villa-san-michele/?utm_source=local_search&utm_medium=link&utm_campaign=google_business"
+    }
+  },
+  "{\"brand\": \"EDITION Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Lake Como EDITION EDITION Hotels Hotel\", \"The Lake Como EDITION EDITION Hotels Resort\", \"The Lake Como EDITION EDITION Hotels\", \"The Lake Como EDITION EDITION Hotels Cadenabbia, Italy Hotel\", \"The Lake Como EDITION EDITION Hotels Cadenabbia, Italy Resort\", \"The Lake Como EDITION EDITION Hotels Cadenabbia, Italy\", \"The Lake Como EDITION Hilton Hotel\", \"The Lake Como EDITION Hilton Resort\", \"The Lake Como EDITION Hilton\", \"The Lake Como EDITION Hilton Cadenabbia, Italy Hotel\", \"The Lake Como EDITION Hilton Cadenabbia, Italy Resort\", \"The Lake Como EDITION Hilton Cadenabbia, Italy\", \"Lake Como Edition EDITION Hotels Hotel\", \"Lake Como Edition EDITION Hotels Resort\", \"Lake Como Edition EDITION Hotels\", \"Lake Como Edition EDITION Hotels Cadenabbia, Italy Hotel\", \"Lake Como Edition EDITION Hotels Cadenabbia, Italy Resort\", \"Lake Como Edition EDITION Hotels Cadenabbia, Italy\", \"Lake Como Edition Hilton Hotel\", \"Lake Como Edition Hilton Resort\", \"Lake Como Edition Hilton\", \"Lake Como Edition Hilton Cadenabbia, Italy Hotel\", \"Lake Como Edition Hilton Cadenabbia, Italy Resort\", \"Lake Como Edition Hilton Cadenabbia, Italy\", \"The Lake Como EDITION Hotel\", \"The Lake Como EDITION Resort\", \"The Lake Como EDITION\", \"The Lake Como EDITION Cadenabbia, Italy Hotel\", \"The Lake Como EDITION Cadenabbia, Italy Resort\", \"The Lake Como EDITION Cadenabbia, Italy\"], \"v\": 3}": {
+    "lat": 45.9921712,
+    "lon": 9.2378472,
+    "formatted_address": "Via Regina, 41, 22011 Cadenabbia CO, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJWeXSLwA9hEcRt4Kdt7i5hSQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Regina, 41, 22011 Cadenabbia CO, Italy",
+      "geometry": {
+        "location": {
+          "lat": 45.9921712,
+          "lng": 9.2378472
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.9934927302915,
+            "lng": 9.239302480291503
+          },
+          "southwest": {
+            "lat": 45.9907947697085,
+            "lng": 9.236604519708498
+          }
+        }
+      },
+      "name": "The Lake Como EDITION",
+      "place_id": "ChIJWeXSLwA9hEcRt4Kdt7i5hSQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/mille-the-lake-como-edition/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"EDITION Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Red Sea EDITION EDITION Hotels Hotel\", \"The Red Sea EDITION EDITION Hotels Resort\", \"The Red Sea EDITION EDITION Hotels\", \"The Red Sea EDITION EDITION Hotels Tabuk, Saudi Arabia Hotel\", \"The Red Sea EDITION EDITION Hotels Tabuk, Saudi Arabia Resort\", \"The Red Sea EDITION EDITION Hotels Tabuk, Saudi Arabia\", \"The Red Sea EDITION Hilton Hotel\", \"The Red Sea EDITION Hilton Resort\", \"The Red Sea EDITION Hilton\", \"The Red Sea EDITION Hilton Tabuk, Saudi Arabia Hotel\", \"The Red Sea EDITION Hilton Tabuk, Saudi Arabia Resort\", \"The Red Sea EDITION Hilton Tabuk, Saudi Arabia\", \"Red Sea Edition EDITION Hotels Hotel\", \"Red Sea Edition EDITION Hotels Resort\", \"Red Sea Edition EDITION Hotels\", \"Red Sea Edition EDITION Hotels Tabuk, Saudi Arabia Hotel\", \"Red Sea Edition EDITION Hotels Tabuk, Saudi Arabia Resort\", \"Red Sea Edition EDITION Hotels Tabuk, Saudi Arabia\", \"Red Sea Edition Hilton Hotel\", \"Red Sea Edition Hilton Resort\", \"Red Sea Edition Hilton\", \"Red Sea Edition Hilton Tabuk, Saudi Arabia Hotel\", \"Red Sea Edition Hilton Tabuk, Saudi Arabia Resort\", \"Red Sea Edition Hilton Tabuk, Saudi Arabia\", \"The Red Sea EDITION Hotel\", \"The Red Sea EDITION Resort\", \"The Red Sea EDITION\", \"The Red Sea EDITION Tabuk, Saudi Arabia Hotel\", \"The Red Sea EDITION Tabuk, Saudi Arabia Resort\", \"The Red Sea EDITION Tabuk, Saudi Arabia\"], \"v\": 3}": {
+    "lat": 25.4960139,
+    "lon": 36.9679478,
+    "formatted_address": "Shura Island, Hanak 48313, Saudi Arabia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ109F3DSJsBUR2NZZXQRWkaU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Shura Island, Hanak 48313, Saudi Arabia",
+      "geometry": {
+        "location": {
+          "lat": 25.4960139,
+          "lng": 36.9679478
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.4976358802915,
+            "lng": 36.9698579802915
+          },
+          "southwest": {
+            "lat": 25.4949379197085,
+            "lng": 36.9671600197085
+          }
+        }
+      },
+      "name": "The Red Sea EDITION",
+      "place_id": "ChIJ109F3DSJsBUR2NZZXQRWkaU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/ejheb-the-red-sea-edition/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Ennismore\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Istanbul, Turkey Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Istanbul, Turkey Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Istanbul, Turkey\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Istanbul, Turkey Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Istanbul, Turkey Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Istanbul, Turkey\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Istanbul, Turkey Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Istanbul, Turkey Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Istanbul, Turkey\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Istanbul, Turkey Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Istanbul, Turkey Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Istanbul, Turkey\", \"Aliee Istanbul - a Paris Society Collection Hotel Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Istanbul, Turkey Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Istanbul, Turkey Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Istanbul, Turkey\"], \"v\": 3}": {
+    "lat": 41.0344355,
+    "lon": 28.9613995,
+    "formatted_address": "Camiikebir, Taşkızak Tersanesi Caddesi No:11-19, 34437 Beyoğlu/İstanbul, Türkiye",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJAZYD8YW5yhQR5_ttVyVxclA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Camiikebir, Taşkızak Tersanesi Caddesi No:11-19, 34437 Beyoğlu/İstanbul, Türkiye",
+      "geometry": {
+        "location": {
+          "lat": 41.0344355,
+          "lng": 28.9613995
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.0358718802915,
+            "lng": 28.96287153029149
+          },
+          "southwest": {
+            "lat": 41.0331739197085,
+            "lng": 28.96017356970849
+          }
+        }
+      },
+      "name": "Aliée Istanbul - A Paris Society Collection Hotel",
+      "place_id": "ChIJAZYD8YW5yhQR5_ttVyVxclA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://alieeistanbul.com/"
+    }
+  },
+  "{\"brand\": \"Ennismore\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Faena New York Ennismore Hotel\", \"Faena New York Ennismore Resort\", \"Faena New York Ennismore\", \"Faena New York Ennismore New York, New York US Hotel\", \"Faena New York Ennismore New York, New York US Resort\", \"Faena New York Ennismore New York, New York US\", \"Faena New York Hilton Hotel\", \"Faena New York Hilton Resort\", \"Faena New York Hilton\", \"Faena New York Hilton New York, New York US Hotel\", \"Faena New York Hilton New York, New York US Resort\", \"Faena New York Hilton New York, New York US\", \"Faena New York Hotel\", \"Faena New York Resort\", \"Faena New York\", \"Faena New York New York, New York US Hotel\", \"Faena New York New York, New York US Resort\", \"Faena New York New York, New York US\"], \"v\": 3}": {
+    "lat": 40.7449319,
+    "lon": -74.00728509999999,
+    "formatted_address": "500A W 18th St, New York, NY 10011, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ_7yvQsdZwokRlrwO-10b76U",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "500A W 18th St, New York, NY 10011, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.7449319,
+          "lng": -74.00728509999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.7463163302915,
+            "lng": -74.00587281970849
+          },
+          "southwest": {
+            "lat": 40.7436183697085,
+            "lng": -74.00857078029149
+          }
+        }
+      },
+      "name": "Faena New York",
+      "place_id": "ChIJ_7yvQsdZwokRlrwO-10b76U",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.faena.com/new-york"
+    }
+  },
+  "{\"brand\": \"Fairmont\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fairmont Golden Prague hotel Fairmont Hotel\", \"Fairmont Golden Prague hotel Fairmont Resort\", \"Fairmont Golden Prague hotel Fairmont\", \"Fairmont Golden Prague hotel Fairmont Prague, Czech Republic Hotel\", \"Fairmont Golden Prague hotel Fairmont Prague, Czech Republic Resort\", \"Fairmont Golden Prague hotel Fairmont Prague, Czech Republic\", \"Fairmont Golden Prague hotel Hilton Hotel\", \"Fairmont Golden Prague hotel Hilton Resort\", \"Fairmont Golden Prague hotel Hilton\", \"Fairmont Golden Prague hotel Hilton Prague, Czech Republic Hotel\", \"Fairmont Golden Prague hotel Hilton Prague, Czech Republic Resort\", \"Fairmont Golden Prague hotel Hilton Prague, Czech Republic\", \"Fairmont Golden Prague Hotel Fairmont Hotel\", \"Fairmont Golden Prague Hotel Fairmont Resort\", \"Fairmont Golden Prague Hotel Fairmont\", \"Fairmont Golden Prague Hotel Fairmont Prague, Czech Republic Hotel\", \"Fairmont Golden Prague Hotel Fairmont Prague, Czech Republic Resort\", \"Fairmont Golden Prague Hotel Fairmont Prague, Czech Republic\", \"Fairmont Golden Prague Hotel Hilton Hotel\", \"Fairmont Golden Prague Hotel Hilton Resort\", \"Fairmont Golden Prague Hotel Hilton\", \"Fairmont Golden Prague Hotel Hilton Prague, Czech Republic Hotel\", \"Fairmont Golden Prague Hotel Hilton Prague, Czech Republic Resort\", \"Fairmont Golden Prague Hotel Hilton Prague, Czech Republic\", \"Fairmont Golden Prague hotel Hotel\", \"Fairmont Golden Prague hotel Resort\", \"Fairmont Golden Prague hotel\", \"Fairmont Golden Prague hotel Prague, Czech Republic Hotel\", \"Fairmont Golden Prague hotel Prague, Czech Republic Resort\", \"Fairmont Golden Prague hotel Prague, Czech Republic\"], \"v\": 3}": {
+    "lat": 50.0913666,
+    "lon": 14.4183046,
+    "formatted_address": "Pařížská 30, Staré Město, 110 00 Praha-Praha 1, Czechia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJISw8L8KVC0cRxoHhXkXjhso",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Pařížská 30, Staré Město, 110 00 Praha-Praha 1, Czechia",
+      "geometry": {
+        "location": {
+          "lat": 50.0913666,
+          "lng": 14.4183046
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 50.0926630302915,
+            "lng": 14.4196235802915
+          },
+          "southwest": {
+            "lat": 50.0899650697085,
+            "lng": 14.4169256197085
+          }
+        }
+      },
+      "name": "Fairmont Golden Prague",
+      "place_id": "ChIJISw8L8KVC0cRxoHhXkXjhso",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.goldenpraguehotel.com/?goto=fiche_hotel&code_hotel=B6V3&merchantid=seo-maps-CZ-B6V3&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
+    }
+  },
+  "{\"brand\": \"Gran Meli\\u00e1 Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel de Mar, a Gran Melia Hotel Gran Meli\\u00e1 Hotels & Resorts Hotel\", \"Hotel de Mar, a Gran Melia Hotel Gran Meli\\u00e1 Hotels & Resorts Resort\", \"Hotel de Mar, a Gran Melia Hotel Gran Meli\\u00e1 Hotels & Resorts\", \"Hotel de Mar, a Gran Melia Hotel Gran Meli\\u00e1 Hotels & Resorts Calvi\\u00e0, Spain Hotel\", \"Hotel de Mar, a Gran Melia Hotel Gran Meli\\u00e1 Hotels & Resorts Calvi\\u00e0, Spain Resort\", \"Hotel de Mar, a Gran Melia Hotel Gran Meli\\u00e1 Hotels & Resorts Calvi\\u00e0, Spain\", \"Hotel de Mar, a Gran Melia Hotel Hilton Hotel\", \"Hotel de Mar, a Gran Melia Hotel Hilton Resort\", \"Hotel de Mar, a Gran Melia Hotel Hilton\", \"Hotel de Mar, a Gran Melia Hotel Hilton Calvi\\u00e0, Spain Hotel\", \"Hotel de Mar, a Gran Melia Hotel Hilton Calvi\\u00e0, Spain Resort\", \"Hotel de Mar, a Gran Melia Hotel Hilton Calvi\\u00e0, Spain\", \"Hotel De Mar a Gran Melia Hotel Gran Meli\\u00e1 Hotels & Resorts Hotel\", \"Hotel De Mar a Gran Melia Hotel Gran Meli\\u00e1 Hotels & Resorts Resort\", \"Hotel De Mar a Gran Melia Hotel Gran Meli\\u00e1 Hotels & Resorts\", \"Hotel De Mar a Gran Melia Hotel Gran Meli\\u00e1 Hotels & Resorts Calvi\\u00e0, Spain Hotel\", \"Hotel De Mar a Gran Melia Hotel Gran Meli\\u00e1 Hotels & Resorts Calvi\\u00e0, Spain Resort\", \"Hotel De Mar a Gran Melia Hotel Gran Meli\\u00e1 Hotels & Resorts Calvi\\u00e0, Spain\", \"Hotel De Mar a Gran Melia Hotel Hilton Hotel\", \"Hotel De Mar a Gran Melia Hotel Hilton Resort\", \"Hotel De Mar a Gran Melia Hotel Hilton\", \"Hotel De Mar a Gran Melia Hotel Hilton Calvi\\u00e0, Spain Hotel\", \"Hotel De Mar a Gran Melia Hotel Hilton Calvi\\u00e0, Spain Resort\", \"Hotel De Mar a Gran Melia Hotel Hilton Calvi\\u00e0, Spain\", \"Hotel de Mar, a Gran Melia Hotel Hotel\", \"Hotel de Mar, a Gran Melia Hotel Resort\", \"Hotel de Mar, a Gran Melia Hotel\", \"Hotel de Mar, a Gran Melia Hotel Calvi\\u00e0, Spain Hotel\", \"Hotel de Mar, a Gran Melia Hotel Calvi\\u00e0, Spain Resort\", \"Hotel de Mar, a Gran Melia Hotel Calvi\\u00e0, Spain\"], \"v\": 3}": {
+    "lat": 39.543886,
+    "lon": 2.596245,
+    "formatted_address": "Passeig Illetes, 7, 07181 Cas Català-Illetes, Illes Balears, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJaVa0796NlxIRKHV3NUO8kU0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Passeig Illetes, 7, 07181 Cas Català-Illetes, Illes Balears, Spain",
+      "geometry": {
+        "location": {
+          "lat": 39.543886,
+          "lng": 2.596245
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.5451786802915,
+            "lng": 2.597436030291502
+          },
+          "southwest": {
+            "lat": 39.5424807197085,
+            "lng": 2.594738069708499
+          }
+        }
+      },
+      "name": "Hotel de Mar Gran Meliá - The Leading Hotels of the World - Adults only",
+      "place_id": "ChIJaVa0796NlxIRKHV3NUO8kU0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.melia.com/en/hotels/spain/majorca/de-mar-gran-melia?utm_campaign=google&utm_content=0718&utm_medium=organic&utm_source=directories"
+    }
+  },
+  "{\"brand\": \"IHG Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Sydney Coogee Beach IHG Hotels & Resorts Hotel\", \"InterContinental Sydney Coogee Beach IHG Hotels & Resorts Resort\", \"InterContinental Sydney Coogee Beach IHG Hotels & Resorts\", \"InterContinental Sydney Coogee Beach IHG Hotels & Resorts Coogee, Australia Hotel\", \"InterContinental Sydney Coogee Beach IHG Hotels & Resorts Coogee, Australia Resort\", \"InterContinental Sydney Coogee Beach IHG Hotels & Resorts Coogee, Australia\", \"InterContinental Sydney Coogee Beach Hilton Hotel\", \"InterContinental Sydney Coogee Beach Hilton Resort\", \"InterContinental Sydney Coogee Beach Hilton\", \"InterContinental Sydney Coogee Beach Hilton Coogee, Australia Hotel\", \"InterContinental Sydney Coogee Beach Hilton Coogee, Australia Resort\", \"InterContinental Sydney Coogee Beach Hilton Coogee, Australia\", \"Intercontinental Sydney Coogee Beach IHG Hotels & Resorts Hotel\", \"Intercontinental Sydney Coogee Beach IHG Hotels & Resorts Resort\", \"Intercontinental Sydney Coogee Beach IHG Hotels & Resorts\", \"Intercontinental Sydney Coogee Beach IHG Hotels & Resorts Coogee, Australia Hotel\", \"Intercontinental Sydney Coogee Beach IHG Hotels & Resorts Coogee, Australia Resort\", \"Intercontinental Sydney Coogee Beach IHG Hotels & Resorts Coogee, Australia\", \"Intercontinental Sydney Coogee Beach Hilton Hotel\", \"Intercontinental Sydney Coogee Beach Hilton Resort\", \"Intercontinental Sydney Coogee Beach Hilton\", \"Intercontinental Sydney Coogee Beach Hilton Coogee, Australia Hotel\", \"Intercontinental Sydney Coogee Beach Hilton Coogee, Australia Resort\", \"Intercontinental Sydney Coogee Beach Hilton Coogee, Australia\", \"InterContinental Sydney Coogee Beach Hotel\", \"InterContinental Sydney Coogee Beach Resort\", \"InterContinental Sydney Coogee Beach\", \"InterContinental Sydney Coogee Beach Coogee, Australia Hotel\", \"InterContinental Sydney Coogee Beach Coogee, Australia Resort\", \"InterContinental Sydney Coogee Beach Coogee, Australia\"], \"v\": 3}": {
+    "lat": -33.9225467,
+    "lon": 151.2559425,
+    "formatted_address": "242 Arden St, Coogee NSW 2034, Australia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJqaQc7z-yEmsRyiVMOspG64Q",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "242 Arden St, Coogee NSW 2034, Australia",
+      "geometry": {
+        "location": {
+          "lat": -33.9225467,
+          "lng": 151.2559425
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -33.9212819697085,
+            "lng": 151.2572175802915
+          },
+          "southwest": {
+            "lat": -33.9239799302915,
+            "lng": 151.2545196197085
+          }
+        }
+      },
+      "name": "InterContinental Sydney Coogee Beach by IHG",
+      "place_id": "ChIJqaQc7z-yEmsRyiVMOspG64Q",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ihg.com/intercontinental/hotels/us/en/sydney/sydcb/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-AU-_-SYDCB"
+    }
+  },
+  "{\"brand\": \"IHG Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Chantilly Chateau Mont Royal IHG Hotels & Resorts Hotel\", \"InterContinental Chantilly Chateau Mont Royal IHG Hotels & Resorts Resort\", \"InterContinental Chantilly Chateau Mont Royal IHG Hotels & Resorts\", \"InterContinental Chantilly Chateau Mont Royal IHG Hotels & Resorts La Chapelle-en-Serval, France Hotel\", \"InterContinental Chantilly Chateau Mont Royal IHG Hotels & Resorts La Chapelle-en-Serval, France Resort\", \"InterContinental Chantilly Chateau Mont Royal IHG Hotels & Resorts La Chapelle-en-Serval, France\", \"InterContinental Chantilly Chateau Mont Royal Hilton Hotel\", \"InterContinental Chantilly Chateau Mont Royal Hilton Resort\", \"InterContinental Chantilly Chateau Mont Royal Hilton\", \"InterContinental Chantilly Chateau Mont Royal Hilton La Chapelle-en-Serval, France Hotel\", \"InterContinental Chantilly Chateau Mont Royal Hilton La Chapelle-en-Serval, France Resort\", \"InterContinental Chantilly Chateau Mont Royal Hilton La Chapelle-en-Serval, France\", \"Intercontinental Chantilly Chateau Mont Royal IHG Hotels & Resorts Hotel\", \"Intercontinental Chantilly Chateau Mont Royal IHG Hotels & Resorts Resort\", \"Intercontinental Chantilly Chateau Mont Royal IHG Hotels & Resorts\", \"Intercontinental Chantilly Chateau Mont Royal IHG Hotels & Resorts La Chapelle-en-Serval, France Hotel\", \"Intercontinental Chantilly Chateau Mont Royal IHG Hotels & Resorts La Chapelle-en-Serval, France Resort\", \"Intercontinental Chantilly Chateau Mont Royal IHG Hotels & Resorts La Chapelle-en-Serval, France\", \"Intercontinental Chantilly Chateau Mont Royal Hilton Hotel\", \"Intercontinental Chantilly Chateau Mont Royal Hilton Resort\", \"Intercontinental Chantilly Chateau Mont Royal Hilton\", \"Intercontinental Chantilly Chateau Mont Royal Hilton La Chapelle-en-Serval, France Hotel\", \"Intercontinental Chantilly Chateau Mont Royal Hilton La Chapelle-en-Serval, France Resort\", \"Intercontinental Chantilly Chateau Mont Royal Hilton La Chapelle-en-Serval, France\", \"InterContinental Chantilly Chateau Mont Royal Hotel\", \"InterContinental Chantilly Chateau Mont Royal Resort\", \"InterContinental Chantilly Chateau Mont Royal\", \"InterContinental Chantilly Chateau Mont Royal La Chapelle-en-Serval, France Hotel\", \"InterContinental Chantilly Chateau Mont Royal La Chapelle-en-Serval, France Resort\", \"InterContinental Chantilly Chateau Mont Royal La Chapelle-en-Serval, France\"], \"v\": 3}": {
+    "lat": 49.126,
+    "lon": 2.54975,
+    "formatted_address": "Le Château, All. des Marronniers, 60520 La Chapelle-en-Serval, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJS_ZoAP875kcRP-la7AaWVGo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Le Château, All. des Marronniers, 60520 La Chapelle-en-Serval, France",
+      "geometry": {
+        "location": {
+          "lat": 49.126,
+          "lng": 2.54975
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.1272065802915,
+            "lng": 2.550645930291502
+          },
+          "southwest": {
+            "lat": 49.1245086197085,
+            "lng": 2.547947969708498
+          }
+        }
+      },
+      "name": "InterContinental Chantilly Chateau Mont Royal by IHG",
+      "place_id": "ChIJS_ZoAP875kcRP-la7AaWVGo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ihg.com/intercontinental/hotels/gb/en/chantilly/parcl/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-FR-_-PARCL"
+    }
+  },
+  "{\"brand\": \"IHG Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Halong Bay Resort IHG Hotels & Resorts Hotel\", \"InterContinental Halong Bay Resort IHG Hotels & Resorts Resort\", \"InterContinental Halong Bay Resort IHG Hotels & Resorts\", \"InterContinental Halong Bay Resort IHG Hotels & Resorts Quang Ninh, Vietnam Hotel\", \"InterContinental Halong Bay Resort IHG Hotels & Resorts Quang Ninh, Vietnam Resort\", \"InterContinental Halong Bay Resort IHG Hotels & Resorts Quang Ninh, Vietnam\", \"InterContinental Halong Bay Resort Hilton Hotel\", \"InterContinental Halong Bay Resort Hilton Resort\", \"InterContinental Halong Bay Resort Hilton\", \"InterContinental Halong Bay Resort Hilton Quang Ninh, Vietnam Hotel\", \"InterContinental Halong Bay Resort Hilton Quang Ninh, Vietnam Resort\", \"InterContinental Halong Bay Resort Hilton Quang Ninh, Vietnam\", \"Intercontinental Halong Bay Resort IHG Hotels & Resorts Hotel\", \"Intercontinental Halong Bay Resort IHG Hotels & Resorts Resort\", \"Intercontinental Halong Bay Resort IHG Hotels & Resorts\", \"Intercontinental Halong Bay Resort IHG Hotels & Resorts Quang Ninh, Vietnam Hotel\", \"Intercontinental Halong Bay Resort IHG Hotels & Resorts Quang Ninh, Vietnam Resort\", \"Intercontinental Halong Bay Resort IHG Hotels & Resorts Quang Ninh, Vietnam\", \"Intercontinental Halong Bay Resort Hilton Hotel\", \"Intercontinental Halong Bay Resort Hilton Resort\", \"Intercontinental Halong Bay Resort Hilton\", \"Intercontinental Halong Bay Resort Hilton Quang Ninh, Vietnam Hotel\", \"Intercontinental Halong Bay Resort Hilton Quang Ninh, Vietnam Resort\", \"Intercontinental Halong Bay Resort Hilton Quang Ninh, Vietnam\", \"InterContinental Halong Bay Resort Hotel\", \"InterContinental Halong Bay Resort Resort\", \"InterContinental Halong Bay Resort\", \"InterContinental Halong Bay Resort Quang Ninh, Vietnam Hotel\", \"InterContinental Halong Bay Resort Quang Ninh, Vietnam Resort\", \"InterContinental Halong Bay Resort Quang Ninh, Vietnam\"], \"v\": 3}": {
+    "lat": 20.9538401,
+    "lon": 107.0031851,
+    "formatted_address": "Marina Urban Area, Peninsula 2, Bãi Cháy, Quảng Ninh 200000, Vietnam",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJo5HGoPCtNTERWVEua6DhJPA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Marina Urban Area, Peninsula 2, Bãi Cháy, Quảng Ninh 200000, Vietnam",
+      "geometry": {
+        "location": {
+          "lat": 20.9538401,
+          "lng": 107.0031851
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 20.9552914302915,
+            "lng": 107.0044920302915
+          },
+          "southwest": {
+            "lat": 20.9525934697085,
+            "lng": 107.0017940697085
+          }
+        }
+      },
+      "name": "InterContinental Halong Bay Resort by IHG",
+      "place_id": "ChIJo5HGoPCtNTERWVEua6DhJPA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ihg.com/intercontinental/hotels/us/en/ha-long-bay/hphhl/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-VN-_-HPHHL"
+    }
+  },
+  "{\"brand\": \"IHG Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Presidente Monterrey IHG Hotels & Resorts Hotel\", \"InterContinental Presidente Monterrey IHG Hotels & Resorts Resort\", \"InterContinental Presidente Monterrey IHG Hotels & Resorts\", \"InterContinental Presidente Monterrey IHG Hotels & Resorts San Pedro Garza Garcia, Nuevo Le\\u00f3n MX Hotel\", \"InterContinental Presidente Monterrey IHG Hotels & Resorts San Pedro Garza Garcia, Nuevo Le\\u00f3n MX Resort\", \"InterContinental Presidente Monterrey IHG Hotels & Resorts San Pedro Garza Garcia, Nuevo Le\\u00f3n MX\", \"InterContinental Presidente Monterrey Hilton Hotel\", \"InterContinental Presidente Monterrey Hilton Resort\", \"InterContinental Presidente Monterrey Hilton\", \"InterContinental Presidente Monterrey Hilton San Pedro Garza Garcia, Nuevo Le\\u00f3n MX Hotel\", \"InterContinental Presidente Monterrey Hilton San Pedro Garza Garcia, Nuevo Le\\u00f3n MX Resort\", \"InterContinental Presidente Monterrey Hilton San Pedro Garza Garcia, Nuevo Le\\u00f3n MX\", \"Intercontinental Presidente Monterrey IHG Hotels & Resorts Hotel\", \"Intercontinental Presidente Monterrey IHG Hotels & Resorts Resort\", \"Intercontinental Presidente Monterrey IHG Hotels & Resorts\", \"Intercontinental Presidente Monterrey IHG Hotels & Resorts San Pedro Garza Garcia, Nuevo Le\\u00f3n MX Hotel\", \"Intercontinental Presidente Monterrey IHG Hotels & Resorts San Pedro Garza Garcia, Nuevo Le\\u00f3n MX Resort\", \"Intercontinental Presidente Monterrey IHG Hotels & Resorts San Pedro Garza Garcia, Nuevo Le\\u00f3n MX\", \"Intercontinental Presidente Monterrey Hilton Hotel\", \"Intercontinental Presidente Monterrey Hilton Resort\", \"Intercontinental Presidente Monterrey Hilton\", \"Intercontinental Presidente Monterrey Hilton San Pedro Garza Garcia, Nuevo Le\\u00f3n MX Hotel\", \"Intercontinental Presidente Monterrey Hilton San Pedro Garza Garcia, Nuevo Le\\u00f3n MX Resort\", \"Intercontinental Presidente Monterrey Hilton San Pedro Garza Garcia, Nuevo Le\\u00f3n MX\", \"InterContinental Presidente Monterrey Hotel\", \"InterContinental Presidente Monterrey Resort\", \"InterContinental Presidente Monterrey\", \"InterContinental Presidente Monterrey San Pedro Garza Garcia, Nuevo Le\\u00f3n MX Hotel\", \"InterContinental Presidente Monterrey San Pedro Garza Garcia, Nuevo Le\\u00f3n MX Resort\", \"InterContinental Presidente Monterrey San Pedro Garza Garcia, Nuevo Le\\u00f3n MX\"], \"v\": 3}": {
+    "lat": 25.6482252,
+    "lon": -100.3389857,
+    "formatted_address": "Av. Real San Agustin 301, Real San Agustín, 66260 San Pedro Garza García, N.L., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ1RxxHEe_YoYRGH6slvhzr3k",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Av. Real San Agustin 301, Real San Agustín, 66260 San Pedro Garza García, N.L., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 25.6482252,
+          "lng": -100.3389857
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.6494529802915,
+            "lng": -100.3375313197085
+          },
+          "southwest": {
+            "lat": 25.6467550197085,
+            "lng": -100.3402292802915
+          }
+        }
+      },
+      "name": "InterContinental Presidente Monterrey, an IHG Hotel",
+      "place_id": "ChIJ1RxxHEe_YoYRGH6slvhzr3k",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://presidenteicmonterrey.com/"
+    }
+  },
+  "{\"brand\": \"IHG Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Sapporo IHG Hotels & Resorts Hotel\", \"InterContinental Sapporo IHG Hotels & Resorts Resort\", \"InterContinental Sapporo IHG Hotels & Resorts\", \"InterContinental Sapporo IHG Hotels & Resorts Sapporo, Japan Hotel\", \"InterContinental Sapporo IHG Hotels & Resorts Sapporo, Japan Resort\", \"InterContinental Sapporo IHG Hotels & Resorts Sapporo, Japan\", \"InterContinental Sapporo Hilton Hotel\", \"InterContinental Sapporo Hilton Resort\", \"InterContinental Sapporo Hilton\", \"InterContinental Sapporo Hilton Sapporo, Japan Hotel\", \"InterContinental Sapporo Hilton Sapporo, Japan Resort\", \"InterContinental Sapporo Hilton Sapporo, Japan\", \"Intercontinental Sapporo IHG Hotels & Resorts Hotel\", \"Intercontinental Sapporo IHG Hotels & Resorts Resort\", \"Intercontinental Sapporo IHG Hotels & Resorts\", \"Intercontinental Sapporo IHG Hotels & Resorts Sapporo, Japan Hotel\", \"Intercontinental Sapporo IHG Hotels & Resorts Sapporo, Japan Resort\", \"Intercontinental Sapporo IHG Hotels & Resorts Sapporo, Japan\", \"Intercontinental Sapporo Hilton Hotel\", \"Intercontinental Sapporo Hilton Resort\", \"Intercontinental Sapporo Hilton\", \"Intercontinental Sapporo Hilton Sapporo, Japan Hotel\", \"Intercontinental Sapporo Hilton Sapporo, Japan Resort\", \"Intercontinental Sapporo Hilton Sapporo, Japan\", \"InterContinental Sapporo Hotel\", \"InterContinental Sapporo Resort\", \"InterContinental Sapporo\", \"InterContinental Sapporo Sapporo, Japan Hotel\", \"InterContinental Sapporo Sapporo, Japan Resort\", \"InterContinental Sapporo Sapporo, Japan\"], \"v\": 3}": {
+    "lat": 43.0477844,
+    "lon": 141.3573058,
+    "formatted_address": "1-chōme-1-48 Minami 10 Jōnishi, Chuo Ward, Sapporo, Hokkaido 064-0810, Japan",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ19_cfdwrC18R3JFFgCTnH1k",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1-chōme-1-48 Minami 10 Jōnishi, Chuo Ward, Sapporo, Hokkaido 064-0810, Japan",
+      "geometry": {
+        "location": {
+          "lat": 43.0477844,
+          "lng": 141.3573058
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.0491474802915,
+            "lng": 141.3583164802915
+          },
+          "southwest": {
+            "lat": 43.0464495197085,
+            "lng": 141.3556185197085
+          }
+        }
+      },
+      "name": "InterContinental Sapporo by IHG",
+      "place_id": "ChIJ19_cfdwrC18R3JFFgCTnH1k",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-JP-_-SPKHA"
+    }
+  },
+  "{\"brand\": \"Kempinski Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sindhorn Kempinski Hotel Bangkok Kempinski Hotels Hotel\", \"Sindhorn Kempinski Hotel Bangkok Kempinski Hotels Resort\", \"Sindhorn Kempinski Hotel Bangkok Kempinski Hotels\", \"Sindhorn Kempinski Hotel Bangkok Kempinski Hotels Bangkok, Thailand Hotel\", \"Sindhorn Kempinski Hotel Bangkok Kempinski Hotels Bangkok, Thailand Resort\", \"Sindhorn Kempinski Hotel Bangkok Kempinski Hotels Bangkok, Thailand\", \"Sindhorn Kempinski Hotel Bangkok Hilton Hotel\", \"Sindhorn Kempinski Hotel Bangkok Hilton Resort\", \"Sindhorn Kempinski Hotel Bangkok Hilton\", \"Sindhorn Kempinski Hotel Bangkok Hilton Bangkok, Thailand Hotel\", \"Sindhorn Kempinski Hotel Bangkok Hilton Bangkok, Thailand Resort\", \"Sindhorn Kempinski Hotel Bangkok Hilton Bangkok, Thailand\", \"Sindhorn Kempinski Hotel Bangkok Hotel\", \"Sindhorn Kempinski Hotel Bangkok Resort\", \"Sindhorn Kempinski Hotel Bangkok\", \"Sindhorn Kempinski Hotel Bangkok Bangkok, Thailand Hotel\", \"Sindhorn Kempinski Hotel Bangkok Bangkok, Thailand Resort\", \"Sindhorn Kempinski Hotel Bangkok Bangkok, Thailand\"], \"v\": 3}": {
+    "lat": 13.7367277,
+    "lon": 100.5439428,
+    "formatted_address": "80 Soi Ton Son, Khwaeng Lumphini, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJKdgidjmf4jAR-S3Fl6KOxAY",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "80 Soi Ton Son, Khwaeng Lumphini, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand",
+      "geometry": {
+        "location": {
+          "lat": 13.7367277,
+          "lng": 100.5439428
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 13.7380630802915,
+            "lng": 100.5453825802915
+          },
+          "southwest": {
+            "lat": 13.7353651197085,
+            "lng": 100.5426846197085
+          }
+        }
+      },
+      "name": "Sindhorn Kempinski Hotel Bangkok",
+      "place_id": "ChIJKdgidjmf4jAR-S3Fl6KOxAY",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.kempinski.com/en/sindhorn-hotel?utm_medium=organic&utm_source=google&utm_campaign=KIBKK3&utm_content=gmb&source=S308962248"
+    }
+  },
+  "{\"brand\": \"LXR Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cameo Beverly Hills, LXR Hotels & Resorts LXR Hotels & Resorts Hotel\", \"Cameo Beverly Hills, LXR Hotels & Resorts LXR Hotels & Resorts Resort\", \"Cameo Beverly Hills, LXR Hotels & Resorts LXR Hotels & Resorts\", \"Cameo Beverly Hills, LXR Hotels & Resorts LXR Hotels & Resorts Los Angeles, California US Hotel\", \"Cameo Beverly Hills, LXR Hotels & Resorts LXR Hotels & Resorts Los Angeles, California US Resort\", \"Cameo Beverly Hills, LXR Hotels & Resorts LXR Hotels & Resorts Los Angeles, California US\", \"Cameo Beverly Hills, LXR Hotels & Resorts Hilton Hotel\", \"Cameo Beverly Hills, LXR Hotels & Resorts Hilton Resort\", \"Cameo Beverly Hills, LXR Hotels & Resorts Hilton\", \"Cameo Beverly Hills, LXR Hotels & Resorts Hilton Los Angeles, California US Hotel\", \"Cameo Beverly Hills, LXR Hotels & Resorts Hilton Los Angeles, California US Resort\", \"Cameo Beverly Hills, LXR Hotels & Resorts Hilton Los Angeles, California US\", \"Cameo Beverly Hills Lxr Hotels Resorts LXR Hotels & Resorts Hotel\", \"Cameo Beverly Hills Lxr Hotels Resorts LXR Hotels & Resorts Resort\", \"Cameo Beverly Hills Lxr Hotels Resorts LXR Hotels & Resorts\", \"Cameo Beverly Hills Lxr Hotels Resorts LXR Hotels & Resorts Los Angeles, California US Hotel\", \"Cameo Beverly Hills Lxr Hotels Resorts LXR Hotels & Resorts Los Angeles, California US Resort\", \"Cameo Beverly Hills Lxr Hotels Resorts LXR Hotels & Resorts Los Angeles, California US\", \"Cameo Beverly Hills Lxr Hotels Resorts Hilton Hotel\", \"Cameo Beverly Hills Lxr Hotels Resorts Hilton Resort\", \"Cameo Beverly Hills Lxr Hotels Resorts Hilton\", \"Cameo Beverly Hills Lxr Hotels Resorts Hilton Los Angeles, California US Hotel\", \"Cameo Beverly Hills Lxr Hotels Resorts Hilton Los Angeles, California US Resort\", \"Cameo Beverly Hills Lxr Hotels Resorts Hilton Los Angeles, California US\", \"Cameo Beverly Hills, LXR Hotels & Resorts Hotel\", \"Cameo Beverly Hills, LXR Hotels & Resorts Resort\", \"Cameo Beverly Hills, LXR Hotels & Resorts\", \"Cameo Beverly Hills, LXR Hotels & Resorts Los Angeles, California US Hotel\", \"Cameo Beverly Hills, LXR Hotels & Resorts Los Angeles, California US Resort\", \"Cameo Beverly Hills, LXR Hotels & Resorts Los Angeles, California US\"], \"v\": 3}": {
+    "lat": 34.0553631,
+    "lon": -118.3984861,
+    "formatted_address": "1224 Beverwil Dr, Los Angeles, CA 90035, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJLb77C-S7woARBWmzEkH8FYc",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1224 Beverwil Dr, Los Angeles, CA 90035, USA",
+      "geometry": {
+        "location": {
+          "lat": 34.0553631,
+          "lng": -118.3984861
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 34.05676208029149,
+            "lng": -118.3971901197085
+          },
+          "southwest": {
+            "lat": 34.0540641197085,
+            "lng": -118.3998880802915
+          }
+        }
+      },
+      "name": "Cameo Beverly Hills, LXR Hotels & Resorts",
+      "place_id": "ChIJLb77C-S7woARBWmzEkH8FYc",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/laxmcol-cameo-beverly-hills/?SEO_id=GMB-AMER-OL-LAXMCOL&y_source=1_MTAwNzk4MTA4My03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    }
+  },
+  "{\"brand\": \"ME by Meli\\u00e1\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"ME Lisbon ME by Meli\\u00e1 Hotel\", \"ME Lisbon ME by Meli\\u00e1 Resort\", \"ME Lisbon ME by Meli\\u00e1\", \"ME Lisbon ME by Meli\\u00e1 Lisbon, Portugal Hotel\", \"ME Lisbon ME by Meli\\u00e1 Lisbon, Portugal Resort\", \"ME Lisbon ME by Meli\\u00e1 Lisbon, Portugal\", \"ME Lisbon Hilton Hotel\", \"ME Lisbon Hilton Resort\", \"ME Lisbon Hilton\", \"ME Lisbon Hilton Lisbon, Portugal Hotel\", \"ME Lisbon Hilton Lisbon, Portugal Resort\", \"ME Lisbon Hilton Lisbon, Portugal\", \"Me Lisbon ME by Meli\\u00e1 Hotel\", \"Me Lisbon ME by Meli\\u00e1 Resort\", \"Me Lisbon ME by Meli\\u00e1\", \"Me Lisbon ME by Meli\\u00e1 Lisbon, Portugal Hotel\", \"Me Lisbon ME by Meli\\u00e1 Lisbon, Portugal Resort\", \"Me Lisbon ME by Meli\\u00e1 Lisbon, Portugal\", \"Me Lisbon Hilton Hotel\", \"Me Lisbon Hilton Resort\", \"Me Lisbon Hilton\", \"Me Lisbon Hilton Lisbon, Portugal Hotel\", \"Me Lisbon Hilton Lisbon, Portugal Resort\", \"Me Lisbon Hilton Lisbon, Portugal\", \"ME Lisbon Hotel\", \"ME Lisbon Resort\", \"ME Lisbon\", \"ME Lisbon Lisbon, Portugal Hotel\", \"ME Lisbon Lisbon, Portugal Resort\", \"ME Lisbon Lisbon, Portugal\"], \"v\": 3}": {
+    "lat": 38.72826999999999,
+    "lon": -9.1484898,
+    "formatted_address": "Av. António Augusto de Aguiar 2, 1050-016 Lisboa, Portugal",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJkTGDrDQzGQ0R4WEhxvvH92o",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Av. António Augusto de Aguiar 2, 1050-016 Lisboa, Portugal",
+      "geometry": {
+        "location": {
+          "lat": 38.72826999999999,
+          "lng": -9.1484898
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.72957463029149,
+            "lng": -9.147146369708496
+          },
+          "southwest": {
+            "lat": 38.7268766697085,
+            "lng": -9.1498443302915
+          }
+        }
+      },
+      "name": "ME Lisbon",
+      "place_id": "ChIJkTGDrDQzGQ0R4WEhxvvH92o",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.melia.com/en/hotels/portugal/lisbon/me-lisbon?utm_campaign=google&utm_content=5692&utm_medium=organic&utm_source=directories"
+    }
+  },
+  "{\"brand\": \"Oetker Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Vineta Hotel, Oetker Hotels Oetker Hotels Hotel\", \"The Vineta Hotel, Oetker Hotels Oetker Hotels Resort\", \"The Vineta Hotel, Oetker Hotels Oetker Hotels\", \"The Vineta Hotel, Oetker Hotels Oetker Hotels Palm Beach, Florida US Hotel\", \"The Vineta Hotel, Oetker Hotels Oetker Hotels Palm Beach, Florida US Resort\", \"The Vineta Hotel, Oetker Hotels Oetker Hotels Palm Beach, Florida US\", \"The Vineta Hotel, Oetker Hotels Hilton Hotel\", \"The Vineta Hotel, Oetker Hotels Hilton Resort\", \"The Vineta Hotel, Oetker Hotels Hilton\", \"The Vineta Hotel, Oetker Hotels Hilton Palm Beach, Florida US Hotel\", \"The Vineta Hotel, Oetker Hotels Hilton Palm Beach, Florida US Resort\", \"The Vineta Hotel, Oetker Hotels Hilton Palm Beach, Florida US\", \"Vineta Hotel Oetker Hotels Oetker Hotels Hotel\", \"Vineta Hotel Oetker Hotels Oetker Hotels Resort\", \"Vineta Hotel Oetker Hotels Oetker Hotels\", \"Vineta Hotel Oetker Hotels Oetker Hotels Palm Beach, Florida US Hotel\", \"Vineta Hotel Oetker Hotels Oetker Hotels Palm Beach, Florida US Resort\", \"Vineta Hotel Oetker Hotels Oetker Hotels Palm Beach, Florida US\", \"Vineta Hotel Oetker Hotels Hilton Hotel\", \"Vineta Hotel Oetker Hotels Hilton Resort\", \"Vineta Hotel Oetker Hotels Hilton\", \"Vineta Hotel Oetker Hotels Hilton Palm Beach, Florida US Hotel\", \"Vineta Hotel Oetker Hotels Hilton Palm Beach, Florida US Resort\", \"Vineta Hotel Oetker Hotels Hilton Palm Beach, Florida US\", \"The Vineta Hotel, Oetker Hotels Hotel\", \"The Vineta Hotel, Oetker Hotels Resort\", \"The Vineta Hotel, Oetker Hotels\", \"The Vineta Hotel, Oetker Hotels Palm Beach, Florida US Hotel\", \"The Vineta Hotel, Oetker Hotels Palm Beach, Florida US Resort\", \"The Vineta Hotel, Oetker Hotels Palm Beach, Florida US\"], \"v\": 3}": {
+    "lat": 26.7031913,
+    "lon": -80.0408064,
+    "formatted_address": "363 Cocoanut Row, Palm Beach, FL 33480, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJbyIdP8bX2IgRdB44jHZiQ3Y",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "363 Cocoanut Row, Palm Beach, FL 33480, USA",
+      "geometry": {
+        "location": {
+          "lat": 26.7031913,
+          "lng": -80.0408064
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 26.7044814802915,
+            "lng": -80.0395891197085
+          },
+          "southwest": {
+            "lat": 26.7017835197085,
+            "lng": -80.0422870802915
+          }
+        }
+      },
+      "name": "The Vineta Hotel",
+      "place_id": "ChIJbyIdP8bX2IgRdB44jHZiQ3Y",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.oetkerhotels.com/hotels/the-vineta-hotel/?utm_source=google&utm_medium=organic&utm_campaign=google_local_vineta_hotel"
+    }
+  },
+  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Phoenix Atlanta Preferred Hotels & Resorts Hotel\", \"Hotel Phoenix Atlanta Preferred Hotels & Resorts Resort\", \"Hotel Phoenix Atlanta Preferred Hotels & Resorts\", \"Hotel Phoenix Atlanta Preferred Hotels & Resorts Atlanta, Georgia US Hotel\", \"Hotel Phoenix Atlanta Preferred Hotels & Resorts Atlanta, Georgia US Resort\", \"Hotel Phoenix Atlanta Preferred Hotels & Resorts Atlanta, Georgia US\", \"Hotel Phoenix Atlanta Hilton Hotel\", \"Hotel Phoenix Atlanta Hilton Resort\", \"Hotel Phoenix Atlanta Hilton\", \"Hotel Phoenix Atlanta Hilton Atlanta, Georgia US Hotel\", \"Hotel Phoenix Atlanta Hilton Atlanta, Georgia US Resort\", \"Hotel Phoenix Atlanta Hilton Atlanta, Georgia US\", \"Hotel Phoenix Atlanta Hotel\", \"Hotel Phoenix Atlanta Resort\", \"Hotel Phoenix Atlanta\", \"Hotel Phoenix Atlanta Atlanta, Georgia US Hotel\", \"Hotel Phoenix Atlanta Atlanta, Georgia US Resort\", \"Hotel Phoenix Atlanta Atlanta, Georgia US\"], \"v\": 3}": {
+    "lat": 33.7550142,
+    "lon": -84.3980788,
+    "formatted_address": "70 Centennial Olympic Park Dr NW, Atlanta, GA 30303, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJm3qzLoAD9YgRjgPloT5AE5I",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "70 Centennial Olympic Park Dr NW, Atlanta, GA 30303, USA",
+      "geometry": {
+        "location": {
+          "lat": 33.7550142,
+          "lng": -84.3980788
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.7564573802915,
+            "lng": -84.39683476970849
+          },
+          "southwest": {
+            "lat": 33.7537594197085,
+            "lng": -84.3995327302915
+          }
+        }
+      },
+      "name": "Hotel Phoenix Atlanta",
+      "place_id": "ChIJm3qzLoAD9YgRjgPloT5AE5I",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.hotelphoenix.com/?utm_source=google&utm_medium=organic&utm_campaign=business_listing"
+    }
+  },
+  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Velas Boutique Hotel Preferred Hotels & Resorts Hotel\", \"Grand Velas Boutique Hotel Preferred Hotels & Resorts Resort\", \"Grand Velas Boutique Hotel Preferred Hotels & Resorts\", \"Grand Velas Boutique Hotel Preferred Hotels & Resorts San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Grand Velas Boutique Hotel Preferred Hotels & Resorts San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Grand Velas Boutique Hotel Preferred Hotels & Resorts San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Grand Velas Boutique Hotel Hilton Hotel\", \"Grand Velas Boutique Hotel Hilton Resort\", \"Grand Velas Boutique Hotel Hilton\", \"Grand Velas Boutique Hotel Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Grand Velas Boutique Hotel Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Grand Velas Boutique Hotel Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Grand Velas Boutique Hotel Hotel\", \"Grand Velas Boutique Hotel Resort\", \"Grand Velas Boutique Hotel\", \"Grand Velas Boutique Hotel San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Grand Velas Boutique Hotel San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Grand Velas Boutique Hotel San Jos\\u00e9 del Cabo, Baja California Sur MX\"], \"v\": 3}": {
+    "lat": 20.665356,
+    "lon": -105.2596179,
+    "formatted_address": "Av Paseo de la Marina Nte 585, Marina Vallarta, 48335 Puerto Vallarta, Jal., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJy_Kr7LlFIYQRyMoE0jYnHfM",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Av Paseo de la Marina Nte 585, Marina Vallarta, 48335 Puerto Vallarta, Jal., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 20.665356,
+          "lng": -105.2596179
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 20.6667360802915,
+            "lng": -105.2581704197085
+          },
+          "southwest": {
+            "lat": 20.6640381197085,
+            "lng": -105.2608683802915
+          }
+        }
+      },
+      "name": "Velas Vallarta",
+      "place_id": "ChIJy_Kr7LlFIYQRyMoE0jYnHfM",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.velasvallarta.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing"
+    }
+  },
+  "{\"brand\": \"Six Senses\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Six Senses London Six Senses Hotel\", \"Six Senses London Six Senses Resort\", \"Six Senses London Six Senses\", \"Six Senses London Six Senses London, England Hotel\", \"Six Senses London Six Senses London, England Resort\", \"Six Senses London Six Senses London, England\", \"Six Senses London Hilton Hotel\", \"Six Senses London Hilton Resort\", \"Six Senses London Hilton\", \"Six Senses London Hilton London, England Hotel\", \"Six Senses London Hilton London, England Resort\", \"Six Senses London Hilton London, England\", \"Six Senses London Hotel\", \"Six Senses London Resort\", \"Six Senses London\", \"Six Senses London London, England Hotel\", \"Six Senses London London, England Resort\", \"Six Senses London London, England\"], \"v\": 3}": {
+    "lat": 51.5152794,
+    "lon": -0.1888818,
+    "formatted_address": "1 Redan Pl, London W2 4SA, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ1VihIQAPdkgR-rwdFW9PUec",
+    "types": [
+      "bar",
+      "cafe",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1 Redan Pl, London W2 4SA, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.5152794,
+          "lng": -0.1888818
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5166021302915,
+            "lng": -0.187411669708498
+          },
+          "southwest": {
+            "lat": 51.5139041697085,
+            "lng": -0.190109630291502
+          }
+        }
+      },
+      "name": "Six Senses London",
+      "place_id": "ChIJ1VihIQAPdkgR-rwdFW9PUec",
+      "types": [
+        "bar",
+        "cafe",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.sixsenses.com/en/hotels-resorts/europe/united-kingdom/london/"
+    }
+  },
+  "{\"brand\": \"St. Regis\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The St. Regis Budapest St. Regis Hotel\", \"The St. Regis Budapest St. Regis Resort\", \"The St. Regis Budapest St. Regis\", \"The St. Regis Budapest St. Regis Budapest, Hungary Hotel\", \"The St. Regis Budapest St. Regis Budapest, Hungary Resort\", \"The St. Regis Budapest St. Regis Budapest, Hungary\", \"The St. Regis Budapest Hilton Hotel\", \"The St. Regis Budapest Hilton Resort\", \"The St. Regis Budapest Hilton\", \"The St. Regis Budapest Hilton Budapest, Hungary Hotel\", \"The St. Regis Budapest Hilton Budapest, Hungary Resort\", \"The St. Regis Budapest Hilton Budapest, Hungary\", \"St Regis Budapest St. Regis Hotel\", \"St Regis Budapest St. Regis Resort\", \"St Regis Budapest St. Regis\", \"St Regis Budapest St. Regis Budapest, Hungary Hotel\", \"St Regis Budapest St. Regis Budapest, Hungary Resort\", \"St Regis Budapest St. Regis Budapest, Hungary\", \"St Regis Budapest Hilton Hotel\", \"St Regis Budapest Hilton Resort\", \"St Regis Budapest Hilton\", \"St Regis Budapest Hilton Budapest, Hungary Hotel\", \"St Regis Budapest Hilton Budapest, Hungary Resort\", \"St Regis Budapest Hilton Budapest, Hungary\", \"The St. Regis Budapest Hotel\", \"The St. Regis Budapest Resort\", \"The St. Regis Budapest\", \"The St. Regis Budapest Budapest, Hungary Hotel\", \"The St. Regis Budapest Budapest, Hungary Resort\", \"The St. Regis Budapest Budapest, Hungary\"], \"v\": 3}": {
+    "lat": 47.4927283,
+    "lon": 19.0537537,
+    "formatted_address": "Budapest, Váci u 34, 1052 Hungary",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJHyHFcbndQUcRD2uEebrhqdQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Budapest, Váci u 34, 1052 Hungary",
+      "geometry": {
+        "location": {
+          "lat": 47.4927283,
+          "lng": 19.0537537
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.49401853029151,
+            "lng": 19.0551490302915
+          },
+          "southwest": {
+            "lat": 47.49132056970851,
+            "lng": 19.0524510697085
+          }
+        }
+      },
+      "name": "The St. Regis Budapest",
+      "place_id": "ChIJHyHFcbndQUcRD2uEebrhqdQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/budxr-the-st-regis-budapest/overview/"
+    }
+  },
+  "{\"brand\": \"The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Palace Elisabeth, Hvar Hotel The Leading Hotels of the World Hotel\", \"Palace Elisabeth, Hvar Hotel The Leading Hotels of the World Resort\", \"Palace Elisabeth, Hvar Hotel The Leading Hotels of the World\", \"Palace Elisabeth, Hvar Hotel The Leading Hotels of the World Hvar, Croatia Hotel\", \"Palace Elisabeth, Hvar Hotel The Leading Hotels of the World Hvar, Croatia Resort\", \"Palace Elisabeth, Hvar Hotel The Leading Hotels of the World Hvar, Croatia\", \"Palace Elisabeth, Hvar Hotel Hilton Hotel\", \"Palace Elisabeth, Hvar Hotel Hilton Resort\", \"Palace Elisabeth, Hvar Hotel Hilton\", \"Palace Elisabeth, Hvar Hotel Hilton Hvar, Croatia Hotel\", \"Palace Elisabeth, Hvar Hotel Hilton Hvar, Croatia Resort\", \"Palace Elisabeth, Hvar Hotel Hilton Hvar, Croatia\", \"Palace Elisabeth Hvar Hotel The Leading Hotels of the World Hotel\", \"Palace Elisabeth Hvar Hotel The Leading Hotels of the World Resort\", \"Palace Elisabeth Hvar Hotel The Leading Hotels of the World\", \"Palace Elisabeth Hvar Hotel The Leading Hotels of the World Hvar, Croatia Hotel\", \"Palace Elisabeth Hvar Hotel The Leading Hotels of the World Hvar, Croatia Resort\", \"Palace Elisabeth Hvar Hotel The Leading Hotels of the World Hvar, Croatia\", \"Palace Elisabeth Hvar Hotel Hilton Hotel\", \"Palace Elisabeth Hvar Hotel Hilton Resort\", \"Palace Elisabeth Hvar Hotel Hilton\", \"Palace Elisabeth Hvar Hotel Hilton Hvar, Croatia Hotel\", \"Palace Elisabeth Hvar Hotel Hilton Hvar, Croatia Resort\", \"Palace Elisabeth Hvar Hotel Hilton Hvar, Croatia\", \"Palace Elisabeth, Hvar Hotel Hotel\", \"Palace Elisabeth, Hvar Hotel Resort\", \"Palace Elisabeth, Hvar Hotel\", \"Palace Elisabeth, Hvar Hotel Hvar, Croatia Hotel\", \"Palace Elisabeth, Hvar Hotel Hvar, Croatia Resort\", \"Palace Elisabeth, Hvar Hotel Hvar, Croatia\"], \"v\": 3}": {
+    "lat": 43.1728101,
+    "lon": 16.4413182,
+    "formatted_address": "Trg Sv. Stjepana 5, 21450, Hvar, Croatia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJv8PtYQOBNRMR9UNwvllPoss",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Trg Sv. Stjepana 5, 21450, Hvar, Croatia",
+      "geometry": {
+        "location": {
+          "lat": 43.1728101,
+          "lng": 16.4413182
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.1742831802915,
+            "lng": 16.4427739302915
+          },
+          "southwest": {
+            "lat": 43.1715852197085,
+            "lng": 16.4400759697085
+          }
+        }
+      },
+      "name": "Palace Elisabeth (Hvar Heritage Hotel)",
+      "place_id": "ChIJv8PtYQOBNRMR9UNwvllPoss",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.suncanihvar.com/palace-elisabeth-hvar-heritage-hotel.html"
+    }
+  },
+  "{\"brand\": \"The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Gabrielli Venezia - Starhotels Collezione The Leading Hotels of the World Hotel\", \"Hotel Gabrielli Venezia - Starhotels Collezione The Leading Hotels of the World Resort\", \"Hotel Gabrielli Venezia - Starhotels Collezione The Leading Hotels of the World\", \"Hotel Gabrielli Venezia - Starhotels Collezione The Leading Hotels of the World Venice, Italy Hotel\", \"Hotel Gabrielli Venezia - Starhotels Collezione The Leading Hotels of the World Venice, Italy Resort\", \"Hotel Gabrielli Venezia - Starhotels Collezione The Leading Hotels of the World Venice, Italy\", \"Hotel Gabrielli Venezia - Starhotels Collezione Hilton Hotel\", \"Hotel Gabrielli Venezia - Starhotels Collezione Hilton Resort\", \"Hotel Gabrielli Venezia - Starhotels Collezione Hilton\", \"Hotel Gabrielli Venezia - Starhotels Collezione Hilton Venice, Italy Hotel\", \"Hotel Gabrielli Venezia - Starhotels Collezione Hilton Venice, Italy Resort\", \"Hotel Gabrielli Venezia - Starhotels Collezione Hilton Venice, Italy\", \"Hotel Gabrielli Venezia Starhotels Collezione The Leading Hotels of the World Hotel\", \"Hotel Gabrielli Venezia Starhotels Collezione The Leading Hotels of the World Resort\", \"Hotel Gabrielli Venezia Starhotels Collezione The Leading Hotels of the World\", \"Hotel Gabrielli Venezia Starhotels Collezione The Leading Hotels of the World Venice, Italy Hotel\", \"Hotel Gabrielli Venezia Starhotels Collezione The Leading Hotels of the World Venice, Italy Resort\", \"Hotel Gabrielli Venezia Starhotels Collezione The Leading Hotels of the World Venice, Italy\", \"Hotel Gabrielli Venezia Starhotels Collezione Hilton Hotel\", \"Hotel Gabrielli Venezia Starhotels Collezione Hilton Resort\", \"Hotel Gabrielli Venezia Starhotels Collezione Hilton\", \"Hotel Gabrielli Venezia Starhotels Collezione Hilton Venice, Italy Hotel\", \"Hotel Gabrielli Venezia Starhotels Collezione Hilton Venice, Italy Resort\", \"Hotel Gabrielli Venezia Starhotels Collezione Hilton Venice, Italy\", \"Hotel Gabrielli Venezia - Starhotels Collezione Hotel\", \"Hotel Gabrielli Venezia - Starhotels Collezione Resort\", \"Hotel Gabrielli Venezia - Starhotels Collezione\", \"Hotel Gabrielli Venezia - Starhotels Collezione Venice, Italy Hotel\", \"Hotel Gabrielli Venezia - Starhotels Collezione Venice, Italy Resort\", \"Hotel Gabrielli Venezia - Starhotels Collezione Venice, Italy\"], \"v\": 3}": {
+    "lat": 45.4338178,
+    "lon": 12.3477394,
+    "formatted_address": "Riva degli Schiavoni, 4110, 30122 Venezia VE, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJia3_qCiufkcRcVhANVcqdJw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Riva degli Schiavoni, 4110, 30122 Venezia VE, Italy",
+      "geometry": {
+        "location": {
+          "lat": 45.4338178,
+          "lng": 12.3477394
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.43527238029149,
+            "lng": 12.3477394
+          },
+          "southwest": {
+            "lat": 45.43257441970849,
+            "lng": 12.3416152
+          }
+        }
+      },
+      "name": "Hotel Gabrielli",
+      "place_id": "ChIJia3_qCiufkcRcVhANVcqdJw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://collezione.starhotels.com/it/i-nostri-hotel/hotel-gabrielli-venezia/"
+    }
+  },
+  "{\"brand\": \"W Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W Residences Algarve W Hotels Hotel\", \"W Residences Algarve W Hotels Resort\", \"W Residences Algarve W Hotels\", \"W Residences Algarve W Hotels Albufeira, Portugal Hotel\", \"W Residences Algarve W Hotels Albufeira, Portugal Resort\", \"W Residences Algarve W Hotels Albufeira, Portugal\", \"W Residences Algarve Hilton Hotel\", \"W Residences Algarve Hilton Resort\", \"W Residences Algarve Hilton\", \"W Residences Algarve Hilton Albufeira, Portugal Hotel\", \"W Residences Algarve Hilton Albufeira, Portugal Resort\", \"W Residences Algarve Hilton Albufeira, Portugal\", \"W Residences Algarve Hotel\", \"W Residences Algarve Resort\", \"W Residences Algarve\", \"W Residences Algarve Albufeira, Portugal Hotel\", \"W Residences Algarve Albufeira, Portugal Resort\", \"W Residences Algarve Albufeira, Portugal\"], \"v\": 3}": {
+    "lat": 37.0799759,
+    "lon": -8.301997000000002,
+    "formatted_address": "Estrada da Galé, Sesmarias, 8200-285 Albufeira, Portugal",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ6xDJ4jXNGg0Re9xMqUXrzVQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Estrada da Galé, Sesmarias, 8200-285 Albufeira, Portugal",
+      "geometry": {
+        "location": {
+          "lat": 37.0799759,
+          "lng": -8.301997000000002
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.08129453029149,
+            "lng": -8.300658119708498
+          },
+          "southwest": {
+            "lat": 37.07859656970849,
+            "lng": -8.303356080291502
+          }
+        }
+      },
+      "name": "W Residences Algarve",
+      "place_id": "ChIJ6xDJ4jXNGg0Re9xMqUXrzVQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/faowr-w-residences-algarve/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"W Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W New York - Union Square W Hotels Hotel\", \"W New York - Union Square W Hotels Resort\", \"W New York - Union Square W Hotels\", \"W New York - Union Square W Hotels New York, New York US Hotel\", \"W New York - Union Square W Hotels New York, New York US Resort\", \"W New York - Union Square W Hotels New York, New York US\", \"W New York - Union Square Hilton Hotel\", \"W New York - Union Square Hilton Resort\", \"W New York - Union Square Hilton\", \"W New York - Union Square Hilton New York, New York US Hotel\", \"W New York - Union Square Hilton New York, New York US Resort\", \"W New York - Union Square Hilton New York, New York US\", \"W New York Union Square W Hotels Hotel\", \"W New York Union Square W Hotels Resort\", \"W New York Union Square W Hotels\", \"W New York Union Square W Hotels New York, New York US Hotel\", \"W New York Union Square W Hotels New York, New York US Resort\", \"W New York Union Square W Hotels New York, New York US\", \"W New York Union Square Hilton Hotel\", \"W New York Union Square Hilton Resort\", \"W New York Union Square Hilton\", \"W New York Union Square Hilton New York, New York US Hotel\", \"W New York Union Square Hilton New York, New York US Resort\", \"W New York Union Square Hilton New York, New York US\", \"W New York - Union Square Hotel\", \"W New York - Union Square Resort\", \"W New York - Union Square\", \"W New York - Union Square New York, New York US Hotel\", \"W New York - Union Square New York, New York US Resort\", \"W New York - Union Square New York, New York US\"], \"v\": 3}": {
+    "lat": 40.7366961,
+    "lon": -73.9887329,
+    "formatted_address": "201 Park Ave S, New York, NY 10003, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJpX1_-aFZwokRnSNMK95ppp4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "201 Park Ave S, New York, NY 10003, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.7366961,
+          "lng": -73.9887329
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.73807353029149,
+            "lng": -73.98742766970851
+          },
+          "southwest": {
+            "lat": 40.73537556970849,
+            "lng": -73.99012563029152
+          }
+        }
+      },
+      "name": "W New York – Union Square",
+      "place_id": "ChIJpX1_-aFZwokRnSNMK95ppp4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/nycnu-w-new-york-union-square/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Waldorf Astoria Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Waldorf Astoria Shanghai Qiantan Waldorf Astoria Hotels & Resorts Hotel\", \"Waldorf Astoria Shanghai Qiantan Waldorf Astoria Hotels & Resorts Resort\", \"Waldorf Astoria Shanghai Qiantan Waldorf Astoria Hotels & Resorts\", \"Waldorf Astoria Shanghai Qiantan Waldorf Astoria Hotels & Resorts Shanghai, China Hotel\", \"Waldorf Astoria Shanghai Qiantan Waldorf Astoria Hotels & Resorts Shanghai, China Resort\", \"Waldorf Astoria Shanghai Qiantan Waldorf Astoria Hotels & Resorts Shanghai, China\", \"Waldorf Astoria Shanghai Qiantan Hilton Hotel\", \"Waldorf Astoria Shanghai Qiantan Hilton Resort\", \"Waldorf Astoria Shanghai Qiantan Hilton\", \"Waldorf Astoria Shanghai Qiantan Hilton Shanghai, China Hotel\", \"Waldorf Astoria Shanghai Qiantan Hilton Shanghai, China Resort\", \"Waldorf Astoria Shanghai Qiantan Hilton Shanghai, China\", \"Waldorf Astoria Shanghai Qiantan Hotel\", \"Waldorf Astoria Shanghai Qiantan Resort\", \"Waldorf Astoria Shanghai Qiantan\", \"Waldorf Astoria Shanghai Qiantan Shanghai, China Hotel\", \"Waldorf Astoria Shanghai Qiantan Shanghai, China Resort\", \"Waldorf Astoria Shanghai Qiantan Shanghai, China\"], \"v\": 3}": {
+    "lat": 31.15901,
+    "lon": 121.473651,
+    "formatted_address": "18 Lin Yao Lu, Pu Dong Xin Qu, Shang Hai Shi, China, 200126",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJv7MCSRd7sjURwinw15I3BYg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "18 Lin Yao Lu, Pu Dong Xin Qu, Shang Hai Shi, China, 200126",
+      "geometry": {
+        "location": {
+          "lat": 31.15901,
+          "lng": 121.473651
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 31.16035898029151,
+            "lng": 121.4749999802915
+          },
+          "southwest": {
+            "lat": 31.15766101970851,
+            "lng": 121.4723020197085
+          }
+        }
+      },
+      "name": "Waldorf Astoria Shanghai Qiantan",
+      "place_id": "ChIJv7MCSRd7sjURwinw15I3BYg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/shaqtwa-waldorf-astoria-shanghai-qiantan/"
+    }
   }
 }

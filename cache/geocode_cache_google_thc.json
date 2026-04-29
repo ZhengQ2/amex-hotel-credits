@@ -208878,5 +208878,403 @@
       ],
       "website": "https://www.hyatt.com/hyatt-regency/en-US/vieaz-hyatt-regency-vienna?src=corp_lclb_google_seo_vieaz&utm_source=google&utm_medium=organic&utm_campaign=lmr"
     }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Belden House & Mews Hotel\", \"Belden House & Mews Resort\", \"Belden House & Mews\", \"Belden House & Mews Litchfield, Connecticut US Hotel\", \"Belden House & Mews Litchfield, Connecticut US Resort\", \"Belden House & Mews Litchfield, Connecticut US\", \"Belden House Mews Hotel\", \"Belden House Mews Resort\", \"Belden House Mews\", \"Belden House Mews Litchfield, Connecticut US Hotel\", \"Belden House Mews Litchfield, Connecticut US Resort\", \"Belden House Mews Litchfield, Connecticut US\"], \"v\": 3}": {
+    "lat": 41.748287,
+    "lon": -73.190816,
+    "formatted_address": "31 North St, Litchfield, CT 06759, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJb3PO19mR54kRiKcVFDggiP4",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "31 North St, Litchfield, CT 06759, USA",
+      "geometry": {
+        "location": {
+          "lat": 41.748287,
+          "lng": -73.190816
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.7497674302915,
+            "lng": -73.1893390197085
+          },
+          "southwest": {
+            "lat": 41.7470694697085,
+            "lng": -73.1920369802915
+          }
+        }
+      },
+      "name": "Belden House & Mews",
+      "place_id": "ChIJb3PO19mR54kRiKcVFDggiP4",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "http://www.beldenhouse.com/"
+    }
+  },
+  "{\"brand\": \"Autograph Collection Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Hotel Centenari, Valencia, Autograph Collection Autograph Collection Hotels Hotel\", \"Grand Hotel Centenari, Valencia, Autograph Collection Autograph Collection Hotels Resort\", \"Grand Hotel Centenari, Valencia, Autograph Collection Autograph Collection Hotels\", \"Grand Hotel Centenari, Valencia, Autograph Collection Autograph Collection Hotels Valencia, Spain Hotel\", \"Grand Hotel Centenari, Valencia, Autograph Collection Autograph Collection Hotels Valencia, Spain Resort\", \"Grand Hotel Centenari, Valencia, Autograph Collection Autograph Collection Hotels Valencia, Spain\", \"Grand Hotel Centenari, Valencia, Autograph Collection Hilton Hotel\", \"Grand Hotel Centenari, Valencia, Autograph Collection Hilton Resort\", \"Grand Hotel Centenari, Valencia, Autograph Collection Hilton\", \"Grand Hotel Centenari, Valencia, Autograph Collection Hilton Valencia, Spain Hotel\", \"Grand Hotel Centenari, Valencia, Autograph Collection Hilton Valencia, Spain Resort\", \"Grand Hotel Centenari, Valencia, Autograph Collection Hilton Valencia, Spain\", \"Grand Hotel Centenari Valencia Autograph Collection Autograph Collection Hotels Hotel\", \"Grand Hotel Centenari Valencia Autograph Collection Autograph Collection Hotels Resort\", \"Grand Hotel Centenari Valencia Autograph Collection Autograph Collection Hotels\", \"Grand Hotel Centenari Valencia Autograph Collection Autograph Collection Hotels Valencia, Spain Hotel\", \"Grand Hotel Centenari Valencia Autograph Collection Autograph Collection Hotels Valencia, Spain Resort\", \"Grand Hotel Centenari Valencia Autograph Collection Autograph Collection Hotels Valencia, Spain\", \"Grand Hotel Centenari Valencia Autograph Collection Hilton Hotel\", \"Grand Hotel Centenari Valencia Autograph Collection Hilton Resort\", \"Grand Hotel Centenari Valencia Autograph Collection Hilton\", \"Grand Hotel Centenari Valencia Autograph Collection Hilton Valencia, Spain Hotel\", \"Grand Hotel Centenari Valencia Autograph Collection Hilton Valencia, Spain Resort\", \"Grand Hotel Centenari Valencia Autograph Collection Hilton Valencia, Spain\", \"Grand Hotel Centenari, Valencia, Autograph Collection Hotel\", \"Grand Hotel Centenari, Valencia, Autograph Collection Resort\", \"Grand Hotel Centenari, Valencia, Autograph Collection\", \"Grand Hotel Centenari, Valencia, Autograph Collection Valencia, Spain Hotel\", \"Grand Hotel Centenari, Valencia, Autograph Collection Valencia, Spain Resort\", \"Grand Hotel Centenari, Valencia, Autograph Collection Valencia, Spain\"], \"v\": 3}": {
+    "lat": 39.4690555,
+    "lon": -0.3759757,
+    "formatted_address": "Pl. de l'Ajuntament, 25, 2, Ciutat Vella, 46002 València, Valencia, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJrd0mSPZPYA0Rme_BLTjcsrE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Pl. de l'Ajuntament, 25, 2, Ciutat Vella, 46002 València, Valencia, Spain",
+      "geometry": {
+        "location": {
+          "lat": 39.4690555,
+          "lng": -0.3759757
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.4704897302915,
+            "lng": -0.3746841197084979
+          },
+          "southwest": {
+            "lat": 39.46779176970851,
+            "lng": -0.377382080291502
+          }
+        }
+      },
+      "name": "Grand Hotel Centenari, Valencia, Autograph Collection",
+      "place_id": "ChIJrd0mSPZPYA0Rme_BLTjcsrE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/vlcay-grand-hotel-centenari-valencia-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Corinthia Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Corinthia Palace Malta Corinthia Hotels Hotel\", \"Corinthia Palace Malta Corinthia Hotels Resort\", \"Corinthia Palace Malta Corinthia Hotels\", \"Corinthia Palace Malta Corinthia Hotels San Anton, Malta Hotel\", \"Corinthia Palace Malta Corinthia Hotels San Anton, Malta Resort\", \"Corinthia Palace Malta Corinthia Hotels San Anton, Malta\", \"Corinthia Palace Malta Hilton Hotel\", \"Corinthia Palace Malta Hilton Resort\", \"Corinthia Palace Malta Hilton\", \"Corinthia Palace Malta Hilton San Anton, Malta Hotel\", \"Corinthia Palace Malta Hilton San Anton, Malta Resort\", \"Corinthia Palace Malta Hilton San Anton, Malta\", \"Corinthia Palace Malta Hotel\", \"Corinthia Palace Malta Resort\", \"Corinthia Palace Malta\", \"Corinthia Palace Malta San Anton, Malta Hotel\", \"Corinthia Palace Malta San Anton, Malta Resort\", \"Corinthia Palace Malta San Anton, Malta\"], \"v\": 3}": {
+    "lat": 35.89420399999999,
+    "lon": 14.449199,
+    "formatted_address": "De Paule Avenue, San Anton BZN 9023, Malta",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ2X-bdxhQDhMRiHots8UQGcI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "De Paule Avenue, San Anton BZN 9023, Malta",
+      "geometry": {
+        "location": {
+          "lat": 35.89420399999999,
+          "lng": 14.449199
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.8955897802915,
+            "lng": 14.45050193029151
+          },
+          "southwest": {
+            "lat": 35.8928918197085,
+            "lng": 14.4478039697085
+          }
+        }
+      },
+      "name": "Corinthia Palace Malta",
+      "place_id": "ChIJ2X-bdxhQDhMRiHots8UQGcI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.corinthia.com/en-gb/palace/"
+    }
+  },
+  "{\"brand\": \"Design Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Concepcio by Nobis Design Hotels Hotel\", \"Concepcio by Nobis Design Hotels Resort\", \"Concepcio by Nobis Design Hotels\", \"Concepcio by Nobis Design Hotels Palma, Spain Hotel\", \"Concepcio by Nobis Design Hotels Palma, Spain Resort\", \"Concepcio by Nobis Design Hotels Palma, Spain\", \"Concepcio by Nobis Hilton Hotel\", \"Concepcio by Nobis Hilton Resort\", \"Concepcio by Nobis Hilton\", \"Concepcio by Nobis Hilton Palma, Spain Hotel\", \"Concepcio by Nobis Hilton Palma, Spain Resort\", \"Concepcio by Nobis Hilton Palma, Spain\", \"Concepcio By Nobis Design Hotels Hotel\", \"Concepcio By Nobis Design Hotels Resort\", \"Concepcio By Nobis Design Hotels\", \"Concepcio By Nobis Design Hotels Palma, Spain Hotel\", \"Concepcio By Nobis Design Hotels Palma, Spain Resort\", \"Concepcio By Nobis Design Hotels Palma, Spain\", \"Concepcio By Nobis Hilton Hotel\", \"Concepcio By Nobis Hilton Resort\", \"Concepcio By Nobis Hilton\", \"Concepcio By Nobis Hilton Palma, Spain Hotel\", \"Concepcio By Nobis Hilton Palma, Spain Resort\", \"Concepcio By Nobis Hilton Palma, Spain\", \"Concepcio by Nobis Hotel\", \"Concepcio by Nobis Resort\", \"Concepcio by Nobis\", \"Concepcio by Nobis Palma, Spain Hotel\", \"Concepcio by Nobis Palma, Spain Resort\", \"Concepcio by Nobis Palma, Spain\"], \"v\": 3}": {
+    "lat": 39.574501,
+    "lon": 2.6456798,
+    "formatted_address": "C/ de la Concepció, 34, Centre, 07012 Palma, Illes Balears, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ1fTcYyqTlxIRa4SNeVWTLuI",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "night_club",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "C/ de la Concepció, 34, Centre, 07012 Palma, Illes Balears, Spain",
+      "geometry": {
+        "location": {
+          "lat": 39.574501,
+          "lng": 2.6456798
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.57582503029149,
+            "lng": 2.646994630291502
+          },
+          "southwest": {
+            "lat": 39.5731270697085,
+            "lng": 2.644296669708498
+          }
+        }
+      },
+      "name": "Concepció by Nobis",
+      "place_id": "ChIJ1fTcYyqTlxIRa4SNeVWTLuI",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "night_club",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.concepciobynobis.com/"
+    }
+  },
+  "{\"brand\": \"Ennismore\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"25hours Hotel Sydney The Olympia Ennismore Hotel\", \"25hours Hotel Sydney The Olympia Ennismore Resort\", \"25hours Hotel Sydney The Olympia Ennismore\", \"25hours Hotel Sydney The Olympia Ennismore Paddington, Australia Hotel\", \"25hours Hotel Sydney The Olympia Ennismore Paddington, Australia Resort\", \"25hours Hotel Sydney The Olympia Ennismore Paddington, Australia\", \"25hours Hotel Sydney The Olympia Hilton Hotel\", \"25hours Hotel Sydney The Olympia Hilton Resort\", \"25hours Hotel Sydney The Olympia Hilton\", \"25hours Hotel Sydney The Olympia Hilton Paddington, Australia Hotel\", \"25hours Hotel Sydney The Olympia Hilton Paddington, Australia Resort\", \"25hours Hotel Sydney The Olympia Hilton Paddington, Australia\", \"25hours Hotel Sydney Olympia Ennismore Hotel\", \"25hours Hotel Sydney Olympia Ennismore Resort\", \"25hours Hotel Sydney Olympia Ennismore\", \"25hours Hotel Sydney Olympia Ennismore Paddington, Australia Hotel\", \"25hours Hotel Sydney Olympia Ennismore Paddington, Australia Resort\", \"25hours Hotel Sydney Olympia Ennismore Paddington, Australia\", \"25hours Hotel Sydney Olympia Hilton Hotel\", \"25hours Hotel Sydney Olympia Hilton Resort\", \"25hours Hotel Sydney Olympia Hilton\", \"25hours Hotel Sydney Olympia Hilton Paddington, Australia Hotel\", \"25hours Hotel Sydney Olympia Hilton Paddington, Australia Resort\", \"25hours Hotel Sydney Olympia Hilton Paddington, Australia\", \"25hours Hotel Sydney The Olympia Hotel\", \"25hours Hotel Sydney The Olympia Resort\", \"25hours Hotel Sydney The Olympia\", \"25hours Hotel Sydney The Olympia Paddington, Australia Hotel\", \"25hours Hotel Sydney The Olympia Paddington, Australia Resort\", \"25hours Hotel Sydney The Olympia Paddington, Australia\"], \"v\": 3}": {
+    "lat": -33.8818077,
+    "lon": 151.2192239,
+    "formatted_address": "1 Oxford St, Paddington NSW 2021, Australia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ08YHJxqtEmsRPGRLOWAOU48",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1 Oxford St, Paddington NSW 2021, Australia",
+      "geometry": {
+        "location": {
+          "lat": -33.8818077,
+          "lng": 151.2192239
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -33.8804278697085,
+            "lng": 151.2206008302915
+          },
+          "southwest": {
+            "lat": -33.8831258302915,
+            "lng": 151.2179028697085
+          }
+        }
+      },
+      "name": "25hours Hotel Sydney The Olympia",
+      "place_id": "ChIJ08YHJxqtEmsRPGRLOWAOU48",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://25hours-hotels.com/sydney/the-olympia/"
+    }
+  },
+  "{\"brand\": \"Hilton Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Istanbul Bosphorus Hilton Hotels & Resorts Hotel\", \"Hilton Istanbul Bosphorus Hilton Hotels & Resorts Resort\", \"Hilton Istanbul Bosphorus Hilton Hotels & Resorts\", \"Hilton Istanbul Bosphorus Hilton Hotels & Resorts Istanbul, Turkey Hotel\", \"Hilton Istanbul Bosphorus Hilton Hotels & Resorts Istanbul, Turkey Resort\", \"Hilton Istanbul Bosphorus Hilton Hotels & Resorts Istanbul, Turkey\", \"Hilton Istanbul Bosphorus Hilton Hotel\", \"Hilton Istanbul Bosphorus Hilton Resort\", \"Hilton Istanbul Bosphorus Hilton\", \"Hilton Istanbul Bosphorus Hilton Istanbul, Turkey Hotel\", \"Hilton Istanbul Bosphorus Hilton Istanbul, Turkey Resort\", \"Hilton Istanbul Bosphorus Hilton Istanbul, Turkey\", \"Hilton Istanbul Bosphorus Hotel\", \"Hilton Istanbul Bosphorus Resort\", \"Hilton Istanbul Bosphorus\", \"Hilton Istanbul Bosphorus Istanbul, Turkey Hotel\", \"Hilton Istanbul Bosphorus Istanbul, Turkey Resort\", \"Hilton Istanbul Bosphorus Istanbul, Turkey\"], \"v\": 3}": {
+    "lat": 41.0444321,
+    "lon": 28.9891713,
+    "formatted_address": "Harbiye, Cumhuriyet Cd. No:50, 34367 Şişli/İstanbul, Türkiye",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJTQwLWjuwyhQR6oeOewsgZOk",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Harbiye, Cumhuriyet Cd. No:50, 34367 Şişli/İstanbul, Türkiye",
+      "geometry": {
+        "location": {
+          "lat": 41.0444321,
+          "lng": 28.9891713
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.0458108302915,
+            "lng": 28.9904231802915
+          },
+          "southwest": {
+            "lat": 41.0431128697085,
+            "lng": 28.9877252197085
+          }
+        }
+      },
+      "name": "Hilton Istanbul Bosphorus",
+      "place_id": "ChIJTQwLWjuwyhQR6oeOewsgZOk",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/isthitw-hilton-istanbul-bosphorus/?SEO_id=GMB-EMEA-TW-ISTHITW"
+    }
+  },
+  "{\"brand\": \"Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aruba Marriott Resort & Stellaris Casino Marriott Hotel\", \"Aruba Marriott Resort & Stellaris Casino Marriott Resort\", \"Aruba Marriott Resort & Stellaris Casino Marriott\", \"Aruba Marriott Resort & Stellaris Casino Marriott Palm Beach, Aruba Hotel\", \"Aruba Marriott Resort & Stellaris Casino Marriott Palm Beach, Aruba Resort\", \"Aruba Marriott Resort & Stellaris Casino Marriott Palm Beach, Aruba\", \"Aruba Marriott Resort & Stellaris Casino Hilton Hotel\", \"Aruba Marriott Resort & Stellaris Casino Hilton Resort\", \"Aruba Marriott Resort & Stellaris Casino Hilton\", \"Aruba Marriott Resort & Stellaris Casino Hilton Palm Beach, Aruba Hotel\", \"Aruba Marriott Resort & Stellaris Casino Hilton Palm Beach, Aruba Resort\", \"Aruba Marriott Resort & Stellaris Casino Hilton Palm Beach, Aruba\", \"Aruba Marriott Resort Stellaris Casino Marriott Hotel\", \"Aruba Marriott Resort Stellaris Casino Marriott Resort\", \"Aruba Marriott Resort Stellaris Casino Marriott\", \"Aruba Marriott Resort Stellaris Casino Marriott Palm Beach, Aruba Hotel\", \"Aruba Marriott Resort Stellaris Casino Marriott Palm Beach, Aruba Resort\", \"Aruba Marriott Resort Stellaris Casino Marriott Palm Beach, Aruba\", \"Aruba Marriott Resort Stellaris Casino Hilton Hotel\", \"Aruba Marriott Resort Stellaris Casino Hilton Resort\", \"Aruba Marriott Resort Stellaris Casino Hilton\", \"Aruba Marriott Resort Stellaris Casino Hilton Palm Beach, Aruba Hotel\", \"Aruba Marriott Resort Stellaris Casino Hilton Palm Beach, Aruba Resort\", \"Aruba Marriott Resort Stellaris Casino Hilton Palm Beach, Aruba\", \"Aruba Marriott Resort & Stellaris Casino Hotel\", \"Aruba Marriott Resort & Stellaris Casino Resort\", \"Aruba Marriott Resort & Stellaris Casino\", \"Aruba Marriott Resort & Stellaris Casino Palm Beach, Aruba Hotel\", \"Aruba Marriott Resort & Stellaris Casino Palm Beach, Aruba Resort\", \"Aruba Marriott Resort & Stellaris Casino Palm Beach, Aruba\"], \"v\": 3}": {
+    "lat": 12.5808123,
+    "lon": -70.0430763,
+    "formatted_address": "L.G. Smith Blvd 101, Noord, Aruba",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJIzMtOgI4hY4RsrYLreXzQbg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "L.G. Smith Blvd 101, Noord, Aruba",
+      "geometry": {
+        "location": {
+          "lat": 12.5808123,
+          "lng": -70.0430763
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 12.5821983302915,
+            "lng": -70.0416570197085
+          },
+          "southwest": {
+            "lat": 12.5795003697085,
+            "lng": -70.0443549802915
+          }
+        }
+      },
+      "name": "Aruba Marriott Resort & Stellaris Casino",
+      "place_id": "ChIJIzMtOgI4hY4RsrYLreXzQbg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/auaar-aruba-marriott-resort-and-stellaris-casino/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"MGallery Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Athens Capital Suites - MGallery Collection MGallery Collection Hotel\", \"Athens Capital Suites - MGallery Collection MGallery Collection Resort\", \"Athens Capital Suites - MGallery Collection MGallery Collection\", \"Athens Capital Suites - MGallery Collection MGallery Collection Athens, Greece Hotel\", \"Athens Capital Suites - MGallery Collection MGallery Collection Athens, Greece Resort\", \"Athens Capital Suites - MGallery Collection MGallery Collection Athens, Greece\", \"Athens Capital Suites - MGallery Collection Hilton Hotel\", \"Athens Capital Suites - MGallery Collection Hilton Resort\", \"Athens Capital Suites - MGallery Collection Hilton\", \"Athens Capital Suites - MGallery Collection Hilton Athens, Greece Hotel\", \"Athens Capital Suites - MGallery Collection Hilton Athens, Greece Resort\", \"Athens Capital Suites - MGallery Collection Hilton Athens, Greece\", \"Athens Capital Suites Mgallery Collection MGallery Collection Hotel\", \"Athens Capital Suites Mgallery Collection MGallery Collection Resort\", \"Athens Capital Suites Mgallery Collection MGallery Collection\", \"Athens Capital Suites Mgallery Collection MGallery Collection Athens, Greece Hotel\", \"Athens Capital Suites Mgallery Collection MGallery Collection Athens, Greece Resort\", \"Athens Capital Suites Mgallery Collection MGallery Collection Athens, Greece\", \"Athens Capital Suites Mgallery Collection Hilton Hotel\", \"Athens Capital Suites Mgallery Collection Hilton Resort\", \"Athens Capital Suites Mgallery Collection Hilton\", \"Athens Capital Suites Mgallery Collection Hilton Athens, Greece Hotel\", \"Athens Capital Suites Mgallery Collection Hilton Athens, Greece Resort\", \"Athens Capital Suites Mgallery Collection Hilton Athens, Greece\", \"Athens Capital Suites - MGallery Collection Hotel\", \"Athens Capital Suites - MGallery Collection Resort\", \"Athens Capital Suites - MGallery Collection\", \"Athens Capital Suites - MGallery Collection Athens, Greece Hotel\", \"Athens Capital Suites - MGallery Collection Athens, Greece Resort\", \"Athens Capital Suites - MGallery Collection Athens, Greece\"], \"v\": 3}": {
+    "lat": 37.97709529999999,
+    "lon": 23.7369364,
+    "formatted_address": "Syntagma Square, Zalokosta 7 9, Athina 106 71, Greece",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJG9vVQLCjoRQRcrNCBzefmNU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Syntagma Square, Zalokosta 7 9, Athina 106 71, Greece",
+      "geometry": {
+        "location": {
+          "lat": 37.97709529999999,
+          "lng": 23.7369364
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.97858953029151,
+            "lng": 23.7383040302915
+          },
+          "southwest": {
+            "lat": 37.97589156970851,
+            "lng": 23.7356060697085
+          }
+        }
+      },
+      "name": "Athens Capital Suites - MGallery Collection",
+      "place_id": "ChIJG9vVQLCjoRQRcrNCBzefmNU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://mgallery.accor.com/hotels/C2N4?merchantid=seo-maps-GR-C2N4&sourceid=aw-cen&utm_source=google+Maps&utm_medium=seo+maps&utm_campaign=seo+maps&utm_term=MGallery-Launch"
+    }
+  },
+  "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cavalta Boutique Hotel Small Luxury Hotels of the World Hotel\", \"Cavalta Boutique Hotel Small Luxury Hotels of the World Resort\", \"Cavalta Boutique Hotel Small Luxury Hotels of the World\", \"Cavalta Boutique Hotel Small Luxury Hotels of the World Seville, Spain Hotel\", \"Cavalta Boutique Hotel Small Luxury Hotels of the World Seville, Spain Resort\", \"Cavalta Boutique Hotel Small Luxury Hotels of the World Seville, Spain\", \"Cavalta Boutique Hotel Hilton Hotel\", \"Cavalta Boutique Hotel Hilton Resort\", \"Cavalta Boutique Hotel Hilton\", \"Cavalta Boutique Hotel Hilton Seville, Spain Hotel\", \"Cavalta Boutique Hotel Hilton Seville, Spain Resort\", \"Cavalta Boutique Hotel Hilton Seville, Spain\", \"Cavalta Boutique Hotel Hotel\", \"Cavalta Boutique Hotel Resort\", \"Cavalta Boutique Hotel\", \"Cavalta Boutique Hotel Seville, Spain Hotel\", \"Cavalta Boutique Hotel Seville, Spain Resort\", \"Cavalta Boutique Hotel Seville, Spain\"], \"v\": 3}": {
+    "lat": 37.3812372,
+    "lon": -6.0084826,
+    "formatted_address": "C. San Jacinto, 89, 41010 Sevilla, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJxfoJP2psEg0Rx9xN6z3rwPo",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "C. San Jacinto, 89, 41010 Sevilla, Spain",
+      "geometry": {
+        "location": {
+          "lat": 37.3812372,
+          "lng": -6.0084826
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.3827888802915,
+            "lng": -6.007059869708498
+          },
+          "southwest": {
+            "lat": 37.3800909197085,
+            "lng": -6.009757830291503
+          }
+        }
+      },
+      "name": "Cavalta Boutique Hotel",
+      "place_id": "ChIJxfoJP2psEg0Rx9xN6z3rwPo",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://hiddenhotels.com/cavalta-boutique-hotel/en/?partner=7449&utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness&utm_content=cavalta"
+    }
   }
 }
