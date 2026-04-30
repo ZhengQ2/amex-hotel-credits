@@ -208889,5 +208889,467 @@
       ],
       "website": "https://www.hilton.com/en/hotels/shaqtwa-waldorf-astoria-shanghai-qiantan/"
     }
+  },
+  "{\"brand\": \"Banyan Tree Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mandai Rainforest Resort by Banyan Tree Banyan Tree Hotels & Resorts Hotel\", \"Mandai Rainforest Resort by Banyan Tree Banyan Tree Hotels & Resorts Resort\", \"Mandai Rainforest Resort by Banyan Tree Banyan Tree Hotels & Resorts\", \"Mandai Rainforest Resort by Banyan Tree Banyan Tree Hotels & Resorts Singapore, Singapore Hotel\", \"Mandai Rainforest Resort by Banyan Tree Banyan Tree Hotels & Resorts Singapore, Singapore Resort\", \"Mandai Rainforest Resort by Banyan Tree Banyan Tree Hotels & Resorts Singapore, Singapore\", \"Mandai Rainforest Resort by Banyan Tree Hilton Hotel\", \"Mandai Rainforest Resort by Banyan Tree Hilton Resort\", \"Mandai Rainforest Resort by Banyan Tree Hilton\", \"Mandai Rainforest Resort by Banyan Tree Hilton Singapore, Singapore Hotel\", \"Mandai Rainforest Resort by Banyan Tree Hilton Singapore, Singapore Resort\", \"Mandai Rainforest Resort by Banyan Tree Hilton Singapore, Singapore\", \"Mandai Rainforest Resort Banyan Tree Banyan Tree Hotels & Resorts Hotel\", \"Mandai Rainforest Resort Banyan Tree Banyan Tree Hotels & Resorts Resort\", \"Mandai Rainforest Resort Banyan Tree Banyan Tree Hotels & Resorts\", \"Mandai Rainforest Resort Banyan Tree Banyan Tree Hotels & Resorts Singapore, Singapore Hotel\", \"Mandai Rainforest Resort Banyan Tree Banyan Tree Hotels & Resorts Singapore, Singapore Resort\", \"Mandai Rainforest Resort Banyan Tree Banyan Tree Hotels & Resorts Singapore, Singapore\", \"Mandai Rainforest Resort Banyan Tree Hilton Hotel\", \"Mandai Rainforest Resort Banyan Tree Hilton Resort\", \"Mandai Rainforest Resort Banyan Tree Hilton\", \"Mandai Rainforest Resort Banyan Tree Hilton Singapore, Singapore Hotel\", \"Mandai Rainforest Resort Banyan Tree Hilton Singapore, Singapore Resort\", \"Mandai Rainforest Resort Banyan Tree Hilton Singapore, Singapore\", \"Mandai Rainforest Resort by Banyan Tree Hotel\", \"Mandai Rainforest Resort by Banyan Tree Resort\", \"Mandai Rainforest Resort by Banyan Tree\", \"Mandai Rainforest Resort by Banyan Tree Singapore, Singapore Hotel\", \"Mandai Rainforest Resort by Banyan Tree Singapore, Singapore Resort\", \"Mandai Rainforest Resort by Banyan Tree Singapore, Singapore\"], \"v\": 3}": {
+    "lat": 1.4071032,
+    "lon": 103.7907476,
+    "formatted_address": "60 Mandai Lake Rd, Singapore 729979",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJmdToVIoT2jERFcg421N7d68",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "60 Mandai Lake Rd, Singapore 729979",
+      "geometry": {
+        "location": {
+          "lat": 1.4071032,
+          "lng": 103.7907476
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 1.407579780291502,
+            "lng": 103.7909935802915
+          },
+          "southwest": {
+            "lat": 1.404881819708498,
+            "lng": 103.7882956197085
+          }
+        }
+      },
+      "name": "Mandai Rainforest Resort by Banyan Tree",
+      "place_id": "ChIJmdToVIoT2jERFcg421N7d68",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.banyantree.com/singapore/mandai-rainforest-resort-by-banyan-tree"
+    }
+  },
+  "{\"brand\": \"Bvlgari Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Bulgari Hotel Beijing Bvlgari Hotels & Resorts Hotel\", \"Bulgari Hotel Beijing Bvlgari Hotels & Resorts Resort\", \"Bulgari Hotel Beijing Bvlgari Hotels & Resorts\", \"Bulgari Hotel Beijing Bvlgari Hotels & Resorts Beijing, China Hotel\", \"Bulgari Hotel Beijing Bvlgari Hotels & Resorts Beijing, China Resort\", \"Bulgari Hotel Beijing Bvlgari Hotels & Resorts Beijing, China\", \"Bulgari Hotel Beijing Hilton Hotel\", \"Bulgari Hotel Beijing Hilton Resort\", \"Bulgari Hotel Beijing Hilton\", \"Bulgari Hotel Beijing Hilton Beijing, China Hotel\", \"Bulgari Hotel Beijing Hilton Beijing, China Resort\", \"Bulgari Hotel Beijing Hilton Beijing, China\", \"Bulgari Hotel Beijing Hotel\", \"Bulgari Hotel Beijing Resort\", \"Bulgari Hotel Beijing\", \"Bulgari Hotel Beijing Beijing, China Hotel\", \"Bulgari Hotel Beijing Beijing, China Resort\", \"Bulgari Hotel Beijing Beijing, China\"], \"v\": 3}": {
+    "lat": 39.947563,
+    "lon": 116.452261,
+    "formatted_address": "China, Bei Jing Shi, Chao Yang Qu, CN CN 北京市 朝阳区新源南路8号院2号楼 邮政编码: 100027",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJF4C6Dpus8TUR6VpkEE6m6eA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "China, Bei Jing Shi, Chao Yang Qu, CN CN 北京市 朝阳区新源南路8号院2号楼 邮政编码: 100027",
+      "geometry": {
+        "location": {
+          "lat": 39.947563,
+          "lng": 116.452261
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.9489263302915,
+            "lng": 116.4537135302915
+          },
+          "southwest": {
+            "lat": 39.9462283697085,
+            "lng": 116.4510155697085
+          }
+        }
+      },
+      "name": "BVLGARI HOTEL, Beijing",
+      "place_id": "ChIJF4C6Dpus8TUR6VpkEE6m6eA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.bulgarihotels.com/zh_CN/beijing"
+    }
+  },
+  "{\"brand\": \"Bvlgari Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Bulgari Resort Dubai Bvlgari Hotels & Resorts Hotel\", \"Bulgari Resort Dubai Bvlgari Hotels & Resorts Resort\", \"Bulgari Resort Dubai Bvlgari Hotels & Resorts\", \"Bulgari Resort Dubai Bvlgari Hotels & Resorts Dubai, United Arab Emirates Hotel\", \"Bulgari Resort Dubai Bvlgari Hotels & Resorts Dubai, United Arab Emirates Resort\", \"Bulgari Resort Dubai Bvlgari Hotels & Resorts Dubai, United Arab Emirates\", \"Bulgari Resort Dubai Hilton Hotel\", \"Bulgari Resort Dubai Hilton Resort\", \"Bulgari Resort Dubai Hilton\", \"Bulgari Resort Dubai Hilton Dubai, United Arab Emirates Hotel\", \"Bulgari Resort Dubai Hilton Dubai, United Arab Emirates Resort\", \"Bulgari Resort Dubai Hilton Dubai, United Arab Emirates\", \"Bulgari Resort Dubai Hotel\", \"Bulgari Resort Dubai Resort\", \"Bulgari Resort Dubai\", \"Bulgari Resort Dubai Dubai, United Arab Emirates Hotel\", \"Bulgari Resort Dubai Dubai, United Arab Emirates Resort\", \"Bulgari Resort Dubai Dubai, United Arab Emirates\"], \"v\": 3}": {
+    "lat": 25.210697,
+    "lon": 55.236428,
+    "formatted_address": "Jumeirah Bay Island - جميرا باي - جميرا ٢ - دبي - United Arab Emirates",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ8-LpJSNCXz4RSYU8D8qlVl4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Jumeirah Bay Island - جميرا باي - جميرا ٢ - دبي - United Arab Emirates",
+      "geometry": {
+        "location": {
+          "lat": 25.210697,
+          "lng": 55.236428
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.2120599802915,
+            "lng": 55.23778858029149
+          },
+          "southwest": {
+            "lat": 25.2093620197085,
+            "lng": 55.23509061970849
+          }
+        }
+      },
+      "name": "Bvlgari Resort Dubai",
+      "place_id": "ChIJ8-LpJSNCXz4RSYU8D8qlVl4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.bulgarihotels.com/en_US/dubai?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Bvlgari Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Bvlgari Hotel London Bvlgari Hotels & Resorts Hotel\", \"Bvlgari Hotel London Bvlgari Hotels & Resorts Resort\", \"Bvlgari Hotel London Bvlgari Hotels & Resorts\", \"Bvlgari Hotel London Bvlgari Hotels & Resorts London, England Hotel\", \"Bvlgari Hotel London Bvlgari Hotels & Resorts London, England Resort\", \"Bvlgari Hotel London Bvlgari Hotels & Resorts London, England\", \"Bvlgari Hotel London Hilton Hotel\", \"Bvlgari Hotel London Hilton Resort\", \"Bvlgari Hotel London Hilton\", \"Bvlgari Hotel London Hilton London, England Hotel\", \"Bvlgari Hotel London Hilton London, England Resort\", \"Bvlgari Hotel London Hilton London, England\", \"Bvlgari Hotel London Hotel\", \"Bvlgari Hotel London Resort\", \"Bvlgari Hotel London\", \"Bvlgari Hotel London London, England Hotel\", \"Bvlgari Hotel London London, England Resort\", \"Bvlgari Hotel London London, England\"], \"v\": 3}": {
+    "lat": 51.5014669,
+    "lon": -0.1635477,
+    "formatted_address": "171 Knightsbridge, London SW7 1DW, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJB4FBeEcFdkgRF8Hd6yhDQqA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "171 Knightsbridge, London SW7 1DW, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.5014669,
+          "lng": -0.1635477
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5029255302915,
+            "lng": -0.162197419708498
+          },
+          "southwest": {
+            "lat": 51.5002275697085,
+            "lng": -0.164895380291502
+          }
+        }
+      },
+      "name": "Bvlgari Hotel London",
+      "place_id": "ChIJB4FBeEcFdkgRF8Hd6yhDQqA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.bulgarihotels.com/en_US/london?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Bvlgari Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Bulgari Hotel Milano Bvlgari Hotels & Resorts Hotel\", \"Bulgari Hotel Milano Bvlgari Hotels & Resorts Resort\", \"Bulgari Hotel Milano Bvlgari Hotels & Resorts\", \"Bulgari Hotel Milano Bvlgari Hotels & Resorts Milan, Italy Hotel\", \"Bulgari Hotel Milano Bvlgari Hotels & Resorts Milan, Italy Resort\", \"Bulgari Hotel Milano Bvlgari Hotels & Resorts Milan, Italy\", \"Bulgari Hotel Milano Hilton Hotel\", \"Bulgari Hotel Milano Hilton Resort\", \"Bulgari Hotel Milano Hilton\", \"Bulgari Hotel Milano Hilton Milan, Italy Hotel\", \"Bulgari Hotel Milano Hilton Milan, Italy Resort\", \"Bulgari Hotel Milano Hilton Milan, Italy\", \"Bulgari Hotel Milano Hotel\", \"Bulgari Hotel Milano Resort\", \"Bulgari Hotel Milano\", \"Bulgari Hotel Milano Milan, Italy Hotel\", \"Bulgari Hotel Milano Milan, Italy Resort\", \"Bulgari Hotel Milano Milan, Italy\"], \"v\": 3}": {
+    "lat": 45.4698487,
+    "lon": 9.1895359,
+    "formatted_address": "Via Privata Fratelli Gabba, 7B, 20121 Milano MI, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJS3qUE6zGhkcRzRDfJrTuWFE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Privata Fratelli Gabba, 7B, 20121 Milano MI, Italy",
+      "geometry": {
+        "location": {
+          "lat": 45.4698487,
+          "lng": 9.1895359
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.4714225302915,
+            "lng": 9.190863730291502
+          },
+          "southwest": {
+            "lat": 45.4687245697085,
+            "lng": 9.188165769708498
+          }
+        }
+      },
+      "name": "Bulgari Hotel Milano",
+      "place_id": "ChIJS3qUE6zGhkcRzRDfJrTuWFE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.bulgarihotels.com/en_US/milan?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Bvlgari Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Bulgari Hotel Paris Bvlgari Hotels & Resorts Hotel\", \"Bulgari Hotel Paris Bvlgari Hotels & Resorts Resort\", \"Bulgari Hotel Paris Bvlgari Hotels & Resorts\", \"Bulgari Hotel Paris Bvlgari Hotels & Resorts Paris, France Hotel\", \"Bulgari Hotel Paris Bvlgari Hotels & Resorts Paris, France Resort\", \"Bulgari Hotel Paris Bvlgari Hotels & Resorts Paris, France\", \"Bulgari Hotel Paris Hilton Hotel\", \"Bulgari Hotel Paris Hilton Resort\", \"Bulgari Hotel Paris Hilton\", \"Bulgari Hotel Paris Hilton Paris, France Hotel\", \"Bulgari Hotel Paris Hilton Paris, France Resort\", \"Bulgari Hotel Paris Hilton Paris, France\", \"Bulgari Hotel Paris Hotel\", \"Bulgari Hotel Paris Resort\", \"Bulgari Hotel Paris\", \"Bulgari Hotel Paris Paris, France Hotel\", \"Bulgari Hotel Paris Paris, France Resort\", \"Bulgari Hotel Paris Paris, France\"], \"v\": 3}": {
+    "lat": 48.8683674,
+    "lon": 2.3014592,
+    "formatted_address": "30 Av. George V, 75008 Paris, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJFYxKgcRv5kcR1sykKIcU01E",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "30 Av. George V, 75008 Paris, France",
+      "geometry": {
+        "location": {
+          "lat": 48.8683674,
+          "lng": 2.3014592
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.8696735802915,
+            "lng": 2.302762680291501
+          },
+          "southwest": {
+            "lat": 48.86697561970851,
+            "lng": 2.300064719708498
+          }
+        }
+      },
+      "name": "Bvlgari Hôtel Paris",
+      "place_id": "ChIJFYxKgcRv5kcR1sykKIcU01E",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.bulgarihotels.com/en_US/paris?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Bvlgari Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Bulgari Hotel Roma Bvlgari Hotels & Resorts Hotel\", \"Bulgari Hotel Roma Bvlgari Hotels & Resorts Resort\", \"Bulgari Hotel Roma Bvlgari Hotels & Resorts\", \"Bulgari Hotel Roma Bvlgari Hotels & Resorts Rome, Italy Hotel\", \"Bulgari Hotel Roma Bvlgari Hotels & Resorts Rome, Italy Resort\", \"Bulgari Hotel Roma Bvlgari Hotels & Resorts Rome, Italy\", \"Bulgari Hotel Roma Hilton Hotel\", \"Bulgari Hotel Roma Hilton Resort\", \"Bulgari Hotel Roma Hilton\", \"Bulgari Hotel Roma Hilton Rome, Italy Hotel\", \"Bulgari Hotel Roma Hilton Rome, Italy Resort\", \"Bulgari Hotel Roma Hilton Rome, Italy\", \"Bulgari Hotel Roma Hotel\", \"Bulgari Hotel Roma Resort\", \"Bulgari Hotel Roma\", \"Bulgari Hotel Roma Rome, Italy Hotel\", \"Bulgari Hotel Roma Rome, Italy Resort\", \"Bulgari Hotel Roma Rome, Italy\"], \"v\": 3}": {
+    "lat": 41.9067821,
+    "lon": 12.4762188,
+    "formatted_address": "Piazza Augusto Imperatore, 10, 00186 Roma RM, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ-XKhYh9hLxMR6SM6GuN3HM4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Piazza Augusto Imperatore, 10, 00186 Roma RM, Italy",
+      "geometry": {
+        "location": {
+          "lat": 41.9067821,
+          "lng": 12.4762188
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.9080319802915,
+            "lng": 12.4775473302915
+          },
+          "southwest": {
+            "lat": 41.9053340197085,
+            "lng": 12.4748493697085
+          }
+        }
+      },
+      "name": "Bvlgari Hotel Roma",
+      "place_id": "ChIJ-XKhYh9hLxMR6SM6GuN3HM4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.bulgarihotels.com/en_US/rome?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Bvlgari Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Bvlgari Hotel Shanghai Bvlgari Hotels & Resorts Hotel\", \"Bvlgari Hotel Shanghai Bvlgari Hotels & Resorts Resort\", \"Bvlgari Hotel Shanghai Bvlgari Hotels & Resorts\", \"Bvlgari Hotel Shanghai Bvlgari Hotels & Resorts Shanghai, China Hotel\", \"Bvlgari Hotel Shanghai Bvlgari Hotels & Resorts Shanghai, China Resort\", \"Bvlgari Hotel Shanghai Bvlgari Hotels & Resorts Shanghai, China\", \"Bvlgari Hotel Shanghai Hilton Hotel\", \"Bvlgari Hotel Shanghai Hilton Resort\", \"Bvlgari Hotel Shanghai Hilton\", \"Bvlgari Hotel Shanghai Hilton Shanghai, China Hotel\", \"Bvlgari Hotel Shanghai Hilton Shanghai, China Resort\", \"Bvlgari Hotel Shanghai Hilton Shanghai, China\", \"Bvlgari Hotel Shanghai Hotel\", \"Bvlgari Hotel Shanghai Resort\", \"Bvlgari Hotel Shanghai\", \"Bvlgari Hotel Shanghai Shanghai, China Hotel\", \"Bvlgari Hotel Shanghai Shanghai, China Resort\", \"Bvlgari Hotel Shanghai Shanghai, China\"], \"v\": 3}": {
+    "lat": 40.0069299,
+    "lon": 119.83865,
+    "formatted_address": "108 Shanxi North Road, Shan Hai Guan Qu, Qin Huang Dao Shi, China, 066206",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ86uFal5wsjUR8zNDly9PIl0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "108 Shanxi North Road, Shan Hai Guan Qu, Qin Huang Dao Shi, China, 066206",
+      "geometry": {
+        "location": {
+          "lat": 40.0069299,
+          "lng": 119.83865
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.0082788802915,
+            "lng": 119.8399989802915
+          },
+          "southwest": {
+            "lat": 40.0055809197085,
+            "lng": 119.8373010197085
+          }
+        }
+      },
+      "name": "Bulgari Hotel, Shanghai",
+      "place_id": "ChIJ86uFal5wsjUR8zNDly9PIl0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.bulgarihotels.com/zh_CN/shanghai"
+    }
+  },
+  "{\"brand\": \"Bvlgari Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Bvlgari Hotel Tokyo Bvlgari Hotels & Resorts Hotel\", \"Bvlgari Hotel Tokyo Bvlgari Hotels & Resorts Resort\", \"Bvlgari Hotel Tokyo Bvlgari Hotels & Resorts\", \"Bvlgari Hotel Tokyo Bvlgari Hotels & Resorts Tokyo, Japan Hotel\", \"Bvlgari Hotel Tokyo Bvlgari Hotels & Resorts Tokyo, Japan Resort\", \"Bvlgari Hotel Tokyo Bvlgari Hotels & Resorts Tokyo, Japan\", \"Bvlgari Hotel Tokyo Hilton Hotel\", \"Bvlgari Hotel Tokyo Hilton Resort\", \"Bvlgari Hotel Tokyo Hilton\", \"Bvlgari Hotel Tokyo Hilton Tokyo, Japan Hotel\", \"Bvlgari Hotel Tokyo Hilton Tokyo, Japan Resort\", \"Bvlgari Hotel Tokyo Hilton Tokyo, Japan\", \"Bvlgari Hotel Tokyo Hotel\", \"Bvlgari Hotel Tokyo Resort\", \"Bvlgari Hotel Tokyo\", \"Bvlgari Hotel Tokyo Tokyo, Japan Hotel\", \"Bvlgari Hotel Tokyo Tokyo, Japan Resort\", \"Bvlgari Hotel Tokyo Tokyo, Japan\"], \"v\": 3}": {
+    "lat": 35.6788388,
+    "lon": 139.7683266,
+    "formatted_address": "2-chōme-2-1 Yaesu, Chuo City, Tokyo 104-0028, Japan",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJaZec4c2LGGARhO_j0zirIOw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2-chōme-2-1 Yaesu, Chuo City, Tokyo 104-0028, Japan",
+      "geometry": {
+        "location": {
+          "lat": 35.6788388,
+          "lng": 139.7683266
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.6802015802915,
+            "lng": 139.7696816302915
+          },
+          "southwest": {
+            "lat": 35.6775036197085,
+            "lng": 139.7669836697085
+          }
+        }
+      },
+      "name": "Bvlgari Hotel Tokyo",
+      "place_id": "ChIJaZec4c2LGGARhO_j0zirIOw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.bulgarihotels.com/en_US/tokyo?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Bvlgari Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Bulgari Resort Bali Bvlgari Hotels & Resorts Hotel\", \"Bulgari Resort Bali Bvlgari Hotels & Resorts Resort\", \"Bulgari Resort Bali Bvlgari Hotels & Resorts\", \"Bulgari Resort Bali Bvlgari Hotels & Resorts Uluwatu, Indonesia Hotel\", \"Bulgari Resort Bali Bvlgari Hotels & Resorts Uluwatu, Indonesia Resort\", \"Bulgari Resort Bali Bvlgari Hotels & Resorts Uluwatu, Indonesia\", \"Bulgari Resort Bali Hilton Hotel\", \"Bulgari Resort Bali Hilton Resort\", \"Bulgari Resort Bali Hilton\", \"Bulgari Resort Bali Hilton Uluwatu, Indonesia Hotel\", \"Bulgari Resort Bali Hilton Uluwatu, Indonesia Resort\", \"Bulgari Resort Bali Hilton Uluwatu, Indonesia\", \"Bulgari Resort Bali Hotel\", \"Bulgari Resort Bali Resort\", \"Bulgari Resort Bali\", \"Bulgari Resort Bali Uluwatu, Indonesia Hotel\", \"Bulgari Resort Bali Uluwatu, Indonesia Resort\", \"Bulgari Resort Bali Uluwatu, Indonesia\"], \"v\": 3}": {
+    "lat": -8.8429187,
+    "lon": 115.1216909,
+    "formatted_address": "Jl. Goa Lempeh, Pecatu, Kec. Kuta Sel., Kabupaten Badung, Bali, Indonesia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJD3KueOta0i0Rl2LFO5YakuE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Jl. Goa Lempeh, Pecatu, Kec. Kuta Sel., Kabupaten Badung, Bali, Indonesia",
+      "geometry": {
+        "location": {
+          "lat": -8.8429187,
+          "lng": 115.1216909
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -8.841384169708498,
+            "lng": 115.1231235802915
+          },
+          "southwest": {
+            "lat": -8.8440821302915,
+            "lng": 115.1204256197085
+          }
+        }
+      },
+      "name": "Bvlgari Resort Bali",
+      "place_id": "ChIJD3KueOta0i0Rl2LFO5YakuE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.bulgarihotels.com/en_US/bali?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Palazzo Talia Small Luxury Hotels of the World Hotel\", \"Palazzo Talia Small Luxury Hotels of the World Resort\", \"Palazzo Talia Small Luxury Hotels of the World\", \"Palazzo Talia Small Luxury Hotels of the World Rome, Italy Hotel\", \"Palazzo Talia Small Luxury Hotels of the World Rome, Italy Resort\", \"Palazzo Talia Small Luxury Hotels of the World Rome, Italy\", \"Palazzo Talia Hilton Hotel\", \"Palazzo Talia Hilton Resort\", \"Palazzo Talia Hilton\", \"Palazzo Talia Hilton Rome, Italy Hotel\", \"Palazzo Talia Hilton Rome, Italy Resort\", \"Palazzo Talia Hilton Rome, Italy\", \"Palazzo Talia Hotel\", \"Palazzo Talia Resort\", \"Palazzo Talia\", \"Palazzo Talia Rome, Italy Hotel\", \"Palazzo Talia Rome, Italy Resort\", \"Palazzo Talia Rome, Italy\"], \"v\": 3}": {
+    "lat": 41.9028956,
+    "lon": 12.4835823,
+    "formatted_address": "Via del Nazareno, 25, 00187 Roma RM, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJf_pW-5RhLxMR7wq31PS3AC0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via del Nazareno, 25, 00187 Roma RM, Italy",
+      "geometry": {
+        "location": {
+          "lat": 41.9028956,
+          "lng": 12.4835823
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.9040898802915,
+            "lng": 12.4851744802915
+          },
+          "southwest": {
+            "lat": 41.9013919197085,
+            "lng": 12.4824765197085
+          }
+        }
+      },
+      "name": "Palazzo Talìa",
+      "place_id": "ChIJf_pW-5RhLxMR7wq31PS3AC0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.palazzotalia.com/"
+    }
   }
 }

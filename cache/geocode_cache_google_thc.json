@@ -209276,5 +209276,2072 @@
       ],
       "website": "https://hiddenhotels.com/cavalta-boutique-hotel/en/?partner=7449&utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness&utm_content=cavalta"
     }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Limelight Boulder Hotel\", \"Limelight Boulder Resort\", \"Limelight Boulder\", \"Limelight Boulder Boulder, Colorado US Hotel\", \"Limelight Boulder Boulder, Colorado US Resort\", \"Limelight Boulder Boulder, Colorado US\"], \"v\": 3}": {
+    "lat": 40.0106811,
+    "lon": -105.2762457,
+    "formatted_address": "1295 University Ave, Boulder, CO 80302, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJK3pbzM3ta4cRzU57aNXHi_4",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1295 University Ave, Boulder, CO 80302, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.0106811,
+          "lng": -105.2762457
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.01221453029149,
+            "lng": -105.2748219697085
+          },
+          "southwest": {
+            "lat": 40.0095165697085,
+            "lng": -105.2775199302915
+          }
+        }
+      },
+      "name": "Limelight Boulder",
+      "place_id": "ChIJK3pbzM3ta4cRzU57aNXHi_4",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.limelighthotels.com/boulder"
+    }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Athenaeum Hotel and Residences Hotel\", \"The Athenaeum Hotel and Residences Resort\", \"The Athenaeum Hotel and Residences\", \"The Athenaeum Hotel and Residences London, England Hotel\", \"The Athenaeum Hotel and Residences London, England Resort\", \"The Athenaeum Hotel and Residences London, England\", \"Athenaeum Hotel Residences Hotel\", \"Athenaeum Hotel Residences Resort\", \"Athenaeum Hotel Residences\", \"Athenaeum Hotel Residences London, England Hotel\", \"Athenaeum Hotel Residences London, England Resort\", \"Athenaeum Hotel Residences London, England\"], \"v\": 3}": {
+    "lat": 51.5047144,
+    "lon": -0.1474673,
+    "formatted_address": "116 Piccadilly, London W1J 7BJ, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJr_4cVy8FdkgRXpqn7k7UTeY",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "116 Piccadilly, London W1J 7BJ, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.5047144,
+          "lng": -0.1474673
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5059496302915,
+            "lng": -0.146053819708498
+          },
+          "southwest": {
+            "lat": 51.5032516697085,
+            "lng": -0.148751780291502
+          }
+        }
+      },
+      "name": "The Athenaeum Hotel & Residences",
+      "place_id": "ChIJr_4cVy8FdkgRXpqn7k7UTeY",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.athenaeumhotel.com/?utm_source=google&utm_medium=local&utm_campaign=athenaeumhotel"
+    }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Limelight Mammoth Hotel\", \"Limelight Mammoth Resort\", \"Limelight Mammoth\", \"Limelight Mammoth Mammoth Lakes, California US Hotel\", \"Limelight Mammoth Mammoth Lakes, California US Resort\", \"Limelight Mammoth Mammoth Lakes, California US\"], \"v\": 3}": {
+    "lat": 37.6475106,
+    "lon": -118.9850867,
+    "formatted_address": "132 Lake Mary Rd, Mammoth Lakes, CA 93546, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJXU0fxUcNloARkELOdWiLdLc",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "132 Lake Mary Rd, Mammoth Lakes, CA 93546, USA",
+      "geometry": {
+        "location": {
+          "lat": 37.6475106,
+          "lng": -118.9850867
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.6488236302915,
+            "lng": -118.9836885697085
+          },
+          "southwest": {
+            "lat": 37.6461256697085,
+            "lng": -118.9863865302915
+          }
+        }
+      },
+      "name": "Limelight Mammoth",
+      "place_id": "ChIJXU0fxUcNloARkELOdWiLdLc",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.limelighthotels.com/mammoth"
+    }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Treehouse Hotel Manchester Hotel\", \"Treehouse Hotel Manchester Resort\", \"Treehouse Hotel Manchester\", \"Treehouse Hotel Manchester Manchester, United Kingdom Hotel\", \"Treehouse Hotel Manchester Manchester, United Kingdom Resort\", \"Treehouse Hotel Manchester Manchester, United Kingdom\"], \"v\": 3}": {
+    "lat": 53.4837833,
+    "lon": -2.2465903,
+    "formatted_address": "Blackfriars St, Manchester M3 2EQ, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJTcNOVOGxe0gRGC-uuxiKBv4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Blackfriars St, Manchester M3 2EQ, UK",
+      "geometry": {
+        "location": {
+          "lat": 53.4837833,
+          "lng": -2.2465903
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 53.48500713029149,
+            "lng": -2.245480569708498
+          },
+          "southwest": {
+            "lat": 53.48230916970849,
+            "lng": -2.248178530291502
+          }
+        }
+      },
+      "name": "Treehouse Hotel Manchester",
+      "place_id": "ChIJTcNOVOGxe0gRGC-uuxiKBv4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.treehousehotels.com/manchester?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Mercer Hotel Hotel\", \"The Mercer Hotel Resort\", \"The Mercer Hotel\", \"The Mercer Hotel New York, New York US Hotel\", \"The Mercer Hotel New York, New York US Resort\", \"The Mercer Hotel New York, New York US\"], \"v\": 3}": {
+    "lat": 40.7249351,
+    "lon": -73.99851509999999,
+    "formatted_address": "147 Mercer St, New York, NY 10012, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJzyx3-o5ZwokR9DTHgZ521n8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "147 Mercer St, New York, NY 10012, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.7249351,
+          "lng": -73.99851509999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.7262716302915,
+            "lng": -73.99709196970849
+          },
+          "southwest": {
+            "lat": 40.7235736697085,
+            "lng": -73.9997899302915
+          }
+        }
+      },
+      "name": "(The Mercer)",
+      "place_id": "ChIJzyx3-o5ZwokR9DTHgZ521n8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://mercerhotel.com/"
+    }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Shade Hotel Redondo Beach Hotel\", \"Shade Hotel Redondo Beach Resort\", \"Shade Hotel Redondo Beach\", \"Shade Hotel Redondo Beach Redondo Beach, California US Hotel\", \"Shade Hotel Redondo Beach Redondo Beach, California US Resort\", \"Shade Hotel Redondo Beach Redondo Beach, California US\"], \"v\": 3}": {
+    "lat": 33.8476568,
+    "lon": -118.3954051,
+    "formatted_address": "655 N Harbor Dr, Redondo Beach, CA 90277, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJo0dgRWCzwoARifiD1IZNvRc",
+    "types": [
+      "establishment",
+      "food",
+      "health",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "655 N Harbor Dr, Redondo Beach, CA 90277, USA",
+      "geometry": {
+        "location": {
+          "lat": 33.8476568,
+          "lng": -118.3954051
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.8489815302915,
+            "lng": -118.3938945697085
+          },
+          "southwest": {
+            "lat": 33.8462835697085,
+            "lng": -118.3965925302915
+          }
+        }
+      },
+      "name": "Shade Hotel Redondo Beach",
+      "place_id": "ChIJo0dgRWCzwoARifiD1IZNvRc",
+      "types": [
+        "establishment",
+        "food",
+        "health",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "http://rb.shadehotel.com/"
+    }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Treehouse Silicon Valley Hotel\", \"Treehouse Silicon Valley Resort\", \"Treehouse Silicon Valley\", \"Treehouse Silicon Valley Sunnyvale, California US Hotel\", \"Treehouse Silicon Valley Sunnyvale, California US Resort\", \"Treehouse Silicon Valley Sunnyvale, California US\"], \"v\": 3}": {
+    "lat": 37.4047369,
+    "lon": -122.0252687,
+    "formatted_address": "1100 N Mathilda Ave, Sunnyvale, CA 94089, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJlWPjFwC3j4ARlsBHIM9pVlw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1100 N Mathilda Ave, Sunnyvale, CA 94089, USA",
+      "geometry": {
+        "location": {
+          "lat": 37.4047369,
+          "lng": -122.0252687
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.4060037802915,
+            "lng": -122.0240028197085
+          },
+          "southwest": {
+            "lat": 37.4033058197085,
+            "lng": -122.0267007802915
+          }
+        }
+      },
+      "name": "Treehouse Hotel Silicon Valley",
+      "place_id": "ChIJlWPjFwC3j4ARlsBHIM9pVlw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.treehousehotels.com/silicon-valley?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Le Germain Hotel Toronto Mercer Hotel\", \"Le Germain Hotel Toronto Mercer Resort\", \"Le Germain Hotel Toronto Mercer\", \"Le Germain Hotel Toronto Mercer Toronto, Ontario CA Hotel\", \"Le Germain Hotel Toronto Mercer Toronto, Ontario CA Resort\", \"Le Germain Hotel Toronto Mercer Toronto, Ontario CA\"], \"v\": 3}": {
+    "lat": 43.6458047,
+    "lon": -79.3911135,
+    "formatted_address": "30 Mercer St, Toronto, ON M5V 1H3, Canada",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ6xi8r9A0K4gRXc561SdLfyY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "30 Mercer St, Toronto, ON M5V 1H3, Canada",
+      "geometry": {
+        "location": {
+          "lat": 43.6458047,
+          "lng": -79.3911135
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.6470474802915,
+            "lng": -79.38974886970848
+          },
+          "southwest": {
+            "lat": 43.6443495197085,
+            "lng": -79.39244683029149
+          }
+        }
+      },
+      "name": "Le Germain Hotel Toronto Mercer",
+      "place_id": "ChIJ6xi8r9A0K4gRXc561SdLfyY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.germainhotels.com/en/le-germain-hotel/toronto-mercer"
+    }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"SIXTY DC Hotel\", \"SIXTY DC Resort\", \"SIXTY DC\", \"SIXTY DC Washington, District Of Columbia US Hotel\", \"SIXTY DC Washington, District Of Columbia US Resort\", \"SIXTY DC Washington, District Of Columbia US\", \"Sixty Dc Hotel\", \"Sixty Dc Resort\", \"Sixty Dc\", \"Sixty Dc Washington, District Of Columbia US Hotel\", \"Sixty Dc Washington, District Of Columbia US Resort\", \"Sixty Dc Washington, District Of Columbia US\"], \"v\": 3}": {
+    "lat": 38.9082939,
+    "lon": -77.0423251,
+    "formatted_address": "1337 Connecticut Ave NW, Washington, DC 20036, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJGZf0qiK3t4kRbORPYOTGDOE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1337 Connecticut Ave NW, Washington, DC 20036, USA",
+      "geometry": {
+        "location": {
+          "lat": 38.9082939,
+          "lng": -77.0423251
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.90959438029149,
+            "lng": -77.0410365697085
+          },
+          "southwest": {
+            "lat": 38.9068964197085,
+            "lng": -77.0437345302915
+          }
+        }
+      },
+      "name": "SIXTY DC",
+      "place_id": "ChIJGZf0qiK3t4kRbORPYOTGDOE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.sixtyhotels.com/destinations/washington-dc/sixty-dc"
+    }
+  },
+  "{\"brand\": \"CoralTree Hospitality\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Polaris CoralTree Hospitality Hotel\", \"Hotel Polaris CoralTree Hospitality Resort\", \"Hotel Polaris CoralTree Hospitality\", \"Hotel Polaris CoralTree Hospitality Colorado Springs, Colorado US Hotel\", \"Hotel Polaris CoralTree Hospitality Colorado Springs, Colorado US Resort\", \"Hotel Polaris CoralTree Hospitality Colorado Springs, Colorado US\", \"Hotel Polaris Hilton Hotel\", \"Hotel Polaris Hilton Resort\", \"Hotel Polaris Hilton\", \"Hotel Polaris Hilton Colorado Springs, Colorado US Hotel\", \"Hotel Polaris Hilton Colorado Springs, Colorado US Resort\", \"Hotel Polaris Hilton Colorado Springs, Colorado US\", \"Hotel Polaris Hotel\", \"Hotel Polaris Resort\", \"Hotel Polaris\", \"Hotel Polaris Colorado Springs, Colorado US Hotel\", \"Hotel Polaris Colorado Springs, Colorado US Resort\", \"Hotel Polaris Colorado Springs, Colorado US\"], \"v\": 3}": {
+    "lat": 39.0241767,
+    "lon": -104.8393215,
+    "formatted_address": "8989 North Gate Blvd, Colorado Springs, CO 80921, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJi6iEhcRNE4cRaI4opHh9lMc",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "8989 North Gate Blvd, Colorado Springs, CO 80921, USA",
+      "geometry": {
+        "location": {
+          "lat": 39.0241767,
+          "lng": -104.8393215
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.02542048029149,
+            "lng": -104.8380338197085
+          },
+          "southwest": {
+            "lat": 39.02272251970849,
+            "lng": -104.8407317802915
+          }
+        }
+      },
+      "name": "Hotel Polaris",
+      "place_id": "ChIJi6iEhcRNE4cRaI4opHh9lMc",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://thehotelpolaris.com/?utm_source=local&utm_medium=gbpprofile&utm_campaign=hotelpolaris"
+    }
+  },
+  "{\"brand\": \"Curio Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Monarch San Antonio, Curio Collection by Hilton Curio Collection Hotel\", \"The Monarch San Antonio, Curio Collection by Hilton Curio Collection Resort\", \"The Monarch San Antonio, Curio Collection by Hilton Curio Collection\", \"The Monarch San Antonio, Curio Collection by Hilton Curio Collection San Antonio, Texas US Hotel\", \"The Monarch San Antonio, Curio Collection by Hilton Curio Collection San Antonio, Texas US Resort\", \"The Monarch San Antonio, Curio Collection by Hilton Curio Collection San Antonio, Texas US\", \"The Monarch San Antonio, Curio Collection by Hilton Hilton Hotel\", \"The Monarch San Antonio, Curio Collection by Hilton Hilton Resort\", \"The Monarch San Antonio, Curio Collection by Hilton Hilton\", \"The Monarch San Antonio, Curio Collection by Hilton Hilton San Antonio, Texas US Hotel\", \"The Monarch San Antonio, Curio Collection by Hilton Hilton San Antonio, Texas US Resort\", \"The Monarch San Antonio, Curio Collection by Hilton Hilton San Antonio, Texas US\", \"Monarch San Antonio Curio Collection Hilton Curio Collection Hotel\", \"Monarch San Antonio Curio Collection Hilton Curio Collection Resort\", \"Monarch San Antonio Curio Collection Hilton Curio Collection\", \"Monarch San Antonio Curio Collection Hilton Curio Collection San Antonio, Texas US Hotel\", \"Monarch San Antonio Curio Collection Hilton Curio Collection San Antonio, Texas US Resort\", \"Monarch San Antonio Curio Collection Hilton Curio Collection San Antonio, Texas US\", \"Monarch San Antonio Curio Collection Hilton Hilton Hotel\", \"Monarch San Antonio Curio Collection Hilton Hilton Resort\", \"Monarch San Antonio Curio Collection Hilton Hilton\", \"Monarch San Antonio Curio Collection Hilton Hilton San Antonio, Texas US Hotel\", \"Monarch San Antonio Curio Collection Hilton Hilton San Antonio, Texas US Resort\", \"Monarch San Antonio Curio Collection Hilton Hilton San Antonio, Texas US\", \"The Monarch San Antonio, Curio Collection by Hilton Hotel\", \"The Monarch San Antonio, Curio Collection by Hilton Resort\", \"The Monarch San Antonio, Curio Collection by Hilton\", \"The Monarch San Antonio, Curio Collection by Hilton San Antonio, Texas US Hotel\", \"The Monarch San Antonio, Curio Collection by Hilton San Antonio, Texas US Resort\", \"The Monarch San Antonio, Curio Collection by Hilton San Antonio, Texas US\"], \"v\": 3}": {
+    "lat": 29.4222047,
+    "lon": -98.48713219999999,
+    "formatted_address": "222 S Alamo St, San Antonio, TX 78205, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJxan4ZOFZXIYR5sTWwmNhh60",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "222 S Alamo St, San Antonio, TX 78205, USA",
+      "geometry": {
+        "location": {
+          "lat": 29.4222047,
+          "lng": -98.48713219999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 29.4235619302915,
+            "lng": -98.48580871970849
+          },
+          "southwest": {
+            "lat": 29.4208639697085,
+            "lng": -98.48850668029151
+          }
+        }
+      },
+      "name": "The Monarch San Antonio, Curio Collection by Hilton",
+      "place_id": "ChIJxan4ZOFZXIYR5sTWwmNhh60",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/satmkqq-the-monarch-san-antonio/?SEO_id=GMB-AMER-QQ-SATMKQQ&y_source=1_MTAzMTk4MzAzNy03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    }
+  },
+  "{\"brand\": \"Design Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Dominican Design Hotels Hotel\", \"The Dominican Design Hotels Resort\", \"The Dominican Design Hotels\", \"The Dominican Design Hotels Brussels, Belgium Hotel\", \"The Dominican Design Hotels Brussels, Belgium Resort\", \"The Dominican Design Hotels Brussels, Belgium\", \"The Dominican Hilton Hotel\", \"The Dominican Hilton Resort\", \"The Dominican Hilton\", \"The Dominican Hilton Brussels, Belgium Hotel\", \"The Dominican Hilton Brussels, Belgium Resort\", \"The Dominican Hilton Brussels, Belgium\", \"The Dominican Hotel\", \"The Dominican Resort\", \"The Dominican\", \"The Dominican Brussels, Belgium Hotel\", \"The Dominican Brussels, Belgium Resort\", \"The Dominican Brussels, Belgium\"], \"v\": 3}": {
+    "lat": 50.8492581,
+    "lon": 4.3547629,
+    "formatted_address": "Rue Léopold 9, 1000 Bruxelles, Belgium",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJsXxX7IDDw0cRYzRU0IPZPBc",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "night_club",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Rue Léopold 9, 1000 Bruxelles, Belgium",
+      "geometry": {
+        "location": {
+          "lat": 50.8492581,
+          "lng": 4.3547629
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 50.8505164302915,
+            "lng": 4.355859980291502
+          },
+          "southwest": {
+            "lat": 50.8478184697085,
+            "lng": 4.353162019708497
+          }
+        }
+      },
+      "name": "The Dominican",
+      "place_id": "ChIJsXxX7IDDw0cRYzRU0IPZPBc",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "night_club",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.thedominican.be/"
+    }
+  },
+  "{\"brand\": \"Design Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Skeppsholmen Design Hotels Hotel\", \"Hotel Skeppsholmen Design Hotels Resort\", \"Hotel Skeppsholmen Design Hotels\", \"Hotel Skeppsholmen Design Hotels Stockholm, Sweden Hotel\", \"Hotel Skeppsholmen Design Hotels Stockholm, Sweden Resort\", \"Hotel Skeppsholmen Design Hotels Stockholm, Sweden\", \"Hotel Skeppsholmen Hilton Hotel\", \"Hotel Skeppsholmen Hilton Resort\", \"Hotel Skeppsholmen Hilton\", \"Hotel Skeppsholmen Hilton Stockholm, Sweden Hotel\", \"Hotel Skeppsholmen Hilton Stockholm, Sweden Resort\", \"Hotel Skeppsholmen Hilton Stockholm, Sweden\", \"Hotel Skeppsholmen Hotel\", \"Hotel Skeppsholmen Resort\", \"Hotel Skeppsholmen\", \"Hotel Skeppsholmen Stockholm, Sweden Hotel\", \"Hotel Skeppsholmen Stockholm, Sweden Resort\", \"Hotel Skeppsholmen Stockholm, Sweden\"], \"v\": 3}": {
+    "lat": 59.3247597,
+    "lon": 18.087685,
+    "formatted_address": "Gröna gången 1, 111 49 Stockholm, Sweden",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJtenOqRxxX0YRpiZ0bJ1z7vg",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Gröna gången 1, 111 49 Stockholm, Sweden",
+      "geometry": {
+        "location": {
+          "lat": 59.3247597,
+          "lng": 18.087685
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 59.3257169802915,
+            "lng": 18.088941
+          },
+          "southwest": {
+            "lat": 59.32301901970849,
+            "lng": 18.0848255
+          }
+        }
+      },
+      "name": "Hotel Skeppsholmen",
+      "place_id": "ChIJtenOqRxxX0YRpiZ0bJ1z7vg",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "http://www.hotelskeppsholmen.se/"
+    }
+  },
+  "{\"brand\": \"Ennismore\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hyde Melbourne Place Ennismore Hotel\", \"Hyde Melbourne Place Ennismore Resort\", \"Hyde Melbourne Place Ennismore\", \"Hyde Melbourne Place Ennismore Melbourne, Australia Hotel\", \"Hyde Melbourne Place Ennismore Melbourne, Australia Resort\", \"Hyde Melbourne Place Ennismore Melbourne, Australia\", \"Hyde Melbourne Place Hilton Hotel\", \"Hyde Melbourne Place Hilton Resort\", \"Hyde Melbourne Place Hilton\", \"Hyde Melbourne Place Hilton Melbourne, Australia Hotel\", \"Hyde Melbourne Place Hilton Melbourne, Australia Resort\", \"Hyde Melbourne Place Hilton Melbourne, Australia\", \"Hyde Melbourne Place Hotel\", \"Hyde Melbourne Place Resort\", \"Hyde Melbourne Place\", \"Hyde Melbourne Place Melbourne, Australia Hotel\", \"Hyde Melbourne Place Melbourne, Australia Resort\", \"Hyde Melbourne Place Melbourne, Australia\"], \"v\": 3}": {
+    "lat": -37.8132786,
+    "lon": 144.9685245,
+    "formatted_address": "130 Russell St, Melbourne VIC 3000, Australia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJs4eaEgND1moROJeo-atWcXo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "130 Russell St, Melbourne VIC 3000, Australia",
+      "geometry": {
+        "location": {
+          "lat": -37.8132786,
+          "lng": 144.9685245
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -37.8119467697085,
+            "lng": 144.9698180802915
+          },
+          "southwest": {
+            "lat": -37.8146447302915,
+            "lng": 144.9671201197085
+          }
+        }
+      },
+      "name": "Hyde Melbourne Place",
+      "place_id": "ChIJs4eaEgND1moROJeo-atWcXo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://hydehotels.com/melbourne-place/"
+    }
+  },
+  "{\"brand\": \"Hilton Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Skirvin Oklahoma City, a Hilton Hotel Hilton Hotels & Resorts Hotel\", \"Skirvin Oklahoma City, a Hilton Hotel Hilton Hotels & Resorts Resort\", \"Skirvin Oklahoma City, a Hilton Hotel Hilton Hotels & Resorts\", \"Skirvin Oklahoma City, a Hilton Hotel Hilton Hotels & Resorts Oklahoma City, Oklahoma US Hotel\", \"Skirvin Oklahoma City, a Hilton Hotel Hilton Hotels & Resorts Oklahoma City, Oklahoma US Resort\", \"Skirvin Oklahoma City, a Hilton Hotel Hilton Hotels & Resorts Oklahoma City, Oklahoma US\", \"Skirvin Oklahoma City, a Hilton Hotel Hilton Hotel\", \"Skirvin Oklahoma City, a Hilton Hotel Hilton Resort\", \"Skirvin Oklahoma City, a Hilton Hotel Hilton\", \"Skirvin Oklahoma City, a Hilton Hotel Hilton Oklahoma City, Oklahoma US Hotel\", \"Skirvin Oklahoma City, a Hilton Hotel Hilton Oklahoma City, Oklahoma US Resort\", \"Skirvin Oklahoma City, a Hilton Hotel Hilton Oklahoma City, Oklahoma US\", \"Skirvin Oklahoma City a Hilton Hotel Hilton Hotels & Resorts Hotel\", \"Skirvin Oklahoma City a Hilton Hotel Hilton Hotels & Resorts Resort\", \"Skirvin Oklahoma City a Hilton Hotel Hilton Hotels & Resorts\", \"Skirvin Oklahoma City a Hilton Hotel Hilton Hotels & Resorts Oklahoma City, Oklahoma US Hotel\", \"Skirvin Oklahoma City a Hilton Hotel Hilton Hotels & Resorts Oklahoma City, Oklahoma US Resort\", \"Skirvin Oklahoma City a Hilton Hotel Hilton Hotels & Resorts Oklahoma City, Oklahoma US\", \"Skirvin Oklahoma City a Hilton Hotel Hilton Hotel\", \"Skirvin Oklahoma City a Hilton Hotel Hilton Resort\", \"Skirvin Oklahoma City a Hilton Hotel Hilton\", \"Skirvin Oklahoma City a Hilton Hotel Hilton Oklahoma City, Oklahoma US Hotel\", \"Skirvin Oklahoma City a Hilton Hotel Hilton Oklahoma City, Oklahoma US Resort\", \"Skirvin Oklahoma City a Hilton Hotel Hilton Oklahoma City, Oklahoma US\", \"Skirvin Oklahoma City, a Hilton Hotel Hotel\", \"Skirvin Oklahoma City, a Hilton Hotel Resort\", \"Skirvin Oklahoma City, a Hilton Hotel\", \"Skirvin Oklahoma City, a Hilton Hotel Oklahoma City, Oklahoma US Hotel\", \"Skirvin Oklahoma City, a Hilton Hotel Oklahoma City, Oklahoma US Resort\", \"Skirvin Oklahoma City, a Hilton Hotel Oklahoma City, Oklahoma US\"], \"v\": 3}": {
+    "lat": 35.4690255,
+    "lon": -97.5140356,
+    "formatted_address": "One Park Ave, Oklahoma City, OK 73102, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJpYRf-CUXsocRFX33IBN3h3o",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "One Park Ave, Oklahoma City, OK 73102, USA",
+      "geometry": {
+        "location": {
+          "lat": 35.4690255,
+          "lng": -97.5140356
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.4704148302915,
+            "lng": -97.5128655197085
+          },
+          "southwest": {
+            "lat": 35.4677168697085,
+            "lng": -97.5155634802915
+          }
+        }
+      },
+      "name": "Skirvin Oklahoma City, a Hilton Hotel",
+      "place_id": "ChIJpYRf-CUXsocRFX33IBN3h3o",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/okcskhf-skirvin-oklahoma-city/?SEO_id=GMB-AMER-HH-OKCSKHF&y_source=1_MTIyMDk5MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    }
+  },
+  "{\"brand\": \"Hotel Indigo\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Indigo Turks and Caicos Hotel Indigo Hotel\", \"Hotel Indigo Turks and Caicos Hotel Indigo Resort\", \"Hotel Indigo Turks and Caicos Hotel Indigo\", \"Hotel Indigo Turks and Caicos Hotel Indigo Providenciales, Turks and Caicos Islands Hotel\", \"Hotel Indigo Turks and Caicos Hotel Indigo Providenciales, Turks and Caicos Islands Resort\", \"Hotel Indigo Turks and Caicos Hotel Indigo Providenciales, Turks and Caicos Islands\", \"Hotel Indigo Turks and Caicos Hilton Hotel\", \"Hotel Indigo Turks and Caicos Hilton Resort\", \"Hotel Indigo Turks and Caicos Hilton\", \"Hotel Indigo Turks and Caicos Hilton Providenciales, Turks and Caicos Islands Hotel\", \"Hotel Indigo Turks and Caicos Hilton Providenciales, Turks and Caicos Islands Resort\", \"Hotel Indigo Turks and Caicos Hilton Providenciales, Turks and Caicos Islands\", \"Hotel Indigo Turks Caicos Hotel Indigo Hotel\", \"Hotel Indigo Turks Caicos Hotel Indigo Resort\", \"Hotel Indigo Turks Caicos Hotel Indigo\", \"Hotel Indigo Turks Caicos Hotel Indigo Providenciales, Turks and Caicos Islands Hotel\", \"Hotel Indigo Turks Caicos Hotel Indigo Providenciales, Turks and Caicos Islands Resort\", \"Hotel Indigo Turks Caicos Hotel Indigo Providenciales, Turks and Caicos Islands\", \"Hotel Indigo Turks Caicos Hilton Hotel\", \"Hotel Indigo Turks Caicos Hilton Resort\", \"Hotel Indigo Turks Caicos Hilton\", \"Hotel Indigo Turks Caicos Hilton Providenciales, Turks and Caicos Islands Hotel\", \"Hotel Indigo Turks Caicos Hilton Providenciales, Turks and Caicos Islands Resort\", \"Hotel Indigo Turks Caicos Hilton Providenciales, Turks and Caicos Islands\", \"Hotel Indigo Turks and Caicos Hotel\", \"Hotel Indigo Turks and Caicos Resort\", \"Hotel Indigo Turks and Caicos\", \"Hotel Indigo Turks and Caicos Providenciales, Turks and Caicos Islands Hotel\", \"Hotel Indigo Turks and Caicos Providenciales, Turks and Caicos Islands Resort\", \"Hotel Indigo Turks and Caicos Providenciales, Turks and Caicos Islands\"], \"v\": 3}": {
+    "lat": 21.7832976,
+    "lon": -72.2009966,
+    "formatted_address": "Forbes Rd, Grace Bay TKCA 1ZZ, Turks and Caicos Islands",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ6dB3_OZPS4kRlE7-IHVFIXk",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Forbes Rd, Grace Bay TKCA 1ZZ, Turks and Caicos Islands",
+      "geometry": {
+        "location": {
+          "lat": 21.7832976,
+          "lng": -72.2009966
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 21.7846964802915,
+            "lng": -72.19948761970849
+          },
+          "southwest": {
+            "lat": 21.7819985197085,
+            "lng": -72.2021855802915
+          }
+        }
+      },
+      "name": "Hotel Indigo Turks & Caicos Grace Bay by IHG",
+      "place_id": "ChIJ6dB3_OZPS4kRlE7-IHVFIXk",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ihg.com/hotelindigo/hotels/us/en/grace-bay/plsgc/hoteldetail?cm_mmc=GoogleMaps-_-IN-_-TC-_-PLSGC"
+    }
+  },
+  "{\"brand\": \"Hyatt Regency\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hyatt Regency Zadar Hyatt Regency Hotel\", \"Hyatt Regency Zadar Hyatt Regency Resort\", \"Hyatt Regency Zadar Hyatt Regency\", \"Hyatt Regency Zadar Hyatt Regency Zadar, Croatia Hotel\", \"Hyatt Regency Zadar Hyatt Regency Zadar, Croatia Resort\", \"Hyatt Regency Zadar Hyatt Regency Zadar, Croatia\", \"Hyatt Regency Zadar Hilton Hotel\", \"Hyatt Regency Zadar Hilton Resort\", \"Hyatt Regency Zadar Hilton\", \"Hyatt Regency Zadar Hilton Zadar, Croatia Hotel\", \"Hyatt Regency Zadar Hilton Zadar, Croatia Resort\", \"Hyatt Regency Zadar Hilton Zadar, Croatia\", \"Hyatt Regency Zadar Hotel\", \"Hyatt Regency Zadar Resort\", \"Hyatt Regency Zadar\", \"Hyatt Regency Zadar Zadar, Croatia Hotel\", \"Hyatt Regency Zadar Zadar, Croatia Resort\", \"Hyatt Regency Zadar Zadar, Croatia\"], \"v\": 3}": {
+    "lat": 44.1205002,
+    "lon": 15.2259659,
+    "formatted_address": "Obala kneza Trpimira 7, 23000, Zadar, Croatia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJk8wjlS_7YUcRm4gncUFVfPA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Obala kneza Trpimira 7, 23000, Zadar, Croatia",
+      "geometry": {
+        "location": {
+          "lat": 44.1205002,
+          "lng": 15.2259659
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 44.1216867802915,
+            "lng": 15.2273830802915
+          },
+          "southwest": {
+            "lat": 44.11898881970851,
+            "lng": 15.2246851197085
+          }
+        }
+      },
+      "name": "Hyatt Regency Zadar",
+      "place_id": "ChIJk8wjlS_7YUcRm4gncUFVfPA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/hyatt-regency/en-US/zadrz-hyatt-regency-zadar?src=corp_lclb_google_seo_zadrz&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"IHG Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Barcelona IHG Hotels & Resorts Hotel\", \"InterContinental Barcelona IHG Hotels & Resorts Resort\", \"InterContinental Barcelona IHG Hotels & Resorts\", \"InterContinental Barcelona IHG Hotels & Resorts Barcelona, Spain Hotel\", \"InterContinental Barcelona IHG Hotels & Resorts Barcelona, Spain Resort\", \"InterContinental Barcelona IHG Hotels & Resorts Barcelona, Spain\", \"InterContinental Barcelona Hilton Hotel\", \"InterContinental Barcelona Hilton Resort\", \"InterContinental Barcelona Hilton\", \"InterContinental Barcelona Hilton Barcelona, Spain Hotel\", \"InterContinental Barcelona Hilton Barcelona, Spain Resort\", \"InterContinental Barcelona Hilton Barcelona, Spain\", \"Intercontinental Barcelona IHG Hotels & Resorts Hotel\", \"Intercontinental Barcelona IHG Hotels & Resorts Resort\", \"Intercontinental Barcelona IHG Hotels & Resorts\", \"Intercontinental Barcelona IHG Hotels & Resorts Barcelona, Spain Hotel\", \"Intercontinental Barcelona IHG Hotels & Resorts Barcelona, Spain Resort\", \"Intercontinental Barcelona IHG Hotels & Resorts Barcelona, Spain\", \"Intercontinental Barcelona Hilton Hotel\", \"Intercontinental Barcelona Hilton Resort\", \"Intercontinental Barcelona Hilton\", \"Intercontinental Barcelona Hilton Barcelona, Spain Hotel\", \"Intercontinental Barcelona Hilton Barcelona, Spain Resort\", \"Intercontinental Barcelona Hilton Barcelona, Spain\", \"InterContinental Barcelona Hotel\", \"InterContinental Barcelona Resort\", \"InterContinental Barcelona\", \"InterContinental Barcelona Barcelona, Spain Hotel\", \"InterContinental Barcelona Barcelona, Spain Resort\", \"InterContinental Barcelona Barcelona, Spain\"], \"v\": 3}": {
+    "lat": 41.3728056,
+    "lon": 2.1549036,
+    "formatted_address": "Av. de Rius i Taulet, 1-3, Sants-Montjuïc, 08004 Barcelona, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ31LkMmWipBIRvU1d2GgkYec",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Av. de Rius i Taulet, 1-3, Sants-Montjuïc, 08004 Barcelona, Spain",
+      "geometry": {
+        "location": {
+          "lat": 41.3728056,
+          "lng": 2.1549036
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.3742257802915,
+            "lng": 2.156241380291502
+          },
+          "southwest": {
+            "lat": 41.3715278197085,
+            "lng": 2.153543419708498
+          }
+        }
+      },
+      "name": "InterContinental Barcelona by IHG",
+      "place_id": "ChIJ31LkMmWipBIRvU1d2GgkYec",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ihg.com/intercontinental/hotels/gb/en/barcelona/bcncp/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-ES-_-BCNCP"
+    }
+  },
+  "{\"brand\": \"IHG Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Houston IHG Hotels & Resorts Hotel\", \"InterContinental Houston IHG Hotels & Resorts Resort\", \"InterContinental Houston IHG Hotels & Resorts\", \"InterContinental Houston IHG Hotels & Resorts Houston, Texas US Hotel\", \"InterContinental Houston IHG Hotels & Resorts Houston, Texas US Resort\", \"InterContinental Houston IHG Hotels & Resorts Houston, Texas US\", \"InterContinental Houston Hilton Hotel\", \"InterContinental Houston Hilton Resort\", \"InterContinental Houston Hilton\", \"InterContinental Houston Hilton Houston, Texas US Hotel\", \"InterContinental Houston Hilton Houston, Texas US Resort\", \"InterContinental Houston Hilton Houston, Texas US\", \"Intercontinental Houston IHG Hotels & Resorts Hotel\", \"Intercontinental Houston IHG Hotels & Resorts Resort\", \"Intercontinental Houston IHG Hotels & Resorts\", \"Intercontinental Houston IHG Hotels & Resorts Houston, Texas US Hotel\", \"Intercontinental Houston IHG Hotels & Resorts Houston, Texas US Resort\", \"Intercontinental Houston IHG Hotels & Resorts Houston, Texas US\", \"Intercontinental Houston Hilton Hotel\", \"Intercontinental Houston Hilton Resort\", \"Intercontinental Houston Hilton\", \"Intercontinental Houston Hilton Houston, Texas US Hotel\", \"Intercontinental Houston Hilton Houston, Texas US Resort\", \"Intercontinental Houston Hilton Houston, Texas US\", \"InterContinental Houston Hotel\", \"InterContinental Houston Resort\", \"InterContinental Houston\", \"InterContinental Houston Houston, Texas US Hotel\", \"InterContinental Houston Houston, Texas US Resort\", \"InterContinental Houston Houston, Texas US\"], \"v\": 3}": {
+    "lat": 29.7075266,
+    "lon": -95.40466029999999,
+    "formatted_address": "6750 Main St, Houston, TX 77030, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJPXkW_3HAQIYRWT_Rhzj1oc8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "6750 Main St, Houston, TX 77030, USA",
+      "geometry": {
+        "location": {
+          "lat": 29.7075266,
+          "lng": -95.40466029999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 29.7088476802915,
+            "lng": -95.40342406970849
+          },
+          "southwest": {
+            "lat": 29.7061497197085,
+            "lng": -95.4061220302915
+          }
+        }
+      },
+      "name": "InterContinental Houston by IHG",
+      "place_id": "ChIJPXkW_3HAQIYRWT_Rhzj1oc8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ihg.com/intercontinental/hotels/us/en/houston/houit/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-US-_-HOUIT"
+    }
+  },
+  "{\"brand\": \"IHG Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Real Intercontinental Lima Miraflores IHG Hotels & Resorts Hotel\", \"Real Intercontinental Lima Miraflores IHG Hotels & Resorts Resort\", \"Real Intercontinental Lima Miraflores IHG Hotels & Resorts\", \"Real Intercontinental Lima Miraflores IHG Hotels & Resorts Miraflores, Peru Hotel\", \"Real Intercontinental Lima Miraflores IHG Hotels & Resorts Miraflores, Peru Resort\", \"Real Intercontinental Lima Miraflores IHG Hotels & Resorts Miraflores, Peru\", \"Real Intercontinental Lima Miraflores Hilton Hotel\", \"Real Intercontinental Lima Miraflores Hilton Resort\", \"Real Intercontinental Lima Miraflores Hilton\", \"Real Intercontinental Lima Miraflores Hilton Miraflores, Peru Hotel\", \"Real Intercontinental Lima Miraflores Hilton Miraflores, Peru Resort\", \"Real Intercontinental Lima Miraflores Hilton Miraflores, Peru\", \"Real Intercontinental Lima Miraflores Hotel\", \"Real Intercontinental Lima Miraflores Resort\", \"Real Intercontinental Lima Miraflores\", \"Real Intercontinental Lima Miraflores Miraflores, Peru Hotel\", \"Real Intercontinental Lima Miraflores Miraflores, Peru Resort\", \"Real Intercontinental Lima Miraflores Miraflores, Peru\"], \"v\": 3}": {
+    "lat": -12.1328964,
+    "lon": -77.0292656,
+    "formatted_address": "And 767, Mal. de la Reserva 751, Miraflores 15074, Peru",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJezzOg_y3BZERljRCq6ssYMw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "And 767, Mal. de la Reserva 751, Miraflores 15074, Peru",
+      "geometry": {
+        "location": {
+          "lat": -12.1328964,
+          "lng": -77.0292656
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -12.1315824197085,
+            "lng": -77.0279849697085
+          },
+          "southwest": {
+            "lat": -12.1342803802915,
+            "lng": -77.0306829302915
+          }
+        }
+      },
+      "name": "InterContinental Real Lima Miraflores by IHG",
+      "place_id": "ChIJezzOg_y3BZERljRCq6ssYMw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ihg.com/intercontinental/hotels/us/en/lima/limha/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-PE-_-LIMHA"
+    }
+  },
+  "{\"brand\": \"JW Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"JW Marriott Las Vegas Resort & Spa JW Marriott Hotel\", \"JW Marriott Las Vegas Resort & Spa JW Marriott Resort\", \"JW Marriott Las Vegas Resort & Spa JW Marriott\", \"JW Marriott Las Vegas Resort & Spa JW Marriott Las Vegas, Nevada US Hotel\", \"JW Marriott Las Vegas Resort & Spa JW Marriott Las Vegas, Nevada US Resort\", \"JW Marriott Las Vegas Resort & Spa JW Marriott Las Vegas, Nevada US\", \"JW Marriott Las Vegas Resort & Spa Hilton Hotel\", \"JW Marriott Las Vegas Resort & Spa Hilton Resort\", \"JW Marriott Las Vegas Resort & Spa Hilton\", \"JW Marriott Las Vegas Resort & Spa Hilton Las Vegas, Nevada US Hotel\", \"JW Marriott Las Vegas Resort & Spa Hilton Las Vegas, Nevada US Resort\", \"JW Marriott Las Vegas Resort & Spa Hilton Las Vegas, Nevada US\", \"Jw Marriott Las Vegas Resort Spa JW Marriott Hotel\", \"Jw Marriott Las Vegas Resort Spa JW Marriott Resort\", \"Jw Marriott Las Vegas Resort Spa JW Marriott\", \"Jw Marriott Las Vegas Resort Spa JW Marriott Las Vegas, Nevada US Hotel\", \"Jw Marriott Las Vegas Resort Spa JW Marriott Las Vegas, Nevada US Resort\", \"Jw Marriott Las Vegas Resort Spa JW Marriott Las Vegas, Nevada US\", \"Jw Marriott Las Vegas Resort Spa Hilton Hotel\", \"Jw Marriott Las Vegas Resort Spa Hilton Resort\", \"Jw Marriott Las Vegas Resort Spa Hilton\", \"Jw Marriott Las Vegas Resort Spa Hilton Las Vegas, Nevada US Hotel\", \"Jw Marriott Las Vegas Resort Spa Hilton Las Vegas, Nevada US Resort\", \"Jw Marriott Las Vegas Resort Spa Hilton Las Vegas, Nevada US\", \"JW Marriott Las Vegas Resort & Spa Hotel\", \"JW Marriott Las Vegas Resort & Spa Resort\", \"JW Marriott Las Vegas Resort & Spa\", \"JW Marriott Las Vegas Resort & Spa Las Vegas, Nevada US Hotel\", \"JW Marriott Las Vegas Resort & Spa Las Vegas, Nevada US Resort\", \"JW Marriott Las Vegas Resort & Spa Las Vegas, Nevada US\"], \"v\": 3}": {
+    "lat": 36.1758508,
+    "lon": -115.2911168,
+    "formatted_address": "221 N Rampart Blvd, Las Vegas, NV 89145, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJJ4gNeYy_yIAR0ggUAavcT3g",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "221 N Rampart Blvd, Las Vegas, NV 89145, USA",
+      "geometry": {
+        "location": {
+          "lat": 36.1758508,
+          "lng": -115.2911168
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.1762292302915,
+            "lng": -115.2872091
+          },
+          "southwest": {
+            "lat": 36.1735312697085,
+            "lng": -115.2942868
+          }
+        }
+      },
+      "name": "JW Marriott Las Vegas Resort & Spa",
+      "place_id": "ChIJJ4gNeYy_yIAR0ggUAavcT3g",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/lasjw-jw-marriott-las-vegas-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Kimpton Hotels & Restaurants\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Kimpton Atlantico Algarve Kimpton Hotels & Restaurants Hotel\", \"Kimpton Atlantico Algarve Kimpton Hotels & Restaurants Resort\", \"Kimpton Atlantico Algarve Kimpton Hotels & Restaurants\", \"Kimpton Atlantico Algarve Kimpton Hotels & Restaurants Albufeira, Portugal Hotel\", \"Kimpton Atlantico Algarve Kimpton Hotels & Restaurants Albufeira, Portugal Resort\", \"Kimpton Atlantico Algarve Kimpton Hotels & Restaurants Albufeira, Portugal\", \"Kimpton Atlantico Algarve Hilton Hotel\", \"Kimpton Atlantico Algarve Hilton Resort\", \"Kimpton Atlantico Algarve Hilton\", \"Kimpton Atlantico Algarve Hilton Albufeira, Portugal Hotel\", \"Kimpton Atlantico Algarve Hilton Albufeira, Portugal Resort\", \"Kimpton Atlantico Algarve Hilton Albufeira, Portugal\", \"Kimpton Atlantico Algarve Hotel\", \"Kimpton Atlantico Algarve Resort\", \"Kimpton Atlantico Algarve\", \"Kimpton Atlantico Algarve Albufeira, Portugal Hotel\", \"Kimpton Atlantico Algarve Albufeira, Portugal Resort\", \"Kimpton Atlantico Algarve Albufeira, Portugal\"], \"v\": 3}": {
+    "lat": 37.077708,
+    "lon": -8.281442799999999,
+    "formatted_address": "R. dos Corais, 8200-613 Albufeira, Portugal",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJdRnZ48LNGg0R7-qktXgykfQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "R. dos Corais, 8200-613 Albufeira, Portugal",
+      "geometry": {
+        "location": {
+          "lat": 37.077708,
+          "lng": -8.281442799999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.0790807302915,
+            "lng": -8.280373769708499
+          },
+          "southwest": {
+            "lat": 37.0763827697085,
+            "lng": -8.283071730291503
+          }
+        }
+      },
+      "name": "Kimpton Atlântico Algarve",
+      "place_id": "ChIJdRnZ48LNGg0R7-qktXgykfQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail?cm_mmc=GoogleMaps-_-KI-_-PT-_-FAOKM"
+    }
+  },
+  "{\"brand\": \"Kimpton Hotels & Restaurants\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Kimpton Tsim Sha Tsui Hong Kong Kimpton Hotels & Restaurants Hotel\", \"Kimpton Tsim Sha Tsui Hong Kong Kimpton Hotels & Restaurants Resort\", \"Kimpton Tsim Sha Tsui Hong Kong Kimpton Hotels & Restaurants\", \"Kimpton Tsim Sha Tsui Hong Kong Kimpton Hotels & Restaurants Hong Kong, China Hotel\", \"Kimpton Tsim Sha Tsui Hong Kong Kimpton Hotels & Restaurants Hong Kong, China Resort\", \"Kimpton Tsim Sha Tsui Hong Kong Kimpton Hotels & Restaurants Hong Kong, China\", \"Kimpton Tsim Sha Tsui Hong Kong Hilton Hotel\", \"Kimpton Tsim Sha Tsui Hong Kong Hilton Resort\", \"Kimpton Tsim Sha Tsui Hong Kong Hilton\", \"Kimpton Tsim Sha Tsui Hong Kong Hilton Hong Kong, China Hotel\", \"Kimpton Tsim Sha Tsui Hong Kong Hilton Hong Kong, China Resort\", \"Kimpton Tsim Sha Tsui Hong Kong Hilton Hong Kong, China\", \"Kimpton Tsim Sha Tsui Hong Kong Hotel\", \"Kimpton Tsim Sha Tsui Hong Kong Resort\", \"Kimpton Tsim Sha Tsui Hong Kong\", \"Kimpton Tsim Sha Tsui Hong Kong Hong Kong, China Hotel\", \"Kimpton Tsim Sha Tsui Hong Kong Hong Kong, China Resort\", \"Kimpton Tsim Sha Tsui Hong Kong Hong Kong, China\"], \"v\": 3}": {
+    "lat": 22.2957628,
+    "lon": 114.1737312,
+    "formatted_address": "11 Middle Rd, Tsim Sha Tsui, Hong Kong",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJoapdqMYBBDQRkGK50zj_Jko",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "11 Middle Rd, Tsim Sha Tsui, Hong Kong",
+      "geometry": {
+        "location": {
+          "lat": 22.2957628,
+          "lng": 114.1737312
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 22.2970627802915,
+            "lng": 114.1749713802915
+          },
+          "southwest": {
+            "lat": 22.29436481970849,
+            "lng": 114.1722734197085
+          }
+        }
+      },
+      "name": "Kimpton Tsim Sha Tsui Hong Kong",
+      "place_id": "ChIJoapdqMYBBDQRkGK50zj_Jko",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://kimptonhongkong.com/"
+    }
+  },
+  "{\"brand\": \"Kimpton Hotels & Restaurants\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Kimpton Mirador Pacific Grove Kimpton Hotels & Restaurants Hotel\", \"Kimpton Mirador Pacific Grove Kimpton Hotels & Restaurants Resort\", \"Kimpton Mirador Pacific Grove Kimpton Hotels & Restaurants\", \"Kimpton Mirador Pacific Grove Kimpton Hotels & Restaurants Pacific Grove, California US Hotel\", \"Kimpton Mirador Pacific Grove Kimpton Hotels & Restaurants Pacific Grove, California US Resort\", \"Kimpton Mirador Pacific Grove Kimpton Hotels & Restaurants Pacific Grove, California US\", \"Kimpton Mirador Pacific Grove Hilton Hotel\", \"Kimpton Mirador Pacific Grove Hilton Resort\", \"Kimpton Mirador Pacific Grove Hilton\", \"Kimpton Mirador Pacific Grove Hilton Pacific Grove, California US Hotel\", \"Kimpton Mirador Pacific Grove Hilton Pacific Grove, California US Resort\", \"Kimpton Mirador Pacific Grove Hilton Pacific Grove, California US\", \"Kimpton Mirador Pacific Grove Hotel\", \"Kimpton Mirador Pacific Grove Resort\", \"Kimpton Mirador Pacific Grove\", \"Kimpton Mirador Pacific Grove Pacific Grove, California US Hotel\", \"Kimpton Mirador Pacific Grove Pacific Grove, California US Resort\", \"Kimpton Mirador Pacific Grove Pacific Grove, California US\"], \"v\": 3}": {
+    "lat": 36.6218128,
+    "lon": -121.9165031,
+    "formatted_address": "150 Fountain Ave, Pacific Grove, CA 93950, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJaXhe9U7hjYAR0ZKrs-ltrqw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "150 Fountain Ave, Pacific Grove, CA 93950, USA",
+      "geometry": {
+        "location": {
+          "lat": 36.6218128,
+          "lng": -121.9165031
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.6231166802915,
+            "lng": -121.9149942697085
+          },
+          "southwest": {
+            "lat": 36.6204187197085,
+            "lng": -121.9176922302915
+          }
+        }
+      },
+      "name": "Kimpton Mirador Pacific Grove Monterey by IHG",
+      "place_id": "ChIJaXhe9U7hjYAR0ZKrs-ltrqw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ihg.com/kimptonhotels/hotels/us/en/pacific-grove/mrypg/hoteldetail?cm_mmc=GoogleMaps-_-KI-_-US-_-MRYPG"
+    }
+  },
+  "{\"brand\": \"Kimpton Hotels & Restaurants\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Kimpton Miralina Resort & Villas Kimpton Hotels & Restaurants Hotel\", \"Kimpton Miralina Resort & Villas Kimpton Hotels & Restaurants Resort\", \"Kimpton Miralina Resort & Villas Kimpton Hotels & Restaurants\", \"Kimpton Miralina Resort & Villas Kimpton Hotels & Restaurants Scottsdale, Arizona US Hotel\", \"Kimpton Miralina Resort & Villas Kimpton Hotels & Restaurants Scottsdale, Arizona US Resort\", \"Kimpton Miralina Resort & Villas Kimpton Hotels & Restaurants Scottsdale, Arizona US\", \"Kimpton Miralina Resort & Villas Hilton Hotel\", \"Kimpton Miralina Resort & Villas Hilton Resort\", \"Kimpton Miralina Resort & Villas Hilton\", \"Kimpton Miralina Resort & Villas Hilton Scottsdale, Arizona US Hotel\", \"Kimpton Miralina Resort & Villas Hilton Scottsdale, Arizona US Resort\", \"Kimpton Miralina Resort & Villas Hilton Scottsdale, Arizona US\", \"Kimpton Miralina Resort Villas Kimpton Hotels & Restaurants Hotel\", \"Kimpton Miralina Resort Villas Kimpton Hotels & Restaurants Resort\", \"Kimpton Miralina Resort Villas Kimpton Hotels & Restaurants\", \"Kimpton Miralina Resort Villas Kimpton Hotels & Restaurants Scottsdale, Arizona US Hotel\", \"Kimpton Miralina Resort Villas Kimpton Hotels & Restaurants Scottsdale, Arizona US Resort\", \"Kimpton Miralina Resort Villas Kimpton Hotels & Restaurants Scottsdale, Arizona US\", \"Kimpton Miralina Resort Villas Hilton Hotel\", \"Kimpton Miralina Resort Villas Hilton Resort\", \"Kimpton Miralina Resort Villas Hilton\", \"Kimpton Miralina Resort Villas Hilton Scottsdale, Arizona US Hotel\", \"Kimpton Miralina Resort Villas Hilton Scottsdale, Arizona US Resort\", \"Kimpton Miralina Resort Villas Hilton Scottsdale, Arizona US\", \"Kimpton Miralina Resort & Villas Hotel\", \"Kimpton Miralina Resort & Villas Resort\", \"Kimpton Miralina Resort & Villas\", \"Kimpton Miralina Resort & Villas Scottsdale, Arizona US Hotel\", \"Kimpton Miralina Resort & Villas Scottsdale, Arizona US Resort\", \"Kimpton Miralina Resort & Villas Scottsdale, Arizona US\"], \"v\": 3}": {
+    "lat": 33.5415116,
+    "lon": -111.9261462,
+    "formatted_address": "7200 N Scottsdale Rd, Scottsdale, AZ 85253, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ3wi6OD8LK4cRmXdKJ7P9Qu8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "7200 N Scottsdale Rd, Scottsdale, AZ 85253, USA",
+      "geometry": {
+        "location": {
+          "lat": 33.5415116,
+          "lng": -111.9261462
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.54285228029149,
+            "lng": -111.9248726697085
+          },
+          "southwest": {
+            "lat": 33.5401543197085,
+            "lng": -111.9275706302915
+          }
+        }
+      },
+      "name": "Kimpton Miralina Resort & Villas",
+      "place_id": "ChIJ3wi6OD8LK4cRmXdKJ7P9Qu8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.miralinaresort.com/?cm_mmc=WEB-_-KI-_-AMER-_-EN-_-EV-_-Google%20Business%20Profile-_-DD-_-miralina"
+    }
+  },
+  "{\"brand\": \"Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Leo Kent Marriott Hotel\", \"The Leo Kent Marriott Resort\", \"The Leo Kent Marriott\", \"The Leo Kent Marriott Tucson, Arizona US Hotel\", \"The Leo Kent Marriott Tucson, Arizona US Resort\", \"The Leo Kent Marriott Tucson, Arizona US\", \"The Leo Kent Hilton Hotel\", \"The Leo Kent Hilton Resort\", \"The Leo Kent Hilton\", \"The Leo Kent Hilton Tucson, Arizona US Hotel\", \"The Leo Kent Hilton Tucson, Arizona US Resort\", \"The Leo Kent Hilton Tucson, Arizona US\", \"The Leo Kent Hotel\", \"The Leo Kent Resort\", \"The Leo Kent\", \"The Leo Kent Tucson, Arizona US Hotel\", \"The Leo Kent Tucson, Arizona US Resort\", \"The Leo Kent Tucson, Arizona US\"], \"v\": 3}": {
+    "lat": 32.2215422,
+    "lon": -110.9721142,
+    "formatted_address": "1 S Church Ave, Tucson, AZ 85701, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJVVVlSeBw1oYRwuQMh5brgoI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1 S Church Ave, Tucson, AZ 85701, USA",
+      "geometry": {
+        "location": {
+          "lat": 32.2215422,
+          "lng": -110.9721142
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.2228697802915,
+            "lng": -110.9708608697085
+          },
+          "southwest": {
+            "lat": 32.2201718197085,
+            "lng": -110.9735588302915
+          }
+        }
+      },
+      "name": "The Leo Kent Hotel, Tucson, a Tribute Portfolio Hotel",
+      "place_id": "ChIJVVVlSeBw1oYRwuQMh5brgoI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/tustx-the-leo-kent-hotel-tucson-a-tribute-portfolio-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"ME by Meli\\u00e1\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"ME Marbella ME by Meli\\u00e1 Hotel\", \"ME Marbella ME by Meli\\u00e1 Resort\", \"ME Marbella ME by Meli\\u00e1\", \"ME Marbella ME by Meli\\u00e1 Marbella, Spain Hotel\", \"ME Marbella ME by Meli\\u00e1 Marbella, Spain Resort\", \"ME Marbella ME by Meli\\u00e1 Marbella, Spain\", \"ME Marbella Hilton Hotel\", \"ME Marbella Hilton Resort\", \"ME Marbella Hilton\", \"ME Marbella Hilton Marbella, Spain Hotel\", \"ME Marbella Hilton Marbella, Spain Resort\", \"ME Marbella Hilton Marbella, Spain\", \"Me Marbella ME by Meli\\u00e1 Hotel\", \"Me Marbella ME by Meli\\u00e1 Resort\", \"Me Marbella ME by Meli\\u00e1\", \"Me Marbella ME by Meli\\u00e1 Marbella, Spain Hotel\", \"Me Marbella ME by Meli\\u00e1 Marbella, Spain Resort\", \"Me Marbella ME by Meli\\u00e1 Marbella, Spain\", \"Me Marbella Hilton Hotel\", \"Me Marbella Hilton Resort\", \"Me Marbella Hilton\", \"Me Marbella Hilton Marbella, Spain Hotel\", \"Me Marbella Hilton Marbella, Spain Resort\", \"Me Marbella Hilton Marbella, Spain\", \"ME Marbella Hotel\", \"ME Marbella Resort\", \"ME Marbella\", \"ME Marbella Marbella, Spain Hotel\", \"ME Marbella Marbella, Spain Resort\", \"ME Marbella Marbella, Spain\"], \"v\": 3}": {
+    "lat": 36.495278,
+    "lon": -4.946943999999999,
+    "formatted_address": "C/ Mario, C/ Vargas Llosa, Nueva Andalucía, 29660 Marbella, Málaga, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJY5ONPcUpcw0RyGFdhA7AJ_k",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "C/ Mario, C/ Vargas Llosa, Nueva Andalucía, 29660 Marbella, Málaga, Spain",
+      "geometry": {
+        "location": {
+          "lat": 36.495278,
+          "lng": -4.946943999999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.4966023802915,
+            "lng": -4.945587869708497
+          },
+          "southwest": {
+            "lat": 36.4939044197085,
+            "lng": -4.948285830291502
+          }
+        }
+      },
+      "name": "ME Marbella",
+      "place_id": "ChIJY5ONPcUpcw0RyGFdhA7AJ_k",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.melia.com/en/hotels/spain/marbella/me-marbella?utm_campaign=google&utm_content=2931&utm_medium=organic&utm_source=directories"
+    }
+  },
+  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Liora Estate Preferred Hotels & Resorts Hotel\", \"Liora Estate Preferred Hotels & Resorts Resort\", \"Liora Estate Preferred Hotels & Resorts\", \"Liora Estate Preferred Hotels & Resorts Healdsburg, California US Hotel\", \"Liora Estate Preferred Hotels & Resorts Healdsburg, California US Resort\", \"Liora Estate Preferred Hotels & Resorts Healdsburg, California US\", \"Liora Estate Hilton Hotel\", \"Liora Estate Hilton Resort\", \"Liora Estate Hilton\", \"Liora Estate Hilton Healdsburg, California US Hotel\", \"Liora Estate Hilton Healdsburg, California US Resort\", \"Liora Estate Hilton Healdsburg, California US\", \"Liora Estate Hotel\", \"Liora Estate Resort\", \"Liora Estate\", \"Liora Estate Healdsburg, California US Hotel\", \"Liora Estate Healdsburg, California US Resort\", \"Liora Estate Healdsburg, California US\"], \"v\": 3}": {
+    "lat": 38.61215199999999,
+    "lon": -122.871571,
+    "formatted_address": "27 North St, Healdsburg, CA 95448, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJfyp3ZjQXhIARn0vqaLaR84s",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "27 North St, Healdsburg, CA 95448, USA",
+      "geometry": {
+        "location": {
+          "lat": 38.61215199999999,
+          "lng": -122.871571
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.61350098029149,
+            "lng": -122.8702220197085
+          },
+          "southwest": {
+            "lat": 38.6108030197085,
+            "lng": -122.8729199802915
+          }
+        }
+      },
+      "name": "Liora Estate",
+      "place_id": "ChIJfyp3ZjQXhIARn0vqaLaR84s",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
+    }
+  },
+  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Newman Preferred Hotels & Resorts Hotel\", \"The Newman Preferred Hotels & Resorts Resort\", \"The Newman Preferred Hotels & Resorts\", \"The Newman Preferred Hotels & Resorts London, England Hotel\", \"The Newman Preferred Hotels & Resorts London, England Resort\", \"The Newman Preferred Hotels & Resorts London, England\", \"The Newman Hilton Hotel\", \"The Newman Hilton Resort\", \"The Newman Hilton\", \"The Newman Hilton London, England Hotel\", \"The Newman Hilton London, England Resort\", \"The Newman Hilton London, England\", \"The Newman Hotel\", \"The Newman Resort\", \"The Newman\", \"The Newman London, England Hotel\", \"The Newman London, England Resort\", \"The Newman London, England\"], \"v\": 3}": {
+    "lat": 51.5185369,
+    "lon": -0.1364637,
+    "formatted_address": "50 Newman St, London W1T 3EB, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJCcPG3fYbdkgREeKitgKwD_0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "50 Newman St, London W1T 3EB, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.5185369,
+          "lng": -0.1364637
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5199125802915,
+            "lng": -0.135075769708498
+          },
+          "southwest": {
+            "lat": 51.5172146197085,
+            "lng": -0.137773730291502
+          }
+        }
+      },
+      "name": "The Newman",
+      "place_id": "ChIJCcPG3fYbdkgREeKitgKwD_0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.thenewman.com/"
+    }
+  },
+  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Vinarosa Resort & Spa Preferred Hotels & Resorts Hotel\", \"Vinarosa Resort & Spa Preferred Hotels & Resorts Resort\", \"Vinarosa Resort & Spa Preferred Hotels & Resorts\", \"Vinarosa Resort & Spa Preferred Hotels & Resorts Santa Rosa, California US Hotel\", \"Vinarosa Resort & Spa Preferred Hotels & Resorts Santa Rosa, California US Resort\", \"Vinarosa Resort & Spa Preferred Hotels & Resorts Santa Rosa, California US\", \"Vinarosa Resort & Spa Hilton Hotel\", \"Vinarosa Resort & Spa Hilton Resort\", \"Vinarosa Resort & Spa Hilton\", \"Vinarosa Resort & Spa Hilton Santa Rosa, California US Hotel\", \"Vinarosa Resort & Spa Hilton Santa Rosa, California US Resort\", \"Vinarosa Resort & Spa Hilton Santa Rosa, California US\", \"Vinarosa Resort Spa Preferred Hotels & Resorts Hotel\", \"Vinarosa Resort Spa Preferred Hotels & Resorts Resort\", \"Vinarosa Resort Spa Preferred Hotels & Resorts\", \"Vinarosa Resort Spa Preferred Hotels & Resorts Santa Rosa, California US Hotel\", \"Vinarosa Resort Spa Preferred Hotels & Resorts Santa Rosa, California US Resort\", \"Vinarosa Resort Spa Preferred Hotels & Resorts Santa Rosa, California US\", \"Vinarosa Resort Spa Hilton Hotel\", \"Vinarosa Resort Spa Hilton Resort\", \"Vinarosa Resort Spa Hilton\", \"Vinarosa Resort Spa Hilton Santa Rosa, California US Hotel\", \"Vinarosa Resort Spa Hilton Santa Rosa, California US Resort\", \"Vinarosa Resort Spa Hilton Santa Rosa, California US\", \"Vinarosa Resort & Spa Hotel\", \"Vinarosa Resort & Spa Resort\", \"Vinarosa Resort & Spa\", \"Vinarosa Resort & Spa Santa Rosa, California US Hotel\", \"Vinarosa Resort & Spa Santa Rosa, California US Resort\", \"Vinarosa Resort & Spa Santa Rosa, California US\"], \"v\": 3}": {
+    "lat": 38.49557679999999,
+    "lon": -122.7593962,
+    "formatted_address": "4350 Barnes Rd, Santa Rosa, CA 95403, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJv2ii0tU4hIARkocdtRAl0KQ",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "4350 Barnes Rd, Santa Rosa, CA 95403, USA",
+      "geometry": {
+        "location": {
+          "lat": 38.49557679999999,
+          "lng": -122.7593962
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.49685538029149,
+            "lng": -122.7582451697085
+          },
+          "southwest": {
+            "lat": 38.49415741970849,
+            "lng": -122.7609431302915
+          }
+        }
+      },
+      "name": "Vinarosa Resort & Spa",
+      "place_id": "ChIJv2ii0tU4hIARkocdtRAl0KQ",
+      "types": [
+        "cafe",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://vinarosaresort.com/"
+    }
+  },
+  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Magnolia Preferred Hotels & Resorts Hotel\", \"Hotel Magnolia Preferred Hotels & Resorts Resort\", \"Hotel Magnolia Preferred Hotels & Resorts\", \"Hotel Magnolia Preferred Hotels & Resorts Santiago, Chile Hotel\", \"Hotel Magnolia Preferred Hotels & Resorts Santiago, Chile Resort\", \"Hotel Magnolia Preferred Hotels & Resorts Santiago, Chile\", \"Hotel Magnolia Hilton Hotel\", \"Hotel Magnolia Hilton Resort\", \"Hotel Magnolia Hilton\", \"Hotel Magnolia Hilton Santiago, Chile Hotel\", \"Hotel Magnolia Hilton Santiago, Chile Resort\", \"Hotel Magnolia Hilton Santiago, Chile\", \"Hotel Magnolia Hotel\", \"Hotel Magnolia Resort\", \"Hotel Magnolia\", \"Hotel Magnolia Santiago, Chile Hotel\", \"Hotel Magnolia Santiago, Chile Resort\", \"Hotel Magnolia Santiago, Chile\"], \"v\": 3}": {
+    "lat": 32.7801591,
+    "lon": -96.7991098,
+    "formatted_address": "1401 Commerce St, Dallas, TX 75201, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJEceT6RiZToYRamCabf48B6k",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1401 Commerce St, Dallas, TX 75201, USA",
+      "geometry": {
+        "location": {
+          "lat": 32.7801591,
+          "lng": -96.7991098
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.7813738802915,
+            "lng": -96.79757051970849
+          },
+          "southwest": {
+            "lat": 32.7786759197085,
+            "lng": -96.8002684802915
+          }
+        }
+      },
+      "name": "Magnolia Dallas Downtown",
+      "place_id": "ChIJEceT6RiZToYRamCabf48B6k",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://magnoliahotels.com/dallas-downtown/?utm_source=local&utm_medium=organic&utm_campaign=gmb"
+    }
+  },
+  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Principi di Piemonte UNA Esperienze Preferred Hotels & Resorts Hotel\", \"Principi di Piemonte UNA Esperienze Preferred Hotels & Resorts Resort\", \"Principi di Piemonte UNA Esperienze Preferred Hotels & Resorts\", \"Principi di Piemonte UNA Esperienze Preferred Hotels & Resorts Torino, Italy Hotel\", \"Principi di Piemonte UNA Esperienze Preferred Hotels & Resorts Torino, Italy Resort\", \"Principi di Piemonte UNA Esperienze Preferred Hotels & Resorts Torino, Italy\", \"Principi di Piemonte UNA Esperienze Hilton Hotel\", \"Principi di Piemonte UNA Esperienze Hilton Resort\", \"Principi di Piemonte UNA Esperienze Hilton\", \"Principi di Piemonte UNA Esperienze Hilton Torino, Italy Hotel\", \"Principi di Piemonte UNA Esperienze Hilton Torino, Italy Resort\", \"Principi di Piemonte UNA Esperienze Hilton Torino, Italy\", \"Principi Di Piemonte Una Esperienze Preferred Hotels & Resorts Hotel\", \"Principi Di Piemonte Una Esperienze Preferred Hotels & Resorts Resort\", \"Principi Di Piemonte Una Esperienze Preferred Hotels & Resorts\", \"Principi Di Piemonte Una Esperienze Preferred Hotels & Resorts Torino, Italy Hotel\", \"Principi Di Piemonte Una Esperienze Preferred Hotels & Resorts Torino, Italy Resort\", \"Principi Di Piemonte Una Esperienze Preferred Hotels & Resorts Torino, Italy\", \"Principi Di Piemonte Una Esperienze Hilton Hotel\", \"Principi Di Piemonte Una Esperienze Hilton Resort\", \"Principi Di Piemonte Una Esperienze Hilton\", \"Principi Di Piemonte Una Esperienze Hilton Torino, Italy Hotel\", \"Principi Di Piemonte Una Esperienze Hilton Torino, Italy Resort\", \"Principi Di Piemonte Una Esperienze Hilton Torino, Italy\", \"Principi di Piemonte UNA Esperienze Hotel\", \"Principi di Piemonte UNA Esperienze Resort\", \"Principi di Piemonte UNA Esperienze\", \"Principi di Piemonte UNA Esperienze Torino, Italy Hotel\", \"Principi di Piemonte UNA Esperienze Torino, Italy Resort\", \"Principi di Piemonte UNA Esperienze Torino, Italy\"], \"v\": 3}": {
+    "lat": 45.0649945,
+    "lon": 7.6817011,
+    "formatted_address": "Via Piero Gobetti, 15, 10123 Torino TO, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJG8JRQk0UiEcR5Mc4PIkD7ik",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Piero Gobetti, 15, 10123 Torino TO, Italy",
+      "geometry": {
+        "location": {
+          "lat": 45.0649945,
+          "lng": 7.6817011
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.06639038029149,
+            "lng": 7.682909780291501
+          },
+          "southwest": {
+            "lat": 45.0636924197085,
+            "lng": 7.680211819708497
+          }
+        }
+      },
+      "name": "Principi di Piemonte",
+      "place_id": "ChIJG8JRQk0UiEcR5Mc4PIkD7ik",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.unaitalianhospitality.com/it/soggiorni/principi-di-piemonte-una-esperienze"
+    }
+  },
+  "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Kozmo Hotel Suites And Spa Small Luxury Hotels of the World Hotel\", \"Kozmo Hotel Suites And Spa Small Luxury Hotels of the World Resort\", \"Kozmo Hotel Suites And Spa Small Luxury Hotels of the World\", \"Kozmo Hotel Suites And Spa Small Luxury Hotels of the World Budapest, Hungary Hotel\", \"Kozmo Hotel Suites And Spa Small Luxury Hotels of the World Budapest, Hungary Resort\", \"Kozmo Hotel Suites And Spa Small Luxury Hotels of the World Budapest, Hungary\", \"Kozmo Hotel Suites And Spa Hilton Hotel\", \"Kozmo Hotel Suites And Spa Hilton Resort\", \"Kozmo Hotel Suites And Spa Hilton\", \"Kozmo Hotel Suites And Spa Hilton Budapest, Hungary Hotel\", \"Kozmo Hotel Suites And Spa Hilton Budapest, Hungary Resort\", \"Kozmo Hotel Suites And Spa Hilton Budapest, Hungary\", \"Kozmo Hotel Suites Spa Small Luxury Hotels of the World Hotel\", \"Kozmo Hotel Suites Spa Small Luxury Hotels of the World Resort\", \"Kozmo Hotel Suites Spa Small Luxury Hotels of the World\", \"Kozmo Hotel Suites Spa Small Luxury Hotels of the World Budapest, Hungary Hotel\", \"Kozmo Hotel Suites Spa Small Luxury Hotels of the World Budapest, Hungary Resort\", \"Kozmo Hotel Suites Spa Small Luxury Hotels of the World Budapest, Hungary\", \"Kozmo Hotel Suites Spa Hilton Hotel\", \"Kozmo Hotel Suites Spa Hilton Resort\", \"Kozmo Hotel Suites Spa Hilton\", \"Kozmo Hotel Suites Spa Hilton Budapest, Hungary Hotel\", \"Kozmo Hotel Suites Spa Hilton Budapest, Hungary Resort\", \"Kozmo Hotel Suites Spa Hilton Budapest, Hungary\", \"Kozmo Hotel Suites And Spa Hotel\", \"Kozmo Hotel Suites And Spa Resort\", \"Kozmo Hotel Suites And Spa\", \"Kozmo Hotel Suites And Spa Budapest, Hungary Hotel\", \"Kozmo Hotel Suites And Spa Budapest, Hungary Resort\", \"Kozmo Hotel Suites And Spa Budapest, Hungary\"], \"v\": 3}": {
+    "lat": 47.4900199,
+    "lon": 19.0747825,
+    "formatted_address": "Budapest, Horváth Mihály tér 17, 1082 Hungary",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJbyrtH1_dQUcRrf9JBGG_Z_M",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Budapest, Horváth Mihály tér 17, 1082 Hungary",
+      "geometry": {
+        "location": {
+          "lat": 47.4900199,
+          "lng": 19.0747825
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.4913201802915,
+            "lng": 19.0761523302915
+          },
+          "southwest": {
+            "lat": 47.4886222197085,
+            "lng": 19.0734543697085
+          }
+        }
+      },
+      "name": "Kozmo Hotel Suites & Spa - Small Luxury Hotels",
+      "place_id": "ChIJbyrtH1_dQUcRrf9JBGG_Z_M",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.kozmohotelbudapest.com/"
+    }
+  },
+  "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Le Marne Relais Small Luxury Hotels of the World Hotel\", \"Le Marne Relais Small Luxury Hotels of the World Resort\", \"Le Marne Relais Small Luxury Hotels of the World\", \"Le Marne Relais Small Luxury Hotels of the World Costigliole d'Asti, Italy Hotel\", \"Le Marne Relais Small Luxury Hotels of the World Costigliole d'Asti, Italy Resort\", \"Le Marne Relais Small Luxury Hotels of the World Costigliole d'Asti, Italy\", \"Le Marne Relais Hilton Hotel\", \"Le Marne Relais Hilton Resort\", \"Le Marne Relais Hilton\", \"Le Marne Relais Hilton Costigliole d'Asti, Italy Hotel\", \"Le Marne Relais Hilton Costigliole d'Asti, Italy Resort\", \"Le Marne Relais Hilton Costigliole d'Asti, Italy\", \"Le Marne Relais Hotel\", \"Le Marne Relais Resort\", \"Le Marne Relais\", \"Le Marne Relais Costigliole d'Asti, Italy Hotel\", \"Le Marne Relais Costigliole d'Asti, Italy Resort\", \"Le Marne Relais Costigliole d'Asti, Italy\"], \"v\": 3}": {
+    "lat": 44.7862867,
+    "lon": 8.2166365,
+    "formatted_address": "Str. Pasquana, 5, 14055 Costigliole d'Asti AT, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJoTASJKKNh0cRZYfzO36qfvI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Str. Pasquana, 5, 14055 Costigliole d'Asti AT, Italy",
+      "geometry": {
+        "location": {
+          "lat": 44.7862867,
+          "lng": 8.2166365
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 44.7875756802915,
+            "lng": 8.218152280291502
+          },
+          "southwest": {
+            "lat": 44.7848777197085,
+            "lng": 8.215454319708497
+          }
+        }
+      },
+      "name": "Le Marne Relais",
+      "place_id": "ChIJoTASJKKNh0cRZYfzO36qfvI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.lemarnerelais.it/"
+    }
+  },
+  "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
+    "lat": 43.4815139,
+    "lon": -110.7666781,
+    "formatted_address": "175 N Jackson St, Jackson, WY 83001, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJya08C2caU1MRMnBQwKj8Cxg",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "175 N Jackson St, Jackson, WY 83001, USA",
+      "geometry": {
+        "location": {
+          "lat": 43.4815139,
+          "lng": -110.7666781
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.48283488029151,
+            "lng": -110.7653294197085
+          },
+          "southwest": {
+            "lat": 43.48013691970851,
+            "lng": -110.7680273802915
+          }
+        }
+      },
+      "name": "The Rusty Parrot Lodge and Spa",
+      "place_id": "ChIJya08C2caU1MRMnBQwKj8Cxg",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.rustyparrot.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-website-hotel"
+    }
+  },
+  "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Urso Small Luxury Hotels of the World Hotel\", \"Hotel Urso Small Luxury Hotels of the World Resort\", \"Hotel Urso Small Luxury Hotels of the World\", \"Hotel Urso Small Luxury Hotels of the World Madrid, Spain Hotel\", \"Hotel Urso Small Luxury Hotels of the World Madrid, Spain Resort\", \"Hotel Urso Small Luxury Hotels of the World Madrid, Spain\", \"Hotel Urso Hilton Hotel\", \"Hotel Urso Hilton Resort\", \"Hotel Urso Hilton\", \"Hotel Urso Hilton Madrid, Spain Hotel\", \"Hotel Urso Hilton Madrid, Spain Resort\", \"Hotel Urso Hilton Madrid, Spain\", \"Hotel Urso Hotel\", \"Hotel Urso Resort\", \"Hotel Urso\", \"Hotel Urso Madrid, Spain Hotel\", \"Hotel Urso Madrid, Spain Resort\", \"Hotel Urso Madrid, Spain\"], \"v\": 3}": {
+    "lat": 40.4269116,
+    "lon": -3.6981081,
+    "formatted_address": "C. de Mejía Lequerica, 8, Centro, 28004 Madrid, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJE-j1NokoQg0R7vIOKm0HNOk",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "C. de Mejía Lequerica, 8, Centro, 28004 Madrid, Spain",
+      "geometry": {
+        "location": {
+          "lat": 40.4269116,
+          "lng": -3.6981081
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.42821718029149,
+            "lng": -3.696872619708498
+          },
+          "southwest": {
+            "lat": 40.4255192197085,
+            "lng": -3.699570580291502
+          }
+        }
+      },
+      "name": "URSO Hotel & Spa, a Small Luxury Hotel of the World",
+      "place_id": "ChIJE-j1NokoQg0R7vIOKm0HNOk",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://hotelurso.com/?utm_source=google&utm_medium=maps&utm_campaign=mybusiness&utm_content=urso"
+    }
+  },
+  "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Norman Paris Small Luxury Hotels of the World Hotel\", \"Norman Paris Small Luxury Hotels of the World Resort\", \"Norman Paris Small Luxury Hotels of the World\", \"Norman Paris Small Luxury Hotels of the World Paris, France Hotel\", \"Norman Paris Small Luxury Hotels of the World Paris, France Resort\", \"Norman Paris Small Luxury Hotels of the World Paris, France\", \"Norman Paris Hilton Hotel\", \"Norman Paris Hilton Resort\", \"Norman Paris Hilton\", \"Norman Paris Hilton Paris, France Hotel\", \"Norman Paris Hilton Paris, France Resort\", \"Norman Paris Hilton Paris, France\", \"Norman Paris Hotel\", \"Norman Paris Resort\", \"Norman Paris\", \"Norman Paris Paris, France Hotel\", \"Norman Paris Paris, France Resort\", \"Norman Paris Paris, France\"], \"v\": 3}": {
+    "lat": 48.873694,
+    "lon": 2.3002975,
+    "formatted_address": "9 Rue Balzac, 75008 Paris, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJXaHrhLVv5kcRU4v758J9j5w",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "9 Rue Balzac, 75008 Paris, France",
+      "geometry": {
+        "location": {
+          "lat": 48.873694,
+          "lng": 2.3002975
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.8750398802915,
+            "lng": 2.301768630291502
+          },
+          "southwest": {
+            "lat": 48.8723419197085,
+            "lng": 2.299070669708498
+          }
+        }
+      },
+      "name": "Norman Paris Hôtel & Spa",
+      "place_id": "ChIJXaHrhLVv5kcRU4v758J9j5w",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.hotelnorman.com/"
+    }
+  },
+  "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel d'Inghilterra, Starhotels Collezione Small Luxury Hotels of the World Hotel\", \"Hotel d'Inghilterra, Starhotels Collezione Small Luxury Hotels of the World Resort\", \"Hotel d'Inghilterra, Starhotels Collezione Small Luxury Hotels of the World\", \"Hotel d'Inghilterra, Starhotels Collezione Small Luxury Hotels of the World Rome, Italy Hotel\", \"Hotel d'Inghilterra, Starhotels Collezione Small Luxury Hotels of the World Rome, Italy Resort\", \"Hotel d'Inghilterra, Starhotels Collezione Small Luxury Hotels of the World Rome, Italy\", \"Hotel d'Inghilterra, Starhotels Collezione Hilton Hotel\", \"Hotel d'Inghilterra, Starhotels Collezione Hilton Resort\", \"Hotel d'Inghilterra, Starhotels Collezione Hilton\", \"Hotel d'Inghilterra, Starhotels Collezione Hilton Rome, Italy Hotel\", \"Hotel d'Inghilterra, Starhotels Collezione Hilton Rome, Italy Resort\", \"Hotel d'Inghilterra, Starhotels Collezione Hilton Rome, Italy\", \"Hotel Dinghilterra Starhotels Collezione Small Luxury Hotels of the World Hotel\", \"Hotel Dinghilterra Starhotels Collezione Small Luxury Hotels of the World Resort\", \"Hotel Dinghilterra Starhotels Collezione Small Luxury Hotels of the World\", \"Hotel Dinghilterra Starhotels Collezione Small Luxury Hotels of the World Rome, Italy Hotel\", \"Hotel Dinghilterra Starhotels Collezione Small Luxury Hotels of the World Rome, Italy Resort\", \"Hotel Dinghilterra Starhotels Collezione Small Luxury Hotels of the World Rome, Italy\", \"Hotel Dinghilterra Starhotels Collezione Hilton Hotel\", \"Hotel Dinghilterra Starhotels Collezione Hilton Resort\", \"Hotel Dinghilterra Starhotels Collezione Hilton\", \"Hotel Dinghilterra Starhotels Collezione Hilton Rome, Italy Hotel\", \"Hotel Dinghilterra Starhotels Collezione Hilton Rome, Italy Resort\", \"Hotel Dinghilterra Starhotels Collezione Hilton Rome, Italy\", \"Hotel d'Inghilterra, Starhotels Collezione Hotel\", \"Hotel d'Inghilterra, Starhotels Collezione Resort\", \"Hotel d'Inghilterra, Starhotels Collezione\", \"Hotel d'Inghilterra, Starhotels Collezione Rome, Italy Hotel\", \"Hotel d'Inghilterra, Starhotels Collezione Rome, Italy Resort\", \"Hotel d'Inghilterra, Starhotels Collezione Rome, Italy\"], \"v\": 3}": {
+    "lat": 41.9047114,
+    "lon": 12.4806045,
+    "formatted_address": "V. Bocca di Leone, 14, 00187 Roma RM, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJXwZhXlRgLxMRBk-k6U2rTaA",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "V. Bocca di Leone, 14, 00187 Roma RM, Italy",
+      "geometry": {
+        "location": {
+          "lat": 41.9047114,
+          "lng": 12.4806045
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.90609248029149,
+            "lng": 12.4820263302915
+          },
+          "southwest": {
+            "lat": 41.90339451970849,
+            "lng": 12.4793283697085
+          }
+        }
+      },
+      "name": "Hotel d'Inghilterra Roma - Starhotels Collezione",
+      "place_id": "ChIJXwZhXlRgLxMRBk-k6U2rTaA",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://collezione.starhotels.com/en/our-hotels/hotel-d-inghilterra-rome/"
+    }
+  },
+  "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Ai Reali Small Luxury Hotels of the World Hotel\", \"Hotel Ai Reali Small Luxury Hotels of the World Resort\", \"Hotel Ai Reali Small Luxury Hotels of the World\", \"Hotel Ai Reali Small Luxury Hotels of the World Venice, Italy Hotel\", \"Hotel Ai Reali Small Luxury Hotels of the World Venice, Italy Resort\", \"Hotel Ai Reali Small Luxury Hotels of the World Venice, Italy\", \"Hotel Ai Reali Hilton Hotel\", \"Hotel Ai Reali Hilton Resort\", \"Hotel Ai Reali Hilton\", \"Hotel Ai Reali Hilton Venice, Italy Hotel\", \"Hotel Ai Reali Hilton Venice, Italy Resort\", \"Hotel Ai Reali Hilton Venice, Italy\", \"Hotel Ai Reali Hotel\", \"Hotel Ai Reali Resort\", \"Hotel Ai Reali\", \"Hotel Ai Reali Venice, Italy Hotel\", \"Hotel Ai Reali Venice, Italy Resort\", \"Hotel Ai Reali Venice, Italy\"], \"v\": 3}": {
+    "lat": 45.4370793,
+    "lon": 12.3377864,
+    "formatted_address": "Calle Seconda de la Fava, 5527, 30122 Venezia VE, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJGWgKhNmxfkcRHlTmglTj8pY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Calle Seconda de la Fava, 5527, 30122 Venezia VE, Italy",
+      "geometry": {
+        "location": {
+          "lat": 45.4370793,
+          "lng": 12.3377864
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.437095,
+            "lng": 12.3414367
+          },
+          "southwest": {
+            "lat": 45.43429219999999,
+            "lng": 12.3377709
+          }
+        }
+      },
+      "name": "Hotel Ai Reali",
+      "place_id": "ChIJGWgKhNmxfkcRHlTmglTj8pY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hotelaireali.com/"
+    }
+  },
+  "{\"brand\": \"Sofitel Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sofitel New York Sofitel Hotels & Resorts Hotel\", \"Sofitel New York Sofitel Hotels & Resorts Resort\", \"Sofitel New York Sofitel Hotels & Resorts\", \"Sofitel New York Sofitel Hotels & Resorts New York, New York US Hotel\", \"Sofitel New York Sofitel Hotels & Resorts New York, New York US Resort\", \"Sofitel New York Sofitel Hotels & Resorts New York, New York US\", \"Sofitel New York Hilton Hotel\", \"Sofitel New York Hilton Resort\", \"Sofitel New York Hilton\", \"Sofitel New York Hilton New York, New York US Hotel\", \"Sofitel New York Hilton New York, New York US Resort\", \"Sofitel New York Hilton New York, New York US\", \"Sofitel New York Hotel\", \"Sofitel New York Resort\", \"Sofitel New York\", \"Sofitel New York New York, New York US Hotel\", \"Sofitel New York New York, New York US Resort\", \"Sofitel New York New York, New York US\"], \"v\": 3}": {
+    "lat": 40.7557007,
+    "lon": -73.9818422,
+    "formatted_address": "45 W 44th St, New York, NY 10036, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ5Zpl7_9YwokRFePhP7971nc",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "45 W 44th St, New York, NY 10036, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.7557007,
+          "lng": -73.9818422
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.7569791302915,
+            "lng": -73.9804351197085
+          },
+          "southwest": {
+            "lat": 40.75428116970851,
+            "lng": -73.98313308029151
+          }
+        }
+      },
+      "name": "Sofitel New York",
+      "place_id": "ChIJ5Zpl7_9YwokRFePhP7971nc",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://sofitel.accor.com/hotels/2185?merchantid=seo-maps-US-2185&sourceid=aw-cen&utm_source=google+Maps&utm_medium=seo+maps&utm_campaign=seo+maps&utm_term=Sofitel-Launch"
+    }
+  },
+  "{\"brand\": \"Sofitel Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sofitel Sydney Wentworth Sofitel Hotels & Resorts Hotel\", \"Sofitel Sydney Wentworth Sofitel Hotels & Resorts Resort\", \"Sofitel Sydney Wentworth Sofitel Hotels & Resorts\", \"Sofitel Sydney Wentworth Sofitel Hotels & Resorts Sydney, Australia Hotel\", \"Sofitel Sydney Wentworth Sofitel Hotels & Resorts Sydney, Australia Resort\", \"Sofitel Sydney Wentworth Sofitel Hotels & Resorts Sydney, Australia\", \"Sofitel Sydney Wentworth Hilton Hotel\", \"Sofitel Sydney Wentworth Hilton Resort\", \"Sofitel Sydney Wentworth Hilton\", \"Sofitel Sydney Wentworth Hilton Sydney, Australia Hotel\", \"Sofitel Sydney Wentworth Hilton Sydney, Australia Resort\", \"Sofitel Sydney Wentworth Hilton Sydney, Australia\", \"Sofitel Sydney Wentworth Hotel\", \"Sofitel Sydney Wentworth Resort\", \"Sofitel Sydney Wentworth\", \"Sofitel Sydney Wentworth Sydney, Australia Hotel\", \"Sofitel Sydney Wentworth Sydney, Australia Resort\", \"Sofitel Sydney Wentworth Sydney, Australia\"], \"v\": 3}": {
+    "lat": -33.8653817,
+    "lon": 151.2111873,
+    "formatted_address": "Sofitel Sydney Wentworth 61, 101 Phillip St, Sydney NSW 2000, Australia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJOdOLbGquEmsR6oPJgVpzjxg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Sofitel Sydney Wentworth 61, 101 Phillip St, Sydney NSW 2000, Australia",
+      "geometry": {
+        "location": {
+          "lat": -33.8653817,
+          "lng": 151.2111873
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -33.8641821697085,
+            "lng": 151.2122811302915
+          },
+          "southwest": {
+            "lat": -33.8668801302915,
+            "lng": 151.2095831697085
+          }
+        }
+      },
+      "name": "Sofitel Sydney Wentworth",
+      "place_id": "ChIJOdOLbGquEmsR6oPJgVpzjxg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://sofitel.accor.com/hotels/3665?merchantid=seo-maps-AU-3665&sourceid=aw-cen&utm_source=google+Maps&utm_medium=seo+maps&utm_campaign=seo+maps&utm_term=Sofitel-Launch"
+    }
+  },
+  "{\"brand\": \"The Hoxton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Hoxton Edinburgh The Hoxton Hotel\", \"The Hoxton Edinburgh The Hoxton Resort\", \"The Hoxton Edinburgh The Hoxton\", \"The Hoxton Edinburgh The Hoxton Edinburgh, Scotland Hotel\", \"The Hoxton Edinburgh The Hoxton Edinburgh, Scotland Resort\", \"The Hoxton Edinburgh The Hoxton Edinburgh, Scotland\", \"The Hoxton Edinburgh Hilton Hotel\", \"The Hoxton Edinburgh Hilton Resort\", \"The Hoxton Edinburgh Hilton\", \"The Hoxton Edinburgh Hilton Edinburgh, Scotland Hotel\", \"The Hoxton Edinburgh Hilton Edinburgh, Scotland Resort\", \"The Hoxton Edinburgh Hilton Edinburgh, Scotland\", \"The Hoxton Edinburgh Hotel\", \"The Hoxton Edinburgh Resort\", \"The Hoxton Edinburgh\", \"The Hoxton Edinburgh Edinburgh, Scotland Hotel\", \"The Hoxton Edinburgh Edinburgh, Scotland Resort\", \"The Hoxton Edinburgh Edinburgh, Scotland\"], \"v\": 3}": {
+    "lat": 55.9471462,
+    "lon": -3.2172911,
+    "formatted_address": "5-21 Grosvenor St, Edinburgh EH12 5EF, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJRTyLVADHh0gRuEWXnrRYuUo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "5-21 Grosvenor St, Edinburgh EH12 5EF, UK",
+      "geometry": {
+        "location": {
+          "lat": 55.9471462,
+          "lng": -3.2172911
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 55.9483435302915,
+            "lng": -3.215851319708499
+          },
+          "southwest": {
+            "lat": 55.9456455697085,
+            "lng": -3.218549280291502
+          }
+        }
+      },
+      "name": "The Hoxton, Edinburgh",
+      "place_id": "ChIJRTyLVADHh0gRuEWXnrRYuUo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://thehoxton.com/edinburgh/"
+    }
+  },
+  "{\"brand\": \"The Luxury Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Pazziella, a Luxury Collection Hotel, Capri The Luxury Collection Hotel\", \"Pazziella, a Luxury Collection Hotel, Capri The Luxury Collection Resort\", \"Pazziella, a Luxury Collection Hotel, Capri The Luxury Collection\", \"Pazziella, a Luxury Collection Hotel, Capri The Luxury Collection Capri, Italy Hotel\", \"Pazziella, a Luxury Collection Hotel, Capri The Luxury Collection Capri, Italy Resort\", \"Pazziella, a Luxury Collection Hotel, Capri The Luxury Collection Capri, Italy\", \"Pazziella, a Luxury Collection Hotel, Capri Hilton Hotel\", \"Pazziella, a Luxury Collection Hotel, Capri Hilton Resort\", \"Pazziella, a Luxury Collection Hotel, Capri Hilton\", \"Pazziella, a Luxury Collection Hotel, Capri Hilton Capri, Italy Hotel\", \"Pazziella, a Luxury Collection Hotel, Capri Hilton Capri, Italy Resort\", \"Pazziella, a Luxury Collection Hotel, Capri Hilton Capri, Italy\", \"Pazziella a Luxury Collection Hotel Capri The Luxury Collection Hotel\", \"Pazziella a Luxury Collection Hotel Capri The Luxury Collection Resort\", \"Pazziella a Luxury Collection Hotel Capri The Luxury Collection\", \"Pazziella a Luxury Collection Hotel Capri The Luxury Collection Capri, Italy Hotel\", \"Pazziella a Luxury Collection Hotel Capri The Luxury Collection Capri, Italy Resort\", \"Pazziella a Luxury Collection Hotel Capri The Luxury Collection Capri, Italy\", \"Pazziella a Luxury Collection Hotel Capri Hilton Hotel\", \"Pazziella a Luxury Collection Hotel Capri Hilton Resort\", \"Pazziella a Luxury Collection Hotel Capri Hilton\", \"Pazziella a Luxury Collection Hotel Capri Hilton Capri, Italy Hotel\", \"Pazziella a Luxury Collection Hotel Capri Hilton Capri, Italy Resort\", \"Pazziella a Luxury Collection Hotel Capri Hilton Capri, Italy\", \"Pazziella, a Luxury Collection Hotel, Capri Hotel\", \"Pazziella, a Luxury Collection Hotel, Capri Resort\", \"Pazziella, a Luxury Collection Hotel, Capri\", \"Pazziella, a Luxury Collection Hotel, Capri Capri, Italy Hotel\", \"Pazziella, a Luxury Collection Hotel, Capri Capri, Italy Resort\", \"Pazziella, a Luxury Collection Hotel, Capri Capri, Italy\"], \"v\": 3}": {
+    "lat": 40.550776,
+    "lon": 14.2455443,
+    "formatted_address": "Via Fuorlovado, 36, 80073 Capri NA, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJKT3401l5OxMRLfJp6Q0KJRI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Fuorlovado, 36, 80073 Capri NA, Italy",
+      "geometry": {
+        "location": {
+          "lat": 40.550776,
+          "lng": 14.2455443
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.5521720302915,
+            "lng": 14.2457941802915
+          },
+          "southwest": {
+            "lat": 40.54947406970851,
+            "lng": 14.2430962197085
+          }
+        }
+      },
+      "name": "Pazziella, a Luxury Collection Hotel, Capri",
+      "place_id": "ChIJKT3401l5OxMRLfJp6Q0KJRI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.pazziella.it/"
+    }
+  },
+  "{\"brand\": \"The Luxury Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"SLS Hotel, a Luxury Collection Hotel, Beverly Hills The Luxury Collection Hotel\", \"SLS Hotel, a Luxury Collection Hotel, Beverly Hills The Luxury Collection Resort\", \"SLS Hotel, a Luxury Collection Hotel, Beverly Hills The Luxury Collection\", \"SLS Hotel, a Luxury Collection Hotel, Beverly Hills The Luxury Collection Los Angeles, California US Hotel\", \"SLS Hotel, a Luxury Collection Hotel, Beverly Hills The Luxury Collection Los Angeles, California US Resort\", \"SLS Hotel, a Luxury Collection Hotel, Beverly Hills The Luxury Collection Los Angeles, California US\", \"SLS Hotel, a Luxury Collection Hotel, Beverly Hills Hilton Hotel\", \"SLS Hotel, a Luxury Collection Hotel, Beverly Hills Hilton Resort\", \"SLS Hotel, a Luxury Collection Hotel, Beverly Hills Hilton\", \"SLS Hotel, a Luxury Collection Hotel, Beverly Hills Hilton Los Angeles, California US Hotel\", \"SLS Hotel, a Luxury Collection Hotel, Beverly Hills Hilton Los Angeles, California US Resort\", \"SLS Hotel, a Luxury Collection Hotel, Beverly Hills Hilton Los Angeles, California US\", \"Sls Hotel a Luxury Collection Hotel Beverly Hills The Luxury Collection Hotel\", \"Sls Hotel a Luxury Collection Hotel Beverly Hills The Luxury Collection Resort\", \"Sls Hotel a Luxury Collection Hotel Beverly Hills The Luxury Collection\", \"Sls Hotel a Luxury Collection Hotel Beverly Hills The Luxury Collection Los Angeles, California US Hotel\", \"Sls Hotel a Luxury Collection Hotel Beverly Hills The Luxury Collection Los Angeles, California US Resort\", \"Sls Hotel a Luxury Collection Hotel Beverly Hills The Luxury Collection Los Angeles, California US\", \"Sls Hotel a Luxury Collection Hotel Beverly Hills Hilton Hotel\", \"Sls Hotel a Luxury Collection Hotel Beverly Hills Hilton Resort\", \"Sls Hotel a Luxury Collection Hotel Beverly Hills Hilton\", \"Sls Hotel a Luxury Collection Hotel Beverly Hills Hilton Los Angeles, California US Hotel\", \"Sls Hotel a Luxury Collection Hotel Beverly Hills Hilton Los Angeles, California US Resort\", \"Sls Hotel a Luxury Collection Hotel Beverly Hills Hilton Los Angeles, California US\", \"SLS Hotel, a Luxury Collection Hotel, Beverly Hills Hotel\", \"SLS Hotel, a Luxury Collection Hotel, Beverly Hills Resort\", \"SLS Hotel, a Luxury Collection Hotel, Beverly Hills\", \"SLS Hotel, a Luxury Collection Hotel, Beverly Hills Los Angeles, California US Hotel\", \"SLS Hotel, a Luxury Collection Hotel, Beverly Hills Los Angeles, California US Resort\", \"SLS Hotel, a Luxury Collection Hotel, Beverly Hills Los Angeles, California US\"], \"v\": 3}": {
+    "lat": 34.0700076,
+    "lon": -118.3768816,
+    "formatted_address": "465 La Cienega Blvd, Los Angeles, CA 90048, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJZ1tYo065woARyyXIPJsJCJg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "465 La Cienega Blvd, Los Angeles, CA 90048, USA",
+      "geometry": {
+        "location": {
+          "lat": 34.0700076,
+          "lng": -118.3768816
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 34.0713248802915,
+            "lng": -118.3752822697085
+          },
+          "southwest": {
+            "lat": 34.0686269197085,
+            "lng": -118.3779802302915
+          }
+        }
+      },
+      "name": "SLS Hotel, a Luxury Collection Hotel, Beverly Hills",
+      "place_id": "ChIJZ1tYo065woARyyXIPJsJCJg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/laxls-sls-hotel-a-luxury-collection-hotel-beverly-hills/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"W Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W Fort Lauderdale W Hotels Hotel\", \"W Fort Lauderdale W Hotels Resort\", \"W Fort Lauderdale W Hotels\", \"W Fort Lauderdale W Hotels Fort Lauderdale, Florida US Hotel\", \"W Fort Lauderdale W Hotels Fort Lauderdale, Florida US Resort\", \"W Fort Lauderdale W Hotels Fort Lauderdale, Florida US\", \"W Fort Lauderdale Hilton Hotel\", \"W Fort Lauderdale Hilton Resort\", \"W Fort Lauderdale Hilton\", \"W Fort Lauderdale Hilton Fort Lauderdale, Florida US Hotel\", \"W Fort Lauderdale Hilton Fort Lauderdale, Florida US Resort\", \"W Fort Lauderdale Hilton Fort Lauderdale, Florida US\", \"W Fort Lauderdale Hotel\", \"W Fort Lauderdale Resort\", \"W Fort Lauderdale\", \"W Fort Lauderdale Fort Lauderdale, Florida US Hotel\", \"W Fort Lauderdale Fort Lauderdale, Florida US Resort\", \"W Fort Lauderdale Fort Lauderdale, Florida US\"], \"v\": 3}": {
+    "lat": 26.1285006,
+    "lon": -80.1041804,
+    "formatted_address": "401 N Fort Lauderdale Beach Blvd, Fort Lauderdale, FL 33304, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJGUenndMB2YgRXAv5v3k3YPg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "401 N Fort Lauderdale Beach Blvd, Fort Lauderdale, FL 33304, USA",
+      "geometry": {
+        "location": {
+          "lat": 26.1285006,
+          "lng": -80.1041804
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 26.1296052302915,
+            "lng": -80.10298636970849
+          },
+          "southwest": {
+            "lat": 26.1269072697085,
+            "lng": -80.10568433029151
+          }
+        }
+      },
+      "name": "W Fort Lauderdale",
+      "place_id": "ChIJGUenndMB2YgRXAv5v3k3YPg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/fllwh-w-fort-lauderdale/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"W Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W Sao Paulo W Hotels Hotel\", \"W Sao Paulo W Hotels Resort\", \"W Sao Paulo W Hotels\", \"W Sao Paulo W Hotels S\\u00e3o Paulo, Brazil Hotel\", \"W Sao Paulo W Hotels S\\u00e3o Paulo, Brazil Resort\", \"W Sao Paulo W Hotels S\\u00e3o Paulo, Brazil\", \"W Sao Paulo Hilton Hotel\", \"W Sao Paulo Hilton Resort\", \"W Sao Paulo Hilton\", \"W Sao Paulo Hilton S\\u00e3o Paulo, Brazil Hotel\", \"W Sao Paulo Hilton S\\u00e3o Paulo, Brazil Resort\", \"W Sao Paulo Hilton S\\u00e3o Paulo, Brazil\", \"W Sao Paulo Hotel\", \"W Sao Paulo Resort\", \"W Sao Paulo\", \"W Sao Paulo S\\u00e3o Paulo, Brazil Hotel\", \"W Sao Paulo S\\u00e3o Paulo, Brazil Resort\", \"W Sao Paulo S\\u00e3o Paulo, Brazil\"], \"v\": 3}": {
+    "lat": -23.5927293,
+    "lon": -46.6872172,
+    "formatted_address": "R. Funchal, 65 - Vila Olímpia, São Paulo - SP, 04551-060, Brazil",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJDeavdwBXzpQR_0OJK5n9uvM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "R. Funchal, 65 - Vila Olímpia, São Paulo - SP, 04551-060, Brazil",
+      "geometry": {
+        "location": {
+          "lat": -23.5927293,
+          "lng": -46.6872172
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -23.5912909697085,
+            "lng": -46.6857151697085
+          },
+          "southwest": {
+            "lat": -23.59398893029151,
+            "lng": -46.6884131302915
+          }
+        }
+      },
+      "name": "W São Paulo",
+      "place_id": "ChIJDeavdwBXzpQR_0OJK5n9uvM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Westin Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Westin Seoul Parnas Westin Hotels & Resorts Hotel\", \"The Westin Seoul Parnas Westin Hotels & Resorts Resort\", \"The Westin Seoul Parnas Westin Hotels & Resorts\", \"The Westin Seoul Parnas Westin Hotels & Resorts Seoul, South Korea Hotel\", \"The Westin Seoul Parnas Westin Hotels & Resorts Seoul, South Korea Resort\", \"The Westin Seoul Parnas Westin Hotels & Resorts Seoul, South Korea\", \"The Westin Seoul Parnas Hilton Hotel\", \"The Westin Seoul Parnas Hilton Resort\", \"The Westin Seoul Parnas Hilton\", \"The Westin Seoul Parnas Hilton Seoul, South Korea Hotel\", \"The Westin Seoul Parnas Hilton Seoul, South Korea Resort\", \"The Westin Seoul Parnas Hilton Seoul, South Korea\", \"Westin Seoul Parnas Westin Hotels & Resorts Hotel\", \"Westin Seoul Parnas Westin Hotels & Resorts Resort\", \"Westin Seoul Parnas Westin Hotels & Resorts\", \"Westin Seoul Parnas Westin Hotels & Resorts Seoul, South Korea Hotel\", \"Westin Seoul Parnas Westin Hotels & Resorts Seoul, South Korea Resort\", \"Westin Seoul Parnas Westin Hotels & Resorts Seoul, South Korea\", \"Westin Seoul Parnas Hilton Hotel\", \"Westin Seoul Parnas Hilton Resort\", \"Westin Seoul Parnas Hilton\", \"Westin Seoul Parnas Hilton Seoul, South Korea Hotel\", \"Westin Seoul Parnas Hilton Seoul, South Korea Resort\", \"Westin Seoul Parnas Hilton Seoul, South Korea\", \"The Westin Seoul Parnas Hotel\", \"The Westin Seoul Parnas Resort\", \"The Westin Seoul Parnas\", \"The Westin Seoul Parnas Seoul, South Korea Hotel\", \"The Westin Seoul Parnas Seoul, South Korea Resort\", \"The Westin Seoul Parnas Seoul, South Korea\"], \"v\": 3}": {
+    "lat": 37.51292919999999,
+    "lon": 127.0574461,
+    "formatted_address": "524 Bongeunsa-ro, Gangnam District, Seoul, South Korea",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJDU-o62ukfDUR5wCiotfmeqA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "524 Bongeunsa-ro, Gangnam District, Seoul, South Korea",
+      "geometry": {
+        "location": {
+          "lat": 37.51292919999999,
+          "lng": 127.0574461
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.51427818029149,
+            "lng": 127.0587950802915
+          },
+          "southwest": {
+            "lat": 37.5115802197085,
+            "lng": 127.0560971197085
+          }
+        }
+      },
+      "name": "The Westin Seoul Parnas",
+      "place_id": "ChIJDU-o62ukfDUR5wCiotfmeqA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/selwg-the-westin-seoul-parnas/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Westin Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Westin Dragonara Resort Westin Hotels & Resorts Hotel\", \"The Westin Dragonara Resort Westin Hotels & Resorts Resort\", \"The Westin Dragonara Resort Westin Hotels & Resorts\", \"The Westin Dragonara Resort Westin Hotels & Resorts St. Julian's, Malta Hotel\", \"The Westin Dragonara Resort Westin Hotels & Resorts St. Julian's, Malta Resort\", \"The Westin Dragonara Resort Westin Hotels & Resorts St. Julian's, Malta\", \"The Westin Dragonara Resort Hilton Hotel\", \"The Westin Dragonara Resort Hilton Resort\", \"The Westin Dragonara Resort Hilton\", \"The Westin Dragonara Resort Hilton St. Julian's, Malta Hotel\", \"The Westin Dragonara Resort Hilton St. Julian's, Malta Resort\", \"The Westin Dragonara Resort Hilton St. Julian's, Malta\", \"Westin Dragonara Resort Westin Hotels & Resorts Hotel\", \"Westin Dragonara Resort Westin Hotels & Resorts Resort\", \"Westin Dragonara Resort Westin Hotels & Resorts\", \"Westin Dragonara Resort Westin Hotels & Resorts St. Julian's, Malta Hotel\", \"Westin Dragonara Resort Westin Hotels & Resorts St. Julian's, Malta Resort\", \"Westin Dragonara Resort Westin Hotels & Resorts St. Julian's, Malta\", \"Westin Dragonara Resort Hilton Hotel\", \"Westin Dragonara Resort Hilton Resort\", \"Westin Dragonara Resort Hilton\", \"Westin Dragonara Resort Hilton St. Julian's, Malta Hotel\", \"Westin Dragonara Resort Hilton St. Julian's, Malta Resort\", \"Westin Dragonara Resort Hilton St. Julian's, Malta\", \"The Westin Dragonara Resort Hotel\", \"The Westin Dragonara Resort Resort\", \"The Westin Dragonara Resort\", \"The Westin Dragonara Resort St. Julian's, Malta Hotel\", \"The Westin Dragonara Resort St. Julian's, Malta Resort\", \"The Westin Dragonara Resort St. Julian's, Malta\"], \"v\": 3}": {
+    "lat": 35.92539170000001,
+    "lon": 14.492265,
+    "formatted_address": "Dragonara Road St. Julian's, St Julian's STJ 3143, Malta",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJL4gD5wVPDhMRmUiII41T51k",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Dragonara Road St. Julian's, St Julian's STJ 3143, Malta",
+      "geometry": {
+        "location": {
+          "lat": 35.92539170000001,
+          "lng": 14.492265
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.9266308302915,
+            "lng": 14.4934887302915
+          },
+          "southwest": {
+            "lat": 35.9239328697085,
+            "lng": 14.4907907697085
+          }
+        }
+      },
+      "name": "The Westin Dragonara Resort, Malta",
+      "place_id": "ChIJL4gD5wVPDhMRmUiII41T51k",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
   }
 }
