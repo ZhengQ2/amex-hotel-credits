@@ -135,7 +135,12 @@ def _collect_hotel_links(panel, base_url):
         try {
           const u = new URL(href, location.href);
           const parts = u.pathname.split("/").filter(Boolean);
-          const slug = parts[parts.length - 1] || "";
+          // For hilton.com/en/hotels/PROPERTY-SLUG/... use PROPERTY-SLUG, not the
+          // last segment which may be a room/category sub-page.
+          const hotelsIdx = parts.indexOf("hotels");
+          const slug = (hotelsIdx !== -1 && hotelsIdx + 1 < parts.length)
+            ? parts[hotelsIdx + 1]
+            : (parts[parts.length - 1] || "");
           if (!slug) return "";
           return slug
             .replace(/[-_]+/g, " ")
