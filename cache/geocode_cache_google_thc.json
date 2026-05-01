@@ -211343,5 +211343,517 @@
       ],
       "website": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Atlas Hotel Hotel\", \"The Atlas Hotel Resort\", \"The Atlas Hotel\", \"The Atlas Hotel Boston, Massachusetts US Hotel\", \"The Atlas Hotel Boston, Massachusetts US Resort\", \"The Atlas Hotel Boston, Massachusetts US\"], \"v\": 3}": {
+    "lat": 50.4130167,
+    "lon": -104.6174228,
+    "formatted_address": "4177 Albert St, Regina, SK S4S 3R6, Canada",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJOXxzNImhHlMRLl47TgUpPMI",
+    "types": [
+      "amusement_park",
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "4177 Albert St, Regina, SK S4S 3R6, Canada",
+      "geometry": {
+        "location": {
+          "lat": 50.4130167,
+          "lng": -104.6174228
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 50.4143809302915,
+            "lng": -104.6161726697085
+          },
+          "southwest": {
+            "lat": 50.4116829697085,
+            "lng": -104.6188706302915
+          }
+        }
+      },
+      "name": "The Atlas˚ Hotel",
+      "place_id": "ChIJOXxzNImhHlMRLl47TgUpPMI",
+      "types": [
+        "amusement_park",
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.atlashotel.com/"
+    }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Hana Hotel\", \"Hotel Hana Resort\", \"Hotel Hana\", \"Hotel Hana Paris, France Hotel\", \"Hotel Hana Paris, France Resort\", \"Hotel Hana Paris, France\"], \"v\": 3}": {
+    "lat": 20.754252,
+    "lon": -155.9872211,
+    "formatted_address": "5031 Hana Hwy, Hana, HI 96713, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJkxf97yWsVHkRBtkNiW3kUfQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "5031 Hana Hwy, Hana, HI 96713, USA",
+      "geometry": {
+        "location": {
+          "lat": 20.754252,
+          "lng": -155.9872211
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 20.7553286302915,
+            "lng": -155.9860319697085
+          },
+          "southwest": {
+            "lat": 20.75263066970849,
+            "lng": -155.9887299302915
+          }
+        }
+      },
+      "name": "Hana-Maui Resort, a Destination by Hyatt Hotel",
+      "place_id": "ChIJkxf97yWsVHkRBtkNiW3kUfQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/destination-by-hyatt/en-US/oggal-hana-maui-resort?src=corp_lclb_google_seo_oggal&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"SIRO Boka Place Hotel\", \"SIRO Boka Place Resort\", \"SIRO Boka Place\", \"SIRO Boka Place Tivat, Montenegro Hotel\", \"SIRO Boka Place Tivat, Montenegro Resort\", \"SIRO Boka Place Tivat, Montenegro\", \"Siro Boka Place Hotel\", \"Siro Boka Place Resort\", \"Siro Boka Place\", \"Siro Boka Place Tivat, Montenegro Hotel\", \"Siro Boka Place Tivat, Montenegro Resort\", \"Siro Boka Place Tivat, Montenegro\"], \"v\": 3}": {
+    "lat": 42.4382406,
+    "lon": 18.6956781,
+    "formatted_address": "Jadranska magistrala, Tivat, Montenegro",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJlR-kSbMxTBMRoBc3OCNEMxA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Jadranska magistrala, Tivat, Montenegro",
+      "geometry": {
+        "location": {
+          "lat": 42.4382406,
+          "lng": 18.6956781
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.4396740802915,
+            "lng": 18.6971765302915
+          },
+          "southwest": {
+            "lat": 42.4369761197085,
+            "lng": 18.6944785697085
+          }
+        }
+      },
+      "name": "SIRO Boka Place",
+      "place_id": "ChIJlR-kSbMxTBMRoBc3OCNEMxA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.sirohotels.com/montenegro/boka-place?utm_medium=organic-search&utm_source=gbp&utm_campaign=gbp_ao_y_sbp_row_wt__ao__kz&utm_content=__&utm_term=gbp&utm_id=n81pr0"
+    }
+  },
+  "{\"brand\": \"21c Museum Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"21c Museum Hotel Louisville 21c Museum Hotels Hotel\", \"21c Museum Hotel Louisville 21c Museum Hotels Resort\", \"21c Museum Hotel Louisville 21c Museum Hotels\", \"21c Museum Hotel Louisville 21c Museum Hotels Louisville, Kentucky US Hotel\", \"21c Museum Hotel Louisville 21c Museum Hotels Louisville, Kentucky US Resort\", \"21c Museum Hotel Louisville 21c Museum Hotels Louisville, Kentucky US\", \"21c Museum Hotel Louisville Hilton Hotel\", \"21c Museum Hotel Louisville Hilton Resort\", \"21c Museum Hotel Louisville Hilton\", \"21c Museum Hotel Louisville Hilton Louisville, Kentucky US Hotel\", \"21c Museum Hotel Louisville Hilton Louisville, Kentucky US Resort\", \"21c Museum Hotel Louisville Hilton Louisville, Kentucky US\", \"21c Museum Hotel Louisville Hotel\", \"21c Museum Hotel Louisville Resort\", \"21c Museum Hotel Louisville\", \"21c Museum Hotel Louisville Louisville, Kentucky US Hotel\", \"21c Museum Hotel Louisville Louisville, Kentucky US Resort\", \"21c Museum Hotel Louisville Louisville, Kentucky US\"], \"v\": 3}": {
+    "lat": 38.2567999,
+    "lon": -85.7619155,
+    "formatted_address": "700 W Main St, Louisville, KY 40202, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJVePC4aNyaYgR8FDav0mwKNs",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "700 W Main St, Louisville, KY 40202, USA",
+      "geometry": {
+        "location": {
+          "lat": 38.2567999,
+          "lng": -85.7619155
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.25814123029151,
+            "lng": -85.76039106970849
+          },
+          "southwest": {
+            "lat": 38.25544326970851,
+            "lng": -85.7630890302915
+          }
+        }
+      },
+      "name": "21c Museum Hotel Louisville",
+      "place_id": "ChIJVePC4aNyaYgR8FDav0mwKNs",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.21cmuseumhotels.com/louisville?utm_source=google&utm_medium=organic&utm_campaign=gmb-website&utm_content=website_button"
+    }
+  },
+  "{\"brand\": \"Conrad Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Conrad Las Vegas at Resorts World Conrad Hotels & Resorts Hotel\", \"Conrad Las Vegas at Resorts World Conrad Hotels & Resorts Resort\", \"Conrad Las Vegas at Resorts World Conrad Hotels & Resorts\", \"Conrad Las Vegas at Resorts World Conrad Hotels & Resorts Las Vegas, Nevada US Hotel\", \"Conrad Las Vegas at Resorts World Conrad Hotels & Resorts Las Vegas, Nevada US Resort\", \"Conrad Las Vegas at Resorts World Conrad Hotels & Resorts Las Vegas, Nevada US\", \"Conrad Las Vegas at Resorts World Hilton Hotel\", \"Conrad Las Vegas at Resorts World Hilton Resort\", \"Conrad Las Vegas at Resorts World Hilton\", \"Conrad Las Vegas at Resorts World Hilton Las Vegas, Nevada US Hotel\", \"Conrad Las Vegas at Resorts World Hilton Las Vegas, Nevada US Resort\", \"Conrad Las Vegas at Resorts World Hilton Las Vegas, Nevada US\", \"Conrad Las Vegas Resorts World Conrad Hotels & Resorts Hotel\", \"Conrad Las Vegas Resorts World Conrad Hotels & Resorts Resort\", \"Conrad Las Vegas Resorts World Conrad Hotels & Resorts\", \"Conrad Las Vegas Resorts World Conrad Hotels & Resorts Las Vegas, Nevada US Hotel\", \"Conrad Las Vegas Resorts World Conrad Hotels & Resorts Las Vegas, Nevada US Resort\", \"Conrad Las Vegas Resorts World Conrad Hotels & Resorts Las Vegas, Nevada US\", \"Conrad Las Vegas Resorts World Hilton Hotel\", \"Conrad Las Vegas Resorts World Hilton Resort\", \"Conrad Las Vegas Resorts World Hilton\", \"Conrad Las Vegas Resorts World Hilton Las Vegas, Nevada US Hotel\", \"Conrad Las Vegas Resorts World Hilton Las Vegas, Nevada US Resort\", \"Conrad Las Vegas Resorts World Hilton Las Vegas, Nevada US\", \"Conrad Las Vegas at Resorts World Hotel\", \"Conrad Las Vegas at Resorts World Resort\", \"Conrad Las Vegas at Resorts World\", \"Conrad Las Vegas at Resorts World Las Vegas, Nevada US Hotel\", \"Conrad Las Vegas at Resorts World Las Vegas, Nevada US Resort\", \"Conrad Las Vegas at Resorts World Las Vegas, Nevada US\"], \"v\": 3}": {
+    "lat": 36.1346181,
+    "lon": -115.1655924,
+    "formatted_address": "111 Resorts World Ave, Las Vegas, NV 89109, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJqXJSOhPEyIAR4P3NJ0XNHy0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "111 Resorts World Ave, Las Vegas, NV 89109, USA",
+      "geometry": {
+        "location": {
+          "lat": 36.1346181,
+          "lng": -115.1655924
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.13607168029149,
+            "lng": -115.1640805197085
+          },
+          "southwest": {
+            "lat": 36.13337371970849,
+            "lng": -115.1667784802915
+          }
+        }
+      },
+      "name": "Conrad Las Vegas at Resorts World",
+      "place_id": "ChIJqXJSOhPEyIAR4P3NJ0XNHy0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/lascdci-conrad-las-vegas-at-resorts-world/?SEO_id=GMB-AMER-CN-LASCDCI&y_source=1_MjM0NTgwNzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"Curio Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Carte Hotel San Diego Downtown, Curio Collection by Hilton Curio Collection Hotel\", \"Carte Hotel San Diego Downtown, Curio Collection by Hilton Curio Collection Resort\", \"Carte Hotel San Diego Downtown, Curio Collection by Hilton Curio Collection\", \"Carte Hotel San Diego Downtown, Curio Collection by Hilton Curio Collection San Diego, California US Hotel\", \"Carte Hotel San Diego Downtown, Curio Collection by Hilton Curio Collection San Diego, California US Resort\", \"Carte Hotel San Diego Downtown, Curio Collection by Hilton Curio Collection San Diego, California US\", \"Carte Hotel San Diego Downtown, Curio Collection by Hilton Hilton Hotel\", \"Carte Hotel San Diego Downtown, Curio Collection by Hilton Hilton Resort\", \"Carte Hotel San Diego Downtown, Curio Collection by Hilton Hilton\", \"Carte Hotel San Diego Downtown, Curio Collection by Hilton Hilton San Diego, California US Hotel\", \"Carte Hotel San Diego Downtown, Curio Collection by Hilton Hilton San Diego, California US Resort\", \"Carte Hotel San Diego Downtown, Curio Collection by Hilton Hilton San Diego, California US\", \"Carte Hotel San Diego Downtown Curio Collection Hilton Curio Collection Hotel\", \"Carte Hotel San Diego Downtown Curio Collection Hilton Curio Collection Resort\", \"Carte Hotel San Diego Downtown Curio Collection Hilton Curio Collection\", \"Carte Hotel San Diego Downtown Curio Collection Hilton Curio Collection San Diego, California US Hotel\", \"Carte Hotel San Diego Downtown Curio Collection Hilton Curio Collection San Diego, California US Resort\", \"Carte Hotel San Diego Downtown Curio Collection Hilton Curio Collection San Diego, California US\", \"Carte Hotel San Diego Downtown Curio Collection Hilton Hilton Hotel\", \"Carte Hotel San Diego Downtown Curio Collection Hilton Hilton Resort\", \"Carte Hotel San Diego Downtown Curio Collection Hilton Hilton\", \"Carte Hotel San Diego Downtown Curio Collection Hilton Hilton San Diego, California US Hotel\", \"Carte Hotel San Diego Downtown Curio Collection Hilton Hilton San Diego, California US Resort\", \"Carte Hotel San Diego Downtown Curio Collection Hilton Hilton San Diego, California US\", \"Carte Hotel San Diego Downtown, Curio Collection by Hilton Hotel\", \"Carte Hotel San Diego Downtown, Curio Collection by Hilton Resort\", \"Carte Hotel San Diego Downtown, Curio Collection by Hilton\", \"Carte Hotel San Diego Downtown, Curio Collection by Hilton San Diego, California US Hotel\", \"Carte Hotel San Diego Downtown, Curio Collection by Hilton San Diego, California US Resort\", \"Carte Hotel San Diego Downtown, Curio Collection by Hilton San Diego, California US\"], \"v\": 3}": {
+    "lat": 32.7197261,
+    "lon": -117.1667704,
+    "formatted_address": "401 W Ash St, San Diego, CA 92101, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJaTi-s2RV2YARY-Mq2hOjLDg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "401 W Ash St, San Diego, CA 92101, USA",
+      "geometry": {
+        "location": {
+          "lat": 32.7197261,
+          "lng": -117.1667704
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.7211457302915,
+            "lng": -117.1653722697085
+          },
+          "southwest": {
+            "lat": 32.7184477697085,
+            "lng": -117.1680702302915
+          }
+        }
+      },
+      "name": "Carte Hotel San Diego Downtown, Curio Collection by Hilton",
+      "place_id": "ChIJaTi-s2RV2YARY-Mq2hOjLDg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/sancrqq-carte-hotel-san-diego-downtown/?SEO_id=GMB-AMER-QQ-SANCRQQ&y_source=1_MTMzMTQ3OTQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"Design Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Avalon Palm Springs Design Hotels Hotel\", \"Avalon Palm Springs Design Hotels Resort\", \"Avalon Palm Springs Design Hotels\", \"Avalon Palm Springs Design Hotels Palm Springs, California US Hotel\", \"Avalon Palm Springs Design Hotels Palm Springs, California US Resort\", \"Avalon Palm Springs Design Hotels Palm Springs, California US\", \"Avalon Palm Springs Hilton Hotel\", \"Avalon Palm Springs Hilton Resort\", \"Avalon Palm Springs Hilton\", \"Avalon Palm Springs Hilton Palm Springs, California US Hotel\", \"Avalon Palm Springs Hilton Palm Springs, California US Resort\", \"Avalon Palm Springs Hilton Palm Springs, California US\", \"Avalon Palm Springs Hotel\", \"Avalon Palm Springs Resort\", \"Avalon Palm Springs\", \"Avalon Palm Springs Palm Springs, California US Hotel\", \"Avalon Palm Springs Palm Springs, California US Resort\", \"Avalon Palm Springs Palm Springs, California US\"], \"v\": 3}": {
+    "lat": 33.8176863,
+    "lon": -116.5481991,
+    "formatted_address": "415 S Belardo Rd, Palm Springs, CA 92262, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJlYo0LqYb24ARljyWYC0zaAs",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "415 S Belardo Rd, Palm Springs, CA 92262, USA",
+      "geometry": {
+        "location": {
+          "lat": 33.8176863,
+          "lng": -116.5481991
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.8190922302915,
+            "lng": -116.5467855197085
+          },
+          "southwest": {
+            "lat": 33.8163942697085,
+            "lng": -116.5494834802915
+          }
+        }
+      },
+      "name": "Avalon Hotel & Bungalows Palm Springs",
+      "place_id": "ChIJlYo0LqYb24ARljyWYC0zaAs",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.avalon-hotel.com/palm-springs/?utm_source=local-listings&utm_medium=organic&utm_campaign=local-listings"
+    }
+  },
+  "{\"brand\": \"Hyatt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Saint Augustine Hyatt Hotel\", \"Hotel Saint Augustine Hyatt Resort\", \"Hotel Saint Augustine Hyatt\", \"Hotel Saint Augustine Hyatt Houston, Texas US Hotel\", \"Hotel Saint Augustine Hyatt Houston, Texas US Resort\", \"Hotel Saint Augustine Hyatt Houston, Texas US\", \"Hotel Saint Augustine Hilton Hotel\", \"Hotel Saint Augustine Hilton Resort\", \"Hotel Saint Augustine Hilton\", \"Hotel Saint Augustine Hilton Houston, Texas US Hotel\", \"Hotel Saint Augustine Hilton Houston, Texas US Resort\", \"Hotel Saint Augustine Hilton Houston, Texas US\", \"Hotel Saint Augustine Hotel\", \"Hotel Saint Augustine Resort\", \"Hotel Saint Augustine\", \"Hotel Saint Augustine Houston, Texas US Hotel\", \"Hotel Saint Augustine Houston, Texas US Resort\", \"Hotel Saint Augustine Houston, Texas US\"], \"v\": 3}": {
+    "lat": 29.9165763,
+    "lon": -81.293106,
+    "formatted_address": "117 Vilano Rd, St. Augustine, FL 32084, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJi4oxcsIn5IgR6lc3cwMYDYM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "117 Vilano Rd, St. Augustine, FL 32084, USA",
+      "geometry": {
+        "location": {
+          "lat": 29.9165763,
+          "lng": -81.293106
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 29.9180339802915,
+            "lng": -81.2917687697085
+          },
+          "southwest": {
+            "lat": 29.9153360197085,
+            "lng": -81.2944667302915
+          }
+        }
+      },
+      "name": "Hyatt Place St. Augustine / Vilano Beach",
+      "place_id": "ChIJi4oxcsIn5IgR6lc3cwMYDYM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/hyatt-place/en-US/jaxza-hyatt-place-st-augustine-vilano-beach?src=corp_lclb_google_seo_jaxza&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"Radisson Hotel Group\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Palazzo San Gottardo Lake Como, Radisson Collection Hotel Radisson Hotel Group Hotel\", \"Palazzo San Gottardo Lake Como, Radisson Collection Hotel Radisson Hotel Group Resort\", \"Palazzo San Gottardo Lake Como, Radisson Collection Hotel Radisson Hotel Group\", \"Palazzo San Gottardo Lake Como, Radisson Collection Hotel Radisson Hotel Group Como, Italy Hotel\", \"Palazzo San Gottardo Lake Como, Radisson Collection Hotel Radisson Hotel Group Como, Italy Resort\", \"Palazzo San Gottardo Lake Como, Radisson Collection Hotel Radisson Hotel Group Como, Italy\", \"Palazzo San Gottardo Lake Como, Radisson Collection Hotel Hilton Hotel\", \"Palazzo San Gottardo Lake Como, Radisson Collection Hotel Hilton Resort\", \"Palazzo San Gottardo Lake Como, Radisson Collection Hotel Hilton\", \"Palazzo San Gottardo Lake Como, Radisson Collection Hotel Hilton Como, Italy Hotel\", \"Palazzo San Gottardo Lake Como, Radisson Collection Hotel Hilton Como, Italy Resort\", \"Palazzo San Gottardo Lake Como, Radisson Collection Hotel Hilton Como, Italy\", \"Palazzo San Gottardo Lake Como Radisson Collection Hotel Radisson Hotel Group Hotel\", \"Palazzo San Gottardo Lake Como Radisson Collection Hotel Radisson Hotel Group Resort\", \"Palazzo San Gottardo Lake Como Radisson Collection Hotel Radisson Hotel Group\", \"Palazzo San Gottardo Lake Como Radisson Collection Hotel Radisson Hotel Group Como, Italy Hotel\", \"Palazzo San Gottardo Lake Como Radisson Collection Hotel Radisson Hotel Group Como, Italy Resort\", \"Palazzo San Gottardo Lake Como Radisson Collection Hotel Radisson Hotel Group Como, Italy\", \"Palazzo San Gottardo Lake Como Radisson Collection Hotel Hilton Hotel\", \"Palazzo San Gottardo Lake Como Radisson Collection Hotel Hilton Resort\", \"Palazzo San Gottardo Lake Como Radisson Collection Hotel Hilton\", \"Palazzo San Gottardo Lake Como Radisson Collection Hotel Hilton Como, Italy Hotel\", \"Palazzo San Gottardo Lake Como Radisson Collection Hotel Hilton Como, Italy Resort\", \"Palazzo San Gottardo Lake Como Radisson Collection Hotel Hilton Como, Italy\", \"Palazzo San Gottardo Lake Como, Radisson Collection Hotel Hotel\", \"Palazzo San Gottardo Lake Como, Radisson Collection Hotel Resort\", \"Palazzo San Gottardo Lake Como, Radisson Collection Hotel\", \"Palazzo San Gottardo Lake Como, Radisson Collection Hotel Como, Italy Hotel\", \"Palazzo San Gottardo Lake Como, Radisson Collection Hotel Como, Italy Resort\", \"Palazzo San Gottardo Lake Como, Radisson Collection Hotel Como, Italy\"], \"v\": 3}": {
+    "lat": 45.8122275,
+    "lon": 9.0800416,
+    "formatted_address": "Via Fratelli Cairoli, 2, 22100 Como CO, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJsUN8mLadhkcRjpSAMADl-aI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Fratelli Cairoli, 2, 22100 Como CO, Italy",
+      "geometry": {
+        "location": {
+          "lat": 45.8122275,
+          "lng": 9.0800416
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.8135493302915,
+            "lng": 9.081313030291504
+          },
+          "southwest": {
+            "lat": 45.8108513697085,
+            "lng": 9.0786150697085
+          }
+        }
+      },
+      "name": "Palazzo San Gottardo Lake Como, A Radisson Collection Hotel",
+      "place_id": "ChIJsUN8mLadhkcRjpSAMADl-aI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.radissonhotels.com/en-us/hotels/radisson-collection-lake-como?cid=a:se+b:gmb+c:emea+i:local+e:rco+d:cese+h:ITCOOAAA"
+    }
+  },
+  "{\"brand\": \"Relais & Ch\\u00e2teaux\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Coquillade Provence Relais & Ch\\u00e2teaux Hotel\", \"Coquillade Provence Relais & Ch\\u00e2teaux Resort\", \"Coquillade Provence Relais & Ch\\u00e2teaux\", \"Coquillade Provence Relais & Ch\\u00e2teaux Gargas, France Hotel\", \"Coquillade Provence Relais & Ch\\u00e2teaux Gargas, France Resort\", \"Coquillade Provence Relais & Ch\\u00e2teaux Gargas, France\", \"Coquillade Provence Hilton Hotel\", \"Coquillade Provence Hilton Resort\", \"Coquillade Provence Hilton\", \"Coquillade Provence Hilton Gargas, France Hotel\", \"Coquillade Provence Hilton Gargas, France Resort\", \"Coquillade Provence Hilton Gargas, France\", \"Coquillade Provence Hotel\", \"Coquillade Provence Resort\", \"Coquillade Provence\", \"Coquillade Provence Gargas, France Hotel\", \"Coquillade Provence Gargas, France Resort\", \"Coquillade Provence Gargas, France\"], \"v\": 3}": {
+    "lat": 43.8794751,
+    "lon": 5.316382000000001,
+    "formatted_address": "Rte du Perrotet, 84400 Gargas, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJl4hzibYWyhIRmBaiScqvNdE",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Rte du Perrotet, 84400 Gargas, France",
+      "geometry": {
+        "location": {
+          "lat": 43.8794751,
+          "lng": 5.316382000000001
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.8807300302915,
+            "lng": 5.317798980291502
+          },
+          "southwest": {
+            "lat": 43.8780320697085,
+            "lng": 5.315101019708497
+          }
+        }
+      },
+      "name": "Coquillade Provence",
+      "place_id": "ChIJl4hzibYWyhIRmBaiScqvNdE",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://coquillade.fr/fr/?utm_source=gmb"
+    }
+  },
+  "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Stavrand Russian River Valley Small Luxury Hotels of the World Hotel\", \"The Stavrand Russian River Valley Small Luxury Hotels of the World Resort\", \"The Stavrand Russian River Valley Small Luxury Hotels of the World\", \"The Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US Hotel\", \"The Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US Resort\", \"The Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US\", \"The Stavrand Russian River Valley Hilton Hotel\", \"The Stavrand Russian River Valley Hilton Resort\", \"The Stavrand Russian River Valley Hilton\", \"The Stavrand Russian River Valley Hilton Guerneville, California US Hotel\", \"The Stavrand Russian River Valley Hilton Guerneville, California US Resort\", \"The Stavrand Russian River Valley Hilton Guerneville, California US\", \"Stavrand Russian River Valley Small Luxury Hotels of the World Hotel\", \"Stavrand Russian River Valley Small Luxury Hotels of the World Resort\", \"Stavrand Russian River Valley Small Luxury Hotels of the World\", \"Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US Hotel\", \"Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US Resort\", \"Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US\", \"Stavrand Russian River Valley Hilton Hotel\", \"Stavrand Russian River Valley Hilton Resort\", \"Stavrand Russian River Valley Hilton\", \"Stavrand Russian River Valley Hilton Guerneville, California US Hotel\", \"Stavrand Russian River Valley Hilton Guerneville, California US Resort\", \"Stavrand Russian River Valley Hilton Guerneville, California US\", \"The Stavrand Russian River Valley Hotel\", \"The Stavrand Russian River Valley Resort\", \"The Stavrand Russian River Valley\", \"The Stavrand Russian River Valley Guerneville, California US Hotel\", \"The Stavrand Russian River Valley Guerneville, California US Resort\", \"The Stavrand Russian River Valley Guerneville, California US\"], \"v\": 3}": {
+    "lat": 38.4995473,
+    "lon": -122.988888,
+    "formatted_address": "13555 CA-116, Guerneville, CA 95446, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJAQDsYf8hhIARhHyY_671lk0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "13555 CA-116, Guerneville, CA 95446, USA",
+      "geometry": {
+        "location": {
+          "lat": 38.4995473,
+          "lng": -122.988888
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.5009820302915,
+            "lng": -122.9874939197085
+          },
+          "southwest": {
+            "lat": 38.4982840697085,
+            "lng": -122.9901918802915
+          }
+        }
+      },
+      "name": "The Stavrand Russian River Valley",
+      "place_id": "ChIJAQDsYf8hhIARhHyY_671lk0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.thestavrand.com/?utm_medium=organic&utm_source=google&utm_campaign=business-listing"
+    }
+  },
+  "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Park Lane Copenhagen Small Luxury Hotels of the World Hotel\", \"Park Lane Copenhagen Small Luxury Hotels of the World Resort\", \"Park Lane Copenhagen Small Luxury Hotels of the World\", \"Park Lane Copenhagen Small Luxury Hotels of the World Hellerup, Denmark Hotel\", \"Park Lane Copenhagen Small Luxury Hotels of the World Hellerup, Denmark Resort\", \"Park Lane Copenhagen Small Luxury Hotels of the World Hellerup, Denmark\", \"Park Lane Copenhagen Hilton Hotel\", \"Park Lane Copenhagen Hilton Resort\", \"Park Lane Copenhagen Hilton\", \"Park Lane Copenhagen Hilton Hellerup, Denmark Hotel\", \"Park Lane Copenhagen Hilton Hellerup, Denmark Resort\", \"Park Lane Copenhagen Hilton Hellerup, Denmark\", \"Park Lane Copenhagen Hotel\", \"Park Lane Copenhagen Resort\", \"Park Lane Copenhagen\", \"Park Lane Copenhagen Hellerup, Denmark Hotel\", \"Park Lane Copenhagen Hellerup, Denmark Resort\", \"Park Lane Copenhagen Hellerup, Denmark\"], \"v\": 3}": {
+    "lat": 55.737462,
+    "lon": 12.575096,
+    "formatted_address": "Strandvejen 203, 2900 Hellerup, Denmark",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJp9DtXH9SUkYRB9svYTu4o8E",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Strandvejen 203, 2900 Hellerup, Denmark",
+      "geometry": {
+        "location": {
+          "lat": 55.737462,
+          "lng": 12.575096
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 55.73894088029149,
+            "lng": 12.5763974302915
+          },
+          "southwest": {
+            "lat": 55.73624291970849,
+            "lng": 12.5736994697085
+          }
+        }
+      },
+      "name": "Park Lane Copenhagen",
+      "place_id": "ChIJp9DtXH9SUkYRB9svYTu4o8E",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://parklanecph.com/"
+    }
   }
 }
