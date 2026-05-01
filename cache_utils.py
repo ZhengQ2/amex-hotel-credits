@@ -22,14 +22,14 @@ import json
 import os
 import re
 import unicodedata
-from typing import Any, Dict, FrozenSet, List, Optional, Set, Tuple
+from typing import Any, Dict, FrozenSet, Iterable, List, Optional, Set, Tuple
 
 CACHE_VERSION = 3
 
 DEFAULT_GENERIC_TOKENS: FrozenSet[str] = frozenset({
-    "hotel", "hotels", "resort", "spa", "and", "the", "at", "by", "&",
-    "hilton", "inn", "suites", "collection", "club", "property",
+    "and", "the", "at", "by", "&", "of",
 })
+MIN_FUZZY_MATCH_TOKENS = 2
 
 
 def _clean_text(s: str) -> str:
@@ -65,8 +65,11 @@ def _names_match(
     if n1 == n2:
         return True
 
-    def tokens(s: str) -> set:
-        return {t for t in re.findall(r"[a-z0-9]+", s) if t not in generic_tokens}
+    def tokens(s: str) -> Set[str]:
+        return {
+            t for t in re.findall(r"[a-z0-9]+", s)
+            if t not in generic_tokens and len(t) > 1
+        }
 
     t1 = tokens(n1)
     t2 = tokens(n2)
@@ -76,7 +79,7 @@ def _names_match(
         return True
 
     overlap = t1 & t2
-    if not overlap:
+    if len(overlap) < MIN_FUZZY_MATCH_TOKENS:
         return False
 
     smaller_set, larger_set = (t1, t2) if len(t1) <= len(t2) else (t2, t1)
@@ -84,6 +87,41 @@ def _names_match(
         return (len(larger_set) - len(smaller_set)) <= 2
 
     return len(overlap) / len(t1) >= 0.8 and len(overlap) / len(t2) >= 0.8
+
+
+def _match_quality(
+    left: str,
+    right: str,
+    generic_tokens: FrozenSet[str] = DEFAULT_GENERIC_TOKENS,
+) -> Optional[Tuple[int, int, int, int, int]]:
+    """Return a sortable quality tuple for a fuzzy name match, or None."""
+    l = _clean_text(left).lower()
+    r = _clean_text(right).lower()
+    if not l or not r:
+        return None
+    if l == r:
+        return (1, 999, 999, 0, 0)
+
+    def tokens(s: str) -> Set[str]:
+        return {
+            t for t in re.findall(r"[a-z0-9]+", s)
+            if t not in generic_tokens and len(t) > 1
+        }
+
+    lt = tokens(l)
+    rt = tokens(r)
+    overlap = lt & rt
+    if not _names_match(left, right, generic_tokens=generic_tokens):
+        return None
+    smaller = min(len(lt), len(rt))
+    larger = max(len(lt), len(rt))
+    return (
+        0,
+        len(overlap),
+        1 if (lt.issubset(rt) or rt.issubset(lt)) else 0,
+        -abs(larger - smaller),
+        -abs(len(l) - len(r)),
+    )
 
 
 def load_geocode_cache_index(
@@ -94,10 +132,8 @@ def load_geocode_cache_index(
     index layout:
       "__official__": {scope_key: set(name_lower), "__any__": set(name_lower)}
           — fuzzy matching pool for new-style entries (have hotel_name field)
-      "__any__": set(query_lower)
-          — fuzzy fallback pool covering all old-style entries across all files
-      scope_key: set(query_lower)
-          — fuzzy fallback pool scoped to a specific brand/program
+      "__queries__": {scope_key: set(query_lower), "__any__": set(query_lower)}
+          — fuzzy fallback pool for old-style entries that only store queries
 
     entries: [(canonical_name, scope_key, cache_key_str, cache_file_path), ...]
         canonical_name  — lowercased official name (new-style) or shortest query (old-style)
@@ -142,8 +178,17 @@ def load_geocode_cache_index(
 
             entries.append((canonical, scope_key, key, cache_path))
 
-    query_index["__official__"] = official_index
-    return query_index, entries
+    return {
+        "__official__": official_index,
+        "__queries__": query_index,
+    }, entries
+
+
+def _scoped_candidates(pool: Dict[str, Set[str]], scope_key: str) -> Set[str]:
+    scoped = set(pool.get(scope_key, set())) if scope_key else set()
+    if scoped:
+        return scoped
+    return set(pool.get("__any__", set()))
 
 
 def is_hotel_in_cache(hotel_name: str, scope_key: str, cache_index: Dict) -> bool:
@@ -157,21 +202,19 @@ def is_hotel_in_cache(hotel_name: str, scope_key: str, cache_index: Dict) -> boo
     sk = _clean_text(scope_key).lower()
 
     official = cache_index.get("__official__", {})
-    official_names: Set[str] = set(official.get("__any__", set()))
-    if sk:
-        official_names.update(official.get(sk, set()))
+    official_names = _scoped_candidates(official, sk)
     if any(_names_match(name, n) for n in official_names):
         return True
 
-    scoped_queries: Set[str] = set(cache_index.get("__any__", set()))
-    if sk:
-        scoped_queries.update(cache_index.get(sk, set()))
+    queries = cache_index.get("__queries__", {})
+    scoped_queries = _scoped_candidates(queries, sk)
     return any(_names_match(name, q) for q in scoped_queries)
 
 
 def find_cache_match(
     hotel_name: str,
     cache_entries: List[Tuple[str, str, str, str]],
+    scope_key: str = "",
 ) -> Optional[Tuple[str, str, str, str]]:
     """Return the first cache entry that fuzzily matches hotel_name, or None.
 
@@ -180,36 +223,75 @@ def find_cache_match(
       - entry returned, canonical == cleaned scraped name → unchanged
       - entry returned, canonical != cleaned scraped name → possible rename/rebrand
     """
-    name = _clean_text(hotel_name).lower()
+    target_scope = _clean_text(scope_key).lower()
+    best_entry: Optional[Tuple[str, str, str, str]] = None
+    best_quality: Optional[Tuple[int, int, int, int, int]] = None
+
     for entry in cache_entries:
-        canonical, scope_key, cache_key, cache_path = entry
-        if _names_match(name, canonical):
-            return entry
-    return None
+        canonical, entry_scope, cache_key, cache_path = entry
+        try:
+            meta = json.loads(cache_key)
+        except Exception:
+            continue
+
+        cached_hotel_name = _clean_text(meta.get("hotel_name", "")).lower()
+        if not cached_hotel_name:
+            continue
+        if target_scope and entry_scope and entry_scope != target_scope:
+            continue
+
+        quality = _match_quality(hotel_name, cached_hotel_name)
+        if quality is None:
+            continue
+        if best_quality is None or quality > best_quality:
+            best_quality = quality
+            best_entry = (cached_hotel_name, entry_scope, cache_key, cache_path)
+
+    return best_entry
 
 
-def find_fuzzy_cache_key(hotel_name: str, cache: Dict[str, Any]) -> Optional[str]:
+def find_fuzzy_cache_key(
+    hotel_name: str,
+    cache: Dict[str, Any],
+    *,
+    input_format: str = "",
+) -> Optional[str]:
     """Search a raw cache dict for a key whose hotel_name fuzzily matches.
-
-    Only considers new-style entries (those with a hotel_name field) to avoid
-    false positives from preprocessed query strings in old-style entries.
 
     Used by google-convert.py to reuse already-geocoded coordinates when the
     hotel's name has changed slightly, avoiding an unnecessary API call.
+    Falls back to old-style query-array matching because most existing cache
+    entries still predate the hotel_name field.
     Returns the matching key string, or None.
     """
-    name = _clean_text(hotel_name).lower()
+    best_key: Optional[str] = None
+    best_quality: Optional[Tuple[int, int, int, int, int]] = None
+
     for key in cache:
         try:
             meta = json.loads(key)
         except Exception:
             continue
+        cached_format = _clean_text(meta.get("input_format", "")).lower()
+        if input_format and cached_format and cached_format != _clean_text(input_format).lower():
+            continue
+
+        candidates: Iterable[str]
         cached_hotel_name = meta.get("hotel_name", "")
-        if not cached_hotel_name:
-            continue  # old-style entry — skip to avoid false positives
-        if _names_match(name, _clean_text(cached_hotel_name).lower()):
-            return key
-    return None
+        if cached_hotel_name:
+            candidates = [cached_hotel_name]
+        else:
+            candidates = meta.get("queries", []) or []
+
+        for candidate in candidates:
+            quality = _match_quality(hotel_name, candidate)
+            if quality is None:
+                continue
+            if best_quality is None or quality > best_quality:
+                best_quality = quality
+                best_key = key
+
+    return best_key
 
 
 def is_cached_hotel_in_scraped(
@@ -308,8 +390,9 @@ def remove_hotels_from_cache(
 def make_placeholder_key(hotel_name: str, brand: str, input_format: str) -> str:
     """Build the cache key JSON string for a new hotel placeholder entry.
 
-    Matches the format written by google-convert.py so that when it later
-    geocodes the hotel, it finds and updates the placeholder.
+    The placeholder stores the official hotel name up front so later geocoding
+    runs can reuse it through fuzzy lookup even before the full query list is
+    known.
     """
     return json.dumps(
         {

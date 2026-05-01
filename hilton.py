@@ -2,11 +2,12 @@
 from playwright.sync_api import sync_playwright, TimeoutError
 import pandas as pd
 from urllib.parse import urljoin, urlparse, urlunparse, parse_qsl, urlencode
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Tuple
 
 from cache_utils import (
     _clean_text as _clean_text_shared,
     load_geocode_cache_index,
+    is_hotel_in_cache,
     find_cache_match,
     is_cached_hotel_in_scraped,
     update_cache_file,
@@ -347,10 +348,12 @@ def main(headless=True):
         new_hotels: List[Any] = []
         renamed_hotels: List[Any] = []  # (scraped_name, cached_name, group_label)
         for _, row in df.iterrows():
-            match = find_cache_match(row["hotel_name"], cache_entries)
-            if match is None:
+            if not is_hotel_in_cache(row["hotel_name"], row["group_label"], cache_index):
                 new_hotels.append(row)
-            else:
+                continue
+
+            match = find_cache_match(row["hotel_name"], cache_entries, row["group_label"])
+            if match is not None:
                 cached_canonical = match[0]
                 if _clean_text(row["hotel_name"]).lower() != cached_canonical:
                     renamed_hotels.append((row["hotel_name"], cached_canonical, row["group_label"]))
@@ -372,12 +375,20 @@ def main(headless=True):
             entry for entry in cache_entries
             if not is_cached_hotel_in_scraped(entry[0], entry[1], scraped_index)
         ]
+        removed_hotels: List[Tuple[str, str]] = []
+        seen_removed = set()
+        for name, scope, _, _path in sorted(removed_entries, key=lambda x: (x[1], x[0])):
+            key = (scope, name)
+            if key in seen_removed:
+                continue
+            seen_removed.add(key)
+            removed_hotels.append((name, scope))
 
         if not removed_entries:
             print("No cached hotels appear to have been removed from the current list.")
         else:
             print("Hotels in geocode cache but NOT in current scraped list (removed):")
-            for name, scope, _, _path in sorted(removed_entries, key=lambda x: (x[1], x[0])):
+            for name, scope in removed_hotels:
                 print(f"- {name}  [brand: {scope}]")
 
         # 3) Update cache with new hotels
@@ -395,7 +406,10 @@ def main(headless=True):
 
         # 4) Remove hotels from cache that are no longer scraped
         if removed_entries:
-            print(f"\nRemoving {len(removed_entries)} hotels from cache...")
+            print(
+                f"\nRemoving {len(removed_entries)} cache entries "
+                f"for {len(removed_hotels)} removed hotels..."
+            )
             removed = remove_hotels_from_cache(removed_entries)
             if removed > 0:
                 print(f"✓ Removed {removed} hotel(s) from cache")

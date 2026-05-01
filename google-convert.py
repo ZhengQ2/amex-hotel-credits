@@ -501,8 +501,10 @@ def main():
 
         if input_format == "fhrthc":
             brand = _clean_cell(getattr(row, "brand_label", ""))
+            cache_scope = group_label or brand
         else:
             brand = group_label
+            cache_scope = group_label
 
         queries = build_queries(hotel, brand, hotel_url, hotel_location)
         cache_key = json.dumps({
@@ -511,7 +513,7 @@ def main():
             "input_format": input_format,
             "hotel_name": hotel,
             "queries": queries,
-            "brand": brand,
+            "brand": cache_scope,
         }, sort_keys=True)
 
         cached = cache.get(cache_key, None)
@@ -521,7 +523,7 @@ def main():
         else:
             # Fuzzy fallback: reuse cached geocoding when the hotel name changed
             # slightly (rebrand, punctuation, minor addition) to avoid a paid API call.
-            fuzzy_key = find_fuzzy_cache_key(hotel, cache)
+            fuzzy_key = find_fuzzy_cache_key(hotel, cache, input_format=input_format)
             if fuzzy_key is not None:
                 cached = cache[fuzzy_key]
                 res = None if cached == {"status": "NO_RESULT"} else cached

@@ -1,7 +1,7 @@
 import csv
 import re
 from html.parser import HTMLParser
-from typing import Dict, List
+from typing import Dict, List, Tuple
 from urllib.error import HTTPError, URLError
 from urllib.parse import urljoin
 from urllib.request import HTTPCookieProcessor, Request, build_opener
@@ -9,6 +9,7 @@ from urllib.request import HTTPCookieProcessor, Request, build_opener
 from cache_utils import (
     _clean_text as _clean_text_shared,
     load_geocode_cache_index,
+    is_hotel_in_cache,
     find_cache_match,
     is_cached_hotel_in_scraped,
     update_cache_file,
@@ -363,8 +364,14 @@ def main():
         raise RuntimeError("Failed to fetch AMEX pages or no rows were parsed.")
     write_output(rows)
 
-    cache_index, cache_entries = load_geocode_cache_index(FHR_CACHE_FILE, THC_CACHE_FILE)
-    if not cache_entries and not cache_index.get("__official__"):
+    cache_by_program = {
+        "FHR": load_geocode_cache_index(FHR_CACHE_FILE),
+        "THC": load_geocode_cache_index(THC_CACHE_FILE),
+    }
+    if all(
+        not entries and not cache_index.get("__official__")
+        for cache_index, entries in cache_by_program.values()
+    ):
         print(
             f"No cache index built (files missing or empty: "
             f"{FHR_CACHE_FILE}, {THC_CACHE_FILE})."
@@ -384,16 +391,23 @@ def main():
     new_hotels = []
     renamed_hotels = []  # (scraped_name, cached_name, program)
     for row in rows:
-        match = find_cache_match(row["hotel_name"], cache_entries)
-        if match is None:
+        program = _program_bucket(row["program_label"])
+        if not program:
+            continue
+        cache_index, cache_entries = cache_by_program[program]
+
+        if not is_hotel_in_cache(row["hotel_name"], program, cache_index):
             new_hotels.append(row)
-        else:
+            continue
+
+        match = find_cache_match(row["hotel_name"], cache_entries, program)
+        if match is not None:
             cached_canonical = match[0]
             if _clean_text(row["hotel_name"]).lower() != cached_canonical:
                 renamed_hotels.append((
                     row["hotel_name"],
                     cached_canonical,
-                    _program_bucket(row["program_label"]),
+                    program,
                 ))
 
     if not new_hotels:
@@ -411,19 +425,26 @@ def main():
     # entry[1] is scope_key from the cache (brand.lower()). Pass it through
     # _program_bucket so that old google-convert entries with brand=brand_label
     # (not "FHR"/"THC") get normalised to "" and fall back to the full scraped set.
-    removed_entries = [
-        entry for entry in cache_entries
-        if not is_cached_hotel_in_scraped(
-            entry[0], _program_bucket(entry[1]), scraped_index
-        )
-    ]
+    removed_entries = []
+    removed_hotels: List[Tuple[str, str]] = []
+    seen_removed = set()
+    for program, (_cache_index, cache_entries) in cache_by_program.items():
+        for entry in cache_entries:
+            if is_cached_hotel_in_scraped(entry[0], program, scraped_index):
+                continue
+            removed_entries.append(entry)
+            summary_key = (program, entry[0])
+            if summary_key in seen_removed:
+                continue
+            seen_removed.add(summary_key)
+            removed_hotels.append((entry[0], program))
 
     if not removed_entries:
         print("No cached FHR/THC hotels appear to have been removed from the current list.")
     else:
         print("FHR/THC hotels in geocode cache but NOT in current scraped list (removed):")
-        for name, scope, _, _path in sorted(removed_entries, key=lambda x: (x[1], x[0])):
-            print(f"- {name}  [program: {_program_bucket(scope) or 'UNKNOWN'}]")
+        for name, program in sorted(removed_hotels, key=lambda x: (x[1], x[0])):
+            print(f"- {name}  [program: {program}]")
 
     if new_hotels:
         print(f"\nUpdating cache with {len(new_hotels)} new FHR/THC hotels...")
@@ -444,7 +465,10 @@ def main():
             print("⚠ Failed to add hotels to cache (check file permissions)")
 
     if removed_entries:
-        print(f"\nRemoving {len(removed_entries)} FHR/THC hotels from cache...")
+        print(
+            f"\nRemoving {len(removed_entries)} cache entries "
+            f"for {len(removed_hotels)} removed FHR/THC hotels..."
+        )
         removed = remove_hotels_from_cache(removed_entries)
         if removed > 0:
             print(f"✓ Removed {removed} hotel(s) from cache")
