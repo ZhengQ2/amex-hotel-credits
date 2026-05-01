@@ -507,6 +507,7 @@ def main():
             "v": CACHE_VERSION,
             "provider": "google_places_first",
             "input_format": input_format,
+            "hotel_name": hotel,
             "queries": queries,
             "brand": brand,
         }, sort_keys=True)
