@@ -209351,5 +209351,702 @@
       ],
       "website": "https://www.palazzotalia.com/"
     }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Chanler at Cliff Walk Hotel\", \"The Chanler at Cliff Walk Resort\", \"The Chanler at Cliff Walk\", \"The Chanler at Cliff Walk Newport, Rhode Island US Hotel\", \"The Chanler at Cliff Walk Newport, Rhode Island US Resort\", \"The Chanler at Cliff Walk Newport, Rhode Island US\", \"Chanler Cliff Walk Hotel\", \"Chanler Cliff Walk Resort\", \"Chanler Cliff Walk\", \"Chanler Cliff Walk Newport, Rhode Island US Hotel\", \"Chanler Cliff Walk Newport, Rhode Island US Resort\", \"Chanler Cliff Walk Newport, Rhode Island US\"], \"v\": 3}": {
+    "lat": 41.4847044,
+    "lon": -71.2979388,
+    "formatted_address": "117 Memorial Blvd, Newport, RI 02840, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJM1lzn0-v5YkRbdRdTiDEI8k",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "117 Memorial Blvd, Newport, RI 02840, USA",
+      "geometry": {
+        "location": {
+          "lat": 41.4847044,
+          "lng": -71.2979388
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.48606288029149,
+            "lng": -71.29673631970849
+          },
+          "southwest": {
+            "lat": 41.48336491970849,
+            "lng": -71.2994342802915
+          }
+        }
+      },
+      "name": "The Chanler at Cliff Walk",
+      "place_id": "ChIJM1lzn0-v5YkRbdRdTiDEI8k",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.thechanler.com/"
+    }
+  },
+  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Nobu Hotel Toronto Hotel\", \"Nobu Hotel Toronto Resort\", \"Nobu Hotel Toronto\", \"Nobu Hotel Toronto Toronto, Ontario CA Hotel\", \"Nobu Hotel Toronto Toronto, Ontario CA Resort\", \"Nobu Hotel Toronto Toronto, Ontario CA\"], \"v\": 3}": {
+    "lat": 43.6455013,
+    "lon": -79.3909453,
+    "formatted_address": "33 Mercer St, Toronto, ON M5V 1H2, Canada",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJGStHeXo1K4gR5M-jfMPrW9w",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "33 Mercer St, Toronto, ON M5V 1H2, Canada",
+      "geometry": {
+        "location": {
+          "lat": 43.6455013,
+          "lng": -79.3909453
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.6468371302915,
+            "lng": -79.38965441970849
+          },
+          "southwest": {
+            "lat": 43.6441391697085,
+            "lng": -79.3923523802915
+          }
+        }
+      },
+      "name": "Nobu Hotel Toronto",
+      "place_id": "ChIJGStHeXo1K4gR5M-jfMPrW9w",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.nobuhotels.com/toronto?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"Barri\\u00e8re Group\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Maison Barriere Vendome Barri\\u00e8re Group Hotel\", \"Maison Barriere Vendome Barri\\u00e8re Group Resort\", \"Maison Barriere Vendome Barri\\u00e8re Group\", \"Maison Barriere Vendome Barri\\u00e8re Group Paris, France Hotel\", \"Maison Barriere Vendome Barri\\u00e8re Group Paris, France Resort\", \"Maison Barriere Vendome Barri\\u00e8re Group Paris, France\", \"Maison Barriere Vendome Hilton Hotel\", \"Maison Barriere Vendome Hilton Resort\", \"Maison Barriere Vendome Hilton\", \"Maison Barriere Vendome Hilton Paris, France Hotel\", \"Maison Barriere Vendome Hilton Paris, France Resort\", \"Maison Barriere Vendome Hilton Paris, France\", \"Maison Barriere Vendome Hotel\", \"Maison Barriere Vendome Resort\", \"Maison Barriere Vendome\", \"Maison Barriere Vendome Paris, France Hotel\", \"Maison Barriere Vendome Paris, France Resort\", \"Maison Barriere Vendome Paris, France\"], \"v\": 3}": {
+    "lat": 48.865741,
+    "lon": 2.3282614,
+    "formatted_address": "17 Rue du Mont Thabor, 75001 Paris, France",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
+    "place_id": "ChIJv-eSAmlv5kcRL0l-ddPJxh4",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": true,
+    "raw": {
+      "address_components": [
+        {
+          "long_name": "17",
+          "short_name": "17",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Rue du Mont Thabor",
+          "short_name": "Rue du Mont Thabor",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Paris",
+          "short_name": "Paris",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Paris",
+          "short_name": "Paris",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Île-de-France",
+          "short_name": "IDF",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "France",
+          "short_name": "FR",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "75001",
+          "short_name": "75001",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "17 Rue du Mont Thabor, 75001 Paris, France",
+      "geometry": {
+        "location": {
+          "lat": 48.865741,
+          "lng": 2.3282614
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 48.8670899802915,
+            "lng": 2.329610380291502
+          },
+          "southwest": {
+            "lat": 48.8643920197085,
+            "lng": 2.326912419708498
+          }
+        }
+      },
+      "partial_match": true,
+      "place_id": "ChIJv-eSAmlv5kcRL0l-ddPJxh4",
+      "plus_code": {
+        "compound_code": "V88H+78 Paris, France",
+        "global_code": "8FW4V88H+78"
+      },
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ]
+    }
+  },
+  "{\"brand\": \"Bvlgari Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Bvlgari Hotel Beijing Bvlgari Hotels & Resorts Hotel\", \"Bvlgari Hotel Beijing Bvlgari Hotels & Resorts Resort\", \"Bvlgari Hotel Beijing Bvlgari Hotels & Resorts\", \"Bvlgari Hotel Beijing Bvlgari Hotels & Resorts Beijing, China Hotel\", \"Bvlgari Hotel Beijing Bvlgari Hotels & Resorts Beijing, China Resort\", \"Bvlgari Hotel Beijing Bvlgari Hotels & Resorts Beijing, China\", \"Bvlgari Hotel Beijing Hilton Hotel\", \"Bvlgari Hotel Beijing Hilton Resort\", \"Bvlgari Hotel Beijing Hilton\", \"Bvlgari Hotel Beijing Hilton Beijing, China Hotel\", \"Bvlgari Hotel Beijing Hilton Beijing, China Resort\", \"Bvlgari Hotel Beijing Hilton Beijing, China\", \"Bvlgari Hotel Beijing Hotel\", \"Bvlgari Hotel Beijing Resort\", \"Bvlgari Hotel Beijing\", \"Bvlgari Hotel Beijing Beijing, China Hotel\", \"Bvlgari Hotel Beijing Beijing, China Resort\", \"Bvlgari Hotel Beijing Beijing, China\"], \"v\": 3}": {
+    "lat": 39.947563,
+    "lon": 116.452261,
+    "formatted_address": "China, Bei Jing Shi, Chao Yang Qu, CN CN 北京市 朝阳区新源南路8号院2号楼 邮政编码: 100027",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJF4C6Dpus8TUR6VpkEE6m6eA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "China, Bei Jing Shi, Chao Yang Qu, CN CN 北京市 朝阳区新源南路8号院2号楼 邮政编码: 100027",
+      "geometry": {
+        "location": {
+          "lat": 39.947563,
+          "lng": 116.452261
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.9489263302915,
+            "lng": 116.4537135302915
+          },
+          "southwest": {
+            "lat": 39.9462283697085,
+            "lng": 116.4510155697085
+          }
+        }
+      },
+      "name": "BVLGARI HOTEL, Beijing",
+      "place_id": "ChIJF4C6Dpus8TUR6VpkEE6m6eA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.bulgarihotels.com/zh_CN/beijing"
+    }
+  },
+  "{\"brand\": \"Bvlgari Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Bvlgari Resort Dubai Bvlgari Hotels & Resorts Hotel\", \"Bvlgari Resort Dubai Bvlgari Hotels & Resorts Resort\", \"Bvlgari Resort Dubai Bvlgari Hotels & Resorts\", \"Bvlgari Resort Dubai Bvlgari Hotels & Resorts Dubai, United Arab Emirates Hotel\", \"Bvlgari Resort Dubai Bvlgari Hotels & Resorts Dubai, United Arab Emirates Resort\", \"Bvlgari Resort Dubai Bvlgari Hotels & Resorts Dubai, United Arab Emirates\", \"Bvlgari Resort Dubai Hilton Hotel\", \"Bvlgari Resort Dubai Hilton Resort\", \"Bvlgari Resort Dubai Hilton\", \"Bvlgari Resort Dubai Hilton Dubai, United Arab Emirates Hotel\", \"Bvlgari Resort Dubai Hilton Dubai, United Arab Emirates Resort\", \"Bvlgari Resort Dubai Hilton Dubai, United Arab Emirates\", \"Bvlgari Resort Dubai Hotel\", \"Bvlgari Resort Dubai Resort\", \"Bvlgari Resort Dubai\", \"Bvlgari Resort Dubai Dubai, United Arab Emirates Hotel\", \"Bvlgari Resort Dubai Dubai, United Arab Emirates Resort\", \"Bvlgari Resort Dubai Dubai, United Arab Emirates\"], \"v\": 3}": {
+    "lat": 25.210697,
+    "lon": 55.236428,
+    "formatted_address": "Jumeirah Bay Island - جميرا باي - جميرا ٢ - دبي - United Arab Emirates",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ8-LpJSNCXz4RSYU8D8qlVl4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Jumeirah Bay Island - جميرا باي - جميرا ٢ - دبي - United Arab Emirates",
+      "geometry": {
+        "location": {
+          "lat": 25.210697,
+          "lng": 55.236428
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.2120599802915,
+            "lng": 55.23778858029149
+          },
+          "southwest": {
+            "lat": 25.2093620197085,
+            "lng": 55.23509061970849
+          }
+        }
+      },
+      "name": "Bvlgari Resort Dubai",
+      "place_id": "ChIJ8-LpJSNCXz4RSYU8D8qlVl4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.bulgarihotels.com/en_US/dubai?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Bvlgari Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Bvlgari Hotel Milano Bvlgari Hotels & Resorts Hotel\", \"Bvlgari Hotel Milano Bvlgari Hotels & Resorts Resort\", \"Bvlgari Hotel Milano Bvlgari Hotels & Resorts\", \"Bvlgari Hotel Milano Bvlgari Hotels & Resorts Milan, Italy Hotel\", \"Bvlgari Hotel Milano Bvlgari Hotels & Resorts Milan, Italy Resort\", \"Bvlgari Hotel Milano Bvlgari Hotels & Resorts Milan, Italy\", \"Bvlgari Hotel Milano Hilton Hotel\", \"Bvlgari Hotel Milano Hilton Resort\", \"Bvlgari Hotel Milano Hilton\", \"Bvlgari Hotel Milano Hilton Milan, Italy Hotel\", \"Bvlgari Hotel Milano Hilton Milan, Italy Resort\", \"Bvlgari Hotel Milano Hilton Milan, Italy\", \"Bvlgari Hotel Milano Hotel\", \"Bvlgari Hotel Milano Resort\", \"Bvlgari Hotel Milano\", \"Bvlgari Hotel Milano Milan, Italy Hotel\", \"Bvlgari Hotel Milano Milan, Italy Resort\", \"Bvlgari Hotel Milano Milan, Italy\"], \"v\": 3}": {
+    "lat": 45.4698487,
+    "lon": 9.1895359,
+    "formatted_address": "Via Privata Fratelli Gabba, 7B, 20121 Milano MI, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJS3qUE6zGhkcRzRDfJrTuWFE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Privata Fratelli Gabba, 7B, 20121 Milano MI, Italy",
+      "geometry": {
+        "location": {
+          "lat": 45.4698487,
+          "lng": 9.1895359
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.4714225302915,
+            "lng": 9.190863730291502
+          },
+          "southwest": {
+            "lat": 45.4687245697085,
+            "lng": 9.188165769708498
+          }
+        }
+      },
+      "name": "Bulgari Hotel Milano",
+      "place_id": "ChIJS3qUE6zGhkcRzRDfJrTuWFE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.bulgarihotels.com/en_US/milan?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Bvlgari Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Bvlgari Hotel Paris Bvlgari Hotels & Resorts Hotel\", \"Bvlgari Hotel Paris Bvlgari Hotels & Resorts Resort\", \"Bvlgari Hotel Paris Bvlgari Hotels & Resorts\", \"Bvlgari Hotel Paris Bvlgari Hotels & Resorts Paris, France Hotel\", \"Bvlgari Hotel Paris Bvlgari Hotels & Resorts Paris, France Resort\", \"Bvlgari Hotel Paris Bvlgari Hotels & Resorts Paris, France\", \"Bvlgari Hotel Paris Hilton Hotel\", \"Bvlgari Hotel Paris Hilton Resort\", \"Bvlgari Hotel Paris Hilton\", \"Bvlgari Hotel Paris Hilton Paris, France Hotel\", \"Bvlgari Hotel Paris Hilton Paris, France Resort\", \"Bvlgari Hotel Paris Hilton Paris, France\", \"Bvlgari Hotel Paris Hotel\", \"Bvlgari Hotel Paris Resort\", \"Bvlgari Hotel Paris\", \"Bvlgari Hotel Paris Paris, France Hotel\", \"Bvlgari Hotel Paris Paris, France Resort\", \"Bvlgari Hotel Paris Paris, France\"], \"v\": 3}": {
+    "lat": 48.8683674,
+    "lon": 2.3014592,
+    "formatted_address": "30 Av. George V, 75008 Paris, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJFYxKgcRv5kcR1sykKIcU01E",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "30 Av. George V, 75008 Paris, France",
+      "geometry": {
+        "location": {
+          "lat": 48.8683674,
+          "lng": 2.3014592
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.8696735802915,
+            "lng": 2.302762680291501
+          },
+          "southwest": {
+            "lat": 48.86697561970851,
+            "lng": 2.300064719708498
+          }
+        }
+      },
+      "name": "Bvlgari Hôtel Paris",
+      "place_id": "ChIJFYxKgcRv5kcR1sykKIcU01E",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.bulgarihotels.com/en_US/paris?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Bvlgari Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Bvlgari Hotel Roma Bvlgari Hotels & Resorts Hotel\", \"Bvlgari Hotel Roma Bvlgari Hotels & Resorts Resort\", \"Bvlgari Hotel Roma Bvlgari Hotels & Resorts\", \"Bvlgari Hotel Roma Bvlgari Hotels & Resorts Rome, Italy Hotel\", \"Bvlgari Hotel Roma Bvlgari Hotels & Resorts Rome, Italy Resort\", \"Bvlgari Hotel Roma Bvlgari Hotels & Resorts Rome, Italy\", \"Bvlgari Hotel Roma Hilton Hotel\", \"Bvlgari Hotel Roma Hilton Resort\", \"Bvlgari Hotel Roma Hilton\", \"Bvlgari Hotel Roma Hilton Rome, Italy Hotel\", \"Bvlgari Hotel Roma Hilton Rome, Italy Resort\", \"Bvlgari Hotel Roma Hilton Rome, Italy\", \"Bvlgari Hotel Roma Hotel\", \"Bvlgari Hotel Roma Resort\", \"Bvlgari Hotel Roma\", \"Bvlgari Hotel Roma Rome, Italy Hotel\", \"Bvlgari Hotel Roma Rome, Italy Resort\", \"Bvlgari Hotel Roma Rome, Italy\"], \"v\": 3}": {
+    "lat": 41.9067821,
+    "lon": 12.4762188,
+    "formatted_address": "Piazza Augusto Imperatore, 10, 00186 Roma RM, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ-XKhYh9hLxMR6SM6GuN3HM4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Piazza Augusto Imperatore, 10, 00186 Roma RM, Italy",
+      "geometry": {
+        "location": {
+          "lat": 41.9067821,
+          "lng": 12.4762188
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.9080319802915,
+            "lng": 12.4775473302915
+          },
+          "southwest": {
+            "lat": 41.9053340197085,
+            "lng": 12.4748493697085
+          }
+        }
+      },
+      "name": "Bvlgari Hotel Roma",
+      "place_id": "ChIJ-XKhYh9hLxMR6SM6GuN3HM4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.bulgarihotels.com/en_US/rome?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Bvlgari Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Bvlgari Resort Bali Bvlgari Hotels & Resorts Hotel\", \"Bvlgari Resort Bali Bvlgari Hotels & Resorts Resort\", \"Bvlgari Resort Bali Bvlgari Hotels & Resorts\", \"Bvlgari Resort Bali Bvlgari Hotels & Resorts Uluwatu, Indonesia Hotel\", \"Bvlgari Resort Bali Bvlgari Hotels & Resorts Uluwatu, Indonesia Resort\", \"Bvlgari Resort Bali Bvlgari Hotels & Resorts Uluwatu, Indonesia\", \"Bvlgari Resort Bali Hilton Hotel\", \"Bvlgari Resort Bali Hilton Resort\", \"Bvlgari Resort Bali Hilton\", \"Bvlgari Resort Bali Hilton Uluwatu, Indonesia Hotel\", \"Bvlgari Resort Bali Hilton Uluwatu, Indonesia Resort\", \"Bvlgari Resort Bali Hilton Uluwatu, Indonesia\", \"Bvlgari Resort Bali Hotel\", \"Bvlgari Resort Bali Resort\", \"Bvlgari Resort Bali\", \"Bvlgari Resort Bali Uluwatu, Indonesia Hotel\", \"Bvlgari Resort Bali Uluwatu, Indonesia Resort\", \"Bvlgari Resort Bali Uluwatu, Indonesia\"], \"v\": 3}": {
+    "lat": -8.8429187,
+    "lon": 115.1216909,
+    "formatted_address": "Jl. Goa Lempeh, Pecatu, Kec. Kuta Sel., Kabupaten Badung, Bali, Indonesia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJD3KueOta0i0Rl2LFO5YakuE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Jl. Goa Lempeh, Pecatu, Kec. Kuta Sel., Kabupaten Badung, Bali, Indonesia",
+      "geometry": {
+        "location": {
+          "lat": -8.8429187,
+          "lng": 115.1216909
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -8.841384169708498,
+            "lng": 115.1231235802915
+          },
+          "southwest": {
+            "lat": -8.8440821302915,
+            "lng": 115.1204256197085
+          }
+        }
+      },
+      "name": "Bvlgari Resort Bali",
+      "place_id": "ChIJD3KueOta0i0Rl2LFO5YakuE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.bulgarihotels.com/en_US/bali?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"CoralTree Hospitality\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Black Desert Resort CoralTree Hospitality Hotel\", \"Black Desert Resort CoralTree Hospitality Resort\", \"Black Desert Resort CoralTree Hospitality\", \"Black Desert Resort CoralTree Hospitality Ivins, Utah US Hotel\", \"Black Desert Resort CoralTree Hospitality Ivins, Utah US Resort\", \"Black Desert Resort CoralTree Hospitality Ivins, Utah US\", \"Black Desert Resort Hilton Hotel\", \"Black Desert Resort Hilton Resort\", \"Black Desert Resort Hilton\", \"Black Desert Resort Hilton Ivins, Utah US Hotel\", \"Black Desert Resort Hilton Ivins, Utah US Resort\", \"Black Desert Resort Hilton Ivins, Utah US\", \"Black Desert Resort Hotel\", \"Black Desert Resort Resort\", \"Black Desert Resort\", \"Black Desert Resort Ivins, Utah US Hotel\", \"Black Desert Resort Ivins, Utah US Resort\", \"Black Desert Resort Ivins, Utah US\"], \"v\": 3}": {
+    "lat": 37.1644258,
+    "lon": -113.6458809,
+    "formatted_address": "1500 E Black Desert Dr, Ivins, UT 84738, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJNww9NXtDyoARtF1-JcO_H9c",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1500 E Black Desert Dr, Ivins, UT 84738, USA",
+      "geometry": {
+        "location": {
+          "lat": 37.1644258,
+          "lng": -113.6458809
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.1657634802915,
+            "lng": -113.6445752697085
+          },
+          "southwest": {
+            "lat": 37.1630655197085,
+            "lng": -113.6472732302915
+          }
+        }
+      },
+      "name": "Black Desert Resort",
+      "place_id": "ChIJNww9NXtDyoARtF1-JcO_H9c",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://blackdesertresort.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"Hyatt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Parisi Udvar Hotel Budapest Hyatt Hotel\", \"Parisi Udvar Hotel Budapest Hyatt Resort\", \"Parisi Udvar Hotel Budapest Hyatt\", \"Parisi Udvar Hotel Budapest Hyatt Budapest, Hungary Hotel\", \"Parisi Udvar Hotel Budapest Hyatt Budapest, Hungary Resort\", \"Parisi Udvar Hotel Budapest Hyatt Budapest, Hungary\", \"Parisi Udvar Hotel Budapest Hilton Hotel\", \"Parisi Udvar Hotel Budapest Hilton Resort\", \"Parisi Udvar Hotel Budapest Hilton\", \"Parisi Udvar Hotel Budapest Hilton Budapest, Hungary Hotel\", \"Parisi Udvar Hotel Budapest Hilton Budapest, Hungary Resort\", \"Parisi Udvar Hotel Budapest Hilton Budapest, Hungary\", \"Parisi Udvar Hotel Budapest Hotel\", \"Parisi Udvar Hotel Budapest Resort\", \"Parisi Udvar Hotel Budapest\", \"Parisi Udvar Hotel Budapest Budapest, Hungary Hotel\", \"Parisi Udvar Hotel Budapest Budapest, Hungary Resort\", \"Parisi Udvar Hotel Budapest Budapest, Hungary\"], \"v\": 3}": {
+    "lat": 47.4935912,
+    "lon": 19.0549967,
+    "formatted_address": "Budapest, Petőfi Sándor u. 2-4, 1052 Hungary",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJSTy9h5zdQUcRM5H9k3rXYRc",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Budapest, Petőfi Sándor u. 2-4, 1052 Hungary",
+      "geometry": {
+        "location": {
+          "lat": 47.4935912,
+          "lng": 19.0549967
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.4949544802915,
+            "lng": 19.0563681302915
+          },
+          "southwest": {
+            "lat": 47.4922565197085,
+            "lng": 19.0536701697085
+          }
+        }
+      },
+      "name": "Párisi Udvar Hotel Budapest - The Unbound Collection by Hyatt",
+      "place_id": "ChIJSTy9h5zdQUcRM5H9k3rXYRc",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/unbound-collection/en-US/budub-parisi-udvar-hotel?src=corp_lclb_google_seo_budub&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"Ritz-Carlton Reserve\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Nujuma, a Ritz-Carlton Reserve Ritz-Carlton Reserve Hotel\", \"Nujuma, a Ritz-Carlton Reserve Ritz-Carlton Reserve Resort\", \"Nujuma, a Ritz-Carlton Reserve Ritz-Carlton Reserve\", \"Nujuma, a Ritz-Carlton Reserve Ritz-Carlton Reserve Tabuk, Saudi Arabia Hotel\", \"Nujuma, a Ritz-Carlton Reserve Ritz-Carlton Reserve Tabuk, Saudi Arabia Resort\", \"Nujuma, a Ritz-Carlton Reserve Ritz-Carlton Reserve Tabuk, Saudi Arabia\", \"Nujuma, a Ritz-Carlton Reserve Hilton Hotel\", \"Nujuma, a Ritz-Carlton Reserve Hilton Resort\", \"Nujuma, a Ritz-Carlton Reserve Hilton\", \"Nujuma, a Ritz-Carlton Reserve Hilton Tabuk, Saudi Arabia Hotel\", \"Nujuma, a Ritz-Carlton Reserve Hilton Tabuk, Saudi Arabia Resort\", \"Nujuma, a Ritz-Carlton Reserve Hilton Tabuk, Saudi Arabia\", \"Nujuma a Ritz carlton Reserve Ritz-Carlton Reserve Hotel\", \"Nujuma a Ritz carlton Reserve Ritz-Carlton Reserve Resort\", \"Nujuma a Ritz carlton Reserve Ritz-Carlton Reserve\", \"Nujuma a Ritz carlton Reserve Ritz-Carlton Reserve Tabuk, Saudi Arabia Hotel\", \"Nujuma a Ritz carlton Reserve Ritz-Carlton Reserve Tabuk, Saudi Arabia Resort\", \"Nujuma a Ritz carlton Reserve Ritz-Carlton Reserve Tabuk, Saudi Arabia\", \"Nujuma a Ritz carlton Reserve Hilton Hotel\", \"Nujuma a Ritz carlton Reserve Hilton Resort\", \"Nujuma a Ritz carlton Reserve Hilton\", \"Nujuma a Ritz carlton Reserve Hilton Tabuk, Saudi Arabia Hotel\", \"Nujuma a Ritz carlton Reserve Hilton Tabuk, Saudi Arabia Resort\", \"Nujuma a Ritz carlton Reserve Hilton Tabuk, Saudi Arabia\", \"Nujuma, a Ritz-Carlton Reserve Hotel\", \"Nujuma, a Ritz-Carlton Reserve Resort\", \"Nujuma, a Ritz-Carlton Reserve\", \"Nujuma, a Ritz-Carlton Reserve Tabuk, Saudi Arabia Hotel\", \"Nujuma, a Ritz-Carlton Reserve Tabuk, Saudi Arabia Resort\", \"Nujuma, a Ritz-Carlton Reserve Tabuk, Saudi Arabia\"], \"v\": 3}": {
+    "lat": 25.5280447,
+    "lon": 36.7735525,
+    "formatted_address": "Ummahat Islands 2-3، Red Sea 48501, Saudi Arabia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJK6rQc7H5sBURU14Pqj5tCqI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Ummahat Islands 2-3، Red Sea 48501, Saudi Arabia",
+      "geometry": {
+        "location": {
+          "lat": 25.5280447,
+          "lng": 36.7735525
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.5293936802915,
+            "lng": 36.7749014802915
+          },
+          "southwest": {
+            "lat": 25.5266957197085,
+            "lng": 36.7722035197085
+          }
+        }
+      },
+      "name": "Nujuma, a Ritz-Carlton Reserve",
+      "place_id": "ChIJK6rQc7H5sBURU14Pqj5tCqI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ritzcarlton.com/en/hotels/ejhrz-nujuma-a-ritz-carlton-reserve/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"Shangri-La Hotels and Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Shangri-La Nanshan, Shenzhen Shangri-La Hotels and Resorts Hotel\", \"Shangri-La Nanshan, Shenzhen Shangri-La Hotels and Resorts Resort\", \"Shangri-La Nanshan, Shenzhen Shangri-La Hotels and Resorts\", \"Shangri-La Nanshan, Shenzhen Shangri-La Hotels and Resorts Shenzhen, China Hotel\", \"Shangri-La Nanshan, Shenzhen Shangri-La Hotels and Resorts Shenzhen, China Resort\", \"Shangri-La Nanshan, Shenzhen Shangri-La Hotels and Resorts Shenzhen, China\", \"Shangri-La Nanshan, Shenzhen Hilton Hotel\", \"Shangri-La Nanshan, Shenzhen Hilton Resort\", \"Shangri-La Nanshan, Shenzhen Hilton\", \"Shangri-La Nanshan, Shenzhen Hilton Shenzhen, China Hotel\", \"Shangri-La Nanshan, Shenzhen Hilton Shenzhen, China Resort\", \"Shangri-La Nanshan, Shenzhen Hilton Shenzhen, China\", \"Shangri la Nanshan Shenzhen Shangri-La Hotels and Resorts Hotel\", \"Shangri la Nanshan Shenzhen Shangri-La Hotels and Resorts Resort\", \"Shangri la Nanshan Shenzhen Shangri-La Hotels and Resorts\", \"Shangri la Nanshan Shenzhen Shangri-La Hotels and Resorts Shenzhen, China Hotel\", \"Shangri la Nanshan Shenzhen Shangri-La Hotels and Resorts Shenzhen, China Resort\", \"Shangri la Nanshan Shenzhen Shangri-La Hotels and Resorts Shenzhen, China\", \"Shangri la Nanshan Shenzhen Hilton Hotel\", \"Shangri la Nanshan Shenzhen Hilton Resort\", \"Shangri la Nanshan Shenzhen Hilton\", \"Shangri la Nanshan Shenzhen Hilton Shenzhen, China Hotel\", \"Shangri la Nanshan Shenzhen Hilton Shenzhen, China Resort\", \"Shangri la Nanshan Shenzhen Hilton Shenzhen, China\", \"Shangri-La Nanshan, Shenzhen Hotel\", \"Shangri-La Nanshan, Shenzhen Resort\", \"Shangri-La Nanshan, Shenzhen\", \"Shangri-La Nanshan, Shenzhen Shenzhen, China Hotel\", \"Shangri-La Nanshan, Shenzhen Shenzhen, China Resort\", \"Shangri-La Nanshan, Shenzhen Shenzhen, China\"], \"v\": 3}": {
+    "lat": 22.524222,
+    "lon": 113.970472,
+    "formatted_address": "Block J, Phase 5, Shenwan, Huiyun Center, Nan Shan Qu, Shen Zhen Shi, Guang Dong Sheng, China, 518000",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJa5KYTunxAzQRrqxWRNjRLb4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Block J, Phase 5, Shenwan, Huiyun Center, Nan Shan Qu, Shen Zhen Shi, Guang Dong Sheng, China, 518000",
+      "geometry": {
+        "location": {
+          "lat": 22.524222,
+          "lng": 113.970472
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 22.5255709802915,
+            "lng": 113.9718209802915
+          },
+          "southwest": {
+            "lat": 22.52287301970849,
+            "lng": 113.9691230197085
+          }
+        }
+      },
+      "name": "Shangri-La Nanshan, Shenzhen",
+      "place_id": "ChIJa5KYTunxAzQRrqxWRNjRLb4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
+    }
+  },
+  "{\"brand\": \"Six Senses\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Six Senses Qing Cheng Mountain Six Senses Hotel\", \"Six Senses Qing Cheng Mountain Six Senses Resort\", \"Six Senses Qing Cheng Mountain Six Senses\", \"Six Senses Qing Cheng Mountain Six Senses Chengdu, China Hotel\", \"Six Senses Qing Cheng Mountain Six Senses Chengdu, China Resort\", \"Six Senses Qing Cheng Mountain Six Senses Chengdu, China\", \"Six Senses Qing Cheng Mountain Hilton Hotel\", \"Six Senses Qing Cheng Mountain Hilton Resort\", \"Six Senses Qing Cheng Mountain Hilton\", \"Six Senses Qing Cheng Mountain Hilton Chengdu, China Hotel\", \"Six Senses Qing Cheng Mountain Hilton Chengdu, China Resort\", \"Six Senses Qing Cheng Mountain Hilton Chengdu, China\", \"Six Senses Qing Cheng Mountain Hotel\", \"Six Senses Qing Cheng Mountain Resort\", \"Six Senses Qing Cheng Mountain\", \"Six Senses Qing Cheng Mountain Chengdu, China Hotel\", \"Six Senses Qing Cheng Mountain Chengdu, China Resort\", \"Six Senses Qing Cheng Mountain Chengdu, China\"], \"v\": 3}": {
+    "lat": 30.892828,
+    "lon": 103.59141,
+    "formatted_address": "2 Dong Ruan Da Dao, Du Jiang Yan Shi, Cheng Du Shi, Si Chuan Sheng, China, 611844",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJedZ93TL-7zYRM-zOOGIRs3k",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2 Dong Ruan Da Dao, Du Jiang Yan Shi, Cheng Du Shi, Si Chuan Sheng, China, 611844",
+      "geometry": {
+        "location": {
+          "lat": 30.892828,
+          "lng": 103.59141
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 30.8939230302915,
+            "lng": 103.5926855302915
+          },
+          "southwest": {
+            "lat": 30.8912250697085,
+            "lng": 103.5899875697085
+          }
+        }
+      },
+      "name": "Six Senses Qing Cheng Mountain",
+      "place_id": "ChIJedZ93TL-7zYRM-zOOGIRs3k",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://cn.sixsenses.com/resorts/qing-cheng-mountain/destination"
+    }
+  },
+  "{\"brand\": \"The Set\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Andronis Concept The Set Hotel\", \"Andronis Concept The Set Resort\", \"Andronis Concept The Set\", \"Andronis Concept The Set Imerovigli, Greece Hotel\", \"Andronis Concept The Set Imerovigli, Greece Resort\", \"Andronis Concept The Set Imerovigli, Greece\", \"Andronis Concept Hilton Hotel\", \"Andronis Concept Hilton Resort\", \"Andronis Concept Hilton\", \"Andronis Concept Hilton Imerovigli, Greece Hotel\", \"Andronis Concept Hilton Imerovigli, Greece Resort\", \"Andronis Concept Hilton Imerovigli, Greece\", \"Andronis Concept Hotel\", \"Andronis Concept Resort\", \"Andronis Concept\", \"Andronis Concept Imerovigli, Greece Hotel\", \"Andronis Concept Imerovigli, Greece Resort\", \"Andronis Concept Imerovigli, Greece\"], \"v\": 3}": {
+    "lat": 36.438076,
+    "lon": 25.4239616,
+    "formatted_address": "Epar.Od. Firon-Ias, Thira 847 00, Greece",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ4xk7jEzMmRQRW8rk7P7TXtQ",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Epar.Od. Firon-Ias, Thira 847 00, Greece",
+      "geometry": {
+        "location": {
+          "lat": 36.438076,
+          "lng": 25.4239616
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.43956788029149,
+            "lng": 25.4261319802915
+          },
+          "southwest": {
+            "lat": 36.43686991970849,
+            "lng": 25.42343401970849
+          }
+        }
+      },
+      "name": "Andronis Concept",
+      "place_id": "ChIJ4xk7jEzMmRQRW8rk7P7TXtQ",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.andronis.com/hotels/andronis-concept/?utm_source=gmb%20listing&utm_medium=gmb&utm_campaign=google_my_business"
+    }
   }
 }

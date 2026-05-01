@@ -68,8 +68,6 @@ class GeocodeError(Exception):
 def clean_query(text: str) -> str:
     t = re.sub(r"\s+", " ", text or "").strip()
     t = re.sub(r"[®™]", "", t)
-    # Remove a very specific noise phrase
-    t = re.sub(r"\bat\s+Resorts\s+World\b", "", t, flags=re.I)
     return t.strip(" ,-")
 
 # Keep discriminators like hotel/resort; only drop true glue words
@@ -84,7 +82,16 @@ def _slug_words_from_url(url: str) -> List[str]:
         segs = [s for s in p.path.split("/") if s]
         if not segs:
             return []
-        slug = unquote(segs[-1])
+        # For hilton.com/en/hotels/PROPERTY-SLUG/... use PROPERTY-SLUG, not the
+        # last segment which could be a room/category sub-page.
+        try:
+            hotels_idx = segs.index("hotels")
+            if hotels_idx + 1 < len(segs):
+                slug = unquote(segs[hotels_idx + 1])
+            else:
+                slug = unquote(segs[-1])
+        except ValueError:
+            slug = unquote(segs[-1])
         slug = re.sub(r"[^A-Za-z0-9\- ]+", " ", slug)
         words = re.split(r"[\s\-]+", slug)
         return [w for w in words if w]
