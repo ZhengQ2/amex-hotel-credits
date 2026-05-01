@@ -10,7 +10,11 @@ Cache key format (JSON, keys sorted):
     "v":            3
   }
 
-New-style entries (with hotel_name) are matched exactly.
+Cache lookup uses similarity/fuzzy matching so that minor hotel name changes
+(punctuation, minor additions, typos) do not trigger unnecessary re-geocoding.
+The stored hotel_name is compared separately — an exact mismatch on that field
+signals a potential rebrand for human review, without blocking cache reuse.
+
 Old-style entries (without hotel_name) fall back to fuzzy query-string matching.
 """
 
@@ -43,8 +47,17 @@ def _names_match(
     name2: str,
     generic_tokens: FrozenSet[str] = DEFAULT_GENERIC_TOKENS,
 ) -> bool:
-    """Fuzzy name comparison used only for old-style cache entries that predate
-    official-name storage. New entries are compared exactly via their hotel_name field."""
+    """Fuzzy similarity check between two hotel names.
+
+    Returns True when the names are plausibly the same physical hotel —
+    allowing for minor name changes, punctuation differences, and benign
+    suffix/prefix additions (e.g. adding a city qualifier).
+
+    This is intentionally conservative: a genuine rebrand (e.g. a hotel
+    switching loyalty programmes and acquiring a completely different set
+    of meaningful tokens) will correctly return False, causing the hotel
+    to appear as both "new" and "removed" for human review.
+    """
     n1 = _clean_text(name1).lower()
     n2 = _clean_text(name2).lower()
     if not n1 or not n2:
@@ -80,16 +93,16 @@ def load_geocode_cache_index(
 
     index layout:
       "__official__": {scope_key: set(name_lower), "__any__": set(name_lower)}
-          — exact matching against new-style entries (have hotel_name field)
+          — fuzzy matching pool for new-style entries (have hotel_name field)
       "__any__": set(query_lower)
           — fuzzy fallback pool covering all old-style entries across all files
       scope_key: set(query_lower)
           — fuzzy fallback pool scoped to a specific brand/program
 
     entries: [(canonical_name, scope_key, cache_key_str, cache_file_path), ...]
-        canonical_name — lowercased official name (new-style) or shortest query (old-style)
-        scope_key      — meta["brand"].lower() from the cache key JSON
-        cache_key_str  — original JSON string used as the dict key in the cache file
+        canonical_name  — lowercased official name (new-style) or shortest query (old-style)
+        scope_key       — meta["brand"].lower() from the cache key JSON
+        cache_key_str   — original JSON string used as the dict key in the cache file
         cache_file_path — which file this entry lives in (for targeted removal/update)
     """
     official_index: Dict[str, Set[str]] = {}
@@ -134,26 +147,69 @@ def load_geocode_cache_index(
 
 
 def is_hotel_in_cache(hotel_name: str, scope_key: str, cache_index: Dict) -> bool:
-    """Return True if hotel_name is present in the cache.
+    """Return True if hotel_name has a fuzzy match in the cache.
 
-    Checks exact official-name index first (new-style entries), then falls back
-    to fuzzy query-string matching for old-style entries.
-    scope_key is checked together with the cross-scope "__any__" bucket.
+    Uses similarity matching against stored official hotel names so that minor
+    name changes do not trigger unnecessary re-geocoding. Falls back to
+    query-string matching for old-style entries that predate hotel_name storage.
     """
     name = _clean_text(hotel_name).lower()
     sk = _clean_text(scope_key).lower()
 
     official = cache_index.get("__official__", {})
-    official_set = set(official.get("__any__", set()))
+    official_names: Set[str] = set(official.get("__any__", set()))
     if sk:
-        official_set.update(official.get(sk, set()))
-    if name in official_set:
+        official_names.update(official.get(sk, set()))
+    if any(_names_match(name, n) for n in official_names):
         return True
 
-    scoped_queries = set(cache_index.get("__any__", set()))
+    scoped_queries: Set[str] = set(cache_index.get("__any__", set()))
     if sk:
         scoped_queries.update(cache_index.get(sk, set()))
     return any(_names_match(name, q) for q in scoped_queries)
+
+
+def find_cache_match(
+    hotel_name: str,
+    cache_entries: List[Tuple[str, str, str, str]],
+) -> Optional[Tuple[str, str, str, str]]:
+    """Return the first cache entry that fuzzily matches hotel_name, or None.
+
+    Used by scrapers to distinguish three cases:
+      - None returned          → genuinely new hotel, needs geocoding
+      - entry returned, canonical == cleaned scraped name → unchanged
+      - entry returned, canonical != cleaned scraped name → possible rename/rebrand
+    """
+    name = _clean_text(hotel_name).lower()
+    for entry in cache_entries:
+        canonical, scope_key, cache_key, cache_path = entry
+        if _names_match(name, canonical):
+            return entry
+    return None
+
+
+def find_fuzzy_cache_key(hotel_name: str, cache: Dict[str, Any]) -> Optional[str]:
+    """Search a raw cache dict for a key whose hotel_name fuzzily matches.
+
+    Only considers new-style entries (those with a hotel_name field) to avoid
+    false positives from preprocessed query strings in old-style entries.
+
+    Used by google-convert.py to reuse already-geocoded coordinates when the
+    hotel's name has changed slightly, avoiding an unnecessary API call.
+    Returns the matching key string, or None.
+    """
+    name = _clean_text(hotel_name).lower()
+    for key in cache:
+        try:
+            meta = json.loads(key)
+        except Exception:
+            continue
+        cached_hotel_name = meta.get("hotel_name", "")
+        if not cached_hotel_name:
+            continue  # old-style entry — skip to avoid false positives
+        if _names_match(name, _clean_text(cached_hotel_name).lower()):
+            return key
+    return None
 
 
 def is_cached_hotel_in_scraped(
@@ -165,7 +221,7 @@ def is_cached_hotel_in_scraped(
 
     scraped_index maps scope_key -> set of lowercased hotel names.
     Falls back to all scopes when scope_key is empty.
-    Exact match first, fuzzy fallback for old-style canonical names.
+    Exact match first (fast path), then fuzzy fallback.
     """
     name = _clean_text(cached_name).lower()
     sk = _clean_text(scope_key).lower()

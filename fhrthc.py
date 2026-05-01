@@ -9,7 +9,7 @@ from urllib.request import HTTPCookieProcessor, Request, build_opener
 from cache_utils import (
     _clean_text as _clean_text_shared,
     load_geocode_cache_index,
-    is_hotel_in_cache,
+    find_cache_match,
     is_cached_hotel_in_scraped,
     update_cache_file,
     remove_hotels_from_cache,
@@ -380,12 +380,21 @@ def main():
             continue
         scraped_index.setdefault(program.lower(), set()).add(_clean_text(row["hotel_name"]).lower())
 
-    new_hotels = [
-        row for row in rows
-        if not is_hotel_in_cache(
-            row["hotel_name"], _program_bucket(row["program_label"]), cache_index
-        )
-    ]
+    # 1) Classify each scraped hotel against the cache
+    new_hotels = []
+    renamed_hotels = []  # (scraped_name, cached_name, program)
+    for row in rows:
+        match = find_cache_match(row["hotel_name"], cache_entries)
+        if match is None:
+            new_hotels.append(row)
+        else:
+            cached_canonical = match[0]
+            if _clean_text(row["hotel_name"]).lower() != cached_canonical:
+                renamed_hotels.append((
+                    row["hotel_name"],
+                    cached_canonical,
+                    _program_bucket(row["program_label"]),
+                ))
 
     if not new_hotels:
         print("All scraped FHR/THC hotels appear to be present in geocode cache.")
@@ -393,6 +402,11 @@ def main():
         print("FHR/THC hotels NOT found in geocode cache (new hotels):")
         for r in new_hotels:
             print(f"- {r['hotel_name']}  [program: {_program_bucket(r['program_label'])}]  -> {r['hotel_url']}")
+
+    if renamed_hotels:
+        print("FHR/THC hotels with possible name changes (already geocoded, no re-geocoding needed):")
+        for scraped, cached, program in sorted(renamed_hotels, key=lambda x: (x[2], x[0])):
+            print(f"- [{program}] cached: {cached!r}  ->  scraped: {scraped!r}")
 
     # entry[1] is scope_key from the cache (brand.lower()). Pass it through
     # _program_bucket so that old google-convert entries with brand=brand_label

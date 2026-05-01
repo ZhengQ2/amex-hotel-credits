@@ -34,6 +34,8 @@ import pandas as pd
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 from dotenv import load_dotenv
 
+from cache_utils import find_fuzzy_cache_key
+
 load_dotenv()
 
 # -----------------------
@@ -517,9 +519,20 @@ def main():
             res = None if cached == {"status": "NO_RESULT"} else cached
             status = "CACHED" if res else "CACHED:NO_RESULT"
         else:
-            res, status = geocode_places_first(queries, brand, hotel, BASE_DELAY)
-            cache[cache_key] = res or {"status": "NO_RESULT"}
-            save_cache(cache_path_obj, cache)
+            # Fuzzy fallback: reuse cached geocoding when the hotel name changed
+            # slightly (rebrand, punctuation, minor addition) to avoid a paid API call.
+            fuzzy_key = find_fuzzy_cache_key(hotel, cache)
+            if fuzzy_key is not None:
+                cached = cache[fuzzy_key]
+                res = None if cached == {"status": "NO_RESULT"} else cached
+                status = "CACHED:RENAMED" if res else "CACHED:RENAMED:NO_RESULT"
+                # Persist under the new key so future runs hit it exactly.
+                cache[cache_key] = cached
+                save_cache(cache_path_obj, cache)
+            else:
+                res, status = geocode_places_first(queries, brand, hotel, BASE_DELAY)
+                cache[cache_key] = res or {"status": "NO_RESULT"}
+                save_cache(cache_path_obj, cache)
 
         out = {
             "hotel_name": hotel,

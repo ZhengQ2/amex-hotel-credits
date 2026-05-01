@@ -7,7 +7,7 @@ from typing import Dict, List, Any
 from cache_utils import (
     _clean_text as _clean_text_shared,
     load_geocode_cache_index,
-    is_hotel_in_cache,
+    find_cache_match,
     is_cached_hotel_in_scraped,
     update_cache_file,
     remove_hotels_from_cache,
@@ -343,11 +343,17 @@ def main(headless=True):
             name = _clean_text(row["hotel_name"]).lower()
             scraped_index.setdefault(scope, set()).add(name)
 
-        # 1) Scraped hotels NOT in geocode cache (new)
-        new_hotels = [
-            row for _, row in df.iterrows()
-            if not is_hotel_in_cache(row["hotel_name"], row["group_label"], cache_index)
-        ]
+        # 1) Classify each scraped hotel against the cache
+        new_hotels: List[Any] = []
+        renamed_hotels: List[Any] = []  # (scraped_name, cached_name, group_label)
+        for _, row in df.iterrows():
+            match = find_cache_match(row["hotel_name"], cache_entries)
+            if match is None:
+                new_hotels.append(row)
+            else:
+                cached_canonical = match[0]
+                if _clean_text(row["hotel_name"]).lower() != cached_canonical:
+                    renamed_hotels.append((row["hotel_name"], cached_canonical, row["group_label"]))
 
         if not new_hotels:
             print("All scraped hotels appear to be present in geocode cache.")
@@ -355,6 +361,11 @@ def main(headless=True):
             print("Hotels NOT found in geocode cache (new hotels):")
             for r in new_hotels:
                 print(f"- {r['hotel_name']}  [brand: {r['group_label']}]  -> {r['hotel_url']}")
+
+        if renamed_hotels:
+            print("Hotels with possible name changes (already geocoded, no re-geocoding needed):")
+            for scraped, cached, brand in sorted(renamed_hotels, key=lambda x: (x[2], x[0])):
+                print(f"- [{brand}] cached: {cached!r}  ->  scraped: {scraped!r}")
 
         # 2) Cached hotels NOT in scraped list (removed)
         removed_entries = [
