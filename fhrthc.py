@@ -384,7 +384,8 @@ def main():
     new_hotels = []
     renamed_hotels = []  # (scraped_name, cached_name, program)
     for row in rows:
-        match = find_cache_match(row["hotel_name"], cache_entries)
+        program = _program_bucket(row["program_label"]).lower()
+        match = find_cache_match(row["hotel_name"], cache_entries, scope_key=program)
         if match is None:
             new_hotels.append(row)
         else:
