@@ -377,7 +377,7 @@ def _names_match(name1: str, name2: str) -> bool:
 
     generic_tokens = {
         "hotel", "hotels", "resort", "spa", "and", "the", "at", "by", "&",
-        "collection", "club", "property"
+        "autograph", "collection", "club", "property"
     }
 
     def tokens(s: str) -> set:

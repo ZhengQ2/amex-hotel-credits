@@ -411,7 +411,7 @@ def _names_match(name1: str, name2: str) -> bool:
     # benign suffix/prefix differences.
     generic_tokens = {
         "hotel", "hotels", "resort", "spa", "and", "the", "at", "by", "&",
-        "hilton", "inn", "suites", "collection", "club"
+        "hilton", "inn", "suites", "autograph", "collection", "club"
     }
 
     def tokens(s: str) -> set:
