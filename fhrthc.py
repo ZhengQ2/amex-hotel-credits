@@ -1,13 +1,20 @@
 import csv
-import json
-import os
 import re
-import unicodedata
 from html.parser import HTMLParser
-from typing import Any, Dict, List, Tuple
+from typing import Dict, List
 from urllib.error import HTTPError, URLError
 from urllib.parse import urljoin
 from urllib.request import HTTPCookieProcessor, Request, build_opener
+
+from cache_utils import (
+    _clean_text as _clean_text_shared,
+    load_geocode_cache_index,
+    is_hotel_in_cache,
+    is_cached_hotel_in_scraped,
+    update_cache_file,
+    remove_hotels_from_cache,
+    make_placeholder_key,
+)
 
 URL_TEMPLATE = "https://www.americanexpress.com/en-us/travel/discover/property-results/r/{page}"
 OUT_FHR = "cache/fhr_hotels.csv"
@@ -17,13 +24,7 @@ THC_CACHE_FILE = "cache/geocode_cache_google_thc.json"
 
 
 def _clean_text(s: str) -> str:
-    if not s:
-        return ""
-    s = unicodedata.normalize("NFKC", s)
-    s = s.replace("®", "").replace("™", "")
-    s = s.replace("–", "-").replace("—", "-").replace("’", "'")
-    s = re.sub(r"\s+", " ", s).strip()
-    return s
+    return _clean_text_shared(s)
 
 
 def _program_bucket(label: str) -> str:
@@ -356,258 +357,34 @@ def write_output(rows):
     _write_rows(thc_rows, OUT_THC)
 
 
-def _names_match(name1: str, name2: str) -> bool:
-    """Fuzzy name comparison used only for old-style cache entries that predate
-    official-name storage. New entries are compared exactly via their hotel_name field."""
-    n1 = _clean_text(name1).lower()
-    n2 = _clean_text(name2).lower()
-
-    if not n1 or not n2:
-        return False
-    if n1 == n2:
-        return True
-
-    generic_tokens = {
-        "hotel", "hotels", "resort", "spa", "and", "the", "at", "by", "&",
-        "collection", "club", "property"
-    }
-
-    def tokens(s: str) -> set:
-        return {t for t in re.findall(r"[a-z0-9]+", s) if t not in generic_tokens}
-
-    t1 = tokens(n1)
-    t2 = tokens(n2)
-
-    if not t1 or not t2:
-        return False
-    if t1 == t2:
-        return True
-
-    overlap = t1 & t2
-    if not overlap:
-        return False
-
-    smaller_set, larger_set = (t1, t2) if len(t1) <= len(t2) else (t2, t1)
-    if smaller_set.issubset(larger_set):
-        return (len(larger_set) - len(smaller_set)) <= 2
-
-    overlap_ratio_1 = len(overlap) / len(t1)
-    overlap_ratio_2 = len(overlap) / len(t2)
-    return overlap_ratio_1 >= 0.8 and overlap_ratio_2 >= 0.8
-
-
-def _load_geocode_cache_index(fhr_path: str = FHR_CACHE_FILE, thc_path: str = THC_CACHE_FILE):
-    """Load both split caches and return (index, entries).
-
-    index has two sections:
-      "__official__": {program -> set of lowercased official AMEX names} — exact match
-      "__any__" / program keys: sets of query strings — fuzzy match fallback for old entries
-
-    entries is a list of (canonical_name, program, cache_key, cache_file_path) tuples so
-    callers can remove entries directly without re-parsing the file.
-    """
-    official_index: Dict[str, set] = {}
-    query_index: Dict[str, set] = {"__any__": set()}
-    cache_entries: List[Tuple[str, str, str, str]] = []
-
-    for cache_path in (fhr_path, thc_path):
-        if not os.path.exists(cache_path):
-            continue
-
-        with open(cache_path, "r", encoding="utf-8") as f:
-            cache = json.load(f)
-
-        for key in cache.keys():
-            try:
-                meta = json.loads(key)
-            except Exception:
-                continue
-
-            program = _program_bucket(meta.get("program", "") or meta.get("brand", ""))
-            hotel_name_field = meta.get("hotel_name", "")
-
-            if hotel_name_field:
-                # New-style entry: stored official AMEX name — compare exactly.
-                name = _clean_text(hotel_name_field).lower()
-                official_index.setdefault("__any__", set()).add(name)
-                if program:
-                    official_index.setdefault(program, set()).add(name)
-            else:
-                # Old-style entry: use query strings with fuzzy matching as fallback.
-                queries_raw = meta.get("queries", []) or []
-                queries_clean = [_clean_text(q).lower() for q in queries_raw if q]
-                if not queries_clean:
-                    continue
-                query_index["__any__"].update(queries_clean)
-                if program:
-                    query_index.setdefault(program, set()).update(queries_clean)
-                name = min(queries_clean, key=len)
-
-            cache_entries.append((name, program, key, cache_path))
-
-    query_index["__official__"] = official_index
-    return query_index, cache_entries
-
-
-def _is_hotel_in_cache(hotel_name: str, program: str, cache_index) -> bool:
-    name = _clean_text(hotel_name).lower()
-    program_key = _program_bucket(program)
-
-    # Exact match against stored official AMEX names (new-style entries).
-    official = cache_index.get("__official__", {})
-    official_set = set(official.get("__any__", set()))
-    if program_key:
-        official_set.update(official.get(program_key, set()))
-    if name in official_set:
-        return True
-
-    # Fuzzy fallback for old-style entries.
-    scoped_queries = set(cache_index.get("__any__", set()))
-    if program_key:
-        scoped_queries.update(cache_index.get(program_key, set()))
-    return any(_names_match(name, q) for q in scoped_queries)
-
-
-def _is_cached_hotel_in_scraped(cached_name: str, cached_program: str, scraped_index) -> bool:
-    name = _clean_text(cached_name).lower()
-    program = _program_bucket(cached_program)
-
-    candidates: set = (
-        scraped_index.get(program, set()) if program
-        else set().union(*scraped_index.values()) if scraped_index
-        else set()
-    )
-
-    # Exact match (works for new-style entries where canonical == official AMEX name).
-    if name in candidates:
-        return True
-
-    # Fuzzy fallback for old-style entries.
-    return any(_names_match(name, s) for s in candidates)
-
-
-def _update_cache_with_new_hotels(
-    new_hotels: List[Dict[str, Any]],
-    cache_index: Dict[str, Any],
-    fhr_path: str = FHR_CACHE_FILE,
-    thc_path: str = THC_CACHE_FILE,
-) -> int:
-    """Write placeholder entries for new hotels into the per-program cache file."""
-    if not new_hotels:
-        return 0
-
-    hotels_by_file: Dict[str, List[Dict[str, Any]]] = {}
-    for hotel_data in new_hotels:
-        program = _program_bucket(hotel_data["program_label"])
-        cache_path = thc_path if program == "THC" else fhr_path
-        hotels_by_file.setdefault(cache_path, []).append(hotel_data)
-
-    total_added = 0
-    for cache_path, hotels in hotels_by_file.items():
-        try:
-            if os.path.exists(cache_path):
-                with open(cache_path, "r", encoding="utf-8") as f:
-                    cache = json.load(f)
-            else:
-                cache = {}
-
-            added_count = 0
-            for hotel_data in hotels:
-                hotel_name = _clean_text(hotel_data["hotel_name"])
-                program = _program_bucket(hotel_data["program_label"])
-                if _is_hotel_in_cache(hotel_name, program, cache_index):
-                    continue
-
-                cache_key = json.dumps(
-                    {
-                        "brand": program,
-                        "hotel_name": hotel_name,
-                        "input_format": "fhrthc",
-                        "provider": "google_places_first",
-                        "queries": [hotel_name],
-                        "v": 3,
-                    },
-                    sort_keys=True,
-                )
-                cache[cache_key] = None
-                added_count += 1
-
-            if added_count > 0:
-                with open(cache_path, "w", encoding="utf-8") as f:
-                    json.dump(cache, f, ensure_ascii=False, indent=2)
-            total_added += added_count
-
-        except PermissionError:
-            print(f"ERROR: Permission denied when trying to write to {cache_path}")
-        except Exception as e:
-            print(f"ERROR: Failed to update cache {cache_path}: {e}")
-
-    return total_added
-
-
-def _remove_hotels_from_cache(
-    removed_entries: List[Tuple[str, str, str, str]],
-) -> int:
-    """Remove cache entries by key. removed_entries comes from _load_geocode_cache_index
-    so cache keys and file paths are known directly — no re-parsing or re-matching needed."""
-    if not removed_entries:
-        return 0
-
-    by_file: Dict[str, set] = {}
-    for _, _, key, cache_path in removed_entries:
-        by_file.setdefault(cache_path, set()).add(key)
-
-    total_removed = 0
-    for cache_path, keys_to_remove in by_file.items():
-        try:
-            if not os.path.exists(cache_path):
-                continue
-
-            with open(cache_path, "r", encoding="utf-8") as f:
-                cache = json.load(f)
-
-            before = len(cache)
-            cache = {k: v for k, v in cache.items() if k not in keys_to_remove}
-            removed_count = before - len(cache)
-
-            if removed_count > 0:
-                with open(cache_path, "w", encoding="utf-8") as f:
-                    json.dump(cache, f, ensure_ascii=False, indent=2)
-            total_removed += removed_count
-
-        except PermissionError:
-            print(f"ERROR: Permission denied when trying to write to {cache_path}")
-        except Exception as e:
-            print(f"ERROR: Failed to remove hotels from cache {cache_path}: {e}")
-
-    return total_removed
-
-
 def main():
     rows = scrape_all_pages()
     if not rows:
         raise RuntimeError("Failed to fetch AMEX pages or no rows were parsed.")
     write_output(rows)
 
-    cache_index, cache_entries = _load_geocode_cache_index(FHR_CACHE_FILE, THC_CACHE_FILE)
-    if not cache_entries and not cache_index.get("__any__") and not cache_index.get("__official__"):
+    cache_index, cache_entries = load_geocode_cache_index(FHR_CACHE_FILE, THC_CACHE_FILE)
+    if not cache_entries and not cache_index.get("__official__"):
         print(
             f"No cache index built (files missing or empty: "
             f"{FHR_CACHE_FILE}, {THC_CACHE_FILE})."
         )
         return
 
+    # scope_key for FHR/THC is the normalised program ("FHR" or "THC"), lowercased
+    # to match what load_geocode_cache_index stores from the cache's brand field.
     scraped_index: Dict[str, set] = {}
     for row in rows:
         program = _program_bucket(row["program_label"])
         if not program:
             continue
-        scraped_index.setdefault(program, set()).add(_clean_text(row["hotel_name"]).lower())
+        scraped_index.setdefault(program.lower(), set()).add(_clean_text(row["hotel_name"]).lower())
 
     new_hotels = [
-        row
-        for row in rows
-        if not _is_hotel_in_cache(row["hotel_name"], row["program_label"], cache_index)
+        row for row in rows
+        if not is_hotel_in_cache(
+            row["hotel_name"], _program_bucket(row["program_label"]), cache_index
+        )
     ]
 
     if not new_hotels:
@@ -617,32 +394,47 @@ def main():
         for r in new_hotels:
             print(f"- {r['hotel_name']}  [program: {_program_bucket(r['program_label'])}]  -> {r['hotel_url']}")
 
+    # entry[1] is scope_key from the cache (brand.lower()). Pass it through
+    # _program_bucket so that old google-convert entries with brand=brand_label
+    # (not "FHR"/"THC") get normalised to "" and fall back to the full scraped set.
     removed_entries = [
         entry for entry in cache_entries
-        if not _is_cached_hotel_in_scraped(entry[0], entry[1], scraped_index)
+        if not is_cached_hotel_in_scraped(
+            entry[0], _program_bucket(entry[1]), scraped_index
+        )
     ]
 
     if not removed_entries:
         print("No cached FHR/THC hotels appear to have been removed from the current list.")
     else:
         print("FHR/THC hotels in geocode cache but NOT in current scraped list (removed):")
-        for name, program, _, _path in sorted(removed_entries, key=lambda x: (x[1], x[0])):
-            print(f"- {name}  [program: {program or 'UNKNOWN'}]")
+        for name, scope, _, _path in sorted(removed_entries, key=lambda x: (x[1], x[0])):
+            print(f"- {name}  [program: {_program_bucket(scope) or 'UNKNOWN'}]")
 
     if new_hotels:
         print(f"\nUpdating cache with {len(new_hotels)} new FHR/THC hotels...")
-        added = _update_cache_with_new_hotels(new_hotels, cache_index, FHR_CACHE_FILE, THC_CACHE_FILE)
-        if added > 0:
-            print(f"✓ Added {added} new hotel(s) to cache")
-        elif added == 0:
+        new_keys_by_file: Dict[str, list] = {}
+        for h in new_hotels:
+            program = _program_bucket(h["program_label"])
+            path = THC_CACHE_FILE if program == "THC" else FHR_CACHE_FILE
+            key = make_placeholder_key(_clean_text(h["hotel_name"]), program, "fhrthc")
+            new_keys_by_file.setdefault(path, []).append((key, None))
+
+        total_added = sum(
+            update_cache_file(path, keys)
+            for path, keys in new_keys_by_file.items()
+        )
+        if total_added > 0:
+            print(f"✓ Added {total_added} new hotel(s) to cache")
+        else:
             print("⚠ Failed to add hotels to cache (check file permissions)")
 
     if removed_entries:
         print(f"\nRemoving {len(removed_entries)} FHR/THC hotels from cache...")
-        removed = _remove_hotels_from_cache(removed_entries)
+        removed = remove_hotels_from_cache(removed_entries)
         if removed > 0:
             print(f"✓ Removed {removed} hotel(s) from cache")
-        elif removed == 0:
+        else:
             print("⚠ Failed to remove hotels from cache (check file permissions)")
 
 

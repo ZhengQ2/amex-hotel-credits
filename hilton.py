@@ -1,12 +1,18 @@
 # scrape_hilton_hotels_by_brand_playwright.py
 from playwright.sync_api import sync_playwright, TimeoutError
 import pandas as pd
-import re
-import unicodedata
 from urllib.parse import urljoin, urlparse, urlunparse, parse_qsl, urlencode
-from typing import Dict, List, Tuple, Any, Optional
-import json
-import os
+from typing import Dict, List, Any
+
+from cache_utils import (
+    _clean_text as _clean_text_shared,
+    load_geocode_cache_index,
+    is_hotel_in_cache,
+    is_cached_hotel_in_scraped,
+    update_cache_file,
+    remove_hotels_from_cache,
+    make_placeholder_key,
+)
 
 URL = "https://www.hilton.com/en/p/hilton-honors/resort-credit-eligible-hotels/"
 OUT = "cache/hilton_hotels.csv"
@@ -14,13 +20,7 @@ CACHE_FILE = "cache/geocode_cache_google_hilton.json"
 
 
 def _clean_text(s: str) -> str:
-    if not s:
-        return ""
-    s = unicodedata.normalize("NFKC", s)
-    s = s.replace("®", "").replace("™", "")
-    s = s.replace("–", "-").replace("—", "-").replace("’", "'")
-    s = re.sub(r"\s+", " ", s).strip()
-    return s
+    return _clean_text_shared(s)
 
 
 def _clean_url(u: str) -> str:
@@ -301,296 +301,6 @@ def scrape_mobile(page):
     return rows
 
 
-# ---------- NEW: cache helpers ----------
-
-def _load_geocode_cache_index(cache_path: str = CACHE_FILE):
-    """
-    Load cache/geocode_cache_google_hilton.json and build:
-      - index: { brand_lower: set([query_lower, ...]) }
-      - cached_hotels: set([(hotel_name_lower, brand_lower), ...])
-
-    For hotel_name, we heuristically take the *last* query as the canonical
-    name (matches your example where the final query is plain hotel name).
-    """
-    if not os.path.exists(cache_path):
-        return {}, set()
-
-    with open(cache_path, "r", encoding="utf-8") as f:
-        cache = json.load(f)
-
-    index = {}
-    cached_hotels = set()
-
-    for key in cache.keys():
-        # keys are JSON-encoded objects like:
-        # {"brand": "...", "provider": "...", "queries": [...], "v": 3}
-        try:
-            meta = json.loads(key)
-        except Exception:
-            continue
-
-        brand = _clean_text(meta.get("brand", "")).lower()
-        if not brand:
-            continue
-
-        queries_raw = meta.get("queries", []) or []
-        queries_clean = [_clean_text(q) for q in queries_raw if q]
-        queries_lower = [q.lower() for q in queries_clean if q]
-
-        if not queries_lower:
-            continue
-
-        # Build query index for "in cache" tests
-        index.setdefault(brand, set()).update(queries_lower)
-
-        # Heuristic canonical hotel name: last query (usually the simplest)
-        canonical_name = queries_lower[-1]
-        if canonical_name:
-            cached_hotels.add((canonical_name, brand))
-
-    return index, cached_hotels
-
-
-def _is_hotel_in_cache(hotel_name: str, brand: str, cache_index) -> bool:
-    """
-    Treat a hotel as cached if, for the same brand, any cached query
-    contains the hotel name or is contained in it (case-insensitive).
-    """
-    if not cache_index:
-        return False
-
-    brand_key = _clean_text(brand).lower()
-    queries = cache_index.get(brand_key)
-    if not queries:
-        return False
-
-    name = _clean_text(hotel_name).lower()
-    for q in queries:
-        if _names_match(name, q):
-            return True
-    return False
-
-
-def _is_cached_hotel_in_scraped(cached_name: str, brand: str, scraped_index) -> bool:
-    """
-    Inverse of _is_hotel_in_cache:
-    Check if a cached (hotel, brand) appears in the scraped list for that brand.
-    """
-    brand_key = _clean_text(brand).lower()
-    name = _clean_text(cached_name).lower()
-
-    scraped_names = scraped_index.get(brand_key, [])
-    for s in scraped_names:
-        if _names_match(name, s):
-            return True
-    return False
-
-
-def _names_match(name1: str, name2: str) -> bool:
-    """
-    Check if two hotel names match using fuzzy logic.
-    Returns True if one name contains the other or they're equal.
-    
-    Args:
-        name1: First name (lowercase)
-        name2: Second name (lowercase)
-        
-    Returns:
-        True if names match, False otherwise
-    """
-    n1 = _clean_text(name1).lower()
-    n2 = _clean_text(name2).lower()
-
-    if not n1 or not n2:
-        return False
-    if n1 == n2:
-        return True
-
-    # Token-aware matching prevents false positives like
-    # "hilton dali" vs "hilton dalian" while still allowing
-    # benign suffix/prefix differences.
-    generic_tokens = {
-        "hotel", "resort", "spa", "and", "the", "at", "by", "&",
-        "hilton", "inn", "suites", "collection", "club"
-    }
-
-    def tokens(s: str) -> set:
-        return {
-            t
-            for t in re.findall(r"[a-z0-9]+", s)
-            if t and t not in generic_tokens
-        }
-
-    t1 = tokens(n1)
-    t2 = tokens(n2)
-
-    if not t1 or not t2:
-        return False
-    if t1 == t2:
-        return True
-
-    # Avoid matching distinct hotels that only share city/region tokens
-    # (e.g. "Conrad Singapore Marina Bay" vs "Conrad Singapore Orchard").
-    overlap = t1 & t2
-    if not overlap:
-        return False
-
-    smaller_set, larger_set = (t1, t2) if len(t1) <= len(t2) else (t2, t1)
-
-    # Strict subset tolerance: allow only when one side is almost identical
-    # to the other (at most one extra meaningful token).
-    if smaller_set.issubset(larger_set):
-        return (len(larger_set) - len(smaller_set)) <= 2
-
-    # Otherwise require very high overlap to avoid false positives.
-    overlap_ratio_1 = len(overlap) / len(t1)
-    overlap_ratio_2 = len(overlap) / len(t2)
-    return overlap_ratio_1 >= 0.8 and overlap_ratio_2 >= 0.8
-
-
-def _update_cache_with_new_hotels(
-    cache_path: str, 
-    new_hotels: List[Dict[str, Any]], 
-    cache_index: Dict[str, set]
-) -> int:
-    """
-    Update the geocode cache by adding entries for new hotels.
-    
-    Args:
-        cache_path: Path to the cache file
-        new_hotels: List of dictionaries with new hotels to add
-        cache_index: Existing cache index for checking duplicates
-        
-    Returns:
-        Number of hotels added to cache
-    """
-    if not new_hotels:
-        return 0
-    
-    try:
-        # Load existing cache
-        if os.path.exists(cache_path):
-            with open(cache_path, "r", encoding="utf-8") as f:
-                cache = json.load(f)
-        else:
-            cache = {}
-        
-        added_count = 0
-        for hotel_data in new_hotels:
-            hotel_name = _clean_text(hotel_data["hotel_name"])
-            brand = _clean_text(hotel_data["group_label"])
-            
-            # Build query list similar to google-convert.py format
-            queries = [hotel_name]
-            
-            # Create cache key matching the existing format
-            cache_key = json.dumps({
-                "brand": brand,
-                "provider": "google_places_first",
-                "queries": queries,
-                "v": 3
-            }, sort_keys=True)
-            
-            # Add placeholder entry (will be geocoded later)
-            # Using None to indicate it needs geocoding
-            cache[cache_key] = None
-            added_count += 1
-        
-        # Save updated cache
-        if added_count > 0:
-            with open(cache_path, "w", encoding="utf-8") as f:
-                json.dump(cache, f, ensure_ascii=False, indent=2)
-        
-        return added_count
-        
-    except PermissionError:
-        print(f"ERROR: Permission denied when trying to write to {cache_path}")
-        return 0
-    except Exception as e:
-        print(f"ERROR: Failed to update cache: {e}")
-        return 0
-
-
-def _remove_hotels_from_cache(
-    cache_path: str, 
-    removed_hotels: List[Tuple[str, str]], 
-    scraped_index: Dict[str, List[str]]
-) -> int:
-    """
-    Remove hotels from the geocode cache that are no longer in the scraped list.
-    
-    Args:
-        cache_path: Path to the cache file
-        removed_hotels: List of (hotel_name, brand) tuples to remove
-        scraped_index: Index of scraped hotels by brand
-        
-    Returns:
-        Number of hotels removed from cache
-    """
-    if not removed_hotels:
-        return 0
-    
-    try:
-        # Load existing cache
-        if not os.path.exists(cache_path):
-            return 0
-            
-        with open(cache_path, "r", encoding="utf-8") as f:
-            cache = json.load(f)
-        
-        keys_to_remove = []
-        
-        # Find cache keys that correspond to removed hotels
-        for key in cache.keys():
-            try:
-                meta = json.loads(key)
-                brand = _clean_text(meta.get("brand", "")).lower()
-                queries = meta.get("queries", [])
-                
-                if not queries:
-                    continue
-                
-                # Use last query as canonical name (same as _load_geocode_cache_index)
-                canonical_name = _clean_text(queries[-1]).lower()
-                
-                # Check if this hotel should be removed
-                for removed_name, removed_brand in removed_hotels:
-                    removed_name_clean = _clean_text(removed_name).lower()
-                    removed_brand_clean = _clean_text(removed_brand).lower()
-                    
-                    # Match by brand and name
-                    if brand == removed_brand_clean:
-                        # Check if names match (using same fuzzy logic)
-                        if _names_match(canonical_name, removed_name_clean):
-                            # Double check it's not in scraped list
-                            if not _is_cached_hotel_in_scraped(canonical_name, brand, scraped_index):
-                                keys_to_remove.append(key)
-                                break
-            except Exception:
-                continue
-        
-        # Remove keys
-        removed_count = 0
-        for key in keys_to_remove:
-            if key in cache:
-                del cache[key]
-                removed_count += 1
-        
-        # Save updated cache
-        if removed_count > 0:
-            with open(cache_path, "w", encoding="utf-8") as f:
-                json.dump(cache, f, ensure_ascii=False, indent=2)
-        
-        return removed_count
-        
-    except PermissionError:
-        print(f"ERROR: Permission denied when trying to write to {cache_path}")
-        return 0
-    except Exception as e:
-        print(f"ERROR: Failed to remove hotels from cache: {e}")
-        return 0
-
-
 # ----------------------------------------
 
 
@@ -610,7 +320,6 @@ def main(headless=True):
         dedup = {}
         for r in rows:
             key = (r["hotel_name"].lower(), r["group_label"].lower())
-            # first one already chosen by _collect_hotel_links' preference; keep it
             dedup.setdefault(key, r)
 
         df = pd.DataFrame(
@@ -620,64 +329,67 @@ def main(headless=True):
         df.to_csv(OUT, index=False)
         print(f"Wrote {len(df)} rows -> {OUT}")
 
-        # -------- NEW: compare against geocode cache --------
-        cache_index, cached_hotels = _load_geocode_cache_index()
-        if not cache_index:
+        # -------- Compare against geocode cache --------
+        cache_index, cache_entries = load_geocode_cache_index(CACHE_FILE)
+        if not cache_entries and not cache_index.get("__official__"):
             print(f"No cache index built (file missing or empty: {CACHE_FILE}).")
+            browser.close()
+            return
+
+        # Index scraped hotels by brand (scope_key) for reverse lookup
+        scraped_index: Dict[str, set] = {}
+        for _, row in df.iterrows():
+            scope = _clean_text(row["group_label"]).lower()
+            name = _clean_text(row["hotel_name"]).lower()
+            scraped_index.setdefault(scope, set()).add(name)
+
+        # 1) Scraped hotels NOT in geocode cache (new)
+        new_hotels = [
+            row for _, row in df.iterrows()
+            if not is_hotel_in_cache(row["hotel_name"], row["group_label"], cache_index)
+        ]
+
+        if not new_hotels:
+            print("All scraped hotels appear to be present in geocode cache.")
         else:
-            # Index scraped hotels by brand for reverse lookup
-            scraped_index = {}
-            for _, row in df.iterrows():
-                bkey = _clean_text(row["group_label"]).lower()
-                nkey = _clean_text(row["hotel_name"]).lower()
-                scraped_index.setdefault(bkey, []).append(nkey)
+            print("Hotels NOT found in geocode cache (new hotels):")
+            for r in new_hotels:
+                print(f"- {r['hotel_name']}  [brand: {r['group_label']}]  -> {r['hotel_url']}")
 
-            # 1) Scraped hotels that are NOT in geocode cache (new)
-            new_hotels_mask = df.apply(
-                lambda row: not _is_hotel_in_cache(row["hotel_name"], row["group_label"], cache_index),
-                axis=1
-            )
-            new_hotels = df[new_hotels_mask].to_dict('records')
+        # 2) Cached hotels NOT in scraped list (removed)
+        removed_entries = [
+            entry for entry in cache_entries
+            if not is_cached_hotel_in_scraped(entry[0], entry[1], scraped_index)
+        ]
 
-            if not new_hotels:
-                print("All scraped hotels appear to be present in geocode cache.")
+        if not removed_entries:
+            print("No cached hotels appear to have been removed from the current list.")
+        else:
+            print("Hotels in geocode cache but NOT in current scraped list (removed):")
+            for name, scope, _, _path in sorted(removed_entries, key=lambda x: (x[1], x[0])):
+                print(f"- {name}  [brand: {scope}]")
+
+        # 3) Update cache with new hotels
+        if new_hotels:
+            print(f"\nUpdating cache with {len(new_hotels)} new hotels...")
+            new_keys = [
+                (make_placeholder_key(_clean_text(h["hotel_name"]), _clean_text(h["group_label"]), "hilton"), None)
+                for h in new_hotels
+            ]
+            added = update_cache_file(CACHE_FILE, new_keys)
+            if added > 0:
+                print(f"✓ Added {added} new hotel(s) to cache")
             else:
-                print("Hotels NOT found in geocode cache (new hotels):")
-                for r in new_hotels:
-                    print(
-                        f"- {r['hotel_name']}  [brand: {r['group_label']}]  -> {r['hotel_url']}"
-                    )
+                print("⚠ Failed to add hotels to cache (check file permissions)")
 
-            # 2) Cached hotels that are NOT in scraped list (removed)
-            removed_hotels = []
-            for cached_name, brand in cached_hotels:
-                if not _is_cached_hotel_in_scraped(cached_name, brand, scraped_index):
-                    removed_hotels.append((cached_name, brand))
-
-            if not removed_hotels:
-                print("No cached hotels appear to have been removed from the current list.")
+        # 4) Remove hotels from cache that are no longer scraped
+        if removed_entries:
+            print(f"\nRemoving {len(removed_entries)} hotels from cache...")
+            removed = remove_hotels_from_cache(removed_entries)
+            if removed > 0:
+                print(f"✓ Removed {removed} hotel(s) from cache")
             else:
-                print("Hotels in geocode cache but NOT in current scraped list (removed):")
-                for name, brand in sorted(removed_hotels, key=lambda x: (x[1], x[0])):
-                    print(f"- {name}  [brand: {brand}]")
-            
-            # 3) Update cache with new hotels
-            if new_hotels:
-                print(f"\nUpdating cache with {len(new_hotels)} new hotels...")
-                added = _update_cache_with_new_hotels(CACHE_FILE, new_hotels, cache_index)
-                if added > 0:
-                    print(f"✓ Added {added} new hotel(s) to cache")
-                elif added == 0:
-                    print("⚠ Failed to add hotels to cache (check file permissions)")
-            
-            # 4) Remove hotels from cache that are no longer scraped
-            if removed_hotels:
-                print(f"\nRemoving {len(removed_hotels)} hotels from cache...")
-                removed = _remove_hotels_from_cache(CACHE_FILE, removed_hotels, scraped_index)
-                if removed > 0:
-                    print(f"✓ Removed {removed} hotel(s) from cache")
-                elif removed == 0:
-                    print("⚠ Failed to remove hotels from cache (check file permissions)")
+                print("⚠ Failed to remove hotels from cache (check file permissions)")
 
         browser.close()
 
