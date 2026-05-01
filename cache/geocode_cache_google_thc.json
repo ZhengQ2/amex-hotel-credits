@@ -41831,48 +41831,6 @@
       "website": "https://www.laurelhotelandspa.com/?utm_source=google&utm_medium=organic&utm_campaign=business_listing"
     }
   },
-  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Velas Riviera Nayarit Preferred Hotels & Resorts Hotel\", \"Grand Velas Riviera Nayarit Preferred Hotels & Resorts Resort\", \"Grand Velas Riviera Nayarit Preferred Hotels & Resorts\", \"Grand Velas Riviera Nayarit Preferred Hotels & Resorts Bahia de Banderas, Nayarit MX Hotel\", \"Grand Velas Riviera Nayarit Preferred Hotels & Resorts Bahia de Banderas, Nayarit MX Resort\", \"Grand Velas Riviera Nayarit Preferred Hotels & Resorts Bahia de Banderas, Nayarit MX\", \"Grand Velas Riviera Nayarit Hilton Hotel\", \"Grand Velas Riviera Nayarit Hilton Resort\", \"Grand Velas Riviera Nayarit Hilton\", \"Grand Velas Riviera Nayarit Hilton Bahia de Banderas, Nayarit MX Hotel\", \"Grand Velas Riviera Nayarit Hilton Bahia de Banderas, Nayarit MX Resort\", \"Grand Velas Riviera Nayarit Hilton Bahia de Banderas, Nayarit MX\", \"Grand Velas Riviera Nayarit Hotel\", \"Grand Velas Riviera Nayarit Resort\", \"Grand Velas Riviera Nayarit\", \"Grand Velas Riviera Nayarit Bahia de Banderas, Nayarit MX Hotel\", \"Grand Velas Riviera Nayarit Bahia de Banderas, Nayarit MX Resort\", \"Grand Velas Riviera Nayarit Bahia de Banderas, Nayarit MX\"], \"v\": 3}": {
-    "lat": 20.7073423,
-    "lon": -105.3010337,
-    "formatted_address": "Av Cocoteros 98-Sur, 63735 Nuevo Vallarta, Nay., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJN1dDzrlGIYQRTbl1Bd_IbsE",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Av Cocoteros 98-Sur, 63735 Nuevo Vallarta, Nay., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 20.7073423,
-          "lng": -105.3010337
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 20.7089270802915,
-            "lng": -105.2995449697085
-          },
-          "southwest": {
-            "lat": 20.7062291197085,
-            "lng": -105.3022429302915
-          }
-        }
-      },
-      "name": "Grand Velas Riviera Nayarit",
-      "place_id": "ChIJN1dDzrlGIYQRTbl1Bd_IbsE",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://vallarta.grandvelas.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing"
-    }
-  },
   "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Serras Barcelona Preferred Hotels & Resorts Hotel\", \"Serras Barcelona Preferred Hotels & Resorts Resort\", \"Serras Barcelona Preferred Hotels & Resorts\", \"Serras Barcelona Preferred Hotels & Resorts Barcelona, Spain Hotel\", \"Serras Barcelona Preferred Hotels & Resorts Barcelona, Spain Resort\", \"Serras Barcelona Preferred Hotels & Resorts Barcelona, Spain\", \"Serras Barcelona Hilton Hotel\", \"Serras Barcelona Hilton Resort\", \"Serras Barcelona Hilton\", \"Serras Barcelona Hilton Barcelona, Spain Hotel\", \"Serras Barcelona Hilton Barcelona, Spain Resort\", \"Serras Barcelona Hilton Barcelona, Spain\", \"Serras Barcelona Hotel\", \"Serras Barcelona Resort\", \"Serras Barcelona\", \"Serras Barcelona Barcelona, Spain Hotel\", \"Serras Barcelona Barcelona, Spain Resort\", \"Serras Barcelona Barcelona, Spain\"], \"v\": 3}": {
     "lat": 41.3801834,
     "lon": 2.1807974,
@@ -88219,54 +88177,6 @@
         "point_of_interest"
       ],
       "website": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
-  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts Palma, Spain Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts Palma, Spain Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts Palma, Spain\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton Palma, Spain Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton Palma, Spain Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton Palma, Spain\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts Hotel\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts Resort\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts Palma, Spain Hotel\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts Palma, Spain Resort\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts Palma, Spain\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton Hotel\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton Resort\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton Palma, Spain Hotel\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton Palma, Spain Resort\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton Palma, Spain\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Palma, Spain Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Palma, Spain Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Palma, Spain\"], \"v\": 3}": {
-    "lat": 39.5696597,
-    "lon": 2.6444226,
-    "formatted_address": "Carrer del Forn de la Glòria, 14, Centre, 07012 Palma, Illes Balears, Spain",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJJ9iDt0SSlxIRjTMWcgBy7ic",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Carrer del Forn de la Glòria, 14, Centre, 07012 Palma, Illes Balears, Spain",
-      "geometry": {
-        "location": {
-          "lat": 39.5696597,
-          "lng": 2.6444226
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 39.5709530802915,
-            "lng": 2.645750930291502
-          },
-          "southwest": {
-            "lat": 39.5682551197085,
-            "lng": 2.643052969708498
-          }
-        }
-      },
-      "name": "Can Bordoy Grand House & Garden",
-      "place_id": "ChIJJ9iDt0SSlxIRjTMWcgBy7ic",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://canbordoy.com/"
     }
   },
   "{\"brand\": \"Design Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sir Prague Design Hotels Hotel\", \"Sir Prague Design Hotels Resort\", \"Sir Prague Design Hotels\", \"Sir Prague Design Hotels Prague, Czech Republic Hotel\", \"Sir Prague Design Hotels Prague, Czech Republic Resort\", \"Sir Prague Design Hotels Prague, Czech Republic\", \"Sir Prague Hilton Hotel\", \"Sir Prague Hilton Resort\", \"Sir Prague Hilton\", \"Sir Prague Hilton Prague, Czech Republic Hotel\", \"Sir Prague Hilton Prague, Czech Republic Resort\", \"Sir Prague Hilton Prague, Czech Republic\", \"Sir Prague Hotel\", \"Sir Prague Resort\", \"Sir Prague\", \"Sir Prague Prague, Czech Republic Hotel\", \"Sir Prague Prague, Czech Republic Resort\", \"Sir Prague Prague, Czech Republic\"], \"v\": 3}": {
@@ -135450,48 +135360,6 @@
       "website": "https://www.laurelhotelandspa.com/?utm_source=google&utm_medium=organic&utm_campaign=business_listing"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Grand Velas Riviera Nayarit\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Velas Riviera Nayarit Preferred Hotels & Resorts Hotel\", \"Grand Velas Riviera Nayarit Preferred Hotels & Resorts Resort\", \"Grand Velas Riviera Nayarit Preferred Hotels & Resorts\", \"Grand Velas Riviera Nayarit Preferred Hotels & Resorts Bahia de Banderas, Nayarit MX Hotel\", \"Grand Velas Riviera Nayarit Preferred Hotels & Resorts Bahia de Banderas, Nayarit MX Resort\", \"Grand Velas Riviera Nayarit Preferred Hotels & Resorts Bahia de Banderas, Nayarit MX\", \"Grand Velas Riviera Nayarit Hilton Hotel\", \"Grand Velas Riviera Nayarit Hilton Resort\", \"Grand Velas Riviera Nayarit Hilton\", \"Grand Velas Riviera Nayarit Hilton Bahia de Banderas, Nayarit MX Hotel\", \"Grand Velas Riviera Nayarit Hilton Bahia de Banderas, Nayarit MX Resort\", \"Grand Velas Riviera Nayarit Hilton Bahia de Banderas, Nayarit MX\", \"Grand Velas Riviera Nayarit Hotel\", \"Grand Velas Riviera Nayarit Resort\", \"Grand Velas Riviera Nayarit\", \"Grand Velas Riviera Nayarit Bahia de Banderas, Nayarit MX Hotel\", \"Grand Velas Riviera Nayarit Bahia de Banderas, Nayarit MX Resort\", \"Grand Velas Riviera Nayarit Bahia de Banderas, Nayarit MX\"], \"v\": 3}": {
-    "lat": 20.7073423,
-    "lon": -105.3010337,
-    "formatted_address": "Av Cocoteros 98-Sur, 63735 Nuevo Vallarta, Nay., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJN1dDzrlGIYQRTbl1Bd_IbsE",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Av Cocoteros 98-Sur, 63735 Nuevo Vallarta, Nay., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 20.7073423,
-          "lng": -105.3010337
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 20.7089270802915,
-            "lng": -105.2995449697085
-          },
-          "southwest": {
-            "lat": 20.7062291197085,
-            "lng": -105.3022429302915
-          }
-        }
-      },
-      "name": "Grand Velas Riviera Nayarit",
-      "place_id": "ChIJN1dDzrlGIYQRTbl1Bd_IbsE",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://vallarta.grandvelas.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Serras Barcelona\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Serras Barcelona Preferred Hotels & Resorts Hotel\", \"Serras Barcelona Preferred Hotels & Resorts Resort\", \"Serras Barcelona Preferred Hotels & Resorts\", \"Serras Barcelona Preferred Hotels & Resorts Barcelona, Spain Hotel\", \"Serras Barcelona Preferred Hotels & Resorts Barcelona, Spain Resort\", \"Serras Barcelona Preferred Hotels & Resorts Barcelona, Spain\", \"Serras Barcelona Hilton Hotel\", \"Serras Barcelona Hilton Resort\", \"Serras Barcelona Hilton\", \"Serras Barcelona Hilton Barcelona, Spain Hotel\", \"Serras Barcelona Hilton Barcelona, Spain Resort\", \"Serras Barcelona Hilton Barcelona, Spain\", \"Serras Barcelona Hotel\", \"Serras Barcelona Resort\", \"Serras Barcelona\", \"Serras Barcelona Barcelona, Spain Hotel\", \"Serras Barcelona Barcelona, Spain Resort\", \"Serras Barcelona Barcelona, Spain\"], \"v\": 3}": {
     "lat": 41.3801834,
     "lon": 2.1807974,
@@ -138031,54 +137899,6 @@
         "point_of_interest"
       ],
       "website": "http://www.hammockbeach.com/"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Can Bordoy Grand House GL Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts Palma, Spain Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts Palma, Spain Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts Palma, Spain\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton Palma, Spain Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton Palma, Spain Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton Palma, Spain\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts Hotel\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts Resort\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts Palma, Spain Hotel\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts Palma, Spain Resort\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts Palma, Spain\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton Hotel\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton Resort\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton Palma, Spain Hotel\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton Palma, Spain Resort\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton Palma, Spain\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Palma, Spain Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Palma, Spain Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Palma, Spain\"], \"v\": 3}": {
-    "lat": 39.5696597,
-    "lon": 2.6444226,
-    "formatted_address": "Carrer del Forn de la Glòria, 14, Centre, 07012 Palma, Illes Balears, Spain",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJJ9iDt0SSlxIRjTMWcgBy7ic",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Carrer del Forn de la Glòria, 14, Centre, 07012 Palma, Illes Balears, Spain",
-      "geometry": {
-        "location": {
-          "lat": 39.5696597,
-          "lng": 2.6444226
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 39.5709530802915,
-            "lng": 2.645750930291502
-          },
-          "southwest": {
-            "lat": 39.5682551197085,
-            "lng": 2.643052969708498
-          }
-        }
-      },
-      "name": "Can Bordoy Grand House & Garden",
-      "place_id": "ChIJJ9iDt0SSlxIRjTMWcgBy7ic",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://canbordoy.com/"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Castille Paris\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Castille Paris Preferred Hotels & Resorts Hotel\", \"Castille Paris Preferred Hotels & Resorts Resort\", \"Castille Paris Preferred Hotels & Resorts\", \"Castille Paris Preferred Hotels & Resorts Paris, France Hotel\", \"Castille Paris Preferred Hotels & Resorts Paris, France Resort\", \"Castille Paris Preferred Hotels & Resorts Paris, France\", \"Castille Paris Hilton Hotel\", \"Castille Paris Hilton Resort\", \"Castille Paris Hilton\", \"Castille Paris Hilton Paris, France Hotel\", \"Castille Paris Hilton Paris, France Resort\", \"Castille Paris Hilton Paris, France\", \"Castille Paris Hotel\", \"Castille Paris Resort\", \"Castille Paris\", \"Castille Paris Paris, France Hotel\", \"Castille Paris Paris, France Resort\", \"Castille Paris Paris, France\"], \"v\": 3}": {
