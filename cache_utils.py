@@ -172,7 +172,6 @@ def is_hotel_in_cache(hotel_name: str, scope_key: str, cache_index: Dict) -> boo
 def find_cache_match(
     hotel_name: str,
     cache_entries: List[Tuple[str, str, str, str]],
-    scope_key: str = "",
 ) -> Optional[Tuple[str, str, str, str]]:
     """Return the first cache entry that fuzzily matches hotel_name, or None.
 
@@ -182,12 +181,8 @@ def find_cache_match(
       - entry returned, canonical != cleaned scraped name → possible rename/rebrand
     """
     name = _clean_text(hotel_name).lower()
-    target_scope = _clean_text(scope_key).lower()
-
     for entry in cache_entries:
-        canonical, entry_scope, cache_key, cache_path = entry
-        if target_scope and entry_scope and entry_scope != target_scope:
-            continue
+        canonical, scope_key, cache_key, cache_path = entry
         if _names_match(name, canonical):
             return entry
     return None
