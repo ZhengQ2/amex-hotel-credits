@@ -13400,7 +13400,7 @@
       "website": "https://www.hilton.com/en/hotels/myrobup-the-ellie-beach-resort-myrtle-beach/?SEO_id=GMB-AMER-UP-MYROBUP&y_source=1_MTAzNTYwMDc0Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
-  "{\"brand\": \"Conrad Hotels & Resorts\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Conrad Las Vegas  Conrad Hotels & Resorts Hotel\", \"Conrad Las Vegas  Conrad Hotels & Resorts Resort\", \"Conrad Las Vegas  Conrad Hotels & Resorts\", \"Conrad Las Vegas  Hilton Hotel\", \"Conrad Las Vegas  Hilton Resort\", \"Conrad Las Vegas  Hilton\", \"conrad las vegas Conrad Hotels & Resorts Hotel\", \"conrad las vegas Conrad Hotels & Resorts Resort\", \"conrad las vegas Conrad Hotels & Resorts\", \"conrad las vegas Hilton Hotel\", \"conrad las vegas Hilton Resort\", \"conrad las vegas Hilton\", \"Conrad Las Vegas  Hotel\", \"Conrad Las Vegas  Resort\", \"Conrad Las Vegas\"], \"v\": 3}": {
+  "{\"brand\": \"Conrad Hotels & Resorts\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Conrad Las Vegas at Resorts World Conrad Hotels & Resorts Hotel\", \"Conrad Las Vegas at Resorts World Conrad Hotels & Resorts Resort\", \"Conrad Las Vegas at Resorts World Conrad Hotels & Resorts\", \"Conrad Las Vegas at Resorts World Hilton Hotel\", \"Conrad Las Vegas at Resorts World Hilton Resort\", \"Conrad Las Vegas at Resorts World Hilton\", \"rslvhvh resorts world las vegas Conrad Hotels & Resorts Hotel\", \"rslvhvh resorts world las vegas Conrad Hotels & Resorts Resort\", \"rslvhvh resorts world las vegas Conrad Hotels & Resorts\", \"rslvhvh resorts world las vegas Hilton Hotel\", \"rslvhvh resorts world las vegas Hilton Resort\", \"rslvhvh resorts world las vegas Hilton\", \"Conrad Las Vegas at Resorts World Hotel\", \"Conrad Las Vegas at Resorts World Resort\", \"Conrad Las Vegas at Resorts World\"], \"v\": 3}": {
     "lat": 36.1346181,
     "lon": -115.1655924,
     "formatted_address": "111 Resorts World Ave, Las Vegas, NV 89109, USA",
@@ -13440,6 +13440,48 @@
         "point_of_interest"
       ],
       "website": "https://www.hilton.com/en/hotels/lascdci-conrad-las-vegas-at-resorts-world/?SEO_id=GMB-AMER-CN-LASCDCI&y_source=1_MjM0NTgwNzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"Hilton Hotels & Resorts\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Las Vegas Hilton at Resorts World Hilton Hotels & Resorts Hotel\", \"Las Vegas Hilton at Resorts World Hilton Hotels & Resorts Resort\", \"Las Vegas Hilton at Resorts World Hilton Hotels & Resorts\", \"Las Vegas Hilton at Resorts World Hilton Hotel\", \"Las Vegas Hilton at Resorts World Hilton Resort\", \"Las Vegas Hilton at Resorts World Hilton\", \"rslvhvh resorts world las vegas Hilton Hotels & Resorts Hotel\", \"rslvhvh resorts world las vegas Hilton Hotels & Resorts Resort\", \"rslvhvh resorts world las vegas Hilton Hotels & Resorts\", \"rslvhvh resorts world las vegas Hilton Hotel\", \"rslvhvh resorts world las vegas Hilton Resort\", \"rslvhvh resorts world las vegas Hilton\", \"Las Vegas Hilton at Resorts World Hotel\", \"Las Vegas Hilton at Resorts World Resort\", \"Las Vegas Hilton at Resorts World\"], \"v\": 3}": {
+    "lat": 36.13527440000001,
+    "lon": -115.166924,
+    "formatted_address": "999 Resorts World Ave, Las Vegas, NV 89109, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJtx3-YhLEyIARlOvkgyAJbGo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "999 Resorts World Ave, Las Vegas, NV 89109, USA",
+      "geometry": {
+        "location": {
+          "lat": 36.13527440000001,
+          "lng": -115.166924
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.1367620802915,
+            "lng": -115.1656258697085
+          },
+          "southwest": {
+            "lat": 36.1340641197085,
+            "lng": -115.1683238302915
+          }
+        }
+      },
+      "name": "Las Vegas Hilton at Resorts World",
+      "place_id": "ChIJtx3-YhLEyIARlOvkgyAJbGo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/lashhhh-las-vegas-hilton-at-resorts-world/?SEO_id=GMB-AMER-HH-LASHHHH&y_source=1_MjM0NTgwNzMtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   }
 }
