@@ -355,9 +355,20 @@ def write_output(rows):
     _write_rows(thc_rows, OUT_THC)
 
 
+_BRAND_ALIASES = {
+    "bvlgari": "bulgari",
+}
+
+
+def _apply_brand_aliases(s: str) -> str:
+    for k, v in _BRAND_ALIASES.items():
+        s = s.replace(k, v)
+    return s
+
+
 def _names_match(name1: str, name2: str) -> bool:
-    n1 = _clean_text(name1).lower()
-    n2 = _clean_text(name2).lower()
+    n1 = _apply_brand_aliases(_clean_text(name1).lower())
+    n2 = _apply_brand_aliases(_clean_text(name2).lower())
 
     if not n1 or not n2:
         return False
@@ -365,7 +376,7 @@ def _names_match(name1: str, name2: str) -> bool:
         return True
 
     generic_tokens = {
-        "hotel", "resort", "spa", "and", "the", "at", "by", "&",
+        "hotel", "hotels", "resort", "spa", "and", "the", "at", "by", "&",
         "collection", "club", "property"
     }
 
@@ -390,7 +401,7 @@ def _names_match(name1: str, name2: str) -> bool:
 
     smaller_set, larger_set = (t1, t2) if len(t1) <= len(t2) else (t2, t1)
     if smaller_set.issubset(larger_set):
-        return (len(larger_set) - len(smaller_set)) <= 1
+        return (len(larger_set) - len(smaller_set)) <= 2
 
     overlap_ratio_1 = len(overlap) / len(t1)
     overlap_ratio_2 = len(overlap) / len(t2)

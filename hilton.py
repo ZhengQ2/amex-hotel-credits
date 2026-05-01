@@ -410,7 +410,7 @@ def _names_match(name1: str, name2: str) -> bool:
     # "hilton dali" vs "hilton dalian" while still allowing
     # benign suffix/prefix differences.
     generic_tokens = {
-        "hotel", "resort", "spa", "and", "the", "at", "by", "&",
+        "hotel", "hotels", "resort", "spa", "and", "the", "at", "by", "&",
         "hilton", "inn", "suites", "collection", "club"
     }
 
@@ -440,7 +440,7 @@ def _names_match(name1: str, name2: str) -> bool:
     # Strict subset tolerance: allow only when one side is almost identical
     # to the other (at most one extra meaningful token).
     if smaller_set.issubset(larger_set):
-        return (len(larger_set) - len(smaller_set)) <= 1
+        return (len(larger_set) - len(smaller_set)) <= 2
 
     # Otherwise require very high overlap to avoid false positives.
     overlap_ratio_1 = len(overlap) / len(t1)
