@@ -165,28 +165,59 @@ def fetch_hotel_address(url: str) -> tuple:
     return _extract_location_from_html(resp.text)
 
 
-def backfill_addresses(df: pd.DataFrame) -> pd.DataFrame:
-    """Concurrently fetch hotel_address (and hotel_location) for rows missing an address."""
+def backfill_addresses(df: pd.DataFrame, context=None) -> pd.DataFrame:
+    """Fetch hotel_address (and hotel_location) for rows that are missing an address.
+
+    When a Playwright BrowserContext is supplied the function uses a dedicated
+    browser page so that JS-rendered content (JSON-LD, address spans) is
+    available.  This is required because Hilton's pages are React-rendered and
+    a plain HTTP GET returns a skeleton without address data.
+
+    When no context is provided the function falls back to concurrent requests,
+    which may yield empty results for JS-heavy pages.
+    """
     mask = df["hotel_address"].str.strip() == ""
     missing_urls = df.loc[mask, "hotel_url"].tolist()
     if not missing_urls:
         return df
 
-    print(f"Fetching addresses for {len(missing_urls)} hotels (up to {_LOCATION_WORKERS} parallel)...")
     url_to_result: Dict[str, tuple] = {}
 
-    with ThreadPoolExecutor(max_workers=_LOCATION_WORKERS) as pool:
-        futures = {pool.submit(fetch_hotel_address, url): url for url in missing_urls}
-        done = 0
-        for future in as_completed(futures):
-            url = futures[future]
+    if context is not None:
+        # ---- Playwright path (preferred) ----
+        # Playwright sync API is single-threaded; we iterate sequentially.
+        # In practice this only runs for new/uncached hotels so the cost is
+        # amortised over subsequent runs.
+        print(f"Fetching addresses for {len(missing_urls)} hotels via Playwright...")
+        addr_page = context.new_page()
+        addr_page.set_default_navigation_timeout(_LOCATION_TIMEOUT * 1000)
+        for i, url in enumerate(missing_urls, 1):
+            fetch_url = _normalize_fetch_url(url)
             try:
-                url_to_result[url] = future.result()
+                addr_page.goto(fetch_url, wait_until="domcontentloaded")
+                html = addr_page.content()
+                url_to_result[url] = _extract_location_from_html(html)
             except Exception:
                 url_to_result[url] = ("", "")
-            done += 1
-            if done % 20 == 0 or done == len(missing_urls):
-                print(f"  {done}/{len(missing_urls)} fetched")
+            if i % 10 == 0 or i == len(missing_urls):
+                print(f"  {i}/{len(missing_urls)} fetched")
+        addr_page.close()
+    else:
+        # ---- requests fallback (concurrent, but may miss JS-rendered data) ----
+        print(f"Fetching addresses for {len(missing_urls)} hotels via requests "
+              f"(up to {_LOCATION_WORKERS} parallel)...")
+        with ThreadPoolExecutor(max_workers=_LOCATION_WORKERS) as pool:
+            futures = {pool.submit(fetch_hotel_address, url): url for url in missing_urls}
+            done = 0
+            for future in as_completed(futures):
+                url = futures[future]
+                try:
+                    url_to_result[url] = future.result()
+                except Exception:
+                    url_to_result[url] = ("", "")
+                done += 1
+                if done % 20 == 0 or done == len(missing_urls):
+                    print(f"  {done}/{len(missing_urls)} fetched")
 
     fetched_count = sum(1 for (a, _) in url_to_result.values() if a)
     print(f"  Address resolved for {fetched_count}/{len(missing_urls)} hotels")
@@ -523,7 +554,7 @@ def main(headless=True):
             except Exception:
                 pass
 
-        df = backfill_addresses(df)
+        df = backfill_addresses(df, context=context)
         df = df.sort_values(by=["group_label", "hotel_name"])
         df.to_csv(OUT, index=False)
         print(f"Wrote {len(df)} rows -> {OUT}")
