@@ -1,4 +1,4 @@
-name: Update FHR and THC Hotels
+name: Update FHR and THC Hotels Nightly
 
 on:
   schedule:
