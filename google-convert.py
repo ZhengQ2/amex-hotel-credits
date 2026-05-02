@@ -523,8 +523,9 @@ def main():
         else:
             # Fuzzy fallback: reuse cached geocoding when the hotel name changed
             # slightly (rebrand, punctuation, minor addition) to avoid a paid API call.
+            # Only reuse if the fuzzy match has a real result (not a placeholder None).
             fuzzy_key = find_fuzzy_cache_key(hotel, cache, input_format=input_format)
-            if fuzzy_key is not None:
+            if fuzzy_key is not None and cache[fuzzy_key] is not None:
                 cached = cache[fuzzy_key]
                 res = None if cached == {"status": "NO_RESULT"} else cached
                 status = "CACHED:RENAMED" if res else "CACHED:RENAMED:NO_RESULT"
