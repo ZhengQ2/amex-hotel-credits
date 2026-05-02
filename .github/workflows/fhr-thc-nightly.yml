@@ -49,7 +49,8 @@ jobs:
             thc_changed="true"
             any_changed="true"
           elif grep -q "FHR/THC hotels NOT found in geocode cache (new hotels):" fhrthc.log || \
-               grep -q "FHR/THC hotels in geocode cache but NOT in current scraped list (removed):" fhrthc.log; then
+               grep -q "FHR/THC hotels in geocode cache but NOT in current scraped list (removed):" fhrthc.log || \
+               grep -q "FHR/THC hotels with possible name changes" fhrthc.log; then
             any_changed="true"
             if grep -q "\[program: FHR\]" fhrthc.log; then
               fhr_changed="true"
@@ -192,7 +193,7 @@ jobs:
             cache/fhr_hotels_geocoded_google.csv
             cache/thc_hotels_geocoded_google.csv
 
-      - name: Commit and push cache updates
+      - name: Commit and push cache and map updates
         if: steps.check_list.outputs.any_changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
@@ -204,16 +205,12 @@ jobs:
             cache/geocode_cache_google_fhr.json \
             cache/geocode_cache_google_thc.json || true
 
+          python generate_map_data.py
+          git add docs/hotels.json
+
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Update FHR/THC cache and geocoded hotels [CI]"
+            git commit -m "Update FHR/THC cache, geocoded hotels, and map [CI]"
             git push
           else
             echo "No cache changes to commit."
           fi
-
-  update-map:
-    needs: scrape-geocode-fhrthc
-    if: needs.scrape-geocode-fhrthc.outputs.any_changed == 'true'
-    uses: ./.github/workflows/update-map.yml
-    permissions:
-      contents: write

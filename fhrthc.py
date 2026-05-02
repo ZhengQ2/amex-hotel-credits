@@ -420,7 +420,7 @@ def main():
     if renamed_hotels:
         print("FHR/THC hotels with possible name changes (already geocoded, no re-geocoding needed):")
         for scraped, cached, program in sorted(renamed_hotels, key=lambda x: (x[2], x[0])):
-            print(f"- [{program}] cached: {cached!r}  ->  scraped: {scraped!r}")
+            print(f"- [program: {program}] cached: {cached!r}  ->  scraped: {scraped!r}")
 
     # entry[1] is scope_key from the cache (brand.lower()). Pass it through
     # _program_bucket so that old google-convert entries with brand=brand_label

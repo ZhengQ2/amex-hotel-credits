@@ -44,7 +44,8 @@ jobs:
             echo "No cache index built (file missing or empty: cache/geocode_cache_google_hilton.json)." | tee -a hilton.log
             echo "changed=true" >> "$GITHUB_OUTPUT"
           elif grep -q "Hotels NOT found in geocode cache (new hotels):" hilton.log || \
-             grep -q "Hotels in geocode cache but NOT in current scraped list (removed):" hilton.log; then
+             grep -q "Hotels in geocode cache but NOT in current scraped list (removed):" hilton.log || \
+             grep -q "Hotels with possible name changes" hilton.log; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -119,24 +120,20 @@ jobs:
           attachments: |
             cache/hilton_hotels_geocoded_google.csv
 
-      - name: Commit and push cache updates
+      - name: Commit and push cache and map updates
         if: steps.check_list.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add cache/geocode_cache_google_hilton.json cache/hilton_hotels_geocoded_google.csv cache/hilton_hotels.csv || true
+          git add cache/geocode_cache_google_hilton.json cache/hilton_hotels_geocoded_google.csv || true
+
+          python generate_map_data.py
+          git add docs/hotels.json
 
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Update Hilton cache and geocoded hotels [CI]"
+            git commit -m "Update Hilton cache, geocoded hotels, and map [CI]"
             git push
           else
             echo "No cache changes to commit."
           fi
-
-  update-map:
-    needs: scrape-geocode-update-sheet
-    if: needs.scrape-geocode-update-sheet.outputs.changed == 'true'
-    uses: ./.github/workflows/update-map.yml
-    permissions:
-      contents: write
