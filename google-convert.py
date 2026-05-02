@@ -26,6 +26,7 @@ import re
 import random
 import argparse
 import unicodedata
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Dict, Any, Optional, Tuple, List
 from urllib.parse import urlparse, unquote
@@ -460,6 +461,12 @@ def parse_args() -> argparse.Namespace:
         choices=["auto", "hilton", "fhrthc"],
         help="Input schema mode. fhrthc expects optional brand_label + hotel_location.",
     )
+    p.add_argument(
+        "--workers",
+        type=int,
+        default=10,
+        help="Number of parallel geocoding workers (default: 10).",
+    )
     return p.parse_args()
 
 
@@ -527,24 +534,31 @@ def main():
     if MAX_ROWS and MAX_ROWS > 0:
         work = work.iloc[:MAX_ROWS]
 
-    rows = []
     total = len(work)
-    for idx, row in enumerate(work.itertuples(index=False), 1):
-        hotel = _clean_cell(getattr(row, "hotel_name", ""))
-        hotel_url = _clean_cell(getattr(row, "hotel_url", ""))
+
+    # Workers read from a frozen snapshot so they never observe a partial write
+    # from a sibling thread.  Writes to the live `cache` dict are done via plain
+    # __setitem__ — safe under CPython's GIL.  We flush to disk once after the
+    # pool completes, avoiding repeated JSON serialisation inside the hot path.
+    cache_snapshot = dict(cache)
+
+    def _process_hotel(job: tuple) -> tuple:
+        idx, row = job
+        hotel         = _clean_cell(getattr(row, "hotel_name", ""))
+        hotel_url     = _clean_cell(getattr(row, "hotel_url", ""))
         hotel_location = _clean_cell(getattr(row, "hotel_location", ""))
         hotel_address = _clean_cell(getattr(row, "hotel_address", ""))
-        group_label = _clean_cell(getattr(row, "group_label", ""))
-        group_type = _clean_cell(getattr(row, "group_type", "Brand")) or "Brand"
+        group_label   = _clean_cell(getattr(row, "group_label", ""))
+        group_type    = _clean_cell(getattr(row, "group_type", "Brand")) or "Brand"
 
         if input_format == "fhrthc":
-            brand = _clean_cell(getattr(row, "brand_label", ""))
+            brand       = _clean_cell(getattr(row, "brand_label", ""))
             cache_scope = group_label or brand
         else:
-            brand = group_label
+            brand       = group_label
             cache_scope = group_label
 
-        res = None
+        res    = None
         status = None
 
         # ---- Address-first path ----
@@ -557,18 +571,17 @@ def main():
                 "hotel_address": hotel_address,
             }, sort_keys=True)
 
-            cached_addr = cache.get(addr_key)
+            cached_addr = cache_snapshot.get(addr_key)
             if cached_addr is not None and cached_addr != {"status": "NO_RESULT"}:
                 res, status = cached_addr, "CACHED:ADDR"
             elif cached_addr is None:
                 try:
-                    res = geocode_google(hotel_address, API_KEY, REGION_BIAS)
+                    res    = geocode_google(hotel_address, API_KEY, REGION_BIAS)
                     status = "ADDR_GEOCODE" if res else "ADDR_GEOCODE:NO_RESULT"
                 except Exception:
-                    res = None
+                    res    = None
                     status = "ADDR_GEOCODE:ERROR"
                 cache[addr_key] = res or {"status": "NO_RESULT"}
-                save_cache(cache_path_obj, cache)
             # CACHED:ADDR:NO_RESULT → res stays None → falls through to name-based below
 
         # ---- Name-based fallback (Places Text Search) ----
@@ -584,16 +597,16 @@ def main():
                 "brand": cache_scope,
             }, sort_keys=True)
 
-            cached = cache.get(cache_key, None)
+            cached       = cache_snapshot.get(cache_key, None)
             needs_geocode = cached is None
 
             if cached is not None:
                 res = None if cached == {"status": "NO_RESULT"} else cached
                 if res and not _location_compatible(res.get("formatted_address", ""), hotel_location):
                     # Cached result is geographically wrong; discard and re-geocode.
-                    res = None
+                    res           = None
                     needs_geocode = True
-                    status = "CACHED:LOCATION_MISMATCH"
+                    status        = "CACHED:LOCATION_MISMATCH"
                 else:
                     status = "CACHED" if res else "CACHED:NO_RESULT"
 
@@ -601,58 +614,71 @@ def main():
                 # Fuzzy fallback: reuse cached geocoding when the hotel name changed
                 # slightly (rebrand, punctuation, minor addition) to avoid a paid API call.
                 # Only reuse if the fuzzy match has a real result and passes location check.
-                fuzzy_key = find_fuzzy_cache_key(hotel, cache, input_format=input_format)
-                if fuzzy_key is not None and cache[fuzzy_key] is not None:
-                    candidate = cache[fuzzy_key]
+                fuzzy_key = find_fuzzy_cache_key(hotel, cache_snapshot, input_format=input_format)
+                if fuzzy_key is not None and cache_snapshot[fuzzy_key] is not None:
+                    candidate = cache_snapshot[fuzzy_key]
                     candidate = None if candidate == {"status": "NO_RESULT"} else candidate
                     if candidate and _location_compatible(candidate.get("formatted_address", ""), hotel_location):
-                        res = candidate
+                        res    = candidate
                         status = "CACHED:RENAMED"
                         # Persist under the new key so future runs hit it exactly.
-                        cache[cache_key] = cache[fuzzy_key]
-                        save_cache(cache_path_obj, cache)
+                        cache[cache_key] = cache_snapshot[fuzzy_key]
                     elif not candidate:
                         # Fuzzy match was a confirmed NO_RESULT; honour it.
                         status = "CACHED:RENAMED:NO_RESULT"
                     # else: fuzzy match also has wrong location — fall through to geocode
 
                 if res is None and status != "CACHED:RENAMED:NO_RESULT":
-                    res, status = geocode_places_first(queries, brand, hotel, BASE_DELAY)
-                    cache[cache_key] = res or {"status": "NO_RESULT"}
-                    save_cache(cache_path_obj, cache)
+                    res, status         = geocode_places_first(queries, brand, hotel, BASE_DELAY)
+                    cache[cache_key]    = res or {"status": "NO_RESULT"}
 
         out = {
-            "hotel_name": hotel,
-            "hotel_url": hotel_url or None,
-            "hotel_location": hotel_location or None,
-            "group_label": group_label or None,
-            "brand_label": brand or None,
-            "group_type": group_type,
-            "lat": None,
-            "lon": None,
+            "hotel_name":        hotel,
+            "hotel_url":         hotel_url or None,
+            "hotel_location":    hotel_location or None,
+            "group_label":       group_label or None,
+            "brand_label":       brand or None,
+            "group_type":        group_type,
+            "lat":               None,
+            "lon":               None,
             "formatted_address": None,
-            "provider": "google_places_first",
-            "confidence": None,
-            "place_id": None,
-            "types": None,
-            "partial_match": None,
-            "status": status if res else f"NO_RESULT:{status}",
+            "provider":          "google_places_first",
+            "confidence":        None,
+            "place_id":          None,
+            "types":             None,
+            "partial_match":     None,
+            "status":            status if res else f"NO_RESULT:{status}",
         }
         if res:
             types_out = res.get("types", [])
             out.update({
-                "lat": res.get("lat"),
-                "lon": res.get("lon"),
+                "lat":               res.get("lat"),
+                "lon":               res.get("lon"),
                 "formatted_address": res.get("formatted_address"),
-                "provider": res.get("provider", "google_places"),
-                "confidence": res.get("confidence"),
-                "place_id": res.get("place_id"),
-                "types": ";".join(types_out) if isinstance(types_out, list) else types_out,
-                "partial_match": bool(res.get("partial_match", False)),
+                "provider":          res.get("provider", "google_places"),
+                "confidence":        res.get("confidence"),
+                "place_id":          res.get("place_id"),
+                "types":             ";".join(types_out) if isinstance(types_out, list) else types_out,
+                "partial_match":     bool(res.get("partial_match", False)),
             })
 
-        rows.append(out)
-        print(f"[{idx}/{total}] {hotel} -> {out['status']}")
+        return idx, out
+
+    # ---- Parallel dispatch ----
+    jobs    = list(enumerate(work.itertuples(index=False), 1))
+    results: Dict[int, Any] = {}
+
+    with ThreadPoolExecutor(max_workers=args.workers) as pool:
+        futures = {pool.submit(_process_hotel, job): job[0] for job in jobs}
+        for fut in as_completed(futures):
+            idx, out = fut.result()
+            results[idx] = out
+            print(f"[{idx}/{total}] {out['hotel_name']} -> {out['status']}")
+
+    # Flush all cache mutations to disk in one pass.
+    save_cache(cache_path_obj, cache)
+
+    rows = [results[i] for i in range(1, total + 1)]
 
     out_df = pd.DataFrame(rows, columns=[
         "hotel_name","hotel_url","hotel_location","group_label","brand_label","group_type",
