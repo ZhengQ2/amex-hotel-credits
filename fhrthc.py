@@ -1,6 +1,10 @@
 import csv
+import html as html_lib
 import re
+import requests
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from html.parser import HTMLParser
+from pathlib import Path
 from typing import Dict, List, Tuple
 from urllib.error import HTTPError, URLError
 from urllib.parse import urljoin
@@ -22,6 +26,84 @@ OUT_FHR = "cache/fhr_hotels.csv"
 OUT_THC = "cache/thc_hotels.csv"
 FHR_CACHE_FILE = "cache/geocode_cache_google_fhr.json"
 THC_CACHE_FILE = "cache/geocode_cache_google_thc.json"
+
+_ADDRESS_WORKERS = 15
+_ADDRESS_TIMEOUT = 15
+_AMEX_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://www.americanexpress.com/en-us/travel/",
+}
+
+
+def _extract_address_from_html(html_text: str) -> str:
+    """Extract the postal address from <p class="pl-location"> on an AmEx hotel page."""
+    m = re.search(
+        r'<p[^>]+class=["\'][^"\']*\bpl-location\b[^"\']*["\'][^>]*>(.*?)</p>',
+        html_text, re.DOTALL | re.IGNORECASE,
+    )
+    if not m:
+        return ""
+    text = re.sub(r"<[^>]+>", "", m.group(1))          # strip any inner tags
+    text = html_lib.unescape(text).strip()
+    text = re.sub(r"\.\s+", ", ", text)                 # "123 Main St. City" → "123 Main St, City"
+    return _clean_text(text)
+
+
+def fetch_hotel_address(url: str) -> str:
+    """GET an AmEx hotel property page and return its postal address."""
+    if not url:
+        return ""
+    try:
+        resp = requests.get(url, timeout=_ADDRESS_TIMEOUT, headers=_AMEX_HEADERS)
+    except Exception:
+        return ""
+    if not resp.ok:
+        return ""
+    return _extract_address_from_html(resp.text)
+
+
+def backfill_addresses(rows: list, existing_map: dict) -> list:
+    """Concurrently fetch hotel_address for rows that don't have one yet."""
+    # Apply already-known addresses from a previous run
+    for r in rows:
+        if not r.get("hotel_address"):
+            r["hotel_address"] = existing_map.get(r["hotel_name"], "")
+
+    missing = [r for r in rows if not r.get("hotel_address") and r.get("hotel_url")]
+    if not missing:
+        return rows
+
+    print(f"Fetching addresses for {len(missing)} hotels ({_ADDRESS_WORKERS} workers)...")
+    url_to_addr: Dict[str, str] = {}
+
+    with ThreadPoolExecutor(max_workers=_ADDRESS_WORKERS) as pool:
+        futures = {pool.submit(fetch_hotel_address, r["hotel_url"]): r for r in missing}
+        done = 0
+        for future in as_completed(futures):
+            r = futures[future]
+            try:
+                url_to_addr[r["hotel_url"]] = future.result() or ""
+            except Exception:
+                url_to_addr[r["hotel_url"]] = ""
+            done += 1
+            if done % 50 == 0 or done == len(missing):
+                print(f"  {done}/{len(missing)} fetched")
+
+    fetched = 0
+    for r in missing:
+        addr = url_to_addr.get(r["hotel_url"], "")
+        r["hotel_address"] = addr
+        if addr:
+            fetched += 1
+
+    print(f"  Address resolved for {fetched}/{len(missing)} hotels")
+    return rows
 
 
 def _clean_text(s: str) -> str:
@@ -245,6 +327,7 @@ def _normalize_rows(rows, base_url):
                 "program_label": program,
                 "brand_label": brand,
                 "hotel_location": location,
+                "hotel_address": "",
                 "hotel_name": hotel_name,
                 "hotel_url": urljoin(base_url, hotel_url),
                 "group_label": program,
@@ -312,6 +395,7 @@ def _write_rows(rows, out_path):
         "program_label",
         "brand_label",
         "hotel_location",
+        "hotel_address",
         "hotel_name",
         "hotel_url",
         "group_label",
@@ -362,6 +446,21 @@ def main():
     rows = scrape_all_pages()
     if not rows:
         raise RuntimeError("Failed to fetch AMEX pages or no rows were parsed.")
+
+    # Preserve hotel_address values already fetched in previous runs
+    existing_map: Dict[str, str] = {}
+    for out_path in (OUT_FHR, OUT_THC):
+        if Path(out_path).exists():
+            try:
+                with open(out_path, newline="", encoding="utf-8") as f:
+                    for r in csv.DictReader(f):
+                        addr = r.get("hotel_address", "").strip()
+                        if addr:
+                            existing_map[r["hotel_name"]] = addr
+            except Exception:
+                pass
+
+    rows = backfill_addresses(rows, existing_map)
     write_output(rows)
 
     cache_by_program = {

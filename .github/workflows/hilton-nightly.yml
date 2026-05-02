@@ -126,7 +126,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add cache/geocode_cache_google_hilton.json cache/hilton_hotels_geocoded_google.csv || true
+          git add cache/hilton_hotels.csv cache/geocode_cache_google_hilton.json cache/hilton_hotels_geocoded_google.csv || true
 
           python generate_map_data.py
           git add docs/hotels.json

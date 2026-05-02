@@ -37,8 +37,12 @@ _LOCATION_HEADERS = {
 }
 
 
-def _extract_location_from_html(html: str) -> str:
-    """Return 'City, Country' parsed from JSON-LD structured data in a Hilton page."""
+def _extract_location_from_html(html: str) -> tuple:
+    """Return (hotel_address, hotel_location) parsed from JSON-LD in a Hilton page.
+
+    hotel_address  – full postal address (street, city, region, country)
+    hotel_location – city + country only, used for location-compatibility validation
+    """
     for raw in re.findall(
         r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
         html, re.DOTALL | re.IGNORECASE,
@@ -65,54 +69,61 @@ def _extract_location_from_html(html: str) -> str:
             addr = item.get("address")
             if not isinstance(addr, dict):
                 continue
-            city = (addr.get("addressLocality") or "").strip()
-            country = (addr.get("addressCountry") or "").strip()
-            if city:
-                return f"{city}, {country}".rstrip(", ") if country else city
-    return ""
+            street  = (addr.get("streetAddress")  or "").strip()
+            city    = (addr.get("addressLocality") or "").strip()
+            region  = (addr.get("addressRegion")   or "").strip()
+            country = (addr.get("addressCountry")  or "").strip()
+            if city or street:
+                hotel_address  = ", ".join(p for p in [street, city, region, country] if p)
+                hotel_location = ", ".join(p for p in [city, country] if p)
+                return hotel_address, hotel_location
+    return "", ""
 
 
-def fetch_hotel_location(url: str) -> str:
-    """GET a Hilton property page and extract its city/country via JSON-LD."""
+def fetch_hotel_address(url: str) -> tuple:
+    """GET a Hilton property page and return (hotel_address, hotel_location) via JSON-LD."""
     if not url:
-        return ""
+        return "", ""
     try:
         resp = requests.get(url, timeout=_LOCATION_TIMEOUT, headers=_LOCATION_HEADERS)
     except Exception:
-        return ""
+        return "", ""
     if not resp.ok:
-        return ""
+        return "", ""
     return _extract_location_from_html(resp.text)
 
 
-def backfill_locations(df: pd.DataFrame) -> pd.DataFrame:
-    """Concurrently fetch hotel_location for rows where the field is empty."""
-    mask = df["hotel_location"].str.strip() == ""
+def backfill_addresses(df: pd.DataFrame) -> pd.DataFrame:
+    """Concurrently fetch hotel_address (and hotel_location) for rows missing an address."""
+    mask = df["hotel_address"].str.strip() == ""
     missing_urls = df.loc[mask, "hotel_url"].tolist()
     if not missing_urls:
         return df
 
-    print(f"Fetching locations for {len(missing_urls)} hotels (up to {_LOCATION_WORKERS} parallel)...")
-    url_to_loc: Dict[str, str] = {}
+    print(f"Fetching addresses for {len(missing_urls)} hotels (up to {_LOCATION_WORKERS} parallel)...")
+    url_to_result: Dict[str, tuple] = {}
 
     with ThreadPoolExecutor(max_workers=_LOCATION_WORKERS) as pool:
-        futures = {pool.submit(fetch_hotel_location, url): url for url in missing_urls}
+        futures = {pool.submit(fetch_hotel_address, url): url for url in missing_urls}
         done = 0
         for future in as_completed(futures):
             url = futures[future]
             try:
-                url_to_loc[url] = future.result() or ""
+                url_to_result[url] = future.result()
             except Exception:
-                url_to_loc[url] = ""
+                url_to_result[url] = ("", "")
             done += 1
             if done % 20 == 0 or done == len(missing_urls):
                 print(f"  {done}/{len(missing_urls)} fetched")
 
-    fetched_count = sum(1 for v in url_to_loc.values() if v)
-    print(f"  Location resolved for {fetched_count}/{len(missing_urls)} hotels")
+    fetched_count = sum(1 for (a, _) in url_to_result.values() if a)
+    print(f"  Address resolved for {fetched_count}/{len(missing_urls)} hotels")
 
     df = df.copy()
-    df.loc[mask, "hotel_location"] = df.loc[mask, "hotel_url"].map(url_to_loc).fillna("")
+    df.loc[mask, "hotel_address"]  = df.loc[mask, "hotel_url"].map(
+        lambda u: url_to_result.get(u, ("", ""))[0]).fillna("")
+    df.loc[mask, "hotel_location"] = df.loc[mask, "hotel_url"].map(
+        lambda u: url_to_result.get(u, ("", ""))[1]).fillna("")
     return df
 
 
@@ -423,22 +434,24 @@ def main(headless=True):
             dedup.values(), columns=["hotel_name", "hotel_url", "group_label", "group_type"]
         )
 
-        # Preserve hotel_location values already fetched in previous runs
+        # Preserve hotel_address and hotel_location already fetched in previous runs
+        df["hotel_address"] = ""
         df["hotel_location"] = ""
         if Path(OUT).exists():
             try:
                 existing = pd.read_csv(OUT)
-                if "hotel_location" in existing.columns:
-                    loc_map = (
-                        existing[existing["hotel_location"].notna() & (existing["hotel_location"] != "")]
-                        .set_index("hotel_name")["hotel_location"]
-                        .to_dict()
-                    )
-                    df["hotel_location"] = df["hotel_name"].map(loc_map).fillna("")
+                for col in ("hotel_address", "hotel_location"):
+                    if col in existing.columns:
+                        col_map = (
+                            existing[existing[col].notna() & (existing[col] != "")]
+                            .set_index("hotel_name")[col]
+                            .to_dict()
+                        )
+                        df[col] = df["hotel_name"].map(col_map).fillna("")
             except Exception:
                 pass
 
-        df = backfill_locations(df)
+        df = backfill_addresses(df)
         df = df.sort_values(by=["group_label", "hotel_name"])
         df.to_csv(OUT, index=False)
         print(f"Wrote {len(df)} rows -> {OUT}")

@@ -499,6 +499,8 @@ def main():
         df["hotel_url"] = None
     if "group_label" not in df.columns:
         df["group_label"] = None
+    if "hotel_address" not in df.columns:
+        df["hotel_address"] = None
     if input_format == "fhrthc" and "brand_label" not in df.columns:
         df["brand_label"] = None
     if input_format == "fhrthc" and "hotel_location" not in df.columns:
@@ -531,6 +533,7 @@ def main():
         hotel = _clean_cell(getattr(row, "hotel_name", ""))
         hotel_url = _clean_cell(getattr(row, "hotel_url", ""))
         hotel_location = _clean_cell(getattr(row, "hotel_location", ""))
+        hotel_address = _clean_cell(getattr(row, "hotel_address", ""))
         group_label = _clean_cell(getattr(row, "group_label", ""))
         group_type = _clean_cell(getattr(row, "group_type", "Brand")) or "Brand"
 
@@ -541,54 +544,82 @@ def main():
             brand = group_label
             cache_scope = group_label
 
-        queries = build_queries(hotel, brand, hotel_url, hotel_location)
-        cache_key = json.dumps({
-            "v": CACHE_VERSION,
-            "provider": "google_places_first",
-            "input_format": input_format,
-            "hotel_name": hotel,
-            "queries": queries,
-            "brand": cache_scope,
-        }, sort_keys=True)
-
-        cached = cache.get(cache_key, None)
         res = None
         status = None
-        needs_geocode = cached is None
 
-        if cached is not None:
-            res = None if cached == {"status": "NO_RESULT"} else cached
-            if res and not _location_compatible(res.get("formatted_address", ""), hotel_location):
-                # Cached result is geographically wrong; discard and re-geocode.
-                res = None
-                needs_geocode = True
-                status = "CACHED:LOCATION_MISMATCH"
-            else:
-                status = "CACHED" if res else "CACHED:NO_RESULT"
+        # ---- Address-first path ----
+        # When a full postal address is available, geocode it directly with the
+        # classic Geocoding API — no query building, no name matching needed.
+        if hotel_address:
+            addr_key = json.dumps({
+                "v": CACHE_VERSION,
+                "provider": "google_geocoding_address",
+                "hotel_address": hotel_address,
+            }, sort_keys=True)
 
-        if needs_geocode:
-            # Fuzzy fallback: reuse cached geocoding when the hotel name changed
-            # slightly (rebrand, punctuation, minor addition) to avoid a paid API call.
-            # Only reuse if the fuzzy match has a real result and passes location check.
-            fuzzy_key = find_fuzzy_cache_key(hotel, cache, input_format=input_format)
-            if fuzzy_key is not None and cache[fuzzy_key] is not None:
-                candidate = cache[fuzzy_key]
-                candidate = None if candidate == {"status": "NO_RESULT"} else candidate
-                if candidate and _location_compatible(candidate.get("formatted_address", ""), hotel_location):
-                    res = candidate
-                    status = "CACHED:RENAMED"
-                    # Persist under the new key so future runs hit it exactly.
-                    cache[cache_key] = cache[fuzzy_key]
-                    save_cache(cache_path_obj, cache)
-                elif not candidate:
-                    # Fuzzy match was a confirmed NO_RESULT; honour it.
-                    status = "CACHED:RENAMED:NO_RESULT"
-                # else: fuzzy match also has wrong location — fall through to geocode
-
-            if res is None and status != "CACHED:RENAMED:NO_RESULT":
-                res, status = geocode_places_first(queries, brand, hotel, BASE_DELAY)
-                cache[cache_key] = res or {"status": "NO_RESULT"}
+            cached_addr = cache.get(addr_key)
+            if cached_addr is not None and cached_addr != {"status": "NO_RESULT"}:
+                res, status = cached_addr, "CACHED:ADDR"
+            elif cached_addr is None:
+                try:
+                    res = geocode_google(hotel_address, API_KEY, REGION_BIAS)
+                    status = "ADDR_GEOCODE" if res else "ADDR_GEOCODE:NO_RESULT"
+                except Exception:
+                    res = None
+                    status = "ADDR_GEOCODE:ERROR"
+                cache[addr_key] = res or {"status": "NO_RESULT"}
                 save_cache(cache_path_obj, cache)
+            # CACHED:ADDR:NO_RESULT → res stays None → falls through to name-based below
+
+        # ---- Name-based fallback (Places Text Search) ----
+        # Used when no address is available, or when address geocoding failed.
+        if res is None:
+            queries = build_queries(hotel, brand, hotel_url, hotel_location)
+            cache_key = json.dumps({
+                "v": CACHE_VERSION,
+                "provider": "google_places_first",
+                "input_format": input_format,
+                "hotel_name": hotel,
+                "queries": queries,
+                "brand": cache_scope,
+            }, sort_keys=True)
+
+            cached = cache.get(cache_key, None)
+            needs_geocode = cached is None
+
+            if cached is not None:
+                res = None if cached == {"status": "NO_RESULT"} else cached
+                if res and not _location_compatible(res.get("formatted_address", ""), hotel_location):
+                    # Cached result is geographically wrong; discard and re-geocode.
+                    res = None
+                    needs_geocode = True
+                    status = "CACHED:LOCATION_MISMATCH"
+                else:
+                    status = "CACHED" if res else "CACHED:NO_RESULT"
+
+            if needs_geocode:
+                # Fuzzy fallback: reuse cached geocoding when the hotel name changed
+                # slightly (rebrand, punctuation, minor addition) to avoid a paid API call.
+                # Only reuse if the fuzzy match has a real result and passes location check.
+                fuzzy_key = find_fuzzy_cache_key(hotel, cache, input_format=input_format)
+                if fuzzy_key is not None and cache[fuzzy_key] is not None:
+                    candidate = cache[fuzzy_key]
+                    candidate = None if candidate == {"status": "NO_RESULT"} else candidate
+                    if candidate and _location_compatible(candidate.get("formatted_address", ""), hotel_location):
+                        res = candidate
+                        status = "CACHED:RENAMED"
+                        # Persist under the new key so future runs hit it exactly.
+                        cache[cache_key] = cache[fuzzy_key]
+                        save_cache(cache_path_obj, cache)
+                    elif not candidate:
+                        # Fuzzy match was a confirmed NO_RESULT; honour it.
+                        status = "CACHED:RENAMED:NO_RESULT"
+                    # else: fuzzy match also has wrong location — fall through to geocode
+
+                if res is None and status != "CACHED:RENAMED:NO_RESULT":
+                    res, status = geocode_places_first(queries, brand, hotel, BASE_DELAY)
+                    cache[cache_key] = res or {"status": "NO_RESULT"}
+                    save_cache(cache_path_obj, cache)
 
         out = {
             "hotel_name": hotel,

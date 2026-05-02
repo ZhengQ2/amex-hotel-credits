@@ -73,8 +73,7 @@ jobs:
           echo "any_changed=${any_changed}" >> "$GITHUB_OUTPUT"
 
       - name: Run Google geocoding (FHR)
-        # Always run — cheap when cached; only makes API calls for new hotels or
-        # location-mismatched cache entries detected by the location-compatibility check.
+        if: steps.check_list.outputs.fhr_changed == 'true'
         env:
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
         run: |
@@ -85,6 +84,7 @@ jobs:
             --input-format fhrthc | tee -a fhrthc.log
 
       - name: Run Google geocoding (THC)
+        if: steps.check_list.outputs.thc_changed == 'true'
         env:
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
         run: |
@@ -217,6 +217,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add \
+            cache/fhr_hotels.csv \
+            cache/thc_hotels.csv \
             cache/fhr_hotels_geocoded_google.csv \
             cache/thc_hotels_geocoded_google.csv \
             cache/geocode_cache_google_fhr.json \
