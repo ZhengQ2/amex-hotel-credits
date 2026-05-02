@@ -277,7 +277,13 @@ def _name_similarity(place_name: str, hotel_name: str) -> float:
     overlap = len(p & h)
     if overlap == 0:
         return 0.0
-    return overlap / max(1, len(h))
+    # F1-style: harmonic mean of precision and recall so that a short hotel
+    # name cannot achieve a perfect score against a much longer candidate name.
+    # e.g. "The Georgian" vs "Georgian Bay Hotel, Trademark Collection by Wyndham"
+    # gives recall=1.0 but precision=0.25, so F1=0.40 — correctly rejected.
+    precision = overlap / len(p)
+    recall = overlap / len(h)
+    return 2 * precision * recall / (precision + recall)
 
 
 def _is_name_compatible(place_name: str, hotel_name: str) -> bool:
@@ -285,13 +291,15 @@ def _is_name_compatible(place_name: str, hotel_name: str) -> bool:
     if score >= 0.6:
         return True
 
-    # Strict token-prefix checks to avoid false positives like
-    # dali vs dalian (substring, but not token-equal).
+    # Fallback: allow near-subsets (e.g. "Park Kyoto" matching "Park Hyatt Kyoto")
+    # but also require a minimum precision so a short hotel name cannot match a
+    # much longer candidate on just one token (the Georgian / Georgian Bay case).
     p = _meaningful_tokens(place_name)
     h = _meaningful_tokens(hotel_name)
     if not p or not h:
         return False
-    return bool(p & h) and len(p & h) >= max(1, min(len(p), len(h)) - 1)
+    overlap = len(p & h)
+    return overlap >= max(1, min(len(p), len(h)) - 1) and overlap / len(p) >= 0.3
 
 
 def _is_lodging_type(types: List[str]) -> bool:
