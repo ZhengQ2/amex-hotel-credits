@@ -36,13 +36,78 @@ _LOCATION_HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
+# Some hotels are listed with external-brand domains or non-English Hilton locales.
+# Map them to their canonical hilton.com/en/ property page so we can extract JSON-LD.
+_EXTERNAL_URL_MAP: Dict[str, str] = {
+    "https://romecavalieri.com/":               "https://www.hilton.com/en/hotels/romhiwa-rome-cavalieri/",
+    "https://www.grandwailea.com/":             "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/",
+    "https://www.waldorfastoriamonarchbeach.com/": "https://www.hilton.com/en/hotels/snamowa-waldorf-astoria-monarch-beach/",
+}
+
+
+def _normalize_fetch_url(url: str) -> str:
+    """Return the canonical Hilton /en/ URL to use for address extraction.
+
+    - Maps known external-brand domains to their hilton.com property page.
+    - Normalises non-English locale prefixes (/de/, /ja/, /fr/, …) to /en/.
+    """
+    if not url:
+        return url
+    if url in _EXTERNAL_URL_MAP:
+        return _EXTERNAL_URL_MAP[url]
+    # /XX/ or /XX-YY/ locale prefix → /en/  e.g. /de/hotels/ → /en/hotels/
+    return re.sub(
+        r'(https://(?:www\.)?hilton\.com)/[a-z]{2}(?:-[a-z]{2})?(/hotels/)',
+        r'\1/en\2',
+        url,
+    )
+
+
+def _extract_address_from_span(html: str) -> tuple:
+    """Extract (hotel_address, hotel_location) from Hilton's address span element.
+
+    Hilton renders the property address inside:
+        <span class="... whitespace-pre-line">STREET\\nCITY, ZIP COUNTRY<svg…></svg></span>
+
+    Returns a (hotel_address, hotel_location) tuple where hotel_location is a rough
+    city/country hint derived from the trailing segment of the address.
+    """
+    m = re.search(
+        r'<span[^>]+class=["\'][^"\']*\bwhitespace-pre-line\b[^"\']*["\'][^>]*>(.*?)</span>',
+        html, re.DOTALL | re.IGNORECASE,
+    )
+    if not m:
+        return "", ""
+    # Strip inner HTML (e.g. the SVG "open in new window" icon)
+    text = re.sub(r'<[^>]+>', '', m.group(1))
+    # Newlines separate street from city/country — normalise to comma-space
+    text = re.sub(r'\s*\n\s*', ', ', text.strip())
+    text = re.sub(r',\s*,', ',', text)
+    text = re.sub(r'\s{2,}', ' ', text).strip().strip(',').strip()
+    if not text:
+        return "", ""
+
+    # Derive a rough location hint (used by name-based geocoding fallback).
+    # Typical tail segment: "78000 France" → "France", "CA 90210 United States" → "United States".
+    parts = [p.strip() for p in text.split(',') if p.strip()]
+    loc = ""
+    if parts:
+        last = re.sub(r'^\d[\d\s]*', '', parts[-1]).strip()   # strip leading zip/number
+        loc = last if len(last) > 2 else (parts[-2].strip() if len(parts) >= 2 else "")
+    return text, loc
+
 
 def _extract_location_from_html(html: str) -> tuple:
-    """Return (hotel_address, hotel_location) parsed from JSON-LD in a Hilton page.
+    """Return (hotel_address, hotel_location) parsed from a Hilton property page.
 
     hotel_address  – full postal address (street, city, region, country)
     hotel_location – city + country only, used for location-compatibility validation
+
+    Strategy:
+    1. JSON-LD structured data (most precise, structured fields).
+    2. Fallback: address <span class="...whitespace-pre-line"> in the page body.
     """
+    # --- JSON-LD path ---
     for raw in re.findall(
         r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
         html, re.DOTALL | re.IGNORECASE,
@@ -77,15 +142,22 @@ def _extract_location_from_html(html: str) -> tuple:
                 hotel_address  = ", ".join(p for p in [street, city, region, country] if p)
                 hotel_location = ", ".join(p for p in [city, country] if p)
                 return hotel_address, hotel_location
-    return "", ""
+
+    # --- Fallback: address span in page body ---
+    return _extract_address_from_span(html)
 
 
 def fetch_hotel_address(url: str) -> tuple:
-    """GET a Hilton property page and return (hotel_address, hotel_location) via JSON-LD."""
+    """GET a Hilton property page and return (hotel_address, hotel_location).
+
+    The URL is normalised to a canonical hilton.com/en/ address before fetching
+    so that external-domain URLs and non-English locale variants are handled.
+    """
     if not url:
         return "", ""
+    fetch_url = _normalize_fetch_url(url)
     try:
-        resp = requests.get(url, timeout=_LOCATION_TIMEOUT, headers=_LOCATION_HEADERS)
+        resp = requests.get(fetch_url, timeout=_LOCATION_TIMEOUT, headers=_LOCATION_HEADERS)
     except Exception:
         return "", ""
     if not resp.ok:
