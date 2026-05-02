@@ -1,6 +1,11 @@
 # scrape_hilton_hotels_by_brand_playwright.py
 from playwright.sync_api import sync_playwright, TimeoutError
 import pandas as pd
+import json
+import re
+import requests
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
 from urllib.parse import urljoin, urlparse, urlunparse, parse_qsl, urlencode
 from typing import Dict, List, Any, Tuple
 
@@ -18,6 +23,97 @@ from cache_utils import (
 URL = "https://www.hilton.com/en/p/hilton-honors/resort-credit-eligible-hotels/"
 OUT = "cache/hilton_hotels.csv"
 CACHE_FILE = "cache/geocode_cache_google_hilton.json"
+
+_LOCATION_WORKERS = 10
+_LOCATION_TIMEOUT = 15  # seconds per request
+_LOCATION_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
+
+
+def _extract_location_from_html(html: str) -> str:
+    """Return 'City, Country' parsed from JSON-LD structured data in a Hilton page."""
+    for raw in re.findall(
+        r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+        html, re.DOTALL | re.IGNORECASE,
+    ):
+        try:
+            data = json.loads(raw)
+        except (json.JSONDecodeError, ValueError):
+            continue
+
+        items: list = []
+        if isinstance(data, list):
+            items = data
+        elif isinstance(data, dict):
+            items = data.get("@graph", [data])
+
+        for item in items:
+            if not isinstance(item, dict):
+                continue
+            type_val = item.get("@type", "")
+            if isinstance(type_val, list):
+                type_val = " ".join(str(t) for t in type_val)
+            if not any(t in type_val.lower() for t in ("hotel", "lodging", "accommodation", "resort")):
+                continue
+            addr = item.get("address")
+            if not isinstance(addr, dict):
+                continue
+            city = (addr.get("addressLocality") or "").strip()
+            country = (addr.get("addressCountry") or "").strip()
+            if city:
+                return f"{city}, {country}".rstrip(", ") if country else city
+    return ""
+
+
+def fetch_hotel_location(url: str) -> str:
+    """GET a Hilton property page and extract its city/country via JSON-LD."""
+    if not url:
+        return ""
+    try:
+        resp = requests.get(url, timeout=_LOCATION_TIMEOUT, headers=_LOCATION_HEADERS)
+    except Exception:
+        return ""
+    if not resp.ok:
+        return ""
+    return _extract_location_from_html(resp.text)
+
+
+def backfill_locations(df: pd.DataFrame) -> pd.DataFrame:
+    """Concurrently fetch hotel_location for rows where the field is empty."""
+    mask = df["hotel_location"].str.strip() == ""
+    missing_urls = df.loc[mask, "hotel_url"].tolist()
+    if not missing_urls:
+        return df
+
+    print(f"Fetching locations for {len(missing_urls)} hotels (up to {_LOCATION_WORKERS} parallel)...")
+    url_to_loc: Dict[str, str] = {}
+
+    with ThreadPoolExecutor(max_workers=_LOCATION_WORKERS) as pool:
+        futures = {pool.submit(fetch_hotel_location, url): url for url in missing_urls}
+        done = 0
+        for future in as_completed(futures):
+            url = futures[future]
+            try:
+                url_to_loc[url] = future.result() or ""
+            except Exception:
+                url_to_loc[url] = ""
+            done += 1
+            if done % 20 == 0 or done == len(missing_urls):
+                print(f"  {done}/{len(missing_urls)} fetched")
+
+    fetched_count = sum(1 for v in url_to_loc.values() if v)
+    print(f"  Location resolved for {fetched_count}/{len(missing_urls)} hotels")
+
+    df = df.copy()
+    df.loc[mask, "hotel_location"] = df.loc[mask, "hotel_url"].map(url_to_loc).fillna("")
+    return df
 
 
 def _clean_text(s: str) -> str:
@@ -325,8 +421,25 @@ def main(headless=True):
 
         df = pd.DataFrame(
             dedup.values(), columns=["hotel_name", "hotel_url", "group_label", "group_type"]
-        ).sort_values(by=["group_label", "hotel_name"])
+        )
 
+        # Preserve hotel_location values already fetched in previous runs
+        df["hotel_location"] = ""
+        if Path(OUT).exists():
+            try:
+                existing = pd.read_csv(OUT)
+                if "hotel_location" in existing.columns:
+                    loc_map = (
+                        existing[existing["hotel_location"].notna() & (existing["hotel_location"] != "")]
+                        .set_index("hotel_name")["hotel_location"]
+                        .to_dict()
+                    )
+                    df["hotel_location"] = df["hotel_name"].map(loc_map).fillna("")
+            except Exception:
+                pass
+
+        df = backfill_locations(df)
+        df = df.sort_values(by=["group_label", "hotel_name"])
         df.to_csv(OUT, index=False)
         print(f"Wrote {len(df)} rows -> {OUT}")
 

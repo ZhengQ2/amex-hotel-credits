@@ -25,6 +25,7 @@ import time
 import re
 import random
 import argparse
+import unicodedata
 from pathlib import Path
 from typing import Dict, Any, Optional, Tuple, List
 from urllib.parse import urlparse, unquote
@@ -377,6 +378,8 @@ def _location_compatible(formatted_address: str, hotel_location: str) -> bool:
         s = re.sub(r"\bus\b", "united states", s)
         s = re.sub(r"\busa\b", "united states", s)
         s = re.sub(r"\buk\b", "united kingdom", s)
+        # Strip accents so "Málaga" matches "malaga", "Curaçao" matches "curacao"
+        s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
         return {t for t in re.findall(r"[a-z]+", s) if len(t) > 2}
 
     loc_tokens = _loc_tokens(hotel_location)
