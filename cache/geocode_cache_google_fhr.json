@@ -128681,47 +128681,47 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Grove\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Grove Hotel\", \"The Grove Resort\", \"The Grove\", \"The Grove Hertfordshire, England Hotel\", \"The Grove Hertfordshire, England Resort\", \"The Grove Hertfordshire, England\"], \"v\": 3}": {
-    "lat": 28.3613419,
-    "lon": -81.6501237,
-    "formatted_address": "14501 Grove Resort Ave, Winter Garden, FL 34787, USA",
+    "lat": 51.677052,
+    "lon": -0.436857,
+    "formatted_address": "Chandler's Cross, Watford WD3 4TG, UK",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ4boXmvl83YgRmIy08hCc2b8",
+    "place_id": "ChIJPYjFIHpqdkgRn0B8GNfoTVo",
     "types": [
-      "amusement_park",
       "establishment",
       "lodging",
-      "point_of_interest"
+      "point_of_interest",
+      "spa"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "14501 Grove Resort Ave, Winter Garden, FL 34787, USA",
+      "formatted_address": "Chandler's Cross, Watford WD3 4TG, UK",
       "geometry": {
         "location": {
-          "lat": 28.3613419,
-          "lng": -81.6501237
+          "lat": 51.677052,
+          "lng": -0.436857
         },
         "viewport": {
           "northeast": {
-            "lat": 28.3626408302915,
-            "lng": -81.64952476970849
+            "lat": 51.6786900802915,
+            "lng": -0.4358084197084979
           },
           "southwest": {
-            "lat": 28.3599428697085,
-            "lng": -81.6522227302915
+            "lat": 51.6759921197085,
+            "lng": -0.438506380291502
           }
         }
       },
-      "name": "The Grove Resort & Water Park Orlando",
-      "place_id": "ChIJ4boXmvl83YgRmIy08hCc2b8",
+      "name": "The Grove Hotel – Spa and Golf",
+      "place_id": "ChIJPYjFIHpqdkgRn0B8GNfoTVo",
       "types": [
-        "amusement_park",
         "establishment",
         "lodging",
-        "point_of_interest"
+        "point_of_interest",
+        "spa"
       ],
-      "website": "https://www.groveresortorlando.com/?utm_source=GoogleMyBusiness&utm_medium=organic&utm_campaign=GMB"
+      "website": "http://www.thegrove.co.uk/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Southern Ocean Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Southern Ocean Lodge Hotel\", \"Southern Ocean Lodge Resort\", \"Southern Ocean Lodge\", \"Southern Ocean Lodge Kingscote, Australia Hotel\", \"Southern Ocean Lodge Kingscote, Australia Resort\", \"Southern Ocean Lodge Kingscote, Australia\"], \"v\": 3}": {
@@ -130521,12 +130521,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 40.0376609,
-    "lon": -76.3050616,
-    "formatted_address": "25 S Queen St, Lancaster, PA 17603, USA",
+    "lat": 34.7012112,
+    "lon": -118.171488,
+    "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ8awU_O0kxokRHTkrVY7OTv4",
+    "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
     "types": [
       "establishment",
       "lodging",
@@ -130535,31 +130535,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "25 S Queen St, Lancaster, PA 17603, USA",
+      "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
       "geometry": {
         "location": {
-          "lat": 40.0376609,
-          "lng": -76.3050616
+          "lat": 34.7012112,
+          "lng": -118.171488
         },
         "viewport": {
           "northeast": {
-            "lat": 40.0390674302915,
-            "lng": -76.3040099197085
+            "lat": 34.7024083302915,
+            "lng": -118.1697845197085
           },
           "southwest": {
-            "lat": 40.0363694697085,
-            "lng": -76.30670788029151
+            "lat": 34.6997103697085,
+            "lng": -118.1724824802915
           }
         }
       },
-      "name": "Lancaster Marriott at Penn Square",
-      "place_id": "ChIJ8awU_O0kxokRHTkrVY7OTv4",
+      "name": "Hampton Inn & Suites Lancaster",
+      "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.marriott.com/en-us/hotels/lnsmc-lancaster-marriott-at-penn-square/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+      "website": "https://www.hilton.com/en/hotels/pdllchx-hampton-suites-lancaster/?SEO_id=GMB-AMER-HX-PDLLCHX&y_source=1_MjA4MzE4Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -130861,7 +130861,7 @@
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.augustinehotelprague.com/"
+      "website": "https://www.augustinehotelprague.com/?utm_medium=organic&utm_source=google&utm_campaign=KIPRG2&utm_content=gmb"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Beach Enclave\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Beach Enclave Hotel\", \"Beach Enclave Resort\", \"Beach Enclave\", \"Beach Enclave Providenciales, Turks and Caicos Islands Hotel\", \"Beach Enclave Providenciales, Turks and Caicos Islands Resort\", \"Beach Enclave Providenciales, Turks and Caicos Islands\"], \"v\": 3}": {
@@ -137398,7 +137398,7 @@
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Susurros del Corazon, Auberge Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Susurros del Corazon, Auberge Collection Auberge Collection Hotel\", \"Susurros del Corazon, Auberge Collection Auberge Collection Resort\", \"Susurros del Corazon, Auberge Collection Auberge Collection\", \"Susurros del Corazon, Auberge Collection Auberge Collection Punta de Mita, Nayarit MX Hotel\", \"Susurros del Corazon, Auberge Collection Auberge Collection Punta de Mita, Nayarit MX Resort\", \"Susurros del Corazon, Auberge Collection Auberge Collection Punta de Mita, Nayarit MX\", \"Susurros del Corazon, Auberge Collection Hilton Hotel\", \"Susurros del Corazon, Auberge Collection Hilton Resort\", \"Susurros del Corazon, Auberge Collection Hilton\", \"Susurros del Corazon, Auberge Collection Hilton Punta de Mita, Nayarit MX Hotel\", \"Susurros del Corazon, Auberge Collection Hilton Punta de Mita, Nayarit MX Resort\", \"Susurros del Corazon, Auberge Collection Hilton Punta de Mita, Nayarit MX\", \"Susurros Del Corazon Auberge Collection Auberge Collection Hotel\", \"Susurros Del Corazon Auberge Collection Auberge Collection Resort\", \"Susurros Del Corazon Auberge Collection Auberge Collection\", \"Susurros Del Corazon Auberge Collection Auberge Collection Punta de Mita, Nayarit MX Hotel\", \"Susurros Del Corazon Auberge Collection Auberge Collection Punta de Mita, Nayarit MX Resort\", \"Susurros Del Corazon Auberge Collection Auberge Collection Punta de Mita, Nayarit MX\", \"Susurros Del Corazon Auberge Collection Hilton Hotel\", \"Susurros Del Corazon Auberge Collection Hilton Resort\", \"Susurros Del Corazon Auberge Collection Hilton\", \"Susurros Del Corazon Auberge Collection Hilton Punta de Mita, Nayarit MX Hotel\", \"Susurros Del Corazon Auberge Collection Hilton Punta de Mita, Nayarit MX Resort\", \"Susurros Del Corazon Auberge Collection Hilton Punta de Mita, Nayarit MX\", \"Susurros del Corazon, Auberge Collection Hotel\", \"Susurros del Corazon, Auberge Collection Resort\", \"Susurros del Corazon, Auberge Collection\", \"Susurros del Corazon, Auberge Collection Punta de Mita, Nayarit MX Hotel\", \"Susurros del Corazon, Auberge Collection Punta de Mita, Nayarit MX Resort\", \"Susurros del Corazon, Auberge Collection Punta de Mita, Nayarit MX\"], \"v\": 3}": {
     "lat": 20.757124,
     "lon": -105.4802786,
-    "formatted_address": "Desarrollo El Banco Carretera a La Cruz de Huanacaxtle Km 14, 63734 Corral del Risco, Nay., Mexico",
+    "formatted_address": "Desarrollo El Banco Carretera a La Cruz de Huanacaxtle, Km 14, 63734 Desarrollo Punta Mita, Nay., Mexico",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
     "place_id": "ChIJ78WhtUlrIYQRjcdlkOaY16Y",
@@ -137410,7 +137410,7 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Desarrollo El Banco Carretera a La Cruz de Huanacaxtle Km 14, 63734 Corral del Risco, Nay., Mexico",
+      "formatted_address": "Desarrollo El Banco Carretera a La Cruz de Huanacaxtle, Km 14, 63734 Desarrollo Punta Mita, Nay., Mexico",
       "geometry": {
         "location": {
           "lat": 20.757124,
@@ -141562,12 +141562,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Cheval Blanc Randheli\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cheval Blanc Randheli Cheval Blanc Hotel\", \"Cheval Blanc Randheli Cheval Blanc Resort\", \"Cheval Blanc Randheli Cheval Blanc\", \"Cheval Blanc Randheli Cheval Blanc Mal\\u00e9, Maldives Hotel\", \"Cheval Blanc Randheli Cheval Blanc Mal\\u00e9, Maldives Resort\", \"Cheval Blanc Randheli Cheval Blanc Mal\\u00e9, Maldives\", \"Cheval Blanc Randheli Hilton Hotel\", \"Cheval Blanc Randheli Hilton Resort\", \"Cheval Blanc Randheli Hilton\", \"Cheval Blanc Randheli Hilton Mal\\u00e9, Maldives Hotel\", \"Cheval Blanc Randheli Hilton Mal\\u00e9, Maldives Resort\", \"Cheval Blanc Randheli Hilton Mal\\u00e9, Maldives\", \"Cheval Blanc Randheli Hotel\", \"Cheval Blanc Randheli Resort\", \"Cheval Blanc Randheli\", \"Cheval Blanc Randheli Mal\\u00e9, Maldives Hotel\", \"Cheval Blanc Randheli Mal\\u00e9, Maldives Resort\", \"Cheval Blanc Randheli Mal\\u00e9, Maldives\"], \"v\": 3}": {
-    "lat": 48.8588971,
-    "lon": 2.3420459,
-    "formatted_address": "8 Quai du Louvre, 75001 Paris, France",
+    "lat": 5.692100099999999,
+    "lon": 73.3413925,
+    "formatted_address": "Randheli Island, 04130, Maldives",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJE6y1dkBv5kcRhZB0rsUidCQ",
+    "place_id": "ChIJC1-JR6cxazsRwm44jC2ri_k",
     "types": [
       "establishment",
       "lodging",
@@ -141576,31 +141576,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "8 Quai du Louvre, 75001 Paris, France",
+      "formatted_address": "Randheli Island, 04130, Maldives",
       "geometry": {
         "location": {
-          "lat": 48.8588971,
-          "lng": 2.3420459
+          "lat": 5.692100099999999,
+          "lng": 73.3413925
         },
         "viewport": {
           "northeast": {
-            "lat": 48.8601046302915,
-            "lng": 2.343397930291502
+            "lat": 5.693540130291502,
+            "lng": 73.3427392302915
           },
           "southwest": {
-            "lat": 48.8574066697085,
-            "lng": 2.340699969708499
+            "lat": 5.690842169708497,
+            "lng": 73.3400412697085
           }
         }
       },
-      "name": "Cheval Blanc Paris",
-      "place_id": "ChIJE6y1dkBv5kcRhZB0rsUidCQ",
+      "name": "Cheval Blanc Randheli",
+      "place_id": "ChIJC1-JR6cxazsRwm44jC2ri_k",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.chevalblanc.com/en/maison/paris/"
+      "website": "https://www.chevalblanc.com/en/maison/randheli/?y_source=1_MTkzOTczMDEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Cheval Blanc Paris\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cheval Blanc Paris Cheval Blanc Hotel\", \"Cheval Blanc Paris Cheval Blanc Resort\", \"Cheval Blanc Paris Cheval Blanc\", \"Cheval Blanc Paris Cheval Blanc Paris, France Hotel\", \"Cheval Blanc Paris Cheval Blanc Paris, France Resort\", \"Cheval Blanc Paris Cheval Blanc Paris, France\", \"Cheval Blanc Paris Hilton Hotel\", \"Cheval Blanc Paris Hilton Resort\", \"Cheval Blanc Paris Hilton\", \"Cheval Blanc Paris Hilton Paris, France Hotel\", \"Cheval Blanc Paris Hilton Paris, France Resort\", \"Cheval Blanc Paris Hilton Paris, France\", \"Cheval Blanc Paris Hotel\", \"Cheval Blanc Paris Resort\", \"Cheval Blanc Paris\", \"Cheval Blanc Paris Paris, France Hotel\", \"Cheval Blanc Paris Paris, France Resort\", \"Cheval Blanc Paris Paris, France\"], \"v\": 3}": {
@@ -153521,49 +153521,45 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Georgian\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Georgian Hyatt Hotel\", \"The Georgian Hyatt Resort\", \"The Georgian Hyatt\", \"The Georgian Hyatt Santa Monica, California US Hotel\", \"The Georgian Hyatt Santa Monica, California US Resort\", \"The Georgian Hyatt Santa Monica, California US\", \"The Georgian Hilton Hotel\", \"The Georgian Hilton Resort\", \"The Georgian Hilton\", \"The Georgian Hilton Santa Monica, California US Hotel\", \"The Georgian Hilton Santa Monica, California US Resort\", \"The Georgian Hilton Santa Monica, California US\", \"The Georgian Hotel\", \"The Georgian Resort\", \"The Georgian\", \"The Georgian Santa Monica, California US Hotel\", \"The Georgian Santa Monica, California US Resort\", \"The Georgian Santa Monica, California US\"], \"v\": 3}": {
-    "lat": 44.516623,
-    "lon": -80.262006,
-    "formatted_address": "10 Vacation Inn Dr, Collingwood, ON L9Y 5G4, Canada",
+    "lat": 34.013851,
+    "lon": -118.49725,
+    "formatted_address": "1415 Ocean Ave, Santa Monica, CA 90401, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJKXXjp_F5KogRkG--0vC8akY",
+    "place_id": "ChIJe1_X9oilwoARPCYnwz3xNIY",
     "types": [
       "establishment",
-      "food",
       "lodging",
-      "point_of_interest",
-      "restaurant"
+      "point_of_interest"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "10 Vacation Inn Dr, Collingwood, ON L9Y 5G4, Canada",
+      "formatted_address": "1415 Ocean Ave, Santa Monica, CA 90401, USA",
       "geometry": {
         "location": {
-          "lat": 44.516623,
-          "lng": -80.262006
+          "lat": 34.013851,
+          "lng": -118.49725
         },
         "viewport": {
           "northeast": {
-            "lat": 44.5181582302915,
-            "lng": -80.26067301970849
+            "lat": 34.01519193029149,
+            "lng": -118.4960141197085
           },
           "southwest": {
-            "lat": 44.51546026970851,
-            "lng": -80.26337098029151
+            "lat": 34.01249396970849,
+            "lng": -118.4987120802915
           }
         }
       },
-      "name": "Georgian Bay Hotel, Trademark Collection by Wyndham",
-      "place_id": "ChIJKXXjp_F5KogRkG--0vC8akY",
+      "name": "The Georgian - The Unbound Collection by Hyatt",
+      "place_id": "ChIJe1_X9oilwoARPCYnwz3xNIY",
       "types": [
         "establishment",
-        "food",
         "lodging",
-        "point_of_interest",
-        "restaurant"
+        "point_of_interest"
       ],
-      "website": "https://georgianbayhotel.com/"
+      "website": "https://www.hyatt.com/unbound-collection/en-US/ucaab-the-georgian?src=corp_lclb_google_seo_ucaab&utm_source=google&utm_medium=organic&utm_campaign=lmr"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hyatt Vancouver Downtown Alberni\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hyatt Vancouver Downtown Alberni Hyatt Hotel\", \"Hyatt Vancouver Downtown Alberni Hyatt Resort\", \"Hyatt Vancouver Downtown Alberni Hyatt\", \"Hyatt Vancouver Downtown Alberni Hyatt Vancouver, British Columbia CA Hotel\", \"Hyatt Vancouver Downtown Alberni Hyatt Vancouver, British Columbia CA Resort\", \"Hyatt Vancouver Downtown Alberni Hyatt Vancouver, British Columbia CA\", \"Hyatt Vancouver Downtown Alberni Hilton Hotel\", \"Hyatt Vancouver Downtown Alberni Hilton Resort\", \"Hyatt Vancouver Downtown Alberni Hilton\", \"Hyatt Vancouver Downtown Alberni Hilton Vancouver, British Columbia CA Hotel\", \"Hyatt Vancouver Downtown Alberni Hilton Vancouver, British Columbia CA Resort\", \"Hyatt Vancouver Downtown Alberni Hilton Vancouver, British Columbia CA\", \"Hyatt Vancouver Downtown Alberni Hotel\", \"Hyatt Vancouver Downtown Alberni Resort\", \"Hyatt Vancouver Downtown Alberni\", \"Hyatt Vancouver Downtown Alberni Vancouver, British Columbia CA Hotel\", \"Hyatt Vancouver Downtown Alberni Vancouver, British Columbia CA Resort\", \"Hyatt Vancouver Downtown Alberni Vancouver, British Columbia CA\"], \"v\": 3}": {
@@ -161395,45 +161391,47 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Chatham Inn Relais & Chateaux\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Chatham Inn Relais & Chateaux Noble House Hotels & Resorts Hotel\", \"Chatham Inn Relais & Chateaux Noble House Hotels & Resorts Resort\", \"Chatham Inn Relais & Chateaux Noble House Hotels & Resorts\", \"Chatham Inn Relais & Chateaux Noble House Hotels & Resorts Chatham, Massachusetts US Hotel\", \"Chatham Inn Relais & Chateaux Noble House Hotels & Resorts Chatham, Massachusetts US Resort\", \"Chatham Inn Relais & Chateaux Noble House Hotels & Resorts Chatham, Massachusetts US\", \"Chatham Inn Relais & Chateaux Hilton Hotel\", \"Chatham Inn Relais & Chateaux Hilton Resort\", \"Chatham Inn Relais & Chateaux Hilton\", \"Chatham Inn Relais & Chateaux Hilton Chatham, Massachusetts US Hotel\", \"Chatham Inn Relais & Chateaux Hilton Chatham, Massachusetts US Resort\", \"Chatham Inn Relais & Chateaux Hilton Chatham, Massachusetts US\", \"Chatham Inn Relais Chateaux Noble House Hotels & Resorts Hotel\", \"Chatham Inn Relais Chateaux Noble House Hotels & Resorts Resort\", \"Chatham Inn Relais Chateaux Noble House Hotels & Resorts\", \"Chatham Inn Relais Chateaux Noble House Hotels & Resorts Chatham, Massachusetts US Hotel\", \"Chatham Inn Relais Chateaux Noble House Hotels & Resorts Chatham, Massachusetts US Resort\", \"Chatham Inn Relais Chateaux Noble House Hotels & Resorts Chatham, Massachusetts US\", \"Chatham Inn Relais Chateaux Hilton Hotel\", \"Chatham Inn Relais Chateaux Hilton Resort\", \"Chatham Inn Relais Chateaux Hilton\", \"Chatham Inn Relais Chateaux Hilton Chatham, Massachusetts US Hotel\", \"Chatham Inn Relais Chateaux Hilton Chatham, Massachusetts US Resort\", \"Chatham Inn Relais Chateaux Hilton Chatham, Massachusetts US\", \"Chatham Inn Relais & Chateaux Hotel\", \"Chatham Inn Relais & Chateaux Resort\", \"Chatham Inn Relais & Chateaux\", \"Chatham Inn Relais & Chateaux Chatham, Massachusetts US Hotel\", \"Chatham Inn Relais & Chateaux Chatham, Massachusetts US Resort\", \"Chatham Inn Relais & Chateaux Chatham, Massachusetts US\"], \"v\": 3}": {
-    "lat": 43.5460129,
-    "lon": -80.3079127,
-    "formatted_address": "725 Imperial Rd N, Guelph, ON N1K 1X4, Canada",
+    "lat": 41.6849731,
+    "lon": -69.9523155,
+    "formatted_address": "297 Shore Rd, Chatham, MA 02633, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJG6IppjuQK4gRiikkD30s6-A",
+    "place_id": "ChIJWXdAKVkT-4kRGIV0FzYFWJw",
     "types": [
       "establishment",
       "lodging",
-      "point_of_interest"
+      "point_of_interest",
+      "spa"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "725 Imperial Rd N, Guelph, ON N1K 1X4, Canada",
+      "formatted_address": "297 Shore Rd, Chatham, MA 02633, USA",
       "geometry": {
         "location": {
-          "lat": 43.5460129,
-          "lng": -80.3079127
+          "lat": 41.6849731,
+          "lng": -69.9523155
         },
         "viewport": {
           "northeast": {
-            "lat": 43.5472721802915,
-            "lng": -80.3064204697085
+            "lat": 41.6861869802915,
+            "lng": -69.9510628197085
           },
           "southwest": {
-            "lat": 43.5445742197085,
-            "lng": -80.3091184302915
+            "lat": 41.6834890197085,
+            "lng": -69.9537607802915
           }
         }
       },
-      "name": "Hampton Inn & Suites by Hilton Guelph",
-      "place_id": "ChIJG6IppjuQK4gRiikkD30s6-A",
+      "name": "Chatham Bars Inn",
+      "place_id": "ChIJWXdAKVkT-4kRGIV0FzYFWJw",
       "types": [
         "establishment",
         "lodging",
-        "point_of_interest"
+        "point_of_interest",
+        "spa"
       ],
-      "website": "https://www.hilton.com/en/hotels/gueonhx-hampton-suites-guelph/?SEO_id=GMB-AMER-HX-GUEONHX&y_source=1_MjA4NDkwOC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.chathambarsinn.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"L'Auberge Del Mar\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"L'Auberge Del Mar Noble House Hotels & Resorts Hotel\", \"L'Auberge Del Mar Noble House Hotels & Resorts Resort\", \"L'Auberge Del Mar Noble House Hotels & Resorts\", \"L'Auberge Del Mar Noble House Hotels & Resorts Del Mar, California US Hotel\", \"L'Auberge Del Mar Noble House Hotels & Resorts Del Mar, California US Resort\", \"L'Auberge Del Mar Noble House Hotels & Resorts Del Mar, California US\", \"L'Auberge Del Mar Hilton Hotel\", \"L'Auberge Del Mar Hilton Resort\", \"L'Auberge Del Mar Hilton\", \"L'Auberge Del Mar Hilton Del Mar, California US Hotel\", \"L'Auberge Del Mar Hilton Del Mar, California US Resort\", \"L'Auberge Del Mar Hilton Del Mar, California US\", \"Lauberge Del Mar Noble House Hotels & Resorts Hotel\", \"Lauberge Del Mar Noble House Hotels & Resorts Resort\", \"Lauberge Del Mar Noble House Hotels & Resorts\", \"Lauberge Del Mar Noble House Hotels & Resorts Del Mar, California US Hotel\", \"Lauberge Del Mar Noble House Hotels & Resorts Del Mar, California US Resort\", \"Lauberge Del Mar Noble House Hotels & Resorts Del Mar, California US\", \"Lauberge Del Mar Hilton Hotel\", \"Lauberge Del Mar Hilton Resort\", \"Lauberge Del Mar Hilton\", \"Lauberge Del Mar Hilton Del Mar, California US Hotel\", \"Lauberge Del Mar Hilton Del Mar, California US Resort\", \"Lauberge Del Mar Hilton Del Mar, California US\", \"L'Auberge Del Mar Hotel\", \"L'Auberge Del Mar Resort\", \"L'Auberge Del Mar\", \"L'Auberge Del Mar Del Mar, California US Hotel\", \"L'Auberge Del Mar Del Mar, California US Resort\", \"L'Auberge Del Mar Del Mar, California US\"], \"v\": 3}": {
@@ -165700,12 +165698,12 @@
         },
         "viewport": {
           "northeast": {
-            "lat": 21.2539851802915,
-            "lng": -86.8109254197085
+            "lat": 21.2542130302915,
+            "lng": -86.8117834697085
           },
           "southwest": {
-            "lat": 21.2512872197085,
-            "lng": -86.8136233802915
+            "lat": 21.2515150697085,
+            "lng": -86.81448143029151
           }
         }
       },
@@ -167659,7 +167657,7 @@
     ],
     "partial_match": false,
     "raw": {
-      "business_status": "OPERATIONAL",
+      "business_status": "CLOSED_TEMPORARILY",
       "formatted_address": "Yeni, Ürgüp Cd. No:13, 50420 Mustafapaşa/Ürgüp/Nevşehir, Türkiye",
       "geometry": {
         "location": {
@@ -169650,45 +169648,57 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Old Course Hotel, Golf Resort & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Old Course Hotel, Golf Resort & Spa Preferred Hotels & Resorts Hotel\", \"Old Course Hotel, Golf Resort & Spa Preferred Hotels & Resorts Resort\", \"Old Course Hotel, Golf Resort & Spa Preferred Hotels & Resorts\", \"Old Course Hotel, Golf Resort & Spa Preferred Hotels & Resorts St Andrews, Scotland Hotel\", \"Old Course Hotel, Golf Resort & Spa Preferred Hotels & Resorts St Andrews, Scotland Resort\", \"Old Course Hotel, Golf Resort & Spa Preferred Hotels & Resorts St Andrews, Scotland\", \"Old Course Hotel, Golf Resort & Spa Hilton Hotel\", \"Old Course Hotel, Golf Resort & Spa Hilton Resort\", \"Old Course Hotel, Golf Resort & Spa Hilton\", \"Old Course Hotel, Golf Resort & Spa Hilton St Andrews, Scotland Hotel\", \"Old Course Hotel, Golf Resort & Spa Hilton St Andrews, Scotland Resort\", \"Old Course Hotel, Golf Resort & Spa Hilton St Andrews, Scotland\", \"Old Course Hotel Golf Resort Spa Preferred Hotels & Resorts Hotel\", \"Old Course Hotel Golf Resort Spa Preferred Hotels & Resorts Resort\", \"Old Course Hotel Golf Resort Spa Preferred Hotels & Resorts\", \"Old Course Hotel Golf Resort Spa Preferred Hotels & Resorts St Andrews, Scotland Hotel\", \"Old Course Hotel Golf Resort Spa Preferred Hotels & Resorts St Andrews, Scotland Resort\", \"Old Course Hotel Golf Resort Spa Preferred Hotels & Resorts St Andrews, Scotland\", \"Old Course Hotel Golf Resort Spa Hilton Hotel\", \"Old Course Hotel Golf Resort Spa Hilton Resort\", \"Old Course Hotel Golf Resort Spa Hilton\", \"Old Course Hotel Golf Resort Spa Hilton St Andrews, Scotland Hotel\", \"Old Course Hotel Golf Resort Spa Hilton St Andrews, Scotland Resort\", \"Old Course Hotel Golf Resort Spa Hilton St Andrews, Scotland\", \"Old Course Hotel, Golf Resort & Spa Hotel\", \"Old Course Hotel, Golf Resort & Spa Resort\", \"Old Course Hotel, Golf Resort & Spa\", \"Old Course Hotel, Golf Resort & Spa St Andrews, Scotland Hotel\", \"Old Course Hotel, Golf Resort & Spa St Andrews, Scotland Resort\", \"Old Course Hotel, Golf Resort & Spa St Andrews, Scotland\"], \"v\": 3}": {
-    "lat": 35.62063759999999,
-    "lon": -82.54229769999999,
-    "formatted_address": "290 Macon Ave, Asheville, NC 28804, USA",
+    "lat": 56.3444855,
+    "lon": -2.8114455,
+    "formatted_address": "Old Course Hotel, Old Station Rd, St Andrews KY16 9SP, UK",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJnUqFRMD0WYgRpRODdtBy5Gc",
+    "place_id": "ChIJt1RtYKr-hkgROX-VSTwMQoE",
     "types": [
+      "bar",
       "establishment",
+      "food",
+      "gym",
+      "health",
       "lodging",
-      "point_of_interest"
+      "point_of_interest",
+      "restaurant",
+      "spa"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "290 Macon Ave, Asheville, NC 28804, USA",
+      "formatted_address": "Old Course Hotel, Old Station Rd, St Andrews KY16 9SP, UK",
       "geometry": {
         "location": {
-          "lat": 35.62063759999999,
-          "lng": -82.54229769999999
+          "lat": 56.3444855,
+          "lng": -2.8114455
         },
         "viewport": {
           "northeast": {
-            "lat": 35.6220721302915,
-            "lng": -82.54085741970849
+            "lat": 56.34575733029151,
+            "lng": -2.810330419708498
           },
           "southwest": {
-            "lat": 35.6193741697085,
-            "lng": -82.5435553802915
+            "lat": 56.34305936970851,
+            "lng": -2.813028380291502
           }
         }
       },
-      "name": "The Omni Grove Park Inn & Spa",
-      "place_id": "ChIJnUqFRMD0WYgRpRODdtBy5Gc",
+      "name": "Old Course Hotel",
+      "place_id": "ChIJt1RtYKr-hkgROX-VSTwMQoE",
       "types": [
+        "bar",
         "establishment",
+        "food",
+        "gym",
+        "health",
         "lodging",
-        "point_of_interest"
+        "point_of_interest",
+        "restaurant",
+        "spa"
       ],
-      "website": "https://www.omnihotels.com/hotels/asheville-grove-park?utm_source=gmblisting&utm_medium=organic"
+      "website": "https://www.oldcoursehotel.co.uk/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Inn at Perry Cabin\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Inn at Perry Cabin Preferred Hotels & Resorts Hotel\", \"Inn at Perry Cabin Preferred Hotels & Resorts Resort\", \"Inn at Perry Cabin Preferred Hotels & Resorts\", \"Inn at Perry Cabin Preferred Hotels & Resorts St. Michaels, Maryland US Hotel\", \"Inn at Perry Cabin Preferred Hotels & Resorts St. Michaels, Maryland US Resort\", \"Inn at Perry Cabin Preferred Hotels & Resorts St. Michaels, Maryland US\", \"Inn at Perry Cabin Hilton Hotel\", \"Inn at Perry Cabin Hilton Resort\", \"Inn at Perry Cabin Hilton\", \"Inn at Perry Cabin Hilton St. Michaels, Maryland US Hotel\", \"Inn at Perry Cabin Hilton St. Michaels, Maryland US Resort\", \"Inn at Perry Cabin Hilton St. Michaels, Maryland US\", \"Inn Perry Cabin Preferred Hotels & Resorts Hotel\", \"Inn Perry Cabin Preferred Hotels & Resorts Resort\", \"Inn Perry Cabin Preferred Hotels & Resorts\", \"Inn Perry Cabin Preferred Hotels & Resorts St. Michaels, Maryland US Hotel\", \"Inn Perry Cabin Preferred Hotels & Resorts St. Michaels, Maryland US Resort\", \"Inn Perry Cabin Preferred Hotels & Resorts St. Michaels, Maryland US\", \"Inn Perry Cabin Hilton Hotel\", \"Inn Perry Cabin Hilton Resort\", \"Inn Perry Cabin Hilton\", \"Inn Perry Cabin Hilton St. Michaels, Maryland US Hotel\", \"Inn Perry Cabin Hilton St. Michaels, Maryland US Resort\", \"Inn Perry Cabin Hilton St. Michaels, Maryland US\", \"Inn at Perry Cabin Hotel\", \"Inn at Perry Cabin Resort\", \"Inn at Perry Cabin\", \"Inn at Perry Cabin St. Michaels, Maryland US Hotel\", \"Inn at Perry Cabin St. Michaels, Maryland US Resort\", \"Inn at Perry Cabin St. Michaels, Maryland US\"], \"v\": 3}": {
@@ -170884,7 +170894,7 @@
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Raffles Istanbul\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Raffles Istanbul Raffles Hotel\", \"Raffles Istanbul Raffles Resort\", \"Raffles Istanbul Raffles\", \"Raffles Istanbul Raffles Istanbul, Turkey Hotel\", \"Raffles Istanbul Raffles Istanbul, Turkey Resort\", \"Raffles Istanbul Raffles Istanbul, Turkey\", \"Raffles Istanbul Hilton Hotel\", \"Raffles Istanbul Hilton Resort\", \"Raffles Istanbul Hilton\", \"Raffles Istanbul Hilton Istanbul, Turkey Hotel\", \"Raffles Istanbul Hilton Istanbul, Turkey Resort\", \"Raffles Istanbul Hilton Istanbul, Turkey\", \"Raffles Istanbul Hotel\", \"Raffles Istanbul Resort\", \"Raffles Istanbul\", \"Raffles Istanbul Istanbul, Turkey Hotel\", \"Raffles Istanbul Istanbul, Turkey Resort\", \"Raffles Istanbul Istanbul, Turkey\"], \"v\": 3}": {
     "lat": 41.066551,
     "lon": 29.018055,
-    "formatted_address": "Zorlu Center, Levazım, Vadi Caddesi, 34340 Beşiktaş/İstanbul, Türkiye",
+    "formatted_address": "Levazım, Vadi Caddesi Zorlu Center, 34340 Beşiktaş/İstanbul, Türkiye",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
     "place_id": "ChIJ-b4di0W2yhQRKJh_UY_Yg0s",
@@ -170898,7 +170908,7 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Zorlu Center, Levazım, Vadi Caddesi, 34340 Beşiktaş/İstanbul, Türkiye",
+      "formatted_address": "Levazım, Vadi Caddesi Zorlu Center, 34340 Beşiktaş/İstanbul, Türkiye",
       "geometry": {
         "location": {
           "lat": 41.066551,
@@ -173191,47 +173201,45 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Museum Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Museum Hotel Relais & Ch\\u00e2teaux Hotel\", \"Museum Hotel Relais & Ch\\u00e2teaux Resort\", \"Museum Hotel Relais & Ch\\u00e2teaux\", \"Museum Hotel Relais & Ch\\u00e2teaux Nevsehir, Turkey Hotel\", \"Museum Hotel Relais & Ch\\u00e2teaux Nevsehir, Turkey Resort\", \"Museum Hotel Relais & Ch\\u00e2teaux Nevsehir, Turkey\", \"Museum Hotel Hilton Hotel\", \"Museum Hotel Hilton Resort\", \"Museum Hotel Hilton\", \"Museum Hotel Hilton Nevsehir, Turkey Hotel\", \"Museum Hotel Hilton Nevsehir, Turkey Resort\", \"Museum Hotel Hilton Nevsehir, Turkey\", \"Museum Hotel Hotel\", \"Museum Hotel Resort\", \"Museum Hotel\", \"Museum Hotel Nevsehir, Turkey Hotel\", \"Museum Hotel Nevsehir, Turkey Resort\", \"Museum Hotel Nevsehir, Turkey\"], \"v\": 3}": {
-    "lat": 46.8120085,
-    "lon": -71.20521839999999,
-    "formatted_address": "1 Rue des Carrières, Québec, QC G1R 5J5, Canada",
+    "lat": 36.2117982,
+    "lon": 36.1731685,
+    "formatted_address": "St. Pierre Mevkii, Haraparası, Hacılar Sk. No: 26/1, 31060 Antakya/Hatay, Türkiye",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ7Vz9a9yVuEwRjUKqbbOLHw4",
+    "place_id": "ChIJM7L90FTDJRURFjjXB6Vk6uw",
     "types": [
       "establishment",
       "lodging",
-      "point_of_interest",
-      "tourist_attraction"
+      "point_of_interest"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "1 Rue des Carrières, Québec, QC G1R 5J5, Canada",
+      "formatted_address": "St. Pierre Mevkii, Haraparası, Hacılar Sk. No: 26/1, 31060 Antakya/Hatay, Türkiye",
       "geometry": {
         "location": {
-          "lat": 46.8120085,
-          "lng": -71.20521839999999
+          "lat": 36.2117982,
+          "lng": 36.1731685
         },
         "viewport": {
           "northeast": {
-            "lat": 46.8134498302915,
-            "lng": -71.2041153697085
+            "lat": 36.21308363029149,
+            "lng": 36.1749597302915
           },
           "southwest": {
-            "lat": 46.8107518697085,
-            "lng": -71.20681333029151
+            "lat": 36.2103856697085,
+            "lng": 36.17226176970851
           }
         }
       },
-      "name": "Fairmont Le Château Frontenac",
-      "place_id": "ChIJ7Vz9a9yVuEwRjUKqbbOLHw4",
+      "name": "The Museum Hotel Antakya",
+      "place_id": "ChIJM7L90FTDJRURFjjXB6Vk6uw",
       "types": [
         "establishment",
         "lodging",
-        "point_of_interest",
-        "tourist_attraction"
+        "point_of_interest"
       ],
-      "website": "https://www.fairmont.com/frontenac-quebec/?goto=fiche_hotel&code_hotel=A572&merchantid=seo-maps-FR-A572&sourceid=aw-cen&utm_medium=seo+maps&utm_source=google+Maps&utm_campaign=seo+maps?goto=fiche_hotel&code_hotel=A572&merchantid=seo-maps-CA-A572&sourceid=aw-cen&utm_medium=seo+maps&utm_source=google+Maps&utm_campaign=seo+maps&y_source=1_MTIzNjE0MDAtNzE1LWxvY2F0aW9uLndlYnNpdGU="
+      "website": "http://www.themuseumhotelantakya.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Chewton Glen Hotel & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Chewton Glen Hotel & Spa Relais & Ch\\u00e2teaux Hotel\", \"Chewton Glen Hotel & Spa Relais & Ch\\u00e2teaux Resort\", \"Chewton Glen Hotel & Spa Relais & Ch\\u00e2teaux\", \"Chewton Glen Hotel & Spa Relais & Ch\\u00e2teaux New Milton, England Hotel\", \"Chewton Glen Hotel & Spa Relais & Ch\\u00e2teaux New Milton, England Resort\", \"Chewton Glen Hotel & Spa Relais & Ch\\u00e2teaux New Milton, England\", \"Chewton Glen Hotel & Spa Hilton Hotel\", \"Chewton Glen Hotel & Spa Hilton Resort\", \"Chewton Glen Hotel & Spa Hilton\", \"Chewton Glen Hotel & Spa Hilton New Milton, England Hotel\", \"Chewton Glen Hotel & Spa Hilton New Milton, England Resort\", \"Chewton Glen Hotel & Spa Hilton New Milton, England\", \"Chewton Glen Hotel Spa Relais & Ch\\u00e2teaux Hotel\", \"Chewton Glen Hotel Spa Relais & Ch\\u00e2teaux Resort\", \"Chewton Glen Hotel Spa Relais & Ch\\u00e2teaux\", \"Chewton Glen Hotel Spa Relais & Ch\\u00e2teaux New Milton, England Hotel\", \"Chewton Glen Hotel Spa Relais & Ch\\u00e2teaux New Milton, England Resort\", \"Chewton Glen Hotel Spa Relais & Ch\\u00e2teaux New Milton, England\", \"Chewton Glen Hotel Spa Hilton Hotel\", \"Chewton Glen Hotel Spa Hilton Resort\", \"Chewton Glen Hotel Spa Hilton\", \"Chewton Glen Hotel Spa Hilton New Milton, England Hotel\", \"Chewton Glen Hotel Spa Hilton New Milton, England Resort\", \"Chewton Glen Hotel Spa Hilton New Milton, England\", \"Chewton Glen Hotel & Spa Hotel\", \"Chewton Glen Hotel & Spa Resort\", \"Chewton Glen Hotel & Spa\", \"Chewton Glen Hotel & Spa New Milton, England Hotel\", \"Chewton Glen Hotel & Spa New Milton, England Resort\", \"Chewton Glen Hotel & Spa New Milton, England\"], \"v\": 3}": {
@@ -175117,12 +175125,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Nekajui, a Ritz-Carlton Reserve\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Nekajui, a Ritz-Carlton Reserve Ritz-Carlton Reserve Hotel\", \"Nekajui, a Ritz-Carlton Reserve Ritz-Carlton Reserve Resort\", \"Nekajui, a Ritz-Carlton Reserve Ritz-Carlton Reserve\", \"Nekajui, a Ritz-Carlton Reserve Ritz-Carlton Reserve Liberia, Costa Rica Hotel\", \"Nekajui, a Ritz-Carlton Reserve Ritz-Carlton Reserve Liberia, Costa Rica Resort\", \"Nekajui, a Ritz-Carlton Reserve Ritz-Carlton Reserve Liberia, Costa Rica\", \"Nekajui, a Ritz-Carlton Reserve Hilton Hotel\", \"Nekajui, a Ritz-Carlton Reserve Hilton Resort\", \"Nekajui, a Ritz-Carlton Reserve Hilton\", \"Nekajui, a Ritz-Carlton Reserve Hilton Liberia, Costa Rica Hotel\", \"Nekajui, a Ritz-Carlton Reserve Hilton Liberia, Costa Rica Resort\", \"Nekajui, a Ritz-Carlton Reserve Hilton Liberia, Costa Rica\", \"Nekajui a Ritz carlton Reserve Ritz-Carlton Reserve Hotel\", \"Nekajui a Ritz carlton Reserve Ritz-Carlton Reserve Resort\", \"Nekajui a Ritz carlton Reserve Ritz-Carlton Reserve\", \"Nekajui a Ritz carlton Reserve Ritz-Carlton Reserve Liberia, Costa Rica Hotel\", \"Nekajui a Ritz carlton Reserve Ritz-Carlton Reserve Liberia, Costa Rica Resort\", \"Nekajui a Ritz carlton Reserve Ritz-Carlton Reserve Liberia, Costa Rica\", \"Nekajui a Ritz carlton Reserve Hilton Hotel\", \"Nekajui a Ritz carlton Reserve Hilton Resort\", \"Nekajui a Ritz carlton Reserve Hilton\", \"Nekajui a Ritz carlton Reserve Hilton Liberia, Costa Rica Hotel\", \"Nekajui a Ritz carlton Reserve Hilton Liberia, Costa Rica Resort\", \"Nekajui a Ritz carlton Reserve Hilton Liberia, Costa Rica\", \"Nekajui, a Ritz-Carlton Reserve Hotel\", \"Nekajui, a Ritz-Carlton Reserve Resort\", \"Nekajui, a Ritz-Carlton Reserve\", \"Nekajui, a Ritz-Carlton Reserve Liberia, Costa Rica Hotel\", \"Nekajui, a Ritz-Carlton Reserve Liberia, Costa Rica Resort\", \"Nekajui, a Ritz-Carlton Reserve Liberia, Costa Rica\"], \"v\": 3}": {
-    "lat": 8.0848737,
-    "lon": 98.7457033,
-    "formatted_address": "111 Moo 3 Nongthalay, Muang Tambon Nong Thale, Amphoe Mueang Krabi, Chang Wat Krabi 81180, Thailand",
+    "lat": 10.6300931,
+    "lon": -85.6833293,
+    "formatted_address": "End of the 253 National Route, Peninsula Papagayo, Provincia de Guanacaste, Liberia, 50104, Costa Rica",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCepuLpmUUTAReUMJ9nn0gDA",
+    "place_id": "ChIJjeAjxX6BdY8RqQfkMepr4Go",
     "types": [
       "establishment",
       "lodging",
@@ -175131,31 +175139,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "111 Moo 3 Nongthalay, Muang Tambon Nong Thale, Amphoe Mueang Krabi, Chang Wat Krabi 81180, Thailand",
+      "formatted_address": "End of the 253 National Route, Peninsula Papagayo, Provincia de Guanacaste, Liberia, 50104, Costa Rica",
       "geometry": {
         "location": {
-          "lat": 8.0848737,
-          "lng": 98.7457033
+          "lat": 10.6300931,
+          "lng": -85.6833293
         },
         "viewport": {
           "northeast": {
-            "lat": 8.0859478302915,
-            "lng": 98.74686218029152
+            "lat": 10.6311818302915,
+            "lng": -85.6818400197085
           },
           "southwest": {
-            "lat": 8.083249869708496,
-            "lng": 98.7441642197085
+            "lat": 10.6284838697085,
+            "lng": -85.68453798029151
           }
         }
       },
-      "name": "Phulay Bay, a Ritz-Carlton Reserve",
-      "place_id": "ChIJCepuLpmUUTAReUMJ9nn0gDA",
+      "name": "Nekajui Peninsula Papagayo, a Ritz-Carlton Reserve",
+      "place_id": "ChIJjeAjxX6BdY8RqQfkMepr4Go",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.ritzcarlton.com/en/hotels/kbvrz-phulay-bay-a-ritz-carlton-reserve/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+      "website": "https://www.ritzcarlton.com/en/hotels/lirrz-nekajui-peninsula-papagayo-a-ritz-carlton-reserve/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Nekajui, a Ritz-Carlton Reserve Residences\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Nekajui, a Ritz-Carlton Reserve Residences Ritz-Carlton Reserve Hotel\", \"Nekajui, a Ritz-Carlton Reserve Residences Ritz-Carlton Reserve Resort\", \"Nekajui, a Ritz-Carlton Reserve Residences Ritz-Carlton Reserve\", \"Nekajui, a Ritz-Carlton Reserve Residences Ritz-Carlton Reserve Liberia, Costa Rica Hotel\", \"Nekajui, a Ritz-Carlton Reserve Residences Ritz-Carlton Reserve Liberia, Costa Rica Resort\", \"Nekajui, a Ritz-Carlton Reserve Residences Ritz-Carlton Reserve Liberia, Costa Rica\", \"Nekajui, a Ritz-Carlton Reserve Residences Hilton Hotel\", \"Nekajui, a Ritz-Carlton Reserve Residences Hilton Resort\", \"Nekajui, a Ritz-Carlton Reserve Residences Hilton\", \"Nekajui, a Ritz-Carlton Reserve Residences Hilton Liberia, Costa Rica Hotel\", \"Nekajui, a Ritz-Carlton Reserve Residences Hilton Liberia, Costa Rica Resort\", \"Nekajui, a Ritz-Carlton Reserve Residences Hilton Liberia, Costa Rica\", \"Nekajui a Ritz carlton Reserve Residences Ritz-Carlton Reserve Hotel\", \"Nekajui a Ritz carlton Reserve Residences Ritz-Carlton Reserve Resort\", \"Nekajui a Ritz carlton Reserve Residences Ritz-Carlton Reserve\", \"Nekajui a Ritz carlton Reserve Residences Ritz-Carlton Reserve Liberia, Costa Rica Hotel\", \"Nekajui a Ritz carlton Reserve Residences Ritz-Carlton Reserve Liberia, Costa Rica Resort\", \"Nekajui a Ritz carlton Reserve Residences Ritz-Carlton Reserve Liberia, Costa Rica\", \"Nekajui a Ritz carlton Reserve Residences Hilton Hotel\", \"Nekajui a Ritz carlton Reserve Residences Hilton Resort\", \"Nekajui a Ritz carlton Reserve Residences Hilton\", \"Nekajui a Ritz carlton Reserve Residences Hilton Liberia, Costa Rica Hotel\", \"Nekajui a Ritz carlton Reserve Residences Hilton Liberia, Costa Rica Resort\", \"Nekajui a Ritz carlton Reserve Residences Hilton Liberia, Costa Rica\", \"Nekajui, a Ritz-Carlton Reserve Residences Hotel\", \"Nekajui, a Ritz-Carlton Reserve Residences Resort\", \"Nekajui, a Ritz-Carlton Reserve Residences\", \"Nekajui, a Ritz-Carlton Reserve Residences Liberia, Costa Rica Hotel\", \"Nekajui, a Ritz-Carlton Reserve Residences Liberia, Costa Rica Resort\", \"Nekajui, a Ritz-Carlton Reserve Residences Liberia, Costa Rica\"], \"v\": 3}": {
@@ -180776,59 +180784,45 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Grand Hotel Victoria Concept & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Hotel Victoria Concept & Spa Small Luxury Hotels of the World Hotel\", \"Grand Hotel Victoria Concept & Spa Small Luxury Hotels of the World Resort\", \"Grand Hotel Victoria Concept & Spa Small Luxury Hotels of the World\", \"Grand Hotel Victoria Concept & Spa Small Luxury Hotels of the World Menaggio, Italy Hotel\", \"Grand Hotel Victoria Concept & Spa Small Luxury Hotels of the World Menaggio, Italy Resort\", \"Grand Hotel Victoria Concept & Spa Small Luxury Hotels of the World Menaggio, Italy\", \"Grand Hotel Victoria Concept & Spa Hilton Hotel\", \"Grand Hotel Victoria Concept & Spa Hilton Resort\", \"Grand Hotel Victoria Concept & Spa Hilton\", \"Grand Hotel Victoria Concept & Spa Hilton Menaggio, Italy Hotel\", \"Grand Hotel Victoria Concept & Spa Hilton Menaggio, Italy Resort\", \"Grand Hotel Victoria Concept & Spa Hilton Menaggio, Italy\", \"Grand Hotel Victoria Concept Spa Small Luxury Hotels of the World Hotel\", \"Grand Hotel Victoria Concept Spa Small Luxury Hotels of the World Resort\", \"Grand Hotel Victoria Concept Spa Small Luxury Hotels of the World\", \"Grand Hotel Victoria Concept Spa Small Luxury Hotels of the World Menaggio, Italy Hotel\", \"Grand Hotel Victoria Concept Spa Small Luxury Hotels of the World Menaggio, Italy Resort\", \"Grand Hotel Victoria Concept Spa Small Luxury Hotels of the World Menaggio, Italy\", \"Grand Hotel Victoria Concept Spa Hilton Hotel\", \"Grand Hotel Victoria Concept Spa Hilton Resort\", \"Grand Hotel Victoria Concept Spa Hilton\", \"Grand Hotel Victoria Concept Spa Hilton Menaggio, Italy Hotel\", \"Grand Hotel Victoria Concept Spa Hilton Menaggio, Italy Resort\", \"Grand Hotel Victoria Concept Spa Hilton Menaggio, Italy\", \"Grand Hotel Victoria Concept & Spa Hotel\", \"Grand Hotel Victoria Concept & Spa Resort\", \"Grand Hotel Victoria Concept & Spa\", \"Grand Hotel Victoria Concept & Spa Menaggio, Italy Hotel\", \"Grand Hotel Victoria Concept & Spa Menaggio, Italy Resort\", \"Grand Hotel Victoria Concept & Spa Menaggio, Italy\"], \"v\": 3}": {
-    "lat": 48.4205556,
-    "lon": -123.3725,
-    "formatted_address": "463 Belleville St. #3, Victoria, BC V8V 1X3, Canada",
+    "lat": 46.0208982,
+    "lon": 9.2415068,
+    "formatted_address": "Viale Benedetto Castelli, 9/13, 22017 Menaggio CO, Italy",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJHYf-QZd0j1QRsmkZMXJbuJU",
+    "place_id": "ChIJge3gJQw9hEcRUa6Y_KaCTBU",
     "types": [
-      "bar",
-      "cafe",
       "establishment",
-      "food",
-      "gym",
-      "health",
       "lodging",
-      "night_club",
-      "point_of_interest",
-      "restaurant"
+      "point_of_interest"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "463 Belleville St. #3, Victoria, BC V8V 1X3, Canada",
+      "formatted_address": "Viale Benedetto Castelli, 9/13, 22017 Menaggio CO, Italy",
       "geometry": {
         "location": {
-          "lat": 48.4205556,
-          "lng": -123.3725
+          "lat": 46.0208982,
+          "lng": 9.2415068
         },
         "viewport": {
           "northeast": {
-            "lat": 48.4218871302915,
-            "lng": -123.3713355697085
+            "lat": 46.0221287302915,
+            "lng": 9.242960080291503
           },
           "southwest": {
-            "lat": 48.4191891697085,
-            "lng": -123.3740335302915
+            "lat": 46.0194307697085,
+            "lng": 9.240262119708499
           }
         }
       },
-      "name": "Hotel Grand Pacific",
-      "place_id": "ChIJHYf-QZd0j1QRsmkZMXJbuJU",
+      "name": "Grand Hotel Victoria concept & spa, by R Collection Hotels",
+      "place_id": "ChIJge3gJQw9hEcRUa6Y_KaCTBU",
       "types": [
-        "bar",
-        "cafe",
         "establishment",
-        "food",
-        "gym",
-        "health",
         "lodging",
-        "night_club",
-        "point_of_interest",
-        "restaurant"
+        "point_of_interest"
       ],
-      "website": "http://www.hotelgrandpacific.com/"
+      "website": "http://www.grandhotelvictoria.it/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Domes White Coast Milos\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Domes White Coast Milos Small Luxury Hotels of the World Hotel\", \"Domes White Coast Milos Small Luxury Hotels of the World Resort\", \"Domes White Coast Milos Small Luxury Hotels of the World\", \"Domes White Coast Milos Small Luxury Hotels of the World Milos, Greece Hotel\", \"Domes White Coast Milos Small Luxury Hotels of the World Milos, Greece Resort\", \"Domes White Coast Milos Small Luxury Hotels of the World Milos, Greece\", \"Domes White Coast Milos Hilton Hotel\", \"Domes White Coast Milos Hilton Resort\", \"Domes White Coast Milos Hilton\", \"Domes White Coast Milos Hilton Milos, Greece Hotel\", \"Domes White Coast Milos Hilton Milos, Greece Resort\", \"Domes White Coast Milos Hilton Milos, Greece\", \"Domes White Coast Milos Hotel\", \"Domes White Coast Milos Resort\", \"Domes White Coast Milos\", \"Domes White Coast Milos Milos, Greece Hotel\", \"Domes White Coast Milos Milos, Greece Resort\", \"Domes White Coast Milos Milos, Greece\"], \"v\": 3}": {
@@ -183507,12 +183501,12 @@
         },
         "viewport": {
           "northeast": {
-            "lat": 41.0489725802915,
-            "lng": 28.9942502802915
+            "lat": 41.04920088029151,
+            "lng": 28.9938504302915
           },
           "southwest": {
-            "lat": 41.04627461970851,
-            "lng": 28.99155231970851
+            "lat": 41.04650291970851,
+            "lng": 28.9911524697085
           }
         }
       },
@@ -186807,8 +186801,8 @@
     "lat": 20.754219,
     "lon": -89.8614384,
     "formatted_address": "Tablaje 642, San Antonio Chablé, 97816 Chocholá, Yuc., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
     "place_id": "ChIJmxz8vjUYVo8RM54REwRBoZc",
     "types": [
       "establishment",
@@ -186816,35 +186810,102 @@
       "point_of_interest",
       "spa"
     ],
-    "partial_match": false,
+    "partial_match": true,
     "raw": {
-      "business_status": "OPERATIONAL",
+      "address_components": [
+        {
+          "long_name": "642",
+          "short_name": "642",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Tablaje",
+          "short_name": "Tablaje",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "San Antonio Chablé",
+          "short_name": "San Antonio Chablé",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "Chocholá",
+          "short_name": "Chocholá",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Yucatán",
+          "short_name": "Yuc.",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Mexico",
+          "short_name": "MX",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "97816",
+          "short_name": "97816",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
       "formatted_address": "Tablaje 642, San Antonio Chablé, 97816 Chocholá, Yuc., Mexico",
       "geometry": {
         "location": {
           "lat": 20.754219,
           "lng": -89.8614384
         },
+        "location_type": "ROOFTOP",
         "viewport": {
           "northeast": {
-            "lat": 20.7555310302915,
-            "lng": -89.86009891970849
+            "lat": 20.7555535302915,
+            "lng": -89.86016296970848
           },
           "southwest": {
-            "lat": 20.7528330697085,
-            "lng": -89.8627968802915
+            "lat": 20.7528555697085,
+            "lng": -89.8628609302915
           }
         }
       },
-      "name": "Chablé Yucatán",
+      "navigation_points": [
+        {
+          "location": {
+            "latitude": 20.7542352,
+            "longitude": -89.8615698
+          }
+        }
+      ],
+      "partial_match": true,
       "place_id": "ChIJmxz8vjUYVo8RM54REwRBoZc",
+      "plus_code": {
+        "compound_code": "Q43Q+MC Chocholá, Yucatan, Mexico",
+        "global_code": "76GGQ43Q+MC"
+      },
       "types": [
         "establishment",
         "lodging",
         "point_of_interest",
         "spa"
-      ],
-      "website": "https://yucatan.chablehotels.com/"
+      ]
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Aria Retreat & SPA\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aria Retreat & SPA The Leading Hotels of the World Hotel\", \"Aria Retreat & SPA The Leading Hotels of the World Resort\", \"Aria Retreat & SPA The Leading Hotels of the World\", \"Aria Retreat & SPA The Leading Hotels of the World Cima di Porlezza, Italy Hotel\", \"Aria Retreat & SPA The Leading Hotels of the World Cima di Porlezza, Italy Resort\", \"Aria Retreat & SPA The Leading Hotels of the World Cima di Porlezza, Italy\", \"Aria Retreat & SPA Hilton Hotel\", \"Aria Retreat & SPA Hilton Resort\", \"Aria Retreat & SPA Hilton\", \"Aria Retreat & SPA Hilton Cima di Porlezza, Italy Hotel\", \"Aria Retreat & SPA Hilton Cima di Porlezza, Italy Resort\", \"Aria Retreat & SPA Hilton Cima di Porlezza, Italy\", \"Aria Retreat Spa The Leading Hotels of the World Hotel\", \"Aria Retreat Spa The Leading Hotels of the World Resort\", \"Aria Retreat Spa The Leading Hotels of the World\", \"Aria Retreat Spa The Leading Hotels of the World Cima di Porlezza, Italy Hotel\", \"Aria Retreat Spa The Leading Hotels of the World Cima di Porlezza, Italy Resort\", \"Aria Retreat Spa The Leading Hotels of the World Cima di Porlezza, Italy\", \"Aria Retreat Spa Hilton Hotel\", \"Aria Retreat Spa Hilton Resort\", \"Aria Retreat Spa Hilton\", \"Aria Retreat Spa Hilton Cima di Porlezza, Italy Hotel\", \"Aria Retreat Spa Hilton Cima di Porlezza, Italy Resort\", \"Aria Retreat Spa Hilton Cima di Porlezza, Italy\", \"Aria Retreat & SPA Hotel\", \"Aria Retreat & SPA Resort\", \"Aria Retreat & SPA\", \"Aria Retreat & SPA Cima di Porlezza, Italy Hotel\", \"Aria Retreat & SPA Cima di Porlezza, Italy Resort\", \"Aria Retreat & SPA Cima di Porlezza, Italy\"], \"v\": 3}": {
@@ -192099,12 +192160,12 @@
         },
         "viewport": {
           "northeast": {
-            "lat": 50.0885082302915,
-            "lng": 14.4327027302915
+            "lat": 50.0885079802915,
+            "lng": 14.4326734302915
           },
           "southwest": {
-            "lat": 50.0858102697085,
-            "lng": 14.4300047697085
+            "lat": 50.0858100197085,
+            "lng": 14.4299754697085
           }
         }
       },
@@ -194597,47 +194658,51 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Vines Resort & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Vines Resort & Spa The Leading Hotels of the World Hotel\", \"The Vines Resort & Spa The Leading Hotels of the World Resort\", \"The Vines Resort & Spa The Leading Hotels of the World\", \"The Vines Resort & Spa The Leading Hotels of the World Tunuyan, Argentina Hotel\", \"The Vines Resort & Spa The Leading Hotels of the World Tunuyan, Argentina Resort\", \"The Vines Resort & Spa The Leading Hotels of the World Tunuyan, Argentina\", \"The Vines Resort & Spa Hilton Hotel\", \"The Vines Resort & Spa Hilton Resort\", \"The Vines Resort & Spa Hilton\", \"The Vines Resort & Spa Hilton Tunuyan, Argentina Hotel\", \"The Vines Resort & Spa Hilton Tunuyan, Argentina Resort\", \"The Vines Resort & Spa Hilton Tunuyan, Argentina\", \"Vines Resort Spa The Leading Hotels of the World Hotel\", \"Vines Resort Spa The Leading Hotels of the World Resort\", \"Vines Resort Spa The Leading Hotels of the World\", \"Vines Resort Spa The Leading Hotels of the World Tunuyan, Argentina Hotel\", \"Vines Resort Spa The Leading Hotels of the World Tunuyan, Argentina Resort\", \"Vines Resort Spa The Leading Hotels of the World Tunuyan, Argentina\", \"Vines Resort Spa Hilton Hotel\", \"Vines Resort Spa Hilton Resort\", \"Vines Resort Spa Hilton\", \"Vines Resort Spa Hilton Tunuyan, Argentina Hotel\", \"Vines Resort Spa Hilton Tunuyan, Argentina Resort\", \"Vines Resort Spa Hilton Tunuyan, Argentina\", \"The Vines Resort & Spa Hotel\", \"The Vines Resort & Spa Resort\", \"The Vines Resort & Spa\", \"The Vines Resort & Spa Tunuyan, Argentina Hotel\", \"The Vines Resort & Spa Tunuyan, Argentina Resort\", \"The Vines Resort & Spa Tunuyan, Argentina\"], \"v\": 3}": {
-    "lat": -31.7640143,
-    "lon": 116.0070707,
-    "formatted_address": "51 Verdelho Dr, The Vines WA 6069, Australia",
+    "lat": -33.6045577,
+    "lon": -69.2234272,
+    "formatted_address": "RP94 km 11, 5565 Tunuyán, Mendoza, Argentina",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ64Lb96W1MioRgB_xGLbwBA8",
+    "place_id": "ChIJmemcrpdIfJYRlleSbGawx5w",
     "types": [
       "establishment",
+      "food",
       "lodging",
       "point_of_interest",
+      "restaurant",
       "spa"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "51 Verdelho Dr, The Vines WA 6069, Australia",
+      "formatted_address": "RP94 km 11, 5565 Tunuyán, Mendoza, Argentina",
       "geometry": {
         "location": {
-          "lat": -31.7640143,
-          "lng": 116.0070707
+          "lat": -33.6045577,
+          "lng": -69.2234272
         },
         "viewport": {
           "northeast": {
-            "lat": -31.7626813697085,
-            "lng": 116.0084250302915
+            "lat": -33.6031280197085,
+            "lng": -69.2221235197085
           },
           "southwest": {
-            "lat": -31.76537933029149,
-            "lng": 116.0057270697085
+            "lat": -33.6058259802915,
+            "lng": -69.22482148029151
           }
         }
       },
-      "name": "The Vines Resort",
-      "place_id": "ChIJ64Lb96W1MioRgB_xGLbwBA8",
+      "name": "The Vines Resort & Spa",
+      "place_id": "ChIJmemcrpdIfJYRlleSbGawx5w",
       "types": [
         "establishment",
+        "food",
         "lodging",
         "point_of_interest",
+        "restaurant",
         "spa"
       ],
-      "website": "https://www.vines.com.au/"
+      "website": "http://vinesresortandspa.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Arakur Ushuaia Resort & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Arakur Ushuaia Resort & Spa The Leading Hotels of the World Hotel\", \"Arakur Ushuaia Resort & Spa The Leading Hotels of the World Resort\", \"Arakur Ushuaia Resort & Spa The Leading Hotels of the World\", \"Arakur Ushuaia Resort & Spa The Leading Hotels of the World Ushuaia, Argentina Hotel\", \"Arakur Ushuaia Resort & Spa The Leading Hotels of the World Ushuaia, Argentina Resort\", \"Arakur Ushuaia Resort & Spa The Leading Hotels of the World Ushuaia, Argentina\", \"Arakur Ushuaia Resort & Spa Hilton Hotel\", \"Arakur Ushuaia Resort & Spa Hilton Resort\", \"Arakur Ushuaia Resort & Spa Hilton\", \"Arakur Ushuaia Resort & Spa Hilton Ushuaia, Argentina Hotel\", \"Arakur Ushuaia Resort & Spa Hilton Ushuaia, Argentina Resort\", \"Arakur Ushuaia Resort & Spa Hilton Ushuaia, Argentina\", \"Arakur Ushuaia Resort Spa The Leading Hotels of the World Hotel\", \"Arakur Ushuaia Resort Spa The Leading Hotels of the World Resort\", \"Arakur Ushuaia Resort Spa The Leading Hotels of the World\", \"Arakur Ushuaia Resort Spa The Leading Hotels of the World Ushuaia, Argentina Hotel\", \"Arakur Ushuaia Resort Spa The Leading Hotels of the World Ushuaia, Argentina Resort\", \"Arakur Ushuaia Resort Spa The Leading Hotels of the World Ushuaia, Argentina\", \"Arakur Ushuaia Resort Spa Hilton Hotel\", \"Arakur Ushuaia Resort Spa Hilton Resort\", \"Arakur Ushuaia Resort Spa Hilton\", \"Arakur Ushuaia Resort Spa Hilton Ushuaia, Argentina Hotel\", \"Arakur Ushuaia Resort Spa Hilton Ushuaia, Argentina Resort\", \"Arakur Ushuaia Resort Spa Hilton Ushuaia, Argentina\", \"Arakur Ushuaia Resort & Spa Hotel\", \"Arakur Ushuaia Resort & Spa Resort\", \"Arakur Ushuaia Resort & Spa\", \"Arakur Ushuaia Resort & Spa Ushuaia, Argentina Hotel\", \"Arakur Ushuaia Resort & Spa Ushuaia, Argentina Resort\", \"Arakur Ushuaia Resort & Spa Ushuaia, Argentina\"], \"v\": 3}": {
@@ -204932,7 +204997,7 @@
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"W Prague\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W Prague W Hotels Hotel\", \"W Prague W Hotels Resort\", \"W Prague W Hotels\", \"W Prague W Hotels Prague, Czech Republic Hotel\", \"W Prague W Hotels Prague, Czech Republic Resort\", \"W Prague W Hotels Prague, Czech Republic\", \"W Prague Hilton Hotel\", \"W Prague Hilton Resort\", \"W Prague Hilton\", \"W Prague Hilton Prague, Czech Republic Hotel\", \"W Prague Hilton Prague, Czech Republic Resort\", \"W Prague Hilton Prague, Czech Republic\", \"W Prague Hotel\", \"W Prague Resort\", \"W Prague\", \"W Prague Prague, Czech Republic Hotel\", \"W Prague Prague, Czech Republic Resort\", \"W Prague Prague, Czech Republic\"], \"v\": 3}": {
     "lat": 50.0821317,
     "lon": 14.4270135,
-    "formatted_address": "Vaclavske namesti 826/25, Nové Město, 110 00 Praha 1, Czechia",
+    "formatted_address": "Vaclavske namesti 826/25, Václavské nám., 110 00 Praha 1-Nové Město, Czechia",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
     "place_id": "ChIJoVcwMu2UC0cRNfGYwNQpLBY",
@@ -204944,7 +205009,7 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Vaclavske namesti 826/25, Nové Město, 110 00 Praha 1, Czechia",
+      "formatted_address": "Vaclavske namesti 826/25, Václavské nám., 110 00 Praha 1-Nové Město, Czechia",
       "geometry": {
         "location": {
           "lat": 50.0821317,

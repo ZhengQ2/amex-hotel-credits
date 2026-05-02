@@ -277,7 +277,13 @@ def _name_similarity(place_name: str, hotel_name: str) -> float:
     overlap = len(p & h)
     if overlap == 0:
         return 0.0
-    return overlap / max(1, len(h))
+    # F1-style: harmonic mean of precision and recall so that a short hotel
+    # name cannot achieve a perfect score against a much longer candidate name.
+    # e.g. "The Georgian" vs "Georgian Bay Hotel, Trademark Collection by Wyndham"
+    # gives recall=1.0 but precision=0.25, so F1=0.40 — correctly rejected.
+    precision = overlap / len(p)
+    recall = overlap / len(h)
+    return 2 * precision * recall / (precision + recall)
 
 
 def _is_name_compatible(place_name: str, hotel_name: str) -> bool:
@@ -285,13 +291,15 @@ def _is_name_compatible(place_name: str, hotel_name: str) -> bool:
     if score >= 0.6:
         return True
 
-    # Strict token-prefix checks to avoid false positives like
-    # dali vs dalian (substring, but not token-equal).
+    # Fallback: allow near-subsets (e.g. "Park Kyoto" matching "Park Hyatt Kyoto")
+    # but also require a minimum precision so a short hotel name cannot match a
+    # much longer candidate on just one token (the Georgian / Georgian Bay case).
     p = _meaningful_tokens(place_name)
     h = _meaningful_tokens(hotel_name)
     if not p or not h:
         return False
-    return bool(p & h) and len(p & h) >= max(1, min(len(p), len(h)) - 1)
+    overlap = len(p & h)
+    return overlap >= max(1, min(len(p), len(h)) - 1) and overlap / len(p) >= 0.3
 
 
 def _is_lodging_type(types: List[str]) -> bool:
@@ -352,6 +360,30 @@ def acceptable_from_details(details: Dict[str, Any]) -> bool:
         # Allow premises if clearly a property
         return False
     return True
+
+
+def _location_compatible(formatted_address: str, hotel_location: str) -> bool:
+    """Return False only when we are confident the geocoded place is in the wrong region.
+
+    Tokenises both strings after normalising common country abbreviations
+    (US → united states, UK → united kingdom) and checks for any overlap.
+    Returns True when either value is empty so we never reject on missing data.
+    """
+    if not formatted_address or not hotel_location:
+        return True
+
+    def _loc_tokens(s: str) -> set:
+        s = s.lower()
+        s = re.sub(r"\bus\b", "united states", s)
+        s = re.sub(r"\busa\b", "united states", s)
+        s = re.sub(r"\buk\b", "united kingdom", s)
+        return {t for t in re.findall(r"[a-z]+", s) if len(t) > 2}
+
+    loc_tokens = _loc_tokens(hotel_location)
+    addr_tokens = _loc_tokens(formatted_address)
+    if not loc_tokens:
+        return True
+    return bool(loc_tokens & addr_tokens)
 
 
 # -----------------------
@@ -517,22 +549,40 @@ def main():
         }, sort_keys=True)
 
         cached = cache.get(cache_key, None)
+        res = None
+        status = None
+        needs_geocode = cached is None
+
         if cached is not None:
             res = None if cached == {"status": "NO_RESULT"} else cached
-            status = "CACHED" if res else "CACHED:NO_RESULT"
-        else:
+            if res and not _location_compatible(res.get("formatted_address", ""), hotel_location):
+                # Cached result is geographically wrong; discard and re-geocode.
+                res = None
+                needs_geocode = True
+                status = "CACHED:LOCATION_MISMATCH"
+            else:
+                status = "CACHED" if res else "CACHED:NO_RESULT"
+
+        if needs_geocode:
             # Fuzzy fallback: reuse cached geocoding when the hotel name changed
             # slightly (rebrand, punctuation, minor addition) to avoid a paid API call.
-            # Only reuse if the fuzzy match has a real result (not a placeholder None).
+            # Only reuse if the fuzzy match has a real result and passes location check.
             fuzzy_key = find_fuzzy_cache_key(hotel, cache, input_format=input_format)
             if fuzzy_key is not None and cache[fuzzy_key] is not None:
-                cached = cache[fuzzy_key]
-                res = None if cached == {"status": "NO_RESULT"} else cached
-                status = "CACHED:RENAMED" if res else "CACHED:RENAMED:NO_RESULT"
-                # Persist under the new key so future runs hit it exactly.
-                cache[cache_key] = cached
-                save_cache(cache_path_obj, cache)
-            else:
+                candidate = cache[fuzzy_key]
+                candidate = None if candidate == {"status": "NO_RESULT"} else candidate
+                if candidate and _location_compatible(candidate.get("formatted_address", ""), hotel_location):
+                    res = candidate
+                    status = "CACHED:RENAMED"
+                    # Persist under the new key so future runs hit it exactly.
+                    cache[cache_key] = cache[fuzzy_key]
+                    save_cache(cache_path_obj, cache)
+                elif not candidate:
+                    # Fuzzy match was a confirmed NO_RESULT; honour it.
+                    status = "CACHED:RENAMED:NO_RESULT"
+                # else: fuzzy match also has wrong location — fall through to geocode
+
+            if res is None and status != "CACHED:RENAMED:NO_RESULT":
                 res, status = geocode_places_first(queries, brand, hotel, BASE_DELAY)
                 cache[cache_key] = res or {"status": "NO_RESULT"}
                 save_cache(cache_path_obj, cache)
