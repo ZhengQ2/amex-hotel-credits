@@ -11924,48 +11924,6 @@
       "website": "http://www.mclemoreresort.com/"
     }
   },
-  "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Diplomat Beach Resort Hollywood, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection by Hilton\", \"Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton Hotel\", \"Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton Resort\", \"Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton\", \"flldhqq diplomat beach resort hollywood Curio Collection by Hilton Hotel\", \"flldhqq diplomat beach resort hollywood Curio Collection by Hilton Resort\", \"flldhqq diplomat beach resort hollywood Curio Collection by Hilton\", \"flldhqq diplomat beach resort hollywood Hilton Hotel\", \"flldhqq diplomat beach resort hollywood Hilton Resort\", \"flldhqq diplomat beach resort hollywood Hilton\", \"Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hotel\", \"Diplomat Beach Resort Hollywood, Curio Collection by Hilton Resort\", \"Diplomat Beach Resort Hollywood, Curio Collection by Hilton\"], \"v\": 3}": {
-    "lat": 25.9916936,
-    "lon": -80.1179417,
-    "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJdegypsir2YgRhe4rbEB80oU",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
-      "geometry": {
-        "location": {
-          "lat": 25.9916936,
-          "lng": -80.1179417
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.9927793302915,
-            "lng": -80.1168228197085
-          },
-          "southwest": {
-            "lat": 25.9900813697085,
-            "lng": -80.11952078029151
-          }
-        }
-      },
-      "name": "Signia by Hilton Diplomat Beach Resort",
-      "place_id": "ChIJdegypsir2YgRhe4rbEB80oU",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hilton.com/en/hotels/flldhsa-signia-diplomat-beach-resort/?SEO_id=GMB-AMER-SA-FLLDHSA&y_source=1_MjA1OTUxODA5My03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
-    }
-  },
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Domes Aulus Elounda Resort, Curio by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Domes Aulus Elounda Resort, Curio by Hilton Curio Collection by Hilton Hotel\", \"Domes Aulus Elounda Resort, Curio by Hilton Curio Collection by Hilton Resort\", \"Domes Aulus Elounda Resort, Curio by Hilton Curio Collection by Hilton\", \"Domes Aulus Elounda Resort, Curio by Hilton Hilton Hotel\", \"Domes Aulus Elounda Resort, Curio by Hilton Hilton Resort\", \"Domes Aulus Elounda Resort, Curio by Hilton Hilton\", \"herbsqq domes aulus elounda resort Curio Collection by Hilton Hotel\", \"herbsqq domes aulus elounda resort Curio Collection by Hilton Resort\", \"herbsqq domes aulus elounda resort Curio Collection by Hilton\", \"herbsqq domes aulus elounda resort Hilton Hotel\", \"herbsqq domes aulus elounda resort Hilton Resort\", \"herbsqq domes aulus elounda resort Hilton\", \"Domes Aulus Elounda Resort, Curio by Hilton Hotel\", \"Domes Aulus Elounda Resort, Curio by Hilton Resort\", \"Domes Aulus Elounda Resort, Curio by Hilton\"], \"v\": 3}": {
     "lat": 35.277694,
     "lon": 25.7232969,
@@ -12526,7 +12484,50 @@
       "website": "https://www.hilton.com/en/hotels/athibqq-isla-brown-corinthia-resort-and-spa/?SEO_id=GMB-EMEA-QQ-ATHIBQQ"
     }
   },
-  "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Keight Hotel Opatija, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Keight Hotel Opatija, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"Keight Hotel Opatija, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"Keight Hotel Opatija, Curio Collection by Hilton Curio Collection by Hilton\", \"Keight Hotel Opatija, Curio Collection by Hilton Hilton Hotel\", \"Keight Hotel Opatija, Curio Collection by Hilton Hilton Resort\", \"Keight Hotel Opatija, Curio Collection by Hilton Hilton\", \"zagopqq keight hotel opatija Curio Collection by Hilton Hotel\", \"zagopqq keight hotel opatija Curio Collection by Hilton Resort\", \"zagopqq keight hotel opatija Curio Collection by Hilton\", \"zagopqq keight hotel opatija Hilton Hotel\", \"zagopqq keight hotel opatija Hilton Resort\", \"zagopqq keight hotel opatija Hilton\", \"Keight Hotel Opatija, Curio Collection by Hilton Hotel\", \"Keight Hotel Opatija, Curio Collection by Hilton Resort\", \"Keight Hotel Opatija, Curio Collection by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Keight Hotel Opatija, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Keight Hotel Opatija, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"Keight Hotel Opatija, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"Keight Hotel Opatija, Curio Collection by Hilton Curio Collection by Hilton\", \"Keight Hotel Opatija, Curio Collection by Hilton Hilton Hotel\", \"Keight Hotel Opatija, Curio Collection by Hilton Hilton Resort\", \"Keight Hotel Opatija, Curio Collection by Hilton Hilton\", \"zagopqq keight hotel opatija Curio Collection by Hilton Hotel\", \"zagopqq keight hotel opatija Curio Collection by Hilton Resort\", \"zagopqq keight hotel opatija Curio Collection by Hilton\", \"zagopqq keight hotel opatija Hilton Hotel\", \"zagopqq keight hotel opatija Hilton Resort\", \"zagopqq keight hotel opatija Hilton\", \"Keight Hotel Opatija, Curio Collection by Hilton Hotel\", \"Keight Hotel Opatija, Curio Collection by Hilton Resort\", \"Keight Hotel Opatija, Curio Collection by Hilton\"], \"v\": 3}": {
+    "lat": 45.3332713,
+    "lon": 14.3018543,
+    "formatted_address": "Ul. Velog Jože 2, 51410, Opatija, Croatia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJX2JetvWpZEcR7celQHOTTN0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Ul. Velog Jože 2, 51410, Opatija, Croatia",
+      "geometry": {
+        "location": {
+          "lat": 45.3332713,
+          "lng": 14.3018543
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.3345020802915,
+            "lng": 14.3033477802915
+          },
+          "southwest": {
+            "lat": 45.3318041197085,
+            "lng": 14.3006498197085
+          }
+        }
+      },
+      "name": "Keight Hotel Opatija, Curio Collection by Hilton",
+      "place_id": "ChIJX2JetvWpZEcR7celQHOTTN0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/zagopqq-keight-hotel-opatija/?SEO_id=GMB-EMEA-QQ-ZAGOPQQ"
+    }
+  },
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Koi Resort Saint Kitts, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Koi Resort Saint Kitts, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"Koi Resort Saint Kitts, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"Koi Resort Saint Kitts, Curio Collection by Hilton Curio Collection by Hilton\", \"Koi Resort Saint Kitts, Curio Collection by Hilton Hilton Hotel\", \"Koi Resort Saint Kitts, Curio Collection by Hilton Hilton Resort\", \"Koi Resort Saint Kitts, Curio Collection by Hilton Hilton\", \"skbkrqq koi resort saint kitts Curio Collection by Hilton Hotel\", \"skbkrqq koi resort saint kitts Curio Collection by Hilton Resort\", \"skbkrqq koi resort saint kitts Curio Collection by Hilton\", \"skbkrqq koi resort saint kitts Hilton Hotel\", \"skbkrqq koi resort saint kitts Hilton Resort\", \"skbkrqq koi resort saint kitts Hilton\", \"Koi Resort Saint Kitts, Curio Collection by Hilton Hotel\", \"Koi Resort Saint Kitts, Curio Collection by Hilton Resort\", \"Koi Resort Saint Kitts, Curio Collection by Hilton\"], \"v\": 3}": {
     "lat": 17.3085571,
     "lon": -62.6928284,
@@ -12655,7 +12656,50 @@
       "website": "https://www.laquintaresort.com/?utm_source=google&utm_medium=organic&utm_campaign=GMB-AMER-QQ-PSPLQQQ"
     }
   },
-  "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Curio Collection by Hilton\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Hilton Hotel\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Hilton Resort\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Hilton\", \"tlnleqq le hameau des pesquiers ecolodge Curio Collection by Hilton Hotel\", \"tlnleqq le hameau des pesquiers ecolodge Curio Collection by Hilton Resort\", \"tlnleqq le hameau des pesquiers ecolodge Curio Collection by Hilton\", \"tlnleqq le hameau des pesquiers ecolodge Hilton Hotel\", \"tlnleqq le hameau des pesquiers ecolodge Hilton Resort\", \"tlnleqq le hameau des pesquiers ecolodge Hilton\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Hotel\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Resort\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Curio Collection by Hilton\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Hilton Hotel\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Hilton Resort\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Hilton\", \"tlnleqq le hameau des pesquiers ecolodge Curio Collection by Hilton Hotel\", \"tlnleqq le hameau des pesquiers ecolodge Curio Collection by Hilton Resort\", \"tlnleqq le hameau des pesquiers ecolodge Curio Collection by Hilton\", \"tlnleqq le hameau des pesquiers ecolodge Hilton Hotel\", \"tlnleqq le hameau des pesquiers ecolodge Hilton Resort\", \"tlnleqq le hameau des pesquiers ecolodge Hilton\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Hotel\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton Resort\", \"Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton\"], \"v\": 3}": {
+    "lat": 43.067377,
+    "lon": 6.1474243,
+    "formatted_address": "Hameau des Pesq, 1729 Rte de Giens, 83400 Hyères, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ5-aV_DUhyRIRi1btWEhkduU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Hameau des Pesq, 1729 Rte de Giens, 83400 Hyères, France",
+      "geometry": {
+        "location": {
+          "lat": 43.067377,
+          "lng": 6.1474243
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.06867468029149,
+            "lng": 6.148803880291502
+          },
+          "southwest": {
+            "lat": 43.0659767197085,
+            "lng": 6.146105919708498
+          }
+        }
+      },
+      "name": "Le Hameau des Pesquiers Ecolodge & Spa, Curio Collection by Hilton",
+      "place_id": "ChIJ5-aV_DUhyRIRi1btWEhkduU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/tlnleqq-le-hameau-des-pesquiers-ecolodge/?SEO_id=GMB-EMEA-QQ-TLNLEQQ"
+    }
+  },
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Mangias Santa Teresa Sardinia, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Mangias Santa Teresa Sardinia, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"Mangias Santa Teresa Sardinia, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"Mangias Santa Teresa Sardinia, Curio Collection by Hilton Curio Collection by Hilton\", \"Mangias Santa Teresa Sardinia, Curio Collection by Hilton Hilton Hotel\", \"Mangias Santa Teresa Sardinia, Curio Collection by Hilton Hilton Resort\", \"Mangias Santa Teresa Sardinia, Curio Collection by Hilton Hilton\", \"olbccqq mangias santa teresa sardinia Curio Collection by Hilton Hotel\", \"olbccqq mangias santa teresa sardinia Curio Collection by Hilton Resort\", \"olbccqq mangias santa teresa sardinia Curio Collection by Hilton\", \"olbccqq mangias santa teresa sardinia Hilton Hotel\", \"olbccqq mangias santa teresa sardinia Hilton Resort\", \"olbccqq mangias santa teresa sardinia Hilton\", \"Mangias Santa Teresa Sardinia, Curio Collection by Hilton Hotel\", \"Mangias Santa Teresa Sardinia, Curio Collection by Hilton Resort\", \"Mangias Santa Teresa Sardinia, Curio Collection by Hilton\"], \"v\": 3}": {
     "lat": 41.2464483,
     "lon": 9.232961699999999,
@@ -13540,7 +13584,50 @@
       "website": "https://www.hilton.com/en/hotels/sbazdqq-zachari-dunes-on-mandalay-beach/?SEO_id=GMB-AMER-QQ-SBAZDQQ&y_source=1_MTExMDAyNC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
-  "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection by Hilton Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection by Hilton Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection by Hilton\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton\", \"pujmiqq zemi miches all inclusive resort Curio Collection by Hilton Hotel\", \"pujmiqq zemi miches all inclusive resort Curio Collection by Hilton Resort\", \"pujmiqq zemi miches all inclusive resort Curio Collection by Hilton\", \"pujmiqq zemi miches all inclusive resort Hilton Hotel\", \"pujmiqq zemi miches all inclusive resort Hilton Resort\", \"pujmiqq zemi miches all inclusive resort Hilton\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection by Hilton Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection by Hilton Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection by Hilton\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton\", \"pujmiqq zemi miches all inclusive resort Curio Collection by Hilton Hotel\", \"pujmiqq zemi miches all inclusive resort Curio Collection by Hilton Resort\", \"pujmiqq zemi miches all inclusive resort Curio Collection by Hilton\", \"pujmiqq zemi miches all inclusive resort Hilton Hotel\", \"pujmiqq zemi miches all inclusive resort Hilton Resort\", \"pujmiqq zemi miches all inclusive resort Hilton\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton\"], \"v\": 3}": {
+    "lat": 18.9830931,
+    "lon": -69.03408879999999,
+    "formatted_address": "Carr. Miches - Higüey km. 2, Miches 24000, Dominican Republic",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ9wLTzcovr44RtqkkstsljLs",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carr. Miches - Higüey km. 2, Miches 24000, Dominican Republic",
+      "geometry": {
+        "location": {
+          "lat": 18.9830931,
+          "lng": -69.03408879999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 18.9844408302915,
+            "lng": -69.03278726970849
+          },
+          "southwest": {
+            "lat": 18.9817428697085,
+            "lng": -69.0354852302915
+          }
+        }
+      },
+      "name": "Temptation Miches Resort",
+      "place_id": "ChIJ9wLTzcovr44RtqkkstsljLs",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.temptationpuntacana.com/"
+    }
+  },
   "{\"brand\": \"DoubleTree by Hilton\", \"hotel_name\": \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton DoubleTree by Hilton Hotel\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton DoubleTree by Hilton Resort\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton DoubleTree by Hilton\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Hilton Hotel\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Hilton Resort\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Hilton\", \"fllbmdt bahia mar fort lauderdale beach DoubleTree by Hilton Hotel\", \"fllbmdt bahia mar fort lauderdale beach DoubleTree by Hilton Resort\", \"fllbmdt bahia mar fort lauderdale beach DoubleTree by Hilton\", \"fllbmdt bahia mar fort lauderdale beach Hilton Hotel\", \"fllbmdt bahia mar fort lauderdale beach Hilton Resort\", \"fllbmdt bahia mar fort lauderdale beach Hilton\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Hotel\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Resort\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton\"], \"v\": 3}": {
     "lat": 26.113539,
     "lon": -80.10620399999999,
@@ -15243,7 +15330,48 @@
       "website": "https://www.hilton.com/en/hotels/ustboes-embassy-suites-st-augustine-beach-oceanfront-resort/?SEO_id=GMB-AMER-ES-USTBOES&y_source=1_MTE1MTY4NTctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
-  "{\"brand\": \"Embassy Suites by Hilton\", \"hotel_name\": \"Embassy Suites by Hilton Aruba Resort\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Embassy Suites by Hilton Aruba Resort Embassy Suites by Hilton Hotel\", \"Embassy Suites by Hilton Aruba Resort Embassy Suites by Hilton Resort\", \"Embassy Suites by Hilton Aruba Resort Embassy Suites by Hilton\", \"Embassy Suites by Hilton Aruba Resort Hilton Hotel\", \"Embassy Suites by Hilton Aruba Resort Hilton Resort\", \"Embassy Suites by Hilton Aruba Resort Hilton\", \"auajmes embassy suites aruba resort Embassy Suites by Hilton Hotel\", \"auajmes embassy suites aruba resort Embassy Suites by Hilton Resort\", \"auajmes embassy suites aruba resort Embassy Suites by Hilton\", \"auajmes embassy suites aruba resort Hilton Hotel\", \"auajmes embassy suites aruba resort Hilton Resort\", \"auajmes embassy suites aruba resort Hilton\", \"Embassy Suites by Hilton Aruba Resort Hotel\", \"Embassy Suites by Hilton Aruba Resort Resort\", \"Embassy Suites by Hilton Aruba Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"Embassy Suites by Hilton\", \"hotel_name\": \"Embassy Suites by Hilton Aruba Resort\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Embassy Suites by Hilton Aruba Resort Embassy Suites by Hilton Hotel\", \"Embassy Suites by Hilton Aruba Resort Embassy Suites by Hilton Resort\", \"Embassy Suites by Hilton Aruba Resort Embassy Suites by Hilton\", \"Embassy Suites by Hilton Aruba Resort Hilton Hotel\", \"Embassy Suites by Hilton Aruba Resort Hilton Resort\", \"Embassy Suites by Hilton Aruba Resort Hilton\", \"auajmes embassy suites aruba resort Embassy Suites by Hilton Hotel\", \"auajmes embassy suites aruba resort Embassy Suites by Hilton Resort\", \"auajmes embassy suites aruba resort Embassy Suites by Hilton\", \"auajmes embassy suites aruba resort Hilton Hotel\", \"auajmes embassy suites aruba resort Hilton Resort\", \"auajmes embassy suites aruba resort Hilton\", \"Embassy Suites by Hilton Aruba Resort Hotel\", \"Embassy Suites by Hilton Aruba Resort Resort\", \"Embassy Suites by Hilton Aruba Resort\"], \"v\": 3}": {
+    "lat": 12.5618169,
+    "lon": -70.0527259,
+    "formatted_address": "J.E. Irausquin Blvd 268, Noord, Aruba",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJI5_v78NHhY4RFuEetTSOfEI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "J.E. Irausquin Blvd 268, Noord, Aruba",
+      "geometry": {
+        "location": {
+          "lat": 12.5618169,
+          "lng": -70.0527259
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 12.5631038302915,
+            "lng": -70.05169601970849
+          },
+          "southwest": {
+            "lat": 12.5604058697085,
+            "lng": -70.05439398029151
+          }
+        }
+      },
+      "name": "Embassy Suites by Hilton Aruba Resort",
+      "place_id": "ChIJI5_v78NHhY4RFuEetTSOfEI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/auajmes-embassy-suites-aruba-resort/?SEO_id=GMB-AMER-ES-AUAJMES&y_source=1_NzU2NzQ3NjQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
   "{\"brand\": \"Embassy Suites by Hilton\", \"hotel_name\": \"Embassy Suites by Hilton Charlotte-Concord-Golf Resort & Spa\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Embassy Suites by Hilton Charlotte-Concord-Golf Resort & Spa Embassy Suites by Hilton Hotel\", \"Embassy Suites by Hilton Charlotte-Concord-Golf Resort & Spa Embassy Suites by Hilton Resort\", \"Embassy Suites by Hilton Charlotte-Concord-Golf Resort & Spa Embassy Suites by Hilton\", \"Embassy Suites by Hilton Charlotte-Concord-Golf Resort & Spa Hilton Hotel\", \"Embassy Suites by Hilton Charlotte-Concord-Golf Resort & Spa Hilton Resort\", \"Embassy Suites by Hilton Charlotte-Concord-Golf Resort & Spa Hilton\", \"cltcces embassy suites charlotte concord golf resort spa Embassy Suites by Hilton Hotel\", \"cltcces embassy suites charlotte concord golf resort spa Embassy Suites by Hilton Resort\", \"cltcces embassy suites charlotte concord golf resort spa Embassy Suites by Hilton\", \"cltcces embassy suites charlotte concord golf resort spa Hilton Hotel\", \"cltcces embassy suites charlotte concord golf resort spa Hilton Resort\", \"cltcces embassy suites charlotte concord golf resort spa Hilton\", \"Embassy Suites by Hilton Charlotte-Concord-Golf Resort & Spa Hotel\", \"Embassy Suites by Hilton Charlotte-Concord-Golf Resort & Spa Resort\", \"Embassy Suites by Hilton Charlotte-Concord-Golf Resort & Spa\"], \"v\": 3}": {
     "lat": 35.3652602,
     "lon": -80.7015377,
@@ -15918,7 +16046,48 @@
       "website": "https://www.hilton.com/en/hotels/myraogv-hilton-grand-vacations-club-anderson-ocean-myrtle-beach/?SEO_id=GMB-AMER-HH-MYRAOGV&y_source=1_MTk1MTkxNTQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
-  "{\"brand\": \"Hilton Grand Vacation Club\", \"hotel_name\": \"Hilton Grand Vacations Club Blue Mountain Canada\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Grand Vacations Club Blue Mountain Canada Hilton Grand Vacation Club Hotel\", \"Hilton Grand Vacations Club Blue Mountain Canada Hilton Grand Vacation Club Resort\", \"Hilton Grand Vacations Club Blue Mountain Canada Hilton Grand Vacation Club\", \"Hilton Grand Vacations Club Blue Mountain Canada Hilton Hotel\", \"Hilton Grand Vacations Club Blue Mountain Canada Hilton Resort\", \"Hilton Grand Vacations Club Blue Mountain Canada Hilton\", \"yyzblgv Hilton grand vacations club blue mountain canada Hilton Grand Vacation Club Hotel\", \"yyzblgv Hilton grand vacations club blue mountain canada Hilton Grand Vacation Club Resort\", \"yyzblgv Hilton grand vacations club blue mountain canada Hilton Grand Vacation Club\", \"yyzblgv Hilton grand vacations club blue mountain canada Hilton Hotel\", \"yyzblgv Hilton grand vacations club blue mountain canada Hilton Resort\", \"yyzblgv Hilton grand vacations club blue mountain canada Hilton\", \"Hilton Grand Vacations Club Blue Mountain Canada Hotel\", \"Hilton Grand Vacations Club Blue Mountain Canada Resort\", \"Hilton Grand Vacations Club Blue Mountain Canada\"], \"v\": 3}": null,
+  "{\"brand\": \"Hilton Grand Vacation Club\", \"hotel_name\": \"Hilton Grand Vacations Club Blue Mountain Canada\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Grand Vacations Club Blue Mountain Canada Hilton Grand Vacation Club Hotel\", \"Hilton Grand Vacations Club Blue Mountain Canada Hilton Grand Vacation Club Resort\", \"Hilton Grand Vacations Club Blue Mountain Canada Hilton Grand Vacation Club\", \"Hilton Grand Vacations Club Blue Mountain Canada Hilton Hotel\", \"Hilton Grand Vacations Club Blue Mountain Canada Hilton Resort\", \"Hilton Grand Vacations Club Blue Mountain Canada Hilton\", \"yyzblgv Hilton grand vacations club blue mountain canada Hilton Grand Vacation Club Hotel\", \"yyzblgv Hilton grand vacations club blue mountain canada Hilton Grand Vacation Club Resort\", \"yyzblgv Hilton grand vacations club blue mountain canada Hilton Grand Vacation Club\", \"yyzblgv Hilton grand vacations club blue mountain canada Hilton Hotel\", \"yyzblgv Hilton grand vacations club blue mountain canada Hilton Resort\", \"yyzblgv Hilton grand vacations club blue mountain canada Hilton\", \"Hilton Grand Vacations Club Blue Mountain Canada Hotel\", \"Hilton Grand Vacations Club Blue Mountain Canada Resort\", \"Hilton Grand Vacations Club Blue Mountain Canada\"], \"v\": 3}": {
+    "lat": 44.5029333,
+    "lon": -80.3060916,
+    "formatted_address": "277 Jozo Weider Blvd, The Blue Mountains, ON L9Y 0V2, Canada",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJkcFS3M9wKogR5qIhdSSB9q8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "277 Jozo Weider Blvd, The Blue Mountains, ON L9Y 0V2, Canada",
+      "geometry": {
+        "location": {
+          "lat": 44.5029333,
+          "lng": -80.3060916
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 44.5042571302915,
+            "lng": -80.3047719697085
+          },
+          "southwest": {
+            "lat": 44.5015591697085,
+            "lng": -80.3074699302915
+          }
+        }
+      },
+      "name": "Hilton Grand Vacations Club Blue Mountain Canada",
+      "place_id": "ChIJkcFS3M9wKogR5qIhdSSB9q8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/yyzblgv-hilton-grand-vacations-club-blue-mountain-canada/?SEO_id=GMB-AMER-HH-YYZBLGV&y_source=1_NTUyOTExMDUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
   "{\"brand\": \"Hilton Grand Vacation Club\", \"hotel_name\": \"Hilton Grand Vacations Club Elara Center Strip Las Vegas\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Grand Vacations Club Elara Center Strip Las Vegas Hilton Grand Vacation Club Hotel\", \"Hilton Grand Vacations Club Elara Center Strip Las Vegas Hilton Grand Vacation Club Resort\", \"Hilton Grand Vacations Club Elara Center Strip Las Vegas Hilton Grand Vacation Club\", \"Hilton Grand Vacations Club Elara Center Strip Las Vegas Hilton Hotel\", \"Hilton Grand Vacations Club Elara Center Strip Las Vegas Hilton Resort\", \"Hilton Grand Vacations Club Elara Center Strip Las Vegas Hilton\", \"lascsgv Hilton grand vacations club elara center strip las vegas Hilton Grand Vacation Club Hotel\", \"lascsgv Hilton grand vacations club elara center strip las vegas Hilton Grand Vacation Club Resort\", \"lascsgv Hilton grand vacations club elara center strip las vegas Hilton Grand Vacation Club\", \"lascsgv Hilton grand vacations club elara center strip las vegas Hilton Hotel\", \"lascsgv Hilton grand vacations club elara center strip las vegas Hilton Resort\", \"lascsgv Hilton grand vacations club elara center strip las vegas Hilton\", \"Hilton Grand Vacations Club Elara Center Strip Las Vegas Hotel\", \"Hilton Grand Vacations Club Elara Center Strip Las Vegas Resort\", \"Hilton Grand Vacations Club Elara Center Strip Las Vegas\"], \"v\": 3}": {
     "lat": 36.1088102,
     "lon": -115.1683213,
@@ -18653,7 +18822,50 @@
       "website": "https://www.hilton.com/en/hotels/miabmhf-hilton-bentley-miami-south-beach/?SEO_id=GMB-AMER-HH-MIABMHF&y_source=1_MTIyMDc2OC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
-  "{\"brand\": \"Hilton Hotels & Resorts\", \"hotel_name\": \"Hilton Burau Bay Langkawi Resort\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Burau Bay Langkawi Resort Hilton Hotels & Resorts Hotel\", \"Hilton Burau Bay Langkawi Resort Hilton Hotels & Resorts Resort\", \"Hilton Burau Bay Langkawi Resort Hilton Hotels & Resorts\", \"Hilton Burau Bay Langkawi Resort Hilton Hotel\", \"Hilton Burau Bay Langkawi Resort Hilton Resort\", \"Hilton Burau Bay Langkawi Resort Hilton\", \"lgkbbhi Hilton burau bay langkawi resort Hilton Hotels & Resorts Hotel\", \"lgkbbhi Hilton burau bay langkawi resort Hilton Hotels & Resorts Resort\", \"lgkbbhi Hilton burau bay langkawi resort Hilton Hotels & Resorts\", \"lgkbbhi Hilton burau bay langkawi resort Hilton Hotel\", \"lgkbbhi Hilton burau bay langkawi resort Hilton Resort\", \"lgkbbhi Hilton burau bay langkawi resort Hilton\", \"Hilton Burau Bay Langkawi Resort Hotel\", \"Hilton Burau Bay Langkawi Resort Resort\", \"Hilton Burau Bay Langkawi Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"Hilton Hotels & Resorts\", \"hotel_name\": \"Hilton Burau Bay Langkawi Resort\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Burau Bay Langkawi Resort Hilton Hotels & Resorts Hotel\", \"Hilton Burau Bay Langkawi Resort Hilton Hotels & Resorts Resort\", \"Hilton Burau Bay Langkawi Resort Hilton Hotels & Resorts\", \"Hilton Burau Bay Langkawi Resort Hilton Hotel\", \"Hilton Burau Bay Langkawi Resort Hilton Resort\", \"Hilton Burau Bay Langkawi Resort Hilton\", \"lgkbbhi Hilton burau bay langkawi resort Hilton Hotels & Resorts Hotel\", \"lgkbbhi Hilton burau bay langkawi resort Hilton Hotels & Resorts Resort\", \"lgkbbhi Hilton burau bay langkawi resort Hilton Hotels & Resorts\", \"lgkbbhi Hilton burau bay langkawi resort Hilton Hotel\", \"lgkbbhi Hilton burau bay langkawi resort Hilton Resort\", \"lgkbbhi Hilton burau bay langkawi resort Hilton\", \"Hilton Burau Bay Langkawi Resort Hotel\", \"Hilton Burau Bay Langkawi Resort Resort\", \"Hilton Burau Bay Langkawi Resort\"], \"v\": 3}": {
+    "lat": 6.3657219,
+    "lon": 99.67126189999999,
+    "formatted_address": "Jalan Telok Burau, Padang Matsirat, 07000 Langkawi, Kedah, Malaysia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJBakUxwB5TDARVesO9fNIi1Q",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Jalan Telok Burau, Padang Matsirat, 07000 Langkawi, Kedah, Malaysia",
+      "geometry": {
+        "location": {
+          "lat": 6.3657219,
+          "lng": 99.67126189999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 6.366901230291503,
+            "lng": 99.6724948802915
+          },
+          "southwest": {
+            "lat": 6.364203269708498,
+            "lng": 99.66979691970849
+          }
+        }
+      },
+      "name": "Hilton Burau Bay Langkawi Resort",
+      "place_id": "ChIJBakUxwB5TDARVesO9fNIi1Q",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/lgkbbhi-hilton-burau-bay-langkawi-resort/?SEO_id=GMB-APAC-HI-LGKBBHI"
+    }
+  },
   "{\"brand\": \"Hilton Hotels & Resorts\", \"hotel_name\": \"Hilton Cabana Miami Beach Resort\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Cabana Miami Beach Resort Hilton Hotels & Resorts Hotel\", \"Hilton Cabana Miami Beach Resort Hilton Hotels & Resorts Resort\", \"Hilton Cabana Miami Beach Resort Hilton Hotels & Resorts\", \"Hilton Cabana Miami Beach Resort Hilton Hotel\", \"Hilton Cabana Miami Beach Resort Hilton Resort\", \"Hilton Cabana Miami Beach Resort Hilton\", \"miambhf Hilton cabana miami beach resort Hilton Hotels & Resorts Hotel\", \"miambhf Hilton cabana miami beach resort Hilton Hotels & Resorts Resort\", \"miambhf Hilton cabana miami beach resort Hilton Hotels & Resorts\", \"miambhf Hilton cabana miami beach resort Hilton Hotel\", \"miambhf Hilton cabana miami beach resort Hilton Resort\", \"miambhf Hilton cabana miami beach resort Hilton\", \"Hilton Cabana Miami Beach Resort Hotel\", \"Hilton Cabana Miami Beach Resort Resort\", \"Hilton Cabana Miami Beach Resort\"], \"v\": 3}": {
     "lat": 25.8441522,
     "lon": -80.1205992,
@@ -21306,7 +21518,50 @@
       "website": "https://www.hilton.com/en/hotels/caipghi-hilton-pyramids-golf/?SEO_id=GMB-EMEA-HI-CAIPGHI"
     }
   },
-  "{\"brand\": \"Hilton Hotels & Resorts\", \"hotel_name\": \"Hilton Quang Hanh Onsen Resort\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Quang Hanh Onsen Resort Hilton Hotels & Resorts Hotel\", \"Hilton Quang Hanh Onsen Resort Hilton Hotels & Resorts Resort\", \"Hilton Quang Hanh Onsen Resort Hilton Hotels & Resorts\", \"Hilton Quang Hanh Onsen Resort Hilton Hotel\", \"Hilton Quang Hanh Onsen Resort Hilton Resort\", \"Hilton Quang Hanh Onsen Resort Hilton\", \"vdohohi Hilton quang hanh onsen resort Hilton Hotels & Resorts Hotel\", \"vdohohi Hilton quang hanh onsen resort Hilton Hotels & Resorts Resort\", \"vdohohi Hilton quang hanh onsen resort Hilton Hotels & Resorts\", \"vdohohi Hilton quang hanh onsen resort Hilton Hotel\", \"vdohohi Hilton quang hanh onsen resort Hilton Resort\", \"vdohohi Hilton quang hanh onsen resort Hilton\", \"Hilton Quang Hanh Onsen Resort Hotel\", \"Hilton Quang Hanh Onsen Resort Resort\", \"Hilton Quang Hanh Onsen Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"Hilton Hotels & Resorts\", \"hotel_name\": \"Hilton Quang Hanh Onsen Resort\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Quang Hanh Onsen Resort Hilton Hotels & Resorts Hotel\", \"Hilton Quang Hanh Onsen Resort Hilton Hotels & Resorts Resort\", \"Hilton Quang Hanh Onsen Resort Hilton Hotels & Resorts\", \"Hilton Quang Hanh Onsen Resort Hilton Hotel\", \"Hilton Quang Hanh Onsen Resort Hilton Resort\", \"Hilton Quang Hanh Onsen Resort Hilton\", \"vdohohi Hilton quang hanh onsen resort Hilton Hotels & Resorts Hotel\", \"vdohohi Hilton quang hanh onsen resort Hilton Hotels & Resorts Resort\", \"vdohohi Hilton quang hanh onsen resort Hilton Hotels & Resorts\", \"vdohohi Hilton quang hanh onsen resort Hilton Hotel\", \"vdohohi Hilton quang hanh onsen resort Hilton Resort\", \"vdohohi Hilton quang hanh onsen resort Hilton\", \"Hilton Quang Hanh Onsen Resort Hotel\", \"Hilton Quang Hanh Onsen Resort Resort\", \"Hilton Quang Hanh Onsen Resort\"], \"v\": 3}": {
+    "lat": 20.9830201,
+    "lon": 107.2081302,
+    "formatted_address": "Block 5, Area 9B, Quang Hanh, Quảng Ninh 20000, Vietnam",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJZwiPJgD_SjERopEdg3fa31Y",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Block 5, Area 9B, Quang Hanh, Quảng Ninh 20000, Vietnam",
+      "geometry": {
+        "location": {
+          "lat": 20.9830201,
+          "lng": 107.2081302
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 20.9844488302915,
+            "lng": 107.2094938802915
+          },
+          "southwest": {
+            "lat": 20.9817508697085,
+            "lng": 107.2067959197085
+          }
+        }
+      },
+      "name": "Hilton Quang Hanh Onsen Resort",
+      "place_id": "ChIJZwiPJgD_SjERopEdg3fa31Y",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/vdohohi-hilton-quang-hanh-onsen-resort/?SEO_id=GMB-APAC-HI-VDOHOHI"
+    }
+  },
   "{\"brand\": \"Hilton Hotels & Resorts\", \"hotel_name\": \"Hilton Queenstown Resort & Spa\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Queenstown Resort & Spa Hilton Hotels & Resorts Hotel\", \"Hilton Queenstown Resort & Spa Hilton Hotels & Resorts Resort\", \"Hilton Queenstown Resort & Spa Hilton Hotels & Resorts\", \"Hilton Queenstown Resort & Spa Hilton Hotel\", \"Hilton Queenstown Resort & Spa Hilton Resort\", \"Hilton Queenstown Resort & Spa Hilton\", \"zqnhqhi Hilton queenstown resort spa Hilton Hotels & Resorts Hotel\", \"zqnhqhi Hilton queenstown resort spa Hilton Hotels & Resorts Resort\", \"zqnhqhi Hilton queenstown resort spa Hilton Hotels & Resorts\", \"zqnhqhi Hilton queenstown resort spa Hilton Hotel\", \"zqnhqhi Hilton queenstown resort spa Hilton Resort\", \"zqnhqhi Hilton queenstown resort spa Hilton\", \"Hilton Queenstown Resort & Spa Hotel\", \"Hilton Queenstown Resort & Spa Resort\", \"Hilton Queenstown Resort & Spa\"], \"v\": 3}": {
     "lat": -45.02876819999999,
     "lon": 168.7283052,
@@ -23463,7 +23718,48 @@
       "website": "https://www.hilton.com/en/hotels/dohkbup-fuwairit-kite-beach/?SEO_id=GMB-EMEA-UP-DOHKBUP"
     }
   },
-  "{\"brand\": \"Tapestry Collection by Hilton\", \"hotel_name\": \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Tapestry Collection by Hilton Hotel\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Tapestry Collection by Hilton Resort\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Tapestry Collection by Hilton\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Hilton Hotel\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Hilton Resort\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Hilton\", \"myrobup ellie beach resort myrtle beach Tapestry Collection by Hilton Hotel\", \"myrobup ellie beach resort myrtle beach Tapestry Collection by Hilton Resort\", \"myrobup ellie beach resort myrtle beach Tapestry Collection by Hilton\", \"myrobup ellie beach resort myrtle beach Hilton Hotel\", \"myrobup ellie beach resort myrtle beach Hilton Resort\", \"myrobup ellie beach resort myrtle beach Hilton\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Hotel\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Resort\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"Tapestry Collection by Hilton\", \"hotel_name\": \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Tapestry Collection by Hilton Hotel\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Tapestry Collection by Hilton Resort\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Tapestry Collection by Hilton\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Hilton Hotel\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Hilton Resort\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Hilton\", \"myrobup ellie beach resort myrtle beach Tapestry Collection by Hilton Hotel\", \"myrobup ellie beach resort myrtle beach Tapestry Collection by Hilton Resort\", \"myrobup ellie beach resort myrtle beach Tapestry Collection by Hilton\", \"myrobup ellie beach resort myrtle beach Hilton Hotel\", \"myrobup ellie beach resort myrtle beach Hilton Resort\", \"myrobup ellie beach resort myrtle beach Hilton\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Hotel\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton Resort\", \"The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton\"], \"v\": 3}": {
+    "lat": 33.6575193,
+    "lon": -78.9194916,
+    "formatted_address": "3200 S Ocean Blvd, Myrtle Beach, SC 29577, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJU6Mqv_xpAIkR4dzSezcoRYI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "3200 S Ocean Blvd, Myrtle Beach, SC 29577, USA",
+      "geometry": {
+        "location": {
+          "lat": 33.6575193,
+          "lng": -78.9194916
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.6585964302915,
+            "lng": -78.9182847197085
+          },
+          "southwest": {
+            "lat": 33.6558984697085,
+            "lng": -78.9209826802915
+          }
+        }
+      },
+      "name": "The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton",
+      "place_id": "ChIJU6Mqv_xpAIkR4dzSezcoRYI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/myrobup-the-ellie-beach-resort-myrtle-beach/?SEO_id=GMB-AMER-UP-MYROBUP&y_source=1_MTAzNTYwMDc0Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    }
+  },
   "{\"brand\": \"Waldorf Astoria Hotels & Resorts\", \"hotel_name\": \"Grand Wailea, A Waldorf Astoria Resort\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Wailea, A Waldorf Astoria Resort Waldorf Astoria Hotels & Resorts Hotel\", \"Grand Wailea, A Waldorf Astoria Resort Waldorf Astoria Hotels & Resorts Resort\", \"Grand Wailea, A Waldorf Astoria Resort Waldorf Astoria Hotels & Resorts\", \"Grand Wailea, A Waldorf Astoria Resort Hilton Hotel\", \"Grand Wailea, A Waldorf Astoria Resort Hilton Resort\", \"Grand Wailea, A Waldorf Astoria Resort Hilton\", \"Grand Wailea, A Waldorf Astoria Resort Hotel\", \"Grand Wailea, A Waldorf Astoria Resort Resort\", \"Grand Wailea, A Waldorf Astoria Resort\"], \"v\": 3}": {
     "lat": 20.6843088,
     "lon": -156.4410036,
@@ -24106,6 +24402,49 @@
         "spa"
       ],
       "website": "https://www.hilton.com/en/hotels/cdgtpwa-waldorf-astoria-versailles-trianon-palace/?SEO_id=GMB-EMEA-WA-CDGTPWA"
+    }
+  },
+  "{\"brand\": \"Signia by Hilton\", \"hotel_name\": \"Signia by Hilton Diplomat Beach Resort\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Signia by Hilton Diplomat Beach Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"Signia by Hilton\", \"hotel_name\": \"Signia by Hilton Diplomat Beach Resort\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Signia by Hilton Diplomat Beach Resort Signia by Hilton Hotel\", \"Signia by Hilton Diplomat Beach Resort Signia by Hilton Resort\", \"Signia by Hilton Diplomat Beach Resort Signia by Hilton\", \"Signia by Hilton Diplomat Beach Resort Hilton Hotel\", \"Signia by Hilton Diplomat Beach Resort Hilton Resort\", \"Signia by Hilton Diplomat Beach Resort Hilton\", \"flldhsa signia diplomat beach resort Signia by Hilton Hotel\", \"flldhsa signia diplomat beach resort Signia by Hilton Resort\", \"flldhsa signia diplomat beach resort Signia by Hilton\", \"flldhsa signia diplomat beach resort Hilton Hotel\", \"flldhsa signia diplomat beach resort Hilton Resort\", \"flldhsa signia diplomat beach resort Hilton\", \"Signia by Hilton Diplomat Beach Resort Hotel\", \"Signia by Hilton Diplomat Beach Resort Resort\", \"Signia by Hilton Diplomat Beach Resort\"], \"v\": 3}": {
+    "lat": 25.9916936,
+    "lon": -80.1179417,
+    "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJdegypsir2YgRhe4rbEB80oU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
+      "geometry": {
+        "location": {
+          "lat": 25.9916936,
+          "lng": -80.1179417
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.9927793302915,
+            "lng": -80.1168228197085
+          },
+          "southwest": {
+            "lat": 25.9900813697085,
+            "lng": -80.11952078029151
+          }
+        }
+      },
+      "name": "Signia by Hilton Diplomat Beach Resort",
+      "place_id": "ChIJdegypsir2YgRhe4rbEB80oU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/flldhsa-signia-diplomat-beach-resort/?SEO_id=GMB-AMER-SA-FLLDHSA&y_source=1_MjA1OTUxODA5My03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   }
 }
