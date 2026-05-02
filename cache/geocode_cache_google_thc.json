@@ -99397,45 +99397,111 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Hana\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Hana Hotel\", \"Hotel Hana Resort\", \"Hotel Hana\", \"Hotel Hana Paris, France Hotel\", \"Hotel Hana Paris, France Resort\", \"Hotel Hana Paris, France\"], \"v\": 3}": {
-    "lat": 20.754252,
-    "lon": -155.9872211,
-    "formatted_address": "5031 Hana Hwy, Hana, HI 96713, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJkxf97yWsVHkRBtkNiW3kUfQ",
+    "lat": 48.869473,
+    "lon": 2.336544,
+    "formatted_address": "17 Rue du 4 septembre, 75002 Paris, France",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
+    "place_id": "ChIJ02daUDpu5kcRCNnKpTUB2Og",
     "types": [
       "establishment",
       "lodging",
       "point_of_interest"
     ],
-    "partial_match": false,
+    "partial_match": true,
     "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "5031 Hana Hwy, Hana, HI 96713, USA",
+      "address_components": [
+        {
+          "long_name": "17",
+          "short_name": "17",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Rue du 4 septembre",
+          "short_name": "Rue du 4 septembre",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Paris",
+          "short_name": "Paris",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Paris",
+          "short_name": "Paris",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Île-de-France",
+          "short_name": "IDF",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "France",
+          "short_name": "FR",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "75002",
+          "short_name": "75002",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "17 Rue du 4 septembre, 75002 Paris, France",
       "geometry": {
         "location": {
-          "lat": 20.754252,
-          "lng": -155.9872211
+          "lat": 48.869473,
+          "lng": 2.336544
         },
+        "location_type": "ROOFTOP",
         "viewport": {
           "northeast": {
-            "lat": 20.7553286302915,
-            "lng": -155.9860319697085
+            "lat": 48.8708727802915,
+            "lng": 2.337916630291502
           },
           "southwest": {
-            "lat": 20.75263066970849,
-            "lng": -155.9887299302915
+            "lat": 48.8681748197085,
+            "lng": 2.335218669708498
           }
         }
       },
-      "name": "Hana-Maui Resort, a Destination by Hyatt Hotel",
-      "place_id": "ChIJkxf97yWsVHkRBtkNiW3kUfQ",
+      "navigation_points": [
+        {
+          "location": {
+            "latitude": 48.8695144,
+            "longitude": 2.3365632
+          }
+        }
+      ],
+      "partial_match": true,
+      "place_id": "ChIJ02daUDpu5kcRCNnKpTUB2Og",
+      "plus_code": {
+        "compound_code": "V89P+QJ Paris, France",
+        "global_code": "8FW4V89P+QJ"
+      },
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
-      ],
-      "website": "https://www.hyatt.com/destination-by-hyatt/en-US/oggal-hana-maui-resort?src=corp_lclb_google_seo_oggal&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+      ]
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Pavillon de la Reine\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Pavillon de la Reine Hotel\", \"Hotel Pavillon de la Reine Resort\", \"Hotel Pavillon de la Reine\", \"Hotel Pavillon de la Reine Paris, France Hotel\", \"Hotel Pavillon de la Reine Paris, France Resort\", \"Hotel Pavillon de la Reine Paris, France\", \"Hotel Pavillon De La Reine Hotel\", \"Hotel Pavillon De La Reine Resort\", \"Hotel Pavillon De La Reine\", \"Hotel Pavillon De La Reine Paris, France Hotel\", \"Hotel Pavillon De La Reine Paris, France Resort\", \"Hotel Pavillon De La Reine Paris, France\"], \"v\": 3}": {
@@ -101163,23 +101229,86 @@
     "lat": 34.086597,
     "lon": -118.446351,
     "formatted_address": "701 Stone Canyon Rd, Los Angeles, CA 90077, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
     "place_id": "ChIJ4XfXK_G8woARbUYxTMpyDo8",
     "types": [
       "establishment",
       "lodging",
       "point_of_interest"
     ],
-    "partial_match": false,
+    "partial_match": true,
     "raw": {
-      "business_status": "OPERATIONAL",
+      "address_components": [
+        {
+          "long_name": "701",
+          "short_name": "701",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Stone Canyon Road",
+          "short_name": "Stone Canyon Rd",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Bel Air",
+          "short_name": "Bel Air",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Los Angeles",
+          "short_name": "Los Angeles",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Los Angeles County",
+          "short_name": "Los Angeles County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "California",
+          "short_name": "CA",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "90077",
+          "short_name": "90077",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
       "formatted_address": "701 Stone Canyon Rd, Los Angeles, CA 90077, USA",
       "geometry": {
         "location": {
           "lat": 34.086597,
           "lng": -118.446351
         },
+        "location_type": "ROOFTOP",
         "viewport": {
           "northeast": {
             "lat": 34.0881345302915,
@@ -101191,14 +101320,25 @@
           }
         }
       },
-      "name": "Hotel Bel-Air",
+      "navigation_points": [
+        {
+          "location": {
+            "latitude": 34.0869294,
+            "longitude": -118.4459187
+          }
+        }
+      ],
+      "partial_match": true,
       "place_id": "ChIJ4XfXK_G8woARbUYxTMpyDo8",
+      "plus_code": {
+        "compound_code": "3HP3+JF Los Angeles, CA",
+        "global_code": "85633HP3+JF"
+      },
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
-      ],
-      "website": "https://www.dorchestercollection.com/los-angeles/hotel-bel-air/dining/the-restaurant-at-hotel-bel-air?utm_source=google&utm_medium=hba_local_profile&utm_campaign=the_restaurant&utm_content=la_dining"
+      ]
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Paro dei Principi Sorrento\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Paro dei Principi Sorrento Hotel\", \"Hotel Paro dei Principi Sorrento Resort\", \"Hotel Paro dei Principi Sorrento\", \"Hotel Paro dei Principi Sorrento Sorrento, Italy Hotel\", \"Hotel Paro dei Principi Sorrento Sorrento, Italy Resort\", \"Hotel Paro dei Principi Sorrento Sorrento, Italy\", \"Hotel Paro Dei Principi Sorrento Hotel\", \"Hotel Paro Dei Principi Sorrento Resort\", \"Hotel Paro Dei Principi Sorrento\", \"Hotel Paro Dei Principi Sorrento Sorrento, Italy Hotel\", \"Hotel Paro Dei Principi Sorrento Sorrento, Italy Resort\", \"Hotel Paro Dei Principi Sorrento Sorrento, Italy\"], \"v\": 3}": {
@@ -113159,12 +113299,12 @@
         },
         "viewport": {
           "northeast": {
-            "lat": 41.0250327802915,
-            "lng": 28.9757600302915
+            "lat": 41.02503283029149,
+            "lng": 28.9757589302915
           },
           "southwest": {
-            "lat": 41.0223348197085,
-            "lng": 28.9730620697085
+            "lat": 41.02233486970849,
+            "lng": 28.9730609697085
           }
         }
       },
@@ -123611,12 +123751,12 @@
         },
         "viewport": {
           "northeast": {
-            "lat": 41.0254026302915,
-            "lng": 28.9806386302915
+            "lat": 41.0254103302915,
+            "lng": 28.9806506802915
           },
           "southwest": {
-            "lat": 41.0227046697085,
-            "lng": 28.9779406697085
+            "lat": 41.0227123697085,
+            "lng": 28.9779527197085
           }
         }
       },
@@ -137036,49 +137176,45 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Volga Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Volga Hotel Preferred Hotels & Resorts Hotel\", \"Volga Hotel Preferred Hotels & Resorts Resort\", \"Volga Hotel Preferred Hotels & Resorts\", \"Volga Hotel Preferred Hotels & Resorts Mexico City, Mexico City MX Hotel\", \"Volga Hotel Preferred Hotels & Resorts Mexico City, Mexico City MX Resort\", \"Volga Hotel Preferred Hotels & Resorts Mexico City, Mexico City MX\", \"Volga Hotel Hilton Hotel\", \"Volga Hotel Hilton Resort\", \"Volga Hotel Hilton\", \"Volga Hotel Hilton Mexico City, Mexico City MX Hotel\", \"Volga Hotel Hilton Mexico City, Mexico City MX Resort\", \"Volga Hotel Hilton Mexico City, Mexico City MX\", \"Volga Hotel Hotel\", \"Volga Hotel Resort\", \"Volga Hotel\", \"Volga Hotel Mexico City, Mexico City MX Hotel\", \"Volga Hotel Mexico City, Mexico City MX Resort\", \"Volga Hotel Mexico City, Mexico City MX\"], \"v\": 3}": {
-    "lat": 41.61553000000001,
-    "lon": 2.667156,
-    "formatted_address": "Carrer de Jovara, 350, 08370 Calella, Barcelona, Spain",
+    "lat": 19.4269476,
+    "lon": -99.1707066,
+    "formatted_address": "Río Volga 105, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJNexMmQQ5uxIR5qnSkhG37ik",
+    "place_id": "ChIJJTsEZaL_0YURO8tE3vacT4g",
     "types": [
       "establishment",
-      "food",
       "lodging",
-      "point_of_interest",
-      "restaurant"
+      "point_of_interest"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Carrer de Jovara, 350, 08370 Calella, Barcelona, Spain",
+      "formatted_address": "Río Volga 105, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico",
       "geometry": {
         "location": {
-          "lat": 41.61553000000001,
-          "lng": 2.667156
+          "lat": 19.4269476,
+          "lng": -99.1707066
         },
         "viewport": {
           "northeast": {
-            "lat": 41.6169054302915,
-            "lng": 2.668534580291502
+            "lat": 19.4284989802915,
+            "lng": -99.16891276970851
           },
           "southwest": {
-            "lat": 41.61420746970851,
-            "lng": 2.665836619708498
+            "lat": 19.4258010197085,
+            "lng": -99.17161073029152
           }
         }
       },
-      "name": "KAKTUS Hotel Volga",
-      "place_id": "ChIJNexMmQQ5uxIR5qnSkhG37ik",
+      "name": "Volga",
+      "place_id": "ChIJJTsEZaL_0YURO8tE3vacT4g",
       "types": [
         "establishment",
-        "food",
         "lodging",
-        "point_of_interest",
-        "restaurant"
+        "point_of_interest"
       ],
-      "website": "https://www.kaktushotels.com/kaktus-hotel-volga/"
+      "website": "https://hotelvolga.mx/"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Palms Hotel & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Palms Hotel & Spa Preferred Hotels & Resorts Hotel\", \"The Palms Hotel & Spa Preferred Hotels & Resorts Resort\", \"The Palms Hotel & Spa Preferred Hotels & Resorts\", \"The Palms Hotel & Spa Preferred Hotels & Resorts Miami Beach, Florida US Hotel\", \"The Palms Hotel & Spa Preferred Hotels & Resorts Miami Beach, Florida US Resort\", \"The Palms Hotel & Spa Preferred Hotels & Resorts Miami Beach, Florida US\", \"The Palms Hotel & Spa Hilton Hotel\", \"The Palms Hotel & Spa Hilton Resort\", \"The Palms Hotel & Spa Hilton\", \"The Palms Hotel & Spa Hilton Miami Beach, Florida US Hotel\", \"The Palms Hotel & Spa Hilton Miami Beach, Florida US Resort\", \"The Palms Hotel & Spa Hilton Miami Beach, Florida US\", \"Palms Hotel Spa Preferred Hotels & Resorts Hotel\", \"Palms Hotel Spa Preferred Hotels & Resorts Resort\", \"Palms Hotel Spa Preferred Hotels & Resorts\", \"Palms Hotel Spa Preferred Hotels & Resorts Miami Beach, Florida US Hotel\", \"Palms Hotel Spa Preferred Hotels & Resorts Miami Beach, Florida US Resort\", \"Palms Hotel Spa Preferred Hotels & Resorts Miami Beach, Florida US\", \"Palms Hotel Spa Hilton Hotel\", \"Palms Hotel Spa Hilton Resort\", \"Palms Hotel Spa Hilton\", \"Palms Hotel Spa Hilton Miami Beach, Florida US Hotel\", \"Palms Hotel Spa Hilton Miami Beach, Florida US Resort\", \"Palms Hotel Spa Hilton Miami Beach, Florida US\", \"The Palms Hotel & Spa Hotel\", \"The Palms Hotel & Spa Resort\", \"The Palms Hotel & Spa\", \"The Palms Hotel & Spa Miami Beach, Florida US Hotel\", \"The Palms Hotel & Spa Miami Beach, Florida US Resort\", \"The Palms Hotel & Spa Miami Beach, Florida US\"], \"v\": 3}": {
@@ -138568,12 +138704,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Diplomat\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Diplomat Preferred Hotels & Resorts Hotel\", \"Hotel Diplomat Preferred Hotels & Resorts Resort\", \"Hotel Diplomat Preferred Hotels & Resorts\", \"Hotel Diplomat Preferred Hotels & Resorts Stockholm, Sweden Hotel\", \"Hotel Diplomat Preferred Hotels & Resorts Stockholm, Sweden Resort\", \"Hotel Diplomat Preferred Hotels & Resorts Stockholm, Sweden\", \"Hotel Diplomat Hilton Hotel\", \"Hotel Diplomat Hilton Resort\", \"Hotel Diplomat Hilton\", \"Hotel Diplomat Hilton Stockholm, Sweden Hotel\", \"Hotel Diplomat Hilton Stockholm, Sweden Resort\", \"Hotel Diplomat Hilton Stockholm, Sweden\", \"Hotel Diplomat Hotel\", \"Hotel Diplomat Resort\", \"Hotel Diplomat\", \"Hotel Diplomat Stockholm, Sweden Hotel\", \"Hotel Diplomat Stockholm, Sweden Resort\", \"Hotel Diplomat Stockholm, Sweden\"], \"v\": 3}": {
-    "lat": 25.9917114,
-    "lon": -80.117931,
-    "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
+    "lat": 59.33198890000001,
+    "lon": 18.080275,
+    "formatted_address": "Strandvägen 7C, 114 56 Stockholm, Sweden",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJucq_QV6r2YgR3ABMJngVlVw",
+    "place_id": "ChIJYUeGE1qdX0YRJ-HgR8m9r2o",
     "types": [
       "establishment",
       "lodging",
@@ -138582,31 +138718,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
+      "formatted_address": "Strandvägen 7C, 114 56 Stockholm, Sweden",
       "geometry": {
         "location": {
-          "lat": 25.9917114,
-          "lng": -80.117931
+          "lat": 59.33198890000001,
+          "lng": 18.080275
         },
         "viewport": {
           "northeast": {
-            "lat": 25.99292473029151,
-            "lng": -80.11684701970849
+            "lat": 59.3332471302915,
+            "lng": 18.0817761302915
           },
           "southwest": {
-            "lat": 25.9902267697085,
-            "lng": -80.1195449802915
+            "lat": 59.33054916970849,
+            "lng": 18.0790781697085
           }
         }
       },
-      "name": "The Diplomat Beach Resort Hollywood, Curio Collection by Hilton",
-      "place_id": "ChIJucq_QV6r2YgR3ABMJngVlVw",
+      "name": "Hotel Diplomat",
+      "place_id": "ChIJYUeGE1qdX0YRJ-HgR8m9r2o",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/flldhqq-the-diplomat-beach-resort-hollywood/?SEO_id=GMB-AMER-QQ-FLLDHQQ&y_source=1_MTg4MTIwMS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "http://www.diplomathotel.com/"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Grand Hotel San Pietro Taormina\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Hotel San Pietro Taormina Preferred Hotels & Resorts Hotel\", \"Grand Hotel San Pietro Taormina Preferred Hotels & Resorts Resort\", \"Grand Hotel San Pietro Taormina Preferred Hotels & Resorts\", \"Grand Hotel San Pietro Taormina Preferred Hotels & Resorts Taormina, Italy Hotel\", \"Grand Hotel San Pietro Taormina Preferred Hotels & Resorts Taormina, Italy Resort\", \"Grand Hotel San Pietro Taormina Preferred Hotels & Resorts Taormina, Italy\", \"Grand Hotel San Pietro Taormina Hilton Hotel\", \"Grand Hotel San Pietro Taormina Hilton Resort\", \"Grand Hotel San Pietro Taormina Hilton\", \"Grand Hotel San Pietro Taormina Hilton Taormina, Italy Hotel\", \"Grand Hotel San Pietro Taormina Hilton Taormina, Italy Resort\", \"Grand Hotel San Pietro Taormina Hilton Taormina, Italy\", \"Grand Hotel San Pietro Taormina Hotel\", \"Grand Hotel San Pietro Taormina Resort\", \"Grand Hotel San Pietro Taormina\", \"Grand Hotel San Pietro Taormina Taormina, Italy Hotel\", \"Grand Hotel San Pietro Taormina Taormina, Italy Resort\", \"Grand Hotel San Pietro Taormina Taormina, Italy\"], \"v\": 3}": {
@@ -142008,45 +142144,47 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Homewood\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Homewood Small Luxury Hotels of the World Hotel\", \"Homewood Small Luxury Hotels of the World Resort\", \"Homewood Small Luxury Hotels of the World\", \"Homewood Small Luxury Hotels of the World Bath, England Hotel\", \"Homewood Small Luxury Hotels of the World Bath, England Resort\", \"Homewood Small Luxury Hotels of the World Bath, England\", \"Homewood Hilton Hotel\", \"Homewood Hilton Resort\", \"Homewood Hilton\", \"Homewood Hilton Bath, England Hotel\", \"Homewood Hilton Bath, England Resort\", \"Homewood Hilton Bath, England\", \"Homewood Hotel\", \"Homewood Resort\", \"Homewood\", \"Homewood Bath, England Hotel\", \"Homewood Bath, England Resort\", \"Homewood Bath, England\"], \"v\": 3}": {
-    "lat": 33.4814956,
-    "lon": -86.79144699999999,
-    "formatted_address": "2727 18th St S, Homewood, AL 35209, USA",
+    "lat": 51.33592300000001,
+    "lon": -2.318309,
+    "formatted_address": "Abbey Ln, Freshford, Bath BA2 7TB, UK",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJL4ADnsMZiYgR7xXVxk__V8w",
+    "place_id": "ChIJpahZdW2AcUgRMjgvMGROHgA",
     "types": [
       "establishment",
       "lodging",
-      "point_of_interest"
+      "point_of_interest",
+      "spa"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2727 18th St S, Homewood, AL 35209, USA",
+      "formatted_address": "Abbey Ln, Freshford, Bath BA2 7TB, UK",
       "geometry": {
         "location": {
-          "lat": 33.4814956,
-          "lng": -86.79144699999999
+          "lat": 51.33592300000001,
+          "lng": -2.318309
         },
         "viewport": {
           "northeast": {
-            "lat": 33.4828264302915,
-            "lng": -86.7902691197085
+            "lat": 51.3371935802915,
+            "lng": -2.317082119708498
           },
           "southwest": {
-            "lat": 33.4801284697085,
-            "lng": -86.7929670802915
+            "lat": 51.33449561970851,
+            "lng": -2.319780080291502
           }
         }
       },
-      "name": "Valley Hotel Homewood Birmingham, Curio Collection by Hilton",
-      "place_id": "ChIJL4ADnsMZiYgR7xXVxk__V8w",
+      "name": "Homewood",
+      "place_id": "ChIJpahZdW2AcUgRMjgvMGROHgA",
       "types": [
         "establishment",
         "lodging",
-        "point_of_interest"
+        "point_of_interest",
+        "spa"
       ],
-      "website": "https://www.hilton.com/en/hotels/bhmrmqq-valley-hotel-homewood-birmingham/?SEO_id=GMB-AMER-QQ-BHMRMQQ&y_source=1_MTk3NzM4NzQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+      "website": "https://www.homewoodbath.co.uk/?utm_source=google&utm_medium=local&utm_campaign=hotel-homewood"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Yndo Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Yndo Hotel Small Luxury Hotels of the World Hotel\", \"Yndo Hotel Small Luxury Hotels of the World Resort\", \"Yndo Hotel Small Luxury Hotels of the World\", \"Yndo Hotel Small Luxury Hotels of the World Bordeaux, France Hotel\", \"Yndo Hotel Small Luxury Hotels of the World Bordeaux, France Resort\", \"Yndo Hotel Small Luxury Hotels of the World Bordeaux, France\", \"Yndo Hotel Hilton Hotel\", \"Yndo Hotel Hilton Resort\", \"Yndo Hotel Hilton\", \"Yndo Hotel Hilton Bordeaux, France Hotel\", \"Yndo Hotel Hilton Bordeaux, France Resort\", \"Yndo Hotel Hilton Bordeaux, France\", \"Yndo Hotel Hotel\", \"Yndo Hotel Resort\", \"Yndo Hotel\", \"Yndo Hotel Bordeaux, France Hotel\", \"Yndo Hotel Bordeaux, France Resort\", \"Yndo Hotel Bordeaux, France\"], \"v\": 3}": {
@@ -142624,47 +142762,45 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Fortress Resort & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Fortress Resort & Spa Small Luxury Hotels of the World Hotel\", \"The Fortress Resort & Spa Small Luxury Hotels of the World Resort\", \"The Fortress Resort & Spa Small Luxury Hotels of the World\", \"The Fortress Resort & Spa Small Luxury Hotels of the World Habaraduwa, Sri Lanka Hotel\", \"The Fortress Resort & Spa Small Luxury Hotels of the World Habaraduwa, Sri Lanka Resort\", \"The Fortress Resort & Spa Small Luxury Hotels of the World Habaraduwa, Sri Lanka\", \"The Fortress Resort & Spa Hilton Hotel\", \"The Fortress Resort & Spa Hilton Resort\", \"The Fortress Resort & Spa Hilton\", \"The Fortress Resort & Spa Hilton Habaraduwa, Sri Lanka Hotel\", \"The Fortress Resort & Spa Hilton Habaraduwa, Sri Lanka Resort\", \"The Fortress Resort & Spa Hilton Habaraduwa, Sri Lanka\", \"Fortress Resort Spa Small Luxury Hotels of the World Hotel\", \"Fortress Resort Spa Small Luxury Hotels of the World Resort\", \"Fortress Resort Spa Small Luxury Hotels of the World\", \"Fortress Resort Spa Small Luxury Hotels of the World Habaraduwa, Sri Lanka Hotel\", \"Fortress Resort Spa Small Luxury Hotels of the World Habaraduwa, Sri Lanka Resort\", \"Fortress Resort Spa Small Luxury Hotels of the World Habaraduwa, Sri Lanka\", \"Fortress Resort Spa Hilton Hotel\", \"Fortress Resort Spa Hilton Resort\", \"Fortress Resort Spa Hilton\", \"Fortress Resort Spa Hilton Habaraduwa, Sri Lanka Hotel\", \"Fortress Resort Spa Hilton Habaraduwa, Sri Lanka Resort\", \"Fortress Resort Spa Hilton Habaraduwa, Sri Lanka\", \"The Fortress Resort & Spa Hotel\", \"The Fortress Resort & Spa Resort\", \"The Fortress Resort & Spa\", \"The Fortress Resort & Spa Habaraduwa, Sri Lanka Hotel\", \"The Fortress Resort & Spa Habaraduwa, Sri Lanka Resort\", \"The Fortress Resort & Spa Habaraduwa, Sri Lanka\"], \"v\": 3}": {
-    "lat": 46.8120085,
-    "lon": -71.20521839999999,
-    "formatted_address": "1 Rue des Carrières, Québec, QC G1R 5J5, Canada",
+    "lat": 5.986595899999999,
+    "lon": 80.32644429999999,
+    "formatted_address": "Koggala, Habaraduwa, Galle 80000, Sri Lanka",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ7Vz9a9yVuEwRjUKqbbOLHw4",
+    "place_id": "ChIJXyChDtRs4ToRNxj-6Fd8kes",
     "types": [
       "establishment",
       "lodging",
-      "point_of_interest",
-      "tourist_attraction"
+      "point_of_interest"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "1 Rue des Carrières, Québec, QC G1R 5J5, Canada",
+      "formatted_address": "Koggala, Habaraduwa, Galle 80000, Sri Lanka",
       "geometry": {
         "location": {
-          "lat": 46.8120085,
-          "lng": -71.20521839999999
+          "lat": 5.986595899999999,
+          "lng": 80.32644429999999
         },
         "viewport": {
           "northeast": {
-            "lat": 46.8134498302915,
-            "lng": -71.2041153697085
+            "lat": 5.988107880291502,
+            "lng": 80.3279467302915
           },
           "southwest": {
-            "lat": 46.8107518697085,
-            "lng": -71.20681333029151
+            "lat": 5.985409919708498,
+            "lng": 80.32524876970848
           }
         }
       },
-      "name": "Fairmont Le Château Frontenac",
-      "place_id": "ChIJ7Vz9a9yVuEwRjUKqbbOLHw4",
+      "name": "The Fortress Resort and Spa Galle",
+      "place_id": "ChIJXyChDtRs4ToRNxj-6Fd8kes",
       "types": [
         "establishment",
         "lodging",
-        "point_of_interest",
-        "tourist_attraction"
+        "point_of_interest"
       ],
-      "website": "https://www.fairmont.com/frontenac-quebec/?goto=fiche_hotel&code_hotel=A572&merchantid=seo-maps-FR-A572&sourceid=aw-cen&utm_medium=seo+maps&utm_source=google+Maps&utm_campaign=seo+maps?goto=fiche_hotel&code_hotel=A572&merchantid=seo-maps-CA-A572&sourceid=aw-cen&utm_medium=seo+maps&utm_source=google+Maps&utm_campaign=seo+maps&y_source=1_MTIzNjE0MDAtNzE1LWxvY2F0aW9uLndlYnNpdGU="
+      "website": "https://www.fortressresortandspa.com/?utm_source=google&utm_medium=organic&utm_campaign=fortressresortgalle&utm_term=gbp"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Park Lane Copenhagen\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Park Lane Copenhagen Small Luxury Hotels of the World Hotel\", \"Park Lane Copenhagen Small Luxury Hotels of the World Resort\", \"Park Lane Copenhagen Small Luxury Hotels of the World\", \"Park Lane Copenhagen Small Luxury Hotels of the World Hellerup, Denmark Hotel\", \"Park Lane Copenhagen Small Luxury Hotels of the World Hellerup, Denmark Resort\", \"Park Lane Copenhagen Small Luxury Hotels of the World Hellerup, Denmark\", \"Park Lane Copenhagen Hilton Hotel\", \"Park Lane Copenhagen Hilton Resort\", \"Park Lane Copenhagen Hilton\", \"Park Lane Copenhagen Hilton Hellerup, Denmark Hotel\", \"Park Lane Copenhagen Hilton Hellerup, Denmark Resort\", \"Park Lane Copenhagen Hilton Hellerup, Denmark\", \"Park Lane Copenhagen Hotel\", \"Park Lane Copenhagen Resort\", \"Park Lane Copenhagen\", \"Park Lane Copenhagen Hellerup, Denmark Hotel\", \"Park Lane Copenhagen Hellerup, Denmark Resort\", \"Park Lane Copenhagen Hellerup, Denmark\"], \"v\": 3}": {
@@ -142752,12 +142888,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Antonio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Antonio Small Luxury Hotels of the World Hotel\", \"San Antonio Small Luxury Hotels of the World Resort\", \"San Antonio Small Luxury Hotels of the World\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Hotel\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Resort\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece\", \"San Antonio Hilton Hotel\", \"San Antonio Hilton Resort\", \"San Antonio Hilton\", \"San Antonio Hilton Imerovigli, Greece Hotel\", \"San Antonio Hilton Imerovigli, Greece Resort\", \"San Antonio Hilton Imerovigli, Greece\", \"San Antonio Hotel\", \"San Antonio Resort\", \"San Antonio\", \"San Antonio Imerovigli, Greece Hotel\", \"San Antonio Imerovigli, Greece Resort\", \"San Antonio Imerovigli, Greece\"], \"v\": 3}": {
-    "lat": 29.4255095,
-    "lon": -98.4904047,
-    "formatted_address": "112 College St, San Antonio, TX 78205, USA",
+    "lat": 29.4266015,
+    "lon": -98.4859548,
+    "formatted_address": "705 E Houston St, San Antonio, TX 78205, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJK8UsNlNfXIYRIqeTmH26wyw",
+    "place_id": "ChIJPX3jOFVfXIYRnMvCUJcFi2Q",
     "types": [
       "establishment",
       "lodging",
@@ -142766,31 +142902,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "112 College St, San Antonio, TX 78205, USA",
+      "formatted_address": "705 E Houston St, San Antonio, TX 78205, USA",
       "geometry": {
         "location": {
-          "lat": 29.4255095,
-          "lng": -98.4904047
+          "lat": 29.4266015,
+          "lng": -98.4859548
         },
         "viewport": {
           "northeast": {
-            "lat": 29.42703303029149,
-            "lng": -98.48903556970848
+            "lat": 29.4279135802915,
+            "lng": -98.4846148197085
           },
           "southwest": {
-            "lat": 29.4243350697085,
-            "lng": -98.4917335302915
+            "lat": 29.4252156197085,
+            "lng": -98.48731278029152
           }
         }
       },
-      "name": "Omni La Mansión del Rio",
-      "place_id": "ChIJK8UsNlNfXIYRIqeTmH26wyw",
+      "name": "The Emily Morgan San Antonio - a DoubleTree by Hilton Hotel",
+      "place_id": "ChIJPX3jOFVfXIYRnMvCUJcFi2Q",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.omnihotels.com/hotels/san-antonio-la-mansion-del-rio?utm_source=gmblisting&utm_medium=organic"
+      "website": "https://www.hilton.com/en/hotels/satemdt-the-emily-morgan-san-antonio/?SEO_id=GMB-AMER-DT-SATEMDT&y_source=1_MTM3MjYzOC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rusty Parrot Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
@@ -146655,8 +146791,8 @@
     "lat": 41.0411641,
     "lon": 28.9976787,
     "formatted_address": "Vişnezade, Acısu Sk. NO 19, 34357 Beşiktaş/İstanbul, Türkiye",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
     "place_id": "ChIJm9zzJnW3yhQRHmF9bN2hrZI",
     "types": [
       "establishment",
@@ -146665,15 +146801,70 @@
       "point_of_interest",
       "restaurant"
     ],
-    "partial_match": false,
+    "partial_match": true,
     "raw": {
-      "business_status": "OPERATIONAL",
+      "address_components": [
+        {
+          "long_name": "NO 19",
+          "short_name": "NO 19",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Acısu Sokak",
+          "short_name": "Acısu Sk.",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Vişnezade",
+          "short_name": "Vişnezade",
+          "types": [
+            "administrative_area_level_4",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Beşiktaş",
+          "short_name": "Beşiktaş",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "İstanbul",
+          "short_name": "İstanbul",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Türkiye",
+          "short_name": "TR",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "34357",
+          "short_name": "34357",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
       "formatted_address": "Vişnezade, Acısu Sk. NO 19, 34357 Beşiktaş/İstanbul, Türkiye",
       "geometry": {
         "location": {
           "lat": 41.0411641,
           "lng": 28.9976787
         },
+        "location_type": "ROOFTOP",
         "viewport": {
           "northeast": {
             "lat": 41.0425415802915,
@@ -146685,16 +146876,36 @@
           }
         }
       },
-      "name": "Swissôtel The Bosphorus Istanbul",
+      "navigation_points": [
+        {
+          "location": {
+            "latitude": 41.041158,
+            "longitude": 28.9969476
+          },
+          "restricted_travel_modes": [
+            "WALK"
+          ]
+        },
+        {
+          "location": {
+            "latitude": 41.0412023,
+            "longitude": 28.9975008
+          }
+        }
+      ],
+      "partial_match": true,
       "place_id": "ChIJm9zzJnW3yhQRHmF9bN2hrZI",
+      "plus_code": {
+        "compound_code": "2XRX+F3 Beşiktaş/İstanbul, Türkiye",
+        "global_code": "8GHC2XRX+F3"
+      },
       "types": [
         "establishment",
         "food",
         "lodging",
         "point_of_interest",
         "restaurant"
-      ],
-      "website": "https://www.swissotel.com/hotels/istanbul/?goto=fiche_hotel&code_hotel=A5D2&merchantid=seo-maps-TR-A5D2&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
+      ]
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Swissotel Lima\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Swissotel Lima Swiss\\u00f4tel Hotel\", \"Swissotel Lima Swiss\\u00f4tel Resort\", \"Swissotel Lima Swiss\\u00f4tel\", \"Swissotel Lima Swiss\\u00f4tel Lima, Peru Hotel\", \"Swissotel Lima Swiss\\u00f4tel Lima, Peru Resort\", \"Swissotel Lima Swiss\\u00f4tel Lima, Peru\", \"Swissotel Lima Hilton Hotel\", \"Swissotel Lima Hilton Resort\", \"Swissotel Lima Hilton\", \"Swissotel Lima Hilton Lima, Peru Hotel\", \"Swissotel Lima Hilton Lima, Peru Resort\", \"Swissotel Lima Hilton Lima, Peru\", \"Swissotel Lima Hotel\", \"Swissotel Lima Resort\", \"Swissotel Lima\", \"Swissotel Lima Lima, Peru Hotel\", \"Swissotel Lima Lima, Peru Resort\", \"Swissotel Lima Lima, Peru\"], \"v\": 3}": {
