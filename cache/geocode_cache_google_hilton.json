@@ -11924,48 +11924,6 @@
       "website": "http://www.mclemoreresort.com/"
     }
   },
-  "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Diplomat Beach Resort Hollywood, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection by Hilton\", \"Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton Hotel\", \"Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton Resort\", \"Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton\", \"flldhqq diplomat beach resort hollywood Curio Collection by Hilton Hotel\", \"flldhqq diplomat beach resort hollywood Curio Collection by Hilton Resort\", \"flldhqq diplomat beach resort hollywood Curio Collection by Hilton\", \"flldhqq diplomat beach resort hollywood Hilton Hotel\", \"flldhqq diplomat beach resort hollywood Hilton Resort\", \"flldhqq diplomat beach resort hollywood Hilton\", \"Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hotel\", \"Diplomat Beach Resort Hollywood, Curio Collection by Hilton Resort\", \"Diplomat Beach Resort Hollywood, Curio Collection by Hilton\"], \"v\": 3}": {
-    "lat": 25.9916936,
-    "lon": -80.1179417,
-    "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJdegypsir2YgRhe4rbEB80oU",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
-      "geometry": {
-        "location": {
-          "lat": 25.9916936,
-          "lng": -80.1179417
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.9927793302915,
-            "lng": -80.1168228197085
-          },
-          "southwest": {
-            "lat": 25.9900813697085,
-            "lng": -80.11952078029151
-          }
-        }
-      },
-      "name": "Signia by Hilton Diplomat Beach Resort",
-      "place_id": "ChIJdegypsir2YgRhe4rbEB80oU",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hilton.com/en/hotels/flldhsa-signia-diplomat-beach-resort/?SEO_id=GMB-AMER-SA-FLLDHSA&y_source=1_MjA1OTUxODA5My03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
-    }
-  },
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Domes Aulus Elounda Resort, Curio by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Domes Aulus Elounda Resort, Curio by Hilton Curio Collection by Hilton Hotel\", \"Domes Aulus Elounda Resort, Curio by Hilton Curio Collection by Hilton Resort\", \"Domes Aulus Elounda Resort, Curio by Hilton Curio Collection by Hilton\", \"Domes Aulus Elounda Resort, Curio by Hilton Hilton Hotel\", \"Domes Aulus Elounda Resort, Curio by Hilton Hilton Resort\", \"Domes Aulus Elounda Resort, Curio by Hilton Hilton\", \"herbsqq domes aulus elounda resort Curio Collection by Hilton Hotel\", \"herbsqq domes aulus elounda resort Curio Collection by Hilton Resort\", \"herbsqq domes aulus elounda resort Curio Collection by Hilton\", \"herbsqq domes aulus elounda resort Hilton Hotel\", \"herbsqq domes aulus elounda resort Hilton Resort\", \"herbsqq domes aulus elounda resort Hilton\", \"Domes Aulus Elounda Resort, Curio by Hilton Hotel\", \"Domes Aulus Elounda Resort, Curio by Hilton Resort\", \"Domes Aulus Elounda Resort, Curio by Hilton\"], \"v\": 3}": {
     "lat": 35.277694,
     "lon": 25.7232969,
@@ -24107,5 +24065,7 @@
       ],
       "website": "https://www.hilton.com/en/hotels/cdgtpwa-waldorf-astoria-versailles-trianon-palace/?SEO_id=GMB-EMEA-WA-CDGTPWA"
     }
-  }
+  },
+  "{\"brand\": \"Signia by Hilton\", \"hotel_name\": \"Signia by Hilton Diplomat Beach Resort\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Signia by Hilton Diplomat Beach Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"Signia by Hilton\", \"hotel_name\": \"Signia by Hilton Diplomat Beach Resort\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Signia by Hilton Diplomat Beach Resort Signia by Hilton Hotel\", \"Signia by Hilton Diplomat Beach Resort Signia by Hilton Resort\", \"Signia by Hilton Diplomat Beach Resort Signia by Hilton\", \"Signia by Hilton Diplomat Beach Resort Hilton Hotel\", \"Signia by Hilton Diplomat Beach Resort Hilton Resort\", \"Signia by Hilton Diplomat Beach Resort Hilton\", \"flldhsa signia diplomat beach resort Signia by Hilton Hotel\", \"flldhsa signia diplomat beach resort Signia by Hilton Resort\", \"flldhsa signia diplomat beach resort Signia by Hilton\", \"flldhsa signia diplomat beach resort Hilton Hotel\", \"flldhsa signia diplomat beach resort Hilton Resort\", \"flldhsa signia diplomat beach resort Hilton\", \"Signia by Hilton Diplomat Beach Resort Hotel\", \"Signia by Hilton Diplomat Beach Resort Resort\", \"Signia by Hilton Diplomat Beach Resort\"], \"v\": 3}": null
 }
