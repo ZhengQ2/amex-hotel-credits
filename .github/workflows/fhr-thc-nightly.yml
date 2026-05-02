@@ -43,8 +43,8 @@ jobs:
           thc_changed="false"
           any_changed="false"
 
-          if [ ! -s cache/geocode_cache_google_fhr_thc.json ]; then
-            echo "No cache index built (file missing or empty: cache/geocode_cache_google_fhr_thc.json)." | tee -a fhrthc.log
+          if [ ! -s cache/geocode_cache_google_fhr.json ] || [ ! -s cache/geocode_cache_google_thc.json ]; then
+            echo "No cache index built (file missing or empty: cache/geocode_cache_google_fhr.json or cache/geocode_cache_google_thc.json)." | tee -a fhrthc.log
             fhr_changed="true"
             thc_changed="true"
             any_changed="true"
