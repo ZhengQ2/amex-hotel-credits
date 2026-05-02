@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    outputs:
+      any_changed: ${{ steps.check_list.outputs.any_changed }}
 
     steps:
       - name: Checkout repository
@@ -208,3 +210,10 @@ jobs:
           else
             echo "No cache changes to commit."
           fi
+
+  update-map:
+    needs: scrape-geocode-fhrthc
+    if: needs.scrape-geocode-fhrthc.outputs.any_changed == 'true'
+    uses: ./.github/workflows/update-map.yml
+    permissions:
+      contents: write

@@ -1,11 +1,7 @@
 name: Update Map Data
 
 on:
-  workflow_run:
-    workflows:
-      - "Update Hilton Resort List Nightly"
-      - "Update FHR and THC Hotels Nightly"
-    types: [completed]
+  workflow_call:
   workflow_dispatch:
 
 jobs:
