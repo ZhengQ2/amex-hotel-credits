@@ -1,4 +1,4 @@
-name: Update Hilton Resort List
+name: Update Hilton Resort List Nightly
 
 on:
   schedule:
