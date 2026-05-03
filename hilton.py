@@ -49,6 +49,550 @@ def _normalize_fetch_url(url: str) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Property-code prefix → location (Tier 1 lookup)
+#
+# Hilton property codes follow the pattern {CITY:3}{PROPERTY:2}{BRAND:2}.
+# The first 3 characters are an IATA airport code or a Hilton-internal city
+# abbreviation.  This table maps those 3-char codes directly to location
+# strings, which is more reliable than token-matching the slug.
+#
+# Sources: IATA airport codes + known Hilton-internal overrides.
+# CC = ISO 3166-1 alpha-2 country code  (CA = Canada, not California).
+# ---------------------------------------------------------------------------
+_CODE_TO_LOCATION: Dict[str, str] = {
+    # ── United States — Hawaii ───────────────────────────────────────────────
+    "hnl": "Honolulu, US",      # Honolulu International
+    "ogg": "Maui, US",          # Kahului (Maui)
+    "jhm": "Maui, US",          # Kapalua (Maui)
+    "lih": "Kauai, US",         # Lihue (Kauai)
+    "koa": "Big Island, US",    # Kailua-Kona
+    "ito": "Hilo, US",          # Hilo
+    "mkk": "Molokai, US",
+    # ── United States — Nevada / Mountain West ───────────────────────────────
+    "las": "Las Vegas, US",
+    "jac": "Jackson Hole, US",
+    "ase": "Aspen, US",
+    "ege": "Vail, US",          # Eagle/Vail
+    "hdn": "Steamboat Springs, US",
+    "tex": "Telluride, US",
+    "snm": "Snowmass, US",
+    "slc": "Salt Lake City, US",
+    "prc": "Prescott, US",
+    # ── United States — California ───────────────────────────────────────────
+    "lax": "Los Angeles, US",
+    "bur": "Burbank, US",
+    "sfo": "San Francisco, US",
+    "oak": "Oakland, US",
+    "sjc": "San Jose, US",
+    "san": "San Diego, US",
+    "sna": "Newport Beach, US", # John Wayne / Orange County
+    "lgb": "Long Beach, US",
+    "sba": "Santa Barbara, US",
+    "smx": "Santa Maria, US",
+    "mry": "Monterey, US",
+    "psp": "Palm Springs, US",
+    "trk": "Truckee, US",       # Lake Tahoe area
+    "mmh": "Mammoth Lakes, US",
+    "sts": "Santa Rosa, US",    # Sonoma/Wine Country
+    # ── United States — Arizona ──────────────────────────────────────────────
+    "phx": "Phoenix, US",
+    "sco": "Scottsdale, US",    # Hilton-internal (SCO = Scottsdale)
+    "sdl": "Scottsdale, US",    # Scottsdale airport
+    "tus": "Tucson, US",
+    "sed": "Sedona, US",        # Hilton-internal
+    # ── United States — Pacific Northwest ────────────────────────────────────
+    "sea": "Seattle, US",
+    "bfi": "Seattle, US",
+    "pdx": "Portland, US",
+    "geg": "Spokane, US",
+    "rdm": "Bend, US",          # Redmond (Bend)
+    "anc": "Anchorage, US",
+    # ── United States — Florida ──────────────────────────────────────────────
+    "mco": "Orlando, US",
+    "mia": "Miami, US",
+    "fll": "Fort Lauderdale, US",
+    "pbi": "Palm Beach, US",
+    "rsw": "Fort Myers, US",
+    "nap": "Naples, US",        # Hilton-internal (NAP = Naples FL)
+    "tpa": "Tampa, US",
+    "pie": "St. Petersburg, US",
+    "sfb": "Orlando, US",       # Sanford (Orlando area)
+    "jax": "Jacksonville, US",
+    "eyw": "Key West, US",
+    "dab": "Daytona Beach, US",
+    "srq": "Sarasota, US",
+    "vps": "Destin, US",        # Destin / Fort Walton
+    "pns": "Pensacola, US",
+    # ── United States — Southeast ────────────────────────────────────────────
+    "atl": "Atlanta, US",
+    "sav": "Savannah, US",
+    "chs": "Charleston, US",
+    "hxd": "Hilton Head, US",   # Hilton Head airport
+    "myr": "Myrtle Beach, US",
+    "hhh": "Hilton Head, US",
+    "avl": "Asheville, US",
+    "clt": "Charlotte, US",
+    "rdu": "Raleigh, US",
+    "orf": "Virginia Beach, US",
+    "ofk": "Norfolk, US",
+    "phf": "Newport News, US",
+    "ric": "Richmond, US",
+    "bna": "Nashville, US",
+    "mem": "Memphis, US",
+    "sdf": "Louisville, US",
+    "bhm": "Birmingham, US",
+    "msy": "New Orleans, US",
+    "btr": "Baton Rouge, US",
+    # ── United States — Mid-Atlantic / Northeast ─────────────────────────────
+    "dca": "Washington DC, US",
+    "iad": "Washington DC, US",
+    "bwi": "Baltimore, US",
+    "phl": "Philadelphia, US",
+    "pit": "Pittsburgh, US",
+    "jfk": "New York, US",
+    "lga": "New York, US",
+    "ewr": "New York, US",
+    "nyc": "New York, US",      # Hilton-internal
+    "isp": "Long Island, US",
+    "hpn": "Westchester, US",
+    "hvn": "New Haven, US",
+    "bos": "Boston, US",
+    "pvd": "Providence, US",
+    "ack": "Nantucket, US",
+    "mvy": "Martha's Vineyard, US",
+    "hya": "Cape Cod, US",
+    "bed": "Boston, US",
+    # ── United States — Midwest ──────────────────────────────────────────────
+    "ord": "Chicago, US",
+    "mdw": "Chicago, US",
+    "dtw": "Detroit, US",
+    "cle": "Cleveland, US",
+    "cmh": "Columbus, US",
+    "cvg": "Cincinnati, US",
+    "ind": "Indianapolis, US",
+    "mke": "Milwaukee, US",
+    "msp": "Minneapolis, US",
+    "stl": "St. Louis, US",
+    "mci": "Kansas City, US",
+    "oma": "Omaha, US",
+    "dsm": "Des Moines, US",
+    "grr": "Grand Rapids, US",
+    "tvc": "Traverse City, US",
+    # ── United States — Texas ────────────────────────────────────────────────
+    "dfw": "Dallas, US",
+    "dal": "Dallas, US",
+    "iah": "Houston, US",
+    "hou": "Houston, US",
+    "aus": "Austin, US",
+    "sat": "San Antonio, US",
+    "gls": "Galveston, US",
+    "elp": "El Paso, US",
+    # ── Canada ───────────────────────────────────────────────────────────────
+    "wst": "Whistler, CA",      # Hilton-internal (Whistler has no public airport)
+    "yvr": "Vancouver, CA",
+    "yyj": "Victoria, CA",
+    "ylw": "Kelowna, CA",
+    "yyz": "Toronto, CA",
+    "yow": "Ottawa, CA",
+    "yul": "Montreal, CA",
+    "yqb": "Quebec City, CA",
+    "yyc": "Calgary, CA",
+    "yeg": "Edmonton, CA",
+    "yhz": "Halifax, CA",
+    "ywg": "Winnipeg, CA",
+    "yxe": "Saskatoon, CA",
+    "yfc": "Fredericton, CA",
+    # ── Mexico ───────────────────────────────────────────────────────────────
+    "cun": "Cancun, MX",
+    "sjd": "Los Cabos, MX",
+    "pvr": "Puerto Vallarta, MX",
+    "zih": "Ixtapa/Zihuatanejo, MX",
+    "hux": "Huatulco, MX",
+    "aca": "Acapulco, MX",
+    "zlo": "Manzanillo, MX",
+    "mzt": "Mazatlán, MX",
+    "mty": "Monterrey, MX",
+    "gdl": "Guadalajara, MX",
+    "mex": "Mexico City, MX",
+    "oax": "Oaxaca, MX",
+    "mid": "Mérida, MX",
+    "cjs": "Ciudad Juárez, MX",
+    # ── Caribbean ────────────────────────────────────────────────────────────
+    "nas": "Nassau, BS",
+    "pls": "Turks and Caicos, TC",
+    "puj": "Punta Cana, DO",
+    "sdq": "Santo Domingo, DO",
+    "sju": "San Juan, PR",
+    "stt": "St. Thomas, VI",
+    "stx": "St. Croix, VI",
+    "aua": "Aruba, AW",
+    "cur": "Curaçao, CW",
+    "sxm": "Sint Maarten, SX",
+    "uvf": "St. Lucia, LC",
+    "bgi": "Barbados, BB",
+    "mbj": "Montego Bay, JM",
+    "kin": "Kingston, JM",
+    "gcm": "Grand Cayman, KY",
+    "bze": "Belize City, BZ",
+    "spr": "Ambergris Caye, BZ",
+    "ptp": "Guadeloupe, GP",
+    "fdf": "Martinique, MQ",
+    "bdm": "Bermuda, BM",       # BDA is the IATA for Bermuda
+    "bda": "Bermuda, BM",
+    "pos": "Trinidad, TT",
+    # ── Central & South America ──────────────────────────────────────────────
+    "sjo": "San José, CR",
+    "lir": "Guanacaste, CR",
+    "pty": "Panama City, PA",
+    "bog": "Bogotá, CO",
+    "mde": "Medellín, CO",
+    "ctg": "Cartagena, CO",
+    "lim": "Lima, PE",
+    "cuz": "Cusco, PE",
+    "uio": "Quito, EC",
+    "gye": "Guayaquil, EC",
+    "gru": "São Paulo, BR",
+    "cgh": "São Paulo, BR",
+    "gig": "Rio de Janeiro, BR",
+    "sdu": "Rio de Janeiro, BR",
+    "ssz": "Santos, BR",
+    "eze": "Buenos Aires, AR",
+    "aep": "Buenos Aires, AR",
+    "mdz": "Mendoza, AR",
+    "brc": "Bariloche, AR",
+    "scl": "Santiago, CL",
+    "mvd": "Montevideo, UY",
+    "pdp": "Punta del Este, UY",
+    "ccs": "Caracas, VE",
+    # ── United Kingdom & Ireland ─────────────────────────────────────────────
+    "lhr": "London, GB",
+    "lgw": "London, GB",
+    "lcy": "London, GB",
+    "stn": "London, GB",
+    "edi": "Edinburgh, GB",
+    "gla": "Glasgow, GB",
+    "man": "Manchester, GB",
+    "bhx": "Birmingham, GB",
+    "brs": "Bristol, GB",
+    "cwl": "Cardiff, GB",
+    "dub": "Dublin, IE",
+    "noc": "Knock, IE",         # Ireland West
+    "snn": "Shannon, IE",
+    "cfn": "Donegal, IE",
+    # ── France ───────────────────────────────────────────────────────────────
+    "cdg": "Paris, FR",
+    "ory": "Paris, FR",
+    "nce": "Nice, FR",
+    "mrq": "Cannes, FR",        # Mandelieu La Napoule (Cannes area)
+    "mnl": "Nice, FR",          # actually Manila; "mnl" won't appear for Nice
+    "mrs": "Marseille, FR",
+    "lys": "Lyon, FR",
+    "bod": "Bordeaux, FR",
+    "bas": "Biarritz, FR",      # Biarritz airport: BIQ
+    "biq": "Biarritz, FR",
+    "sxb": "Strasbourg, FR",
+    "cot": "Courchevel, FR",    # Courchevel airport: CVF
+    "cvf": "Courchevel, FR",
+    "cmf": "Chambéry, FR",      # near ski resorts
+    "gva": "Geneva, CH",        # also serves French Alps
+    # ── Italy ────────────────────────────────────────────────────────────────
+    "fco": "Rome, IT",
+    "cia": "Rome, IT",
+    "rom": "Rome, IT",          # Hilton-internal city code
+    "lin": "Milan, IT",
+    "mxp": "Milan, IT",
+    "fir": "Florence, IT",
+    "flr": "Florence, IT",
+    "vce": "Venice, IT",
+    "trs": "Trieste, IT",
+    "nap": "Naples, IT",        # NOTE: conflicts with Naples FL above; Italy context
+    "pmo": "Palermo, IT",
+    "cag": "Sardinia, IT",
+    "olb": "Sardinia, IT",      # Olbia (Costa Smeralda)
+    "tor": "Turin, IT",
+    "blq": "Bologna, IT",
+    "bri": "Bari, IT",
+    # ── Spain ────────────────────────────────────────────────────────────────
+    "mad": "Madrid, ES",
+    "bcn": "Barcelona, ES",
+    "svq": "Seville, ES",
+    "grx": "Granada, ES",
+    "bao": "Bilbao, ES",        # BIO is Bilbao
+    "bio": "Bilbao, ES",
+    "vle": "Valencia, ES",      # VLC is Valencia
+    "vlc": "Valencia, ES",
+    "agp": "Málaga, ES",
+    "ibz": "Ibiza, ES",
+    "pmi": "Mallorca, ES",
+    "mah": "Menorca, ES",
+    "tfs": "Tenerife, ES",
+    "tfn": "Tenerife, ES",
+    "lpa": "Gran Canaria, ES",
+    "ace": "Lanzarote, ES",
+    "fue": "Fuerteventura, ES",
+    "eas": "San Sebastián, ES",
+    # ── Portugal ─────────────────────────────────────────────────────────────
+    "lis": "Lisbon, PT",
+    "opo": "Porto, PT",
+    "fao": "Algarve, PT",
+    "fnc": "Madeira, PT",
+    "pdl": "Azores, PT",
+    # ── Germany ──────────────────────────────────────────────────────────────
+    "ber": "Berlin, DE",
+    "txl": "Berlin, DE",
+    "fra": "Frankfurt, DE",
+    "muc": "Munich, DE",
+    "ham": "Hamburg, DE",
+    "cgn": "Cologne, DE",
+    "dus": "Düsseldorf, DE",
+    "str": "Stuttgart, DE",
+    "drs": "Dresden, DE",
+    "nue": "Nuremberg, DE",
+    "haj": "Hannover, DE",
+    "lem": "Leipzig, DE",
+    "lei": "Leipzig, DE",
+    # ── Austria / Switzerland ────────────────────────────────────────────────
+    "vie": "Vienna, AT",
+    "szg": "Salzburg, AT",
+    "inn": "Innsbruck, AT",
+    "lzs": "St. Moritz, CH",    # Samedan (St. Moritz area)
+    "smv": "St. Moritz, CH",
+    "zrh": "Zurich, CH",
+    "gva": "Geneva, CH",
+    "bsl": "Basel, CH",
+    "brn": "Bern, CH",
+    # ── Netherlands / Belgium ────────────────────────────────────────────────
+    "ams": "Amsterdam, NL",
+    "bru": "Brussels, BE",
+    "crl": "Brussels, BE",
+    # ── Scandinavia & Baltics ────────────────────────────────────────────────
+    "arn": "Stockholm, SE",
+    "bma": "Stockholm, SE",
+    "got": "Gothenburg, SE",
+    "cph": "Copenhagen, DK",
+    "osl": "Oslo, NO",
+    "bgo": "Bergen, NO",
+    "hel": "Helsinki, FI",
+    "kef": "Reykjavik, IS",
+    "tll": "Tallinn, EE",
+    "rix": "Riga, LV",
+    "vno": "Vilnius, LT",
+    # ── Eastern Europe ───────────────────────────────────────────────────────
+    "waw": "Warsaw, PL",
+    "krk": "Kraków, PL",
+    "prg": "Prague, CZ",
+    "bts": "Bratislava, SK",
+    "bud": "Budapest, HU",
+    "otp": "Bucharest, RO",
+    "sof": "Sofia, BG",
+    "dbv": "Dubrovnik, HR",
+    "spu": "Split, HR",
+    "zag": "Zagreb, HR",
+    "lju": "Ljubljana, SI",
+    "beg": "Belgrade, RS",
+    "say": "Sarajevo, BA",
+    "tia": "Tirana, AL",
+    "ath": "Athens, GR",
+    "jmk": "Mykonos, GR",
+    "jtr": "Santorini, GR",
+    "her": "Crete, GR",
+    "rho": "Rhodes, GR",
+    "cfu": "Corfu, GR",
+    "skg": "Thessaloniki, GR",
+    "iev": "Kyiv, UA",
+    "svo": "Moscow, RU",
+    "led": "St. Petersburg, RU",
+    "tbs": "Tbilisi, GE",
+    "gyd": "Baku, AZ",
+    "evn": "Yerevan, AM",
+    "ala": "Almaty, KZ",
+    "tse": "Astana, KZ",
+    "tas": "Tashkent, UZ",
+    # ── Turkey ───────────────────────────────────────────────────────────────
+    "ist": "Istanbul, TR",
+    "saw": "Istanbul, TR",
+    "esb": "Ankara, TR",
+    "ayt": "Antalya, TR",
+    "bjv": "Bodrum, TR",
+    "izm": "İzmir, TR",
+    "adm": "Adıyaman, TR",
+    # ── Middle East ──────────────────────────────────────────────────────────
+    "dxb": "Dubai, AE",
+    "dwc": "Dubai, AE",
+    "auh": "Abu Dhabi, AE",
+    "shj": "Sharjah, AE",
+    "rkt": "Ras Al Khaimah, AE",
+    "fjr": "Fujairah, AE",
+    "doh": "Doha, QA",
+    "ruh": "Riyadh, SA",
+    "jed": "Jeddah, SA",
+    "mct": "Muscat, OM",
+    "sll": "Salalah, OM",
+    "kwi": "Kuwait City, KW",
+    "bah": "Manama, BH",
+    "amm": "Amman, JO",
+    "bey": "Beirut, LB",
+    "tlv": "Tel Aviv, IL",
+    # ── Africa ───────────────────────────────────────────────────────────────
+    "cai": "Cairo, EG",
+    "ssh": "Sharm el-Sheikh, EG",
+    "hrg": "Hurghada, EG",
+    "lxr": "Luxor, EG",
+    "asw": "Aswan, EG",
+    "cmn": "Casablanca, MA",
+    "rak": "Marrakech, MA",
+    "tng": "Tangier, MA",
+    "aga": "Agadir, MA",
+    "tun": "Tunis, TN",
+    "dji": "Djibouti, DJ",
+    "cpt": "Cape Town, ZA",
+    "jnb": "Johannesburg, ZA",
+    "dur": "Durban, ZA",
+    "nbo": "Nairobi, KE",       # NOTE: Hilton may also use "nbo" for Ningbo;
+                                # if so, Tier-2 slug search catches "ningbo"
+    "ngb": "Ningbo, CN",        # Ningbo Lishe Intl (actual IATA)
+    "mba": "Mombasa, KE",
+    "jro": "Kilimanjaro, TZ",   # near Serengeti
+    "dar": "Dar es Salaam, TZ",
+    "znz": "Zanzibar, TZ",
+    "kgl": "Kigali, RW",
+    "add": "Addis Ababa, ET",
+    "los": "Lagos, NG",
+    "abv": "Abuja, NG",
+    "acc": "Accra, GH",
+    "dkr": "Dakar, SN",
+    "sex": "Seychelles, SC",    # SEZ is Seychelles
+    "sez": "Seychelles, SC",
+    "mru": "Mauritius, MU",
+    # ── India & South Asia ───────────────────────────────────────────────────
+    "bom": "Mumbai, IN",
+    "del": "New Delhi, IN",
+    "blr": "Bengaluru, IN",
+    "maa": "Chennai, IN",
+    "ccu": "Kolkata, IN",
+    "hyd": "Hyderabad, IN",
+    "goi": "Goa, IN",
+    "jai": "Jaipur, IN",
+    "udr": "Udaipur, IN",
+    "jdh": "Jodhpur, IN",
+    "agr": "Agra, IN",
+    "vns": "Varanasi, IN",
+    "atr": "Amritsar, IN",
+    "cok": "Kochi, IN",
+    "trv": "Thiruvananthapuram, IN",
+    "pnq": "Pune, IN",
+    "amd": "Ahmedabad, IN",
+    "ixc": "Chandigarh, IN",
+    "lko": "Lucknow, IN",
+    "cmb": "Colombo, LK",
+    "ktm": "Kathmandu, NP",
+    "dac": "Dhaka, BD",
+    "khi": "Karachi, PK",
+    "lhe": "Lahore, PK",
+    "isb": "Islamabad, PK",
+    # ── East Asia ────────────────────────────────────────────────────────────
+    "hkg": "Hong Kong, HK",
+    "mfm": "Macau, MO",
+    "nrt": "Tokyo, JP",
+    "hnd": "Tokyo, JP",
+    "kix": "Osaka, JP",
+    "itm": "Osaka, JP",
+    "cts": "Sapporo, JP",
+    "oka": "Okinawa, JP",
+    "fuk": "Fukuoka, JP",
+    "nak": "Nakhon Ratchasima, TH",
+    "ump": "Umpang, TH",
+    "kij": "Niigata, JP",
+    "sdj": "Sendai, JP",
+    "icn": "Seoul, KR",
+    "gmp": "Seoul, KR",
+    "pus": "Busan, KR",
+    "cju": "Jeju, KR",
+    "pek": "Beijing, CN",
+    "pkx": "Beijing, CN",
+    "pvg": "Shanghai, CN",
+    "sha": "Shanghai, CN",
+    "can": "Guangzhou, CN",
+    "szx": "Shenzhen, CN",
+    "ctu": "Chengdu, CN",
+    "ckg": "Chongqing, CN",
+    "xiy": "Xi'an, CN",
+    "hgh": "Hangzhou, CN",
+    "nkg": "Nanjing, CN",
+    "wuh": "Wuhan, CN",
+    "kmg": "Kunming, CN",
+    "kwl": "Guilin, CN",
+    "syx": "Sanya, CN",
+    "hrb": "Harbin, CN",
+    "tao": "Qingdao, CN",
+    "dlc": "Dalian, CN",
+    "tsn": "Tianjin, CN",
+    "ngb": "Ningbo, CN",
+    "tpe": "Taipei, TW",
+    "tsa": "Taipei, TW",
+    "khh": "Kaohsiung, TW",
+    "rmq": "Taichung, TW",
+    # ── Southeast Asia ───────────────────────────────────────────────────────
+    "sin": "Singapore, SG",
+    "kul": "Kuala Lumpur, MY",
+    "pen": "Penang, MY",
+    "bki": "Kota Kinabalu, MY",
+    "lgk": "Langkawi, MY",
+    "jhu": "Johor Bahru, MY",
+    "cgk": "Jakarta, ID",
+    "dps": "Bali, ID",
+    "lop": "Lombok, ID",
+    "jog": "Yogyakarta, ID",
+    "sub": "Surabaya, ID",
+    "bkk": "Bangkok, TH",
+    "dmk": "Bangkok, TH",
+    "hkt": "Phuket, TH",
+    "usm": "Koh Samui, TH",
+    "cnx": "Chiang Mai, TH",
+    "krb": "Krabi, TH",
+    "kbv": "Krabi, TH",
+    "hdx": "Hua Hin, TH",
+    "hdy": "Hat Yai, TH",
+    "sgn": "Ho Chi Minh City, VN",
+    "han": "Hanoi, VN",
+    "dad": "Da Nang, VN",
+    "vca": "Can Tho, VN",
+    "mnl": "Manila, PH",
+    "ceb": "Cebu, PH",
+    "mpu": "Boracay, PH",       # Caticlan (Boracay)
+    "ilo": "Iloilo, PH",
+    "pnh": "Phnom Penh, KH",
+    "rep": "Siem Reap, KH",
+    "lpq": "Luang Prabang, LA",
+    "vie": "Vientiane, LA",     # VTE is Vientiane
+    "vte": "Vientiane, LA",
+    "rgn": "Yangon, MM",
+    "mdl": "Mandalay, MM",
+    # ── Pacific ──────────────────────────────────────────────────────────────
+    "syd": "Sydney, AU",
+    "mel": "Melbourne, AU",
+    "bne": "Brisbane, AU",
+    "per": "Perth, AU",
+    "adl": "Adelaide, AU",
+    "ool": "Gold Coast, AU",
+    "cns": "Cairns, AU",
+    "drw": "Darwin, AU",
+    "akl": "Auckland, NZ",
+    "wlg": "Wellington, NZ",
+    "chc": "Christchurch, NZ",
+    "zqn": "Queenstown, NZ",
+    "rot": "Rotorua, NZ",
+    "nan": "Nadi, FJ",
+    "suv": "Suva, FJ",
+    "ppt": "Papeete, PF",
+    "bob": "Bora Bora, PF",
+    "moo": "Moorea, PF",
+    "gum": "Tumon, GU",
+    "spn": "Saipan, MP",
+    "mle": "Malé, MV",
+}
+
+# ---------------------------------------------------------------------------
 # City-hint table: (search_token, "City, CC")
 #
 # Searched against the combined lowercase URL slug + hotel name.
@@ -726,24 +1270,40 @@ _CITY_HINTS: list = [
 
 
 def _location_from_slug(url: str, hotel_name: str = "") -> str:
-    """Derive hotel_location by scanning the URL slug + hotel name for known cities.
+    """Derive hotel_location from the Hilton property URL and hotel name.
 
-    The URL slug (everything after the 7-char property code) and the hotel name
-    are combined into a single lowercase search string.  The first match in
-    _CITY_HINTS wins, so longer / more-specific tokens must appear earlier in
-    the list.
+    Two-tier lookup:
 
-    Returns a "City, CC" string, or "" when no hint matches.
+    Tier 1 — 3-char property-code prefix (most precise):
+        Hilton codes follow {CITY:3}{PROPERTY:2}{BRAND:2}.  The first three
+        characters are usually an IATA airport code or a Hilton-internal city
+        abbreviation, looked up in _CODE_TO_LOCATION.
+
+    Tier 2 — token search in URL slug + hotel name:
+        Falls back to scanning the combined lowercase text for entries in
+        _CITY_HINTS when the 3-char code is unknown or ambiguous.
+
+    Returns a "City, CC" string, or "" when neither tier matches.
     """
     canonical = _normalize_fetch_url(url)
-    slug = ""
-    m = re.search(r'/hotels/[^/]+-(.+?)/?$', canonical)
+
+    # ── Tier 1: property-code prefix ─────────────────────────────────────────
+    m = re.search(r'/hotels/([a-z]{3})[a-z]{4}-', canonical)
     if m:
-        slug = m.group(1).replace('-', ' ')
+        loc = _CODE_TO_LOCATION.get(m.group(1))
+        if loc:
+            return loc
+
+    # ── Tier 2: token search in slug + hotel name ─────────────────────────────
+    slug = ""
+    m2 = re.search(r'/hotels/[^/]+-(.+?)/?$', canonical)
+    if m2:
+        slug = m2.group(1).replace('-', ' ')
     combined = (slug + " " + hotel_name).lower()
     for token, location in _CITY_HINTS:
         if token in combined:
             return location
+
     return ""
 
 
