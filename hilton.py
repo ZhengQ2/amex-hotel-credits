@@ -3,8 +3,6 @@ from playwright.sync_api import sync_playwright, TimeoutError
 import pandas as pd
 import json
 import re
-import random
-import time
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -62,15 +60,6 @@ def _normalize_fetch_url(url: str) -> str:
         r'(https://(?:www\.)?hilton\.com)/[a-z]{2}(?:-[a-z]{2})?(/hotels/)',
         r'\1/en\2',
         url,
-    )
-
-
-def _is_error_page(html: str) -> bool:
-    """Return True if Hilton's CDN returned a bot-detection / error page."""
-    return (
-        "Hilton Page Reference Code" in html
-        or "Something went wrong" in html
-        or "Reference No." in html
     )
 
 
@@ -158,7 +147,32 @@ def _extract_location_from_html(html: str) -> tuple:
     return _extract_address_from_span(html)
 
 
-def fetch_hotel_address(url: str) -> tuple:
+def _make_fetch_session() -> requests.Session:
+    """Build a requests Session pre-seeded with hilton.com cookies.
+
+    Visiting the homepage first sets session/CDN cookies that make
+    subsequent property-page fetches look like a real browser flow.
+    """
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/124.0.0.0 Safari/537.36"
+        ),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://www.hilton.com/en/",
+        "Upgrade-Insecure-Requests": "1",
+    })
+    try:
+        session.get("https://www.hilton.com/en/", timeout=15)
+    except Exception:
+        pass
+    return session
+
+
+def fetch_hotel_address(url: str, session: requests.Session = None) -> tuple:
     """GET a Hilton property page and return (hotel_address, hotel_location).
 
     The URL is normalised to a canonical hilton.com/en/ address before fetching
@@ -168,7 +182,10 @@ def fetch_hotel_address(url: str) -> tuple:
         return "", ""
     fetch_url = _normalize_fetch_url(url)
     try:
-        resp = requests.get(fetch_url, timeout=_LOCATION_TIMEOUT, headers=_LOCATION_HEADERS)
+        if session is not None:
+            resp = session.get(fetch_url, timeout=_LOCATION_TIMEOUT)
+        else:
+            resp = requests.get(fetch_url, timeout=_LOCATION_TIMEOUT, headers=_LOCATION_HEADERS)
     except Exception:
         return "", ""
     if not resp.ok:
@@ -176,81 +193,29 @@ def fetch_hotel_address(url: str) -> tuple:
     return _extract_location_from_html(resp.text)
 
 
-def backfill_addresses(df: pd.DataFrame, context=None) -> pd.DataFrame:
-    """Fetch hotel_address (and hotel_location) for rows that are missing an address.
-
-    When a Playwright BrowserContext is supplied the function uses a dedicated
-    browser page so that JS-rendered content (JSON-LD, address spans) is
-    available.  This is required because Hilton's pages are React-rendered and
-    a plain HTTP GET returns a skeleton without address data.
-
-    When no context is provided the function falls back to concurrent requests,
-    which may yield empty results for JS-heavy pages.
-    """
+def backfill_addresses(df: pd.DataFrame) -> pd.DataFrame:
+    """Concurrently fetch hotel_address/hotel_location for rows missing an address."""
     mask = df["hotel_address"].str.strip() == ""
     missing_urls = df.loc[mask, "hotel_url"].tolist()
     if not missing_urls:
         return df
 
+    print(f"Fetching addresses for {len(missing_urls)} hotels ({_LOCATION_WORKERS} workers)...")
+    session = _make_fetch_session()
     url_to_result: Dict[str, tuple] = {}
 
-    if context is not None:
-        # ---- Playwright path (preferred) ----
-        # Playwright sync API is single-threaded; we iterate sequentially.
-        # In practice this only runs for new/uncached hotels so the cost is
-        # amortised over subsequent runs.
-        print(f"Fetching addresses for {len(missing_urls)} hotels via Playwright...")
-        addr_page = context.new_page()
-        addr_page.set_default_navigation_timeout(_LOCATION_TIMEOUT * 1000)
-        for i, url in enumerate(missing_urls, 1):
-            fetch_url = _normalize_fetch_url(url)
-            result = ("", "")
-            for attempt in range(3):
-                try:
-                    addr_page.goto(fetch_url, wait_until="domcontentloaded")
-                    # Wait briefly for React hydration / JSON-LD injection.
-                    try:
-                        addr_page.wait_for_selector(
-                            "script[type='application/ld+json']", timeout=8000
-                        )
-                    except Exception:
-                        pass  # page may not have JSON-LD; try span fallback
-                    html = addr_page.content()
-                    if _is_error_page(html):
-                        delay = 5.0 * (2 ** attempt) + random.uniform(1.0, 3.0)
-                        print(
-                            f"  [{i}/{len(missing_urls)}] Bot-detection hit "
-                            f"(attempt {attempt + 1}/3), retrying in {delay:.1f}s "
-                            f"({fetch_url})"
-                        )
-                        time.sleep(delay)
-                        continue
-                    result = _extract_location_from_html(html)
-                    break
-                except Exception:
-                    break  # navigation error — leave result empty
-            url_to_result[url] = result
-            if i % 10 == 0 or i == len(missing_urls):
-                print(f"  {i}/{len(missing_urls)} fetched")
-            # Throttle between requests to reduce CDN rate-limit risk.
-            time.sleep(random.uniform(1.5, 3.0))
-        addr_page.close()
-    else:
-        # ---- requests fallback (concurrent, but may miss JS-rendered data) ----
-        print(f"Fetching addresses for {len(missing_urls)} hotels via requests "
-              f"(up to {_LOCATION_WORKERS} parallel)...")
-        with ThreadPoolExecutor(max_workers=_LOCATION_WORKERS) as pool:
-            futures = {pool.submit(fetch_hotel_address, url): url for url in missing_urls}
-            done = 0
-            for future in as_completed(futures):
-                url = futures[future]
-                try:
-                    url_to_result[url] = future.result()
-                except Exception:
-                    url_to_result[url] = ("", "")
-                done += 1
-                if done % 20 == 0 or done == len(missing_urls):
-                    print(f"  {done}/{len(missing_urls)} fetched")
+    with ThreadPoolExecutor(max_workers=_LOCATION_WORKERS) as pool:
+        futures = {pool.submit(fetch_hotel_address, url, session): url for url in missing_urls}
+        done = 0
+        for future in as_completed(futures):
+            url = futures[future]
+            try:
+                url_to_result[url] = future.result()
+            except Exception:
+                url_to_result[url] = ("", "")
+            done += 1
+            if done % 20 == 0 or done == len(missing_urls):
+                print(f"  {done}/{len(missing_urls)} fetched")
 
     fetched_count = sum(1 for (a, _) in url_to_result.values() if a)
     print(f"  Address resolved for {fetched_count}/{len(missing_urls)} hotels")
@@ -595,7 +560,7 @@ def main(headless=True):
             except Exception:
                 pass
 
-        df = backfill_addresses(df, context=context)
+        df = backfill_addresses(df)
         df = df.sort_values(by=["group_label", "hotel_name"])
         df.to_csv(OUT, index=False)
         print(f"Wrote {len(df)} rows -> {OUT}")
