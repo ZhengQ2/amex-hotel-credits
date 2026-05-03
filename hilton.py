@@ -1,10 +1,7 @@
 # scrape_hilton_hotels_by_brand_playwright.py
 from playwright.sync_api import sync_playwright, TimeoutError
 import pandas as pd
-import json
 import re
-import requests
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from urllib.parse import urljoin, urlparse, urlunparse, parse_qsl, urlencode
 from typing import Dict, List, Any, Tuple
@@ -24,20 +21,8 @@ URL = "https://www.hilton.com/en/p/hilton-honors/resort-credit-eligible-hotels/"
 OUT = "cache/hilton_hotels.csv"
 CACHE_FILE = "cache/geocode_cache_google_hilton.json"
 
-_LOCATION_WORKERS = 10
-_LOCATION_TIMEOUT = 15  # seconds per request
-_LOCATION_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/124.0.0.0 Safari/537.36"
-    ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.9",
-}
-
 # Some hotels are listed with external-brand domains or non-English Hilton locales.
-# Map them to their canonical hilton.com/en/ property page so we can extract JSON-LD.
+# _normalize_fetch_url uses this to resolve the canonical slug for city-hint matching.
 _EXTERNAL_URL_MAP: Dict[str, str] = {
     "https://romecavalieri.com/":               "https://www.hilton.com/en/hotels/romhiwa-rome-cavalieri/",
     "https://www.grandwailea.com/":             "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/",
@@ -63,168 +48,727 @@ def _normalize_fetch_url(url: str) -> str:
     )
 
 
-def _extract_address_from_span(html: str) -> tuple:
-    """Extract (hotel_address, hotel_location) from Hilton's address span element.
+# ---------------------------------------------------------------------------
+# City-hint table: (search_token, "City, CC")
+#
+# Searched against the combined lowercase URL slug + hotel name.
+# Rules:
+#   • Multi-word tokens must appear BEFORE any of their component words.
+#   • Tokens are plain substrings — no regex.
+#   • CC = ISO 3166-1 alpha-2 country code (CA = Canada, not California).
+# ---------------------------------------------------------------------------
+_CITY_HINTS: list = [
+    # ── United States — Hawaii ───────────────────────────────────────────────
+    ("ko olina",          "Honolulu, US"),
+    ("turtle bay",        "Oahu, US"),
+    ("waikiki",           "Honolulu, US"),
+    ("honolulu",          "Honolulu, US"),
+    ("kapalua",           "Maui, US"),
+    ("kaanapali",         "Maui, US"),
+    ("wailea",            "Maui, US"),
+    ("lahaina",           "Maui, US"),
+    ("grand wailea",      "Maui, US"),
+    ("maui",              "Maui, US"),
+    ("princeville",       "Kauai, US"),
+    ("poipu",             "Kauai, US"),
+    ("kauai",             "Kauai, US"),
+    ("waikoloa",          "Big Island, US"),
+    ("kohala",            "Big Island, US"),
+    ("kona",              "Kona, US"),
+    ("hilo",              "Hilo, US"),
+    # ── United States — Nevada / Mountain West ───────────────────────────────
+    ("las vegas",         "Las Vegas, US"),
+    ("henderson",         "Henderson, US"),
+    ("park city",         "Park City, US"),
+    ("jackson hole",      "Jackson Hole, US"),
+    ("sun valley",        "Sun Valley, US"),
+    ("aspen",             "Aspen, US"),
+    ("vail",              "Vail, US"),
+    ("breckenridge",      "Breckenridge, US"),
+    ("steamboat",         "Steamboat Springs, US"),
+    ("telluride",         "Telluride, US"),
+    ("snowmass",          "Snowmass, US"),
+    ("lake tahoe",        "Lake Tahoe, US"),
+    ("mammoth",           "Mammoth Lakes, US"),
+    ("santa fe",          "Santa Fe, US"),
+    ("taos",              "Taos, US"),
+    ("albuquerque",       "Albuquerque, US"),
+    ("salt lake",         "Salt Lake City, US"),
+    ("denver",            "Denver, US"),
+    ("boulder",           "Boulder, US"),
+    ("bozeman",           "Bozeman, US"),
+    ("whitefish",         "Whitefish, US"),
+    # ── United States — California ───────────────────────────────────────────
+    ("san francisco",     "San Francisco, US"),
+    ("half moon bay",     "Half Moon Bay, US"),
+    ("napa",              "Napa, US"),
+    ("sonoma",            "Sonoma, US"),
+    ("healdsburg",        "Healdsburg, US"),
+    ("los angeles",       "Los Angeles, US"),
+    ("beverly hills",     "Beverly Hills, US"),
+    ("west hollywood",    "West Hollywood, US"),
+    ("santa monica",      "Santa Monica, US"),
+    ("long beach",        "Long Beach, US"),
+    ("huntington beach",  "Huntington Beach, US"),
+    ("newport beach",     "Newport Beach, US"),
+    ("laguna beach",      "Laguna Beach, US"),
+    ("dana point",        "Dana Point, US"),
+    ("monarch beach",     "Dana Point, US"),
+    ("san diego",         "San Diego, US"),
+    ("del coronado",      "Coronado, US"),
+    ("shore house",       "Coronado, US"),
+    ("coronado",          "Coronado, US"),
+    ("pebble beach",      "Pebble Beach, US"),
+    ("carmel",            "Carmel, US"),
+    ("monterey",          "Monterey, US"),
+    ("santa barbara",     "Santa Barbara, US"),
+    ("palm springs",      "Palm Springs, US"),
+    ("palm desert",       "Palm Desert, US"),
+    ("la quinta",         "La Quinta, US"),
+    ("indian wells",      "Indian Wells, US"),
+    ("rancho mirage",     "Rancho Mirage, US"),
+    ("sacramento",        "Sacramento, US"),
+    # ── United States — Arizona ──────────────────────────────────────────────
+    ("scottsdale",        "Scottsdale, US"),
+    ("phoenix",           "Phoenix, US"),
+    ("sedona",            "Sedona, US"),
+    ("tucson",            "Tucson, US"),
+    # ── United States — Pacific Northwest ────────────────────────────────────
+    ("seattle",           "Seattle, US"),
+    ("bellevue",          "Bellevue, US"),
+    ("spokane",           "Spokane, US"),
+    ("portland",          "Portland, US"),
+    ("bend",              "Bend, US"),
+    ("anchorage",         "Anchorage, US"),
+    # ── United States — Florida ──────────────────────────────────────────────
+    ("miami beach",       "Miami Beach, US"),
+    ("miami",             "Miami, US"),
+    ("fort lauderdale",   "Fort Lauderdale, US"),
+    ("boca raton",        "Boca Raton, US"),
+    ("west palm beach",   "West Palm Beach, US"),
+    ("palm beach",        "Palm Beach, US"),
+    ("naples",            "Naples, US"),
+    ("marco island",      "Marco Island, US"),
+    ("bonnet creek",      "Orlando, US"),
+    ("orlando",           "Orlando, US"),
+    ("tampa",             "Tampa, US"),
+    ("clearwater",        "Clearwater, US"),
+    ("st augustine",      "St. Augustine, US"),
+    ("jacksonville",      "Jacksonville, US"),
+    ("key west",          "Key West, US"),
+    ("destin",            "Destin, US"),
+    ("gulf shores",       "Gulf Shores, US"),
+    ("pensacola",         "Pensacola, US"),
+    ("sarasota",          "Sarasota, US"),
+    ("daytona",           "Daytona Beach, US"),
+    # ── United States — Southeast ────────────────────────────────────────────
+    ("atlanta",           "Atlanta, US"),
+    ("savannah",          "Savannah, US"),
+    ("hilton head",       "Hilton Head, US"),
+    ("myrtle beach",      "Myrtle Beach, US"),
+    ("kiawah",            "Kiawah Island, US"),
+    ("charleston",        "Charleston, US"),
+    ("asheville",         "Asheville, US"),
+    ("charlotte",         "Charlotte, US"),
+    ("outer banks",       "Outer Banks, US"),
+    ("virginia beach",    "Virginia Beach, US"),
+    ("williamsburg",      "Williamsburg, US"),
+    ("richmond",          "Richmond, US"),
+    ("new orleans",       "New Orleans, US"),
+    ("baton rouge",       "Baton Rouge, US"),
+    ("nashville",         "Nashville, US"),
+    ("memphis",           "Memphis, US"),
+    ("louisville",        "Louisville, US"),
+    ("birmingham",        "Birmingham, US"),
+    # ── United States — Mid-Atlantic / Northeast ─────────────────────────────
+    ("washington dc",     "Washington DC, US"),
+    ("national harbor",   "National Harbor, US"),
+    ("mclean",            "McLean, US"),
+    ("bethesda",          "Bethesda, US"),
+    ("baltimore",         "Baltimore, US"),
+    ("annapolis",         "Annapolis, US"),
+    ("ocean city",        "Ocean City, US"),
+    ("atlantic city",     "Atlantic City, US"),
+    ("cape may",          "Cape May, US"),
+    ("philadelphia",      "Philadelphia, US"),
+    ("pittsburgh",        "Pittsburgh, US"),
+    ("new york",          "New York, US"),
+    ("manhattan",         "New York, US"),
+    ("brooklyn",          "Brooklyn, US"),
+    ("the hamptons",      "Hamptons, US"),
+    ("hamptons",          "Hamptons, US"),
+    ("niagara falls",     "Niagara Falls, US"),
+    ("lake placid",       "Lake Placid, US"),
+    ("long island",       "Long Island, US"),
+    ("boston",            "Boston, US"),
+    ("cape cod",          "Cape Cod, US"),
+    ("nantucket",         "Nantucket, US"),
+    ("martha",            "Martha's Vineyard, US"),
+    ("newport",           "Newport, US"),
+    ("bar harbor",        "Bar Harbor, US"),
+    ("stowe",             "Stowe, US"),
+    # ── United States — Midwest ──────────────────────────────────────────────
+    ("chicago",           "Chicago, US"),
+    ("detroit",           "Detroit, US"),
+    ("cleveland",         "Cleveland, US"),
+    ("columbus",          "Columbus, US"),
+    ("cincinnati",        "Cincinnati, US"),
+    ("indianapolis",      "Indianapolis, US"),
+    ("milwaukee",         "Milwaukee, US"),
+    ("minneapolis",       "Minneapolis, US"),
+    ("st louis",          "St. Louis, US"),
+    ("saint louis",       "St. Louis, US"),
+    ("kansas city",       "Kansas City, US"),
+    ("omaha",             "Omaha, US"),
+    ("traverse city",     "Traverse City, US"),
+    ("mackinac",          "Mackinac Island, US"),
+    # ── United States — Texas ────────────────────────────────────────────────
+    ("san antonio",       "San Antonio, US"),
+    ("fort worth",        "Fort Worth, US"),
+    ("dallas",            "Dallas, US"),
+    ("houston",           "Houston, US"),
+    ("austin",            "Austin, US"),
+    ("galveston",         "Galveston, US"),
+    ("el paso",           "El Paso, US"),
+    # ── Canada ───────────────────────────────────────────────────────────────
+    ("whistler",          "Whistler, CA"),
+    ("banff",             "Banff, CA"),
+    ("jasper",            "Jasper, CA"),
+    ("kelowna",           "Kelowna, CA"),
+    ("victoria",          "Victoria, CA"),
+    ("vancouver",         "Vancouver, CA"),
+    ("toronto",           "Toronto, CA"),
+    ("ottawa",            "Ottawa, CA"),
+    ("montreal",          "Montreal, CA"),
+    ("québec",            "Quebec City, CA"),
+    ("quebec",            "Quebec City, CA"),
+    ("niagara",           "Niagara Falls, CA"),
+    ("edmonton",          "Edmonton, CA"),
+    ("calgary",           "Calgary, CA"),
+    ("halifax",           "Halifax, CA"),
+    # ── Mexico ───────────────────────────────────────────────────────────────
+    ("cabo san lucas",    "Los Cabos, MX"),
+    ("san jose del cabo", "Los Cabos, MX"),
+    ("los cabos",         "Los Cabos, MX"),
+    ("cancún",            "Cancun, MX"),
+    ("cancun",            "Cancun, MX"),
+    ("playa del carmen",  "Playa del Carmen, MX"),
+    ("riviera maya",      "Riviera Maya, MX"),
+    ("tulum",             "Tulum, MX"),
+    ("cozumel",           "Cozumel, MX"),
+    ("puerto vallarta",   "Puerto Vallarta, MX"),
+    ("nuevo vallarta",    "Puerto Vallarta, MX"),
+    ("punta mita",        "Punta Mita, MX"),
+    ("huatulco",          "Huatulco, MX"),
+    ("acapulco",          "Acapulco, MX"),
+    ("puerto peñasco",    "Puerto Peñasco, MX"),
+    ("puerto penasco",    "Puerto Peñasco, MX"),
+    ("mazatlan",          "Mazatlán, MX"),
+    ("ixtapa",            "Ixtapa, MX"),
+    ("zihuatanejo",       "Zihuatanejo, MX"),
+    ("manzanillo",        "Manzanillo, MX"),
+    ("monterrey",         "Monterrey, MX"),
+    ("guadalajara",       "Guadalajara, MX"),
+    ("mexico city",       "Mexico City, MX"),
+    ("ciudad de mexico",  "Mexico City, MX"),
+    ("oaxaca",            "Oaxaca, MX"),
+    ("mérida",            "Merida, MX"),
+    ("merida",            "Merida, MX"),
+    # ── Caribbean ────────────────────────────────────────────────────────────
+    ("nassau",            "Nassau, BS"),
+    ("paradise island",   "Nassau, BS"),
+    ("turks and caicos",  "Turks and Caicos, TC"),
+    ("providenciales",    "Turks and Caicos, TC"),
+    ("punta cana",        "Punta Cana, DO"),
+    ("santo domingo",     "Santo Domingo, DO"),
+    ("san juan",          "San Juan, PR"),
+    ("puerto rico",       "San Juan, PR"),
+    ("st thomas",         "St. Thomas, VI"),
+    ("saint thomas",      "St. Thomas, VI"),
+    ("st croix",          "St. Croix, VI"),
+    ("saint croix",       "St. Croix, VI"),
+    ("aruba",             "Aruba, AW"),
+    ("curaçao",           "Curaçao, CW"),
+    ("curacao",           "Curaçao, CW"),
+    ("sint maarten",      "Sint Maarten, SX"),
+    ("st maarten",        "Sint Maarten, SX"),
+    ("saint maarten",     "Sint Maarten, SX"),
+    ("st martin",         "St. Martin, MF"),
+    ("saint martin",      "St. Martin, MF"),
+    ("st lucia",          "St. Lucia, LC"),
+    ("saint lucia",       "St. Lucia, LC"),
+    ("barbados",          "Barbados, BB"),
+    ("bridgetown",        "Bridgetown, BB"),
+    ("montego bay",       "Montego Bay, JM"),
+    ("ocho rios",         "Ocho Rios, JM"),
+    ("negril",            "Negril, JM"),
+    ("jamaica",           "Jamaica, JM"),
+    ("antigua",           "Antigua, AG"),
+    ("st kitts",          "St. Kitts, KN"),
+    ("nevis",             "Nevis, KN"),
+    ("bermuda",           "Bermuda, BM"),
+    ("grand cayman",      "Grand Cayman, KY"),
+    ("cayman",            "Cayman Islands, KY"),
+    ("belize",            "Belize City, BZ"),
+    ("ambergris",         "Belize, BZ"),
+    ("guadeloupe",        "Guadeloupe, GP"),
+    ("martinique",        "Martinique, MQ"),
+    ("havana",            "Havana, CU"),
+    ("trinidad",          "Trinidad, TT"),
+    ("tobago",            "Tobago, TT"),
+    # ── Central & South America ──────────────────────────────────────────────
+    ("guanacaste",        "Guanacaste, CR"),
+    ("papagayo",          "Guanacaste, CR"),
+    ("manuel antonio",    "Manuel Antonio, CR"),
+    ("tamarindo",         "Tamarindo, CR"),
+    ("costa rica",        "San José, CR"),
+    ("panama city",       "Panama City, PA"),
+    ("cartagena",         "Cartagena, CO"),
+    ("bogotá",            "Bogotá, CO"),
+    ("bogota",            "Bogotá, CO"),
+    ("medellín",          "Medellín, CO"),
+    ("medellin",          "Medellín, CO"),
+    ("machu picchu",      "Cusco, PE"),
+    ("cusco",             "Cusco, PE"),
+    ("lima",              "Lima, PE"),
+    ("quito",             "Quito, EC"),
+    ("galapagos",         "Galápagos, EC"),
+    ("galápagos",         "Galápagos, EC"),
+    ("rio de janeiro",    "Rio de Janeiro, BR"),
+    ("são paulo",         "São Paulo, BR"),
+    ("sao paulo",         "São Paulo, BR"),
+    ("salvador",          "Salvador, BR"),
+    ("fortaleza",         "Fortaleza, BR"),
+    ("buenos aires",      "Buenos Aires, AR"),
+    ("mendoza",           "Mendoza, AR"),
+    ("bariloche",         "Bariloche, AR"),
+    ("punta del este",    "Punta del Este, UY"),
+    ("montevideo",        "Montevideo, UY"),
+    ("santiago",          "Santiago, CL"),
+    # ── United Kingdom & Ireland ─────────────────────────────────────────────
+    ("london",            "London, GB"),
+    ("edinburgh",         "Edinburgh, GB"),
+    ("glasgow",           "Glasgow, GB"),
+    ("manchester",        "Manchester, GB"),
+    ("bath",              "Bath, GB"),
+    ("oxford",            "Oxford, GB"),
+    ("liverpool",         "Liverpool, GB"),
+    ("bristol",           "Bristol, GB"),
+    ("cardiff",           "Cardiff, GB"),
+    ("dublin",            "Dublin, IE"),
+    ("galway",            "Galway, IE"),
+    ("cork",              "Cork, IE"),
+    # ── France ───────────────────────────────────────────────────────────────
+    ("monte carlo",       "Monaco, MC"),
+    ("monaco",            "Monaco, MC"),
+    ("saint tropez",      "Saint-Tropez, FR"),
+    ("st tropez",         "Saint-Tropez, FR"),
+    ("courchevel",        "Courchevel, FR"),
+    ("chamonix",          "Chamonix, FR"),
+    ("cannes",            "Cannes, FR"),
+    ("antibes",           "Antibes, FR"),
+    ("biarritz",          "Biarritz, FR"),
+    ("bordeaux",          "Bordeaux, FR"),
+    ("marseille",         "Marseille, FR"),
+    ("strasbourg",        "Strasbourg, FR"),
+    ("lyon",              "Lyon, FR"),
+    ("paris",             "Paris, FR"),
+    ("nice",              "Nice, FR"),
+    # ── Italy ────────────────────────────────────────────────────────────────
+    ("lake como",         "Lake Como, IT"),
+    ("amalfi",            "Amalfi Coast, IT"),
+    ("positano",          "Positano, IT"),
+    ("sorrento",          "Sorrento, IT"),
+    ("capri",             "Capri, IT"),
+    ("rome cavalieri",    "Rome, IT"),
+    ("rome",              "Rome, IT"),
+    ("milan",             "Milan, IT"),
+    ("florence",          "Florence, IT"),
+    ("venice",            "Venice, IT"),
+    ("tuscany",           "Tuscany, IT"),
+    ("sardinia",          "Sardinia, IT"),
+    ("sicily",            "Sicily, IT"),
+    ("palermo",           "Palermo, IT"),
+    ("verona",            "Verona, IT"),
+    ("bologna",           "Bologna, IT"),
+    ("turin",             "Turin, IT"),
+    # ── Spain ────────────────────────────────────────────────────────────────
+    ("san sebastian",     "San Sebastián, ES"),
+    ("gran canaria",      "Gran Canaria, ES"),
+    ("las palmas",        "Las Palmas, ES"),
+    ("marbella",          "Marbella, ES"),
+    ("ibiza",             "Ibiza, ES"),
+    ("mallorca",          "Mallorca, ES"),
+    ("menorca",           "Menorca, ES"),
+    ("tenerife",          "Tenerife, ES"),
+    ("lanzarote",         "Lanzarote, ES"),
+    ("fuerteventura",     "Fuerteventura, ES"),
+    ("madrid",            "Madrid, ES"),
+    ("barcelona",         "Barcelona, ES"),
+    ("seville",           "Seville, ES"),
+    ("sevilla",           "Seville, ES"),
+    ("granada",           "Granada, ES"),
+    ("bilbao",            "Bilbao, ES"),
+    ("valencia",          "Valencia, ES"),
+    ("málaga",            "Málaga, ES"),
+    ("malaga",            "Málaga, ES"),
+    ("palma",             "Palma, ES"),
+    ("córdoba",           "Córdoba, ES"),
+    ("cordoba",           "Córdoba, ES"),
+    # ── Portugal ─────────────────────────────────────────────────────────────
+    ("algarve",           "Algarve, PT"),
+    ("madeira",           "Madeira, PT"),
+    ("azores",            "Azores, PT"),
+    ("cascais",           "Cascais, PT"),
+    ("sintra",            "Sintra, PT"),
+    ("lisbon",            "Lisbon, PT"),
+    ("lisboa",            "Lisbon, PT"),
+    ("porto",             "Porto, PT"),
+    # ── Germany ──────────────────────────────────────────────────────────────
+    ("berlin",            "Berlin, DE"),
+    ("münchen",           "Munich, DE"),
+    ("munich",            "Munich, DE"),
+    ("frankfurt",         "Frankfurt, DE"),
+    ("hamburg",           "Hamburg, DE"),
+    ("cologne",           "Cologne, DE"),
+    ("köln",              "Cologne, DE"),
+    ("düsseldorf",        "Düsseldorf, DE"),
+    ("dusseldorf",        "Düsseldorf, DE"),
+    ("stuttgart",         "Stuttgart, DE"),
+    ("dresden",           "Dresden, DE"),
+    ("heidelberg",        "Heidelberg, DE"),
+    ("nuremberg",         "Nuremberg, DE"),
+    ("nürnberg",          "Nuremberg, DE"),
+    # ── Austria / Switzerland ────────────────────────────────────────────────
+    ("vienna",            "Vienna, AT"),
+    ("wien",              "Vienna, AT"),
+    ("salzburg",          "Salzburg, AT"),
+    ("innsbruck",         "Innsbruck, AT"),
+    ("kitzbühel",         "Kitzbühel, AT"),
+    ("st moritz",         "St. Moritz, CH"),
+    ("zermatt",           "Zermatt, CH"),
+    ("interlaken",        "Interlaken, CH"),
+    ("davos",             "Davos, CH"),
+    ("montreux",          "Montreux, CH"),
+    ("lausanne",          "Lausanne, CH"),
+    ("zurich",            "Zurich, CH"),
+    ("zürich",            "Zurich, CH"),
+    ("geneva",            "Geneva, CH"),
+    ("genève",            "Geneva, CH"),
+    ("lucerne",           "Lucerne, CH"),
+    ("luzern",            "Lucerne, CH"),
+    ("basel",             "Basel, CH"),
+    # ── Netherlands / Belgium ────────────────────────────────────────────────
+    ("amsterdam",         "Amsterdam, NL"),
+    ("rotterdam",         "Rotterdam, NL"),
+    ("the hague",         "The Hague, NL"),
+    ("brussels",          "Brussels, BE"),
+    ("bruxelles",         "Brussels, BE"),
+    ("bruges",            "Bruges, BE"),
+    ("antwerp",           "Antwerp, BE"),
+    ("ghent",             "Ghent, BE"),
+    # ── Scandinavia & Baltics ────────────────────────────────────────────────
+    ("stockholm",         "Stockholm, SE"),
+    ("gothenburg",        "Gothenburg, SE"),
+    ("göteborg",          "Gothenburg, SE"),
+    ("malmö",             "Malmö, SE"),
+    ("malmo",             "Malmö, SE"),
+    ("copenhagen",        "Copenhagen, DK"),
+    ("oslo",              "Oslo, NO"),
+    ("bergen",            "Bergen, NO"),
+    ("helsinki",          "Helsinki, FI"),
+    ("reykjavík",         "Reykjavik, IS"),
+    ("reykjavik",         "Reykjavik, IS"),
+    ("tallinn",           "Tallinn, EE"),
+    ("riga",              "Riga, LV"),
+    ("vilnius",           "Vilnius, LT"),
+    # ── Eastern Europe ───────────────────────────────────────────────────────
+    ("warsaw",            "Warsaw, PL"),
+    ("kraków",            "Kraków, PL"),
+    ("krakow",            "Kraków, PL"),
+    ("prague",            "Prague, CZ"),
+    ("budapest",          "Budapest, HU"),
+    ("bucharest",         "Bucharest, RO"),
+    ("sofia",             "Sofia, BG"),
+    ("dubrovnik",         "Dubrovnik, HR"),
+    ("split",             "Split, HR"),
+    ("zagreb",            "Zagreb, HR"),
+    ("hvar",              "Hvar, HR"),
+    ("ljubljana",         "Ljubljana, SI"),
+    ("belgrade",          "Belgrade, RS"),
+    ("sarajevo",          "Sarajevo, BA"),
+    ("athens",            "Athens, GR"),
+    ("mykonos",           "Mykonos, GR"),
+    ("santorini",         "Santorini, GR"),
+    ("crete",             "Crete, GR"),
+    ("rhodes",            "Rhodes, GR"),
+    ("corfu",             "Corfu, GR"),
+    ("thessaloniki",      "Thessaloniki, GR"),
+    ("kyiv",              "Kyiv, UA"),
+    ("moscow",            "Moscow, RU"),
+    ("st petersburg",     "St. Petersburg, RU"),
+    ("saint petersburg",  "St. Petersburg, RU"),
+    ("tbilisi",           "Tbilisi, GE"),
+    ("baku",              "Baku, AZ"),
+    ("yerevan",           "Yerevan, AM"),
+    ("almaty",            "Almaty, KZ"),
+    ("astana",            "Astana, KZ"),
+    ("tashkent",          "Tashkent, UZ"),
+    # ── Turkey ───────────────────────────────────────────────────────────────
+    ("istanbul",          "Istanbul, TR"),
+    ("ankara",            "Ankara, TR"),
+    ("antalya",           "Antalya, TR"),
+    ("bodrum",            "Bodrum, TR"),
+    ("cappadocia",        "Cappadocia, TR"),
+    ("kapadokya",         "Cappadocia, TR"),
+    ("alanya",            "Alanya, TR"),
+    ("fethiye",           "Fethiye, TR"),
+    ("izmir",             "İzmir, TR"),
+    # ── Middle East ──────────────────────────────────────────────────────────
+    ("abu dhabi",         "Abu Dhabi, AE"),
+    ("dubai",             "Dubai, AE"),
+    ("sharjah",           "Sharjah, AE"),
+    ("ras al khaimah",    "Ras Al Khaimah, AE"),
+    ("fujairah",          "Fujairah, AE"),
+    ("doha",              "Doha, QA"),
+    ("riyadh",            "Riyadh, SA"),
+    ("jeddah",            "Jeddah, SA"),
+    ("makkah",            "Mecca, SA"),
+    ("mecca",             "Mecca, SA"),
+    ("medina",            "Medina, SA"),
+    ("al khobar",         "Al Khobar, SA"),
+    ("dammam",            "Dammam, SA"),
+    ("neom",              "NEOM, SA"),
+    ("muscat",            "Muscat, OM"),
+    ("salalah",           "Salalah, OM"),
+    ("kuwait",            "Kuwait City, KW"),
+    ("manama",            "Manama, BH"),
+    ("bahrain",           "Manama, BH"),
+    ("amman",             "Amman, JO"),
+    ("petra",             "Petra, JO"),
+    ("aqaba",             "Aqaba, JO"),
+    ("dead sea",          "Dead Sea, JO"),
+    ("beirut",            "Beirut, LB"),
+    ("tel aviv",          "Tel Aviv, IL"),
+    ("jerusalem",         "Jerusalem, IL"),
+    ("eilat",             "Eilat, IL"),
+    # ── Africa ───────────────────────────────────────────────────────────────
+    ("sharm el sheikh",   "Sharm el-Sheikh, EG"),
+    ("sharm",             "Sharm el-Sheikh, EG"),
+    ("hurghada",          "Hurghada, EG"),
+    ("luxor",             "Luxor, EG"),
+    ("aswan",             "Aswan, EG"),
+    ("cairo",             "Cairo, EG"),
+    ("alexandria",        "Alexandria, EG"),
+    ("marrakech",         "Marrakech, MA"),
+    ("marrakesh",         "Marrakech, MA"),
+    ("casablanca",        "Casablanca, MA"),
+    ("tangier",           "Tangier, MA"),
+    ("agadir",            "Agadir, MA"),
+    ("tunis",             "Tunis, TN"),
+    ("djerba",            "Djerba, TN"),
+    ("cape town",         "Cape Town, ZA"),
+    ("johannesburg",      "Johannesburg, ZA"),
+    ("durban",            "Durban, ZA"),
+    ("stellenbosch",      "Stellenbosch, ZA"),
+    ("nairobi",           "Nairobi, KE"),
+    ("mombasa",           "Mombasa, KE"),
+    ("masai mara",        "Masai Mara, KE"),
+    ("zanzibar",          "Zanzibar, TZ"),
+    ("dar es salaam",     "Dar es Salaam, TZ"),
+    ("serengeti",         "Serengeti, TZ"),
+    ("kigali",            "Kigali, RW"),
+    ("addis ababa",       "Addis Ababa, ET"),
+    ("lagos",             "Lagos, NG"),
+    ("abuja",             "Abuja, NG"),
+    ("accra",             "Accra, GH"),
+    ("dakar",             "Dakar, SN"),
+    ("seychelles",        "Seychelles, SC"),
+    ("mahé",              "Seychelles, SC"),
+    ("mahe",              "Seychelles, SC"),
+    ("mauritius",         "Mauritius, MU"),
+    ("maldives",          "Maldives, MV"),
+    # ── India & South Asia ───────────────────────────────────────────────────
+    ("new delhi",         "New Delhi, IN"),
+    ("mumbai",            "Mumbai, IN"),
+    ("bombay",            "Mumbai, IN"),
+    ("bengaluru",         "Bengaluru, IN"),
+    ("bangalore",         "Bengaluru, IN"),
+    ("chennai",           "Chennai, IN"),
+    ("kolkata",           "Kolkata, IN"),
+    ("hyderabad",         "Hyderabad, IN"),
+    ("jaipur",            "Jaipur, IN"),
+    ("udaipur",           "Udaipur, IN"),
+    ("jodhpur",           "Jodhpur, IN"),
+    ("agra",              "Agra, IN"),
+    ("varanasi",          "Varanasi, IN"),
+    ("amritsar",          "Amritsar, IN"),
+    ("goa",               "Goa, IN"),
+    ("kochi",             "Kochi, IN"),
+    ("kerala",            "Kerala, IN"),
+    ("pune",              "Pune, IN"),
+    ("ahmedabad",         "Ahmedabad, IN"),
+    ("chandigarh",        "Chandigarh, IN"),
+    ("delhi",             "New Delhi, IN"),
+    ("colombo",           "Colombo, LK"),
+    ("kandy",             "Kandy, LK"),
+    ("galle",             "Galle, LK"),
+    ("kathmandu",         "Kathmandu, NP"),
+    ("dhaka",             "Dhaka, BD"),
+    ("islamabad",         "Islamabad, PK"),
+    ("lahore",            "Lahore, PK"),
+    ("karachi",           "Karachi, PK"),
+    # ── East & Southeast Asia ────────────────────────────────────────────────
+    ("hong kong",         "Hong Kong, HK"),
+    ("macau",             "Macau, MO"),
+    ("macao",             "Macau, MO"),
+    ("tokyo",             "Tokyo, JP"),
+    ("osaka",             "Osaka, JP"),
+    ("kyoto",             "Kyoto, JP"),
+    ("hiroshima",         "Hiroshima, JP"),
+    ("sapporo",           "Sapporo, JP"),
+    ("okinawa",           "Okinawa, JP"),
+    ("fukuoka",           "Fukuoka, JP"),
+    ("yokohama",          "Yokohama, JP"),
+    ("nagoya",            "Nagoya, JP"),
+    ("nara",              "Nara, JP"),
+    ("kobe",              "Kobe, JP"),
+    ("seoul",             "Seoul, KR"),
+    ("busan",             "Busan, KR"),
+    ("jeju",              "Jeju, KR"),
+    ("beijing",           "Beijing, CN"),
+    ("shanghai",          "Shanghai, CN"),
+    ("guangzhou",         "Guangzhou, CN"),
+    ("shenzhen",          "Shenzhen, CN"),
+    ("chengdu",           "Chengdu, CN"),
+    ("chongqing",         "Chongqing, CN"),
+    ("xi'an",             "Xi'an, CN"),
+    ("xian",              "Xi'an, CN"),
+    ("hangzhou",          "Hangzhou, CN"),
+    ("nanjing",           "Nanjing, CN"),
+    ("wuhan",             "Wuhan, CN"),
+    ("kunming",           "Kunming, CN"),
+    ("guilin",            "Guilin, CN"),
+    ("sanya",             "Sanya, CN"),
+    ("hainan",            "Hainan, CN"),
+    ("harbin",            "Harbin, CN"),
+    ("qingdao",           "Qingdao, CN"),
+    ("dalian",            "Dalian, CN"),
+    ("tianjin",           "Tianjin, CN"),
+    ("suzhou",            "Suzhou, CN"),
+    ("ningbo",            "Ningbo, CN"),
+    ("taipei",            "Taipei, TW"),
+    ("kaohsiung",         "Kaohsiung, TW"),
+    ("singapore",         "Singapore, SG"),
+    ("kuala lumpur",      "Kuala Lumpur, MY"),
+    ("penang",            "Penang, MY"),
+    ("kota kinabalu",     "Kota Kinabalu, MY"),
+    ("langkawi",          "Langkawi, MY"),
+    ("jakarta",           "Jakarta, ID"),
+    ("nusa dua",          "Nusa Dua, ID"),
+    ("seminyak",          "Seminyak, ID"),
+    ("jimbaran",          "Jimbaran, ID"),
+    ("ubud",              "Ubud, ID"),
+    ("kuta",              "Kuta, ID"),
+    ("lombok",            "Lombok, ID"),
+    ("bali",              "Bali, ID"),
+    ("yogyakarta",        "Yogyakarta, ID"),
+    ("surabaya",          "Surabaya, ID"),
+    ("chiang mai",        "Chiang Mai, TH"),
+    ("koh samui",         "Koh Samui, TH"),
+    ("hua hin",           "Hua Hin, TH"),
+    ("phuket",            "Phuket, TH"),
+    ("krabi",             "Krabi, TH"),
+    ("pattaya",           "Pattaya, TH"),
+    ("bangkok",           "Bangkok, TH"),
+    ("ho chi minh",       "Ho Chi Minh City, VN"),
+    ("saigon",            "Ho Chi Minh City, VN"),
+    ("da nang",           "Da Nang, VN"),
+    ("hoi an",            "Hoi An, VN"),
+    ("nha trang",         "Nha Trang, VN"),
+    ("halong",            "Ha Long, VN"),
+    ("hanoi",             "Hanoi, VN"),
+    ("siem reap",         "Siem Reap, KH"),
+    ("phnom penh",        "Phnom Penh, KH"),
+    ("luang prabang",     "Luang Prabang, LA"),
+    ("yangon",            "Yangon, MM"),
+    ("mandalay",          "Mandalay, MM"),
+    ("manila",            "Manila, PH"),
+    ("boracay",           "Boracay, PH"),
+    ("cebu",              "Cebu, PH"),
+    ("palawan",           "Palawan, PH"),
+    ("makati",            "Makati, PH"),
+    ("bgc",               "Bonifacio Global City, PH"),
+    # ── Pacific ──────────────────────────────────────────────────────────────
+    ("bora bora",         "Bora Bora, PF"),
+    ("moorea",            "Moorea, PF"),
+    ("tahiti",            "Papeete, PF"),
+    ("gold coast",        "Gold Coast, AU"),
+    ("sydney",            "Sydney, AU"),
+    ("melbourne",         "Melbourne, AU"),
+    ("brisbane",          "Brisbane, AU"),
+    ("perth",             "Perth, AU"),
+    ("adelaide",          "Adelaide, AU"),
+    ("cairns",            "Cairns, AU"),
+    ("darwin",            "Darwin, AU"),
+    ("queenstown",        "Queenstown, NZ"),
+    ("auckland",          "Auckland, NZ"),
+    ("wellington",        "Wellington, NZ"),
+    ("christchurch",      "Christchurch, NZ"),
+    ("rotorua",           "Rotorua, NZ"),
+    ("denarau",           "Denarau, FJ"),
+    ("fiji",              "Nadi, FJ"),
+    ("nadi",              "Nadi, FJ"),
+    ("guam",              "Tumon, GU"),
+    ("tumon",             "Tumon, GU"),
+    ("saipan",            "Saipan, MP"),
+]
 
-    Hilton renders the property address inside:
-        <span class="... whitespace-pre-line">STREET\\nCITY, ZIP COUNTRY<svg…></svg></span>
 
-    Returns a (hotel_address, hotel_location) tuple where hotel_location is a rough
-    city/country hint derived from the trailing segment of the address.
+def _location_from_slug(url: str, hotel_name: str = "") -> str:
+    """Derive hotel_location by scanning the URL slug + hotel name for known cities.
+
+    The URL slug (everything after the 7-char property code) and the hotel name
+    are combined into a single lowercase search string.  The first match in
+    _CITY_HINTS wins, so longer / more-specific tokens must appear earlier in
+    the list.
+
+    Returns a "City, CC" string, or "" when no hint matches.
     """
-    m = re.search(
-        r'<span[^>]+class=["\'][^"\']*\bwhitespace-pre-line\b[^"\']*["\'][^>]*>(.*?)</span>',
-        html, re.DOTALL | re.IGNORECASE,
-    )
-    if not m:
-        return "", ""
-    # Strip inner HTML (e.g. the SVG "open in new window" icon)
-    text = re.sub(r'<[^>]+>', '', m.group(1))
-    # Newlines separate street from city/country — normalise to comma-space
-    text = re.sub(r'\s*\n\s*', ', ', text.strip())
-    text = re.sub(r',\s*,', ',', text)
-    text = re.sub(r'\s{2,}', ' ', text).strip().strip(',').strip()
-    if not text:
-        return "", ""
-
-    # Derive a rough location hint (used by name-based geocoding fallback).
-    # Typical tail segment: "78000 France" → "France", "CA 90210 United States" → "United States".
-    parts = [p.strip() for p in text.split(',') if p.strip()]
-    loc = ""
-    if parts:
-        last = re.sub(r'^\d[\d\s]*', '', parts[-1]).strip()   # strip leading zip/number
-        loc = last if len(last) > 2 else (parts[-2].strip() if len(parts) >= 2 else "")
-    return text, loc
-
-
-def _extract_location_from_html(html: str) -> tuple:
-    """Return (hotel_address, hotel_location) parsed from a Hilton property page.
-
-    hotel_address  – full postal address (street, city, region, country)
-    hotel_location – city + country only, used for location-compatibility validation
-
-    Strategy:
-    1. JSON-LD structured data (most precise, structured fields).
-    2. Fallback: address <span class="...whitespace-pre-line"> in the page body.
-    """
-    # --- JSON-LD path ---
-    for raw in re.findall(
-        r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
-        html, re.DOTALL | re.IGNORECASE,
-    ):
-        try:
-            data = json.loads(raw)
-        except (json.JSONDecodeError, ValueError):
-            continue
-
-        items: list = []
-        if isinstance(data, list):
-            items = data
-        elif isinstance(data, dict):
-            items = data.get("@graph", [data])
-
-        for item in items:
-            if not isinstance(item, dict):
-                continue
-            type_val = item.get("@type", "")
-            if isinstance(type_val, list):
-                type_val = " ".join(str(t) for t in type_val)
-            if not any(t in type_val.lower() for t in ("hotel", "lodging", "accommodation", "resort")):
-                continue
-            addr = item.get("address")
-            if not isinstance(addr, dict):
-                continue
-            street  = (addr.get("streetAddress")  or "").strip()
-            city    = (addr.get("addressLocality") or "").strip()
-            region  = (addr.get("addressRegion")   or "").strip()
-            country = (addr.get("addressCountry")  or "").strip()
-            if city or street:
-                hotel_address  = ", ".join(p for p in [street, city, region, country] if p)
-                hotel_location = ", ".join(p for p in [city, country] if p)
-                return hotel_address, hotel_location
-
-    # --- Fallback: address span in page body ---
-    return _extract_address_from_span(html)
-
-
-def _make_fetch_session() -> requests.Session:
-    """Build a requests Session pre-seeded with hilton.com cookies.
-
-    Visiting the homepage first sets session/CDN cookies that make
-    subsequent property-page fetches look like a real browser flow.
-    """
-    session = requests.Session()
-    session.headers.update({
-        "User-Agent": (
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/124.0.0.0 Safari/537.36"
-        ),
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Referer": "https://www.hilton.com/en/",
-        "Upgrade-Insecure-Requests": "1",
-    })
-    try:
-        session.get("https://www.hilton.com/en/", timeout=15)
-    except Exception:
-        pass
-    return session
-
-
-def fetch_hotel_address(url: str, session: requests.Session = None) -> tuple:
-    """GET a Hilton property page and return (hotel_address, hotel_location).
-
-    The URL is normalised to a canonical hilton.com/en/ address before fetching
-    so that external-domain URLs and non-English locale variants are handled.
-    """
-    if not url:
-        return "", ""
-    fetch_url = _normalize_fetch_url(url)
-    try:
-        if session is not None:
-            resp = session.get(fetch_url, timeout=_LOCATION_TIMEOUT)
-        else:
-            resp = requests.get(fetch_url, timeout=_LOCATION_TIMEOUT, headers=_LOCATION_HEADERS)
-    except Exception:
-        return "", ""
-    if not resp.ok:
-        return "", ""
-    return _extract_location_from_html(resp.text)
+    canonical = _normalize_fetch_url(url)
+    slug = ""
+    m = re.search(r'/hotels/[^/]+-(.+?)/?$', canonical)
+    if m:
+        slug = m.group(1).replace('-', ' ')
+    combined = (slug + " " + hotel_name).lower()
+    for token, location in _CITY_HINTS:
+        if token in combined:
+            return location
+    return ""
 
 
 def backfill_addresses(df: pd.DataFrame) -> pd.DataFrame:
-    """Concurrently fetch hotel_address/hotel_location for rows missing an address."""
-    mask = df["hotel_address"].str.strip() == ""
-    missing_urls = df.loc[mask, "hotel_url"].tolist()
-    if not missing_urls:
+    """Fill hotel_location for rows where it is missing, using URL/name city-hint matching.
+
+    Hilton's CDN blocks automated HTTP fetches, so full street addresses cannot
+    be reliably retrieved.  hotel_address is left empty for new hotels; the
+    geocoder (google-convert.py) falls back to hotel_name + hotel_location
+    when hotel_address is absent.
+    """
+    mask = df["hotel_location"].str.strip() == ""
+    if not mask.any():
         return df
 
-    print(f"Fetching addresses for {len(missing_urls)} hotels ({_LOCATION_WORKERS} workers)...")
-    session = _make_fetch_session()
-    url_to_result: Dict[str, tuple] = {}
-
-    with ThreadPoolExecutor(max_workers=_LOCATION_WORKERS) as pool:
-        futures = {pool.submit(fetch_hotel_address, url, session): url for url in missing_urls}
-        done = 0
-        for future in as_completed(futures):
-            url = futures[future]
-            try:
-                url_to_result[url] = future.result()
-            except Exception:
-                url_to_result[url] = ("", "")
-            done += 1
-            if done % 20 == 0 or done == len(missing_urls):
-                print(f"  {done}/{len(missing_urls)} fetched")
-
-    fetched_count = sum(1 for (a, _) in url_to_result.values() if a)
-    print(f"  Address resolved for {fetched_count}/{len(missing_urls)} hotels")
-
+    n = int(mask.sum())
+    print(f"Deriving location from URL/name for {n} hotels...")
     df = df.copy()
-    df.loc[mask, "hotel_address"]  = df.loc[mask, "hotel_url"].map(
-        lambda u: url_to_result.get(u, ("", ""))[0]).fillna("")
-    df.loc[mask, "hotel_location"] = df.loc[mask, "hotel_url"].map(
-        lambda u: url_to_result.get(u, ("", ""))[1]).fillna("")
+    df.loc[mask, "hotel_location"] = df.loc[mask].apply(
+        lambda r: _location_from_slug(r["hotel_url"], r["hotel_name"]), axis=1
+    )
+    resolved = int((df.loc[mask, "hotel_location"].str.strip() != "").sum())
+    unresolved = n - resolved
+    print(f"  Resolved {resolved}/{n} hotels"
+          + (f" ({unresolved} unmatched — extend _CITY_HINTS if needed)" if unresolved else ""))
     return df
 
 
