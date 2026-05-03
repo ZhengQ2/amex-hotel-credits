@@ -3,6 +3,8 @@ from playwright.sync_api import sync_playwright, TimeoutError
 import pandas as pd
 import json
 import re
+import random
+import time
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -60,6 +62,15 @@ def _normalize_fetch_url(url: str) -> str:
         r'(https://(?:www\.)?hilton\.com)/[a-z]{2}(?:-[a-z]{2})?(/hotels/)',
         r'\1/en\2',
         url,
+    )
+
+
+def _is_error_page(html: str) -> bool:
+    """Return True if Hilton's CDN returned a bot-detection / error page."""
+    return (
+        "Hilton Page Reference Code" in html
+        or "Something went wrong" in html
+        or "Reference No." in html
     )
 
 
@@ -193,14 +204,36 @@ def backfill_addresses(df: pd.DataFrame, context=None) -> pd.DataFrame:
         addr_page.set_default_navigation_timeout(_LOCATION_TIMEOUT * 1000)
         for i, url in enumerate(missing_urls, 1):
             fetch_url = _normalize_fetch_url(url)
-            try:
-                addr_page.goto(fetch_url, wait_until="domcontentloaded")
-                html = addr_page.content()
-                url_to_result[url] = _extract_location_from_html(html)
-            except Exception:
-                url_to_result[url] = ("", "")
+            result = ("", "")
+            for attempt in range(3):
+                try:
+                    addr_page.goto(fetch_url, wait_until="domcontentloaded")
+                    # Wait briefly for React hydration / JSON-LD injection.
+                    try:
+                        addr_page.wait_for_selector(
+                            "script[type='application/ld+json']", timeout=8000
+                        )
+                    except Exception:
+                        pass  # page may not have JSON-LD; try span fallback
+                    html = addr_page.content()
+                    if _is_error_page(html):
+                        delay = 5.0 * (2 ** attempt) + random.uniform(1.0, 3.0)
+                        print(
+                            f"  [{i}/{len(missing_urls)}] Bot-detection hit "
+                            f"(attempt {attempt + 1}/3), retrying in {delay:.1f}s "
+                            f"({fetch_url})"
+                        )
+                        time.sleep(delay)
+                        continue
+                    result = _extract_location_from_html(html)
+                    break
+                except Exception:
+                    break  # navigation error — leave result empty
+            url_to_result[url] = result
             if i % 10 == 0 or i == len(missing_urls):
                 print(f"  {i}/{len(missing_urls)} fetched")
+            # Throttle between requests to reduce CDN rate-limit risk.
+            time.sleep(random.uniform(1.5, 3.0))
         addr_page.close()
     else:
         # ---- requests fallback (concurrent, but may miss JS-rendered data) ----
@@ -518,7 +551,15 @@ def scrape_mobile(page):
 def main(headless=True):
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=headless)
-        context = browser.new_context()
+        context = browser.new_context(
+            user_agent=(
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/124.0.0.0 Safari/537.36"
+            ),
+            viewport={"width": 1280, "height": 900},
+            locale="en-US",
+        )
         page = context.new_page()
         page.set_default_navigation_timeout(60000)
         page.goto(URL, wait_until="domcontentloaded")
