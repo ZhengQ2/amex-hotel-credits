@@ -151424,5 +151424,312 @@
       ],
       "website": "https://www.marriott.com/en-us/hotels/tyowy-the-westin-yokohama/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Omni La Costa Resort & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Omni La Costa Resort & Spa\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Romer House Waikiki\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Romer House Waikiki\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Sonesta Resort Hilton Head Island\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sonesta Resort Hilton Head Island\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Sonesta White Plains Downtown\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sonesta White Plains Downtown\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sunseeker Resort Florida Gulf Coast, Curio by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Capital Hotel, Apartments & Townhouse\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Capital Hotel, Apartments & Townhouse\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Fitzwilliam\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Fitzwilliam\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Sonesta Resort Hilton Head Island\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sonesta Resort Hilton Head Island Hotel\", \"Sonesta Resort Hilton Head Island Resort\", \"Sonesta Resort Hilton Head Island\", \"Sonesta Resort Hilton Head Island Hilton Head Island, South Carolina US Hotel\", \"Sonesta Resort Hilton Head Island Hilton Head Island, South Carolina US Resort\", \"Sonesta Resort Hilton Head Island Hilton Head Island, South Carolina US\"], \"v\": 3}": {
+    "lat": 32.1545482,
+    "lon": -80.7316348,
+    "formatted_address": "130 Shipyard Dr, Hilton Head Island, SC 29928, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJT6X92YJ5_IgRJlHLUndZdhI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "130 Shipyard Dr, Hilton Head Island, SC 29928, USA",
+      "geometry": {
+        "location": {
+          "lat": 32.1545482,
+          "lng": -80.7316348
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.15595263029149,
+            "lng": -80.7304591697085
+          },
+          "southwest": {
+            "lat": 32.1532546697085,
+            "lng": -80.7331571302915
+          }
+        }
+      },
+      "name": "Sonesta Resort Hilton Head Island",
+      "place_id": "ChIJT6X92YJ5_IgRJlHLUndZdhI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://hiltonheadresort.sonesta.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Romer House Waikiki\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Romer House Waikiki Hotel\", \"Romer House Waikiki Resort\", \"Romer House Waikiki\", \"Romer House Waikiki Honolulu, Hawaii US Hotel\", \"Romer House Waikiki Honolulu, Hawaii US Resort\", \"Romer House Waikiki Honolulu, Hawaii US\"], \"v\": 3}": {
+    "lat": 21.279337,
+    "lon": -157.8251503,
+    "formatted_address": "415 Nāhua St, Honolulu, HI 96815, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ1TgMTbNzAHwRSu7Dfmtuhx8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "415 Nāhua St, Honolulu, HI 96815, USA",
+      "geometry": {
+        "location": {
+          "lat": 21.279337,
+          "lng": -157.8251503
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 21.2807349302915,
+            "lng": -157.8238711197085
+          },
+          "southwest": {
+            "lat": 21.2780369697085,
+            "lng": -157.8265690802915
+          }
+        }
+      },
+      "name": "Romer House Waikiki",
+      "place_id": "ChIJ1TgMTbNzAHwRSu7Dfmtuhx8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.romerhotels.com/romer-house-waikiki"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Sonesta White Plains Downtown\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sonesta White Plains Downtown Hotel\", \"Sonesta White Plains Downtown Resort\", \"Sonesta White Plains Downtown\", \"Sonesta White Plains Downtown White Plains, New York US Hotel\", \"Sonesta White Plains Downtown White Plains, New York US Resort\", \"Sonesta White Plains Downtown White Plains, New York US\"], \"v\": 3}": {
+    "lat": 41.0299351,
+    "lon": -73.7603965,
+    "formatted_address": "66 Hale Ave, White Plains, NY 10601, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJZ1_bPzCUwokRw15HJIn9CM0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "66 Hale Ave, White Plains, NY 10601, USA",
+      "geometry": {
+        "location": {
+          "lat": 41.0299351,
+          "lng": -73.7603965
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.0311865302915,
+            "lng": -73.75930371970848
+          },
+          "southwest": {
+            "lat": 41.0284885697085,
+            "lng": -73.76200168029149
+          }
+        }
+      },
+      "name": "Sonesta White Plains Downtown",
+      "place_id": "ChIJZ1_bPzCUwokRw15HJIn9CM0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.sonesta.com/sonesta-hotels-resorts/ny/white-plains/sonesta-white-plains-downtown?utm_source=google&utm_medium=organic&utm_campaign=gmb"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Curio Collection Hotel\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Curio Collection Resort\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Curio Collection\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Curio Collection Charlotte Harbor, Florida US Hotel\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Curio Collection Charlotte Harbor, Florida US Resort\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Curio Collection Charlotte Harbor, Florida US\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Hilton Hotel\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Hilton Resort\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Hilton\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Hilton Charlotte Harbor, Florida US Hotel\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Hilton Charlotte Harbor, Florida US Resort\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Hilton Charlotte Harbor, Florida US\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Curio Collection Hotel\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Curio Collection Resort\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Curio Collection\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Curio Collection Charlotte Harbor, Florida US Hotel\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Curio Collection Charlotte Harbor, Florida US Resort\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Curio Collection Charlotte Harbor, Florida US\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Hilton Hotel\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Hilton Resort\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Hilton\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Hilton Charlotte Harbor, Florida US Hotel\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Hilton Charlotte Harbor, Florida US Resort\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Hilton Charlotte Harbor, Florida US\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Hotel\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Resort\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Charlotte Harbor, Florida US Hotel\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Charlotte Harbor, Florida US Resort\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Charlotte Harbor, Florida US\"], \"v\": 3}": {
+    "lat": 26.9543247,
+    "lon": -82.0643425,
+    "formatted_address": "5500 Sunseeker Way, Charlotte Harbor, FL 33980, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJYXKIC8Wp3IgRNXsR0tfjoFQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "5500 Sunseeker Way, Charlotte Harbor, FL 33980, USA",
+      "geometry": {
+        "location": {
+          "lat": 26.9543247,
+          "lng": -82.0643425
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 26.9558987302915,
+            "lng": -82.0630692197085
+          },
+          "southwest": {
+            "lat": 26.9532007697085,
+            "lng": -82.0657671802915
+          }
+        }
+      },
+      "name": "Sunseeker Resort Florida Gulf Coast, Curio Collection by Hilton",
+      "place_id": "ChIJYXKIC8Wp3IgRNXsR0tfjoFQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/pgdchqq-sunseeker-resort-florida-gulf-coast/?SEO_id=GMB-AMER-QQ-PGDCHQQ&y_source=1_MjAyNDkwMDU2NC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Omni La Costa Resort & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Omni La Costa Resort & Spa Omni Hotels & Resorts Hotel\", \"Omni La Costa Resort & Spa Omni Hotels & Resorts Resort\", \"Omni La Costa Resort & Spa Omni Hotels & Resorts\", \"Omni La Costa Resort & Spa Omni Hotels & Resorts Carlsbad, California US Hotel\", \"Omni La Costa Resort & Spa Omni Hotels & Resorts Carlsbad, California US Resort\", \"Omni La Costa Resort & Spa Omni Hotels & Resorts Carlsbad, California US\", \"Omni La Costa Resort & Spa Hilton Hotel\", \"Omni La Costa Resort & Spa Hilton Resort\", \"Omni La Costa Resort & Spa Hilton\", \"Omni La Costa Resort & Spa Hilton Carlsbad, California US Hotel\", \"Omni La Costa Resort & Spa Hilton Carlsbad, California US Resort\", \"Omni La Costa Resort & Spa Hilton Carlsbad, California US\", \"Omni La Costa Resort Spa Omni Hotels & Resorts Hotel\", \"Omni La Costa Resort Spa Omni Hotels & Resorts Resort\", \"Omni La Costa Resort Spa Omni Hotels & Resorts\", \"Omni La Costa Resort Spa Omni Hotels & Resorts Carlsbad, California US Hotel\", \"Omni La Costa Resort Spa Omni Hotels & Resorts Carlsbad, California US Resort\", \"Omni La Costa Resort Spa Omni Hotels & Resorts Carlsbad, California US\", \"Omni La Costa Resort Spa Hilton Hotel\", \"Omni La Costa Resort Spa Hilton Resort\", \"Omni La Costa Resort Spa Hilton\", \"Omni La Costa Resort Spa Hilton Carlsbad, California US Hotel\", \"Omni La Costa Resort Spa Hilton Carlsbad, California US Resort\", \"Omni La Costa Resort Spa Hilton Carlsbad, California US\", \"Omni La Costa Resort & Spa Hotel\", \"Omni La Costa Resort & Spa Resort\", \"Omni La Costa Resort & Spa\", \"Omni La Costa Resort & Spa Carlsbad, California US Hotel\", \"Omni La Costa Resort & Spa Carlsbad, California US Resort\", \"Omni La Costa Resort & Spa Carlsbad, California US\"], \"v\": 3}": {
+    "lat": 33.0921088,
+    "lon": -117.2647212,
+    "formatted_address": "2100 Costa Del Mar Rd, Carlsbad, CA 92009, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ2WHJUKcM3IARhsdTHpXr1Rg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2100 Costa Del Mar Rd, Carlsbad, CA 92009, USA",
+      "geometry": {
+        "location": {
+          "lat": 33.0921088,
+          "lng": -117.2647212
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.0943314,
+            "lng": -117.2647212
+          },
+          "southwest": {
+            "lat": 33.08922150000001,
+            "lng": -117.2692047
+          }
+        }
+      },
+      "name": "Omni La Costa Resort & Spa",
+      "place_id": "ChIJ2WHJUKcM3IARhsdTHpXr1Rg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.omnihotels.com/hotels/san-diego-la-costa?utm_source=gmblisting&utm_medium=organic"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Fitzwilliam\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Fitzwilliam Preferred Hotels & Resorts Hotel\", \"The Fitzwilliam Preferred Hotels & Resorts Resort\", \"The Fitzwilliam Preferred Hotels & Resorts\", \"The Fitzwilliam Preferred Hotels & Resorts Dublin, Ireland Hotel\", \"The Fitzwilliam Preferred Hotels & Resorts Dublin, Ireland Resort\", \"The Fitzwilliam Preferred Hotels & Resorts Dublin, Ireland\", \"The Fitzwilliam Hilton Hotel\", \"The Fitzwilliam Hilton Resort\", \"The Fitzwilliam Hilton\", \"The Fitzwilliam Hilton Dublin, Ireland Hotel\", \"The Fitzwilliam Hilton Dublin, Ireland Resort\", \"The Fitzwilliam Hilton Dublin, Ireland\", \"The Fitzwilliam Hotel\", \"The Fitzwilliam Resort\", \"The Fitzwilliam\", \"The Fitzwilliam Dublin, Ireland Hotel\", \"The Fitzwilliam Dublin, Ireland Resort\", \"The Fitzwilliam Dublin, Ireland\"], \"v\": 3}": {
+    "lat": 53.3394027,
+    "lon": -6.2614196,
+    "formatted_address": "The Fitzwilliam Hotel, 127/128 St Stephen's Green, Dublin 2, D02 HE18, Ireland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ4cbHq54OZ0gR-nvSqo6_BpM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "The Fitzwilliam Hotel, 127/128 St Stephen's Green, Dublin 2, D02 HE18, Ireland",
+      "geometry": {
+        "location": {
+          "lat": 53.3394027,
+          "lng": -6.2614196
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 53.3407046302915,
+            "lng": -6.260000719708497
+          },
+          "southwest": {
+            "lat": 53.3380066697085,
+            "lng": -6.262698680291502
+          }
+        }
+      },
+      "name": "The Fitzwilliam Hotel Dublin",
+      "place_id": "ChIJ4cbHq54OZ0gR-nvSqo6_BpM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.fitzwilliamhoteldublin.com/?utm_source=google&utm_medium=gmb&utm_campaign=gmb_traffic"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Capital Hotel, Apartments & Townhouse\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Capital Hotel, Apartments & Townhouse Small Luxury Hotels of the World Hotel\", \"The Capital Hotel, Apartments & Townhouse Small Luxury Hotels of the World Resort\", \"The Capital Hotel, Apartments & Townhouse Small Luxury Hotels of the World\", \"The Capital Hotel, Apartments & Townhouse Small Luxury Hotels of the World London, England Hotel\", \"The Capital Hotel, Apartments & Townhouse Small Luxury Hotels of the World London, England Resort\", \"The Capital Hotel, Apartments & Townhouse Small Luxury Hotels of the World London, England\", \"The Capital Hotel, Apartments & Townhouse Hilton Hotel\", \"The Capital Hotel, Apartments & Townhouse Hilton Resort\", \"The Capital Hotel, Apartments & Townhouse Hilton\", \"The Capital Hotel, Apartments & Townhouse Hilton London, England Hotel\", \"The Capital Hotel, Apartments & Townhouse Hilton London, England Resort\", \"The Capital Hotel, Apartments & Townhouse Hilton London, England\", \"Capital Hotel Apartments Townhouse Small Luxury Hotels of the World Hotel\", \"Capital Hotel Apartments Townhouse Small Luxury Hotels of the World Resort\", \"Capital Hotel Apartments Townhouse Small Luxury Hotels of the World\", \"Capital Hotel Apartments Townhouse Small Luxury Hotels of the World London, England Hotel\", \"Capital Hotel Apartments Townhouse Small Luxury Hotels of the World London, England Resort\", \"Capital Hotel Apartments Townhouse Small Luxury Hotels of the World London, England\", \"Capital Hotel Apartments Townhouse Hilton Hotel\", \"Capital Hotel Apartments Townhouse Hilton Resort\", \"Capital Hotel Apartments Townhouse Hilton\", \"Capital Hotel Apartments Townhouse Hilton London, England Hotel\", \"Capital Hotel Apartments Townhouse Hilton London, England Resort\", \"Capital Hotel Apartments Townhouse Hilton London, England\", \"The Capital Hotel, Apartments & Townhouse Hotel\", \"The Capital Hotel, Apartments & Townhouse Resort\", \"The Capital Hotel, Apartments & Townhouse\", \"The Capital Hotel, Apartments & Townhouse London, England Hotel\", \"The Capital Hotel, Apartments & Townhouse London, England Resort\", \"The Capital Hotel, Apartments & Townhouse London, England\"], \"v\": 3}": {
+    "lat": 51.4999836,
+    "lon": -0.1616576,
+    "formatted_address": "22-24 Basil St, London SW3 1AT, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJAWxP2DgFdkgRyH1FaVHvJGA",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "22-24 Basil St, London SW3 1AT, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.4999836,
+          "lng": -0.1616576
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5013207302915,
+            "lng": -0.160171419708498
+          },
+          "southwest": {
+            "lat": 51.4986227697085,
+            "lng": -0.162869380291502
+          }
+        }
+      },
+      "name": "The Capital Hotel, Apartments and Townhouse",
+      "place_id": "ChIJAWxP2DgFdkgRyH1FaVHvJGA",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.warwickhotels.com/the-capital"
+    }
   }
 }

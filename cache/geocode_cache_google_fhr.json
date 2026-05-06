@@ -128681,47 +128681,45 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Grove\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Grove Hotel\", \"The Grove Resort\", \"The Grove\", \"The Grove Hertfordshire, England Hotel\", \"The Grove Hertfordshire, England Resort\", \"The Grove Hertfordshire, England\"], \"v\": 3}": {
-    "lat": 51.677052,
-    "lon": -0.436857,
-    "formatted_address": "Chandler's Cross, Watford WD3 4TG, UK",
+    "lat": 43.6139805,
+    "lon": -116.2037791,
+    "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJPYjFIHpqdkgRn0B8GNfoTVo",
+    "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
     "types": [
       "establishment",
       "lodging",
-      "point_of_interest",
-      "spa"
+      "point_of_interest"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Chandler's Cross, Watford WD3 4TG, UK",
+      "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
       "geometry": {
         "location": {
-          "lat": 51.677052,
-          "lng": -0.436857
+          "lat": 43.6139805,
+          "lng": -116.2037791
         },
         "viewport": {
           "northeast": {
-            "lat": 51.6786900802915,
-            "lng": -0.4358084197084979
+            "lat": 43.61524663029149,
+            "lng": -116.2022796697085
           },
           "southwest": {
-            "lat": 51.6759921197085,
-            "lng": -0.438506380291502
+            "lat": 43.6125486697085,
+            "lng": -116.2049776302915
           }
         }
       },
-      "name": "The Grove Hotel – Spa and Golf",
-      "place_id": "ChIJPYjFIHpqdkgRn0B8GNfoTVo",
+      "name": "The Grove Hotel",
+      "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
       "types": [
         "establishment",
         "lodging",
-        "point_of_interest",
-        "spa"
+        "point_of_interest"
       ],
-      "website": "http://www.thegrove.co.uk/"
+      "website": "http://www.grovehotelboise.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Southern Ocean Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Southern Ocean Lodge Hotel\", \"Southern Ocean Lodge Resort\", \"Southern Ocean Lodge\", \"Southern Ocean Lodge Kingscote, Australia Hotel\", \"Southern Ocean Lodge Kingscote, Australia Resort\", \"Southern Ocean Lodge Kingscote, Australia\"], \"v\": 3}": {
@@ -130521,12 +130519,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 34.7012112,
-    "lon": -118.171488,
-    "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
+    "lat": 29.76149999999999,
+    "lon": -95.3648,
+    "formatted_address": "701 Texas Ave, Houston, TX 77002, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
+    "place_id": "ChIJpXTqeDC_QIYRWTBSOg3rarM",
     "types": [
       "establishment",
       "lodging",
@@ -130535,31 +130533,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
+      "formatted_address": "701 Texas Ave, Houston, TX 77002, USA",
       "geometry": {
         "location": {
-          "lat": 34.7012112,
-          "lng": -118.171488
+          "lat": 29.76149999999999,
+          "lng": -95.3648
         },
         "viewport": {
           "northeast": {
-            "lat": 34.7024083302915,
-            "lng": -118.1697845197085
+            "lat": 29.7627978302915,
+            "lng": -95.36351171970851
           },
           "southwest": {
-            "lat": 34.6997103697085,
-            "lng": -118.1724824802915
+            "lat": 29.7600998697085,
+            "lng": -95.36620968029152
           }
         }
       },
-      "name": "Hampton Inn & Suites Lancaster",
-      "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
+      "name": "The Lancaster Hotel",
+      "place_id": "ChIJpXTqeDC_QIYRWTBSOg3rarM",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/pdllchx-hampton-suites-lancaster/?SEO_id=GMB-AMER-HX-PDLLCHX&y_source=1_MjA4MzE4Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://thelancaster.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -145422,8 +145420,8 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Aliee Istanbul - a Paris Society Collection Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Istanbul, Turkey Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Istanbul, Turkey Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Istanbul, Turkey\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Istanbul, Turkey Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Istanbul, Turkey Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Istanbul, Turkey\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Istanbul, Turkey Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Istanbul, Turkey Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Istanbul, Turkey\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Istanbul, Turkey Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Istanbul, Turkey Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Istanbul, Turkey\", \"Aliee Istanbul - a Paris Society Collection Hotel Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Istanbul, Turkey Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Istanbul, Turkey Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Istanbul, Turkey\"], \"v\": 3}": {
-    "lat": 41.0344355,
-    "lon": 28.9613995,
+    "lat": 41.0343023,
+    "lon": 28.9590327,
     "formatted_address": "Camiikebir, Taşkızak Tersanesi Caddesi No:11-19, 34437 Beyoğlu/İstanbul, Türkiye",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
@@ -145439,17 +145437,17 @@
       "formatted_address": "Camiikebir, Taşkızak Tersanesi Caddesi No:11-19, 34437 Beyoğlu/İstanbul, Türkiye",
       "geometry": {
         "location": {
-          "lat": 41.0344355,
-          "lng": 28.9613995
+          "lat": 41.0343023,
+          "lng": 28.9590327
         },
         "viewport": {
           "northeast": {
-            "lat": 41.0358718802915,
-            "lng": 28.96287153029149
+            "lat": 41.0356512802915,
+            "lng": 28.9603816802915
           },
           "southwest": {
-            "lat": 41.0331739197085,
-            "lng": 28.96017356970849
+            "lat": 41.0329533197085,
+            "lng": 28.9576837197085
           }
         }
       },
@@ -204997,7 +204995,7 @@
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"W Prague\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W Prague W Hotels Hotel\", \"W Prague W Hotels Resort\", \"W Prague W Hotels\", \"W Prague W Hotels Prague, Czech Republic Hotel\", \"W Prague W Hotels Prague, Czech Republic Resort\", \"W Prague W Hotels Prague, Czech Republic\", \"W Prague Hilton Hotel\", \"W Prague Hilton Resort\", \"W Prague Hilton\", \"W Prague Hilton Prague, Czech Republic Hotel\", \"W Prague Hilton Prague, Czech Republic Resort\", \"W Prague Hilton Prague, Czech Republic\", \"W Prague Hotel\", \"W Prague Resort\", \"W Prague\", \"W Prague Prague, Czech Republic Hotel\", \"W Prague Prague, Czech Republic Resort\", \"W Prague Prague, Czech Republic\"], \"v\": 3}": {
     "lat": 50.0821317,
     "lon": 14.4270135,
-    "formatted_address": "Vaclavske namesti 826/25, Václavské nám., 110 00 Praha 1-Nové Město, Czechia",
+    "formatted_address": "Vaclavske namesti 826/25, Nové Město, 110 00 Praha 1, Czechia",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
     "place_id": "ChIJoVcwMu2UC0cRNfGYwNQpLBY",
@@ -205009,7 +205007,7 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Vaclavske namesti 826/25, Václavské nám., 110 00 Praha 1-Nové Město, Czechia",
+      "formatted_address": "Vaclavske namesti 826/25, Nové Město, 110 00 Praha 1, Czechia",
       "geometry": {
         "location": {
           "lat": 50.0821317,
@@ -206954,6 +206952,757 @@
         "point_of_interest"
       ],
       "website": "https://www.marriott.com/en-us/hotels/bobwi-the-westin-bora-bora-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Sundance Mountain Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sundance Mountain Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Sylvan Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sylvan Lodge\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"The Cabins at Snake River Sporting Club\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Cabins at Snake River Sporting Club\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"The Shelborne By Proper\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Shelborne By Proper\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Alila Mayakoba\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Alila Mayakoba\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"The St Regis Costa Mujeres Resort Cancun\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The St Regis Costa Mujeres Resort Cancun\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"COMO Le Beauvallon\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"COMO Le Beauvallon\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Gundari\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Gundari\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Huus Quell By Appenzeller Huus\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Huus Quell By Appenzeller Huus\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"ME Malaga\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"ME Malaga\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Mythic Sana Downtown Suites\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mythic Sana Downtown Suites\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Petunia Ibiza, a Beaumier Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Petunia Ibiza, a Beaumier Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"The Florentin by Althoff Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Florentin by Althoff Collection\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"InterContinental Table Bay Cape Town\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Table Bay Cape Town\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"137 Pillars House Chiang Mai\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"137 Pillars House Chiang Mai\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Imperial Hotel, Kyoto\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Imperial Hotel, Kyoto\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"The Silk Lakehouse, Shangri-La Hangzhou\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Silk Lakehouse, Shangri-La Hangzhou\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Gundari\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Gundari Hotel\", \"Gundari Resort\", \"Gundari\", \"Gundari Folegandros, Greece Hotel\", \"Gundari Folegandros, Greece Resort\", \"Gundari Folegandros, Greece\"], \"v\": 3}": {
+    "lat": 36.5995186,
+    "lon": 24.9157708,
+    "formatted_address": "1, Petousis 840 11, Greece",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ4bm4z7GqmRQRBEb2Od9TGb0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1, Petousis 840 11, Greece",
+      "geometry": {
+        "location": {
+          "lat": 36.5995186,
+          "lng": 24.9157708
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.6011434802915,
+            "lng": 24.9169016802915
+          },
+          "southwest": {
+            "lat": 36.59844551970851,
+            "lng": 24.9142037197085
+          }
+        }
+      },
+      "name": "Gundari",
+      "place_id": "ChIJ4bm4z7GqmRQRBEb2Od9TGb0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.gundari.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Mythic Sana Downtown Suites\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mythic Sana Downtown Suites Hotel\", \"Mythic Sana Downtown Suites Resort\", \"Mythic Sana Downtown Suites\", \"Mythic Sana Downtown Suites Lisbon, Portugal Hotel\", \"Mythic Sana Downtown Suites Lisbon, Portugal Resort\", \"Mythic Sana Downtown Suites Lisbon, Portugal\"], \"v\": 3}": {
+    "lat": 38.7103007,
+    "lon": -9.1383362,
+    "formatted_address": "R. Áurea 126 128, 1100-060 Lisboa, Portugal",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJw3OAGXk0GQ0RxsYaSD1kdbw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "R. Áurea 126 128, 1100-060 Lisboa, Portugal",
+      "geometry": {
+        "location": {
+          "lat": 38.7103007,
+          "lng": -9.1383362
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.71175828029151,
+            "lng": -9.137048419708501
+          },
+          "southwest": {
+            "lat": 38.70906031970851,
+            "lng": -9.139746380291504
+          }
+        }
+      },
+      "name": "MYTHIC SANA Downtown Suites",
+      "place_id": "ChIJw3OAGXk0GQ0RxsYaSD1kdbw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.sanahotels.com/pt/hotel/mythic-sana-downtown-suites/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Petunia Ibiza, a Beaumier Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Petunia Ibiza, a Beaumier Hotel Hotel\", \"Petunia Ibiza, a Beaumier Hotel Resort\", \"Petunia Ibiza, a Beaumier Hotel\", \"Petunia Ibiza, a Beaumier Hotel Sant Josep de Sa Talaia, Spain Hotel\", \"Petunia Ibiza, a Beaumier Hotel Sant Josep de Sa Talaia, Spain Resort\", \"Petunia Ibiza, a Beaumier Hotel Sant Josep de Sa Talaia, Spain\", \"Petunia Ibiza a Beaumier Hotel Hotel\", \"Petunia Ibiza a Beaumier Hotel Resort\", \"Petunia Ibiza a Beaumier Hotel\", \"Petunia Ibiza a Beaumier Hotel Sant Josep de Sa Talaia, Spain Hotel\", \"Petunia Ibiza a Beaumier Hotel Sant Josep de Sa Talaia, Spain Resort\", \"Petunia Ibiza a Beaumier Hotel Sant Josep de Sa Talaia, Spain\"], \"v\": 3}": {
+    "lat": 38.8982373,
+    "lon": 1.220266,
+    "formatted_address": "Carrer de Sa Pala Marina, 07830 Ibiza, Illes Balears, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ3efp3VdLmRIRPabKH_B34kg",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carrer de Sa Pala Marina, 07830 Ibiza, Illes Balears, Spain",
+      "geometry": {
+        "location": {
+          "lat": 38.8982373,
+          "lng": 1.220266
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.8995907802915,
+            "lng": 1.221615130291502
+          },
+          "southwest": {
+            "lat": 38.8968928197085,
+            "lng": 1.218917169708498
+          }
+        }
+      },
+      "name": "Petunia, Ibiza, a Beaumier Hotel",
+      "place_id": "ChIJ3efp3VdLmRIRPabKH_B34kg",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.beaumier.com/en/properties/petunia/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Sundance Mountain Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sundance Mountain Resort Hotel\", \"Sundance Mountain Resort Resort\", \"Sundance Mountain Resort\", \"Sundance Mountain Resort Sundance, Utah US Hotel\", \"Sundance Mountain Resort Sundance, Utah US Resort\", \"Sundance Mountain Resort Sundance, Utah US\"], \"v\": 3}": {
+    "lat": 40.3913132,
+    "lon": -111.5778256,
+    "formatted_address": "8841 Alpine Loop Scenic Byway, Sundance, UT 84604, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJOwWbtaSOTYcRJxYJs-V32R8",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa",
+      "travel_agency"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "8841 Alpine Loop Scenic Byway, Sundance, UT 84604, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.3913132,
+          "lng": -111.5778256
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.39256908029149,
+            "lng": -111.5763689197085
+          },
+          "southwest": {
+            "lat": 40.38987111970849,
+            "lng": -111.5790668802915
+          }
+        }
+      },
+      "name": "Sundance Mountain Resort",
+      "place_id": "ChIJOwWbtaSOTYcRJxYJs-V32R8",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa",
+        "travel_agency"
+      ],
+      "website": "http://sundanceresort.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Alila Mayakoba\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Alila Mayakoba Alila Hotel\", \"Alila Mayakoba Alila Resort\", \"Alila Mayakoba Alila\", \"Alila Mayakoba Alila Playa del Carmen, Quintana Roo MX Hotel\", \"Alila Mayakoba Alila Playa del Carmen, Quintana Roo MX Resort\", \"Alila Mayakoba Alila Playa del Carmen, Quintana Roo MX\", \"Alila Mayakoba Hilton Hotel\", \"Alila Mayakoba Hilton Resort\", \"Alila Mayakoba Hilton\", \"Alila Mayakoba Hilton Playa del Carmen, Quintana Roo MX Hotel\", \"Alila Mayakoba Hilton Playa del Carmen, Quintana Roo MX Resort\", \"Alila Mayakoba Hilton Playa del Carmen, Quintana Roo MX\", \"Alila Mayakoba Hotel\", \"Alila Mayakoba Resort\", \"Alila Mayakoba\", \"Alila Mayakoba Playa del Carmen, Quintana Roo MX Hotel\", \"Alila Mayakoba Playa del Carmen, Quintana Roo MX Resort\", \"Alila Mayakoba Playa del Carmen, Quintana Roo MX\"], \"v\": 3}": {
+    "lat": 20.6948347,
+    "lon": -87.0284307,
+    "formatted_address": "CARRETERA FEDERAL, Carr. Tulum - Cancún Km. 298, Solidaridad, 77710 Playa del Carmen, Q.R., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ4QoVS4BdTo8RPUm6OAOmUHM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "CARRETERA FEDERAL, Carr. Tulum - Cancún Km. 298, Solidaridad, 77710 Playa del Carmen, Q.R., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 20.6948347,
+          "lng": -87.0284307
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 20.6963199802915,
+            "lng": -87.0269841697085
+          },
+          "southwest": {
+            "lat": 20.6936220197085,
+            "lng": -87.0296821302915
+          }
+        }
+      },
+      "name": "Alila Mayakoba",
+      "place_id": "ChIJ4QoVS4BdTo8RPUm6OAOmUHM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/cunam-alila-mayakoba?src=corp_lclb_google_seo_cunam&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"COMO Le Beauvallon\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"COMO Le Beauvallon COMO Hotels and Resorts Hotel\", \"COMO Le Beauvallon COMO Hotels and Resorts Resort\", \"COMO Le Beauvallon COMO Hotels and Resorts\", \"COMO Le Beauvallon COMO Hotels and Resorts Grimaud, France Hotel\", \"COMO Le Beauvallon COMO Hotels and Resorts Grimaud, France Resort\", \"COMO Le Beauvallon COMO Hotels and Resorts Grimaud, France\", \"COMO Le Beauvallon Hilton Hotel\", \"COMO Le Beauvallon Hilton Resort\", \"COMO Le Beauvallon Hilton\", \"COMO Le Beauvallon Hilton Grimaud, France Hotel\", \"COMO Le Beauvallon Hilton Grimaud, France Resort\", \"COMO Le Beauvallon Hilton Grimaud, France\", \"Como Le Beauvallon COMO Hotels and Resorts Hotel\", \"Como Le Beauvallon COMO Hotels and Resorts Resort\", \"Como Le Beauvallon COMO Hotels and Resorts\", \"Como Le Beauvallon COMO Hotels and Resorts Grimaud, France Hotel\", \"Como Le Beauvallon COMO Hotels and Resorts Grimaud, France Resort\", \"Como Le Beauvallon COMO Hotels and Resorts Grimaud, France\", \"Como Le Beauvallon Hilton Hotel\", \"Como Le Beauvallon Hilton Resort\", \"Como Le Beauvallon Hilton\", \"Como Le Beauvallon Hilton Grimaud, France Hotel\", \"Como Le Beauvallon Hilton Grimaud, France Resort\", \"Como Le Beauvallon Hilton Grimaud, France\", \"COMO Le Beauvallon Hotel\", \"COMO Le Beauvallon Resort\", \"COMO Le Beauvallon\", \"COMO Le Beauvallon Grimaud, France Hotel\", \"COMO Le Beauvallon Grimaud, France Resort\", \"COMO Le Beauvallon Grimaud, France\"], \"v\": 3}": {
+    "lat": 43.2906883,
+    "lon": 6.604330999999999,
+    "formatted_address": "Bd des Collines, 83310 Grimaud, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJyT6hn3y4zhIRqgc9WMl_7Kw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Bd des Collines, 83310 Grimaud, France",
+      "geometry": {
+        "location": {
+          "lat": 43.2906883,
+          "lng": 6.604330999999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.2920269802915,
+            "lng": 6.605686730291502
+          },
+          "southwest": {
+            "lat": 43.2893290197085,
+            "lng": 6.602988769708498
+          }
+        }
+      },
+      "name": "COMO Le Beauvallon",
+      "place_id": "ChIJyT6hn3y4zhIRqgc9WMl_7Kw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.comohotels.com/france/como-le-beauvallon?utm_source=Google&utm_medium=GoogleMyBusiness"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"InterContinental Table Bay Cape Town\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Table Bay Cape Town IHG Hotels & Resorts Hotel\", \"InterContinental Table Bay Cape Town IHG Hotels & Resorts Resort\", \"InterContinental Table Bay Cape Town IHG Hotels & Resorts\", \"InterContinental Table Bay Cape Town IHG Hotels & Resorts Cape Town, South Africa Hotel\", \"InterContinental Table Bay Cape Town IHG Hotels & Resorts Cape Town, South Africa Resort\", \"InterContinental Table Bay Cape Town IHG Hotels & Resorts Cape Town, South Africa\", \"InterContinental Table Bay Cape Town Hilton Hotel\", \"InterContinental Table Bay Cape Town Hilton Resort\", \"InterContinental Table Bay Cape Town Hilton\", \"InterContinental Table Bay Cape Town Hilton Cape Town, South Africa Hotel\", \"InterContinental Table Bay Cape Town Hilton Cape Town, South Africa Resort\", \"InterContinental Table Bay Cape Town Hilton Cape Town, South Africa\", \"Intercontinental Table Bay Cape Town IHG Hotels & Resorts Hotel\", \"Intercontinental Table Bay Cape Town IHG Hotels & Resorts Resort\", \"Intercontinental Table Bay Cape Town IHG Hotels & Resorts\", \"Intercontinental Table Bay Cape Town IHG Hotels & Resorts Cape Town, South Africa Hotel\", \"Intercontinental Table Bay Cape Town IHG Hotels & Resorts Cape Town, South Africa Resort\", \"Intercontinental Table Bay Cape Town IHG Hotels & Resorts Cape Town, South Africa\", \"Intercontinental Table Bay Cape Town Hilton Hotel\", \"Intercontinental Table Bay Cape Town Hilton Resort\", \"Intercontinental Table Bay Cape Town Hilton\", \"Intercontinental Table Bay Cape Town Hilton Cape Town, South Africa Hotel\", \"Intercontinental Table Bay Cape Town Hilton Cape Town, South Africa Resort\", \"Intercontinental Table Bay Cape Town Hilton Cape Town, South Africa\", \"InterContinental Table Bay Cape Town Hotel\", \"InterContinental Table Bay Cape Town Resort\", \"InterContinental Table Bay Cape Town\", \"InterContinental Table Bay Cape Town Cape Town, South Africa Hotel\", \"InterContinental Table Bay Cape Town Cape Town, South Africa Resort\", \"InterContinental Table Bay Cape Town Cape Town, South Africa\"], \"v\": 3}": {
+    "lat": -33.9028648,
+    "lon": 18.4221961,
+    "formatted_address": "Quay 6, Victoria & Alfred Waterfront, Cape Town, 8001, South Africa",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJpXkdMFdnzB0R_Q0fraFrT-I",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Quay 6, Victoria & Alfred Waterfront, Cape Town, 8001, South Africa",
+      "geometry": {
+        "location": {
+          "lat": -33.9028648,
+          "lng": 18.4221961
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -33.90129041970849,
+            "lng": 18.4236307302915
+          },
+          "southwest": {
+            "lat": -33.90398838029149,
+            "lng": 18.4209327697085
+          }
+        }
+      },
+      "name": "InterContinental Table Bay Cape Town by IHG",
+      "place_id": "ChIJpXkdMFdnzB0R_Q0fraFrT-I",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ihg.com/intercontinental/hotels/gb/en/cape-town/cpttb/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-ZA-_-CPTTB"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"ME Malaga\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"ME Malaga ME by Meli\\u00e1 Hotel\", \"ME Malaga ME by Meli\\u00e1 Resort\", \"ME Malaga ME by Meli\\u00e1\", \"ME Malaga ME by Meli\\u00e1 M\\u00e1laga, Spain Hotel\", \"ME Malaga ME by Meli\\u00e1 M\\u00e1laga, Spain Resort\", \"ME Malaga ME by Meli\\u00e1 M\\u00e1laga, Spain\", \"ME Malaga Hilton Hotel\", \"ME Malaga Hilton Resort\", \"ME Malaga Hilton\", \"ME Malaga Hilton M\\u00e1laga, Spain Hotel\", \"ME Malaga Hilton M\\u00e1laga, Spain Resort\", \"ME Malaga Hilton M\\u00e1laga, Spain\", \"Me Malaga ME by Meli\\u00e1 Hotel\", \"Me Malaga ME by Meli\\u00e1 Resort\", \"Me Malaga ME by Meli\\u00e1\", \"Me Malaga ME by Meli\\u00e1 M\\u00e1laga, Spain Hotel\", \"Me Malaga ME by Meli\\u00e1 M\\u00e1laga, Spain Resort\", \"Me Malaga ME by Meli\\u00e1 M\\u00e1laga, Spain\", \"Me Malaga Hilton Hotel\", \"Me Malaga Hilton Resort\", \"Me Malaga Hilton\", \"Me Malaga Hilton M\\u00e1laga, Spain Hotel\", \"Me Malaga Hilton M\\u00e1laga, Spain Resort\", \"Me Malaga Hilton M\\u00e1laga, Spain\", \"ME Malaga Hotel\", \"ME Malaga Resort\", \"ME Malaga\", \"ME Malaga M\\u00e1laga, Spain Hotel\", \"ME Malaga M\\u00e1laga, Spain Resort\", \"ME Malaga M\\u00e1laga, Spain\"], \"v\": 3}": {
+    "lat": 36.723036,
+    "lon": -4.416640999999999,
+    "formatted_address": "C. Victoria, 6, Distrito Centro, 29012 Málaga, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJxay5HL33cg0R9eORmFbyniU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "C. Victoria, 6, Distrito Centro, 29012 Málaga, Spain",
+      "geometry": {
+        "location": {
+          "lat": 36.723036,
+          "lng": -4.416640999999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.7243311302915,
+            "lng": -4.415357219708498
+          },
+          "southwest": {
+            "lat": 36.7216331697085,
+            "lng": -4.418055180291502
+          }
+        }
+      },
+      "name": "ME Malaga by Melia",
+      "place_id": "ChIJxay5HL33cg0R9eORmFbyniU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.melia.com/en/hotels/spain/malaga/me-malaga?utm_campaign=google&utm_content=2939&utm_medium=organic&utm_source=directories"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Sylvan Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sylvan Lodge Noble House Hotels & Resorts Hotel\", \"Sylvan Lodge Noble House Hotels & Resorts Resort\", \"Sylvan Lodge Noble House Hotels & Resorts\", \"Sylvan Lodge Noble House Hotels & Resorts Jackson, Wyoming US Hotel\", \"Sylvan Lodge Noble House Hotels & Resorts Jackson, Wyoming US Resort\", \"Sylvan Lodge Noble House Hotels & Resorts Jackson, Wyoming US\", \"Sylvan Lodge Hilton Hotel\", \"Sylvan Lodge Hilton Resort\", \"Sylvan Lodge Hilton\", \"Sylvan Lodge Hilton Jackson, Wyoming US Hotel\", \"Sylvan Lodge Hilton Jackson, Wyoming US Resort\", \"Sylvan Lodge Hilton Jackson, Wyoming US\", \"Sylvan Lodge Hotel\", \"Sylvan Lodge Resort\", \"Sylvan Lodge\", \"Sylvan Lodge Jackson, Wyoming US Hotel\", \"Sylvan Lodge Jackson, Wyoming US Resort\", \"Sylvan Lodge Jackson, Wyoming US\"], \"v\": 3}": {
+    "lat": 43.2761271,
+    "lon": -110.7812684,
+    "formatted_address": "14195 Weiskopf Way, Hoback Junction, WY 83001, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ9d5pMw85U1MRIxdpwK55-JQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "14195 Weiskopf Way, Hoback Junction, WY 83001, USA",
+      "geometry": {
+        "location": {
+          "lat": 43.2761271,
+          "lng": -110.7812684
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.2774803802915,
+            "lng": -110.7798948697085
+          },
+          "southwest": {
+            "lat": 43.2747824197085,
+            "lng": -110.7825928302915
+          }
+        }
+      },
+      "name": "The Sylvan Lodge at Snake River Sporting Club",
+      "place_id": "ChIJ9d5pMw85U1MRIxdpwK55-JQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.snakeriversportingclub.com/stay/the-sylvan-lodge/?utm_source=gmb-hotel&utm_medium=organic&utm_campaign=gmb"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Cabins at Snake River Sporting Club\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Cabins at Snake River Sporting Club Noble House Hotels & Resorts Hotel\", \"The Cabins at Snake River Sporting Club Noble House Hotels & Resorts Resort\", \"The Cabins at Snake River Sporting Club Noble House Hotels & Resorts\", \"The Cabins at Snake River Sporting Club Noble House Hotels & Resorts Jackson, Wyoming US Hotel\", \"The Cabins at Snake River Sporting Club Noble House Hotels & Resorts Jackson, Wyoming US Resort\", \"The Cabins at Snake River Sporting Club Noble House Hotels & Resorts Jackson, Wyoming US\", \"The Cabins at Snake River Sporting Club Hilton Hotel\", \"The Cabins at Snake River Sporting Club Hilton Resort\", \"The Cabins at Snake River Sporting Club Hilton\", \"The Cabins at Snake River Sporting Club Hilton Jackson, Wyoming US Hotel\", \"The Cabins at Snake River Sporting Club Hilton Jackson, Wyoming US Resort\", \"The Cabins at Snake River Sporting Club Hilton Jackson, Wyoming US\", \"Cabins Snake River Sporting Club Noble House Hotels & Resorts Hotel\", \"Cabins Snake River Sporting Club Noble House Hotels & Resorts Resort\", \"Cabins Snake River Sporting Club Noble House Hotels & Resorts\", \"Cabins Snake River Sporting Club Noble House Hotels & Resorts Jackson, Wyoming US Hotel\", \"Cabins Snake River Sporting Club Noble House Hotels & Resorts Jackson, Wyoming US Resort\", \"Cabins Snake River Sporting Club Noble House Hotels & Resorts Jackson, Wyoming US\", \"Cabins Snake River Sporting Club Hilton Hotel\", \"Cabins Snake River Sporting Club Hilton Resort\", \"Cabins Snake River Sporting Club Hilton\", \"Cabins Snake River Sporting Club Hilton Jackson, Wyoming US Hotel\", \"Cabins Snake River Sporting Club Hilton Jackson, Wyoming US Resort\", \"Cabins Snake River Sporting Club Hilton Jackson, Wyoming US\", \"The Cabins at Snake River Sporting Club Hotel\", \"The Cabins at Snake River Sporting Club Resort\", \"The Cabins at Snake River Sporting Club\", \"The Cabins at Snake River Sporting Club Jackson, Wyoming US Hotel\", \"The Cabins at Snake River Sporting Club Jackson, Wyoming US Resort\", \"The Cabins at Snake River Sporting Club Jackson, Wyoming US\"], \"v\": 3}": {
+    "lat": 43.3408575,
+    "lon": -110.7234644,
+    "formatted_address": "9705 US-89, Jackson, WY 83001, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ2-mBpmE8U1MRtg7PYpVsK54",
+    "types": [
+      "campground",
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "rv_park"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "9705 US-89, Jackson, WY 83001, USA",
+      "geometry": {
+        "location": {
+          "lat": 43.3408575,
+          "lng": -110.7234644
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.3423269302915,
+            "lng": -110.7219322197085
+          },
+          "southwest": {
+            "lat": 43.3396289697085,
+            "lng": -110.7246301802915
+          }
+        }
+      },
+      "name": "Snake River Cabins and RV Village",
+      "place_id": "ChIJ2-mBpmE8U1MRtg7PYpVsK54",
+      "types": [
+        "campground",
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "rv_park"
+      ],
+      "website": "https://www.snakeriverpark.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Shelborne By Proper\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Shelborne By Proper Proper Hospitality Hotel\", \"The Shelborne By Proper Proper Hospitality Resort\", \"The Shelborne By Proper Proper Hospitality\", \"The Shelborne By Proper Proper Hospitality Miami, Florida US Hotel\", \"The Shelborne By Proper Proper Hospitality Miami, Florida US Resort\", \"The Shelborne By Proper Proper Hospitality Miami, Florida US\", \"The Shelborne By Proper Hilton Hotel\", \"The Shelborne By Proper Hilton Resort\", \"The Shelborne By Proper Hilton\", \"The Shelborne By Proper Hilton Miami, Florida US Hotel\", \"The Shelborne By Proper Hilton Miami, Florida US Resort\", \"The Shelborne By Proper Hilton Miami, Florida US\", \"Shelborne Proper Proper Hospitality Hotel\", \"Shelborne Proper Proper Hospitality Resort\", \"Shelborne Proper Proper Hospitality\", \"Shelborne Proper Proper Hospitality Miami, Florida US Hotel\", \"Shelborne Proper Proper Hospitality Miami, Florida US Resort\", \"Shelborne Proper Proper Hospitality Miami, Florida US\", \"Shelborne Proper Hilton Hotel\", \"Shelborne Proper Hilton Resort\", \"Shelborne Proper Hilton\", \"Shelborne Proper Hilton Miami, Florida US Hotel\", \"Shelborne Proper Hilton Miami, Florida US Resort\", \"Shelborne Proper Hilton Miami, Florida US\", \"The Shelborne By Proper Hotel\", \"The Shelborne By Proper Resort\", \"The Shelborne By Proper\", \"The Shelborne By Proper Miami, Florida US Hotel\", \"The Shelborne By Proper Miami, Florida US Resort\", \"The Shelborne By Proper Miami, Florida US\"], \"v\": 3}": {
+    "lat": 25.7941496,
+    "lon": -80.1282467,
+    "formatted_address": "1801 Collins Ave, Miami Beach, FL 33139, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJyVYiVDG12YgR6b2MKbM5x7g",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1801 Collins Ave, Miami Beach, FL 33139, USA",
+      "geometry": {
+        "location": {
+          "lat": 25.7941496,
+          "lng": -80.1282467
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.7954710802915,
+            "lng": -80.12749026970849
+          },
+          "southwest": {
+            "lat": 25.7927731197085,
+            "lng": -80.1301882302915
+          }
+        }
+      },
+      "name": "The Shelborne By Proper",
+      "place_id": "ChIJyVYiVDG12YgR6b2MKbM5x7g",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://shelborne.com/?utm_source=local-listings&utm_medium=organic&utm_campaign=local-listings"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Silk Lakehouse, Shangri-La Hangzhou\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Silk Lakehouse, Shangri-La Hangzhou Shangri-La Hotels and Resorts Hotel\", \"The Silk Lakehouse, Shangri-La Hangzhou Shangri-La Hotels and Resorts Resort\", \"The Silk Lakehouse, Shangri-La Hangzhou Shangri-La Hotels and Resorts\", \"The Silk Lakehouse, Shangri-La Hangzhou Shangri-La Hotels and Resorts Hangzhou, China Hotel\", \"The Silk Lakehouse, Shangri-La Hangzhou Shangri-La Hotels and Resorts Hangzhou, China Resort\", \"The Silk Lakehouse, Shangri-La Hangzhou Shangri-La Hotels and Resorts Hangzhou, China\", \"The Silk Lakehouse, Shangri-La Hangzhou Hilton Hotel\", \"The Silk Lakehouse, Shangri-La Hangzhou Hilton Resort\", \"The Silk Lakehouse, Shangri-La Hangzhou Hilton\", \"The Silk Lakehouse, Shangri-La Hangzhou Hilton Hangzhou, China Hotel\", \"The Silk Lakehouse, Shangri-La Hangzhou Hilton Hangzhou, China Resort\", \"The Silk Lakehouse, Shangri-La Hangzhou Hilton Hangzhou, China\", \"Silk Lakehouse Shangri la Hangzhou Shangri-La Hotels and Resorts Hotel\", \"Silk Lakehouse Shangri la Hangzhou Shangri-La Hotels and Resorts Resort\", \"Silk Lakehouse Shangri la Hangzhou Shangri-La Hotels and Resorts\", \"Silk Lakehouse Shangri la Hangzhou Shangri-La Hotels and Resorts Hangzhou, China Hotel\", \"Silk Lakehouse Shangri la Hangzhou Shangri-La Hotels and Resorts Hangzhou, China Resort\", \"Silk Lakehouse Shangri la Hangzhou Shangri-La Hotels and Resorts Hangzhou, China\", \"Silk Lakehouse Shangri la Hangzhou Hilton Hotel\", \"Silk Lakehouse Shangri la Hangzhou Hilton Resort\", \"Silk Lakehouse Shangri la Hangzhou Hilton\", \"Silk Lakehouse Shangri la Hangzhou Hilton Hangzhou, China Hotel\", \"Silk Lakehouse Shangri la Hangzhou Hilton Hangzhou, China Resort\", \"Silk Lakehouse Shangri la Hangzhou Hilton Hangzhou, China\", \"The Silk Lakehouse, Shangri-La Hangzhou Hotel\", \"The Silk Lakehouse, Shangri-La Hangzhou Resort\", \"The Silk Lakehouse, Shangri-La Hangzhou\", \"The Silk Lakehouse, Shangri-La Hangzhou Hangzhou, China Hotel\", \"The Silk Lakehouse, Shangri-La Hangzhou Hangzhou, China Resort\", \"The Silk Lakehouse, Shangri-La Hangzhou Hangzhou, China\"], \"v\": 3}": {
+    "lat": 30.25248,
+    "lon": 120.13663,
+    "formatted_address": "Xi Hu Feng Jing Ming Sheng Qu, 78 Bei Shan Jie, Xi Hu Qu, Hang Zhou Shi, Zhe Jiang Sheng, China, 310058",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJz5dokr9iSzQRS_YrkRCXlFA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Xi Hu Feng Jing Ming Sheng Qu, 78 Bei Shan Jie, Xi Hu Qu, Hang Zhou Shi, Zhe Jiang Sheng, China, 310058",
+      "geometry": {
+        "location": {
+          "lat": 30.25248,
+          "lng": 120.13663
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 30.2538289802915,
+            "lng": 120.1379789802915
+          },
+          "southwest": {
+            "lat": 30.2511310197085,
+            "lng": 120.1352810197085
+          }
+        }
+      },
+      "name": "The Silk Lakehouse, Shangri-La Hangzhou",
+      "place_id": "ChIJz5dokr9iSzQRS_YrkRCXlFA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.shangri-la.com/cn/hangzhou/shangrila/thesilklakehouse/?hotelCode=CNHGH004&hotel=The%20Silk%20Lakehouse%2C%20Shangri-La%20Hangzhou&city=Hangzhou&cityEn=Hangzhou"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"137 Pillars House Chiang Mai\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"137 Pillars House Chiang Mai Small Luxury Hotels of the World Hotel\", \"137 Pillars House Chiang Mai Small Luxury Hotels of the World Resort\", \"137 Pillars House Chiang Mai Small Luxury Hotels of the World\", \"137 Pillars House Chiang Mai Small Luxury Hotels of the World Chiang Mai, Thailand Hotel\", \"137 Pillars House Chiang Mai Small Luxury Hotels of the World Chiang Mai, Thailand Resort\", \"137 Pillars House Chiang Mai Small Luxury Hotels of the World Chiang Mai, Thailand\", \"137 Pillars House Chiang Mai Hilton Hotel\", \"137 Pillars House Chiang Mai Hilton Resort\", \"137 Pillars House Chiang Mai Hilton\", \"137 Pillars House Chiang Mai Hilton Chiang Mai, Thailand Hotel\", \"137 Pillars House Chiang Mai Hilton Chiang Mai, Thailand Resort\", \"137 Pillars House Chiang Mai Hilton Chiang Mai, Thailand\", \"137 Pillars House Chiang Mai Hotel\", \"137 Pillars House Chiang Mai Resort\", \"137 Pillars House Chiang Mai\", \"137 Pillars House Chiang Mai Chiang Mai, Thailand Hotel\", \"137 Pillars House Chiang Mai Chiang Mai, Thailand Resort\", \"137 Pillars House Chiang Mai Chiang Mai, Thailand\"], \"v\": 3}": {
+    "lat": 18.7919289,
+    "lon": 99.0041676,
+    "formatted_address": "2 ถนน Soi Nha Wat Kaet 1, Tambon Chang Moi, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50000, Thailand",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJfRzfKbA62jAR_EzhsXTmMY4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2 ถนน Soi Nha Wat Kaet 1, Tambon Chang Moi, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50000, Thailand",
+      "geometry": {
+        "location": {
+          "lat": 18.7919289,
+          "lng": 99.0041676
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 18.7933881802915,
+            "lng": 99.00555568029151
+          },
+          "southwest": {
+            "lat": 18.7906902197085,
+            "lng": 99.0028577197085
+          }
+        }
+      },
+      "name": "137 Pillars House Chiang Mai",
+      "place_id": "ChIJfRzfKbA62jAR_EzhsXTmMY4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.137pillarschiangmai.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The St Regis Costa Mujeres Resort Cancun\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The St Regis Costa Mujeres Resort Cancun St. Regis Hotel\", \"The St Regis Costa Mujeres Resort Cancun St. Regis Resort\", \"The St Regis Costa Mujeres Resort Cancun St. Regis\", \"The St Regis Costa Mujeres Resort Cancun St. Regis Canc\\u00fan, Quintana Roo MX Hotel\", \"The St Regis Costa Mujeres Resort Cancun St. Regis Canc\\u00fan, Quintana Roo MX Resort\", \"The St Regis Costa Mujeres Resort Cancun St. Regis Canc\\u00fan, Quintana Roo MX\", \"The St Regis Costa Mujeres Resort Cancun Hilton Hotel\", \"The St Regis Costa Mujeres Resort Cancun Hilton Resort\", \"The St Regis Costa Mujeres Resort Cancun Hilton\", \"The St Regis Costa Mujeres Resort Cancun Hilton Canc\\u00fan, Quintana Roo MX Hotel\", \"The St Regis Costa Mujeres Resort Cancun Hilton Canc\\u00fan, Quintana Roo MX Resort\", \"The St Regis Costa Mujeres Resort Cancun Hilton Canc\\u00fan, Quintana Roo MX\", \"St Regis Costa Mujeres Resort Cancun St. Regis Hotel\", \"St Regis Costa Mujeres Resort Cancun St. Regis Resort\", \"St Regis Costa Mujeres Resort Cancun St. Regis\", \"St Regis Costa Mujeres Resort Cancun St. Regis Canc\\u00fan, Quintana Roo MX Hotel\", \"St Regis Costa Mujeres Resort Cancun St. Regis Canc\\u00fan, Quintana Roo MX Resort\", \"St Regis Costa Mujeres Resort Cancun St. Regis Canc\\u00fan, Quintana Roo MX\", \"St Regis Costa Mujeres Resort Cancun Hilton Hotel\", \"St Regis Costa Mujeres Resort Cancun Hilton Resort\", \"St Regis Costa Mujeres Resort Cancun Hilton\", \"St Regis Costa Mujeres Resort Cancun Hilton Canc\\u00fan, Quintana Roo MX Hotel\", \"St Regis Costa Mujeres Resort Cancun Hilton Canc\\u00fan, Quintana Roo MX Resort\", \"St Regis Costa Mujeres Resort Cancun Hilton Canc\\u00fan, Quintana Roo MX\", \"The St Regis Costa Mujeres Resort Cancun Hotel\", \"The St Regis Costa Mujeres Resort Cancun Resort\", \"The St Regis Costa Mujeres Resort Cancun\", \"The St Regis Costa Mujeres Resort Cancun Canc\\u00fan, Quintana Roo MX Hotel\", \"The St Regis Costa Mujeres Resort Cancun Canc\\u00fan, Quintana Roo MX Resort\", \"The St Regis Costa Mujeres Resort Cancun Canc\\u00fan, Quintana Roo MX\"], \"v\": 3}": {
+    "lat": 21.2131005,
+    "lon": -86.8024063,
+    "formatted_address": "77420 Quintana Roo, Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJl9x0UWcuTI8RbU1DN89mvEc",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "77420 Quintana Roo, Mexico",
+      "geometry": {
+        "location": {
+          "lat": 21.2131005,
+          "lng": -86.8024063
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 21.2144792802915,
+            "lng": -86.8010692197085
+          },
+          "southwest": {
+            "lat": 21.2117813197085,
+            "lng": -86.8037671802915
+          }
+        }
+      },
+      "name": "The St Regis Costa Mujeres Resort, Cancun",
+      "place_id": "ChIJl9x0UWcuTI8RbU1DN89mvEc",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://deals.vio.com/?sig=73aca13c7f952d2641c156f3e69125e1eb497c325f122828ee5aa8797168b9a12d32303331333438363233&turl=https%3A%2F%2Fwww.vio.com%2FHotel%2FSearch%3FhotelId%3D145633134%26utm_source%3Dgha-vr%26utm_campaign%3Dstatic%26openHotelDetails%3D1"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Florentin by Althoff Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Florentin by Althoff Collection The Leading Hotels of the World Hotel\", \"The Florentin by Althoff Collection The Leading Hotels of the World Resort\", \"The Florentin by Althoff Collection The Leading Hotels of the World\", \"The Florentin by Althoff Collection The Leading Hotels of the World Frankfurt, Germany Hotel\", \"The Florentin by Althoff Collection The Leading Hotels of the World Frankfurt, Germany Resort\", \"The Florentin by Althoff Collection The Leading Hotels of the World Frankfurt, Germany\", \"The Florentin by Althoff Collection Hilton Hotel\", \"The Florentin by Althoff Collection Hilton Resort\", \"The Florentin by Althoff Collection Hilton\", \"The Florentin by Althoff Collection Hilton Frankfurt, Germany Hotel\", \"The Florentin by Althoff Collection Hilton Frankfurt, Germany Resort\", \"The Florentin by Althoff Collection Hilton Frankfurt, Germany\", \"Florentin Althoff Collection The Leading Hotels of the World Hotel\", \"Florentin Althoff Collection The Leading Hotels of the World Resort\", \"Florentin Althoff Collection The Leading Hotels of the World\", \"Florentin Althoff Collection The Leading Hotels of the World Frankfurt, Germany Hotel\", \"Florentin Althoff Collection The Leading Hotels of the World Frankfurt, Germany Resort\", \"Florentin Althoff Collection The Leading Hotels of the World Frankfurt, Germany\", \"Florentin Althoff Collection Hilton Hotel\", \"Florentin Althoff Collection Hilton Resort\", \"Florentin Althoff Collection Hilton\", \"Florentin Althoff Collection Hilton Frankfurt, Germany Hotel\", \"Florentin Althoff Collection Hilton Frankfurt, Germany Resort\", \"Florentin Althoff Collection Hilton Frankfurt, Germany\", \"The Florentin by Althoff Collection Hotel\", \"The Florentin by Althoff Collection Resort\", \"The Florentin by Althoff Collection\", \"The Florentin by Althoff Collection Frankfurt, Germany Hotel\", \"The Florentin by Althoff Collection Frankfurt, Germany Resort\", \"The Florentin by Althoff Collection Frankfurt, Germany\"], \"v\": 3}": {
+    "lat": 50.0976986,
+    "lon": 8.6688889,
+    "formatted_address": "Paul-Ehrlich-Straße 9, 60596 Frankfurt am Main, Germany",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJA5XekHQNvUcRM4y8EUvtQPo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Paul-Ehrlich-Straße 9, 60596 Frankfurt am Main, Germany",
+      "geometry": {
+        "location": {
+          "lat": 50.0976986,
+          "lng": 8.6688889
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 50.0988945802915,
+            "lng": 8.670001030291504
+          },
+          "southwest": {
+            "lat": 50.0961966197085,
+            "lng": 8.667303069708499
+          }
+        }
+      },
+      "name": "The Florentin by Althoff Collection",
+      "place_id": "ChIJA5XekHQNvUcRM4y8EUvtQPo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.althoffcollection.com/de/the-florentin"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Huus Quell By Appenzeller Huus\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Huus Quell By Appenzeller Huus The Leading Hotels of the World Hotel\", \"Huus Quell By Appenzeller Huus The Leading Hotels of the World Resort\", \"Huus Quell By Appenzeller Huus The Leading Hotels of the World\", \"Huus Quell By Appenzeller Huus The Leading Hotels of the World Gonten, Switzerland Hotel\", \"Huus Quell By Appenzeller Huus The Leading Hotels of the World Gonten, Switzerland Resort\", \"Huus Quell By Appenzeller Huus The Leading Hotels of the World Gonten, Switzerland\", \"Huus Quell By Appenzeller Huus Hilton Hotel\", \"Huus Quell By Appenzeller Huus Hilton Resort\", \"Huus Quell By Appenzeller Huus Hilton\", \"Huus Quell By Appenzeller Huus Hilton Gonten, Switzerland Hotel\", \"Huus Quell By Appenzeller Huus Hilton Gonten, Switzerland Resort\", \"Huus Quell By Appenzeller Huus Hilton Gonten, Switzerland\", \"Huus Quell Appenzeller Huus The Leading Hotels of the World Hotel\", \"Huus Quell Appenzeller Huus The Leading Hotels of the World Resort\", \"Huus Quell Appenzeller Huus The Leading Hotels of the World\", \"Huus Quell Appenzeller Huus The Leading Hotels of the World Gonten, Switzerland Hotel\", \"Huus Quell Appenzeller Huus The Leading Hotels of the World Gonten, Switzerland Resort\", \"Huus Quell Appenzeller Huus The Leading Hotels of the World Gonten, Switzerland\", \"Huus Quell Appenzeller Huus Hilton Hotel\", \"Huus Quell Appenzeller Huus Hilton Resort\", \"Huus Quell Appenzeller Huus Hilton\", \"Huus Quell Appenzeller Huus Hilton Gonten, Switzerland Hotel\", \"Huus Quell Appenzeller Huus Hilton Gonten, Switzerland Resort\", \"Huus Quell Appenzeller Huus Hilton Gonten, Switzerland\", \"Huus Quell By Appenzeller Huus Hotel\", \"Huus Quell By Appenzeller Huus Resort\", \"Huus Quell By Appenzeller Huus\", \"Huus Quell By Appenzeller Huus Gonten, Switzerland Hotel\", \"Huus Quell By Appenzeller Huus Gonten, Switzerland Resort\", \"Huus Quell By Appenzeller Huus Gonten, Switzerland\"], \"v\": 3}": {
+    "lat": 47.3289754,
+    "lon": 9.346454699999999,
+    "formatted_address": "Dorfstrasse 40, 9108 Gonten, Switzerland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJi9jqzj0hm0cRnvXQ3jaJX0c",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Dorfstrasse 40, 9108 Gonten, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.3289754,
+          "lng": 9.346454699999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.33024798029149,
+            "lng": 9.347899980291501
+          },
+          "southwest": {
+            "lat": 47.3275500197085,
+            "lng": 9.345202019708497
+          }
+        }
+      },
+      "name": "Huus Quell by Appenzeller Huus",
+      "place_id": "ChIJi9jqzj0hm0cRnvXQ3jaJX0c",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://appenzellerhuus.ch/de/hotels/hotels/huus-quell/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Imperial Hotel, Kyoto\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Imperial Hotel, Kyoto The Leading Hotels of the World Hotel\", \"Imperial Hotel, Kyoto The Leading Hotels of the World Resort\", \"Imperial Hotel, Kyoto The Leading Hotels of the World\", \"Imperial Hotel, Kyoto The Leading Hotels of the World Kyoto, Japan Hotel\", \"Imperial Hotel, Kyoto The Leading Hotels of the World Kyoto, Japan Resort\", \"Imperial Hotel, Kyoto The Leading Hotels of the World Kyoto, Japan\", \"Imperial Hotel, Kyoto Hilton Hotel\", \"Imperial Hotel, Kyoto Hilton Resort\", \"Imperial Hotel, Kyoto Hilton\", \"Imperial Hotel, Kyoto Hilton Kyoto, Japan Hotel\", \"Imperial Hotel, Kyoto Hilton Kyoto, Japan Resort\", \"Imperial Hotel, Kyoto Hilton Kyoto, Japan\", \"Imperial Hotel Kyoto The Leading Hotels of the World Hotel\", \"Imperial Hotel Kyoto The Leading Hotels of the World Resort\", \"Imperial Hotel Kyoto The Leading Hotels of the World\", \"Imperial Hotel Kyoto The Leading Hotels of the World Kyoto, Japan Hotel\", \"Imperial Hotel Kyoto The Leading Hotels of the World Kyoto, Japan Resort\", \"Imperial Hotel Kyoto The Leading Hotels of the World Kyoto, Japan\", \"Imperial Hotel Kyoto Hilton Hotel\", \"Imperial Hotel Kyoto Hilton Resort\", \"Imperial Hotel Kyoto Hilton\", \"Imperial Hotel Kyoto Hilton Kyoto, Japan Hotel\", \"Imperial Hotel Kyoto Hilton Kyoto, Japan Resort\", \"Imperial Hotel Kyoto Hilton Kyoto, Japan\", \"Imperial Hotel, Kyoto Hotel\", \"Imperial Hotel, Kyoto Resort\", \"Imperial Hotel, Kyoto\", \"Imperial Hotel, Kyoto Kyoto, Japan Hotel\", \"Imperial Hotel, Kyoto Kyoto, Japan Resort\", \"Imperial Hotel, Kyoto Kyoto, Japan\"], \"v\": 3}": {
+    "lat": 34.9973327,
+    "lon": 135.7793717,
+    "formatted_address": "2-chōme-204-2 Kiyomizu, Higashiyama Ward, Kyoto, 605-0862, Japan",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJc9P9i3YJAWAR0qOfdNlUqxo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2-chōme-204-2 Kiyomizu, Higashiyama Ward, Kyoto, 605-0862, Japan",
+      "geometry": {
+        "location": {
+          "lat": 34.9973327,
+          "lng": 135.7793717
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 34.9985371302915,
+            "lng": 135.7806522302915
+          },
+          "southwest": {
+            "lat": 34.9958391697085,
+            "lng": 135.7779542697085
+          }
+        }
+      },
+      "name": "The Hotel Seiryu Kyoto Kiyomizu",
+      "place_id": "ChIJc9P9i3YJAWAR0qOfdNlUqxo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.princehotels.com/seiryu-kiyomizu/?utm_source=gbp&utm_medium=organic&utm_campaign=hotel_seiryu_kyoto_kiyomizu"
     }
   }
 }
