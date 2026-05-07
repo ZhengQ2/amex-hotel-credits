@@ -130519,12 +130519,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 29.76149999999999,
-    "lon": -95.3648,
-    "formatted_address": "701 Texas Ave, Houston, TX 77002, USA",
+    "lat": 34.7012112,
+    "lon": -118.171488,
+    "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJpXTqeDC_QIYRWTBSOg3rarM",
+    "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
     "types": [
       "establishment",
       "lodging",
@@ -130533,31 +130533,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "701 Texas Ave, Houston, TX 77002, USA",
+      "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
       "geometry": {
         "location": {
-          "lat": 29.76149999999999,
-          "lng": -95.3648
+          "lat": 34.7012112,
+          "lng": -118.171488
         },
         "viewport": {
           "northeast": {
-            "lat": 29.7627978302915,
-            "lng": -95.36351171970851
+            "lat": 34.7024083302915,
+            "lng": -118.1697845197085
           },
           "southwest": {
-            "lat": 29.7600998697085,
-            "lng": -95.36620968029152
+            "lat": 34.6997103697085,
+            "lng": -118.1724824802915
           }
         }
       },
-      "name": "The Lancaster Hotel",
-      "place_id": "ChIJpXTqeDC_QIYRWTBSOg3rarM",
+      "name": "Hampton Inn & Suites Lancaster",
+      "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://thelancaster.com/"
+      "website": "https://www.hilton.com/en/hotels/pdllchx-hampton-suites-lancaster/?SEO_id=GMB-AMER-HX-PDLLCHX&y_source=1_MjA4MzE4Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -145420,8 +145420,8 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Aliee Istanbul - a Paris Society Collection Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Istanbul, Turkey Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Istanbul, Turkey Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Istanbul, Turkey\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Istanbul, Turkey Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Istanbul, Turkey Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Istanbul, Turkey\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Istanbul, Turkey Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Istanbul, Turkey Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Istanbul, Turkey\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Istanbul, Turkey Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Istanbul, Turkey Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Istanbul, Turkey\", \"Aliee Istanbul - a Paris Society Collection Hotel Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Istanbul, Turkey Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Istanbul, Turkey Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Istanbul, Turkey\"], \"v\": 3}": {
-    "lat": 41.0343023,
-    "lon": 28.9590327,
+    "lat": 41.0344355,
+    "lon": 28.9613995,
     "formatted_address": "Camiikebir, Taşkızak Tersanesi Caddesi No:11-19, 34437 Beyoğlu/İstanbul, Türkiye",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
@@ -145437,17 +145437,17 @@
       "formatted_address": "Camiikebir, Taşkızak Tersanesi Caddesi No:11-19, 34437 Beyoğlu/İstanbul, Türkiye",
       "geometry": {
         "location": {
-          "lat": 41.0343023,
-          "lng": 28.9590327
+          "lat": 41.0344355,
+          "lng": 28.9613995
         },
         "viewport": {
           "northeast": {
-            "lat": 41.0356512802915,
-            "lng": 28.9603816802915
+            "lat": 41.0357844802915,
+            "lng": 28.9627484802915
           },
           "southwest": {
-            "lat": 41.0329533197085,
-            "lng": 28.9576837197085
+            "lat": 41.0330865197085,
+            "lng": 28.9600505197085
           }
         }
       },
@@ -145458,7 +145458,7 @@
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://alieeistanbul.com/"
+      "website": "https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=C4K9&merchantid=seo-maps-T%C3%BCrkiye-C4K9&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Faena Miami Beach\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Faena Miami Beach Ennismore Hotel\", \"Faena Miami Beach Ennismore Resort\", \"Faena Miami Beach Ennismore\", \"Faena Miami Beach Ennismore Miami Beach, Florida US Hotel\", \"Faena Miami Beach Ennismore Miami Beach, Florida US Resort\", \"Faena Miami Beach Ennismore Miami Beach, Florida US\", \"Faena Miami Beach Hilton Hotel\", \"Faena Miami Beach Hilton Resort\", \"Faena Miami Beach Hilton\", \"Faena Miami Beach Hilton Miami Beach, Florida US Hotel\", \"Faena Miami Beach Hilton Miami Beach, Florida US Resort\", \"Faena Miami Beach Hilton Miami Beach, Florida US\", \"Faena Miami Beach Hotel\", \"Faena Miami Beach Resort\", \"Faena Miami Beach\", \"Faena Miami Beach Miami Beach, Florida US Hotel\", \"Faena Miami Beach Miami Beach, Florida US Resort\", \"Faena Miami Beach Miami Beach, Florida US\"], \"v\": 3}": {
@@ -207703,6 +207703,181 @@
         "point_of_interest"
       ],
       "website": "https://www.princehotels.com/seiryu-kiyomizu/?utm_source=gbp&utm_medium=organic&utm_campaign=hotel_seiryu_kyoto_kiyomizu"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"The Inn at Mattei's Tavern, Auberge Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Inn at Mattei's Tavern, Auberge Collection\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"The Ivey's Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Ivey's Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Castel Badia\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Castel Badia\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Don Carlos Marbella\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Don Carlos Marbella\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"ROMEO Napoli\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"ROMEO Napoli\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Steigenberger Icon Wiltcher's, Brussels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Steigenberger Icon Wiltcher's, Brussels\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Fairmont Hanoi\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fairmont Hanoi\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Fairmont Hanoi\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fairmont Hanoi Fairmont Hotel\", \"Fairmont Hanoi Fairmont Resort\", \"Fairmont Hanoi Fairmont\", \"Fairmont Hanoi Fairmont Hanoi, Vietnam Hotel\", \"Fairmont Hanoi Fairmont Hanoi, Vietnam Resort\", \"Fairmont Hanoi Fairmont Hanoi, Vietnam\", \"Fairmont Hanoi Hilton Hotel\", \"Fairmont Hanoi Hilton Resort\", \"Fairmont Hanoi Hilton\", \"Fairmont Hanoi Hilton Hanoi, Vietnam Hotel\", \"Fairmont Hanoi Hilton Hanoi, Vietnam Resort\", \"Fairmont Hanoi Hilton Hanoi, Vietnam\", \"Fairmont Hanoi Hotel\", \"Fairmont Hanoi Resort\", \"Fairmont Hanoi\", \"Fairmont Hanoi Hanoi, Vietnam Hotel\", \"Fairmont Hanoi Hanoi, Vietnam Resort\", \"Fairmont Hanoi Hanoi, Vietnam\"], \"v\": 3}": {
+    "lat": 21.0291936,
+    "lon": 105.855781,
+    "formatted_address": "10 P. Trần Nguyên Hãn, French Quarter, Hoàn Kiếm, Hà Nội 100000, Vietnam",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJh58unuGrNTERaZVRKFoXb_0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "10 P. Trần Nguyên Hãn, French Quarter, Hoàn Kiếm, Hà Nội 100000, Vietnam",
+      "geometry": {
+        "location": {
+          "lat": 21.0291936,
+          "lng": 105.855781
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 21.0305425802915,
+            "lng": 105.8571299802915
+          },
+          "southwest": {
+            "lat": 21.0278446197085,
+            "lng": 105.8544320197085
+          }
+        }
+      },
+      "name": "Fairmont Hanoi",
+      "place_id": "ChIJh58unuGrNTERaZVRKFoXb_0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.fairmonthanoi.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Don Carlos Marbella\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Don Carlos Marbella Preferred Hotels & Resorts Hotel\", \"Don Carlos Marbella Preferred Hotels & Resorts Resort\", \"Don Carlos Marbella Preferred Hotels & Resorts\", \"Don Carlos Marbella Preferred Hotels & Resorts Marbella, Spain Hotel\", \"Don Carlos Marbella Preferred Hotels & Resorts Marbella, Spain Resort\", \"Don Carlos Marbella Preferred Hotels & Resorts Marbella, Spain\", \"Don Carlos Marbella Hilton Hotel\", \"Don Carlos Marbella Hilton Resort\", \"Don Carlos Marbella Hilton\", \"Don Carlos Marbella Hilton Marbella, Spain Hotel\", \"Don Carlos Marbella Hilton Marbella, Spain Resort\", \"Don Carlos Marbella Hilton Marbella, Spain\", \"Don Carlos Marbella Hotel\", \"Don Carlos Marbella Resort\", \"Don Carlos Marbella\", \"Don Carlos Marbella Marbella, Spain Hotel\", \"Don Carlos Marbella Marbella, Spain Resort\", \"Don Carlos Marbella Marbella, Spain\"], \"v\": 3}": {
+    "lat": 36.4924278,
+    "lon": -4.7724528,
+    "formatted_address": "Av. Zurita, s/n, 29604 Marbella, Málaga, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJYy_iqowgcw0R4E2_TWod9mU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Av. Zurita, s/n, 29604 Marbella, Málaga, Spain",
+      "geometry": {
+        "location": {
+          "lat": 36.4924278,
+          "lng": -4.7724528
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.4939278302915,
+            "lng": -4.771432319708498
+          },
+          "southwest": {
+            "lat": 36.4912298697085,
+            "lng": -4.774130280291502
+          }
+        }
+      },
+      "name": "Don Carlos Marbella",
+      "place_id": "ChIJYy_iqowgcw0R4E2_TWod9mU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://ad.doubleclick.net/ddm/trackclk/N894730.127261MYBUSINESS/B29199291.357003129;dc_trk_aid=547867760;dc_trk_cid=185393400;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd="
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"ROMEO Napoli\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"ROMEO Napoli Small Luxury Hotels of the World Hotel\", \"ROMEO Napoli Small Luxury Hotels of the World Resort\", \"ROMEO Napoli Small Luxury Hotels of the World\", \"ROMEO Napoli Small Luxury Hotels of the World Naples, Italy Hotel\", \"ROMEO Napoli Small Luxury Hotels of the World Naples, Italy Resort\", \"ROMEO Napoli Small Luxury Hotels of the World Naples, Italy\", \"ROMEO Napoli Hilton Hotel\", \"ROMEO Napoli Hilton Resort\", \"ROMEO Napoli Hilton\", \"ROMEO Napoli Hilton Naples, Italy Hotel\", \"ROMEO Napoli Hilton Naples, Italy Resort\", \"ROMEO Napoli Hilton Naples, Italy\", \"Romeo Napoli Small Luxury Hotels of the World Hotel\", \"Romeo Napoli Small Luxury Hotels of the World Resort\", \"Romeo Napoli Small Luxury Hotels of the World\", \"Romeo Napoli Small Luxury Hotels of the World Naples, Italy Hotel\", \"Romeo Napoli Small Luxury Hotels of the World Naples, Italy Resort\", \"Romeo Napoli Small Luxury Hotels of the World Naples, Italy\", \"Romeo Napoli Hilton Hotel\", \"Romeo Napoli Hilton Resort\", \"Romeo Napoli Hilton\", \"Romeo Napoli Hilton Naples, Italy Hotel\", \"Romeo Napoli Hilton Naples, Italy Resort\", \"Romeo Napoli Hilton Naples, Italy\", \"ROMEO Napoli Hotel\", \"ROMEO Napoli Resort\", \"ROMEO Napoli\", \"ROMEO Napoli Naples, Italy Hotel\", \"ROMEO Napoli Naples, Italy Resort\", \"ROMEO Napoli Naples, Italy\"], \"v\": 3}": {
+    "lat": 40.8406847,
+    "lon": 14.2557418,
+    "formatted_address": "Via Cristoforo Colombo, 45, 80133 Napoli NA, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJo-SqPU8IOxMRqck5476u0mU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Cristoforo Colombo, 45, 80133 Napoli NA, Italy",
+      "geometry": {
+        "location": {
+          "lat": 40.8406847,
+          "lng": 14.2557418
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.8419597802915,
+            "lng": 14.2571528302915
+          },
+          "southwest": {
+            "lat": 40.8392618197085,
+            "lng": 14.2544548697085
+          }
+        }
+      },
+      "name": "Romeo Hotel - Naples",
+      "place_id": "ChIJo-SqPU8IOxMRqck5476u0mU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://theromeocollection.com/it/romeo-napoli/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Castel Badia\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Castel Badia The Leading Hotels of the World Hotel\", \"Castel Badia The Leading Hotels of the World Resort\", \"Castel Badia The Leading Hotels of the World\", \"Castel Badia The Leading Hotels of the World San Lorenzo di Sebato, Italy Hotel\", \"Castel Badia The Leading Hotels of the World San Lorenzo di Sebato, Italy Resort\", \"Castel Badia The Leading Hotels of the World San Lorenzo di Sebato, Italy\", \"Castel Badia Hilton Hotel\", \"Castel Badia Hilton Resort\", \"Castel Badia Hilton\", \"Castel Badia Hilton San Lorenzo di Sebato, Italy Hotel\", \"Castel Badia Hilton San Lorenzo di Sebato, Italy Resort\", \"Castel Badia Hilton San Lorenzo di Sebato, Italy\", \"Castel Badia Hotel\", \"Castel Badia Resort\", \"Castel Badia\", \"Castel Badia San Lorenzo di Sebato, Italy Hotel\", \"Castel Badia San Lorenzo di Sebato, Italy Resort\", \"Castel Badia San Lorenzo di Sebato, Italy\"], \"v\": 3}": {
+    "lat": 46.7856694,
+    "lon": 11.8907219,
+    "formatted_address": "Frazione Castelbadia, 38, 39030 San Lorenzo di Sebato BZ, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJO08OLQsfeEcRcnjSqnYiRZo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Frazione Castelbadia, 38, 39030 San Lorenzo di Sebato BZ, Italy",
+      "geometry": {
+        "location": {
+          "lat": 46.7856694,
+          "lng": 11.8907219
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 46.7869133302915,
+            "lng": 11.8921246802915
+          },
+          "southwest": {
+            "lat": 46.7842153697085,
+            "lng": 11.8894267197085
+          }
+        }
+      },
+      "name": "Castel Badia",
+      "place_id": "ChIJO08OLQsfeEcRcnjSqnYiRZo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://castelbadia.com/"
     }
   }
 }

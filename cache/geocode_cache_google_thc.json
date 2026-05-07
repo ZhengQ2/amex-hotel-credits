@@ -18457,48 +18457,6 @@
       "website": "https://www.hilton.com/en/hotels/bnasqqq-the-harpeth-franklin-downtown/?SEO_id=GMB-AMER-QQ-BNASQQQ&y_source=1_MTQ4NDcyMzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
-  "{\"brand\": \"Curio Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Diplomat Beach Resort Hollywood Curio Collection Hilton Curio Collection Hotel\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Curio Collection Resort\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Curio Collection\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Curio Collection Hollywood, Florida US Hotel\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Curio Collection Hollywood, Florida US Resort\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Curio Collection Hollywood, Florida US\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Hilton Hotel\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Hilton Resort\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Hilton\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Hilton Hollywood, Florida US Hotel\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Hilton Hollywood, Florida US Resort\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Hilton Hollywood, Florida US\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection Hotel\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection Resort\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection Hollywood, Florida US Hotel\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection Hollywood, Florida US Resort\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection Hollywood, Florida US\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton Hotel\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton Resort\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton Hollywood, Florida US Hotel\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton Hollywood, Florida US Resort\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton Hollywood, Florida US\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hotel\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Resort\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hollywood, Florida US Hotel\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hollywood, Florida US Resort\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hollywood, Florida US\"], \"v\": 3}": {
-    "lat": 25.9917114,
-    "lon": -80.117931,
-    "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJucq_QV6r2YgR3ABMJngVlVw",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
-      "geometry": {
-        "location": {
-          "lat": 25.9917114,
-          "lng": -80.117931
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.99292473029151,
-            "lng": -80.11684701970849
-          },
-          "southwest": {
-            "lat": 25.9902267697085,
-            "lng": -80.1195449802915
-          }
-        }
-      },
-      "name": "The Diplomat Beach Resort Hollywood, Curio Collection by Hilton",
-      "place_id": "ChIJucq_QV6r2YgR3ABMJngVlVw",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hilton.com/en/hotels/flldhqq-the-diplomat-beach-resort-hollywood/?SEO_id=GMB-AMER-QQ-FLLDHQQ&y_source=1_MTg4MTIwMS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
-    }
-  },
   "{\"brand\": \"Curio Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Valley Hotel Curio Collection Hilton Curio Collection Hotel\", \"Valley Hotel Curio Collection Hilton Curio Collection Resort\", \"Valley Hotel Curio Collection Hilton Curio Collection\", \"Valley Hotel Curio Collection Hilton Curio Collection Homewood, Alabama US Hotel\", \"Valley Hotel Curio Collection Hilton Curio Collection Homewood, Alabama US Resort\", \"Valley Hotel Curio Collection Hilton Curio Collection Homewood, Alabama US\", \"Valley Hotel Curio Collection Hilton Hilton Hotel\", \"Valley Hotel Curio Collection Hilton Hilton Resort\", \"Valley Hotel Curio Collection Hilton Hilton\", \"Valley Hotel Curio Collection Hilton Hilton Homewood, Alabama US Hotel\", \"Valley Hotel Curio Collection Hilton Hilton Homewood, Alabama US Resort\", \"Valley Hotel Curio Collection Hilton Hilton Homewood, Alabama US\", \"The Valley Hotel, Curio Collection by Hilton Curio Collection Hotel\", \"The Valley Hotel, Curio Collection by Hilton Curio Collection Resort\", \"The Valley Hotel, Curio Collection by Hilton Curio Collection\", \"The Valley Hotel, Curio Collection by Hilton Curio Collection Homewood, Alabama US Hotel\", \"The Valley Hotel, Curio Collection by Hilton Curio Collection Homewood, Alabama US Resort\", \"The Valley Hotel, Curio Collection by Hilton Curio Collection Homewood, Alabama US\", \"The Valley Hotel, Curio Collection by Hilton Hilton Hotel\", \"The Valley Hotel, Curio Collection by Hilton Hilton Resort\", \"The Valley Hotel, Curio Collection by Hilton Hilton\", \"The Valley Hotel, Curio Collection by Hilton Hilton Homewood, Alabama US Hotel\", \"The Valley Hotel, Curio Collection by Hilton Hilton Homewood, Alabama US Resort\", \"The Valley Hotel, Curio Collection by Hilton Hilton Homewood, Alabama US\", \"The Valley Hotel, Curio Collection by Hilton Hotel\", \"The Valley Hotel, Curio Collection by Hilton Resort\", \"The Valley Hotel, Curio Collection by Hilton\", \"The Valley Hotel, Curio Collection by Hilton Homewood, Alabama US Hotel\", \"The Valley Hotel, Curio Collection by Hilton Homewood, Alabama US Resort\", \"The Valley Hotel, Curio Collection by Hilton Homewood, Alabama US\"], \"v\": 3}": {
     "lat": 33.4814956,
     "lon": -86.79144699999999,
@@ -66207,48 +66165,6 @@
       "website": "https://www.hilton.com/en/hotels/bnasqqq-the-harpeth-franklin-downtown/?SEO_id=GMB-AMER-QQ-BNASQQQ&y_source=1_MTQ4NDcyMzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
-  "{\"brand\": \"Curio Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection Hotel\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection Resort\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection Hollywood, Florida US Hotel\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection Hollywood, Florida US Resort\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection Hollywood, Florida US\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton Hotel\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton Resort\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton Hollywood, Florida US Hotel\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton Hollywood, Florida US Resort\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton Hollywood, Florida US\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Curio Collection Hotel\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Curio Collection Resort\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Curio Collection\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Curio Collection Hollywood, Florida US Hotel\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Curio Collection Hollywood, Florida US Resort\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Curio Collection Hollywood, Florida US\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Hilton Hotel\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Hilton Resort\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Hilton\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Hilton Hollywood, Florida US Hotel\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Hilton Hollywood, Florida US Resort\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Hilton Hollywood, Florida US\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hotel\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Resort\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hollywood, Florida US Hotel\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hollywood, Florida US Resort\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hollywood, Florida US\"], \"v\": 3}": {
-    "lat": 25.9917114,
-    "lon": -80.117931,
-    "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJucq_QV6r2YgR3ABMJngVlVw",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
-      "geometry": {
-        "location": {
-          "lat": 25.9917114,
-          "lng": -80.117931
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.99292473029151,
-            "lng": -80.11684701970849
-          },
-          "southwest": {
-            "lat": 25.9902267697085,
-            "lng": -80.1195449802915
-          }
-        }
-      },
-      "name": "The Diplomat Beach Resort Hollywood, Curio Collection by Hilton",
-      "place_id": "ChIJucq_QV6r2YgR3ABMJngVlVw",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hilton.com/en/hotels/flldhqq-the-diplomat-beach-resort-hollywood/?SEO_id=GMB-AMER-QQ-FLLDHQQ&y_source=1_MTg4MTIwMS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
-    }
-  },
   "{\"brand\": \"Curio Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Valley Hotel, Curio Collection by Hilton Curio Collection Hotel\", \"The Valley Hotel, Curio Collection by Hilton Curio Collection Resort\", \"The Valley Hotel, Curio Collection by Hilton Curio Collection\", \"The Valley Hotel, Curio Collection by Hilton Curio Collection Homewood, Alabama US Hotel\", \"The Valley Hotel, Curio Collection by Hilton Curio Collection Homewood, Alabama US Resort\", \"The Valley Hotel, Curio Collection by Hilton Curio Collection Homewood, Alabama US\", \"The Valley Hotel, Curio Collection by Hilton Hilton Hotel\", \"The Valley Hotel, Curio Collection by Hilton Hilton Resort\", \"The Valley Hotel, Curio Collection by Hilton Hilton\", \"The Valley Hotel, Curio Collection by Hilton Hilton Homewood, Alabama US Hotel\", \"The Valley Hotel, Curio Collection by Hilton Hilton Homewood, Alabama US Resort\", \"The Valley Hotel, Curio Collection by Hilton Hilton Homewood, Alabama US\", \"Valley Hotel Curio Collection Hilton Curio Collection Hotel\", \"Valley Hotel Curio Collection Hilton Curio Collection Resort\", \"Valley Hotel Curio Collection Hilton Curio Collection\", \"Valley Hotel Curio Collection Hilton Curio Collection Homewood, Alabama US Hotel\", \"Valley Hotel Curio Collection Hilton Curio Collection Homewood, Alabama US Resort\", \"Valley Hotel Curio Collection Hilton Curio Collection Homewood, Alabama US\", \"Valley Hotel Curio Collection Hilton Hilton Hotel\", \"Valley Hotel Curio Collection Hilton Hilton Resort\", \"Valley Hotel Curio Collection Hilton Hilton\", \"Valley Hotel Curio Collection Hilton Hilton Homewood, Alabama US Hotel\", \"Valley Hotel Curio Collection Hilton Hilton Homewood, Alabama US Resort\", \"Valley Hotel Curio Collection Hilton Hilton Homewood, Alabama US\", \"The Valley Hotel, Curio Collection by Hilton Hotel\", \"The Valley Hotel, Curio Collection by Hilton Resort\", \"The Valley Hotel, Curio Collection by Hilton\", \"The Valley Hotel, Curio Collection by Hilton Homewood, Alabama US Hotel\", \"The Valley Hotel, Curio Collection by Hilton Homewood, Alabama US Resort\", \"The Valley Hotel, Curio Collection by Hilton Homewood, Alabama US\"], \"v\": 3}": {
     "lat": 33.4814956,
     "lon": -86.79144699999999,
@@ -109990,48 +109906,6 @@
       "website": "https://www.hilton.com/en/hotels/bnasqqq-the-harpeth-franklin-downtown/?SEO_id=GMB-AMER-QQ-BNASQQQ&y_source=1_MTQ4NDcyMzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection Hotel\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection Resort\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection Hollywood, Florida US Hotel\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection Hollywood, Florida US Resort\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Curio Collection Hollywood, Florida US\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton Hotel\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton Resort\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton Hollywood, Florida US Hotel\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton Hollywood, Florida US Resort\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hilton Hollywood, Florida US\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Curio Collection Hotel\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Curio Collection Resort\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Curio Collection\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Curio Collection Hollywood, Florida US Hotel\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Curio Collection Hollywood, Florida US Resort\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Curio Collection Hollywood, Florida US\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Hilton Hotel\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Hilton Resort\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Hilton\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Hilton Hollywood, Florida US Hotel\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Hilton Hollywood, Florida US Resort\", \"Diplomat Beach Resort Hollywood Curio Collection Hilton Hilton Hollywood, Florida US\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hotel\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Resort\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hollywood, Florida US Hotel\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hollywood, Florida US Resort\", \"The Diplomat Beach Resort Hollywood, Curio Collection by Hilton Hollywood, Florida US\"], \"v\": 3}": {
-    "lat": 25.9917114,
-    "lon": -80.117931,
-    "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJucq_QV6r2YgR3ABMJngVlVw",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
-      "geometry": {
-        "location": {
-          "lat": 25.9917114,
-          "lng": -80.117931
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.99292473029151,
-            "lng": -80.11684701970849
-          },
-          "southwest": {
-            "lat": 25.9902267697085,
-            "lng": -80.1195449802915
-          }
-        }
-      },
-      "name": "The Diplomat Beach Resort Hollywood, Curio Collection by Hilton",
-      "place_id": "ChIJucq_QV6r2YgR3ABMJngVlVw",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hilton.com/en/hotels/flldhqq-the-diplomat-beach-resort-hollywood/?SEO_id=GMB-AMER-QQ-FLLDHQQ&y_source=1_MTg4MTIwMS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Valley Hotel Homewood Birmingham, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Valley Hotel Homewood Birmingham, Curio Collection by Hilton Curio Collection Hotel\", \"Valley Hotel Homewood Birmingham, Curio Collection by Hilton Curio Collection Resort\", \"Valley Hotel Homewood Birmingham, Curio Collection by Hilton Curio Collection\", \"Valley Hotel Homewood Birmingham, Curio Collection by Hilton Curio Collection Homewood, Alabama US Hotel\", \"Valley Hotel Homewood Birmingham, Curio Collection by Hilton Curio Collection Homewood, Alabama US Resort\", \"Valley Hotel Homewood Birmingham, Curio Collection by Hilton Curio Collection Homewood, Alabama US\", \"Valley Hotel Homewood Birmingham, Curio Collection by Hilton Hilton Hotel\", \"Valley Hotel Homewood Birmingham, Curio Collection by Hilton Hilton Resort\", \"Valley Hotel Homewood Birmingham, Curio Collection by Hilton Hilton\", \"Valley Hotel Homewood Birmingham, Curio Collection by Hilton Hilton Homewood, Alabama US Hotel\", \"Valley Hotel Homewood Birmingham, Curio Collection by Hilton Hilton Homewood, Alabama US Resort\", \"Valley Hotel Homewood Birmingham, Curio Collection by Hilton Hilton Homewood, Alabama US\", \"Valley Hotel Homewood Birmingham Curio Collection Hilton Curio Collection Hotel\", \"Valley Hotel Homewood Birmingham Curio Collection Hilton Curio Collection Resort\", \"Valley Hotel Homewood Birmingham Curio Collection Hilton Curio Collection\", \"Valley Hotel Homewood Birmingham Curio Collection Hilton Curio Collection Homewood, Alabama US Hotel\", \"Valley Hotel Homewood Birmingham Curio Collection Hilton Curio Collection Homewood, Alabama US Resort\", \"Valley Hotel Homewood Birmingham Curio Collection Hilton Curio Collection Homewood, Alabama US\", \"Valley Hotel Homewood Birmingham Curio Collection Hilton Hilton Hotel\", \"Valley Hotel Homewood Birmingham Curio Collection Hilton Hilton Resort\", \"Valley Hotel Homewood Birmingham Curio Collection Hilton Hilton\", \"Valley Hotel Homewood Birmingham Curio Collection Hilton Hilton Homewood, Alabama US Hotel\", \"Valley Hotel Homewood Birmingham Curio Collection Hilton Hilton Homewood, Alabama US Resort\", \"Valley Hotel Homewood Birmingham Curio Collection Hilton Hilton Homewood, Alabama US\", \"Valley Hotel Homewood Birmingham, Curio Collection by Hilton Hotel\", \"Valley Hotel Homewood Birmingham, Curio Collection by Hilton Resort\", \"Valley Hotel Homewood Birmingham, Curio Collection by Hilton\", \"Valley Hotel Homewood Birmingham, Curio Collection by Hilton Homewood, Alabama US Hotel\", \"Valley Hotel Homewood Birmingham, Curio Collection by Hilton Homewood, Alabama US Resort\", \"Valley Hotel Homewood Birmingham, Curio Collection by Hilton Homewood, Alabama US\"], \"v\": 3}": {
     "lat": 33.4814956,
     "lon": -86.79144699999999,
@@ -151730,6 +151604,336 @@
         "restaurant"
       ],
       "website": "https://www.warwickhotels.com/the-capital"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Signia by Hilton Diplomat Beach Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Signia by Hilton Diplomat Beach Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Compton Bentonville\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Compton Bentonville\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Lodge at St. Edward State Park Seattle/Kirkland\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Lodge at St. Edward State Park Seattle/Kirkland\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Itzana Resort & Residences\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Itzana Resort & Residences\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Boscolo H\\u00f4tel & Spa Lyon\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Boscolo H\\u00f4tel & Spa Lyon\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Cliff House Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cliff House Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hotel Corona d'Oro 1890\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Corona d'Oro 1890\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hotel Saint-Georges\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Saint-Georges\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"SIRO One Za'abeel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"SIRO One Za'abeel\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Standard, Pattaya Na Jomtien\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Standard, Pattaya Na Jomtien\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Compton Bentonville\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Compton Bentonville Hotel\", \"The Compton Bentonville Resort\", \"The Compton Bentonville\", \"The Compton Bentonville Bentonville, Arkansas US Hotel\", \"The Compton Bentonville Bentonville, Arkansas US Resort\", \"The Compton Bentonville Bentonville, Arkansas US\"], \"v\": 3}": {
+    "lat": 36.3720385,
+    "lon": -94.2075697,
+    "formatted_address": "200 E Central Ave, Bentonville, AR 72712, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJRy7aNoIbyYcRLlIWizITI70",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "200 E Central Ave, Bentonville, AR 72712, USA",
+      "geometry": {
+        "location": {
+          "lat": 36.3720385,
+          "lng": -94.2075697
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.37338758029151,
+            "lng": -94.2062280197085
+          },
+          "southwest": {
+            "lat": 36.37068961970851,
+            "lng": -94.20892598029151
+          }
+        }
+      },
+      "name": "The Compton Bentonville",
+      "place_id": "ChIJRy7aNoIbyYcRLlIWizITI70",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.thecompton.com/?utm_source=google&utm_medium=organic&utm_campaign=business_listing"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Signia by Hilton Diplomat Beach Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Signia by Hilton Diplomat Beach Resort Hilton Hotels & Resorts Hotel\", \"Signia by Hilton Diplomat Beach Resort Hilton Hotels & Resorts Resort\", \"Signia by Hilton Diplomat Beach Resort Hilton Hotels & Resorts\", \"Signia by Hilton Diplomat Beach Resort Hilton Hotels & Resorts Hollywood, Florida US Hotel\", \"Signia by Hilton Diplomat Beach Resort Hilton Hotels & Resorts Hollywood, Florida US Resort\", \"Signia by Hilton Diplomat Beach Resort Hilton Hotels & Resorts Hollywood, Florida US\", \"Signia by Hilton Diplomat Beach Resort Hilton Hotel\", \"Signia by Hilton Diplomat Beach Resort Hilton Resort\", \"Signia by Hilton Diplomat Beach Resort Hilton\", \"Signia by Hilton Diplomat Beach Resort Hilton Hollywood, Florida US Hotel\", \"Signia by Hilton Diplomat Beach Resort Hilton Hollywood, Florida US Resort\", \"Signia by Hilton Diplomat Beach Resort Hilton Hollywood, Florida US\", \"Signia Hilton Diplomat Beach Resort Hilton Hotels & Resorts Hotel\", \"Signia Hilton Diplomat Beach Resort Hilton Hotels & Resorts Resort\", \"Signia Hilton Diplomat Beach Resort Hilton Hotels & Resorts\", \"Signia Hilton Diplomat Beach Resort Hilton Hotels & Resorts Hollywood, Florida US Hotel\", \"Signia Hilton Diplomat Beach Resort Hilton Hotels & Resorts Hollywood, Florida US Resort\", \"Signia Hilton Diplomat Beach Resort Hilton Hotels & Resorts Hollywood, Florida US\", \"Signia Hilton Diplomat Beach Resort Hilton Hotel\", \"Signia Hilton Diplomat Beach Resort Hilton Resort\", \"Signia Hilton Diplomat Beach Resort Hilton\", \"Signia Hilton Diplomat Beach Resort Hilton Hollywood, Florida US Hotel\", \"Signia Hilton Diplomat Beach Resort Hilton Hollywood, Florida US Resort\", \"Signia Hilton Diplomat Beach Resort Hilton Hollywood, Florida US\", \"Signia by Hilton Diplomat Beach Resort Hotel\", \"Signia by Hilton Diplomat Beach Resort Resort\", \"Signia by Hilton Diplomat Beach Resort\", \"Signia by Hilton Diplomat Beach Resort Hollywood, Florida US Hotel\", \"Signia by Hilton Diplomat Beach Resort Hollywood, Florida US Resort\", \"Signia by Hilton Diplomat Beach Resort Hollywood, Florida US\"], \"v\": 3}": {
+    "lat": 25.9916936,
+    "lon": -80.1179417,
+    "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJdegypsir2YgRhe4rbEB80oU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
+      "geometry": {
+        "location": {
+          "lat": 25.9916936,
+          "lng": -80.1179417
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.9927793302915,
+            "lng": -80.1168228197085
+          },
+          "southwest": {
+            "lat": 25.9900813697085,
+            "lng": -80.11952078029151
+          }
+        }
+      },
+      "name": "Signia by Hilton Diplomat Beach Resort",
+      "place_id": "ChIJdegypsir2YgRhe4rbEB80oU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/flldhsa-signia-diplomat-beach-resort/?SEO_id=GMB-AMER-SA-FLLDHSA&y_source=1_MjA1OTUxODA5My03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Saint-Georges\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Saint-Georges Relais & Ch\\u00e2teaux Hotel\", \"Hotel Saint-Georges Relais & Ch\\u00e2teaux Resort\", \"Hotel Saint-Georges Relais & Ch\\u00e2teaux\", \"Hotel Saint-Georges Relais & Ch\\u00e2teaux Meg\\u00e8ve, France Hotel\", \"Hotel Saint-Georges Relais & Ch\\u00e2teaux Meg\\u00e8ve, France Resort\", \"Hotel Saint-Georges Relais & Ch\\u00e2teaux Meg\\u00e8ve, France\", \"Hotel Saint-Georges Hilton Hotel\", \"Hotel Saint-Georges Hilton Resort\", \"Hotel Saint-Georges Hilton\", \"Hotel Saint-Georges Hilton Meg\\u00e8ve, France Hotel\", \"Hotel Saint-Georges Hilton Meg\\u00e8ve, France Resort\", \"Hotel Saint-Georges Hilton Meg\\u00e8ve, France\", \"Hotel Saint georges Relais & Ch\\u00e2teaux Hotel\", \"Hotel Saint georges Relais & Ch\\u00e2teaux Resort\", \"Hotel Saint georges Relais & Ch\\u00e2teaux\", \"Hotel Saint georges Relais & Ch\\u00e2teaux Meg\\u00e8ve, France Hotel\", \"Hotel Saint georges Relais & Ch\\u00e2teaux Meg\\u00e8ve, France Resort\", \"Hotel Saint georges Relais & Ch\\u00e2teaux Meg\\u00e8ve, France\", \"Hotel Saint georges Hilton Hotel\", \"Hotel Saint georges Hilton Resort\", \"Hotel Saint georges Hilton\", \"Hotel Saint georges Hilton Meg\\u00e8ve, France Hotel\", \"Hotel Saint georges Hilton Meg\\u00e8ve, France Resort\", \"Hotel Saint georges Hilton Meg\\u00e8ve, France\", \"Hotel Saint-Georges Hotel\", \"Hotel Saint-Georges Resort\", \"Hotel Saint-Georges\", \"Hotel Saint-Georges Meg\\u00e8ve, France Hotel\", \"Hotel Saint-Georges Meg\\u00e8ve, France Resort\", \"Hotel Saint-Georges Meg\\u00e8ve, France\"], \"v\": 3}": {
+    "lat": 45.8553191,
+    "lon": 6.6170993,
+    "formatted_address": "159 Rue Mgr Conseil, 74120 Megève, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJkbKaAcbii0cRbbuRSTAnSlA",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "CLOSED_TEMPORARILY",
+      "formatted_address": "159 Rue Mgr Conseil, 74120 Megève, France",
+      "geometry": {
+        "location": {
+          "lat": 45.8553191,
+          "lng": 6.6170993
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.8566253802915,
+            "lng": 6.618484230291501
+          },
+          "southwest": {
+            "lat": 45.8539274197085,
+            "lng": 6.615786269708496
+          }
+        }
+      },
+      "name": "Hôtel Saint-Georges - Relais & Châteaux",
+      "place_id": "ChIJkbKaAcbii0cRbbuRSTAnSlA",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.hotelsaintgeorges-megeve.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Itzana Resort & Residences\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Itzana Resort & Residences Small Luxury Hotels of the World Hotel\", \"Itzana Resort & Residences Small Luxury Hotels of the World Resort\", \"Itzana Resort & Residences Small Luxury Hotels of the World\", \"Itzana Resort & Residences Small Luxury Hotels of the World Placencia, Belize Hotel\", \"Itzana Resort & Residences Small Luxury Hotels of the World Placencia, Belize Resort\", \"Itzana Resort & Residences Small Luxury Hotels of the World Placencia, Belize\", \"Itzana Resort & Residences Hilton Hotel\", \"Itzana Resort & Residences Hilton Resort\", \"Itzana Resort & Residences Hilton\", \"Itzana Resort & Residences Hilton Placencia, Belize Hotel\", \"Itzana Resort & Residences Hilton Placencia, Belize Resort\", \"Itzana Resort & Residences Hilton Placencia, Belize\", \"Itzana Resort Residences Small Luxury Hotels of the World Hotel\", \"Itzana Resort Residences Small Luxury Hotels of the World Resort\", \"Itzana Resort Residences Small Luxury Hotels of the World\", \"Itzana Resort Residences Small Luxury Hotels of the World Placencia, Belize Hotel\", \"Itzana Resort Residences Small Luxury Hotels of the World Placencia, Belize Resort\", \"Itzana Resort Residences Small Luxury Hotels of the World Placencia, Belize\", \"Itzana Resort Residences Hilton Hotel\", \"Itzana Resort Residences Hilton Resort\", \"Itzana Resort Residences Hilton\", \"Itzana Resort Residences Hilton Placencia, Belize Hotel\", \"Itzana Resort Residences Hilton Placencia, Belize Resort\", \"Itzana Resort Residences Hilton Placencia, Belize\", \"Itzana Resort & Residences Hotel\", \"Itzana Resort & Residences Resort\", \"Itzana Resort & Residences\", \"Itzana Resort & Residences Placencia, Belize Hotel\", \"Itzana Resort & Residences Placencia, Belize Resort\", \"Itzana Resort & Residences Placencia, Belize\"], \"v\": 3}": {
+    "lat": 16.561407,
+    "lon": -88.3641433,
+    "formatted_address": "Mile 20 Placencia Rd, Placencia, Belize",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
+    "place_id": "ChIJA2iIhpOJXY8Rw0MqUREhtr4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": true,
+    "raw": {
+      "address_components": [
+        {
+          "long_name": "Mile 20",
+          "short_name": "Mile 20",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Placencia Road",
+          "short_name": "Placencia Rd",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Placencia",
+          "short_name": "Placencia",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Stann Creek District",
+          "short_name": "Stann Creek District",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Belize",
+          "short_name": "BZ",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Mile 20 Placencia Rd, Placencia, Belize",
+      "geometry": {
+        "location": {
+          "lat": 16.561407,
+          "lng": -88.3641433
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 16.5627445302915,
+            "lng": -88.36286606970849
+          },
+          "southwest": {
+            "lat": 16.5600465697085,
+            "lng": -88.36556403029151
+          }
+        }
+      },
+      "navigation_points": [
+        {
+          "location": {
+            "latitude": 16.5613944,
+            "longitude": -88.364222
+          }
+        }
+      ],
+      "partial_match": true,
+      "place_id": "ChIJA2iIhpOJXY8Rw0MqUREhtr4",
+      "plus_code": {
+        "compound_code": "HJ6P+H8 Placencia, Belize",
+        "global_code": "768HHJ6P+H8"
+      },
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Cliff House Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cliff House Hotel Small Luxury Hotels of the World Hotel\", \"Cliff House Hotel Small Luxury Hotels of the World Resort\", \"Cliff House Hotel Small Luxury Hotels of the World\", \"Cliff House Hotel Small Luxury Hotels of the World Waterford, Ireland Hotel\", \"Cliff House Hotel Small Luxury Hotels of the World Waterford, Ireland Resort\", \"Cliff House Hotel Small Luxury Hotels of the World Waterford, Ireland\", \"Cliff House Hotel Hilton Hotel\", \"Cliff House Hotel Hilton Resort\", \"Cliff House Hotel Hilton\", \"Cliff House Hotel Hilton Waterford, Ireland Hotel\", \"Cliff House Hotel Hilton Waterford, Ireland Resort\", \"Cliff House Hotel Hilton Waterford, Ireland\", \"Cliff House Hotel Hotel\", \"Cliff House Hotel Resort\", \"Cliff House Hotel\", \"Cliff House Hotel Waterford, Ireland Hotel\", \"Cliff House Hotel Waterford, Ireland Resort\", \"Cliff House Hotel Waterford, Ireland\"], \"v\": 3}": {
+    "lat": 51.9487528,
+    "lon": -7.715162500000001,
+    "formatted_address": "Middle Road, Dysert, Ardmore, Co. Waterford, P36 DK38, Ireland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJiaHPag4SQ0gRPUUXBkU8krw",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Middle Road, Dysert, Ardmore, Co. Waterford, P36 DK38, Ireland",
+      "geometry": {
+        "location": {
+          "lat": 51.9487528,
+          "lng": -7.715162500000001
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.9500075802915,
+            "lng": -7.713967719708498
+          },
+          "southwest": {
+            "lat": 51.9473096197085,
+            "lng": -7.716665680291503
+          }
+        }
+      },
+      "name": "Cliff House Hotel, Ardmore",
+      "place_id": "ChIJiaHPag4SQ0gRPUUXBkU8krw",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://cliffhousehotel.ie/?utm_source=mybusiness&utm_medium=organic"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Standard, Pattaya Na Jomtien\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Standard, Pattaya Na Jomtien The Standard Hotel\", \"The Standard, Pattaya Na Jomtien The Standard Resort\", \"The Standard, Pattaya Na Jomtien The Standard\", \"The Standard, Pattaya Na Jomtien The Standard Chon Buri, Thailand Hotel\", \"The Standard, Pattaya Na Jomtien The Standard Chon Buri, Thailand Resort\", \"The Standard, Pattaya Na Jomtien The Standard Chon Buri, Thailand\", \"The Standard, Pattaya Na Jomtien Hilton Hotel\", \"The Standard, Pattaya Na Jomtien Hilton Resort\", \"The Standard, Pattaya Na Jomtien Hilton\", \"The Standard, Pattaya Na Jomtien Hilton Chon Buri, Thailand Hotel\", \"The Standard, Pattaya Na Jomtien Hilton Chon Buri, Thailand Resort\", \"The Standard, Pattaya Na Jomtien Hilton Chon Buri, Thailand\", \"Standard Pattaya Na Jomtien The Standard Hotel\", \"Standard Pattaya Na Jomtien The Standard Resort\", \"Standard Pattaya Na Jomtien The Standard\", \"Standard Pattaya Na Jomtien The Standard Chon Buri, Thailand Hotel\", \"Standard Pattaya Na Jomtien The Standard Chon Buri, Thailand Resort\", \"Standard Pattaya Na Jomtien The Standard Chon Buri, Thailand\", \"Standard Pattaya Na Jomtien Hilton Hotel\", \"Standard Pattaya Na Jomtien Hilton Resort\", \"Standard Pattaya Na Jomtien Hilton\", \"Standard Pattaya Na Jomtien Hilton Chon Buri, Thailand Hotel\", \"Standard Pattaya Na Jomtien Hilton Chon Buri, Thailand Resort\", \"Standard Pattaya Na Jomtien Hilton Chon Buri, Thailand\", \"The Standard, Pattaya Na Jomtien Hotel\", \"The Standard, Pattaya Na Jomtien Resort\", \"The Standard, Pattaya Na Jomtien\", \"The Standard, Pattaya Na Jomtien Chon Buri, Thailand Hotel\", \"The Standard, Pattaya Na Jomtien Chon Buri, Thailand Resort\", \"The Standard, Pattaya Na Jomtien Chon Buri, Thailand\"], \"v\": 3}": {
+    "lat": 12.8480564,
+    "lon": 100.9046106,
+    "formatted_address": "8, 12, Tambon Na Chom Thian, Amphoe Sattahip, Chang Wat Chon Buri 20250, Thailand",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ_7EIDwCTAjERIdudjMx1E9k",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "8, 12, Tambon Na Chom Thian, Amphoe Sattahip, Chang Wat Chon Buri 20250, Thailand",
+      "geometry": {
+        "location": {
+          "lat": 12.8480564,
+          "lng": 100.9046106
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 12.8494407302915,
+            "lng": 100.9061824302915
+          },
+          "southwest": {
+            "lat": 12.8467427697085,
+            "lng": 100.9034844697085
+          }
+        }
+      },
+      "name": "The Standard, Pattaya Na Jomtien",
+      "place_id": "ChIJ_7EIDwCTAjERIdudjMx1E9k",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/the-standard/en-US/utpsp-the-standard-pattaya-na-jomtien?src=corp_lclb_google_seo_utpsp&utm_source=google&utm_medium=organic&utm_campaign=lmr"
     }
   }
 }
