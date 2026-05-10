@@ -2453,46 +2453,6 @@
       "website": "http://www.claremontresortandclub.com/"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Soho House Berlin Hotel\", \"Soho House Berlin Resort\", \"Soho House Berlin\", \"Soho House Berlin Berlin, Germany Hotel\", \"Soho House Berlin Berlin, Germany Resort\", \"Soho House Berlin Berlin, Germany\"], \"v\": 3}": {
-    "lat": 52.5276035,
-    "lon": 13.4154727,
-    "formatted_address": "Torstraße 1, 10119 Berlin, Germany",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ7QGeQxxOqEcRFvDmifxqZO8",
-    "types": [
-      "establishment",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Torstraße 1, 10119 Berlin, Germany",
-      "geometry": {
-        "location": {
-          "lat": 52.5276035,
-          "lng": 13.4154727
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 52.5287664302915,
-            "lng": 13.4168490302915
-          },
-          "southwest": {
-            "lat": 52.5260684697085,
-            "lng": 13.4141510697085
-          }
-        }
-      },
-      "name": "Soho House",
-      "place_id": "ChIJ7QGeQxxOqEcRFvDmifxqZO8",
-      "types": [
-        "establishment",
-        "point_of_interest"
-      ],
-      "website": "https://www.sohohouse.com/houses/soho-house-berlin?utm_source=google&utm_medium=organic&utm_campaign=googlemybusiness"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sixty Beverly Hills Hotel\", \"Sixty Beverly Hills Resort\", \"Sixty Beverly Hills\", \"Sixty Beverly Hills Beverly Hills, California US Hotel\", \"Sixty Beverly Hills Beverly Hills, California US Resort\", \"Sixty Beverly Hills Beverly Hills, California US\", \"SIXTY Beverly Hills Hotel\", \"SIXTY Beverly Hills Resort\", \"SIXTY Beverly Hills\", \"SIXTY Beverly Hills Beverly Hills, California US Hotel\", \"SIXTY Beverly Hills Beverly Hills, California US Resort\", \"SIXTY Beverly Hills Beverly Hills, California US\"], \"v\": 3}": {
     "lat": 34.0667845,
     "lon": -118.3961223,
@@ -92764,46 +92724,6 @@
       "website": "http://www.claremontresortandclub.com/"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Soho House Berlin\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Soho House Berlin Hotel\", \"Soho House Berlin Resort\", \"Soho House Berlin\", \"Soho House Berlin Berlin, Germany Hotel\", \"Soho House Berlin Berlin, Germany Resort\", \"Soho House Berlin Berlin, Germany\"], \"v\": 3}": {
-    "lat": 52.5276035,
-    "lon": 13.4154727,
-    "formatted_address": "Torstraße 1, 10119 Berlin, Germany",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ7QGeQxxOqEcRFvDmifxqZO8",
-    "types": [
-      "establishment",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Torstraße 1, 10119 Berlin, Germany",
-      "geometry": {
-        "location": {
-          "lat": 52.5276035,
-          "lng": 13.4154727
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 52.5287664302915,
-            "lng": 13.4168490302915
-          },
-          "southwest": {
-            "lat": 52.5260684697085,
-            "lng": 13.4141510697085
-          }
-        }
-      },
-      "name": "Soho House",
-      "place_id": "ChIJ7QGeQxxOqEcRFvDmifxqZO8",
-      "types": [
-        "establishment",
-        "point_of_interest"
-      ],
-      "website": "https://www.sohohouse.com/houses/soho-house-berlin?utm_source=google&utm_medium=organic&utm_campaign=googlemybusiness"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"SIXTY Beverly Hills\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"SIXTY Beverly Hills Hotel\", \"SIXTY Beverly Hills Resort\", \"SIXTY Beverly Hills\", \"SIXTY Beverly Hills Beverly Hills, California US Hotel\", \"SIXTY Beverly Hills Beverly Hills, California US Resort\", \"SIXTY Beverly Hills Beverly Hills, California US\", \"Sixty Beverly Hills Hotel\", \"Sixty Beverly Hills Resort\", \"Sixty Beverly Hills\", \"Sixty Beverly Hills Beverly Hills, California US Hotel\", \"Sixty Beverly Hills Beverly Hills, California US Resort\", \"Sixty Beverly Hills Beverly Hills, California US\"], \"v\": 3}": {
     "lat": 34.0667845,
     "lon": -118.3961223,
@@ -101142,12 +101062,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Belair\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Belair Hotel\", \"Hotel Belair Resort\", \"Hotel Belair\", \"Hotel Belair Sorrento, Italy Hotel\", \"Hotel Belair Sorrento, Italy Resort\", \"Hotel Belair Sorrento, Italy\"], \"v\": 3}": {
-    "lat": 34.086597,
-    "lon": -118.446351,
-    "formatted_address": "701 Stone Canyon Rd, Los Angeles, CA 90077, USA",
+    "lat": 40.6279083,
+    "lon": 14.3629361,
+    "formatted_address": "Via Capo, 29, 80067 Sorrento NA, Italy",
     "provider": "google_geocoding",
     "confidence": "ROOFTOP",
-    "place_id": "ChIJ4XfXK_G8woARbUYxTMpyDo8",
+    "place_id": "ChIJs6g7T6KeOxMRB8I7d2qijDk",
     "types": [
       "establishment",
       "lodging",
@@ -101157,98 +101077,98 @@
     "raw": {
       "address_components": [
         {
-          "long_name": "701",
-          "short_name": "701",
+          "long_name": "29",
+          "short_name": "29",
           "types": [
             "street_number"
           ]
         },
         {
-          "long_name": "Stone Canyon Road",
-          "short_name": "Stone Canyon Rd",
+          "long_name": "Via Capo",
+          "short_name": "Via Capo",
           "types": [
             "route"
           ]
         },
         {
-          "long_name": "Bel Air",
-          "short_name": "Bel Air",
-          "types": [
-            "neighborhood",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Los Angeles",
-          "short_name": "Los Angeles",
+          "long_name": "Sorrento",
+          "short_name": "Sorrento",
           "types": [
             "locality",
             "political"
           ]
         },
         {
-          "long_name": "Los Angeles County",
-          "short_name": "Los Angeles County",
+          "long_name": "Sorrento",
+          "short_name": "Sorrento",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Città Metropolitana di Napoli",
+          "short_name": "NA",
           "types": [
             "administrative_area_level_2",
             "political"
           ]
         },
         {
-          "long_name": "California",
-          "short_name": "CA",
+          "long_name": "Campania",
+          "short_name": "Campania",
           "types": [
             "administrative_area_level_1",
             "political"
           ]
         },
         {
-          "long_name": "United States",
-          "short_name": "US",
+          "long_name": "Italy",
+          "short_name": "IT",
           "types": [
             "country",
             "political"
           ]
         },
         {
-          "long_name": "90077",
-          "short_name": "90077",
+          "long_name": "80067",
+          "short_name": "80067",
           "types": [
             "postal_code"
           ]
         }
       ],
-      "formatted_address": "701 Stone Canyon Rd, Los Angeles, CA 90077, USA",
+      "formatted_address": "Via Capo, 29, 80067 Sorrento NA, Italy",
       "geometry": {
         "location": {
-          "lat": 34.086597,
-          "lng": -118.446351
+          "lat": 40.6279083,
+          "lng": 14.3629361
         },
         "location_type": "ROOFTOP",
         "viewport": {
           "northeast": {
-            "lat": 34.0881345302915,
-            "lng": -118.4447591197085
+            "lat": 40.6292242302915,
+            "lng": 14.3642488302915
           },
           "southwest": {
-            "lat": 34.08543656970851,
-            "lng": -118.4474570802915
+            "lat": 40.6265262697085,
+            "lng": 14.3615508697085
           }
         }
       },
       "navigation_points": [
         {
           "location": {
-            "latitude": 34.0869294,
-            "longitude": -118.4459187
+            "latitude": 40.6278916,
+            "longitude": 14.362915
           }
         }
       ],
       "partial_match": true,
-      "place_id": "ChIJ4XfXK_G8woARbUYxTMpyDo8",
+      "place_id": "ChIJs6g7T6KeOxMRB8I7d2qijDk",
       "plus_code": {
-        "compound_code": "3HP3+JF Los Angeles, CA",
-        "global_code": "85633HP3+JF"
+        "compound_code": "J9H7+55 Sorrento, Metropolitan City of Naples, Italy",
+        "global_code": "8FGPJ9H7+55"
       },
       "types": [
         "establishment",
@@ -138452,45 +138372,132 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Magnolia\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Magnolia Preferred Hotels & Resorts Hotel\", \"Hotel Magnolia Preferred Hotels & Resorts Resort\", \"Hotel Magnolia Preferred Hotels & Resorts\", \"Hotel Magnolia Preferred Hotels & Resorts Santiago, Chile Hotel\", \"Hotel Magnolia Preferred Hotels & Resorts Santiago, Chile Resort\", \"Hotel Magnolia Preferred Hotels & Resorts Santiago, Chile\", \"Hotel Magnolia Hilton Hotel\", \"Hotel Magnolia Hilton Resort\", \"Hotel Magnolia Hilton\", \"Hotel Magnolia Hilton Santiago, Chile Hotel\", \"Hotel Magnolia Hilton Santiago, Chile Resort\", \"Hotel Magnolia Hilton Santiago, Chile\", \"Hotel Magnolia Hotel\", \"Hotel Magnolia Resort\", \"Hotel Magnolia\", \"Hotel Magnolia Santiago, Chile Hotel\", \"Hotel Magnolia Santiago, Chile Resort\", \"Hotel Magnolia Santiago, Chile\"], \"v\": 3}": {
-    "lat": 32.7801591,
-    "lon": -96.7991098,
-    "formatted_address": "1401 Commerce St, Dallas, TX 75201, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJEceT6RiZToYRamCabf48B6k",
+    "lat": 45.6107764,
+    "lon": 12.2363773,
+    "formatted_address": "Str. Terraglio, 136/2, 31022 Preganziol TV, Italy",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
+    "place_id": "ChIJlVh3ABNKeUcRK_I30luY0s4",
     "types": [
       "establishment",
       "lodging",
       "point_of_interest"
     ],
-    "partial_match": false,
+    "partial_match": true,
     "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "1401 Commerce St, Dallas, TX 75201, USA",
+      "address_components": [
+        {
+          "long_name": "2",
+          "short_name": "2",
+          "types": [
+            "subpremise"
+          ]
+        },
+        {
+          "long_name": "136",
+          "short_name": "136",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Strada Terraglio",
+          "short_name": "Str. Terraglio",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Preganziol",
+          "short_name": "Preganziol",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Preganziol",
+          "short_name": "Preganziol",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Provincia di Treviso",
+          "short_name": "TV",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Veneto",
+          "short_name": "Veneto",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Italy",
+          "short_name": "IT",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "31022",
+          "short_name": "31022",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Str. Terraglio, 136/2, 31022 Preganziol TV, Italy",
       "geometry": {
         "location": {
-          "lat": 32.7801591,
-          "lng": -96.7991098
+          "lat": 45.6107764,
+          "lng": 12.2363773
         },
+        "location_type": "ROOFTOP",
         "viewport": {
           "northeast": {
-            "lat": 32.7813738802915,
-            "lng": -96.79757051970849
+            "lat": 45.6120364302915,
+            "lng": 12.2378332302915
           },
           "southwest": {
-            "lat": 32.7786759197085,
-            "lng": -96.8002684802915
+            "lat": 45.6093384697085,
+            "lng": 12.2351352697085
           }
         }
       },
-      "name": "Magnolia Dallas Downtown",
-      "place_id": "ChIJEceT6RiZToYRamCabf48B6k",
+      "navigation_points": [
+        {
+          "location": {
+            "latitude": 45.610712,
+            "longitude": 12.2366084
+          }
+        },
+        {
+          "location": {
+            "latitude": 45.6107296,
+            "longitude": 12.23637
+          }
+        }
+      ],
+      "partial_match": true,
+      "place_id": "ChIJlVh3ABNKeUcRK_I30luY0s4",
+      "plus_code": {
+        "compound_code": "J66P+8H Preganziol, Province of Treviso, Italy",
+        "global_code": "8FQJJ66P+8H"
+      },
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
-      ],
-      "website": "https://magnoliahotels.com/dallas-downtown/?utm_source=local&utm_medium=organic&utm_campaign=gmb"
+      ]
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Adelphi Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Adelphi Hotel Preferred Hotels & Resorts Hotel\", \"The Adelphi Hotel Preferred Hotels & Resorts Resort\", \"The Adelphi Hotel Preferred Hotels & Resorts\", \"The Adelphi Hotel Preferred Hotels & Resorts Saratoga Springs, New York US Hotel\", \"The Adelphi Hotel Preferred Hotels & Resorts Saratoga Springs, New York US Resort\", \"The Adelphi Hotel Preferred Hotels & Resorts Saratoga Springs, New York US\", \"The Adelphi Hotel Hilton Hotel\", \"The Adelphi Hotel Hilton Resort\", \"The Adelphi Hotel Hilton\", \"The Adelphi Hotel Hilton Saratoga Springs, New York US Hotel\", \"The Adelphi Hotel Hilton Saratoga Springs, New York US Resort\", \"The Adelphi Hotel Hilton Saratoga Springs, New York US\", \"The Adelphi Hotel Hotel\", \"The Adelphi Hotel Resort\", \"The Adelphi Hotel\", \"The Adelphi Hotel Saratoga Springs, New York US Hotel\", \"The Adelphi Hotel Saratoga Springs, New York US Resort\", \"The Adelphi Hotel Saratoga Springs, New York US\"], \"v\": 3}": {
@@ -142762,12 +142769,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Antonio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Antonio Small Luxury Hotels of the World Hotel\", \"San Antonio Small Luxury Hotels of the World Resort\", \"San Antonio Small Luxury Hotels of the World\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Hotel\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Resort\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece\", \"San Antonio Hilton Hotel\", \"San Antonio Hilton Resort\", \"San Antonio Hilton\", \"San Antonio Hilton Imerovigli, Greece Hotel\", \"San Antonio Hilton Imerovigli, Greece Resort\", \"San Antonio Hilton Imerovigli, Greece\", \"San Antonio Hotel\", \"San Antonio Resort\", \"San Antonio\", \"San Antonio Imerovigli, Greece Hotel\", \"San Antonio Imerovigli, Greece Resort\", \"San Antonio Imerovigli, Greece\"], \"v\": 3}": {
-    "lat": 29.4266015,
-    "lon": -98.4859548,
-    "formatted_address": "705 E Houston St, San Antonio, TX 78205, USA",
+    "lat": 29.427455,
+    "lon": -98.4894638,
+    "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJPX3jOFVfXIYRnMvCUJcFi2Q",
+    "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
     "types": [
       "establishment",
       "lodging",
@@ -142776,31 +142783,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "705 E Houston St, San Antonio, TX 78205, USA",
+      "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
       "geometry": {
         "location": {
-          "lat": 29.4266015,
-          "lng": -98.4859548
+          "lat": 29.427455,
+          "lng": -98.4894638
         },
         "viewport": {
           "northeast": {
-            "lat": 29.4279135802915,
-            "lng": -98.4846148197085
+            "lat": 29.4288507802915,
+            "lng": -98.4880806197085
           },
           "southwest": {
-            "lat": 29.4252156197085,
-            "lng": -98.48731278029152
+            "lat": 29.4261528197085,
+            "lng": -98.4907785802915
           }
         }
       },
-      "name": "The Emily Morgan San Antonio - a DoubleTree by Hilton Hotel",
-      "place_id": "ChIJPX3jOFVfXIYRnMvCUJcFi2Q",
+      "name": "The St. Anthony, a Luxury Collection Hotel, San Antonio",
+      "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/satemdt-the-emily-morgan-san-antonio/?SEO_id=GMB-AMER-DT-SATEMDT&y_source=1_MTM3MjYzOC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.marriott.com/en-us/hotels/satlc-the-st-anthony-a-luxury-collection-hotel-san-antonio/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rusty Parrot Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
@@ -151934,6 +151941,266 @@
         "point_of_interest"
       ],
       "website": "https://www.hyatt.com/the-standard/en-US/utpsp-the-standard-pattaya-na-jomtien?src=corp_lclb_google_seo_utpsp&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Amor Arenal\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amor Arenal\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Santa Teresa Hotel Rio de Janeiro - MGallery Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Santa Teresa Hotel Rio de Janeiro - MGallery Collection\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hotel Locarno Roma\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Locarno Roma\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Hoxton, Shoreditch\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Hoxton, Shoreditch\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Cicada Resort Bali Ubud, Autograph Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cicada Resort Bali Ubud, Autograph Collection\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hilton Okinawa Miyako Island Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Okinawa Miyako Island Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Amor Arenal\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amor Arenal Hotel\", \"Amor Arenal Resort\", \"Amor Arenal\", \"Amor Arenal La Fortuna, Costa Rica Hotel\", \"Amor Arenal La Fortuna, Costa Rica Resort\", \"Amor Arenal La Fortuna, Costa Rica\"], \"v\": 3}": {
+    "lat": 10.4968478,
+    "lon": -84.69643429999999,
+    "formatted_address": "7 km oeste del centro de La Fortuna en la Ruta 142 camino al, Parque Nacional Volcán Arenal, Provincia de Alajuela, La Fortuna, 21007, Costa Rica",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ2zUNLpYOoI8R645qcfQPPpM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "7 km oeste del centro de La Fortuna en la Ruta 142 camino al, Parque Nacional Volcán Arenal, Provincia de Alajuela, La Fortuna, 21007, Costa Rica",
+      "geometry": {
+        "location": {
+          "lat": 10.4968478,
+          "lng": -84.69643429999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.4984439302915,
+            "lng": -84.69474291970849
+          },
+          "southwest": {
+            "lat": 10.4957459697085,
+            "lng": -84.6974408802915
+          }
+        }
+      },
+      "name": "Amor Arenal",
+      "place_id": "ChIJ2zUNLpYOoI8R645qcfQPPpM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.amorarenal.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Locarno Roma\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Locarno Roma Hotel\", \"Hotel Locarno Roma Resort\", \"Hotel Locarno Roma\", \"Hotel Locarno Roma Rome, Italy Hotel\", \"Hotel Locarno Roma Rome, Italy Resort\", \"Hotel Locarno Roma Rome, Italy\"], \"v\": 3}": {
+    "lat": 41.9097528,
+    "lon": 12.4747159,
+    "formatted_address": "Via della Penna, 22, 00186 Roma RM, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ-8hcuGTxJRMRMXyB_Rdo7xQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via della Penna, 22, 00186 Roma RM, Italy",
+      "geometry": {
+        "location": {
+          "lat": 41.9097528,
+          "lng": 12.4747159
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.9110284802915,
+            "lng": 12.4760963302915
+          },
+          "southwest": {
+            "lat": 41.9083305197085,
+            "lng": 12.4733983697085
+          }
+        }
+      },
+      "name": "Hotel Locarno",
+      "place_id": "ChIJ-8hcuGTxJRMRMXyB_Rdo7xQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.hotellocarno.com/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Cicada Resort Bali Ubud, Autograph Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cicada Resort Bali Ubud, Autograph Collection Autograph Collection Hotels Hotel\", \"Cicada Resort Bali Ubud, Autograph Collection Autograph Collection Hotels Resort\", \"Cicada Resort Bali Ubud, Autograph Collection Autograph Collection Hotels\", \"Cicada Resort Bali Ubud, Autograph Collection Autograph Collection Hotels Bali, Indonesia Hotel\", \"Cicada Resort Bali Ubud, Autograph Collection Autograph Collection Hotels Bali, Indonesia Resort\", \"Cicada Resort Bali Ubud, Autograph Collection Autograph Collection Hotels Bali, Indonesia\", \"Cicada Resort Bali Ubud, Autograph Collection Hilton Hotel\", \"Cicada Resort Bali Ubud, Autograph Collection Hilton Resort\", \"Cicada Resort Bali Ubud, Autograph Collection Hilton\", \"Cicada Resort Bali Ubud, Autograph Collection Hilton Bali, Indonesia Hotel\", \"Cicada Resort Bali Ubud, Autograph Collection Hilton Bali, Indonesia Resort\", \"Cicada Resort Bali Ubud, Autograph Collection Hilton Bali, Indonesia\", \"Cicada Resort Bali Ubud Autograph Collection Autograph Collection Hotels Hotel\", \"Cicada Resort Bali Ubud Autograph Collection Autograph Collection Hotels Resort\", \"Cicada Resort Bali Ubud Autograph Collection Autograph Collection Hotels\", \"Cicada Resort Bali Ubud Autograph Collection Autograph Collection Hotels Bali, Indonesia Hotel\", \"Cicada Resort Bali Ubud Autograph Collection Autograph Collection Hotels Bali, Indonesia Resort\", \"Cicada Resort Bali Ubud Autograph Collection Autograph Collection Hotels Bali, Indonesia\", \"Cicada Resort Bali Ubud Autograph Collection Hilton Hotel\", \"Cicada Resort Bali Ubud Autograph Collection Hilton Resort\", \"Cicada Resort Bali Ubud Autograph Collection Hilton\", \"Cicada Resort Bali Ubud Autograph Collection Hilton Bali, Indonesia Hotel\", \"Cicada Resort Bali Ubud Autograph Collection Hilton Bali, Indonesia Resort\", \"Cicada Resort Bali Ubud Autograph Collection Hilton Bali, Indonesia\", \"Cicada Resort Bali Ubud, Autograph Collection Hotel\", \"Cicada Resort Bali Ubud, Autograph Collection Resort\", \"Cicada Resort Bali Ubud, Autograph Collection\", \"Cicada Resort Bali Ubud, Autograph Collection Bali, Indonesia Hotel\", \"Cicada Resort Bali Ubud, Autograph Collection Bali, Indonesia Resort\", \"Cicada Resort Bali Ubud, Autograph Collection Bali, Indonesia\"], \"v\": 3}": {
+    "lat": -8.389594599999999,
+    "lon": 115.296284,
+    "formatted_address": "Jl. Raya Bilukan, Sebatu, Kec. Tegallalang, Kabupaten Gianyar, Bali 80561, Indonesia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJCwVuL0Uf0i0R6HQ90Afvouo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Jl. Raya Bilukan, Sebatu, Kec. Tegallalang, Kabupaten Gianyar, Bali 80561, Indonesia",
+      "geometry": {
+        "location": {
+          "lat": -8.389594599999999,
+          "lng": 115.296284
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -8.388306869708499,
+            "lng": 115.2977154302915
+          },
+          "southwest": {
+            "lat": -8.391004830291504,
+            "lng": 115.2950174697085
+          }
+        }
+      },
+      "name": "Cicada Resort Bali Ubud, Autograph Collection",
+      "place_id": "ChIJCwVuL0Uf0i0R6HQ90Afvouo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/dpsuk-cicada-resort-bali-ubud-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hilton Okinawa Miyako Island Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Okinawa Miyako Island Resort Hilton Hotels & Resorts Hotel\", \"Hilton Okinawa Miyako Island Resort Hilton Hotels & Resorts Resort\", \"Hilton Okinawa Miyako Island Resort Hilton Hotels & Resorts\", \"Hilton Okinawa Miyako Island Resort Hilton Hotels & Resorts Miyakojima, Japan Hotel\", \"Hilton Okinawa Miyako Island Resort Hilton Hotels & Resorts Miyakojima, Japan Resort\", \"Hilton Okinawa Miyako Island Resort Hilton Hotels & Resorts Miyakojima, Japan\", \"Hilton Okinawa Miyako Island Resort Hilton Hotel\", \"Hilton Okinawa Miyako Island Resort Hilton Resort\", \"Hilton Okinawa Miyako Island Resort Hilton\", \"Hilton Okinawa Miyako Island Resort Hilton Miyakojima, Japan Hotel\", \"Hilton Okinawa Miyako Island Resort Hilton Miyakojima, Japan Resort\", \"Hilton Okinawa Miyako Island Resort Hilton Miyakojima, Japan\", \"Hilton Okinawa Miyako Island Resort Hotel\", \"Hilton Okinawa Miyako Island Resort Resort\", \"Hilton Okinawa Miyako Island Resort\", \"Hilton Okinawa Miyako Island Resort Miyakojima, Japan Hotel\", \"Hilton Okinawa Miyako Island Resort Miyakojima, Japan Resort\", \"Hilton Okinawa Miyako Island Resort Miyakojima, Japan\"], \"v\": 3}": {
+    "lat": 24.8009954,
+    "lon": 125.2593677,
+    "formatted_address": "Kugai-550-7 Hirara, Miyakojima, Okinawa 906-0015, Japan",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJN_Qy5NRV9DQRwxzcwuf9Gec",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Kugai-550-7 Hirara, Miyakojima, Okinawa 906-0015, Japan",
+      "geometry": {
+        "location": {
+          "lat": 24.8009954,
+          "lng": 125.2593677
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 24.8021631302915,
+            "lng": 125.2615401302915
+          },
+          "southwest": {
+            "lat": 24.7994651697085,
+            "lng": 125.2588421697085
+          }
+        }
+      },
+      "name": "Hilton Okinawa Miyako Island Resort",
+      "place_id": "ChIJN_Qy5NRV9DQRwxzcwuf9Gec",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/okamihi-hilton-okinawa-miyako-island-resort/?SEO_id=GMB-APAC-HI-OKAMIHI"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Santa Teresa Hotel Rio de Janeiro - MGallery Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Santa Teresa Hotel Rio de Janeiro - MGallery Collection MGallery Collection Hotel\", \"Santa Teresa Hotel Rio de Janeiro - MGallery Collection MGallery Collection Resort\", \"Santa Teresa Hotel Rio de Janeiro - MGallery Collection MGallery Collection\", \"Santa Teresa Hotel Rio de Janeiro - MGallery Collection MGallery Collection Rio de Janeiro, Brazil Hotel\", \"Santa Teresa Hotel Rio de Janeiro - MGallery Collection MGallery Collection Rio de Janeiro, Brazil Resort\", \"Santa Teresa Hotel Rio de Janeiro - MGallery Collection MGallery Collection Rio de Janeiro, Brazil\", \"Santa Teresa Hotel Rio de Janeiro - MGallery Collection Hilton Hotel\", \"Santa Teresa Hotel Rio de Janeiro - MGallery Collection Hilton Resort\", \"Santa Teresa Hotel Rio de Janeiro - MGallery Collection Hilton\", \"Santa Teresa Hotel Rio de Janeiro - MGallery Collection Hilton Rio de Janeiro, Brazil Hotel\", \"Santa Teresa Hotel Rio de Janeiro - MGallery Collection Hilton Rio de Janeiro, Brazil Resort\", \"Santa Teresa Hotel Rio de Janeiro - MGallery Collection Hilton Rio de Janeiro, Brazil\", \"Santa Teresa Hotel Rio De Janeiro Mgallery Collection MGallery Collection Hotel\", \"Santa Teresa Hotel Rio De Janeiro Mgallery Collection MGallery Collection Resort\", \"Santa Teresa Hotel Rio De Janeiro Mgallery Collection MGallery Collection\", \"Santa Teresa Hotel Rio De Janeiro Mgallery Collection MGallery Collection Rio de Janeiro, Brazil Hotel\", \"Santa Teresa Hotel Rio De Janeiro Mgallery Collection MGallery Collection Rio de Janeiro, Brazil Resort\", \"Santa Teresa Hotel Rio De Janeiro Mgallery Collection MGallery Collection Rio de Janeiro, Brazil\", \"Santa Teresa Hotel Rio De Janeiro Mgallery Collection Hilton Hotel\", \"Santa Teresa Hotel Rio De Janeiro Mgallery Collection Hilton Resort\", \"Santa Teresa Hotel Rio De Janeiro Mgallery Collection Hilton\", \"Santa Teresa Hotel Rio De Janeiro Mgallery Collection Hilton Rio de Janeiro, Brazil Hotel\", \"Santa Teresa Hotel Rio De Janeiro Mgallery Collection Hilton Rio de Janeiro, Brazil Resort\", \"Santa Teresa Hotel Rio De Janeiro Mgallery Collection Hilton Rio de Janeiro, Brazil\", \"Santa Teresa Hotel Rio de Janeiro - MGallery Collection Hotel\", \"Santa Teresa Hotel Rio de Janeiro - MGallery Collection Resort\", \"Santa Teresa Hotel Rio de Janeiro - MGallery Collection\", \"Santa Teresa Hotel Rio de Janeiro - MGallery Collection Rio de Janeiro, Brazil Hotel\", \"Santa Teresa Hotel Rio de Janeiro - MGallery Collection Rio de Janeiro, Brazil Resort\", \"Santa Teresa Hotel Rio de Janeiro - MGallery Collection Rio de Janeiro, Brazil\"], \"v\": 3}": {
+    "lat": -22.9216367,
+    "lon": -43.187523,
+    "formatted_address": "R. Alm. Alexandrino, 660 - Santa Teresa, Rio de Janeiro - RJ, 20241-260, Brazil",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJVdYBSLx_mQAR11XeXinIdZY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "R. Alm. Alexandrino, 660 - Santa Teresa, Rio de Janeiro - RJ, 20241-260, Brazil",
+      "geometry": {
+        "location": {
+          "lat": -22.9216367,
+          "lng": -43.187523
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -22.9203329197085,
+            "lng": -43.1864629197085
+          },
+          "southwest": {
+            "lat": -22.9230308802915,
+            "lng": -43.1891608802915
+          }
+        }
+      },
+      "name": "MGallery Santa Teresa Hotel",
+      "place_id": "ChIJVdYBSLx_mQAR11XeXinIdZY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://mgallery.accor.com/hotels/A1X5?merchantid=seo-maps-BR-A1X5&sourceid=aw-cen&utm_source=google+Maps&utm_medium=seo+maps&utm_campaign=seo+maps&utm_term=MGallery-Launch"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Hoxton, Shoreditch\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Hoxton, Shoreditch The Hoxton Hotel\", \"The Hoxton, Shoreditch The Hoxton Resort\", \"The Hoxton, Shoreditch The Hoxton\", \"The Hoxton, Shoreditch The Hoxton London, England Hotel\", \"The Hoxton, Shoreditch The Hoxton London, England Resort\", \"The Hoxton, Shoreditch The Hoxton London, England\", \"The Hoxton, Shoreditch Hilton Hotel\", \"The Hoxton, Shoreditch Hilton Resort\", \"The Hoxton, Shoreditch Hilton\", \"The Hoxton, Shoreditch Hilton London, England Hotel\", \"The Hoxton, Shoreditch Hilton London, England Resort\", \"The Hoxton, Shoreditch Hilton London, England\", \"The Hoxton Shoreditch The Hoxton Hotel\", \"The Hoxton Shoreditch The Hoxton Resort\", \"The Hoxton Shoreditch The Hoxton\", \"The Hoxton Shoreditch The Hoxton London, England Hotel\", \"The Hoxton Shoreditch The Hoxton London, England Resort\", \"The Hoxton Shoreditch The Hoxton London, England\", \"The Hoxton Shoreditch Hilton Hotel\", \"The Hoxton Shoreditch Hilton Resort\", \"The Hoxton Shoreditch Hilton\", \"The Hoxton Shoreditch Hilton London, England Hotel\", \"The Hoxton Shoreditch Hilton London, England Resort\", \"The Hoxton Shoreditch Hilton London, England\", \"The Hoxton, Shoreditch Hotel\", \"The Hoxton, Shoreditch Resort\", \"The Hoxton, Shoreditch\", \"The Hoxton, Shoreditch London, England Hotel\", \"The Hoxton, Shoreditch London, England Resort\", \"The Hoxton, Shoreditch London, England\"], \"v\": 3}": {
+    "lat": 51.5255754,
+    "lon": -0.0828845,
+    "formatted_address": "81 Great Eastern St, London EC2A 3HU, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJJ43m-K8cdkgR16GR7K-QIhQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "81 Great Eastern St, London EC2A 3HU, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.5255754,
+          "lng": -0.0828845
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5269696802915,
+            "lng": -0.08146671970849798
+          },
+          "southwest": {
+            "lat": 51.5242717197085,
+            "lng": -0.08416468029150204
+          }
+        }
+      },
+      "name": "The Hoxton, Shoreditch",
+      "place_id": "ChIJJ43m-K8cdkgR16GR7K-QIhQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://thehoxton.com/london/shoreditch/?utm_source=google&utm_medium=local&utm_campaign=hotel-thehoxtonshoreditch"
     }
   }
 }

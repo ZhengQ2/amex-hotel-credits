@@ -127185,8 +127185,8 @@
     "lat": 52.6495055,
     "lon": -7.251757099999999,
     "formatted_address": "22 & 23 Lower Patrick St, Gardens, Kilkenny, R95 DX76, Ireland",
-    "provider": "google_geocoding",
-    "confidence": "ROOFTOP",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
     "place_id": "ChIJ01oZ854wXUgRc53tyIAIH_M",
     "types": [
       "bar",
@@ -127198,92 +127198,26 @@
     ],
     "partial_match": false,
     "raw": {
-      "address_components": [
-        {
-          "long_name": "22 & 23 Lower",
-          "short_name": "22 & 23 Lower",
-          "types": [
-            "street_number"
-          ]
-        },
-        {
-          "long_name": "Patrick Street",
-          "short_name": "Patrick St",
-          "types": [
-            "route"
-          ]
-        },
-        {
-          "long_name": "Gardens",
-          "short_name": "Gardens",
-          "types": [
-            "neighborhood",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Kilkenny",
-          "short_name": "KK",
-          "types": [
-            "locality",
-            "political"
-          ]
-        },
-        {
-          "long_name": "County Kilkenny",
-          "short_name": "County Kilkenny",
-          "types": [
-            "administrative_area_level_1",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Ireland",
-          "short_name": "IE",
-          "types": [
-            "country",
-            "political"
-          ]
-        },
-        {
-          "long_name": "R95 DX76",
-          "short_name": "R95 DX76",
-          "types": [
-            "postal_code"
-          ]
-        }
-      ],
+      "business_status": "OPERATIONAL",
       "formatted_address": "22 & 23 Lower Patrick St, Gardens, Kilkenny, R95 DX76, Ireland",
       "geometry": {
         "location": {
           "lat": 52.6495055,
           "lng": -7.251757099999999
         },
-        "location_type": "ROOFTOP",
         "viewport": {
           "northeast": {
             "lat": 52.65086778029149,
-            "lng": -7.250302419708498
+            "lng": -7.250302419708494
           },
           "southwest": {
             "lat": 52.64816981970849,
-            "lng": -7.253000380291502
+            "lng": -7.253000380291499
           }
         }
       },
-      "navigation_points": [
-        {
-          "location": {
-            "latitude": 52.6495153,
-            "longitude": -7.2516458
-          }
-        }
-      ],
+      "name": "The Club House Hotel",
       "place_id": "ChIJ01oZ854wXUgRc53tyIAIH_M",
-      "plus_code": {
-        "compound_code": "JPXX+R7 Kilkenny, County Kilkenny, Ireland",
-        "global_code": "9C4JJPXX+R7"
-      },
       "types": [
         "bar",
         "establishment",
@@ -127291,7 +127225,8 @@
         "lodging",
         "point_of_interest",
         "restaurant"
-      ]
+      ],
+      "website": "http://www.clubhousehotel.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Dewberry\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Dewberry Hotel\", \"The Dewberry Resort\", \"The Dewberry\", \"The Dewberry Charleston, South Carolina US Hotel\", \"The Dewberry Charleston, South Carolina US Resort\", \"The Dewberry Charleston, South Carolina US\"], \"v\": 3}": {
@@ -128681,45 +128616,47 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Grove\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Grove Hotel\", \"The Grove Resort\", \"The Grove\", \"The Grove Hertfordshire, England Hotel\", \"The Grove Hertfordshire, England Resort\", \"The Grove Hertfordshire, England\"], \"v\": 3}": {
-    "lat": 43.6139805,
-    "lon": -116.2037791,
-    "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
+    "lat": 51.677052,
+    "lon": -0.436857,
+    "formatted_address": "Chandler's Cross, Watford WD3 4TG, UK",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
+    "place_id": "ChIJPYjFIHpqdkgRn0B8GNfoTVo",
     "types": [
       "establishment",
       "lodging",
-      "point_of_interest"
+      "point_of_interest",
+      "spa"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
+      "formatted_address": "Chandler's Cross, Watford WD3 4TG, UK",
       "geometry": {
         "location": {
-          "lat": 43.6139805,
-          "lng": -116.2037791
+          "lat": 51.677052,
+          "lng": -0.436857
         },
         "viewport": {
           "northeast": {
-            "lat": 43.61524663029149,
-            "lng": -116.2022796697085
+            "lat": 51.6786900802915,
+            "lng": -0.4358084197084979
           },
           "southwest": {
-            "lat": 43.6125486697085,
-            "lng": -116.2049776302915
+            "lat": 51.6759921197085,
+            "lng": -0.438506380291502
           }
         }
       },
-      "name": "The Grove Hotel",
-      "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
+      "name": "The Grove Hotel – Spa and Golf",
+      "place_id": "ChIJPYjFIHpqdkgRn0B8GNfoTVo",
       "types": [
         "establishment",
         "lodging",
-        "point_of_interest"
+        "point_of_interest",
+        "spa"
       ],
-      "website": "http://www.grovehotelboise.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect"
+      "website": "http://www.thegrove.co.uk/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Southern Ocean Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Southern Ocean Lodge Hotel\", \"Southern Ocean Lodge Resort\", \"Southern Ocean Lodge\", \"Southern Ocean Lodge Kingscote, Australia Hotel\", \"Southern Ocean Lodge Kingscote, Australia Resort\", \"Southern Ocean Lodge Kingscote, Australia\"], \"v\": 3}": {
@@ -145442,12 +145379,12 @@
         },
         "viewport": {
           "northeast": {
-            "lat": 41.0357844802915,
-            "lng": 28.9627484802915
+            "lat": 41.0359631802915,
+            "lng": 28.96158618029149
           },
           "southwest": {
-            "lat": 41.0330865197085,
-            "lng": 28.9600505197085
+            "lat": 41.0332652197085,
+            "lng": 28.9588882197085
           }
         }
       },
@@ -167642,8 +167579,8 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"AJWA Cappadocia\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"AJWA Cappadocia Preferred Hotels & Resorts Hotel\", \"AJWA Cappadocia Preferred Hotels & Resorts Resort\", \"AJWA Cappadocia Preferred Hotels & Resorts\", \"AJWA Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey Hotel\", \"AJWA Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey Resort\", \"AJWA Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey\", \"AJWA Cappadocia Hilton Hotel\", \"AJWA Cappadocia Hilton Resort\", \"AJWA Cappadocia Hilton\", \"AJWA Cappadocia Hilton Nevsehir, Turkey Hotel\", \"AJWA Cappadocia Hilton Nevsehir, Turkey Resort\", \"AJWA Cappadocia Hilton Nevsehir, Turkey\", \"Ajwa Cappadocia Preferred Hotels & Resorts Hotel\", \"Ajwa Cappadocia Preferred Hotels & Resorts Resort\", \"Ajwa Cappadocia Preferred Hotels & Resorts\", \"Ajwa Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey Hotel\", \"Ajwa Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey Resort\", \"Ajwa Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey\", \"Ajwa Cappadocia Hilton Hotel\", \"Ajwa Cappadocia Hilton Resort\", \"Ajwa Cappadocia Hilton\", \"Ajwa Cappadocia Hilton Nevsehir, Turkey Hotel\", \"Ajwa Cappadocia Hilton Nevsehir, Turkey Resort\", \"Ajwa Cappadocia Hilton Nevsehir, Turkey\", \"AJWA Cappadocia Hotel\", \"AJWA Cappadocia Resort\", \"AJWA Cappadocia\", \"AJWA Cappadocia Nevsehir, Turkey Hotel\", \"AJWA Cappadocia Nevsehir, Turkey Resort\", \"AJWA Cappadocia Nevsehir, Turkey\"], \"v\": 3}": {
-    "lat": 38.5935959,
-    "lon": 34.9044435,
+    "lat": 38.5936303,
+    "lon": 34.9043305,
     "formatted_address": "Yeni, Ürgüp Cd. No:13, 50420 Mustafapaşa/Ürgüp/Nevşehir, Türkiye",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
@@ -167659,17 +167596,17 @@
       "formatted_address": "Yeni, Ürgüp Cd. No:13, 50420 Mustafapaşa/Ürgüp/Nevşehir, Türkiye",
       "geometry": {
         "location": {
-          "lat": 38.5935959,
-          "lng": 34.9044435
+          "lat": 38.5936303,
+          "lng": 34.9043305
         },
         "viewport": {
           "northeast": {
-            "lat": 38.5948059802915,
-            "lng": 34.90586323029149
+            "lat": 38.5949792802915,
+            "lng": 34.90567948029151
           },
           "southwest": {
-            "lat": 38.5921080197085,
-            "lng": 34.9031652697085
+            "lat": 38.5922813197085,
+            "lng": 34.90298151970851
           }
         }
       },
@@ -207878,6 +207815,270 @@
         "point_of_interest"
       ],
       "website": "https://castelbadia.com/"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Corinthia Rome\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Corinthia Rome\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Domaine de Fontenille\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Domaine de Fontenille\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Ikos Andalusia\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Ikos Andalusia\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Pleta De Mar Luxury By Nature\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Pleta De Mar Luxury By Nature\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Vermelho\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Vermelho\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Waldorf Astoria Rabat Sale\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Waldorf Astoria Rabat Sale\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Ikos Andalusia\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Ikos Andalusia Hotel\", \"Ikos Andalusia Resort\", \"Ikos Andalusia\", \"Ikos Andalusia M\\u00e1laga, Spain Hotel\", \"Ikos Andalusia M\\u00e1laga, Spain Resort\", \"Ikos Andalusia M\\u00e1laga, Spain\"], \"v\": 3}": {
+    "lat": 36.4528219,
+    "lon": -5.0605385,
+    "formatted_address": "N-340, Km 164, 29680 Estepona, Málaga, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJtbQZRNrVDA0RsKJ1_EYAPuI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "N-340, Km 164, 29680 Estepona, Málaga, Spain",
+      "geometry": {
+        "location": {
+          "lat": 36.4528219,
+          "lng": -5.0605385
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.45413103029151,
+            "lng": -5.059536469708497
+          },
+          "southwest": {
+            "lat": 36.45143306970851,
+            "lng": -5.062234430291502
+          }
+        }
+      },
+      "name": "Ikos Andalusia",
+      "place_id": "ChIJtbQZRNrVDA0RsKJ1_EYAPuI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ikosresorts.com/resorts/ikos-andalusia/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Corinthia Rome\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Corinthia Rome Corinthia Hotels Hotel\", \"Corinthia Rome Corinthia Hotels Resort\", \"Corinthia Rome Corinthia Hotels\", \"Corinthia Rome Corinthia Hotels Rome, Italy Hotel\", \"Corinthia Rome Corinthia Hotels Rome, Italy Resort\", \"Corinthia Rome Corinthia Hotels Rome, Italy\", \"Corinthia Rome Hilton Hotel\", \"Corinthia Rome Hilton Resort\", \"Corinthia Rome Hilton\", \"Corinthia Rome Hilton Rome, Italy Hotel\", \"Corinthia Rome Hilton Rome, Italy Resort\", \"Corinthia Rome Hilton Rome, Italy\", \"Corinthia Rome Hotel\", \"Corinthia Rome Resort\", \"Corinthia Rome\", \"Corinthia Rome Rome, Italy Hotel\", \"Corinthia Rome Rome, Italy Resort\", \"Corinthia Rome Rome, Italy\"], \"v\": 3}": {
+    "lat": 41.9024745,
+    "lon": 12.4789168,
+    "formatted_address": "P.za del Parlamento, 18, 00186 Roma RM, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJH_U0VgBhLxMRaKKlZhDIFek",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "P.za del Parlamento, 18, 00186 Roma RM, Italy",
+      "geometry": {
+        "location": {
+          "lat": 41.9024745,
+          "lng": 12.4789168
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.9037804302915,
+            "lng": 12.4802576302915
+          },
+          "southwest": {
+            "lat": 41.9010824697085,
+            "lng": 12.4775596697085
+          }
+        }
+      },
+      "name": "Corinthia Rome",
+      "place_id": "ChIJH_U0VgBhLxMRaKKlZhDIFek",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.corinthia.com/en-gb/rome/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Pleta De Mar Luxury By Nature\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Pleta De Mar Luxury By Nature Preferred Hotels & Resorts Hotel\", \"Pleta De Mar Luxury By Nature Preferred Hotels & Resorts Resort\", \"Pleta De Mar Luxury By Nature Preferred Hotels & Resorts\", \"Pleta De Mar Luxury By Nature Preferred Hotels & Resorts Capdepera, Spain Hotel\", \"Pleta De Mar Luxury By Nature Preferred Hotels & Resorts Capdepera, Spain Resort\", \"Pleta De Mar Luxury By Nature Preferred Hotels & Resorts Capdepera, Spain\", \"Pleta De Mar Luxury By Nature Hilton Hotel\", \"Pleta De Mar Luxury By Nature Hilton Resort\", \"Pleta De Mar Luxury By Nature Hilton\", \"Pleta De Mar Luxury By Nature Hilton Capdepera, Spain Hotel\", \"Pleta De Mar Luxury By Nature Hilton Capdepera, Spain Resort\", \"Pleta De Mar Luxury By Nature Hilton Capdepera, Spain\", \"Pleta De Mar Luxury Nature Preferred Hotels & Resorts Hotel\", \"Pleta De Mar Luxury Nature Preferred Hotels & Resorts Resort\", \"Pleta De Mar Luxury Nature Preferred Hotels & Resorts\", \"Pleta De Mar Luxury Nature Preferred Hotels & Resorts Capdepera, Spain Hotel\", \"Pleta De Mar Luxury Nature Preferred Hotels & Resorts Capdepera, Spain Resort\", \"Pleta De Mar Luxury Nature Preferred Hotels & Resorts Capdepera, Spain\", \"Pleta De Mar Luxury Nature Hilton Hotel\", \"Pleta De Mar Luxury Nature Hilton Resort\", \"Pleta De Mar Luxury Nature Hilton\", \"Pleta De Mar Luxury Nature Hilton Capdepera, Spain Hotel\", \"Pleta De Mar Luxury Nature Hilton Capdepera, Spain Resort\", \"Pleta De Mar Luxury Nature Hilton Capdepera, Spain\", \"Pleta De Mar Luxury By Nature Hotel\", \"Pleta De Mar Luxury By Nature Resort\", \"Pleta De Mar Luxury By Nature\", \"Pleta De Mar Luxury By Nature Capdepera, Spain Hotel\", \"Pleta De Mar Luxury By Nature Capdepera, Spain Resort\", \"Pleta De Mar Luxury By Nature Capdepera, Spain\"], \"v\": 3}": {
+    "lat": 39.6497312,
+    "lon": 3.4340579,
+    "formatted_address": "Via de les Cales, 23, 07589 Capdepera, Illes Balears, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJydBK35sVlhIRTAoIR6UXZVc",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via de les Cales, 23, 07589 Capdepera, Illes Balears, Spain",
+      "geometry": {
+        "location": {
+          "lat": 39.6497312,
+          "lng": 3.4340579
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.6512573302915,
+            "lng": 3.435232680291502
+          },
+          "southwest": {
+            "lat": 39.6485593697085,
+            "lng": 3.432534719708499
+          }
+        }
+      },
+      "name": "Pleta de Mar, Luxury Hotel by Nature",
+      "place_id": "ChIJydBK35sVlhIRTAoIR6UXZVc",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "http://www.pletademar.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Domaine de Fontenille\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Domaine de Fontenille Relais & Ch\\u00e2teaux Hotel\", \"Domaine de Fontenille Relais & Ch\\u00e2teaux Resort\", \"Domaine de Fontenille Relais & Ch\\u00e2teaux\", \"Domaine de Fontenille Relais & Ch\\u00e2teaux Lauris, France Hotel\", \"Domaine de Fontenille Relais & Ch\\u00e2teaux Lauris, France Resort\", \"Domaine de Fontenille Relais & Ch\\u00e2teaux Lauris, France\", \"Domaine de Fontenille Hilton Hotel\", \"Domaine de Fontenille Hilton Resort\", \"Domaine de Fontenille Hilton\", \"Domaine de Fontenille Hilton Lauris, France Hotel\", \"Domaine de Fontenille Hilton Lauris, France Resort\", \"Domaine de Fontenille Hilton Lauris, France\", \"Domaine De Fontenille Relais & Ch\\u00e2teaux Hotel\", \"Domaine De Fontenille Relais & Ch\\u00e2teaux Resort\", \"Domaine De Fontenille Relais & Ch\\u00e2teaux\", \"Domaine De Fontenille Relais & Ch\\u00e2teaux Lauris, France Hotel\", \"Domaine De Fontenille Relais & Ch\\u00e2teaux Lauris, France Resort\", \"Domaine De Fontenille Relais & Ch\\u00e2teaux Lauris, France\", \"Domaine De Fontenille Hilton Hotel\", \"Domaine De Fontenille Hilton Resort\", \"Domaine De Fontenille Hilton\", \"Domaine De Fontenille Hilton Lauris, France Hotel\", \"Domaine De Fontenille Hilton Lauris, France Resort\", \"Domaine De Fontenille Hilton Lauris, France\", \"Domaine de Fontenille Hotel\", \"Domaine de Fontenille Resort\", \"Domaine de Fontenille\", \"Domaine de Fontenille Lauris, France Hotel\", \"Domaine de Fontenille Lauris, France Resort\", \"Domaine de Fontenille Lauris, France\"], \"v\": 3}": {
+    "lat": 43.7627798,
+    "lon": 5.3013107,
+    "formatted_address": "1681 Rte de Roquefraiche, 84360 Lauris, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJR3PH6ucbyhIRgpST_FoTnd0",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1681 Rte de Roquefraiche, 84360 Lauris, France",
+      "geometry": {
+        "location": {
+          "lat": 43.7627798,
+          "lng": 5.3013107
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.7641449302915,
+            "lng": 5.302693880291502
+          },
+          "southwest": {
+            "lat": 43.7614469697085,
+            "lng": 5.299995919708498
+          }
+        }
+      },
+      "name": "Domaine de Fontenille",
+      "place_id": "ChIJR3PH6ucbyhIRgpST_FoTnd0",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.domainedefontenille.fontenille-collection.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Vermelho\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Vermelho Relais & Ch\\u00e2teaux Hotel\", \"Vermelho Relais & Ch\\u00e2teaux Resort\", \"Vermelho Relais & Ch\\u00e2teaux\", \"Vermelho Relais & Ch\\u00e2teaux Melides, Portugal Hotel\", \"Vermelho Relais & Ch\\u00e2teaux Melides, Portugal Resort\", \"Vermelho Relais & Ch\\u00e2teaux Melides, Portugal\", \"Vermelho Hilton Hotel\", \"Vermelho Hilton Resort\", \"Vermelho Hilton\", \"Vermelho Hilton Melides, Portugal Hotel\", \"Vermelho Hilton Melides, Portugal Resort\", \"Vermelho Hilton Melides, Portugal\", \"Vermelho Hotel\", \"Vermelho Resort\", \"Vermelho\", \"Vermelho Melides, Portugal Hotel\", \"Vermelho Melides, Portugal Resort\", \"Vermelho Melides, Portugal\"], \"v\": 3}": {
+    "lat": 38.1463188,
+    "lon": -8.7282551,
+    "formatted_address": "R. Dr. Evaristo Sousa Gago 2, 7570-635 Melides, Portugal",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ71qg3wDSGw0REW83OI8DJew",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "R. Dr. Evaristo Sousa Gago 2, 7570-635 Melides, Portugal",
+      "geometry": {
+        "location": {
+          "lat": 38.1463188,
+          "lng": -8.7282551
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.1476379802915,
+            "lng": -8.726802869708497
+          },
+          "southwest": {
+            "lat": 38.1449400197085,
+            "lng": -8.729500830291501
+          }
+        }
+      },
+      "name": "Vermelho Melides",
+      "place_id": "ChIJ71qg3wDSGw0REW83OI8DJew",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.vermelhohotel.com/?utm_source=google&utm_medium=maps&utm_campaign=mybusiness&utm_content=vermelho"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Waldorf Astoria Rabat Sale\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Waldorf Astoria Rabat Sale Waldorf Astoria Hotels & Resorts Hotel\", \"Waldorf Astoria Rabat Sale Waldorf Astoria Hotels & Resorts Resort\", \"Waldorf Astoria Rabat Sale Waldorf Astoria Hotels & Resorts\", \"Waldorf Astoria Rabat Sale Waldorf Astoria Hotels & Resorts Rabat, Morocco Hotel\", \"Waldorf Astoria Rabat Sale Waldorf Astoria Hotels & Resorts Rabat, Morocco Resort\", \"Waldorf Astoria Rabat Sale Waldorf Astoria Hotels & Resorts Rabat, Morocco\", \"Waldorf Astoria Rabat Sale Hilton Hotel\", \"Waldorf Astoria Rabat Sale Hilton Resort\", \"Waldorf Astoria Rabat Sale Hilton\", \"Waldorf Astoria Rabat Sale Hilton Rabat, Morocco Hotel\", \"Waldorf Astoria Rabat Sale Hilton Rabat, Morocco Resort\", \"Waldorf Astoria Rabat Sale Hilton Rabat, Morocco\", \"Waldorf Astoria Rabat Sale Hotel\", \"Waldorf Astoria Rabat Sale Resort\", \"Waldorf Astoria Rabat Sale\", \"Waldorf Astoria Rabat Sale Rabat, Morocco Hotel\", \"Waldorf Astoria Rabat Sale Rabat, Morocco Resort\", \"Waldorf Astoria Rabat Sale Rabat, Morocco\"], \"v\": 3}": {
+    "lat": 34.018988,
+    "lon": -6.805192799999999,
+    "formatted_address": "259V HW, Salé 10000, Morocco",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJM-f-UABrpw0R47GyesAA9mE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "259V HW, Salé 10000, Morocco",
+      "geometry": {
+        "location": {
+          "lat": 34.018988,
+          "lng": -6.805192799999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 34.0202695302915,
+            "lng": -6.804172469708498
+          },
+          "southwest": {
+            "lat": 34.0175715697085,
+            "lng": -6.806870430291503
+          }
+        }
+      },
+      "name": "Waldorf Astoria Rabat Salé",
+      "place_id": "ChIJM-f-UABrpw0R47GyesAA9mE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/rbartwa-waldorf-astoria-rabat-sale/?SEO_id=GMB-EMEA-WA-RBARTWA"
     }
   }
 }
