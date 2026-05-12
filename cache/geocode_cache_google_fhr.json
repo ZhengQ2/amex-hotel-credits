@@ -173136,12 +173136,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Museum Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Museum Hotel Relais & Ch\\u00e2teaux Hotel\", \"Museum Hotel Relais & Ch\\u00e2teaux Resort\", \"Museum Hotel Relais & Ch\\u00e2teaux\", \"Museum Hotel Relais & Ch\\u00e2teaux Nevsehir, Turkey Hotel\", \"Museum Hotel Relais & Ch\\u00e2teaux Nevsehir, Turkey Resort\", \"Museum Hotel Relais & Ch\\u00e2teaux Nevsehir, Turkey\", \"Museum Hotel Hilton Hotel\", \"Museum Hotel Hilton Resort\", \"Museum Hotel Hilton\", \"Museum Hotel Hilton Nevsehir, Turkey Hotel\", \"Museum Hotel Hilton Nevsehir, Turkey Resort\", \"Museum Hotel Hilton Nevsehir, Turkey\", \"Museum Hotel Hotel\", \"Museum Hotel Resort\", \"Museum Hotel\", \"Museum Hotel Nevsehir, Turkey Hotel\", \"Museum Hotel Nevsehir, Turkey Resort\", \"Museum Hotel Nevsehir, Turkey\"], \"v\": 3}": {
-    "lat": 36.2117982,
-    "lon": 36.1731685,
-    "formatted_address": "St. Pierre Mevkii, Haraparası, Hacılar Sk. No: 26/1, 31060 Antakya/Hatay, Türkiye",
+    "lat": 38.6333752,
+    "lon": 34.8068999,
+    "formatted_address": "Tekeli mah. Eski, Tekelli, Göreme Cd. No.1, 50240 Uçhisar/Nevşehir Merkez/Nevşehir, Türkiye",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJM7L90FTDJRURFjjXB6Vk6uw",
+    "place_id": "ChIJNUeeZ-1oKhURyjU4821Utds",
     "types": [
       "establishment",
       "lodging",
@@ -173150,31 +173150,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "St. Pierre Mevkii, Haraparası, Hacılar Sk. No: 26/1, 31060 Antakya/Hatay, Türkiye",
+      "formatted_address": "Tekeli mah. Eski, Tekelli, Göreme Cd. No.1, 50240 Uçhisar/Nevşehir Merkez/Nevşehir, Türkiye",
       "geometry": {
         "location": {
-          "lat": 36.2117982,
-          "lng": 36.1731685
+          "lat": 38.6333752,
+          "lng": 34.8068999
         },
         "viewport": {
           "northeast": {
-            "lat": 36.21308363029149,
-            "lng": 36.1749597302915
+            "lat": 38.6346635302915,
+            "lng": 34.80826373029151
           },
           "southwest": {
-            "lat": 36.2103856697085,
-            "lng": 36.17226176970851
+            "lat": 38.63196556970851,
+            "lng": 34.80556576970851
           }
         }
       },
-      "name": "The Museum Hotel Antakya",
-      "place_id": "ChIJM7L90FTDJRURFjjXB6Vk6uw",
+      "name": "Museum Hotel",
+      "place_id": "ChIJNUeeZ-1oKhURyjU4821Utds",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "http://www.themuseumhotelantakya.com/"
+      "website": "https://www.museumhotel.com.tr/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Chewton Glen Hotel & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Chewton Glen Hotel & Spa Relais & Ch\\u00e2teaux Hotel\", \"Chewton Glen Hotel & Spa Relais & Ch\\u00e2teaux Resort\", \"Chewton Glen Hotel & Spa Relais & Ch\\u00e2teaux\", \"Chewton Glen Hotel & Spa Relais & Ch\\u00e2teaux New Milton, England Hotel\", \"Chewton Glen Hotel & Spa Relais & Ch\\u00e2teaux New Milton, England Resort\", \"Chewton Glen Hotel & Spa Relais & Ch\\u00e2teaux New Milton, England\", \"Chewton Glen Hotel & Spa Hilton Hotel\", \"Chewton Glen Hotel & Spa Hilton Resort\", \"Chewton Glen Hotel & Spa Hilton\", \"Chewton Glen Hotel & Spa Hilton New Milton, England Hotel\", \"Chewton Glen Hotel & Spa Hilton New Milton, England Resort\", \"Chewton Glen Hotel & Spa Hilton New Milton, England\", \"Chewton Glen Hotel Spa Relais & Ch\\u00e2teaux Hotel\", \"Chewton Glen Hotel Spa Relais & Ch\\u00e2teaux Resort\", \"Chewton Glen Hotel Spa Relais & Ch\\u00e2teaux\", \"Chewton Glen Hotel Spa Relais & Ch\\u00e2teaux New Milton, England Hotel\", \"Chewton Glen Hotel Spa Relais & Ch\\u00e2teaux New Milton, England Resort\", \"Chewton Glen Hotel Spa Relais & Ch\\u00e2teaux New Milton, England\", \"Chewton Glen Hotel Spa Hilton Hotel\", \"Chewton Glen Hotel Spa Hilton Resort\", \"Chewton Glen Hotel Spa Hilton\", \"Chewton Glen Hotel Spa Hilton New Milton, England Hotel\", \"Chewton Glen Hotel Spa Hilton New Milton, England Resort\", \"Chewton Glen Hotel Spa Hilton New Milton, England\", \"Chewton Glen Hotel & Spa Hotel\", \"Chewton Glen Hotel & Spa Resort\", \"Chewton Glen Hotel & Spa\", \"Chewton Glen Hotel & Spa New Milton, England Hotel\", \"Chewton Glen Hotel & Spa New Milton, England Resort\", \"Chewton Glen Hotel & Spa New Milton, England\"], \"v\": 3}": {
@@ -208079,6 +208079,91 @@
         "point_of_interest"
       ],
       "website": "https://www.hilton.com/en/hotels/rbartwa-waldorf-astoria-rabat-sale/?SEO_id=GMB-EMEA-WA-RBARTWA"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Grand Velas Riviera Nayarit\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Velas Riviera Nayarit\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"1 Hotel Tokyo\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"1 Hotel Tokyo 1 Hotels Hotel\", \"1 Hotel Tokyo 1 Hotels Resort\", \"1 Hotel Tokyo 1 Hotels\", \"1 Hotel Tokyo 1 Hotels Tokyo, Japan Hotel\", \"1 Hotel Tokyo 1 Hotels Tokyo, Japan Resort\", \"1 Hotel Tokyo 1 Hotels Tokyo, Japan\", \"1 Hotel Tokyo Hilton Hotel\", \"1 Hotel Tokyo Hilton Resort\", \"1 Hotel Tokyo Hilton\", \"1 Hotel Tokyo Hilton Tokyo, Japan Hotel\", \"1 Hotel Tokyo Hilton Tokyo, Japan Resort\", \"1 Hotel Tokyo Hilton Tokyo, Japan\", \"1 Hotel Tokyo Hotel\", \"1 Hotel Tokyo Resort\", \"1 Hotel Tokyo\", \"1 Hotel Tokyo Tokyo, Japan Hotel\", \"1 Hotel Tokyo Tokyo, Japan Resort\", \"1 Hotel Tokyo Tokyo, Japan\"], \"v\": 3}": {
+    "lat": 35.6621677,
+    "lon": 139.7403096,
+    "formatted_address": "1-chōme-2-2 Azabudai, Minato City, Tokyo 106-0041, Japan",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJEWV5V2-LGGARWr133cObY_8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1-chōme-2-2 Azabudai, Minato City, Tokyo 106-0041, Japan",
+      "geometry": {
+        "location": {
+          "lat": 35.6621677,
+          "lng": 139.7403096
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.6637308302915,
+            "lng": 139.7416483302915
+          },
+          "southwest": {
+            "lat": 35.6610328697085,
+            "lng": 139.7389503697085
+          }
+        }
+      },
+      "name": "Janu Tokyo",
+      "place_id": "ChIJEWV5V2-LGGARWr133cObY_8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.janu.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Grand Velas Riviera Nayarit\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Velas Riviera Nayarit Preferred Hotels & Resorts Hotel\", \"Grand Velas Riviera Nayarit Preferred Hotels & Resorts Resort\", \"Grand Velas Riviera Nayarit Preferred Hotels & Resorts\", \"Grand Velas Riviera Nayarit Preferred Hotels & Resorts Nuevo Vallarta, Nayarit MX Hotel\", \"Grand Velas Riviera Nayarit Preferred Hotels & Resorts Nuevo Vallarta, Nayarit MX Resort\", \"Grand Velas Riviera Nayarit Preferred Hotels & Resorts Nuevo Vallarta, Nayarit MX\", \"Grand Velas Riviera Nayarit Hilton Hotel\", \"Grand Velas Riviera Nayarit Hilton Resort\", \"Grand Velas Riviera Nayarit Hilton\", \"Grand Velas Riviera Nayarit Hilton Nuevo Vallarta, Nayarit MX Hotel\", \"Grand Velas Riviera Nayarit Hilton Nuevo Vallarta, Nayarit MX Resort\", \"Grand Velas Riviera Nayarit Hilton Nuevo Vallarta, Nayarit MX\", \"Grand Velas Riviera Nayarit Hotel\", \"Grand Velas Riviera Nayarit Resort\", \"Grand Velas Riviera Nayarit\", \"Grand Velas Riviera Nayarit Nuevo Vallarta, Nayarit MX Hotel\", \"Grand Velas Riviera Nayarit Nuevo Vallarta, Nayarit MX Resort\", \"Grand Velas Riviera Nayarit Nuevo Vallarta, Nayarit MX\"], \"v\": 3}": {
+    "lat": 20.7073384,
+    "lon": -105.301036,
+    "formatted_address": "Paseo de los Cocoteros 98-Sur, 63735 Nuevo Vallarta, Nay., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJN1dDzrlGIYQRTbl1Bd_IbsE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Paseo de los Cocoteros 98-Sur, 63735 Nuevo Vallarta, Nay., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 20.7073384,
+          "lng": -105.301036
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 20.7089251302915,
+            "lng": -105.2995461197085
+          },
+          "southwest": {
+            "lat": 20.70622716970849,
+            "lng": -105.3022440802915
+          }
+        }
+      },
+      "name": "Grand Velas Riviera Nayarit",
+      "place_id": "ChIJN1dDzrlGIYQRTbl1Bd_IbsE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://vallarta.grandvelas.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing"
     }
   }
 }

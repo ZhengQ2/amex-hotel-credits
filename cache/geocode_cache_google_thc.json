@@ -2361,52 +2361,6 @@
       "website": "https://www.nobuhotels.com/barcelona/"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Pig Near Bath Hotel\", \"Pig Near Bath Resort\", \"Pig Near Bath\", \"Pig Near Bath Bath, England Hotel\", \"Pig Near Bath Bath, England Resort\", \"Pig Near Bath Bath, England\", \"THE PIG near Bath Hotel\", \"THE PIG near Bath Resort\", \"THE PIG near Bath\", \"THE PIG near Bath Bath, England Hotel\", \"THE PIG near Bath Bath, England Resort\", \"THE PIG near Bath Bath, England\"], \"v\": 3}": {
-    "lat": 51.3551667,
-    "lon": -2.5073889,
-    "formatted_address": "Hunstrete House, Hunstrete, Pensford, Bath BS39 4NS, UK",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJk1Tgj2aIcUgRsVQwdEgY4ZM",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Hunstrete House, Hunstrete, Pensford, Bath BS39 4NS, UK",
-      "geometry": {
-        "location": {
-          "lat": 51.3551667,
-          "lng": -2.5073889
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 51.3563310802915,
-            "lng": -2.505990669708499
-          },
-          "southwest": {
-            "lat": 51.3536331197085,
-            "lng": -2.508688630291502
-          }
-        }
-      },
-      "name": "THE PIG-near Bath",
-      "place_id": "ChIJk1Tgj2aIcUgRsVQwdEgY4ZM",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.thepighotel.com/near-bath/?utm_source=google&utm_medium=local&utm_campaign=GMB-pig-near-bath"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Claremont Resort Club Hotel\", \"Claremont Resort Club Resort\", \"Claremont Resort Club\", \"Claremont Resort Club Berkeley, California US Hotel\", \"Claremont Resort Club Berkeley, California US Resort\", \"Claremont Resort Club Berkeley, California US\", \"Claremont Resort & Club Hotel\", \"Claremont Resort & Club Resort\", \"Claremont Resort & Club\", \"Claremont Resort & Club Berkeley, California US Hotel\", \"Claremont Resort & Club Berkeley, California US Resort\", \"Claremont Resort & Club Berkeley, California US\"], \"v\": 3}": {
     "lat": 37.8590352,
     "lon": -122.2420658,
@@ -2967,52 +2921,6 @@
         "point_of_interest"
       ],
       "website": "https://cancun.leblancsparesorts.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing"
-    }
-  },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Pig Bridge Place Hotel\", \"Pig Bridge Place Resort\", \"Pig Bridge Place\", \"Pig Bridge Place Canterbury, England Hotel\", \"Pig Bridge Place Canterbury, England Resort\", \"Pig Bridge Place Canterbury, England\", \"THE PIG at Bridge Place Hotel\", \"THE PIG at Bridge Place Resort\", \"THE PIG at Bridge Place\", \"THE PIG at Bridge Place Canterbury, England Hotel\", \"THE PIG at Bridge Place Canterbury, England Resort\", \"THE PIG at Bridge Place Canterbury, England\"], \"v\": 3}": {
-    "lat": 51.24264540000001,
-    "lon": 1.123628,
-    "formatted_address": "Bourne Park Rd, Bridge, Canterbury CT4 5BH, UK",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJpU7K6YTJ3kcR_fb6IIuDonk",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Bourne Park Rd, Bridge, Canterbury CT4 5BH, UK",
-      "geometry": {
-        "location": {
-          "lat": 51.24264540000001,
-          "lng": 1.123628
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 51.2442112802915,
-            "lng": 1.125144130291502
-          },
-          "southwest": {
-            "lat": 51.2415133197085,
-            "lng": 1.122446169708498
-          }
-        }
-      },
-      "name": "THE PIG at Bridge Place",
-      "place_id": "ChIJpU7K6YTJ3kcR_fb6IIuDonk",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.thepighotel.com/at-bridge-place/?utm_source=google&utm_medium=local&utm_campaign=GMB-pig-bridge-place"
     }
   },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Congress Hall Hotel Hotel\", \"Congress Hall Hotel Resort\", \"Congress Hall Hotel\", \"Congress Hall Hotel Cape May, New Jersey US Hotel\", \"Congress Hall Hotel Cape May, New Jersey US Resort\", \"Congress Hall Hotel Cape May, New Jersey US\"], \"v\": 3}": {
@@ -4051,52 +3959,6 @@
         "point_of_interest"
       ],
       "website": "https://www.plazahotelelpaso.com/?utm_source=google%20my%20business&utm_medium=listing&utm_campaign=visit%20website"
-    }
-  },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Pig Combe Hotel\", \"Pig Combe Resort\", \"Pig Combe\", \"Pig Combe Exeter, England Hotel\", \"Pig Combe Exeter, England Resort\", \"Pig Combe Exeter, England\", \"THE PIG at Combe Hotel\", \"THE PIG at Combe Resort\", \"THE PIG at Combe\", \"THE PIG at Combe Exeter, England Hotel\", \"THE PIG at Combe Exeter, England Resort\", \"THE PIG at Combe Exeter, England\"], \"v\": 3}": {
-    "lat": 50.7739768,
-    "lon": -3.216875,
-    "formatted_address": "Gittisham, Honiton EX14 3AD, UK",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJQczRIsyabUgR5NP4kNZ1MlA",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Gittisham, Honiton EX14 3AD, UK",
-      "geometry": {
-        "location": {
-          "lat": 50.7739768,
-          "lng": -3.216875
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 50.7753595302915,
-            "lng": -3.215891719708498
-          },
-          "southwest": {
-            "lat": 50.7726615697085,
-            "lng": -3.218589680291502
-          }
-        }
-      },
-      "name": "THE PIG-at Combe",
-      "place_id": "ChIJQczRIsyabUgR5NP4kNZ1MlA",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.thepighotel.com/at-combe/?utm_source=google&utm_medium=local&utm_campaign=GMB-pig-at-combe"
     }
   },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Masseria Torre Coccaro Hotel\", \"Masseria Torre Coccaro Resort\", \"Masseria Torre Coccaro\", \"Masseria Torre Coccaro Fasano, Italy Hotel\", \"Masseria Torre Coccaro Fasano, Italy Resort\", \"Masseria Torre Coccaro Fasano, Italy\"], \"v\": 3}": {
@@ -57086,52 +56948,6 @@
       "website": "https://www.thelinehotel.com/austin/?utm_source=local-listings&utm_medium=organic&utm_campaign=local-listings"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"THE PIG near Bath Hotel\", \"THE PIG near Bath Resort\", \"THE PIG near Bath\", \"THE PIG near Bath Bath, England Hotel\", \"THE PIG near Bath Bath, England Resort\", \"THE PIG near Bath Bath, England\", \"Pig Near Bath Hotel\", \"Pig Near Bath Resort\", \"Pig Near Bath\", \"Pig Near Bath Bath, England Hotel\", \"Pig Near Bath Bath, England Resort\", \"Pig Near Bath Bath, England\"], \"v\": 3}": {
-    "lat": 51.3551667,
-    "lon": -2.5073889,
-    "formatted_address": "Hunstrete House, Hunstrete, Pensford, Bath BS39 4NS, UK",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJk1Tgj2aIcUgRsVQwdEgY4ZM",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Hunstrete House, Hunstrete, Pensford, Bath BS39 4NS, UK",
-      "geometry": {
-        "location": {
-          "lat": 51.3551667,
-          "lng": -2.5073889
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 51.3563310802915,
-            "lng": -2.505990669708499
-          },
-          "southwest": {
-            "lat": 51.3536331197085,
-            "lng": -2.508688630291502
-          }
-        }
-      },
-      "name": "THE PIG-near Bath",
-      "place_id": "ChIJk1Tgj2aIcUgRsVQwdEgY4ZM",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.thepighotel.com/near-bath/?utm_source=google&utm_medium=local&utm_campaign=GMB-pig-near-bath"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Claremont Resort & Club Hotel\", \"Claremont Resort & Club Resort\", \"Claremont Resort & Club\", \"Claremont Resort & Club Berkeley, California US Hotel\", \"Claremont Resort & Club Berkeley, California US Resort\", \"Claremont Resort & Club Berkeley, California US\", \"Claremont Resort Club Hotel\", \"Claremont Resort Club Resort\", \"Claremont Resort Club\", \"Claremont Resort Club Berkeley, California US Hotel\", \"Claremont Resort Club Berkeley, California US Resort\", \"Claremont Resort Club Berkeley, California US\"], \"v\": 3}": {
     "lat": 37.8590352,
     "lon": -122.2420658,
@@ -57478,52 +57294,6 @@
       "website": "https://cancun.leblancsparesorts.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"THE PIG at Bridge Place Hotel\", \"THE PIG at Bridge Place Resort\", \"THE PIG at Bridge Place\", \"THE PIG at Bridge Place Canterbury, England Hotel\", \"THE PIG at Bridge Place Canterbury, England Resort\", \"THE PIG at Bridge Place Canterbury, England\", \"Pig Bridge Place Hotel\", \"Pig Bridge Place Resort\", \"Pig Bridge Place\", \"Pig Bridge Place Canterbury, England Hotel\", \"Pig Bridge Place Canterbury, England Resort\", \"Pig Bridge Place Canterbury, England\"], \"v\": 3}": {
-    "lat": 51.24264540000001,
-    "lon": 1.123628,
-    "formatted_address": "Bourne Park Rd, Bridge, Canterbury CT4 5BH, UK",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJpU7K6YTJ3kcR_fb6IIuDonk",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Bourne Park Rd, Bridge, Canterbury CT4 5BH, UK",
-      "geometry": {
-        "location": {
-          "lat": 51.24264540000001,
-          "lng": 1.123628
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 51.2442112802915,
-            "lng": 1.125144130291502
-          },
-          "southwest": {
-            "lat": 51.2415133197085,
-            "lng": 1.122446169708498
-          }
-        }
-      },
-      "name": "THE PIG at Bridge Place",
-      "place_id": "ChIJpU7K6YTJ3kcR_fb6IIuDonk",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.thepighotel.com/at-bridge-place/?utm_source=google&utm_medium=local&utm_campaign=GMB-pig-bridge-place"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Royal Sonesta San Juan Hotel\", \"The Royal Sonesta San Juan Resort\", \"The Royal Sonesta San Juan\", \"The Royal Sonesta San Juan Carolina, Puerto Rico Hotel\", \"The Royal Sonesta San Juan Carolina, Puerto Rico Resort\", \"The Royal Sonesta San Juan Carolina, Puerto Rico\", \"Royal Sonesta San Juan Hotel\", \"Royal Sonesta San Juan Resort\", \"Royal Sonesta San Juan\", \"Royal Sonesta San Juan Carolina, Puerto Rico Hotel\", \"Royal Sonesta San Juan Carolina, Puerto Rico Resort\", \"Royal Sonesta San Juan Carolina, Puerto Rico\"], \"v\": 3}": {
     "lat": 18.4431721,
     "lon": -66.01986620000001,
@@ -57866,52 +57636,6 @@
         "point_of_interest"
       ],
       "website": "https://www.plazahotelelpaso.com/?utm_source=google%20my%20business&utm_medium=listing&utm_campaign=visit%20website"
-    }
-  },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"THE PIG at Combe Hotel\", \"THE PIG at Combe Resort\", \"THE PIG at Combe\", \"THE PIG at Combe Exeter, England Hotel\", \"THE PIG at Combe Exeter, England Resort\", \"THE PIG at Combe Exeter, England\", \"Pig Combe Hotel\", \"Pig Combe Resort\", \"Pig Combe\", \"Pig Combe Exeter, England Hotel\", \"Pig Combe Exeter, England Resort\", \"Pig Combe Exeter, England\"], \"v\": 3}": {
-    "lat": 50.7739768,
-    "lon": -3.216875,
-    "formatted_address": "Gittisham, Honiton EX14 3AD, UK",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJQczRIsyabUgR5NP4kNZ1MlA",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Gittisham, Honiton EX14 3AD, UK",
-      "geometry": {
-        "location": {
-          "lat": 50.7739768,
-          "lng": -3.216875
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 50.7753595302915,
-            "lng": -3.215891719708498
-          },
-          "southwest": {
-            "lat": 50.7726615697085,
-            "lng": -3.218589680291502
-          }
-        }
-      },
-      "name": "THE PIG-at Combe",
-      "place_id": "ChIJQczRIsyabUgR5NP4kNZ1MlA",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.thepighotel.com/at-combe/?utm_source=google&utm_medium=local&utm_campaign=GMB-pig-at-combe"
     }
   },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Isle Resort & Residences Hotel\", \"Grand Isle Resort & Residences Resort\", \"Grand Isle Resort & Residences\", \"Grand Isle Resort & Residences Great Exuma, The Bahamas Hotel\", \"Grand Isle Resort & Residences Great Exuma, The Bahamas Resort\", \"Grand Isle Resort & Residences Great Exuma, The Bahamas\", \"Grand Isle Resort Residences Hotel\", \"Grand Isle Resort Residences Resort\", \"Grand Isle Resort Residences\", \"Grand Isle Resort Residences Great Exuma, The Bahamas Hotel\", \"Grand Isle Resort Residences Great Exuma, The Bahamas Resort\", \"Grand Isle Resort Residences Great Exuma, The Bahamas\"], \"v\": 3}": {
@@ -92584,52 +92308,6 @@
       "website": "https://www.nobuhotels.com/barcelona/"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"THE PIG near Bath\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"THE PIG near Bath Hotel\", \"THE PIG near Bath Resort\", \"THE PIG near Bath\", \"THE PIG near Bath Bath, England Hotel\", \"THE PIG near Bath Bath, England Resort\", \"THE PIG near Bath Bath, England\", \"Pig Near Bath Hotel\", \"Pig Near Bath Resort\", \"Pig Near Bath\", \"Pig Near Bath Bath, England Hotel\", \"Pig Near Bath Bath, England Resort\", \"Pig Near Bath Bath, England\"], \"v\": 3}": {
-    "lat": 51.3551667,
-    "lon": -2.5073889,
-    "formatted_address": "Hunstrete House, Hunstrete, Pensford, Bath BS39 4NS, UK",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJk1Tgj2aIcUgRsVQwdEgY4ZM",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Hunstrete House, Hunstrete, Pensford, Bath BS39 4NS, UK",
-      "geometry": {
-        "location": {
-          "lat": 51.3551667,
-          "lng": -2.5073889
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 51.3563310802915,
-            "lng": -2.505990669708499
-          },
-          "southwest": {
-            "lat": 51.3536331197085,
-            "lng": -2.508688630291502
-          }
-        }
-      },
-      "name": "THE PIG-near Bath",
-      "place_id": "ChIJk1Tgj2aIcUgRsVQwdEgY4ZM",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.thepighotel.com/near-bath/?utm_source=google&utm_medium=local&utm_campaign=GMB-pig-near-bath"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Inn at Bay Harbor\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Inn at Bay Harbor Hotel\", \"The Inn at Bay Harbor Resort\", \"The Inn at Bay Harbor\", \"The Inn at Bay Harbor Bay Harbor, Michigan US Hotel\", \"The Inn at Bay Harbor Bay Harbor, Michigan US Resort\", \"The Inn at Bay Harbor Bay Harbor, Michigan US\", \"Inn Bay Harbor Hotel\", \"Inn Bay Harbor Resort\", \"Inn Bay Harbor\", \"Inn Bay Harbor Bay Harbor, Michigan US Hotel\", \"Inn Bay Harbor Bay Harbor, Michigan US Resort\", \"Inn Bay Harbor Bay Harbor, Michigan US\"], \"v\": 3}": {
     "lat": 45.3690316,
     "lon": -85.01558659999999,
@@ -93328,52 +93006,6 @@
         "point_of_interest"
       ],
       "website": "https://cancun.leblancsparesorts.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"THE PIG at Bridge Place\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"THE PIG at Bridge Place Hotel\", \"THE PIG at Bridge Place Resort\", \"THE PIG at Bridge Place\", \"THE PIG at Bridge Place Canterbury, England Hotel\", \"THE PIG at Bridge Place Canterbury, England Resort\", \"THE PIG at Bridge Place Canterbury, England\", \"Pig Bridge Place Hotel\", \"Pig Bridge Place Resort\", \"Pig Bridge Place\", \"Pig Bridge Place Canterbury, England Hotel\", \"Pig Bridge Place Canterbury, England Resort\", \"Pig Bridge Place Canterbury, England\"], \"v\": 3}": {
-    "lat": 51.24264540000001,
-    "lon": 1.123628,
-    "formatted_address": "Bourne Park Rd, Bridge, Canterbury CT4 5BH, UK",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJpU7K6YTJ3kcR_fb6IIuDonk",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Bourne Park Rd, Bridge, Canterbury CT4 5BH, UK",
-      "geometry": {
-        "location": {
-          "lat": 51.24264540000001,
-          "lng": 1.123628
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 51.2442112802915,
-            "lng": 1.125144130291502
-          },
-          "southwest": {
-            "lat": 51.2415133197085,
-            "lng": 1.122446169708498
-          }
-        }
-      },
-      "name": "THE PIG at Bridge Place",
-      "place_id": "ChIJpU7K6YTJ3kcR_fb6IIuDonk",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.thepighotel.com/at-bridge-place/?utm_source=google&utm_medium=local&utm_campaign=GMB-pig-bridge-place"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Congress Hall Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Congress Hall Hotel Hotel\", \"Congress Hall Hotel Resort\", \"Congress Hall Hotel\", \"Congress Hall Hotel Cape May, New Jersey US Hotel\", \"Congress Hall Hotel Cape May, New Jersey US Resort\", \"Congress Hall Hotel Cape May, New Jersey US\"], \"v\": 3}": {
@@ -94452,52 +94084,6 @@
         "point_of_interest"
       ],
       "website": "https://www.plazahotelelpaso.com/?utm_source=google%20my%20business&utm_medium=listing&utm_campaign=visit%20website"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"THE PIG at Combe\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"THE PIG at Combe Hotel\", \"THE PIG at Combe Resort\", \"THE PIG at Combe\", \"THE PIG at Combe Exeter, England Hotel\", \"THE PIG at Combe Exeter, England Resort\", \"THE PIG at Combe Exeter, England\", \"Pig Combe Hotel\", \"Pig Combe Resort\", \"Pig Combe\", \"Pig Combe Exeter, England Hotel\", \"Pig Combe Exeter, England Resort\", \"Pig Combe Exeter, England\"], \"v\": 3}": {
-    "lat": 50.7739768,
-    "lon": -3.216875,
-    "formatted_address": "Gittisham, Honiton EX14 3AD, UK",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJQczRIsyabUgR5NP4kNZ1MlA",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Gittisham, Honiton EX14 3AD, UK",
-      "geometry": {
-        "location": {
-          "lat": 50.7739768,
-          "lng": -3.216875
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 50.7753595302915,
-            "lng": -3.215891719708498
-          },
-          "southwest": {
-            "lat": 50.7726615697085,
-            "lng": -3.218589680291502
-          }
-        }
-      },
-      "name": "THE PIG-at Combe",
-      "place_id": "ChIJQczRIsyabUgR5NP4kNZ1MlA",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.thepighotel.com/at-combe/?utm_source=google&utm_medium=local&utm_campaign=GMB-pig-at-combe"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Masseria Torre Coccaro\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Masseria Torre Coccaro Hotel\", \"Masseria Torre Coccaro Resort\", \"Masseria Torre Coccaro\", \"Masseria Torre Coccaro Fasano, Italy Hotel\", \"Masseria Torre Coccaro Fasano, Italy Resort\", \"Masseria Torre Coccaro Fasano, Italy\"], \"v\": 3}": {
@@ -138372,127 +137958,39 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Magnolia\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Magnolia Preferred Hotels & Resorts Hotel\", \"Hotel Magnolia Preferred Hotels & Resorts Resort\", \"Hotel Magnolia Preferred Hotels & Resorts\", \"Hotel Magnolia Preferred Hotels & Resorts Santiago, Chile Hotel\", \"Hotel Magnolia Preferred Hotels & Resorts Santiago, Chile Resort\", \"Hotel Magnolia Preferred Hotels & Resorts Santiago, Chile\", \"Hotel Magnolia Hilton Hotel\", \"Hotel Magnolia Hilton Resort\", \"Hotel Magnolia Hilton\", \"Hotel Magnolia Hilton Santiago, Chile Hotel\", \"Hotel Magnolia Hilton Santiago, Chile Resort\", \"Hotel Magnolia Hilton Santiago, Chile\", \"Hotel Magnolia Hotel\", \"Hotel Magnolia Resort\", \"Hotel Magnolia\", \"Hotel Magnolia Santiago, Chile Hotel\", \"Hotel Magnolia Santiago, Chile Resort\", \"Hotel Magnolia Santiago, Chile\"], \"v\": 3}": {
-    "lat": 45.6107764,
-    "lon": 12.2363773,
-    "formatted_address": "Str. Terraglio, 136/2, 31022 Preganziol TV, Italy",
-    "provider": "google_geocoding",
-    "confidence": "ROOFTOP",
-    "place_id": "ChIJlVh3ABNKeUcRK_I30luY0s4",
+    "lat": -33.4488928,
+    "lon": -70.6692793,
+    "formatted_address": "8370042 Santiago, Santiago Metropolitan Region, Chile",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJkTSSWgDFYpYRnS52o9lHigI",
     "types": [
       "establishment",
       "lodging",
       "point_of_interest"
     ],
-    "partial_match": true,
+    "partial_match": false,
     "raw": {
-      "address_components": [
-        {
-          "long_name": "2",
-          "short_name": "2",
-          "types": [
-            "subpremise"
-          ]
-        },
-        {
-          "long_name": "136",
-          "short_name": "136",
-          "types": [
-            "street_number"
-          ]
-        },
-        {
-          "long_name": "Strada Terraglio",
-          "short_name": "Str. Terraglio",
-          "types": [
-            "route"
-          ]
-        },
-        {
-          "long_name": "Preganziol",
-          "short_name": "Preganziol",
-          "types": [
-            "locality",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Preganziol",
-          "short_name": "Preganziol",
-          "types": [
-            "administrative_area_level_3",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Provincia di Treviso",
-          "short_name": "TV",
-          "types": [
-            "administrative_area_level_2",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Veneto",
-          "short_name": "Veneto",
-          "types": [
-            "administrative_area_level_1",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Italy",
-          "short_name": "IT",
-          "types": [
-            "country",
-            "political"
-          ]
-        },
-        {
-          "long_name": "31022",
-          "short_name": "31022",
-          "types": [
-            "postal_code"
-          ]
-        }
-      ],
-      "formatted_address": "Str. Terraglio, 136/2, 31022 Preganziol TV, Italy",
+      "business_status": "OPERATIONAL",
+      "formatted_address": "8370042 Santiago, Santiago Metropolitan Region, Chile",
       "geometry": {
         "location": {
-          "lat": 45.6107764,
-          "lng": 12.2363773
+          "lat": -33.4488928,
+          "lng": -70.6692793
         },
-        "location_type": "ROOFTOP",
         "viewport": {
           "northeast": {
-            "lat": 45.6120364302915,
-            "lng": 12.2378332302915
+            "lat": -33.4475375197085,
+            "lng": -70.66790396970849
           },
           "southwest": {
-            "lat": 45.6093384697085,
-            "lng": 12.2351352697085
+            "lat": -33.4502354802915,
+            "lng": -70.6706019302915
           }
         }
       },
-      "navigation_points": [
-        {
-          "location": {
-            "latitude": 45.610712,
-            "longitude": 12.2366084
-          }
-        },
-        {
-          "location": {
-            "latitude": 45.6107296,
-            "longitude": 12.23637
-          }
-        }
-      ],
-      "partial_match": true,
-      "place_id": "ChIJlVh3ABNKeUcRK_I30luY0s4",
-      "plus_code": {
-        "compound_code": "J66P+8H Preganziol, Province of Treviso, Italy",
-        "global_code": "8FQJJ66P+8H"
-      },
+      "name": "Hotel Magnolia",
+      "place_id": "ChIJkTSSWgDFYpYRnS52o9lHigI",
       "types": [
         "establishment",
         "lodging",
@@ -145097,49 +144595,45 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Smiths Beach Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Smiths Beach Resort Small Luxury Hotels of the World Hotel\", \"Smiths Beach Resort Small Luxury Hotels of the World Resort\", \"Smiths Beach Resort Small Luxury Hotels of the World\", \"Smiths Beach Resort Small Luxury Hotels of the World Yallingup, Australia Hotel\", \"Smiths Beach Resort Small Luxury Hotels of the World Yallingup, Australia Resort\", \"Smiths Beach Resort Small Luxury Hotels of the World Yallingup, Australia\", \"Smiths Beach Resort Hilton Hotel\", \"Smiths Beach Resort Hilton Resort\", \"Smiths Beach Resort Hilton\", \"Smiths Beach Resort Hilton Yallingup, Australia Hotel\", \"Smiths Beach Resort Hilton Yallingup, Australia Resort\", \"Smiths Beach Resort Hilton Yallingup, Australia\", \"Smiths Beach Resort Hotel\", \"Smiths Beach Resort Resort\", \"Smiths Beach Resort\", \"Smiths Beach Resort Yallingup, Australia Hotel\", \"Smiths Beach Resort Yallingup, Australia Resort\", \"Smiths Beach Resort Yallingup, Australia\"], \"v\": 3}": {
-    "lat": 12.5413622,
-    "lon": -70.06146199999999,
-    "formatted_address": "L.G. Smith Boulevard 55B, Oranjestad, Aruba",
+    "lat": -33.6618847,
+    "lon": 115.0154317,
+    "formatted_address": "67 Smiths Beach Rd, Yallingup WA 6282, Australia",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJzXH3tIJHhY4R4LNmKn5wBHY",
+    "place_id": "ChIJ5wCw3zNcLioRq7-g9T5adg0",
     "types": [
       "establishment",
-      "food",
       "lodging",
-      "point_of_interest",
-      "restaurant"
+      "point_of_interest"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "L.G. Smith Boulevard 55B, Oranjestad, Aruba",
+      "formatted_address": "67 Smiths Beach Rd, Yallingup WA 6282, Australia",
       "geometry": {
         "location": {
-          "lat": 12.5413622,
-          "lng": -70.06146199999999
+          "lat": -33.6618847,
+          "lng": 115.0154317
         },
         "viewport": {
           "northeast": {
-            "lat": 12.5427113302915,
-            "lng": -70.06011306970849
+            "lat": -33.66053641970851,
+            "lng": 115.0168034802915
           },
           "southwest": {
-            "lat": 12.5400133697085,
-            "lng": -70.0628110302915
+            "lat": -33.66323438029151,
+            "lng": 115.0141055197085
           }
         }
       },
-      "name": "Bucuti & Tara Beach Resort",
-      "place_id": "ChIJzXH3tIJHhY4R4LNmKn5wBHY",
+      "name": "Smiths Beach Resort",
+      "place_id": "ChIJ5wCw3zNcLioRq7-g9T5adg0",
       "types": [
         "establishment",
-        "food",
         "lodging",
-        "point_of_interest",
-        "restaurant"
+        "point_of_interest"
       ],
-      "website": "https://www.bucuti.com/?utm_medium=organic&utm_source=google&utm_campaign=business-listing"
+      "website": "https://www.smithsbeachresort.com.au/"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Das Posthotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Das Posthotel Small Luxury Hotels of the World Hotel\", \"Das Posthotel Small Luxury Hotels of the World Resort\", \"Das Posthotel Small Luxury Hotels of the World\", \"Das Posthotel Small Luxury Hotels of the World Zell am Ziller, Austria Hotel\", \"Das Posthotel Small Luxury Hotels of the World Zell am Ziller, Austria Resort\", \"Das Posthotel Small Luxury Hotels of the World Zell am Ziller, Austria\", \"Das Posthotel Hilton Hotel\", \"Das Posthotel Hilton Resort\", \"Das Posthotel Hilton\", \"Das Posthotel Hilton Zell am Ziller, Austria Hotel\", \"Das Posthotel Hilton Zell am Ziller, Austria Resort\", \"Das Posthotel Hilton Zell am Ziller, Austria\", \"Das Posthotel Hotel\", \"Das Posthotel Resort\", \"Das Posthotel\", \"Das Posthotel Zell am Ziller, Austria Hotel\", \"Das Posthotel Zell am Ziller, Austria Resort\", \"Das Posthotel Zell am Ziller, Austria\"], \"v\": 3}": {
@@ -152201,6 +151695,144 @@
         "point_of_interest"
       ],
       "website": "https://thehoxton.com/london/shoreditch/?utm_source=google&utm_medium=local&utm_campaign=hotel-thehoxtonshoreditch"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Los Altos Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Los Altos Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Kimpton Main Frankfurt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Kimpton Main Frankfurt\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Treehouse Hotel Manchester\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Treehouse Hotel Manchester Hotel\", \"Treehouse Hotel Manchester Resort\", \"Treehouse Hotel Manchester\", \"Treehouse Hotel Manchester Manchester, England Hotel\", \"Treehouse Hotel Manchester Manchester, England Resort\", \"Treehouse Hotel Manchester Manchester, England\"], \"v\": 3}": {
+    "lat": 53.4837833,
+    "lon": -2.2465903,
+    "formatted_address": "Blackfriars St, Manchester M3 2EQ, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJTcNOVOGxe0gRGC-uuxiKBv4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Blackfriars St, Manchester M3 2EQ, UK",
+      "geometry": {
+        "location": {
+          "lat": 53.4837833,
+          "lng": -2.2465903
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 53.48500713029149,
+            "lng": -2.245480569708498
+          },
+          "southwest": {
+            "lat": 53.48230916970849,
+            "lng": -2.248178530291502
+          }
+        }
+      },
+      "name": "Treehouse Hotel Manchester",
+      "place_id": "ChIJTcNOVOGxe0gRGC-uuxiKBv4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.treehousehotels.com/manchester?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Kimpton Main Frankfurt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Kimpton Main Frankfurt Kimpton Hotels & Restaurants Hotel\", \"Kimpton Main Frankfurt Kimpton Hotels & Restaurants Resort\", \"Kimpton Main Frankfurt Kimpton Hotels & Restaurants\", \"Kimpton Main Frankfurt Kimpton Hotels & Restaurants Frankfurt am Main, Germany Hotel\", \"Kimpton Main Frankfurt Kimpton Hotels & Restaurants Frankfurt am Main, Germany Resort\", \"Kimpton Main Frankfurt Kimpton Hotels & Restaurants Frankfurt am Main, Germany\", \"Kimpton Main Frankfurt Hilton Hotel\", \"Kimpton Main Frankfurt Hilton Resort\", \"Kimpton Main Frankfurt Hilton\", \"Kimpton Main Frankfurt Hilton Frankfurt am Main, Germany Hotel\", \"Kimpton Main Frankfurt Hilton Frankfurt am Main, Germany Resort\", \"Kimpton Main Frankfurt Hilton Frankfurt am Main, Germany\", \"Kimpton Main Frankfurt Hotel\", \"Kimpton Main Frankfurt Resort\", \"Kimpton Main Frankfurt\", \"Kimpton Main Frankfurt Frankfurt am Main, Germany Hotel\", \"Kimpton Main Frankfurt Frankfurt am Main, Germany Resort\", \"Kimpton Main Frankfurt Frankfurt am Main, Germany\"], \"v\": 3}": {
+    "lat": 50.112689,
+    "lon": 8.6744221,
+    "formatted_address": "Junghofstraße 7, 60315 Frankfurt am Main, Germany",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJwwV8u-kPvUcRgqSBTc-tabw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Junghofstraße 7, 60315 Frankfurt am Main, Germany",
+      "geometry": {
+        "location": {
+          "lat": 50.112689,
+          "lng": 8.6744221
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 50.1141296802915,
+            "lng": 8.675812430291503
+          },
+          "southwest": {
+            "lat": 50.1114317197085,
+            "lng": 8.673114469708498
+          }
+        }
+      },
+      "name": "Kimpton Main Frankfurt by IHG",
+      "place_id": "ChIJwwV8u-kPvUcRgqSBTc-tabw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ihg.com/kimptonhotels/hotels/us/en/frankfurt/frajg/hoteldetail?cm_mmc=GoogleMaps-_-KI-_-DE-_-FRAJG"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Los Altos Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Los Altos Resort Small Luxury Hotels of the World Hotel\", \"Los Altos Resort Small Luxury Hotels of the World Resort\", \"Los Altos Resort Small Luxury Hotels of the World\", \"Los Altos Resort Small Luxury Hotels of the World Manuel Antonio, Costa Rica Hotel\", \"Los Altos Resort Small Luxury Hotels of the World Manuel Antonio, Costa Rica Resort\", \"Los Altos Resort Small Luxury Hotels of the World Manuel Antonio, Costa Rica\", \"Los Altos Resort Hilton Hotel\", \"Los Altos Resort Hilton Resort\", \"Los Altos Resort Hilton\", \"Los Altos Resort Hilton Manuel Antonio, Costa Rica Hotel\", \"Los Altos Resort Hilton Manuel Antonio, Costa Rica Resort\", \"Los Altos Resort Hilton Manuel Antonio, Costa Rica\", \"Los Altos Resort Hotel\", \"Los Altos Resort Resort\", \"Los Altos Resort\", \"Los Altos Resort Manuel Antonio, Costa Rica Hotel\", \"Los Altos Resort Manuel Antonio, Costa Rica Resort\", \"Los Altos Resort Manuel Antonio, Costa Rica\"], \"v\": 3}": {
+    "lat": 9.4053955,
+    "lon": -84.1579742,
+    "formatted_address": "Kilometer 4 on main road to, National Park, Puntarenas Province, Quepos, Manuel Antonio, 60601, Costa Rica",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJq1QjfgN0oY8RDQ09rs58XOU",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa",
+      "store"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Kilometer 4 on main road to, National Park, Puntarenas Province, Quepos, Manuel Antonio, 60601, Costa Rica",
+      "geometry": {
+        "location": {
+          "lat": 9.4053955,
+          "lng": -84.1579742
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 9.407146980291504,
+            "lng": -84.15642156970848
+          },
+          "southwest": {
+            "lat": 9.4044490197085,
+            "lng": -84.1591195302915
+          }
+        }
+      },
+      "name": "Los Altos Resort SLH",
+      "place_id": "ChIJq1QjfgN0oY8RDQ09rs58XOU",
+      "types": [
+        "cafe",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa",
+        "store"
+      ],
+      "website": "https://www.losaltosresort.com/"
     }
   }
 }
