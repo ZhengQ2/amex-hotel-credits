@@ -151834,5 +151834,268 @@
       ],
       "website": "https://www.losaltosresort.com/"
     }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"JW Marriott L.A. Live\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"JW Marriott L.A. Live\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Fox Harbr Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fox Harbr Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Casa Lucia, member of Melia Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Casa Lucia, member of Melia Collection\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hotel Schweizerhof Zurich\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Schweizerhof Zurich\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Santavenere\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Santavenere\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Schweizerhof Zurich\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Schweizerhof Zurich Hotel\", \"Hotel Schweizerhof Zurich Resort\", \"Hotel Schweizerhof Zurich\", \"Hotel Schweizerhof Zurich Zurich, Switzerland Hotel\", \"Hotel Schweizerhof Zurich Zurich, Switzerland Resort\", \"Hotel Schweizerhof Zurich Zurich, Switzerland\"], \"v\": 3}": {
+    "lat": 47.3769444,
+    "lon": 8.539444399999999,
+    "formatted_address": "Bahnhofplatz 7, 8001 Zürich, Switzerland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJq2UJnAgKkEcRpogMbETPEI4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Bahnhofplatz 7, 8001 Zürich, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.3769444,
+          "lng": 8.539444399999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.37836103029149,
+            "lng": 8.540811130291504
+          },
+          "southwest": {
+            "lat": 47.37566306970849,
+            "lng": 8.538113169708499
+          }
+        }
+      },
+      "name": "Hotel Schweizerhof Zürich",
+      "place_id": "ChIJq2UJnAgKkEcRpogMbETPEI4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hotelschweizerhof.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"JW Marriott L.A. Live\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"JW Marriott L.A. Live JW Marriott Hotel\", \"JW Marriott L.A. Live JW Marriott Resort\", \"JW Marriott L.A. Live JW Marriott\", \"JW Marriott L.A. Live JW Marriott Los Angeles, California US Hotel\", \"JW Marriott L.A. Live JW Marriott Los Angeles, California US Resort\", \"JW Marriott L.A. Live JW Marriott Los Angeles, California US\", \"JW Marriott L.A. Live Hilton Hotel\", \"JW Marriott L.A. Live Hilton Resort\", \"JW Marriott L.A. Live Hilton\", \"JW Marriott L.A. Live Hilton Los Angeles, California US Hotel\", \"JW Marriott L.A. Live Hilton Los Angeles, California US Resort\", \"JW Marriott L.A. Live Hilton Los Angeles, California US\", \"Jw Marriott La Live JW Marriott Hotel\", \"Jw Marriott La Live JW Marriott Resort\", \"Jw Marriott La Live JW Marriott\", \"Jw Marriott La Live JW Marriott Los Angeles, California US Hotel\", \"Jw Marriott La Live JW Marriott Los Angeles, California US Resort\", \"Jw Marriott La Live JW Marriott Los Angeles, California US\", \"Jw Marriott La Live Hilton Hotel\", \"Jw Marriott La Live Hilton Resort\", \"Jw Marriott La Live Hilton\", \"Jw Marriott La Live Hilton Los Angeles, California US Hotel\", \"Jw Marriott La Live Hilton Los Angeles, California US Resort\", \"Jw Marriott La Live Hilton Los Angeles, California US\", \"JW Marriott L.A. Live Hotel\", \"JW Marriott L.A. Live Resort\", \"JW Marriott L.A. Live\", \"JW Marriott L.A. Live Los Angeles, California US Hotel\", \"JW Marriott L.A. Live Los Angeles, California US Resort\", \"JW Marriott L.A. Live Los Angeles, California US\"], \"v\": 3}": {
+    "lat": 34.0452408,
+    "lon": -118.2664713,
+    "formatted_address": "900 W Olympic Blvd, Los Angeles, CA 90015, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJj-D-ernHwoARkgbstU1Zt24",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "900 W Olympic Blvd, Los Angeles, CA 90015, USA",
+      "geometry": {
+        "location": {
+          "lat": 34.0452408,
+          "lng": -118.2664713
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 34.0468210802915,
+            "lng": -118.2651368197085
+          },
+          "southwest": {
+            "lat": 34.0441231197085,
+            "lng": -118.2678347802915
+          }
+        }
+      },
+      "name": "JW Marriott Los Angeles L.A. LIVE",
+      "place_id": "ChIJj-D-ernHwoARkgbstU1Zt24",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/laxjw-jw-marriott-los-angeles-la-live/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Casa Lucia, member of Melia Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Casa Lucia, member of Melia Collection Meli\\u00e1 Hotels & Resorts Hotel\", \"Casa Lucia, member of Melia Collection Meli\\u00e1 Hotels & Resorts Resort\", \"Casa Lucia, member of Melia Collection Meli\\u00e1 Hotels & Resorts\", \"Casa Lucia, member of Melia Collection Meli\\u00e1 Hotels & Resorts Buenos Aires, Argentina Hotel\", \"Casa Lucia, member of Melia Collection Meli\\u00e1 Hotels & Resorts Buenos Aires, Argentina Resort\", \"Casa Lucia, member of Melia Collection Meli\\u00e1 Hotels & Resorts Buenos Aires, Argentina\", \"Casa Lucia, member of Melia Collection Hilton Hotel\", \"Casa Lucia, member of Melia Collection Hilton Resort\", \"Casa Lucia, member of Melia Collection Hilton\", \"Casa Lucia, member of Melia Collection Hilton Buenos Aires, Argentina Hotel\", \"Casa Lucia, member of Melia Collection Hilton Buenos Aires, Argentina Resort\", \"Casa Lucia, member of Melia Collection Hilton Buenos Aires, Argentina\", \"Casa Lucia Member Of Melia Collection Meli\\u00e1 Hotels & Resorts Hotel\", \"Casa Lucia Member Of Melia Collection Meli\\u00e1 Hotels & Resorts Resort\", \"Casa Lucia Member Of Melia Collection Meli\\u00e1 Hotels & Resorts\", \"Casa Lucia Member Of Melia Collection Meli\\u00e1 Hotels & Resorts Buenos Aires, Argentina Hotel\", \"Casa Lucia Member Of Melia Collection Meli\\u00e1 Hotels & Resorts Buenos Aires, Argentina Resort\", \"Casa Lucia Member Of Melia Collection Meli\\u00e1 Hotels & Resorts Buenos Aires, Argentina\", \"Casa Lucia Member Of Melia Collection Hilton Hotel\", \"Casa Lucia Member Of Melia Collection Hilton Resort\", \"Casa Lucia Member Of Melia Collection Hilton\", \"Casa Lucia Member Of Melia Collection Hilton Buenos Aires, Argentina Hotel\", \"Casa Lucia Member Of Melia Collection Hilton Buenos Aires, Argentina Resort\", \"Casa Lucia Member Of Melia Collection Hilton Buenos Aires, Argentina\", \"Casa Lucia, member of Melia Collection Hotel\", \"Casa Lucia, member of Melia Collection Resort\", \"Casa Lucia, member of Melia Collection\", \"Casa Lucia, member of Melia Collection Buenos Aires, Argentina Hotel\", \"Casa Lucia, member of Melia Collection Buenos Aires, Argentina Resort\", \"Casa Lucia, member of Melia Collection Buenos Aires, Argentina\"], \"v\": 3}": {
+    "lat": -34.591835,
+    "lon": -58.378913,
+    "formatted_address": "Arroyo 841, C1007AAB Cdad. Autónoma de Buenos Aires, Argentina",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJcQwey7bKvJUR6QI1vHl7BKQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Arroyo 841, C1007AAB Cdad. Autónoma de Buenos Aires, Argentina",
+      "geometry": {
+        "location": {
+          "lat": -34.591835,
+          "lng": -58.378913
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -34.5905333197085,
+            "lng": -58.37764631970849
+          },
+          "southwest": {
+            "lat": -34.5932312802915,
+            "lng": -58.3803442802915
+          }
+        }
+      },
+      "name": "Casa Lucia Member of Meliá Collection",
+      "place_id": "ChIJcQwey7bKvJUR6QI1vHl7BKQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.melia.com/es/hoteles/argentina/buenos-aires/casa-lucia-melia-collection?utm_campaign=google&utm_content=5955&utm_medium=organic&utm_source=directories"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Melia Hanoi Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Melia Hanoi Hotel Meli\\u00e1 Hotels & Resorts Hotel\", \"Melia Hanoi Hotel Meli\\u00e1 Hotels & Resorts Resort\", \"Melia Hanoi Hotel Meli\\u00e1 Hotels & Resorts\", \"Melia Hanoi Hotel Meli\\u00e1 Hotels & Resorts Hanoi, Vietnam Hotel\", \"Melia Hanoi Hotel Meli\\u00e1 Hotels & Resorts Hanoi, Vietnam Resort\", \"Melia Hanoi Hotel Meli\\u00e1 Hotels & Resorts Hanoi, Vietnam\", \"Melia Hanoi Hotel Hilton Hotel\", \"Melia Hanoi Hotel Hilton Resort\", \"Melia Hanoi Hotel Hilton\", \"Melia Hanoi Hotel Hilton Hanoi, Vietnam Hotel\", \"Melia Hanoi Hotel Hilton Hanoi, Vietnam Resort\", \"Melia Hanoi Hotel Hilton Hanoi, Vietnam\", \"Melia Hanoi Hotel Hotel\", \"Melia Hanoi Hotel Resort\", \"Melia Hanoi Hotel\", \"Melia Hanoi Hotel Hanoi, Vietnam Hotel\", \"Melia Hanoi Hotel Hanoi, Vietnam Resort\", \"Melia Hanoi Hotel Hanoi, Vietnam\"], \"v\": 3}": {
+    "lat": 21.0243316,
+    "lon": 105.8475739,
+    "formatted_address": "44 P. Lý Thường Kiệt, Trần Hưng Đạo, Hoàn Kiếm, Hà Nội, Vietnam",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ2ehlkZOrNTERzL1Vpx8rlfM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "44 P. Lý Thường Kiệt, Trần Hưng Đạo, Hoàn Kiếm, Hà Nội, Vietnam",
+      "geometry": {
+        "location": {
+          "lat": 21.0243316,
+          "lng": 105.8475739
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 21.0256118302915,
+            "lng": 105.8489029802915
+          },
+          "southwest": {
+            "lat": 21.0229138697085,
+            "lng": 105.8462050197085
+          }
+        }
+      },
+      "name": "Meliá Hanoi",
+      "place_id": "ChIJ2ehlkZOrNTERzL1Vpx8rlfM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.melia.com/en/hotels/vietnam/hanoi/melia-hanoi?utm_campaign=google&utm_content=5751&utm_medium=organic&utm_source=directories"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Fox Harbr Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fox Harbr Resort Preferred Hotels & Resorts Hotel\", \"Fox Harbr Resort Preferred Hotels & Resorts Resort\", \"Fox Harbr Resort Preferred Hotels & Resorts\", \"Fox Harbr Resort Preferred Hotels & Resorts Fox Harbour, Nova Scotia CA Hotel\", \"Fox Harbr Resort Preferred Hotels & Resorts Fox Harbour, Nova Scotia CA Resort\", \"Fox Harbr Resort Preferred Hotels & Resorts Fox Harbour, Nova Scotia CA\", \"Fox Harbr Resort Hilton Hotel\", \"Fox Harbr Resort Hilton Resort\", \"Fox Harbr Resort Hilton\", \"Fox Harbr Resort Hilton Fox Harbour, Nova Scotia CA Hotel\", \"Fox Harbr Resort Hilton Fox Harbour, Nova Scotia CA Resort\", \"Fox Harbr Resort Hilton Fox Harbour, Nova Scotia CA\", \"Fox Harbr Resort Hotel\", \"Fox Harbr Resort Resort\", \"Fox Harbr Resort\", \"Fox Harbr Resort Fox Harbour, Nova Scotia CA Hotel\", \"Fox Harbr Resort Fox Harbour, Nova Scotia CA Resort\", \"Fox Harbr Resort Fox Harbour, Nova Scotia CA\"], \"v\": 3}": {
+    "lat": 45.8681,
+    "lon": -63.45388639999999,
+    "formatted_address": "1337 Fox Harbour Rd, Fox Harbour, NS B0K 1L0, Canada",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ3cT_vCTeXksRpseBIZLXtuM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1337 Fox Harbour Rd, Fox Harbour, NS B0K 1L0, Canada",
+      "geometry": {
+        "location": {
+          "lat": 45.8681,
+          "lng": -63.45388639999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.8694489802915,
+            "lng": -63.45253736970849
+          },
+          "southwest": {
+            "lat": 45.8667510197085,
+            "lng": -63.45523533029151
+          }
+        }
+      },
+      "name": "Fox Harb'r Resort",
+      "place_id": "ChIJ3cT_vCTeXksRpseBIZLXtuM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.foxharbr.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Santavenere\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Santavenere The Leading Hotels of the World Hotel\", \"Santavenere The Leading Hotels of the World Resort\", \"Santavenere The Leading Hotels of the World\", \"Santavenere The Leading Hotels of the World Maratea, Italy Hotel\", \"Santavenere The Leading Hotels of the World Maratea, Italy Resort\", \"Santavenere The Leading Hotels of the World Maratea, Italy\", \"Santavenere Hilton Hotel\", \"Santavenere Hilton Resort\", \"Santavenere Hilton\", \"Santavenere Hilton Maratea, Italy Hotel\", \"Santavenere Hilton Maratea, Italy Resort\", \"Santavenere Hilton Maratea, Italy\", \"Santavenere Hotel\", \"Santavenere Resort\", \"Santavenere\", \"Santavenere Maratea, Italy Hotel\", \"Santavenere Maratea, Italy Resort\", \"Santavenere Maratea, Italy\"], \"v\": 3}": {
+    "lat": 39.9934361,
+    "lon": 15.7026893,
+    "formatted_address": "Via Conte Stefano Rivetti, 1, 85046 Maratea PZ, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJv6_l2nPZPhMR_vsVbQXTR_Q",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Conte Stefano Rivetti, 1, 85046 Maratea PZ, Italy",
+      "geometry": {
+        "location": {
+          "lat": 39.9934361,
+          "lng": 15.7026893
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.9949099802915,
+            "lng": 15.7040733302915
+          },
+          "southwest": {
+            "lat": 39.9922120197085,
+            "lng": 15.7013753697085
+          }
+        }
+      },
+      "name": "Santavenere",
+      "place_id": "ChIJv6_l2nPZPhMR_vsVbQXTR_Q",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.santavenere.it/"
+    }
   }
 }

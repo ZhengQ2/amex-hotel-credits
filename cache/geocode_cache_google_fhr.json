@@ -130456,12 +130456,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 34.7012112,
-    "lon": -118.171488,
-    "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
+    "lat": 40.025647,
+    "lon": -76.2103178,
+    "formatted_address": "2320 Lincoln Hwy E, Lancaster, PA 17602, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
+    "place_id": "ChIJp6-nrr47xokR-cBopTFxWz4",
     "types": [
       "establishment",
       "lodging",
@@ -130470,31 +130470,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
+      "formatted_address": "2320 Lincoln Hwy E, Lancaster, PA 17602, USA",
       "geometry": {
         "location": {
-          "lat": 34.7012112,
-          "lng": -118.171488
+          "lat": 40.025647,
+          "lng": -76.2103178
         },
         "viewport": {
           "northeast": {
-            "lat": 34.7024083302915,
-            "lng": -118.1697845197085
+            "lat": 40.0270498302915,
+            "lng": -76.2090659697085
           },
           "southwest": {
-            "lat": 34.6997103697085,
-            "lng": -118.1724824802915
+            "lat": 40.0243518697085,
+            "lng": -76.21176393029151
           }
         }
       },
-      "name": "Hampton Inn & Suites Lancaster",
-      "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
+      "name": "Tru by Hilton Lancaster East",
+      "place_id": "ChIJp6-nrr47xokR-cBopTFxWz4",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/pdllchx-hampton-suites-lancaster/?SEO_id=GMB-AMER-HX-PDLLCHX&y_source=1_MjA4MzE4Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.hilton.com/en/hotels/lnsruru-tru-lancaster-east/?SEO_id=GMB-AMER-RU-LNSRURU&y_source=1_Nzg2MDQ3Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -173136,12 +173136,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Museum Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Museum Hotel Relais & Ch\\u00e2teaux Hotel\", \"Museum Hotel Relais & Ch\\u00e2teaux Resort\", \"Museum Hotel Relais & Ch\\u00e2teaux\", \"Museum Hotel Relais & Ch\\u00e2teaux Nevsehir, Turkey Hotel\", \"Museum Hotel Relais & Ch\\u00e2teaux Nevsehir, Turkey Resort\", \"Museum Hotel Relais & Ch\\u00e2teaux Nevsehir, Turkey\", \"Museum Hotel Hilton Hotel\", \"Museum Hotel Hilton Resort\", \"Museum Hotel Hilton\", \"Museum Hotel Hilton Nevsehir, Turkey Hotel\", \"Museum Hotel Hilton Nevsehir, Turkey Resort\", \"Museum Hotel Hilton Nevsehir, Turkey\", \"Museum Hotel Hotel\", \"Museum Hotel Resort\", \"Museum Hotel\", \"Museum Hotel Nevsehir, Turkey Hotel\", \"Museum Hotel Nevsehir, Turkey Resort\", \"Museum Hotel Nevsehir, Turkey\"], \"v\": 3}": {
-    "lat": 38.6333752,
-    "lon": 34.8068999,
-    "formatted_address": "Tekeli mah. Eski, Tekelli, Göreme Cd. No.1, 50240 Uçhisar/Nevşehir Merkez/Nevşehir, Türkiye",
+    "lat": 36.2117982,
+    "lon": 36.1731685,
+    "formatted_address": "St. Pierre Mevkii, Haraparası, Hacılar Sk. No: 26/1, 31060 Antakya/Hatay, Türkiye",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJNUeeZ-1oKhURyjU4821Utds",
+    "place_id": "ChIJM7L90FTDJRURFjjXB6Vk6uw",
     "types": [
       "establishment",
       "lodging",
@@ -173150,31 +173150,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Tekeli mah. Eski, Tekelli, Göreme Cd. No.1, 50240 Uçhisar/Nevşehir Merkez/Nevşehir, Türkiye",
+      "formatted_address": "St. Pierre Mevkii, Haraparası, Hacılar Sk. No: 26/1, 31060 Antakya/Hatay, Türkiye",
       "geometry": {
         "location": {
-          "lat": 38.6333752,
-          "lng": 34.8068999
+          "lat": 36.2117982,
+          "lng": 36.1731685
         },
         "viewport": {
           "northeast": {
-            "lat": 38.6346635302915,
-            "lng": 34.80826373029151
+            "lat": 36.21308363029149,
+            "lng": 36.1749597302915
           },
           "southwest": {
-            "lat": 38.63196556970851,
-            "lng": 34.80556576970851
+            "lat": 36.2103856697085,
+            "lng": 36.17226176970851
           }
         }
       },
-      "name": "Museum Hotel",
-      "place_id": "ChIJNUeeZ-1oKhURyjU4821Utds",
+      "name": "The Museum Hotel Antakya",
+      "place_id": "ChIJM7L90FTDJRURFjjXB6Vk6uw",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.museumhotel.com.tr/"
+      "website": "http://www.themuseumhotelantakya.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Chewton Glen Hotel & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Chewton Glen Hotel & Spa Relais & Ch\\u00e2teaux Hotel\", \"Chewton Glen Hotel & Spa Relais & Ch\\u00e2teaux Resort\", \"Chewton Glen Hotel & Spa Relais & Ch\\u00e2teaux\", \"Chewton Glen Hotel & Spa Relais & Ch\\u00e2teaux New Milton, England Hotel\", \"Chewton Glen Hotel & Spa Relais & Ch\\u00e2teaux New Milton, England Resort\", \"Chewton Glen Hotel & Spa Relais & Ch\\u00e2teaux New Milton, England\", \"Chewton Glen Hotel & Spa Hilton Hotel\", \"Chewton Glen Hotel & Spa Hilton Resort\", \"Chewton Glen Hotel & Spa Hilton\", \"Chewton Glen Hotel & Spa Hilton New Milton, England Hotel\", \"Chewton Glen Hotel & Spa Hilton New Milton, England Resort\", \"Chewton Glen Hotel & Spa Hilton New Milton, England\", \"Chewton Glen Hotel Spa Relais & Ch\\u00e2teaux Hotel\", \"Chewton Glen Hotel Spa Relais & Ch\\u00e2teaux Resort\", \"Chewton Glen Hotel Spa Relais & Ch\\u00e2teaux\", \"Chewton Glen Hotel Spa Relais & Ch\\u00e2teaux New Milton, England Hotel\", \"Chewton Glen Hotel Spa Relais & Ch\\u00e2teaux New Milton, England Resort\", \"Chewton Glen Hotel Spa Relais & Ch\\u00e2teaux New Milton, England\", \"Chewton Glen Hotel Spa Hilton Hotel\", \"Chewton Glen Hotel Spa Hilton Resort\", \"Chewton Glen Hotel Spa Hilton\", \"Chewton Glen Hotel Spa Hilton New Milton, England Hotel\", \"Chewton Glen Hotel Spa Hilton New Milton, England Resort\", \"Chewton Glen Hotel Spa Hilton New Milton, England\", \"Chewton Glen Hotel & Spa Hotel\", \"Chewton Glen Hotel & Spa Resort\", \"Chewton Glen Hotel & Spa\", \"Chewton Glen Hotel & Spa New Milton, England Hotel\", \"Chewton Glen Hotel & Spa New Milton, England Resort\", \"Chewton Glen Hotel & Spa New Milton, England\"], \"v\": 3}": {
@@ -208164,6 +208164,92 @@
         "point_of_interest"
       ],
       "website": "https://vallarta.grandvelas.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Ikos Porto Petro\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Ikos Porto Petro\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"The Chedi Lu\\u0161tica Bay\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Chedi Lu\\u0161tica Bay\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Ikos Porto Petro\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Ikos Porto Petro Hotel\", \"Ikos Porto Petro Resort\", \"Ikos Porto Petro\", \"Ikos Porto Petro Porto Petro, Spain Hotel\", \"Ikos Porto Petro Porto Petro, Spain Resort\", \"Ikos Porto Petro Porto Petro, Spain\"], \"v\": 3}": {
+    "lat": 39.3589855,
+    "lon": 3.2102877,
+    "formatted_address": "Carrer d'es Far, 16, 07691 Portopetro, Illes Balears, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJEdycRClXlhIR2jcaS5-AzGY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carrer d'es Far, 16, 07691 Portopetro, Illes Balears, Spain",
+      "geometry": {
+        "location": {
+          "lat": 39.3589855,
+          "lng": 3.2102877
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.36043018029149,
+            "lng": 3.211462680291502
+          },
+          "southwest": {
+            "lat": 39.3577322197085,
+            "lng": 3.208764719708498
+          }
+        }
+      },
+      "name": "Ikos Porto Petro",
+      "place_id": "ChIJEdycRClXlhIR2jcaS5-AzGY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://ikosresorts.com/resorts/ikos-porto-petro/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Chedi Lu\\u0161tica Bay\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Chedi Lu\\u0161tica Bay The Leading Hotels of the World Hotel\", \"The Chedi Lu\\u0161tica Bay The Leading Hotels of the World Resort\", \"The Chedi Lu\\u0161tica Bay The Leading Hotels of the World\", \"The Chedi Lu\\u0161tica Bay The Leading Hotels of the World Tivat, Montenegro Hotel\", \"The Chedi Lu\\u0161tica Bay The Leading Hotels of the World Tivat, Montenegro Resort\", \"The Chedi Lu\\u0161tica Bay The Leading Hotels of the World Tivat, Montenegro\", \"The Chedi Lu\\u0161tica Bay Hilton Hotel\", \"The Chedi Lu\\u0161tica Bay Hilton Resort\", \"The Chedi Lu\\u0161tica Bay Hilton\", \"The Chedi Lu\\u0161tica Bay Hilton Tivat, Montenegro Hotel\", \"The Chedi Lu\\u0161tica Bay Hilton Tivat, Montenegro Resort\", \"The Chedi Lu\\u0161tica Bay Hilton Tivat, Montenegro\", \"Chedi Lutica Bay The Leading Hotels of the World Hotel\", \"Chedi Lutica Bay The Leading Hotels of the World Resort\", \"Chedi Lutica Bay The Leading Hotels of the World\", \"Chedi Lutica Bay The Leading Hotels of the World Tivat, Montenegro Hotel\", \"Chedi Lutica Bay The Leading Hotels of the World Tivat, Montenegro Resort\", \"Chedi Lutica Bay The Leading Hotels of the World Tivat, Montenegro\", \"Chedi Lutica Bay Hilton Hotel\", \"Chedi Lutica Bay Hilton Resort\", \"Chedi Lutica Bay Hilton\", \"Chedi Lutica Bay Hilton Tivat, Montenegro Hotel\", \"Chedi Lutica Bay Hilton Tivat, Montenegro Resort\", \"Chedi Lutica Bay Hilton Tivat, Montenegro\", \"The Chedi Lu\\u0161tica Bay Hotel\", \"The Chedi Lu\\u0161tica Bay Resort\", \"The Chedi Lu\\u0161tica Bay\", \"The Chedi Lu\\u0161tica Bay Tivat, Montenegro Hotel\", \"The Chedi Lu\\u0161tica Bay Tivat, Montenegro Resort\", \"The Chedi Lu\\u0161tica Bay Tivat, Montenegro\"], \"v\": 3}": {
+    "lat": 42.3865822,
+    "lon": 18.6641541,
+    "formatted_address": "Luštica Bay Marina, Radovići 85323, Montenegro",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJr5OHuMwvTBMRZ0EQi_gRM3U",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Luštica Bay Marina, Radovići 85323, Montenegro",
+      "geometry": {
+        "location": {
+          "lat": 42.3865822,
+          "lng": 18.6641541
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.3879503302915,
+            "lng": 18.6655222302915
+          },
+          "southwest": {
+            "lat": 42.3852523697085,
+            "lng": 18.6628242697085
+          }
+        }
+      },
+      "name": "The Chedi Luštica Bay",
+      "place_id": "ChIJr5OHuMwvTBMRZ0EQi_gRM3U",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.chedilusticabay.com/"
     }
   }
 }
