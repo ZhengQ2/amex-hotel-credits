@@ -127185,8 +127185,8 @@
     "lat": 52.6495055,
     "lon": -7.251757099999999,
     "formatted_address": "22 & 23 Lower Patrick St, Gardens, Kilkenny, R95 DX76, Ireland",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
     "place_id": "ChIJ01oZ854wXUgRc53tyIAIH_M",
     "types": [
       "bar",
@@ -127198,26 +127198,92 @@
     ],
     "partial_match": false,
     "raw": {
-      "business_status": "OPERATIONAL",
+      "address_components": [
+        {
+          "long_name": "22 & 23 Lower",
+          "short_name": "22 & 23 Lower",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Patrick Street",
+          "short_name": "Patrick St",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Gardens",
+          "short_name": "Gardens",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Kilkenny",
+          "short_name": "KK",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "County Kilkenny",
+          "short_name": "County Kilkenny",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Ireland",
+          "short_name": "IE",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "R95 DX76",
+          "short_name": "R95 DX76",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
       "formatted_address": "22 & 23 Lower Patrick St, Gardens, Kilkenny, R95 DX76, Ireland",
       "geometry": {
         "location": {
           "lat": 52.6495055,
           "lng": -7.251757099999999
         },
+        "location_type": "ROOFTOP",
         "viewport": {
           "northeast": {
             "lat": 52.65086778029149,
-            "lng": -7.250302419708494
+            "lng": -7.250302419708498
           },
           "southwest": {
             "lat": 52.64816981970849,
-            "lng": -7.253000380291499
+            "lng": -7.253000380291502
           }
         }
       },
-      "name": "The Club House Hotel",
+      "navigation_points": [
+        {
+          "location": {
+            "latitude": 52.6495153,
+            "longitude": -7.2516458
+          }
+        }
+      ],
       "place_id": "ChIJ01oZ854wXUgRc53tyIAIH_M",
+      "plus_code": {
+        "compound_code": "JPXX+R7 Kilkenny, County Kilkenny, Ireland",
+        "global_code": "9C4JJPXX+R7"
+      },
       "types": [
         "bar",
         "establishment",
@@ -127225,8 +127291,7 @@
         "lodging",
         "point_of_interest",
         "restaurant"
-      ],
-      "website": "http://www.clubhousehotel.com/"
+      ]
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Dewberry\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Dewberry Hotel\", \"The Dewberry Resort\", \"The Dewberry\", \"The Dewberry Charleston, South Carolina US Hotel\", \"The Dewberry Charleston, South Carolina US Resort\", \"The Dewberry Charleston, South Carolina US\"], \"v\": 3}": {
@@ -128616,47 +128681,45 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Grove\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Grove Hotel\", \"The Grove Resort\", \"The Grove\", \"The Grove Hertfordshire, England Hotel\", \"The Grove Hertfordshire, England Resort\", \"The Grove Hertfordshire, England\"], \"v\": 3}": {
-    "lat": 51.677052,
-    "lon": -0.436857,
-    "formatted_address": "Chandler's Cross, Watford WD3 4TG, UK",
+    "lat": 43.6139805,
+    "lon": -116.2037791,
+    "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJPYjFIHpqdkgRn0B8GNfoTVo",
+    "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
     "types": [
       "establishment",
       "lodging",
-      "point_of_interest",
-      "spa"
+      "point_of_interest"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Chandler's Cross, Watford WD3 4TG, UK",
+      "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
       "geometry": {
         "location": {
-          "lat": 51.677052,
-          "lng": -0.436857
+          "lat": 43.6139805,
+          "lng": -116.2037791
         },
         "viewport": {
           "northeast": {
-            "lat": 51.6786900802915,
-            "lng": -0.4358084197084979
+            "lat": 43.61524663029149,
+            "lng": -116.2022796697085
           },
           "southwest": {
-            "lat": 51.6759921197085,
-            "lng": -0.438506380291502
+            "lat": 43.6125486697085,
+            "lng": -116.2049776302915
           }
         }
       },
-      "name": "The Grove Hotel – Spa and Golf",
-      "place_id": "ChIJPYjFIHpqdkgRn0B8GNfoTVo",
+      "name": "The Grove Hotel",
+      "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
       "types": [
         "establishment",
         "lodging",
-        "point_of_interest",
-        "spa"
+        "point_of_interest"
       ],
-      "website": "http://www.thegrove.co.uk/"
+      "website": "http://www.grovehotelboise.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Southern Ocean Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Southern Ocean Lodge Hotel\", \"Southern Ocean Lodge Resort\", \"Southern Ocean Lodge\", \"Southern Ocean Lodge Kingscote, Australia Hotel\", \"Southern Ocean Lodge Kingscote, Australia Resort\", \"Southern Ocean Lodge Kingscote, Australia\"], \"v\": 3}": {
@@ -130456,12 +130519,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 40.025647,
-    "lon": -76.2103178,
-    "formatted_address": "2320 Lincoln Hwy E, Lancaster, PA 17602, USA",
+    "lat": 40.0532091,
+    "lon": -76.2527628,
+    "formatted_address": "545 Greenfield Rd, Lancaster, PA 17601, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJp6-nrr47xokR-cBopTFxWz4",
+    "place_id": "ChIJ5eRM3147xokRVvi_lryvPU0",
     "types": [
       "establishment",
       "lodging",
@@ -130470,31 +130533,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2320 Lincoln Hwy E, Lancaster, PA 17602, USA",
+      "formatted_address": "545 Greenfield Rd, Lancaster, PA 17601, USA",
       "geometry": {
         "location": {
-          "lat": 40.025647,
-          "lng": -76.2103178
+          "lat": 40.0532091,
+          "lng": -76.2527628
         },
         "viewport": {
           "northeast": {
-            "lat": 40.0270498302915,
-            "lng": -76.2090659697085
+            "lat": 40.0546280302915,
+            "lng": -76.25150881970849
           },
           "southwest": {
-            "lat": 40.0243518697085,
-            "lng": -76.21176393029151
+            "lat": 40.0519300697085,
+            "lng": -76.2542067802915
           }
         }
       },
-      "name": "Tru by Hilton Lancaster East",
-      "place_id": "ChIJp6-nrr47xokR-cBopTFxWz4",
+      "name": "Hampton Inn Lancaster",
+      "place_id": "ChIJ5eRM3147xokRVvi_lryvPU0",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/lnsruru-tru-lancaster-east/?SEO_id=GMB-AMER-RU-LNSRURU&y_source=1_Nzg2MDQ3Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.hilton.com/en/hotels/lnsgfhx-hampton-lancaster/?SEO_id=GMB-AMER-HX-LNSGFHX&y_source=1_MjA4NDQ5Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -145395,7 +145458,7 @@
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=C4K9&merchantid=seo-maps-T%C3%BCrkiye-C4K9&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
+      "website": "https://alieeistanbul.com/en"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Faena Miami Beach\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Faena Miami Beach Ennismore Hotel\", \"Faena Miami Beach Ennismore Resort\", \"Faena Miami Beach Ennismore\", \"Faena Miami Beach Ennismore Miami Beach, Florida US Hotel\", \"Faena Miami Beach Ennismore Miami Beach, Florida US Resort\", \"Faena Miami Beach Ennismore Miami Beach, Florida US\", \"Faena Miami Beach Hilton Hotel\", \"Faena Miami Beach Hilton Resort\", \"Faena Miami Beach Hilton\", \"Faena Miami Beach Hilton Miami Beach, Florida US Hotel\", \"Faena Miami Beach Hilton Miami Beach, Florida US Resort\", \"Faena Miami Beach Hilton Miami Beach, Florida US\", \"Faena Miami Beach Hotel\", \"Faena Miami Beach Resort\", \"Faena Miami Beach\", \"Faena Miami Beach Miami Beach, Florida US Hotel\", \"Faena Miami Beach Miami Beach, Florida US Resort\", \"Faena Miami Beach Miami Beach, Florida US\"], \"v\": 3}": {
@@ -208250,6 +208313,49 @@
         "point_of_interest"
       ],
       "website": "https://www.chedilusticabay.com/"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Patina Osaka\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Patina Osaka\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Patina Osaka\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Patina Osaka Capella Hotels and Resorts Hotel\", \"Patina Osaka Capella Hotels and Resorts Resort\", \"Patina Osaka Capella Hotels and Resorts\", \"Patina Osaka Capella Hotels and Resorts Osaka, Japan Hotel\", \"Patina Osaka Capella Hotels and Resorts Osaka, Japan Resort\", \"Patina Osaka Capella Hotels and Resorts Osaka, Japan\", \"Patina Osaka Hilton Hotel\", \"Patina Osaka Hilton Resort\", \"Patina Osaka Hilton\", \"Patina Osaka Hilton Osaka, Japan Hotel\", \"Patina Osaka Hilton Osaka, Japan Resort\", \"Patina Osaka Hilton Osaka, Japan\", \"Patina Osaka Hotel\", \"Patina Osaka Resort\", \"Patina Osaka\", \"Patina Osaka Osaka, Japan Hotel\", \"Patina Osaka Osaka, Japan Resort\", \"Patina Osaka Osaka, Japan\"], \"v\": 3}": {
+    "lat": 34.6819125,
+    "lon": 135.5247714,
+    "formatted_address": "Japan, 〒540-0007 Osaka, Chuo Ward, Banbachō, 3−９１ パティーナ大阪",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ-ZHFdZPnAGARvXwROCKwYxM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Japan, 〒540-0007 Osaka, Chuo Ward, Banbachō, 3−９１ パティーナ大阪",
+      "geometry": {
+        "location": {
+          "lat": 34.6819125,
+          "lng": 135.5247714
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 34.68338713029149,
+            "lng": 135.5261613302915
+          },
+          "southwest": {
+            "lat": 34.68068916970849,
+            "lng": 135.5234633697085
+          }
+        }
+      },
+      "name": "Patina Osaka パティーナ大阪",
+      "place_id": "ChIJ-ZHFdZPnAGARvXwROCKwYxM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://patinahotels.com/osaka"
     }
   }
 }

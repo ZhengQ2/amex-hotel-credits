@@ -142267,12 +142267,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Antonio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Antonio Small Luxury Hotels of the World Hotel\", \"San Antonio Small Luxury Hotels of the World Resort\", \"San Antonio Small Luxury Hotels of the World\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Hotel\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Resort\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece\", \"San Antonio Hilton Hotel\", \"San Antonio Hilton Resort\", \"San Antonio Hilton\", \"San Antonio Hilton Imerovigli, Greece Hotel\", \"San Antonio Hilton Imerovigli, Greece Resort\", \"San Antonio Hilton Imerovigli, Greece\", \"San Antonio Hotel\", \"San Antonio Resort\", \"San Antonio\", \"San Antonio Imerovigli, Greece Hotel\", \"San Antonio Imerovigli, Greece Resort\", \"San Antonio Imerovigli, Greece\"], \"v\": 3}": {
-    "lat": 29.427455,
-    "lon": -98.4894638,
-    "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
+    "lat": 29.521535,
+    "lon": -98.490831,
+    "formatted_address": "37 NE Loop 410 At McCullough, San Antonio, TX 78216, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
+    "place_id": "ChIJy2Pln71hXIYRML-T-XvTl6U",
     "types": [
       "establishment",
       "lodging",
@@ -142281,31 +142281,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
+      "formatted_address": "37 NE Loop 410 At McCullough, San Antonio, TX 78216, USA",
       "geometry": {
         "location": {
-          "lat": 29.427455,
-          "lng": -98.4894638
+          "lat": 29.521535,
+          "lng": -98.490831
         },
         "viewport": {
           "northeast": {
-            "lat": 29.4288507802915,
-            "lng": -98.4880806197085
+            "lat": 29.5226847802915,
+            "lng": -98.4897132697085
           },
           "southwest": {
-            "lat": 29.4261528197085,
-            "lng": -98.4907785802915
+            "lat": 29.5199868197085,
+            "lng": -98.49241123029151
           }
         }
       },
-      "name": "The St. Anthony, a Luxury Collection Hotel, San Antonio",
-      "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
+      "name": "Estancia del Norte San Antonio, Tapestry Collection by Hilton",
+      "place_id": "ChIJy2Pln71hXIYRML-T-XvTl6U",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.marriott.com/en-us/hotels/satlc-the-st-anthony-a-luxury-collection-hotel-san-antonio/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+      "website": "https://www.hilton.com/en/hotels/satinup-estancia-del-norte-san-antonio/?SEO_id=GMB-AMER-UP-SATINUP&y_source=1_MjI3NDU5MjYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rusty Parrot Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
@@ -152096,6 +152096,49 @@
         "spa"
       ],
       "website": "https://www.santavenere.it/"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Via Regia Cappadocia\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Via Regia Cappadocia\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Via Regia Cappadocia\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Via Regia Cappadocia Small Luxury Hotels of the World Hotel\", \"Via Regia Cappadocia Small Luxury Hotels of the World Resort\", \"Via Regia Cappadocia Small Luxury Hotels of the World\", \"Via Regia Cappadocia Small Luxury Hotels of the World Nevsehir, Turkey Hotel\", \"Via Regia Cappadocia Small Luxury Hotels of the World Nevsehir, Turkey Resort\", \"Via Regia Cappadocia Small Luxury Hotels of the World Nevsehir, Turkey\", \"Via Regia Cappadocia Hilton Hotel\", \"Via Regia Cappadocia Hilton Resort\", \"Via Regia Cappadocia Hilton\", \"Via Regia Cappadocia Hilton Nevsehir, Turkey Hotel\", \"Via Regia Cappadocia Hilton Nevsehir, Turkey Resort\", \"Via Regia Cappadocia Hilton Nevsehir, Turkey\", \"Via Regia Cappadocia Hotel\", \"Via Regia Cappadocia Resort\", \"Via Regia Cappadocia\", \"Via Regia Cappadocia Nevsehir, Turkey Hotel\", \"Via Regia Cappadocia Nevsehir, Turkey Resort\", \"Via Regia Cappadocia Nevsehir, Turkey\"], \"v\": 3}": {
+    "lat": 38.6303293,
+    "lon": 34.8022589,
+    "formatted_address": "Tekelli, Mezitoğlu Sk No: 14, 50240 Uçhisar/Nevşehir Merkez/Nevşehir, Türkiye",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJHxM_n1BpKhURW8DI2KMRPpg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Tekelli, Mezitoğlu Sk No: 14, 50240 Uçhisar/Nevşehir Merkez/Nevşehir, Türkiye",
+      "geometry": {
+        "location": {
+          "lat": 38.6303293,
+          "lng": 34.8022589
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.6316685302915,
+            "lng": 34.8035812802915
+          },
+          "southwest": {
+            "lat": 38.6289705697085,
+            "lng": 34.8008833197085
+          }
+        }
+      },
+      "name": "Via Regia Hotel Cappadocia",
+      "place_id": "ChIJHxM_n1BpKhURW8DI2KMRPpg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.viaregia.co/"
     }
   }
 }
