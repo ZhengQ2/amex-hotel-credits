@@ -38337,48 +38337,6 @@
       "website": "https://www.nh-hotels.com/en/hotel/nh-collection-copenhagen?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb"
     }
   },
-  "{\"brand\": \"NH Collection Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Nh Collection Firenze Porta Rossa NH Collection Hotels Hotel\", \"Nh Collection Firenze Porta Rossa NH Collection Hotels Resort\", \"Nh Collection Firenze Porta Rossa NH Collection Hotels\", \"Nh Collection Firenze Porta Rossa NH Collection Hotels Florence, Italy Hotel\", \"Nh Collection Firenze Porta Rossa NH Collection Hotels Florence, Italy Resort\", \"Nh Collection Firenze Porta Rossa NH Collection Hotels Florence, Italy\", \"Nh Collection Firenze Porta Rossa Hilton Hotel\", \"Nh Collection Firenze Porta Rossa Hilton Resort\", \"Nh Collection Firenze Porta Rossa Hilton\", \"Nh Collection Firenze Porta Rossa Hilton Florence, Italy Hotel\", \"Nh Collection Firenze Porta Rossa Hilton Florence, Italy Resort\", \"Nh Collection Firenze Porta Rossa Hilton Florence, Italy\", \"NH Collection Firenze Porta Rossa NH Collection Hotels Hotel\", \"NH Collection Firenze Porta Rossa NH Collection Hotels Resort\", \"NH Collection Firenze Porta Rossa NH Collection Hotels\", \"NH Collection Firenze Porta Rossa NH Collection Hotels Florence, Italy Hotel\", \"NH Collection Firenze Porta Rossa NH Collection Hotels Florence, Italy Resort\", \"NH Collection Firenze Porta Rossa NH Collection Hotels Florence, Italy\", \"NH Collection Firenze Porta Rossa Hilton Hotel\", \"NH Collection Firenze Porta Rossa Hilton Resort\", \"NH Collection Firenze Porta Rossa Hilton\", \"NH Collection Firenze Porta Rossa Hilton Florence, Italy Hotel\", \"NH Collection Firenze Porta Rossa Hilton Florence, Italy Resort\", \"NH Collection Firenze Porta Rossa Hilton Florence, Italy\", \"NH Collection Firenze Porta Rossa Hotel\", \"NH Collection Firenze Porta Rossa Resort\", \"NH Collection Firenze Porta Rossa\", \"NH Collection Firenze Porta Rossa Florence, Italy Hotel\", \"NH Collection Firenze Porta Rossa Florence, Italy Resort\", \"NH Collection Firenze Porta Rossa Florence, Italy\"], \"v\": 3}": {
-    "lat": 43.7701176,
-    "lon": 11.2519848,
-    "formatted_address": "Via Porta Rossa, 19, 50123 Firenze FI, Italy",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJYdW_LABUKhMRAUMUVqfxIZw",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Via Porta Rossa, 19, 50123 Firenze FI, Italy",
-      "geometry": {
-        "location": {
-          "lat": 43.7701176,
-          "lng": 11.2519848
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 43.77155198029149,
-            "lng": 11.2533053802915
-          },
-          "southwest": {
-            "lat": 43.7688540197085,
-            "lng": 11.2506074197085
-          }
-        }
-      },
-      "name": "Hotel NH Collection Firenze Porta Rossa",
-      "place_id": "ChIJYdW_LABUKhMRAUMUVqfxIZw",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.nh-hotels.com/en/hotel/nh-collection-firenze-porta-rossa?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb"
-    }
-  },
   "{\"brand\": \"NH Collection Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Avani Frankfurt City NH Collection Hotels Hotel\", \"Avani Frankfurt City NH Collection Hotels Resort\", \"Avani Frankfurt City NH Collection Hotels\", \"Avani Frankfurt City NH Collection Hotels Frankfurt, Germany Hotel\", \"Avani Frankfurt City NH Collection Hotels Frankfurt, Germany Resort\", \"Avani Frankfurt City NH Collection Hotels Frankfurt, Germany\", \"Avani Frankfurt City Hilton Hotel\", \"Avani Frankfurt City Hilton Resort\", \"Avani Frankfurt City Hilton\", \"Avani Frankfurt City Hilton Frankfurt, Germany Hotel\", \"Avani Frankfurt City Hilton Frankfurt, Germany Resort\", \"Avani Frankfurt City Hilton Frankfurt, Germany\", \"Avani Frankfurt City Hotel\", \"Avani Frankfurt City Resort\", \"Avani Frankfurt City\", \"Avani Frankfurt City Frankfurt, Germany Hotel\", \"Avani Frankfurt City Frankfurt, Germany Resort\", \"Avani Frankfurt City Frankfurt, Germany\"], \"v\": 3}": {
     "lat": 50.11728,
     "lon": 8.687249999999999,
@@ -76657,48 +76615,6 @@
         "point_of_interest"
       ],
       "website": "https://www.nh-hotels.com/en/hotel/nh-collection-copenhagen?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb"
-    }
-  },
-  "{\"brand\": \"NH Collection Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"NH Collection Firenze Porta Rossa NH Collection Hotels Hotel\", \"NH Collection Firenze Porta Rossa NH Collection Hotels Resort\", \"NH Collection Firenze Porta Rossa NH Collection Hotels\", \"NH Collection Firenze Porta Rossa NH Collection Hotels Florence, Italy Hotel\", \"NH Collection Firenze Porta Rossa NH Collection Hotels Florence, Italy Resort\", \"NH Collection Firenze Porta Rossa NH Collection Hotels Florence, Italy\", \"NH Collection Firenze Porta Rossa Hilton Hotel\", \"NH Collection Firenze Porta Rossa Hilton Resort\", \"NH Collection Firenze Porta Rossa Hilton\", \"NH Collection Firenze Porta Rossa Hilton Florence, Italy Hotel\", \"NH Collection Firenze Porta Rossa Hilton Florence, Italy Resort\", \"NH Collection Firenze Porta Rossa Hilton Florence, Italy\", \"Nh Collection Firenze Porta Rossa NH Collection Hotels Hotel\", \"Nh Collection Firenze Porta Rossa NH Collection Hotels Resort\", \"Nh Collection Firenze Porta Rossa NH Collection Hotels\", \"Nh Collection Firenze Porta Rossa NH Collection Hotels Florence, Italy Hotel\", \"Nh Collection Firenze Porta Rossa NH Collection Hotels Florence, Italy Resort\", \"Nh Collection Firenze Porta Rossa NH Collection Hotels Florence, Italy\", \"Nh Collection Firenze Porta Rossa Hilton Hotel\", \"Nh Collection Firenze Porta Rossa Hilton Resort\", \"Nh Collection Firenze Porta Rossa Hilton\", \"Nh Collection Firenze Porta Rossa Hilton Florence, Italy Hotel\", \"Nh Collection Firenze Porta Rossa Hilton Florence, Italy Resort\", \"Nh Collection Firenze Porta Rossa Hilton Florence, Italy\", \"NH Collection Firenze Porta Rossa Hotel\", \"NH Collection Firenze Porta Rossa Resort\", \"NH Collection Firenze Porta Rossa\", \"NH Collection Firenze Porta Rossa Florence, Italy Hotel\", \"NH Collection Firenze Porta Rossa Florence, Italy Resort\", \"NH Collection Firenze Porta Rossa Florence, Italy\"], \"v\": 3}": {
-    "lat": 43.7701176,
-    "lon": 11.2519848,
-    "formatted_address": "Via Porta Rossa, 19, 50123 Firenze FI, Italy",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJYdW_LABUKhMRAUMUVqfxIZw",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Via Porta Rossa, 19, 50123 Firenze FI, Italy",
-      "geometry": {
-        "location": {
-          "lat": 43.7701176,
-          "lng": 11.2519848
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 43.77155198029149,
-            "lng": 11.2533053802915
-          },
-          "southwest": {
-            "lat": 43.7688540197085,
-            "lng": 11.2506074197085
-          }
-        }
-      },
-      "name": "Hotel NH Collection Firenze Porta Rossa",
-      "place_id": "ChIJYdW_LABUKhMRAUMUVqfxIZw",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.nh-hotels.com/en/hotel/nh-collection-firenze-porta-rossa?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb"
     }
   },
   "{\"brand\": \"NH Collection Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"NH Collection Frankfurt Spin Tower NH Collection Hotels Hotel\", \"NH Collection Frankfurt Spin Tower NH Collection Hotels Resort\", \"NH Collection Frankfurt Spin Tower NH Collection Hotels\", \"NH Collection Frankfurt Spin Tower NH Collection Hotels Frankfurt, Germany Hotel\", \"NH Collection Frankfurt Spin Tower NH Collection Hotels Frankfurt, Germany Resort\", \"NH Collection Frankfurt Spin Tower NH Collection Hotels Frankfurt, Germany\", \"NH Collection Frankfurt Spin Tower Hilton Hotel\", \"NH Collection Frankfurt Spin Tower Hilton Resort\", \"NH Collection Frankfurt Spin Tower Hilton\", \"NH Collection Frankfurt Spin Tower Hilton Frankfurt, Germany Hotel\", \"NH Collection Frankfurt Spin Tower Hilton Frankfurt, Germany Resort\", \"NH Collection Frankfurt Spin Tower Hilton Frankfurt, Germany\", \"Nh Collection Frankfurt Spin Tower NH Collection Hotels Hotel\", \"Nh Collection Frankfurt Spin Tower NH Collection Hotels Resort\", \"Nh Collection Frankfurt Spin Tower NH Collection Hotels\", \"Nh Collection Frankfurt Spin Tower NH Collection Hotels Frankfurt, Germany Hotel\", \"Nh Collection Frankfurt Spin Tower NH Collection Hotels Frankfurt, Germany Resort\", \"Nh Collection Frankfurt Spin Tower NH Collection Hotels Frankfurt, Germany\", \"Nh Collection Frankfurt Spin Tower Hilton Hotel\", \"Nh Collection Frankfurt Spin Tower Hilton Resort\", \"Nh Collection Frankfurt Spin Tower Hilton\", \"Nh Collection Frankfurt Spin Tower Hilton Frankfurt, Germany Hotel\", \"Nh Collection Frankfurt Spin Tower Hilton Frankfurt, Germany Resort\", \"Nh Collection Frankfurt Spin Tower Hilton Frankfurt, Germany\", \"NH Collection Frankfurt Spin Tower Hotel\", \"NH Collection Frankfurt Spin Tower Resort\", \"NH Collection Frankfurt Spin Tower\", \"NH Collection Frankfurt Spin Tower Frankfurt, Germany Hotel\", \"NH Collection Frankfurt Spin Tower Frankfurt, Germany Resort\", \"NH Collection Frankfurt Spin Tower Frankfurt, Germany\"], \"v\": 3}": {
@@ -131606,48 +131522,6 @@
       "website": "https://www.nh-hotels.com/en/hotel/nh-collection-copenhagen?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"NH Collection Firenze Porta Rossa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"NH Collection Firenze Porta Rossa NH Collection Hotels Hotel\", \"NH Collection Firenze Porta Rossa NH Collection Hotels Resort\", \"NH Collection Firenze Porta Rossa NH Collection Hotels\", \"NH Collection Firenze Porta Rossa NH Collection Hotels Florence, Italy Hotel\", \"NH Collection Firenze Porta Rossa NH Collection Hotels Florence, Italy Resort\", \"NH Collection Firenze Porta Rossa NH Collection Hotels Florence, Italy\", \"NH Collection Firenze Porta Rossa Hilton Hotel\", \"NH Collection Firenze Porta Rossa Hilton Resort\", \"NH Collection Firenze Porta Rossa Hilton\", \"NH Collection Firenze Porta Rossa Hilton Florence, Italy Hotel\", \"NH Collection Firenze Porta Rossa Hilton Florence, Italy Resort\", \"NH Collection Firenze Porta Rossa Hilton Florence, Italy\", \"Nh Collection Firenze Porta Rossa NH Collection Hotels Hotel\", \"Nh Collection Firenze Porta Rossa NH Collection Hotels Resort\", \"Nh Collection Firenze Porta Rossa NH Collection Hotels\", \"Nh Collection Firenze Porta Rossa NH Collection Hotels Florence, Italy Hotel\", \"Nh Collection Firenze Porta Rossa NH Collection Hotels Florence, Italy Resort\", \"Nh Collection Firenze Porta Rossa NH Collection Hotels Florence, Italy\", \"Nh Collection Firenze Porta Rossa Hilton Hotel\", \"Nh Collection Firenze Porta Rossa Hilton Resort\", \"Nh Collection Firenze Porta Rossa Hilton\", \"Nh Collection Firenze Porta Rossa Hilton Florence, Italy Hotel\", \"Nh Collection Firenze Porta Rossa Hilton Florence, Italy Resort\", \"Nh Collection Firenze Porta Rossa Hilton Florence, Italy\", \"NH Collection Firenze Porta Rossa Hotel\", \"NH Collection Firenze Porta Rossa Resort\", \"NH Collection Firenze Porta Rossa\", \"NH Collection Firenze Porta Rossa Florence, Italy Hotel\", \"NH Collection Firenze Porta Rossa Florence, Italy Resort\", \"NH Collection Firenze Porta Rossa Florence, Italy\"], \"v\": 3}": {
-    "lat": 43.7701176,
-    "lon": 11.2519848,
-    "formatted_address": "Via Porta Rossa, 19, 50123 Firenze FI, Italy",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJYdW_LABUKhMRAUMUVqfxIZw",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Via Porta Rossa, 19, 50123 Firenze FI, Italy",
-      "geometry": {
-        "location": {
-          "lat": 43.7701176,
-          "lng": 11.2519848
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 43.77155198029149,
-            "lng": 11.2533053802915
-          },
-          "southwest": {
-            "lat": 43.7688540197085,
-            "lng": 11.2506074197085
-          }
-        }
-      },
-      "name": "Hotel NH Collection Firenze Porta Rossa",
-      "place_id": "ChIJYdW_LABUKhMRAUMUVqfxIZw",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.nh-hotels.com/en/hotel/nh-collection-firenze-porta-rossa?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Avani Frankfurt City\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Avani Frankfurt City NH Collection Hotels Hotel\", \"Avani Frankfurt City NH Collection Hotels Resort\", \"Avani Frankfurt City NH Collection Hotels\", \"Avani Frankfurt City NH Collection Hotels Frankfurt, Germany Hotel\", \"Avani Frankfurt City NH Collection Hotels Frankfurt, Germany Resort\", \"Avani Frankfurt City NH Collection Hotels Frankfurt, Germany\", \"Avani Frankfurt City Hilton Hotel\", \"Avani Frankfurt City Hilton Resort\", \"Avani Frankfurt City Hilton\", \"Avani Frankfurt City Hilton Frankfurt, Germany Hotel\", \"Avani Frankfurt City Hilton Frankfurt, Germany Resort\", \"Avani Frankfurt City Hilton Frankfurt, Germany\", \"Avani Frankfurt City Hotel\", \"Avani Frankfurt City Resort\", \"Avani Frankfurt City\", \"Avani Frankfurt City Frankfurt, Germany Hotel\", \"Avani Frankfurt City Frankfurt, Germany Resort\", \"Avani Frankfurt City Frankfurt, Germany\"], \"v\": 3}": {
     "lat": 50.11728,
     "lon": 8.687249999999999,
@@ -152139,6 +152013,313 @@
         "point_of_interest"
       ],
       "website": "https://www.viaregia.co/"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Trailborn Surf and Sound Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Trailborn Surf and Sound Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Botania Relais & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Botania Relais & Spa\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Heritage Grand Perast\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Heritage Grand Perast\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hotel Schweizerhof Bern & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Schweizerhof Bern & Spa\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Radisson Blu Hotel Reussen, Andermatt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Radisson Blu Hotel Reussen, Andermatt\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Heritage Grand Perast\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Heritage Grand Perast Hotel\", \"Heritage Grand Perast Resort\", \"Heritage Grand Perast\", \"Heritage Grand Perast Perast, Montenegro Hotel\", \"Heritage Grand Perast Perast, Montenegro Resort\", \"Heritage Grand Perast Perast, Montenegro\"], \"v\": 3}": {
+    "lat": 42.4871105,
+    "lon": 18.6975714,
+    "formatted_address": "MARKA MARTINOVICA, Perast 85336, Montenegro",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJa-c4ZgQzTBMRGoGHbmw8ocU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "MARKA MARTINOVICA, Perast 85336, Montenegro",
+      "geometry": {
+        "location": {
+          "lat": 42.4871105,
+          "lng": 18.6975714
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.48840773029149,
+            "lng": 18.6987298302915
+          },
+          "southwest": {
+            "lat": 42.4857097697085,
+            "lng": 18.6960318697085
+          }
+        }
+      },
+      "name": "Heritage Grand Perast Hotel",
+      "place_id": "ChIJa-c4ZgQzTBMRGoGHbmw8ocU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://hotelheritagegrandperast.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Trailborn Surf and Sound Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Trailborn Surf and Sound Resort Marriott Hotel\", \"Trailborn Surf and Sound Resort Marriott Resort\", \"Trailborn Surf and Sound Resort Marriott\", \"Trailborn Surf and Sound Resort Marriott Wrightsville Beach, North Carolina US Hotel\", \"Trailborn Surf and Sound Resort Marriott Wrightsville Beach, North Carolina US Resort\", \"Trailborn Surf and Sound Resort Marriott Wrightsville Beach, North Carolina US\", \"Trailborn Surf and Sound Resort Hilton Hotel\", \"Trailborn Surf and Sound Resort Hilton Resort\", \"Trailborn Surf and Sound Resort Hilton\", \"Trailborn Surf and Sound Resort Hilton Wrightsville Beach, North Carolina US Hotel\", \"Trailborn Surf and Sound Resort Hilton Wrightsville Beach, North Carolina US Resort\", \"Trailborn Surf and Sound Resort Hilton Wrightsville Beach, North Carolina US\", \"Trailborn Surf Sound Resort Marriott Hotel\", \"Trailborn Surf Sound Resort Marriott Resort\", \"Trailborn Surf Sound Resort Marriott\", \"Trailborn Surf Sound Resort Marriott Wrightsville Beach, North Carolina US Hotel\", \"Trailborn Surf Sound Resort Marriott Wrightsville Beach, North Carolina US Resort\", \"Trailborn Surf Sound Resort Marriott Wrightsville Beach, North Carolina US\", \"Trailborn Surf Sound Resort Hilton Hotel\", \"Trailborn Surf Sound Resort Hilton Resort\", \"Trailborn Surf Sound Resort Hilton\", \"Trailborn Surf Sound Resort Hilton Wrightsville Beach, North Carolina US Hotel\", \"Trailborn Surf Sound Resort Hilton Wrightsville Beach, North Carolina US Resort\", \"Trailborn Surf Sound Resort Hilton Wrightsville Beach, North Carolina US\", \"Trailborn Surf and Sound Resort Hotel\", \"Trailborn Surf and Sound Resort Resort\", \"Trailborn Surf and Sound Resort\", \"Trailborn Surf and Sound Resort Wrightsville Beach, North Carolina US Hotel\", \"Trailborn Surf and Sound Resort Wrightsville Beach, North Carolina US Resort\", \"Trailborn Surf and Sound Resort Wrightsville Beach, North Carolina US\"], \"v\": 3}": {
+    "lat": 34.2033801,
+    "lon": -77.7984647,
+    "formatted_address": "275 Waynick Blvd, Wrightsville Beach, NC 28480, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ25LxBqnzqYkRH3jw40kU4As",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "275 Waynick Blvd, Wrightsville Beach, NC 28480, USA",
+      "geometry": {
+        "location": {
+          "lat": 34.2033801,
+          "lng": -77.7984647
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 34.2047709802915,
+            "lng": -77.79732776970849
+          },
+          "southwest": {
+            "lat": 34.2020730197085,
+            "lng": -77.80002573029151
+          }
+        }
+      },
+      "name": "Trailborn Surf & Sound",
+      "place_id": "ChIJ25LxBqnzqYkRH3jw40kU4As",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.trailborn.com/surf-sound"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Porta Rossa Hotel Firenze, Colbert Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Porta Rossa Hotel Firenze, Colbert Collection NH Collection Hotels Hotel\", \"Porta Rossa Hotel Firenze, Colbert Collection NH Collection Hotels Resort\", \"Porta Rossa Hotel Firenze, Colbert Collection NH Collection Hotels\", \"Porta Rossa Hotel Firenze, Colbert Collection NH Collection Hotels Florence, Italy Hotel\", \"Porta Rossa Hotel Firenze, Colbert Collection NH Collection Hotels Florence, Italy Resort\", \"Porta Rossa Hotel Firenze, Colbert Collection NH Collection Hotels Florence, Italy\", \"Porta Rossa Hotel Firenze, Colbert Collection Hilton Hotel\", \"Porta Rossa Hotel Firenze, Colbert Collection Hilton Resort\", \"Porta Rossa Hotel Firenze, Colbert Collection Hilton\", \"Porta Rossa Hotel Firenze, Colbert Collection Hilton Florence, Italy Hotel\", \"Porta Rossa Hotel Firenze, Colbert Collection Hilton Florence, Italy Resort\", \"Porta Rossa Hotel Firenze, Colbert Collection Hilton Florence, Italy\", \"Porta Rossa Hotel Firenze Colbert Collection NH Collection Hotels Hotel\", \"Porta Rossa Hotel Firenze Colbert Collection NH Collection Hotels Resort\", \"Porta Rossa Hotel Firenze Colbert Collection NH Collection Hotels\", \"Porta Rossa Hotel Firenze Colbert Collection NH Collection Hotels Florence, Italy Hotel\", \"Porta Rossa Hotel Firenze Colbert Collection NH Collection Hotels Florence, Italy Resort\", \"Porta Rossa Hotel Firenze Colbert Collection NH Collection Hotels Florence, Italy\", \"Porta Rossa Hotel Firenze Colbert Collection Hilton Hotel\", \"Porta Rossa Hotel Firenze Colbert Collection Hilton Resort\", \"Porta Rossa Hotel Firenze Colbert Collection Hilton\", \"Porta Rossa Hotel Firenze Colbert Collection Hilton Florence, Italy Hotel\", \"Porta Rossa Hotel Firenze Colbert Collection Hilton Florence, Italy Resort\", \"Porta Rossa Hotel Firenze Colbert Collection Hilton Florence, Italy\", \"Porta Rossa Hotel Firenze, Colbert Collection Hotel\", \"Porta Rossa Hotel Firenze, Colbert Collection Resort\", \"Porta Rossa Hotel Firenze, Colbert Collection\", \"Porta Rossa Hotel Firenze, Colbert Collection Florence, Italy Hotel\", \"Porta Rossa Hotel Firenze, Colbert Collection Florence, Italy Resort\", \"Porta Rossa Hotel Firenze, Colbert Collection Florence, Italy\"], \"v\": 3}": {
+    "lat": 43.7701176,
+    "lon": 11.2519848,
+    "formatted_address": "Via Porta Rossa, 19, 50123 Firenze FI, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJYdW_LABUKhMRAUMUVqfxIZw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Porta Rossa, 19, 50123 Firenze FI, Italy",
+      "geometry": {
+        "location": {
+          "lat": 43.7701176,
+          "lng": 11.2519848
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.77155198029149,
+            "lng": 11.2533053802915
+          },
+          "southwest": {
+            "lat": 43.7688540197085,
+            "lng": 11.2506074197085
+          }
+        }
+      },
+      "name": "Porta Rossa Hotel Firenze, Colbert Collection",
+      "place_id": "ChIJYdW_LABUKhMRAUMUVqfxIZw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.nh-hotels.com/en/hotel/porta-rossa-hotel-firenze-colbert-collection?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Radisson Blu Hotel Reussen, Andermatt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Radisson Blu Hotel Reussen, Andermatt Radisson Hotel Group Hotel\", \"Radisson Blu Hotel Reussen, Andermatt Radisson Hotel Group Resort\", \"Radisson Blu Hotel Reussen, Andermatt Radisson Hotel Group\", \"Radisson Blu Hotel Reussen, Andermatt Radisson Hotel Group Andermatt, Switzerland Hotel\", \"Radisson Blu Hotel Reussen, Andermatt Radisson Hotel Group Andermatt, Switzerland Resort\", \"Radisson Blu Hotel Reussen, Andermatt Radisson Hotel Group Andermatt, Switzerland\", \"Radisson Blu Hotel Reussen, Andermatt Hilton Hotel\", \"Radisson Blu Hotel Reussen, Andermatt Hilton Resort\", \"Radisson Blu Hotel Reussen, Andermatt Hilton\", \"Radisson Blu Hotel Reussen, Andermatt Hilton Andermatt, Switzerland Hotel\", \"Radisson Blu Hotel Reussen, Andermatt Hilton Andermatt, Switzerland Resort\", \"Radisson Blu Hotel Reussen, Andermatt Hilton Andermatt, Switzerland\", \"Radisson Blu Hotel Reussen Andermatt Radisson Hotel Group Hotel\", \"Radisson Blu Hotel Reussen Andermatt Radisson Hotel Group Resort\", \"Radisson Blu Hotel Reussen Andermatt Radisson Hotel Group\", \"Radisson Blu Hotel Reussen Andermatt Radisson Hotel Group Andermatt, Switzerland Hotel\", \"Radisson Blu Hotel Reussen Andermatt Radisson Hotel Group Andermatt, Switzerland Resort\", \"Radisson Blu Hotel Reussen Andermatt Radisson Hotel Group Andermatt, Switzerland\", \"Radisson Blu Hotel Reussen Andermatt Hilton Hotel\", \"Radisson Blu Hotel Reussen Andermatt Hilton Resort\", \"Radisson Blu Hotel Reussen Andermatt Hilton\", \"Radisson Blu Hotel Reussen Andermatt Hilton Andermatt, Switzerland Hotel\", \"Radisson Blu Hotel Reussen Andermatt Hilton Andermatt, Switzerland Resort\", \"Radisson Blu Hotel Reussen Andermatt Hilton Andermatt, Switzerland\", \"Radisson Blu Hotel Reussen, Andermatt Hotel\", \"Radisson Blu Hotel Reussen, Andermatt Resort\", \"Radisson Blu Hotel Reussen, Andermatt\", \"Radisson Blu Hotel Reussen, Andermatt Andermatt, Switzerland Hotel\", \"Radisson Blu Hotel Reussen, Andermatt Andermatt, Switzerland Resort\", \"Radisson Blu Hotel Reussen, Andermatt Andermatt, Switzerland\"], \"v\": 3}": {
+    "lat": 46.6399113,
+    "lon": 8.591309299999999,
+    "formatted_address": "Bärengasse 1, 6490 Andermatt, Switzerland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJEXU14Y1xhUcRemiWSzOod5A",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Bärengasse 1, 6490 Andermatt, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 46.6399113,
+          "lng": 8.591309299999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 46.64158133029149,
+            "lng": 8.5926427302915
+          },
+          "southwest": {
+            "lat": 46.63888336970849,
+            "lng": 8.589944769708495
+          }
+        }
+      },
+      "name": "Radisson Blu Hotel Reussen, Andermatt",
+      "place_id": "ChIJEXU14Y1xhUcRemiWSzOod5A",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-andermatt-reussen?cid=a:se+b:gmb+c:emea+i:local+e:rdb+d:cese+h:CHANDREU"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Villa Bokeh\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Villa Bokeh The Leading Hotels of the World Hotel\", \"Villa Bokeh The Leading Hotels of the World Resort\", \"Villa Bokeh The Leading Hotels of the World\", \"Villa Bokeh The Leading Hotels of the World Antigua Guatemala, Guatemala Hotel\", \"Villa Bokeh The Leading Hotels of the World Antigua Guatemala, Guatemala Resort\", \"Villa Bokeh The Leading Hotels of the World Antigua Guatemala, Guatemala\", \"Villa Bokeh Hilton Hotel\", \"Villa Bokeh Hilton Resort\", \"Villa Bokeh Hilton\", \"Villa Bokeh Hilton Antigua Guatemala, Guatemala Hotel\", \"Villa Bokeh Hilton Antigua Guatemala, Guatemala Resort\", \"Villa Bokeh Hilton Antigua Guatemala, Guatemala\", \"Villa Bokeh Hotel\", \"Villa Bokeh Resort\", \"Villa Bokeh\", \"Villa Bokeh Antigua Guatemala, Guatemala Hotel\", \"Villa Bokeh Antigua Guatemala, Guatemala Resort\", \"Villa Bokeh Antigua Guatemala, Guatemala\"], \"v\": 3}": {
+    "lat": 14.5425224,
+    "lon": -90.739761,
+    "formatted_address": "San Pedro Panorama, Sacatepequez. Lote C3, Entrada a Finca San Nicolás, Antigua Guatemala, Guatemala",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJbbcJqXMPiYURAL4cNrsWyRQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "San Pedro Panorama, Sacatepequez. Lote C3, Entrada a Finca San Nicolás, Antigua Guatemala, Guatemala",
+      "geometry": {
+        "location": {
+          "lat": 14.5425224,
+          "lng": -90.739761
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 14.5443474802915,
+            "lng": -90.7386699197085
+          },
+          "southwest": {
+            "lat": 14.5416495197085,
+            "lng": -90.7413678802915
+          }
+        }
+      },
+      "name": "Villa Bokéh - Relais & Chateaux",
+      "place_id": "ChIJbbcJqXMPiYURAL4cNrsWyRQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://villabokeh.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Schweizerhof Bern & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Schweizerhof Bern & Spa The Leading Hotels of the World Hotel\", \"Hotel Schweizerhof Bern & Spa The Leading Hotels of the World Resort\", \"Hotel Schweizerhof Bern & Spa The Leading Hotels of the World\", \"Hotel Schweizerhof Bern & Spa The Leading Hotels of the World Bern, Switzerland Hotel\", \"Hotel Schweizerhof Bern & Spa The Leading Hotels of the World Bern, Switzerland Resort\", \"Hotel Schweizerhof Bern & Spa The Leading Hotels of the World Bern, Switzerland\", \"Hotel Schweizerhof Bern & Spa Hilton Hotel\", \"Hotel Schweizerhof Bern & Spa Hilton Resort\", \"Hotel Schweizerhof Bern & Spa Hilton\", \"Hotel Schweizerhof Bern & Spa Hilton Bern, Switzerland Hotel\", \"Hotel Schweizerhof Bern & Spa Hilton Bern, Switzerland Resort\", \"Hotel Schweizerhof Bern & Spa Hilton Bern, Switzerland\", \"Hotel Schweizerhof Bern Spa The Leading Hotels of the World Hotel\", \"Hotel Schweizerhof Bern Spa The Leading Hotels of the World Resort\", \"Hotel Schweizerhof Bern Spa The Leading Hotels of the World\", \"Hotel Schweizerhof Bern Spa The Leading Hotels of the World Bern, Switzerland Hotel\", \"Hotel Schweizerhof Bern Spa The Leading Hotels of the World Bern, Switzerland Resort\", \"Hotel Schweizerhof Bern Spa The Leading Hotels of the World Bern, Switzerland\", \"Hotel Schweizerhof Bern Spa Hilton Hotel\", \"Hotel Schweizerhof Bern Spa Hilton Resort\", \"Hotel Schweizerhof Bern Spa Hilton\", \"Hotel Schweizerhof Bern Spa Hilton Bern, Switzerland Hotel\", \"Hotel Schweizerhof Bern Spa Hilton Bern, Switzerland Resort\", \"Hotel Schweizerhof Bern Spa Hilton Bern, Switzerland\", \"Hotel Schweizerhof Bern & Spa Hotel\", \"Hotel Schweizerhof Bern & Spa Resort\", \"Hotel Schweizerhof Bern & Spa\", \"Hotel Schweizerhof Bern & Spa Bern, Switzerland Hotel\", \"Hotel Schweizerhof Bern & Spa Bern, Switzerland Resort\", \"Hotel Schweizerhof Bern & Spa Bern, Switzerland\"], \"v\": 3}": {
+    "lat": 46.948691,
+    "lon": 7.440901999999999,
+    "formatted_address": "Bahnhofpl. 11, 3001 Bern, Switzerland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJcy0hSL85jkcR3ofY6EvhfZk",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Bahnhofpl. 11, 3001 Bern, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 46.948691,
+          "lng": 7.440901999999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 46.95005888029149,
+            "lng": 7.442144930291503
+          },
+          "southwest": {
+            "lat": 46.94736091970849,
+            "lng": 7.439446969708499
+          }
+        }
+      },
+      "name": "Hotel Schweizerhof Bern & Spa",
+      "place_id": "ChIJcy0hSL85jkcR3ofY6EvhfZk",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://schweizerhofbern.com/de?utm_source=google&utm_medium=link&utm_campaign=home+de"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Botania Relais & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Botania Relais & Spa The Leading Hotels of the World Hotel\", \"Botania Relais & Spa The Leading Hotels of the World Resort\", \"Botania Relais & Spa The Leading Hotels of the World\", \"Botania Relais & Spa The Leading Hotels of the World Forio, Italy Hotel\", \"Botania Relais & Spa The Leading Hotels of the World Forio, Italy Resort\", \"Botania Relais & Spa The Leading Hotels of the World Forio, Italy\", \"Botania Relais & Spa Hilton Hotel\", \"Botania Relais & Spa Hilton Resort\", \"Botania Relais & Spa Hilton\", \"Botania Relais & Spa Hilton Forio, Italy Hotel\", \"Botania Relais & Spa Hilton Forio, Italy Resort\", \"Botania Relais & Spa Hilton Forio, Italy\", \"Botania Relais Spa The Leading Hotels of the World Hotel\", \"Botania Relais Spa The Leading Hotels of the World Resort\", \"Botania Relais Spa The Leading Hotels of the World\", \"Botania Relais Spa The Leading Hotels of the World Forio, Italy Hotel\", \"Botania Relais Spa The Leading Hotels of the World Forio, Italy Resort\", \"Botania Relais Spa The Leading Hotels of the World Forio, Italy\", \"Botania Relais Spa Hilton Hotel\", \"Botania Relais Spa Hilton Resort\", \"Botania Relais Spa Hilton\", \"Botania Relais Spa Hilton Forio, Italy Hotel\", \"Botania Relais Spa Hilton Forio, Italy Resort\", \"Botania Relais Spa Hilton Forio, Italy\", \"Botania Relais & Spa Hotel\", \"Botania Relais & Spa Resort\", \"Botania Relais & Spa\", \"Botania Relais & Spa Forio, Italy Hotel\", \"Botania Relais & Spa Forio, Italy Resort\", \"Botania Relais & Spa Forio, Italy\"], \"v\": 3}": {
+    "lat": 40.7527634,
+    "lon": 13.8797411,
+    "formatted_address": "Via Provinciale Lacco - Fango, 284, 80075 Forio NA, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJE4NQgmtAOxMRP_zzdP4h27w",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Provinciale Lacco - Fango, 284, 80075 Forio NA, Italy",
+      "geometry": {
+        "location": {
+          "lat": 40.7527634,
+          "lng": 13.8797411
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.7540707802915,
+            "lng": 13.8810524302915
+          },
+          "southwest": {
+            "lat": 40.7513728197085,
+            "lng": 13.8783544697085
+          }
+        }
+      },
+      "name": "Botania Relais & Spa",
+      "place_id": "ChIJE4NQgmtAOxMRP_zzdP4h27w",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.botaniarelais.com/?utm_source=GB&utm_medium=organic"
     }
   }
 }

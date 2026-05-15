@@ -128681,12 +128681,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Grove\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Grove Hotel\", \"The Grove Resort\", \"The Grove\", \"The Grove Hertfordshire, England Hotel\", \"The Grove Hertfordshire, England Resort\", \"The Grove Hertfordshire, England\"], \"v\": 3}": {
-    "lat": 43.6139805,
-    "lon": -116.2037791,
-    "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
+    "lat": 40.6594148,
+    "lon": -73.09003100000001,
+    "formatted_address": "1 Ocean Walk, Cherry Grove, NY 11782, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
+    "place_id": "ChIJMTNDgLRK6IkRTExLoVZe1I4",
     "types": [
       "establishment",
       "lodging",
@@ -128695,31 +128695,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
+      "formatted_address": "1 Ocean Walk, Cherry Grove, NY 11782, USA",
       "geometry": {
         "location": {
-          "lat": 43.6139805,
-          "lng": -116.2037791
+          "lat": 40.6594148,
+          "lng": -73.09003100000001
         },
         "viewport": {
           "northeast": {
-            "lat": 43.61524663029149,
-            "lng": -116.2022796697085
+            "lat": 40.66016913029149,
+            "lng": -73.0899996
           },
           "southwest": {
-            "lat": 43.6125486697085,
-            "lng": -116.2049776302915
+            "lat": 40.6574711697085,
+            "lng": -73.09321709999999
           }
         }
       },
       "name": "The Grove Hotel",
-      "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
+      "place_id": "ChIJMTNDgLRK6IkRTExLoVZe1I4",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "http://www.grovehotelboise.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect"
+      "website": "http://www.grovehotel.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Southern Ocean Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Southern Ocean Lodge Hotel\", \"Southern Ocean Lodge Resort\", \"Southern Ocean Lodge\", \"Southern Ocean Lodge Kingscote, Australia Hotel\", \"Southern Ocean Lodge Kingscote, Australia Resort\", \"Southern Ocean Lodge Kingscote, Australia\"], \"v\": 3}": {
@@ -145442,12 +145442,12 @@
         },
         "viewport": {
           "northeast": {
-            "lat": 41.0359631802915,
-            "lng": 28.96158618029149
+            "lat": 41.0358718802915,
+            "lng": 28.96287153029149
           },
           "southwest": {
-            "lat": 41.0332652197085,
-            "lng": 28.9588882197085
+            "lat": 41.0331739197085,
+            "lng": 28.96017356970849
           }
         }
       },
@@ -167664,12 +167664,12 @@
         },
         "viewport": {
           "northeast": {
-            "lat": 38.5949792802915,
-            "lng": 34.90567948029151
+            "lat": 38.5949585302915,
+            "lng": 34.90548458029151
           },
           "southwest": {
-            "lat": 38.5922813197085,
-            "lng": 34.90298151970851
+            "lat": 38.5922605697085,
+            "lng": 34.90278661970851
           }
         }
       },
@@ -208356,6 +208356,195 @@
         "point_of_interest"
       ],
       "website": "https://patinahotels.com/osaka"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Maxx Royal Bodrum\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Maxx Royal Bodrum\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Storfjord Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Storfjord Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"ESPACIO Nagoya Castle\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"ESPACIO Nagoya Castle\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hacienda del Mar, The Melia Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hacienda del Mar, The Melia Collection Meli\\u00e1 Hotels & Resorts Hotel\", \"Hacienda del Mar, The Melia Collection Meli\\u00e1 Hotels & Resorts Resort\", \"Hacienda del Mar, The Melia Collection Meli\\u00e1 Hotels & Resorts\", \"Hacienda del Mar, The Melia Collection Meli\\u00e1 Hotels & Resorts Marbella, Spain Hotel\", \"Hacienda del Mar, The Melia Collection Meli\\u00e1 Hotels & Resorts Marbella, Spain Resort\", \"Hacienda del Mar, The Melia Collection Meli\\u00e1 Hotels & Resorts Marbella, Spain\", \"Hacienda del Mar, The Melia Collection Hilton Hotel\", \"Hacienda del Mar, The Melia Collection Hilton Resort\", \"Hacienda del Mar, The Melia Collection Hilton\", \"Hacienda del Mar, The Melia Collection Hilton Marbella, Spain Hotel\", \"Hacienda del Mar, The Melia Collection Hilton Marbella, Spain Resort\", \"Hacienda del Mar, The Melia Collection Hilton Marbella, Spain\", \"Hacienda Del Mar Melia Collection Meli\\u00e1 Hotels & Resorts Hotel\", \"Hacienda Del Mar Melia Collection Meli\\u00e1 Hotels & Resorts Resort\", \"Hacienda Del Mar Melia Collection Meli\\u00e1 Hotels & Resorts\", \"Hacienda Del Mar Melia Collection Meli\\u00e1 Hotels & Resorts Marbella, Spain Hotel\", \"Hacienda Del Mar Melia Collection Meli\\u00e1 Hotels & Resorts Marbella, Spain Resort\", \"Hacienda Del Mar Melia Collection Meli\\u00e1 Hotels & Resorts Marbella, Spain\", \"Hacienda Del Mar Melia Collection Hilton Hotel\", \"Hacienda Del Mar Melia Collection Hilton Resort\", \"Hacienda Del Mar Melia Collection Hilton\", \"Hacienda Del Mar Melia Collection Hilton Marbella, Spain Hotel\", \"Hacienda Del Mar Melia Collection Hilton Marbella, Spain Resort\", \"Hacienda Del Mar Melia Collection Hilton Marbella, Spain\", \"Hacienda del Mar, The Melia Collection Hotel\", \"Hacienda del Mar, The Melia Collection Resort\", \"Hacienda del Mar, The Melia Collection\", \"Hacienda del Mar, The Melia Collection Marbella, Spain Hotel\", \"Hacienda del Mar, The Melia Collection Marbella, Spain Resort\", \"Hacienda del Mar, The Melia Collection Marbella, Spain\"], \"v\": 3}": {
+    "lat": 36.436101,
+    "lon": -5.107823,
+    "formatted_address": "Autovía del Mediterráneo, A-7, Km. 1066, 29680 Estepona, Málaga, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJJUEF513UDA0RJc3-Eb4gjUM",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Autovía del Mediterráneo, A-7, Km. 1066, 29680 Estepona, Málaga, Spain",
+      "geometry": {
+        "location": {
+          "lat": 36.436101,
+          "lng": -5.107823
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.4375750302915,
+            "lng": -5.106531819708498
+          },
+          "southwest": {
+            "lat": 36.4348770697085,
+            "lng": -5.109229780291503
+          }
+        }
+      },
+      "name": "Hacienda del Mar member of Meliá Collection",
+      "place_id": "ChIJJUEF513UDA0RJc3-Eb4gjUM",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.melia.com/en/hotels/spain/estepona/hotel-hacienda-del-mar-2940?utm_campaign=google&utm_content=2940&utm_medium=organic&utm_source=directories"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Storfjord Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Storfjord Hotel Relais & Ch\\u00e2teaux Hotel\", \"Storfjord Hotel Relais & Ch\\u00e2teaux Resort\", \"Storfjord Hotel Relais & Ch\\u00e2teaux\", \"Storfjord Hotel Relais & Ch\\u00e2teaux Skodje, Norway Hotel\", \"Storfjord Hotel Relais & Ch\\u00e2teaux Skodje, Norway Resort\", \"Storfjord Hotel Relais & Ch\\u00e2teaux Skodje, Norway\", \"Storfjord Hotel Hilton Hotel\", \"Storfjord Hotel Hilton Resort\", \"Storfjord Hotel Hilton\", \"Storfjord Hotel Hilton Skodje, Norway Hotel\", \"Storfjord Hotel Hilton Skodje, Norway Resort\", \"Storfjord Hotel Hilton Skodje, Norway\", \"Storfjord Hotel Hotel\", \"Storfjord Hotel Resort\", \"Storfjord Hotel\", \"Storfjord Hotel Skodje, Norway Hotel\", \"Storfjord Hotel Skodje, Norway Resort\", \"Storfjord Hotel Skodje, Norway\"], \"v\": 3}": {
+    "lat": 62.46950289999999,
+    "lon": 6.6248559,
+    "formatted_address": "Øvre Glomset 110, 6260 Skodje, Norway",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ6eZD0iK4FkYRY44fvCigXSI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Øvre Glomset 110, 6260 Skodje, Norway",
+      "geometry": {
+        "location": {
+          "lat": 62.46950289999999,
+          "lng": 6.6248559
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 62.47095378029151,
+            "lng": 6.626271180291503
+          },
+          "southwest": {
+            "lat": 62.4682558197085,
+            "lng": 6.623573219708498
+          }
+        }
+      },
+      "name": "Storfjord Hotel",
+      "place_id": "ChIJ6eZD0iK4FkYRY44fvCigXSI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://storfjordhotel.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Maxx Royal Bodrum\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Maxx Royal Bodrum The Leading Hotels of the World Hotel\", \"Maxx Royal Bodrum The Leading Hotels of the World Resort\", \"Maxx Royal Bodrum The Leading Hotels of the World\", \"Maxx Royal Bodrum The Leading Hotels of the World Mugla, Turkey Hotel\", \"Maxx Royal Bodrum The Leading Hotels of the World Mugla, Turkey Resort\", \"Maxx Royal Bodrum The Leading Hotels of the World Mugla, Turkey\", \"Maxx Royal Bodrum Hilton Hotel\", \"Maxx Royal Bodrum Hilton Resort\", \"Maxx Royal Bodrum Hilton\", \"Maxx Royal Bodrum Hilton Mugla, Turkey Hotel\", \"Maxx Royal Bodrum Hilton Mugla, Turkey Resort\", \"Maxx Royal Bodrum Hilton Mugla, Turkey\", \"Maxx Royal Bodrum Hotel\", \"Maxx Royal Bodrum Resort\", \"Maxx Royal Bodrum\", \"Maxx Royal Bodrum Mugla, Turkey Hotel\", \"Maxx Royal Bodrum Mugla, Turkey Resort\", \"Maxx Royal Bodrum Mugla, Turkey\"], \"v\": 3}": {
+    "lat": 37.1305802,
+    "lon": 27.4044579,
+    "formatted_address": "Gölköy, 312 Sokak No:3, 48483 Bodrum/Muğla, Türkiye",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJXw4kos9vvhQRKYQ9bw7hmcI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Gölköy, 312 Sokak No:3, 48483 Bodrum/Muğla, Türkiye",
+      "geometry": {
+        "location": {
+          "lat": 37.1305802,
+          "lng": 27.4044579
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.1308733802915,
+            "lng": 27.4044631
+          },
+          "southwest": {
+            "lat": 37.1281754197085,
+            "lng": 27.4015825
+          }
+        }
+      },
+      "name": "Maxx Royal Bodrum",
+      "place_id": "ChIJXw4kos9vvhQRKYQ9bw7hmcI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.maxxroyal.com/tr/Bodrum-Resort"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"ESPACIO Nagoya Castle\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"ESPACIO Nagoya Castle The Leading Hotels of the World Hotel\", \"ESPACIO Nagoya Castle The Leading Hotels of the World Resort\", \"ESPACIO Nagoya Castle The Leading Hotels of the World\", \"ESPACIO Nagoya Castle The Leading Hotels of the World Nagoya, Japan Hotel\", \"ESPACIO Nagoya Castle The Leading Hotels of the World Nagoya, Japan Resort\", \"ESPACIO Nagoya Castle The Leading Hotels of the World Nagoya, Japan\", \"ESPACIO Nagoya Castle Hilton Hotel\", \"ESPACIO Nagoya Castle Hilton Resort\", \"ESPACIO Nagoya Castle Hilton\", \"ESPACIO Nagoya Castle Hilton Nagoya, Japan Hotel\", \"ESPACIO Nagoya Castle Hilton Nagoya, Japan Resort\", \"ESPACIO Nagoya Castle Hilton Nagoya, Japan\", \"Espacio Nagoya Castle The Leading Hotels of the World Hotel\", \"Espacio Nagoya Castle The Leading Hotels of the World Resort\", \"Espacio Nagoya Castle The Leading Hotels of the World\", \"Espacio Nagoya Castle The Leading Hotels of the World Nagoya, Japan Hotel\", \"Espacio Nagoya Castle The Leading Hotels of the World Nagoya, Japan Resort\", \"Espacio Nagoya Castle The Leading Hotels of the World Nagoya, Japan\", \"Espacio Nagoya Castle Hilton Hotel\", \"Espacio Nagoya Castle Hilton Resort\", \"Espacio Nagoya Castle Hilton\", \"Espacio Nagoya Castle Hilton Nagoya, Japan Hotel\", \"Espacio Nagoya Castle Hilton Nagoya, Japan Resort\", \"Espacio Nagoya Castle Hilton Nagoya, Japan\", \"ESPACIO Nagoya Castle Hotel\", \"ESPACIO Nagoya Castle Resort\", \"ESPACIO Nagoya Castle\", \"ESPACIO Nagoya Castle Nagoya, Japan Hotel\", \"ESPACIO Nagoya Castle Nagoya, Japan Resort\", \"ESPACIO Nagoya Castle Nagoya, Japan\"], \"v\": 3}": {
+    "lat": 35.1857829,
+    "lon": 136.8956703,
+    "formatted_address": "3-19 Hinokuchichō, Nishi Ward, Nagoya, Aichi 451-8551, Japan",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJRzL8s8l2A2ARRTNcDlsxfV0",
+    "types": [
+      "establishment",
+      "food",
+      "gym",
+      "health",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "3-19 Hinokuchichō, Nishi Ward, Nagoya, Aichi 451-8551, Japan",
+      "geometry": {
+        "location": {
+          "lat": 35.1857829,
+          "lng": 136.8956703
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.1866293302915,
+            "lng": 136.8971072302915
+          },
+          "southwest": {
+            "lat": 35.1839313697085,
+            "lng": 136.8944092697085
+          }
+        }
+      },
+      "name": "ESPACIO Nagoya Castle",
+      "place_id": "ChIJRzL8s8l2A2ARRTNcDlsxfV0",
+      "types": [
+        "establishment",
+        "food",
+        "gym",
+        "health",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.espacionagoya.com/"
     }
   }
 }
