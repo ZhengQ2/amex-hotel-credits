@@ -91800,48 +91800,6 @@
       "website": "https://coquillade.fr/fr/?utm_source=gmb"
     }
   },
-  "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Stavrand Russian River Valley Small Luxury Hotels of the World Hotel\", \"The Stavrand Russian River Valley Small Luxury Hotels of the World Resort\", \"The Stavrand Russian River Valley Small Luxury Hotels of the World\", \"The Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US Hotel\", \"The Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US Resort\", \"The Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US\", \"The Stavrand Russian River Valley Hilton Hotel\", \"The Stavrand Russian River Valley Hilton Resort\", \"The Stavrand Russian River Valley Hilton\", \"The Stavrand Russian River Valley Hilton Guerneville, California US Hotel\", \"The Stavrand Russian River Valley Hilton Guerneville, California US Resort\", \"The Stavrand Russian River Valley Hilton Guerneville, California US\", \"Stavrand Russian River Valley Small Luxury Hotels of the World Hotel\", \"Stavrand Russian River Valley Small Luxury Hotels of the World Resort\", \"Stavrand Russian River Valley Small Luxury Hotels of the World\", \"Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US Hotel\", \"Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US Resort\", \"Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US\", \"Stavrand Russian River Valley Hilton Hotel\", \"Stavrand Russian River Valley Hilton Resort\", \"Stavrand Russian River Valley Hilton\", \"Stavrand Russian River Valley Hilton Guerneville, California US Hotel\", \"Stavrand Russian River Valley Hilton Guerneville, California US Resort\", \"Stavrand Russian River Valley Hilton Guerneville, California US\", \"The Stavrand Russian River Valley Hotel\", \"The Stavrand Russian River Valley Resort\", \"The Stavrand Russian River Valley\", \"The Stavrand Russian River Valley Guerneville, California US Hotel\", \"The Stavrand Russian River Valley Guerneville, California US Resort\", \"The Stavrand Russian River Valley Guerneville, California US\"], \"v\": 3}": {
-    "lat": 38.4995473,
-    "lon": -122.988888,
-    "formatted_address": "13555 CA-116, Guerneville, CA 95446, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJAQDsYf8hhIARhHyY_671lk0",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "13555 CA-116, Guerneville, CA 95446, USA",
-      "geometry": {
-        "location": {
-          "lat": 38.4995473,
-          "lng": -122.988888
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 38.5009820302915,
-            "lng": -122.9874939197085
-          },
-          "southwest": {
-            "lat": 38.4982840697085,
-            "lng": -122.9901918802915
-          }
-        }
-      },
-      "name": "The Stavrand Russian River Valley",
-      "place_id": "ChIJAQDsYf8hhIARhHyY_671lk0",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.thestavrand.com/?utm_medium=organic&utm_source=google&utm_campaign=business-listing"
-    }
-  },
   "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Park Lane Copenhagen Small Luxury Hotels of the World Hotel\", \"Park Lane Copenhagen Small Luxury Hotels of the World Resort\", \"Park Lane Copenhagen Small Luxury Hotels of the World\", \"Park Lane Copenhagen Small Luxury Hotels of the World Hellerup, Denmark Hotel\", \"Park Lane Copenhagen Small Luxury Hotels of the World Hellerup, Denmark Resort\", \"Park Lane Copenhagen Small Luxury Hotels of the World Hellerup, Denmark\", \"Park Lane Copenhagen Hilton Hotel\", \"Park Lane Copenhagen Hilton Resort\", \"Park Lane Copenhagen Hilton\", \"Park Lane Copenhagen Hilton Hellerup, Denmark Hotel\", \"Park Lane Copenhagen Hilton Hellerup, Denmark Resort\", \"Park Lane Copenhagen Hilton Hellerup, Denmark\", \"Park Lane Copenhagen Hotel\", \"Park Lane Copenhagen Resort\", \"Park Lane Copenhagen\", \"Park Lane Copenhagen Hellerup, Denmark Hotel\", \"Park Lane Copenhagen Hellerup, Denmark Resort\", \"Park Lane Copenhagen Hellerup, Denmark\"], \"v\": 3}": {
     "lat": 55.737462,
     "lon": 12.575096,
@@ -92573,7 +92531,7 @@
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Atlas Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Atlas Hotel Hotel\", \"The Atlas Hotel Resort\", \"The Atlas Hotel\", \"The Atlas Hotel Boston, Massachusetts US Hotel\", \"The Atlas Hotel Boston, Massachusetts US Resort\", \"The Atlas Hotel Boston, Massachusetts US\"], \"v\": 3}": {
     "lat": 50.4130167,
     "lon": -104.6174228,
-    "formatted_address": "4177 Albert St, Regina, SK S4S 3R6, Canada",
+    "formatted_address": "4177 Albert St, Regina, SK S4S 3R8, Canada",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
     "place_id": "ChIJOXxzNImhHlMRLl47TgUpPMI",
@@ -92586,7 +92544,7 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "4177 Albert St, Regina, SK S4S 3R6, Canada",
+      "formatted_address": "4177 Albert St, Regina, SK S4S 3R8, Canada",
       "geometry": {
         "location": {
           "lat": 50.4130167,
@@ -141972,48 +141930,6 @@
       "website": "https://www.glenloabbeyhotel.ie/"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Stavrand Russian River Valley\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Stavrand Russian River Valley Small Luxury Hotels of the World Hotel\", \"The Stavrand Russian River Valley Small Luxury Hotels of the World Resort\", \"The Stavrand Russian River Valley Small Luxury Hotels of the World\", \"The Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US Hotel\", \"The Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US Resort\", \"The Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US\", \"The Stavrand Russian River Valley Hilton Hotel\", \"The Stavrand Russian River Valley Hilton Resort\", \"The Stavrand Russian River Valley Hilton\", \"The Stavrand Russian River Valley Hilton Guerneville, California US Hotel\", \"The Stavrand Russian River Valley Hilton Guerneville, California US Resort\", \"The Stavrand Russian River Valley Hilton Guerneville, California US\", \"Stavrand Russian River Valley Small Luxury Hotels of the World Hotel\", \"Stavrand Russian River Valley Small Luxury Hotels of the World Resort\", \"Stavrand Russian River Valley Small Luxury Hotels of the World\", \"Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US Hotel\", \"Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US Resort\", \"Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US\", \"Stavrand Russian River Valley Hilton Hotel\", \"Stavrand Russian River Valley Hilton Resort\", \"Stavrand Russian River Valley Hilton\", \"Stavrand Russian River Valley Hilton Guerneville, California US Hotel\", \"Stavrand Russian River Valley Hilton Guerneville, California US Resort\", \"Stavrand Russian River Valley Hilton Guerneville, California US\", \"The Stavrand Russian River Valley Hotel\", \"The Stavrand Russian River Valley Resort\", \"The Stavrand Russian River Valley\", \"The Stavrand Russian River Valley Guerneville, California US Hotel\", \"The Stavrand Russian River Valley Guerneville, California US Resort\", \"The Stavrand Russian River Valley Guerneville, California US\"], \"v\": 3}": {
-    "lat": 38.4995473,
-    "lon": -122.988888,
-    "formatted_address": "13555 CA-116, Guerneville, CA 95446, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJAQDsYf8hhIARhHyY_671lk0",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "13555 CA-116, Guerneville, CA 95446, USA",
-      "geometry": {
-        "location": {
-          "lat": 38.4995473,
-          "lng": -122.988888
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 38.5009820302915,
-            "lng": -122.9874939197085
-          },
-          "southwest": {
-            "lat": 38.4982840697085,
-            "lng": -122.9901918802915
-          }
-        }
-      },
-      "name": "The Stavrand Russian River Valley",
-      "place_id": "ChIJAQDsYf8hhIARhHyY_671lk0",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.thestavrand.com/?utm_medium=organic&utm_source=google&utm_campaign=business-listing"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Fortress Resort & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Fortress Resort & Spa Small Luxury Hotels of the World Hotel\", \"The Fortress Resort & Spa Small Luxury Hotels of the World Resort\", \"The Fortress Resort & Spa Small Luxury Hotels of the World\", \"The Fortress Resort & Spa Small Luxury Hotels of the World Habaraduwa, Sri Lanka Hotel\", \"The Fortress Resort & Spa Small Luxury Hotels of the World Habaraduwa, Sri Lanka Resort\", \"The Fortress Resort & Spa Small Luxury Hotels of the World Habaraduwa, Sri Lanka\", \"The Fortress Resort & Spa Hilton Hotel\", \"The Fortress Resort & Spa Hilton Resort\", \"The Fortress Resort & Spa Hilton\", \"The Fortress Resort & Spa Hilton Habaraduwa, Sri Lanka Hotel\", \"The Fortress Resort & Spa Hilton Habaraduwa, Sri Lanka Resort\", \"The Fortress Resort & Spa Hilton Habaraduwa, Sri Lanka\", \"Fortress Resort Spa Small Luxury Hotels of the World Hotel\", \"Fortress Resort Spa Small Luxury Hotels of the World Resort\", \"Fortress Resort Spa Small Luxury Hotels of the World\", \"Fortress Resort Spa Small Luxury Hotels of the World Habaraduwa, Sri Lanka Hotel\", \"Fortress Resort Spa Small Luxury Hotels of the World Habaraduwa, Sri Lanka Resort\", \"Fortress Resort Spa Small Luxury Hotels of the World Habaraduwa, Sri Lanka\", \"Fortress Resort Spa Hilton Hotel\", \"Fortress Resort Spa Hilton Resort\", \"Fortress Resort Spa Hilton\", \"Fortress Resort Spa Hilton Habaraduwa, Sri Lanka Hotel\", \"Fortress Resort Spa Hilton Habaraduwa, Sri Lanka Resort\", \"Fortress Resort Spa Hilton Habaraduwa, Sri Lanka\", \"The Fortress Resort & Spa Hotel\", \"The Fortress Resort & Spa Resort\", \"The Fortress Resort & Spa\", \"The Fortress Resort & Spa Habaraduwa, Sri Lanka Hotel\", \"The Fortress Resort & Spa Habaraduwa, Sri Lanka Resort\", \"The Fortress Resort & Spa Habaraduwa, Sri Lanka\"], \"v\": 3}": {
     "lat": 5.986595899999999,
     "lon": 80.32644429999999,
@@ -152320,6 +152236,148 @@
         "spa"
       ],
       "website": "https://www.botaniarelais.com/?utm_source=GB&utm_medium=organic"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Municipal Grand\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Municipal Grand\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Quail\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Quail\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Porta Rossa Hotel Firenze, Colbert Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Porta Rossa Hotel Firenze, Colbert Collection\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Royal Savoy Hotel & Spa Lausanne\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Royal Savoy Hotel & Spa Lausanne\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Quail\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Quail Hotel\", \"The Quail Resort\", \"The Quail\", \"The Quail Carmel, California US Hotel\", \"The Quail Carmel, California US Resort\", \"The Quail Carmel, California US\"], \"v\": 3}": {
+    "lat": 36.5323004,
+    "lon": -121.8514411,
+    "formatted_address": "8205 Valley Greens Dr, Carmel, CA 93923, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJI_jCt6bvjYAR94hzdEB1ZaQ",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "8205 Valley Greens Dr, Carmel, CA 93923, USA",
+      "geometry": {
+        "location": {
+          "lat": 36.5323004,
+          "lng": -121.8514411
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.5336143802915,
+            "lng": -121.8499775197085
+          },
+          "southwest": {
+            "lat": 36.5309164197085,
+            "lng": -121.8526754802915
+          }
+        }
+      },
+      "name": "The Quail",
+      "place_id": "ChIJI_jCt6bvjYAR94hzdEB1ZaQ",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.quaillodge.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Municipal Grand\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Municipal Grand Design Hotels Hotel\", \"Municipal Grand Design Hotels Resort\", \"Municipal Grand Design Hotels\", \"Municipal Grand Design Hotels Savannah, Georgia US Hotel\", \"Municipal Grand Design Hotels Savannah, Georgia US Resort\", \"Municipal Grand Design Hotels Savannah, Georgia US\", \"Municipal Grand Hilton Hotel\", \"Municipal Grand Hilton Resort\", \"Municipal Grand Hilton\", \"Municipal Grand Hilton Savannah, Georgia US Hotel\", \"Municipal Grand Hilton Savannah, Georgia US Resort\", \"Municipal Grand Hilton Savannah, Georgia US\", \"Municipal Grand Hotel\", \"Municipal Grand Resort\", \"Municipal Grand\", \"Municipal Grand Savannah, Georgia US Hotel\", \"Municipal Grand Savannah, Georgia US Resort\", \"Municipal Grand Savannah, Georgia US\"], \"v\": 3}": {
+    "lat": 32.0787062,
+    "lon": -81.089688,
+    "formatted_address": "45 Abercorn St, Savannah, GA 31401, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJN90frGWe-4gRseompFRpHC0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "45 Abercorn St, Savannah, GA 31401, USA",
+      "geometry": {
+        "location": {
+          "lat": 32.0787062,
+          "lng": -81.089688
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.0800433802915,
+            "lng": -81.08829651970849
+          },
+          "southwest": {
+            "lat": 32.0773454197085,
+            "lng": -81.09099448029151
+          }
+        }
+      },
+      "name": "Municipal Grand",
+      "place_id": "ChIJN90frGWe-4gRseompFRpHC0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://municipalgrand.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Royal Savoy Hotel & Spa Lausanne\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Royal Savoy Hotel & Spa Lausanne The Leading Hotels of the World Hotel\", \"Royal Savoy Hotel & Spa Lausanne The Leading Hotels of the World Resort\", \"Royal Savoy Hotel & Spa Lausanne The Leading Hotels of the World\", \"Royal Savoy Hotel & Spa Lausanne The Leading Hotels of the World Lausanne, Switzerland Hotel\", \"Royal Savoy Hotel & Spa Lausanne The Leading Hotels of the World Lausanne, Switzerland Resort\", \"Royal Savoy Hotel & Spa Lausanne The Leading Hotels of the World Lausanne, Switzerland\", \"Royal Savoy Hotel & Spa Lausanne Hilton Hotel\", \"Royal Savoy Hotel & Spa Lausanne Hilton Resort\", \"Royal Savoy Hotel & Spa Lausanne Hilton\", \"Royal Savoy Hotel & Spa Lausanne Hilton Lausanne, Switzerland Hotel\", \"Royal Savoy Hotel & Spa Lausanne Hilton Lausanne, Switzerland Resort\", \"Royal Savoy Hotel & Spa Lausanne Hilton Lausanne, Switzerland\", \"Royal Savoy Hotel Spa Lausanne The Leading Hotels of the World Hotel\", \"Royal Savoy Hotel Spa Lausanne The Leading Hotels of the World Resort\", \"Royal Savoy Hotel Spa Lausanne The Leading Hotels of the World\", \"Royal Savoy Hotel Spa Lausanne The Leading Hotels of the World Lausanne, Switzerland Hotel\", \"Royal Savoy Hotel Spa Lausanne The Leading Hotels of the World Lausanne, Switzerland Resort\", \"Royal Savoy Hotel Spa Lausanne The Leading Hotels of the World Lausanne, Switzerland\", \"Royal Savoy Hotel Spa Lausanne Hilton Hotel\", \"Royal Savoy Hotel Spa Lausanne Hilton Resort\", \"Royal Savoy Hotel Spa Lausanne Hilton\", \"Royal Savoy Hotel Spa Lausanne Hilton Lausanne, Switzerland Hotel\", \"Royal Savoy Hotel Spa Lausanne Hilton Lausanne, Switzerland Resort\", \"Royal Savoy Hotel Spa Lausanne Hilton Lausanne, Switzerland\", \"Royal Savoy Hotel & Spa Lausanne Hotel\", \"Royal Savoy Hotel & Spa Lausanne Resort\", \"Royal Savoy Hotel & Spa Lausanne\", \"Royal Savoy Hotel & Spa Lausanne Lausanne, Switzerland Hotel\", \"Royal Savoy Hotel & Spa Lausanne Lausanne, Switzerland Resort\", \"Royal Savoy Hotel & Spa Lausanne Lausanne, Switzerland\"], \"v\": 3}": {
+    "lat": 46.5113676,
+    "lon": 6.6284904,
+    "formatted_address": "Av. d'Ouchy 40, 1006 Lausanne, Switzerland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJuzSvIs4vjEcRi8sg1wgYbtU",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Av. d'Ouchy 40, 1006 Lausanne, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 46.5113676,
+          "lng": 6.6284904
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 46.51287518029149,
+            "lng": 6.629730030291502
+          },
+          "southwest": {
+            "lat": 46.5101772197085,
+            "lng": 6.627032069708497
+          }
+        }
+      },
+      "name": "Hotel Royal Savoy Lausanne",
+      "place_id": "ChIJuzSvIs4vjEcRi8sg1wgYbtU",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://royalsavoylausanne.com/fr?utm_source=google.com&utm_medium=referral&utm_campaign=gmb"
     }
   }
 }

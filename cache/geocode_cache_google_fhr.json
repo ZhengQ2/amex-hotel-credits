@@ -14627,48 +14627,6 @@
       "website": "https://www.chevalblanc.com/en/maison/st-tropez/"
     }
   },
-  "{\"brand\": \"COMO Hotels and Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Como Laucala Island COMO Hotels and Resorts Hotel\", \"Como Laucala Island COMO Hotels and Resorts Resort\", \"Como Laucala Island COMO Hotels and Resorts\", \"Como Laucala Island COMO Hotels and Resorts Laucala Island, Fiji Hotel\", \"Como Laucala Island COMO Hotels and Resorts Laucala Island, Fiji Resort\", \"Como Laucala Island COMO Hotels and Resorts Laucala Island, Fiji\", \"Como Laucala Island Hilton Hotel\", \"Como Laucala Island Hilton Resort\", \"Como Laucala Island Hilton\", \"Como Laucala Island Hilton Laucala Island, Fiji Hotel\", \"Como Laucala Island Hilton Laucala Island, Fiji Resort\", \"Como Laucala Island Hilton Laucala Island, Fiji\", \"COMO Laucala Island COMO Hotels and Resorts Hotel\", \"COMO Laucala Island COMO Hotels and Resorts Resort\", \"COMO Laucala Island COMO Hotels and Resorts\", \"COMO Laucala Island COMO Hotels and Resorts Laucala Island, Fiji Hotel\", \"COMO Laucala Island COMO Hotels and Resorts Laucala Island, Fiji Resort\", \"COMO Laucala Island COMO Hotels and Resorts Laucala Island, Fiji\", \"COMO Laucala Island Hilton Hotel\", \"COMO Laucala Island Hilton Resort\", \"COMO Laucala Island Hilton\", \"COMO Laucala Island Hilton Laucala Island, Fiji Hotel\", \"COMO Laucala Island Hilton Laucala Island, Fiji Resort\", \"COMO Laucala Island Hilton Laucala Island, Fiji\", \"COMO Laucala Island Hotel\", \"COMO Laucala Island Resort\", \"COMO Laucala Island\", \"COMO Laucala Island Laucala Island, Fiji Hotel\", \"COMO Laucala Island Laucala Island, Fiji Resort\", \"COMO Laucala Island Laucala Island, Fiji\"], \"v\": 3}": {
-    "lat": -16.7435909,
-    "lon": -179.6827171,
-    "formatted_address": "Laucala Island, Fiji",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJj_BeK0Bt4HERyrDoeWbd-IU",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Laucala Island, Fiji",
-      "geometry": {
-        "location": {
-          "lat": -16.7435909,
-          "lng": -179.6827171
-        },
-        "viewport": {
-          "northeast": {
-            "lat": -16.7422419197085,
-            "lng": -179.6813681197085
-          },
-          "southwest": {
-            "lat": -16.74493988029151,
-            "lng": -179.6840660802915
-          }
-        }
-      },
-      "name": "Laucala Island",
-      "place_id": "ChIJj_BeK0Bt4HERyrDoeWbd-IU",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.laucala.com/"
-    }
-  },
   "{\"brand\": \"COMO Hotels and Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Como The Treasury COMO Hotels and Resorts Hotel\", \"Como The Treasury COMO Hotels and Resorts Resort\", \"Como The Treasury COMO Hotels and Resorts\", \"Como The Treasury COMO Hotels and Resorts Perth, Australia Hotel\", \"Como The Treasury COMO Hotels and Resorts Perth, Australia Resort\", \"Como The Treasury COMO Hotels and Resorts Perth, Australia\", \"Como The Treasury Hilton Hotel\", \"Como The Treasury Hilton Resort\", \"Como The Treasury Hilton\", \"Como The Treasury Hilton Perth, Australia Hotel\", \"Como The Treasury Hilton Perth, Australia Resort\", \"Como The Treasury Hilton Perth, Australia\", \"COMO The Treasury COMO Hotels and Resorts Hotel\", \"COMO The Treasury COMO Hotels and Resorts Resort\", \"COMO The Treasury COMO Hotels and Resorts\", \"COMO The Treasury COMO Hotels and Resorts Perth, Australia Hotel\", \"COMO The Treasury COMO Hotels and Resorts Perth, Australia Resort\", \"COMO The Treasury COMO Hotels and Resorts Perth, Australia\", \"COMO The Treasury Hilton Hotel\", \"COMO The Treasury Hilton Resort\", \"COMO The Treasury Hilton\", \"COMO The Treasury Hilton Perth, Australia Hotel\", \"COMO The Treasury Hilton Perth, Australia Resort\", \"COMO The Treasury Hilton Perth, Australia\", \"COMO The Treasury Hotel\", \"COMO The Treasury Resort\", \"COMO The Treasury\", \"COMO The Treasury Perth, Australia Hotel\", \"COMO The Treasury Perth, Australia Resort\", \"COMO The Treasury Perth, Australia\"], \"v\": 3}": {
     "lat": -31.95559119999999,
     "lon": 115.8606873,
@@ -85569,48 +85527,6 @@
       "website": "https://www.chevalblanc.com/en/maison/st-tropez/"
     }
   },
-  "{\"brand\": \"COMO Hotels and Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"COMO Laucala Island COMO Hotels and Resorts Hotel\", \"COMO Laucala Island COMO Hotels and Resorts Resort\", \"COMO Laucala Island COMO Hotels and Resorts\", \"COMO Laucala Island COMO Hotels and Resorts Laucala Island, Fiji Hotel\", \"COMO Laucala Island COMO Hotels and Resorts Laucala Island, Fiji Resort\", \"COMO Laucala Island COMO Hotels and Resorts Laucala Island, Fiji\", \"COMO Laucala Island Hilton Hotel\", \"COMO Laucala Island Hilton Resort\", \"COMO Laucala Island Hilton\", \"COMO Laucala Island Hilton Laucala Island, Fiji Hotel\", \"COMO Laucala Island Hilton Laucala Island, Fiji Resort\", \"COMO Laucala Island Hilton Laucala Island, Fiji\", \"Como Laucala Island COMO Hotels and Resorts Hotel\", \"Como Laucala Island COMO Hotels and Resorts Resort\", \"Como Laucala Island COMO Hotels and Resorts\", \"Como Laucala Island COMO Hotels and Resorts Laucala Island, Fiji Hotel\", \"Como Laucala Island COMO Hotels and Resorts Laucala Island, Fiji Resort\", \"Como Laucala Island COMO Hotels and Resorts Laucala Island, Fiji\", \"Como Laucala Island Hilton Hotel\", \"Como Laucala Island Hilton Resort\", \"Como Laucala Island Hilton\", \"Como Laucala Island Hilton Laucala Island, Fiji Hotel\", \"Como Laucala Island Hilton Laucala Island, Fiji Resort\", \"Como Laucala Island Hilton Laucala Island, Fiji\", \"COMO Laucala Island Hotel\", \"COMO Laucala Island Resort\", \"COMO Laucala Island\", \"COMO Laucala Island Laucala Island, Fiji Hotel\", \"COMO Laucala Island Laucala Island, Fiji Resort\", \"COMO Laucala Island Laucala Island, Fiji\"], \"v\": 3}": {
-    "lat": -16.7435909,
-    "lon": -179.6827171,
-    "formatted_address": "Laucala Island, Fiji",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJj_BeK0Bt4HERyrDoeWbd-IU",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Laucala Island, Fiji",
-      "geometry": {
-        "location": {
-          "lat": -16.7435909,
-          "lng": -179.6827171
-        },
-        "viewport": {
-          "northeast": {
-            "lat": -16.7422419197085,
-            "lng": -179.6813681197085
-          },
-          "southwest": {
-            "lat": -16.74493988029151,
-            "lng": -179.6840660802915
-          }
-        }
-      },
-      "name": "Laucala Island",
-      "place_id": "ChIJj_BeK0Bt4HERyrDoeWbd-IU",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.laucala.com/"
-    }
-  },
   "{\"brand\": \"COMO Hotels and Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"COMO The Treasury COMO Hotels and Resorts Hotel\", \"COMO The Treasury COMO Hotels and Resorts Resort\", \"COMO The Treasury COMO Hotels and Resorts\", \"COMO The Treasury COMO Hotels and Resorts Perth, Australia Hotel\", \"COMO The Treasury COMO Hotels and Resorts Perth, Australia Resort\", \"COMO The Treasury COMO Hotels and Resorts Perth, Australia\", \"COMO The Treasury Hilton Hotel\", \"COMO The Treasury Hilton Resort\", \"COMO The Treasury Hilton\", \"COMO The Treasury Hilton Perth, Australia Hotel\", \"COMO The Treasury Hilton Perth, Australia Resort\", \"COMO The Treasury Hilton Perth, Australia\", \"Como The Treasury COMO Hotels and Resorts Hotel\", \"Como The Treasury COMO Hotels and Resorts Resort\", \"Como The Treasury COMO Hotels and Resorts\", \"Como The Treasury COMO Hotels and Resorts Perth, Australia Hotel\", \"Como The Treasury COMO Hotels and Resorts Perth, Australia Resort\", \"Como The Treasury COMO Hotels and Resorts Perth, Australia\", \"Como The Treasury Hilton Hotel\", \"Como The Treasury Hilton Resort\", \"Como The Treasury Hilton\", \"Como The Treasury Hilton Perth, Australia Hotel\", \"Como The Treasury Hilton Perth, Australia Resort\", \"Como The Treasury Hilton Perth, Australia\", \"COMO The Treasury Hotel\", \"COMO The Treasury Resort\", \"COMO The Treasury\", \"COMO The Treasury Perth, Australia Hotel\", \"COMO The Treasury Perth, Australia Resort\", \"COMO The Treasury Perth, Australia\"], \"v\": 3}": {
     "lat": -31.95559119999999,
     "lon": 115.8606873,
@@ -128681,12 +128597,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Grove\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Grove Hotel\", \"The Grove Resort\", \"The Grove\", \"The Grove Hertfordshire, England Hotel\", \"The Grove Hertfordshire, England Resort\", \"The Grove Hertfordshire, England\"], \"v\": 3}": {
-    "lat": 40.6594148,
-    "lon": -73.09003100000001,
-    "formatted_address": "1 Ocean Walk, Cherry Grove, NY 11782, USA",
+    "lat": 43.6139805,
+    "lon": -116.2037791,
+    "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJMTNDgLRK6IkRTExLoVZe1I4",
+    "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
     "types": [
       "establishment",
       "lodging",
@@ -128695,31 +128611,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "1 Ocean Walk, Cherry Grove, NY 11782, USA",
+      "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
       "geometry": {
         "location": {
-          "lat": 40.6594148,
-          "lng": -73.09003100000001
+          "lat": 43.6139805,
+          "lng": -116.2037791
         },
         "viewport": {
           "northeast": {
-            "lat": 40.66016913029149,
-            "lng": -73.0899996
+            "lat": 43.61524663029149,
+            "lng": -116.2022796697085
           },
           "southwest": {
-            "lat": 40.6574711697085,
-            "lng": -73.09321709999999
+            "lat": 43.6125486697085,
+            "lng": -116.2049776302915
           }
         }
       },
       "name": "The Grove Hotel",
-      "place_id": "ChIJMTNDgLRK6IkRTExLoVZe1I4",
+      "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "http://www.grovehotel.com/"
+      "website": "http://www.grovehotelboise.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Southern Ocean Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Southern Ocean Lodge Hotel\", \"Southern Ocean Lodge Resort\", \"Southern Ocean Lodge\", \"Southern Ocean Lodge Kingscote, Australia Hotel\", \"Southern Ocean Lodge Kingscote, Australia Resort\", \"Southern Ocean Lodge Kingscote, Australia\"], \"v\": 3}": {
@@ -130519,12 +130435,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 40.0532091,
-    "lon": -76.2527628,
-    "formatted_address": "545 Greenfield Rd, Lancaster, PA 17601, USA",
+    "lat": 29.76149999999999,
+    "lon": -95.3648,
+    "formatted_address": "701 Texas Ave, Houston, TX 77002, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ5eRM3147xokRVvi_lryvPU0",
+    "place_id": "ChIJpXTqeDC_QIYRWTBSOg3rarM",
     "types": [
       "establishment",
       "lodging",
@@ -130533,31 +130449,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "545 Greenfield Rd, Lancaster, PA 17601, USA",
+      "formatted_address": "701 Texas Ave, Houston, TX 77002, USA",
       "geometry": {
         "location": {
-          "lat": 40.0532091,
-          "lng": -76.2527628
+          "lat": 29.76149999999999,
+          "lng": -95.3648
         },
         "viewport": {
           "northeast": {
-            "lat": 40.0546280302915,
-            "lng": -76.25150881970849
+            "lat": 29.7627978302915,
+            "lng": -95.36351171970851
           },
           "southwest": {
-            "lat": 40.0519300697085,
-            "lng": -76.2542067802915
+            "lat": 29.7600998697085,
+            "lng": -95.36620968029152
           }
         }
       },
-      "name": "Hampton Inn Lancaster",
-      "place_id": "ChIJ5eRM3147xokRVvi_lryvPU0",
+      "name": "The Lancaster Hotel",
+      "place_id": "ChIJpXTqeDC_QIYRWTBSOg3rarM",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/lnsgfhx-hampton-lancaster/?SEO_id=GMB-AMER-HX-LNSGFHX&y_source=1_MjA4NDQ5Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://thelancaster.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -141733,48 +141649,6 @@
         "spa"
       ],
       "website": "https://www.chevalblanc.com/en/maison/st-tropez/"
-    }
-  },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"COMO Laucala Island\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"COMO Laucala Island COMO Hotels and Resorts Hotel\", \"COMO Laucala Island COMO Hotels and Resorts Resort\", \"COMO Laucala Island COMO Hotels and Resorts\", \"COMO Laucala Island COMO Hotels and Resorts Laucala Island, Fiji Hotel\", \"COMO Laucala Island COMO Hotels and Resorts Laucala Island, Fiji Resort\", \"COMO Laucala Island COMO Hotels and Resorts Laucala Island, Fiji\", \"COMO Laucala Island Hilton Hotel\", \"COMO Laucala Island Hilton Resort\", \"COMO Laucala Island Hilton\", \"COMO Laucala Island Hilton Laucala Island, Fiji Hotel\", \"COMO Laucala Island Hilton Laucala Island, Fiji Resort\", \"COMO Laucala Island Hilton Laucala Island, Fiji\", \"Como Laucala Island COMO Hotels and Resorts Hotel\", \"Como Laucala Island COMO Hotels and Resorts Resort\", \"Como Laucala Island COMO Hotels and Resorts\", \"Como Laucala Island COMO Hotels and Resorts Laucala Island, Fiji Hotel\", \"Como Laucala Island COMO Hotels and Resorts Laucala Island, Fiji Resort\", \"Como Laucala Island COMO Hotels and Resorts Laucala Island, Fiji\", \"Como Laucala Island Hilton Hotel\", \"Como Laucala Island Hilton Resort\", \"Como Laucala Island Hilton\", \"Como Laucala Island Hilton Laucala Island, Fiji Hotel\", \"Como Laucala Island Hilton Laucala Island, Fiji Resort\", \"Como Laucala Island Hilton Laucala Island, Fiji\", \"COMO Laucala Island Hotel\", \"COMO Laucala Island Resort\", \"COMO Laucala Island\", \"COMO Laucala Island Laucala Island, Fiji Hotel\", \"COMO Laucala Island Laucala Island, Fiji Resort\", \"COMO Laucala Island Laucala Island, Fiji\"], \"v\": 3}": {
-    "lat": -16.7435909,
-    "lon": -179.6827171,
-    "formatted_address": "Laucala Island, Fiji",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJj_BeK0Bt4HERyrDoeWbd-IU",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Laucala Island, Fiji",
-      "geometry": {
-        "location": {
-          "lat": -16.7435909,
-          "lng": -179.6827171
-        },
-        "viewport": {
-          "northeast": {
-            "lat": -16.7422419197085,
-            "lng": -179.6813681197085
-          },
-          "southwest": {
-            "lat": -16.74493988029151,
-            "lng": -179.6840660802915
-          }
-        }
-      },
-      "name": "Laucala Island",
-      "place_id": "ChIJj_BeK0Bt4HERyrDoeWbd-IU",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.laucala.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"COMO The Treasury\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"COMO The Treasury COMO Hotels and Resorts Hotel\", \"COMO The Treasury COMO Hotels and Resorts Resort\", \"COMO The Treasury COMO Hotels and Resorts\", \"COMO The Treasury COMO Hotels and Resorts Perth, Australia Hotel\", \"COMO The Treasury COMO Hotels and Resorts Perth, Australia Resort\", \"COMO The Treasury COMO Hotels and Resorts Perth, Australia\", \"COMO The Treasury Hilton Hotel\", \"COMO The Treasury Hilton Resort\", \"COMO The Treasury Hilton\", \"COMO The Treasury Hilton Perth, Australia Hotel\", \"COMO The Treasury Hilton Perth, Australia Resort\", \"COMO The Treasury Hilton Perth, Australia\", \"Como The Treasury COMO Hotels and Resorts Hotel\", \"Como The Treasury COMO Hotels and Resorts Resort\", \"Como The Treasury COMO Hotels and Resorts\", \"Como The Treasury COMO Hotels and Resorts Perth, Australia Hotel\", \"Como The Treasury COMO Hotels and Resorts Perth, Australia Resort\", \"Como The Treasury COMO Hotels and Resorts Perth, Australia\", \"Como The Treasury Hilton Hotel\", \"Como The Treasury Hilton Resort\", \"Como The Treasury Hilton\", \"Como The Treasury Hilton Perth, Australia Hotel\", \"Como The Treasury Hilton Perth, Australia Resort\", \"Como The Treasury Hilton Perth, Australia\", \"COMO The Treasury Hotel\", \"COMO The Treasury Resort\", \"COMO The Treasury\", \"COMO The Treasury Perth, Australia Hotel\", \"COMO The Treasury Perth, Australia Resort\", \"COMO The Treasury Perth, Australia\"], \"v\": 3}": {
@@ -170892,7 +170766,7 @@
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Raffles Istanbul\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Raffles Istanbul Raffles Hotel\", \"Raffles Istanbul Raffles Resort\", \"Raffles Istanbul Raffles\", \"Raffles Istanbul Raffles Istanbul, Turkey Hotel\", \"Raffles Istanbul Raffles Istanbul, Turkey Resort\", \"Raffles Istanbul Raffles Istanbul, Turkey\", \"Raffles Istanbul Hilton Hotel\", \"Raffles Istanbul Hilton Resort\", \"Raffles Istanbul Hilton\", \"Raffles Istanbul Hilton Istanbul, Turkey Hotel\", \"Raffles Istanbul Hilton Istanbul, Turkey Resort\", \"Raffles Istanbul Hilton Istanbul, Turkey\", \"Raffles Istanbul Hotel\", \"Raffles Istanbul Resort\", \"Raffles Istanbul\", \"Raffles Istanbul Istanbul, Turkey Hotel\", \"Raffles Istanbul Istanbul, Turkey Resort\", \"Raffles Istanbul Istanbul, Turkey\"], \"v\": 3}": {
     "lat": 41.066551,
     "lon": 29.018055,
-    "formatted_address": "Levazım, Vadi Caddesi Zorlu Center, 34340 Beşiktaş/İstanbul, Türkiye",
+    "formatted_address": "Zorlu Center - Shopping Mall, Levazım, Vadi Caddesi, 34340 Beşiktaş/İstanbul, Türkiye",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
     "place_id": "ChIJ-b4di0W2yhQRKJh_UY_Yg0s",
@@ -170906,7 +170780,7 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Levazım, Vadi Caddesi Zorlu Center, 34340 Beşiktaş/İstanbul, Türkiye",
+      "formatted_address": "Zorlu Center - Shopping Mall, Levazım, Vadi Caddesi, 34340 Beşiktaş/İstanbul, Türkiye",
       "geometry": {
         "location": {
           "lat": 41.066551,
@@ -208545,6 +208419,220 @@
         "spa"
       ],
       "website": "https://www.espacionagoya.com/"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"La Bahia Hotel & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Bahia Hotel & Spa\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Carton House, A Fairmont Managed Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Carton House, A Fairmont Managed Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Le Negresco\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Le Negresco\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Fairmont Tokyo\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fairmont Tokyo\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Bahia Hotel & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Bahia Hotel & Spa Hotel\", \"La Bahia Hotel & Spa Resort\", \"La Bahia Hotel & Spa\", \"La Bahia Hotel & Spa Santa Cruz, California US Hotel\", \"La Bahia Hotel & Spa Santa Cruz, California US Resort\", \"La Bahia Hotel & Spa Santa Cruz, California US\", \"La Bahia Hotel Spa Hotel\", \"La Bahia Hotel Spa Resort\", \"La Bahia Hotel Spa\", \"La Bahia Hotel Spa Santa Cruz, California US Hotel\", \"La Bahia Hotel Spa Santa Cruz, California US Resort\", \"La Bahia Hotel Spa Santa Cruz, California US\"], \"v\": 3}": {
+    "lat": 36.9637205,
+    "lon": -122.021893,
+    "formatted_address": "215 Beach St, Santa Cruz, CA 95060, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJFYM6GwBrjoARyYY36kt7-K8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "215 Beach St, Santa Cruz, CA 95060, USA",
+      "geometry": {
+        "location": {
+          "lat": 36.9637205,
+          "lng": -122.021893
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.96499618029151,
+            "lng": -122.0204727697085
+          },
+          "southwest": {
+            "lat": 36.96229821970851,
+            "lng": -122.0231707302915
+          }
+        }
+      },
+      "name": "La Bahia Hotel & Spa",
+      "place_id": "ChIJFYM6GwBrjoARyYY36kt7-K8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://labahiahotel.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Mauna Kea Beach Hotel, Autograph Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mauna Kea Beach Hotel, Autograph Collection Autograph Collection Hotels Hotel\", \"Mauna Kea Beach Hotel, Autograph Collection Autograph Collection Hotels Resort\", \"Mauna Kea Beach Hotel, Autograph Collection Autograph Collection Hotels\", \"Mauna Kea Beach Hotel, Autograph Collection Autograph Collection Hotels Waimea, Hawaii US Hotel\", \"Mauna Kea Beach Hotel, Autograph Collection Autograph Collection Hotels Waimea, Hawaii US Resort\", \"Mauna Kea Beach Hotel, Autograph Collection Autograph Collection Hotels Waimea, Hawaii US\", \"Mauna Kea Beach Hotel, Autograph Collection Hilton Hotel\", \"Mauna Kea Beach Hotel, Autograph Collection Hilton Resort\", \"Mauna Kea Beach Hotel, Autograph Collection Hilton\", \"Mauna Kea Beach Hotel, Autograph Collection Hilton Waimea, Hawaii US Hotel\", \"Mauna Kea Beach Hotel, Autograph Collection Hilton Waimea, Hawaii US Resort\", \"Mauna Kea Beach Hotel, Autograph Collection Hilton Waimea, Hawaii US\", \"Mauna Kea Beach Hotel Autograph Collection Autograph Collection Hotels Hotel\", \"Mauna Kea Beach Hotel Autograph Collection Autograph Collection Hotels Resort\", \"Mauna Kea Beach Hotel Autograph Collection Autograph Collection Hotels\", \"Mauna Kea Beach Hotel Autograph Collection Autograph Collection Hotels Waimea, Hawaii US Hotel\", \"Mauna Kea Beach Hotel Autograph Collection Autograph Collection Hotels Waimea, Hawaii US Resort\", \"Mauna Kea Beach Hotel Autograph Collection Autograph Collection Hotels Waimea, Hawaii US\", \"Mauna Kea Beach Hotel Autograph Collection Hilton Hotel\", \"Mauna Kea Beach Hotel Autograph Collection Hilton Resort\", \"Mauna Kea Beach Hotel Autograph Collection Hilton\", \"Mauna Kea Beach Hotel Autograph Collection Hilton Waimea, Hawaii US Hotel\", \"Mauna Kea Beach Hotel Autograph Collection Hilton Waimea, Hawaii US Resort\", \"Mauna Kea Beach Hotel Autograph Collection Hilton Waimea, Hawaii US\", \"Mauna Kea Beach Hotel, Autograph Collection Hotel\", \"Mauna Kea Beach Hotel, Autograph Collection Resort\", \"Mauna Kea Beach Hotel, Autograph Collection\", \"Mauna Kea Beach Hotel, Autograph Collection Waimea, Hawaii US Hotel\", \"Mauna Kea Beach Hotel, Autograph Collection Waimea, Hawaii US Resort\", \"Mauna Kea Beach Hotel, Autograph Collection Waimea, Hawaii US\"], \"v\": 3}": {
+    "lat": 20.0064,
+    "lon": -155.8243427,
+    "formatted_address": "62-100 Mauna Kea Beach Dr, Waimea, HI 96743, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJvdJuxzOHU3kRRJHAxMMCaNY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "62-100 Mauna Kea Beach Dr, Waimea, HI 96743, USA",
+      "geometry": {
+        "location": {
+          "lat": 20.0064,
+          "lng": -155.8243427
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 20.0090700802915,
+            "lng": -155.8235542197085
+          },
+          "southwest": {
+            "lat": 20.0063721197085,
+            "lng": -155.8262521802915
+          }
+        }
+      },
+      "name": "Mauna Kea Beach Hotel, Autograph Collection",
+      "place_id": "ChIJvdJuxzOHU3kRRJHAxMMCaNY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/koaak-mauna-kea-beach-hotel-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Carton House, A Fairmont Managed Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Carton House, A Fairmont Managed Hotel Fairmont Hotel\", \"Carton House, A Fairmont Managed Hotel Fairmont Resort\", \"Carton House, A Fairmont Managed Hotel Fairmont\", \"Carton House, A Fairmont Managed Hotel Fairmont Maynooth, Ireland Hotel\", \"Carton House, A Fairmont Managed Hotel Fairmont Maynooth, Ireland Resort\", \"Carton House, A Fairmont Managed Hotel Fairmont Maynooth, Ireland\", \"Carton House, A Fairmont Managed Hotel Hilton Hotel\", \"Carton House, A Fairmont Managed Hotel Hilton Resort\", \"Carton House, A Fairmont Managed Hotel Hilton\", \"Carton House, A Fairmont Managed Hotel Hilton Maynooth, Ireland Hotel\", \"Carton House, A Fairmont Managed Hotel Hilton Maynooth, Ireland Resort\", \"Carton House, A Fairmont Managed Hotel Hilton Maynooth, Ireland\", \"Carton House A Fairmont Managed Hotel Fairmont Hotel\", \"Carton House A Fairmont Managed Hotel Fairmont Resort\", \"Carton House A Fairmont Managed Hotel Fairmont\", \"Carton House A Fairmont Managed Hotel Fairmont Maynooth, Ireland Hotel\", \"Carton House A Fairmont Managed Hotel Fairmont Maynooth, Ireland Resort\", \"Carton House A Fairmont Managed Hotel Fairmont Maynooth, Ireland\", \"Carton House A Fairmont Managed Hotel Hilton Hotel\", \"Carton House A Fairmont Managed Hotel Hilton Resort\", \"Carton House A Fairmont Managed Hotel Hilton\", \"Carton House A Fairmont Managed Hotel Hilton Maynooth, Ireland Hotel\", \"Carton House A Fairmont Managed Hotel Hilton Maynooth, Ireland Resort\", \"Carton House A Fairmont Managed Hotel Hilton Maynooth, Ireland\", \"Carton House, A Fairmont Managed Hotel Hotel\", \"Carton House, A Fairmont Managed Hotel Resort\", \"Carton House, A Fairmont Managed Hotel\", \"Carton House, A Fairmont Managed Hotel Maynooth, Ireland Hotel\", \"Carton House, A Fairmont Managed Hotel Maynooth, Ireland Resort\", \"Carton House, A Fairmont Managed Hotel Maynooth, Ireland\"], \"v\": 3}": {
+    "lat": 53.3913503,
+    "lon": -6.5659842,
+    "formatted_address": "Carton House, Carton Demesne, Maynooth, Co. Kildare, W23 TD98, Ireland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJax7nWStuZ0gRb8NI-d30Pmk",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carton House, Carton Demesne, Maynooth, Co. Kildare, W23 TD98, Ireland",
+      "geometry": {
+        "location": {
+          "lat": 53.3913503,
+          "lng": -6.5659842
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 53.3929096802915,
+            "lng": -6.564595069708497
+          },
+          "southwest": {
+            "lat": 53.3902117197085,
+            "lng": -6.567293030291502
+          }
+        }
+      },
+      "name": "Carton House, A Fairmont Managed Hotel",
+      "place_id": "ChIJax7nWStuZ0gRb8NI-d30Pmk",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.cartonhouse.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Fairmont Tokyo\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fairmont Tokyo Fairmont Hotel\", \"Fairmont Tokyo Fairmont Resort\", \"Fairmont Tokyo Fairmont\", \"Fairmont Tokyo Fairmont Tokyo, Japan Hotel\", \"Fairmont Tokyo Fairmont Tokyo, Japan Resort\", \"Fairmont Tokyo Fairmont Tokyo, Japan\", \"Fairmont Tokyo Hilton Hotel\", \"Fairmont Tokyo Hilton Resort\", \"Fairmont Tokyo Hilton\", \"Fairmont Tokyo Hilton Tokyo, Japan Hotel\", \"Fairmont Tokyo Hilton Tokyo, Japan Resort\", \"Fairmont Tokyo Hilton Tokyo, Japan\", \"Fairmont Tokyo Hotel\", \"Fairmont Tokyo Resort\", \"Fairmont Tokyo\", \"Fairmont Tokyo Tokyo, Japan Hotel\", \"Fairmont Tokyo Tokyo, Japan Resort\", \"Fairmont Tokyo Tokyo, Japan\"], \"v\": 3}": {
+    "lat": 35.6510067,
+    "lon": 139.7572947,
+    "formatted_address": "BLUE FRONT SHIBAURA TOWER S, 1-chōme-1-1 Shibaura, Minato City, Tokyo 105-0023, Japan",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJkSlGdwCLGGARqWidkNS00MQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "BLUE FRONT SHIBAURA TOWER S, 1-chōme-1-1 Shibaura, Minato City, Tokyo 105-0023, Japan",
+      "geometry": {
+        "location": {
+          "lat": 35.6510067,
+          "lng": 139.7572947
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.65242893029149,
+            "lng": 139.7590459802915
+          },
+          "southwest": {
+            "lat": 35.64973096970849,
+            "lng": 139.7563480197085
+          }
+        }
+      },
+      "name": "Fairmont Tokyo",
+      "place_id": "ChIJkSlGdwCLGGARqWidkNS00MQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.fairmont.com/tokyo/?goto=fiche_hotel&code_hotel=B6R8&merchantid=seo-maps-Japan-B6R8&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Le Negresco\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Le Negresco The Leading Hotels of the World Hotel\", \"Le Negresco The Leading Hotels of the World Resort\", \"Le Negresco The Leading Hotels of the World\", \"Le Negresco The Leading Hotels of the World Nice, France Hotel\", \"Le Negresco The Leading Hotels of the World Nice, France Resort\", \"Le Negresco The Leading Hotels of the World Nice, France\", \"Le Negresco Hilton Hotel\", \"Le Negresco Hilton Resort\", \"Le Negresco Hilton\", \"Le Negresco Hilton Nice, France Hotel\", \"Le Negresco Hilton Nice, France Resort\", \"Le Negresco Hilton Nice, France\", \"Le Negresco Hotel\", \"Le Negresco Resort\", \"Le Negresco\", \"Le Negresco Nice, France Hotel\", \"Le Negresco Nice, France Resort\", \"Le Negresco Nice, France\"], \"v\": 3}": {
+    "lat": 43.6945528,
+    "lon": 7.2583297,
+    "formatted_address": "37 Prom. des Anglais, 06000 Nice, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJtzA17YPRzRIR5Lu8Yh7BihA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "37 Prom. des Anglais, 06000 Nice, France",
+      "geometry": {
+        "location": {
+          "lat": 43.6945528,
+          "lng": 7.2583297
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.6958010302915,
+            "lng": 7.259772730291502
+          },
+          "southwest": {
+            "lat": 43.6931030697085,
+            "lng": 7.257074769708497
+          }
+        }
+      },
+      "name": "Le Negresco",
+      "place_id": "ChIJtzA17YPRzRIR5Lu8Yh7BihA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.lenegresco.com/"
     }
   }
 }
