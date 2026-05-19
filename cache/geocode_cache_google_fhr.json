@@ -29066,48 +29066,6 @@
       "website": "https://www.langhamhotels.com/en/the-langham/chicago/?utm_campaign=tlchi&utm_medium=organic+&utm_source=yext&utm_content=na&utm_id=google_hotel_ads_profile_en_20220628&y_source=1_MTAwNjI1OTUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
-  "{\"brand\": \"Langham Hotels and Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Langham Hong Kong Langham Hotels and Resorts Hotel\", \"Langham Hong Kong Langham Hotels and Resorts Resort\", \"Langham Hong Kong Langham Hotels and Resorts\", \"Langham Hong Kong Langham Hotels and Resorts Hong Kong, China Hotel\", \"Langham Hong Kong Langham Hotels and Resorts Hong Kong, China Resort\", \"Langham Hong Kong Langham Hotels and Resorts Hong Kong, China\", \"Langham Hong Kong Hilton Hotel\", \"Langham Hong Kong Hilton Resort\", \"Langham Hong Kong Hilton\", \"Langham Hong Kong Hilton Hong Kong, China Hotel\", \"Langham Hong Kong Hilton Hong Kong, China Resort\", \"Langham Hong Kong Hilton Hong Kong, China\", \"The Langham, Hong Kong Langham Hotels and Resorts Hotel\", \"The Langham, Hong Kong Langham Hotels and Resorts Resort\", \"The Langham, Hong Kong Langham Hotels and Resorts\", \"The Langham, Hong Kong Langham Hotels and Resorts Hong Kong, China Hotel\", \"The Langham, Hong Kong Langham Hotels and Resorts Hong Kong, China Resort\", \"The Langham, Hong Kong Langham Hotels and Resorts Hong Kong, China\", \"The Langham, Hong Kong Hilton Hotel\", \"The Langham, Hong Kong Hilton Resort\", \"The Langham, Hong Kong Hilton\", \"The Langham, Hong Kong Hilton Hong Kong, China Hotel\", \"The Langham, Hong Kong Hilton Hong Kong, China Resort\", \"The Langham, Hong Kong Hilton Hong Kong, China\", \"The Langham, Hong Kong Hotel\", \"The Langham, Hong Kong Resort\", \"The Langham, Hong Kong\", \"The Langham, Hong Kong Hong Kong, China Hotel\", \"The Langham, Hong Kong Hong Kong, China Resort\", \"The Langham, Hong Kong Hong Kong, China\"], \"v\": 3}": {
-    "lat": 22.2963977,
-    "lon": 114.1697461,
-    "formatted_address": "8 Peking Rd, Tsim Sha Tsui, Hong Kong",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCWhLAYYBBDQRfJBPDl_JtJ0",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "8 Peking Rd, Tsim Sha Tsui, Hong Kong",
-      "geometry": {
-        "location": {
-          "lat": 22.2963977,
-          "lng": 114.1697461
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 22.2976582802915,
-            "lng": 114.1710882802915
-          },
-          "southwest": {
-            "lat": 22.29496031970849,
-            "lng": 114.1683903197085
-          }
-        }
-      },
-      "name": "The Langham, Hong Kong",
-      "place_id": "ChIJCWhLAYYBBDQRfJBPDl_JtJ0",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://www.langhamhotels.com/en/the-langham/hong-kong/?htl=tlhkg&src=organic&eng=google&size=na&cid=yext_profile&y_source=1_MTA0MjQ3MDktNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
-    }
-  },
   "{\"brand\": \"Langham Hotels and Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Langham Jakarta Langham Hotels and Resorts Hotel\", \"The Langham Jakarta Langham Hotels and Resorts Resort\", \"The Langham Jakarta Langham Hotels and Resorts\", \"The Langham Jakarta Langham Hotels and Resorts Jakarta, Indonesia Hotel\", \"The Langham Jakarta Langham Hotels and Resorts Jakarta, Indonesia Resort\", \"The Langham Jakarta Langham Hotels and Resorts Jakarta, Indonesia\", \"The Langham Jakarta Hilton Hotel\", \"The Langham Jakarta Hilton Resort\", \"The Langham Jakarta Hilton\", \"The Langham Jakarta Hilton Jakarta, Indonesia Hotel\", \"The Langham Jakarta Hilton Jakarta, Indonesia Resort\", \"The Langham Jakarta Hilton Jakarta, Indonesia\", \"The Langham, Jakarta Langham Hotels and Resorts Hotel\", \"The Langham, Jakarta Langham Hotels and Resorts Resort\", \"The Langham, Jakarta Langham Hotels and Resorts\", \"The Langham, Jakarta Langham Hotels and Resorts Jakarta, Indonesia Hotel\", \"The Langham, Jakarta Langham Hotels and Resorts Jakarta, Indonesia Resort\", \"The Langham, Jakarta Langham Hotels and Resorts Jakarta, Indonesia\", \"The Langham, Jakarta Hilton Hotel\", \"The Langham, Jakarta Hilton Resort\", \"The Langham, Jakarta Hilton\", \"The Langham, Jakarta Hilton Jakarta, Indonesia Hotel\", \"The Langham, Jakarta Hilton Jakarta, Indonesia Resort\", \"The Langham, Jakarta Hilton Jakarta, Indonesia\", \"The Langham, Jakarta Hotel\", \"The Langham, Jakarta Resort\", \"The Langham, Jakarta\", \"The Langham, Jakarta Jakarta, Indonesia Hotel\", \"The Langham, Jakarta Jakarta, Indonesia Resort\", \"The Langham, Jakarta Jakarta, Indonesia\"], \"v\": 3}": {
     "lat": -6.2273812,
     "lon": 106.8067669,
@@ -92980,48 +92938,6 @@
       "website": "https://www.langhamhotels.com/en/the-langham/chicago/?utm_campaign=tlchi&utm_medium=organic+&utm_source=yext&utm_content=na&utm_id=google_hotel_ads_profile_en_20220628&y_source=1_MTAwNjI1OTUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
-  "{\"brand\": \"Langham Hotels and Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Langham, Hong Kong Langham Hotels and Resorts Hotel\", \"The Langham, Hong Kong Langham Hotels and Resorts Resort\", \"The Langham, Hong Kong Langham Hotels and Resorts\", \"The Langham, Hong Kong Langham Hotels and Resorts Hong Kong, China Hotel\", \"The Langham, Hong Kong Langham Hotels and Resorts Hong Kong, China Resort\", \"The Langham, Hong Kong Langham Hotels and Resorts Hong Kong, China\", \"The Langham, Hong Kong Hilton Hotel\", \"The Langham, Hong Kong Hilton Resort\", \"The Langham, Hong Kong Hilton\", \"The Langham, Hong Kong Hilton Hong Kong, China Hotel\", \"The Langham, Hong Kong Hilton Hong Kong, China Resort\", \"The Langham, Hong Kong Hilton Hong Kong, China\", \"Langham Hong Kong Langham Hotels and Resorts Hotel\", \"Langham Hong Kong Langham Hotels and Resorts Resort\", \"Langham Hong Kong Langham Hotels and Resorts\", \"Langham Hong Kong Langham Hotels and Resorts Hong Kong, China Hotel\", \"Langham Hong Kong Langham Hotels and Resorts Hong Kong, China Resort\", \"Langham Hong Kong Langham Hotels and Resorts Hong Kong, China\", \"Langham Hong Kong Hilton Hotel\", \"Langham Hong Kong Hilton Resort\", \"Langham Hong Kong Hilton\", \"Langham Hong Kong Hilton Hong Kong, China Hotel\", \"Langham Hong Kong Hilton Hong Kong, China Resort\", \"Langham Hong Kong Hilton Hong Kong, China\", \"The Langham, Hong Kong Hotel\", \"The Langham, Hong Kong Resort\", \"The Langham, Hong Kong\", \"The Langham, Hong Kong Hong Kong, China Hotel\", \"The Langham, Hong Kong Hong Kong, China Resort\", \"The Langham, Hong Kong Hong Kong, China\"], \"v\": 3}": {
-    "lat": 22.2963977,
-    "lon": 114.1697461,
-    "formatted_address": "8 Peking Rd, Tsim Sha Tsui, Hong Kong",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCWhLAYYBBDQRfJBPDl_JtJ0",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "8 Peking Rd, Tsim Sha Tsui, Hong Kong",
-      "geometry": {
-        "location": {
-          "lat": 22.2963977,
-          "lng": 114.1697461
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 22.2976582802915,
-            "lng": 114.1710882802915
-          },
-          "southwest": {
-            "lat": 22.29496031970849,
-            "lng": 114.1683903197085
-          }
-        }
-      },
-      "name": "The Langham, Hong Kong",
-      "place_id": "ChIJCWhLAYYBBDQRfJBPDl_JtJ0",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://www.langhamhotels.com/en/the-langham/hong-kong/?htl=tlhkg&src=organic&eng=google&size=na&cid=yext_profile&y_source=1_MTA0MjQ3MDktNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
-    }
-  },
   "{\"brand\": \"Langham Hotels and Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Langham, Jakarta Langham Hotels and Resorts Hotel\", \"The Langham, Jakarta Langham Hotels and Resorts Resort\", \"The Langham, Jakarta Langham Hotels and Resorts\", \"The Langham, Jakarta Langham Hotels and Resorts Jakarta, Indonesia Hotel\", \"The Langham, Jakarta Langham Hotels and Resorts Jakarta, Indonesia Resort\", \"The Langham, Jakarta Langham Hotels and Resorts Jakarta, Indonesia\", \"The Langham, Jakarta Hilton Hotel\", \"The Langham, Jakarta Hilton Resort\", \"The Langham, Jakarta Hilton\", \"The Langham, Jakarta Hilton Jakarta, Indonesia Hotel\", \"The Langham, Jakarta Hilton Jakarta, Indonesia Resort\", \"The Langham, Jakarta Hilton Jakarta, Indonesia\", \"The Langham Jakarta Langham Hotels and Resorts Hotel\", \"The Langham Jakarta Langham Hotels and Resorts Resort\", \"The Langham Jakarta Langham Hotels and Resorts\", \"The Langham Jakarta Langham Hotels and Resorts Jakarta, Indonesia Hotel\", \"The Langham Jakarta Langham Hotels and Resorts Jakarta, Indonesia Resort\", \"The Langham Jakarta Langham Hotels and Resorts Jakarta, Indonesia\", \"The Langham Jakarta Hilton Hotel\", \"The Langham Jakarta Hilton Resort\", \"The Langham Jakarta Hilton\", \"The Langham Jakarta Hilton Jakarta, Indonesia Hotel\", \"The Langham Jakarta Hilton Jakarta, Indonesia Resort\", \"The Langham Jakarta Hilton Jakarta, Indonesia\", \"The Langham, Jakarta Hotel\", \"The Langham, Jakarta Resort\", \"The Langham, Jakarta\", \"The Langham, Jakarta Jakarta, Indonesia Hotel\", \"The Langham, Jakarta Jakarta, Indonesia Resort\", \"The Langham, Jakarta Jakarta, Indonesia\"], \"v\": 3}": {
     "lat": -6.2273812,
     "lon": 106.8067669,
@@ -130435,12 +130351,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 29.76149999999999,
-    "lon": -95.3648,
-    "formatted_address": "701 Texas Ave, Houston, TX 77002, USA",
+    "lat": 34.7012112,
+    "lon": -118.171488,
+    "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJpXTqeDC_QIYRWTBSOg3rarM",
+    "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
     "types": [
       "establishment",
       "lodging",
@@ -130449,31 +130365,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "701 Texas Ave, Houston, TX 77002, USA",
+      "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
       "geometry": {
         "location": {
-          "lat": 29.76149999999999,
-          "lng": -95.3648
+          "lat": 34.7012112,
+          "lng": -118.171488
         },
         "viewport": {
           "northeast": {
-            "lat": 29.7627978302915,
-            "lng": -95.36351171970851
+            "lat": 34.7024083302915,
+            "lng": -118.1697845197085
           },
           "southwest": {
-            "lat": 29.7600998697085,
-            "lng": -95.36620968029152
+            "lat": 34.6997103697085,
+            "lng": -118.1724824802915
           }
         }
       },
-      "name": "The Lancaster Hotel",
-      "place_id": "ChIJpXTqeDC_QIYRWTBSOg3rarM",
+      "name": "Hampton Inn & Suites Lancaster",
+      "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://thelancaster.com/"
+      "website": "https://www.hilton.com/en/hotels/pdllchx-hampton-suites-lancaster/?SEO_id=GMB-AMER-HX-PDLLCHX&y_source=1_MjA4MzE4Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -145316,12 +145232,12 @@
         },
         "viewport": {
           "northeast": {
-            "lat": 41.0358718802915,
-            "lng": 28.96287153029149
+            "lat": 41.03566088029149,
+            "lng": 28.96260218029149
           },
           "southwest": {
-            "lat": 41.0331739197085,
-            "lng": 28.96017356970849
+            "lat": 41.0329629197085,
+            "lng": 28.95990421970849
           }
         }
       },
@@ -156758,48 +156674,6 @@
         "point_of_interest"
       ],
       "website": "https://www.langhamhotels.com/en/the-langham/chicago/?utm_campaign=tlchi&utm_medium=organic+&utm_source=yext&utm_content=na&utm_id=google_hotel_ads_profile_en_20220628&y_source=1_MTAwNjI1OTUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
-    }
-  },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Langham, Hong Kong\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Langham, Hong Kong Langham Hotels and Resorts Hotel\", \"The Langham, Hong Kong Langham Hotels and Resorts Resort\", \"The Langham, Hong Kong Langham Hotels and Resorts\", \"The Langham, Hong Kong Langham Hotels and Resorts Hong Kong, China Hotel\", \"The Langham, Hong Kong Langham Hotels and Resorts Hong Kong, China Resort\", \"The Langham, Hong Kong Langham Hotels and Resorts Hong Kong, China\", \"The Langham, Hong Kong Hilton Hotel\", \"The Langham, Hong Kong Hilton Resort\", \"The Langham, Hong Kong Hilton\", \"The Langham, Hong Kong Hilton Hong Kong, China Hotel\", \"The Langham, Hong Kong Hilton Hong Kong, China Resort\", \"The Langham, Hong Kong Hilton Hong Kong, China\", \"Langham Hong Kong Langham Hotels and Resorts Hotel\", \"Langham Hong Kong Langham Hotels and Resorts Resort\", \"Langham Hong Kong Langham Hotels and Resorts\", \"Langham Hong Kong Langham Hotels and Resorts Hong Kong, China Hotel\", \"Langham Hong Kong Langham Hotels and Resorts Hong Kong, China Resort\", \"Langham Hong Kong Langham Hotels and Resorts Hong Kong, China\", \"Langham Hong Kong Hilton Hotel\", \"Langham Hong Kong Hilton Resort\", \"Langham Hong Kong Hilton\", \"Langham Hong Kong Hilton Hong Kong, China Hotel\", \"Langham Hong Kong Hilton Hong Kong, China Resort\", \"Langham Hong Kong Hilton Hong Kong, China\", \"The Langham, Hong Kong Hotel\", \"The Langham, Hong Kong Resort\", \"The Langham, Hong Kong\", \"The Langham, Hong Kong Hong Kong, China Hotel\", \"The Langham, Hong Kong Hong Kong, China Resort\", \"The Langham, Hong Kong Hong Kong, China\"], \"v\": 3}": {
-    "lat": 22.2963977,
-    "lon": 114.1697461,
-    "formatted_address": "8 Peking Rd, Tsim Sha Tsui, Hong Kong",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCWhLAYYBBDQRfJBPDl_JtJ0",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "8 Peking Rd, Tsim Sha Tsui, Hong Kong",
-      "geometry": {
-        "location": {
-          "lat": 22.2963977,
-          "lng": 114.1697461
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 22.2976582802915,
-            "lng": 114.1710882802915
-          },
-          "southwest": {
-            "lat": 22.29496031970849,
-            "lng": 114.1683903197085
-          }
-        }
-      },
-      "name": "The Langham, Hong Kong",
-      "place_id": "ChIJCWhLAYYBBDQRfJBPDl_JtJ0",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://www.langhamhotels.com/en/the-langham/hong-kong/?htl=tlhkg&src=organic&eng=google&size=na&cid=yext_profile&y_source=1_MTA0MjQ3MDktNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Langham, Jakarta\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Langham, Jakarta Langham Hotels and Resorts Hotel\", \"The Langham, Jakarta Langham Hotels and Resorts Resort\", \"The Langham, Jakarta Langham Hotels and Resorts\", \"The Langham, Jakarta Langham Hotels and Resorts Jakarta, Indonesia Hotel\", \"The Langham, Jakarta Langham Hotels and Resorts Jakarta, Indonesia Resort\", \"The Langham, Jakarta Langham Hotels and Resorts Jakarta, Indonesia\", \"The Langham, Jakarta Hilton Hotel\", \"The Langham, Jakarta Hilton Resort\", \"The Langham, Jakarta Hilton\", \"The Langham, Jakarta Hilton Jakarta, Indonesia Hotel\", \"The Langham, Jakarta Hilton Jakarta, Indonesia Resort\", \"The Langham, Jakarta Hilton Jakarta, Indonesia\", \"The Langham Jakarta Langham Hotels and Resorts Hotel\", \"The Langham Jakarta Langham Hotels and Resorts Resort\", \"The Langham Jakarta Langham Hotels and Resorts\", \"The Langham Jakarta Langham Hotels and Resorts Jakarta, Indonesia Hotel\", \"The Langham Jakarta Langham Hotels and Resorts Jakarta, Indonesia Resort\", \"The Langham Jakarta Langham Hotels and Resorts Jakarta, Indonesia\", \"The Langham Jakarta Hilton Hotel\", \"The Langham Jakarta Hilton Resort\", \"The Langham Jakarta Hilton\", \"The Langham Jakarta Hilton Jakarta, Indonesia Hotel\", \"The Langham Jakarta Hilton Jakarta, Indonesia Resort\", \"The Langham Jakarta Hilton Jakarta, Indonesia\", \"The Langham, Jakarta Hotel\", \"The Langham, Jakarta Resort\", \"The Langham, Jakarta\", \"The Langham, Jakarta Jakarta, Indonesia Hotel\", \"The Langham, Jakarta Jakarta, Indonesia Resort\", \"The Langham, Jakarta Jakarta, Indonesia\"], \"v\": 3}": {
@@ -192032,12 +191906,12 @@
         },
         "viewport": {
           "northeast": {
-            "lat": 50.0885079802915,
-            "lng": 14.4326734302915
+            "lat": 50.0885082302915,
+            "lng": 14.4327027302915
           },
           "southwest": {
-            "lat": 50.0858100197085,
-            "lng": 14.4299754697085
+            "lat": 50.0858102697085,
+            "lng": 14.4300047697085
           }
         }
       },
@@ -196230,12 +196104,12 @@
         },
         "viewport": {
           "northeast": {
-            "lat": 41.0170803802915,
-            "lng": 28.97605638029149
+            "lat": 41.0171251302915,
+            "lng": 28.9761560802915
           },
           "southwest": {
-            "lat": 41.0143824197085,
-            "lng": 28.9733584197085
+            "lat": 41.0144271697085,
+            "lng": 28.9734581197085
           }
         }
       },
@@ -208633,6 +208507,49 @@
         "point_of_interest"
       ],
       "website": "https://www.lenegresco.com/"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Mashpi Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mashpi Lodge\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Mashpi Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mashpi Lodge Hotel\", \"Mashpi Lodge Resort\", \"Mashpi Lodge\", \"Mashpi Lodge Pacto, Ecuador Hotel\", \"Mashpi Lodge Pacto, Ecuador Resort\", \"Mashpi Lodge Pacto, Ecuador\"], \"v\": 3}": {
+    "lat": 0.1659857,
+    "lon": -78.8782851,
+    "formatted_address": "Reserva Privada Mashpi, 150150 Mashpi, Ecuador",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJd7Id9nyHKo4RN_3HkslOUNM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Reserva Privada Mashpi, 150150 Mashpi, Ecuador",
+      "geometry": {
+        "location": {
+          "lat": 0.1659857,
+          "lng": -78.8782851
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 0.167334680291502,
+            "lng": -78.8769361197085
+          },
+          "southwest": {
+            "lat": 0.164636719708498,
+            "lng": -78.87963408029151
+          }
+        }
+      },
+      "name": "Mashpi Lodge",
+      "place_id": "ChIJd7Id9nyHKo4RN_3HkslOUNM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.mashpilodge.com/"
     }
   }
 }

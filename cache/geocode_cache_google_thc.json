@@ -99524,12 +99524,12 @@
         },
         "viewport": {
           "northeast": {
-            "lat": 50.0814545302915,
-            "lng": 14.4275578302915
+            "lat": 50.0814044802915,
+            "lng": 14.4275355802915
           },
           "southwest": {
-            "lat": 50.0787565697085,
-            "lng": 14.4248598697085
+            "lat": 50.0787065197085,
+            "lng": 14.4248376197085
           }
         }
       },
@@ -152378,6 +152378,239 @@
         "spa"
       ],
       "website": "https://royalsavoylausanne.com/fr?utm_source=google.com&utm_medium=referral&utm_campaign=gmb"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"La Valise Mazunte\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Valise Mazunte\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Secrets Akumal Riviera Maya\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Secrets Akumal Riviera Maya\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Esh Hotel & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Esh Hotel & Spa\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hospes Puerta de Alcala\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hospes Puerta de Alcala\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Desa Potato Head Bali\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Desa Potato Head Bali\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"InterContinental Chiang Mai The Mae Ping\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Chiang Mai The Mae Ping\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Desa Potato Head Bali\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Desa Potato Head Bali Hotel\", \"Desa Potato Head Bali Resort\", \"Desa Potato Head Bali\", \"Desa Potato Head Bali Badung, Indonesia Hotel\", \"Desa Potato Head Bali Badung, Indonesia Resort\", \"Desa Potato Head Bali Badung, Indonesia\"], \"v\": 3}": {
+    "lat": -8.6790217,
+    "lon": 115.1509365,
+    "formatted_address": "Jl. Petitenget No.51B, Seminyak, Kec. Kuta Utara, Kabupaten Badung, Bali 80361, Indonesia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ4f9QNY9H0i0REbMfgG5iI18",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Jl. Petitenget No.51B, Seminyak, Kec. Kuta Utara, Kabupaten Badung, Bali 80361, Indonesia",
+      "geometry": {
+        "location": {
+          "lat": -8.6790217,
+          "lng": 115.1509365
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -8.677790169708498,
+            "lng": 115.1525357302915
+          },
+          "southwest": {
+            "lat": -8.680488130291502,
+            "lng": 115.1498377697085
+          }
+        }
+      },
+      "name": "Desa Potato Head Bali",
+      "place_id": "ChIJ4f9QNY9H0i0REbMfgG5iI18",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://seminyak.potatohead.co/sleep?utm_source=google&utm_medium=gmb&utm_campaign=gmb_desa-potato-head&utm_term=creative-village&utm_content=landing-page"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hospes Puerta de Alcala\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hospes Puerta de Alcala Design Hotels Hotel\", \"Hospes Puerta de Alcala Design Hotels Resort\", \"Hospes Puerta de Alcala Design Hotels\", \"Hospes Puerta de Alcala Design Hotels Madrid, Spain Hotel\", \"Hospes Puerta de Alcala Design Hotels Madrid, Spain Resort\", \"Hospes Puerta de Alcala Design Hotels Madrid, Spain\", \"Hospes Puerta de Alcala Hilton Hotel\", \"Hospes Puerta de Alcala Hilton Resort\", \"Hospes Puerta de Alcala Hilton\", \"Hospes Puerta de Alcala Hilton Madrid, Spain Hotel\", \"Hospes Puerta de Alcala Hilton Madrid, Spain Resort\", \"Hospes Puerta de Alcala Hilton Madrid, Spain\", \"Hospes Puerta De Alcala Design Hotels Hotel\", \"Hospes Puerta De Alcala Design Hotels Resort\", \"Hospes Puerta De Alcala Design Hotels\", \"Hospes Puerta De Alcala Design Hotels Madrid, Spain Hotel\", \"Hospes Puerta De Alcala Design Hotels Madrid, Spain Resort\", \"Hospes Puerta De Alcala Design Hotels Madrid, Spain\", \"Hospes Puerta De Alcala Hilton Hotel\", \"Hospes Puerta De Alcala Hilton Resort\", \"Hospes Puerta De Alcala Hilton\", \"Hospes Puerta De Alcala Hilton Madrid, Spain Hotel\", \"Hospes Puerta De Alcala Hilton Madrid, Spain Resort\", \"Hospes Puerta De Alcala Hilton Madrid, Spain\", \"Hospes Puerta de Alcala Hotel\", \"Hospes Puerta de Alcala Resort\", \"Hospes Puerta de Alcala\", \"Hospes Puerta de Alcala Madrid, Spain Hotel\", \"Hospes Puerta de Alcala Madrid, Spain Resort\", \"Hospes Puerta de Alcala Madrid, Spain\"], \"v\": 3}": {
+    "lat": 40.4206199,
+    "lon": -3.6892813,
+    "formatted_address": "Pl. de la Independencia, 3, Salamanca, 28001 Madrid, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ6ZjCSpooQg0RkGtrp-n0exY",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Pl. de la Independencia, 3, Salamanca, 28001 Madrid, Spain",
+      "geometry": {
+        "location": {
+          "lat": 40.4206199,
+          "lng": -3.6892813
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.42181178029149,
+            "lng": -3.687776869708498
+          },
+          "southwest": {
+            "lat": 40.41911381970849,
+            "lng": -3.690474830291502
+          }
+        }
+      },
+      "name": "Hospes Puerta de Alcalá",
+      "place_id": "ChIJ6ZjCSpooQg0RkGtrp-n0exY",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.hospes.com/es/puerta-alcala/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Esh Hotel & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Esh Hotel & Spa Design Hotels Hotel\", \"Esh Hotel & Spa Design Hotels Resort\", \"Esh Hotel & Spa Design Hotels\", \"Esh Hotel & Spa Design Hotels Nosara, Costa Rica Hotel\", \"Esh Hotel & Spa Design Hotels Nosara, Costa Rica Resort\", \"Esh Hotel & Spa Design Hotels Nosara, Costa Rica\", \"Esh Hotel & Spa Hilton Hotel\", \"Esh Hotel & Spa Hilton Resort\", \"Esh Hotel & Spa Hilton\", \"Esh Hotel & Spa Hilton Nosara, Costa Rica Hotel\", \"Esh Hotel & Spa Hilton Nosara, Costa Rica Resort\", \"Esh Hotel & Spa Hilton Nosara, Costa Rica\", \"Esh Hotel Spa Design Hotels Hotel\", \"Esh Hotel Spa Design Hotels Resort\", \"Esh Hotel Spa Design Hotels\", \"Esh Hotel Spa Design Hotels Nosara, Costa Rica Hotel\", \"Esh Hotel Spa Design Hotels Nosara, Costa Rica Resort\", \"Esh Hotel Spa Design Hotels Nosara, Costa Rica\", \"Esh Hotel Spa Hilton Hotel\", \"Esh Hotel Spa Hilton Resort\", \"Esh Hotel Spa Hilton\", \"Esh Hotel Spa Hilton Nosara, Costa Rica Hotel\", \"Esh Hotel Spa Hilton Nosara, Costa Rica Resort\", \"Esh Hotel Spa Hilton Nosara, Costa Rica\", \"Esh Hotel & Spa Hotel\", \"Esh Hotel & Spa Resort\", \"Esh Hotel & Spa\", \"Esh Hotel & Spa Nosara, Costa Rica Hotel\", \"Esh Hotel & Spa Nosara, Costa Rica Resort\", \"Esh Hotel & Spa Nosara, Costa Rica\"], \"v\": 3}": {
+    "status": "NO_RESULT"
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Secrets Akumal Riviera Maya\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Secrets Akumal Riviera Maya Hyatt Hotel\", \"Secrets Akumal Riviera Maya Hyatt Resort\", \"Secrets Akumal Riviera Maya Hyatt\", \"Secrets Akumal Riviera Maya Hyatt Akumal, Quintana Roo MX Hotel\", \"Secrets Akumal Riviera Maya Hyatt Akumal, Quintana Roo MX Resort\", \"Secrets Akumal Riviera Maya Hyatt Akumal, Quintana Roo MX\", \"Secrets Akumal Riviera Maya Hilton Hotel\", \"Secrets Akumal Riviera Maya Hilton Resort\", \"Secrets Akumal Riviera Maya Hilton\", \"Secrets Akumal Riviera Maya Hilton Akumal, Quintana Roo MX Hotel\", \"Secrets Akumal Riviera Maya Hilton Akumal, Quintana Roo MX Resort\", \"Secrets Akumal Riviera Maya Hilton Akumal, Quintana Roo MX\", \"Secrets Akumal Riviera Maya Hotel\", \"Secrets Akumal Riviera Maya Resort\", \"Secrets Akumal Riviera Maya\", \"Secrets Akumal Riviera Maya Akumal, Quintana Roo MX Hotel\", \"Secrets Akumal Riviera Maya Akumal, Quintana Roo MX Resort\", \"Secrets Akumal Riviera Maya Akumal, Quintana Roo MX\"], \"v\": 3}": {
+    "lat": 20.3961554,
+    "lon": -87.3207343,
+    "formatted_address": "México 307 Km 254-+ 600, 77760 Akumal, Q.R., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ6QSPK-czTo8RtGxnEVpyP_A",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "México 307 Km 254-+ 600, 77760 Akumal, Q.R., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 20.3961554,
+          "lng": -87.3207343
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 20.3975688802915,
+            "lng": -87.31934861970849
+          },
+          "southwest": {
+            "lat": 20.3948709197085,
+            "lng": -87.3220465802915
+          }
+        }
+      },
+      "name": "Secrets Akumal Riviera Maya",
+      "place_id": "ChIJ6QSPK-czTo8RtGxnEVpyP_A",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyattinclusivecollection.com/en/resorts-hotels/secrets/mexico/akumal-riviera-maya/?src=corp_lclb_google_seo_searm&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"InterContinental Chiang Mai The Mae Ping\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Chiang Mai The Mae Ping IHG Hotels & Resorts Hotel\", \"InterContinental Chiang Mai The Mae Ping IHG Hotels & Resorts Resort\", \"InterContinental Chiang Mai The Mae Ping IHG Hotels & Resorts\", \"InterContinental Chiang Mai The Mae Ping IHG Hotels & Resorts Chiang Mai, Thailand Hotel\", \"InterContinental Chiang Mai The Mae Ping IHG Hotels & Resorts Chiang Mai, Thailand Resort\", \"InterContinental Chiang Mai The Mae Ping IHG Hotels & Resorts Chiang Mai, Thailand\", \"InterContinental Chiang Mai The Mae Ping Hilton Hotel\", \"InterContinental Chiang Mai The Mae Ping Hilton Resort\", \"InterContinental Chiang Mai The Mae Ping Hilton\", \"InterContinental Chiang Mai The Mae Ping Hilton Chiang Mai, Thailand Hotel\", \"InterContinental Chiang Mai The Mae Ping Hilton Chiang Mai, Thailand Resort\", \"InterContinental Chiang Mai The Mae Ping Hilton Chiang Mai, Thailand\", \"Intercontinental Chiang Mai Mae Ping IHG Hotels & Resorts Hotel\", \"Intercontinental Chiang Mai Mae Ping IHG Hotels & Resorts Resort\", \"Intercontinental Chiang Mai Mae Ping IHG Hotels & Resorts\", \"Intercontinental Chiang Mai Mae Ping IHG Hotels & Resorts Chiang Mai, Thailand Hotel\", \"Intercontinental Chiang Mai Mae Ping IHG Hotels & Resorts Chiang Mai, Thailand Resort\", \"Intercontinental Chiang Mai Mae Ping IHG Hotels & Resorts Chiang Mai, Thailand\", \"Intercontinental Chiang Mai Mae Ping Hilton Hotel\", \"Intercontinental Chiang Mai Mae Ping Hilton Resort\", \"Intercontinental Chiang Mai Mae Ping Hilton\", \"Intercontinental Chiang Mai Mae Ping Hilton Chiang Mai, Thailand Hotel\", \"Intercontinental Chiang Mai Mae Ping Hilton Chiang Mai, Thailand Resort\", \"Intercontinental Chiang Mai Mae Ping Hilton Chiang Mai, Thailand\", \"InterContinental Chiang Mai The Mae Ping Hotel\", \"InterContinental Chiang Mai The Mae Ping Resort\", \"InterContinental Chiang Mai The Mae Ping\", \"InterContinental Chiang Mai The Mae Ping Chiang Mai, Thailand Hotel\", \"InterContinental Chiang Mai The Mae Ping Chiang Mai, Thailand Resort\", \"InterContinental Chiang Mai The Mae Ping Chiang Mai, Thailand\"], \"v\": 3}": {
+    "lat": 18.78291,
+    "lon": 98.99801,
+    "formatted_address": "153 Sridonchai Rd, Tambon Chang Khlan, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50100, Thailand",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ1_yvEys72jARKyMakNIdEAM",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "153 Sridonchai Rd, Tambon Chang Khlan, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50100, Thailand",
+      "geometry": {
+        "location": {
+          "lat": 18.78291,
+          "lng": 98.99801
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 18.7840763302915,
+            "lng": 98.99957883029151
+          },
+          "southwest": {
+            "lat": 18.7813783697085,
+            "lng": 98.99688086970849
+          }
+        }
+      },
+      "name": "InterContinental Chiang Mai the Mae Ping by IHG",
+      "place_id": "ChIJ1_yvEys72jARKyMakNIdEAM",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.ihg.com/intercontinental/hotels/us/en/chiang-mai/cnxwc/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-TH-_-CNXWC"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"La Valise Mazunte\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Valise Mazunte Small Luxury Hotels of the World Hotel\", \"La Valise Mazunte Small Luxury Hotels of the World Resort\", \"La Valise Mazunte Small Luxury Hotels of the World\", \"La Valise Mazunte Small Luxury Hotels of the World Mazunte, Oaxaca MX Hotel\", \"La Valise Mazunte Small Luxury Hotels of the World Mazunte, Oaxaca MX Resort\", \"La Valise Mazunte Small Luxury Hotels of the World Mazunte, Oaxaca MX\", \"La Valise Mazunte Hilton Hotel\", \"La Valise Mazunte Hilton Resort\", \"La Valise Mazunte Hilton\", \"La Valise Mazunte Hilton Mazunte, Oaxaca MX Hotel\", \"La Valise Mazunte Hilton Mazunte, Oaxaca MX Resort\", \"La Valise Mazunte Hilton Mazunte, Oaxaca MX\", \"La Valise Mazunte Hotel\", \"La Valise Mazunte Resort\", \"La Valise Mazunte\", \"La Valise Mazunte Mazunte, Oaxaca MX Hotel\", \"La Valise Mazunte Mazunte, Oaxaca MX Resort\", \"La Valise Mazunte Mazunte, Oaxaca MX\"], \"v\": 3}": {
+    "lat": 15.6704718,
+    "lon": -96.57298279999999,
+    "formatted_address": "Reserva El Toron, 70947 Mazunte, Oax., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJR0eT2i4puYURb0EwZmABrUI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Reserva El Toron, 70947 Mazunte, Oax., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 15.6704718,
+          "lng": -96.57298279999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 15.6718677802915,
+            "lng": -96.5716508197085
+          },
+          "southwest": {
+            "lat": 15.66916981970849,
+            "lng": -96.57434878029152
+          }
+        }
+      },
+      "name": "La Valise Mazunte",
+      "place_id": "ChIJR0eT2i4puYURb0EwZmABrUI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.lavalisemazunte.com/"
     }
   }
 }
