@@ -24446,5 +24446,99 @@
       ],
       "website": "https://www.hilton.com/en/hotels/flldhsa-signia-diplomat-beach-resort/?SEO_id=GMB-AMER-SA-FLLDHSA&y_source=1_MjA1OTUxODA5My03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
+  },
+  "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"LXR Hotels & Resorts\", \"hotel_name\": \"Imperial Hotel Gold Coast\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Imperial Hotel Gold Coast\"], \"v\": 3}": null,
+  "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton Curio Collection by Hilton\", \"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton Hilton Hotel\", \"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton Hilton Resort\", \"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton Hilton\", \"herniqq numo ierapetra beach resort crete Curio Collection by Hilton Hotel\", \"herniqq numo ierapetra beach resort crete Curio Collection by Hilton Resort\", \"herniqq numo ierapetra beach resort crete Curio Collection by Hilton\", \"herniqq numo ierapetra beach resort crete Hilton Hotel\", \"herniqq numo ierapetra beach resort crete Hilton Resort\", \"herniqq numo ierapetra beach resort crete Hilton\", \"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton Hotel\", \"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton Resort\", \"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton\"], \"v\": 3}": {
+    "lat": 35.0009193,
+    "lon": 25.797554,
+    "formatted_address": "Epar.Od. Ierapetras - Sitias, Ierapetra 722 00, Greece",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJc_yCzsxjkBQR0cMvyvVj1v8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Epar.Od. Ierapetras - Sitias, Ierapetra 722 00, Greece",
+      "geometry": {
+        "location": {
+          "lat": 35.0009193,
+          "lng": 25.797554
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.0022579802915,
+            "lng": 25.7988660302915
+          },
+          "southwest": {
+            "lat": 34.9995600197085,
+            "lng": 25.7961680697085
+          }
+        }
+      },
+      "name": "Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton",
+      "place_id": "ChIJc_yCzsxjkBQR0cMvyvVj1v8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/herniqq-numo-ierapetra-beach-resort-crete/?SEO_id=GMB-EMEA-QQ-HERNIQQ"
+    }
+  },
+  "{\"brand\": \"LXR Hotels & Resorts\", \"hotel_name\": \"Imperial Hotel Gold Coast\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Imperial Hotel Gold Coast LXR Hotels & Resorts Hotel\", \"Imperial Hotel Gold Coast LXR Hotels & Resorts Resort\", \"Imperial Hotel Gold Coast LXR Hotels & Resorts\", \"Imperial Hotel Gold Coast Hilton Hotel\", \"Imperial Hotel Gold Coast Hilton Resort\", \"Imperial Hotel Gold Coast Hilton\", \"oololol imperial hotel gold coast LXR Hotels & Resorts Hotel\", \"oololol imperial hotel gold coast LXR Hotels & Resorts Resort\", \"oololol imperial hotel gold coast LXR Hotels & Resorts\", \"oololol imperial hotel gold coast Hilton Hotel\", \"oololol imperial hotel gold coast Hilton Resort\", \"oololol imperial hotel gold coast Hilton\", \"Imperial Hotel Gold Coast Hotel\", \"Imperial Hotel Gold Coast Resort\", \"Imperial Hotel Gold Coast\"], \"v\": 3}": {
+    "lat": -27.9675259,
+    "lon": 153.4266113,
+    "formatted_address": "94 Seaworld Dr, Main Beach QLD 4217, Australia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ-bQ0j5APkWsRbRQ6IQKzO6U",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "94 Seaworld Dr, Main Beach QLD 4217, Australia",
+      "geometry": {
+        "location": {
+          "lat": -27.9675259,
+          "lng": 153.4266113
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -27.9661408197085,
+            "lng": 153.4281062802915
+          },
+          "southwest": {
+            "lat": -27.9688387802915,
+            "lng": 153.4254083197085
+          }
+        }
+      },
+      "name": "Imperial Hotel Gold Coast",
+      "place_id": "ChIJ-bQ0j5APkWsRbRQ6IQKzO6U",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "http://www.theimperialgc.com.au/"
+    }
   }
 }
