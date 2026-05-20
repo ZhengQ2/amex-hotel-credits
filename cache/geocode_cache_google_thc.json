@@ -35536,48 +35536,6 @@
       "website": "https://www.marriott.com/en-us/hotels/sjcmn-hotel-nia-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Goodtime Hotel Marriott Hotel\", \"The Goodtime Hotel Marriott Resort\", \"The Goodtime Hotel Marriott\", \"The Goodtime Hotel Marriott Miami Beach, Florida US Hotel\", \"The Goodtime Hotel Marriott Miami Beach, Florida US Resort\", \"The Goodtime Hotel Marriott Miami Beach, Florida US\", \"The Goodtime Hotel Hilton Hotel\", \"The Goodtime Hotel Hilton Resort\", \"The Goodtime Hotel Hilton\", \"The Goodtime Hotel Hilton Miami Beach, Florida US Hotel\", \"The Goodtime Hotel Hilton Miami Beach, Florida US Resort\", \"The Goodtime Hotel Hilton Miami Beach, Florida US\", \"the goodtime hotel Marriott Hotel\", \"the goodtime hotel Marriott Resort\", \"the goodtime hotel Marriott\", \"the goodtime hotel Marriott Miami Beach, Florida US Hotel\", \"the goodtime hotel Marriott Miami Beach, Florida US Resort\", \"the goodtime hotel Marriott Miami Beach, Florida US\", \"the goodtime hotel Hilton Hotel\", \"the goodtime hotel Hilton Resort\", \"the goodtime hotel Hilton\", \"the goodtime hotel Hilton Miami Beach, Florida US Hotel\", \"the goodtime hotel Hilton Miami Beach, Florida US Resort\", \"the goodtime hotel Hilton Miami Beach, Florida US\", \"the goodtime hotel Hotel\", \"the goodtime hotel Resort\", \"the goodtime hotel\", \"the goodtime hotel Miami Beach, Florida US Hotel\", \"the goodtime hotel Miami Beach, Florida US Resort\", \"the goodtime hotel Miami Beach, Florida US\"], \"v\": 3}": {
-    "lat": 25.7761886,
-    "lon": -80.1332273,
-    "formatted_address": "601 Washington Ave, Miami Beach, FL 33139, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJn_8FgDq12YgRmkCtXbMfacc",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "601 Washington Ave, Miami Beach, FL 33139, USA",
-      "geometry": {
-        "location": {
-          "lat": 25.7761886,
-          "lng": -80.1332273
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.7775404802915,
-            "lng": -80.1319045197085
-          },
-          "southwest": {
-            "lat": 25.7748425197085,
-            "lng": -80.1346024802915
-          }
-        }
-      },
-      "name": "the goodtime hotel, Miami Beach, a Tribute Portfolio Hotel",
-      "place_id": "ChIJn_8FgDq12YgRmkCtXbMfacc",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/miasx-the-goodtime-hotel-miami-beach-a-tribute-portfolio-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
   "{\"brand\": \"Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Nagasaki Marriott Hotel Marriott Hotel\", \"Nagasaki Marriott Hotel Marriott Resort\", \"Nagasaki Marriott Hotel Marriott\", \"Nagasaki Marriott Hotel Marriott Nagasaki, Japan Hotel\", \"Nagasaki Marriott Hotel Marriott Nagasaki, Japan Resort\", \"Nagasaki Marriott Hotel Marriott Nagasaki, Japan\", \"Nagasaki Marriott Hotel Hilton Hotel\", \"Nagasaki Marriott Hotel Hilton Resort\", \"Nagasaki Marriott Hotel Hilton\", \"Nagasaki Marriott Hotel Hilton Nagasaki, Japan Hotel\", \"Nagasaki Marriott Hotel Hilton Nagasaki, Japan Resort\", \"Nagasaki Marriott Hotel Hilton Nagasaki, Japan\", \"Nagasaki Marriott Hotel Hotel\", \"Nagasaki Marriott Hotel Resort\", \"Nagasaki Marriott Hotel\", \"Nagasaki Marriott Hotel Nagasaki, Japan Hotel\", \"Nagasaki Marriott Hotel Nagasaki, Japan Resort\", \"Nagasaki Marriott Hotel Nagasaki, Japan\"], \"v\": 3}": {
     "lat": 32.7519308,
     "lon": 129.8694736,
@@ -74699,48 +74657,6 @@
         "point_of_interest"
       ],
       "website": "https://www.marriott.com/en-us/hotels/longr-sheraton-grand-london-park-lane/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
-  "{\"brand\": \"Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"the goodtime hotel Marriott Hotel\", \"the goodtime hotel Marriott Resort\", \"the goodtime hotel Marriott\", \"the goodtime hotel Marriott Miami Beach, Florida US Hotel\", \"the goodtime hotel Marriott Miami Beach, Florida US Resort\", \"the goodtime hotel Marriott Miami Beach, Florida US\", \"the goodtime hotel Hilton Hotel\", \"the goodtime hotel Hilton Resort\", \"the goodtime hotel Hilton\", \"the goodtime hotel Hilton Miami Beach, Florida US Hotel\", \"the goodtime hotel Hilton Miami Beach, Florida US Resort\", \"the goodtime hotel Hilton Miami Beach, Florida US\", \"The Goodtime Hotel Marriott Hotel\", \"The Goodtime Hotel Marriott Resort\", \"The Goodtime Hotel Marriott\", \"The Goodtime Hotel Marriott Miami Beach, Florida US Hotel\", \"The Goodtime Hotel Marriott Miami Beach, Florida US Resort\", \"The Goodtime Hotel Marriott Miami Beach, Florida US\", \"The Goodtime Hotel Hilton Hotel\", \"The Goodtime Hotel Hilton Resort\", \"The Goodtime Hotel Hilton\", \"The Goodtime Hotel Hilton Miami Beach, Florida US Hotel\", \"The Goodtime Hotel Hilton Miami Beach, Florida US Resort\", \"The Goodtime Hotel Hilton Miami Beach, Florida US\", \"the goodtime hotel Hotel\", \"the goodtime hotel Resort\", \"the goodtime hotel\", \"the goodtime hotel Miami Beach, Florida US Hotel\", \"the goodtime hotel Miami Beach, Florida US Resort\", \"the goodtime hotel Miami Beach, Florida US\"], \"v\": 3}": {
-    "lat": 25.7761886,
-    "lon": -80.1332273,
-    "formatted_address": "601 Washington Ave, Miami Beach, FL 33139, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJn_8FgDq12YgRmkCtXbMfacc",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "601 Washington Ave, Miami Beach, FL 33139, USA",
-      "geometry": {
-        "location": {
-          "lat": 25.7761886,
-          "lng": -80.1332273
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.7775404802915,
-            "lng": -80.1319045197085
-          },
-          "southwest": {
-            "lat": 25.7748425197085,
-            "lng": -80.1346024802915
-          }
-        }
-      },
-      "name": "the goodtime hotel, Miami Beach, a Tribute Portfolio Hotel",
-      "place_id": "ChIJn_8FgDq12YgRmkCtXbMfacc",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/miasx-the-goodtime-hotel-miami-beach-a-tribute-portfolio-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Moxy NYC East Village Marriott Hotel\", \"Moxy NYC East Village Marriott Resort\", \"Moxy NYC East Village Marriott\", \"Moxy NYC East Village Marriott New York, New York US Hotel\", \"Moxy NYC East Village Marriott New York, New York US Resort\", \"Moxy NYC East Village Marriott New York, New York US\", \"Moxy NYC East Village Hilton Hotel\", \"Moxy NYC East Village Hilton Resort\", \"Moxy NYC East Village Hilton\", \"Moxy NYC East Village Hilton New York, New York US Hotel\", \"Moxy NYC East Village Hilton New York, New York US Resort\", \"Moxy NYC East Village Hilton New York, New York US\", \"Moxy Nyc East Village Marriott Hotel\", \"Moxy Nyc East Village Marriott Resort\", \"Moxy Nyc East Village Marriott\", \"Moxy Nyc East Village Marriott New York, New York US Hotel\", \"Moxy Nyc East Village Marriott New York, New York US Resort\", \"Moxy Nyc East Village Marriott New York, New York US\", \"Moxy Nyc East Village Hilton Hotel\", \"Moxy Nyc East Village Hilton Resort\", \"Moxy Nyc East Village Hilton\", \"Moxy Nyc East Village Hilton New York, New York US Hotel\", \"Moxy Nyc East Village Hilton New York, New York US Resort\", \"Moxy Nyc East Village Hilton New York, New York US\", \"Moxy NYC East Village Hotel\", \"Moxy NYC East Village Resort\", \"Moxy NYC East Village\", \"Moxy NYC East Village New York, New York US Hotel\", \"Moxy NYC East Village New York, New York US Resort\", \"Moxy NYC East Village New York, New York US\"], \"v\": 3}": {
@@ -128301,48 +128217,6 @@
       "website": "https://www.marriott.com/en-us/hotels/sjcmn-hotel-nia-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"the goodtime hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"the goodtime hotel Marriott Hotel\", \"the goodtime hotel Marriott Resort\", \"the goodtime hotel Marriott\", \"the goodtime hotel Marriott Miami Beach, Florida US Hotel\", \"the goodtime hotel Marriott Miami Beach, Florida US Resort\", \"the goodtime hotel Marriott Miami Beach, Florida US\", \"the goodtime hotel Hilton Hotel\", \"the goodtime hotel Hilton Resort\", \"the goodtime hotel Hilton\", \"the goodtime hotel Hilton Miami Beach, Florida US Hotel\", \"the goodtime hotel Hilton Miami Beach, Florida US Resort\", \"the goodtime hotel Hilton Miami Beach, Florida US\", \"The Goodtime Hotel Marriott Hotel\", \"The Goodtime Hotel Marriott Resort\", \"The Goodtime Hotel Marriott\", \"The Goodtime Hotel Marriott Miami Beach, Florida US Hotel\", \"The Goodtime Hotel Marriott Miami Beach, Florida US Resort\", \"The Goodtime Hotel Marriott Miami Beach, Florida US\", \"The Goodtime Hotel Hilton Hotel\", \"The Goodtime Hotel Hilton Resort\", \"The Goodtime Hotel Hilton\", \"The Goodtime Hotel Hilton Miami Beach, Florida US Hotel\", \"The Goodtime Hotel Hilton Miami Beach, Florida US Resort\", \"The Goodtime Hotel Hilton Miami Beach, Florida US\", \"the goodtime hotel Hotel\", \"the goodtime hotel Resort\", \"the goodtime hotel\", \"the goodtime hotel Miami Beach, Florida US Hotel\", \"the goodtime hotel Miami Beach, Florida US Resort\", \"the goodtime hotel Miami Beach, Florida US\"], \"v\": 3}": {
-    "lat": 25.7761886,
-    "lon": -80.1332273,
-    "formatted_address": "601 Washington Ave, Miami Beach, FL 33139, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJn_8FgDq12YgRmkCtXbMfacc",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "601 Washington Ave, Miami Beach, FL 33139, USA",
-      "geometry": {
-        "location": {
-          "lat": 25.7761886,
-          "lng": -80.1332273
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.7775404802915,
-            "lng": -80.1319045197085
-          },
-          "southwest": {
-            "lat": 25.7748425197085,
-            "lng": -80.1346024802915
-          }
-        }
-      },
-      "name": "the goodtime hotel, Miami Beach, a Tribute Portfolio Hotel",
-      "place_id": "ChIJn_8FgDq12YgRmkCtXbMfacc",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/miasx-the-goodtime-hotel-miami-beach-a-tribute-portfolio-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Nagasaki Marriott Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Nagasaki Marriott Hotel Marriott Hotel\", \"Nagasaki Marriott Hotel Marriott Resort\", \"Nagasaki Marriott Hotel Marriott\", \"Nagasaki Marriott Hotel Marriott Nagasaki, Japan Hotel\", \"Nagasaki Marriott Hotel Marriott Nagasaki, Japan Resort\", \"Nagasaki Marriott Hotel Marriott Nagasaki, Japan\", \"Nagasaki Marriott Hotel Hilton Hotel\", \"Nagasaki Marriott Hotel Hilton Resort\", \"Nagasaki Marriott Hotel Hilton\", \"Nagasaki Marriott Hotel Hilton Nagasaki, Japan Hotel\", \"Nagasaki Marriott Hotel Hilton Nagasaki, Japan Resort\", \"Nagasaki Marriott Hotel Hilton Nagasaki, Japan\", \"Nagasaki Marriott Hotel Hotel\", \"Nagasaki Marriott Hotel Resort\", \"Nagasaki Marriott Hotel\", \"Nagasaki Marriott Hotel Nagasaki, Japan Hotel\", \"Nagasaki Marriott Hotel Nagasaki, Japan Resort\", \"Nagasaki Marriott Hotel Nagasaki, Japan\"], \"v\": 3}": {
     "lat": 32.7519308,
     "lon": 129.8694736,
@@ -142057,12 +141931,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Antonio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Antonio Small Luxury Hotels of the World Hotel\", \"San Antonio Small Luxury Hotels of the World Resort\", \"San Antonio Small Luxury Hotels of the World\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Hotel\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Resort\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece\", \"San Antonio Hilton Hotel\", \"San Antonio Hilton Resort\", \"San Antonio Hilton\", \"San Antonio Hilton Imerovigli, Greece Hotel\", \"San Antonio Hilton Imerovigli, Greece Resort\", \"San Antonio Hilton Imerovigli, Greece\", \"San Antonio Hotel\", \"San Antonio Resort\", \"San Antonio\", \"San Antonio Imerovigli, Greece Hotel\", \"San Antonio Imerovigli, Greece Resort\", \"San Antonio Imerovigli, Greece\"], \"v\": 3}": {
-    "lat": 29.521535,
-    "lon": -98.490831,
-    "formatted_address": "37 NE Loop 410 At McCullough, San Antonio, TX 78216, USA",
+    "lat": 29.4234017,
+    "lon": -98.4907714,
+    "formatted_address": "420 W Market St, San Antonio, TX 78205, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJy2Pln71hXIYRML-T-XvTl6U",
+    "place_id": "ChIJMeDgmaxYXIYRcG_LOHS5ooc",
     "types": [
       "establishment",
       "lodging",
@@ -142071,31 +141945,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "37 NE Loop 410 At McCullough, San Antonio, TX 78216, USA",
+      "formatted_address": "420 W Market St, San Antonio, TX 78205, USA",
       "geometry": {
         "location": {
-          "lat": 29.521535,
-          "lng": -98.490831
+          "lat": 29.4234017,
+          "lng": -98.4907714
         },
         "viewport": {
           "northeast": {
-            "lat": 29.5226847802915,
-            "lng": -98.4897132697085
+            "lat": 29.4248851802915,
+            "lng": -98.4893779197085
           },
           "southwest": {
-            "lat": 29.5199868197085,
-            "lng": -98.49241123029151
+            "lat": 29.4221872197085,
+            "lng": -98.49207588029151
           }
         }
       },
-      "name": "Estancia del Norte San Antonio, Tapestry Collection by Hilton",
-      "place_id": "ChIJy2Pln71hXIYRML-T-XvTl6U",
+      "name": "The Westin Riverwalk, San Antonio",
+      "place_id": "ChIJMeDgmaxYXIYRcG_LOHS5ooc",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/satinup-estancia-del-norte-san-antonio/?SEO_id=GMB-AMER-UP-SATINUP&y_source=1_MjI3NDU5MjYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+      "website": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rusty Parrot Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
@@ -152611,6 +152485,408 @@
         "point_of_interest"
       ],
       "website": "https://www.lavalisemazunte.com/"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Fontainebleau Miami Beach\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fontainebleau Miami Beach\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hotel Anna & Bel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Anna & Bel\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Omni Charlotte Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Omni Charlotte Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Omni Fort Worth Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Omni Fort Worth Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Talbott, Autograph Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Talbott, Autograph Collection\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Wylder Hotel Windham\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Wylder Hotel Windham\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Experimental Marais\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Experimental Marais\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Grande Real Villa Italia Hotel & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grande Real Villa Italia Hotel & Spa\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Fontainebleau Miami Beach\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fontainebleau Miami Beach Hotel\", \"Fontainebleau Miami Beach Resort\", \"Fontainebleau Miami Beach\", \"Fontainebleau Miami Beach Miami Beach, Florida US Hotel\", \"Fontainebleau Miami Beach Miami Beach, Florida US Resort\", \"Fontainebleau Miami Beach Miami Beach, Florida US\"], \"v\": 3}": {
+    "lat": 25.8178372,
+    "lon": -80.1227119,
+    "formatted_address": "4441 Collins Ave, Miami Beach, FL 33140, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJa9H1aRWz2YgRViJgfHukwNg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "4441 Collins Ave, Miami Beach, FL 33140, USA",
+      "geometry": {
+        "location": {
+          "lat": 25.8178372,
+          "lng": -80.1227119
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.8184292802915,
+            "lng": -80.12120431970848
+          },
+          "southwest": {
+            "lat": 25.8157313197085,
+            "lng": -80.12390228029149
+          }
+        }
+      },
+      "name": "Fontainebleau Miami Beach",
+      "place_id": "ChIJa9H1aRWz2YgRViJgfHukwNg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://fontainebleau.com/?utm_source=google-local&utm_medium=organic&utm_campaign=gmb"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Experimental Marais\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Experimental Marais Hotel\", \"Experimental Marais Resort\", \"Experimental Marais\", \"Experimental Marais Paris, France Hotel\", \"Experimental Marais Paris, France Resort\", \"Experimental Marais Paris, France\"], \"v\": 3}": {
+    "lat": 48.8630854,
+    "lon": 2.3581492,
+    "formatted_address": "116 Rue du Temple, 75003 Paris, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJScM9yQZu5kcRw0uyRdWX2fM",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "116 Rue du Temple, 75003 Paris, France",
+      "geometry": {
+        "location": {
+          "lat": 48.8630854,
+          "lng": 2.3581492
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.8644490802915,
+            "lng": 2.359452830291502
+          },
+          "southwest": {
+            "lat": 48.8617511197085,
+            "lng": 2.356754869708498
+          }
+        }
+      },
+      "name": "Experimental Marais",
+      "place_id": "ChIJScM9yQZu5kcRw0uyRdWX2fM",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.experimentalmarais.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Anna & Bel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Anna & Bel Hotel\", \"Hotel Anna & Bel Resort\", \"Hotel Anna & Bel\", \"Hotel Anna & Bel Philadelphia, Pennsylvania US Hotel\", \"Hotel Anna & Bel Philadelphia, Pennsylvania US Resort\", \"Hotel Anna & Bel Philadelphia, Pennsylvania US\", \"Hotel Anna Bel Hotel\", \"Hotel Anna Bel Resort\", \"Hotel Anna Bel\", \"Hotel Anna Bel Philadelphia, Pennsylvania US Hotel\", \"Hotel Anna Bel Philadelphia, Pennsylvania US Resort\", \"Hotel Anna Bel Philadelphia, Pennsylvania US\"], \"v\": 3}": {
+    "lat": 39.9752133,
+    "lon": -75.12636239999999,
+    "formatted_address": "1401 E Susquehanna Ave, Philadelphia, PA 19125, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ6WvZ7YHJxokRYLlaJ_V07sk",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1401 E Susquehanna Ave, Philadelphia, PA 19125, USA",
+      "geometry": {
+        "location": {
+          "lat": 39.9752133,
+          "lng": -75.12636239999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.9766045302915,
+            "lng": -75.1250863197085
+          },
+          "southwest": {
+            "lat": 39.9739065697085,
+            "lng": -75.12778428029151
+          }
+        }
+      },
+      "name": "Anna & Bel",
+      "place_id": "ChIJ6WvZ7YHJxokRYLlaJ_V07sk",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.annaandbel.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Talbott, Autograph Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Talbott, Autograph Collection Autograph Collection Hotels Hotel\", \"The Talbott, Autograph Collection Autograph Collection Hotels Resort\", \"The Talbott, Autograph Collection Autograph Collection Hotels\", \"The Talbott, Autograph Collection Autograph Collection Hotels Chicago, Illinois US Hotel\", \"The Talbott, Autograph Collection Autograph Collection Hotels Chicago, Illinois US Resort\", \"The Talbott, Autograph Collection Autograph Collection Hotels Chicago, Illinois US\", \"The Talbott, Autograph Collection Hilton Hotel\", \"The Talbott, Autograph Collection Hilton Resort\", \"The Talbott, Autograph Collection Hilton\", \"The Talbott, Autograph Collection Hilton Chicago, Illinois US Hotel\", \"The Talbott, Autograph Collection Hilton Chicago, Illinois US Resort\", \"The Talbott, Autograph Collection Hilton Chicago, Illinois US\", \"Talbott Autograph Collection Autograph Collection Hotels Hotel\", \"Talbott Autograph Collection Autograph Collection Hotels Resort\", \"Talbott Autograph Collection Autograph Collection Hotels\", \"Talbott Autograph Collection Autograph Collection Hotels Chicago, Illinois US Hotel\", \"Talbott Autograph Collection Autograph Collection Hotels Chicago, Illinois US Resort\", \"Talbott Autograph Collection Autograph Collection Hotels Chicago, Illinois US\", \"Talbott Autograph Collection Hilton Hotel\", \"Talbott Autograph Collection Hilton Resort\", \"Talbott Autograph Collection Hilton\", \"Talbott Autograph Collection Hilton Chicago, Illinois US Hotel\", \"Talbott Autograph Collection Hilton Chicago, Illinois US Resort\", \"Talbott Autograph Collection Hilton Chicago, Illinois US\", \"The Talbott, Autograph Collection Hotel\", \"The Talbott, Autograph Collection Resort\", \"The Talbott, Autograph Collection\", \"The Talbott, Autograph Collection Chicago, Illinois US Hotel\", \"The Talbott, Autograph Collection Chicago, Illinois US Resort\", \"The Talbott, Autograph Collection Chicago, Illinois US\"], \"v\": 3}": {
+    "lat": 41.8992659,
+    "lon": -87.627489,
+    "formatted_address": "20 E Delaware Pl, Chicago, IL 60611, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJf94TFFLTD4gRAC96e1OfNOo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "20 E Delaware Pl, Chicago, IL 60611, USA",
+      "geometry": {
+        "location": {
+          "lat": 41.8992659,
+          "lng": -87.627489
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.9005596802915,
+            "lng": -87.6261557697085
+          },
+          "southwest": {
+            "lat": 41.8978617197085,
+            "lng": -87.62885373029151
+          }
+        }
+      },
+      "name": "The Talbott, Autograph Collection",
+      "place_id": "ChIJf94TFFLTD4gRAC96e1OfNOo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/chidk-the-talbott-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Omni Charlotte Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Omni Charlotte Hotel Omni Hotels & Resorts Hotel\", \"Omni Charlotte Hotel Omni Hotels & Resorts Resort\", \"Omni Charlotte Hotel Omni Hotels & Resorts\", \"Omni Charlotte Hotel Omni Hotels & Resorts Charlotte, North Carolina US Hotel\", \"Omni Charlotte Hotel Omni Hotels & Resorts Charlotte, North Carolina US Resort\", \"Omni Charlotte Hotel Omni Hotels & Resorts Charlotte, North Carolina US\", \"Omni Charlotte Hotel Hilton Hotel\", \"Omni Charlotte Hotel Hilton Resort\", \"Omni Charlotte Hotel Hilton\", \"Omni Charlotte Hotel Hilton Charlotte, North Carolina US Hotel\", \"Omni Charlotte Hotel Hilton Charlotte, North Carolina US Resort\", \"Omni Charlotte Hotel Hilton Charlotte, North Carolina US\", \"Omni Charlotte Hotel Hotel\", \"Omni Charlotte Hotel Resort\", \"Omni Charlotte Hotel\", \"Omni Charlotte Hotel Charlotte, North Carolina US Hotel\", \"Omni Charlotte Hotel Charlotte, North Carolina US Resort\", \"Omni Charlotte Hotel Charlotte, North Carolina US\"], \"v\": 3}": {
+    "lat": 35.2265484,
+    "lon": -80.8426556,
+    "formatted_address": "132 E Trade St, Charlotte, NC 28202, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJk2CotiSgVogRcVR-x9bwl68",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "132 E Trade St, Charlotte, NC 28202, USA",
+      "geometry": {
+        "location": {
+          "lat": 35.2265484,
+          "lng": -80.8426556
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.22742668029149,
+            "lng": -80.8412655197085
+          },
+          "southwest": {
+            "lat": 35.2247287197085,
+            "lng": -80.8439634802915
+          }
+        }
+      },
+      "name": "Omni Charlotte Hotel",
+      "place_id": "ChIJk2CotiSgVogRcVR-x9bwl68",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.omnihotels.com/hotels/charlotte?utm_source=gmblisting&utm_medium=organic"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Omni Fort Lauderdale\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Omni Fort Lauderdale Omni Hotels & Resorts Hotel\", \"Omni Fort Lauderdale Omni Hotels & Resorts Resort\", \"Omni Fort Lauderdale Omni Hotels & Resorts\", \"Omni Fort Lauderdale Omni Hotels & Resorts Fort Lauderdale, Florida US Hotel\", \"Omni Fort Lauderdale Omni Hotels & Resorts Fort Lauderdale, Florida US Resort\", \"Omni Fort Lauderdale Omni Hotels & Resorts Fort Lauderdale, Florida US\", \"Omni Fort Lauderdale Hilton Hotel\", \"Omni Fort Lauderdale Hilton Resort\", \"Omni Fort Lauderdale Hilton\", \"Omni Fort Lauderdale Hilton Fort Lauderdale, Florida US Hotel\", \"Omni Fort Lauderdale Hilton Fort Lauderdale, Florida US Resort\", \"Omni Fort Lauderdale Hilton Fort Lauderdale, Florida US\", \"Omni Fort Lauderdale Hotel\", \"Omni Fort Lauderdale Resort\", \"Omni Fort Lauderdale\", \"Omni Fort Lauderdale Fort Lauderdale, Florida US Hotel\", \"Omni Fort Lauderdale Fort Lauderdale, Florida US Resort\", \"Omni Fort Lauderdale Fort Lauderdale, Florida US\"], \"v\": 3}": {
+    "lat": 26.1285006,
+    "lon": -80.1041804,
+    "formatted_address": "401 N Fort Lauderdale Beach Blvd, Fort Lauderdale, FL 33304, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJGUenndMB2YgRXAv5v3k3YPg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "401 N Fort Lauderdale Beach Blvd, Fort Lauderdale, FL 33304, USA",
+      "geometry": {
+        "location": {
+          "lat": 26.1285006,
+          "lng": -80.1041804
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 26.1296052302915,
+            "lng": -80.10298636970849
+          },
+          "southwest": {
+            "lat": 26.1269072697085,
+            "lng": -80.10568433029151
+          }
+        }
+      },
+      "name": "W Fort Lauderdale",
+      "place_id": "ChIJGUenndMB2YgRXAv5v3k3YPg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/fllwh-w-fort-lauderdale/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Omni Fort Worth Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Omni Fort Worth Hotel Omni Hotels & Resorts Hotel\", \"Omni Fort Worth Hotel Omni Hotels & Resorts Resort\", \"Omni Fort Worth Hotel Omni Hotels & Resorts\", \"Omni Fort Worth Hotel Omni Hotels & Resorts Fort Worth, Texas US Hotel\", \"Omni Fort Worth Hotel Omni Hotels & Resorts Fort Worth, Texas US Resort\", \"Omni Fort Worth Hotel Omni Hotels & Resorts Fort Worth, Texas US\", \"Omni Fort Worth Hotel Hilton Hotel\", \"Omni Fort Worth Hotel Hilton Resort\", \"Omni Fort Worth Hotel Hilton\", \"Omni Fort Worth Hotel Hilton Fort Worth, Texas US Hotel\", \"Omni Fort Worth Hotel Hilton Fort Worth, Texas US Resort\", \"Omni Fort Worth Hotel Hilton Fort Worth, Texas US\", \"Omni Fort Worth Hotel Hotel\", \"Omni Fort Worth Hotel Resort\", \"Omni Fort Worth Hotel\", \"Omni Fort Worth Hotel Fort Worth, Texas US Hotel\", \"Omni Fort Worth Hotel Fort Worth, Texas US Resort\", \"Omni Fort Worth Hotel Fort Worth, Texas US\"], \"v\": 3}": {
+    "lat": 32.748526,
+    "lon": -97.32834899999999,
+    "formatted_address": "1300 Houston St, Fort Worth, TX 76102, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJqerq3RRxToYRSfX94bvKQiI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1300 Houston St, Fort Worth, TX 76102, USA",
+      "geometry": {
+        "location": {
+          "lat": 32.748526,
+          "lng": -97.32834899999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.74989068029149,
+            "lng": -97.3269022697085
+          },
+          "southwest": {
+            "lat": 32.74719271970849,
+            "lng": -97.3296002302915
+          }
+        }
+      },
+      "name": "Omni Fort Worth Hotel",
+      "place_id": "ChIJqerq3RRxToYRSfX94bvKQiI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.omnihotels.com/hotels/fort-worth?utm_source=gmblisting&utm_medium=organic"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Wylder Hotel Windham\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Wylder Hotel Windham Small Luxury Hotels of the World Hotel\", \"Wylder Hotel Windham Small Luxury Hotels of the World Resort\", \"Wylder Hotel Windham Small Luxury Hotels of the World\", \"Wylder Hotel Windham Small Luxury Hotels of the World Windham, New York US Hotel\", \"Wylder Hotel Windham Small Luxury Hotels of the World Windham, New York US Resort\", \"Wylder Hotel Windham Small Luxury Hotels of the World Windham, New York US\", \"Wylder Hotel Windham Hilton Hotel\", \"Wylder Hotel Windham Hilton Resort\", \"Wylder Hotel Windham Hilton\", \"Wylder Hotel Windham Hilton Windham, New York US Hotel\", \"Wylder Hotel Windham Hilton Windham, New York US Resort\", \"Wylder Hotel Windham Hilton Windham, New York US\", \"Wylder Hotel Windham Hotel\", \"Wylder Hotel Windham Resort\", \"Wylder Hotel Windham\", \"Wylder Hotel Windham Windham, New York US Hotel\", \"Wylder Hotel Windham Windham, New York US Resort\", \"Wylder Hotel Windham Windham, New York US\"], \"v\": 3}": {
+    "lat": 42.3074537,
+    "lon": -74.2310469,
+    "formatted_address": "19 NY-296, Windham, NY 12496, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ8W5JaIJN3IkRcMdgzgMK3hU",
+    "types": [
+      "bakery",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "store"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "19 NY-296, Windham, NY 12496, USA",
+      "geometry": {
+        "location": {
+          "lat": 42.3074537,
+          "lng": -74.2310469
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.3087207302915,
+            "lng": -74.22987116970849
+          },
+          "southwest": {
+            "lat": 42.30602276970851,
+            "lng": -74.23256913029151
+          }
+        }
+      },
+      "name": "Wylder Hotel Windham, an SLH Hotel",
+      "place_id": "ChIJ8W5JaIJN3IkRcMdgzgMK3hU",
+      "types": [
+        "bakery",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "store"
+      ],
+      "website": "https://wylderhotels.com/windham/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Grande Real Villa Italia Hotel & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grande Real Villa Italia Hotel & Spa The Leading Hotels of the World Hotel\", \"Grande Real Villa Italia Hotel & Spa The Leading Hotels of the World Resort\", \"Grande Real Villa Italia Hotel & Spa The Leading Hotels of the World\", \"Grande Real Villa Italia Hotel & Spa The Leading Hotels of the World Cascais, Portugal Hotel\", \"Grande Real Villa Italia Hotel & Spa The Leading Hotels of the World Cascais, Portugal Resort\", \"Grande Real Villa Italia Hotel & Spa The Leading Hotels of the World Cascais, Portugal\", \"Grande Real Villa Italia Hotel & Spa Hilton Hotel\", \"Grande Real Villa Italia Hotel & Spa Hilton Resort\", \"Grande Real Villa Italia Hotel & Spa Hilton\", \"Grande Real Villa Italia Hotel & Spa Hilton Cascais, Portugal Hotel\", \"Grande Real Villa Italia Hotel & Spa Hilton Cascais, Portugal Resort\", \"Grande Real Villa Italia Hotel & Spa Hilton Cascais, Portugal\", \"Grande Real Villa Italia Hotel Spa The Leading Hotels of the World Hotel\", \"Grande Real Villa Italia Hotel Spa The Leading Hotels of the World Resort\", \"Grande Real Villa Italia Hotel Spa The Leading Hotels of the World\", \"Grande Real Villa Italia Hotel Spa The Leading Hotels of the World Cascais, Portugal Hotel\", \"Grande Real Villa Italia Hotel Spa The Leading Hotels of the World Cascais, Portugal Resort\", \"Grande Real Villa Italia Hotel Spa The Leading Hotels of the World Cascais, Portugal\", \"Grande Real Villa Italia Hotel Spa Hilton Hotel\", \"Grande Real Villa Italia Hotel Spa Hilton Resort\", \"Grande Real Villa Italia Hotel Spa Hilton\", \"Grande Real Villa Italia Hotel Spa Hilton Cascais, Portugal Hotel\", \"Grande Real Villa Italia Hotel Spa Hilton Cascais, Portugal Resort\", \"Grande Real Villa Italia Hotel Spa Hilton Cascais, Portugal\", \"Grande Real Villa Italia Hotel & Spa Hotel\", \"Grande Real Villa Italia Hotel & Spa Resort\", \"Grande Real Villa Italia Hotel & Spa\", \"Grande Real Villa Italia Hotel & Spa Cascais, Portugal Hotel\", \"Grande Real Villa Italia Hotel & Spa Cascais, Portugal Resort\", \"Grande Real Villa Italia Hotel & Spa Cascais, Portugal\"], \"v\": 3}": {
+    "lat": 38.6910849,
+    "lon": -9.4240862,
+    "formatted_address": "R. Frei Nicolau de Oliveira 100, 2750-319 Cascais, Portugal",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJuZcrXp3GHg0RS1mEgQTIPow",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "R. Frei Nicolau de Oliveira 100, 2750-319 Cascais, Portugal",
+      "geometry": {
+        "location": {
+          "lat": 38.6910849,
+          "lng": -9.4240862
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.6925642302915,
+            "lng": -9.422520819708499
+          },
+          "southwest": {
+            "lat": 38.6898662697085,
+            "lng": -9.425218780291504
+          }
+        }
+      },
+      "name": "Grande Real Villa Itália Hotel & Spa",
+      "place_id": "ChIJuZcrXp3GHg0RS1mEgQTIPow",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "http://granderealvillaitalia.realhotelsgroup.com/?partner=9862utm_source=google&utm_medium=organic&utm_campaign=MyBusiness&utm"
     }
   }
 }

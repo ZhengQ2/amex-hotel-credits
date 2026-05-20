@@ -130351,12 +130351,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 34.7012112,
-    "lon": -118.171488,
-    "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
+    "lat": 40.0532091,
+    "lon": -76.2527628,
+    "formatted_address": "545 Greenfield Rd, Lancaster, PA 17601, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
+    "place_id": "ChIJ5eRM3147xokRVvi_lryvPU0",
     "types": [
       "establishment",
       "lodging",
@@ -130365,31 +130365,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
+      "formatted_address": "545 Greenfield Rd, Lancaster, PA 17601, USA",
       "geometry": {
         "location": {
-          "lat": 34.7012112,
-          "lng": -118.171488
+          "lat": 40.0532091,
+          "lng": -76.2527628
         },
         "viewport": {
           "northeast": {
-            "lat": 34.7024083302915,
-            "lng": -118.1697845197085
+            "lat": 40.0546280302915,
+            "lng": -76.25150881970849
           },
           "southwest": {
-            "lat": 34.6997103697085,
-            "lng": -118.1724824802915
+            "lat": 40.0519300697085,
+            "lng": -76.2542067802915
           }
         }
       },
-      "name": "Hampton Inn & Suites Lancaster",
-      "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
+      "name": "Hampton Inn Lancaster",
+      "place_id": "ChIJ5eRM3147xokRVvi_lryvPU0",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/pdllchx-hampton-suites-lancaster/?SEO_id=GMB-AMER-HX-PDLLCHX&y_source=1_MjA4MzE4Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.hilton.com/en/hotels/lnsgfhx-hampton-lancaster/?SEO_id=GMB-AMER-HX-LNSGFHX&y_source=1_MjA4NDQ5Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -208550,6 +208550,353 @@
         "point_of_interest"
       ],
       "website": "https://www.mashpilodge.com/"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"One&Only Moonlight Basin\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"One&Only Moonlight Basin\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Populus Seattle\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Populus Seattle\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Cape of Senses\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cape of Senses\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Il San Corrado di Noto\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Il San Corrado di Noto\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Teranka Hotel Formentera\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Teranka Hotel Formentera\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Therasia Resort Sea & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Therasia Resort Sea & Spa\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Jumeirah Marsa Al Arab\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Jumeirah Marsa Al Arab\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Populus Seattle\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Populus Seattle Hotel\", \"Populus Seattle Resort\", \"Populus Seattle\", \"Populus Seattle Seattle, Washington US Hotel\", \"Populus Seattle Seattle, Washington US Resort\", \"Populus Seattle Seattle, Washington US\"], \"v\": 3}": {
+    "lat": 47.5985,
+    "lon": -122.3338156,
+    "formatted_address": "100 S King St, Seattle, WA 98104, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJyyxfxOlrkFQRB4W4j76SWNk",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "100 S King St, Seattle, WA 98104, USA",
+      "geometry": {
+        "location": {
+          "lat": 47.5985,
+          "lng": -122.3338156
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.5997459802915,
+            "lng": -122.3324611697085
+          },
+          "southwest": {
+            "lat": 47.5970480197085,
+            "lng": -122.3351591302915
+          }
+        }
+      },
+      "name": "Populus Seattle",
+      "place_id": "ChIJyyxfxOlrkFQRB4W4j76SWNk",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://populusseattle.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Jumeirah Marsa Al Arab\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Jumeirah Marsa Al Arab Jumeirah Hotels & Resorts Hotel\", \"Jumeirah Marsa Al Arab Jumeirah Hotels & Resorts Resort\", \"Jumeirah Marsa Al Arab Jumeirah Hotels & Resorts\", \"Jumeirah Marsa Al Arab Jumeirah Hotels & Resorts Dubai, United Arab Emirates Hotel\", \"Jumeirah Marsa Al Arab Jumeirah Hotels & Resorts Dubai, United Arab Emirates Resort\", \"Jumeirah Marsa Al Arab Jumeirah Hotels & Resorts Dubai, United Arab Emirates\", \"Jumeirah Marsa Al Arab Hilton Hotel\", \"Jumeirah Marsa Al Arab Hilton Resort\", \"Jumeirah Marsa Al Arab Hilton\", \"Jumeirah Marsa Al Arab Hilton Dubai, United Arab Emirates Hotel\", \"Jumeirah Marsa Al Arab Hilton Dubai, United Arab Emirates Resort\", \"Jumeirah Marsa Al Arab Hilton Dubai, United Arab Emirates\", \"Jumeirah Marsa Al Arab Hotel\", \"Jumeirah Marsa Al Arab Resort\", \"Jumeirah Marsa Al Arab\", \"Jumeirah Marsa Al Arab Dubai, United Arab Emirates Hotel\", \"Jumeirah Marsa Al Arab Dubai, United Arab Emirates Resort\", \"Jumeirah Marsa Al Arab Dubai, United Arab Emirates\"], \"v\": 3}": {
+    "lat": 25.1451034,
+    "lon": 55.1892621,
+    "formatted_address": "Jumeira St - Umm Suqeim Third - Umm Suqeim 3 - Dubai - United Arab Emirates",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ7yNA5vtrXz4RHHx0-yTRgJk",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Jumeira St - Umm Suqeim Third - Umm Suqeim 3 - Dubai - United Arab Emirates",
+      "geometry": {
+        "location": {
+          "lat": 25.1451034,
+          "lng": 55.1892621
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.1464190302915,
+            "lng": 55.1907655802915
+          },
+          "southwest": {
+            "lat": 25.1437210697085,
+            "lng": 55.1880676197085
+          }
+        }
+      },
+      "name": "Jumeirah Marsa Al Arab",
+      "place_id": "ChIJ7yNA5vtrXz4RHHx0-yTRgJk",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.jumeirah.com/en/stay/dubai/jumeirah-marsa-al-arab?utm_source=google&utm_medium=google%20places&utm_campaign=hotel"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"One&Only Moonlight Basin\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"One&Only Moonlight Basin One&Only Hotel\", \"One&Only Moonlight Basin One&Only Resort\", \"One&Only Moonlight Basin One&Only\", \"One&Only Moonlight Basin One&Only Big Sky, Montana US Hotel\", \"One&Only Moonlight Basin One&Only Big Sky, Montana US Resort\", \"One&Only Moonlight Basin One&Only Big Sky, Montana US\", \"One&Only Moonlight Basin Hilton Hotel\", \"One&Only Moonlight Basin Hilton Resort\", \"One&Only Moonlight Basin Hilton\", \"One&Only Moonlight Basin Hilton Big Sky, Montana US Hotel\", \"One&Only Moonlight Basin Hilton Big Sky, Montana US Resort\", \"One&Only Moonlight Basin Hilton Big Sky, Montana US\", \"Oneonly Moonlight Basin One&Only Hotel\", \"Oneonly Moonlight Basin One&Only Resort\", \"Oneonly Moonlight Basin One&Only\", \"Oneonly Moonlight Basin One&Only Big Sky, Montana US Hotel\", \"Oneonly Moonlight Basin One&Only Big Sky, Montana US Resort\", \"Oneonly Moonlight Basin One&Only Big Sky, Montana US\", \"Oneonly Moonlight Basin Hilton Hotel\", \"Oneonly Moonlight Basin Hilton Resort\", \"Oneonly Moonlight Basin Hilton\", \"Oneonly Moonlight Basin Hilton Big Sky, Montana US Hotel\", \"Oneonly Moonlight Basin Hilton Big Sky, Montana US Resort\", \"Oneonly Moonlight Basin Hilton Big Sky, Montana US\", \"One&Only Moonlight Basin Hotel\", \"One&Only Moonlight Basin Resort\", \"One&Only Moonlight Basin\", \"One&Only Moonlight Basin Big Sky, Montana US Hotel\", \"One&Only Moonlight Basin Big Sky, Montana US Resort\", \"One&Only Moonlight Basin Big Sky, Montana US\"], \"v\": 3}": {
+    "lat": 45.3228732,
+    "lon": -111.4285455,
+    "formatted_address": "77 Roosevelt Rd, Big Sky, MT 59716, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJn-hSoCYNUFMR-uoWm0MgUVY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "77 Roosevelt Rd, Big Sky, MT 59716, USA",
+      "geometry": {
+        "location": {
+          "lat": 45.3228732,
+          "lng": -111.4285455
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.3245690802915,
+            "lng": -111.4268088697085
+          },
+          "southwest": {
+            "lat": 45.3218711197085,
+            "lng": -111.4295068302915
+          }
+        }
+      },
+      "name": "One&Only Moonlight Basin",
+      "place_id": "ChIJn-hSoCYNUFMR-uoWm0MgUVY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.oneandonlyresorts.com/moonlight-basin/dining/the-landing?utm_medium=organic-search&utm_source=gbp&utm_campaign=gbp_ao_y_oomb_pri-mkt_wt__fnb__kz&utm_content=__&utm_term=&utm_id=l44em8"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Teranka Hotel Formentera\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Teranka Hotel Formentera Small Luxury Hotels of the World Hotel\", \"Teranka Hotel Formentera Small Luxury Hotels of the World Resort\", \"Teranka Hotel Formentera Small Luxury Hotels of the World\", \"Teranka Hotel Formentera Small Luxury Hotels of the World Playa des Arenals, Spain Hotel\", \"Teranka Hotel Formentera Small Luxury Hotels of the World Playa des Arenals, Spain Resort\", \"Teranka Hotel Formentera Small Luxury Hotels of the World Playa des Arenals, Spain\", \"Teranka Hotel Formentera Hilton Hotel\", \"Teranka Hotel Formentera Hilton Resort\", \"Teranka Hotel Formentera Hilton\", \"Teranka Hotel Formentera Hilton Playa des Arenals, Spain Hotel\", \"Teranka Hotel Formentera Hilton Playa des Arenals, Spain Resort\", \"Teranka Hotel Formentera Hilton Playa des Arenals, Spain\", \"Teranka Hotel Formentera Hotel\", \"Teranka Hotel Formentera Resort\", \"Teranka Hotel Formentera\", \"Teranka Hotel Formentera Playa des Arenals, Spain Hotel\", \"Teranka Hotel Formentera Playa des Arenals, Spain Resort\", \"Teranka Hotel Formentera Playa des Arenals, Spain\"], \"v\": 3}": {
+    "lat": 38.67181980000001,
+    "lon": 1.5038072,
+    "formatted_address": "Carrer Sant Agustí Playa des Arenals, KM 10.7, 07872, Illes Balears, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJSUZ7fvlfmRIRIpw2Jo3vqNI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carrer Sant Agustí Playa des Arenals, KM 10.7, 07872, Illes Balears, Spain",
+      "geometry": {
+        "location": {
+          "lat": 38.67181980000001,
+          "lng": 1.5038072
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.67325973029151,
+            "lng": 1.505072480291502
+          },
+          "southwest": {
+            "lat": 38.67056176970851,
+            "lng": 1.502374519708498
+          }
+        }
+      },
+      "name": "Teranka Formentera",
+      "place_id": "ChIJSUZ7fvlfmRIRIpw2Jo3vqNI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.teranka.com/?utm_source=google&utm_medium=local&utm_campaign=hotel-terankaformentera"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Cape of Senses\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cape of Senses Small Luxury Hotels of the World Hotel\", \"Cape of Senses Small Luxury Hotels of the World Resort\", \"Cape of Senses Small Luxury Hotels of the World\", \"Cape of Senses Small Luxury Hotels of the World Torri del Benaco, Italy Hotel\", \"Cape of Senses Small Luxury Hotels of the World Torri del Benaco, Italy Resort\", \"Cape of Senses Small Luxury Hotels of the World Torri del Benaco, Italy\", \"Cape of Senses Hilton Hotel\", \"Cape of Senses Hilton Resort\", \"Cape of Senses Hilton\", \"Cape of Senses Hilton Torri del Benaco, Italy Hotel\", \"Cape of Senses Hilton Torri del Benaco, Italy Resort\", \"Cape of Senses Hilton Torri del Benaco, Italy\", \"Cape Of Senses Small Luxury Hotels of the World Hotel\", \"Cape Of Senses Small Luxury Hotels of the World Resort\", \"Cape Of Senses Small Luxury Hotels of the World\", \"Cape Of Senses Small Luxury Hotels of the World Torri del Benaco, Italy Hotel\", \"Cape Of Senses Small Luxury Hotels of the World Torri del Benaco, Italy Resort\", \"Cape Of Senses Small Luxury Hotels of the World Torri del Benaco, Italy\", \"Cape Of Senses Hilton Hotel\", \"Cape Of Senses Hilton Resort\", \"Cape Of Senses Hilton\", \"Cape Of Senses Hilton Torri del Benaco, Italy Hotel\", \"Cape Of Senses Hilton Torri del Benaco, Italy Resort\", \"Cape Of Senses Hilton Torri del Benaco, Italy\", \"Cape of Senses Hotel\", \"Cape of Senses Resort\", \"Cape of Senses\", \"Cape of Senses Torri del Benaco, Italy Hotel\", \"Cape of Senses Torri del Benaco, Italy Resort\", \"Cape of Senses Torri del Benaco, Italy\"], \"v\": 3}": {
+    "lat": 45.6012111,
+    "lon": 10.6961298,
+    "formatted_address": "Località le Sorte, 37010 Torri del Benaco VR, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJbcCWhoXzgUcRv75KABddSvY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Località le Sorte, 37010 Torri del Benaco VR, Italy",
+      "geometry": {
+        "location": {
+          "lat": 45.6012111,
+          "lng": 10.6961298
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.6025304302915,
+            "lng": 10.6976300802915
+          },
+          "southwest": {
+            "lat": 45.5998324697085,
+            "lng": 10.6949321197085
+          }
+        }
+      },
+      "name": "Cape of Senses Spa Hideaway",
+      "place_id": "ChIJbcCWhoXzgUcRv75KABddSvY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "http://www.capeofsenses.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Therasia Resort Sea & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Therasia Resort Sea & Spa The Leading Hotels of the World Hotel\", \"Therasia Resort Sea & Spa The Leading Hotels of the World Resort\", \"Therasia Resort Sea & Spa The Leading Hotels of the World\", \"Therasia Resort Sea & Spa The Leading Hotels of the World Lipari, Italy Hotel\", \"Therasia Resort Sea & Spa The Leading Hotels of the World Lipari, Italy Resort\", \"Therasia Resort Sea & Spa The Leading Hotels of the World Lipari, Italy\", \"Therasia Resort Sea & Spa Hilton Hotel\", \"Therasia Resort Sea & Spa Hilton Resort\", \"Therasia Resort Sea & Spa Hilton\", \"Therasia Resort Sea & Spa Hilton Lipari, Italy Hotel\", \"Therasia Resort Sea & Spa Hilton Lipari, Italy Resort\", \"Therasia Resort Sea & Spa Hilton Lipari, Italy\", \"Therasia Resort Sea Spa The Leading Hotels of the World Hotel\", \"Therasia Resort Sea Spa The Leading Hotels of the World Resort\", \"Therasia Resort Sea Spa The Leading Hotels of the World\", \"Therasia Resort Sea Spa The Leading Hotels of the World Lipari, Italy Hotel\", \"Therasia Resort Sea Spa The Leading Hotels of the World Lipari, Italy Resort\", \"Therasia Resort Sea Spa The Leading Hotels of the World Lipari, Italy\", \"Therasia Resort Sea Spa Hilton Hotel\", \"Therasia Resort Sea Spa Hilton Resort\", \"Therasia Resort Sea Spa Hilton\", \"Therasia Resort Sea Spa Hilton Lipari, Italy Hotel\", \"Therasia Resort Sea Spa Hilton Lipari, Italy Resort\", \"Therasia Resort Sea Spa Hilton Lipari, Italy\", \"Therasia Resort Sea & Spa Hotel\", \"Therasia Resort Sea & Spa Resort\", \"Therasia Resort Sea & Spa\", \"Therasia Resort Sea & Spa Lipari, Italy Hotel\", \"Therasia Resort Sea & Spa Lipari, Italy Resort\", \"Therasia Resort Sea & Spa Lipari, Italy\"], \"v\": 3}": {
+    "lat": 38.4303423,
+    "lon": 14.9564698,
+    "formatted_address": "Isola di Vulcano, 98050 Vulcanello ME, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJy24F2rZ-FhMR_0Z8ZJWasnM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Isola di Vulcano, 98050 Vulcanello ME, Italy",
+      "geometry": {
+        "location": {
+          "lat": 38.4303423,
+          "lng": 14.9564698
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.43163038029149,
+            "lng": 14.9579252302915
+          },
+          "southwest": {
+            "lat": 38.4289324197085,
+            "lng": 14.95522726970849
+          }
+        }
+      },
+      "name": "Therasia Resort",
+      "place_id": "ChIJy24F2rZ-FhMR_0Z8ZJWasnM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "http://www.therasiaresort.it/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Il San Corrado di Noto\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Il San Corrado di Noto The Leading Hotels of the World Hotel\", \"Il San Corrado di Noto The Leading Hotels of the World Resort\", \"Il San Corrado di Noto The Leading Hotels of the World\", \"Il San Corrado di Noto The Leading Hotels of the World Noto, Italy Hotel\", \"Il San Corrado di Noto The Leading Hotels of the World Noto, Italy Resort\", \"Il San Corrado di Noto The Leading Hotels of the World Noto, Italy\", \"Il San Corrado di Noto Hilton Hotel\", \"Il San Corrado di Noto Hilton Resort\", \"Il San Corrado di Noto Hilton\", \"Il San Corrado di Noto Hilton Noto, Italy Hotel\", \"Il San Corrado di Noto Hilton Noto, Italy Resort\", \"Il San Corrado di Noto Hilton Noto, Italy\", \"Il San Corrado Di Noto The Leading Hotels of the World Hotel\", \"Il San Corrado Di Noto The Leading Hotels of the World Resort\", \"Il San Corrado Di Noto The Leading Hotels of the World\", \"Il San Corrado Di Noto The Leading Hotels of the World Noto, Italy Hotel\", \"Il San Corrado Di Noto The Leading Hotels of the World Noto, Italy Resort\", \"Il San Corrado Di Noto The Leading Hotels of the World Noto, Italy\", \"Il San Corrado Di Noto Hilton Hotel\", \"Il San Corrado Di Noto Hilton Resort\", \"Il San Corrado Di Noto Hilton\", \"Il San Corrado Di Noto Hilton Noto, Italy Hotel\", \"Il San Corrado Di Noto Hilton Noto, Italy Resort\", \"Il San Corrado Di Noto Hilton Noto, Italy\", \"Il San Corrado di Noto Hotel\", \"Il San Corrado di Noto Resort\", \"Il San Corrado di Noto\", \"Il San Corrado di Noto Noto, Italy Hotel\", \"Il San Corrado di Noto Noto, Italy Resort\", \"Il San Corrado di Noto Noto, Italy\"], \"v\": 3}": {
+    "lat": 36.8454522,
+    "lon": 15.0028313,
+    "formatted_address": "Contrada Belludia SP51, 96017 Noto SR, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJj342IxyJERMRlwjFF867gX8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Contrada Belludia SP51, 96017 Noto SR, Italy",
+      "geometry": {
+        "location": {
+          "lat": 36.8454522,
+          "lng": 15.0028313
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.8467065802915,
+            "lng": 15.0040983802915
+          },
+          "southwest": {
+            "lat": 36.8440086197085,
+            "lng": 15.0014004197085
+          }
+        }
+      },
+      "name": "Il San Corrado di Noto",
+      "place_id": "ChIJj342IxyJERMRlwjFF867gX8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://ilsancorradodinoto.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Huntington Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Huntington Hotel The Leading Hotels of the World Hotel\", \"The Huntington Hotel The Leading Hotels of the World Resort\", \"The Huntington Hotel The Leading Hotels of the World\", \"The Huntington Hotel The Leading Hotels of the World San Francisco, California US Hotel\", \"The Huntington Hotel The Leading Hotels of the World San Francisco, California US Resort\", \"The Huntington Hotel The Leading Hotels of the World San Francisco, California US\", \"The Huntington Hotel Hilton Hotel\", \"The Huntington Hotel Hilton Resort\", \"The Huntington Hotel Hilton\", \"The Huntington Hotel Hilton San Francisco, California US Hotel\", \"The Huntington Hotel Hilton San Francisco, California US Resort\", \"The Huntington Hotel Hilton San Francisco, California US\", \"The Huntington Hotel Hotel\", \"The Huntington Hotel Resort\", \"The Huntington Hotel\", \"The Huntington Hotel San Francisco, California US Hotel\", \"The Huntington Hotel San Francisco, California US Resort\", \"The Huntington Hotel San Francisco, California US\"], \"v\": 3}": {
+    "lat": 34.1208521,
+    "lon": -118.1333997,
+    "formatted_address": "1401 S Oak Knoll Ave, Pasadena, CA 91106, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJw-P2b77EwoARMLLi0Xxs97E",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1401 S Oak Knoll Ave, Pasadena, CA 91106, USA",
+      "geometry": {
+        "location": {
+          "lat": 34.1208521,
+          "lng": -118.1333997
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 34.1222088302915,
+            "lng": -118.1320311197085
+          },
+          "southwest": {
+            "lat": 34.1195108697085,
+            "lng": -118.1347290802915
+          }
+        }
+      },
+      "name": "The Langham Huntington, Pasadena",
+      "place_id": "ChIJw-P2b77EwoARMLLi0Xxs97E",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.langhamhotels.com/en/the-langham/pasadena/?htl=tllax&src=organic&eng=google&size=na&cid=yext_profile&y_source=1_MTAwNjI1OTQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   }
 }
