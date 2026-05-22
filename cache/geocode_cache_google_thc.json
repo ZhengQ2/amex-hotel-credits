@@ -152888,5 +152888,445 @@
       ],
       "website": "http://granderealvillaitalia.realhotelsgroup.com/?partner=9862utm_source=google&utm_medium=organic&utm_campaign=MyBusiness&utm"
     }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hewing Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hewing Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Islander Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Islander Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Omni Parker House\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Omni Parker House\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Casona Roma Norte\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Casona Roma Norte\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hilton Bogota Corferias\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Bogota Corferias\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Admiral Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Admiral Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Canopy by Hilton Istanbul Taksim\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Istanbul Taksim\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"METT Barcelona\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"METT Barcelona\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Villa Petriolo Tuscany\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Villa Petriolo Tuscany\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"W Xian\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W Xian\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Islander Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Islander Resort Hotel\", \"Islander Resort Resort\", \"Islander Resort\", \"Islander Resort Islamorada, Florida US Hotel\", \"Islander Resort Islamorada, Florida US Resort\", \"Islander Resort Islamorada, Florida US\"], \"v\": 3}": {
+    "lat": 24.9203344,
+    "lon": -80.6306547,
+    "formatted_address": "82100 Overseas Hwy, Islamorada, FL 33036, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJRcWsCd8514gR5_PsiBAUyhU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "82100 Overseas Hwy, Islamorada, FL 33036, USA",
+      "geometry": {
+        "location": {
+          "lat": 24.9203344,
+          "lng": -80.6306547
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 24.9217378802915,
+            "lng": -80.62937621970849
+          },
+          "southwest": {
+            "lat": 24.9190399197085,
+            "lng": -80.6320741802915
+          }
+        }
+      },
+      "name": "Islander Resort",
+      "place_id": "ChIJRcWsCd8514gR5_PsiBAUyhU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.islanderfloridakeys.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Casona Roma Norte\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Casona Roma Norte Hotel\", \"Casona Roma Norte Resort\", \"Casona Roma Norte\", \"Casona Roma Norte Mexico City, Mexico City MX Hotel\", \"Casona Roma Norte Mexico City, Mexico City MX Resort\", \"Casona Roma Norte Mexico City, Mexico City MX\"], \"v\": 3}": {
+    "lat": 19.4188534,
+    "lon": -99.17064520000001,
+    "formatted_address": "Durango 280, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ6diCM0b_0YUR_pQRxxbxS0w",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Durango 280, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+      "geometry": {
+        "location": {
+          "lat": 19.4188534,
+          "lng": -99.17064520000001
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 19.4202515302915,
+            "lng": -99.1692865197085
+          },
+          "southwest": {
+            "lat": 19.4175535697085,
+            "lng": -99.17198448029151
+          }
+        }
+      },
+      "name": "Casona Roma Norte",
+      "place_id": "ChIJ6diCM0b_0YUR_pQRxxbxS0w",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://casonaroma.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hewing Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hewing Hotel Hotel\", \"Hewing Hotel Resort\", \"Hewing Hotel\", \"Hewing Hotel Minneapolis, Minnesota US Hotel\", \"Hewing Hotel Minneapolis, Minnesota US Resort\", \"Hewing Hotel Minneapolis, Minnesota US\"], \"v\": 3}": {
+    "lat": 44.9849172,
+    "lon": -93.27254630000002,
+    "formatted_address": "300 N Washington Ave, Minneapolis, MN 55401, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJZ46UXI8ys1IRX9CU03ozBKA",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "300 N Washington Ave, Minneapolis, MN 55401, USA",
+      "geometry": {
+        "location": {
+          "lat": 44.9849172,
+          "lng": -93.27254630000002
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 44.9861717802915,
+            "lng": -93.2713207697085
+          },
+          "southwest": {
+            "lat": 44.9834738197085,
+            "lng": -93.2740187302915
+          }
+        }
+      },
+      "name": "Hewing Hotel",
+      "place_id": "ChIJZ46UXI8ys1IRX9CU03ozBKA",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://hewinghotel.com/?utm_source=google&utm_medium=organic&utm_campaign=googlelisting&utm_id=gmb"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Istanbul Taksim\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Istanbul Taksim Canopy by Hilton Hotel\", \"Canopy by Hilton Istanbul Taksim Canopy by Hilton Resort\", \"Canopy by Hilton Istanbul Taksim Canopy by Hilton\", \"Canopy by Hilton Istanbul Taksim Canopy by Hilton Istanbul, Turkey Hotel\", \"Canopy by Hilton Istanbul Taksim Canopy by Hilton Istanbul, Turkey Resort\", \"Canopy by Hilton Istanbul Taksim Canopy by Hilton Istanbul, Turkey\", \"Canopy by Hilton Istanbul Taksim Hilton Hotel\", \"Canopy by Hilton Istanbul Taksim Hilton Resort\", \"Canopy by Hilton Istanbul Taksim Hilton\", \"Canopy by Hilton Istanbul Taksim Hilton Istanbul, Turkey Hotel\", \"Canopy by Hilton Istanbul Taksim Hilton Istanbul, Turkey Resort\", \"Canopy by Hilton Istanbul Taksim Hilton Istanbul, Turkey\", \"Canopy Hilton Istanbul Taksim Canopy by Hilton Hotel\", \"Canopy Hilton Istanbul Taksim Canopy by Hilton Resort\", \"Canopy Hilton Istanbul Taksim Canopy by Hilton\", \"Canopy Hilton Istanbul Taksim Canopy by Hilton Istanbul, Turkey Hotel\", \"Canopy Hilton Istanbul Taksim Canopy by Hilton Istanbul, Turkey Resort\", \"Canopy Hilton Istanbul Taksim Canopy by Hilton Istanbul, Turkey\", \"Canopy Hilton Istanbul Taksim Hilton Hotel\", \"Canopy Hilton Istanbul Taksim Hilton Resort\", \"Canopy Hilton Istanbul Taksim Hilton\", \"Canopy Hilton Istanbul Taksim Hilton Istanbul, Turkey Hotel\", \"Canopy Hilton Istanbul Taksim Hilton Istanbul, Turkey Resort\", \"Canopy Hilton Istanbul Taksim Hilton Istanbul, Turkey\", \"Canopy by Hilton Istanbul Taksim Hotel\", \"Canopy by Hilton Istanbul Taksim Resort\", \"Canopy by Hilton Istanbul Taksim\", \"Canopy by Hilton Istanbul Taksim Istanbul, Turkey Hotel\", \"Canopy by Hilton Istanbul Taksim Istanbul, Turkey Resort\", \"Canopy by Hilton Istanbul Taksim Istanbul, Turkey\"], \"v\": 3}": {
+    "lat": 41.0366048,
+    "lon": 28.9799747,
+    "formatted_address": "Şehit Muhtar, Tarlabaşı Blv No: 122 D:140, 34435 Beyoğlu/İstanbul, Türkiye",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJW0V5C7a3yhQRqh1Zfb4hW3E",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Şehit Muhtar, Tarlabaşı Blv No: 122 D:140, 34435 Beyoğlu/İstanbul, Türkiye",
+      "geometry": {
+        "location": {
+          "lat": 41.0366048,
+          "lng": 28.9799747
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.03790403029149,
+            "lng": 28.9813365302915
+          },
+          "southwest": {
+            "lat": 41.03520606970849,
+            "lng": 28.9786385697085
+          }
+        }
+      },
+      "name": "Canopy by Hilton Istanbul Taksim",
+      "place_id": "ChIJW0V5C7a3yhQRqh1Zfb4hW3E",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/isttkpy-canopy-istanbul-taksim/?SEO_id=GMB-EMEA-PY-ISTTKPY"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hilton Bogota Corferias\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Bogota Corferias Hilton Hotels & Resorts Hotel\", \"Hilton Bogota Corferias Hilton Hotels & Resorts Resort\", \"Hilton Bogota Corferias Hilton Hotels & Resorts\", \"Hilton Bogota Corferias Hilton Hotels & Resorts Bogota, Colombia Hotel\", \"Hilton Bogota Corferias Hilton Hotels & Resorts Bogota, Colombia Resort\", \"Hilton Bogota Corferias Hilton Hotels & Resorts Bogota, Colombia\", \"Hilton Bogota Corferias Hilton Hotel\", \"Hilton Bogota Corferias Hilton Resort\", \"Hilton Bogota Corferias Hilton\", \"Hilton Bogota Corferias Hilton Bogota, Colombia Hotel\", \"Hilton Bogota Corferias Hilton Bogota, Colombia Resort\", \"Hilton Bogota Corferias Hilton Bogota, Colombia\", \"Hilton Bogota Corferias Hotel\", \"Hilton Bogota Corferias Resort\", \"Hilton Bogota Corferias\", \"Hilton Bogota Corferias Bogota, Colombia Hotel\", \"Hilton Bogota Corferias Bogota, Colombia Resort\", \"Hilton Bogota Corferias Bogota, Colombia\"], \"v\": 3}": {
+    "lat": 4.628780799999999,
+    "lon": -74.0906014,
+    "formatted_address": "Cra. 37 #24 29, Teusaquillo, Bogotá, Cundinamarca, Colombia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJW_eQldebP44Rjk7-RiL2u_Q",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Cra. 37 #24 29, Teusaquillo, Bogotá, Cundinamarca, Colombia",
+      "geometry": {
+        "location": {
+          "lat": 4.628780799999999,
+          "lng": -74.0906014
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 4.629994830291503,
+            "lng": -74.08916256970849
+          },
+          "southwest": {
+            "lat": 4.627296869708498,
+            "lng": -74.0918605302915
+          }
+        }
+      },
+      "name": "Hilton Bogota Corferias",
+      "place_id": "ChIJW_eQldebP44Rjk7-RiL2u_Q",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/bogcchh-hilton-bogota-corferias/?SEO_id=GMB-AMER-HH-BOGCCHH&y_source=1_MTQ3NDY3NjAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Omni Parker House\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Omni Parker House Omni Hotels & Resorts Hotel\", \"Omni Parker House Omni Hotels & Resorts Resort\", \"Omni Parker House Omni Hotels & Resorts\", \"Omni Parker House Omni Hotels & Resorts Boston, Massachusetts US Hotel\", \"Omni Parker House Omni Hotels & Resorts Boston, Massachusetts US Resort\", \"Omni Parker House Omni Hotels & Resorts Boston, Massachusetts US\", \"Omni Parker House Hilton Hotel\", \"Omni Parker House Hilton Resort\", \"Omni Parker House Hilton\", \"Omni Parker House Hilton Boston, Massachusetts US Hotel\", \"Omni Parker House Hilton Boston, Massachusetts US Resort\", \"Omni Parker House Hilton Boston, Massachusetts US\", \"Omni Parker House Hotel\", \"Omni Parker House Resort\", \"Omni Parker House\", \"Omni Parker House Boston, Massachusetts US Hotel\", \"Omni Parker House Boston, Massachusetts US Resort\", \"Omni Parker House Boston, Massachusetts US\"], \"v\": 3}": {
+    "lat": 42.3577637,
+    "lon": -71.06010599999999,
+    "formatted_address": "60 School St, Boston, MA 02108, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJoZacmYRw44kRz81praiJwLI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "60 School St, Boston, MA 02108, USA",
+      "geometry": {
+        "location": {
+          "lat": 42.3577637,
+          "lng": -71.06010599999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.3592024302915,
+            "lng": -71.0588201197085
+          },
+          "southwest": {
+            "lat": 42.3565044697085,
+            "lng": -71.0615180802915
+          }
+        }
+      },
+      "name": "Omni Parker House",
+      "place_id": "ChIJoZacmYRw44kRz81praiJwLI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.omnihotels.com/hotels/boston-parker-house?utm_source=gmblisting&utm_medium=organic"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Admiral Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Admiral Hotel Preferred Hotels & Resorts Hotel\", \"Admiral Hotel Preferred Hotels & Resorts Resort\", \"Admiral Hotel Preferred Hotels & Resorts\", \"Admiral Hotel Preferred Hotels & Resorts Copenhagen, Denmark Hotel\", \"Admiral Hotel Preferred Hotels & Resorts Copenhagen, Denmark Resort\", \"Admiral Hotel Preferred Hotels & Resorts Copenhagen, Denmark\", \"Admiral Hotel Hilton Hotel\", \"Admiral Hotel Hilton Resort\", \"Admiral Hotel Hilton\", \"Admiral Hotel Hilton Copenhagen, Denmark Hotel\", \"Admiral Hotel Hilton Copenhagen, Denmark Resort\", \"Admiral Hotel Hilton Copenhagen, Denmark\", \"Admiral Hotel Hotel\", \"Admiral Hotel Resort\", \"Admiral Hotel\", \"Admiral Hotel Copenhagen, Denmark Hotel\", \"Admiral Hotel Copenhagen, Denmark Resort\", \"Admiral Hotel Copenhagen, Denmark\"], \"v\": 3}": {
+    "lat": 14.5653008,
+    "lon": 120.9850956,
+    "formatted_address": "2138 Roxas Blvd, Malate, Manila, 1004 Metro Manila, Philippines",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJVwM4ldXLlzMRvSUhW5FSKuA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2138 Roxas Blvd, Malate, Manila, 1004 Metro Manila, Philippines",
+      "geometry": {
+        "location": {
+          "lat": 14.5653008,
+          "lng": 120.9850956
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 14.5665834302915,
+            "lng": 120.9863412802915
+          },
+          "southwest": {
+            "lat": 14.5638854697085,
+            "lng": 120.9836433197085
+          }
+        }
+      },
+      "name": "Admiral Hotel Manila - MGallery Collection",
+      "place_id": "ChIJVwM4ldXLlzMRvSUhW5FSKuA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://mgallery.accor.com/hotels/9338?merchantid=seo-maps-PH-9338&sourceid=aw-cen&utm_source=google+Maps&utm_medium=seo+maps&utm_campaign=seo+maps&utm_term=MGallery-Launch"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Villa Petriolo Tuscany\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Villa Petriolo Tuscany Small Luxury Hotels of the World Hotel\", \"Villa Petriolo Tuscany Small Luxury Hotels of the World Resort\", \"Villa Petriolo Tuscany Small Luxury Hotels of the World\", \"Villa Petriolo Tuscany Small Luxury Hotels of the World Cerreto Guidi, Italy Hotel\", \"Villa Petriolo Tuscany Small Luxury Hotels of the World Cerreto Guidi, Italy Resort\", \"Villa Petriolo Tuscany Small Luxury Hotels of the World Cerreto Guidi, Italy\", \"Villa Petriolo Tuscany Hilton Hotel\", \"Villa Petriolo Tuscany Hilton Resort\", \"Villa Petriolo Tuscany Hilton\", \"Villa Petriolo Tuscany Hilton Cerreto Guidi, Italy Hotel\", \"Villa Petriolo Tuscany Hilton Cerreto Guidi, Italy Resort\", \"Villa Petriolo Tuscany Hilton Cerreto Guidi, Italy\", \"Villa Petriolo Tuscany Hotel\", \"Villa Petriolo Tuscany Resort\", \"Villa Petriolo Tuscany\", \"Villa Petriolo Tuscany Cerreto Guidi, Italy Hotel\", \"Villa Petriolo Tuscany Cerreto Guidi, Italy Resort\", \"Villa Petriolo Tuscany Cerreto Guidi, Italy\"], \"v\": 3}": {
+    "lat": 43.7425731,
+    "lon": 10.8485728,
+    "formatted_address": "V. di Petriolo, 7, 50050 Cerreto Guidi FI, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJs1VKtv1lKhMRV0A-eBDUSUs",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "school"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "V. di Petriolo, 7, 50050 Cerreto Guidi FI, Italy",
+      "geometry": {
+        "location": {
+          "lat": 43.7425731,
+          "lng": 10.8485728
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.74391823029149,
+            "lng": 10.8499249302915
+          },
+          "southwest": {
+            "lat": 43.7412202697085,
+            "lng": 10.8472269697085
+          }
+        }
+      },
+      "name": "Villa Petriolo",
+      "place_id": "ChIJs1VKtv1lKhMRV0A-eBDUSUs",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "school"
+      ],
+      "website": "http://www.villapetriolotuscany.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"METT Barcelona\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"METT Barcelona The Leading Hotels of the World Hotel\", \"METT Barcelona The Leading Hotels of the World Resort\", \"METT Barcelona The Leading Hotels of the World\", \"METT Barcelona The Leading Hotels of the World Barcelona, Spain Hotel\", \"METT Barcelona The Leading Hotels of the World Barcelona, Spain Resort\", \"METT Barcelona The Leading Hotels of the World Barcelona, Spain\", \"METT Barcelona Hilton Hotel\", \"METT Barcelona Hilton Resort\", \"METT Barcelona Hilton\", \"METT Barcelona Hilton Barcelona, Spain Hotel\", \"METT Barcelona Hilton Barcelona, Spain Resort\", \"METT Barcelona Hilton Barcelona, Spain\", \"Mett Barcelona The Leading Hotels of the World Hotel\", \"Mett Barcelona The Leading Hotels of the World Resort\", \"Mett Barcelona The Leading Hotels of the World\", \"Mett Barcelona The Leading Hotels of the World Barcelona, Spain Hotel\", \"Mett Barcelona The Leading Hotels of the World Barcelona, Spain Resort\", \"Mett Barcelona The Leading Hotels of the World Barcelona, Spain\", \"Mett Barcelona Hilton Hotel\", \"Mett Barcelona Hilton Resort\", \"Mett Barcelona Hilton\", \"Mett Barcelona Hilton Barcelona, Spain Hotel\", \"Mett Barcelona Hilton Barcelona, Spain Resort\", \"Mett Barcelona Hilton Barcelona, Spain\", \"METT Barcelona Hotel\", \"METT Barcelona Resort\", \"METT Barcelona\", \"METT Barcelona Barcelona, Spain Hotel\", \"METT Barcelona Barcelona, Spain Resort\", \"METT Barcelona Barcelona, Spain\"], \"v\": 3}": {
+    "lat": 41.4257107,
+    "lon": 2.1204463,
+    "formatted_address": "Ctra. de Vallvidrera al Tibidabo, 83-93, Sarrià-Sant Gervasi, 08035 Barcelona, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJRUNWX4mXpBIRdlfk7PMBpCY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Ctra. de Vallvidrera al Tibidabo, 83-93, Sarrià-Sant Gervasi, 08035 Barcelona, Spain",
+      "geometry": {
+        "location": {
+          "lat": 41.4257107,
+          "lng": 2.1204463
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.4271013802915,
+            "lng": 2.121698780291502
+          },
+          "southwest": {
+            "lat": 41.4244034197085,
+            "lng": 2.119000819708498
+          }
+        }
+      },
+      "name": "METT Barcelona",
+      "place_id": "ChIJRUNWX4mXpBIRdlfk7PMBpCY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.metthotelsandresorts.com/barcelona/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"W Xian\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W Xian W Hotels Hotel\", \"W Xian W Hotels Resort\", \"W Xian W Hotels\", \"W Xian W Hotels Xi'an, China Hotel\", \"W Xian W Hotels Xi'an, China Resort\", \"W Xian W Hotels Xi'an, China\", \"W Xian Hilton Hotel\", \"W Xian Hilton Resort\", \"W Xian Hilton\", \"W Xian Hilton Xi'an, China Hotel\", \"W Xian Hilton Xi'an, China Resort\", \"W Xian Hilton Xi'an, China\", \"W Xian Hotel\", \"W Xian Resort\", \"W Xian\", \"W Xian Xi'an, China Hotel\", \"W Xian Xi'an, China Resort\", \"W Xian Xi'an, China\"], \"v\": 3}": {
+    "lat": 34.216908,
+    "lon": 108.958405,
+    "formatted_address": "66 Ci En Road, 雁塔区西安市 SA, China, 710063",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ1ZGrol1wYzYRkh8SgRi1XvM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "66 Ci En Road, 雁塔区西安市 SA, China, 710063",
+      "geometry": {
+        "location": {
+          "lat": 34.216908,
+          "lng": 108.958405
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 34.2182564802915,
+            "lng": 108.9597351302915
+          },
+          "southwest": {
+            "lat": 34.2155585197085,
+            "lng": 108.9570371697085
+          }
+        }
+      },
+      "name": "The Westin Xian",
+      "place_id": "ChIJ1ZGrol1wYzYRkh8SgRi1XvM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/hotels/travel/xiywi-the-westin-xian/"
+    }
   }
 }

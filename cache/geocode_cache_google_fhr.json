@@ -128513,12 +128513,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Grove\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Grove Hotel\", \"The Grove Resort\", \"The Grove\", \"The Grove Hertfordshire, England Hotel\", \"The Grove Hertfordshire, England Resort\", \"The Grove Hertfordshire, England\"], \"v\": 3}": {
-    "lat": 43.6139805,
-    "lon": -116.2037791,
-    "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
+    "lat": 40.6594148,
+    "lon": -73.09003100000001,
+    "formatted_address": "1 Ocean Walk, Cherry Grove, NY 11782, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
+    "place_id": "ChIJMTNDgLRK6IkRTExLoVZe1I4",
     "types": [
       "establishment",
       "lodging",
@@ -128527,31 +128527,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
+      "formatted_address": "1 Ocean Walk, Cherry Grove, NY 11782, USA",
       "geometry": {
         "location": {
-          "lat": 43.6139805,
-          "lng": -116.2037791
+          "lat": 40.6594148,
+          "lng": -73.09003100000001
         },
         "viewport": {
           "northeast": {
-            "lat": 43.61524663029149,
-            "lng": -116.2022796697085
+            "lat": 40.66016913029149,
+            "lng": -73.0899996
           },
           "southwest": {
-            "lat": 43.6125486697085,
-            "lng": -116.2049776302915
+            "lat": 40.6574711697085,
+            "lng": -73.09321709999999
           }
         }
       },
       "name": "The Grove Hotel",
-      "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
+      "place_id": "ChIJMTNDgLRK6IkRTExLoVZe1I4",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "http://www.grovehotelboise.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect"
+      "website": "http://www.grovehotel.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Southern Ocean Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Southern Ocean Lodge Hotel\", \"Southern Ocean Lodge Resort\", \"Southern Ocean Lodge\", \"Southern Ocean Lodge Kingscote, Australia Hotel\", \"Southern Ocean Lodge Kingscote, Australia Resort\", \"Southern Ocean Lodge Kingscote, Australia\"], \"v\": 3}": {
@@ -148684,8 +148684,8 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Four Seasons Hotel Istanbul at Sultanahmet\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Four Seasons Hotel Istanbul at Sultanahmet Four Seasons Hotels and Resorts Hotel\", \"Four Seasons Hotel Istanbul at Sultanahmet Four Seasons Hotels and Resorts Resort\", \"Four Seasons Hotel Istanbul at Sultanahmet Four Seasons Hotels and Resorts\", \"Four Seasons Hotel Istanbul at Sultanahmet Four Seasons Hotels and Resorts Istanbul, Turkey Hotel\", \"Four Seasons Hotel Istanbul at Sultanahmet Four Seasons Hotels and Resorts Istanbul, Turkey Resort\", \"Four Seasons Hotel Istanbul at Sultanahmet Four Seasons Hotels and Resorts Istanbul, Turkey\", \"Four Seasons Hotel Istanbul at Sultanahmet Hilton Hotel\", \"Four Seasons Hotel Istanbul at Sultanahmet Hilton Resort\", \"Four Seasons Hotel Istanbul at Sultanahmet Hilton\", \"Four Seasons Hotel Istanbul at Sultanahmet Hilton Istanbul, Turkey Hotel\", \"Four Seasons Hotel Istanbul at Sultanahmet Hilton Istanbul, Turkey Resort\", \"Four Seasons Hotel Istanbul at Sultanahmet Hilton Istanbul, Turkey\", \"Four Seasons Hotel Istanbul Sultanahmet Four Seasons Hotels and Resorts Hotel\", \"Four Seasons Hotel Istanbul Sultanahmet Four Seasons Hotels and Resorts Resort\", \"Four Seasons Hotel Istanbul Sultanahmet Four Seasons Hotels and Resorts\", \"Four Seasons Hotel Istanbul Sultanahmet Four Seasons Hotels and Resorts Istanbul, Turkey Hotel\", \"Four Seasons Hotel Istanbul Sultanahmet Four Seasons Hotels and Resorts Istanbul, Turkey Resort\", \"Four Seasons Hotel Istanbul Sultanahmet Four Seasons Hotels and Resorts Istanbul, Turkey\", \"Four Seasons Hotel Istanbul Sultanahmet Hilton Hotel\", \"Four Seasons Hotel Istanbul Sultanahmet Hilton Resort\", \"Four Seasons Hotel Istanbul Sultanahmet Hilton\", \"Four Seasons Hotel Istanbul Sultanahmet Hilton Istanbul, Turkey Hotel\", \"Four Seasons Hotel Istanbul Sultanahmet Hilton Istanbul, Turkey Resort\", \"Four Seasons Hotel Istanbul Sultanahmet Hilton Istanbul, Turkey\", \"Four Seasons Hotel Istanbul at Sultanahmet Hotel\", \"Four Seasons Hotel Istanbul at Sultanahmet Resort\", \"Four Seasons Hotel Istanbul at Sultanahmet\", \"Four Seasons Hotel Istanbul at Sultanahmet Istanbul, Turkey Hotel\", \"Four Seasons Hotel Istanbul at Sultanahmet Istanbul, Turkey Resort\", \"Four Seasons Hotel Istanbul at Sultanahmet Istanbul, Turkey\"], \"v\": 3}": {
-    "lat": 41.0065918,
-    "lon": 28.98021469999999,
+    "lat": 41.0065406,
+    "lon": 28.9802234,
     "formatted_address": "Sultanahmet, Cankurtaran, Tevkifhane Sk. No:1, 34122 Fatih/İstanbul, Türkiye",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
@@ -148702,16 +148702,16 @@
       "formatted_address": "Sultanahmet, Cankurtaran, Tevkifhane Sk. No:1, 34122 Fatih/İstanbul, Türkiye",
       "geometry": {
         "location": {
-          "lat": 41.0065918,
-          "lng": 28.98021469999999
+          "lat": 41.0065406,
+          "lng": 28.9802234
         },
         "viewport": {
           "northeast": {
-            "lat": 41.0078043802915,
+            "lat": 41.0077870302915,
             "lng": 28.9816953302915
           },
           "southwest": {
-            "lat": 41.0051064197085,
+            "lat": 41.0050890697085,
             "lng": 28.9789973697085
           }
         }
@@ -208897,6 +208897,235 @@
         "point_of_interest"
       ],
       "website": "http://www.langhamhotels.com/en/the-langham/pasadena/?htl=tllax&src=organic&eng=google&size=na&cid=yext_profile&y_source=1_MTAwNjI1OTQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Amrit Ocean Resort & Residences\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amrit Ocean Resort & Residences\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"CASCADA Thermal Springs + Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"CASCADA Thermal Springs + Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Montauk Yacht Club\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Montauk Yacht Club\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Eagles Villas\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Eagles Villas\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Giza Palace Hotel & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Giza Palace Hotel & Spa\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Spicers Sangoma Retreat\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Spicers Sangoma Retreat\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Spicers Sangoma Retreat\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Spicers Sangoma Retreat Hotel\", \"Spicers Sangoma Retreat Resort\", \"Spicers Sangoma Retreat\", \"Spicers Sangoma Retreat Bowen Mountain, Australia Hotel\", \"Spicers Sangoma Retreat Bowen Mountain, Australia Resort\", \"Spicers Sangoma Retreat Bowen Mountain, Australia\"], \"v\": 3}": {
+    "lat": -33.5825611,
+    "lon": 150.6333944,
+    "formatted_address": "70 Grandview Ln, Bowen Mountain NSW 2753, Australia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJna5tG9SBEmsRlVuGo7Un5yc",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "70 Grandview Ln, Bowen Mountain NSW 2753, Australia",
+      "geometry": {
+        "location": {
+          "lat": -33.5825611,
+          "lng": 150.6333944
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -33.58109126970849,
+            "lng": 150.6347625302915
+          },
+          "southwest": {
+            "lat": -33.58378923029149,
+            "lng": 150.6320645697085
+          }
+        }
+      },
+      "name": "Spicers Sangoma Retreat",
+      "place_id": "ChIJna5tG9SBEmsRlVuGo7Un5yc",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://spicersretreats.com/retreats/spicers-sangoma-retreat/?utm_source=google&utm_medium=organic&utm_campaign=gmb"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"CASCADA Thermal Springs + Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"CASCADA Thermal Springs + Hotel Hotel\", \"CASCADA Thermal Springs + Hotel Resort\", \"CASCADA Thermal Springs + Hotel\", \"CASCADA Thermal Springs + Hotel Portland, Oregon US Hotel\", \"CASCADA Thermal Springs + Hotel Portland, Oregon US Resort\", \"CASCADA Thermal Springs + Hotel Portland, Oregon US\", \"Cascada Thermal Springs Hotel Hotel\", \"Cascada Thermal Springs Hotel Resort\", \"Cascada Thermal Springs Hotel\", \"Cascada Thermal Springs Hotel Portland, Oregon US Hotel\", \"Cascada Thermal Springs Hotel Portland, Oregon US Resort\", \"Cascada Thermal Springs Hotel Portland, Oregon US\"], \"v\": 3}": {
+    "lat": 45.5589801,
+    "lon": -122.6539479,
+    "formatted_address": "1150 NE Alberta St, Portland, OR 97211, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ148ReI-nlVQRZNVS8Pfzf2c",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1150 NE Alberta St, Portland, OR 97211, USA",
+      "geometry": {
+        "location": {
+          "lat": 45.5589801,
+          "lng": -122.6539479
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.5603921302915,
+            "lng": -122.6526006697085
+          },
+          "southwest": {
+            "lat": 45.5576941697085,
+            "lng": -122.6552986302915
+          }
+        }
+      },
+      "name": "CASCADA Thermal Springs + Hotel",
+      "place_id": "ChIJ148ReI-nlVQRZNVS8Pfzf2c",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://cascada.me/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Montauk Yacht Club\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Montauk Yacht Club Design Hotels Hotel\", \"Montauk Yacht Club Design Hotels Resort\", \"Montauk Yacht Club Design Hotels\", \"Montauk Yacht Club Design Hotels Montauk, New York US Hotel\", \"Montauk Yacht Club Design Hotels Montauk, New York US Resort\", \"Montauk Yacht Club Design Hotels Montauk, New York US\", \"Montauk Yacht Club Hilton Hotel\", \"Montauk Yacht Club Hilton Resort\", \"Montauk Yacht Club Hilton\", \"Montauk Yacht Club Hilton Montauk, New York US Hotel\", \"Montauk Yacht Club Hilton Montauk, New York US Resort\", \"Montauk Yacht Club Hilton Montauk, New York US\", \"Montauk Yacht Club Hotel\", \"Montauk Yacht Club Resort\", \"Montauk Yacht Club\", \"Montauk Yacht Club Montauk, New York US Hotel\", \"Montauk Yacht Club Montauk, New York US Resort\", \"Montauk Yacht Club Montauk, New York US\"], \"v\": 3}": {
+    "lat": 41.0691804,
+    "lon": -71.9325127,
+    "formatted_address": "32 Star Island Rd, Montauk, NY 11954, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ_afXehxV74kR-x2fhiGPvJo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "32 Star Island Rd, Montauk, NY 11954, USA",
+      "geometry": {
+        "location": {
+          "lat": 41.0691804,
+          "lng": -71.9325127
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.07078853029149,
+            "lng": -71.9318526197085
+          },
+          "southwest": {
+            "lat": 41.0680905697085,
+            "lng": -71.93455058029151
+          }
+        }
+      },
+      "name": "Montauk Yacht Club",
+      "place_id": "ChIJ_afXehxV74kR-x2fhiGPvJo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://montaukyachtclub.com/?utm_source=local-listings&utm_medium=organic&utm_campaign=local-listings"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Amrit Ocean Resort & Residences\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amrit Ocean Resort & Residences Preferred Hotels & Resorts Hotel\", \"Amrit Ocean Resort & Residences Preferred Hotels & Resorts Resort\", \"Amrit Ocean Resort & Residences Preferred Hotels & Resorts\", \"Amrit Ocean Resort & Residences Preferred Hotels & Resorts Riviera Beach, Florida US Hotel\", \"Amrit Ocean Resort & Residences Preferred Hotels & Resorts Riviera Beach, Florida US Resort\", \"Amrit Ocean Resort & Residences Preferred Hotels & Resorts Riviera Beach, Florida US\", \"Amrit Ocean Resort & Residences Hilton Hotel\", \"Amrit Ocean Resort & Residences Hilton Resort\", \"Amrit Ocean Resort & Residences Hilton\", \"Amrit Ocean Resort & Residences Hilton Riviera Beach, Florida US Hotel\", \"Amrit Ocean Resort & Residences Hilton Riviera Beach, Florida US Resort\", \"Amrit Ocean Resort & Residences Hilton Riviera Beach, Florida US\", \"Amrit Ocean Resort Residences Preferred Hotels & Resorts Hotel\", \"Amrit Ocean Resort Residences Preferred Hotels & Resorts Resort\", \"Amrit Ocean Resort Residences Preferred Hotels & Resorts\", \"Amrit Ocean Resort Residences Preferred Hotels & Resorts Riviera Beach, Florida US Hotel\", \"Amrit Ocean Resort Residences Preferred Hotels & Resorts Riviera Beach, Florida US Resort\", \"Amrit Ocean Resort Residences Preferred Hotels & Resorts Riviera Beach, Florida US\", \"Amrit Ocean Resort Residences Hilton Hotel\", \"Amrit Ocean Resort Residences Hilton Resort\", \"Amrit Ocean Resort Residences Hilton\", \"Amrit Ocean Resort Residences Hilton Riviera Beach, Florida US Hotel\", \"Amrit Ocean Resort Residences Hilton Riviera Beach, Florida US Resort\", \"Amrit Ocean Resort Residences Hilton Riviera Beach, Florida US\", \"Amrit Ocean Resort & Residences Hotel\", \"Amrit Ocean Resort & Residences Resort\", \"Amrit Ocean Resort & Residences\", \"Amrit Ocean Resort & Residences Riviera Beach, Florida US Hotel\", \"Amrit Ocean Resort & Residences Riviera Beach, Florida US Resort\", \"Amrit Ocean Resort & Residences Riviera Beach, Florida US\"], \"v\": 3}": {
+    "lat": 26.7878959,
+    "lon": -80.0344317,
+    "formatted_address": "3100 N Ocean Dr, Riviera Beach, FL 33404, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJka8NpO3U2IgRtp6uXusGRtE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "3100 N Ocean Dr, Riviera Beach, FL 33404, USA",
+      "geometry": {
+        "location": {
+          "lat": 26.7878959,
+          "lng": -80.0344317
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 26.7893119802915,
+            "lng": -80.03327556970851
+          },
+          "southwest": {
+            "lat": 26.7866140197085,
+            "lng": -80.03597353029151
+          }
+        }
+      },
+      "name": "Amrit Ocean Resort",
+      "place_id": "ChIJka8NpO3U2IgRtp6uXusGRtE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.amritocean.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Eagles Villas\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Eagles Villas Small Luxury Hotels of the World Hotel\", \"Eagles Villas Small Luxury Hotels of the World Resort\", \"Eagles Villas Small Luxury Hotels of the World\", \"Eagles Villas Small Luxury Hotels of the World Ouranoupolis, Greece Hotel\", \"Eagles Villas Small Luxury Hotels of the World Ouranoupolis, Greece Resort\", \"Eagles Villas Small Luxury Hotels of the World Ouranoupolis, Greece\", \"Eagles Villas Hilton Hotel\", \"Eagles Villas Hilton Resort\", \"Eagles Villas Hilton\", \"Eagles Villas Hilton Ouranoupolis, Greece Hotel\", \"Eagles Villas Hilton Ouranoupolis, Greece Resort\", \"Eagles Villas Hilton Ouranoupolis, Greece\", \"Eagles Villas Hotel\", \"Eagles Villas Resort\", \"Eagles Villas\", \"Eagles Villas Ouranoupolis, Greece Hotel\", \"Eagles Villas Ouranoupolis, Greece Resort\", \"Eagles Villas Ouranoupolis, Greece\"], \"v\": 3}": {
+    "status": "NO_RESULT"
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Giza Palace Hotel & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Giza Palace Hotel & Spa The Leading Hotels of the World Hotel\", \"Giza Palace Hotel & Spa The Leading Hotels of the World Resort\", \"Giza Palace Hotel & Spa The Leading Hotels of the World\", \"Giza Palace Hotel & Spa The Leading Hotels of the World Giza, Egypt Hotel\", \"Giza Palace Hotel & Spa The Leading Hotels of the World Giza, Egypt Resort\", \"Giza Palace Hotel & Spa The Leading Hotels of the World Giza, Egypt\", \"Giza Palace Hotel & Spa Hilton Hotel\", \"Giza Palace Hotel & Spa Hilton Resort\", \"Giza Palace Hotel & Spa Hilton\", \"Giza Palace Hotel & Spa Hilton Giza, Egypt Hotel\", \"Giza Palace Hotel & Spa Hilton Giza, Egypt Resort\", \"Giza Palace Hotel & Spa Hilton Giza, Egypt\", \"Giza Palace Hotel Spa The Leading Hotels of the World Hotel\", \"Giza Palace Hotel Spa The Leading Hotels of the World Resort\", \"Giza Palace Hotel Spa The Leading Hotels of the World\", \"Giza Palace Hotel Spa The Leading Hotels of the World Giza, Egypt Hotel\", \"Giza Palace Hotel Spa The Leading Hotels of the World Giza, Egypt Resort\", \"Giza Palace Hotel Spa The Leading Hotels of the World Giza, Egypt\", \"Giza Palace Hotel Spa Hilton Hotel\", \"Giza Palace Hotel Spa Hilton Resort\", \"Giza Palace Hotel Spa Hilton\", \"Giza Palace Hotel Spa Hilton Giza, Egypt Hotel\", \"Giza Palace Hotel Spa Hilton Giza, Egypt Resort\", \"Giza Palace Hotel Spa Hilton Giza, Egypt\", \"Giza Palace Hotel & Spa Hotel\", \"Giza Palace Hotel & Spa Resort\", \"Giza Palace Hotel & Spa\", \"Giza Palace Hotel & Spa Giza, Egypt Hotel\", \"Giza Palace Hotel & Spa Giza, Egypt Resort\", \"Giza Palace Hotel & Spa Giza, Egypt\"], \"v\": 3}": {
+    "lat": 30.0184702,
+    "lon": 31.0021501,
+    "formatted_address": "First Al Sheikh Zayed, Giza Governorate 12588, Egypt",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ80Mf4w5aWBQRPnocTTshP6s",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "First Al Sheikh Zayed, Giza Governorate 12588, Egypt",
+      "geometry": {
+        "location": {
+          "lat": 30.0184702,
+          "lng": 31.0021501
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 30.0202140302915,
+            "lng": 31.00377543029149
+          },
+          "southwest": {
+            "lat": 30.0175160697085,
+            "lng": 31.0010774697085
+          }
+        }
+      },
+      "name": "Giza Palace",
+      "place_id": "ChIJ80Mf4w5aWBQRPnocTTshP6s",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.gizapalace.com/"
     }
   }
 }
