@@ -153328,5 +153328,326 @@
       ],
       "website": "https://www.marriott.com/hotels/travel/xiywi-the-westin-xian/"
     }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Secrets Cap Cana Resort and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Secrets Cap Cana Resort and Spa\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Grand Hotel du Lac\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Hotel du Lac\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Les Roches Rouges\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Les Roches Rouges\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Headland Hotel and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Headland Hotel and Spa\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Radisson Collection Hotel, Waterfront Cape Town\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Radisson Collection Hotel, Waterfront Cape Town\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hotel Groove Shinjuku, A PARKROYAL Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Groove Shinjuku, A PARKROYAL Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Kitano Hotel Tokyo\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Kitano Hotel Tokyo\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Headland Hotel and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Headland Hotel and Spa Hotel\", \"The Headland Hotel and Spa Resort\", \"The Headland Hotel and Spa\", \"The Headland Hotel and Spa Newquay, England Hotel\", \"The Headland Hotel and Spa Newquay, England Resort\", \"The Headland Hotel and Spa Newquay, England\", \"Headland Hotel Spa Hotel\", \"Headland Hotel Spa Resort\", \"Headland Hotel Spa\", \"Headland Hotel Spa Newquay, England Hotel\", \"Headland Hotel Spa Newquay, England Resort\", \"Headland Hotel Spa Newquay, England\"], \"v\": 3}": {
+    "lat": 50.4205456,
+    "lon": -5.0969729,
+    "formatted_address": "Fistral Beach, Headland Rd, Newquay TR7 1EW, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ5d7yt8gPa0gRNjiVlr0zUwc",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Fistral Beach, Headland Rd, Newquay TR7 1EW, UK",
+      "geometry": {
+        "location": {
+          "lat": 50.4205456,
+          "lng": -5.0969729
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 50.4218815802915,
+            "lng": -5.095471869708498
+          },
+          "southwest": {
+            "lat": 50.4191836197085,
+            "lng": -5.098169830291503
+          }
+        }
+      },
+      "name": "The Headland",
+      "place_id": "ChIJ5d7yt8gPa0gRNjiVlr0zUwc",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.headlandhotel.co.uk/?utm_source=google&utm_medium=local&utm_campaign=hotel-theheadland"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Secrets Cap Cana Resort and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Secrets Cap Cana Resort and Spa Hotel\", \"Secrets Cap Cana Resort and Spa Resort\", \"Secrets Cap Cana Resort and Spa\", \"Secrets Cap Cana Resort and Spa Punta Cana, Dominican Republic Hotel\", \"Secrets Cap Cana Resort and Spa Punta Cana, Dominican Republic Resort\", \"Secrets Cap Cana Resort and Spa Punta Cana, Dominican Republic\", \"Secrets Cap Cana Resort Spa Hotel\", \"Secrets Cap Cana Resort Spa Resort\", \"Secrets Cap Cana Resort Spa\", \"Secrets Cap Cana Resort Spa Punta Cana, Dominican Republic Hotel\", \"Secrets Cap Cana Resort Spa Punta Cana, Dominican Republic Resort\", \"Secrets Cap Cana Resort Spa Punta Cana, Dominican Republic\"], \"v\": 3}": {
+    "lat": 18.4848125,
+    "lon": -68.3965625,
+    "formatted_address": "Punta Cana 23000, Dominican Republic",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJlaY2HQCRqI4RzRWT1vBYg5M",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Punta Cana 23000, Dominican Republic",
+      "geometry": {
+        "location": {
+          "lat": 18.4848125,
+          "lng": -68.3965625
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 18.4861507802915,
+            "lng": -68.39521861970849
+          },
+          "southwest": {
+            "lat": 18.4834528197085,
+            "lng": -68.3979165802915
+          }
+        }
+      },
+      "name": "Secrets Cap Cana Resort & Spa",
+      "place_id": "ChIJlaY2HQCRqI4RzRWT1vBYg5M",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyattinclusivecollection.com/en/resorts-hotels/secrets/dominican-republic/cap-cana-resort-spa/?src=corp_lclb_google_seo_seccc&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Les Roches Rouges\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Les Roches Rouges Hotel\", \"Les Roches Rouges Resort\", \"Les Roches Rouges\", \"Les Roches Rouges Saint Raphael, France Hotel\", \"Les Roches Rouges Saint Raphael, France Resort\", \"Les Roches Rouges Saint Raphael, France\"], \"v\": 3}": {
+    "lat": 43.4168663,
+    "lon": 6.837301999999999,
+    "formatted_address": "90 Bd de la 36ème division du Texas, 83700 Saint-Raphaël, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJsWXvWUmXzhIR2FP9znvwCYw",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "90 Bd de la 36ème division du Texas, 83700 Saint-Raphaël, France",
+      "geometry": {
+        "location": {
+          "lat": 43.4168663,
+          "lng": 6.837301999999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.4182436302915,
+            "lng": 6.838609330291501
+          },
+          "southwest": {
+            "lat": 43.4155456697085,
+            "lng": 6.835911369708496
+          }
+        }
+      },
+      "name": "Les Roches Rouges Hotel, Saint Raphaël, Beaumier",
+      "place_id": "ChIJsWXvWUmXzhIR2FP9znvwCYw",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.beaumier.com/en/properties/les-roches-rouges-hotel/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Groove Shinjuku, A PARKROYAL Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Groove Shinjuku, A PARKROYAL Hotel Pan Pacific Hotels Group Hotel\", \"Hotel Groove Shinjuku, A PARKROYAL Hotel Pan Pacific Hotels Group Resort\", \"Hotel Groove Shinjuku, A PARKROYAL Hotel Pan Pacific Hotels Group\", \"Hotel Groove Shinjuku, A PARKROYAL Hotel Pan Pacific Hotels Group Tokyo, Japan Hotel\", \"Hotel Groove Shinjuku, A PARKROYAL Hotel Pan Pacific Hotels Group Tokyo, Japan Resort\", \"Hotel Groove Shinjuku, A PARKROYAL Hotel Pan Pacific Hotels Group Tokyo, Japan\", \"Hotel Groove Shinjuku, A PARKROYAL Hotel Hilton Hotel\", \"Hotel Groove Shinjuku, A PARKROYAL Hotel Hilton Resort\", \"Hotel Groove Shinjuku, A PARKROYAL Hotel Hilton\", \"Hotel Groove Shinjuku, A PARKROYAL Hotel Hilton Tokyo, Japan Hotel\", \"Hotel Groove Shinjuku, A PARKROYAL Hotel Hilton Tokyo, Japan Resort\", \"Hotel Groove Shinjuku, A PARKROYAL Hotel Hilton Tokyo, Japan\", \"Hotel Groove Shinjuku A Parkroyal Hotel Pan Pacific Hotels Group Hotel\", \"Hotel Groove Shinjuku A Parkroyal Hotel Pan Pacific Hotels Group Resort\", \"Hotel Groove Shinjuku A Parkroyal Hotel Pan Pacific Hotels Group\", \"Hotel Groove Shinjuku A Parkroyal Hotel Pan Pacific Hotels Group Tokyo, Japan Hotel\", \"Hotel Groove Shinjuku A Parkroyal Hotel Pan Pacific Hotels Group Tokyo, Japan Resort\", \"Hotel Groove Shinjuku A Parkroyal Hotel Pan Pacific Hotels Group Tokyo, Japan\", \"Hotel Groove Shinjuku A Parkroyal Hotel Hilton Hotel\", \"Hotel Groove Shinjuku A Parkroyal Hotel Hilton Resort\", \"Hotel Groove Shinjuku A Parkroyal Hotel Hilton\", \"Hotel Groove Shinjuku A Parkroyal Hotel Hilton Tokyo, Japan Hotel\", \"Hotel Groove Shinjuku A Parkroyal Hotel Hilton Tokyo, Japan Resort\", \"Hotel Groove Shinjuku A Parkroyal Hotel Hilton Tokyo, Japan\", \"Hotel Groove Shinjuku, A PARKROYAL Hotel Hotel\", \"Hotel Groove Shinjuku, A PARKROYAL Hotel Resort\", \"Hotel Groove Shinjuku, A PARKROYAL Hotel\", \"Hotel Groove Shinjuku, A PARKROYAL Hotel Tokyo, Japan Hotel\", \"Hotel Groove Shinjuku, A PARKROYAL Hotel Tokyo, Japan Resort\", \"Hotel Groove Shinjuku, A PARKROYAL Hotel Tokyo, Japan\"], \"v\": 3}": {
+    "lat": 35.6958759,
+    "lon": 139.7004066,
+    "formatted_address": "東急歌舞伎町タワ, 1-chōme-29-1 Kabukichō, Shinjuku City, Tokyo 160-0021, Japan",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJq23aFOSNGGARzmYvWLQVcME",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "東急歌舞伎町タワ, 1-chōme-29-1 Kabukichō, Shinjuku City, Tokyo 160-0021, Japan",
+      "geometry": {
+        "location": {
+          "lat": 35.6958759,
+          "lng": 139.7004066
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.69717008029151,
+            "lng": 139.7019628802915
+          },
+          "southwest": {
+            "lat": 35.69447211970851,
+            "lng": 139.6992649197085
+          }
+        }
+      },
+      "name": "HOTEL GROOVE SHINJUKU, A PARKROYAL Hotel",
+      "place_id": "ChIJq23aFOSNGGARzmYvWLQVcME",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.panpacific.com/en/hotels-and-resorts/hotel-groove-shinjuku.html"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Radisson Collection Hotel, Waterfront Cape Town\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Radisson Collection Hotel, Waterfront Cape Town Radisson Hotel Group Hotel\", \"Radisson Collection Hotel, Waterfront Cape Town Radisson Hotel Group Resort\", \"Radisson Collection Hotel, Waterfront Cape Town Radisson Hotel Group\", \"Radisson Collection Hotel, Waterfront Cape Town Radisson Hotel Group Cape Town, South Africa Hotel\", \"Radisson Collection Hotel, Waterfront Cape Town Radisson Hotel Group Cape Town, South Africa Resort\", \"Radisson Collection Hotel, Waterfront Cape Town Radisson Hotel Group Cape Town, South Africa\", \"Radisson Collection Hotel, Waterfront Cape Town Hilton Hotel\", \"Radisson Collection Hotel, Waterfront Cape Town Hilton Resort\", \"Radisson Collection Hotel, Waterfront Cape Town Hilton\", \"Radisson Collection Hotel, Waterfront Cape Town Hilton Cape Town, South Africa Hotel\", \"Radisson Collection Hotel, Waterfront Cape Town Hilton Cape Town, South Africa Resort\", \"Radisson Collection Hotel, Waterfront Cape Town Hilton Cape Town, South Africa\", \"Radisson Collection Hotel Waterfront Cape Town Radisson Hotel Group Hotel\", \"Radisson Collection Hotel Waterfront Cape Town Radisson Hotel Group Resort\", \"Radisson Collection Hotel Waterfront Cape Town Radisson Hotel Group\", \"Radisson Collection Hotel Waterfront Cape Town Radisson Hotel Group Cape Town, South Africa Hotel\", \"Radisson Collection Hotel Waterfront Cape Town Radisson Hotel Group Cape Town, South Africa Resort\", \"Radisson Collection Hotel Waterfront Cape Town Radisson Hotel Group Cape Town, South Africa\", \"Radisson Collection Hotel Waterfront Cape Town Hilton Hotel\", \"Radisson Collection Hotel Waterfront Cape Town Hilton Resort\", \"Radisson Collection Hotel Waterfront Cape Town Hilton\", \"Radisson Collection Hotel Waterfront Cape Town Hilton Cape Town, South Africa Hotel\", \"Radisson Collection Hotel Waterfront Cape Town Hilton Cape Town, South Africa Resort\", \"Radisson Collection Hotel Waterfront Cape Town Hilton Cape Town, South Africa\", \"Radisson Collection Hotel, Waterfront Cape Town Hotel\", \"Radisson Collection Hotel, Waterfront Cape Town Resort\", \"Radisson Collection Hotel, Waterfront Cape Town\", \"Radisson Collection Hotel, Waterfront Cape Town Cape Town, South Africa Hotel\", \"Radisson Collection Hotel, Waterfront Cape Town Cape Town, South Africa Resort\", \"Radisson Collection Hotel, Waterfront Cape Town Cape Town, South Africa\"], \"v\": 3}": {
+    "lat": -33.8992879,
+    "lon": 18.4124603,
+    "formatted_address": "100 Beach Road, Granger Bay Blvd, Mouille Point, Cape Town, 8002, South Africa",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJjR7VqBdpzB0RVaaTHMY_lrk",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "100 Beach Road, Granger Bay Blvd, Mouille Point, Cape Town, 8002, South Africa",
+      "geometry": {
+        "location": {
+          "lat": -33.8992879,
+          "lng": 18.4124603
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -33.8980374197085,
+            "lng": 18.4135658802915
+          },
+          "southwest": {
+            "lat": -33.90073538029149,
+            "lng": 18.41086791970849
+          }
+        }
+      },
+      "name": "Radisson Collection Hotel, Waterfront Cape Town",
+      "place_id": "ChIJjR7VqBdpzB0RVaaTHMY_lrk",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.radissonhotels.com/en-us/hotels/radisson-collection-cape-town-waterfront?cid=a:se+b:gmb+c:emea+i:local+e:rco+d:mea+h:ZACPTWTR"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Kitano Hotel Tokyo\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Kitano Hotel Tokyo Relais & Ch\\u00e2teaux Hotel\", \"The Kitano Hotel Tokyo Relais & Ch\\u00e2teaux Resort\", \"The Kitano Hotel Tokyo Relais & Ch\\u00e2teaux\", \"The Kitano Hotel Tokyo Relais & Ch\\u00e2teaux Tokyo, Japan Hotel\", \"The Kitano Hotel Tokyo Relais & Ch\\u00e2teaux Tokyo, Japan Resort\", \"The Kitano Hotel Tokyo Relais & Ch\\u00e2teaux Tokyo, Japan\", \"The Kitano Hotel Tokyo Hilton Hotel\", \"The Kitano Hotel Tokyo Hilton Resort\", \"The Kitano Hotel Tokyo Hilton\", \"The Kitano Hotel Tokyo Hilton Tokyo, Japan Hotel\", \"The Kitano Hotel Tokyo Hilton Tokyo, Japan Resort\", \"The Kitano Hotel Tokyo Hilton Tokyo, Japan\", \"Kitano Hotel Tokyo Relais & Ch\\u00e2teaux Hotel\", \"Kitano Hotel Tokyo Relais & Ch\\u00e2teaux Resort\", \"Kitano Hotel Tokyo Relais & Ch\\u00e2teaux\", \"Kitano Hotel Tokyo Relais & Ch\\u00e2teaux Tokyo, Japan Hotel\", \"Kitano Hotel Tokyo Relais & Ch\\u00e2teaux Tokyo, Japan Resort\", \"Kitano Hotel Tokyo Relais & Ch\\u00e2teaux Tokyo, Japan\", \"Kitano Hotel Tokyo Hilton Hotel\", \"Kitano Hotel Tokyo Hilton Resort\", \"Kitano Hotel Tokyo Hilton\", \"Kitano Hotel Tokyo Hilton Tokyo, Japan Hotel\", \"Kitano Hotel Tokyo Hilton Tokyo, Japan Resort\", \"Kitano Hotel Tokyo Hilton Tokyo, Japan\", \"The Kitano Hotel Tokyo Hotel\", \"The Kitano Hotel Tokyo Resort\", \"The Kitano Hotel Tokyo\", \"The Kitano Hotel Tokyo Tokyo, Japan Hotel\", \"The Kitano Hotel Tokyo Tokyo, Japan Resort\", \"The Kitano Hotel Tokyo Tokyo, Japan\"], \"v\": 3}": {
+    "lat": 35.67923,
+    "lon": 139.7410452,
+    "formatted_address": "2-chōme-16-15 Hirakawachō, Chiyoda City, Tokyo 102-0093, Japan",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJd8p4wHmMGGAR3F9ZZ3n2wsg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2-chōme-16-15 Hirakawachō, Chiyoda City, Tokyo 102-0093, Japan",
+      "geometry": {
+        "location": {
+          "lat": 35.67923,
+          "lng": 139.7410452
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.6804864802915,
+            "lng": 139.7423600302915
+          },
+          "southwest": {
+            "lat": 35.6777885197085,
+            "lng": 139.7396620697085
+          }
+        }
+      },
+      "name": "The Kitano Hotel Tokyo",
+      "place_id": "ChIJd8p4wHmMGGAR3F9ZZ3n2wsg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.kitanohotel.co.jp/tokyo/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Grand Hotel du Lac\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Hotel du Lac Relais & Ch\\u00e2teaux Hotel\", \"Grand Hotel du Lac Relais & Ch\\u00e2teaux Resort\", \"Grand Hotel du Lac Relais & Ch\\u00e2teaux\", \"Grand Hotel du Lac Relais & Ch\\u00e2teaux Vevey, Switzerland Hotel\", \"Grand Hotel du Lac Relais & Ch\\u00e2teaux Vevey, Switzerland Resort\", \"Grand Hotel du Lac Relais & Ch\\u00e2teaux Vevey, Switzerland\", \"Grand Hotel du Lac Hilton Hotel\", \"Grand Hotel du Lac Hilton Resort\", \"Grand Hotel du Lac Hilton\", \"Grand Hotel du Lac Hilton Vevey, Switzerland Hotel\", \"Grand Hotel du Lac Hilton Vevey, Switzerland Resort\", \"Grand Hotel du Lac Hilton Vevey, Switzerland\", \"Grand Hotel Du Lac Relais & Ch\\u00e2teaux Hotel\", \"Grand Hotel Du Lac Relais & Ch\\u00e2teaux Resort\", \"Grand Hotel Du Lac Relais & Ch\\u00e2teaux\", \"Grand Hotel Du Lac Relais & Ch\\u00e2teaux Vevey, Switzerland Hotel\", \"Grand Hotel Du Lac Relais & Ch\\u00e2teaux Vevey, Switzerland Resort\", \"Grand Hotel Du Lac Relais & Ch\\u00e2teaux Vevey, Switzerland\", \"Grand Hotel Du Lac Hilton Hotel\", \"Grand Hotel Du Lac Hilton Resort\", \"Grand Hotel Du Lac Hilton\", \"Grand Hotel Du Lac Hilton Vevey, Switzerland Hotel\", \"Grand Hotel Du Lac Hilton Vevey, Switzerland Resort\", \"Grand Hotel Du Lac Hilton Vevey, Switzerland\", \"Grand Hotel du Lac Hotel\", \"Grand Hotel du Lac Resort\", \"Grand Hotel du Lac\", \"Grand Hotel du Lac Vevey, Switzerland Hotel\", \"Grand Hotel du Lac Vevey, Switzerland Resort\", \"Grand Hotel du Lac Vevey, Switzerland\"], \"v\": 3}": {
+    "lat": 46.45765069999999,
+    "lon": 6.8518061,
+    "formatted_address": "Rue d'Italie 1, 1800 Vevey, Switzerland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ0T0N9sicjkcRXfnduZdn7f0",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "parking",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Rue d'Italie 1, 1800 Vevey, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 46.45765069999999,
+          "lng": 6.8518061
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 46.45908603029149,
+            "lng": 6.853242030291502
+          },
+          "southwest": {
+            "lat": 46.4563880697085,
+            "lng": 6.850544069708497
+          }
+        }
+      },
+      "name": "Grand Hôtel du Lac",
+      "place_id": "ChIJ0T0N9sicjkcRXfnduZdn7f0",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "parking",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "http://www.ghdl.ch/"
+    }
   }
 }

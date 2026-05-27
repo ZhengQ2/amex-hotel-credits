@@ -128513,12 +128513,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Grove\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Grove Hotel\", \"The Grove Resort\", \"The Grove\", \"The Grove Hertfordshire, England Hotel\", \"The Grove Hertfordshire, England Resort\", \"The Grove Hertfordshire, England\"], \"v\": 3}": {
-    "lat": 40.6594148,
-    "lon": -73.09003100000001,
-    "formatted_address": "1 Ocean Walk, Cherry Grove, NY 11782, USA",
+    "lat": 43.6139805,
+    "lon": -116.2037791,
+    "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJMTNDgLRK6IkRTExLoVZe1I4",
+    "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
     "types": [
       "establishment",
       "lodging",
@@ -128527,31 +128527,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "1 Ocean Walk, Cherry Grove, NY 11782, USA",
+      "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
       "geometry": {
         "location": {
-          "lat": 40.6594148,
-          "lng": -73.09003100000001
+          "lat": 43.6139805,
+          "lng": -116.2037791
         },
         "viewport": {
           "northeast": {
-            "lat": 40.66016913029149,
-            "lng": -73.0899996
+            "lat": 43.61524663029149,
+            "lng": -116.2022796697085
           },
           "southwest": {
-            "lat": 40.6574711697085,
-            "lng": -73.09321709999999
+            "lat": 43.6125486697085,
+            "lng": -116.2049776302915
           }
         }
       },
       "name": "The Grove Hotel",
-      "place_id": "ChIJMTNDgLRK6IkRTExLoVZe1I4",
+      "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "http://www.grovehotel.com/"
+      "website": "http://www.grovehotelboise.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Southern Ocean Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Southern Ocean Lodge Hotel\", \"Southern Ocean Lodge Resort\", \"Southern Ocean Lodge\", \"Southern Ocean Lodge Kingscote, Australia Hotel\", \"Southern Ocean Lodge Kingscote, Australia Resort\", \"Southern Ocean Lodge Kingscote, Australia\"], \"v\": 3}": {
@@ -130351,12 +130351,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 40.0532091,
-    "lon": -76.2527628,
-    "formatted_address": "545 Greenfield Rd, Lancaster, PA 17601, USA",
+    "lat": 39.9927967,
+    "lon": -76.28769179999999,
+    "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ5eRM3147xokRVvi_lryvPU0",
+    "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
     "types": [
       "establishment",
       "lodging",
@@ -130365,31 +130365,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "545 Greenfield Rd, Lancaster, PA 17601, USA",
+      "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
       "geometry": {
         "location": {
-          "lat": 40.0532091,
-          "lng": -76.2527628
+          "lat": 39.9927967,
+          "lng": -76.28769179999999
         },
         "viewport": {
           "northeast": {
-            "lat": 40.0546280302915,
-            "lng": -76.25150881970849
+            "lat": 39.9940706302915,
+            "lng": -76.28663611970849
           },
           "southwest": {
-            "lat": 40.0519300697085,
-            "lng": -76.2542067802915
+            "lat": 39.9913726697085,
+            "lng": -76.2893340802915
           }
         }
       },
-      "name": "Hampton Inn Lancaster",
-      "place_id": "ChIJ5eRM3147xokRVvi_lryvPU0",
+      "name": "DoubleTree Resort by Hilton Hotel Lancaster",
+      "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/lnsgfhx-hampton-lancaster/?SEO_id=GMB-AMER-HX-LNSGFHX&y_source=1_MjA4NDQ5Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.hilton.com/en/hotels/lnswvdt-doubletree-resort-lancaster/?SEO_id=GMB-AMER-DT-LNSWVDT&y_source=1_MTM3MjczNC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -148692,6 +148692,7 @@
     "place_id": "ChIJJY3KRby5yhQRfZfjmnZp1qU",
     "types": [
       "establishment",
+      "health",
       "lodging",
       "point_of_interest",
       "spa"
@@ -148720,6 +148721,7 @@
       "place_id": "ChIJJY3KRby5yhQRfZfjmnZp1qU",
       "types": [
         "establishment",
+        "health",
         "lodging",
         "point_of_interest",
         "spa"
@@ -209126,6 +209128,49 @@
         "spa"
       ],
       "website": "https://www.gizapalace.com/"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Les Sources de Vougeot\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Les Sources de Vougeot\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Les Sources de Vougeot\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Les Sources de Vougeot Hotel\", \"Les Sources de Vougeot Resort\", \"Les Sources de Vougeot\", \"Les Sources de Vougeot Gilly-l\\u00e8s-C\\u00eeteaux, France Hotel\", \"Les Sources de Vougeot Gilly-l\\u00e8s-C\\u00eeteaux, France Resort\", \"Les Sources de Vougeot Gilly-l\\u00e8s-C\\u00eeteaux, France\", \"Les Sources De Vougeot Hotel\", \"Les Sources De Vougeot Resort\", \"Les Sources De Vougeot\", \"Les Sources De Vougeot Gilly-l\\u00e8s-C\\u00eeteaux, France Hotel\", \"Les Sources De Vougeot Gilly-l\\u00e8s-C\\u00eeteaux, France Resort\", \"Les Sources De Vougeot Gilly-l\\u00e8s-C\\u00eeteaux, France\"], \"v\": 3}": {
+    "lat": 47.171616,
+    "lon": 4.981796,
+    "formatted_address": "Château de Gilly, 2 Pl. du Château, 21640 Gilly-lès-Cîteaux, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJrfuaX8eR8kcRit8nNwYItgI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Château de Gilly, 2 Pl. du Château, 21640 Gilly-lès-Cîteaux, France",
+      "geometry": {
+        "location": {
+          "lat": 47.171616,
+          "lng": 4.981796
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.1729516302915,
+            "lng": 4.983085830291502
+          },
+          "southwest": {
+            "lat": 47.1702536697085,
+            "lng": 4.980387869708498
+          }
+        }
+      },
+      "name": "Les Sources de Vougeot",
+      "place_id": "ChIJrfuaX8eR8kcRit8nNwYItgI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.sources-vougeot.com/"
     }
   }
 }
