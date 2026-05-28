@@ -141931,12 +141931,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Antonio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Antonio Small Luxury Hotels of the World Hotel\", \"San Antonio Small Luxury Hotels of the World Resort\", \"San Antonio Small Luxury Hotels of the World\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Hotel\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Resort\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece\", \"San Antonio Hilton Hotel\", \"San Antonio Hilton Resort\", \"San Antonio Hilton\", \"San Antonio Hilton Imerovigli, Greece Hotel\", \"San Antonio Hilton Imerovigli, Greece Resort\", \"San Antonio Hilton Imerovigli, Greece\", \"San Antonio Hotel\", \"San Antonio Resort\", \"San Antonio\", \"San Antonio Imerovigli, Greece Hotel\", \"San Antonio Imerovigli, Greece Resort\", \"San Antonio Imerovigli, Greece\"], \"v\": 3}": {
-    "lat": 29.4234017,
-    "lon": -98.4907714,
-    "formatted_address": "420 W Market St, San Antonio, TX 78205, USA",
+    "lat": 29.427455,
+    "lon": -98.4894638,
+    "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJMeDgmaxYXIYRcG_LOHS5ooc",
+    "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
     "types": [
       "establishment",
       "lodging",
@@ -141945,31 +141945,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "420 W Market St, San Antonio, TX 78205, USA",
+      "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
       "geometry": {
         "location": {
-          "lat": 29.4234017,
-          "lng": -98.4907714
+          "lat": 29.427455,
+          "lng": -98.4894638
         },
         "viewport": {
           "northeast": {
-            "lat": 29.4248851802915,
-            "lng": -98.4893779197085
+            "lat": 29.4288507802915,
+            "lng": -98.4880806197085
           },
           "southwest": {
-            "lat": 29.4221872197085,
-            "lng": -98.49207588029151
+            "lat": 29.4261528197085,
+            "lng": -98.4907785802915
           }
         }
       },
-      "name": "The Westin Riverwalk, San Antonio",
-      "place_id": "ChIJMeDgmaxYXIYRcG_LOHS5ooc",
+      "name": "The St. Anthony, a Luxury Collection Hotel, San Antonio",
+      "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+      "website": "https://www.marriott.com/en-us/hotels/satlc-the-st-anthony-a-luxury-collection-hotel-san-antonio/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rusty Parrot Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
@@ -153648,6 +153648,269 @@
         "spa"
       ],
       "website": "http://www.ghdl.ch/"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Apartments By Marriott Bonvoy by Villatel Orlando Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Apartments By Marriott Bonvoy by Villatel Orlando Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Barnsley Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Barnsley Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Palm Beach Marriott Singer Island Beach Resort & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Palm Beach Marriott Singer Island Beach Resort & Spa\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Radisson Collection Hotel, Magdalena Plaza Sevilla\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Radisson Collection Hotel, Magdalena Plaza Sevilla\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Hoxton Dublin\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Hoxton Dublin\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Barnsley Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Barnsley Resort Hotel\", \"Barnsley Resort Resort\", \"Barnsley Resort\", \"Barnsley Resort Adairsville, Georgia US Hotel\", \"Barnsley Resort Adairsville, Georgia US Resort\", \"Barnsley Resort Adairsville, Georgia US\"], \"v\": 3}": {
+    "lat": 34.2994956,
+    "lon": -84.9845809,
+    "formatted_address": "597 Barnsley Gardens Rd NW, Adairsville, GA 30103, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJNaYu22CsiogRQzFHT2dMRt8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "597 Barnsley Gardens Rd NW, Adairsville, GA 30103, USA",
+      "geometry": {
+        "location": {
+          "lat": 34.2994956,
+          "lng": -84.9845809
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 34.30098518029151,
+            "lng": -84.98312986970848
+          },
+          "southwest": {
+            "lat": 34.29828721970851,
+            "lng": -84.98582783029148
+          }
+        }
+      },
+      "name": "Barnsley Resort",
+      "place_id": "ChIJNaYu22CsiogRQzFHT2dMRt8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.barnsleyresort.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Apartments By Marriott Bonvoy by Villatel Orlando Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Apartments By Marriott Bonvoy by Villatel Orlando Resort Marriott Hotel\", \"Apartments By Marriott Bonvoy by Villatel Orlando Resort Marriott Resort\", \"Apartments By Marriott Bonvoy by Villatel Orlando Resort Marriott\", \"Apartments By Marriott Bonvoy by Villatel Orlando Resort Marriott Orlando, Florida US Hotel\", \"Apartments By Marriott Bonvoy by Villatel Orlando Resort Marriott Orlando, Florida US Resort\", \"Apartments By Marriott Bonvoy by Villatel Orlando Resort Marriott Orlando, Florida US\", \"Apartments By Marriott Bonvoy by Villatel Orlando Resort Hilton Hotel\", \"Apartments By Marriott Bonvoy by Villatel Orlando Resort Hilton Resort\", \"Apartments By Marriott Bonvoy by Villatel Orlando Resort Hilton\", \"Apartments By Marriott Bonvoy by Villatel Orlando Resort Hilton Orlando, Florida US Hotel\", \"Apartments By Marriott Bonvoy by Villatel Orlando Resort Hilton Orlando, Florida US Resort\", \"Apartments By Marriott Bonvoy by Villatel Orlando Resort Hilton Orlando, Florida US\", \"Apartments Marriott Bonvoy Villatel Orlando Resort Marriott Hotel\", \"Apartments Marriott Bonvoy Villatel Orlando Resort Marriott Resort\", \"Apartments Marriott Bonvoy Villatel Orlando Resort Marriott\", \"Apartments Marriott Bonvoy Villatel Orlando Resort Marriott Orlando, Florida US Hotel\", \"Apartments Marriott Bonvoy Villatel Orlando Resort Marriott Orlando, Florida US Resort\", \"Apartments Marriott Bonvoy Villatel Orlando Resort Marriott Orlando, Florida US\", \"Apartments Marriott Bonvoy Villatel Orlando Resort Hilton Hotel\", \"Apartments Marriott Bonvoy Villatel Orlando Resort Hilton Resort\", \"Apartments Marriott Bonvoy Villatel Orlando Resort Hilton\", \"Apartments Marriott Bonvoy Villatel Orlando Resort Hilton Orlando, Florida US Hotel\", \"Apartments Marriott Bonvoy Villatel Orlando Resort Hilton Orlando, Florida US Resort\", \"Apartments Marriott Bonvoy Villatel Orlando Resort Hilton Orlando, Florida US\", \"Apartments By Marriott Bonvoy by Villatel Orlando Resort Hotel\", \"Apartments By Marriott Bonvoy by Villatel Orlando Resort Resort\", \"Apartments By Marriott Bonvoy by Villatel Orlando Resort\", \"Apartments By Marriott Bonvoy by Villatel Orlando Resort Orlando, Florida US Hotel\", \"Apartments By Marriott Bonvoy by Villatel Orlando Resort Orlando, Florida US Resort\", \"Apartments By Marriott Bonvoy by Villatel Orlando Resort Orlando, Florida US\"], \"v\": 3}": {
+    "lat": 28.463101,
+    "lon": -81.446568,
+    "formatted_address": "5045 Hero Wy, Orlando, FL 32819, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJvSqzXW9_54gRDxABFoHiHHM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "5045 Hero Wy, Orlando, FL 32819, USA",
+      "geometry": {
+        "location": {
+          "lat": 28.463101,
+          "lng": -81.446568
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 28.4644080302915,
+            "lng": -81.4453785697085
+          },
+          "southwest": {
+            "lat": 28.4617100697085,
+            "lng": -81.4480765302915
+          }
+        }
+      },
+      "name": "Villatel Orlando Resort, Apartments by Marriott Bonvoy",
+      "place_id": "ChIJvSqzXW9_54gRDxABFoHiHHM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/mcoau-villatel-orlando-resort-apartments-bonvoy/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Palm Beach Marriott Singer Island Beach Resort & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Palm Beach Marriott Singer Island Beach Resort & Spa Marriott Hotel\", \"Palm Beach Marriott Singer Island Beach Resort & Spa Marriott Resort\", \"Palm Beach Marriott Singer Island Beach Resort & Spa Marriott\", \"Palm Beach Marriott Singer Island Beach Resort & Spa Marriott Singer Island, Florida US Hotel\", \"Palm Beach Marriott Singer Island Beach Resort & Spa Marriott Singer Island, Florida US Resort\", \"Palm Beach Marriott Singer Island Beach Resort & Spa Marriott Singer Island, Florida US\", \"Palm Beach Marriott Singer Island Beach Resort & Spa Hilton Hotel\", \"Palm Beach Marriott Singer Island Beach Resort & Spa Hilton Resort\", \"Palm Beach Marriott Singer Island Beach Resort & Spa Hilton\", \"Palm Beach Marriott Singer Island Beach Resort & Spa Hilton Singer Island, Florida US Hotel\", \"Palm Beach Marriott Singer Island Beach Resort & Spa Hilton Singer Island, Florida US Resort\", \"Palm Beach Marriott Singer Island Beach Resort & Spa Hilton Singer Island, Florida US\", \"Palm Beach Marriott Singer Island Beach Resort Spa Marriott Hotel\", \"Palm Beach Marriott Singer Island Beach Resort Spa Marriott Resort\", \"Palm Beach Marriott Singer Island Beach Resort Spa Marriott\", \"Palm Beach Marriott Singer Island Beach Resort Spa Marriott Singer Island, Florida US Hotel\", \"Palm Beach Marriott Singer Island Beach Resort Spa Marriott Singer Island, Florida US Resort\", \"Palm Beach Marriott Singer Island Beach Resort Spa Marriott Singer Island, Florida US\", \"Palm Beach Marriott Singer Island Beach Resort Spa Hilton Hotel\", \"Palm Beach Marriott Singer Island Beach Resort Spa Hilton Resort\", \"Palm Beach Marriott Singer Island Beach Resort Spa Hilton\", \"Palm Beach Marriott Singer Island Beach Resort Spa Hilton Singer Island, Florida US Hotel\", \"Palm Beach Marriott Singer Island Beach Resort Spa Hilton Singer Island, Florida US Resort\", \"Palm Beach Marriott Singer Island Beach Resort Spa Hilton Singer Island, Florida US\", \"Palm Beach Marriott Singer Island Beach Resort & Spa Hotel\", \"Palm Beach Marriott Singer Island Beach Resort & Spa Resort\", \"Palm Beach Marriott Singer Island Beach Resort & Spa\", \"Palm Beach Marriott Singer Island Beach Resort & Spa Singer Island, Florida US Hotel\", \"Palm Beach Marriott Singer Island Beach Resort & Spa Singer Island, Florida US Resort\", \"Palm Beach Marriott Singer Island Beach Resort & Spa Singer Island, Florida US\"], \"v\": 3}": {
+    "lat": 26.7923613,
+    "lon": -80.0335818,
+    "formatted_address": "3800 N Ocean Dr, Riviera Beach, FL 33404, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJUUqhhuvU2IgR7WL7IJsQ6Bs",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "3800 N Ocean Dr, Riviera Beach, FL 33404, USA",
+      "geometry": {
+        "location": {
+          "lat": 26.7923613,
+          "lng": -80.0335818
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 26.7938688802915,
+            "lng": -80.03232021970851
+          },
+          "southwest": {
+            "lat": 26.7911709197085,
+            "lng": -80.03501818029152
+          }
+        }
+      },
+      "name": "Palm Beach Marriott Singer Island Beach Resort & Spa",
+      "place_id": "ChIJUUqhhuvU2IgR7WL7IJsQ6Bs",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/pbisg-palm-beach-marriott-singer-island-beach-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Radisson Collection Hotel, Magdalena Plaza Sevilla\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Radisson Collection Hotel, Magdalena Plaza Sevilla Radisson Hotel Group Hotel\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Radisson Hotel Group Resort\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Radisson Hotel Group\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Radisson Hotel Group Sevilla, Spain Hotel\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Radisson Hotel Group Sevilla, Spain Resort\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Radisson Hotel Group Sevilla, Spain\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Hilton Hotel\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Hilton Resort\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Hilton\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Hilton Sevilla, Spain Hotel\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Hilton Sevilla, Spain Resort\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Hilton Sevilla, Spain\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Radisson Hotel Group Hotel\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Radisson Hotel Group Resort\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Radisson Hotel Group\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Radisson Hotel Group Sevilla, Spain Hotel\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Radisson Hotel Group Sevilla, Spain Resort\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Radisson Hotel Group Sevilla, Spain\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Hilton Hotel\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Hilton Resort\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Hilton\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Hilton Sevilla, Spain Hotel\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Hilton Sevilla, Spain Resort\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Hilton Sevilla, Spain\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Hotel\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Resort\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Sevilla, Spain Hotel\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Sevilla, Spain Resort\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Sevilla, Spain\"], \"v\": 3}": {
+    "lat": 37.3911664,
+    "lon": -5.9968222,
+    "formatted_address": "Pl. de la Magdalena, 1, Casco Antiguo, 41001 Sevilla, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJV6Ba74NtEg0R3re-F7TI7Co",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Pl. de la Magdalena, 1, Casco Antiguo, 41001 Sevilla, Spain",
+      "geometry": {
+        "location": {
+          "lat": 37.3911664,
+          "lng": -5.9968222
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.3923043302915,
+            "lng": -5.995538469708498
+          },
+          "southwest": {
+            "lat": 37.38960636970851,
+            "lng": -5.998236430291502
+          }
+        }
+      },
+      "name": "Radisson Collection Hotel, Magdalena Plaza Sevilla",
+      "place_id": "ChIJV6Ba74NtEg0R3re-F7TI7Co",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.radissonhotels.com/en-us/hotels/radisson-collection-magdalena-plaza-sevilla?cid=a:se+b:gmb+c:emea+i:local+e:rco+d:ukirwe+h:ESSEV1"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Bank Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Bank Hotel Small Luxury Hotels of the World Hotel\", \"Bank Hotel Small Luxury Hotels of the World Resort\", \"Bank Hotel Small Luxury Hotels of the World\", \"Bank Hotel Small Luxury Hotels of the World Stockholm, Sweden Hotel\", \"Bank Hotel Small Luxury Hotels of the World Stockholm, Sweden Resort\", \"Bank Hotel Small Luxury Hotels of the World Stockholm, Sweden\", \"Bank Hotel Hilton Hotel\", \"Bank Hotel Hilton Resort\", \"Bank Hotel Hilton\", \"Bank Hotel Hilton Stockholm, Sweden Hotel\", \"Bank Hotel Hilton Stockholm, Sweden Resort\", \"Bank Hotel Hilton Stockholm, Sweden\", \"Bank Hotel Hotel\", \"Bank Hotel Resort\", \"Bank Hotel\", \"Bank Hotel Stockholm, Sweden Hotel\", \"Bank Hotel Stockholm, Sweden Resort\", \"Bank Hotel Stockholm, Sweden\"], \"v\": 3}": {
+    "lat": 59.33138899999999,
+    "lon": 18.0746518,
+    "formatted_address": "Arsenalsgatan 6, 111 47 Stockholm, Sweden",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ1eMJfVmdX0YRcDd1tGoRP9E",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Arsenalsgatan 6, 111 47 Stockholm, Sweden",
+      "geometry": {
+        "location": {
+          "lat": 59.33138899999999,
+          "lng": 18.0746518
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 59.33273253029149,
+            "lng": 18.0760693302915
+          },
+          "southwest": {
+            "lat": 59.33003456970848,
+            "lng": 18.07337136970849
+          }
+        }
+      },
+      "name": "Bank Hotel",
+      "place_id": "ChIJ1eMJfVmdX0YRcDd1tGoRP9E",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "http://bankhotel.se/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Hoxton Dublin\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Hoxton Dublin The Hoxton Hotel\", \"The Hoxton Dublin The Hoxton Resort\", \"The Hoxton Dublin The Hoxton\", \"The Hoxton Dublin The Hoxton Dublin, Ireland Hotel\", \"The Hoxton Dublin The Hoxton Dublin, Ireland Resort\", \"The Hoxton Dublin The Hoxton Dublin, Ireland\", \"The Hoxton Dublin Hilton Hotel\", \"The Hoxton Dublin Hilton Resort\", \"The Hoxton Dublin Hilton\", \"The Hoxton Dublin Hilton Dublin, Ireland Hotel\", \"The Hoxton Dublin Hilton Dublin, Ireland Resort\", \"The Hoxton Dublin Hilton Dublin, Ireland\", \"The Hoxton Dublin Hotel\", \"The Hoxton Dublin Resort\", \"The Hoxton Dublin\", \"The Hoxton Dublin Dublin, Ireland Hotel\", \"The Hoxton Dublin Dublin, Ireland Resort\", \"The Hoxton Dublin Dublin, Ireland\"], \"v\": 3}": {
+    "lat": 53.3430942,
+    "lon": -6.2639136,
+    "formatted_address": "1-5 Exchequer St, Dublin, D02 E044, Ireland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJSfAcncUPZ0gRFjv_dAE_B18",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1-5 Exchequer St, Dublin, D02 E044, Ireland",
+      "geometry": {
+        "location": {
+          "lat": 53.3430942,
+          "lng": -6.2639136
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 53.3444073802915,
+            "lng": -6.262562019708499
+          },
+          "southwest": {
+            "lat": 53.3417094197085,
+            "lng": -6.265259980291503
+          }
+        }
+      },
+      "name": "The Hoxton, Dublin",
+      "place_id": "ChIJSfAcncUPZ0gRFjv_dAE_B18",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://thehoxton.com/dublin/"
     }
   }
 }

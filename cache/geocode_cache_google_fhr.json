@@ -127017,8 +127017,8 @@
     "lat": 52.6495055,
     "lon": -7.251757099999999,
     "formatted_address": "22 & 23 Lower Patrick St, Gardens, Kilkenny, R95 DX76, Ireland",
-    "provider": "google_geocoding",
-    "confidence": "ROOFTOP",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
     "place_id": "ChIJ01oZ854wXUgRc53tyIAIH_M",
     "types": [
       "bar",
@@ -127030,92 +127030,26 @@
     ],
     "partial_match": false,
     "raw": {
-      "address_components": [
-        {
-          "long_name": "22 & 23 Lower",
-          "short_name": "22 & 23 Lower",
-          "types": [
-            "street_number"
-          ]
-        },
-        {
-          "long_name": "Patrick Street",
-          "short_name": "Patrick St",
-          "types": [
-            "route"
-          ]
-        },
-        {
-          "long_name": "Gardens",
-          "short_name": "Gardens",
-          "types": [
-            "neighborhood",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Kilkenny",
-          "short_name": "KK",
-          "types": [
-            "locality",
-            "political"
-          ]
-        },
-        {
-          "long_name": "County Kilkenny",
-          "short_name": "County Kilkenny",
-          "types": [
-            "administrative_area_level_1",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Ireland",
-          "short_name": "IE",
-          "types": [
-            "country",
-            "political"
-          ]
-        },
-        {
-          "long_name": "R95 DX76",
-          "short_name": "R95 DX76",
-          "types": [
-            "postal_code"
-          ]
-        }
-      ],
+      "business_status": "OPERATIONAL",
       "formatted_address": "22 & 23 Lower Patrick St, Gardens, Kilkenny, R95 DX76, Ireland",
       "geometry": {
         "location": {
           "lat": 52.6495055,
           "lng": -7.251757099999999
         },
-        "location_type": "ROOFTOP",
         "viewport": {
           "northeast": {
             "lat": 52.65086778029149,
-            "lng": -7.250302419708498
+            "lng": -7.250302419708494
           },
           "southwest": {
             "lat": 52.64816981970849,
-            "lng": -7.253000380291502
+            "lng": -7.253000380291499
           }
         }
       },
-      "navigation_points": [
-        {
-          "location": {
-            "latitude": 52.6495153,
-            "longitude": -7.2516458
-          }
-        }
-      ],
+      "name": "The Club House Hotel",
       "place_id": "ChIJ01oZ854wXUgRc53tyIAIH_M",
-      "plus_code": {
-        "compound_code": "JPXX+R7 Kilkenny, County Kilkenny, Ireland",
-        "global_code": "9C4JJPXX+R7"
-      },
       "types": [
         "bar",
         "establishment",
@@ -127123,7 +127057,8 @@
         "lodging",
         "point_of_interest",
         "restaurant"
-      ]
+      ],
+      "website": "http://www.clubhousehotel.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Dewberry\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Dewberry Hotel\", \"The Dewberry Resort\", \"The Dewberry\", \"The Dewberry Charleston, South Carolina US Hotel\", \"The Dewberry Charleston, South Carolina US Resort\", \"The Dewberry Charleston, South Carolina US\"], \"v\": 3}": {
@@ -128513,45 +128448,47 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Grove\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Grove Hotel\", \"The Grove Resort\", \"The Grove\", \"The Grove Hertfordshire, England Hotel\", \"The Grove Hertfordshire, England Resort\", \"The Grove Hertfordshire, England\"], \"v\": 3}": {
-    "lat": 43.6139805,
-    "lon": -116.2037791,
-    "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
+    "lat": 51.677052,
+    "lon": -0.436857,
+    "formatted_address": "Chandler's Cross, Watford WD3 4TG, UK",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
+    "place_id": "ChIJPYjFIHpqdkgRn0B8GNfoTVo",
     "types": [
       "establishment",
       "lodging",
-      "point_of_interest"
+      "point_of_interest",
+      "spa"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
+      "formatted_address": "Chandler's Cross, Watford WD3 4TG, UK",
       "geometry": {
         "location": {
-          "lat": 43.6139805,
-          "lng": -116.2037791
+          "lat": 51.677052,
+          "lng": -0.436857
         },
         "viewport": {
           "northeast": {
-            "lat": 43.61524663029149,
-            "lng": -116.2022796697085
+            "lat": 51.6786900802915,
+            "lng": -0.4358084197084979
           },
           "southwest": {
-            "lat": 43.6125486697085,
-            "lng": -116.2049776302915
+            "lat": 51.6759921197085,
+            "lng": -0.438506380291502
           }
         }
       },
-      "name": "The Grove Hotel",
-      "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
+      "name": "The Grove Hotel – Spa and Golf",
+      "place_id": "ChIJPYjFIHpqdkgRn0B8GNfoTVo",
       "types": [
         "establishment",
         "lodging",
-        "point_of_interest"
+        "point_of_interest",
+        "spa"
       ],
-      "website": "http://www.grovehotelboise.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect"
+      "website": "http://www.thegrove.co.uk/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Southern Ocean Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Southern Ocean Lodge Hotel\", \"Southern Ocean Lodge Resort\", \"Southern Ocean Lodge\", \"Southern Ocean Lodge Kingscote, Australia Hotel\", \"Southern Ocean Lodge Kingscote, Australia Resort\", \"Southern Ocean Lodge Kingscote, Australia\"], \"v\": 3}": {
@@ -130351,12 +130288,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 39.9927967,
-    "lon": -76.28769179999999,
-    "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
+    "lat": 34.7012112,
+    "lon": -118.171488,
+    "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
+    "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
     "types": [
       "establishment",
       "lodging",
@@ -130365,31 +130302,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
+      "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
       "geometry": {
         "location": {
-          "lat": 39.9927967,
-          "lng": -76.28769179999999
+          "lat": 34.7012112,
+          "lng": -118.171488
         },
         "viewport": {
           "northeast": {
-            "lat": 39.9940706302915,
-            "lng": -76.28663611970849
+            "lat": 34.7024083302915,
+            "lng": -118.1697845197085
           },
           "southwest": {
-            "lat": 39.9913726697085,
-            "lng": -76.2893340802915
+            "lat": 34.6997103697085,
+            "lng": -118.1724824802915
           }
         }
       },
-      "name": "DoubleTree Resort by Hilton Hotel Lancaster",
-      "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
+      "name": "Hampton Inn & Suites Lancaster",
+      "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/lnswvdt-doubletree-resort-lancaster/?SEO_id=GMB-AMER-DT-LNSWVDT&y_source=1_MTM3MjczNC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.hilton.com/en/hotels/pdllchx-hampton-suites-lancaster/?SEO_id=GMB-AMER-HX-PDLLCHX&y_source=1_MjA4MzE4Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -209171,6 +209108,141 @@
         "point_of_interest"
       ],
       "website": "https://www.sources-vougeot.com/"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Park Hyatt Cabo del Sol\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Park Hyatt Cabo del Sol\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Spicers Peak Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Spicers Peak Lodge\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Spicers Peak Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Spicers Peak Lodge Hotel\", \"Spicers Peak Lodge Resort\", \"Spicers Peak Lodge\", \"Spicers Peak Lodge Maryvale, Australia Hotel\", \"Spicers Peak Lodge Maryvale, Australia Resort\", \"Spicers Peak Lodge Maryvale, Australia\"], \"v\": 3}": {
+    "lat": -28.110294,
+    "lon": 152.3707859,
+    "formatted_address": "1 Wilkinson Rd, Maryvale QLD 4370, Australia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJZ1ub3EIFl2sRk3DMEKqbQa4",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1 Wilkinson Rd, Maryvale QLD 4370, Australia",
+      "geometry": {
+        "location": {
+          "lat": -28.110294,
+          "lng": 152.3707859
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -28.1089894697085,
+            "lng": 152.3721598302915
+          },
+          "southwest": {
+            "lat": -28.1116874302915,
+            "lng": 152.3694618697085
+          }
+        }
+      },
+      "name": "Spicers Peak Lodge",
+      "place_id": "ChIJZ1ub3EIFl2sRk3DMEKqbQa4",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://spicersretreats.com/retreats/spicers-peak-lodge/?utm_source=google&utm_medium=organic&utm_campaign=gmb"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Park Hyatt Cabo del Sol\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Park Hyatt Cabo del Sol Park Hyatt Hotel\", \"Park Hyatt Cabo del Sol Park Hyatt Resort\", \"Park Hyatt Cabo del Sol Park Hyatt\", \"Park Hyatt Cabo del Sol Park Hyatt Cabo San Lucas, Baja California Sur MX Hotel\", \"Park Hyatt Cabo del Sol Park Hyatt Cabo San Lucas, Baja California Sur MX Resort\", \"Park Hyatt Cabo del Sol Park Hyatt Cabo San Lucas, Baja California Sur MX\", \"Park Hyatt Cabo del Sol Hilton Hotel\", \"Park Hyatt Cabo del Sol Hilton Resort\", \"Park Hyatt Cabo del Sol Hilton\", \"Park Hyatt Cabo del Sol Hilton Cabo San Lucas, Baja California Sur MX Hotel\", \"Park Hyatt Cabo del Sol Hilton Cabo San Lucas, Baja California Sur MX Resort\", \"Park Hyatt Cabo del Sol Hilton Cabo San Lucas, Baja California Sur MX\", \"Park Hyatt Cabo Del Sol Park Hyatt Hotel\", \"Park Hyatt Cabo Del Sol Park Hyatt Resort\", \"Park Hyatt Cabo Del Sol Park Hyatt\", \"Park Hyatt Cabo Del Sol Park Hyatt Cabo San Lucas, Baja California Sur MX Hotel\", \"Park Hyatt Cabo Del Sol Park Hyatt Cabo San Lucas, Baja California Sur MX Resort\", \"Park Hyatt Cabo Del Sol Park Hyatt Cabo San Lucas, Baja California Sur MX\", \"Park Hyatt Cabo Del Sol Hilton Hotel\", \"Park Hyatt Cabo Del Sol Hilton Resort\", \"Park Hyatt Cabo Del Sol Hilton\", \"Park Hyatt Cabo Del Sol Hilton Cabo San Lucas, Baja California Sur MX Hotel\", \"Park Hyatt Cabo Del Sol Hilton Cabo San Lucas, Baja California Sur MX Resort\", \"Park Hyatt Cabo Del Sol Hilton Cabo San Lucas, Baja California Sur MX\", \"Park Hyatt Cabo del Sol Hotel\", \"Park Hyatt Cabo del Sol Resort\", \"Park Hyatt Cabo del Sol\", \"Park Hyatt Cabo del Sol Cabo San Lucas, Baja California Sur MX Hotel\", \"Park Hyatt Cabo del Sol Cabo San Lucas, Baja California Sur MX Resort\", \"Park Hyatt Cabo del Sol Cabo San Lucas, Baja California Sur MX\"], \"v\": 3}": {
+    "lat": 22.9191572,
+    "lon": -109.8317414,
+    "formatted_address": "Carr. Transpeninsular Km 10.3, Tourist Corridor, Del Sol, 23455 Cabo San Lucas, B.C.S., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJF2jC5Q1Nr4YR-IPwtLw72mM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carr. Transpeninsular Km 10.3, Tourist Corridor, Del Sol, 23455 Cabo San Lucas, B.C.S., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 22.9191572,
+          "lng": -109.8317414
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 22.9200666802915,
+            "lng": -109.8305865197085
+          },
+          "southwest": {
+            "lat": 22.9173687197085,
+            "lng": -109.8332844802915
+          }
+        }
+      },
+      "name": "Park Hyatt Cabo Del Sol",
+      "place_id": "ChIJF2jC5Q1Nr4YR-IPwtLw72mM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/en-US/hotel/mexico/park-hyatt-los-cabos-at-cabo-del-sol/cabph?src=corp_lclb_google_seo_cabph&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo The Luxury Collection Hotel\", \"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo The Luxury Collection Resort\", \"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo The Luxury Collection\", \"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo The Luxury Collection Labuan Bajo, Indonesia Hotel\", \"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo The Luxury Collection Labuan Bajo, Indonesia Resort\", \"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo The Luxury Collection Labuan Bajo, Indonesia\", \"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo Hilton Hotel\", \"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo Hilton Resort\", \"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo Hilton\", \"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo Hilton Labuan Bajo, Indonesia Hotel\", \"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo Hilton Labuan Bajo, Indonesia Resort\", \"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo Hilton Labuan Bajo, Indonesia\", \"Taaktana a Luxury Collection Resort Spa Labuan Bajo The Luxury Collection Hotel\", \"Taaktana a Luxury Collection Resort Spa Labuan Bajo The Luxury Collection Resort\", \"Taaktana a Luxury Collection Resort Spa Labuan Bajo The Luxury Collection\", \"Taaktana a Luxury Collection Resort Spa Labuan Bajo The Luxury Collection Labuan Bajo, Indonesia Hotel\", \"Taaktana a Luxury Collection Resort Spa Labuan Bajo The Luxury Collection Labuan Bajo, Indonesia Resort\", \"Taaktana a Luxury Collection Resort Spa Labuan Bajo The Luxury Collection Labuan Bajo, Indonesia\", \"Taaktana a Luxury Collection Resort Spa Labuan Bajo Hilton Hotel\", \"Taaktana a Luxury Collection Resort Spa Labuan Bajo Hilton Resort\", \"Taaktana a Luxury Collection Resort Spa Labuan Bajo Hilton\", \"Taaktana a Luxury Collection Resort Spa Labuan Bajo Hilton Labuan Bajo, Indonesia Hotel\", \"Taaktana a Luxury Collection Resort Spa Labuan Bajo Hilton Labuan Bajo, Indonesia Resort\", \"Taaktana a Luxury Collection Resort Spa Labuan Bajo Hilton Labuan Bajo, Indonesia\", \"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo Hotel\", \"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo Resort\", \"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo\", \"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo Labuan Bajo, Indonesia Hotel\", \"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo Labuan Bajo, Indonesia Resort\", \"TAAKTANA, a Luxury Collection Resort & Spa, Labuan Bajo Labuan Bajo, Indonesia\"], \"v\": 3}": {
+    "lat": -8.4744534,
+    "lon": 119.8819709,
+    "formatted_address": "Pantai Wae Rana, Labuan Bajo, Komodo, West Manggarai Regency, East Nusa Tenggara 86763, Indonesia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJfXWpPXZmtC0RvcgtAu7PcM8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Pantai Wae Rana, Labuan Bajo, Komodo, West Manggarai Regency, East Nusa Tenggara 86763, Indonesia",
+      "geometry": {
+        "location": {
+          "lat": -8.4744534,
+          "lng": 119.8819709
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -8.473204819708496,
+            "lng": 119.8834238802915
+          },
+          "southwest": {
+            "lat": -8.4759027802915,
+            "lng": 119.8807259197085
+          }
+        }
+      },
+      "name": "TA’AKTANA, a Luxury Collection Resort & Spa, Labuan Bajo",
+      "place_id": "ChIJfXWpPXZmtC0RvcgtAu7PcM8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/lbjlc-taaktana-a-luxury-collection-resort-and-spa-labuan-bajo/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   }
 }
