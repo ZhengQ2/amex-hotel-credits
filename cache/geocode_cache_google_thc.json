@@ -12987,48 +12987,6 @@
       "website": "https://www.marriott.com/en-us/hotels/cltak-grand-bohemian-charlotte-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"Autograph Collection Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Leveque Autograph Collection Hotels Hotel\", \"Hotel Leveque Autograph Collection Hotels Resort\", \"Hotel Leveque Autograph Collection Hotels\", \"Hotel Leveque Autograph Collection Hotels Columbus, Ohio US Hotel\", \"Hotel Leveque Autograph Collection Hotels Columbus, Ohio US Resort\", \"Hotel Leveque Autograph Collection Hotels Columbus, Ohio US\", \"Hotel Leveque Hilton Hotel\", \"Hotel Leveque Hilton Resort\", \"Hotel Leveque Hilton\", \"Hotel Leveque Hilton Columbus, Ohio US Hotel\", \"Hotel Leveque Hilton Columbus, Ohio US Resort\", \"Hotel Leveque Hilton Columbus, Ohio US\", \"Hotel LeVeque Autograph Collection Hotels Hotel\", \"Hotel LeVeque Autograph Collection Hotels Resort\", \"Hotel LeVeque Autograph Collection Hotels\", \"Hotel LeVeque Autograph Collection Hotels Columbus, Ohio US Hotel\", \"Hotel LeVeque Autograph Collection Hotels Columbus, Ohio US Resort\", \"Hotel LeVeque Autograph Collection Hotels Columbus, Ohio US\", \"Hotel LeVeque Hilton Hotel\", \"Hotel LeVeque Hilton Resort\", \"Hotel LeVeque Hilton\", \"Hotel LeVeque Hilton Columbus, Ohio US Hotel\", \"Hotel LeVeque Hilton Columbus, Ohio US Resort\", \"Hotel LeVeque Hilton Columbus, Ohio US\", \"Hotel LeVeque Hotel\", \"Hotel LeVeque Resort\", \"Hotel LeVeque\", \"Hotel LeVeque Columbus, Ohio US Hotel\", \"Hotel LeVeque Columbus, Ohio US Resort\", \"Hotel LeVeque Columbus, Ohio US\"], \"v\": 3}": {
-    "lat": 39.9623333,
-    "lon": -83.002168,
-    "formatted_address": "50 W Broad St, Columbus, OH 43215, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJJcJJWDCPOIgRGhqa3jrfSJo",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "50 W Broad St, Columbus, OH 43215, USA",
-      "geometry": {
-        "location": {
-          "lat": 39.9623333,
-          "lng": -83.002168
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 39.96354348029149,
-            "lng": -83.0009510197085
-          },
-          "southwest": {
-            "lat": 39.9608455197085,
-            "lng": -83.0036489802915
-          }
-        }
-      },
-      "name": "Hotel LeVeque, Autograph Collection",
-      "place_id": "ChIJJcJJWDCPOIgRGhqa3jrfSJo",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/cmhak-hotel-leveque-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
   "{\"brand\": \"Autograph Collection Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Domes Of Corfu Autograph Collection Autograph Collection Hotels Hotel\", \"Domes Of Corfu Autograph Collection Autograph Collection Hotels Resort\", \"Domes Of Corfu Autograph Collection Autograph Collection Hotels\", \"Domes Of Corfu Autograph Collection Autograph Collection Hotels Corfu, Greece Hotel\", \"Domes Of Corfu Autograph Collection Autograph Collection Hotels Corfu, Greece Resort\", \"Domes Of Corfu Autograph Collection Autograph Collection Hotels Corfu, Greece\", \"Domes Of Corfu Autograph Collection Hilton Hotel\", \"Domes Of Corfu Autograph Collection Hilton Resort\", \"Domes Of Corfu Autograph Collection Hilton\", \"Domes Of Corfu Autograph Collection Hilton Corfu, Greece Hotel\", \"Domes Of Corfu Autograph Collection Hilton Corfu, Greece Resort\", \"Domes Of Corfu Autograph Collection Hilton Corfu, Greece\", \"Domes of Corfu, Autograph Collection Autograph Collection Hotels Hotel\", \"Domes of Corfu, Autograph Collection Autograph Collection Hotels Resort\", \"Domes of Corfu, Autograph Collection Autograph Collection Hotels\", \"Domes of Corfu, Autograph Collection Autograph Collection Hotels Corfu, Greece Hotel\", \"Domes of Corfu, Autograph Collection Autograph Collection Hotels Corfu, Greece Resort\", \"Domes of Corfu, Autograph Collection Autograph Collection Hotels Corfu, Greece\", \"Domes of Corfu, Autograph Collection Hilton Hotel\", \"Domes of Corfu, Autograph Collection Hilton Resort\", \"Domes of Corfu, Autograph Collection Hilton\", \"Domes of Corfu, Autograph Collection Hilton Corfu, Greece Hotel\", \"Domes of Corfu, Autograph Collection Hilton Corfu, Greece Resort\", \"Domes of Corfu, Autograph Collection Hilton Corfu, Greece\", \"Domes of Corfu, Autograph Collection Hotel\", \"Domes of Corfu, Autograph Collection Resort\", \"Domes of Corfu, Autograph Collection\", \"Domes of Corfu, Autograph Collection Corfu, Greece Hotel\", \"Domes of Corfu, Autograph Collection Corfu, Greece Resort\", \"Domes of Corfu, Autograph Collection Corfu, Greece\"], \"v\": 3}": {
     "lat": 39.591984,
     "lon": 19.8101628,
@@ -61621,48 +61579,6 @@
       "website": "https://www.marriott.com/en-us/hotels/cltak-grand-bohemian-charlotte-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"Autograph Collection Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel LeVeque Autograph Collection Hotels Hotel\", \"Hotel LeVeque Autograph Collection Hotels Resort\", \"Hotel LeVeque Autograph Collection Hotels\", \"Hotel LeVeque Autograph Collection Hotels Columbus, Ohio US Hotel\", \"Hotel LeVeque Autograph Collection Hotels Columbus, Ohio US Resort\", \"Hotel LeVeque Autograph Collection Hotels Columbus, Ohio US\", \"Hotel LeVeque Hilton Hotel\", \"Hotel LeVeque Hilton Resort\", \"Hotel LeVeque Hilton\", \"Hotel LeVeque Hilton Columbus, Ohio US Hotel\", \"Hotel LeVeque Hilton Columbus, Ohio US Resort\", \"Hotel LeVeque Hilton Columbus, Ohio US\", \"Hotel Leveque Autograph Collection Hotels Hotel\", \"Hotel Leveque Autograph Collection Hotels Resort\", \"Hotel Leveque Autograph Collection Hotels\", \"Hotel Leveque Autograph Collection Hotels Columbus, Ohio US Hotel\", \"Hotel Leveque Autograph Collection Hotels Columbus, Ohio US Resort\", \"Hotel Leveque Autograph Collection Hotels Columbus, Ohio US\", \"Hotel Leveque Hilton Hotel\", \"Hotel Leveque Hilton Resort\", \"Hotel Leveque Hilton\", \"Hotel Leveque Hilton Columbus, Ohio US Hotel\", \"Hotel Leveque Hilton Columbus, Ohio US Resort\", \"Hotel Leveque Hilton Columbus, Ohio US\", \"Hotel LeVeque Hotel\", \"Hotel LeVeque Resort\", \"Hotel LeVeque\", \"Hotel LeVeque Columbus, Ohio US Hotel\", \"Hotel LeVeque Columbus, Ohio US Resort\", \"Hotel LeVeque Columbus, Ohio US\"], \"v\": 3}": {
-    "lat": 39.9623333,
-    "lon": -83.002168,
-    "formatted_address": "50 W Broad St, Columbus, OH 43215, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJJcJJWDCPOIgRGhqa3jrfSJo",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "50 W Broad St, Columbus, OH 43215, USA",
-      "geometry": {
-        "location": {
-          "lat": 39.9623333,
-          "lng": -83.002168
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 39.96354348029149,
-            "lng": -83.0009510197085
-          },
-          "southwest": {
-            "lat": 39.9608455197085,
-            "lng": -83.0036489802915
-          }
-        }
-      },
-      "name": "Hotel LeVeque, Autograph Collection",
-      "place_id": "ChIJJcJJWDCPOIgRGhqa3jrfSJo",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/cmhak-hotel-leveque-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
   "{\"brand\": \"Autograph Collection Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Domes of Corfu, Autograph Collection Autograph Collection Hotels Hotel\", \"Domes of Corfu, Autograph Collection Autograph Collection Hotels Resort\", \"Domes of Corfu, Autograph Collection Autograph Collection Hotels\", \"Domes of Corfu, Autograph Collection Autograph Collection Hotels Corfu, Greece Hotel\", \"Domes of Corfu, Autograph Collection Autograph Collection Hotels Corfu, Greece Resort\", \"Domes of Corfu, Autograph Collection Autograph Collection Hotels Corfu, Greece\", \"Domes of Corfu, Autograph Collection Hilton Hotel\", \"Domes of Corfu, Autograph Collection Hilton Resort\", \"Domes of Corfu, Autograph Collection Hilton\", \"Domes of Corfu, Autograph Collection Hilton Corfu, Greece Hotel\", \"Domes of Corfu, Autograph Collection Hilton Corfu, Greece Resort\", \"Domes of Corfu, Autograph Collection Hilton Corfu, Greece\", \"Domes Of Corfu Autograph Collection Autograph Collection Hotels Hotel\", \"Domes Of Corfu Autograph Collection Autograph Collection Hotels Resort\", \"Domes Of Corfu Autograph Collection Autograph Collection Hotels\", \"Domes Of Corfu Autograph Collection Autograph Collection Hotels Corfu, Greece Hotel\", \"Domes Of Corfu Autograph Collection Autograph Collection Hotels Corfu, Greece Resort\", \"Domes Of Corfu Autograph Collection Autograph Collection Hotels Corfu, Greece\", \"Domes Of Corfu Autograph Collection Hilton Hotel\", \"Domes Of Corfu Autograph Collection Hilton Resort\", \"Domes Of Corfu Autograph Collection Hilton\", \"Domes Of Corfu Autograph Collection Hilton Corfu, Greece Hotel\", \"Domes Of Corfu Autograph Collection Hilton Corfu, Greece Resort\", \"Domes Of Corfu Autograph Collection Hilton Corfu, Greece\", \"Domes of Corfu, Autograph Collection Hotel\", \"Domes of Corfu, Autograph Collection Resort\", \"Domes of Corfu, Autograph Collection\", \"Domes of Corfu, Autograph Collection Corfu, Greece Hotel\", \"Domes of Corfu, Autograph Collection Corfu, Greece Resort\", \"Domes of Corfu, Autograph Collection Corfu, Greece\"], \"v\": 3}": {
     "lat": 39.591984,
     "lon": 19.8101628,
@@ -103656,48 +103572,6 @@
         "point_of_interest"
       ],
       "website": "https://www.marriott.com/en-us/hotels/cltak-grand-bohemian-charlotte-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel LeVeque\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel LeVeque Autograph Collection Hotels Hotel\", \"Hotel LeVeque Autograph Collection Hotels Resort\", \"Hotel LeVeque Autograph Collection Hotels\", \"Hotel LeVeque Autograph Collection Hotels Columbus, Ohio US Hotel\", \"Hotel LeVeque Autograph Collection Hotels Columbus, Ohio US Resort\", \"Hotel LeVeque Autograph Collection Hotels Columbus, Ohio US\", \"Hotel LeVeque Hilton Hotel\", \"Hotel LeVeque Hilton Resort\", \"Hotel LeVeque Hilton\", \"Hotel LeVeque Hilton Columbus, Ohio US Hotel\", \"Hotel LeVeque Hilton Columbus, Ohio US Resort\", \"Hotel LeVeque Hilton Columbus, Ohio US\", \"Hotel Leveque Autograph Collection Hotels Hotel\", \"Hotel Leveque Autograph Collection Hotels Resort\", \"Hotel Leveque Autograph Collection Hotels\", \"Hotel Leveque Autograph Collection Hotels Columbus, Ohio US Hotel\", \"Hotel Leveque Autograph Collection Hotels Columbus, Ohio US Resort\", \"Hotel Leveque Autograph Collection Hotels Columbus, Ohio US\", \"Hotel Leveque Hilton Hotel\", \"Hotel Leveque Hilton Resort\", \"Hotel Leveque Hilton\", \"Hotel Leveque Hilton Columbus, Ohio US Hotel\", \"Hotel Leveque Hilton Columbus, Ohio US Resort\", \"Hotel Leveque Hilton Columbus, Ohio US\", \"Hotel LeVeque Hotel\", \"Hotel LeVeque Resort\", \"Hotel LeVeque\", \"Hotel LeVeque Columbus, Ohio US Hotel\", \"Hotel LeVeque Columbus, Ohio US Resort\", \"Hotel LeVeque Columbus, Ohio US\"], \"v\": 3}": {
-    "lat": 39.9623333,
-    "lon": -83.002168,
-    "formatted_address": "50 W Broad St, Columbus, OH 43215, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJJcJJWDCPOIgRGhqa3jrfSJo",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "50 W Broad St, Columbus, OH 43215, USA",
-      "geometry": {
-        "location": {
-          "lat": 39.9623333,
-          "lng": -83.002168
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 39.96354348029149,
-            "lng": -83.0009510197085
-          },
-          "southwest": {
-            "lat": 39.9608455197085,
-            "lng": -83.0036489802915
-          }
-        }
-      },
-      "name": "Hotel LeVeque, Autograph Collection",
-      "place_id": "ChIJJcJJWDCPOIgRGhqa3jrfSJo",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/cmhak-hotel-leveque-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Domes of Corfu, Autograph Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Domes of Corfu, Autograph Collection Autograph Collection Hotels Hotel\", \"Domes of Corfu, Autograph Collection Autograph Collection Hotels Resort\", \"Domes of Corfu, Autograph Collection Autograph Collection Hotels\", \"Domes of Corfu, Autograph Collection Autograph Collection Hotels Corfu, Greece Hotel\", \"Domes of Corfu, Autograph Collection Autograph Collection Hotels Corfu, Greece Resort\", \"Domes of Corfu, Autograph Collection Autograph Collection Hotels Corfu, Greece\", \"Domes of Corfu, Autograph Collection Hilton Hotel\", \"Domes of Corfu, Autograph Collection Hilton Resort\", \"Domes of Corfu, Autograph Collection Hilton\", \"Domes of Corfu, Autograph Collection Hilton Corfu, Greece Hotel\", \"Domes of Corfu, Autograph Collection Hilton Corfu, Greece Resort\", \"Domes of Corfu, Autograph Collection Hilton Corfu, Greece\", \"Domes Of Corfu Autograph Collection Autograph Collection Hotels Hotel\", \"Domes Of Corfu Autograph Collection Autograph Collection Hotels Resort\", \"Domes Of Corfu Autograph Collection Autograph Collection Hotels\", \"Domes Of Corfu Autograph Collection Autograph Collection Hotels Corfu, Greece Hotel\", \"Domes Of Corfu Autograph Collection Autograph Collection Hotels Corfu, Greece Resort\", \"Domes Of Corfu Autograph Collection Autograph Collection Hotels Corfu, Greece\", \"Domes Of Corfu Autograph Collection Hilton Hotel\", \"Domes Of Corfu Autograph Collection Hilton Resort\", \"Domes Of Corfu Autograph Collection Hilton\", \"Domes Of Corfu Autograph Collection Hilton Corfu, Greece Hotel\", \"Domes Of Corfu Autograph Collection Hilton Corfu, Greece Resort\", \"Domes Of Corfu Autograph Collection Hilton Corfu, Greece\", \"Domes of Corfu, Autograph Collection Hotel\", \"Domes of Corfu, Autograph Collection Resort\", \"Domes of Corfu, Autograph Collection\", \"Domes of Corfu, Autograph Collection Corfu, Greece Hotel\", \"Domes of Corfu, Autograph Collection Corfu, Greece Resort\", \"Domes of Corfu, Autograph Collection Corfu, Greece\"], \"v\": 3}": {

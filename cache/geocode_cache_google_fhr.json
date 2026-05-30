@@ -39277,48 +39277,6 @@
       "website": "https://thehermitagehotel.com/?utm_source=local&utm_medium=organic&utm_campaign=website_link"
     }
   },
-  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Ajwa Cappadocia Preferred Hotels & Resorts Hotel\", \"Ajwa Cappadocia Preferred Hotels & Resorts Resort\", \"Ajwa Cappadocia Preferred Hotels & Resorts\", \"Ajwa Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey Hotel\", \"Ajwa Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey Resort\", \"Ajwa Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey\", \"Ajwa Cappadocia Hilton Hotel\", \"Ajwa Cappadocia Hilton Resort\", \"Ajwa Cappadocia Hilton\", \"Ajwa Cappadocia Hilton Nevsehir, Turkey Hotel\", \"Ajwa Cappadocia Hilton Nevsehir, Turkey Resort\", \"Ajwa Cappadocia Hilton Nevsehir, Turkey\", \"AJWA Cappadocia Preferred Hotels & Resorts Hotel\", \"AJWA Cappadocia Preferred Hotels & Resorts Resort\", \"AJWA Cappadocia Preferred Hotels & Resorts\", \"AJWA Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey Hotel\", \"AJWA Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey Resort\", \"AJWA Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey\", \"AJWA Cappadocia Hilton Hotel\", \"AJWA Cappadocia Hilton Resort\", \"AJWA Cappadocia Hilton\", \"AJWA Cappadocia Hilton Nevsehir, Turkey Hotel\", \"AJWA Cappadocia Hilton Nevsehir, Turkey Resort\", \"AJWA Cappadocia Hilton Nevsehir, Turkey\", \"AJWA Cappadocia Hotel\", \"AJWA Cappadocia Resort\", \"AJWA Cappadocia\", \"AJWA Cappadocia Nevsehir, Turkey Hotel\", \"AJWA Cappadocia Nevsehir, Turkey Resort\", \"AJWA Cappadocia Nevsehir, Turkey\"], \"v\": 3}": {
-    "lat": 38.5935959,
-    "lon": 34.9044435,
-    "formatted_address": "Yeni, Ürgüp Cd. No:13, 50420 Mustafapaşa/Ürgüp/Nevşehir, Türkiye",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJveWH9kdDKhURlJtxKWNY3Bs",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Yeni, Ürgüp Cd. No:13, 50420 Mustafapaşa/Ürgüp/Nevşehir, Türkiye",
-      "geometry": {
-        "location": {
-          "lat": 38.5935959,
-          "lng": 34.9044435
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 38.5948059802915,
-            "lng": 34.90586323029149
-          },
-          "southwest": {
-            "lat": 38.5921080197085,
-            "lng": 34.9031652697085
-          }
-        }
-      },
-      "name": "AJWA Cappadocia",
-      "place_id": "ChIJveWH9kdDKhURlJtxKWNY3Bs",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.ajwa.com.tr/"
-    }
-  },
   "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Leela Palace New Delhi Preferred Hotels & Resorts Hotel\", \"Leela Palace New Delhi Preferred Hotels & Resorts Resort\", \"Leela Palace New Delhi Preferred Hotels & Resorts\", \"Leela Palace New Delhi Preferred Hotels & Resorts New Delhi, India Hotel\", \"Leela Palace New Delhi Preferred Hotels & Resorts New Delhi, India Resort\", \"Leela Palace New Delhi Preferred Hotels & Resorts New Delhi, India\", \"Leela Palace New Delhi Hilton Hotel\", \"Leela Palace New Delhi Hilton Resort\", \"Leela Palace New Delhi Hilton\", \"Leela Palace New Delhi Hilton New Delhi, India Hotel\", \"Leela Palace New Delhi Hilton New Delhi, India Resort\", \"Leela Palace New Delhi Hilton New Delhi, India\", \"The Leela Palace New Delhi Preferred Hotels & Resorts Hotel\", \"The Leela Palace New Delhi Preferred Hotels & Resorts Resort\", \"The Leela Palace New Delhi Preferred Hotels & Resorts\", \"The Leela Palace New Delhi Preferred Hotels & Resorts New Delhi, India Hotel\", \"The Leela Palace New Delhi Preferred Hotels & Resorts New Delhi, India Resort\", \"The Leela Palace New Delhi Preferred Hotels & Resorts New Delhi, India\", \"The Leela Palace New Delhi Hilton Hotel\", \"The Leela Palace New Delhi Hilton Resort\", \"The Leela Palace New Delhi Hilton\", \"The Leela Palace New Delhi Hilton New Delhi, India Hotel\", \"The Leela Palace New Delhi Hilton New Delhi, India Resort\", \"The Leela Palace New Delhi Hilton New Delhi, India\", \"The Leela Palace New Delhi Hotel\", \"The Leela Palace New Delhi Resort\", \"The Leela Palace New Delhi\", \"The Leela Palace New Delhi New Delhi, India Hotel\", \"The Leela Palace New Delhi New Delhi, India Resort\", \"The Leela Palace New Delhi New Delhi, India\"], \"v\": 3}": {
     "lat": 28.5798662,
     "lon": 77.18933059999999,
@@ -99594,48 +99552,6 @@
       "website": "https://www.eaupalmbeach.com/"
     }
   },
-  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"AJWA Cappadocia Preferred Hotels & Resorts Hotel\", \"AJWA Cappadocia Preferred Hotels & Resorts Resort\", \"AJWA Cappadocia Preferred Hotels & Resorts\", \"AJWA Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey Hotel\", \"AJWA Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey Resort\", \"AJWA Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey\", \"AJWA Cappadocia Hilton Hotel\", \"AJWA Cappadocia Hilton Resort\", \"AJWA Cappadocia Hilton\", \"AJWA Cappadocia Hilton Nevsehir, Turkey Hotel\", \"AJWA Cappadocia Hilton Nevsehir, Turkey Resort\", \"AJWA Cappadocia Hilton Nevsehir, Turkey\", \"Ajwa Cappadocia Preferred Hotels & Resorts Hotel\", \"Ajwa Cappadocia Preferred Hotels & Resorts Resort\", \"Ajwa Cappadocia Preferred Hotels & Resorts\", \"Ajwa Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey Hotel\", \"Ajwa Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey Resort\", \"Ajwa Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey\", \"Ajwa Cappadocia Hilton Hotel\", \"Ajwa Cappadocia Hilton Resort\", \"Ajwa Cappadocia Hilton\", \"Ajwa Cappadocia Hilton Nevsehir, Turkey Hotel\", \"Ajwa Cappadocia Hilton Nevsehir, Turkey Resort\", \"Ajwa Cappadocia Hilton Nevsehir, Turkey\", \"AJWA Cappadocia Hotel\", \"AJWA Cappadocia Resort\", \"AJWA Cappadocia\", \"AJWA Cappadocia Nevsehir, Turkey Hotel\", \"AJWA Cappadocia Nevsehir, Turkey Resort\", \"AJWA Cappadocia Nevsehir, Turkey\"], \"v\": 3}": {
-    "lat": 38.5935959,
-    "lon": 34.9044435,
-    "formatted_address": "Yeni, Ürgüp Cd. No:13, 50420 Mustafapaşa/Ürgüp/Nevşehir, Türkiye",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJveWH9kdDKhURlJtxKWNY3Bs",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Yeni, Ürgüp Cd. No:13, 50420 Mustafapaşa/Ürgüp/Nevşehir, Türkiye",
-      "geometry": {
-        "location": {
-          "lat": 38.5935959,
-          "lng": 34.9044435
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 38.5948059802915,
-            "lng": 34.90586323029149
-          },
-          "southwest": {
-            "lat": 38.5921080197085,
-            "lng": 34.9031652697085
-          }
-        }
-      },
-      "name": "AJWA Cappadocia",
-      "place_id": "ChIJveWH9kdDKhURlJtxKWNY3Bs",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.ajwa.com.tr/"
-    }
-  },
   "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Leela Palace New Delhi Preferred Hotels & Resorts Hotel\", \"The Leela Palace New Delhi Preferred Hotels & Resorts Resort\", \"The Leela Palace New Delhi Preferred Hotels & Resorts\", \"The Leela Palace New Delhi Preferred Hotels & Resorts New Delhi, India Hotel\", \"The Leela Palace New Delhi Preferred Hotels & Resorts New Delhi, India Resort\", \"The Leela Palace New Delhi Preferred Hotels & Resorts New Delhi, India\", \"The Leela Palace New Delhi Hilton Hotel\", \"The Leela Palace New Delhi Hilton Resort\", \"The Leela Palace New Delhi Hilton\", \"The Leela Palace New Delhi Hilton New Delhi, India Hotel\", \"The Leela Palace New Delhi Hilton New Delhi, India Resort\", \"The Leela Palace New Delhi Hilton New Delhi, India\", \"Leela Palace New Delhi Preferred Hotels & Resorts Hotel\", \"Leela Palace New Delhi Preferred Hotels & Resorts Resort\", \"Leela Palace New Delhi Preferred Hotels & Resorts\", \"Leela Palace New Delhi Preferred Hotels & Resorts New Delhi, India Hotel\", \"Leela Palace New Delhi Preferred Hotels & Resorts New Delhi, India Resort\", \"Leela Palace New Delhi Preferred Hotels & Resorts New Delhi, India\", \"Leela Palace New Delhi Hilton Hotel\", \"Leela Palace New Delhi Hilton Resort\", \"Leela Palace New Delhi Hilton\", \"Leela Palace New Delhi Hilton New Delhi, India Hotel\", \"Leela Palace New Delhi Hilton New Delhi, India Resort\", \"Leela Palace New Delhi Hilton New Delhi, India\", \"The Leela Palace New Delhi Hotel\", \"The Leela Palace New Delhi Resort\", \"The Leela Palace New Delhi\", \"The Leela Palace New Delhi New Delhi, India Hotel\", \"The Leela Palace New Delhi New Delhi, India Resort\", \"The Leela Palace New Delhi New Delhi, India\"], \"v\": 3}": {
     "lat": 28.5798662,
     "lon": 77.18933059999999,
@@ -130288,12 +130204,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 34.7012112,
-    "lon": -118.171488,
-    "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
+    "lat": 39.9927967,
+    "lon": -76.28769179999999,
+    "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
+    "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
     "types": [
       "establishment",
       "lodging",
@@ -130302,31 +130218,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
+      "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
       "geometry": {
         "location": {
-          "lat": 34.7012112,
-          "lng": -118.171488
+          "lat": 39.9927967,
+          "lng": -76.28769179999999
         },
         "viewport": {
           "northeast": {
-            "lat": 34.7024083302915,
-            "lng": -118.1697845197085
+            "lat": 39.9940706302915,
+            "lng": -76.28663611970849
           },
           "southwest": {
-            "lat": 34.6997103697085,
-            "lng": -118.1724824802915
+            "lat": 39.9913726697085,
+            "lng": -76.2893340802915
           }
         }
       },
-      "name": "Hampton Inn & Suites Lancaster",
-      "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
+      "name": "DoubleTree Resort by Hilton Hotel Lancaster",
+      "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/pdllchx-hampton-suites-lancaster/?SEO_id=GMB-AMER-HX-PDLLCHX&y_source=1_MjA4MzE4Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.hilton.com/en/hotels/lnswvdt-doubletree-resort-lancaster/?SEO_id=GMB-AMER-DT-LNSWVDT&y_source=1_MTM3MjczNC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -167326,48 +167242,6 @@
         "point_of_interest"
       ],
       "website": "https://thehermitagehotel.com/?utm_source=local&utm_medium=organic&utm_campaign=website_link"
-    }
-  },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"AJWA Cappadocia\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"AJWA Cappadocia Preferred Hotels & Resorts Hotel\", \"AJWA Cappadocia Preferred Hotels & Resorts Resort\", \"AJWA Cappadocia Preferred Hotels & Resorts\", \"AJWA Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey Hotel\", \"AJWA Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey Resort\", \"AJWA Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey\", \"AJWA Cappadocia Hilton Hotel\", \"AJWA Cappadocia Hilton Resort\", \"AJWA Cappadocia Hilton\", \"AJWA Cappadocia Hilton Nevsehir, Turkey Hotel\", \"AJWA Cappadocia Hilton Nevsehir, Turkey Resort\", \"AJWA Cappadocia Hilton Nevsehir, Turkey\", \"Ajwa Cappadocia Preferred Hotels & Resorts Hotel\", \"Ajwa Cappadocia Preferred Hotels & Resorts Resort\", \"Ajwa Cappadocia Preferred Hotels & Resorts\", \"Ajwa Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey Hotel\", \"Ajwa Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey Resort\", \"Ajwa Cappadocia Preferred Hotels & Resorts Nevsehir, Turkey\", \"Ajwa Cappadocia Hilton Hotel\", \"Ajwa Cappadocia Hilton Resort\", \"Ajwa Cappadocia Hilton\", \"Ajwa Cappadocia Hilton Nevsehir, Turkey Hotel\", \"Ajwa Cappadocia Hilton Nevsehir, Turkey Resort\", \"Ajwa Cappadocia Hilton Nevsehir, Turkey\", \"AJWA Cappadocia Hotel\", \"AJWA Cappadocia Resort\", \"AJWA Cappadocia\", \"AJWA Cappadocia Nevsehir, Turkey Hotel\", \"AJWA Cappadocia Nevsehir, Turkey Resort\", \"AJWA Cappadocia Nevsehir, Turkey\"], \"v\": 3}": {
-    "lat": 38.5936303,
-    "lon": 34.9043305,
-    "formatted_address": "Yeni, Ürgüp Cd. No:13, 50420 Mustafapaşa/Ürgüp/Nevşehir, Türkiye",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJveWH9kdDKhURlJtxKWNY3Bs",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "CLOSED_TEMPORARILY",
-      "formatted_address": "Yeni, Ürgüp Cd. No:13, 50420 Mustafapaşa/Ürgüp/Nevşehir, Türkiye",
-      "geometry": {
-        "location": {
-          "lat": 38.5936303,
-          "lng": 34.9043305
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 38.5949585302915,
-            "lng": 34.90548458029151
-          },
-          "southwest": {
-            "lat": 38.5922605697085,
-            "lng": 34.90278661970851
-          }
-        }
-      },
-      "name": "AJWA Cappadocia",
-      "place_id": "ChIJveWH9kdDKhURlJtxKWNY3Bs",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.ajwa.com.tr/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Leela Palace New Delhi\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Leela Palace New Delhi Preferred Hotels & Resorts Hotel\", \"The Leela Palace New Delhi Preferred Hotels & Resorts Resort\", \"The Leela Palace New Delhi Preferred Hotels & Resorts\", \"The Leela Palace New Delhi Preferred Hotels & Resorts New Delhi, India Hotel\", \"The Leela Palace New Delhi Preferred Hotels & Resorts New Delhi, India Resort\", \"The Leela Palace New Delhi Preferred Hotels & Resorts New Delhi, India\", \"The Leela Palace New Delhi Hilton Hotel\", \"The Leela Palace New Delhi Hilton Resort\", \"The Leela Palace New Delhi Hilton\", \"The Leela Palace New Delhi Hilton New Delhi, India Hotel\", \"The Leela Palace New Delhi Hilton New Delhi, India Resort\", \"The Leela Palace New Delhi Hilton New Delhi, India\", \"Leela Palace New Delhi Preferred Hotels & Resorts Hotel\", \"Leela Palace New Delhi Preferred Hotels & Resorts Resort\", \"Leela Palace New Delhi Preferred Hotels & Resorts\", \"Leela Palace New Delhi Preferred Hotels & Resorts New Delhi, India Hotel\", \"Leela Palace New Delhi Preferred Hotels & Resorts New Delhi, India Resort\", \"Leela Palace New Delhi Preferred Hotels & Resorts New Delhi, India\", \"Leela Palace New Delhi Hilton Hotel\", \"Leela Palace New Delhi Hilton Resort\", \"Leela Palace New Delhi Hilton\", \"Leela Palace New Delhi Hilton New Delhi, India Hotel\", \"Leela Palace New Delhi Hilton New Delhi, India Resort\", \"Leela Palace New Delhi Hilton New Delhi, India\", \"The Leela Palace New Delhi Hotel\", \"The Leela Palace New Delhi Resort\", \"The Leela Palace New Delhi\", \"The Leela Palace New Delhi New Delhi, India Hotel\", \"The Leela Palace New Delhi New Delhi, India Resort\", \"The Leela Palace New Delhi New Delhi, India\"], \"v\": 3}": {
@@ -209243,6 +209117,48 @@
         "point_of_interest"
       ],
       "website": "https://www.marriott.com/en-us/hotels/lbjlc-taaktana-a-luxury-collection-resort-and-spa-labuan-bajo/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Maxx Royal Kemer\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Maxx Royal Kemer The Leading Hotels of the World Hotel\", \"Maxx Royal Kemer The Leading Hotels of the World Resort\", \"Maxx Royal Kemer The Leading Hotels of the World\", \"Maxx Royal Kemer The Leading Hotels of the World Antalya, Turkey Hotel\", \"Maxx Royal Kemer The Leading Hotels of the World Antalya, Turkey Resort\", \"Maxx Royal Kemer The Leading Hotels of the World Antalya, Turkey\", \"Maxx Royal Kemer Hilton Hotel\", \"Maxx Royal Kemer Hilton Resort\", \"Maxx Royal Kemer Hilton\", \"Maxx Royal Kemer Hilton Antalya, Turkey Hotel\", \"Maxx Royal Kemer Hilton Antalya, Turkey Resort\", \"Maxx Royal Kemer Hilton Antalya, Turkey\", \"Maxx Royal Kemer Hotel\", \"Maxx Royal Kemer Resort\", \"Maxx Royal Kemer\", \"Maxx Royal Kemer Antalya, Turkey Hotel\", \"Maxx Royal Kemer Antalya, Turkey Resort\", \"Maxx Royal Kemer Antalya, Turkey\"], \"v\": 3}": {
+    "lat": 36.57901,
+    "lon": 30.5842437,
+    "formatted_address": "Kiriş Mh., Kiriş Cad. No:88, Kiriş, 07980 Kemer/Antalya, Türkiye",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ7eqmUgO3wxQRWdi1f02_Mk8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Kiriş Mh., Kiriş Cad. No:88, Kiriş, 07980 Kemer/Antalya, Türkiye",
+      "geometry": {
+        "location": {
+          "lat": 36.57901,
+          "lng": 30.5842437
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.5804088302915,
+            "lng": 30.5854844802915
+          },
+          "southwest": {
+            "lat": 36.5777108697085,
+            "lng": 30.58278651970851
+          }
+        }
+      },
+      "name": "Maxx Royal Kemer Resort",
+      "place_id": "ChIJ7eqmUgO3wxQRWdi1f02_Mk8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.maxxroyal.com/"
     }
   }
 }
