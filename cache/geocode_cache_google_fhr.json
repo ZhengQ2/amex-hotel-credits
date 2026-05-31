@@ -130204,12 +130204,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 39.9927967,
-    "lon": -76.28769179999999,
-    "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
+    "lat": 34.7012112,
+    "lon": -118.171488,
+    "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
+    "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
     "types": [
       "establishment",
       "lodging",
@@ -130218,31 +130218,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
+      "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
       "geometry": {
         "location": {
-          "lat": 39.9927967,
-          "lng": -76.28769179999999
+          "lat": 34.7012112,
+          "lng": -118.171488
         },
         "viewport": {
           "northeast": {
-            "lat": 39.9940706302915,
-            "lng": -76.28663611970849
+            "lat": 34.7024083302915,
+            "lng": -118.1697845197085
           },
           "southwest": {
-            "lat": 39.9913726697085,
-            "lng": -76.2893340802915
+            "lat": 34.6997103697085,
+            "lng": -118.1724824802915
           }
         }
       },
-      "name": "DoubleTree Resort by Hilton Hotel Lancaster",
-      "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
+      "name": "Hampton Inn & Suites Lancaster",
+      "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/lnswvdt-doubletree-resort-lancaster/?SEO_id=GMB-AMER-DT-LNSWVDT&y_source=1_MTM3MjczNC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.hilton.com/en/hotels/pdllchx-hampton-suites-lancaster/?SEO_id=GMB-AMER-HX-PDLLCHX&y_source=1_MjA4MzE4Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -209159,6 +209159,184 @@
         "point_of_interest"
       ],
       "website": "http://www.maxxroyal.com/"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"The Strand Turks and Caicos\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Strand Turks and Caicos\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"W Punta Cana\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W Punta Cana\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Awasi Mendoza\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Awasi Mendoza\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Chiemgauhof - Lakeside Retreat\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Chiemgauhof - Lakeside Retreat\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Awasi Mendoza\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Awasi Mendoza Relais & Ch\\u00e2teaux Hotel\", \"Awasi Mendoza Relais & Ch\\u00e2teaux Resort\", \"Awasi Mendoza Relais & Ch\\u00e2teaux\", \"Awasi Mendoza Relais & Ch\\u00e2teaux Luj\\u00e1n de Cuyo, Argentina Hotel\", \"Awasi Mendoza Relais & Ch\\u00e2teaux Luj\\u00e1n de Cuyo, Argentina Resort\", \"Awasi Mendoza Relais & Ch\\u00e2teaux Luj\\u00e1n de Cuyo, Argentina\", \"Awasi Mendoza Hilton Hotel\", \"Awasi Mendoza Hilton Resort\", \"Awasi Mendoza Hilton\", \"Awasi Mendoza Hilton Luj\\u00e1n de Cuyo, Argentina Hotel\", \"Awasi Mendoza Hilton Luj\\u00e1n de Cuyo, Argentina Resort\", \"Awasi Mendoza Hilton Luj\\u00e1n de Cuyo, Argentina\", \"Awasi Mendoza Hotel\", \"Awasi Mendoza Resort\", \"Awasi Mendoza\", \"Awasi Mendoza Luj\\u00e1n de Cuyo, Argentina Hotel\", \"Awasi Mendoza Luj\\u00e1n de Cuyo, Argentina Resort\", \"Awasi Mendoza Luj\\u00e1n de Cuyo, Argentina\"], \"v\": 3}": {
+    "lat": -33.119188,
+    "lon": -68.92679729999999,
+    "formatted_address": "C. Costa Flores s/n, M5507 Luján de Cuyo, Mendoza, Argentina",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJPVdojq_YfZYRzi-z2U7IwuA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "C. Costa Flores s/n, M5507 Luján de Cuyo, Mendoza, Argentina",
+      "geometry": {
+        "location": {
+          "lat": -33.119188,
+          "lng": -68.92679729999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -33.11794391970851,
+            "lng": -68.92535051970849
+          },
+          "southwest": {
+            "lat": -33.12064188029151,
+            "lng": -68.9280484802915
+          }
+        }
+      },
+      "name": "Awasi Mendoza",
+      "place_id": "ChIJPVdojq_YfZYRzi-z2U7IwuA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://awasi.com/mendoza/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Strand Turks and Caicos\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Strand Turks and Caicos The Leading Hotels of the World Hotel\", \"The Strand Turks and Caicos The Leading Hotels of the World Resort\", \"The Strand Turks and Caicos The Leading Hotels of the World\", \"The Strand Turks and Caicos The Leading Hotels of the World Providenciales, Turks and Caicos Islands Hotel\", \"The Strand Turks and Caicos The Leading Hotels of the World Providenciales, Turks and Caicos Islands Resort\", \"The Strand Turks and Caicos The Leading Hotels of the World Providenciales, Turks and Caicos Islands\", \"The Strand Turks and Caicos Hilton Hotel\", \"The Strand Turks and Caicos Hilton Resort\", \"The Strand Turks and Caicos Hilton\", \"The Strand Turks and Caicos Hilton Providenciales, Turks and Caicos Islands Hotel\", \"The Strand Turks and Caicos Hilton Providenciales, Turks and Caicos Islands Resort\", \"The Strand Turks and Caicos Hilton Providenciales, Turks and Caicos Islands\", \"Strand Turks Caicos The Leading Hotels of the World Hotel\", \"Strand Turks Caicos The Leading Hotels of the World Resort\", \"Strand Turks Caicos The Leading Hotels of the World\", \"Strand Turks Caicos The Leading Hotels of the World Providenciales, Turks and Caicos Islands Hotel\", \"Strand Turks Caicos The Leading Hotels of the World Providenciales, Turks and Caicos Islands Resort\", \"Strand Turks Caicos The Leading Hotels of the World Providenciales, Turks and Caicos Islands\", \"Strand Turks Caicos Hilton Hotel\", \"Strand Turks Caicos Hilton Resort\", \"Strand Turks Caicos Hilton\", \"Strand Turks Caicos Hilton Providenciales, Turks and Caicos Islands Hotel\", \"Strand Turks Caicos Hilton Providenciales, Turks and Caicos Islands Resort\", \"Strand Turks Caicos Hilton Providenciales, Turks and Caicos Islands\", \"The Strand Turks and Caicos Hotel\", \"The Strand Turks and Caicos Resort\", \"The Strand Turks and Caicos\", \"The Strand Turks and Caicos Providenciales, Turks and Caicos Islands Hotel\", \"The Strand Turks and Caicos Providenciales, Turks and Caicos Islands Resort\", \"The Strand Turks and Caicos Providenciales, Turks and Caicos Islands\"], \"v\": 3}": {
+    "lat": 21.7596926,
+    "lon": -72.2300795,
+    "formatted_address": "1 Seaview Dr, Cooper Jack Bay Settlement TKCA 1ZZ, Turks and Caicos Islands",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJB9_bP9BPS4kRYMYs1mSyVRE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1 Seaview Dr, Cooper Jack Bay Settlement TKCA 1ZZ, Turks and Caicos Islands",
+      "geometry": {
+        "location": {
+          "lat": 21.7596926,
+          "lng": -72.2300795
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 21.7614276302915,
+            "lng": -72.22889311970849
+          },
+          "southwest": {
+            "lat": 21.7587296697085,
+            "lng": -72.23159108029151
+          }
+        }
+      },
+      "name": "The Strand Turks & Caicos",
+      "place_id": "ChIJB9_bP9BPS4kRYMYs1mSyVRE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://thestrandtci.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Chiemgauhof - Lakeside Retreat\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Chiemgauhof - Lakeside Retreat The Leading Hotels of the World Hotel\", \"Chiemgauhof - Lakeside Retreat The Leading Hotels of the World Resort\", \"Chiemgauhof - Lakeside Retreat The Leading Hotels of the World\", \"Chiemgauhof - Lakeside Retreat The Leading Hotels of the World \\u00dcbersee, Germany Hotel\", \"Chiemgauhof - Lakeside Retreat The Leading Hotels of the World \\u00dcbersee, Germany Resort\", \"Chiemgauhof - Lakeside Retreat The Leading Hotels of the World \\u00dcbersee, Germany\", \"Chiemgauhof - Lakeside Retreat Hilton Hotel\", \"Chiemgauhof - Lakeside Retreat Hilton Resort\", \"Chiemgauhof - Lakeside Retreat Hilton\", \"Chiemgauhof - Lakeside Retreat Hilton \\u00dcbersee, Germany Hotel\", \"Chiemgauhof - Lakeside Retreat Hilton \\u00dcbersee, Germany Resort\", \"Chiemgauhof - Lakeside Retreat Hilton \\u00dcbersee, Germany\", \"Chiemgauhof Lakeside Retreat The Leading Hotels of the World Hotel\", \"Chiemgauhof Lakeside Retreat The Leading Hotels of the World Resort\", \"Chiemgauhof Lakeside Retreat The Leading Hotels of the World\", \"Chiemgauhof Lakeside Retreat The Leading Hotels of the World \\u00dcbersee, Germany Hotel\", \"Chiemgauhof Lakeside Retreat The Leading Hotels of the World \\u00dcbersee, Germany Resort\", \"Chiemgauhof Lakeside Retreat The Leading Hotels of the World \\u00dcbersee, Germany\", \"Chiemgauhof Lakeside Retreat Hilton Hotel\", \"Chiemgauhof Lakeside Retreat Hilton Resort\", \"Chiemgauhof Lakeside Retreat Hilton\", \"Chiemgauhof Lakeside Retreat Hilton \\u00dcbersee, Germany Hotel\", \"Chiemgauhof Lakeside Retreat Hilton \\u00dcbersee, Germany Resort\", \"Chiemgauhof Lakeside Retreat Hilton \\u00dcbersee, Germany\", \"Chiemgauhof - Lakeside Retreat Hotel\", \"Chiemgauhof - Lakeside Retreat Resort\", \"Chiemgauhof - Lakeside Retreat\", \"Chiemgauhof - Lakeside Retreat \\u00dcbersee, Germany Hotel\", \"Chiemgauhof - Lakeside Retreat \\u00dcbersee, Germany Resort\", \"Chiemgauhof - Lakeside Retreat \\u00dcbersee, Germany\"], \"v\": 3}": {
+    "lat": 47.84669,
+    "lon": 12.47647,
+    "formatted_address": "Julius-Exter-Promenade 21, 83236 Übersee, Germany",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJK7cw19BtdkcRgM6Ps1lw5oI",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Julius-Exter-Promenade 21, 83236 Übersee, Germany",
+      "geometry": {
+        "location": {
+          "lat": 47.84669,
+          "lng": 12.47647
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.8479783302915,
+            "lng": 12.4781911802915
+          },
+          "southwest": {
+            "lat": 47.8452803697085,
+            "lng": 12.4754932197085
+          }
+        }
+      },
+      "name": "Chiemgauhof - Lakeside Retreat",
+      "place_id": "ChIJK7cw19BtdkcRgM6Ps1lw5oI",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "http://www.chiemgauhof.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"W Punta Cana\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W Punta Cana W Hotels Hotel\", \"W Punta Cana W Hotels Resort\", \"W Punta Cana W Hotels\", \"W Punta Cana W Hotels Higuey, Dominican Republic Hotel\", \"W Punta Cana W Hotels Higuey, Dominican Republic Resort\", \"W Punta Cana W Hotels Higuey, Dominican Republic\", \"W Punta Cana Hilton Hotel\", \"W Punta Cana Hilton Resort\", \"W Punta Cana Hilton\", \"W Punta Cana Hilton Higuey, Dominican Republic Hotel\", \"W Punta Cana Hilton Higuey, Dominican Republic Resort\", \"W Punta Cana Hilton Higuey, Dominican Republic\", \"W Punta Cana Hotel\", \"W Punta Cana Resort\", \"W Punta Cana\", \"W Punta Cana Higuey, Dominican Republic Hotel\", \"W Punta Cana Higuey, Dominican Republic Resort\", \"W Punta Cana Higuey, Dominican Republic\"], \"v\": 3}": {
+    "lat": 18.8362224,
+    "lon": -68.6068267,
+    "formatted_address": "Carretera Uvero Alto Higuey, Punta Cana 23000, Dominican Republic",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJm9R7TkPDqI4Rq99Cgxel6FI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carretera Uvero Alto Higuey, Punta Cana 23000, Dominican Republic",
+      "geometry": {
+        "location": {
+          "lat": 18.8362224,
+          "lng": -68.6068267
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 18.83719738029151,
+            "lng": -68.6057471697085
+          },
+          "southwest": {
+            "lat": 18.8344994197085,
+            "lng": -68.6084451302915
+          }
+        }
+      },
+      "name": "W Punta Cana, Adult All-Inclusive",
+      "place_id": "ChIJm9R7TkPDqI4Rq99Cgxel6FI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/pujwh-w-punta-cana-adult-all-inclusive/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   }
 }

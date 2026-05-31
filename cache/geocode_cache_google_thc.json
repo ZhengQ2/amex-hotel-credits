@@ -141805,12 +141805,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Antonio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Antonio Small Luxury Hotels of the World Hotel\", \"San Antonio Small Luxury Hotels of the World Resort\", \"San Antonio Small Luxury Hotels of the World\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Hotel\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Resort\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece\", \"San Antonio Hilton Hotel\", \"San Antonio Hilton Resort\", \"San Antonio Hilton\", \"San Antonio Hilton Imerovigli, Greece Hotel\", \"San Antonio Hilton Imerovigli, Greece Resort\", \"San Antonio Hilton Imerovigli, Greece\", \"San Antonio Hotel\", \"San Antonio Resort\", \"San Antonio\", \"San Antonio Imerovigli, Greece Hotel\", \"San Antonio Imerovigli, Greece Resort\", \"San Antonio Imerovigli, Greece\"], \"v\": 3}": {
-    "lat": 29.427455,
-    "lon": -98.4894638,
-    "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
+    "lat": 29.6663753,
+    "lon": -98.4008875,
+    "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
+    "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
     "types": [
       "establishment",
       "lodging",
@@ -141819,31 +141819,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
+      "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
       "geometry": {
         "location": {
-          "lat": 29.427455,
-          "lng": -98.4894638
+          "lat": 29.6663753,
+          "lng": -98.4008875
         },
         "viewport": {
           "northeast": {
-            "lat": 29.4288507802915,
-            "lng": -98.4880806197085
+            "lat": 29.6677274302915,
+            "lng": -98.39953276970849
           },
           "southwest": {
-            "lat": 29.4261528197085,
-            "lng": -98.4907785802915
+            "lat": 29.6650294697085,
+            "lng": -98.40223073029149
           }
         }
       },
-      "name": "The St. Anthony, a Luxury Collection Hotel, San Antonio",
-      "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
+      "name": "JW Marriott San Antonio Hill Country Resort & Spa",
+      "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.marriott.com/en-us/hotels/satlc-the-st-anthony-a-luxury-collection-hotel-san-antonio/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+      "website": "https://www.marriott.com/en-us/hotels/satjw-jw-marriott-san-antonio-hill-country-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rusty Parrot Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
@@ -153785,6 +153785,243 @@
         "point_of_interest"
       ],
       "website": "https://thehoxton.com/dublin/"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"LaPlaya Beach and Golf Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"LaPlaya Beach and Golf Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Omni Frisco Hotel at The Star\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Omni Frisco Hotel at The Star\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Palacio de los Angeles La Rioja\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Palacio de los Angeles La Rioja\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Aluna Resort Tulum\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aluna Resort Tulum Kimpton Hotels & Restaurants Hotel\", \"Aluna Resort Tulum Kimpton Hotels & Restaurants Resort\", \"Aluna Resort Tulum Kimpton Hotels & Restaurants\", \"Aluna Resort Tulum Kimpton Hotels & Restaurants Tulum, Quintana Roo MX Hotel\", \"Aluna Resort Tulum Kimpton Hotels & Restaurants Tulum, Quintana Roo MX Resort\", \"Aluna Resort Tulum Kimpton Hotels & Restaurants Tulum, Quintana Roo MX\", \"Aluna Resort Tulum Hilton Hotel\", \"Aluna Resort Tulum Hilton Resort\", \"Aluna Resort Tulum Hilton\", \"Aluna Resort Tulum Hilton Tulum, Quintana Roo MX Hotel\", \"Aluna Resort Tulum Hilton Tulum, Quintana Roo MX Resort\", \"Aluna Resort Tulum Hilton Tulum, Quintana Roo MX\", \"Aluna Resort Tulum Hotel\", \"Aluna Resort Tulum Resort\", \"Aluna Resort Tulum\", \"Aluna Resort Tulum Tulum, Quintana Roo MX Hotel\", \"Aluna Resort Tulum Tulum, Quintana Roo MX Resort\", \"Aluna Resort Tulum Tulum, Quintana Roo MX\"], \"v\": 3}": {
+    "lat": 20.2015027,
+    "lon": -87.45107510000001,
+    "formatted_address": "Av. Itzamna, Aldea Zama 11-Poligono 0014, Lote 1, 77760 Tulum, Q.R., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJT0HpF0_RT48RfDOUI4sDqC8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Av. Itzamna, Aldea Zama 11-Poligono 0014, Lote 1, 77760 Tulum, Q.R., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 20.2015027,
+          "lng": -87.45107510000001
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 20.2027756302915,
+            "lng": -87.4496884197085
+          },
+          "southwest": {
+            "lat": 20.2000776697085,
+            "lng": -87.4523863802915
+          }
+        }
+      },
+      "name": "Kimpton Aluna Resort Tulum",
+      "place_id": "ChIJT0HpF0_RT48RfDOUI4sDqC8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://alunatulumhotel.com/en/?cm_mmc=WEB-_-KI-_-AMER-_-EN-_-EV-_-Google%20Business%20Profile-_-DD-_-aluna"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"LaPlaya Beach and Golf Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"LaPlaya Beach and Golf Resort Noble House Hotels & Resorts Hotel\", \"LaPlaya Beach and Golf Resort Noble House Hotels & Resorts Resort\", \"LaPlaya Beach and Golf Resort Noble House Hotels & Resorts\", \"LaPlaya Beach and Golf Resort Noble House Hotels & Resorts Naples, Florida US Hotel\", \"LaPlaya Beach and Golf Resort Noble House Hotels & Resorts Naples, Florida US Resort\", \"LaPlaya Beach and Golf Resort Noble House Hotels & Resorts Naples, Florida US\", \"LaPlaya Beach and Golf Resort Hilton Hotel\", \"LaPlaya Beach and Golf Resort Hilton Resort\", \"LaPlaya Beach and Golf Resort Hilton\", \"LaPlaya Beach and Golf Resort Hilton Naples, Florida US Hotel\", \"LaPlaya Beach and Golf Resort Hilton Naples, Florida US Resort\", \"LaPlaya Beach and Golf Resort Hilton Naples, Florida US\", \"Laplaya Beach Golf Resort Noble House Hotels & Resorts Hotel\", \"Laplaya Beach Golf Resort Noble House Hotels & Resorts Resort\", \"Laplaya Beach Golf Resort Noble House Hotels & Resorts\", \"Laplaya Beach Golf Resort Noble House Hotels & Resorts Naples, Florida US Hotel\", \"Laplaya Beach Golf Resort Noble House Hotels & Resorts Naples, Florida US Resort\", \"Laplaya Beach Golf Resort Noble House Hotels & Resorts Naples, Florida US\", \"Laplaya Beach Golf Resort Hilton Hotel\", \"Laplaya Beach Golf Resort Hilton Resort\", \"Laplaya Beach Golf Resort Hilton\", \"Laplaya Beach Golf Resort Hilton Naples, Florida US Hotel\", \"Laplaya Beach Golf Resort Hilton Naples, Florida US Resort\", \"Laplaya Beach Golf Resort Hilton Naples, Florida US\", \"LaPlaya Beach and Golf Resort Hotel\", \"LaPlaya Beach and Golf Resort Resort\", \"LaPlaya Beach and Golf Resort\", \"LaPlaya Beach and Golf Resort Naples, Florida US Hotel\", \"LaPlaya Beach and Golf Resort Naples, Florida US Resort\", \"LaPlaya Beach and Golf Resort Naples, Florida US\"], \"v\": 3}": {
+    "lat": 26.2610472,
+    "lon": -81.8243509,
+    "formatted_address": "9891 Gulf Shore Dr, Naples, FL 34108, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJMdTE7yAf24gRwuFSZ2wo87w",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "9891 Gulf Shore Dr, Naples, FL 34108, USA",
+      "geometry": {
+        "location": {
+          "lat": 26.2610472,
+          "lng": -81.8243509
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 26.2623359802915,
+            "lng": -81.8228499197085
+          },
+          "southwest": {
+            "lat": 26.2596380197085,
+            "lng": -81.82554788029151
+          }
+        }
+      },
+      "name": "LaPlaya Beach & Golf Resort",
+      "place_id": "ChIJMdTE7yAf24gRwuFSZ2wo87w",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.laplayaresort.com/?utm_source=gmb-beachresort&utm_medium=organic&utm_campaign=gmb"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Omni Frisco Hotel at The Star\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Omni Frisco Hotel at The Star Omni Hotels & Resorts Hotel\", \"Omni Frisco Hotel at The Star Omni Hotels & Resorts Resort\", \"Omni Frisco Hotel at The Star Omni Hotels & Resorts\", \"Omni Frisco Hotel at The Star Omni Hotels & Resorts Frisco, Texas US Hotel\", \"Omni Frisco Hotel at The Star Omni Hotels & Resorts Frisco, Texas US Resort\", \"Omni Frisco Hotel at The Star Omni Hotels & Resorts Frisco, Texas US\", \"Omni Frisco Hotel at The Star Hilton Hotel\", \"Omni Frisco Hotel at The Star Hilton Resort\", \"Omni Frisco Hotel at The Star Hilton\", \"Omni Frisco Hotel at The Star Hilton Frisco, Texas US Hotel\", \"Omni Frisco Hotel at The Star Hilton Frisco, Texas US Resort\", \"Omni Frisco Hotel at The Star Hilton Frisco, Texas US\", \"Omni Frisco Hotel Star Omni Hotels & Resorts Hotel\", \"Omni Frisco Hotel Star Omni Hotels & Resorts Resort\", \"Omni Frisco Hotel Star Omni Hotels & Resorts\", \"Omni Frisco Hotel Star Omni Hotels & Resorts Frisco, Texas US Hotel\", \"Omni Frisco Hotel Star Omni Hotels & Resorts Frisco, Texas US Resort\", \"Omni Frisco Hotel Star Omni Hotels & Resorts Frisco, Texas US\", \"Omni Frisco Hotel Star Hilton Hotel\", \"Omni Frisco Hotel Star Hilton Resort\", \"Omni Frisco Hotel Star Hilton\", \"Omni Frisco Hotel Star Hilton Frisco, Texas US Hotel\", \"Omni Frisco Hotel Star Hilton Frisco, Texas US Resort\", \"Omni Frisco Hotel Star Hilton Frisco, Texas US\", \"Omni Frisco Hotel at The Star Hotel\", \"Omni Frisco Hotel at The Star Resort\", \"Omni Frisco Hotel at The Star\", \"Omni Frisco Hotel at The Star Frisco, Texas US Hotel\", \"Omni Frisco Hotel at The Star Frisco, Texas US Resort\", \"Omni Frisco Hotel at The Star Frisco, Texas US\"], \"v\": 3}": {
+    "lat": 33.1095886,
+    "lon": -96.8276815,
+    "formatted_address": "11 Cowboys Way, Frisco, TX 75034, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJNddZUoQ8TIYRuTLLsMU4SrY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "11 Cowboys Way, Frisco, TX 75034, USA",
+      "geometry": {
+        "location": {
+          "lat": 33.1095886,
+          "lng": -96.8276815
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.1106793302915,
+            "lng": -96.82616536970849
+          },
+          "southwest": {
+            "lat": 33.1079813697085,
+            "lng": -96.8288633302915
+          }
+        }
+      },
+      "name": "Omni Frisco Hotel at The Star",
+      "place_id": "ChIJNddZUoQ8TIYRuTLLsMU4SrY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.omnihotels.com/hotels/frisco?utm_source=gmblisting&utm_medium=organic"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Palacio de los Angeles La Rioja\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Palacio de los Angeles La Rioja The Leading Hotels of the World Hotel\", \"Palacio de los Angeles La Rioja The Leading Hotels of the World Resort\", \"Palacio de los Angeles La Rioja The Leading Hotels of the World\", \"Palacio de los Angeles La Rioja The Leading Hotels of the World Haro, Spain Hotel\", \"Palacio de los Angeles La Rioja The Leading Hotels of the World Haro, Spain Resort\", \"Palacio de los Angeles La Rioja The Leading Hotels of the World Haro, Spain\", \"Palacio de los Angeles La Rioja Hilton Hotel\", \"Palacio de los Angeles La Rioja Hilton Resort\", \"Palacio de los Angeles La Rioja Hilton\", \"Palacio de los Angeles La Rioja Hilton Haro, Spain Hotel\", \"Palacio de los Angeles La Rioja Hilton Haro, Spain Resort\", \"Palacio de los Angeles La Rioja Hilton Haro, Spain\", \"Palacio De Los Angeles La Rioja The Leading Hotels of the World Hotel\", \"Palacio De Los Angeles La Rioja The Leading Hotels of the World Resort\", \"Palacio De Los Angeles La Rioja The Leading Hotels of the World\", \"Palacio De Los Angeles La Rioja The Leading Hotels of the World Haro, Spain Hotel\", \"Palacio De Los Angeles La Rioja The Leading Hotels of the World Haro, Spain Resort\", \"Palacio De Los Angeles La Rioja The Leading Hotels of the World Haro, Spain\", \"Palacio De Los Angeles La Rioja Hilton Hotel\", \"Palacio De Los Angeles La Rioja Hilton Resort\", \"Palacio De Los Angeles La Rioja Hilton\", \"Palacio De Los Angeles La Rioja Hilton Haro, Spain Hotel\", \"Palacio De Los Angeles La Rioja Hilton Haro, Spain Resort\", \"Palacio De Los Angeles La Rioja Hilton Haro, Spain\", \"Palacio de los Angeles La Rioja Hotel\", \"Palacio de los Angeles La Rioja Resort\", \"Palacio de los Angeles La Rioja\", \"Palacio de los Angeles La Rioja Haro, Spain Hotel\", \"Palacio de los Angeles La Rioja Haro, Spain Resort\", \"Palacio de los Angeles La Rioja Haro, Spain\"], \"v\": 3}": {
+    "lat": 42.57605299999999,
+    "lon": -2.8476614,
+    "formatted_address": "Pl. de la Cruz, 4, 26200 Haro, La Rioja, Spain",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
+    "place_id": "ChIJm93H24mLTw0R9GstVt116lA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": true,
+    "raw": {
+      "address_components": [
+        {
+          "long_name": "4",
+          "short_name": "4",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Plaza de la Cruz",
+          "short_name": "Pl. de la Cruz",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Haro",
+          "short_name": "Haro",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "La Rioja",
+          "short_name": "LO",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "La Rioja",
+          "short_name": "RI",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Spain",
+          "short_name": "ES",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "26200",
+          "short_name": "26200",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Pl. de la Cruz, 4, 26200 Haro, La Rioja, Spain",
+      "geometry": {
+        "location": {
+          "lat": 42.57605299999999,
+          "lng": -2.8476614
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 42.57744913029149,
+            "lng": -2.846254119708498
+          },
+          "southwest": {
+            "lat": 42.57475116970849,
+            "lng": -2.848952080291502
+          }
+        }
+      },
+      "navigation_points": [
+        {
+          "location": {
+            "latitude": 42.5761007,
+            "longitude": -2.8476024
+          }
+        }
+      ],
+      "partial_match": true,
+      "place_id": "ChIJm93H24mLTw0R9GstVt116lA",
+      "plus_code": {
+        "compound_code": "H5G2+CW Haro, Spain",
+        "global_code": "8CJVH5G2+CW"
+      },
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
     }
   }
 }
