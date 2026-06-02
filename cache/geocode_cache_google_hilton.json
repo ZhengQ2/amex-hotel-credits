@@ -12396,50 +12396,6 @@
       "website": "https://www.hilton.com/en/hotels/teaibqq-indura-beach-and-golf-resort/?SEO_id=GMB-AMER-QQ-TEAIBQQ&y_source=1_MTMwOTk3MjgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
-  "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Isla Brown Chania Resort, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Isla Brown Chania Resort, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"Isla Brown Chania Resort, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"Isla Brown Chania Resort, Curio Collection by Hilton Curio Collection by Hilton\", \"Isla Brown Chania Resort, Curio Collection by Hilton Hilton Hotel\", \"Isla Brown Chania Resort, Curio Collection by Hilton Hilton Resort\", \"Isla Brown Chania Resort, Curio Collection by Hilton Hilton\", \"heribqq isla brown resort chania Curio Collection by Hilton Hotel\", \"heribqq isla brown resort chania Curio Collection by Hilton Resort\", \"heribqq isla brown resort chania Curio Collection by Hilton\", \"heribqq isla brown resort chania Hilton Hotel\", \"heribqq isla brown resort chania Hilton Resort\", \"heribqq isla brown resort chania Hilton\", \"Isla Brown Chania Resort, Curio Collection by Hilton Hotel\", \"Isla Brown Chania Resort, Curio Collection by Hilton Resort\", \"Isla Brown Chania Resort, Curio Collection by Hilton\"], \"v\": 3}": {
-    "lat": 35.5842249,
-    "lon": 24.0754187,
-    "formatted_address": "Stavros 731 00, Greece",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJWXPnHWZ5nBQRtMoVXuWzvAc",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Stavros 731 00, Greece",
-      "geometry": {
-        "location": {
-          "lat": 35.5842249,
-          "lng": 24.0754187
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 35.5854846302915,
-            "lng": 24.07672193029151
-          },
-          "southwest": {
-            "lat": 35.5827866697085,
-            "lng": 24.0740239697085
-          }
-        }
-      },
-      "name": "Aulus Chania Resort, Curio Collection by Hilton",
-      "place_id": "ChIJWXPnHWZ5nBQRtMoVXuWzvAc",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest",
-        "spa"
-      ],
-      "website": "https://www.hilton.com/en/hotels/heribqq-aulus-chania-resort/?SEO_id=GMB-EMEA-QQ-HERIBQQ"
-    }
-  },
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Isla Brown Corinthia Resort & Spa, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Isla Brown Corinthia Resort & Spa, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"Isla Brown Corinthia Resort & Spa, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"Isla Brown Corinthia Resort & Spa, Curio Collection by Hilton Curio Collection by Hilton\", \"Isla Brown Corinthia Resort & Spa, Curio Collection by Hilton Hilton Hotel\", \"Isla Brown Corinthia Resort & Spa, Curio Collection by Hilton Hilton Resort\", \"Isla Brown Corinthia Resort & Spa, Curio Collection by Hilton Hilton\", \"athibqq isla brown corinthia resort spa Curio Collection by Hilton Hotel\", \"athibqq isla brown corinthia resort spa Curio Collection by Hilton Resort\", \"athibqq isla brown corinthia resort spa Curio Collection by Hilton\", \"athibqq isla brown corinthia resort spa Hilton Hotel\", \"athibqq isla brown corinthia resort spa Hilton Resort\", \"athibqq isla brown corinthia resort spa Hilton\", \"Isla Brown Corinthia Resort & Spa, Curio Collection by Hilton Hotel\", \"Isla Brown Corinthia Resort & Spa, Curio Collection by Hilton Resort\", \"Isla Brown Corinthia Resort & Spa, Curio Collection by Hilton\"], \"v\": 3}": {
     "lat": 37.9317792,
     "lon": 23.1462182,
