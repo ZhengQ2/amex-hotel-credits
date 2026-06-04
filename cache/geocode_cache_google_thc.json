@@ -141805,12 +141805,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Antonio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Antonio Small Luxury Hotels of the World Hotel\", \"San Antonio Small Luxury Hotels of the World Resort\", \"San Antonio Small Luxury Hotels of the World\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Hotel\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Resort\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece\", \"San Antonio Hilton Hotel\", \"San Antonio Hilton Resort\", \"San Antonio Hilton\", \"San Antonio Hilton Imerovigli, Greece Hotel\", \"San Antonio Hilton Imerovigli, Greece Resort\", \"San Antonio Hilton Imerovigli, Greece\", \"San Antonio Hotel\", \"San Antonio Resort\", \"San Antonio\", \"San Antonio Imerovigli, Greece Hotel\", \"San Antonio Imerovigli, Greece Resort\", \"San Antonio Imerovigli, Greece\"], \"v\": 3}": {
-    "lat": 29.6663753,
-    "lon": -98.4008875,
-    "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
+    "lat": 29.4274372,
+    "lon": -98.48950160000001,
+    "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
+    "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
     "types": [
       "establishment",
       "lodging",
@@ -141819,31 +141819,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
+      "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
       "geometry": {
         "location": {
-          "lat": 29.6663753,
-          "lng": -98.4008875
+          "lat": 29.4274372,
+          "lng": -98.48950160000001
         },
         "viewport": {
           "northeast": {
-            "lat": 29.6677274302915,
-            "lng": -98.39953276970849
+            "lat": 29.4288418802915,
+            "lng": -98.4880995197085
           },
           "southwest": {
-            "lat": 29.6650294697085,
-            "lng": -98.40223073029149
+            "lat": 29.4261439197085,
+            "lng": -98.4907974802915
           }
         }
       },
-      "name": "JW Marriott San Antonio Hill Country Resort & Spa",
-      "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
+      "name": "The St. Anthony, a Luxury Collection Hotel, San Antonio",
+      "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.marriott.com/en-us/hotels/satjw-jw-marriott-san-antonio-hill-country-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+      "website": "https://www.marriott.com/en-us/hotels/satlc-the-st-anthony-a-luxury-collection-hotel-san-antonio/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rusty Parrot Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
@@ -154022,6 +154022,576 @@
         "lodging",
         "point_of_interest"
       ]
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Cheeca Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cheeca Lodge and Spa\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Clearwater Beach Marriott Resort on Sand Key\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Clearwater Beach Marriott Resort on Sand Key\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Carolina Inn\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Carolina Inn\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Jungala Hotel at VidantaWorld Riviera Maya\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Jungala Hotel at VidantaWorld Riviera Maya\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Las Brisas Merida\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Las Brisas Merida\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Zoetry Agua Punta Cana\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Zoetry Agua Punta Cana\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Domaine de Verchant\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Domaine de Verchant\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hotel Madame Reve\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Madame Reve\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Andaz Shanghai ITC\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Andaz Shanghai ITC\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Grand Hyatt Fukuoka\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Hyatt Fukuoka\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Spicers Guesthouse\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Spicers Guesthouse\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Cheeca Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cheeca Lodge and Spa Hotel\", \"Cheeca Lodge and Spa Resort\", \"Cheeca Lodge and Spa\", \"Cheeca Lodge and Spa Islamorada, Florida US Hotel\", \"Cheeca Lodge and Spa Islamorada, Florida US Resort\", \"Cheeca Lodge and Spa Islamorada, Florida US\", \"Cheeca Lodge Spa Hotel\", \"Cheeca Lodge Spa Resort\", \"Cheeca Lodge Spa\", \"Cheeca Lodge Spa Islamorada, Florida US Hotel\", \"Cheeca Lodge Spa Islamorada, Florida US Resort\", \"Cheeca Lodge Spa Islamorada, Florida US\"], \"v\": 3}": {
+    "lat": 24.916591,
+    "lon": -80.63388210000001,
+    "formatted_address": "81801 Overseas Hwy, Islamorada, FL 33036, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJA2FTi18314gR6Id4jpHcXd0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "81801 Overseas Hwy, Islamorada, FL 33036, USA",
+      "geometry": {
+        "location": {
+          "lat": 24.916591,
+          "lng": -80.63388210000001
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 24.9178498802915,
+            "lng": -80.6320162197085
+          },
+          "southwest": {
+            "lat": 24.9151519197085,
+            "lng": -80.63471418029151
+          }
+        }
+      },
+      "name": "Cheeca Lodge & Spa",
+      "place_id": "ChIJA2FTi18314gR6Id4jpHcXd0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.cheeca.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Madame Reve\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Madame Reve Hotel\", \"Hotel Madame Reve Resort\", \"Hotel Madame Reve\", \"Hotel Madame Reve Paris, France Hotel\", \"Hotel Madame Reve Paris, France Resort\", \"Hotel Madame Reve Paris, France\"], \"v\": 3}": {
+    "lat": 48.8645355,
+    "lon": 2.342873,
+    "formatted_address": "48 Rue du Louvre, 75001 Paris, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJyU8uPrdv5kcRGSZe9V1cMU8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "48 Rue du Louvre, 75001 Paris, France",
+      "geometry": {
+        "location": {
+          "lat": 48.8645355,
+          "lng": 2.342873
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.8659050802915,
+            "lng": 2.344142380291502
+          },
+          "southwest": {
+            "lat": 48.8632071197085,
+            "lng": 2.341444419708498
+          }
+        }
+      },
+      "name": "Hôtel Madame Rêve",
+      "place_id": "ChIJyU8uPrdv5kcRGSZe9V1cMU8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://madamereve.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Spicers Guesthouse\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Spicers Guesthouse Hotel\", \"Spicers Guesthouse Resort\", \"Spicers Guesthouse\", \"Spicers Guesthouse Pokolbin, Australia Hotel\", \"Spicers Guesthouse Pokolbin, Australia Resort\", \"Spicers Guesthouse Pokolbin, Australia\"], \"v\": 3}": {
+    "lat": -32.7753701,
+    "lon": 151.2828459,
+    "formatted_address": "57 Ekerts Rd, Pokolbin NSW 2320, Australia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJL4zcgFzKDGsRFKARdM88Dwc",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "57 Ekerts Rd, Pokolbin NSW 2320, Australia",
+      "geometry": {
+        "location": {
+          "lat": -32.7753701,
+          "lng": 151.2828459
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -32.77413781970849,
+            "lng": 151.2840917302915
+          },
+          "southwest": {
+            "lat": -32.77683578029149,
+            "lng": 151.2813937697085
+          }
+        }
+      },
+      "name": "Spicers Guesthouse",
+      "place_id": "ChIJL4zcgFzKDGsRFKARdM88Dwc",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://spicersretreats.com/retreats/spicers-guesthouse/?utm_source=google&utm_medium=organic&utm_campaign=gmb"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Aluna Resort Tulum\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aluna Resort Tulum Hotel\", \"Aluna Resort Tulum Resort\", \"Aluna Resort Tulum\", \"Aluna Resort Tulum Tulum, Quintana Roo MX Hotel\", \"Aluna Resort Tulum Tulum, Quintana Roo MX Resort\", \"Aluna Resort Tulum Tulum, Quintana Roo MX\"], \"v\": 3}": {
+    "lat": 20.2015027,
+    "lon": -87.45107510000001,
+    "formatted_address": "Av. Itzamna, Aldea Zama 11-Poligono 0014, Lote 1, 77760 Tulum, Q.R., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJT0HpF0_RT48RfDOUI4sDqC8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Av. Itzamna, Aldea Zama 11-Poligono 0014, Lote 1, 77760 Tulum, Q.R., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 20.2015027,
+          "lng": -87.45107510000001
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 20.2027756302915,
+            "lng": -87.4496884197085
+          },
+          "southwest": {
+            "lat": 20.2000776697085,
+            "lng": -87.4523863802915
+          }
+        }
+      },
+      "name": "Kimpton Aluna Resort Tulum",
+      "place_id": "ChIJT0HpF0_RT48RfDOUI4sDqC8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://alunatulumhotel.com/en/?cm_mmc=WEB-_-KI-_-AMER-_-EN-_-EV-_-Google%20Business%20Profile-_-DD-_-aluna"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Andaz Shanghai ITC\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Andaz Shanghai ITC Andaz Hotel\", \"Andaz Shanghai ITC Andaz Resort\", \"Andaz Shanghai ITC Andaz\", \"Andaz Shanghai ITC Andaz Shanghai, China Hotel\", \"Andaz Shanghai ITC Andaz Shanghai, China Resort\", \"Andaz Shanghai ITC Andaz Shanghai, China\", \"Andaz Shanghai ITC Hilton Hotel\", \"Andaz Shanghai ITC Hilton Resort\", \"Andaz Shanghai ITC Hilton\", \"Andaz Shanghai ITC Hilton Shanghai, China Hotel\", \"Andaz Shanghai ITC Hilton Shanghai, China Resort\", \"Andaz Shanghai ITC Hilton Shanghai, China\", \"Andaz Shanghai Itc Andaz Hotel\", \"Andaz Shanghai Itc Andaz Resort\", \"Andaz Shanghai Itc Andaz\", \"Andaz Shanghai Itc Andaz Shanghai, China Hotel\", \"Andaz Shanghai Itc Andaz Shanghai, China Resort\", \"Andaz Shanghai Itc Andaz Shanghai, China\", \"Andaz Shanghai Itc Hilton Hotel\", \"Andaz Shanghai Itc Hilton Resort\", \"Andaz Shanghai Itc Hilton\", \"Andaz Shanghai Itc Hilton Shanghai, China Hotel\", \"Andaz Shanghai Itc Hilton Shanghai, China Resort\", \"Andaz Shanghai Itc Hilton Shanghai, China\", \"Andaz Shanghai ITC Hotel\", \"Andaz Shanghai ITC Resort\", \"Andaz Shanghai ITC\", \"Andaz Shanghai ITC Shanghai, China Hotel\", \"Andaz Shanghai ITC Shanghai, China Resort\", \"Andaz Shanghai ITC Shanghai, China\"], \"v\": 3}": {
+    "lat": 31.193236,
+    "lon": 121.433287,
+    "formatted_address": "283 Hong Qiao Lu, Xujiahui, Xu Hui Qu, Shang Hai Shi, China, 200030",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJyybVljplsjURxT0P8PFa8z4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "283 Hong Qiao Lu, Xujiahui, Xu Hui Qu, Shang Hai Shi, China, 200030",
+      "geometry": {
+        "location": {
+          "lat": 31.193236,
+          "lng": 121.433287
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 31.19458498029149,
+            "lng": 121.4346359802915
+          },
+          "southwest": {
+            "lat": 31.1918870197085,
+            "lng": 121.4319380197085
+          }
+        }
+      },
+      "name": "Andaz Shanghai ITC",
+      "place_id": "ChIJyybVljplsjURxT0P8PFa8z4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Grand Hyatt Fukuoka\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Hyatt Fukuoka Grand Hyatt Hotel\", \"Grand Hyatt Fukuoka Grand Hyatt Resort\", \"Grand Hyatt Fukuoka Grand Hyatt\", \"Grand Hyatt Fukuoka Grand Hyatt Fukuoka, Japan Hotel\", \"Grand Hyatt Fukuoka Grand Hyatt Fukuoka, Japan Resort\", \"Grand Hyatt Fukuoka Grand Hyatt Fukuoka, Japan\", \"Grand Hyatt Fukuoka Hilton Hotel\", \"Grand Hyatt Fukuoka Hilton Resort\", \"Grand Hyatt Fukuoka Hilton\", \"Grand Hyatt Fukuoka Hilton Fukuoka, Japan Hotel\", \"Grand Hyatt Fukuoka Hilton Fukuoka, Japan Resort\", \"Grand Hyatt Fukuoka Hilton Fukuoka, Japan\", \"Grand Hyatt Fukuoka Hotel\", \"Grand Hyatt Fukuoka Resort\", \"Grand Hyatt Fukuoka\", \"Grand Hyatt Fukuoka Fukuoka, Japan Hotel\", \"Grand Hyatt Fukuoka Fukuoka, Japan Resort\", \"Grand Hyatt Fukuoka Fukuoka, Japan\"], \"v\": 3}": {
+    "lat": 33.589743,
+    "lon": 130.4105681,
+    "formatted_address": "1-chōme-2-82 Sumiyoshi, Hakata Ward, Fukuoka, 812-0018, Japan",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ6WkfjZWRQTURwRQoB0njLT8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1-chōme-2-82 Sumiyoshi, Hakata Ward, Fukuoka, 812-0018, Japan",
+      "geometry": {
+        "location": {
+          "lat": 33.589743,
+          "lng": 130.4105681
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.5911867302915,
+            "lng": 130.4117209302915
+          },
+          "southwest": {
+            "lat": 33.5884887697085,
+            "lng": 130.4090229697085
+          }
+        }
+      },
+      "name": "Grand Hyatt Fukuoka",
+      "place_id": "ChIJ6WkfjZWRQTURwRQoB0njLT8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/grand-hyatt/en-US/fukgh-grand-hyatt-fukuoka?src=corp_lclb_google_seo_fukgh&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Carolina Inn\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Carolina Inn Hyatt Hotel\", \"The Carolina Inn Hyatt Resort\", \"The Carolina Inn Hyatt\", \"The Carolina Inn Hyatt Chapel Hill, North Carolina US Hotel\", \"The Carolina Inn Hyatt Chapel Hill, North Carolina US Resort\", \"The Carolina Inn Hyatt Chapel Hill, North Carolina US\", \"The Carolina Inn Hilton Hotel\", \"The Carolina Inn Hilton Resort\", \"The Carolina Inn Hilton\", \"The Carolina Inn Hilton Chapel Hill, North Carolina US Hotel\", \"The Carolina Inn Hilton Chapel Hill, North Carolina US Resort\", \"The Carolina Inn Hilton Chapel Hill, North Carolina US\", \"The Carolina Inn Hotel\", \"The Carolina Inn Resort\", \"The Carolina Inn\", \"The Carolina Inn Chapel Hill, North Carolina US Hotel\", \"The Carolina Inn Chapel Hill, North Carolina US Resort\", \"The Carolina Inn Chapel Hill, North Carolina US\"], \"v\": 3}": {
+    "lat": 35.9097578,
+    "lon": -79.0542753,
+    "formatted_address": "211 Pittsboro St, Chapel Hill, NC 27516, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ8QLIa-bCrIkR3UfK1Z7K98U",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "211 Pittsboro St, Chapel Hill, NC 27516, USA",
+      "geometry": {
+        "location": {
+          "lat": 35.9097578,
+          "lng": -79.0542753
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.9114761302915,
+            "lng": -79.05304626970849
+          },
+          "southwest": {
+            "lat": 35.9087781697085,
+            "lng": -79.0557442302915
+          }
+        }
+      },
+      "name": "The Carolina Inn, a Destination by Hyatt Hotel",
+      "place_id": "ChIJ8QLIa-bCrIkR3UfK1Z7K98U",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/destination-by-hyatt/en-US/rdudc-the-carolina-inn?src=corp_lclb_google_seo_rdudc&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Zoetry Agua Punta Cana\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Zoetry Agua Punta Cana Hyatt Hotel\", \"Zoetry Agua Punta Cana Hyatt Resort\", \"Zoetry Agua Punta Cana Hyatt\", \"Zoetry Agua Punta Cana Hyatt Higuey, Dominican Republic Hotel\", \"Zoetry Agua Punta Cana Hyatt Higuey, Dominican Republic Resort\", \"Zoetry Agua Punta Cana Hyatt Higuey, Dominican Republic\", \"Zoetry Agua Punta Cana Hilton Hotel\", \"Zoetry Agua Punta Cana Hilton Resort\", \"Zoetry Agua Punta Cana Hilton\", \"Zoetry Agua Punta Cana Hilton Higuey, Dominican Republic Hotel\", \"Zoetry Agua Punta Cana Hilton Higuey, Dominican Republic Resort\", \"Zoetry Agua Punta Cana Hilton Higuey, Dominican Republic\", \"Zoetry Agua Punta Cana Hotel\", \"Zoetry Agua Punta Cana Resort\", \"Zoetry Agua Punta Cana\", \"Zoetry Agua Punta Cana Higuey, Dominican Republic Hotel\", \"Zoetry Agua Punta Cana Higuey, Dominican Republic Resort\", \"Zoetry Agua Punta Cana Higuey, Dominican Republic\"], \"v\": 3}": {
+    "lat": 18.8366987,
+    "lon": -68.6110849,
+    "formatted_address": "Playas, Punta Cana 23300, Dominican Republic",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ8SxVM6fEqI4RQqDgbPrrsHY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Playas, Punta Cana 23300, Dominican Republic",
+      "geometry": {
+        "location": {
+          "lat": 18.8366987,
+          "lng": -68.6110849
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 18.8380306802915,
+            "lng": -68.60975286970849
+          },
+          "southwest": {
+            "lat": 18.8353327197085,
+            "lng": -68.6124508302915
+          }
+        }
+      },
+      "name": "Zoëtry Agua Punta Cana",
+      "place_id": "ChIJ8SxVM6fEqI4RQqDgbPrrsHY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyattinclusivecollection.com/en/resorts-hotels/zoetry/dominican-republic/agua-punta-cana/?src=corp_lclb_google_seo_zoapc&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Clearwater Beach Marriott Resort on Sand Key\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Clearwater Beach Marriott Resort on Sand Key Marriott Hotel\", \"Clearwater Beach Marriott Resort on Sand Key Marriott Resort\", \"Clearwater Beach Marriott Resort on Sand Key Marriott\", \"Clearwater Beach Marriott Resort on Sand Key Marriott Clearwater Beach, Florida US Hotel\", \"Clearwater Beach Marriott Resort on Sand Key Marriott Clearwater Beach, Florida US Resort\", \"Clearwater Beach Marriott Resort on Sand Key Marriott Clearwater Beach, Florida US\", \"Clearwater Beach Marriott Resort on Sand Key Hilton Hotel\", \"Clearwater Beach Marriott Resort on Sand Key Hilton Resort\", \"Clearwater Beach Marriott Resort on Sand Key Hilton\", \"Clearwater Beach Marriott Resort on Sand Key Hilton Clearwater Beach, Florida US Hotel\", \"Clearwater Beach Marriott Resort on Sand Key Hilton Clearwater Beach, Florida US Resort\", \"Clearwater Beach Marriott Resort on Sand Key Hilton Clearwater Beach, Florida US\", \"Clearwater Beach Marriott Resort On Sand Key Marriott Hotel\", \"Clearwater Beach Marriott Resort On Sand Key Marriott Resort\", \"Clearwater Beach Marriott Resort On Sand Key Marriott\", \"Clearwater Beach Marriott Resort On Sand Key Marriott Clearwater Beach, Florida US Hotel\", \"Clearwater Beach Marriott Resort On Sand Key Marriott Clearwater Beach, Florida US Resort\", \"Clearwater Beach Marriott Resort On Sand Key Marriott Clearwater Beach, Florida US\", \"Clearwater Beach Marriott Resort On Sand Key Hilton Hotel\", \"Clearwater Beach Marriott Resort On Sand Key Hilton Resort\", \"Clearwater Beach Marriott Resort On Sand Key Hilton\", \"Clearwater Beach Marriott Resort On Sand Key Hilton Clearwater Beach, Florida US Hotel\", \"Clearwater Beach Marriott Resort On Sand Key Hilton Clearwater Beach, Florida US Resort\", \"Clearwater Beach Marriott Resort On Sand Key Hilton Clearwater Beach, Florida US\", \"Clearwater Beach Marriott Resort on Sand Key Hotel\", \"Clearwater Beach Marriott Resort on Sand Key Resort\", \"Clearwater Beach Marriott Resort on Sand Key\", \"Clearwater Beach Marriott Resort on Sand Key Clearwater Beach, Florida US Hotel\", \"Clearwater Beach Marriott Resort on Sand Key Clearwater Beach, Florida US Resort\", \"Clearwater Beach Marriott Resort on Sand Key Clearwater Beach, Florida US\"], \"v\": 3}": {
+    "lat": 27.9534504,
+    "lon": -82.8283239,
+    "formatted_address": "1201 Gulf Blvd, Clearwater, FL 33767, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJj1Md3Db3wogRUY08SzL1-rM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1201 Gulf Blvd, Clearwater, FL 33767, USA",
+      "geometry": {
+        "location": {
+          "lat": 27.9534504,
+          "lng": -82.8283239
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 27.95494603029151,
+            "lng": -82.82713506970849
+          },
+          "southwest": {
+            "lat": 27.9522480697085,
+            "lng": -82.8298330302915
+          }
+        }
+      },
+      "name": "Clearwater Beach Marriott Resort on Sand Key",
+      "place_id": "ChIJj1Md3Db3wogRUY08SzL1-rM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/tpams-clearwater-beach-marriott-resort-on-sand-key/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Las Brisas Merida\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Las Brisas Merida Preferred Hotels & Resorts Hotel\", \"Las Brisas Merida Preferred Hotels & Resorts Resort\", \"Las Brisas Merida Preferred Hotels & Resorts\", \"Las Brisas Merida Preferred Hotels & Resorts M\\u00e9rida, Yucat\\u00e1n MX Hotel\", \"Las Brisas Merida Preferred Hotels & Resorts M\\u00e9rida, Yucat\\u00e1n MX Resort\", \"Las Brisas Merida Preferred Hotels & Resorts M\\u00e9rida, Yucat\\u00e1n MX\", \"Las Brisas Merida Hilton Hotel\", \"Las Brisas Merida Hilton Resort\", \"Las Brisas Merida Hilton\", \"Las Brisas Merida Hilton M\\u00e9rida, Yucat\\u00e1n MX Hotel\", \"Las Brisas Merida Hilton M\\u00e9rida, Yucat\\u00e1n MX Resort\", \"Las Brisas Merida Hilton M\\u00e9rida, Yucat\\u00e1n MX\", \"Las Brisas Merida Hotel\", \"Las Brisas Merida Resort\", \"Las Brisas Merida\", \"Las Brisas Merida M\\u00e9rida, Yucat\\u00e1n MX Hotel\", \"Las Brisas Merida M\\u00e9rida, Yucat\\u00e1n MX Resort\", \"Las Brisas Merida M\\u00e9rida, Yucat\\u00e1n MX\"], \"v\": 3}": {
+    "lat": 20.9865555,
+    "lon": -89.6254036,
+    "formatted_address": "Av. Colón 508, García Ginerés, 97070 Mérida, Yuc., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJM-QOm4RzVo8R-FPPAnFNVSI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Av. Colón 508, García Ginerés, 97070 Mérida, Yuc., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 20.9865555,
+          "lng": -89.6254036
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 20.9880680302915,
+            "lng": -89.62402906970848
+          },
+          "southwest": {
+            "lat": 20.98537006970849,
+            "lng": -89.62672703029149
+          }
+        }
+      },
+      "name": "Hotel Las Brisas Mérida",
+      "place_id": "ChIJM-QOm4RzVo8R-FPPAnFNVSI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.lasbrisashotels.com.mx/es/merida/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Jungala Hotel at VidantaWorld Riviera Maya\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Jungala Hotel at VidantaWorld Riviera Maya Preferred Hotels & Resorts Hotel\", \"Jungala Hotel at VidantaWorld Riviera Maya Preferred Hotels & Resorts Resort\", \"Jungala Hotel at VidantaWorld Riviera Maya Preferred Hotels & Resorts\", \"Jungala Hotel at VidantaWorld Riviera Maya Preferred Hotels & Resorts Playa del Carmen, Quintana Roo MX Hotel\", \"Jungala Hotel at VidantaWorld Riviera Maya Preferred Hotels & Resorts Playa del Carmen, Quintana Roo MX Resort\", \"Jungala Hotel at VidantaWorld Riviera Maya Preferred Hotels & Resorts Playa del Carmen, Quintana Roo MX\", \"Jungala Hotel at VidantaWorld Riviera Maya Hilton Hotel\", \"Jungala Hotel at VidantaWorld Riviera Maya Hilton Resort\", \"Jungala Hotel at VidantaWorld Riviera Maya Hilton\", \"Jungala Hotel at VidantaWorld Riviera Maya Hilton Playa del Carmen, Quintana Roo MX Hotel\", \"Jungala Hotel at VidantaWorld Riviera Maya Hilton Playa del Carmen, Quintana Roo MX Resort\", \"Jungala Hotel at VidantaWorld Riviera Maya Hilton Playa del Carmen, Quintana Roo MX\", \"Jungala Hotel Vidantaworld Riviera Maya Preferred Hotels & Resorts Hotel\", \"Jungala Hotel Vidantaworld Riviera Maya Preferred Hotels & Resorts Resort\", \"Jungala Hotel Vidantaworld Riviera Maya Preferred Hotels & Resorts\", \"Jungala Hotel Vidantaworld Riviera Maya Preferred Hotels & Resorts Playa del Carmen, Quintana Roo MX Hotel\", \"Jungala Hotel Vidantaworld Riviera Maya Preferred Hotels & Resorts Playa del Carmen, Quintana Roo MX Resort\", \"Jungala Hotel Vidantaworld Riviera Maya Preferred Hotels & Resorts Playa del Carmen, Quintana Roo MX\", \"Jungala Hotel Vidantaworld Riviera Maya Hilton Hotel\", \"Jungala Hotel Vidantaworld Riviera Maya Hilton Resort\", \"Jungala Hotel Vidantaworld Riviera Maya Hilton\", \"Jungala Hotel Vidantaworld Riviera Maya Hilton Playa del Carmen, Quintana Roo MX Hotel\", \"Jungala Hotel Vidantaworld Riviera Maya Hilton Playa del Carmen, Quintana Roo MX Resort\", \"Jungala Hotel Vidantaworld Riviera Maya Hilton Playa del Carmen, Quintana Roo MX\", \"Jungala Hotel at VidantaWorld Riviera Maya Hotel\", \"Jungala Hotel at VidantaWorld Riviera Maya Resort\", \"Jungala Hotel at VidantaWorld Riviera Maya\", \"Jungala Hotel at VidantaWorld Riviera Maya Playa del Carmen, Quintana Roo MX Hotel\", \"Jungala Hotel at VidantaWorld Riviera Maya Playa del Carmen, Quintana Roo MX Resort\", \"Jungala Hotel at VidantaWorld Riviera Maya Playa del Carmen, Quintana Roo MX\"], \"v\": 3}": {
+    "lat": 20.7718961,
+    "lon": -86.95621109999999,
+    "formatted_address": "Carr. Cancún - Tulum KM 48, 77710 Mayan Palace, Q.R., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJJ9DyhWVhTo8RxsEoh5-P7ZY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carr. Cancún - Tulum KM 48, 77710 Mayan Palace, Q.R., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 20.7718961,
+          "lng": -86.95621109999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 20.7732991302915,
+            "lng": -86.9547736697085
+          },
+          "southwest": {
+            "lat": 20.7706011697085,
+            "lng": -86.95747163029151
+          }
+        }
+      },
+      "name": "VidantaWorld Jungala Hotel - Riviera Maya",
+      "place_id": "ChIJJ9DyhWVhTo8RxsEoh5-P7ZY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://vidantaworld.com/en/jungala-hotel"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Domaine de Verchant\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Domaine de Verchant Relais & Ch\\u00e2teaux Hotel\", \"Domaine de Verchant Relais & Ch\\u00e2teaux Resort\", \"Domaine de Verchant Relais & Ch\\u00e2teaux\", \"Domaine de Verchant Relais & Ch\\u00e2teaux Castelnau-Le-Lez, France Hotel\", \"Domaine de Verchant Relais & Ch\\u00e2teaux Castelnau-Le-Lez, France Resort\", \"Domaine de Verchant Relais & Ch\\u00e2teaux Castelnau-Le-Lez, France\", \"Domaine de Verchant Hilton Hotel\", \"Domaine de Verchant Hilton Resort\", \"Domaine de Verchant Hilton\", \"Domaine de Verchant Hilton Castelnau-Le-Lez, France Hotel\", \"Domaine de Verchant Hilton Castelnau-Le-Lez, France Resort\", \"Domaine de Verchant Hilton Castelnau-Le-Lez, France\", \"Domaine De Verchant Relais & Ch\\u00e2teaux Hotel\", \"Domaine De Verchant Relais & Ch\\u00e2teaux Resort\", \"Domaine De Verchant Relais & Ch\\u00e2teaux\", \"Domaine De Verchant Relais & Ch\\u00e2teaux Castelnau-Le-Lez, France Hotel\", \"Domaine De Verchant Relais & Ch\\u00e2teaux Castelnau-Le-Lez, France Resort\", \"Domaine De Verchant Relais & Ch\\u00e2teaux Castelnau-Le-Lez, France\", \"Domaine De Verchant Hilton Hotel\", \"Domaine De Verchant Hilton Resort\", \"Domaine De Verchant Hilton\", \"Domaine De Verchant Hilton Castelnau-Le-Lez, France Hotel\", \"Domaine De Verchant Hilton Castelnau-Le-Lez, France Resort\", \"Domaine De Verchant Hilton Castelnau-Le-Lez, France\", \"Domaine de Verchant Hotel\", \"Domaine de Verchant Resort\", \"Domaine de Verchant\", \"Domaine de Verchant Castelnau-Le-Lez, France Hotel\", \"Domaine de Verchant Castelnau-Le-Lez, France Resort\", \"Domaine de Verchant Castelnau-Le-Lez, France\"], \"v\": 3}": {
+    "lat": 43.6250115,
+    "lon": 3.9216186,
+    "formatted_address": "1 Bd Philippe Lamour, 34170 Castelnau-le-Lez, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJP3Wgwn6vthIRkOLAiMsVbLc",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1 Bd Philippe Lamour, 34170 Castelnau-le-Lez, France",
+      "geometry": {
+        "location": {
+          "lat": 43.6250115,
+          "lng": 3.9216186
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.6263569802915,
+            "lng": 3.922954580291503
+          },
+          "southwest": {
+            "lat": 43.62365901970851,
+            "lng": 3.920256619708498
+          }
+        }
+      },
+      "name": "Domaine de Verchant",
+      "place_id": "ChIJP3Wgwn6vthIRkOLAiMsVbLc",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.domainedeverchant.com/fr/hotel-luxe-montpellier?utm_source=google&utm_medium=organic&utm_campaign=mybusiness"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Bowmann\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Bowmann Small Luxury Hotels of the World Hotel\", \"Hotel Bowmann Small Luxury Hotels of the World Resort\", \"Hotel Bowmann Small Luxury Hotels of the World\", \"Hotel Bowmann Small Luxury Hotels of the World Paris, France Hotel\", \"Hotel Bowmann Small Luxury Hotels of the World Paris, France Resort\", \"Hotel Bowmann Small Luxury Hotels of the World Paris, France\", \"Hotel Bowmann Hilton Hotel\", \"Hotel Bowmann Hilton Resort\", \"Hotel Bowmann Hilton\", \"Hotel Bowmann Hilton Paris, France Hotel\", \"Hotel Bowmann Hilton Paris, France Resort\", \"Hotel Bowmann Hilton Paris, France\", \"Hotel Bowmann Hotel\", \"Hotel Bowmann Resort\", \"Hotel Bowmann\", \"Hotel Bowmann Paris, France Hotel\", \"Hotel Bowmann Paris, France Resort\", \"Hotel Bowmann Paris, France\"], \"v\": 3}": {
+    "lat": 48.8748166,
+    "lon": 2.3179367,
+    "formatted_address": "99 Bd Haussmann, 75008 Paris, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJgys0KMpv5kcR8pd0djjKo5o",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "99 Bd Haussmann, 75008 Paris, France",
+      "geometry": {
+        "location": {
+          "lat": 48.8748166,
+          "lng": 2.3179367
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.8762562302915,
+            "lng": 2.319329280291502
+          },
+          "southwest": {
+            "lat": 48.8735582697085,
+            "lng": 2.316631319708498
+          }
+        }
+      },
+      "name": "Hôtel Bowmann",
+      "place_id": "ChIJgys0KMpv5kcR8pd0djjKo5o",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hotelbowmannparis.com/"
     }
   }
 }

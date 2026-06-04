@@ -73896,48 +73896,6 @@
       "website": "https://www.hyatt.com/en-US/hotel/japan/fuji-speedway-hotel/fswub?src=corp_lclb_google_seo_fswub&utm_source=google&utm_medium=organic&utm_campaign=lmr"
     }
   },
-  "{\"brand\": \"The Unbound Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Chatwal Lodge The Unbound Collection Hotel\", \"The Chatwal Lodge The Unbound Collection Resort\", \"The Chatwal Lodge The Unbound Collection\", \"The Chatwal Lodge The Unbound Collection White Lake, New York US Hotel\", \"The Chatwal Lodge The Unbound Collection White Lake, New York US Resort\", \"The Chatwal Lodge The Unbound Collection White Lake, New York US\", \"The Chatwal Lodge Hilton Hotel\", \"The Chatwal Lodge Hilton Resort\", \"The Chatwal Lodge Hilton\", \"The Chatwal Lodge Hilton White Lake, New York US Hotel\", \"The Chatwal Lodge Hilton White Lake, New York US Resort\", \"The Chatwal Lodge Hilton White Lake, New York US\", \"The Chatwal Lodge Hotel\", \"The Chatwal Lodge Resort\", \"The Chatwal Lodge\", \"The Chatwal Lodge White Lake, New York US Hotel\", \"The Chatwal Lodge White Lake, New York US Resort\", \"The Chatwal Lodge White Lake, New York US\"], \"v\": 3}": {
-    "lat": 41.6366671,
-    "lon": -74.8355364,
-    "formatted_address": "338 Chapin Trail, White Lake, NY 12786, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ280diCav3IkR0DK9sxBzJ8k",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "338 Chapin Trail, White Lake, NY 12786, USA",
-      "geometry": {
-        "location": {
-          "lat": 41.6366671,
-          "lng": -74.8355364
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 41.6380357302915,
-            "lng": -74.83434981970849
-          },
-          "southwest": {
-            "lat": 41.63533776970851,
-            "lng": -74.8370477802915
-          }
-        }
-      },
-      "name": "The Chatwal Lodge - The Unbound Collection by Hyatt",
-      "place_id": "ChIJ280diCav3IkR0DK9sxBzJ8k",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hyatt.com/unbound-collection/en-US/swfuc-the-chatwal-lodge?src=corp_lclb_google_seo_swfuc&utm_source=google&utm_medium=organic&utm_campaign=lmr"
-    }
-  },
   "{\"brand\": \"Thompson Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Thompson Austin Thompson Hotels Hotel\", \"Thompson Austin Thompson Hotels Resort\", \"Thompson Austin Thompson Hotels\", \"Thompson Austin Thompson Hotels Austin, Texas US Hotel\", \"Thompson Austin Thompson Hotels Austin, Texas US Resort\", \"Thompson Austin Thompson Hotels Austin, Texas US\", \"Thompson Austin Hilton Hotel\", \"Thompson Austin Hilton Resort\", \"Thompson Austin Hilton\", \"Thompson Austin Hilton Austin, Texas US Hotel\", \"Thompson Austin Hilton Austin, Texas US Resort\", \"Thompson Austin Hilton Austin, Texas US\", \"Thompson Austin Hotel\", \"Thompson Austin Resort\", \"Thompson Austin\", \"Thompson Austin Austin, Texas US Hotel\", \"Thompson Austin Austin, Texas US Resort\", \"Thompson Austin Austin, Texas US\"], \"v\": 3}": {
     "lat": 30.2668495,
     "lon": -97.74075030000002,
@@ -130204,12 +130162,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 34.7012112,
-    "lon": -118.171488,
-    "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
+    "lat": 39.9927967,
+    "lon": -76.28769179999999,
+    "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
+    "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
     "types": [
       "establishment",
       "lodging",
@@ -130218,31 +130176,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
+      "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
       "geometry": {
         "location": {
-          "lat": 34.7012112,
-          "lng": -118.171488
+          "lat": 39.9927967,
+          "lng": -76.28769179999999
         },
         "viewport": {
           "northeast": {
-            "lat": 34.7024083302915,
-            "lng": -118.1697845197085
+            "lat": 39.9940706302915,
+            "lng": -76.28663611970849
           },
           "southwest": {
-            "lat": 34.6997103697085,
-            "lng": -118.1724824802915
+            "lat": 39.9913726697085,
+            "lng": -76.2893340802915
           }
         }
       },
-      "name": "Hampton Inn & Suites Lancaster",
-      "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
+      "name": "DoubleTree Resort by Hilton Hotel Lancaster",
+      "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/pdllchx-hampton-suites-lancaster/?SEO_id=GMB-AMER-HX-PDLLCHX&y_source=1_MjA4MzE4Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.hilton.com/en/hotels/lnswvdt-doubletree-resort-lancaster/?SEO_id=GMB-AMER-DT-LNSWVDT&y_source=1_MTM3MjczNC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -145063,8 +145021,8 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Aliee Istanbul - a Paris Society Collection Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Istanbul, Turkey Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Istanbul, Turkey Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Istanbul, Turkey\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Istanbul, Turkey Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Istanbul, Turkey Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Istanbul, Turkey\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Istanbul, Turkey Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Istanbul, Turkey Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Istanbul, Turkey\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Istanbul, Turkey Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Istanbul, Turkey Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Istanbul, Turkey\", \"Aliee Istanbul - a Paris Society Collection Hotel Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Istanbul, Turkey Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Istanbul, Turkey Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Istanbul, Turkey\"], \"v\": 3}": {
-    "lat": 41.0344355,
-    "lon": 28.9613995,
+    "lat": 41.0345813,
+    "lon": 28.95865899999999,
     "formatted_address": "Camiikebir, Taşkızak Tersanesi Caddesi No:11-19, 34437 Beyoğlu/İstanbul, Türkiye",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
@@ -145080,17 +145038,17 @@
       "formatted_address": "Camiikebir, Taşkızak Tersanesi Caddesi No:11-19, 34437 Beyoğlu/İstanbul, Türkiye",
       "geometry": {
         "location": {
-          "lat": 41.0344355,
-          "lng": 28.9613995
+          "lat": 41.0345813,
+          "lng": 28.95865899999999
         },
         "viewport": {
           "northeast": {
-            "lat": 41.03566088029149,
-            "lng": 28.96260218029149
+            "lat": 41.0359302802915,
+            "lng": 28.96000798029149
           },
           "southwest": {
-            "lat": 41.0329629197085,
-            "lng": 28.95990421970849
+            "lat": 41.0332323197085,
+            "lng": 28.9573100197085
           }
         }
       },
@@ -148539,7 +148497,7 @@
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Four Seasons Hotel Istanbul at Sultanahmet\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Four Seasons Hotel Istanbul at Sultanahmet Four Seasons Hotels and Resorts Hotel\", \"Four Seasons Hotel Istanbul at Sultanahmet Four Seasons Hotels and Resorts Resort\", \"Four Seasons Hotel Istanbul at Sultanahmet Four Seasons Hotels and Resorts\", \"Four Seasons Hotel Istanbul at Sultanahmet Four Seasons Hotels and Resorts Istanbul, Turkey Hotel\", \"Four Seasons Hotel Istanbul at Sultanahmet Four Seasons Hotels and Resorts Istanbul, Turkey Resort\", \"Four Seasons Hotel Istanbul at Sultanahmet Four Seasons Hotels and Resorts Istanbul, Turkey\", \"Four Seasons Hotel Istanbul at Sultanahmet Hilton Hotel\", \"Four Seasons Hotel Istanbul at Sultanahmet Hilton Resort\", \"Four Seasons Hotel Istanbul at Sultanahmet Hilton\", \"Four Seasons Hotel Istanbul at Sultanahmet Hilton Istanbul, Turkey Hotel\", \"Four Seasons Hotel Istanbul at Sultanahmet Hilton Istanbul, Turkey Resort\", \"Four Seasons Hotel Istanbul at Sultanahmet Hilton Istanbul, Turkey\", \"Four Seasons Hotel Istanbul Sultanahmet Four Seasons Hotels and Resorts Hotel\", \"Four Seasons Hotel Istanbul Sultanahmet Four Seasons Hotels and Resorts Resort\", \"Four Seasons Hotel Istanbul Sultanahmet Four Seasons Hotels and Resorts\", \"Four Seasons Hotel Istanbul Sultanahmet Four Seasons Hotels and Resorts Istanbul, Turkey Hotel\", \"Four Seasons Hotel Istanbul Sultanahmet Four Seasons Hotels and Resorts Istanbul, Turkey Resort\", \"Four Seasons Hotel Istanbul Sultanahmet Four Seasons Hotels and Resorts Istanbul, Turkey\", \"Four Seasons Hotel Istanbul Sultanahmet Hilton Hotel\", \"Four Seasons Hotel Istanbul Sultanahmet Hilton Resort\", \"Four Seasons Hotel Istanbul Sultanahmet Hilton\", \"Four Seasons Hotel Istanbul Sultanahmet Hilton Istanbul, Turkey Hotel\", \"Four Seasons Hotel Istanbul Sultanahmet Hilton Istanbul, Turkey Resort\", \"Four Seasons Hotel Istanbul Sultanahmet Hilton Istanbul, Turkey\", \"Four Seasons Hotel Istanbul at Sultanahmet Hotel\", \"Four Seasons Hotel Istanbul at Sultanahmet Resort\", \"Four Seasons Hotel Istanbul at Sultanahmet\", \"Four Seasons Hotel Istanbul at Sultanahmet Istanbul, Turkey Hotel\", \"Four Seasons Hotel Istanbul at Sultanahmet Istanbul, Turkey Resort\", \"Four Seasons Hotel Istanbul at Sultanahmet Istanbul, Turkey\"], \"v\": 3}": {
     "lat": 41.0065406,
     "lon": 28.9802234,
-    "formatted_address": "Sultanahmet, Cankurtaran, Tevkifhane Sk. No:1, 34122 Fatih/İstanbul, Türkiye",
+    "formatted_address": "Sultanahmet, Tevkifhane Sk. No:1, 34122 Fatih/İstanbul, Türkiye",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
     "place_id": "ChIJJY3KRby5yhQRfZfjmnZp1qU",
@@ -148553,7 +148511,7 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Sultanahmet, Cankurtaran, Tevkifhane Sk. No:1, 34122 Fatih/İstanbul, Türkiye",
+      "formatted_address": "Sultanahmet, Tevkifhane Sk. No:1, 34122 Fatih/İstanbul, Türkiye",
       "geometry": {
         "location": {
           "lat": 41.0065406,
@@ -148939,7 +148897,7 @@
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Four Seasons Resort Tamarindo, Mexico\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Four Seasons Resort Tamarindo, Mexico Four Seasons Hotels and Resorts Hotel\", \"Four Seasons Resort Tamarindo, Mexico Four Seasons Hotels and Resorts Resort\", \"Four Seasons Resort Tamarindo, Mexico Four Seasons Hotels and Resorts\", \"Four Seasons Resort Tamarindo, Mexico Four Seasons Hotels and Resorts La Huerta, Jalisco MX Hotel\", \"Four Seasons Resort Tamarindo, Mexico Four Seasons Hotels and Resorts La Huerta, Jalisco MX Resort\", \"Four Seasons Resort Tamarindo, Mexico Four Seasons Hotels and Resorts La Huerta, Jalisco MX\", \"Four Seasons Resort Tamarindo, Mexico Hilton Hotel\", \"Four Seasons Resort Tamarindo, Mexico Hilton Resort\", \"Four Seasons Resort Tamarindo, Mexico Hilton\", \"Four Seasons Resort Tamarindo, Mexico Hilton La Huerta, Jalisco MX Hotel\", \"Four Seasons Resort Tamarindo, Mexico Hilton La Huerta, Jalisco MX Resort\", \"Four Seasons Resort Tamarindo, Mexico Hilton La Huerta, Jalisco MX\", \"Four Seasons Resort Tamarindo Mexico Four Seasons Hotels and Resorts Hotel\", \"Four Seasons Resort Tamarindo Mexico Four Seasons Hotels and Resorts Resort\", \"Four Seasons Resort Tamarindo Mexico Four Seasons Hotels and Resorts\", \"Four Seasons Resort Tamarindo Mexico Four Seasons Hotels and Resorts La Huerta, Jalisco MX Hotel\", \"Four Seasons Resort Tamarindo Mexico Four Seasons Hotels and Resorts La Huerta, Jalisco MX Resort\", \"Four Seasons Resort Tamarindo Mexico Four Seasons Hotels and Resorts La Huerta, Jalisco MX\", \"Four Seasons Resort Tamarindo Mexico Hilton Hotel\", \"Four Seasons Resort Tamarindo Mexico Hilton Resort\", \"Four Seasons Resort Tamarindo Mexico Hilton\", \"Four Seasons Resort Tamarindo Mexico Hilton La Huerta, Jalisco MX Hotel\", \"Four Seasons Resort Tamarindo Mexico Hilton La Huerta, Jalisco MX Resort\", \"Four Seasons Resort Tamarindo Mexico Hilton La Huerta, Jalisco MX\", \"Four Seasons Resort Tamarindo, Mexico Hotel\", \"Four Seasons Resort Tamarindo, Mexico Resort\", \"Four Seasons Resort Tamarindo, Mexico\", \"Four Seasons Resort Tamarindo, Mexico La Huerta, Jalisco MX Hotel\", \"Four Seasons Resort Tamarindo, Mexico La Huerta, Jalisco MX Resort\", \"Four Seasons Resort Tamarindo, Mexico La Huerta, Jalisco MX\"], \"v\": 3}": {
     "lat": 19.2563192,
     "lon": -104.8050783,
-    "formatted_address": "K, BARRA DE NAVIDAD, México 200 Manzana 7.5, 48898 La Manzanilla, Jal., Mexico",
+    "formatted_address": "K, La Huerta, México 200 Manzana 7.5, 48898 Barra de Navidad, Jal., Mexico",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
     "place_id": "ChIJ82O4cOC9JIQRxqtfEPP391M",
@@ -148952,7 +148910,7 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "K, BARRA DE NAVIDAD, México 200 Manzana 7.5, 48898 La Manzanilla, Jal., Mexico",
+      "formatted_address": "K, La Huerta, México 200 Manzana 7.5, 48898 Barra de Navidad, Jal., Mexico",
       "geometry": {
         "location": {
           "lat": 19.2563192,
@@ -150557,8 +150515,8 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Four Seasons Hotel Prague\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Four Seasons Hotel Prague Four Seasons Hotels and Resorts Hotel\", \"Four Seasons Hotel Prague Four Seasons Hotels and Resorts Resort\", \"Four Seasons Hotel Prague Four Seasons Hotels and Resorts\", \"Four Seasons Hotel Prague Four Seasons Hotels and Resorts Prague, Czech Republic Hotel\", \"Four Seasons Hotel Prague Four Seasons Hotels and Resorts Prague, Czech Republic Resort\", \"Four Seasons Hotel Prague Four Seasons Hotels and Resorts Prague, Czech Republic\", \"Four Seasons Hotel Prague Hilton Hotel\", \"Four Seasons Hotel Prague Hilton Resort\", \"Four Seasons Hotel Prague Hilton\", \"Four Seasons Hotel Prague Hilton Prague, Czech Republic Hotel\", \"Four Seasons Hotel Prague Hilton Prague, Czech Republic Resort\", \"Four Seasons Hotel Prague Hilton Prague, Czech Republic\", \"Four Seasons Hotel Prague Hotel\", \"Four Seasons Hotel Prague Resort\", \"Four Seasons Hotel Prague\", \"Four Seasons Hotel Prague Prague, Czech Republic Hotel\", \"Four Seasons Hotel Prague Prague, Czech Republic Resort\", \"Four Seasons Hotel Prague Prague, Czech Republic\"], \"v\": 3}": {
-    "lat": 50.0875423,
-    "lon": 14.4149159,
+    "lat": 50.0878196,
+    "lon": 14.4142502,
     "formatted_address": "Veleslavínova 1098/2a, Staré Město, 110 00 Praha-Praha 1, Czechia",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
@@ -150576,17 +150534,17 @@
       "formatted_address": "Veleslavínova 1098/2a, Staré Město, 110 00 Praha-Praha 1, Czechia",
       "geometry": {
         "location": {
-          "lat": 50.0875423,
-          "lng": 14.4149159
+          "lat": 50.0878196,
+          "lng": 14.4142502
         },
         "viewport": {
           "northeast": {
-            "lat": 50.08902233029151,
-            "lng": 14.4162194302915
+            "lat": 50.0891309302915,
+            "lng": 14.4159013302915
           },
           "southwest": {
-            "lat": 50.08632436970851,
-            "lng": 14.4135214697085
+            "lat": 50.0864329697085,
+            "lng": 14.4132033697085
           }
         }
       },
@@ -155905,11 +155863,11 @@
         },
         "viewport": {
           "northeast": {
-            "lat": 41.04549008029149,
+            "lat": 41.04549463029149,
             "lng": 29.0163495302915
           },
           "southwest": {
-            "lat": 41.04279211970849,
+            "lat": 41.04279666970849,
             "lng": 29.0136515697085
           }
         }
@@ -202807,48 +202765,6 @@
       "website": "https://www.hyatt.com/en-US/hotel/japan/fuji-speedway-hotel/fswub?src=corp_lclb_google_seo_fswub&utm_source=google&utm_medium=organic&utm_campaign=lmr"
     }
   },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Chatwal Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Chatwal Lodge The Unbound Collection Hotel\", \"The Chatwal Lodge The Unbound Collection Resort\", \"The Chatwal Lodge The Unbound Collection\", \"The Chatwal Lodge The Unbound Collection White Lake, New York US Hotel\", \"The Chatwal Lodge The Unbound Collection White Lake, New York US Resort\", \"The Chatwal Lodge The Unbound Collection White Lake, New York US\", \"The Chatwal Lodge Hilton Hotel\", \"The Chatwal Lodge Hilton Resort\", \"The Chatwal Lodge Hilton\", \"The Chatwal Lodge Hilton White Lake, New York US Hotel\", \"The Chatwal Lodge Hilton White Lake, New York US Resort\", \"The Chatwal Lodge Hilton White Lake, New York US\", \"The Chatwal Lodge Hotel\", \"The Chatwal Lodge Resort\", \"The Chatwal Lodge\", \"The Chatwal Lodge White Lake, New York US Hotel\", \"The Chatwal Lodge White Lake, New York US Resort\", \"The Chatwal Lodge White Lake, New York US\"], \"v\": 3}": {
-    "lat": 41.6366671,
-    "lon": -74.8355364,
-    "formatted_address": "338 Chapin Trail, White Lake, NY 12786, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ280diCav3IkR0DK9sxBzJ8k",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "338 Chapin Trail, White Lake, NY 12786, USA",
-      "geometry": {
-        "location": {
-          "lat": 41.6366671,
-          "lng": -74.8355364
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 41.6380357302915,
-            "lng": -74.83434981970849
-          },
-          "southwest": {
-            "lat": 41.63533776970851,
-            "lng": -74.8370477802915
-          }
-        }
-      },
-      "name": "The Chatwal Lodge - The Unbound Collection by Hyatt",
-      "place_id": "ChIJ280diCav3IkR0DK9sxBzJ8k",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hyatt.com/unbound-collection/en-US/swfuc-the-chatwal-lodge?src=corp_lclb_google_seo_swfuc&utm_source=google&utm_medium=organic&utm_campaign=lmr"
-    }
-  },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Thompson Austin\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Thompson Austin Thompson Hotels Hotel\", \"Thompson Austin Thompson Hotels Resort\", \"Thompson Austin Thompson Hotels\", \"Thompson Austin Thompson Hotels Austin, Texas US Hotel\", \"Thompson Austin Thompson Hotels Austin, Texas US Resort\", \"Thompson Austin Thompson Hotels Austin, Texas US\", \"Thompson Austin Hilton Hotel\", \"Thompson Austin Hilton Resort\", \"Thompson Austin Hilton\", \"Thompson Austin Hilton Austin, Texas US Hotel\", \"Thompson Austin Hilton Austin, Texas US Resort\", \"Thompson Austin Hilton Austin, Texas US\", \"Thompson Austin Hotel\", \"Thompson Austin Resort\", \"Thompson Austin\", \"Thompson Austin Austin, Texas US Hotel\", \"Thompson Austin Austin, Texas US Resort\", \"Thompson Austin Austin, Texas US\"], \"v\": 3}": {
     "lat": 30.2668495,
     "lon": -97.74075030000002,
@@ -209337,6 +209253,662 @@
         "point_of_interest"
       ],
       "website": "https://www.marriott.com/en-us/hotels/pujwh-w-punta-cana-adult-all-inclusive/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Naples Beach Club, a Four Seasons Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Naples Beach Club, a Four Seasons Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"The Santa Maria Hotel, A Luxury Collection & Golf Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Santa Maria Hotel, A Luxury Collection & Golf Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Awasi Iguazu\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Awasi Iguazu\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Finch Bay Galapagos Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Finch Bay Galapagos Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Meneghetti Wine Hotel and Winery\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Meneghetti Wine Hotel and Winery\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Odera. Tinos, Autograph Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Odera. Tinos, Autograph Collection\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"The Carlton, Milan\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Carlton, Milan\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"The Lince Santa Clara Historic Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Lince Santa Clara Historic Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Selman Marrakech\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Selman Marrakech\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Banyan Tree Higashiyama Kyoto\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Banyan Tree Higashiyama Kyoto\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Capella Taipei\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Capella Taipei\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Kinloch Manor & Villas\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Kinloch Manor & Villas\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Lizard Island\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lizard Island\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"The Reverie Saigon\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Reverie Saigon\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Airelles Gordes, La Bastide\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Airelles Gordes, La Bastide Hotel\", \"Airelles Gordes, La Bastide Resort\", \"Airelles Gordes, La Bastide\", \"Airelles Gordes, La Bastide Gordes, France Hotel\", \"Airelles Gordes, La Bastide Gordes, France Resort\", \"Airelles Gordes, La Bastide Gordes, France\", \"Airelles Gordes La Bastide Hotel\", \"Airelles Gordes La Bastide Resort\", \"Airelles Gordes La Bastide\", \"Airelles Gordes La Bastide Gordes, France Hotel\", \"Airelles Gordes La Bastide Gordes, France Resort\", \"Airelles Gordes La Bastide Gordes, France\"], \"v\": 3}": {
+    "lat": 43.9115936,
+    "lon": 5.1986919,
+    "formatted_address": "61 Rue de la Combe, 84220 Gordes, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ2UuLUtsNyhIRyWiV_tmXcL4",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "CLOSED_TEMPORARILY",
+      "formatted_address": "61 Rue de la Combe, 84220 Gordes, France",
+      "geometry": {
+        "location": {
+          "lat": 43.9115936,
+          "lng": 5.1986919
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.91293433029151,
+            "lng": 5.200091080291503
+          },
+          "southwest": {
+            "lat": 43.91023636970851,
+            "lng": 5.197393119708498
+          }
+        }
+      },
+      "name": "Airelles Gordes, La Bastide",
+      "place_id": "ChIJ2UuLUtsNyhIRyWiV_tmXcL4",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://airelles.com/fr/destination/gordes-hotel?utm_source=google&utm_medium=yext"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Selman Marrakech\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Selman Marrakech Hotel\", \"Selman Marrakech Resort\", \"Selman Marrakech\", \"Selman Marrakech Marrakech, Morocco Hotel\", \"Selman Marrakech Marrakech, Morocco Resort\", \"Selman Marrakech Marrakech, Morocco\"], \"v\": 3}": {
+    "lat": 31.5729291,
+    "lon": -8.0205679,
+    "formatted_address": "HXFH+5QC، Km5 Route d'Amizmiz، مراكش 40160, Morocco",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJKTRz2m7vrw0RznNQ8gA79Uk",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "HXFH+5QC، Km5 Route d'Amizmiz، مراكش 40160, Morocco",
+      "geometry": {
+        "location": {
+          "lat": 31.5729291,
+          "lng": -8.0205679
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 31.5743011302915,
+            "lng": -8.019146819708498
+          },
+          "southwest": {
+            "lat": 31.5716031697085,
+            "lng": -8.021844780291502
+          }
+        }
+      },
+      "name": "Selman Marrakech",
+      "place_id": "ChIJKTRz2m7vrw0RznNQ8gA79Uk",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.selman-marrakech.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Finch Bay Galapagos Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Finch Bay Galapagos Hotel Hotel\", \"Finch Bay Galapagos Hotel Resort\", \"Finch Bay Galapagos Hotel\", \"Finch Bay Galapagos Hotel Puerto Ayora, Ecuador Hotel\", \"Finch Bay Galapagos Hotel Puerto Ayora, Ecuador Resort\", \"Finch Bay Galapagos Hotel Puerto Ayora, Ecuador\"], \"v\": 3}": {
+    "lat": -0.7530106,
+    "lon": -90.3118438,
+    "formatted_address": "Barrio Punta Estrada, Puerto Ayora, Ecuador",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJRxLey05dqpoRMOAGLSZsesc",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Barrio Punta Estrada, Puerto Ayora, Ecuador",
+      "geometry": {
+        "location": {
+          "lat": -0.7530106,
+          "lng": -90.3118438
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -0.7516723697084979,
+            "lng": -90.3104917197085
+          },
+          "southwest": {
+            "lat": -0.754370330291502,
+            "lng": -90.3131896802915
+          }
+        }
+      },
+      "name": "Finch Bay Galapagos Hotel",
+      "place_id": "ChIJRxLey05dqpoRMOAGLSZsesc",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.finchbayhotel.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Kinloch Manor & Villas\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Kinloch Manor & Villas Hotel\", \"Kinloch Manor & Villas Resort\", \"Kinloch Manor & Villas\", \"Kinloch Manor & Villas Taupo, New Zealand Hotel\", \"Kinloch Manor & Villas Taupo, New Zealand Resort\", \"Kinloch Manor & Villas Taupo, New Zealand\", \"Kinloch Manor Villas Hotel\", \"Kinloch Manor Villas Resort\", \"Kinloch Manor Villas\", \"Kinloch Manor Villas Taupo, New Zealand Hotel\", \"Kinloch Manor Villas Taupo, New Zealand Resort\", \"Kinloch Manor Villas Taupo, New Zealand\"], \"v\": 3}": {
+    "lat": -38.6519681,
+    "lon": 175.9342958,
+    "formatted_address": "261 Kinloch Road, Kinloch 3377, New Zealand",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJXQHQE02La20RrYCls24sTBQ",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "261 Kinloch Road, Kinloch 3377, New Zealand",
+      "geometry": {
+        "location": {
+          "lat": -38.6519681,
+          "lng": 175.9342958
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -38.6506280697085,
+            "lng": 175.9356395802915
+          },
+          "southwest": {
+            "lat": -38.6533260302915,
+            "lng": 175.9329416197085
+          }
+        }
+      },
+      "name": "Kinloch Manor & Villas",
+      "place_id": "ChIJXQHQE02La20RrYCls24sTBQ",
+      "types": [
+        "cafe",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.kinlochmanor.co.nz/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Lince Santa Clara Historic Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Lince Santa Clara Historic Hotel Hotel\", \"The Lince Santa Clara Historic Hotel Resort\", \"The Lince Santa Clara Historic Hotel\", \"The Lince Santa Clara Historic Hotel Vila do Conde, Portugal Hotel\", \"The Lince Santa Clara Historic Hotel Vila do Conde, Portugal Resort\", \"The Lince Santa Clara Historic Hotel Vila do Conde, Portugal\", \"Lince Santa Clara Historic Hotel Hotel\", \"Lince Santa Clara Historic Hotel Resort\", \"Lince Santa Clara Historic Hotel\", \"Lince Santa Clara Historic Hotel Vila do Conde, Portugal Hotel\", \"Lince Santa Clara Historic Hotel Vila do Conde, Portugal Resort\", \"Lince Santa Clara Historic Hotel Vila do Conde, Portugal\"], \"v\": 3}": {
+    "lat": 41.3525561,
+    "lon": -8.739542199999999,
+    "formatted_address": "Largo Dom Afonso Sanches, 4480-754 Vila do Conde, Portugal",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ28CAugBFJA0RzP-cAC6-Uzc",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Largo Dom Afonso Sanches, 4480-754 Vila do Conde, Portugal",
+      "geometry": {
+        "location": {
+          "lat": 41.3525561,
+          "lng": -8.739542199999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.3539686302915,
+            "lng": -8.738263919708496
+          },
+          "southwest": {
+            "lat": 41.35127066970851,
+            "lng": -8.7409618802915
+          }
+        }
+      },
+      "name": "The Lince Santa Clara Historic Hotel",
+      "place_id": "ChIJ28CAugBFJA0RzP-cAC6-Uzc",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.thelincehotels.com/santaclara"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Odera. Tinos, Autograph Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Odera. Tinos, Autograph Collection Autograph Collection Hotels Hotel\", \"Odera. Tinos, Autograph Collection Autograph Collection Hotels Resort\", \"Odera. Tinos, Autograph Collection Autograph Collection Hotels\", \"Odera. Tinos, Autograph Collection Autograph Collection Hotels Tinos, Greece Hotel\", \"Odera. Tinos, Autograph Collection Autograph Collection Hotels Tinos, Greece Resort\", \"Odera. Tinos, Autograph Collection Autograph Collection Hotels Tinos, Greece\", \"Odera. Tinos, Autograph Collection Hilton Hotel\", \"Odera. Tinos, Autograph Collection Hilton Resort\", \"Odera. Tinos, Autograph Collection Hilton\", \"Odera. Tinos, Autograph Collection Hilton Tinos, Greece Hotel\", \"Odera. Tinos, Autograph Collection Hilton Tinos, Greece Resort\", \"Odera. Tinos, Autograph Collection Hilton Tinos, Greece\", \"Odera Tinos Autograph Collection Autograph Collection Hotels Hotel\", \"Odera Tinos Autograph Collection Autograph Collection Hotels Resort\", \"Odera Tinos Autograph Collection Autograph Collection Hotels\", \"Odera Tinos Autograph Collection Autograph Collection Hotels Tinos, Greece Hotel\", \"Odera Tinos Autograph Collection Autograph Collection Hotels Tinos, Greece Resort\", \"Odera Tinos Autograph Collection Autograph Collection Hotels Tinos, Greece\", \"Odera Tinos Autograph Collection Hilton Hotel\", \"Odera Tinos Autograph Collection Hilton Resort\", \"Odera Tinos Autograph Collection Hilton\", \"Odera Tinos Autograph Collection Hilton Tinos, Greece Hotel\", \"Odera Tinos Autograph Collection Hilton Tinos, Greece Resort\", \"Odera Tinos Autograph Collection Hilton Tinos, Greece\", \"Odera. Tinos, Autograph Collection Hotel\", \"Odera. Tinos, Autograph Collection Resort\", \"Odera. Tinos, Autograph Collection\", \"Odera. Tinos, Autograph Collection Tinos, Greece Hotel\", \"Odera. Tinos, Autograph Collection Tinos, Greece Resort\", \"Odera. Tinos, Autograph Collection Tinos, Greece\"], \"v\": 3}": {
+    "lat": 37.5523481,
+    "lon": 25.1213152,
+    "formatted_address": "Vourni beach, Tinos 842 00, Greece",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJm1pnfm_tohQRg0W_J8pmr4w",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Vourni beach, Tinos 842 00, Greece",
+      "geometry": {
+        "location": {
+          "lat": 37.5523481,
+          "lng": 25.1213152
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.5542944802915,
+            "lng": 25.1218424
+          },
+          "southwest": {
+            "lat": 37.5515965197085,
+            "lng": 25.1185677
+          }
+        }
+      },
+      "name": "Odera, Tinos, Autograph Collection",
+      "place_id": "ChIJm1pnfm_tohQRg0W_J8pmr4w",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/jmkti-odera-tinos-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Banyan Tree Higashiyama Kyoto\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Banyan Tree Higashiyama Kyoto Banyan Tree Hotels & Resorts Hotel\", \"Banyan Tree Higashiyama Kyoto Banyan Tree Hotels & Resorts Resort\", \"Banyan Tree Higashiyama Kyoto Banyan Tree Hotels & Resorts\", \"Banyan Tree Higashiyama Kyoto Banyan Tree Hotels & Resorts Kyoto, Japan Hotel\", \"Banyan Tree Higashiyama Kyoto Banyan Tree Hotels & Resorts Kyoto, Japan Resort\", \"Banyan Tree Higashiyama Kyoto Banyan Tree Hotels & Resorts Kyoto, Japan\", \"Banyan Tree Higashiyama Kyoto Hilton Hotel\", \"Banyan Tree Higashiyama Kyoto Hilton Resort\", \"Banyan Tree Higashiyama Kyoto Hilton\", \"Banyan Tree Higashiyama Kyoto Hilton Kyoto, Japan Hotel\", \"Banyan Tree Higashiyama Kyoto Hilton Kyoto, Japan Resort\", \"Banyan Tree Higashiyama Kyoto Hilton Kyoto, Japan\", \"Banyan Tree Higashiyama Kyoto Hotel\", \"Banyan Tree Higashiyama Kyoto Resort\", \"Banyan Tree Higashiyama Kyoto\", \"Banyan Tree Higashiyama Kyoto Kyoto, Japan Hotel\", \"Banyan Tree Higashiyama Kyoto Kyoto, Japan Resort\", \"Banyan Tree Higashiyama Kyoto Kyoto, Japan\"], \"v\": 3}": {
+    "lat": 34.99836080000001,
+    "lon": 135.7832583,
+    "formatted_address": "Japan, 〒605-0861 Kyoto, Higashiyama Ward, Seikanji Ryōzanchō, 7番地",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJMeVMWhwJAWARBel6lr-D8v8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Japan, 〒605-0861 Kyoto, Higashiyama Ward, Seikanji Ryōzanchō, 7番地",
+      "geometry": {
+        "location": {
+          "lat": 34.99836080000001,
+          "lng": 135.7832583
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 34.9996615802915,
+            "lng": 135.7845564302915
+          },
+          "southwest": {
+            "lat": 34.9969636197085,
+            "lng": 135.7818584697085
+          }
+        }
+      },
+      "name": "Banyan Tree Higashiyama Kyoto",
+      "place_id": "ChIJMeVMWhwJAWARBel6lr-D8v8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.banyantree.com/japan/kyoto"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Capella Taipei\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Capella Taipei Capella Hotels and Resorts Hotel\", \"Capella Taipei Capella Hotels and Resorts Resort\", \"Capella Taipei Capella Hotels and Resorts\", \"Capella Taipei Capella Hotels and Resorts Taipei, Taiwan Hotel\", \"Capella Taipei Capella Hotels and Resorts Taipei, Taiwan Resort\", \"Capella Taipei Capella Hotels and Resorts Taipei, Taiwan\", \"Capella Taipei Hilton Hotel\", \"Capella Taipei Hilton Resort\", \"Capella Taipei Hilton\", \"Capella Taipei Hilton Taipei, Taiwan Hotel\", \"Capella Taipei Hilton Taipei, Taiwan Resort\", \"Capella Taipei Hilton Taipei, Taiwan\", \"Capella Taipei Hotel\", \"Capella Taipei Resort\", \"Capella Taipei\", \"Capella Taipei Taipei, Taiwan Hotel\", \"Capella Taipei Taipei, Taiwan Resort\", \"Capella Taipei Taipei, Taiwan\"], \"v\": 3}": {
+    "lat": 25.0532393,
+    "lon": 121.549923,
+    "formatted_address": "No. 139, DunHua N Rd, Zhongzheng Village, Songshan District, Taipei City, Taiwan 105",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJTyLpHACrQjQRgMpF_-zRxVw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "No. 139, DunHua N Rd, Zhongzheng Village, Songshan District, Taipei City, Taiwan 105",
+      "geometry": {
+        "location": {
+          "lat": 25.0532393,
+          "lng": 121.549923
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.0547001302915,
+            "lng": 121.5512267302915
+          },
+          "southwest": {
+            "lat": 25.05200216970849,
+            "lng": 121.5485287697085
+          }
+        }
+      },
+      "name": "Capella Taipei",
+      "place_id": "ChIJTyLpHACrQjQRgMpF_-zRxVw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://capellahotels.com/zh-tc/capella-taipei?utm_source=google&utm_medium=organic&utm_campaign=gbp_cptpe"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Naples Beach Club, a Four Seasons Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Naples Beach Club, a Four Seasons Resort Four Seasons Hotels and Resorts Hotel\", \"Naples Beach Club, a Four Seasons Resort Four Seasons Hotels and Resorts Resort\", \"Naples Beach Club, a Four Seasons Resort Four Seasons Hotels and Resorts\", \"Naples Beach Club, a Four Seasons Resort Four Seasons Hotels and Resorts Naples, Florida US Hotel\", \"Naples Beach Club, a Four Seasons Resort Four Seasons Hotels and Resorts Naples, Florida US Resort\", \"Naples Beach Club, a Four Seasons Resort Four Seasons Hotels and Resorts Naples, Florida US\", \"Naples Beach Club, a Four Seasons Resort Hilton Hotel\", \"Naples Beach Club, a Four Seasons Resort Hilton Resort\", \"Naples Beach Club, a Four Seasons Resort Hilton\", \"Naples Beach Club, a Four Seasons Resort Hilton Naples, Florida US Hotel\", \"Naples Beach Club, a Four Seasons Resort Hilton Naples, Florida US Resort\", \"Naples Beach Club, a Four Seasons Resort Hilton Naples, Florida US\", \"Naples Beach Club a Four Seasons Resort Four Seasons Hotels and Resorts Hotel\", \"Naples Beach Club a Four Seasons Resort Four Seasons Hotels and Resorts Resort\", \"Naples Beach Club a Four Seasons Resort Four Seasons Hotels and Resorts\", \"Naples Beach Club a Four Seasons Resort Four Seasons Hotels and Resorts Naples, Florida US Hotel\", \"Naples Beach Club a Four Seasons Resort Four Seasons Hotels and Resorts Naples, Florida US Resort\", \"Naples Beach Club a Four Seasons Resort Four Seasons Hotels and Resorts Naples, Florida US\", \"Naples Beach Club a Four Seasons Resort Hilton Hotel\", \"Naples Beach Club a Four Seasons Resort Hilton Resort\", \"Naples Beach Club a Four Seasons Resort Hilton\", \"Naples Beach Club a Four Seasons Resort Hilton Naples, Florida US Hotel\", \"Naples Beach Club a Four Seasons Resort Hilton Naples, Florida US Resort\", \"Naples Beach Club a Four Seasons Resort Hilton Naples, Florida US\", \"Naples Beach Club, a Four Seasons Resort Hotel\", \"Naples Beach Club, a Four Seasons Resort Resort\", \"Naples Beach Club, a Four Seasons Resort\", \"Naples Beach Club, a Four Seasons Resort Naples, Florida US Hotel\", \"Naples Beach Club, a Four Seasons Resort Naples, Florida US Resort\", \"Naples Beach Club, a Four Seasons Resort Naples, Florida US\"], \"v\": 3}": {
+    "lat": 26.15895,
+    "lon": -81.8088683,
+    "formatted_address": "801 Gulf Shore Blvd N, Naples, FL 34102, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJrRQcwy_h2ogRfBkZOqo8AM0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "801 Gulf Shore Blvd N, Naples, FL 34102, USA",
+      "geometry": {
+        "location": {
+          "lat": 26.15895,
+          "lng": -81.8088683
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 26.1602989802915,
+            "lng": -81.80751931970849
+          },
+          "southwest": {
+            "lat": 26.15760101970849,
+            "lng": -81.8102172802915
+          }
+        }
+      },
+      "name": "Naples Beach Club, A Four Seasons Resort",
+      "place_id": "ChIJrRQcwy_h2ogRfBkZOqo8AM0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.fourseasons.com/naplesbeachclub/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-nbc-hre-mid-seo-na&utm_content=na-na&utm_term=na"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Meneghetti Wine Hotel and Winery\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Meneghetti Wine Hotel and Winery Relais & Ch\\u00e2teaux Hotel\", \"Meneghetti Wine Hotel and Winery Relais & Ch\\u00e2teaux Resort\", \"Meneghetti Wine Hotel and Winery Relais & Ch\\u00e2teaux\", \"Meneghetti Wine Hotel and Winery Relais & Ch\\u00e2teaux Bale, Croatia Hotel\", \"Meneghetti Wine Hotel and Winery Relais & Ch\\u00e2teaux Bale, Croatia Resort\", \"Meneghetti Wine Hotel and Winery Relais & Ch\\u00e2teaux Bale, Croatia\", \"Meneghetti Wine Hotel and Winery Hilton Hotel\", \"Meneghetti Wine Hotel and Winery Hilton Resort\", \"Meneghetti Wine Hotel and Winery Hilton\", \"Meneghetti Wine Hotel and Winery Hilton Bale, Croatia Hotel\", \"Meneghetti Wine Hotel and Winery Hilton Bale, Croatia Resort\", \"Meneghetti Wine Hotel and Winery Hilton Bale, Croatia\", \"Meneghetti Wine Hotel Winery Relais & Ch\\u00e2teaux Hotel\", \"Meneghetti Wine Hotel Winery Relais & Ch\\u00e2teaux Resort\", \"Meneghetti Wine Hotel Winery Relais & Ch\\u00e2teaux\", \"Meneghetti Wine Hotel Winery Relais & Ch\\u00e2teaux Bale, Croatia Hotel\", \"Meneghetti Wine Hotel Winery Relais & Ch\\u00e2teaux Bale, Croatia Resort\", \"Meneghetti Wine Hotel Winery Relais & Ch\\u00e2teaux Bale, Croatia\", \"Meneghetti Wine Hotel Winery Hilton Hotel\", \"Meneghetti Wine Hotel Winery Hilton Resort\", \"Meneghetti Wine Hotel Winery Hilton\", \"Meneghetti Wine Hotel Winery Hilton Bale, Croatia Hotel\", \"Meneghetti Wine Hotel Winery Hilton Bale, Croatia Resort\", \"Meneghetti Wine Hotel Winery Hilton Bale, Croatia\", \"Meneghetti Wine Hotel and Winery Hotel\", \"Meneghetti Wine Hotel and Winery Resort\", \"Meneghetti Wine Hotel and Winery\", \"Meneghetti Wine Hotel and Winery Bale, Croatia Hotel\", \"Meneghetti Wine Hotel and Winery Bale, Croatia Resort\", \"Meneghetti Wine Hotel and Winery Bale, Croatia\"], \"v\": 3}": {
+    "lat": 45.0074875,
+    "lon": 13.7449757,
+    "formatted_address": "Stancija Meneghetti 1, 52211, Bale, Croatia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJo8HcV6bIfEcRjSG9LMZxMBk",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Stancija Meneghetti 1, 52211, Bale, Croatia",
+      "geometry": {
+        "location": {
+          "lat": 45.0074875,
+          "lng": 13.7449757
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.00888783029149,
+            "lng": 13.7463556302915
+          },
+          "southwest": {
+            "lat": 45.00618986970849,
+            "lng": 13.7436576697085
+          }
+        }
+      },
+      "name": "Meneghetti Wine Hotel & Winery",
+      "place_id": "ChIJo8HcV6bIfEcRjSG9LMZxMBk",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://meneghetti.hr/?utm_source=gmb&utm_medium=organic&utm_campaign=click_glavni_gmb"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Lizard Island\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lizard Island Relais & Ch\\u00e2teaux Hotel\", \"Lizard Island Relais & Ch\\u00e2teaux Resort\", \"Lizard Island Relais & Ch\\u00e2teaux\", \"Lizard Island Relais & Ch\\u00e2teaux Cairns, Australia Hotel\", \"Lizard Island Relais & Ch\\u00e2teaux Cairns, Australia Resort\", \"Lizard Island Relais & Ch\\u00e2teaux Cairns, Australia\", \"Lizard Island Hilton Hotel\", \"Lizard Island Hilton Resort\", \"Lizard Island Hilton\", \"Lizard Island Hilton Cairns, Australia Hotel\", \"Lizard Island Hilton Cairns, Australia Resort\", \"Lizard Island Hilton Cairns, Australia\", \"Lizard Island Hotel\", \"Lizard Island Resort\", \"Lizard Island\", \"Lizard Island Cairns, Australia Hotel\", \"Lizard Island Cairns, Australia Resort\", \"Lizard Island Cairns, Australia\"], \"v\": 3}": {
+    "lat": -14.6676469,
+    "lon": 145.4483408,
+    "formatted_address": "PMB 40, Lizard QLD 4871, Australia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ_____1sgnmkRrdNXWrMeNVw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "PMB 40, Lizard QLD 4871, Australia",
+      "geometry": {
+        "location": {
+          "lat": -14.6676469,
+          "lng": 145.4483408
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -14.66629791970849,
+            "lng": 145.4496897802915
+          },
+          "southwest": {
+            "lat": -14.6689958802915,
+            "lng": 145.4469918197085
+          }
+        }
+      },
+      "name": "Lizard Island",
+      "place_id": "ChIJ_____1sgnmkRrdNXWrMeNVw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.lizardisland.com.au/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Awasi Iguazu\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Awasi Iguazu Relais & Ch\\u00e2teaux Hotel\", \"Awasi Iguazu Relais & Ch\\u00e2teaux Resort\", \"Awasi Iguazu Relais & Ch\\u00e2teaux\", \"Awasi Iguazu Relais & Ch\\u00e2teaux Puerto Iguazu, Argentina Hotel\", \"Awasi Iguazu Relais & Ch\\u00e2teaux Puerto Iguazu, Argentina Resort\", \"Awasi Iguazu Relais & Ch\\u00e2teaux Puerto Iguazu, Argentina\", \"Awasi Iguazu Hilton Hotel\", \"Awasi Iguazu Hilton Resort\", \"Awasi Iguazu Hilton\", \"Awasi Iguazu Hilton Puerto Iguazu, Argentina Hotel\", \"Awasi Iguazu Hilton Puerto Iguazu, Argentina Resort\", \"Awasi Iguazu Hilton Puerto Iguazu, Argentina\", \"Awasi Iguazu Hotel\", \"Awasi Iguazu Resort\", \"Awasi Iguazu\", \"Awasi Iguazu Puerto Iguazu, Argentina Hotel\", \"Awasi Iguazu Puerto Iguazu, Argentina Resort\", \"Awasi Iguazu Puerto Iguazu, Argentina\"], \"v\": 3}": {
+    "lat": -25.5996018,
+    "lon": -54.5443955,
+    "formatted_address": "Selva Yriapú S/N, Puerto Iguazú, Misiones, N3370GOA Puerto Iguazú, Misiones, Argentina",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJsR8fPr6T9pQRsKLIE48Q5JQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Selva Yriapú S/N, Puerto Iguazú, Misiones, N3370GOA Puerto Iguazú, Misiones, Argentina",
+      "geometry": {
+        "location": {
+          "lat": -25.5996018,
+          "lng": -54.5443955
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -25.5983235197085,
+            "lng": -54.5430748697085
+          },
+          "southwest": {
+            "lat": -25.6010214802915,
+            "lng": -54.54577283029149
+          }
+        }
+      },
+      "name": "Awasi Iguazú",
+      "place_id": "ChIJsR8fPr6T9pQRsKLIE48Q5JQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://awasi.com/iguazu/?utm_source=local-listings&utm_medium=organic&utm_campaign=local-listings"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Carlton, Milan\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Carlton, Milan Rocco Forte Hotels Hotel\", \"The Carlton, Milan Rocco Forte Hotels Resort\", \"The Carlton, Milan Rocco Forte Hotels\", \"The Carlton, Milan Rocco Forte Hotels Milan, Italy Hotel\", \"The Carlton, Milan Rocco Forte Hotels Milan, Italy Resort\", \"The Carlton, Milan Rocco Forte Hotels Milan, Italy\", \"The Carlton, Milan Hilton Hotel\", \"The Carlton, Milan Hilton Resort\", \"The Carlton, Milan Hilton\", \"The Carlton, Milan Hilton Milan, Italy Hotel\", \"The Carlton, Milan Hilton Milan, Italy Resort\", \"The Carlton, Milan Hilton Milan, Italy\", \"The Carlton Milan Rocco Forte Hotels Hotel\", \"The Carlton Milan Rocco Forte Hotels Resort\", \"The Carlton Milan Rocco Forte Hotels\", \"The Carlton Milan Rocco Forte Hotels Milan, Italy Hotel\", \"The Carlton Milan Rocco Forte Hotels Milan, Italy Resort\", \"The Carlton Milan Rocco Forte Hotels Milan, Italy\", \"The Carlton Milan Hilton Hotel\", \"The Carlton Milan Hilton Resort\", \"The Carlton Milan Hilton\", \"The Carlton Milan Hilton Milan, Italy Hotel\", \"The Carlton Milan Hilton Milan, Italy Resort\", \"The Carlton Milan Hilton Milan, Italy\", \"The Carlton, Milan Hotel\", \"The Carlton, Milan Resort\", \"The Carlton, Milan\", \"The Carlton, Milan Milan, Italy Hotel\", \"The Carlton, Milan Milan, Italy Resort\", \"The Carlton, Milan Milan, Italy\"], \"v\": 3}": {
+    "lat": 45.4691821,
+    "lon": 9.198599,
+    "formatted_address": "Via Senato, 5, 20121 Milano MI, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJzaLkX7rGhkcR9_BfwRTZhE0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Senato, 5, 20121 Milano MI, Italy",
+      "geometry": {
+        "location": {
+          "lat": 45.4691821,
+          "lng": 9.198599
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.47058088029149,
+            "lng": 9.2000450302915
+          },
+          "southwest": {
+            "lat": 45.46788291970849,
+            "lng": 9.197347069708497
+          }
+        }
+      },
+      "name": "The Carlton, a Rocco Forte hotel",
+      "place_id": "ChIJzaLkX7rGhkcR9_BfwRTZhE0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.roccofortehotels.com/hotels-and-resorts/the-carlton-milan/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Reverie Saigon\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Reverie Saigon The Leading Hotels of the World Hotel\", \"The Reverie Saigon The Leading Hotels of the World Resort\", \"The Reverie Saigon The Leading Hotels of the World\", \"The Reverie Saigon The Leading Hotels of the World Ho Chi Minh City, Vietnam Hotel\", \"The Reverie Saigon The Leading Hotels of the World Ho Chi Minh City, Vietnam Resort\", \"The Reverie Saigon The Leading Hotels of the World Ho Chi Minh City, Vietnam\", \"The Reverie Saigon Hilton Hotel\", \"The Reverie Saigon Hilton Resort\", \"The Reverie Saigon Hilton\", \"The Reverie Saigon Hilton Ho Chi Minh City, Vietnam Hotel\", \"The Reverie Saigon Hilton Ho Chi Minh City, Vietnam Resort\", \"The Reverie Saigon Hilton Ho Chi Minh City, Vietnam\", \"The Reverie Saigon Hotel\", \"The Reverie Saigon Resort\", \"The Reverie Saigon\", \"The Reverie Saigon Ho Chi Minh City, Vietnam Hotel\", \"The Reverie Saigon Ho Chi Minh City, Vietnam Resort\", \"The Reverie Saigon Ho Chi Minh City, Vietnam\"], \"v\": 3}": {
+    "lat": 10.7736811,
+    "lon": 106.7046523,
+    "formatted_address": "22-36 Nguyễn Huệ, Sài Gòn, Hồ Chí Minh, Vietnam",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJmfcfuUYvdTERoM-VKjTQBLA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "22-36 Nguyễn Huệ, Sài Gòn, Hồ Chí Minh, Vietnam",
+      "geometry": {
+        "location": {
+          "lat": 10.7736811,
+          "lng": 106.7046523
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.7752587802915,
+            "lng": 106.7061273802915
+          },
+          "southwest": {
+            "lat": 10.7725608197085,
+            "lng": 106.7034294197085
+          }
+        }
+      },
+      "name": "The Reverie Saigon Hotel",
+      "place_id": "ChIJmfcfuUYvdTERoM-VKjTQBLA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.thereveriesaigon.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Santa Maria Hotel, A Luxury Collection & Golf Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Santa Maria Hotel, A Luxury Collection & Golf Resort The Luxury Collection Hotel\", \"The Santa Maria Hotel, A Luxury Collection & Golf Resort The Luxury Collection Resort\", \"The Santa Maria Hotel, A Luxury Collection & Golf Resort The Luxury Collection\", \"The Santa Maria Hotel, A Luxury Collection & Golf Resort The Luxury Collection Panama City, Panama Hotel\", \"The Santa Maria Hotel, A Luxury Collection & Golf Resort The Luxury Collection Panama City, Panama Resort\", \"The Santa Maria Hotel, A Luxury Collection & Golf Resort The Luxury Collection Panama City, Panama\", \"The Santa Maria Hotel, A Luxury Collection & Golf Resort Hilton Hotel\", \"The Santa Maria Hotel, A Luxury Collection & Golf Resort Hilton Resort\", \"The Santa Maria Hotel, A Luxury Collection & Golf Resort Hilton\", \"The Santa Maria Hotel, A Luxury Collection & Golf Resort Hilton Panama City, Panama Hotel\", \"The Santa Maria Hotel, A Luxury Collection & Golf Resort Hilton Panama City, Panama Resort\", \"The Santa Maria Hotel, A Luxury Collection & Golf Resort Hilton Panama City, Panama\", \"Santa Maria Hotel A Luxury Collection Golf Resort The Luxury Collection Hotel\", \"Santa Maria Hotel A Luxury Collection Golf Resort The Luxury Collection Resort\", \"Santa Maria Hotel A Luxury Collection Golf Resort The Luxury Collection\", \"Santa Maria Hotel A Luxury Collection Golf Resort The Luxury Collection Panama City, Panama Hotel\", \"Santa Maria Hotel A Luxury Collection Golf Resort The Luxury Collection Panama City, Panama Resort\", \"Santa Maria Hotel A Luxury Collection Golf Resort The Luxury Collection Panama City, Panama\", \"Santa Maria Hotel A Luxury Collection Golf Resort Hilton Hotel\", \"Santa Maria Hotel A Luxury Collection Golf Resort Hilton Resort\", \"Santa Maria Hotel A Luxury Collection Golf Resort Hilton\", \"Santa Maria Hotel A Luxury Collection Golf Resort Hilton Panama City, Panama Hotel\", \"Santa Maria Hotel A Luxury Collection Golf Resort Hilton Panama City, Panama Resort\", \"Santa Maria Hotel A Luxury Collection Golf Resort Hilton Panama City, Panama\", \"The Santa Maria Hotel, A Luxury Collection & Golf Resort Hotel\", \"The Santa Maria Hotel, A Luxury Collection & Golf Resort Resort\", \"The Santa Maria Hotel, A Luxury Collection & Golf Resort\", \"The Santa Maria Hotel, A Luxury Collection & Golf Resort Panama City, Panama Hotel\", \"The Santa Maria Hotel, A Luxury Collection & Golf Resort Panama City, Panama Resort\", \"The Santa Maria Hotel, A Luxury Collection & Golf Resort Panama City, Panama\"], \"v\": 3}": {
+    "lat": 9.0270975,
+    "lon": -79.4511838,
+    "formatted_address": "Calle 125 Este, Panamá, Provincia de Panamá, Panama",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJtfm8FQ6qrI8RQj86XmQVzEE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Calle 125 Este, Panamá, Provincia de Panamá, Panama",
+      "geometry": {
+        "location": {
+          "lat": 9.0270975,
+          "lng": -79.4511838
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 9.028508980291502,
+            "lng": -79.4499482197085
+          },
+          "southwest": {
+            "lat": 9.025811019708497,
+            "lng": -79.45264618029151
+          }
+        }
+      },
+      "name": "The Santa Maria, a Luxury Collection Hotel & Golf Resort, Panama City",
+      "place_id": "ChIJtfm8FQ6qrI8RQj86XmQVzEE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/ptylc-the-santa-maria-a-luxury-collection-hotel-and-golf-resort-panama-city/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   }
 }
