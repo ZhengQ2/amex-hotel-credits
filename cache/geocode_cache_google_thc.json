@@ -89619,56 +89619,6 @@
       "website": "https://www.hilton.com/en/hotels/satmkqq-the-monarch-san-antonio/?SEO_id=GMB-AMER-QQ-SATMKQQ&y_source=1_MTAzMTk4MzAzNy03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
-  "{\"brand\": \"Design Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Dominican Design Hotels Hotel\", \"The Dominican Design Hotels Resort\", \"The Dominican Design Hotels\", \"The Dominican Design Hotels Brussels, Belgium Hotel\", \"The Dominican Design Hotels Brussels, Belgium Resort\", \"The Dominican Design Hotels Brussels, Belgium\", \"The Dominican Hilton Hotel\", \"The Dominican Hilton Resort\", \"The Dominican Hilton\", \"The Dominican Hilton Brussels, Belgium Hotel\", \"The Dominican Hilton Brussels, Belgium Resort\", \"The Dominican Hilton Brussels, Belgium\", \"The Dominican Hotel\", \"The Dominican Resort\", \"The Dominican\", \"The Dominican Brussels, Belgium Hotel\", \"The Dominican Brussels, Belgium Resort\", \"The Dominican Brussels, Belgium\"], \"v\": 3}": {
-    "lat": 50.8492581,
-    "lon": 4.3547629,
-    "formatted_address": "Rue Léopold 9, 1000 Bruxelles, Belgium",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJsXxX7IDDw0cRYzRU0IPZPBc",
-    "types": [
-      "bar",
-      "establishment",
-      "food",
-      "lodging",
-      "night_club",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Rue Léopold 9, 1000 Bruxelles, Belgium",
-      "geometry": {
-        "location": {
-          "lat": 50.8492581,
-          "lng": 4.3547629
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 50.8505164302915,
-            "lng": 4.355859980291502
-          },
-          "southwest": {
-            "lat": 50.8478184697085,
-            "lng": 4.353162019708497
-          }
-        }
-      },
-      "name": "The Dominican",
-      "place_id": "ChIJsXxX7IDDw0cRYzRU0IPZPBc",
-      "types": [
-        "bar",
-        "establishment",
-        "food",
-        "lodging",
-        "night_club",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.thedominican.be/"
-    }
-  },
   "{\"brand\": \"Design Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Skeppsholmen Design Hotels Hotel\", \"Hotel Skeppsholmen Design Hotels Resort\", \"Hotel Skeppsholmen Design Hotels\", \"Hotel Skeppsholmen Design Hotels Stockholm, Sweden Hotel\", \"Hotel Skeppsholmen Design Hotels Stockholm, Sweden Resort\", \"Hotel Skeppsholmen Design Hotels Stockholm, Sweden\", \"Hotel Skeppsholmen Hilton Hotel\", \"Hotel Skeppsholmen Hilton Resort\", \"Hotel Skeppsholmen Hilton\", \"Hotel Skeppsholmen Hilton Stockholm, Sweden Hotel\", \"Hotel Skeppsholmen Hilton Stockholm, Sweden Resort\", \"Hotel Skeppsholmen Hilton Stockholm, Sweden\", \"Hotel Skeppsholmen Hotel\", \"Hotel Skeppsholmen Resort\", \"Hotel Skeppsholmen\", \"Hotel Skeppsholmen Stockholm, Sweden Hotel\", \"Hotel Skeppsholmen Stockholm, Sweden Resort\", \"Hotel Skeppsholmen Stockholm, Sweden\"], \"v\": 3}": {
     "lat": 59.3247597,
     "lon": 18.087685,
@@ -111990,56 +111940,6 @@
         "spa"
       ],
       "website": "https://www.themandala.de/"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Dominican\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Dominican Design Hotels Hotel\", \"The Dominican Design Hotels Resort\", \"The Dominican Design Hotels\", \"The Dominican Design Hotels Brussels, Belgium Hotel\", \"The Dominican Design Hotels Brussels, Belgium Resort\", \"The Dominican Design Hotels Brussels, Belgium\", \"The Dominican Hilton Hotel\", \"The Dominican Hilton Resort\", \"The Dominican Hilton\", \"The Dominican Hilton Brussels, Belgium Hotel\", \"The Dominican Hilton Brussels, Belgium Resort\", \"The Dominican Hilton Brussels, Belgium\", \"The Dominican Hotel\", \"The Dominican Resort\", \"The Dominican\", \"The Dominican Brussels, Belgium Hotel\", \"The Dominican Brussels, Belgium Resort\", \"The Dominican Brussels, Belgium\"], \"v\": 3}": {
-    "lat": 50.8492581,
-    "lon": 4.3547629,
-    "formatted_address": "Rue Léopold 9, 1000 Bruxelles, Belgium",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJsXxX7IDDw0cRYzRU0IPZPBc",
-    "types": [
-      "bar",
-      "establishment",
-      "food",
-      "lodging",
-      "night_club",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Rue Léopold 9, 1000 Bruxelles, Belgium",
-      "geometry": {
-        "location": {
-          "lat": 50.8492581,
-          "lng": 4.3547629
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 50.8505164302915,
-            "lng": 4.355859980291502
-          },
-          "southwest": {
-            "lat": 50.8478184697085,
-            "lng": 4.353162019708497
-          }
-        }
-      },
-      "name": "The Dominican",
-      "place_id": "ChIJsXxX7IDDw0cRYzRU0IPZPBc",
-      "types": [
-        "bar",
-        "establishment",
-        "food",
-        "lodging",
-        "night_club",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.thedominican.be/"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Five Seas Hotel Cannes\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Five Seas Hotel Cannes Design Hotels Hotel\", \"Five Seas Hotel Cannes Design Hotels Resort\", \"Five Seas Hotel Cannes Design Hotels\", \"Five Seas Hotel Cannes Design Hotels Cannes, France Hotel\", \"Five Seas Hotel Cannes Design Hotels Cannes, France Resort\", \"Five Seas Hotel Cannes Design Hotels Cannes, France\", \"Five Seas Hotel Cannes Hilton Hotel\", \"Five Seas Hotel Cannes Hilton Resort\", \"Five Seas Hotel Cannes Hilton\", \"Five Seas Hotel Cannes Hilton Cannes, France Hotel\", \"Five Seas Hotel Cannes Hilton Cannes, France Resort\", \"Five Seas Hotel Cannes Hilton Cannes, France\", \"Five Seas Hotel Cannes Hotel\", \"Five Seas Hotel Cannes Resort\", \"Five Seas Hotel Cannes\", \"Five Seas Hotel Cannes Cannes, France Hotel\", \"Five Seas Hotel Cannes Cannes, France Resort\", \"Five Seas Hotel Cannes Cannes, France\"], \"v\": 3}": {
@@ -141805,12 +141705,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Antonio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Antonio Small Luxury Hotels of the World Hotel\", \"San Antonio Small Luxury Hotels of the World Resort\", \"San Antonio Small Luxury Hotels of the World\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Hotel\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Resort\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece\", \"San Antonio Hilton Hotel\", \"San Antonio Hilton Resort\", \"San Antonio Hilton\", \"San Antonio Hilton Imerovigli, Greece Hotel\", \"San Antonio Hilton Imerovigli, Greece Resort\", \"San Antonio Hilton Imerovigli, Greece\", \"San Antonio Hotel\", \"San Antonio Resort\", \"San Antonio\", \"San Antonio Imerovigli, Greece Hotel\", \"San Antonio Imerovigli, Greece Resort\", \"San Antonio Imerovigli, Greece\"], \"v\": 3}": {
-    "lat": 29.4274372,
-    "lon": -98.48950160000001,
-    "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
+    "lat": 29.521535,
+    "lon": -98.490831,
+    "formatted_address": "37 NE Loop 410 At McCullough, San Antonio, TX 78216, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
+    "place_id": "ChIJy2Pln71hXIYRML-T-XvTl6U",
     "types": [
       "establishment",
       "lodging",
@@ -141819,31 +141719,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
+      "formatted_address": "37 NE Loop 410 At McCullough, San Antonio, TX 78216, USA",
       "geometry": {
         "location": {
-          "lat": 29.4274372,
-          "lng": -98.48950160000001
+          "lat": 29.521535,
+          "lng": -98.490831
         },
         "viewport": {
           "northeast": {
-            "lat": 29.4288418802915,
-            "lng": -98.4880995197085
+            "lat": 29.5226847802915,
+            "lng": -98.4897132697085
           },
           "southwest": {
-            "lat": 29.4261439197085,
-            "lng": -98.4907974802915
+            "lat": 29.5199868197085,
+            "lng": -98.49241123029151
           }
         }
       },
-      "name": "The St. Anthony, a Luxury Collection Hotel, San Antonio",
-      "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
+      "name": "Estancia del Norte San Antonio, Tapestry Collection by Hilton",
+      "place_id": "ChIJy2Pln71hXIYRML-T-XvTl6U",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.marriott.com/en-us/hotels/satlc-the-st-anthony-a-luxury-collection-hotel-san-antonio/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+      "website": "https://www.hilton.com/en/hotels/satinup-estancia-del-norte-san-antonio/?SEO_id=GMB-AMER-UP-SATINUP&y_source=1_MjI3NDU5MjYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rusty Parrot Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
@@ -154592,6 +154492,48 @@
         "point_of_interest"
       ],
       "website": "https://www.hotelbowmannparis.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"SIXTY DC\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"SIXTY DC Hotel\", \"SIXTY DC Resort\", \"SIXTY DC\", \"SIXTY DC Washington, District of Columbia US Hotel\", \"SIXTY DC Washington, District of Columbia US Resort\", \"SIXTY DC Washington, District of Columbia US\", \"Sixty Dc Hotel\", \"Sixty Dc Resort\", \"Sixty Dc\", \"Sixty Dc Washington, District of Columbia US Hotel\", \"Sixty Dc Washington, District of Columbia US Resort\", \"Sixty Dc Washington, District of Columbia US\"], \"v\": 3}": {
+    "lat": 38.9082939,
+    "lon": -77.0423251,
+    "formatted_address": "1337 Connecticut Ave NW, Washington, DC 20036, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJGZf0qiK3t4kRbORPYOTGDOE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1337 Connecticut Ave NW, Washington, DC 20036, USA",
+      "geometry": {
+        "location": {
+          "lat": 38.9082939,
+          "lng": -77.0423251
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.90959438029149,
+            "lng": -77.0410365697085
+          },
+          "southwest": {
+            "lat": 38.9068964197085,
+            "lng": -77.0437345302915
+          }
+        }
+      },
+      "name": "SIXTY DC",
+      "place_id": "ChIJGZf0qiK3t4kRbORPYOTGDOE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.sixtyhotels.com/destinations/washington-dc/sixty-dc"
     }
   }
 }
