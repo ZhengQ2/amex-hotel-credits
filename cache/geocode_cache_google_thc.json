@@ -141705,12 +141705,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Antonio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Antonio Small Luxury Hotels of the World Hotel\", \"San Antonio Small Luxury Hotels of the World Resort\", \"San Antonio Small Luxury Hotels of the World\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Hotel\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Resort\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece\", \"San Antonio Hilton Hotel\", \"San Antonio Hilton Resort\", \"San Antonio Hilton\", \"San Antonio Hilton Imerovigli, Greece Hotel\", \"San Antonio Hilton Imerovigli, Greece Resort\", \"San Antonio Hilton Imerovigli, Greece\", \"San Antonio Hotel\", \"San Antonio Resort\", \"San Antonio\", \"San Antonio Imerovigli, Greece Hotel\", \"San Antonio Imerovigli, Greece Resort\", \"San Antonio Imerovigli, Greece\"], \"v\": 3}": {
-    "lat": 29.521535,
-    "lon": -98.490831,
-    "formatted_address": "37 NE Loop 410 At McCullough, San Antonio, TX 78216, USA",
+    "lat": 29.6663753,
+    "lon": -98.4008875,
+    "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJy2Pln71hXIYRML-T-XvTl6U",
+    "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
     "types": [
       "establishment",
       "lodging",
@@ -141719,31 +141719,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "37 NE Loop 410 At McCullough, San Antonio, TX 78216, USA",
+      "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
       "geometry": {
         "location": {
-          "lat": 29.521535,
-          "lng": -98.490831
+          "lat": 29.6663753,
+          "lng": -98.4008875
         },
         "viewport": {
           "northeast": {
-            "lat": 29.5226847802915,
-            "lng": -98.4897132697085
+            "lat": 29.6677274302915,
+            "lng": -98.39953276970849
           },
           "southwest": {
-            "lat": 29.5199868197085,
-            "lng": -98.49241123029151
+            "lat": 29.6650294697085,
+            "lng": -98.40223073029149
           }
         }
       },
-      "name": "Estancia del Norte San Antonio, Tapestry Collection by Hilton",
-      "place_id": "ChIJy2Pln71hXIYRML-T-XvTl6U",
+      "name": "JW Marriott San Antonio Hill Country Resort & Spa",
+      "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/satinup-estancia-del-norte-san-antonio/?SEO_id=GMB-AMER-UP-SATINUP&y_source=1_MjI3NDU5MjYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+      "website": "https://www.marriott.com/en-us/hotels/satjw-jw-marriott-san-antonio-hill-country-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rusty Parrot Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
@@ -154534,6 +154534,185 @@
         "point_of_interest"
       ],
       "website": "https://www.sixtyhotels.com/destinations/washington-dc/sixty-dc"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Bernini Palace Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Bernini Palace Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Forte de Gaia- Autograph Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Forte de Gaia- Autograph Collection\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Dominican\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Dominican\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Bernini Palace Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Bernini Palace Hotel Hotel\", \"Bernini Palace Hotel Resort\", \"Bernini Palace Hotel\", \"Bernini Palace Hotel Florence, Italy Hotel\", \"Bernini Palace Hotel Florence, Italy Resort\", \"Bernini Palace Hotel Florence, Italy\"], \"v\": 3}": {
+    "lat": 43.7693126,
+    "lon": 11.2575813,
+    "formatted_address": "Piazza di S. Firenze, 29, 50122 Firenze FI, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ-bwD1wBUKhMRBEq0oXXY7dQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Piazza di S. Firenze, 29, 50122 Firenze FI, Italy",
+      "geometry": {
+        "location": {
+          "lat": 43.7693126,
+          "lng": 11.2575813
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.7706961802915,
+            "lng": 11.2588763802915
+          },
+          "southwest": {
+            "lat": 43.7679982197085,
+            "lng": 11.2561784197085
+          }
+        }
+      },
+      "name": "Hotel Bernini Palace",
+      "place_id": "ChIJ-bwD1wBUKhMRBEq0oXXY7dQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://hotelbernini.duetorrihotels.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Margaritaville Hotel Kansas City\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Margaritaville Hotel Kansas City Hotel\", \"Margaritaville Hotel Kansas City Resort\", \"Margaritaville Hotel Kansas City\", \"Margaritaville Hotel Kansas City Kansas City, Kansas US Hotel\", \"Margaritaville Hotel Kansas City Kansas City, Kansas US Resort\", \"Margaritaville Hotel Kansas City Kansas City, Kansas US\"], \"v\": 3}": {
+    "lat": 39.0989079,
+    "lon": -94.58458150000001,
+    "formatted_address": "1228 Baltimore Ave, Kansas City, MO 64105, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ2QVuSZzxwIcRcwbhbK0YwYU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1228 Baltimore Ave, Kansas City, MO 64105, USA",
+      "geometry": {
+        "location": {
+          "lat": 39.0989079,
+          "lng": -94.58458150000001
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.1002484802915,
+            "lng": -94.5831282697085
+          },
+          "southwest": {
+            "lat": 39.0975505197085,
+            "lng": -94.58582623029152
+          }
+        }
+      },
+      "name": "Hotel Kansas City - The Unbound Collection by Hyatt",
+      "place_id": "ChIJ2QVuSZzxwIcRcwbhbK0YwYU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/unbound-collection/en-US/mcijd-hotel-kansas-city?src=corp_lclb_google_seo_mcijd&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Forte de Gaia- Autograph Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Forte de Gaia- Autograph Collection Autograph Collection Hotels Hotel\", \"Forte de Gaia- Autograph Collection Autograph Collection Hotels Resort\", \"Forte de Gaia- Autograph Collection Autograph Collection Hotels\", \"Forte de Gaia- Autograph Collection Autograph Collection Hotels Vila Nova de Gaia, Portugal Hotel\", \"Forte de Gaia- Autograph Collection Autograph Collection Hotels Vila Nova de Gaia, Portugal Resort\", \"Forte de Gaia- Autograph Collection Autograph Collection Hotels Vila Nova de Gaia, Portugal\", \"Forte de Gaia- Autograph Collection Hilton Hotel\", \"Forte de Gaia- Autograph Collection Hilton Resort\", \"Forte de Gaia- Autograph Collection Hilton\", \"Forte de Gaia- Autograph Collection Hilton Vila Nova de Gaia, Portugal Hotel\", \"Forte de Gaia- Autograph Collection Hilton Vila Nova de Gaia, Portugal Resort\", \"Forte de Gaia- Autograph Collection Hilton Vila Nova de Gaia, Portugal\", \"Forte De Gaia Autograph Collection Autograph Collection Hotels Hotel\", \"Forte De Gaia Autograph Collection Autograph Collection Hotels Resort\", \"Forte De Gaia Autograph Collection Autograph Collection Hotels\", \"Forte De Gaia Autograph Collection Autograph Collection Hotels Vila Nova de Gaia, Portugal Hotel\", \"Forte De Gaia Autograph Collection Autograph Collection Hotels Vila Nova de Gaia, Portugal Resort\", \"Forte De Gaia Autograph Collection Autograph Collection Hotels Vila Nova de Gaia, Portugal\", \"Forte De Gaia Autograph Collection Hilton Hotel\", \"Forte De Gaia Autograph Collection Hilton Resort\", \"Forte De Gaia Autograph Collection Hilton\", \"Forte De Gaia Autograph Collection Hilton Vila Nova de Gaia, Portugal Hotel\", \"Forte De Gaia Autograph Collection Hilton Vila Nova de Gaia, Portugal Resort\", \"Forte De Gaia Autograph Collection Hilton Vila Nova de Gaia, Portugal\", \"Forte de Gaia- Autograph Collection Hotel\", \"Forte de Gaia- Autograph Collection Resort\", \"Forte de Gaia- Autograph Collection\", \"Forte de Gaia- Autograph Collection Vila Nova de Gaia, Portugal Hotel\", \"Forte de Gaia- Autograph Collection Vila Nova de Gaia, Portugal Resort\", \"Forte de Gaia- Autograph Collection Vila Nova de Gaia, Portugal\"], \"v\": 3}": {
+    "lat": 41.1363284,
+    "lon": -8.618381099999999,
+    "formatted_address": "R. de Serpa Pinto 60, 4400-307 Vila Nova de Gaia, Portugal",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJQ_pZViBlJA0RYe8KIN5hb1w",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "R. de Serpa Pinto 60, 4400-307 Vila Nova de Gaia, Portugal",
+      "geometry": {
+        "location": {
+          "lat": 41.1363284,
+          "lng": -8.618381099999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.13759763029151,
+            "lng": -8.616967319708497
+          },
+          "southwest": {
+            "lat": 41.13489966970851,
+            "lng": -8.619665280291501
+          }
+        }
+      },
+      "name": "Forte de Gaia, Autograph Collection",
+      "place_id": "ChIJQ_pZViBlJA0RYe8KIN5hb1w",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/opolg-forte-de-gaia-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Dominican\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Dominican Design Hotels Hotel\", \"The Dominican Design Hotels Resort\", \"The Dominican Design Hotels\", \"The Dominican Design Hotels Brussels, Belgium Hotel\", \"The Dominican Design Hotels Brussels, Belgium Resort\", \"The Dominican Design Hotels Brussels, Belgium\", \"The Dominican Hilton Hotel\", \"The Dominican Hilton Resort\", \"The Dominican Hilton\", \"The Dominican Hilton Brussels, Belgium Hotel\", \"The Dominican Hilton Brussels, Belgium Resort\", \"The Dominican Hilton Brussels, Belgium\", \"The Dominican Hotel\", \"The Dominican Resort\", \"The Dominican\", \"The Dominican Brussels, Belgium Hotel\", \"The Dominican Brussels, Belgium Resort\", \"The Dominican Brussels, Belgium\"], \"v\": 3}": {
+    "lat": 50.8492581,
+    "lon": 4.3547629,
+    "formatted_address": "Rue Léopold 9, 1000 Bruxelles, Belgium",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJsXxX7IDDw0cRYzRU0IPZPBc",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "night_club",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Rue Léopold 9, 1000 Bruxelles, Belgium",
+      "geometry": {
+        "location": {
+          "lat": 50.8492581,
+          "lng": 4.3547629
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 50.8505164302915,
+            "lng": 4.355859980291502
+          },
+          "southwest": {
+            "lat": 50.8478184697085,
+            "lng": 4.353162019708497
+          }
+        }
+      },
+      "name": "The Dominican",
+      "place_id": "ChIJsXxX7IDDw0cRYzRU0IPZPBc",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "night_club",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.thedominican.be/"
     }
   }
 }

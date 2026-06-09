@@ -126849,8 +126849,8 @@
     "lat": 52.6495055,
     "lon": -7.251757099999999,
     "formatted_address": "22 & 23 Lower Patrick St, Gardens, Kilkenny, R95 DX76, Ireland",
-    "provider": "google_geocoding",
-    "confidence": "ROOFTOP",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
     "place_id": "ChIJ01oZ854wXUgRc53tyIAIH_M",
     "types": [
       "bar",
@@ -126862,92 +126862,26 @@
     ],
     "partial_match": false,
     "raw": {
-      "address_components": [
-        {
-          "long_name": "22 & 23 Lower",
-          "short_name": "22 & 23 Lower",
-          "types": [
-            "street_number"
-          ]
-        },
-        {
-          "long_name": "Patrick Street",
-          "short_name": "Patrick St",
-          "types": [
-            "route"
-          ]
-        },
-        {
-          "long_name": "Gardens",
-          "short_name": "Gardens",
-          "types": [
-            "neighborhood",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Kilkenny",
-          "short_name": "KK",
-          "types": [
-            "locality",
-            "political"
-          ]
-        },
-        {
-          "long_name": "County Kilkenny",
-          "short_name": "County Kilkenny",
-          "types": [
-            "administrative_area_level_1",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Ireland",
-          "short_name": "IE",
-          "types": [
-            "country",
-            "political"
-          ]
-        },
-        {
-          "long_name": "R95 DX76",
-          "short_name": "R95 DX76",
-          "types": [
-            "postal_code"
-          ]
-        }
-      ],
+      "business_status": "OPERATIONAL",
       "formatted_address": "22 & 23 Lower Patrick St, Gardens, Kilkenny, R95 DX76, Ireland",
       "geometry": {
         "location": {
           "lat": 52.6495055,
           "lng": -7.251757099999999
         },
-        "location_type": "ROOFTOP",
         "viewport": {
           "northeast": {
             "lat": 52.65086778029149,
-            "lng": -7.250302419708498
+            "lng": -7.250302419708494
           },
           "southwest": {
             "lat": 52.64816981970849,
-            "lng": -7.253000380291502
+            "lng": -7.253000380291499
           }
         }
       },
-      "navigation_points": [
-        {
-          "location": {
-            "latitude": 52.6495153,
-            "longitude": -7.2516458
-          }
-        }
-      ],
+      "name": "The Club House Hotel",
       "place_id": "ChIJ01oZ854wXUgRc53tyIAIH_M",
-      "plus_code": {
-        "compound_code": "JPXX+R7 Kilkenny, County Kilkenny, Ireland",
-        "global_code": "9C4JJPXX+R7"
-      },
       "types": [
         "bar",
         "establishment",
@@ -126955,7 +126889,8 @@
         "lodging",
         "point_of_interest",
         "restaurant"
-      ]
+      ],
+      "website": "http://www.clubhousehotel.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Dewberry\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Dewberry Hotel\", \"The Dewberry Resort\", \"The Dewberry\", \"The Dewberry Charleston, South Carolina US Hotel\", \"The Dewberry Charleston, South Carolina US Resort\", \"The Dewberry Charleston, South Carolina US\"], \"v\": 3}": {
@@ -128345,45 +128280,47 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Grove\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Grove Hotel\", \"The Grove Resort\", \"The Grove\", \"The Grove Hertfordshire, England Hotel\", \"The Grove Hertfordshire, England Resort\", \"The Grove Hertfordshire, England\"], \"v\": 3}": {
-    "lat": 43.6139805,
-    "lon": -116.2037791,
-    "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
+    "lat": 51.677052,
+    "lon": -0.436857,
+    "formatted_address": "Chandler's Cross, Watford WD3 4TG, UK",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
+    "place_id": "ChIJPYjFIHpqdkgRn0B8GNfoTVo",
     "types": [
       "establishment",
       "lodging",
-      "point_of_interest"
+      "point_of_interest",
+      "spa"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
+      "formatted_address": "Chandler's Cross, Watford WD3 4TG, UK",
       "geometry": {
         "location": {
-          "lat": 43.6139805,
-          "lng": -116.2037791
+          "lat": 51.677052,
+          "lng": -0.436857
         },
         "viewport": {
           "northeast": {
-            "lat": 43.61524663029149,
-            "lng": -116.2022796697085
+            "lat": 51.6786900802915,
+            "lng": -0.4358084197084979
           },
           "southwest": {
-            "lat": 43.6125486697085,
-            "lng": -116.2049776302915
+            "lat": 51.6759921197085,
+            "lng": -0.438506380291502
           }
         }
       },
-      "name": "The Grove Hotel",
-      "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
+      "name": "The Grove Hotel – Spa and Golf",
+      "place_id": "ChIJPYjFIHpqdkgRn0B8GNfoTVo",
       "types": [
         "establishment",
         "lodging",
-        "point_of_interest"
+        "point_of_interest",
+        "spa"
       ],
-      "website": "http://www.grovehotelboise.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect"
+      "website": "http://www.thegrove.co.uk/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Southern Ocean Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Southern Ocean Lodge Hotel\", \"Southern Ocean Lodge Resort\", \"Southern Ocean Lodge\", \"Southern Ocean Lodge Kingscote, Australia Hotel\", \"Southern Ocean Lodge Kingscote, Australia Resort\", \"Southern Ocean Lodge Kingscote, Australia\"], \"v\": 3}": {
@@ -130183,12 +130120,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 39.9927967,
-    "lon": -76.28769179999999,
-    "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
+    "lat": 40.025647,
+    "lon": -76.2103178,
+    "formatted_address": "2320 Lincoln Hwy E, Lancaster, PA 17602, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
+    "place_id": "ChIJp6-nrr47xokR-cBopTFxWz4",
     "types": [
       "establishment",
       "lodging",
@@ -130197,31 +130134,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
+      "formatted_address": "2320 Lincoln Hwy E, Lancaster, PA 17602, USA",
       "geometry": {
         "location": {
-          "lat": 39.9927967,
-          "lng": -76.28769179999999
+          "lat": 40.025647,
+          "lng": -76.2103178
         },
         "viewport": {
           "northeast": {
-            "lat": 39.9940706302915,
-            "lng": -76.28663611970849
+            "lat": 40.0270498302915,
+            "lng": -76.2090659697085
           },
           "southwest": {
-            "lat": 39.9913726697085,
-            "lng": -76.2893340802915
+            "lat": 40.0243518697085,
+            "lng": -76.21176393029151
           }
         }
       },
-      "name": "DoubleTree Resort by Hilton Hotel Lancaster",
-      "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
+      "name": "Tru by Hilton Lancaster East",
+      "place_id": "ChIJp6-nrr47xokR-cBopTFxWz4",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/lnswvdt-doubletree-resort-lancaster/?SEO_id=GMB-AMER-DT-LNSWVDT&y_source=1_MTM3MjczNC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.hilton.com/en/hotels/lnsruru-tru-lancaster-east/?SEO_id=GMB-AMER-RU-LNSRURU&y_source=1_Nzg2MDQ3Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -145042,8 +144979,8 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Aliee Istanbul - a Paris Society Collection Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Istanbul, Turkey Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Istanbul, Turkey Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Istanbul, Turkey\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Istanbul, Turkey Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Istanbul, Turkey Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Istanbul, Turkey\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Istanbul, Turkey Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Istanbul, Turkey Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Istanbul, Turkey\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Istanbul, Turkey Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Istanbul, Turkey Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Istanbul, Turkey\", \"Aliee Istanbul - a Paris Society Collection Hotel Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Istanbul, Turkey Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Istanbul, Turkey Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Istanbul, Turkey\"], \"v\": 3}": {
-    "lat": 41.0344355,
-    "lon": 28.9613995,
+    "lat": 41.0341765,
+    "lon": 28.9576444,
     "formatted_address": "Camiikebir, Taşkızak Tersanesi Caddesi No:11-19, 34437 Beyoğlu/İstanbul, Türkiye",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
@@ -145059,17 +144996,17 @@
       "formatted_address": "Camiikebir, Taşkızak Tersanesi Caddesi No:11-19, 34437 Beyoğlu/İstanbul, Türkiye",
       "geometry": {
         "location": {
-          "lat": 41.0344355,
-          "lng": 28.9613995
+          "lat": 41.0341765,
+          "lng": 28.9576444
         },
         "viewport": {
           "northeast": {
-            "lat": 41.0357844802915,
-            "lng": 28.9627484802915
+            "lat": 41.0355254802915,
+            "lng": 28.9589933802915
           },
           "southwest": {
-            "lat": 41.0330865197085,
-            "lng": 28.9600505197085
+            "lat": 41.0328275197085,
+            "lng": 28.9562954197085
           }
         }
       },
@@ -145080,7 +145017,7 @@
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=C4K9&merchantid=seo-maps-T%C3%BCrkiye-C4K9&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
+      "website": "https://www.alieeistanbul.com/en"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Faena Miami Beach\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Faena Miami Beach Ennismore Hotel\", \"Faena Miami Beach Ennismore Resort\", \"Faena Miami Beach Ennismore\", \"Faena Miami Beach Ennismore Miami Beach, Florida US Hotel\", \"Faena Miami Beach Ennismore Miami Beach, Florida US Resort\", \"Faena Miami Beach Ennismore Miami Beach, Florida US\", \"Faena Miami Beach Hilton Hotel\", \"Faena Miami Beach Hilton Resort\", \"Faena Miami Beach Hilton\", \"Faena Miami Beach Hilton Miami Beach, Florida US Hotel\", \"Faena Miami Beach Hilton Miami Beach, Florida US Resort\", \"Faena Miami Beach Hilton Miami Beach, Florida US\", \"Faena Miami Beach Hotel\", \"Faena Miami Beach Resort\", \"Faena Miami Beach\", \"Faena Miami Beach Miami Beach, Florida US Hotel\", \"Faena Miami Beach Miami Beach, Florida US Resort\", \"Faena Miami Beach Miami Beach, Florida US\"], \"v\": 3}": {
@@ -163572,7 +163509,7 @@
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hyatt.com/en-US/hotel/turkey/park-hyatt-istanbul-macka-palas/istph?src=corp_lclb_google_seo_istph&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+      "website": "https://www.hyatt.com/park-hyatt/en-US/istph-park-hyatt-istanbul-macka-palas?src=corp_lclb_google_seo_istph&utm_source=google&utm_medium=organic&utm_campaign=lmr"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Park Hyatt Kyoto\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Park Hyatt Kyoto Park Hyatt Hotel\", \"Park Hyatt Kyoto Park Hyatt Resort\", \"Park Hyatt Kyoto Park Hyatt\", \"Park Hyatt Kyoto Park Hyatt Kyoto, Japan Hotel\", \"Park Hyatt Kyoto Park Hyatt Kyoto, Japan Resort\", \"Park Hyatt Kyoto Park Hyatt Kyoto, Japan\", \"Park Hyatt Kyoto Hilton Hotel\", \"Park Hyatt Kyoto Hilton Resort\", \"Park Hyatt Kyoto Hilton\", \"Park Hyatt Kyoto Hilton Kyoto, Japan Hotel\", \"Park Hyatt Kyoto Hilton Kyoto, Japan Resort\", \"Park Hyatt Kyoto Hilton Kyoto, Japan\", \"Park Hyatt Kyoto Hotel\", \"Park Hyatt Kyoto Resort\", \"Park Hyatt Kyoto\", \"Park Hyatt Kyoto Kyoto, Japan Hotel\", \"Park Hyatt Kyoto Kyoto, Japan Resort\", \"Park Hyatt Kyoto Kyoto, Japan\"], \"v\": 3}": {
@@ -209888,6 +209825,369 @@
         "point_of_interest"
       ],
       "website": "https://www.marriott.com/en-us/hotels/pujwh-w-punta-cana-adult-all-inclusive/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Can Bordoy Grand House GL Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Can Bordoy Grand House GL Preferred Hotels & Resorts\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"DAS EDELWEISS Salzburg Mountain Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"DAS EDELWEISS Salzburg Mountain Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Grand Hotel Villa Serbelloni\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Hotel Villa Serbelloni\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Villa Mirae by Inwood Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Villa Mirae by Inwood Hotels\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Rissai Valley, a Ritz-Carlton Reserve\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rissai Valley, a Ritz-Carlton Reserve\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"ROKI Collection Queenstown\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"ROKI Collection Queenstown\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"The Leela Palace Jaipur\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Leela Palace Jaipur\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Xitan Hotel Beijing\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Xitan Hotel Beijing\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"ROKI Collection Queenstown\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"ROKI Collection Queenstown Hotel\", \"ROKI Collection Queenstown Resort\", \"ROKI Collection Queenstown\", \"ROKI Collection Queenstown Queenstown, New Zealand Hotel\", \"ROKI Collection Queenstown Queenstown, New Zealand Resort\", \"ROKI Collection Queenstown Queenstown, New Zealand\", \"Roki Collection Queenstown Hotel\", \"Roki Collection Queenstown Resort\", \"Roki Collection Queenstown\", \"Roki Collection Queenstown Queenstown, New Zealand Hotel\", \"Roki Collection Queenstown Queenstown, New Zealand Resort\", \"Roki Collection Queenstown Queenstown, New Zealand\"], \"v\": 3}": {
+    "lat": -45.0340898,
+    "lon": 168.6549804,
+    "formatted_address": "2 Brunswick Street, Queenstown 9300, New Zealand",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJKwroWCId1akRIAfQCs44950",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2 Brunswick Street, Queenstown 9300, New Zealand",
+      "geometry": {
+        "location": {
+          "lat": -45.0340898,
+          "lng": 168.6549804
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -45.0326732197085,
+            "lng": 168.6563391302915
+          },
+          "southwest": {
+            "lat": -45.0353711802915,
+            "lng": 168.6536411697085
+          }
+        }
+      },
+      "name": "Roki Collection",
+      "place_id": "ChIJKwroWCId1akRIAfQCs44950",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.roki-collection.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"DAS EDELWEISS Salzburg Mountain Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"DAS EDELWEISS Salzburg Mountain Resort Preferred Hotels & Resorts Hotel\", \"DAS EDELWEISS Salzburg Mountain Resort Preferred Hotels & Resorts Resort\", \"DAS EDELWEISS Salzburg Mountain Resort Preferred Hotels & Resorts\", \"DAS EDELWEISS Salzburg Mountain Resort Preferred Hotels & Resorts Grossarl, Austria Hotel\", \"DAS EDELWEISS Salzburg Mountain Resort Preferred Hotels & Resorts Grossarl, Austria Resort\", \"DAS EDELWEISS Salzburg Mountain Resort Preferred Hotels & Resorts Grossarl, Austria\", \"DAS EDELWEISS Salzburg Mountain Resort Hilton Hotel\", \"DAS EDELWEISS Salzburg Mountain Resort Hilton Resort\", \"DAS EDELWEISS Salzburg Mountain Resort Hilton\", \"DAS EDELWEISS Salzburg Mountain Resort Hilton Grossarl, Austria Hotel\", \"DAS EDELWEISS Salzburg Mountain Resort Hilton Grossarl, Austria Resort\", \"DAS EDELWEISS Salzburg Mountain Resort Hilton Grossarl, Austria\", \"Das Edelweiss Salzburg Mountain Resort Preferred Hotels & Resorts Hotel\", \"Das Edelweiss Salzburg Mountain Resort Preferred Hotels & Resorts Resort\", \"Das Edelweiss Salzburg Mountain Resort Preferred Hotels & Resorts\", \"Das Edelweiss Salzburg Mountain Resort Preferred Hotels & Resorts Grossarl, Austria Hotel\", \"Das Edelweiss Salzburg Mountain Resort Preferred Hotels & Resorts Grossarl, Austria Resort\", \"Das Edelweiss Salzburg Mountain Resort Preferred Hotels & Resorts Grossarl, Austria\", \"Das Edelweiss Salzburg Mountain Resort Hilton Hotel\", \"Das Edelweiss Salzburg Mountain Resort Hilton Resort\", \"Das Edelweiss Salzburg Mountain Resort Hilton\", \"Das Edelweiss Salzburg Mountain Resort Hilton Grossarl, Austria Hotel\", \"Das Edelweiss Salzburg Mountain Resort Hilton Grossarl, Austria Resort\", \"Das Edelweiss Salzburg Mountain Resort Hilton Grossarl, Austria\", \"DAS EDELWEISS Salzburg Mountain Resort Hotel\", \"DAS EDELWEISS Salzburg Mountain Resort Resort\", \"DAS EDELWEISS Salzburg Mountain Resort\", \"DAS EDELWEISS Salzburg Mountain Resort Grossarl, Austria Hotel\", \"DAS EDELWEISS Salzburg Mountain Resort Grossarl, Austria Resort\", \"DAS EDELWEISS Salzburg Mountain Resort Grossarl, Austria\"], \"v\": 3}": {
+    "lat": 47.2429235,
+    "lon": 13.1954779,
+    "formatted_address": "Unterbergstraße 65, 5611 Großarl, Austria",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJbY_DqM4od0cRXYgvL0C-gx0",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Unterbergstraße 65, 5611 Großarl, Austria",
+      "geometry": {
+        "location": {
+          "lat": 47.2429235,
+          "lng": 13.1954779
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.24456153029149,
+            "lng": 13.19699598029151
+          },
+          "southwest": {
+            "lat": 47.24186356970849,
+            "lng": 13.1942980197085
+          }
+        }
+      },
+      "name": "DAS EDELWEISS Salzburg Mountain Resort",
+      "place_id": "ChIJbY_DqM4od0cRXYgvL0C-gx0",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.edelweiss-grossarl.com/?utm_source=google-my-business&utm_medium=referral&utm_campaign=gmb-eintrag"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Leela Palace Jaipur\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Leela Palace Jaipur Preferred Hotels & Resorts Hotel\", \"The Leela Palace Jaipur Preferred Hotels & Resorts Resort\", \"The Leela Palace Jaipur Preferred Hotels & Resorts\", \"The Leela Palace Jaipur Preferred Hotels & Resorts Jaipur, India Hotel\", \"The Leela Palace Jaipur Preferred Hotels & Resorts Jaipur, India Resort\", \"The Leela Palace Jaipur Preferred Hotels & Resorts Jaipur, India\", \"The Leela Palace Jaipur Hilton Hotel\", \"The Leela Palace Jaipur Hilton Resort\", \"The Leela Palace Jaipur Hilton\", \"The Leela Palace Jaipur Hilton Jaipur, India Hotel\", \"The Leela Palace Jaipur Hilton Jaipur, India Resort\", \"The Leela Palace Jaipur Hilton Jaipur, India\", \"Leela Palace Jaipur Preferred Hotels & Resorts Hotel\", \"Leela Palace Jaipur Preferred Hotels & Resorts Resort\", \"Leela Palace Jaipur Preferred Hotels & Resorts\", \"Leela Palace Jaipur Preferred Hotels & Resorts Jaipur, India Hotel\", \"Leela Palace Jaipur Preferred Hotels & Resorts Jaipur, India Resort\", \"Leela Palace Jaipur Preferred Hotels & Resorts Jaipur, India\", \"Leela Palace Jaipur Hilton Hotel\", \"Leela Palace Jaipur Hilton Resort\", \"Leela Palace Jaipur Hilton\", \"Leela Palace Jaipur Hilton Jaipur, India Hotel\", \"Leela Palace Jaipur Hilton Jaipur, India Resort\", \"Leela Palace Jaipur Hilton Jaipur, India\", \"The Leela Palace Jaipur Hotel\", \"The Leela Palace Jaipur Resort\", \"The Leela Palace Jaipur\", \"The Leela Palace Jaipur Jaipur, India Hotel\", \"The Leela Palace Jaipur Jaipur, India Resort\", \"The Leela Palace Jaipur Jaipur, India\"], \"v\": 3}": {
+    "lat": 27.0476834,
+    "lon": 75.90337819999999,
+    "formatted_address": "The Leela Palace, NH 11, Delhi Expressway, Kukas, Kookas, Rajasthan 302038, India",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ9d6ozg2lbTkRCMss-V0zYA0",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "The Leela Palace, NH 11, Delhi Expressway, Kukas, Kookas, Rajasthan 302038, India",
+      "geometry": {
+        "location": {
+          "lat": 27.0476834,
+          "lng": 75.90337819999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 27.0490392302915,
+            "lng": 75.90473203029151
+          },
+          "southwest": {
+            "lat": 27.0463412697085,
+            "lng": 75.90203406970849
+          }
+        }
+      },
+      "name": "The Leela Palace Jaipur",
+      "place_id": "ChIJ9d6ozg2lbTkRCMss-V0zYA0",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.theleela.com/the-leela-palace-jaipur?utm_source=GMBlisting&utm_medium=organic&utm_campaign=gbp-leela-palace-jaipur&utm_content=hotel-website-click"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Can Bordoy Grand House GL Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts Palma, Spain Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts Palma, Spain Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Preferred Hotels & Resorts Palma, Spain\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton Palma, Spain Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton Palma, Spain Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hilton Palma, Spain\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts Hotel\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts Resort\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts Palma, Spain Hotel\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts Palma, Spain Resort\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Preferred Hotels & Resorts Palma, Spain\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton Hotel\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton Resort\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton Palma, Spain Hotel\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton Palma, Spain Resort\", \"Can Bordoy Grand House Gl Preferred Hotels Resorts Hilton Palma, Spain\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Palma, Spain Hotel\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Palma, Spain Resort\", \"Can Bordoy Grand House GL Preferred Hotels & Resorts Palma, Spain\"], \"v\": 3}": {
+    "lat": 39.5696597,
+    "lon": 2.6444226,
+    "formatted_address": "Carrer del Forn de la Glòria, 14, Centre, 07012 Palma, Illes Balears, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJJ9iDt0SSlxIRjTMWcgBy7ic",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carrer del Forn de la Glòria, 14, Centre, 07012 Palma, Illes Balears, Spain",
+      "geometry": {
+        "location": {
+          "lat": 39.5696597,
+          "lng": 2.6444226
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.5709530802915,
+            "lng": 2.645750930291502
+          },
+          "southwest": {
+            "lat": 39.5682551197085,
+            "lng": 2.643052969708498
+          }
+        }
+      },
+      "name": "Can Bordoy Grand House & Garden",
+      "place_id": "ChIJJ9iDt0SSlxIRjTMWcgBy7ic",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://canbordoy.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Villa Mirae by Inwood Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Villa Mirae by Inwood Hotels Relais & Ch\\u00e2teaux Hotel\", \"Villa Mirae by Inwood Hotels Relais & Ch\\u00e2teaux Resort\", \"Villa Mirae by Inwood Hotels Relais & Ch\\u00e2teaux\", \"Villa Mirae by Inwood Hotels Relais & Ch\\u00e2teaux Antibes, France Hotel\", \"Villa Mirae by Inwood Hotels Relais & Ch\\u00e2teaux Antibes, France Resort\", \"Villa Mirae by Inwood Hotels Relais & Ch\\u00e2teaux Antibes, France\", \"Villa Mirae by Inwood Hotels Hilton Hotel\", \"Villa Mirae by Inwood Hotels Hilton Resort\", \"Villa Mirae by Inwood Hotels Hilton\", \"Villa Mirae by Inwood Hotels Hilton Antibes, France Hotel\", \"Villa Mirae by Inwood Hotels Hilton Antibes, France Resort\", \"Villa Mirae by Inwood Hotels Hilton Antibes, France\", \"Villa Mirae Inwood Hotels Relais & Ch\\u00e2teaux Hotel\", \"Villa Mirae Inwood Hotels Relais & Ch\\u00e2teaux Resort\", \"Villa Mirae Inwood Hotels Relais & Ch\\u00e2teaux\", \"Villa Mirae Inwood Hotels Relais & Ch\\u00e2teaux Antibes, France Hotel\", \"Villa Mirae Inwood Hotels Relais & Ch\\u00e2teaux Antibes, France Resort\", \"Villa Mirae Inwood Hotels Relais & Ch\\u00e2teaux Antibes, France\", \"Villa Mirae Inwood Hotels Hilton Hotel\", \"Villa Mirae Inwood Hotels Hilton Resort\", \"Villa Mirae Inwood Hotels Hilton\", \"Villa Mirae Inwood Hotels Hilton Antibes, France Hotel\", \"Villa Mirae Inwood Hotels Hilton Antibes, France Resort\", \"Villa Mirae Inwood Hotels Hilton Antibes, France\", \"Villa Mirae by Inwood Hotels Hotel\", \"Villa Mirae by Inwood Hotels Resort\", \"Villa Mirae by Inwood Hotels\", \"Villa Mirae by Inwood Hotels Antibes, France Hotel\", \"Villa Mirae by Inwood Hotels Antibes, France Resort\", \"Villa Mirae by Inwood Hotels Antibes, France\"], \"v\": 3}": {
+    "lat": 43.5547227,
+    "lon": 7.1336609,
+    "formatted_address": "770 Chem. de la Garoupe, 06160 Antibes, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJneSMqXF_zhIRXGujriEY8Po",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "770 Chem. de la Garoupe, 06160 Antibes, France",
+      "geometry": {
+        "location": {
+          "lat": 43.5547227,
+          "lng": 7.1336609
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.55621533029149,
+            "lng": 7.134965630291501
+          },
+          "southwest": {
+            "lat": 43.5535173697085,
+            "lng": 7.132267669708496
+          }
+        }
+      },
+      "name": "Hôtel Villa Miraé by Inwood Hotels",
+      "place_id": "ChIJneSMqXF_zhIRXGujriEY8Po",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.villamirae-capantibes.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Xitan Hotel Beijing\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Xitan Hotel Beijing Relais & Ch\\u00e2teaux Hotel\", \"Xitan Hotel Beijing Relais & Ch\\u00e2teaux Resort\", \"Xitan Hotel Beijing Relais & Ch\\u00e2teaux\", \"Xitan Hotel Beijing Relais & Ch\\u00e2teaux Beijing, China Hotel\", \"Xitan Hotel Beijing Relais & Ch\\u00e2teaux Beijing, China Resort\", \"Xitan Hotel Beijing Relais & Ch\\u00e2teaux Beijing, China\", \"Xitan Hotel Beijing Hilton Hotel\", \"Xitan Hotel Beijing Hilton Resort\", \"Xitan Hotel Beijing Hilton\", \"Xitan Hotel Beijing Hilton Beijing, China Hotel\", \"Xitan Hotel Beijing Hilton Beijing, China Resort\", \"Xitan Hotel Beijing Hilton Beijing, China\", \"Xitan Hotel Beijing Hotel\", \"Xitan Hotel Beijing Resort\", \"Xitan Hotel Beijing\", \"Xitan Hotel Beijing Beijing, China Hotel\", \"Xitan Hotel Beijing Beijing, China Resort\", \"Xitan Hotel Beijing Beijing, China\"], \"v\": 3}": {
+    "lat": 39.908295,
+    "lon": 116.024826,
+    "formatted_address": "288 Tan Wang Lu, Tan Zhe Si Zhen, Men Tou Gou Qu, Bei Jing Shi, China, 102399",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJx8STufZp8DURJyvcYwj0ZDw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "288 Tan Wang Lu, Tan Zhe Si Zhen, Men Tou Gou Qu, Bei Jing Shi, China, 102399",
+      "geometry": {
+        "location": {
+          "lat": 39.908295,
+          "lng": 116.024826
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.90964398029149,
+            "lng": 116.0261749802915
+          },
+          "southwest": {
+            "lat": 39.90694601970849,
+            "lng": 116.0234770197085
+          }
+        }
+      },
+      "name": "Xitan Hotel Beijing",
+      "place_id": "ChIJx8STufZp8DURJyvcYwj0ZDw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Grand Hotel Villa Serbelloni\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Hotel Villa Serbelloni Relais & Ch\\u00e2teaux Hotel\", \"Grand Hotel Villa Serbelloni Relais & Ch\\u00e2teaux Resort\", \"Grand Hotel Villa Serbelloni Relais & Ch\\u00e2teaux\", \"Grand Hotel Villa Serbelloni Relais & Ch\\u00e2teaux Bellagio, Italy Hotel\", \"Grand Hotel Villa Serbelloni Relais & Ch\\u00e2teaux Bellagio, Italy Resort\", \"Grand Hotel Villa Serbelloni Relais & Ch\\u00e2teaux Bellagio, Italy\", \"Grand Hotel Villa Serbelloni Hilton Hotel\", \"Grand Hotel Villa Serbelloni Hilton Resort\", \"Grand Hotel Villa Serbelloni Hilton\", \"Grand Hotel Villa Serbelloni Hilton Bellagio, Italy Hotel\", \"Grand Hotel Villa Serbelloni Hilton Bellagio, Italy Resort\", \"Grand Hotel Villa Serbelloni Hilton Bellagio, Italy\", \"Grand Hotel Villa Serbelloni Hotel\", \"Grand Hotel Villa Serbelloni Resort\", \"Grand Hotel Villa Serbelloni\", \"Grand Hotel Villa Serbelloni Bellagio, Italy Hotel\", \"Grand Hotel Villa Serbelloni Bellagio, Italy Resort\", \"Grand Hotel Villa Serbelloni Bellagio, Italy\"], \"v\": 3}": {
+    "lat": 45.9887466,
+    "lon": 9.2608309,
+    "formatted_address": "Via Teresio Olivelli, 1, 22021 Bellagio CO, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ50Lxz_8XhEcRL-6Yp2HreK0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Teresio Olivelli, 1, 22021 Bellagio CO, Italy",
+      "geometry": {
+        "location": {
+          "lat": 45.9887466,
+          "lng": 9.2608309
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.9899857802915,
+            "lng": 9.262621330291502
+          },
+          "southwest": {
+            "lat": 45.9872878197085,
+            "lng": 9.259923369708497
+          }
+        }
+      },
+      "name": "Grand Hotel Villa Serbelloni",
+      "place_id": "ChIJ50Lxz_8XhEcRL-6Yp2HreK0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.villaserbelloni.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Rissai Valley, a Ritz-Carlton Reserve\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rissai Valley, a Ritz-Carlton Reserve Ritz-Carlton Reserve Hotel\", \"Rissai Valley, a Ritz-Carlton Reserve Ritz-Carlton Reserve Resort\", \"Rissai Valley, a Ritz-Carlton Reserve Ritz-Carlton Reserve\", \"Rissai Valley, a Ritz-Carlton Reserve Ritz-Carlton Reserve Sichuan, China Hotel\", \"Rissai Valley, a Ritz-Carlton Reserve Ritz-Carlton Reserve Sichuan, China Resort\", \"Rissai Valley, a Ritz-Carlton Reserve Ritz-Carlton Reserve Sichuan, China\", \"Rissai Valley, a Ritz-Carlton Reserve Hilton Hotel\", \"Rissai Valley, a Ritz-Carlton Reserve Hilton Resort\", \"Rissai Valley, a Ritz-Carlton Reserve Hilton\", \"Rissai Valley, a Ritz-Carlton Reserve Hilton Sichuan, China Hotel\", \"Rissai Valley, a Ritz-Carlton Reserve Hilton Sichuan, China Resort\", \"Rissai Valley, a Ritz-Carlton Reserve Hilton Sichuan, China\", \"Rissai Valley a Ritz carlton Reserve Ritz-Carlton Reserve Hotel\", \"Rissai Valley a Ritz carlton Reserve Ritz-Carlton Reserve Resort\", \"Rissai Valley a Ritz carlton Reserve Ritz-Carlton Reserve\", \"Rissai Valley a Ritz carlton Reserve Ritz-Carlton Reserve Sichuan, China Hotel\", \"Rissai Valley a Ritz carlton Reserve Ritz-Carlton Reserve Sichuan, China Resort\", \"Rissai Valley a Ritz carlton Reserve Ritz-Carlton Reserve Sichuan, China\", \"Rissai Valley a Ritz carlton Reserve Hilton Hotel\", \"Rissai Valley a Ritz carlton Reserve Hilton Resort\", \"Rissai Valley a Ritz carlton Reserve Hilton\", \"Rissai Valley a Ritz carlton Reserve Hilton Sichuan, China Hotel\", \"Rissai Valley a Ritz carlton Reserve Hilton Sichuan, China Resort\", \"Rissai Valley a Ritz carlton Reserve Hilton Sichuan, China\", \"Rissai Valley, a Ritz-Carlton Reserve Hotel\", \"Rissai Valley, a Ritz-Carlton Reserve Resort\", \"Rissai Valley, a Ritz-Carlton Reserve\", \"Rissai Valley, a Ritz-Carlton Reserve Sichuan, China Hotel\", \"Rissai Valley, a Ritz-Carlton Reserve Sichuan, China Resort\", \"Rissai Valley, a Ritz-Carlton Reserve Sichuan, China\"], \"v\": 3}": {
+    "lat": 33.2919344,
+    "lon": 103.8130314,
+    "formatted_address": "26 二组, Jiu Zhai Gou Xian, A Ba Zang Zu Qiang Zu Zi Zhi Zhou, Si Chuan Sheng, China, 623402",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJC4cQbDKU9zYRa4fSp-RzAOU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "26 二组, Jiu Zhai Gou Xian, A Ba Zang Zu Qiang Zu Zi Zhi Zhou, Si Chuan Sheng, China, 623402",
+      "geometry": {
+        "location": {
+          "lat": 33.2919344,
+          "lng": 103.8130314
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.29328338029149,
+            "lng": 103.8143803802915
+          },
+          "southwest": {
+            "lat": 33.2905854197085,
+            "lng": 103.8116824197085
+          }
+        }
+      },
+      "name": "Rissai Valley, a Ritz-Carlton Reserve",
+      "place_id": "ChIJC4cQbDKU9zYRa4fSp-RzAOU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ritzcarlton.com/en/hotels/jzhrz-rissai-valley-a-ritz-carlton-reserve/overview/"
     }
   }
 }
