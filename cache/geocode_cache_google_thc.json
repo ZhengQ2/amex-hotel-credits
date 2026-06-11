@@ -92311,14 +92311,13 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Atlas Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Atlas Hotel Hotel\", \"The Atlas Hotel Resort\", \"The Atlas Hotel\", \"The Atlas Hotel Boston, Massachusetts US Hotel\", \"The Atlas Hotel Boston, Massachusetts US Resort\", \"The Atlas Hotel Boston, Massachusetts US\"], \"v\": 3}": {
-    "lat": 50.4130167,
-    "lon": -104.6174228,
-    "formatted_address": "4177 Albert St, Regina, SK S4S 3R8, Canada",
+    "lat": 42.363669,
+    "lon": -71.12161669999999,
+    "formatted_address": "40 Western Ave, Boston, MA 02134, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJOXxzNImhHlMRLl47TgUpPMI",
+    "place_id": "ChIJIxFhCGB344kRx0_1t-f3pnE",
     "types": [
-      "amusement_park",
       "establishment",
       "lodging",
       "point_of_interest"
@@ -92326,32 +92325,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "4177 Albert St, Regina, SK S4S 3R8, Canada",
+      "formatted_address": "40 Western Ave, Boston, MA 02134, USA",
       "geometry": {
         "location": {
-          "lat": 50.4130167,
-          "lng": -104.6174228
+          "lat": 42.363669,
+          "lng": -71.12161669999999
         },
         "viewport": {
           "northeast": {
-            "lat": 50.4143809302915,
-            "lng": -104.6161726697085
+            "lat": 42.36512088029151,
+            "lng": -71.12029021970848
           },
           "southwest": {
-            "lat": 50.4116829697085,
-            "lng": -104.6188706302915
+            "lat": 42.36242291970851,
+            "lng": -71.1229881802915
           }
         }
       },
-      "name": "The Atlas˚ Hotel",
-      "place_id": "ChIJOXxzNImhHlMRLl47TgUpPMI",
+      "name": "The Atlas Hotel",
+      "place_id": "ChIJIxFhCGB344kRx0_1t-f3pnE",
       "types": [
-        "amusement_park",
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "http://www.atlashotel.com/"
+      "website": "https://www.theatlashotel.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Whitney Hotel Boston\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Whitney Hotel Boston Hotel\", \"The Whitney Hotel Boston Resort\", \"The Whitney Hotel Boston\", \"The Whitney Hotel Boston Boston, Massachusetts US Hotel\", \"The Whitney Hotel Boston Boston, Massachusetts US Resort\", \"The Whitney Hotel Boston Boston, Massachusetts US\", \"Whitney Hotel Boston Hotel\", \"Whitney Hotel Boston Resort\", \"Whitney Hotel Boston\", \"Whitney Hotel Boston Boston, Massachusetts US Hotel\", \"Whitney Hotel Boston Boston, Massachusetts US Resort\", \"Whitney Hotel Boston Boston, Massachusetts US\"], \"v\": 3}": {
@@ -141705,12 +141703,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Antonio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Antonio Small Luxury Hotels of the World Hotel\", \"San Antonio Small Luxury Hotels of the World Resort\", \"San Antonio Small Luxury Hotels of the World\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Hotel\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Resort\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece\", \"San Antonio Hilton Hotel\", \"San Antonio Hilton Resort\", \"San Antonio Hilton\", \"San Antonio Hilton Imerovigli, Greece Hotel\", \"San Antonio Hilton Imerovigli, Greece Resort\", \"San Antonio Hilton Imerovigli, Greece\", \"San Antonio Hotel\", \"San Antonio Resort\", \"San Antonio\", \"San Antonio Imerovigli, Greece Hotel\", \"San Antonio Imerovigli, Greece Resort\", \"San Antonio Imerovigli, Greece\"], \"v\": 3}": {
-    "lat": 29.6663753,
-    "lon": -98.4008875,
-    "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
+    "lat": 29.4274372,
+    "lon": -98.48950160000001,
+    "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
+    "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
     "types": [
       "establishment",
       "lodging",
@@ -141719,31 +141717,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
+      "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
       "geometry": {
         "location": {
-          "lat": 29.6663753,
-          "lng": -98.4008875
+          "lat": 29.4274372,
+          "lng": -98.48950160000001
         },
         "viewport": {
           "northeast": {
-            "lat": 29.6677274302915,
-            "lng": -98.39953276970849
+            "lat": 29.4288418802915,
+            "lng": -98.4880995197085
           },
           "southwest": {
-            "lat": 29.6650294697085,
-            "lng": -98.40223073029149
+            "lat": 29.4261439197085,
+            "lng": -98.4907974802915
           }
         }
       },
-      "name": "JW Marriott San Antonio Hill Country Resort & Spa",
-      "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
+      "name": "The St. Anthony, a Luxury Collection Hotel, San Antonio",
+      "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.marriott.com/en-us/hotels/satjw-jw-marriott-san-antonio-hill-country-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+      "website": "https://www.marriott.com/en-us/hotels/satlc-the-st-anthony-a-luxury-collection-hotel-san-antonio/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rusty Parrot Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
@@ -154713,6 +154711,182 @@
         "restaurant"
       ],
       "website": "https://www.thedominican.be/"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hyatt Centric Fisherman's Wharf San Francisco\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hyatt Centric Fisherman's Wharf San Francisco\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Masseria Donna Menga\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Masseria Donna Menga\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Andaz One Bangkok\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Andaz One Bangkok\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Andaz One Bangkok\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Andaz One Bangkok Andaz Hotel\", \"Andaz One Bangkok Andaz Resort\", \"Andaz One Bangkok Andaz\", \"Andaz One Bangkok Andaz Bangkok, Thailand Hotel\", \"Andaz One Bangkok Andaz Bangkok, Thailand Resort\", \"Andaz One Bangkok Andaz Bangkok, Thailand\", \"Andaz One Bangkok Hilton Hotel\", \"Andaz One Bangkok Hilton Resort\", \"Andaz One Bangkok Hilton\", \"Andaz One Bangkok Hilton Bangkok, Thailand Hotel\", \"Andaz One Bangkok Hilton Bangkok, Thailand Resort\", \"Andaz One Bangkok Hilton Bangkok, Thailand\", \"Andaz One Bangkok Hotel\", \"Andaz One Bangkok Resort\", \"Andaz One Bangkok\", \"Andaz One Bangkok Bangkok, Thailand Hotel\", \"Andaz One Bangkok Bangkok, Thailand Resort\", \"Andaz One Bangkok Bangkok, Thailand\"], \"v\": 3}": {
+    "lat": 13.7275567,
+    "lon": 100.5454584,
+    "formatted_address": "201 Thanon Witthayu, Khwaeng Lumphini, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJSWmsECSf4jARf-Geu-IiMw0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "201 Thanon Witthayu, Khwaeng Lumphini, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand",
+      "geometry": {
+        "location": {
+          "lat": 13.7275567,
+          "lng": 100.5454584
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 13.7288459302915,
+            "lng": 100.5466432302915
+          },
+          "southwest": {
+            "lat": 13.7261479697085,
+            "lng": 100.5439452697085
+          }
+        }
+      },
+      "name": "Andaz One Bangkok, by Hyatt",
+      "place_id": "ChIJSWmsECSf4jARf-Geu-IiMw0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/andaz/en-US/bkkaz-andaz-one-bangkok?src=corp_lclb_google_seo_bkkaz&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hyatt Centric Fisherman's Wharf San Francisco\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hyatt Centric Fisherman's Wharf San Francisco Hyatt Centric Hotel\", \"Hyatt Centric Fisherman's Wharf San Francisco Hyatt Centric Resort\", \"Hyatt Centric Fisherman's Wharf San Francisco Hyatt Centric\", \"Hyatt Centric Fisherman's Wharf San Francisco Hyatt Centric San Francisco, California US Hotel\", \"Hyatt Centric Fisherman's Wharf San Francisco Hyatt Centric San Francisco, California US Resort\", \"Hyatt Centric Fisherman's Wharf San Francisco Hyatt Centric San Francisco, California US\", \"Hyatt Centric Fisherman's Wharf San Francisco Hilton Hotel\", \"Hyatt Centric Fisherman's Wharf San Francisco Hilton Resort\", \"Hyatt Centric Fisherman's Wharf San Francisco Hilton\", \"Hyatt Centric Fisherman's Wharf San Francisco Hilton San Francisco, California US Hotel\", \"Hyatt Centric Fisherman's Wharf San Francisco Hilton San Francisco, California US Resort\", \"Hyatt Centric Fisherman's Wharf San Francisco Hilton San Francisco, California US\", \"Hyatt Centric Fishermans Wharf San Francisco Hyatt Centric Hotel\", \"Hyatt Centric Fishermans Wharf San Francisco Hyatt Centric Resort\", \"Hyatt Centric Fishermans Wharf San Francisco Hyatt Centric\", \"Hyatt Centric Fishermans Wharf San Francisco Hyatt Centric San Francisco, California US Hotel\", \"Hyatt Centric Fishermans Wharf San Francisco Hyatt Centric San Francisco, California US Resort\", \"Hyatt Centric Fishermans Wharf San Francisco Hyatt Centric San Francisco, California US\", \"Hyatt Centric Fishermans Wharf San Francisco Hilton Hotel\", \"Hyatt Centric Fishermans Wharf San Francisco Hilton Resort\", \"Hyatt Centric Fishermans Wharf San Francisco Hilton\", \"Hyatt Centric Fishermans Wharf San Francisco Hilton San Francisco, California US Hotel\", \"Hyatt Centric Fishermans Wharf San Francisco Hilton San Francisco, California US Resort\", \"Hyatt Centric Fishermans Wharf San Francisco Hilton San Francisco, California US\", \"Hyatt Centric Fisherman's Wharf San Francisco Hotel\", \"Hyatt Centric Fisherman's Wharf San Francisco Resort\", \"Hyatt Centric Fisherman's Wharf San Francisco\", \"Hyatt Centric Fisherman's Wharf San Francisco San Francisco, California US Hotel\", \"Hyatt Centric Fisherman's Wharf San Francisco San Francisco, California US Resort\", \"Hyatt Centric Fisherman's Wharf San Francisco San Francisco, California US\"], \"v\": 3}": {
+    "lat": 37.8059285,
+    "lon": -122.4160784,
+    "formatted_address": "555 North Point St, San Francisco, CA 94133, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJpVWaeeSAhYARu4S3Sa4Jc20",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "555 North Point St, San Francisco, CA 94133, USA",
+      "geometry": {
+        "location": {
+          "lat": 37.8059285,
+          "lng": -122.4160784
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.8072424302915,
+            "lng": -122.4143742697085
+          },
+          "southwest": {
+            "lat": 37.8045444697085,
+            "lng": -122.4170722302915
+          }
+        }
+      },
+      "name": "Hyatt Centric Fisherman's Wharf San Francisco",
+      "place_id": "ChIJpVWaeeSAhYARu4S3Sa4Jc20",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/hyatt-centric/en-US/sfofw-hyatt-centric-fishermans-wharf?src=corp_lclb_google_seo_sfofw&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Masseria Donna Menga\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Masseria Donna Menga The Leading Hotels of the World Hotel\", \"Masseria Donna Menga The Leading Hotels of the World Resort\", \"Masseria Donna Menga The Leading Hotels of the World\", \"Masseria Donna Menga The Leading Hotels of the World Nard\\u00f2, Italy Hotel\", \"Masseria Donna Menga The Leading Hotels of the World Nard\\u00f2, Italy Resort\", \"Masseria Donna Menga The Leading Hotels of the World Nard\\u00f2, Italy\", \"Masseria Donna Menga Hilton Hotel\", \"Masseria Donna Menga Hilton Resort\", \"Masseria Donna Menga Hilton\", \"Masseria Donna Menga Hilton Nard\\u00f2, Italy Hotel\", \"Masseria Donna Menga Hilton Nard\\u00f2, Italy Resort\", \"Masseria Donna Menga Hilton Nard\\u00f2, Italy\", \"Masseria Donna Menga Hotel\", \"Masseria Donna Menga Resort\", \"Masseria Donna Menga\", \"Masseria Donna Menga Nard\\u00f2, Italy Hotel\", \"Masseria Donna Menga Nard\\u00f2, Italy Resort\", \"Masseria Donna Menga Nard\\u00f2, Italy\"], \"v\": 3}": {
+    "lat": 40.2894462,
+    "lon": 17.8881416,
+    "formatted_address": "Strada Donna Domenica, 73048 Nardò LE, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ6U4d4iObRhMRkOin3js7nkk",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Strada Donna Domenica, 73048 Nardò LE, Italy",
+      "geometry": {
+        "location": {
+          "lat": 40.2894462,
+          "lng": 17.8881416
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.2907902802915,
+            "lng": 17.8895568302915
+          },
+          "southwest": {
+            "lat": 40.2880923197085,
+            "lng": 17.8868588697085
+          }
+        }
+      },
+      "name": "Masseria Donna Menga",
+      "place_id": "ChIJ6U4d4iObRhMRkOin3js7nkk",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.masseriadonnamenga.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive The Luxury Collection Hotel\", \"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive The Luxury Collection Resort\", \"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive The Luxury Collection\", \"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive The Luxury Collection Isla Mujeres, Quintana Roo MX Hotel\", \"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive The Luxury Collection Isla Mujeres, Quintana Roo MX Resort\", \"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive The Luxury Collection Isla Mujeres, Quintana Roo MX\", \"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive Hilton Hotel\", \"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive Hilton Resort\", \"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive Hilton\", \"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive Hilton Isla Mujeres, Quintana Roo MX Hotel\", \"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive Hilton Isla Mujeres, Quintana Roo MX Resort\", \"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive Hilton Isla Mujeres, Quintana Roo MX\", \"Almare a Luxury Collection Resort Isla Mujeres Cancun Adult All inclusive The Luxury Collection Hotel\", \"Almare a Luxury Collection Resort Isla Mujeres Cancun Adult All inclusive The Luxury Collection Resort\", \"Almare a Luxury Collection Resort Isla Mujeres Cancun Adult All inclusive The Luxury Collection\", \"Almare a Luxury Collection Resort Isla Mujeres Cancun Adult All inclusive The Luxury Collection Isla Mujeres, Quintana Roo MX Hotel\", \"Almare a Luxury Collection Resort Isla Mujeres Cancun Adult All inclusive The Luxury Collection Isla Mujeres, Quintana Roo MX Resort\", \"Almare a Luxury Collection Resort Isla Mujeres Cancun Adult All inclusive The Luxury Collection Isla Mujeres, Quintana Roo MX\", \"Almare a Luxury Collection Resort Isla Mujeres Cancun Adult All inclusive Hilton Hotel\", \"Almare a Luxury Collection Resort Isla Mujeres Cancun Adult All inclusive Hilton Resort\", \"Almare a Luxury Collection Resort Isla Mujeres Cancun Adult All inclusive Hilton\", \"Almare a Luxury Collection Resort Isla Mujeres Cancun Adult All inclusive Hilton Isla Mujeres, Quintana Roo MX Hotel\", \"Almare a Luxury Collection Resort Isla Mujeres Cancun Adult All inclusive Hilton Isla Mujeres, Quintana Roo MX Resort\", \"Almare a Luxury Collection Resort Isla Mujeres Cancun Adult All inclusive Hilton Isla Mujeres, Quintana Roo MX\", \"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive Hotel\", \"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive Resort\", \"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive\", \"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive Isla Mujeres, Quintana Roo MX Hotel\", \"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive Isla Mujeres, Quintana Roo MX Resort\", \"Almare, a Luxury Collection Resort, Isla Mujeres Cancun, Adult All-Inclusive Isla Mujeres, Quintana Roo MX\"], \"v\": 3}": {
+    "lat": 21.2183086,
+    "lon": -86.7287101,
+    "formatted_address": "Carretera Garrafon-Vista Alegre, Supermanzana 007 Manzana 63 Lote 1, 77400 Isla Mujeres, Q.R., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJyxgZm1ElTI8R6rP2UtuIQ5s",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carretera Garrafon-Vista Alegre, Supermanzana 007 Manzana 63 Lote 1, 77400 Isla Mujeres, Q.R., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 21.2183086,
+          "lng": -86.7287101
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 21.2201243302915,
+            "lng": -86.72712641970848
+          },
+          "southwest": {
+            "lat": 21.2174263697085,
+            "lng": -86.72982438029149
+          }
+        }
+      },
+      "name": "Almare, a Luxury Collection Resort, Isla Mujeres, Adult All-Inclusive",
+      "place_id": "ChIJyxgZm1ElTI8R6rP2UtuIQ5s",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/cunim-almare-a-luxury-collection-resort-isla-mujeres-adult-all-inclusive/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   }
 }

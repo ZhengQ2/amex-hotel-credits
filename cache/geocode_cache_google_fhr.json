@@ -52424,48 +52424,6 @@
       "website": "https://www.keemala.com/"
     }
   },
-  "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Small Luxury Hotel Hospes Infante Sagres Small Luxury Hotels of the World Hotel\", \"Small Luxury Hotel Hospes Infante Sagres Small Luxury Hotels of the World Resort\", \"Small Luxury Hotel Hospes Infante Sagres Small Luxury Hotels of the World\", \"Small Luxury Hotel Hospes Infante Sagres Small Luxury Hotels of the World Porto, Portugal Hotel\", \"Small Luxury Hotel Hospes Infante Sagres Small Luxury Hotels of the World Porto, Portugal Resort\", \"Small Luxury Hotel Hospes Infante Sagres Small Luxury Hotels of the World Porto, Portugal\", \"Small Luxury Hotel Hospes Infante Sagres Hilton Hotel\", \"Small Luxury Hotel Hospes Infante Sagres Hilton Resort\", \"Small Luxury Hotel Hospes Infante Sagres Hilton\", \"Small Luxury Hotel Hospes Infante Sagres Hilton Porto, Portugal Hotel\", \"Small Luxury Hotel Hospes Infante Sagres Hilton Porto, Portugal Resort\", \"Small Luxury Hotel Hospes Infante Sagres Hilton Porto, Portugal\", \"Small Luxury Hotel Hospes Infante Sagres Hotel\", \"Small Luxury Hotel Hospes Infante Sagres Resort\", \"Small Luxury Hotel Hospes Infante Sagres\", \"Small Luxury Hotel Hospes Infante Sagres Porto, Portugal Hotel\", \"Small Luxury Hotel Hospes Infante Sagres Porto, Portugal Resort\", \"Small Luxury Hotel Hospes Infante Sagres Porto, Portugal\"], \"v\": 3}": {
-    "lat": 41.1479471,
-    "lon": -8.6129597,
-    "formatted_address": "Praça D. Filipa de Lencastre 62, 4050-259 Porto, Portugal",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJUfTSI-NkJA0RoiVXwkNNgjk",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Praça D. Filipa de Lencastre 62, 4050-259 Porto, Portugal",
-      "geometry": {
-        "location": {
-          "lat": 41.1479471,
-          "lng": -8.6129597
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 41.14934403029149,
-            "lng": -8.611680969708496
-          },
-          "southwest": {
-            "lat": 41.1466460697085,
-            "lng": -8.614378930291501
-          }
-        }
-      },
-      "name": "Infante Sagres Porto - Small Luxury Hotels Of The World",
-      "place_id": "ChIJUfTSI-NkJA0RoiVXwkNNgjk",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hospes.com/en/infante-sagres-porto/?utm_source=Google&utm_medium=Organic&utm_campaign=GMB"
-    }
-  },
   "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Villa Franca Small Luxury Hotels of the World Hotel\", \"Hotel Villa Franca Small Luxury Hotels of the World Resort\", \"Hotel Villa Franca Small Luxury Hotels of the World\", \"Hotel Villa Franca Small Luxury Hotels of the World Positano, Italy Hotel\", \"Hotel Villa Franca Small Luxury Hotels of the World Positano, Italy Resort\", \"Hotel Villa Franca Small Luxury Hotels of the World Positano, Italy\", \"Hotel Villa Franca Hilton Hotel\", \"Hotel Villa Franca Hilton Resort\", \"Hotel Villa Franca Hilton\", \"Hotel Villa Franca Hilton Positano, Italy Hotel\", \"Hotel Villa Franca Hilton Positano, Italy Resort\", \"Hotel Villa Franca Hilton Positano, Italy\", \"Hotel Villa Franca Hotel\", \"Hotel Villa Franca Resort\", \"Hotel Villa Franca\", \"Hotel Villa Franca Positano, Italy Hotel\", \"Hotel Villa Franca Positano, Italy Resort\", \"Hotel Villa Franca Positano, Italy\"], \"v\": 3}": {
     "lat": 40.6282268,
     "lon": 14.4843452,
@@ -130120,12 +130078,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 40.025647,
-    "lon": -76.2103178,
-    "formatted_address": "2320 Lincoln Hwy E, Lancaster, PA 17602, USA",
+    "lat": 40.0468379,
+    "lon": -76.3123846,
+    "formatted_address": "300 Harrisburg Ave, Lancaster, PA 17603, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJp6-nrr47xokR-cBopTFxWz4",
+    "place_id": "ChIJuYcX7oskxokRA0mkXF3g15k",
     "types": [
       "establishment",
       "lodging",
@@ -130134,31 +130092,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2320 Lincoln Hwy E, Lancaster, PA 17602, USA",
+      "formatted_address": "300 Harrisburg Ave, Lancaster, PA 17603, USA",
       "geometry": {
         "location": {
-          "lat": 40.025647,
-          "lng": -76.2103178
+          "lat": 40.0468379,
+          "lng": -76.3123846
         },
         "viewport": {
           "northeast": {
-            "lat": 40.0270498302915,
-            "lng": -76.2090659697085
+            "lat": 40.0486361802915,
+            "lng": -76.3115735197085
           },
           "southwest": {
-            "lat": 40.0243518697085,
-            "lng": -76.21176393029151
+            "lat": 40.0459382197085,
+            "lng": -76.31427148029151
           }
         }
       },
-      "name": "Tru by Hilton Lancaster East",
-      "place_id": "ChIJp6-nrr47xokR-cBopTFxWz4",
+      "name": "Lancaster Arts Hotel",
+      "place_id": "ChIJuYcX7oskxokRA0mkXF3g15k",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/lnsruru-tru-lancaster-east/?SEO_id=GMB-AMER-RU-LNSRURU&y_source=1_Nzg2MDQ3Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.lancasterartshotel.com/?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=gmb"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -145001,12 +144959,12 @@
         },
         "viewport": {
           "northeast": {
-            "lat": 41.0355254802915,
-            "lng": 28.9589933802915
+            "lat": 41.03590123029149,
+            "lng": 28.95917328029149
           },
           "southwest": {
-            "lat": 41.0328275197085,
-            "lng": 28.9562954197085
+            "lat": 41.03320326970849,
+            "lng": 28.9564753197085
           }
         }
       },
@@ -180694,48 +180652,6 @@
       "website": "https://www.keemala.com/"
     }
   },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Small Luxury Hotel Hospes Infante Sagres\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Small Luxury Hotel Hospes Infante Sagres Small Luxury Hotels of the World Hotel\", \"Small Luxury Hotel Hospes Infante Sagres Small Luxury Hotels of the World Resort\", \"Small Luxury Hotel Hospes Infante Sagres Small Luxury Hotels of the World\", \"Small Luxury Hotel Hospes Infante Sagres Small Luxury Hotels of the World Porto, Portugal Hotel\", \"Small Luxury Hotel Hospes Infante Sagres Small Luxury Hotels of the World Porto, Portugal Resort\", \"Small Luxury Hotel Hospes Infante Sagres Small Luxury Hotels of the World Porto, Portugal\", \"Small Luxury Hotel Hospes Infante Sagres Hilton Hotel\", \"Small Luxury Hotel Hospes Infante Sagres Hilton Resort\", \"Small Luxury Hotel Hospes Infante Sagres Hilton\", \"Small Luxury Hotel Hospes Infante Sagres Hilton Porto, Portugal Hotel\", \"Small Luxury Hotel Hospes Infante Sagres Hilton Porto, Portugal Resort\", \"Small Luxury Hotel Hospes Infante Sagres Hilton Porto, Portugal\", \"Small Luxury Hotel Hospes Infante Sagres Hotel\", \"Small Luxury Hotel Hospes Infante Sagres Resort\", \"Small Luxury Hotel Hospes Infante Sagres\", \"Small Luxury Hotel Hospes Infante Sagres Porto, Portugal Hotel\", \"Small Luxury Hotel Hospes Infante Sagres Porto, Portugal Resort\", \"Small Luxury Hotel Hospes Infante Sagres Porto, Portugal\"], \"v\": 3}": {
-    "lat": 41.1479471,
-    "lon": -8.6129597,
-    "formatted_address": "Praça D. Filipa de Lencastre 62, 4050-259 Porto, Portugal",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJUfTSI-NkJA0RoiVXwkNNgjk",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Praça D. Filipa de Lencastre 62, 4050-259 Porto, Portugal",
-      "geometry": {
-        "location": {
-          "lat": 41.1479471,
-          "lng": -8.6129597
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 41.14934403029149,
-            "lng": -8.611680969708496
-          },
-          "southwest": {
-            "lat": 41.1466460697085,
-            "lng": -8.614378930291501
-          }
-        }
-      },
-      "name": "Infante Sagres Porto - Small Luxury Hotels Of The World",
-      "place_id": "ChIJUfTSI-NkJA0RoiVXwkNNgjk",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hospes.com/en/infante-sagres-porto/?utm_source=Google&utm_medium=Organic&utm_campaign=GMB"
-    }
-  },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Villa Franca\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Villa Franca Small Luxury Hotels of the World Hotel\", \"Hotel Villa Franca Small Luxury Hotels of the World Resort\", \"Hotel Villa Franca Small Luxury Hotels of the World\", \"Hotel Villa Franca Small Luxury Hotels of the World Positano, Italy Hotel\", \"Hotel Villa Franca Small Luxury Hotels of the World Positano, Italy Resort\", \"Hotel Villa Franca Small Luxury Hotels of the World Positano, Italy\", \"Hotel Villa Franca Hilton Hotel\", \"Hotel Villa Franca Hilton Resort\", \"Hotel Villa Franca Hilton\", \"Hotel Villa Franca Hilton Positano, Italy Hotel\", \"Hotel Villa Franca Hilton Positano, Italy Resort\", \"Hotel Villa Franca Hilton Positano, Italy\", \"Hotel Villa Franca Hotel\", \"Hotel Villa Franca Resort\", \"Hotel Villa Franca\", \"Hotel Villa Franca Positano, Italy Hotel\", \"Hotel Villa Franca Positano, Italy Resort\", \"Hotel Villa Franca Positano, Italy\"], \"v\": 3}": {
     "lat": 40.6282268,
     "lon": 14.4843452,
@@ -207623,7 +207539,6 @@
     }
   },
   "{\"brand\": \"FHR\", \"hotel_name\": \"Ikos Porto Petro\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Ikos Porto Petro\"], \"v\": 3}": null,
-  "{\"brand\": \"FHR\", \"hotel_name\": \"The Chedi Lu\\u0161tica Bay\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Chedi Lu\\u0161tica Bay\"], \"v\": 3}": null,
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Ikos Porto Petro\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Ikos Porto Petro Hotel\", \"Ikos Porto Petro Resort\", \"Ikos Porto Petro\", \"Ikos Porto Petro Porto Petro, Spain Hotel\", \"Ikos Porto Petro Porto Petro, Spain Resort\", \"Ikos Porto Petro Porto Petro, Spain\"], \"v\": 3}": {
     "lat": 39.3589855,
     "lon": 3.2102877,
@@ -207664,48 +207579,6 @@
         "point_of_interest"
       ],
       "website": "https://ikosresorts.com/resorts/ikos-porto-petro/"
-    }
-  },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Chedi Lu\\u0161tica Bay\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Chedi Lu\\u0161tica Bay The Leading Hotels of the World Hotel\", \"The Chedi Lu\\u0161tica Bay The Leading Hotels of the World Resort\", \"The Chedi Lu\\u0161tica Bay The Leading Hotels of the World\", \"The Chedi Lu\\u0161tica Bay The Leading Hotels of the World Tivat, Montenegro Hotel\", \"The Chedi Lu\\u0161tica Bay The Leading Hotels of the World Tivat, Montenegro Resort\", \"The Chedi Lu\\u0161tica Bay The Leading Hotels of the World Tivat, Montenegro\", \"The Chedi Lu\\u0161tica Bay Hilton Hotel\", \"The Chedi Lu\\u0161tica Bay Hilton Resort\", \"The Chedi Lu\\u0161tica Bay Hilton\", \"The Chedi Lu\\u0161tica Bay Hilton Tivat, Montenegro Hotel\", \"The Chedi Lu\\u0161tica Bay Hilton Tivat, Montenegro Resort\", \"The Chedi Lu\\u0161tica Bay Hilton Tivat, Montenegro\", \"Chedi Lutica Bay The Leading Hotels of the World Hotel\", \"Chedi Lutica Bay The Leading Hotels of the World Resort\", \"Chedi Lutica Bay The Leading Hotels of the World\", \"Chedi Lutica Bay The Leading Hotels of the World Tivat, Montenegro Hotel\", \"Chedi Lutica Bay The Leading Hotels of the World Tivat, Montenegro Resort\", \"Chedi Lutica Bay The Leading Hotels of the World Tivat, Montenegro\", \"Chedi Lutica Bay Hilton Hotel\", \"Chedi Lutica Bay Hilton Resort\", \"Chedi Lutica Bay Hilton\", \"Chedi Lutica Bay Hilton Tivat, Montenegro Hotel\", \"Chedi Lutica Bay Hilton Tivat, Montenegro Resort\", \"Chedi Lutica Bay Hilton Tivat, Montenegro\", \"The Chedi Lu\\u0161tica Bay Hotel\", \"The Chedi Lu\\u0161tica Bay Resort\", \"The Chedi Lu\\u0161tica Bay\", \"The Chedi Lu\\u0161tica Bay Tivat, Montenegro Hotel\", \"The Chedi Lu\\u0161tica Bay Tivat, Montenegro Resort\", \"The Chedi Lu\\u0161tica Bay Tivat, Montenegro\"], \"v\": 3}": {
-    "lat": 42.3865822,
-    "lon": 18.6641541,
-    "formatted_address": "Luštica Bay Marina, Radovići 85323, Montenegro",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJr5OHuMwvTBMRZ0EQi_gRM3U",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Luštica Bay Marina, Radovići 85323, Montenegro",
-      "geometry": {
-        "location": {
-          "lat": 42.3865822,
-          "lng": 18.6641541
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 42.3879503302915,
-            "lng": 18.6655222302915
-          },
-          "southwest": {
-            "lat": 42.3852523697085,
-            "lng": 18.6628242697085
-          }
-        }
-      },
-      "name": "The Chedi Luštica Bay",
-      "place_id": "ChIJr5OHuMwvTBMRZ0EQi_gRM3U",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.chedilusticabay.com/"
     }
   },
   "{\"brand\": \"FHR\", \"hotel_name\": \"Patina Osaka\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Patina Osaka\"], \"v\": 3}": null,
@@ -210188,6 +210061,178 @@
         "point_of_interest"
       ],
       "website": "https://www.ritzcarlton.com/en/hotels/jzhrz-rissai-valley-a-ritz-carlton-reserve/overview/"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"ARIA Sky Suites\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"ARIA Sky Suites\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Castello del Sole Beach Resort & SPA\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Castello del Sole Beach Resort & SPA\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"The Chedi Lustica Bay\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Chedi Lustica Bay\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"ARIA Sky Suites\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"ARIA Sky Suites MGM Resorts International Hotel\", \"ARIA Sky Suites MGM Resorts International Resort\", \"ARIA Sky Suites MGM Resorts International\", \"ARIA Sky Suites MGM Resorts International Las Vegas, Nevada US Hotel\", \"ARIA Sky Suites MGM Resorts International Las Vegas, Nevada US Resort\", \"ARIA Sky Suites MGM Resorts International Las Vegas, Nevada US\", \"ARIA Sky Suites Hilton Hotel\", \"ARIA Sky Suites Hilton Resort\", \"ARIA Sky Suites Hilton\", \"ARIA Sky Suites Hilton Las Vegas, Nevada US Hotel\", \"ARIA Sky Suites Hilton Las Vegas, Nevada US Resort\", \"ARIA Sky Suites Hilton Las Vegas, Nevada US\", \"Aria Sky Suites MGM Resorts International Hotel\", \"Aria Sky Suites MGM Resorts International Resort\", \"Aria Sky Suites MGM Resorts International\", \"Aria Sky Suites MGM Resorts International Las Vegas, Nevada US Hotel\", \"Aria Sky Suites MGM Resorts International Las Vegas, Nevada US Resort\", \"Aria Sky Suites MGM Resorts International Las Vegas, Nevada US\", \"Aria Sky Suites Hilton Hotel\", \"Aria Sky Suites Hilton Resort\", \"Aria Sky Suites Hilton\", \"Aria Sky Suites Hilton Las Vegas, Nevada US Hotel\", \"Aria Sky Suites Hilton Las Vegas, Nevada US Resort\", \"Aria Sky Suites Hilton Las Vegas, Nevada US\", \"ARIA Sky Suites Hotel\", \"ARIA Sky Suites Resort\", \"ARIA Sky Suites\", \"ARIA Sky Suites Las Vegas, Nevada US Hotel\", \"ARIA Sky Suites Las Vegas, Nevada US Resort\", \"ARIA Sky Suites Las Vegas, Nevada US\"], \"v\": 3}": {
+    "lat": 36.1074358,
+    "lon": -115.1761388,
+    "formatted_address": "W Aria Pl, Las Vegas, NV 89158, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJcbpDRwDFyIARcQiDpwf6_4s",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "W Aria Pl, Las Vegas, NV 89158, USA",
+      "geometry": {
+        "location": {
+          "lat": 36.1074358,
+          "lng": -115.1761388
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.10872743029149,
+            "lng": -115.1747939197085
+          },
+          "southwest": {
+            "lat": 36.1060294697085,
+            "lng": -115.1774918802915
+          }
+        }
+      },
+      "name": "ARIA Sky Suites",
+      "place_id": "ChIJcbpDRwDFyIARcQiDpwf6_4s",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Infante Sagres, Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Infante Sagres, Small Luxury Hotels of the World Small Luxury Hotels of the World Hotel\", \"Infante Sagres, Small Luxury Hotels of the World Small Luxury Hotels of the World Resort\", \"Infante Sagres, Small Luxury Hotels of the World Small Luxury Hotels of the World\", \"Infante Sagres, Small Luxury Hotels of the World Small Luxury Hotels of the World Porto, Portugal Hotel\", \"Infante Sagres, Small Luxury Hotels of the World Small Luxury Hotels of the World Porto, Portugal Resort\", \"Infante Sagres, Small Luxury Hotels of the World Small Luxury Hotels of the World Porto, Portugal\", \"Infante Sagres, Small Luxury Hotels of the World Hilton Hotel\", \"Infante Sagres, Small Luxury Hotels of the World Hilton Resort\", \"Infante Sagres, Small Luxury Hotels of the World Hilton\", \"Infante Sagres, Small Luxury Hotels of the World Hilton Porto, Portugal Hotel\", \"Infante Sagres, Small Luxury Hotels of the World Hilton Porto, Portugal Resort\", \"Infante Sagres, Small Luxury Hotels of the World Hilton Porto, Portugal\", \"Infante Sagres Small Luxury Hotels Of World Small Luxury Hotels of the World Hotel\", \"Infante Sagres Small Luxury Hotels Of World Small Luxury Hotels of the World Resort\", \"Infante Sagres Small Luxury Hotels Of World Small Luxury Hotels of the World\", \"Infante Sagres Small Luxury Hotels Of World Small Luxury Hotels of the World Porto, Portugal Hotel\", \"Infante Sagres Small Luxury Hotels Of World Small Luxury Hotels of the World Porto, Portugal Resort\", \"Infante Sagres Small Luxury Hotels Of World Small Luxury Hotels of the World Porto, Portugal\", \"Infante Sagres Small Luxury Hotels Of World Hilton Hotel\", \"Infante Sagres Small Luxury Hotels Of World Hilton Resort\", \"Infante Sagres Small Luxury Hotels Of World Hilton\", \"Infante Sagres Small Luxury Hotels Of World Hilton Porto, Portugal Hotel\", \"Infante Sagres Small Luxury Hotels Of World Hilton Porto, Portugal Resort\", \"Infante Sagres Small Luxury Hotels Of World Hilton Porto, Portugal\", \"Infante Sagres, Small Luxury Hotels of the World Hotel\", \"Infante Sagres, Small Luxury Hotels of the World Resort\", \"Infante Sagres, Small Luxury Hotels of the World\", \"Infante Sagres, Small Luxury Hotels of the World Porto, Portugal Hotel\", \"Infante Sagres, Small Luxury Hotels of the World Porto, Portugal Resort\", \"Infante Sagres, Small Luxury Hotels of the World Porto, Portugal\"], \"v\": 3}": {
+    "lat": 41.1479471,
+    "lon": -8.6129597,
+    "formatted_address": "Praça D. Filipa de Lencastre 62, 4050-259 Porto, Portugal",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJUfTSI-NkJA0RoiVXwkNNgjk",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Praça D. Filipa de Lencastre 62, 4050-259 Porto, Portugal",
+      "geometry": {
+        "location": {
+          "lat": 41.1479471,
+          "lng": -8.6129597
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.1493551302915,
+            "lng": -8.611667719708496
+          },
+          "southwest": {
+            "lat": 41.1466571697085,
+            "lng": -8.6143656802915
+          }
+        }
+      },
+      "name": "Infante Sagres Porto",
+      "place_id": "ChIJUfTSI-NkJA0RoiVXwkNNgjk",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.infantesagres.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Castello del Sole Beach Resort & SPA\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Castello del Sole Beach Resort & SPA The Leading Hotels of the World Hotel\", \"Castello del Sole Beach Resort & SPA The Leading Hotels of the World Resort\", \"Castello del Sole Beach Resort & SPA The Leading Hotels of the World\", \"Castello del Sole Beach Resort & SPA The Leading Hotels of the World Ascona, Switzerland Hotel\", \"Castello del Sole Beach Resort & SPA The Leading Hotels of the World Ascona, Switzerland Resort\", \"Castello del Sole Beach Resort & SPA The Leading Hotels of the World Ascona, Switzerland\", \"Castello del Sole Beach Resort & SPA Hilton Hotel\", \"Castello del Sole Beach Resort & SPA Hilton Resort\", \"Castello del Sole Beach Resort & SPA Hilton\", \"Castello del Sole Beach Resort & SPA Hilton Ascona, Switzerland Hotel\", \"Castello del Sole Beach Resort & SPA Hilton Ascona, Switzerland Resort\", \"Castello del Sole Beach Resort & SPA Hilton Ascona, Switzerland\", \"Castello Del Sole Beach Resort Spa The Leading Hotels of the World Hotel\", \"Castello Del Sole Beach Resort Spa The Leading Hotels of the World Resort\", \"Castello Del Sole Beach Resort Spa The Leading Hotels of the World\", \"Castello Del Sole Beach Resort Spa The Leading Hotels of the World Ascona, Switzerland Hotel\", \"Castello Del Sole Beach Resort Spa The Leading Hotels of the World Ascona, Switzerland Resort\", \"Castello Del Sole Beach Resort Spa The Leading Hotels of the World Ascona, Switzerland\", \"Castello Del Sole Beach Resort Spa Hilton Hotel\", \"Castello Del Sole Beach Resort Spa Hilton Resort\", \"Castello Del Sole Beach Resort Spa Hilton\", \"Castello Del Sole Beach Resort Spa Hilton Ascona, Switzerland Hotel\", \"Castello Del Sole Beach Resort Spa Hilton Ascona, Switzerland Resort\", \"Castello Del Sole Beach Resort Spa Hilton Ascona, Switzerland\", \"Castello del Sole Beach Resort & SPA Hotel\", \"Castello del Sole Beach Resort & SPA Resort\", \"Castello del Sole Beach Resort & SPA\", \"Castello del Sole Beach Resort & SPA Ascona, Switzerland Hotel\", \"Castello del Sole Beach Resort & SPA Ascona, Switzerland Resort\", \"Castello del Sole Beach Resort & SPA Ascona, Switzerland\"], \"v\": 3}": {
+    "lat": 46.1521949,
+    "lon": 8.7922577,
+    "formatted_address": "Via Muraccio 142, 6612 Ascona, Switzerland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJH3dKJbPJhUcREM2f08SoJSU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Muraccio 142, 6612 Ascona, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 46.1521949,
+          "lng": 8.7922577
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 46.1535791802915,
+            "lng": 8.793602030291504
+          },
+          "southwest": {
+            "lat": 46.1508812197085,
+            "lng": 8.7909040697085
+          }
+        }
+      },
+      "name": "Castello del Sole Beach Resort & SPA",
+      "place_id": "ChIJH3dKJbPJhUcREM2f08SoJSU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "http://www.castellodelsole.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Chedi Lustica Bay\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Chedi Lustica Bay The Leading Hotels of the World Hotel\", \"The Chedi Lustica Bay The Leading Hotels of the World Resort\", \"The Chedi Lustica Bay The Leading Hotels of the World\", \"The Chedi Lustica Bay The Leading Hotels of the World Tivat, Montenegro Hotel\", \"The Chedi Lustica Bay The Leading Hotels of the World Tivat, Montenegro Resort\", \"The Chedi Lustica Bay The Leading Hotels of the World Tivat, Montenegro\", \"The Chedi Lustica Bay Hilton Hotel\", \"The Chedi Lustica Bay Hilton Resort\", \"The Chedi Lustica Bay Hilton\", \"The Chedi Lustica Bay Hilton Tivat, Montenegro Hotel\", \"The Chedi Lustica Bay Hilton Tivat, Montenegro Resort\", \"The Chedi Lustica Bay Hilton Tivat, Montenegro\", \"Chedi Lustica Bay The Leading Hotels of the World Hotel\", \"Chedi Lustica Bay The Leading Hotels of the World Resort\", \"Chedi Lustica Bay The Leading Hotels of the World\", \"Chedi Lustica Bay The Leading Hotels of the World Tivat, Montenegro Hotel\", \"Chedi Lustica Bay The Leading Hotels of the World Tivat, Montenegro Resort\", \"Chedi Lustica Bay The Leading Hotels of the World Tivat, Montenegro\", \"Chedi Lustica Bay Hilton Hotel\", \"Chedi Lustica Bay Hilton Resort\", \"Chedi Lustica Bay Hilton\", \"Chedi Lustica Bay Hilton Tivat, Montenegro Hotel\", \"Chedi Lustica Bay Hilton Tivat, Montenegro Resort\", \"Chedi Lustica Bay Hilton Tivat, Montenegro\", \"The Chedi Lustica Bay Hotel\", \"The Chedi Lustica Bay Resort\", \"The Chedi Lustica Bay\", \"The Chedi Lustica Bay Tivat, Montenegro Hotel\", \"The Chedi Lustica Bay Tivat, Montenegro Resort\", \"The Chedi Lustica Bay Tivat, Montenegro\"], \"v\": 3}": {
+    "lat": 42.3865822,
+    "lon": 18.6641541,
+    "formatted_address": "Luštica Bay Marina, Radovići 85323, Montenegro",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJr5OHuMwvTBMRZ0EQi_gRM3U",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Luštica Bay Marina, Radovići 85323, Montenegro",
+      "geometry": {
+        "location": {
+          "lat": 42.3865822,
+          "lng": 18.6641541
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.3879503302915,
+            "lng": 18.6655222302915
+          },
+          "southwest": {
+            "lat": 42.3852523697085,
+            "lng": 18.6628242697085
+          }
+        }
+      },
+      "name": "The Chedi Luštica Bay",
+      "place_id": "ChIJr5OHuMwvTBMRZ0EQi_gRM3U",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.chedilusticabay.com/?utm_campaign=Google_My_Business&utm_medium=GMB&utm_source=Google_My_Business"
     }
   }
 }
