@@ -14545,56 +14545,6 @@
       "website": "https://www.hotelsbarriere.com/cannes/le-gray-d-albion"
     }
   },
-  "{\"brand\": \"Barri\\u00e8re Group\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Barriere Le Grand Hotel Dinard Barri\\u00e8re Group Hotel\", \"Hotel Barriere Le Grand Hotel Dinard Barri\\u00e8re Group Resort\", \"Hotel Barriere Le Grand Hotel Dinard Barri\\u00e8re Group\", \"Hotel Barriere Le Grand Hotel Dinard Barri\\u00e8re Group Dinard, France Hotel\", \"Hotel Barriere Le Grand Hotel Dinard Barri\\u00e8re Group Dinard, France Resort\", \"Hotel Barriere Le Grand Hotel Dinard Barri\\u00e8re Group Dinard, France\", \"Hotel Barriere Le Grand Hotel Dinard Hilton Hotel\", \"Hotel Barriere Le Grand Hotel Dinard Hilton Resort\", \"Hotel Barriere Le Grand Hotel Dinard Hilton\", \"Hotel Barriere Le Grand Hotel Dinard Hilton Dinard, France Hotel\", \"Hotel Barriere Le Grand Hotel Dinard Hilton Dinard, France Resort\", \"Hotel Barriere Le Grand Hotel Dinard Hilton Dinard, France\", \"Hotel Barriere Le Grand Hotel Dinard Hotel\", \"Hotel Barriere Le Grand Hotel Dinard Resort\", \"Hotel Barriere Le Grand Hotel Dinard\", \"Hotel Barriere Le Grand Hotel Dinard Dinard, France Hotel\", \"Hotel Barriere Le Grand Hotel Dinard Dinard, France Resort\", \"Hotel Barriere Le Grand Hotel Dinard Dinard, France\"], \"v\": 3}": {
-    "lat": 48.6332795,
-    "lon": -2.0514913,
-    "formatted_address": "46 Av. George V, 35800 Dinard, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJafwbD8SADkgR547npNjL080",
-    "types": [
-      "bar",
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "46 Av. George V, 35800 Dinard, France",
-      "geometry": {
-        "location": {
-          "lat": 48.6332795,
-          "lng": -2.0514913
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 48.63458638029149,
-            "lng": -2.050105869708498
-          },
-          "southwest": {
-            "lat": 48.6318884197085,
-            "lng": -2.052803830291502
-          }
-        }
-      },
-      "name": "Le Grand Hôtel Dinard",
-      "place_id": "ChIJafwbD8SADkgR547npNjL080",
-      "types": [
-        "bar",
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://www.hotelsbarriere.com/dinard/le-grand-hotel-dinard"
-    }
-  },
   "{\"brand\": \"Belmond\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Romazzino A Belmond Hotel Costa Smerlda Belmond Hotel\", \"Romazzino A Belmond Hotel Costa Smerlda Belmond Resort\", \"Romazzino A Belmond Hotel Costa Smerlda Belmond\", \"Romazzino A Belmond Hotel Costa Smerlda Belmond Arzachena, Italy Hotel\", \"Romazzino A Belmond Hotel Costa Smerlda Belmond Arzachena, Italy Resort\", \"Romazzino A Belmond Hotel Costa Smerlda Belmond Arzachena, Italy\", \"Romazzino A Belmond Hotel Costa Smerlda Hilton Hotel\", \"Romazzino A Belmond Hotel Costa Smerlda Hilton Resort\", \"Romazzino A Belmond Hotel Costa Smerlda Hilton\", \"Romazzino A Belmond Hotel Costa Smerlda Hilton Arzachena, Italy Hotel\", \"Romazzino A Belmond Hotel Costa Smerlda Hilton Arzachena, Italy Resort\", \"Romazzino A Belmond Hotel Costa Smerlda Hilton Arzachena, Italy\", \"Romazzino, A Belmond Hotel, Costa Smerlda Belmond Hotel\", \"Romazzino, A Belmond Hotel, Costa Smerlda Belmond Resort\", \"Romazzino, A Belmond Hotel, Costa Smerlda Belmond\", \"Romazzino, A Belmond Hotel, Costa Smerlda Belmond Arzachena, Italy Hotel\", \"Romazzino, A Belmond Hotel, Costa Smerlda Belmond Arzachena, Italy Resort\", \"Romazzino, A Belmond Hotel, Costa Smerlda Belmond Arzachena, Italy\", \"Romazzino, A Belmond Hotel, Costa Smerlda Hilton Hotel\", \"Romazzino, A Belmond Hotel, Costa Smerlda Hilton Resort\", \"Romazzino, A Belmond Hotel, Costa Smerlda Hilton\", \"Romazzino, A Belmond Hotel, Costa Smerlda Hilton Arzachena, Italy Hotel\", \"Romazzino, A Belmond Hotel, Costa Smerlda Hilton Arzachena, Italy Resort\", \"Romazzino, A Belmond Hotel, Costa Smerlda Hilton Arzachena, Italy\", \"Romazzino, A Belmond Hotel, Costa Smerlda Hotel\", \"Romazzino, A Belmond Hotel, Costa Smerlda Resort\", \"Romazzino, A Belmond Hotel, Costa Smerlda\", \"Romazzino, A Belmond Hotel, Costa Smerlda Arzachena, Italy Hotel\", \"Romazzino, A Belmond Hotel, Costa Smerlda Arzachena, Italy Resort\", \"Romazzino, A Belmond Hotel, Costa Smerlda Arzachena, Italy\"], \"v\": 3}": {
     "lat": 41.0991819,
     "lon": 9.5636536,
@@ -105164,56 +105114,6 @@
       "website": "https://www.hotelsbarriere.com/cannes/le-gray-d-albion"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Barriere Le Grand Hotel Dinard\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Barriere Le Grand Hotel Dinard Barri\\u00e8re Group Hotel\", \"Hotel Barriere Le Grand Hotel Dinard Barri\\u00e8re Group Resort\", \"Hotel Barriere Le Grand Hotel Dinard Barri\\u00e8re Group\", \"Hotel Barriere Le Grand Hotel Dinard Barri\\u00e8re Group Dinard, France Hotel\", \"Hotel Barriere Le Grand Hotel Dinard Barri\\u00e8re Group Dinard, France Resort\", \"Hotel Barriere Le Grand Hotel Dinard Barri\\u00e8re Group Dinard, France\", \"Hotel Barriere Le Grand Hotel Dinard Hilton Hotel\", \"Hotel Barriere Le Grand Hotel Dinard Hilton Resort\", \"Hotel Barriere Le Grand Hotel Dinard Hilton\", \"Hotel Barriere Le Grand Hotel Dinard Hilton Dinard, France Hotel\", \"Hotel Barriere Le Grand Hotel Dinard Hilton Dinard, France Resort\", \"Hotel Barriere Le Grand Hotel Dinard Hilton Dinard, France\", \"Hotel Barriere Le Grand Hotel Dinard Hotel\", \"Hotel Barriere Le Grand Hotel Dinard Resort\", \"Hotel Barriere Le Grand Hotel Dinard\", \"Hotel Barriere Le Grand Hotel Dinard Dinard, France Hotel\", \"Hotel Barriere Le Grand Hotel Dinard Dinard, France Resort\", \"Hotel Barriere Le Grand Hotel Dinard Dinard, France\"], \"v\": 3}": {
-    "lat": 48.6332795,
-    "lon": -2.0514913,
-    "formatted_address": "46 Av. George V, 35800 Dinard, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJafwbD8SADkgR547npNjL080",
-    "types": [
-      "bar",
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "46 Av. George V, 35800 Dinard, France",
-      "geometry": {
-        "location": {
-          "lat": 48.6332795,
-          "lng": -2.0514913
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 48.63458638029149,
-            "lng": -2.050105869708498
-          },
-          "southwest": {
-            "lat": 48.6318884197085,
-            "lng": -2.052803830291502
-          }
-        }
-      },
-      "name": "Le Grand Hôtel Dinard",
-      "place_id": "ChIJafwbD8SADkgR547npNjL080",
-      "types": [
-        "bar",
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://www.hotelsbarriere.com/dinard/le-grand-hotel-dinard"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Romazzino, A Belmond Hotel, Costa Smerlda\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Romazzino, A Belmond Hotel, Costa Smerlda Belmond Hotel\", \"Romazzino, A Belmond Hotel, Costa Smerlda Belmond Resort\", \"Romazzino, A Belmond Hotel, Costa Smerlda Belmond\", \"Romazzino, A Belmond Hotel, Costa Smerlda Belmond Arzachena, Italy Hotel\", \"Romazzino, A Belmond Hotel, Costa Smerlda Belmond Arzachena, Italy Resort\", \"Romazzino, A Belmond Hotel, Costa Smerlda Belmond Arzachena, Italy\", \"Romazzino, A Belmond Hotel, Costa Smerlda Hilton Hotel\", \"Romazzino, A Belmond Hotel, Costa Smerlda Hilton Resort\", \"Romazzino, A Belmond Hotel, Costa Smerlda Hilton\", \"Romazzino, A Belmond Hotel, Costa Smerlda Hilton Arzachena, Italy Hotel\", \"Romazzino, A Belmond Hotel, Costa Smerlda Hilton Arzachena, Italy Resort\", \"Romazzino, A Belmond Hotel, Costa Smerlda Hilton Arzachena, Italy\", \"Romazzino A Belmond Hotel Costa Smerlda Belmond Hotel\", \"Romazzino A Belmond Hotel Costa Smerlda Belmond Resort\", \"Romazzino A Belmond Hotel Costa Smerlda Belmond\", \"Romazzino A Belmond Hotel Costa Smerlda Belmond Arzachena, Italy Hotel\", \"Romazzino A Belmond Hotel Costa Smerlda Belmond Arzachena, Italy Resort\", \"Romazzino A Belmond Hotel Costa Smerlda Belmond Arzachena, Italy\", \"Romazzino A Belmond Hotel Costa Smerlda Hilton Hotel\", \"Romazzino A Belmond Hotel Costa Smerlda Hilton Resort\", \"Romazzino A Belmond Hotel Costa Smerlda Hilton\", \"Romazzino A Belmond Hotel Costa Smerlda Hilton Arzachena, Italy Hotel\", \"Romazzino A Belmond Hotel Costa Smerlda Hilton Arzachena, Italy Resort\", \"Romazzino A Belmond Hotel Costa Smerlda Hilton Arzachena, Italy\", \"Romazzino, A Belmond Hotel, Costa Smerlda Hotel\", \"Romazzino, A Belmond Hotel, Costa Smerlda Resort\", \"Romazzino, A Belmond Hotel, Costa Smerlda\", \"Romazzino, A Belmond Hotel, Costa Smerlda Arzachena, Italy Hotel\", \"Romazzino, A Belmond Hotel, Costa Smerlda Arzachena, Italy Resort\", \"Romazzino, A Belmond Hotel, Costa Smerlda Arzachena, Italy\"], \"v\": 3}": {
     "lat": 41.0991819,
     "lon": 9.5636536,
@@ -141703,12 +141603,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Antonio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Antonio Small Luxury Hotels of the World Hotel\", \"San Antonio Small Luxury Hotels of the World Resort\", \"San Antonio Small Luxury Hotels of the World\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Hotel\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Resort\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece\", \"San Antonio Hilton Hotel\", \"San Antonio Hilton Resort\", \"San Antonio Hilton\", \"San Antonio Hilton Imerovigli, Greece Hotel\", \"San Antonio Hilton Imerovigli, Greece Resort\", \"San Antonio Hilton Imerovigli, Greece\", \"San Antonio Hotel\", \"San Antonio Resort\", \"San Antonio\", \"San Antonio Imerovigli, Greece Hotel\", \"San Antonio Imerovigli, Greece Resort\", \"San Antonio Imerovigli, Greece\"], \"v\": 3}": {
-    "lat": 29.4274372,
-    "lon": -98.48950160000001,
-    "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
+    "lat": 29.6663753,
+    "lon": -98.4008875,
+    "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
+    "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
     "types": [
       "establishment",
       "lodging",
@@ -141717,31 +141617,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
+      "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
       "geometry": {
         "location": {
-          "lat": 29.4274372,
-          "lng": -98.48950160000001
+          "lat": 29.6663753,
+          "lng": -98.4008875
         },
         "viewport": {
           "northeast": {
-            "lat": 29.4288418802915,
-            "lng": -98.4880995197085
+            "lat": 29.6677274302915,
+            "lng": -98.39953276970849
           },
           "southwest": {
-            "lat": 29.4261439197085,
-            "lng": -98.4907974802915
+            "lat": 29.6650294697085,
+            "lng": -98.40223073029149
           }
         }
       },
-      "name": "The St. Anthony, a Luxury Collection Hotel, San Antonio",
-      "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
+      "name": "JW Marriott San Antonio Hill Country Resort & Spa",
+      "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.marriott.com/en-us/hotels/satlc-the-st-anthony-a-luxury-collection-hotel-san-antonio/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+      "website": "https://www.marriott.com/en-us/hotels/satjw-jw-marriott-san-antonio-hill-country-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rusty Parrot Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
@@ -154887,6 +154787,49 @@
         "point_of_interest"
       ],
       "website": "https://www.marriott.com/en-us/hotels/cunim-almare-a-luxury-collection-resort-isla-mujeres-adult-all-inclusive/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Stavrand Russian River Valley\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Stavrand Russian River Valley\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Stavrand Russian River Valley\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Stavrand Russian River Valley Small Luxury Hotels of the World Hotel\", \"The Stavrand Russian River Valley Small Luxury Hotels of the World Resort\", \"The Stavrand Russian River Valley Small Luxury Hotels of the World\", \"The Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US Hotel\", \"The Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US Resort\", \"The Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US\", \"The Stavrand Russian River Valley Hilton Hotel\", \"The Stavrand Russian River Valley Hilton Resort\", \"The Stavrand Russian River Valley Hilton\", \"The Stavrand Russian River Valley Hilton Guerneville, California US Hotel\", \"The Stavrand Russian River Valley Hilton Guerneville, California US Resort\", \"The Stavrand Russian River Valley Hilton Guerneville, California US\", \"Stavrand Russian River Valley Small Luxury Hotels of the World Hotel\", \"Stavrand Russian River Valley Small Luxury Hotels of the World Resort\", \"Stavrand Russian River Valley Small Luxury Hotels of the World\", \"Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US Hotel\", \"Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US Resort\", \"Stavrand Russian River Valley Small Luxury Hotels of the World Guerneville, California US\", \"Stavrand Russian River Valley Hilton Hotel\", \"Stavrand Russian River Valley Hilton Resort\", \"Stavrand Russian River Valley Hilton\", \"Stavrand Russian River Valley Hilton Guerneville, California US Hotel\", \"Stavrand Russian River Valley Hilton Guerneville, California US Resort\", \"Stavrand Russian River Valley Hilton Guerneville, California US\", \"The Stavrand Russian River Valley Hotel\", \"The Stavrand Russian River Valley Resort\", \"The Stavrand Russian River Valley\", \"The Stavrand Russian River Valley Guerneville, California US Hotel\", \"The Stavrand Russian River Valley Guerneville, California US Resort\", \"The Stavrand Russian River Valley Guerneville, California US\"], \"v\": 3}": {
+    "lat": 38.4995473,
+    "lon": -122.988888,
+    "formatted_address": "13555 CA-116, Guerneville, CA 95446, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJAQDsYf8hhIARhHyY_671lk0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "13555 CA-116, Guerneville, CA 95446, USA",
+      "geometry": {
+        "location": {
+          "lat": 38.4995473,
+          "lng": -122.988888
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.5009820302915,
+            "lng": -122.9874939197085
+          },
+          "southwest": {
+            "lat": 38.4982840697085,
+            "lng": -122.9901918802915
+          }
+        }
+      },
+      "name": "The Stavrand Russian River Valley",
+      "place_id": "ChIJAQDsYf8hhIARhHyY_671lk0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.thestavrand.com/?utm_medium=organic&utm_source=google&utm_campaign=business-listing"
     }
   }
 }
