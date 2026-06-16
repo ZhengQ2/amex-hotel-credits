@@ -141603,12 +141603,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Antonio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Antonio Small Luxury Hotels of the World Hotel\", \"San Antonio Small Luxury Hotels of the World Resort\", \"San Antonio Small Luxury Hotels of the World\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Hotel\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Resort\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece\", \"San Antonio Hilton Hotel\", \"San Antonio Hilton Resort\", \"San Antonio Hilton\", \"San Antonio Hilton Imerovigli, Greece Hotel\", \"San Antonio Hilton Imerovigli, Greece Resort\", \"San Antonio Hilton Imerovigli, Greece\", \"San Antonio Hotel\", \"San Antonio Resort\", \"San Antonio\", \"San Antonio Imerovigli, Greece Hotel\", \"San Antonio Imerovigli, Greece Resort\", \"San Antonio Imerovigli, Greece\"], \"v\": 3}": {
-    "lat": 29.6663753,
-    "lon": -98.4008875,
-    "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
+    "lat": 29.521535,
+    "lon": -98.490831,
+    "formatted_address": "37 NE Loop 410 At McCullough, San Antonio, TX 78216, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
+    "place_id": "ChIJy2Pln71hXIYRML-T-XvTl6U",
     "types": [
       "establishment",
       "lodging",
@@ -141617,31 +141617,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
+      "formatted_address": "37 NE Loop 410 At McCullough, San Antonio, TX 78216, USA",
       "geometry": {
         "location": {
-          "lat": 29.6663753,
-          "lng": -98.4008875
+          "lat": 29.521535,
+          "lng": -98.490831
         },
         "viewport": {
           "northeast": {
-            "lat": 29.6677274302915,
-            "lng": -98.39953276970849
+            "lat": 29.5226847802915,
+            "lng": -98.4897132697085
           },
           "southwest": {
-            "lat": 29.6650294697085,
-            "lng": -98.40223073029149
+            "lat": 29.5199868197085,
+            "lng": -98.49241123029151
           }
         }
       },
-      "name": "JW Marriott San Antonio Hill Country Resort & Spa",
-      "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
+      "name": "Estancia del Norte San Antonio, Tapestry Collection by Hilton",
+      "place_id": "ChIJy2Pln71hXIYRML-T-XvTl6U",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.marriott.com/en-us/hotels/satjw-jw-marriott-san-antonio-hill-country-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+      "website": "https://www.hilton.com/en/hotels/satinup-estancia-del-norte-san-antonio/?SEO_id=GMB-AMER-UP-SATINUP&y_source=1_MjI3NDU5MjYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rusty Parrot Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
@@ -154830,6 +154830,232 @@
         "point_of_interest"
       ],
       "website": "https://www.thestavrand.com/?utm_medium=organic&utm_source=google&utm_campaign=business-listing"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Alma San Juan Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Alma San Juan Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Whiteface Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Whiteface Lodge\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Casa Monti\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Casa Monti\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hyatt Regency Tokyo\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hyatt Regency Tokyo\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Whiteface Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Whiteface Lodge Hotel\", \"Whiteface Lodge Resort\", \"Whiteface Lodge\", \"Whiteface Lodge Lake Placid, New York US Hotel\", \"Whiteface Lodge Lake Placid, New York US Resort\", \"Whiteface Lodge Lake Placid, New York US\"], \"v\": 3}": {
+    "lat": 44.2971153,
+    "lon": -74.0106124,
+    "formatted_address": "7 Whiteface Inn Ln, Lake Placid, NY 12946, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJDfYUX2kdy0wRdtD36L4FtV4",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "7 Whiteface Inn Ln, Lake Placid, NY 12946, USA",
+      "geometry": {
+        "location": {
+          "lat": 44.2971153,
+          "lng": -74.0106124
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 44.29854003029151,
+            "lng": -74.00896656970849
+          },
+          "southwest": {
+            "lat": 44.29584206970851,
+            "lng": -74.01166453029151
+          }
+        }
+      },
+      "name": "Whiteface Lodge",
+      "place_id": "ChIJDfYUX2kdy0wRdtD36L4FtV4",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "http://www.thewhitefacelodge.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Casa Monti\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Casa Monti Hotel\", \"Casa Monti Resort\", \"Casa Monti\", \"Casa Monti Rome, Italy Hotel\", \"Casa Monti Rome, Italy Resort\", \"Casa Monti Rome, Italy\"], \"v\": 3}": {
+    "lat": 41.8965983,
+    "lon": 12.4922702,
+    "formatted_address": "Via Panisperna, 210/212, 00184 Roma RM, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJTwEMMxNhLxMRNbTn7DrEVhI",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Panisperna, 210/212, 00184 Roma RM, Italy",
+      "geometry": {
+        "location": {
+          "lat": 41.8965983,
+          "lng": 12.4922702
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.8979913302915,
+            "lng": 12.4935831302915
+          },
+          "southwest": {
+            "lat": 41.8952933697085,
+            "lng": 12.4908851697085
+          }
+        }
+      },
+      "name": "Hotel Casa Monti Roma",
+      "place_id": "ChIJTwEMMxNhLxMRNbTn7DrEVhI",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.casamontiroma.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Alma San Juan Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Alma San Juan Hotel Hotel\", \"Alma San Juan Hotel Resort\", \"Alma San Juan Hotel\", \"Alma San Juan Hotel San Juan, Puerto Rico Hotel\", \"Alma San Juan Hotel San Juan, Puerto Rico Resort\", \"Alma San Juan Hotel San Juan, Puerto Rico\"], \"v\": 3}": {
+    "lat": 18.4665774,
+    "lon": -66.1122283,
+    "formatted_address": "405 C. de San Francisco, San Juan, 00901, Puerto Rico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJRSFgkfBvA4wR_Ym2t6ienLY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "405 C. de San Francisco, San Juan, 00901, Puerto Rico",
+      "geometry": {
+        "location": {
+          "lat": 18.4665774,
+          "lng": -66.1122283
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 18.4678622802915,
+            "lng": -66.1108832697085
+          },
+          "southwest": {
+            "lat": 18.4651643197085,
+            "lng": -66.1135812302915
+          }
+        }
+      },
+      "name": "Alma San Juan",
+      "place_id": "ChIJRSFgkfBvA4wR_Ym2t6ienLY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.almasanjuan.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Secrets Cap Cana Resort and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Secrets Cap Cana Resort and Spa Hyatt Hotel\", \"Secrets Cap Cana Resort and Spa Hyatt Resort\", \"Secrets Cap Cana Resort and Spa Hyatt\", \"Secrets Cap Cana Resort and Spa Hyatt Punta Cana, Dominican Republic Hotel\", \"Secrets Cap Cana Resort and Spa Hyatt Punta Cana, Dominican Republic Resort\", \"Secrets Cap Cana Resort and Spa Hyatt Punta Cana, Dominican Republic\", \"Secrets Cap Cana Resort and Spa Hilton Hotel\", \"Secrets Cap Cana Resort and Spa Hilton Resort\", \"Secrets Cap Cana Resort and Spa Hilton\", \"Secrets Cap Cana Resort and Spa Hilton Punta Cana, Dominican Republic Hotel\", \"Secrets Cap Cana Resort and Spa Hilton Punta Cana, Dominican Republic Resort\", \"Secrets Cap Cana Resort and Spa Hilton Punta Cana, Dominican Republic\", \"Secrets Cap Cana Resort Spa Hyatt Hotel\", \"Secrets Cap Cana Resort Spa Hyatt Resort\", \"Secrets Cap Cana Resort Spa Hyatt\", \"Secrets Cap Cana Resort Spa Hyatt Punta Cana, Dominican Republic Hotel\", \"Secrets Cap Cana Resort Spa Hyatt Punta Cana, Dominican Republic Resort\", \"Secrets Cap Cana Resort Spa Hyatt Punta Cana, Dominican Republic\", \"Secrets Cap Cana Resort Spa Hilton Hotel\", \"Secrets Cap Cana Resort Spa Hilton Resort\", \"Secrets Cap Cana Resort Spa Hilton\", \"Secrets Cap Cana Resort Spa Hilton Punta Cana, Dominican Republic Hotel\", \"Secrets Cap Cana Resort Spa Hilton Punta Cana, Dominican Republic Resort\", \"Secrets Cap Cana Resort Spa Hilton Punta Cana, Dominican Republic\", \"Secrets Cap Cana Resort and Spa Hotel\", \"Secrets Cap Cana Resort and Spa Resort\", \"Secrets Cap Cana Resort and Spa\", \"Secrets Cap Cana Resort and Spa Punta Cana, Dominican Republic Hotel\", \"Secrets Cap Cana Resort and Spa Punta Cana, Dominican Republic Resort\", \"Secrets Cap Cana Resort and Spa Punta Cana, Dominican Republic\"], \"v\": 3}": {
+    "lat": 18.4848125,
+    "lon": -68.3965625,
+    "formatted_address": "Punta Cana 23000, Dominican Republic",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJlaY2HQCRqI4RzRWT1vBYg5M",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Punta Cana 23000, Dominican Republic",
+      "geometry": {
+        "location": {
+          "lat": 18.4848125,
+          "lng": -68.3965625
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 18.4861507802915,
+            "lng": -68.39521861970849
+          },
+          "southwest": {
+            "lat": 18.4834528197085,
+            "lng": -68.3979165802915
+          }
+        }
+      },
+      "name": "Secrets Cap Cana Resort & Spa",
+      "place_id": "ChIJlaY2HQCRqI4RzRWT1vBYg5M",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyattinclusivecollection.com/en/resorts-hotels/secrets/dominican-republic/cap-cana-resort-spa/?src=corp_lclb_google_seo_seccc&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hyatt Regency Tokyo\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hyatt Regency Tokyo Hyatt Regency Hotel\", \"Hyatt Regency Tokyo Hyatt Regency Resort\", \"Hyatt Regency Tokyo Hyatt Regency\", \"Hyatt Regency Tokyo Hyatt Regency Tokyo, Japan Hotel\", \"Hyatt Regency Tokyo Hyatt Regency Tokyo, Japan Resort\", \"Hyatt Regency Tokyo Hyatt Regency Tokyo, Japan\", \"Hyatt Regency Tokyo Hilton Hotel\", \"Hyatt Regency Tokyo Hilton Resort\", \"Hyatt Regency Tokyo Hilton\", \"Hyatt Regency Tokyo Hilton Tokyo, Japan Hotel\", \"Hyatt Regency Tokyo Hilton Tokyo, Japan Resort\", \"Hyatt Regency Tokyo Hilton Tokyo, Japan\", \"Hyatt Regency Tokyo Hotel\", \"Hyatt Regency Tokyo Resort\", \"Hyatt Regency Tokyo\", \"Hyatt Regency Tokyo Tokyo, Japan Hotel\", \"Hyatt Regency Tokyo Tokyo, Japan Resort\", \"Hyatt Regency Tokyo Tokyo, Japan\"], \"v\": 3}": {
+    "lat": 35.6912457,
+    "lon": 139.69126,
+    "formatted_address": "2-chōme-7-2 Nishishinjuku, Shinjuku City, Tokyo 160-0023, Japan",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJR3s9zSrzGGARck5SsvgMA6Q",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2-chōme-7-2 Nishishinjuku, Shinjuku City, Tokyo 160-0023, Japan",
+      "geometry": {
+        "location": {
+          "lat": 35.6912457,
+          "lng": 139.69126
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.6925137302915,
+            "lng": 139.6927825302915
+          },
+          "southwest": {
+            "lat": 35.6898157697085,
+            "lng": 139.6900845697085
+          }
+        }
+      },
+      "name": "Hyatt Regency Tokyo",
+      "place_id": "ChIJR3s9zSrzGGARck5SsvgMA6Q",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/hyatt-regency/en-US/tyoty-hyatt-regency-tokyo?src=corp_lclb_google_seo_tyoty&utm_source=google&utm_medium=organic&utm_campaign=lmr"
     }
   }
 }

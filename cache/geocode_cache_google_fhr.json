@@ -130141,49 +130141,45 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 40.041247,
-    "lon": -76.3051954,
-    "formatted_address": "26 E Chestnut St, Lancaster, PA 17602, USA",
+    "lat": 40.025647,
+    "lon": -76.2103178,
+    "formatted_address": "2320 Lincoln Hwy E, Lancaster, PA 17602, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ37TebTMlxokR3jFqgEpc2Rk",
+    "place_id": "ChIJp6-nrr47xokR-cBopTFxWz4",
     "types": [
       "establishment",
-      "gym",
-      "health",
       "lodging",
       "point_of_interest"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "26 E Chestnut St, Lancaster, PA 17602, USA",
+      "formatted_address": "2320 Lincoln Hwy E, Lancaster, PA 17602, USA",
       "geometry": {
         "location": {
-          "lat": 40.041247,
-          "lng": -76.3051954
+          "lat": 40.025647,
+          "lng": -76.2103178
         },
         "viewport": {
           "northeast": {
-            "lat": 40.0426346802915,
-            "lng": -76.30380471970848
+            "lat": 40.0270498302915,
+            "lng": -76.2090659697085
           },
           "southwest": {
-            "lat": 40.0399367197085,
-            "lng": -76.3065026802915
+            "lat": 40.0243518697085,
+            "lng": -76.21176393029151
           }
         }
       },
-      "name": "Holiday Inn Lancaster by IHG",
-      "place_id": "ChIJ37TebTMlxokR3jFqgEpc2Rk",
+      "name": "Tru by Hilton Lancaster East",
+      "place_id": "ChIJp6-nrr47xokR-cBopTFxWz4",
       "types": [
         "establishment",
-        "gym",
-        "health",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.ihg.com/holidayinn/hotels/us/en/lancaster/lnsch/hoteldetail?cm_mmc=GoogleMaps-_-HI-_-US-_-LNSCH"
+      "website": "https://www.hilton.com/en/hotels/lnsruru-tru-lancaster-east/?SEO_id=GMB-AMER-RU-LNSRURU&y_source=1_Nzg2MDQ3Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -143090,12 +143086,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Mason\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mason Design Hotels Hotel\", \"Mason Design Hotels Resort\", \"Mason Design Hotels\", \"Mason Design Hotels Chon Buri, Thailand Hotel\", \"Mason Design Hotels Chon Buri, Thailand Resort\", \"Mason Design Hotels Chon Buri, Thailand\", \"Mason Hilton Hotel\", \"Mason Hilton Resort\", \"Mason Hilton\", \"Mason Hilton Chon Buri, Thailand Hotel\", \"Mason Hilton Chon Buri, Thailand Resort\", \"Mason Hilton Chon Buri, Thailand\", \"Mason Hotel\", \"Mason Resort\", \"Mason\", \"Mason Chon Buri, Thailand Hotel\", \"Mason Chon Buri, Thailand Resort\", \"Mason Chon Buri, Thailand\"], \"v\": 3}": {
-    "lat": 39.3013806,
-    "lon": -84.3182874,
-    "formatted_address": "5200 Natorp Blvd, Mason, OH 45040, USA",
+    "lat": 33.1232566,
+    "lon": -89.0534744,
+    "formatted_address": "915 S Columbus Ave, Louisville, MS 39339, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJRU4KkvtWQIgRN0FJwaeuO8E",
+    "place_id": "ChIJQRhldrhfgYgRluUrzlpJz6Q",
     "types": [
       "establishment",
       "lodging",
@@ -143104,31 +143100,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "5200 Natorp Blvd, Mason, OH 45040, USA",
+      "formatted_address": "915 S Columbus Ave, Louisville, MS 39339, USA",
       "geometry": {
         "location": {
-          "lat": 39.3013806,
-          "lng": -84.3182874
+          "lat": 33.1232566,
+          "lng": -89.0534744
         },
         "viewport": {
           "northeast": {
-            "lat": 39.30241353029151,
-            "lng": -84.31648501970851
+            "lat": 33.1245721302915,
+            "lng": -89.05201431970849
           },
           "southwest": {
-            "lat": 39.29971556970851,
-            "lng": -84.31918298029152
+            "lat": 33.1218741697085,
+            "lng": -89.0547122802915
           }
         }
       },
-      "name": "Hilton Garden Inn Cincinnati/Mason",
-      "place_id": "ChIJRU4KkvtWQIgRN0FJwaeuO8E",
+      "name": "The Mason Boutique Hotel",
+      "place_id": "ChIJQRhldrhfgYgRluUrzlpJz6Q",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/cvgcmgi-hilton-garden-inn-cincinnati-mason/?SEO_id=GMB-AMER-GI-CVGCMGI&y_source=1_MjA4NDQyOS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "http://www.themasonhotel.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hospes Palacio del Bailio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hospes Palacio del Bailio Design Hotels Hotel\", \"Hospes Palacio del Bailio Design Hotels Resort\", \"Hospes Palacio del Bailio Design Hotels\", \"Hospes Palacio del Bailio Design Hotels Cordoba, Spain Hotel\", \"Hospes Palacio del Bailio Design Hotels Cordoba, Spain Resort\", \"Hospes Palacio del Bailio Design Hotels Cordoba, Spain\", \"Hospes Palacio del Bailio Hilton Hotel\", \"Hospes Palacio del Bailio Hilton Resort\", \"Hospes Palacio del Bailio Hilton\", \"Hospes Palacio del Bailio Hilton Cordoba, Spain Hotel\", \"Hospes Palacio del Bailio Hilton Cordoba, Spain Resort\", \"Hospes Palacio del Bailio Hilton Cordoba, Spain\", \"Hospes Palacio Del Bailio Design Hotels Hotel\", \"Hospes Palacio Del Bailio Design Hotels Resort\", \"Hospes Palacio Del Bailio Design Hotels\", \"Hospes Palacio Del Bailio Design Hotels Cordoba, Spain Hotel\", \"Hospes Palacio Del Bailio Design Hotels Cordoba, Spain Resort\", \"Hospes Palacio Del Bailio Design Hotels Cordoba, Spain\", \"Hospes Palacio Del Bailio Hilton Hotel\", \"Hospes Palacio Del Bailio Hilton Resort\", \"Hospes Palacio Del Bailio Hilton\", \"Hospes Palacio Del Bailio Hilton Cordoba, Spain Hotel\", \"Hospes Palacio Del Bailio Hilton Cordoba, Spain Resort\", \"Hospes Palacio Del Bailio Hilton Cordoba, Spain\", \"Hospes Palacio del Bailio Hotel\", \"Hospes Palacio del Bailio Resort\", \"Hospes Palacio del Bailio\", \"Hospes Palacio del Bailio Cordoba, Spain Hotel\", \"Hospes Palacio del Bailio Cordoba, Spain Resort\", \"Hospes Palacio del Bailio Cordoba, Spain\"], \"v\": 3}": {
@@ -210337,6 +210333,225 @@
         "point_of_interest"
       ],
       "website": "https://www.1hotels.com/melbourne?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Hotel la Compania del Valle\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel la Compania del Valle\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Vista Ostuni\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Vista Ostuni\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Savute Elephant Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Savute Elephant Lodge\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Savute Elephant Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Savute Elephant Lodge Belmond Hotel\", \"Savute Elephant Lodge Belmond Resort\", \"Savute Elephant Lodge Belmond\", \"Savute Elephant Lodge Belmond Chobe National Park, Botswana Hotel\", \"Savute Elephant Lodge Belmond Chobe National Park, Botswana Resort\", \"Savute Elephant Lodge Belmond Chobe National Park, Botswana\", \"Savute Elephant Lodge Hilton Hotel\", \"Savute Elephant Lodge Hilton Resort\", \"Savute Elephant Lodge Hilton\", \"Savute Elephant Lodge Hilton Chobe National Park, Botswana Hotel\", \"Savute Elephant Lodge Hilton Chobe National Park, Botswana Resort\", \"Savute Elephant Lodge Hilton Chobe National Park, Botswana\", \"Savute Elephant Lodge Hotel\", \"Savute Elephant Lodge Resort\", \"Savute Elephant Lodge\", \"Savute Elephant Lodge Chobe National Park, Botswana Hotel\", \"Savute Elephant Lodge Chobe National Park, Botswana Resort\", \"Savute Elephant Lodge Chobe National Park, Botswana\"], \"v\": 3}": {
+    "lat": -18.5692772,
+    "lon": 24.0543131,
+    "formatted_address": "Chobe National Park, Botswana",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJq6qqqqomURkROuNdqPs6SXs",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Chobe National Park, Botswana",
+      "geometry": {
+        "location": {
+          "lat": -18.5692772,
+          "lng": 24.0543131
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -18.5679282197085,
+            "lng": 24.0556620802915
+          },
+          "southwest": {
+            "lat": -18.5706261802915,
+            "lng": 24.05296411970849
+          }
+        }
+      },
+      "name": "Savute Elephant Lodge, A Belmond Safari, Botswana",
+      "place_id": "ChIJq6qqqqomURkROuNdqPs6SXs",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.belmond.com/safaris/africa/botswana/belmond-savute-elephant-lodge/?utm_source=local_search&utm_medium=link&utm_campaign=google_business"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel la Compania del Valle\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel la Compania del Valle Hyatt Hotel\", \"Hotel la Compania del Valle Hyatt Resort\", \"Hotel la Compania del Valle Hyatt\", \"Hotel la Compania del Valle Hyatt Panama City, Panama Hotel\", \"Hotel la Compania del Valle Hyatt Panama City, Panama Resort\", \"Hotel la Compania del Valle Hyatt Panama City, Panama\", \"Hotel la Compania del Valle Hilton Hotel\", \"Hotel la Compania del Valle Hilton Resort\", \"Hotel la Compania del Valle Hilton\", \"Hotel la Compania del Valle Hilton Panama City, Panama Hotel\", \"Hotel la Compania del Valle Hilton Panama City, Panama Resort\", \"Hotel la Compania del Valle Hilton Panama City, Panama\", \"Hotel La Compania Del Valle Hyatt Hotel\", \"Hotel La Compania Del Valle Hyatt Resort\", \"Hotel La Compania Del Valle Hyatt\", \"Hotel La Compania Del Valle Hyatt Panama City, Panama Hotel\", \"Hotel La Compania Del Valle Hyatt Panama City, Panama Resort\", \"Hotel La Compania Del Valle Hyatt Panama City, Panama\", \"Hotel La Compania Del Valle Hilton Hotel\", \"Hotel La Compania Del Valle Hilton Resort\", \"Hotel La Compania Del Valle Hilton\", \"Hotel La Compania Del Valle Hilton Panama City, Panama Hotel\", \"Hotel La Compania Del Valle Hilton Panama City, Panama Resort\", \"Hotel La Compania Del Valle Hilton Panama City, Panama\", \"Hotel la Compania del Valle Hotel\", \"Hotel la Compania del Valle Resort\", \"Hotel la Compania del Valle\", \"Hotel la Compania del Valle Panama City, Panama Hotel\", \"Hotel la Compania del Valle Panama City, Panama Resort\", \"Hotel la Compania del Valle Panama City, Panama\"], \"v\": 3}": {
+    "lat": 8.6111038,
+    "lon": -80.1197024,
+    "formatted_address": "C. El Ciclo, El Valle de Antón, Provincia de Coclé, Panama",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ30BKmndZrI8RAhBw4dRo0u4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "C. El Ciclo, El Valle de Antón, Provincia de Coclé, Panama",
+      "geometry": {
+        "location": {
+          "lat": 8.6111038,
+          "lng": -80.1197024
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 8.612458980291503,
+            "lng": -80.1183380697085
+          },
+          "southwest": {
+            "lat": 8.609761019708499,
+            "lng": -80.1210360302915
+          }
+        }
+      },
+      "name": "Hotel La Compañía del Valle - The Unbound Collection by Hyatt",
+      "place_id": "ChIJ30BKmndZrI8RAhBw4dRo0u4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.lacompaniahotelsandresorts.com/en/?src=corp_lclb_google_seo_ptyuv&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"San Clemente Palace\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Clemente Palace Preferred Hotels & Resorts Hotel\", \"San Clemente Palace Preferred Hotels & Resorts Resort\", \"San Clemente Palace Preferred Hotels & Resorts\", \"San Clemente Palace Preferred Hotels & Resorts Venice, Italy Hotel\", \"San Clemente Palace Preferred Hotels & Resorts Venice, Italy Resort\", \"San Clemente Palace Preferred Hotels & Resorts Venice, Italy\", \"San Clemente Palace Hilton Hotel\", \"San Clemente Palace Hilton Resort\", \"San Clemente Palace Hilton\", \"San Clemente Palace Hilton Venice, Italy Hotel\", \"San Clemente Palace Hilton Venice, Italy Resort\", \"San Clemente Palace Hilton Venice, Italy\", \"San Clemente Palace Hotel\", \"San Clemente Palace Resort\", \"San Clemente Palace\", \"San Clemente Palace Venice, Italy Hotel\", \"San Clemente Palace Venice, Italy Resort\", \"San Clemente Palace Venice, Italy\"], \"v\": 3}": {
+    "lat": 45.4113766,
+    "lon": 12.3355371,
+    "formatted_address": "isola San clemente, 1/1, 30124 Venezia VE, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJJ9dKMvGuKxMRTqkb45DZixU",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "isola San clemente, 1/1, 30124 Venezia VE, Italy",
+      "geometry": {
+        "location": {
+          "lat": 45.4113766,
+          "lng": 12.3355371
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.41272558029149,
+            "lng": 12.3368860802915
+          },
+          "southwest": {
+            "lat": 45.41002761970849,
+            "lng": 12.3341881197085
+          }
+        }
+      },
+      "name": "San Clemente Palace Venice",
+      "place_id": "ChIJJ9dKMvGuKxMRTqkb45DZixU",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.sanclementepalace.it/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Vista Ostuni\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Vista Ostuni The Leading Hotels of the World Hotel\", \"Vista Ostuni The Leading Hotels of the World Resort\", \"Vista Ostuni The Leading Hotels of the World\", \"Vista Ostuni The Leading Hotels of the World Ostuni, Italy Hotel\", \"Vista Ostuni The Leading Hotels of the World Ostuni, Italy Resort\", \"Vista Ostuni The Leading Hotels of the World Ostuni, Italy\", \"Vista Ostuni Hilton Hotel\", \"Vista Ostuni Hilton Resort\", \"Vista Ostuni Hilton\", \"Vista Ostuni Hilton Ostuni, Italy Hotel\", \"Vista Ostuni Hilton Ostuni, Italy Resort\", \"Vista Ostuni Hilton Ostuni, Italy\", \"Vista Ostuni Hotel\", \"Vista Ostuni Resort\", \"Vista Ostuni\", \"Vista Ostuni Ostuni, Italy Hotel\", \"Vista Ostuni Ostuni, Italy Resort\", \"Vista Ostuni Ostuni, Italy\"], \"v\": 3}": {
+    "lat": 40.73433490000001,
+    "lon": 17.5813699,
+    "formatted_address": "Via Giosuè Pinto, 60/A, 72017 Ostuni BR, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJC5nVXVRDRhMRLJ-i3QAAu0E",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Giosuè Pinto, 60/A, 72017 Ostuni BR, Italy",
+      "geometry": {
+        "location": {
+          "lat": 40.73433490000001,
+          "lng": 17.5813699
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.7355129802915,
+            "lng": 17.5828362302915
+          },
+          "southwest": {
+            "lat": 40.73281501970851,
+            "lng": 17.5801382697085
+          }
+        }
+      },
+      "name": "Vista Ostuni",
+      "place_id": "ChIJC5nVXVRDRhMRLJ-i3QAAu0E",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.vistapalazzo.com/ostuni/vista-ostuni/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Palais de la Mediterranee\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Palais de la Mediterranee The Unbound Collection Hotel\", \"Hotel Palais de la Mediterranee The Unbound Collection Resort\", \"Hotel Palais de la Mediterranee The Unbound Collection\", \"Hotel Palais de la Mediterranee The Unbound Collection Nice, France Hotel\", \"Hotel Palais de la Mediterranee The Unbound Collection Nice, France Resort\", \"Hotel Palais de la Mediterranee The Unbound Collection Nice, France\", \"Hotel Palais de la Mediterranee Hilton Hotel\", \"Hotel Palais de la Mediterranee Hilton Resort\", \"Hotel Palais de la Mediterranee Hilton\", \"Hotel Palais de la Mediterranee Hilton Nice, France Hotel\", \"Hotel Palais de la Mediterranee Hilton Nice, France Resort\", \"Hotel Palais de la Mediterranee Hilton Nice, France\", \"Hotel Palais De La Mediterranee The Unbound Collection Hotel\", \"Hotel Palais De La Mediterranee The Unbound Collection Resort\", \"Hotel Palais De La Mediterranee The Unbound Collection\", \"Hotel Palais De La Mediterranee The Unbound Collection Nice, France Hotel\", \"Hotel Palais De La Mediterranee The Unbound Collection Nice, France Resort\", \"Hotel Palais De La Mediterranee The Unbound Collection Nice, France\", \"Hotel Palais De La Mediterranee Hilton Hotel\", \"Hotel Palais De La Mediterranee Hilton Resort\", \"Hotel Palais De La Mediterranee Hilton\", \"Hotel Palais De La Mediterranee Hilton Nice, France Hotel\", \"Hotel Palais De La Mediterranee Hilton Nice, France Resort\", \"Hotel Palais De La Mediterranee Hilton Nice, France\", \"Hotel Palais de la Mediterranee Hotel\", \"Hotel Palais de la Mediterranee Resort\", \"Hotel Palais de la Mediterranee\", \"Hotel Palais de la Mediterranee Nice, France Hotel\", \"Hotel Palais de la Mediterranee Nice, France Resort\", \"Hotel Palais de la Mediterranee Nice, France\"], \"v\": 3}": {
+    "lat": 43.6953004,
+    "lon": 7.263005899999999,
+    "formatted_address": "13 Prom. des Anglais, 06000 Nice, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJIdtTwwrQzRIRAZAXfU2J22g",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "13 Prom. des Anglais, 06000 Nice, France",
+      "geometry": {
+        "location": {
+          "lat": 43.6953004,
+          "lng": 7.263005899999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.6968082802915,
+            "lng": 7.264531980291502
+          },
+          "southwest": {
+            "lat": 43.6941103197085,
+            "lng": 7.261834019708498
+          }
+        }
+      },
+      "name": "Hyatt Regency Nice Palais de la Méditerranée",
+      "place_id": "ChIJIdtTwwrQzRIRAZAXfU2J22g",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/hyatt-regency/en-US/ncehr-hyatt-regency-nice-palais-de-la-mediterranee?src=corp_lclb_google_seo_ncehr&utm_source=google&utm_medium=organic&utm_campaign=lmr"
     }
   }
 }
