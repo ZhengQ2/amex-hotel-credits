@@ -141603,12 +141603,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Antonio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Antonio Small Luxury Hotels of the World Hotel\", \"San Antonio Small Luxury Hotels of the World Resort\", \"San Antonio Small Luxury Hotels of the World\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Hotel\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Resort\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece\", \"San Antonio Hilton Hotel\", \"San Antonio Hilton Resort\", \"San Antonio Hilton\", \"San Antonio Hilton Imerovigli, Greece Hotel\", \"San Antonio Hilton Imerovigli, Greece Resort\", \"San Antonio Hilton Imerovigli, Greece\", \"San Antonio Hotel\", \"San Antonio Resort\", \"San Antonio\", \"San Antonio Imerovigli, Greece Hotel\", \"San Antonio Imerovigli, Greece Resort\", \"San Antonio Imerovigli, Greece\"], \"v\": 3}": {
-    "lat": 29.521535,
-    "lon": -98.490831,
-    "formatted_address": "37 NE Loop 410 At McCullough, San Antonio, TX 78216, USA",
+    "lat": 29.4266015,
+    "lon": -98.4859548,
+    "formatted_address": "705 E Houston St, San Antonio, TX 78205, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJy2Pln71hXIYRML-T-XvTl6U",
+    "place_id": "ChIJPX3jOFVfXIYRnMvCUJcFi2Q",
     "types": [
       "establishment",
       "lodging",
@@ -141617,31 +141617,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "37 NE Loop 410 At McCullough, San Antonio, TX 78216, USA",
+      "formatted_address": "705 E Houston St, San Antonio, TX 78205, USA",
       "geometry": {
         "location": {
-          "lat": 29.521535,
-          "lng": -98.490831
+          "lat": 29.4266015,
+          "lng": -98.4859548
         },
         "viewport": {
           "northeast": {
-            "lat": 29.5226847802915,
-            "lng": -98.4897132697085
+            "lat": 29.4279135802915,
+            "lng": -98.4846148197085
           },
           "southwest": {
-            "lat": 29.5199868197085,
-            "lng": -98.49241123029151
+            "lat": 29.4252156197085,
+            "lng": -98.48731278029152
           }
         }
       },
-      "name": "Estancia del Norte San Antonio, Tapestry Collection by Hilton",
-      "place_id": "ChIJy2Pln71hXIYRML-T-XvTl6U",
+      "name": "The Emily Morgan San Antonio - a DoubleTree by Hilton Hotel",
+      "place_id": "ChIJPX3jOFVfXIYRnMvCUJcFi2Q",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/satinup-estancia-del-norte-san-antonio/?SEO_id=GMB-AMER-UP-SATINUP&y_source=1_MjI3NDU5MjYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+      "website": "https://www.hilton.com/en/hotels/satemdt-the-emily-morgan-san-antonio/?SEO_id=GMB-AMER-DT-SATEMDT&y_source=1_MTM3MjYzOC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rusty Parrot Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
@@ -155056,6 +155056,134 @@
         "point_of_interest"
       ],
       "website": "https://www.hyatt.com/hyatt-regency/en-US/tyoty-hyatt-regency-tokyo?src=corp_lclb_google_seo_tyoty&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Steigenberger Icon Europaischer Hof Baden-Baden\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Steigenberger Icon Europaischer Hof Baden-Baden\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Hoxton Florence\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Hoxton Florence\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Steigenberger Icon Europaischer Hof Baden-Baden\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Steigenberger Icon Europaischer Hof Baden-Baden Hotel\", \"Steigenberger Icon Europaischer Hof Baden-Baden Resort\", \"Steigenberger Icon Europaischer Hof Baden-Baden\", \"Steigenberger Icon Europaischer Hof Baden-Baden Baden-Baden, Germany Hotel\", \"Steigenberger Icon Europaischer Hof Baden-Baden Baden-Baden, Germany Resort\", \"Steigenberger Icon Europaischer Hof Baden-Baden Baden-Baden, Germany\", \"Steigenberger Icon Europaischer Hof Baden baden Hotel\", \"Steigenberger Icon Europaischer Hof Baden baden Resort\", \"Steigenberger Icon Europaischer Hof Baden baden\", \"Steigenberger Icon Europaischer Hof Baden baden Baden-Baden, Germany Hotel\", \"Steigenberger Icon Europaischer Hof Baden baden Baden-Baden, Germany Resort\", \"Steigenberger Icon Europaischer Hof Baden baden Baden-Baden, Germany\"], \"v\": 3}": {
+    "lat": 48.76163,
+    "lon": 8.23804,
+    "formatted_address": "Kaiserallee 2, 76530 Baden-Baden, Germany",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJfUZcJEIfl0cRSLeooq2lpag",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Kaiserallee 2, 76530 Baden-Baden, Germany",
+      "geometry": {
+        "location": {
+          "lat": 48.76163,
+          "lng": 8.23804
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.7628614802915,
+            "lng": 8.239282830291502
+          },
+          "southwest": {
+            "lat": 48.7601635197085,
+            "lng": 8.236584869708498
+          }
+        }
+      },
+      "name": "Steigenberger Icon Europäischer Hof Baden-Baden",
+      "place_id": "ChIJfUZcJEIfl0cRSLeooq2lpag",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://hrewards.com/de/steigenberger-icon-europaeischer-hof-baden-baden"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Omni Homestead Resort and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Omni Homestead Resort and Spa Omni Hotels & Resorts Hotel\", \"The Omni Homestead Resort and Spa Omni Hotels & Resorts Resort\", \"The Omni Homestead Resort and Spa Omni Hotels & Resorts\", \"The Omni Homestead Resort and Spa Omni Hotels & Resorts Hot Springs, Virginia US Hotel\", \"The Omni Homestead Resort and Spa Omni Hotels & Resorts Hot Springs, Virginia US Resort\", \"The Omni Homestead Resort and Spa Omni Hotels & Resorts Hot Springs, Virginia US\", \"The Omni Homestead Resort and Spa Hilton Hotel\", \"The Omni Homestead Resort and Spa Hilton Resort\", \"The Omni Homestead Resort and Spa Hilton\", \"The Omni Homestead Resort and Spa Hilton Hot Springs, Virginia US Hotel\", \"The Omni Homestead Resort and Spa Hilton Hot Springs, Virginia US Resort\", \"The Omni Homestead Resort and Spa Hilton Hot Springs, Virginia US\", \"Omni Homestead Resort Spa Omni Hotels & Resorts Hotel\", \"Omni Homestead Resort Spa Omni Hotels & Resorts Resort\", \"Omni Homestead Resort Spa Omni Hotels & Resorts\", \"Omni Homestead Resort Spa Omni Hotels & Resorts Hot Springs, Virginia US Hotel\", \"Omni Homestead Resort Spa Omni Hotels & Resorts Hot Springs, Virginia US Resort\", \"Omni Homestead Resort Spa Omni Hotels & Resorts Hot Springs, Virginia US\", \"Omni Homestead Resort Spa Hilton Hotel\", \"Omni Homestead Resort Spa Hilton Resort\", \"Omni Homestead Resort Spa Hilton\", \"Omni Homestead Resort Spa Hilton Hot Springs, Virginia US Hotel\", \"Omni Homestead Resort Spa Hilton Hot Springs, Virginia US Resort\", \"Omni Homestead Resort Spa Hilton Hot Springs, Virginia US\", \"The Omni Homestead Resort and Spa Hotel\", \"The Omni Homestead Resort and Spa Resort\", \"The Omni Homestead Resort and Spa\", \"The Omni Homestead Resort and Spa Hot Springs, Virginia US Hotel\", \"The Omni Homestead Resort and Spa Hot Springs, Virginia US Resort\", \"The Omni Homestead Resort and Spa Hot Springs, Virginia US\"], \"v\": 3}": {
+    "lat": 37.99712359999999,
+    "lon": -79.8302696,
+    "formatted_address": "7696 Sam Snead Hwy, Hot Springs, VA 24445, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ49sjWSuRTIgRxOPHqI6dDJQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "7696 Sam Snead Hwy, Hot Springs, VA 24445, USA",
+      "geometry": {
+        "location": {
+          "lat": 37.99712359999999,
+          "lng": -79.8302696
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.99766088029149,
+            "lng": -79.82813301970849
+          },
+          "southwest": {
+            "lat": 37.99496291970849,
+            "lng": -79.8308309802915
+          }
+        }
+      },
+      "name": "The Omni Homestead Resort",
+      "place_id": "ChIJ49sjWSuRTIgRxOPHqI6dDJQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.omnihotels.com/hotels/homestead-virginia?utm_source=gmblisting&utm_medium=organic"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Hoxton Florence\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Hoxton Florence The Hoxton Hotel\", \"The Hoxton Florence The Hoxton Resort\", \"The Hoxton Florence The Hoxton\", \"The Hoxton Florence The Hoxton Florence, Italy Hotel\", \"The Hoxton Florence The Hoxton Florence, Italy Resort\", \"The Hoxton Florence The Hoxton Florence, Italy\", \"The Hoxton Florence Hilton Hotel\", \"The Hoxton Florence Hilton Resort\", \"The Hoxton Florence Hilton\", \"The Hoxton Florence Hilton Florence, Italy Hotel\", \"The Hoxton Florence Hilton Florence, Italy Resort\", \"The Hoxton Florence Hilton Florence, Italy\", \"The Hoxton Florence Hotel\", \"The Hoxton Florence Resort\", \"The Hoxton Florence\", \"The Hoxton Florence Florence, Italy Hotel\", \"The Hoxton Florence Florence, Italy Resort\", \"The Hoxton Florence Florence, Italy\"], \"v\": 3}": {
+    "lat": 43.7824694,
+    "lon": 11.2598681,
+    "formatted_address": "Via delle Mantellate, 2, 50129 Firenze FI, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJVZvtBQBVKhMRrTqhoWgBkCk",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via delle Mantellate, 2, 50129 Firenze FI, Italy",
+      "geometry": {
+        "location": {
+          "lat": 43.7824694,
+          "lng": 11.2598681
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.7836786802915,
+            "lng": 11.2610985802915
+          },
+          "southwest": {
+            "lat": 43.7809807197085,
+            "lng": 11.2584006197085
+          }
+        }
+      },
+      "name": "The Hoxton, Florence",
+      "place_id": "ChIJVZvtBQBVKhMRrTqhoWgBkCk",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://thehoxton.com/italy/florence/"
     }
   }
 }
