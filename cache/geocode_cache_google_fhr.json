@@ -5142,54 +5142,6 @@
       "website": "https://www.gypsea-stbarth.com/beach-club"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Airelles Chateau Hotel De La Messardiere Hotel\", \"Airelles Chateau Hotel De La Messardiere Resort\", \"Airelles Chateau Hotel De La Messardiere\", \"Airelles Chateau Hotel De La Messardiere Saint-Tropez, France Hotel\", \"Airelles Chateau Hotel De La Messardiere Saint-Tropez, France Resort\", \"Airelles Chateau Hotel De La Messardiere Saint-Tropez, France\", \"Airelles Chateau Hotel de la Messardiere Hotel\", \"Airelles Chateau Hotel de la Messardiere Resort\", \"Airelles Chateau Hotel de la Messardiere\", \"Airelles Chateau Hotel de la Messardiere Saint-Tropez, France Hotel\", \"Airelles Chateau Hotel de la Messardiere Saint-Tropez, France Resort\", \"Airelles Chateau Hotel de la Messardiere Saint-Tropez, France\"], \"v\": 3}": {
-    "lat": 43.2542059,
-    "lon": 6.6576743,
-    "formatted_address": "2 Rte de Tahiti, 83990 Saint-Tropez, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJxeumAibHzhIR_kH4-oZjzC4",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "CLOSED_TEMPORARILY",
-      "formatted_address": "2 Rte de Tahiti, 83990 Saint-Tropez, France",
-      "geometry": {
-        "location": {
-          "lat": 43.2542059,
-          "lng": 6.6576743
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 43.2555155302915,
-            "lng": 6.658953780291502
-          },
-          "southwest": {
-            "lat": 43.2528175697085,
-            "lng": 6.656255819708497
-          }
-        }
-      },
-      "name": "Airelles Saint-Tropez, Château de la Messardière",
-      "place_id": "ChIJxeumAibHzhIR_kH4-oZjzC4",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://airelles.com/fr/destination/chateau-de-la-messardiere-hotel?utm_source=google&utm_medium=yext"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Tartane St Tropez Hotel\", \"La Tartane St Tropez Resort\", \"La Tartane St Tropez\", \"La Tartane St Tropez Saint-Tropez, France Hotel\", \"La Tartane St Tropez Saint-Tropez, France Resort\", \"La Tartane St Tropez Saint-Tropez, France\"], \"v\": 3}": {
     "lat": 43.26173499999999,
     "lon": 6.679824399999999,
@@ -6668,48 +6620,6 @@
         "point_of_interest"
       ],
       "website": "https://venicevenice.com/"
-    }
-  },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Airelles Chateau De Versailles Le Grand Controle Hotel\", \"Airelles Chateau De Versailles Le Grand Controle Resort\", \"Airelles Chateau De Versailles Le Grand Controle\", \"Airelles Chateau De Versailles Le Grand Controle Versailles, France Hotel\", \"Airelles Chateau De Versailles Le Grand Controle Versailles, France Resort\", \"Airelles Chateau De Versailles Le Grand Controle Versailles, France\", \"Airelles Chateau de Versailles, Le Grand Controle Hotel\", \"Airelles Chateau de Versailles, Le Grand Controle Resort\", \"Airelles Chateau de Versailles, Le Grand Controle\", \"Airelles Chateau de Versailles, Le Grand Controle Versailles, France Hotel\", \"Airelles Chateau de Versailles, Le Grand Controle Versailles, France Resort\", \"Airelles Chateau de Versailles, Le Grand Controle Versailles, France\"], \"v\": 3}": {
-    "lat": 48.8013233,
-    "lon": 2.1199224,
-    "formatted_address": "12 Rue de l'Indépendance Américaine, 78000 Versailles, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJp9eEe6x95kcRx9ZXHHSdrPc",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "12 Rue de l'Indépendance Américaine, 78000 Versailles, France",
-      "geometry": {
-        "location": {
-          "lat": 48.8013233,
-          "lng": 2.1199224
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 48.8026765802915,
-            "lng": 2.121503330291501
-          },
-          "southwest": {
-            "lat": 48.7999786197085,
-            "lng": 2.118805369708498
-          }
-        }
-      },
-      "name": "Airelles Château de Versailles, Le Grand Contrôle",
-      "place_id": "ChIJp9eEe6x95kcRx9ZXHHSdrPc",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://airelles.com/fr/destination/chateau-de-versailles-hotel?utm_source=google&utm_medium=yext"
     }
   },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Almanac Palais Vienna Hotel\", \"Almanac Palais Vienna Resort\", \"Almanac Palais Vienna\", \"Almanac Palais Vienna Vienna, Austria Hotel\", \"Almanac Palais Vienna Vienna, Austria Resort\", \"Almanac Palais Vienna Vienna, Austria\"], \"v\": 3}": {
@@ -80739,54 +80649,6 @@
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Caramel A Grecotel Resort to live, Crete Hotel\", \"Caramel A Grecotel Resort to live, Crete Resort\", \"Caramel A Grecotel Resort to live, Crete\", \"Caramel A Grecotel Resort to live, Crete Rethymnon, Greece Hotel\", \"Caramel A Grecotel Resort to live, Crete Rethymnon, Greece Resort\", \"Caramel A Grecotel Resort to live, Crete Rethymnon, Greece\", \"Caramel A Grecotel Resort To Live Crete Hotel\", \"Caramel A Grecotel Resort To Live Crete Resort\", \"Caramel A Grecotel Resort To Live Crete\", \"Caramel A Grecotel Resort To Live Crete Rethymnon, Greece Hotel\", \"Caramel A Grecotel Resort To Live Crete Rethymnon, Greece Resort\", \"Caramel A Grecotel Resort To Live Crete Rethymnon, Greece\"], \"v\": 3}": {
     "status": "NO_RESULT"
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Airelles Chateau Hotel de la Messardiere Hotel\", \"Airelles Chateau Hotel de la Messardiere Resort\", \"Airelles Chateau Hotel de la Messardiere\", \"Airelles Chateau Hotel de la Messardiere Saint-Tropez, France Hotel\", \"Airelles Chateau Hotel de la Messardiere Saint-Tropez, France Resort\", \"Airelles Chateau Hotel de la Messardiere Saint-Tropez, France\", \"Airelles Chateau Hotel De La Messardiere Hotel\", \"Airelles Chateau Hotel De La Messardiere Resort\", \"Airelles Chateau Hotel De La Messardiere\", \"Airelles Chateau Hotel De La Messardiere Saint-Tropez, France Hotel\", \"Airelles Chateau Hotel De La Messardiere Saint-Tropez, France Resort\", \"Airelles Chateau Hotel De La Messardiere Saint-Tropez, France\"], \"v\": 3}": {
-    "lat": 43.2542059,
-    "lon": 6.6576743,
-    "formatted_address": "2 Rte de Tahiti, 83990 Saint-Tropez, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJxeumAibHzhIR_kH4-oZjzC4",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "CLOSED_TEMPORARILY",
-      "formatted_address": "2 Rte de Tahiti, 83990 Saint-Tropez, France",
-      "geometry": {
-        "location": {
-          "lat": 43.2542059,
-          "lng": 6.6576743
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 43.2555155302915,
-            "lng": 6.658953780291502
-          },
-          "southwest": {
-            "lat": 43.2528175697085,
-            "lng": 6.656255819708497
-          }
-        }
-      },
-      "name": "Airelles Saint-Tropez, Château de la Messardière",
-      "place_id": "ChIJxeumAibHzhIR_kH4-oZjzC4",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://airelles.com/fr/destination/chateau-de-la-messardiere-hotel?utm_source=google&utm_medium=yext"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Llao Llao Resort, Golf & Spa Hotel\", \"Llao Llao Resort, Golf & Spa Resort\", \"Llao Llao Resort, Golf & Spa\", \"Llao Llao Resort, Golf & Spa San Carlos de Bariloche, Argentina Hotel\", \"Llao Llao Resort, Golf & Spa San Carlos de Bariloche, Argentina Resort\", \"Llao Llao Resort, Golf & Spa San Carlos de Bariloche, Argentina\", \"Llao Llao Resort Golf Spa Hotel\", \"Llao Llao Resort Golf Spa Resort\", \"Llao Llao Resort Golf Spa\", \"Llao Llao Resort Golf Spa San Carlos de Bariloche, Argentina Hotel\", \"Llao Llao Resort Golf Spa San Carlos de Bariloche, Argentina Resort\", \"Llao Llao Resort Golf Spa San Carlos de Bariloche, Argentina\"], \"v\": 3}": {
     "lat": -41.0576325,
     "lon": -71.5312821,
@@ -81387,48 +81249,6 @@
         "point_of_interest"
       ],
       "website": "https://venicevenice.com/"
-    }
-  },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Airelles Chateau de Versailles, Le Grand Controle Hotel\", \"Airelles Chateau de Versailles, Le Grand Controle Resort\", \"Airelles Chateau de Versailles, Le Grand Controle\", \"Airelles Chateau de Versailles, Le Grand Controle Versailles, France Hotel\", \"Airelles Chateau de Versailles, Le Grand Controle Versailles, France Resort\", \"Airelles Chateau de Versailles, Le Grand Controle Versailles, France\", \"Airelles Chateau De Versailles Le Grand Controle Hotel\", \"Airelles Chateau De Versailles Le Grand Controle Resort\", \"Airelles Chateau De Versailles Le Grand Controle\", \"Airelles Chateau De Versailles Le Grand Controle Versailles, France Hotel\", \"Airelles Chateau De Versailles Le Grand Controle Versailles, France Resort\", \"Airelles Chateau De Versailles Le Grand Controle Versailles, France\"], \"v\": 3}": {
-    "lat": 48.8013233,
-    "lon": 2.1199224,
-    "formatted_address": "12 Rue de l'Indépendance Américaine, 78000 Versailles, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJp9eEe6x95kcRx9ZXHHSdrPc",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "12 Rue de l'Indépendance Américaine, 78000 Versailles, France",
-      "geometry": {
-        "location": {
-          "lat": 48.8013233,
-          "lng": 2.1199224
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 48.8026765802915,
-            "lng": 2.121503330291501
-          },
-          "southwest": {
-            "lat": 48.7999786197085,
-            "lng": 2.118805369708498
-          }
-        }
-      },
-      "name": "Airelles Château de Versailles, Le Grand Contrôle",
-      "place_id": "ChIJp9eEe6x95kcRx9ZXHHSdrPc",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://airelles.com/fr/destination/chateau-de-versailles-hotel?utm_source=google&utm_medium=yext"
     }
   },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cal-a-Vie Health Spa Hotel\", \"Cal-a-Vie Health Spa Resort\", \"Cal-a-Vie Health Spa\", \"Cal-a-Vie Health Spa Vista, California US Hotel\", \"Cal-a-Vie Health Spa Vista, California US Resort\", \"Cal-a-Vie Health Spa Vista, California US\", \"Cal a vie Health Spa Hotel\", \"Cal a vie Health Spa Resort\", \"Cal a vie Health Spa\", \"Cal a vie Health Spa Vista, California US Hotel\", \"Cal a vie Health Spa Vista, California US Resort\", \"Cal a vie Health Spa Vista, California US\"], \"v\": 3}": {
@@ -130141,12 +129961,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 40.025647,
-    "lon": -76.2103178,
-    "formatted_address": "2320 Lincoln Hwy E, Lancaster, PA 17602, USA",
+    "lat": 39.9927967,
+    "lon": -76.28769179999999,
+    "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJp6-nrr47xokR-cBopTFxWz4",
+    "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
     "types": [
       "establishment",
       "lodging",
@@ -130155,31 +129975,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2320 Lincoln Hwy E, Lancaster, PA 17602, USA",
+      "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
       "geometry": {
         "location": {
-          "lat": 40.025647,
-          "lng": -76.2103178
+          "lat": 39.9927967,
+          "lng": -76.28769179999999
         },
         "viewport": {
           "northeast": {
-            "lat": 40.0270498302915,
-            "lng": -76.2090659697085
+            "lat": 39.9940706302915,
+            "lng": -76.28663611970849
           },
           "southwest": {
-            "lat": 40.0243518697085,
-            "lng": -76.21176393029151
+            "lat": 39.9913726697085,
+            "lng": -76.2893340802915
           }
         }
       },
-      "name": "Tru by Hilton Lancaster East",
-      "place_id": "ChIJp6-nrr47xokR-cBopTFxWz4",
+      "name": "DoubleTree Resort by Hilton Hotel Lancaster",
+      "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/lnsruru-tru-lancaster-east/?SEO_id=GMB-AMER-RU-LNSRURU&y_source=1_Nzg2MDQ3Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.hilton.com/en/hotels/lnswvdt-doubletree-resort-lancaster/?SEO_id=GMB-AMER-DT-LNSWVDT&y_source=1_MTM3MjczNC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -130875,54 +130695,6 @@
         "restaurant"
       ],
       "website": "https://www.gypsea-stbarth.com/beach-club"
-    }
-  },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Airelles Chateau Hotel de la Messardiere\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Airelles Chateau Hotel de la Messardiere Hotel\", \"Airelles Chateau Hotel de la Messardiere Resort\", \"Airelles Chateau Hotel de la Messardiere\", \"Airelles Chateau Hotel de la Messardiere Saint-Tropez, France Hotel\", \"Airelles Chateau Hotel de la Messardiere Saint-Tropez, France Resort\", \"Airelles Chateau Hotel de la Messardiere Saint-Tropez, France\", \"Airelles Chateau Hotel De La Messardiere Hotel\", \"Airelles Chateau Hotel De La Messardiere Resort\", \"Airelles Chateau Hotel De La Messardiere\", \"Airelles Chateau Hotel De La Messardiere Saint-Tropez, France Hotel\", \"Airelles Chateau Hotel De La Messardiere Saint-Tropez, France Resort\", \"Airelles Chateau Hotel De La Messardiere Saint-Tropez, France\"], \"v\": 3}": {
-    "lat": 43.2542059,
-    "lon": 6.6576743,
-    "formatted_address": "2 Rte de Tahiti, 83990 Saint-Tropez, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJxeumAibHzhIR_kH4-oZjzC4",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "CLOSED_TEMPORARILY",
-      "formatted_address": "2 Rte de Tahiti, 83990 Saint-Tropez, France",
-      "geometry": {
-        "location": {
-          "lat": 43.2542059,
-          "lng": 6.6576743
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 43.2555155302915,
-            "lng": 6.658953780291502
-          },
-          "southwest": {
-            "lat": 43.2528175697085,
-            "lng": 6.656255819708497
-          }
-        }
-      },
-      "name": "Airelles Saint-Tropez, Château de la Messardière",
-      "place_id": "ChIJxeumAibHzhIR_kH4-oZjzC4",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://airelles.com/fr/destination/chateau-de-la-messardiere-hotel?utm_source=google&utm_medium=yext"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Tartane St Tropez\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Tartane St Tropez Hotel\", \"La Tartane St Tropez Resort\", \"La Tartane St Tropez\", \"La Tartane St Tropez Saint-Tropez, France Hotel\", \"La Tartane St Tropez Saint-Tropez, France Resort\", \"La Tartane St Tropez Saint-Tropez, France\"], \"v\": 3}": {
@@ -132487,48 +132259,6 @@
         "point_of_interest"
       ],
       "website": "https://venicevenice.com/"
-    }
-  },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Airelles Chateau de Versailles, Le Grand Controle\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Airelles Chateau de Versailles, Le Grand Controle Hotel\", \"Airelles Chateau de Versailles, Le Grand Controle Resort\", \"Airelles Chateau de Versailles, Le Grand Controle\", \"Airelles Chateau de Versailles, Le Grand Controle Versailles, France Hotel\", \"Airelles Chateau de Versailles, Le Grand Controle Versailles, France Resort\", \"Airelles Chateau de Versailles, Le Grand Controle Versailles, France\", \"Airelles Chateau De Versailles Le Grand Controle Hotel\", \"Airelles Chateau De Versailles Le Grand Controle Resort\", \"Airelles Chateau De Versailles Le Grand Controle\", \"Airelles Chateau De Versailles Le Grand Controle Versailles, France Hotel\", \"Airelles Chateau De Versailles Le Grand Controle Versailles, France Resort\", \"Airelles Chateau De Versailles Le Grand Controle Versailles, France\"], \"v\": 3}": {
-    "lat": 48.8013233,
-    "lon": 2.1199224,
-    "formatted_address": "12 Rue de l'Indépendance Américaine, 78000 Versailles, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJp9eEe6x95kcRx9ZXHHSdrPc",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "12 Rue de l'Indépendance Américaine, 78000 Versailles, France",
-      "geometry": {
-        "location": {
-          "lat": 48.8013233,
-          "lng": 2.1199224
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 48.8026765802915,
-            "lng": 2.121503330291501
-          },
-          "southwest": {
-            "lat": 48.7999786197085,
-            "lng": 2.118805369708498
-          }
-        }
-      },
-      "name": "Airelles Château de Versailles, Le Grand Contrôle",
-      "place_id": "ChIJp9eEe6x95kcRx9ZXHHSdrPc",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://airelles.com/fr/destination/chateau-de-versailles-hotel?utm_source=google&utm_medium=yext"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Almanac Palais Vienna\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Almanac Palais Vienna Hotel\", \"Almanac Palais Vienna Resort\", \"Almanac Palais Vienna\", \"Almanac Palais Vienna Vienna, Austria Hotel\", \"Almanac Palais Vienna Vienna, Austria Resort\", \"Almanac Palais Vienna Vienna, Austria\"], \"v\": 3}": {
@@ -210552,6 +210282,542 @@
         "point_of_interest"
       ],
       "website": "https://www.hyatt.com/hyatt-regency/en-US/ncehr-hyatt-regency-nice-palais-de-la-mediterranee?src=corp_lclb_google_seo_ncehr&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Airelles Ch\\u00e2teau de La Messardi\\u00e8re, Saint Tropez\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Airelles Ch\\u00e2teau de La Messardi\\u00e8re, Saint Tropez\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Airelles Le Grand Contr\\u00f4le, Ch\\u00e2teau de Versailles\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Airelles Le Grand Contr\\u00f4le, Ch\\u00e2teau de Versailles\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Airelles La Bastide, Gordes\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Airelles La Bastide, Gordes Hotel\", \"Airelles La Bastide, Gordes Resort\", \"Airelles La Bastide, Gordes\", \"Airelles La Bastide, Gordes Gordes, France Hotel\", \"Airelles La Bastide, Gordes Gordes, France Resort\", \"Airelles La Bastide, Gordes Gordes, France\", \"Airelles La Bastide Gordes Hotel\", \"Airelles La Bastide Gordes Resort\", \"Airelles La Bastide Gordes\", \"Airelles La Bastide Gordes Gordes, France Hotel\", \"Airelles La Bastide Gordes Gordes, France Resort\", \"Airelles La Bastide Gordes Gordes, France\"], \"v\": 3}": {
+    "lat": 43.9115936,
+    "lon": 5.1986919,
+    "formatted_address": "61 Rue de la Combe, 84220 Gordes, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ2UuLUtsNyhIRyWiV_tmXcL4",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "CLOSED_TEMPORARILY",
+      "formatted_address": "61 Rue de la Combe, 84220 Gordes, France",
+      "geometry": {
+        "location": {
+          "lat": 43.9115936,
+          "lng": 5.1986919
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.91293433029151,
+            "lng": 5.200091080291503
+          },
+          "southwest": {
+            "lat": 43.91023636970851,
+            "lng": 5.197393119708498
+          }
+        }
+      },
+      "name": "Airelles Gordes, La Bastide",
+      "place_id": "ChIJ2UuLUtsNyhIRyWiV_tmXcL4",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://airelles.com/fr/destination/gordes-hotel?utm_source=google&utm_medium=yext"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"MYTHIC SANA Downtown Suites\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"MYTHIC SANA Downtown Suites Hotel\", \"MYTHIC SANA Downtown Suites Resort\", \"MYTHIC SANA Downtown Suites\", \"MYTHIC SANA Downtown Suites Lisbon, Portugal Hotel\", \"MYTHIC SANA Downtown Suites Lisbon, Portugal Resort\", \"MYTHIC SANA Downtown Suites Lisbon, Portugal\", \"Mythic Sana Downtown Suites Hotel\", \"Mythic Sana Downtown Suites Resort\", \"Mythic Sana Downtown Suites\", \"Mythic Sana Downtown Suites Lisbon, Portugal Hotel\", \"Mythic Sana Downtown Suites Lisbon, Portugal Resort\", \"Mythic Sana Downtown Suites Lisbon, Portugal\"], \"v\": 3}": {
+    "lat": 38.7103007,
+    "lon": -9.1383362,
+    "formatted_address": "R. Áurea 126 128, 1100-060 Lisboa, Portugal",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJw3OAGXk0GQ0RxsYaSD1kdbw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "R. Áurea 126 128, 1100-060 Lisboa, Portugal",
+      "geometry": {
+        "location": {
+          "lat": 38.7103007,
+          "lng": -9.1383362
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.71175828029151,
+            "lng": -9.137048419708501
+          },
+          "southwest": {
+            "lat": 38.70906031970851,
+            "lng": -9.139746380291504
+          }
+        }
+      },
+      "name": "MYTHIC SANA Downtown Suites",
+      "place_id": "ChIJw3OAGXk0GQ0RxsYaSD1kdbw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.sanahotels.com/pt/hotel/mythic-sana-downtown-suites/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Mr. C Miami Coconut Grove\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mr. C Miami Coconut Grove Hotel\", \"Mr. C Miami Coconut Grove Resort\", \"Mr. C Miami Coconut Grove\", \"Mr. C Miami Coconut Grove Miami, Florida US Hotel\", \"Mr. C Miami Coconut Grove Miami, Florida US Resort\", \"Mr. C Miami Coconut Grove Miami, Florida US\", \"Mr C Miami Coconut Grove Hotel\", \"Mr C Miami Coconut Grove Resort\", \"Mr C Miami Coconut Grove\", \"Mr C Miami Coconut Grove Miami, Florida US Hotel\", \"Mr C Miami Coconut Grove Miami, Florida US Resort\", \"Mr C Miami Coconut Grove Miami, Florida US\"], \"v\": 3}": {
+    "lat": 25.7275563,
+    "lon": -80.2419389,
+    "formatted_address": "2988 McFarlane Rd, Coconut Grove, FL 33133, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ3Rm2kTO32YgRirVmfkanMe8",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2988 McFarlane Rd, Coconut Grove, FL 33133, USA",
+      "geometry": {
+        "location": {
+          "lat": 25.7275563,
+          "lng": -80.2419389
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.7289571802915,
+            "lng": -80.24053241970849
+          },
+          "southwest": {
+            "lat": 25.7262592197085,
+            "lng": -80.24323038029151
+          }
+        }
+      },
+      "name": "Mr. C Miami | Coconut Grove",
+      "place_id": "ChIJ3Rm2kTO32YgRirVmfkanMe8",
+      "types": [
+        "cafe",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "http://www.mrccoconutgrove.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Airelles Ch\\u00e2teau de La Messardi\\u00e8re, Saint Tropez\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Airelles Ch\\u00e2teau de La Messardi\\u00e8re, Saint Tropez Hotel\", \"Airelles Ch\\u00e2teau de La Messardi\\u00e8re, Saint Tropez Resort\", \"Airelles Ch\\u00e2teau de La Messardi\\u00e8re, Saint Tropez\", \"Airelles Ch\\u00e2teau de La Messardi\\u00e8re, Saint Tropez Saint-Tropez, France Hotel\", \"Airelles Ch\\u00e2teau de La Messardi\\u00e8re, Saint Tropez Saint-Tropez, France Resort\", \"Airelles Ch\\u00e2teau de La Messardi\\u00e8re, Saint Tropez Saint-Tropez, France\", \"Airelles Chateau De La Messardiere Saint Tropez Hotel\", \"Airelles Chateau De La Messardiere Saint Tropez Resort\", \"Airelles Chateau De La Messardiere Saint Tropez\", \"Airelles Chateau De La Messardiere Saint Tropez Saint-Tropez, France Hotel\", \"Airelles Chateau De La Messardiere Saint Tropez Saint-Tropez, France Resort\", \"Airelles Chateau De La Messardiere Saint Tropez Saint-Tropez, France\"], \"v\": 3}": {
+    "lat": 43.2542059,
+    "lon": 6.6576743,
+    "formatted_address": "2 Rte de Tahiti, 83990 Saint-Tropez, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJxeumAibHzhIR_kH4-oZjzC4",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2 Rte de Tahiti, 83990 Saint-Tropez, France",
+      "geometry": {
+        "location": {
+          "lat": 43.2542059,
+          "lng": 6.6576743
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.2555155302915,
+            "lng": 6.658953780291502
+          },
+          "southwest": {
+            "lat": 43.2528175697085,
+            "lng": 6.656255819708497
+          }
+        }
+      },
+      "name": "Airelles Saint-Tropez, Château de la Messardière",
+      "place_id": "ChIJxeumAibHzhIR_kH4-oZjzC4",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://airelles.com/fr/destination/chateau-de-la-messardiere-hotel?utm_source=google&utm_medium=yext"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Airelles Le Grand Contr\\u00f4le, Ch\\u00e2teau de Versailles\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Airelles Le Grand Contr\\u00f4le, Ch\\u00e2teau de Versailles Hotel\", \"Airelles Le Grand Contr\\u00f4le, Ch\\u00e2teau de Versailles Resort\", \"Airelles Le Grand Contr\\u00f4le, Ch\\u00e2teau de Versailles\", \"Airelles Le Grand Contr\\u00f4le, Ch\\u00e2teau de Versailles Versailles, France Hotel\", \"Airelles Le Grand Contr\\u00f4le, Ch\\u00e2teau de Versailles Versailles, France Resort\", \"Airelles Le Grand Contr\\u00f4le, Ch\\u00e2teau de Versailles Versailles, France\", \"Airelles Le Grand Controle Chateau De Versailles Hotel\", \"Airelles Le Grand Controle Chateau De Versailles Resort\", \"Airelles Le Grand Controle Chateau De Versailles\", \"Airelles Le Grand Controle Chateau De Versailles Versailles, France Hotel\", \"Airelles Le Grand Controle Chateau De Versailles Versailles, France Resort\", \"Airelles Le Grand Controle Chateau De Versailles Versailles, France\"], \"v\": 3}": {
+    "lat": 48.8013233,
+    "lon": 2.1199224,
+    "formatted_address": "12 Rue de l'Indépendance Américaine, 78000 Versailles, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJp9eEe6x95kcRx9ZXHHSdrPc",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "12 Rue de l'Indépendance Américaine, 78000 Versailles, France",
+      "geometry": {
+        "location": {
+          "lat": 48.8013233,
+          "lng": 2.1199224
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.8026765802915,
+            "lng": 2.121503330291501
+          },
+          "southwest": {
+            "lat": 48.7999786197085,
+            "lng": 2.118805369708498
+          }
+        }
+      },
+      "name": "Airelles Château de Versailles, Le Grand Contrôle",
+      "place_id": "ChIJp9eEe6x95kcRx9ZXHHSdrPc",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://airelles.com/fr/destination/chateau-de-versailles-hotel?utm_source=google&utm_medium=yext"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Clayoquot Wilderness Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Clayoquot Wilderness Lodge Beckons Hotel\", \"Clayoquot Wilderness Lodge Beckons Resort\", \"Clayoquot Wilderness Lodge Beckons\", \"Clayoquot Wilderness Lodge Beckons Alberni-Clayoquot C, British Columbia CA Hotel\", \"Clayoquot Wilderness Lodge Beckons Alberni-Clayoquot C, British Columbia CA Resort\", \"Clayoquot Wilderness Lodge Beckons Alberni-Clayoquot C, British Columbia CA\", \"Clayoquot Wilderness Lodge Hilton Hotel\", \"Clayoquot Wilderness Lodge Hilton Resort\", \"Clayoquot Wilderness Lodge Hilton\", \"Clayoquot Wilderness Lodge Hilton Alberni-Clayoquot C, British Columbia CA Hotel\", \"Clayoquot Wilderness Lodge Hilton Alberni-Clayoquot C, British Columbia CA Resort\", \"Clayoquot Wilderness Lodge Hilton Alberni-Clayoquot C, British Columbia CA\", \"Clayoquot Wilderness Lodge Hotel\", \"Clayoquot Wilderness Lodge Resort\", \"Clayoquot Wilderness Lodge\", \"Clayoquot Wilderness Lodge Alberni-Clayoquot C, British Columbia CA Hotel\", \"Clayoquot Wilderness Lodge Alberni-Clayoquot C, British Columbia CA Resort\", \"Clayoquot Wilderness Lodge Alberni-Clayoquot C, British Columbia CA\"], \"v\": 3}": {
+    "lat": 49.3663737,
+    "lon": -125.7776638,
+    "formatted_address": "Bedwell River Valley, Alberni-Clayoquot C, BC V0R 2Z0, Canada",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJy-YzMZrHiVQRzPDs4pvgFyk",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Bedwell River Valley, Alberni-Clayoquot C, BC V0R 2Z0, Canada",
+      "geometry": {
+        "location": {
+          "lat": 49.3663737,
+          "lng": -125.7776638
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.36772268029149,
+            "lng": -125.7763148197085
+          },
+          "southwest": {
+            "lat": 49.36502471970849,
+            "lng": -125.7790127802915
+          }
+        }
+      },
+      "name": "Clayoquot Wilderness Lodge",
+      "place_id": "ChIJy-YzMZrHiVQRzPDs4pvgFyk",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://clayoquotwildernesslodge.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Southern Ocean Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Southern Ocean Lodge Beckons Hotel\", \"Southern Ocean Lodge Beckons Resort\", \"Southern Ocean Lodge Beckons\", \"Southern Ocean Lodge Beckons Kingscote, Australia Hotel\", \"Southern Ocean Lodge Beckons Kingscote, Australia Resort\", \"Southern Ocean Lodge Beckons Kingscote, Australia\", \"Southern Ocean Lodge Hilton Hotel\", \"Southern Ocean Lodge Hilton Resort\", \"Southern Ocean Lodge Hilton\", \"Southern Ocean Lodge Hilton Kingscote, Australia Hotel\", \"Southern Ocean Lodge Hilton Kingscote, Australia Resort\", \"Southern Ocean Lodge Hilton Kingscote, Australia\", \"Southern Ocean Lodge Hotel\", \"Southern Ocean Lodge Resort\", \"Southern Ocean Lodge\", \"Southern Ocean Lodge Kingscote, Australia Hotel\", \"Southern Ocean Lodge Kingscote, Australia Resort\", \"Southern Ocean Lodge Kingscote, Australia\"], \"v\": 3}": {
+    "lat": -36.0177119,
+    "lon": 136.8339196,
+    "formatted_address": "Hanson Bay Rd, Kingscote SA 5223, Australia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJRX0wR-cprWoRoivPUwnAfBE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Hanson Bay Rd, Kingscote SA 5223, Australia",
+      "geometry": {
+        "location": {
+          "lat": -36.0177119,
+          "lng": 136.8339196
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -36.0163451197085,
+            "lng": 136.8352667302915
+          },
+          "southwest": {
+            "lat": -36.0190430802915,
+            "lng": 136.8325687697085
+          }
+        }
+      },
+      "name": "Southern Ocean Lodge",
+      "place_id": "ChIJRX0wR-cprWoRoivPUwnAfBE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.southernoceanlodge.com.au/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Louise\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Louise Beckons Hotel\", \"The Louise Beckons Resort\", \"The Louise Beckons\", \"The Louise Beckons Marananga, Australia Hotel\", \"The Louise Beckons Marananga, Australia Resort\", \"The Louise Beckons Marananga, Australia\", \"The Louise Hilton Hotel\", \"The Louise Hilton Resort\", \"The Louise Hilton\", \"The Louise Hilton Marananga, Australia Hotel\", \"The Louise Hilton Marananga, Australia Resort\", \"The Louise Hilton Marananga, Australia\", \"The Louise Hotel\", \"The Louise Resort\", \"The Louise\", \"The Louise Marananga, Australia Hotel\", \"The Louise Marananga, Australia Resort\", \"The Louise Marananga, Australia\"], \"v\": 3}": {
+    "lat": -34.488121,
+    "lon": 138.9467926,
+    "formatted_address": "375 Seppeltsfield Road, Stonewell Rd, Marananga SA 5355, Australia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJHcgB3rjuuWoRrhDhDPTVWlo",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "375 Seppeltsfield Road, Stonewell Rd, Marananga SA 5355, Australia",
+      "geometry": {
+        "location": {
+          "lat": -34.488121,
+          "lng": 138.9467926
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -34.4865757697085,
+            "lng": 138.9481805802915
+          },
+          "southwest": {
+            "lat": -34.4892737302915,
+            "lng": 138.9454826197085
+          }
+        }
+      },
+      "name": "The Louise",
+      "place_id": "ChIJHcgB3rjuuWoRrhDhDPTVWlo",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://thelouise.com.au/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Silky Oaks Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Silky Oaks Lodge Beckons Hotel\", \"Silky Oaks Lodge Beckons Resort\", \"Silky Oaks Lodge Beckons\", \"Silky Oaks Lodge Beckons Mossman, Australia Hotel\", \"Silky Oaks Lodge Beckons Mossman, Australia Resort\", \"Silky Oaks Lodge Beckons Mossman, Australia\", \"Silky Oaks Lodge Hilton Hotel\", \"Silky Oaks Lodge Hilton Resort\", \"Silky Oaks Lodge Hilton\", \"Silky Oaks Lodge Hilton Mossman, Australia Hotel\", \"Silky Oaks Lodge Hilton Mossman, Australia Resort\", \"Silky Oaks Lodge Hilton Mossman, Australia\", \"Silky Oaks Lodge Hotel\", \"Silky Oaks Lodge Resort\", \"Silky Oaks Lodge\", \"Silky Oaks Lodge Mossman, Australia Hotel\", \"Silky Oaks Lodge Mossman, Australia Resort\", \"Silky Oaks Lodge Mossman, Australia\"], \"v\": 3}": {
+    "lat": -16.4696324,
+    "lon": 145.3466687,
+    "formatted_address": "423 Finlayvale Rd, Finlayvale QLD 4873, Australia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJuV460HSvgmkRtZgGZ_Y1kBE",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "423 Finlayvale Rd, Finlayvale QLD 4873, Australia",
+      "geometry": {
+        "location": {
+          "lat": -16.4696324,
+          "lng": 145.3466687
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -16.46817636970849,
+            "lng": 145.3476966302915
+          },
+          "southwest": {
+            "lat": -16.4708743302915,
+            "lng": 145.3449986697085
+          }
+        }
+      },
+      "name": "Silky Oaks Lodge",
+      "place_id": "ChIJuV460HSvgmkRtZgGZ_Y1kBE",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "http://www.silkyoakslodge.com.au/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Huka Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Huka Lodge Beckons Hotel\", \"Huka Lodge Beckons Resort\", \"Huka Lodge Beckons\", \"Huka Lodge Beckons Taupo, New Zealand Hotel\", \"Huka Lodge Beckons Taupo, New Zealand Resort\", \"Huka Lodge Beckons Taupo, New Zealand\", \"Huka Lodge Hilton Hotel\", \"Huka Lodge Hilton Resort\", \"Huka Lodge Hilton\", \"Huka Lodge Hilton Taupo, New Zealand Hotel\", \"Huka Lodge Hilton Taupo, New Zealand Resort\", \"Huka Lodge Hilton Taupo, New Zealand\", \"Huka Lodge Hotel\", \"Huka Lodge Resort\", \"Huka Lodge\", \"Huka Lodge Taupo, New Zealand Hotel\", \"Huka Lodge Taupo, New Zealand Resort\", \"Huka Lodge Taupo, New Zealand\"], \"v\": 3}": {
+    "lat": -38.654401,
+    "lon": 176.086024,
+    "formatted_address": "271 Huka Falls Road, Wairakei, Taupō 3377, New Zealand",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJU41t9Vz3a20R3-cXhoaaX1o",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "271 Huka Falls Road, Wairakei, Taupō 3377, New Zealand",
+      "geometry": {
+        "location": {
+          "lat": -38.654401,
+          "lng": 176.086024
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -38.65338071970849,
+            "lng": 176.0870678302915
+          },
+          "southwest": {
+            "lat": -38.65607868029149,
+            "lng": 176.0843698697085
+          }
+        }
+      },
+      "name": "Huka Lodge",
+      "place_id": "ChIJU41t9Vz3a20R3-cXhoaaX1o",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hukalodge.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Tierra Patagonia\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Tierra Patagonia Beckons Hotel\", \"Tierra Patagonia Beckons Resort\", \"Tierra Patagonia Beckons\", \"Tierra Patagonia Beckons Torres del Paine, Chile Hotel\", \"Tierra Patagonia Beckons Torres del Paine, Chile Resort\", \"Tierra Patagonia Beckons Torres del Paine, Chile\", \"Tierra Patagonia Hilton Hotel\", \"Tierra Patagonia Hilton Resort\", \"Tierra Patagonia Hilton\", \"Tierra Patagonia Hilton Torres del Paine, Chile Hotel\", \"Tierra Patagonia Hilton Torres del Paine, Chile Resort\", \"Tierra Patagonia Hilton Torres del Paine, Chile\", \"Tierra Patagonia Hotel\", \"Tierra Patagonia Resort\", \"Tierra Patagonia\", \"Tierra Patagonia Torres del Paine, Chile Hotel\", \"Tierra Patagonia Torres del Paine, Chile Resort\", \"Tierra Patagonia Torres del Paine, Chile\"], \"v\": 3}": {
+    "lat": -51.0349807,
+    "lon": -72.5834045,
+    "formatted_address": "On the edge of Torres del Paine National Park, Torres de Paine, Magallanes y la Antártica Chilena, Chile",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJF1gP2WvKur0RECj2QSiOe2A",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "On the edge of Torres del Paine National Park, Torres de Paine, Magallanes y la Antártica Chilena, Chile",
+      "geometry": {
+        "location": {
+          "lat": -51.0349807,
+          "lng": -72.5834045
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -51.03359476970849,
+            "lng": -72.58211746970849
+          },
+          "southwest": {
+            "lat": -51.03629273029149,
+            "lng": -72.5848154302915
+          }
+        }
+      },
+      "name": "Tierra Patagonia",
+      "place_id": "ChIJF1gP2WvKur0RECj2QSiOe2A",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://tierrapatagonia.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Longitude 131\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Longitude 131 Beckons Hotel\", \"Longitude 131 Beckons Resort\", \"Longitude 131 Beckons\", \"Longitude 131 Beckons Yulara, Australia Hotel\", \"Longitude 131 Beckons Yulara, Australia Resort\", \"Longitude 131 Beckons Yulara, Australia\", \"Longitude 131 Hilton Hotel\", \"Longitude 131 Hilton Resort\", \"Longitude 131 Hilton\", \"Longitude 131 Hilton Yulara, Australia Hotel\", \"Longitude 131 Hilton Yulara, Australia Resort\", \"Longitude 131 Hilton Yulara, Australia\", \"Longitude 131 Hotel\", \"Longitude 131 Resort\", \"Longitude 131\", \"Longitude 131 Yulara, Australia Hotel\", \"Longitude 131 Yulara, Australia Resort\", \"Longitude 131 Yulara, Australia\"], \"v\": 3}": {
+    "lat": -25.2503589,
+    "lon": 131.0080575,
+    "formatted_address": "Yulara Drive, Yulara NT 0872, Australia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ24TZRSNAIysRwqrWEVV1tFs",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Yulara Drive, Yulara NT 0872, Australia",
+      "geometry": {
+        "location": {
+          "lat": -25.2503589,
+          "lng": 131.0080575
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -25.24901976970849,
+            "lng": 131.0095025802915
+          },
+          "southwest": {
+            "lat": -25.2517177302915,
+            "lng": 131.0068046197085
+          }
+        }
+      },
+      "name": "Longitude 131",
+      "place_id": "ChIJ24TZRSNAIysRwqrWEVV1tFs",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://longitude131.com.au/"
     }
   }
 }
