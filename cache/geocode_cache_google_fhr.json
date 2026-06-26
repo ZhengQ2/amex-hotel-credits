@@ -126627,8 +126627,8 @@
     "lat": 52.6495055,
     "lon": -7.251757099999999,
     "formatted_address": "22 & 23 Lower Patrick St, Gardens, Kilkenny, R95 DX76, Ireland",
-    "provider": "google_geocoding",
-    "confidence": "ROOFTOP",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
     "place_id": "ChIJ01oZ854wXUgRc53tyIAIH_M",
     "types": [
       "bar",
@@ -126640,92 +126640,26 @@
     ],
     "partial_match": false,
     "raw": {
-      "address_components": [
-        {
-          "long_name": "22 & 23 Lower",
-          "short_name": "22 & 23 Lower",
-          "types": [
-            "street_number"
-          ]
-        },
-        {
-          "long_name": "Patrick Street",
-          "short_name": "Patrick St",
-          "types": [
-            "route"
-          ]
-        },
-        {
-          "long_name": "Gardens",
-          "short_name": "Gardens",
-          "types": [
-            "neighborhood",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Kilkenny",
-          "short_name": "KK",
-          "types": [
-            "locality",
-            "political"
-          ]
-        },
-        {
-          "long_name": "County Kilkenny",
-          "short_name": "County Kilkenny",
-          "types": [
-            "administrative_area_level_1",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Ireland",
-          "short_name": "IE",
-          "types": [
-            "country",
-            "political"
-          ]
-        },
-        {
-          "long_name": "R95 DX76",
-          "short_name": "R95 DX76",
-          "types": [
-            "postal_code"
-          ]
-        }
-      ],
+      "business_status": "OPERATIONAL",
       "formatted_address": "22 & 23 Lower Patrick St, Gardens, Kilkenny, R95 DX76, Ireland",
       "geometry": {
         "location": {
           "lat": 52.6495055,
           "lng": -7.251757099999999
         },
-        "location_type": "ROOFTOP",
         "viewport": {
           "northeast": {
             "lat": 52.65086778029149,
-            "lng": -7.250302419708498
+            "lng": -7.250302419708494
           },
           "southwest": {
             "lat": 52.64816981970849,
-            "lng": -7.253000380291502
+            "lng": -7.253000380291499
           }
         }
       },
-      "navigation_points": [
-        {
-          "location": {
-            "latitude": 52.6495153,
-            "longitude": -7.2516458
-          }
-        }
-      ],
+      "name": "The Club House Hotel",
       "place_id": "ChIJ01oZ854wXUgRc53tyIAIH_M",
-      "plus_code": {
-        "compound_code": "JPXX+R7 Kilkenny, County Kilkenny, Ireland",
-        "global_code": "9C4JJPXX+R7"
-      },
       "types": [
         "bar",
         "establishment",
@@ -126733,7 +126667,8 @@
         "lodging",
         "point_of_interest",
         "restaurant"
-      ]
+      ],
+      "website": "http://www.clubhousehotel.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Dewberry\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Dewberry Hotel\", \"The Dewberry Resort\", \"The Dewberry\", \"The Dewberry Charleston, South Carolina US Hotel\", \"The Dewberry Charleston, South Carolina US Resort\", \"The Dewberry Charleston, South Carolina US\"], \"v\": 3}": {
@@ -128123,45 +128058,47 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Grove\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Grove Hotel\", \"The Grove Resort\", \"The Grove\", \"The Grove Hertfordshire, England Hotel\", \"The Grove Hertfordshire, England Resort\", \"The Grove Hertfordshire, England\"], \"v\": 3}": {
-    "lat": 43.6139805,
-    "lon": -116.2037791,
-    "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
+    "lat": 51.677052,
+    "lon": -0.436857,
+    "formatted_address": "Chandler's Cross, Watford WD3 4TG, UK",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
+    "place_id": "ChIJPYjFIHpqdkgRn0B8GNfoTVo",
     "types": [
       "establishment",
       "lodging",
-      "point_of_interest"
+      "point_of_interest",
+      "spa"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
+      "formatted_address": "Chandler's Cross, Watford WD3 4TG, UK",
       "geometry": {
         "location": {
-          "lat": 43.6139805,
-          "lng": -116.2037791
+          "lat": 51.677052,
+          "lng": -0.436857
         },
         "viewport": {
           "northeast": {
-            "lat": 43.61524663029149,
-            "lng": -116.2022796697085
+            "lat": 51.6786900802915,
+            "lng": -0.4358084197084979
           },
           "southwest": {
-            "lat": 43.6125486697085,
-            "lng": -116.2049776302915
+            "lat": 51.6759921197085,
+            "lng": -0.438506380291502
           }
         }
       },
-      "name": "The Grove Hotel",
-      "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
+      "name": "The Grove Hotel – Spa and Golf",
+      "place_id": "ChIJPYjFIHpqdkgRn0B8GNfoTVo",
       "types": [
         "establishment",
         "lodging",
-        "point_of_interest"
+        "point_of_interest",
+        "spa"
       ],
-      "website": "http://www.grovehotelboise.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect"
+      "website": "http://www.thegrove.co.uk/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Southern Ocean Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Southern Ocean Lodge Hotel\", \"Southern Ocean Lodge Resort\", \"Southern Ocean Lodge\", \"Southern Ocean Lodge Kingscote, Australia Hotel\", \"Southern Ocean Lodge Kingscote, Australia Resort\", \"Southern Ocean Lodge Kingscote, Australia\"], \"v\": 3}": {
@@ -129961,12 +129898,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 39.9927967,
-    "lon": -76.28769179999999,
-    "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
+    "lat": 34.7012112,
+    "lon": -118.171488,
+    "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
+    "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
     "types": [
       "establishment",
       "lodging",
@@ -129975,31 +129912,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
+      "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
       "geometry": {
         "location": {
-          "lat": 39.9927967,
-          "lng": -76.28769179999999
+          "lat": 34.7012112,
+          "lng": -118.171488
         },
         "viewport": {
           "northeast": {
-            "lat": 39.9940706302915,
-            "lng": -76.28663611970849
+            "lat": 34.7024083302915,
+            "lng": -118.1697845197085
           },
           "southwest": {
-            "lat": 39.9913726697085,
-            "lng": -76.2893340802915
+            "lat": 34.6997103697085,
+            "lng": -118.1724824802915
           }
         }
       },
-      "name": "DoubleTree Resort by Hilton Hotel Lancaster",
-      "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
+      "name": "Hampton Inn & Suites Lancaster",
+      "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/lnswvdt-doubletree-resort-lancaster/?SEO_id=GMB-AMER-DT-LNSWVDT&y_source=1_MTM3MjczNC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.hilton.com/en/hotels/pdllchx-hampton-suites-lancaster/?SEO_id=GMB-AMER-HX-PDLLCHX&y_source=1_MjA4MzE4Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -210818,6 +210755,223 @@
         "point_of_interest"
       ],
       "website": "https://longitude131.com.au/"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Palazzo Fiuggi\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Palazzo Fiuggi\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Eagle Island Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Eagle Island Lodge\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Park Hyatt Johannesburg\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Park Hyatt Johannesburg\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Park Hyatt Kuala Lumpur\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Park Hyatt Kuala Lumpur\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"The Sundays\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Sundays\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Palazzo Fiuggi\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Palazzo Fiuggi Hotel\", \"Palazzo Fiuggi Resort\", \"Palazzo Fiuggi\", \"Palazzo Fiuggi Fiuggi, Italy Hotel\", \"Palazzo Fiuggi Fiuggi, Italy Resort\", \"Palazzo Fiuggi Fiuggi, Italy\"], \"v\": 3}": {
+    "lat": 41.7957382,
+    "lon": 13.2194871,
+    "formatted_address": "Via dei Villini, 34, 03014 Fiuggi FR, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJdfWSKvD1LxMRas_OOux4KsY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via dei Villini, 34, 03014 Fiuggi FR, Italy",
+      "geometry": {
+        "location": {
+          "lat": 41.7957382,
+          "lng": 13.2194871
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.7969351802915,
+            "lng": 13.2206862802915
+          },
+          "southwest": {
+            "lat": 41.7942372197085,
+            "lng": 13.2179883197085
+          }
+        }
+      },
+      "name": "Palazzo Fiuggi",
+      "place_id": "ChIJdfWSKvD1LxMRas_OOux4KsY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.palazzofiuggi.com/?utm_source=GB&utm_medium=organic"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Sundays\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Sundays Hotel\", \"The Sundays Resort\", \"The Sundays\", \"The Sundays Hamilton Island, Australia Hotel\", \"The Sundays Hamilton Island, Australia Resort\", \"The Sundays Hamilton Island, Australia\"], \"v\": 3}": {
+    "lat": -20.3441101,
+    "lon": 148.9547125,
+    "formatted_address": "10 Palm Terrace Way, Whitsundays QLD 4802, Australia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJy6MatxQ12GsRc2LK8FdPg_w",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "10 Palm Terrace Way, Whitsundays QLD 4802, Australia",
+      "geometry": {
+        "location": {
+          "lat": -20.3441101,
+          "lng": 148.9547125
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -20.3430025697085,
+            "lng": 148.9558151302915
+          },
+          "southwest": {
+            "lat": -20.34570053029151,
+            "lng": 148.9531171697085
+          }
+        }
+      },
+      "name": "The Sundays",
+      "place_id": "ChIJy6MatxQ12GsRc2LK8FdPg_w",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hamiltonisland.com.au/accommodation/the-sundays"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Eagle Island Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Eagle Island Lodge Belmond Hotel\", \"Eagle Island Lodge Belmond Resort\", \"Eagle Island Lodge Belmond\", \"Eagle Island Lodge Belmond Okavango, Botswana Hotel\", \"Eagle Island Lodge Belmond Okavango, Botswana Resort\", \"Eagle Island Lodge Belmond Okavango, Botswana\", \"Eagle Island Lodge Hilton Hotel\", \"Eagle Island Lodge Hilton Resort\", \"Eagle Island Lodge Hilton\", \"Eagle Island Lodge Hilton Okavango, Botswana Hotel\", \"Eagle Island Lodge Hilton Okavango, Botswana Resort\", \"Eagle Island Lodge Hilton Okavango, Botswana\", \"Eagle Island Lodge Hotel\", \"Eagle Island Lodge Resort\", \"Eagle Island Lodge\", \"Eagle Island Lodge Okavango, Botswana Hotel\", \"Eagle Island Lodge Okavango, Botswana Resort\", \"Eagle Island Lodge Okavango, Botswana\"], \"v\": 3}": {
+    "lat": -19.544896,
+    "lon": 23.050189,
+    "formatted_address": "Okavango Delta, Okavango, Botswana",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJheIe1oHfVRkRiyOlygfbgbA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Okavango Delta, Okavango, Botswana",
+      "geometry": {
+        "location": {
+          "lat": -19.544896,
+          "lng": 23.050189
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -19.54354701970849,
+            "lng": 23.0515379802915
+          },
+          "southwest": {
+            "lat": -19.5462449802915,
+            "lng": 23.0488400197085
+          }
+        }
+      },
+      "name": "Eagle Island Lodge, A Belmond Safari, Botswana",
+      "place_id": "ChIJheIe1oHfVRkRiyOlygfbgbA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.belmond.com/safaris/africa/botswana/belmond-eagle-island-lodge/?utm_source=local_search&utm_medium=link&utm_campaign=google_business"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Park Hyatt Johannesburg\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Park Hyatt Johannesburg Park Hyatt Hotel\", \"Park Hyatt Johannesburg Park Hyatt Resort\", \"Park Hyatt Johannesburg Park Hyatt\", \"Park Hyatt Johannesburg Park Hyatt Johannesburg, South Africa Hotel\", \"Park Hyatt Johannesburg Park Hyatt Johannesburg, South Africa Resort\", \"Park Hyatt Johannesburg Park Hyatt Johannesburg, South Africa\", \"Park Hyatt Johannesburg Hilton Hotel\", \"Park Hyatt Johannesburg Hilton Resort\", \"Park Hyatt Johannesburg Hilton\", \"Park Hyatt Johannesburg Hilton Johannesburg, South Africa Hotel\", \"Park Hyatt Johannesburg Hilton Johannesburg, South Africa Resort\", \"Park Hyatt Johannesburg Hilton Johannesburg, South Africa\", \"Park Hyatt Johannesburg Hotel\", \"Park Hyatt Johannesburg Resort\", \"Park Hyatt Johannesburg\", \"Park Hyatt Johannesburg Johannesburg, South Africa Hotel\", \"Park Hyatt Johannesburg Johannesburg, South Africa Resort\", \"Park Hyatt Johannesburg Johannesburg, South Africa\"], \"v\": 3}": {
+    "lat": -26.1481375,
+    "lon": 28.0464417,
+    "formatted_address": "6 Tottenham Ave, Melrose Estate, Johannesburg, 2196, South Africa",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ8StdbgANlR4REIDLXyxEsqE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "6 Tottenham Ave, Melrose Estate, Johannesburg, 2196, South Africa",
+      "geometry": {
+        "location": {
+          "lat": -26.1481375,
+          "lng": 28.0464417
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -26.1468197197085,
+            "lng": 28.0476296802915
+          },
+          "southwest": {
+            "lat": -26.1495176802915,
+            "lng": 28.0449317197085
+          }
+        }
+      },
+      "name": "Park Hyatt Johannesburg",
+      "place_id": "ChIJ8StdbgANlR4REIDLXyxEsqE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg?src=corp_lclb_google_seo_johpj&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Park Hyatt Kuala Lumpur\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Park Hyatt Kuala Lumpur Park Hyatt Hotel\", \"Park Hyatt Kuala Lumpur Park Hyatt Resort\", \"Park Hyatt Kuala Lumpur Park Hyatt\", \"Park Hyatt Kuala Lumpur Park Hyatt Kuala Lumpur, Malaysia Hotel\", \"Park Hyatt Kuala Lumpur Park Hyatt Kuala Lumpur, Malaysia Resort\", \"Park Hyatt Kuala Lumpur Park Hyatt Kuala Lumpur, Malaysia\", \"Park Hyatt Kuala Lumpur Hilton Hotel\", \"Park Hyatt Kuala Lumpur Hilton Resort\", \"Park Hyatt Kuala Lumpur Hilton\", \"Park Hyatt Kuala Lumpur Hilton Kuala Lumpur, Malaysia Hotel\", \"Park Hyatt Kuala Lumpur Hilton Kuala Lumpur, Malaysia Resort\", \"Park Hyatt Kuala Lumpur Hilton Kuala Lumpur, Malaysia\", \"Park Hyatt Kuala Lumpur Hotel\", \"Park Hyatt Kuala Lumpur Resort\", \"Park Hyatt Kuala Lumpur\", \"Park Hyatt Kuala Lumpur Kuala Lumpur, Malaysia Hotel\", \"Park Hyatt Kuala Lumpur Kuala Lumpur, Malaysia Resort\", \"Park Hyatt Kuala Lumpur Kuala Lumpur, Malaysia\"], \"v\": 3}": {
+    "lat": 3.1418445,
+    "lon": 101.7006433,
+    "formatted_address": "KL118, Presint Merdeka 118, Wilayah Persekutuan, 50118 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJOzR3HpJJzDERcUd7V2RcDFw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "KL118, Presint Merdeka 118, Wilayah Persekutuan, 50118 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "geometry": {
+        "location": {
+          "lat": 3.1418445,
+          "lng": 101.7006433
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 3.143492730291502,
+            "lng": 101.7021859802915
+          },
+          "southwest": {
+            "lat": 3.140794769708498,
+            "lng": 101.6994880197085
+          }
+        }
+      },
+      "name": "Park Hyatt Kuala Lumpur",
+      "place_id": "ChIJOzR3HpJJzDERcUd7V2RcDFw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/park-hyatt/en-US/kulph-park-hyatt-kuala-lumpur?src=corp_lclb_google_seo_kulph&utm_source=google&utm_medium=organic&utm_campaign=lmr"
     }
   }
 }

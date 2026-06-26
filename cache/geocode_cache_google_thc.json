@@ -28621,48 +28621,6 @@
       "website": "https://www.ihg.com/intercontinental/hotels/us/en/boston/bosha/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-US-_-BOSHA"
     }
   },
-  "{\"brand\": \"IHG Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel X Brisbane Fortitude Valley Vignette Collection IHG Hotels & Resorts Hotel\", \"Hotel X Brisbane Fortitude Valley Vignette Collection IHG Hotels & Resorts Resort\", \"Hotel X Brisbane Fortitude Valley Vignette Collection IHG Hotels & Resorts\", \"Hotel X Brisbane Fortitude Valley Vignette Collection IHG Hotels & Resorts Brisbane, Australia Hotel\", \"Hotel X Brisbane Fortitude Valley Vignette Collection IHG Hotels & Resorts Brisbane, Australia Resort\", \"Hotel X Brisbane Fortitude Valley Vignette Collection IHG Hotels & Resorts Brisbane, Australia\", \"Hotel X Brisbane Fortitude Valley Vignette Collection Hilton Hotel\", \"Hotel X Brisbane Fortitude Valley Vignette Collection Hilton Resort\", \"Hotel X Brisbane Fortitude Valley Vignette Collection Hilton\", \"Hotel X Brisbane Fortitude Valley Vignette Collection Hilton Brisbane, Australia Hotel\", \"Hotel X Brisbane Fortitude Valley Vignette Collection Hilton Brisbane, Australia Resort\", \"Hotel X Brisbane Fortitude Valley Vignette Collection Hilton Brisbane, Australia\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection IHG Hotels & Resorts Hotel\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection IHG Hotels & Resorts Resort\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection IHG Hotels & Resorts\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection IHG Hotels & Resorts Brisbane, Australia Hotel\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection IHG Hotels & Resorts Brisbane, Australia Resort\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection IHG Hotels & Resorts Brisbane, Australia\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hilton Hotel\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hilton Resort\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hilton\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hilton Brisbane, Australia Hotel\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hilton Brisbane, Australia Resort\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hilton Brisbane, Australia\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hotel\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Resort\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Brisbane, Australia Hotel\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Brisbane, Australia Resort\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Brisbane, Australia\"], \"v\": 3}": {
-    "lat": -27.46021,
-    "lon": 153.0376746,
-    "formatted_address": "458 Brunswick St, Fortitude Valley QLD 4006, Australia",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ87BHVYRZkWsRltVjzAA1nto",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "458 Brunswick St, Fortitude Valley QLD 4006, Australia",
-      "geometry": {
-        "location": {
-          "lat": -27.46021,
-          "lng": 153.0376746
-        },
-        "viewport": {
-          "northeast": {
-            "lat": -27.45901481970849,
-            "lng": 153.0390013302915
-          },
-          "southwest": {
-            "lat": -27.4617127802915,
-            "lng": 153.0363033697085
-          }
-        }
-      },
-      "name": "Hotel X Brisbane Fortitude Vly, Vignette Collection by IHG",
-      "place_id": "ChIJ87BHVYRZkWsRltVjzAA1nto",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.ihg.com/vignettecollection/hotels/us/en/brisbane/bnefv/hoteldetail?cm_mmc=GoogleMaps-_-LX-_-AU-_-BNEFV"
-    }
-  },
   "{\"brand\": \"IHG Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Intercontinental Chicago Magnificent Mile IHG Hotels & Resorts Hotel\", \"Intercontinental Chicago Magnificent Mile IHG Hotels & Resorts Resort\", \"Intercontinental Chicago Magnificent Mile IHG Hotels & Resorts\", \"Intercontinental Chicago Magnificent Mile IHG Hotels & Resorts Chicago, Illinois US Hotel\", \"Intercontinental Chicago Magnificent Mile IHG Hotels & Resorts Chicago, Illinois US Resort\", \"Intercontinental Chicago Magnificent Mile IHG Hotels & Resorts Chicago, Illinois US\", \"Intercontinental Chicago Magnificent Mile Hilton Hotel\", \"Intercontinental Chicago Magnificent Mile Hilton Resort\", \"Intercontinental Chicago Magnificent Mile Hilton\", \"Intercontinental Chicago Magnificent Mile Hilton Chicago, Illinois US Hotel\", \"Intercontinental Chicago Magnificent Mile Hilton Chicago, Illinois US Resort\", \"Intercontinental Chicago Magnificent Mile Hilton Chicago, Illinois US\", \"InterContinental Chicago Magnificent Mile IHG Hotels & Resorts Hotel\", \"InterContinental Chicago Magnificent Mile IHG Hotels & Resorts Resort\", \"InterContinental Chicago Magnificent Mile IHG Hotels & Resorts\", \"InterContinental Chicago Magnificent Mile IHG Hotels & Resorts Chicago, Illinois US Hotel\", \"InterContinental Chicago Magnificent Mile IHG Hotels & Resorts Chicago, Illinois US Resort\", \"InterContinental Chicago Magnificent Mile IHG Hotels & Resorts Chicago, Illinois US\", \"InterContinental Chicago Magnificent Mile Hilton Hotel\", \"InterContinental Chicago Magnificent Mile Hilton Resort\", \"InterContinental Chicago Magnificent Mile Hilton\", \"InterContinental Chicago Magnificent Mile Hilton Chicago, Illinois US Hotel\", \"InterContinental Chicago Magnificent Mile Hilton Chicago, Illinois US Resort\", \"InterContinental Chicago Magnificent Mile Hilton Chicago, Illinois US\", \"InterContinental Chicago Magnificent Mile Hotel\", \"InterContinental Chicago Magnificent Mile Resort\", \"InterContinental Chicago Magnificent Mile\", \"InterContinental Chicago Magnificent Mile Chicago, Illinois US Hotel\", \"InterContinental Chicago Magnificent Mile Chicago, Illinois US Resort\", \"InterContinental Chicago Magnificent Mile Chicago, Illinois US\"], \"v\": 3}": {
     "lat": 41.8911399,
     "lon": -87.62387079999999,
@@ -70609,48 +70567,6 @@
         "point_of_interest"
       ],
       "website": "https://www.ihg.com/intercontinental/hotels/us/en/boston/bosha/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-US-_-BOSHA"
-    }
-  },
-  "{\"brand\": \"IHG Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel X Brisbane Fortitude Valley, Vignette Collection IHG Hotels & Resorts Hotel\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection IHG Hotels & Resorts Resort\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection IHG Hotels & Resorts\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection IHG Hotels & Resorts Brisbane, Australia Hotel\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection IHG Hotels & Resorts Brisbane, Australia Resort\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection IHG Hotels & Resorts Brisbane, Australia\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hilton Hotel\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hilton Resort\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hilton\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hilton Brisbane, Australia Hotel\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hilton Brisbane, Australia Resort\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hilton Brisbane, Australia\", \"Hotel X Brisbane Fortitude Valley Vignette Collection IHG Hotels & Resorts Hotel\", \"Hotel X Brisbane Fortitude Valley Vignette Collection IHG Hotels & Resorts Resort\", \"Hotel X Brisbane Fortitude Valley Vignette Collection IHG Hotels & Resorts\", \"Hotel X Brisbane Fortitude Valley Vignette Collection IHG Hotels & Resorts Brisbane, Australia Hotel\", \"Hotel X Brisbane Fortitude Valley Vignette Collection IHG Hotels & Resorts Brisbane, Australia Resort\", \"Hotel X Brisbane Fortitude Valley Vignette Collection IHG Hotels & Resorts Brisbane, Australia\", \"Hotel X Brisbane Fortitude Valley Vignette Collection Hilton Hotel\", \"Hotel X Brisbane Fortitude Valley Vignette Collection Hilton Resort\", \"Hotel X Brisbane Fortitude Valley Vignette Collection Hilton\", \"Hotel X Brisbane Fortitude Valley Vignette Collection Hilton Brisbane, Australia Hotel\", \"Hotel X Brisbane Fortitude Valley Vignette Collection Hilton Brisbane, Australia Resort\", \"Hotel X Brisbane Fortitude Valley Vignette Collection Hilton Brisbane, Australia\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hotel\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Resort\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Brisbane, Australia Hotel\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Brisbane, Australia Resort\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Brisbane, Australia\"], \"v\": 3}": {
-    "lat": -27.46021,
-    "lon": 153.0376746,
-    "formatted_address": "458 Brunswick St, Fortitude Valley QLD 4006, Australia",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ87BHVYRZkWsRltVjzAA1nto",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "458 Brunswick St, Fortitude Valley QLD 4006, Australia",
-      "geometry": {
-        "location": {
-          "lat": -27.46021,
-          "lng": 153.0376746
-        },
-        "viewport": {
-          "northeast": {
-            "lat": -27.45901481970849,
-            "lng": 153.0390013302915
-          },
-          "southwest": {
-            "lat": -27.4617127802915,
-            "lng": 153.0363033697085
-          }
-        }
-      },
-      "name": "Hotel X Brisbane Fortitude Vly, Vignette Collection by IHG",
-      "place_id": "ChIJ87BHVYRZkWsRltVjzAA1nto",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.ihg.com/vignettecollection/hotels/us/en/brisbane/bnefv/hoteldetail?cm_mmc=GoogleMaps-_-LX-_-AU-_-BNEFV"
     }
   },
   "{\"brand\": \"IHG Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Chicago Magnificent Mile IHG Hotels & Resorts Hotel\", \"InterContinental Chicago Magnificent Mile IHG Hotels & Resorts Resort\", \"InterContinental Chicago Magnificent Mile IHG Hotels & Resorts\", \"InterContinental Chicago Magnificent Mile IHG Hotels & Resorts Chicago, Illinois US Hotel\", \"InterContinental Chicago Magnificent Mile IHG Hotels & Resorts Chicago, Illinois US Resort\", \"InterContinental Chicago Magnificent Mile IHG Hotels & Resorts Chicago, Illinois US\", \"InterContinental Chicago Magnificent Mile Hilton Hotel\", \"InterContinental Chicago Magnificent Mile Hilton Resort\", \"InterContinental Chicago Magnificent Mile Hilton\", \"InterContinental Chicago Magnificent Mile Hilton Chicago, Illinois US Hotel\", \"InterContinental Chicago Magnificent Mile Hilton Chicago, Illinois US Resort\", \"InterContinental Chicago Magnificent Mile Hilton Chicago, Illinois US\", \"Intercontinental Chicago Magnificent Mile IHG Hotels & Resorts Hotel\", \"Intercontinental Chicago Magnificent Mile IHG Hotels & Resorts Resort\", \"Intercontinental Chicago Magnificent Mile IHG Hotels & Resorts\", \"Intercontinental Chicago Magnificent Mile IHG Hotels & Resorts Chicago, Illinois US Hotel\", \"Intercontinental Chicago Magnificent Mile IHG Hotels & Resorts Chicago, Illinois US Resort\", \"Intercontinental Chicago Magnificent Mile IHG Hotels & Resorts Chicago, Illinois US\", \"Intercontinental Chicago Magnificent Mile Hilton Hotel\", \"Intercontinental Chicago Magnificent Mile Hilton Resort\", \"Intercontinental Chicago Magnificent Mile Hilton\", \"Intercontinental Chicago Magnificent Mile Hilton Chicago, Illinois US Hotel\", \"Intercontinental Chicago Magnificent Mile Hilton Chicago, Illinois US Resort\", \"Intercontinental Chicago Magnificent Mile Hilton Chicago, Illinois US\", \"InterContinental Chicago Magnificent Mile Hotel\", \"InterContinental Chicago Magnificent Mile Resort\", \"InterContinental Chicago Magnificent Mile\", \"InterContinental Chicago Magnificent Mile Chicago, Illinois US Hotel\", \"InterContinental Chicago Magnificent Mile Chicago, Illinois US Resort\", \"InterContinental Chicago Magnificent Mile Chicago, Illinois US\"], \"v\": 3}": {
@@ -120568,48 +120484,6 @@
       "website": "https://www.ihg.com/intercontinental/hotels/us/en/boston/bosha/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-US-_-BOSHA"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel X Brisbane Fortitude Valley, Vignette Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel X Brisbane Fortitude Valley, Vignette Collection IHG Hotels & Resorts Hotel\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection IHG Hotels & Resorts Resort\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection IHG Hotels & Resorts\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection IHG Hotels & Resorts Brisbane, Australia Hotel\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection IHG Hotels & Resorts Brisbane, Australia Resort\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection IHG Hotels & Resorts Brisbane, Australia\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hilton Hotel\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hilton Resort\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hilton\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hilton Brisbane, Australia Hotel\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hilton Brisbane, Australia Resort\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hilton Brisbane, Australia\", \"Hotel X Brisbane Fortitude Valley Vignette Collection IHG Hotels & Resorts Hotel\", \"Hotel X Brisbane Fortitude Valley Vignette Collection IHG Hotels & Resorts Resort\", \"Hotel X Brisbane Fortitude Valley Vignette Collection IHG Hotels & Resorts\", \"Hotel X Brisbane Fortitude Valley Vignette Collection IHG Hotels & Resorts Brisbane, Australia Hotel\", \"Hotel X Brisbane Fortitude Valley Vignette Collection IHG Hotels & Resorts Brisbane, Australia Resort\", \"Hotel X Brisbane Fortitude Valley Vignette Collection IHG Hotels & Resorts Brisbane, Australia\", \"Hotel X Brisbane Fortitude Valley Vignette Collection Hilton Hotel\", \"Hotel X Brisbane Fortitude Valley Vignette Collection Hilton Resort\", \"Hotel X Brisbane Fortitude Valley Vignette Collection Hilton\", \"Hotel X Brisbane Fortitude Valley Vignette Collection Hilton Brisbane, Australia Hotel\", \"Hotel X Brisbane Fortitude Valley Vignette Collection Hilton Brisbane, Australia Resort\", \"Hotel X Brisbane Fortitude Valley Vignette Collection Hilton Brisbane, Australia\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Hotel\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Resort\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Brisbane, Australia Hotel\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Brisbane, Australia Resort\", \"Hotel X Brisbane Fortitude Valley, Vignette Collection Brisbane, Australia\"], \"v\": 3}": {
-    "lat": -27.46021,
-    "lon": 153.0376746,
-    "formatted_address": "458 Brunswick St, Fortitude Valley QLD 4006, Australia",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ87BHVYRZkWsRltVjzAA1nto",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "458 Brunswick St, Fortitude Valley QLD 4006, Australia",
-      "geometry": {
-        "location": {
-          "lat": -27.46021,
-          "lng": 153.0376746
-        },
-        "viewport": {
-          "northeast": {
-            "lat": -27.45901481970849,
-            "lng": 153.0390013302915
-          },
-          "southwest": {
-            "lat": -27.4617127802915,
-            "lng": 153.0363033697085
-          }
-        }
-      },
-      "name": "Hotel X Brisbane Fortitude Vly, Vignette Collection by IHG",
-      "place_id": "ChIJ87BHVYRZkWsRltVjzAA1nto",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.ihg.com/vignettecollection/hotels/us/en/brisbane/bnefv/hoteldetail?cm_mmc=GoogleMaps-_-LX-_-AU-_-BNEFV"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"InterContinental Chicago Magnificent Mile\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Chicago Magnificent Mile IHG Hotels & Resorts Hotel\", \"InterContinental Chicago Magnificent Mile IHG Hotels & Resorts Resort\", \"InterContinental Chicago Magnificent Mile IHG Hotels & Resorts\", \"InterContinental Chicago Magnificent Mile IHG Hotels & Resorts Chicago, Illinois US Hotel\", \"InterContinental Chicago Magnificent Mile IHG Hotels & Resorts Chicago, Illinois US Resort\", \"InterContinental Chicago Magnificent Mile IHG Hotels & Resorts Chicago, Illinois US\", \"InterContinental Chicago Magnificent Mile Hilton Hotel\", \"InterContinental Chicago Magnificent Mile Hilton Resort\", \"InterContinental Chicago Magnificent Mile Hilton\", \"InterContinental Chicago Magnificent Mile Hilton Chicago, Illinois US Hotel\", \"InterContinental Chicago Magnificent Mile Hilton Chicago, Illinois US Resort\", \"InterContinental Chicago Magnificent Mile Hilton Chicago, Illinois US\", \"Intercontinental Chicago Magnificent Mile IHG Hotels & Resorts Hotel\", \"Intercontinental Chicago Magnificent Mile IHG Hotels & Resorts Resort\", \"Intercontinental Chicago Magnificent Mile IHG Hotels & Resorts\", \"Intercontinental Chicago Magnificent Mile IHG Hotels & Resorts Chicago, Illinois US Hotel\", \"Intercontinental Chicago Magnificent Mile IHG Hotels & Resorts Chicago, Illinois US Resort\", \"Intercontinental Chicago Magnificent Mile IHG Hotels & Resorts Chicago, Illinois US\", \"Intercontinental Chicago Magnificent Mile Hilton Hotel\", \"Intercontinental Chicago Magnificent Mile Hilton Resort\", \"Intercontinental Chicago Magnificent Mile Hilton\", \"Intercontinental Chicago Magnificent Mile Hilton Chicago, Illinois US Hotel\", \"Intercontinental Chicago Magnificent Mile Hilton Chicago, Illinois US Resort\", \"Intercontinental Chicago Magnificent Mile Hilton Chicago, Illinois US\", \"InterContinental Chicago Magnificent Mile Hotel\", \"InterContinental Chicago Magnificent Mile Resort\", \"InterContinental Chicago Magnificent Mile\", \"InterContinental Chicago Magnificent Mile Chicago, Illinois US Hotel\", \"InterContinental Chicago Magnificent Mile Chicago, Illinois US Resort\", \"InterContinental Chicago Magnificent Mile Chicago, Illinois US\"], \"v\": 3}": {
     "lat": 41.8911399,
     "lon": -87.62387079999999,
@@ -141603,12 +141477,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Antonio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Antonio Small Luxury Hotels of the World Hotel\", \"San Antonio Small Luxury Hotels of the World Resort\", \"San Antonio Small Luxury Hotels of the World\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Hotel\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Resort\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece\", \"San Antonio Hilton Hotel\", \"San Antonio Hilton Resort\", \"San Antonio Hilton\", \"San Antonio Hilton Imerovigli, Greece Hotel\", \"San Antonio Hilton Imerovigli, Greece Resort\", \"San Antonio Hilton Imerovigli, Greece\", \"San Antonio Hotel\", \"San Antonio Resort\", \"San Antonio\", \"San Antonio Imerovigli, Greece Hotel\", \"San Antonio Imerovigli, Greece Resort\", \"San Antonio Imerovigli, Greece\"], \"v\": 3}": {
-    "lat": 29.4266015,
-    "lon": -98.4859548,
-    "formatted_address": "705 E Houston St, San Antonio, TX 78205, USA",
+    "lat": 29.427455,
+    "lon": -98.4894638,
+    "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJPX3jOFVfXIYRnMvCUJcFi2Q",
+    "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
     "types": [
       "establishment",
       "lodging",
@@ -141617,31 +141491,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "705 E Houston St, San Antonio, TX 78205, USA",
+      "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
       "geometry": {
         "location": {
-          "lat": 29.4266015,
-          "lng": -98.4859548
+          "lat": 29.427455,
+          "lng": -98.4894638
         },
         "viewport": {
           "northeast": {
-            "lat": 29.4279135802915,
-            "lng": -98.4846148197085
+            "lat": 29.4288507802915,
+            "lng": -98.4880806197085
           },
           "southwest": {
-            "lat": 29.4252156197085,
-            "lng": -98.48731278029152
+            "lat": 29.4261528197085,
+            "lng": -98.4907785802915
           }
         }
       },
-      "name": "The Emily Morgan San Antonio - a DoubleTree by Hilton Hotel",
-      "place_id": "ChIJPX3jOFVfXIYRnMvCUJcFi2Q",
+      "name": "The St. Anthony, a Luxury Collection Hotel, San Antonio",
+      "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/satemdt-the-emily-morgan-san-antonio/?SEO_id=GMB-AMER-DT-SATEMDT&y_source=1_MTM3MjYzOC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.marriott.com/en-us/hotels/satlc-the-st-anthony-a-luxury-collection-hotel-san-antonio/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rusty Parrot Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
@@ -155184,6 +155058,96 @@
         "point_of_interest"
       ],
       "website": "https://thehoxton.com/italy/florence/"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Sunny Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Sunny Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Alva Hotel Brisbane\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Alva Hotel Brisbane\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Sunny Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Sunny Hotel Hotel\", \"The Sunny Hotel Resort\", \"The Sunny Hotel\", \"The Sunny Hotel Sunny Isles Beach, Florida US Hotel\", \"The Sunny Hotel Sunny Isles Beach, Florida US Resort\", \"The Sunny Hotel Sunny Isles Beach, Florida US\"], \"v\": 3}": {
+    "lat": 25.930644,
+    "lon": -80.121402,
+    "formatted_address": "16701 Collins Ave, Sunny Isles Beach, FL 33160, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJTzFgYhit2YgRVOCp60RQO6s",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "16701 Collins Ave, Sunny Isles Beach, FL 33160, USA",
+      "geometry": {
+        "location": {
+          "lat": 25.930644,
+          "lng": -80.121402
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.9321687802915,
+            "lng": -80.1202630697085
+          },
+          "southwest": {
+            "lat": 25.9294708197085,
+            "lng": -80.1229610302915
+          }
+        }
+      },
+      "name": "The Sunny",
+      "place_id": "ChIJTzFgYhit2YgRVOCp60RQO6s",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://thesunnyhotel.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Alva Hotel Brisbane\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Alva Hotel Brisbane IHG Hotels & Resorts Hotel\", \"The Alva Hotel Brisbane IHG Hotels & Resorts Resort\", \"The Alva Hotel Brisbane IHG Hotels & Resorts\", \"The Alva Hotel Brisbane IHG Hotels & Resorts Brisbane, Australia Hotel\", \"The Alva Hotel Brisbane IHG Hotels & Resorts Brisbane, Australia Resort\", \"The Alva Hotel Brisbane IHG Hotels & Resorts Brisbane, Australia\", \"The Alva Hotel Brisbane Hilton Hotel\", \"The Alva Hotel Brisbane Hilton Resort\", \"The Alva Hotel Brisbane Hilton\", \"The Alva Hotel Brisbane Hilton Brisbane, Australia Hotel\", \"The Alva Hotel Brisbane Hilton Brisbane, Australia Resort\", \"The Alva Hotel Brisbane Hilton Brisbane, Australia\", \"Alva Hotel Brisbane IHG Hotels & Resorts Hotel\", \"Alva Hotel Brisbane IHG Hotels & Resorts Resort\", \"Alva Hotel Brisbane IHG Hotels & Resorts\", \"Alva Hotel Brisbane IHG Hotels & Resorts Brisbane, Australia Hotel\", \"Alva Hotel Brisbane IHG Hotels & Resorts Brisbane, Australia Resort\", \"Alva Hotel Brisbane IHG Hotels & Resorts Brisbane, Australia\", \"Alva Hotel Brisbane Hilton Hotel\", \"Alva Hotel Brisbane Hilton Resort\", \"Alva Hotel Brisbane Hilton\", \"Alva Hotel Brisbane Hilton Brisbane, Australia Hotel\", \"Alva Hotel Brisbane Hilton Brisbane, Australia Resort\", \"Alva Hotel Brisbane Hilton Brisbane, Australia\", \"The Alva Hotel Brisbane Hotel\", \"The Alva Hotel Brisbane Resort\", \"The Alva Hotel Brisbane\", \"The Alva Hotel Brisbane Brisbane, Australia Hotel\", \"The Alva Hotel Brisbane Brisbane, Australia Resort\", \"The Alva Hotel Brisbane Brisbane, Australia\"], \"v\": 3}": {
+    "lat": -27.46021,
+    "lon": 153.0376746,
+    "formatted_address": "458 Brunswick St, Fortitude Valley QLD 4006, Australia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ87BHVYRZkWsRltVjzAA1nto",
+    "types": [
+      "establishment",
+      "health",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "458 Brunswick St, Fortitude Valley QLD 4006, Australia",
+      "geometry": {
+        "location": {
+          "lat": -27.46021,
+          "lng": 153.0376746
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -27.45901481970849,
+            "lng": 153.0390013302915
+          },
+          "southwest": {
+            "lat": -27.4617127802915,
+            "lng": 153.0363033697085
+          }
+        }
+      },
+      "name": "The Alva Hotel Brisbane, Vignette Collection by IHG",
+      "place_id": "ChIJ87BHVYRZkWsRltVjzAA1nto",
+      "types": [
+        "establishment",
+        "health",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.ihg.com/vignettecollection/hotels/us/en/brisbane/bnefv/hoteldetail?cm_mmc=GoogleMaps-_-LX-_-AU-_-BNEFV"
     }
   }
 }
