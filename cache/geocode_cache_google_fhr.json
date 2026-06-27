@@ -339,48 +339,6 @@
       "website": "https://thedolli.com/"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Nobu Hotel Atlanta Hotel\", \"Nobu Hotel Atlanta Resort\", \"Nobu Hotel Atlanta\", \"Nobu Hotel Atlanta Atlanta, Georgia US Hotel\", \"Nobu Hotel Atlanta Atlanta, Georgia US Resort\", \"Nobu Hotel Atlanta Atlanta, Georgia US\"], \"v\": 3}": {
-    "lat": 33.8540972,
-    "lon": -84.36345999999999,
-    "formatted_address": "3520 Peachtree Rd NE, Atlanta, GA 30326, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ3W5SZlEP9YgRbYjjmO_tZpo",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "3520 Peachtree Rd NE, Atlanta, GA 30326, USA",
-      "geometry": {
-        "location": {
-          "lat": 33.8540972,
-          "lng": -84.36345999999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 33.8554336802915,
-            "lng": -84.3620909697085
-          },
-          "southwest": {
-            "lat": 33.85273571970851,
-            "lng": -84.36478893029151
-          }
-        }
-      },
-      "name": "Nobu Hotel Atlanta",
-      "place_id": "ChIJ3W5SZlEP9YgRbYjjmO_tZpo",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.nobuhotels.com/atlanta?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sofitel Auckland Viaduct Harbour Hotel\", \"Sofitel Auckland Viaduct Harbour Resort\", \"Sofitel Auckland Viaduct Harbour\", \"Sofitel Auckland Viaduct Harbour Auckland, New Zealand Hotel\", \"Sofitel Auckland Viaduct Harbour Auckland, New Zealand Resort\", \"Sofitel Auckland Viaduct Harbour Auckland, New Zealand\"], \"v\": 3}": {
     "lat": -36.84479700000001,
     "lon": 174.7574727,
@@ -125407,48 +125365,6 @@
       "website": "https://thedolli.com/"
     }
   },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Nobu Hotel Atlanta\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Nobu Hotel Atlanta Hotel\", \"Nobu Hotel Atlanta Resort\", \"Nobu Hotel Atlanta\", \"Nobu Hotel Atlanta Atlanta, Georgia US Hotel\", \"Nobu Hotel Atlanta Atlanta, Georgia US Resort\", \"Nobu Hotel Atlanta Atlanta, Georgia US\"], \"v\": 3}": {
-    "lat": 33.8540972,
-    "lon": -84.36345999999999,
-    "formatted_address": "3520 Peachtree Rd NE, Atlanta, GA 30326, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ3W5SZlEP9YgRbYjjmO_tZpo",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "3520 Peachtree Rd NE, Atlanta, GA 30326, USA",
-      "geometry": {
-        "location": {
-          "lat": 33.8540972,
-          "lng": -84.36345999999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 33.8554336802915,
-            "lng": -84.3620909697085
-          },
-          "southwest": {
-            "lat": 33.85273571970851,
-            "lng": -84.36478893029151
-          }
-        }
-      },
-      "name": "Nobu Hotel Atlanta",
-      "place_id": "ChIJ3W5SZlEP9YgRbYjjmO_tZpo",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.nobuhotels.com/atlanta?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
-    }
-  },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Sofitel Auckland Viaduct Harbour\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sofitel Auckland Viaduct Harbour Hotel\", \"Sofitel Auckland Viaduct Harbour Resort\", \"Sofitel Auckland Viaduct Harbour\", \"Sofitel Auckland Viaduct Harbour Auckland, New Zealand Hotel\", \"Sofitel Auckland Viaduct Harbour Auckland, New Zealand Resort\", \"Sofitel Auckland Viaduct Harbour Auckland, New Zealand\"], \"v\": 3}": {
     "lat": -36.84479700000001,
     "lon": 174.7574727,
@@ -129898,12 +129814,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 34.7012112,
-    "lon": -118.171488,
-    "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
+    "lat": 39.9927967,
+    "lon": -76.28769179999999,
+    "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
+    "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
     "types": [
       "establishment",
       "lodging",
@@ -129912,31 +129828,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
+      "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
       "geometry": {
         "location": {
-          "lat": 34.7012112,
-          "lng": -118.171488
+          "lat": 39.9927967,
+          "lng": -76.28769179999999
         },
         "viewport": {
           "northeast": {
-            "lat": 34.7024083302915,
-            "lng": -118.1697845197085
+            "lat": 39.9940706302915,
+            "lng": -76.28663611970849
           },
           "southwest": {
-            "lat": 34.6997103697085,
-            "lng": -118.1724824802915
+            "lat": 39.9913726697085,
+            "lng": -76.2893340802915
           }
         }
       },
-      "name": "Hampton Inn & Suites Lancaster",
-      "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
+      "name": "DoubleTree Resort by Hilton Hotel Lancaster",
+      "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/pdllchx-hampton-suites-lancaster/?SEO_id=GMB-AMER-HX-PDLLCHX&y_source=1_MjA4MzE4Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.hilton.com/en/hotels/lnswvdt-doubletree-resort-lancaster/?SEO_id=GMB-AMER-DT-LNSWVDT&y_source=1_MTM3MjczNC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -210972,6 +210888,51 @@
         "point_of_interest"
       ],
       "website": "https://www.hyatt.com/park-hyatt/en-US/kulph-park-hyatt-kuala-lumpur?src=corp_lclb_google_seo_kulph&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Four Seasons Hotel The Westcliff\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Four Seasons Hotel The Westcliff\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Four Seasons Hotel The Westcliff\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Four Seasons Hotel The Westcliff Four Seasons Hotels and Resorts Hotel\", \"Four Seasons Hotel The Westcliff Four Seasons Hotels and Resorts Resort\", \"Four Seasons Hotel The Westcliff Four Seasons Hotels and Resorts\", \"Four Seasons Hotel The Westcliff Four Seasons Hotels and Resorts Johannesburg, South Africa Hotel\", \"Four Seasons Hotel The Westcliff Four Seasons Hotels and Resorts Johannesburg, South Africa Resort\", \"Four Seasons Hotel The Westcliff Four Seasons Hotels and Resorts Johannesburg, South Africa\", \"Four Seasons Hotel The Westcliff Hilton Hotel\", \"Four Seasons Hotel The Westcliff Hilton Resort\", \"Four Seasons Hotel The Westcliff Hilton\", \"Four Seasons Hotel The Westcliff Hilton Johannesburg, South Africa Hotel\", \"Four Seasons Hotel The Westcliff Hilton Johannesburg, South Africa Resort\", \"Four Seasons Hotel The Westcliff Hilton Johannesburg, South Africa\", \"Four Seasons Hotel Westcliff Four Seasons Hotels and Resorts Hotel\", \"Four Seasons Hotel Westcliff Four Seasons Hotels and Resorts Resort\", \"Four Seasons Hotel Westcliff Four Seasons Hotels and Resorts\", \"Four Seasons Hotel Westcliff Four Seasons Hotels and Resorts Johannesburg, South Africa Hotel\", \"Four Seasons Hotel Westcliff Four Seasons Hotels and Resorts Johannesburg, South Africa Resort\", \"Four Seasons Hotel Westcliff Four Seasons Hotels and Resorts Johannesburg, South Africa\", \"Four Seasons Hotel Westcliff Hilton Hotel\", \"Four Seasons Hotel Westcliff Hilton Resort\", \"Four Seasons Hotel Westcliff Hilton\", \"Four Seasons Hotel Westcliff Hilton Johannesburg, South Africa Hotel\", \"Four Seasons Hotel Westcliff Hilton Johannesburg, South Africa Resort\", \"Four Seasons Hotel Westcliff Hilton Johannesburg, South Africa\", \"Four Seasons Hotel The Westcliff Hotel\", \"Four Seasons Hotel The Westcliff Resort\", \"Four Seasons Hotel The Westcliff\", \"Four Seasons Hotel The Westcliff Johannesburg, South Africa Hotel\", \"Four Seasons Hotel The Westcliff Johannesburg, South Africa Resort\", \"Four Seasons Hotel The Westcliff Johannesburg, South Africa\"], \"v\": 3}": {
+    "lat": -26.1700269,
+    "lon": 28.0323992,
+    "formatted_address": "67 Jan Smuts Ave, Westcliff, Johannesburg, 2132, South Africa",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ__VCrW8MlR4RCDc-ESAqW60",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "67 Jan Smuts Ave, Westcliff, Johannesburg, 2132, South Africa",
+      "geometry": {
+        "location": {
+          "lat": -26.1700269,
+          "lng": 28.0323992
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -26.1692304697085,
+            "lng": 28.0339155302915
+          },
+          "southwest": {
+            "lat": -26.1719284302915,
+            "lng": 28.0312175697085
+          }
+        }
+      },
+      "name": "Four Seasons Hotel The Westcliff, Johannesburg",
+      "place_id": "ChIJ__VCrW8MlR4RCDc-ESAqW60",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.fourseasons.com/johannesburg/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-jbg-hre-mid-seo-na&utm_content=na-na&utm_term=na"
     }
   }
 }

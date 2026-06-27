@@ -155149,5 +155149,91 @@
       ],
       "website": "https://www.ihg.com/vignettecollection/hotels/us/en/brisbane/bnefv/hoteldetail?cm_mmc=GoogleMaps-_-LX-_-AU-_-BNEFV"
     }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Adolphus, Autograph Collection by Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Adolphus, Autograph Collection by Marriott\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Villa Mara\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Villa Mara\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Adolphus, Autograph Collection by Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Adolphus, Autograph Collection by Marriott Autograph Collection Hotels Hotel\", \"The Adolphus, Autograph Collection by Marriott Autograph Collection Hotels Resort\", \"The Adolphus, Autograph Collection by Marriott Autograph Collection Hotels\", \"The Adolphus, Autograph Collection by Marriott Autograph Collection Hotels Dallas, Texas US Hotel\", \"The Adolphus, Autograph Collection by Marriott Autograph Collection Hotels Dallas, Texas US Resort\", \"The Adolphus, Autograph Collection by Marriott Autograph Collection Hotels Dallas, Texas US\", \"The Adolphus, Autograph Collection by Marriott Hilton Hotel\", \"The Adolphus, Autograph Collection by Marriott Hilton Resort\", \"The Adolphus, Autograph Collection by Marriott Hilton\", \"The Adolphus, Autograph Collection by Marriott Hilton Dallas, Texas US Hotel\", \"The Adolphus, Autograph Collection by Marriott Hilton Dallas, Texas US Resort\", \"The Adolphus, Autograph Collection by Marriott Hilton Dallas, Texas US\", \"Adolphus Autograph Collection Marriott Autograph Collection Hotels Hotel\", \"Adolphus Autograph Collection Marriott Autograph Collection Hotels Resort\", \"Adolphus Autograph Collection Marriott Autograph Collection Hotels\", \"Adolphus Autograph Collection Marriott Autograph Collection Hotels Dallas, Texas US Hotel\", \"Adolphus Autograph Collection Marriott Autograph Collection Hotels Dallas, Texas US Resort\", \"Adolphus Autograph Collection Marriott Autograph Collection Hotels Dallas, Texas US\", \"Adolphus Autograph Collection Marriott Hilton Hotel\", \"Adolphus Autograph Collection Marriott Hilton Resort\", \"Adolphus Autograph Collection Marriott Hilton\", \"Adolphus Autograph Collection Marriott Hilton Dallas, Texas US Hotel\", \"Adolphus Autograph Collection Marriott Hilton Dallas, Texas US Resort\", \"Adolphus Autograph Collection Marriott Hilton Dallas, Texas US\", \"The Adolphus, Autograph Collection by Marriott Hotel\", \"The Adolphus, Autograph Collection by Marriott Resort\", \"The Adolphus, Autograph Collection by Marriott\", \"The Adolphus, Autograph Collection by Marriott Dallas, Texas US Hotel\", \"The Adolphus, Autograph Collection by Marriott Dallas, Texas US Resort\", \"The Adolphus, Autograph Collection by Marriott Dallas, Texas US\"], \"v\": 3}": {
+    "lat": 32.7798001,
+    "lon": -96.8001537,
+    "formatted_address": "1321 Commerce St, Dallas, TX 75202, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJSf4EURiZToYR0KhpmIHWXpQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1321 Commerce St, Dallas, TX 75202, USA",
+      "geometry": {
+        "location": {
+          "lat": 32.7798001,
+          "lng": -96.8001537
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.78108983029149,
+            "lng": -96.7987938197085
+          },
+          "southwest": {
+            "lat": 32.77839186970849,
+            "lng": -96.8014917802915
+          }
+        }
+      },
+      "name": "The Adolphus, Autograph Collection",
+      "place_id": "ChIJSf4EURiZToYR0KhpmIHWXpQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/dalak-the-adolphus-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Villa Mara\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Villa Mara The Leading Hotels of the World Hotel\", \"Villa Mara The Leading Hotels of the World Resort\", \"Villa Mara The Leading Hotels of the World\", \"Villa Mara The Leading Hotels of the World Carmel, California US Hotel\", \"Villa Mara The Leading Hotels of the World Carmel, California US Resort\", \"Villa Mara The Leading Hotels of the World Carmel, California US\", \"Villa Mara Hilton Hotel\", \"Villa Mara Hilton Resort\", \"Villa Mara Hilton\", \"Villa Mara Hilton Carmel, California US Hotel\", \"Villa Mara Hilton Carmel, California US Resort\", \"Villa Mara Hilton Carmel, California US\", \"Villa Mara Hotel\", \"Villa Mara Resort\", \"Villa Mara\", \"Villa Mara Carmel, California US Hotel\", \"Villa Mara Carmel, California US Resort\", \"Villa Mara Carmel, California US\"], \"v\": 3}": {
+    "lat": 36.5439376,
+    "lon": -121.9303782,
+    "formatted_address": "2408 Bay View Ave, Carmel, CA 93923, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJk9CaJDLnjYARix0B51F2jpQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2408 Bay View Ave, Carmel, CA 93923, USA",
+      "geometry": {
+        "location": {
+          "lat": 36.5439376,
+          "lng": -121.9303782
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.5453613802915,
+            "lng": -121.9291057697085
+          },
+          "southwest": {
+            "lat": 36.5426634197085,
+            "lng": -121.9318037302915
+          }
+        }
+      },
+      "name": "Villa Mara Carmel",
+      "place_id": "ChIJk9CaJDLnjYARix0B51F2jpQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.villamaracarmel.com/"
+    }
   }
 }
