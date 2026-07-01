@@ -1979,48 +1979,6 @@
       "website": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/?SEO_id=GMB-AMER-WA-LASWDWA&y_source=1_MTAzMzg0MjItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Aka Alexandria Hotel\", \"Hotel Aka Alexandria Resort\", \"Hotel Aka Alexandria\", \"Hotel Aka Alexandria Alexandria, Virginia US Hotel\", \"Hotel Aka Alexandria Alexandria, Virginia US Resort\", \"Hotel Aka Alexandria Alexandria, Virginia US\", \"Hotel AKA Alexandria Hotel\", \"Hotel AKA Alexandria Resort\", \"Hotel AKA Alexandria\", \"Hotel AKA Alexandria Alexandria, Virginia US Hotel\", \"Hotel AKA Alexandria Alexandria, Virginia US Resort\", \"Hotel AKA Alexandria Alexandria, Virginia US\"], \"v\": 3}": {
-    "lat": 38.8154508,
-    "lon": -77.0432235,
-    "formatted_address": "625 First St, Alexandria, VA 22314, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJJR2S8ZKxt4kREUs4FV-AxsA",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "625 First St, Alexandria, VA 22314, USA",
-      "geometry": {
-        "location": {
-          "lat": 38.8154508,
-          "lng": -77.0432235
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 38.8166809802915,
-            "lng": -77.04191681970849
-          },
-          "southwest": {
-            "lat": 38.81398301970851,
-            "lng": -77.0446147802915
-          }
-        }
-      },
-      "name": "Hotel AKA Alexandria",
-      "place_id": "ChIJJR2S8ZKxt4kREUs4FV-AxsA",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.stayaka.com/hotel-aka-alexandria"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Heron Alexandria Old Town Curio Collection Hilton Hotel\", \"Hotel Heron Alexandria Old Town Curio Collection Hilton Resort\", \"Hotel Heron Alexandria Old Town Curio Collection Hilton\", \"Hotel Heron Alexandria Old Town Curio Collection Hilton Alexandria, Virginia US Hotel\", \"Hotel Heron Alexandria Old Town Curio Collection Hilton Alexandria, Virginia US Resort\", \"Hotel Heron Alexandria Old Town Curio Collection Hilton Alexandria, Virginia US\", \"Hotel Heron Alexandria Old Town, Curio Collection by Hilton Hotel\", \"Hotel Heron Alexandria Old Town, Curio Collection by Hilton Resort\", \"Hotel Heron Alexandria Old Town, Curio Collection by Hilton\", \"Hotel Heron Alexandria Old Town, Curio Collection by Hilton Alexandria, Virginia US Hotel\", \"Hotel Heron Alexandria Old Town, Curio Collection by Hilton Alexandria, Virginia US Resort\", \"Hotel Heron Alexandria Old Town, Curio Collection by Hilton Alexandria, Virginia US\"], \"v\": 3}": {
     "lat": 38.8040318,
     "lon": -77.0467977,
@@ -56520,48 +56478,6 @@
       "website": "https://www.ritzcarlton.com/en/hotels/usmrz-the-ritz-carlton-koh-samui/overview/?cid=NAT_google_hotel_url"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel AKA Alexandria Hotel\", \"Hotel AKA Alexandria Resort\", \"Hotel AKA Alexandria\", \"Hotel AKA Alexandria Alexandria, Virginia US Hotel\", \"Hotel AKA Alexandria Alexandria, Virginia US Resort\", \"Hotel AKA Alexandria Alexandria, Virginia US\", \"Hotel Aka Alexandria Hotel\", \"Hotel Aka Alexandria Resort\", \"Hotel Aka Alexandria\", \"Hotel Aka Alexandria Alexandria, Virginia US Hotel\", \"Hotel Aka Alexandria Alexandria, Virginia US Resort\", \"Hotel Aka Alexandria Alexandria, Virginia US\"], \"v\": 3}": {
-    "lat": 38.8154508,
-    "lon": -77.0432235,
-    "formatted_address": "625 First St, Alexandria, VA 22314, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJJR2S8ZKxt4kREUs4FV-AxsA",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "625 First St, Alexandria, VA 22314, USA",
-      "geometry": {
-        "location": {
-          "lat": 38.8154508,
-          "lng": -77.0432235
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 38.8166809802915,
-            "lng": -77.04191681970849
-          },
-          "southwest": {
-            "lat": 38.81398301970851,
-            "lng": -77.0446147802915
-          }
-        }
-      },
-      "name": "Hotel AKA Alexandria",
-      "place_id": "ChIJJR2S8ZKxt4kREUs4FV-AxsA",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.stayaka.com/hotel-aka-alexandria"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Heron Alexandria Old Town, Curio Collection by Hilton Hotel\", \"Hotel Heron Alexandria Old Town, Curio Collection by Hilton Resort\", \"Hotel Heron Alexandria Old Town, Curio Collection by Hilton\", \"Hotel Heron Alexandria Old Town, Curio Collection by Hilton Alexandria, Virginia US Hotel\", \"Hotel Heron Alexandria Old Town, Curio Collection by Hilton Alexandria, Virginia US Resort\", \"Hotel Heron Alexandria Old Town, Curio Collection by Hilton Alexandria, Virginia US\", \"Hotel Heron Alexandria Old Town Curio Collection Hilton Hotel\", \"Hotel Heron Alexandria Old Town Curio Collection Hilton Resort\", \"Hotel Heron Alexandria Old Town Curio Collection Hilton\", \"Hotel Heron Alexandria Old Town Curio Collection Hilton Alexandria, Virginia US Hotel\", \"Hotel Heron Alexandria Old Town Curio Collection Hilton Alexandria, Virginia US Resort\", \"Hotel Heron Alexandria Old Town Curio Collection Hilton Alexandria, Virginia US\"], \"v\": 3}": {
     "lat": 38.8040318,
     "lon": -77.0467977,
@@ -84703,48 +84619,6 @@
       "website": "https://www.innatbayharbor.com/?utm_campaign=google_profle&utm_medium=search&phone=8558114402"
     }
   },
-  "{\"brand\": \"AKA\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel AKA Alexandria AKA Hotel\", \"Hotel AKA Alexandria AKA Resort\", \"Hotel AKA Alexandria AKA\", \"Hotel AKA Alexandria AKA Alexandria, Virginia US Hotel\", \"Hotel AKA Alexandria AKA Alexandria, Virginia US Resort\", \"Hotel AKA Alexandria AKA Alexandria, Virginia US\", \"Hotel AKA Alexandria Hilton Hotel\", \"Hotel AKA Alexandria Hilton Resort\", \"Hotel AKA Alexandria Hilton\", \"Hotel AKA Alexandria Hilton Alexandria, Virginia US Hotel\", \"Hotel AKA Alexandria Hilton Alexandria, Virginia US Resort\", \"Hotel AKA Alexandria Hilton Alexandria, Virginia US\", \"Hotel Aka Alexandria AKA Hotel\", \"Hotel Aka Alexandria AKA Resort\", \"Hotel Aka Alexandria AKA\", \"Hotel Aka Alexandria AKA Alexandria, Virginia US Hotel\", \"Hotel Aka Alexandria AKA Alexandria, Virginia US Resort\", \"Hotel Aka Alexandria AKA Alexandria, Virginia US\", \"Hotel Aka Alexandria Hilton Hotel\", \"Hotel Aka Alexandria Hilton Resort\", \"Hotel Aka Alexandria Hilton\", \"Hotel Aka Alexandria Hilton Alexandria, Virginia US Hotel\", \"Hotel Aka Alexandria Hilton Alexandria, Virginia US Resort\", \"Hotel Aka Alexandria Hilton Alexandria, Virginia US\", \"Hotel AKA Alexandria Hotel\", \"Hotel AKA Alexandria Resort\", \"Hotel AKA Alexandria\", \"Hotel AKA Alexandria Alexandria, Virginia US Hotel\", \"Hotel AKA Alexandria Alexandria, Virginia US Resort\", \"Hotel AKA Alexandria Alexandria, Virginia US\"], \"v\": 3}": {
-    "lat": 38.8154508,
-    "lon": -77.0432235,
-    "formatted_address": "625 First St, Alexandria, VA 22314, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJJR2S8ZKxt4kREUs4FV-AxsA",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "625 First St, Alexandria, VA 22314, USA",
-      "geometry": {
-        "location": {
-          "lat": 38.8154508,
-          "lng": -77.0432235
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 38.8166809802915,
-            "lng": -77.04191681970849
-          },
-          "southwest": {
-            "lat": 38.81398301970851,
-            "lng": -77.0446147802915
-          }
-        }
-      },
-      "name": "Hotel AKA Alexandria",
-      "place_id": "ChIJJR2S8ZKxt4kREUs4FV-AxsA",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.stayaka.com/hotel-aka-alexandria"
-    }
-  },
   "{\"brand\": \"AKA\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel AKA Back Bay AKA Hotel\", \"Hotel AKA Back Bay AKA Resort\", \"Hotel AKA Back Bay AKA\", \"Hotel AKA Back Bay AKA Boston, Massachusetts US Hotel\", \"Hotel AKA Back Bay AKA Boston, Massachusetts US Resort\", \"Hotel AKA Back Bay AKA Boston, Massachusetts US\", \"Hotel AKA Back Bay Hilton Hotel\", \"Hotel AKA Back Bay Hilton Resort\", \"Hotel AKA Back Bay Hilton\", \"Hotel AKA Back Bay Hilton Boston, Massachusetts US Hotel\", \"Hotel AKA Back Bay Hilton Boston, Massachusetts US Resort\", \"Hotel AKA Back Bay Hilton Boston, Massachusetts US\", \"Hotel Aka Back Bay AKA Hotel\", \"Hotel Aka Back Bay AKA Resort\", \"Hotel Aka Back Bay AKA\", \"Hotel Aka Back Bay AKA Boston, Massachusetts US Hotel\", \"Hotel Aka Back Bay AKA Boston, Massachusetts US Resort\", \"Hotel Aka Back Bay AKA Boston, Massachusetts US\", \"Hotel Aka Back Bay Hilton Hotel\", \"Hotel Aka Back Bay Hilton Resort\", \"Hotel Aka Back Bay Hilton\", \"Hotel Aka Back Bay Hilton Boston, Massachusetts US Hotel\", \"Hotel Aka Back Bay Hilton Boston, Massachusetts US Resort\", \"Hotel Aka Back Bay Hilton Boston, Massachusetts US\", \"Hotel AKA Back Bay Hotel\", \"Hotel AKA Back Bay Resort\", \"Hotel AKA Back Bay\", \"Hotel AKA Back Bay Boston, Massachusetts US Hotel\", \"Hotel AKA Back Bay Boston, Massachusetts US Resort\", \"Hotel AKA Back Bay Boston, Massachusetts US\"], \"v\": 3}": {
     "lat": 42.349114,
     "lon": -71.07252129999999,
@@ -102001,48 +101875,6 @@
         "point_of_interest"
       ],
       "website": "https://acehotel.com/toronto/"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel AKA Alexandria\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel AKA Alexandria AKA Hotel\", \"Hotel AKA Alexandria AKA Resort\", \"Hotel AKA Alexandria AKA\", \"Hotel AKA Alexandria AKA Alexandria, Virginia US Hotel\", \"Hotel AKA Alexandria AKA Alexandria, Virginia US Resort\", \"Hotel AKA Alexandria AKA Alexandria, Virginia US\", \"Hotel AKA Alexandria Hilton Hotel\", \"Hotel AKA Alexandria Hilton Resort\", \"Hotel AKA Alexandria Hilton\", \"Hotel AKA Alexandria Hilton Alexandria, Virginia US Hotel\", \"Hotel AKA Alexandria Hilton Alexandria, Virginia US Resort\", \"Hotel AKA Alexandria Hilton Alexandria, Virginia US\", \"Hotel Aka Alexandria AKA Hotel\", \"Hotel Aka Alexandria AKA Resort\", \"Hotel Aka Alexandria AKA\", \"Hotel Aka Alexandria AKA Alexandria, Virginia US Hotel\", \"Hotel Aka Alexandria AKA Alexandria, Virginia US Resort\", \"Hotel Aka Alexandria AKA Alexandria, Virginia US\", \"Hotel Aka Alexandria Hilton Hotel\", \"Hotel Aka Alexandria Hilton Resort\", \"Hotel Aka Alexandria Hilton\", \"Hotel Aka Alexandria Hilton Alexandria, Virginia US Hotel\", \"Hotel Aka Alexandria Hilton Alexandria, Virginia US Resort\", \"Hotel Aka Alexandria Hilton Alexandria, Virginia US\", \"Hotel AKA Alexandria Hotel\", \"Hotel AKA Alexandria Resort\", \"Hotel AKA Alexandria\", \"Hotel AKA Alexandria Alexandria, Virginia US Hotel\", \"Hotel AKA Alexandria Alexandria, Virginia US Resort\", \"Hotel AKA Alexandria Alexandria, Virginia US\"], \"v\": 3}": {
-    "lat": 38.8154508,
-    "lon": -77.0432235,
-    "formatted_address": "625 First St, Alexandria, VA 22314, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJJR2S8ZKxt4kREUs4FV-AxsA",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "625 First St, Alexandria, VA 22314, USA",
-      "geometry": {
-        "location": {
-          "lat": 38.8154508,
-          "lng": -77.0432235
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 38.8166809802915,
-            "lng": -77.04191681970849
-          },
-          "southwest": {
-            "lat": 38.81398301970851,
-            "lng": -77.0446147802915
-          }
-        }
-      },
-      "name": "Hotel AKA Alexandria",
-      "place_id": "ChIJJR2S8ZKxt4kREUs4FV-AxsA",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.stayaka.com/hotel-aka-alexandria"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel AKA Back Bay\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel AKA Back Bay AKA Hotel\", \"Hotel AKA Back Bay AKA Resort\", \"Hotel AKA Back Bay AKA\", \"Hotel AKA Back Bay AKA Boston, Massachusetts US Hotel\", \"Hotel AKA Back Bay AKA Boston, Massachusetts US Resort\", \"Hotel AKA Back Bay AKA Boston, Massachusetts US\", \"Hotel AKA Back Bay Hilton Hotel\", \"Hotel AKA Back Bay Hilton Resort\", \"Hotel AKA Back Bay Hilton\", \"Hotel AKA Back Bay Hilton Boston, Massachusetts US Hotel\", \"Hotel AKA Back Bay Hilton Boston, Massachusetts US Resort\", \"Hotel AKA Back Bay Hilton Boston, Massachusetts US\", \"Hotel Aka Back Bay AKA Hotel\", \"Hotel Aka Back Bay AKA Resort\", \"Hotel Aka Back Bay AKA\", \"Hotel Aka Back Bay AKA Boston, Massachusetts US Hotel\", \"Hotel Aka Back Bay AKA Boston, Massachusetts US Resort\", \"Hotel Aka Back Bay AKA Boston, Massachusetts US\", \"Hotel Aka Back Bay Hilton Hotel\", \"Hotel Aka Back Bay Hilton Resort\", \"Hotel Aka Back Bay Hilton\", \"Hotel Aka Back Bay Hilton Boston, Massachusetts US Hotel\", \"Hotel Aka Back Bay Hilton Boston, Massachusetts US Resort\", \"Hotel Aka Back Bay Hilton Boston, Massachusetts US\", \"Hotel AKA Back Bay Hotel\", \"Hotel AKA Back Bay Resort\", \"Hotel AKA Back Bay\", \"Hotel AKA Back Bay Boston, Massachusetts US Hotel\", \"Hotel AKA Back Bay Boston, Massachusetts US Resort\", \"Hotel AKA Back Bay Boston, Massachusetts US\"], \"v\": 3}": {
@@ -141477,12 +141309,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Antonio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Antonio Small Luxury Hotels of the World Hotel\", \"San Antonio Small Luxury Hotels of the World Resort\", \"San Antonio Small Luxury Hotels of the World\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Hotel\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Resort\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece\", \"San Antonio Hilton Hotel\", \"San Antonio Hilton Resort\", \"San Antonio Hilton\", \"San Antonio Hilton Imerovigli, Greece Hotel\", \"San Antonio Hilton Imerovigli, Greece Resort\", \"San Antonio Hilton Imerovigli, Greece\", \"San Antonio Hotel\", \"San Antonio Resort\", \"San Antonio\", \"San Antonio Imerovigli, Greece Hotel\", \"San Antonio Imerovigli, Greece Resort\", \"San Antonio Imerovigli, Greece\"], \"v\": 3}": {
-    "lat": 29.427455,
-    "lon": -98.4894638,
-    "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
+    "lat": 29.6663753,
+    "lon": -98.4008875,
+    "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
+    "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
     "types": [
       "establishment",
       "lodging",
@@ -141491,31 +141323,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
+      "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
       "geometry": {
         "location": {
-          "lat": 29.427455,
-          "lng": -98.4894638
+          "lat": 29.6663753,
+          "lng": -98.4008875
         },
         "viewport": {
           "northeast": {
-            "lat": 29.4288507802915,
-            "lng": -98.4880806197085
+            "lat": 29.6677274302915,
+            "lng": -98.39953276970849
           },
           "southwest": {
-            "lat": 29.4261528197085,
-            "lng": -98.4907785802915
+            "lat": 29.6650294697085,
+            "lng": -98.40223073029149
           }
         }
       },
-      "name": "The St. Anthony, a Luxury Collection Hotel, San Antonio",
-      "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
+      "name": "JW Marriott San Antonio Hill Country Resort & Spa",
+      "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.marriott.com/en-us/hotels/satlc-the-st-anthony-a-luxury-collection-hotel-san-antonio/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+      "website": "https://www.marriott.com/en-us/hotels/satjw-jw-marriott-san-antonio-hill-country-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rusty Parrot Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
@@ -155234,6 +155066,49 @@
         "point_of_interest"
       ],
       "website": "http://www.villamaracarmel.com/"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Satire, Autograph Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Satire, Autograph Collection\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Satire, Autograph Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Satire, Autograph Collection AKA Hotel\", \"The Satire, Autograph Collection AKA Resort\", \"The Satire, Autograph Collection AKA\", \"The Satire, Autograph Collection AKA Alexandria, Virginia US Hotel\", \"The Satire, Autograph Collection AKA Alexandria, Virginia US Resort\", \"The Satire, Autograph Collection AKA Alexandria, Virginia US\", \"The Satire, Autograph Collection Hilton Hotel\", \"The Satire, Autograph Collection Hilton Resort\", \"The Satire, Autograph Collection Hilton\", \"The Satire, Autograph Collection Hilton Alexandria, Virginia US Hotel\", \"The Satire, Autograph Collection Hilton Alexandria, Virginia US Resort\", \"The Satire, Autograph Collection Hilton Alexandria, Virginia US\", \"Satire Autograph Collection AKA Hotel\", \"Satire Autograph Collection AKA Resort\", \"Satire Autograph Collection AKA\", \"Satire Autograph Collection AKA Alexandria, Virginia US Hotel\", \"Satire Autograph Collection AKA Alexandria, Virginia US Resort\", \"Satire Autograph Collection AKA Alexandria, Virginia US\", \"Satire Autograph Collection Hilton Hotel\", \"Satire Autograph Collection Hilton Resort\", \"Satire Autograph Collection Hilton\", \"Satire Autograph Collection Hilton Alexandria, Virginia US Hotel\", \"Satire Autograph Collection Hilton Alexandria, Virginia US Resort\", \"Satire Autograph Collection Hilton Alexandria, Virginia US\", \"The Satire, Autograph Collection Hotel\", \"The Satire, Autograph Collection Resort\", \"The Satire, Autograph Collection\", \"The Satire, Autograph Collection Alexandria, Virginia US Hotel\", \"The Satire, Autograph Collection Alexandria, Virginia US Resort\", \"The Satire, Autograph Collection Alexandria, Virginia US\"], \"v\": 3}": {
+    "lat": 38.8154508,
+    "lon": -77.0432235,
+    "formatted_address": "625 First St, Alexandria, VA 22314, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJJR2S8ZKxt4kREUs4FV-AxsA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "625 First St, Alexandria, VA 22314, USA",
+      "geometry": {
+        "location": {
+          "lat": 38.8154508,
+          "lng": -77.0432235
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.8166809802915,
+            "lng": -77.04191681970849
+          },
+          "southwest": {
+            "lat": 38.81398301970851,
+            "lng": -77.0446147802915
+          }
+        }
+      },
+      "name": "The Satire, Autograph Collection",
+      "place_id": "ChIJJR2S8ZKxt4kREUs4FV-AxsA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/waska-the-satire-autograph-collection/overview/"
     }
   }
 }
