@@ -71315,48 +71315,6 @@
       "website": "https://www.ritzcarlton.com/en/hotels/yulrm-the-ritz-carlton-montreal/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"The Ritz-Carlton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Al Bustan Palace a Ritz carlton Hotel The Ritz-Carlton Hotel\", \"Al Bustan Palace a Ritz carlton Hotel The Ritz-Carlton Resort\", \"Al Bustan Palace a Ritz carlton Hotel The Ritz-Carlton\", \"Al Bustan Palace a Ritz carlton Hotel The Ritz-Carlton Muscat, Oman Hotel\", \"Al Bustan Palace a Ritz carlton Hotel The Ritz-Carlton Muscat, Oman Resort\", \"Al Bustan Palace a Ritz carlton Hotel The Ritz-Carlton Muscat, Oman\", \"Al Bustan Palace a Ritz carlton Hotel Hilton Hotel\", \"Al Bustan Palace a Ritz carlton Hotel Hilton Resort\", \"Al Bustan Palace a Ritz carlton Hotel Hilton\", \"Al Bustan Palace a Ritz carlton Hotel Hilton Muscat, Oman Hotel\", \"Al Bustan Palace a Ritz carlton Hotel Hilton Muscat, Oman Resort\", \"Al Bustan Palace a Ritz carlton Hotel Hilton Muscat, Oman\", \"Al Bustan Palace, a Ritz-Carlton Hotel The Ritz-Carlton Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel The Ritz-Carlton Resort\", \"Al Bustan Palace, a Ritz-Carlton Hotel The Ritz-Carlton\", \"Al Bustan Palace, a Ritz-Carlton Hotel The Ritz-Carlton Muscat, Oman Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel The Ritz-Carlton Muscat, Oman Resort\", \"Al Bustan Palace, a Ritz-Carlton Hotel The Ritz-Carlton Muscat, Oman\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hilton Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hilton Resort\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hilton\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hilton Muscat, Oman Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hilton Muscat, Oman Resort\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hilton Muscat, Oman\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel Resort\", \"Al Bustan Palace, a Ritz-Carlton Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel Muscat, Oman Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel Muscat, Oman Resort\", \"Al Bustan Palace, a Ritz-Carlton Hotel Muscat, Oman\"], \"v\": 3}": {
-    "lat": 23.5671512,
-    "lon": 58.6155072,
-    "formatted_address": "Al Bustan St, Muscat 114, Oman",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJgUYW6zrxkT4RIaJvt4wvA_Q",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Al Bustan St, Muscat 114, Oman",
-      "geometry": {
-        "location": {
-          "lat": 23.5671512,
-          "lng": 58.6155072
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 23.5682879802915,
-            "lng": 58.61672933029149
-          },
-          "southwest": {
-            "lat": 23.5655900197085,
-            "lng": 58.61403136970848
-          }
-        }
-      },
-      "name": "Al Bustan Palace, a Ritz-Carlton Hotel",
-      "place_id": "ChIJgUYW6zrxkT4RIaJvt4wvA_Q",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.ritzcarlton.com/en/hotels/mctrz-al-bustan-palace-a-ritz-carlton-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
   "{\"brand\": \"The Ritz-Carlton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Ritz carlton Okinawa The Ritz-Carlton Hotel\", \"Ritz carlton Okinawa The Ritz-Carlton Resort\", \"Ritz carlton Okinawa The Ritz-Carlton\", \"Ritz carlton Okinawa The Ritz-Carlton Nago, Japan Hotel\", \"Ritz carlton Okinawa The Ritz-Carlton Nago, Japan Resort\", \"Ritz carlton Okinawa The Ritz-Carlton Nago, Japan\", \"Ritz carlton Okinawa Hilton Hotel\", \"Ritz carlton Okinawa Hilton Resort\", \"Ritz carlton Okinawa Hilton\", \"Ritz carlton Okinawa Hilton Nago, Japan Hotel\", \"Ritz carlton Okinawa Hilton Nago, Japan Resort\", \"Ritz carlton Okinawa Hilton Nago, Japan\", \"The Ritz-Carlton, Okinawa The Ritz-Carlton Hotel\", \"The Ritz-Carlton, Okinawa The Ritz-Carlton Resort\", \"The Ritz-Carlton, Okinawa The Ritz-Carlton\", \"The Ritz-Carlton, Okinawa The Ritz-Carlton Nago, Japan Hotel\", \"The Ritz-Carlton, Okinawa The Ritz-Carlton Nago, Japan Resort\", \"The Ritz-Carlton, Okinawa The Ritz-Carlton Nago, Japan\", \"The Ritz-Carlton, Okinawa Hilton Hotel\", \"The Ritz-Carlton, Okinawa Hilton Resort\", \"The Ritz-Carlton, Okinawa Hilton\", \"The Ritz-Carlton, Okinawa Hilton Nago, Japan Hotel\", \"The Ritz-Carlton, Okinawa Hilton Nago, Japan Resort\", \"The Ritz-Carlton, Okinawa Hilton Nago, Japan\", \"The Ritz-Carlton, Okinawa Hotel\", \"The Ritz-Carlton, Okinawa Resort\", \"The Ritz-Carlton, Okinawa\", \"The Ritz-Carlton, Okinawa Nago, Japan Hotel\", \"The Ritz-Carlton, Okinawa Nago, Japan Resort\", \"The Ritz-Carlton, Okinawa Nago, Japan\"], \"v\": 3}": {
     "lat": 26.5280858,
     "lon": 127.9398478,
@@ -116709,48 +116667,6 @@
       "website": "https://www.ritzcarlton.com/en/hotels/yulrm-the-ritz-carlton-montreal/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"The Ritz-Carlton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Al Bustan Palace, a Ritz-Carlton Hotel The Ritz-Carlton Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel The Ritz-Carlton Resort\", \"Al Bustan Palace, a Ritz-Carlton Hotel The Ritz-Carlton\", \"Al Bustan Palace, a Ritz-Carlton Hotel The Ritz-Carlton Muscat, Oman Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel The Ritz-Carlton Muscat, Oman Resort\", \"Al Bustan Palace, a Ritz-Carlton Hotel The Ritz-Carlton Muscat, Oman\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hilton Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hilton Resort\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hilton\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hilton Muscat, Oman Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hilton Muscat, Oman Resort\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hilton Muscat, Oman\", \"Al Bustan Palace a Ritz carlton Hotel The Ritz-Carlton Hotel\", \"Al Bustan Palace a Ritz carlton Hotel The Ritz-Carlton Resort\", \"Al Bustan Palace a Ritz carlton Hotel The Ritz-Carlton\", \"Al Bustan Palace a Ritz carlton Hotel The Ritz-Carlton Muscat, Oman Hotel\", \"Al Bustan Palace a Ritz carlton Hotel The Ritz-Carlton Muscat, Oman Resort\", \"Al Bustan Palace a Ritz carlton Hotel The Ritz-Carlton Muscat, Oman\", \"Al Bustan Palace a Ritz carlton Hotel Hilton Hotel\", \"Al Bustan Palace a Ritz carlton Hotel Hilton Resort\", \"Al Bustan Palace a Ritz carlton Hotel Hilton\", \"Al Bustan Palace a Ritz carlton Hotel Hilton Muscat, Oman Hotel\", \"Al Bustan Palace a Ritz carlton Hotel Hilton Muscat, Oman Resort\", \"Al Bustan Palace a Ritz carlton Hotel Hilton Muscat, Oman\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel Resort\", \"Al Bustan Palace, a Ritz-Carlton Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel Muscat, Oman Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel Muscat, Oman Resort\", \"Al Bustan Palace, a Ritz-Carlton Hotel Muscat, Oman\"], \"v\": 3}": {
-    "lat": 23.5671512,
-    "lon": 58.6155072,
-    "formatted_address": "Al Bustan St, Muscat 114, Oman",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJgUYW6zrxkT4RIaJvt4wvA_Q",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Al Bustan St, Muscat 114, Oman",
-      "geometry": {
-        "location": {
-          "lat": 23.5671512,
-          "lng": 58.6155072
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 23.5682879802915,
-            "lng": 58.61672933029149
-          },
-          "southwest": {
-            "lat": 23.5655900197085,
-            "lng": 58.61403136970848
-          }
-        }
-      },
-      "name": "Al Bustan Palace, a Ritz-Carlton Hotel",
-      "place_id": "ChIJgUYW6zrxkT4RIaJvt4wvA_Q",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.ritzcarlton.com/en/hotels/mctrz-al-bustan-palace-a-ritz-carlton-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
   "{\"brand\": \"The Ritz-Carlton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Ritz-Carlton, Okinawa The Ritz-Carlton Hotel\", \"The Ritz-Carlton, Okinawa The Ritz-Carlton Resort\", \"The Ritz-Carlton, Okinawa The Ritz-Carlton\", \"The Ritz-Carlton, Okinawa The Ritz-Carlton Nago, Japan Hotel\", \"The Ritz-Carlton, Okinawa The Ritz-Carlton Nago, Japan Resort\", \"The Ritz-Carlton, Okinawa The Ritz-Carlton Nago, Japan\", \"The Ritz-Carlton, Okinawa Hilton Hotel\", \"The Ritz-Carlton, Okinawa Hilton Resort\", \"The Ritz-Carlton, Okinawa Hilton\", \"The Ritz-Carlton, Okinawa Hilton Nago, Japan Hotel\", \"The Ritz-Carlton, Okinawa Hilton Nago, Japan Resort\", \"The Ritz-Carlton, Okinawa Hilton Nago, Japan\", \"Ritz carlton Okinawa The Ritz-Carlton Hotel\", \"Ritz carlton Okinawa The Ritz-Carlton Resort\", \"Ritz carlton Okinawa The Ritz-Carlton\", \"Ritz carlton Okinawa The Ritz-Carlton Nago, Japan Hotel\", \"Ritz carlton Okinawa The Ritz-Carlton Nago, Japan Resort\", \"Ritz carlton Okinawa The Ritz-Carlton Nago, Japan\", \"Ritz carlton Okinawa Hilton Hotel\", \"Ritz carlton Okinawa Hilton Resort\", \"Ritz carlton Okinawa Hilton\", \"Ritz carlton Okinawa Hilton Nago, Japan Hotel\", \"Ritz carlton Okinawa Hilton Nago, Japan Resort\", \"Ritz carlton Okinawa Hilton Nago, Japan\", \"The Ritz-Carlton, Okinawa Hotel\", \"The Ritz-Carlton, Okinawa Resort\", \"The Ritz-Carlton, Okinawa\", \"The Ritz-Carlton, Okinawa Nago, Japan Hotel\", \"The Ritz-Carlton, Okinawa Nago, Japan Resort\", \"The Ritz-Carlton, Okinawa Nago, Japan\"], \"v\": 3}": {
     "lat": 26.5280858,
     "lon": 127.9398478,
@@ -126543,8 +126459,8 @@
     "lat": 52.6495055,
     "lon": -7.251757099999999,
     "formatted_address": "22 & 23 Lower Patrick St, Gardens, Kilkenny, R95 DX76, Ireland",
-    "provider": "google_geocoding",
-    "confidence": "ROOFTOP",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
     "place_id": "ChIJ01oZ854wXUgRc53tyIAIH_M",
     "types": [
       "bar",
@@ -126556,92 +126472,26 @@
     ],
     "partial_match": false,
     "raw": {
-      "address_components": [
-        {
-          "long_name": "22 & 23 Lower",
-          "short_name": "22 & 23 Lower",
-          "types": [
-            "street_number"
-          ]
-        },
-        {
-          "long_name": "Patrick Street",
-          "short_name": "Patrick St",
-          "types": [
-            "route"
-          ]
-        },
-        {
-          "long_name": "Gardens",
-          "short_name": "Gardens",
-          "types": [
-            "neighborhood",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Kilkenny",
-          "short_name": "KK",
-          "types": [
-            "locality",
-            "political"
-          ]
-        },
-        {
-          "long_name": "County Kilkenny",
-          "short_name": "County Kilkenny",
-          "types": [
-            "administrative_area_level_1",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Ireland",
-          "short_name": "IE",
-          "types": [
-            "country",
-            "political"
-          ]
-        },
-        {
-          "long_name": "R95 DX76",
-          "short_name": "R95 DX76",
-          "types": [
-            "postal_code"
-          ]
-        }
-      ],
+      "business_status": "OPERATIONAL",
       "formatted_address": "22 & 23 Lower Patrick St, Gardens, Kilkenny, R95 DX76, Ireland",
       "geometry": {
         "location": {
           "lat": 52.6495055,
           "lng": -7.251757099999999
         },
-        "location_type": "ROOFTOP",
         "viewport": {
           "northeast": {
             "lat": 52.65086778029149,
-            "lng": -7.250302419708498
+            "lng": -7.250302419708494
           },
           "southwest": {
             "lat": 52.64816981970849,
-            "lng": -7.253000380291502
+            "lng": -7.253000380291499
           }
         }
       },
-      "navigation_points": [
-        {
-          "location": {
-            "latitude": 52.6495153,
-            "longitude": -7.2516458
-          }
-        }
-      ],
+      "name": "The Club House Hotel",
       "place_id": "ChIJ01oZ854wXUgRc53tyIAIH_M",
-      "plus_code": {
-        "compound_code": "JPXX+R7 Kilkenny, County Kilkenny, Ireland",
-        "global_code": "9C4JJPXX+R7"
-      },
       "types": [
         "bar",
         "establishment",
@@ -126649,7 +126499,8 @@
         "lodging",
         "point_of_interest",
         "restaurant"
-      ]
+      ],
+      "website": "http://www.clubhousehotel.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Dewberry\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Dewberry Hotel\", \"The Dewberry Resort\", \"The Dewberry\", \"The Dewberry Charleston, South Carolina US Hotel\", \"The Dewberry Charleston, South Carolina US Resort\", \"The Dewberry Charleston, South Carolina US\"], \"v\": 3}": {
@@ -128039,45 +127890,47 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Grove\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Grove Hotel\", \"The Grove Resort\", \"The Grove\", \"The Grove Hertfordshire, England Hotel\", \"The Grove Hertfordshire, England Resort\", \"The Grove Hertfordshire, England\"], \"v\": 3}": {
-    "lat": 43.6139805,
-    "lon": -116.2037791,
-    "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
+    "lat": 51.677052,
+    "lon": -0.436857,
+    "formatted_address": "Chandler's Cross, Watford WD3 4TG, UK",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
+    "place_id": "ChIJPYjFIHpqdkgRn0B8GNfoTVo",
     "types": [
       "establishment",
       "lodging",
-      "point_of_interest"
+      "point_of_interest",
+      "spa"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
+      "formatted_address": "Chandler's Cross, Watford WD3 4TG, UK",
       "geometry": {
         "location": {
-          "lat": 43.6139805,
-          "lng": -116.2037791
+          "lat": 51.677052,
+          "lng": -0.436857
         },
         "viewport": {
           "northeast": {
-            "lat": 43.61524663029149,
-            "lng": -116.2022796697085
+            "lat": 51.6786900802915,
+            "lng": -0.4358084197084979
           },
           "southwest": {
-            "lat": 43.6125486697085,
-            "lng": -116.2049776302915
+            "lat": 51.6759921197085,
+            "lng": -0.438506380291502
           }
         }
       },
-      "name": "The Grove Hotel",
-      "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
+      "name": "The Grove Hotel – Spa and Golf",
+      "place_id": "ChIJPYjFIHpqdkgRn0B8GNfoTVo",
       "types": [
         "establishment",
         "lodging",
-        "point_of_interest"
+        "point_of_interest",
+        "spa"
       ],
-      "website": "http://www.grovehotelboise.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect"
+      "website": "http://www.thegrove.co.uk/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Southern Ocean Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Southern Ocean Lodge Hotel\", \"Southern Ocean Lodge Resort\", \"Southern Ocean Lodge\", \"Southern Ocean Lodge Kingscote, Australia Hotel\", \"Southern Ocean Lodge Kingscote, Australia Resort\", \"Southern Ocean Lodge Kingscote, Australia\"], \"v\": 3}": {
@@ -129877,12 +129730,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 39.9927967,
-    "lon": -76.28769179999999,
-    "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
+    "lat": 34.7012112,
+    "lon": -118.171488,
+    "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
+    "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
     "types": [
       "establishment",
       "lodging",
@@ -129891,31 +129744,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
+      "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
       "geometry": {
         "location": {
-          "lat": 39.9927967,
-          "lng": -76.28769179999999
+          "lat": 34.7012112,
+          "lng": -118.171488
         },
         "viewport": {
           "northeast": {
-            "lat": 39.9940706302915,
-            "lng": -76.28663611970849
+            "lat": 34.7024083302915,
+            "lng": -118.1697845197085
           },
           "southwest": {
-            "lat": 39.9913726697085,
-            "lng": -76.2893340802915
+            "lat": 34.6997103697085,
+            "lng": -118.1724824802915
           }
         }
       },
-      "name": "DoubleTree Resort by Hilton Hotel Lancaster",
-      "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
+      "name": "Hampton Inn & Suites Lancaster",
+      "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/lnswvdt-doubletree-resort-lancaster/?SEO_id=GMB-AMER-DT-LNSWVDT&y_source=1_MTM3MjczNC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.hilton.com/en/hotels/pdllchx-hampton-suites-lancaster/?SEO_id=GMB-AMER-HX-PDLLCHX&y_source=1_MjA4MzE4Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -199845,48 +199698,6 @@
       "website": "https://www.ritzcarlton.com/en/hotels/yulrm-the-ritz-carlton-montreal/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Al Bustan Palace, a Ritz-Carlton Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Al Bustan Palace, a Ritz-Carlton Hotel The Ritz-Carlton Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel The Ritz-Carlton Resort\", \"Al Bustan Palace, a Ritz-Carlton Hotel The Ritz-Carlton\", \"Al Bustan Palace, a Ritz-Carlton Hotel The Ritz-Carlton Muscat, Oman Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel The Ritz-Carlton Muscat, Oman Resort\", \"Al Bustan Palace, a Ritz-Carlton Hotel The Ritz-Carlton Muscat, Oman\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hilton Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hilton Resort\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hilton\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hilton Muscat, Oman Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hilton Muscat, Oman Resort\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hilton Muscat, Oman\", \"Al Bustan Palace a Ritz carlton Hotel The Ritz-Carlton Hotel\", \"Al Bustan Palace a Ritz carlton Hotel The Ritz-Carlton Resort\", \"Al Bustan Palace a Ritz carlton Hotel The Ritz-Carlton\", \"Al Bustan Palace a Ritz carlton Hotel The Ritz-Carlton Muscat, Oman Hotel\", \"Al Bustan Palace a Ritz carlton Hotel The Ritz-Carlton Muscat, Oman Resort\", \"Al Bustan Palace a Ritz carlton Hotel The Ritz-Carlton Muscat, Oman\", \"Al Bustan Palace a Ritz carlton Hotel Hilton Hotel\", \"Al Bustan Palace a Ritz carlton Hotel Hilton Resort\", \"Al Bustan Palace a Ritz carlton Hotel Hilton\", \"Al Bustan Palace a Ritz carlton Hotel Hilton Muscat, Oman Hotel\", \"Al Bustan Palace a Ritz carlton Hotel Hilton Muscat, Oman Resort\", \"Al Bustan Palace a Ritz carlton Hotel Hilton Muscat, Oman\", \"Al Bustan Palace, a Ritz-Carlton Hotel Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel Resort\", \"Al Bustan Palace, a Ritz-Carlton Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel Muscat, Oman Hotel\", \"Al Bustan Palace, a Ritz-Carlton Hotel Muscat, Oman Resort\", \"Al Bustan Palace, a Ritz-Carlton Hotel Muscat, Oman\"], \"v\": 3}": {
-    "lat": 23.5671512,
-    "lon": 58.6155072,
-    "formatted_address": "Al Bustan St, Muscat 114, Oman",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJgUYW6zrxkT4RIaJvt4wvA_Q",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Al Bustan St, Muscat 114, Oman",
-      "geometry": {
-        "location": {
-          "lat": 23.5671512,
-          "lng": 58.6155072
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 23.5682879802915,
-            "lng": 58.61672933029149
-          },
-          "southwest": {
-            "lat": 23.5655900197085,
-            "lng": 58.61403136970848
-          }
-        }
-      },
-      "name": "Al Bustan Palace, a Ritz-Carlton Hotel",
-      "place_id": "ChIJgUYW6zrxkT4RIaJvt4wvA_Q",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.ritzcarlton.com/en/hotels/mctrz-al-bustan-palace-a-ritz-carlton-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Ritz-Carlton, Okinawa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Ritz-Carlton, Okinawa The Ritz-Carlton Hotel\", \"The Ritz-Carlton, Okinawa The Ritz-Carlton Resort\", \"The Ritz-Carlton, Okinawa The Ritz-Carlton\", \"The Ritz-Carlton, Okinawa The Ritz-Carlton Nago, Japan Hotel\", \"The Ritz-Carlton, Okinawa The Ritz-Carlton Nago, Japan Resort\", \"The Ritz-Carlton, Okinawa The Ritz-Carlton Nago, Japan\", \"The Ritz-Carlton, Okinawa Hilton Hotel\", \"The Ritz-Carlton, Okinawa Hilton Resort\", \"The Ritz-Carlton, Okinawa Hilton\", \"The Ritz-Carlton, Okinawa Hilton Nago, Japan Hotel\", \"The Ritz-Carlton, Okinawa Hilton Nago, Japan Resort\", \"The Ritz-Carlton, Okinawa Hilton Nago, Japan\", \"Ritz carlton Okinawa The Ritz-Carlton Hotel\", \"Ritz carlton Okinawa The Ritz-Carlton Resort\", \"Ritz carlton Okinawa The Ritz-Carlton\", \"Ritz carlton Okinawa The Ritz-Carlton Nago, Japan Hotel\", \"Ritz carlton Okinawa The Ritz-Carlton Nago, Japan Resort\", \"Ritz carlton Okinawa The Ritz-Carlton Nago, Japan\", \"Ritz carlton Okinawa Hilton Hotel\", \"Ritz carlton Okinawa Hilton Resort\", \"Ritz carlton Okinawa Hilton\", \"Ritz carlton Okinawa Hilton Nago, Japan Hotel\", \"Ritz carlton Okinawa Hilton Nago, Japan Resort\", \"Ritz carlton Okinawa Hilton Nago, Japan\", \"The Ritz-Carlton, Okinawa Hotel\", \"The Ritz-Carlton, Okinawa Resort\", \"The Ritz-Carlton, Okinawa\", \"The Ritz-Carlton, Okinawa Nago, Japan Hotel\", \"The Ritz-Carlton, Okinawa Nago, Japan Resort\", \"The Ritz-Carlton, Okinawa Nago, Japan\"], \"v\": 3}": {
     "lat": 26.5280858,
     "lon": 127.9398478,
@@ -210949,6 +210760,181 @@
         "spa"
       ],
       "website": "https://www.fourseasons.com/johannesburg/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-jbg-hre-mid-seo-na&utm_content=na-na&utm_term=na"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"W Florence\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W Florence\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Cliveden House\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cliveden House Hotel\", \"Cliveden House Resort\", \"Cliveden House\", \"Cliveden House Berkshire, England Hotel\", \"Cliveden House Berkshire, England Resort\", \"Cliveden House Berkshire, England\"], \"v\": 3}": {
+    "lat": 51.5581265,
+    "lon": -0.688283,
+    "formatted_address": "Taplow, Maidenhead SL6 0JF, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJO3l6uqFjdkgRrn0G6Gy_jMY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa",
+      "tourist_attraction"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Taplow, Maidenhead SL6 0JF, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.5581265,
+          "lng": -0.688283
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.55966248029151,
+            "lng": -0.6868820697084979
+          },
+          "southwest": {
+            "lat": 51.55696451970851,
+            "lng": -0.6895800302915019
+          }
+        }
+      },
+      "name": "Cliveden House",
+      "place_id": "ChIJO3l6uqFjdkgRrn0G6Gy_jMY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa",
+        "tourist_attraction"
+      ],
+      "website": "https://www.clivedenhouse.co.uk/?utm_source=google&utm_medium=local&utm_campaign=hotel-clivedenhouse"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Chewton Glen Hotel & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Chewton Glen Hotel & Spa Hotel\", \"Chewton Glen Hotel & Spa Resort\", \"Chewton Glen Hotel & Spa\", \"Chewton Glen Hotel & Spa New Milton, England Hotel\", \"Chewton Glen Hotel & Spa New Milton, England Resort\", \"Chewton Glen Hotel & Spa New Milton, England\", \"Chewton Glen Hotel Spa Hotel\", \"Chewton Glen Hotel Spa Resort\", \"Chewton Glen Hotel Spa\", \"Chewton Glen Hotel Spa New Milton, England Hotel\", \"Chewton Glen Hotel Spa New Milton, England Resort\", \"Chewton Glen Hotel Spa New Milton, England\"], \"v\": 3}": {
+    "lat": 50.7456644,
+    "lon": -1.6814979,
+    "formatted_address": "Chewton Glen Hotel & Spa, Christchurch Rd, New Milton BH25 6QS, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJK-pWnlSDc0gR2LbCLpHCRK8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Chewton Glen Hotel & Spa, Christchurch Rd, New Milton BH25 6QS, UK",
+      "geometry": {
+        "location": {
+          "lat": 50.7456644,
+          "lng": -1.6814979
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 50.7469493302915,
+            "lng": -1.679812719708498
+          },
+          "southwest": {
+            "lat": 50.7442513697085,
+            "lng": -1.682510680291502
+          }
+        }
+      },
+      "name": "Chewton Glen Hotel & Spa",
+      "place_id": "ChIJK-pWnlSDc0gR2LbCLpHCRK8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.chewtonglen.com/?utm_source=google&utm_medium=organic&utm_campaign=google_local_chewton_glen"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Zambra Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Zambra Resort The Unbound Collection Hotel\", \"La Zambra Resort The Unbound Collection Resort\", \"La Zambra Resort The Unbound Collection\", \"La Zambra Resort The Unbound Collection Marbella, Spain Hotel\", \"La Zambra Resort The Unbound Collection Marbella, Spain Resort\", \"La Zambra Resort The Unbound Collection Marbella, Spain\", \"La Zambra Resort Hilton Hotel\", \"La Zambra Resort Hilton Resort\", \"La Zambra Resort Hilton\", \"La Zambra Resort Hilton Marbella, Spain Hotel\", \"La Zambra Resort Hilton Marbella, Spain Resort\", \"La Zambra Resort Hilton Marbella, Spain\", \"La Zambra Resort Hotel\", \"La Zambra Resort Resort\", \"La Zambra Resort\", \"La Zambra Resort Marbella, Spain Hotel\", \"La Zambra Resort Marbella, Spain Resort\", \"La Zambra Resort Marbella, Spain\"], \"v\": 3}": {
+    "lat": 36.5529094,
+    "lon": -4.6667533,
+    "formatted_address": "Av. de Louison Bobet, 9, 29650 Málaga, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJrYNyj6bhcg0RJxTIGH2EJng",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Av. de Louison Bobet, 9, 29650 Málaga, Spain",
+      "geometry": {
+        "location": {
+          "lat": 36.5529094,
+          "lng": -4.6667533
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.5542287802915,
+            "lng": -4.665363569708498
+          },
+          "southwest": {
+            "lat": 36.5515308197085,
+            "lng": -4.668061530291503
+          }
+        }
+      },
+      "name": "La Zambra Resort - The Unbound Collection by Hyatt",
+      "place_id": "ChIJrYNyj6bhcg0RJxTIGH2EJng",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/en-US/hotel/spain/la-zambra-resort/agpub?src=corp_lclb_google_seo_agpub&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"W Florence\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W Florence W Hotels Hotel\", \"W Florence W Hotels Resort\", \"W Florence W Hotels\", \"W Florence W Hotels Florence, Italy Hotel\", \"W Florence W Hotels Florence, Italy Resort\", \"W Florence W Hotels Florence, Italy\", \"W Florence Hilton Hotel\", \"W Florence Hilton Resort\", \"W Florence Hilton\", \"W Florence Hilton Florence, Italy Hotel\", \"W Florence Hilton Florence, Italy Resort\", \"W Florence Hilton Florence, Italy\", \"W Florence Hotel\", \"W Florence Resort\", \"W Florence\", \"W Florence Florence, Italy Hotel\", \"W Florence Florence, Italy Resort\", \"W Florence Florence, Italy\"], \"v\": 3}": {
+    "lat": 43.7749154,
+    "lon": 11.2511415,
+    "formatted_address": "Via del Melarancio, 1, 50123 Firenze FI, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJcfBiIkdXKhMR1JKLpOXV6SM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via del Melarancio, 1, 50123 Firenze FI, Italy",
+      "geometry": {
+        "location": {
+          "lat": 43.7749154,
+          "lng": 11.2511415
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.77622203029149,
+            "lng": 11.2525281302915
+          },
+          "southwest": {
+            "lat": 43.77352406970849,
+            "lng": 11.2498301697085
+          }
+        }
+      },
+      "name": "W Florence",
+      "place_id": "ChIJcfBiIkdXKhMR1JKLpOXV6SM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/flrwh-w-florence/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   }
 }

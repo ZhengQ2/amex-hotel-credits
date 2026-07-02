@@ -141309,12 +141309,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Antonio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Antonio Small Luxury Hotels of the World Hotel\", \"San Antonio Small Luxury Hotels of the World Resort\", \"San Antonio Small Luxury Hotels of the World\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Hotel\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Resort\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece\", \"San Antonio Hilton Hotel\", \"San Antonio Hilton Resort\", \"San Antonio Hilton\", \"San Antonio Hilton Imerovigli, Greece Hotel\", \"San Antonio Hilton Imerovigli, Greece Resort\", \"San Antonio Hilton Imerovigli, Greece\", \"San Antonio Hotel\", \"San Antonio Resort\", \"San Antonio\", \"San Antonio Imerovigli, Greece Hotel\", \"San Antonio Imerovigli, Greece Resort\", \"San Antonio Imerovigli, Greece\"], \"v\": 3}": {
-    "lat": 29.6663753,
-    "lon": -98.4008875,
-    "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
+    "lat": 29.4222047,
+    "lon": -98.48713219999999,
+    "formatted_address": "222 S Alamo St, San Antonio, TX 78205, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
+    "place_id": "ChIJxan4ZOFZXIYR5sTWwmNhh60",
     "types": [
       "establishment",
       "lodging",
@@ -141323,31 +141323,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
+      "formatted_address": "222 S Alamo St, San Antonio, TX 78205, USA",
       "geometry": {
         "location": {
-          "lat": 29.6663753,
-          "lng": -98.4008875
+          "lat": 29.4222047,
+          "lng": -98.48713219999999
         },
         "viewport": {
           "northeast": {
-            "lat": 29.6677274302915,
-            "lng": -98.39953276970849
+            "lat": 29.4235619302915,
+            "lng": -98.48580871970849
           },
           "southwest": {
-            "lat": 29.6650294697085,
-            "lng": -98.40223073029149
+            "lat": 29.4208639697085,
+            "lng": -98.48850668029151
           }
         }
       },
-      "name": "JW Marriott San Antonio Hill Country Resort & Spa",
-      "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
+      "name": "The Monarch San Antonio, Curio Collection by Hilton",
+      "place_id": "ChIJxan4ZOFZXIYR5sTWwmNhh60",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.marriott.com/en-us/hotels/satjw-jw-marriott-san-antonio-hill-country-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+      "website": "https://www.hilton.com/en/hotels/satmkqq-the-monarch-san-antonio/?SEO_id=GMB-AMER-QQ-SATMKQQ&y_source=1_MTAzMTk4MzAzNy03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rusty Parrot Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
@@ -155109,6 +155109,91 @@
         "point_of_interest"
       ],
       "website": "https://www.marriott.com/en-us/hotels/waska-the-satire-autograph-collection/overview/"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Montenotte - Woodland Suite Experience\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Montenotte - Woodland Suite Experience\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Montano Resort & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Montano Resort & Spa Relais & Ch\\u00e2teaux Hotel\", \"San Montano Resort & Spa Relais & Ch\\u00e2teaux Resort\", \"San Montano Resort & Spa Relais & Ch\\u00e2teaux\", \"San Montano Resort & Spa Relais & Ch\\u00e2teaux Lacco Ameno, Italy Hotel\", \"San Montano Resort & Spa Relais & Ch\\u00e2teaux Lacco Ameno, Italy Resort\", \"San Montano Resort & Spa Relais & Ch\\u00e2teaux Lacco Ameno, Italy\", \"San Montano Resort & Spa Hilton Hotel\", \"San Montano Resort & Spa Hilton Resort\", \"San Montano Resort & Spa Hilton\", \"San Montano Resort & Spa Hilton Lacco Ameno, Italy Hotel\", \"San Montano Resort & Spa Hilton Lacco Ameno, Italy Resort\", \"San Montano Resort & Spa Hilton Lacco Ameno, Italy\", \"San Montano Resort Spa Relais & Ch\\u00e2teaux Hotel\", \"San Montano Resort Spa Relais & Ch\\u00e2teaux Resort\", \"San Montano Resort Spa Relais & Ch\\u00e2teaux\", \"San Montano Resort Spa Relais & Ch\\u00e2teaux Lacco Ameno, Italy Hotel\", \"San Montano Resort Spa Relais & Ch\\u00e2teaux Lacco Ameno, Italy Resort\", \"San Montano Resort Spa Relais & Ch\\u00e2teaux Lacco Ameno, Italy\", \"San Montano Resort Spa Hilton Hotel\", \"San Montano Resort Spa Hilton Resort\", \"San Montano Resort Spa Hilton\", \"San Montano Resort Spa Hilton Lacco Ameno, Italy Hotel\", \"San Montano Resort Spa Hilton Lacco Ameno, Italy Resort\", \"San Montano Resort Spa Hilton Lacco Ameno, Italy\", \"San Montano Resort & Spa Hotel\", \"San Montano Resort & Spa Resort\", \"San Montano Resort & Spa\", \"San Montano Resort & Spa Lacco Ameno, Italy Hotel\", \"San Montano Resort & Spa Lacco Ameno, Italy Resort\", \"San Montano Resort & Spa Lacco Ameno, Italy\"], \"v\": 3}": {
+    "lat": 40.7561866,
+    "lon": 13.8822448,
+    "formatted_address": "Via Nuova Montevico, 26, 80076 Lacco Ameno NA, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJaXiAH3dAOxMRopME7p-SNJA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Nuova Montevico, 26, 80076 Lacco Ameno NA, Italy",
+      "geometry": {
+        "location": {
+          "lat": 40.7561866,
+          "lng": 13.8822448
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.75762703029149,
+            "lng": 13.8835014302915
+          },
+          "southwest": {
+            "lat": 40.7549290697085,
+            "lng": 13.8808034697085
+          }
+        }
+      },
+      "name": "San Montano Resort & Spa",
+      "place_id": "ChIJaXiAH3dAOxMRopME7p-SNJA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.sanmontano.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Montenotte - Woodland Suite Experience\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Montenotte - Woodland Suite Experience Small Luxury Hotels of the World Hotel\", \"The Montenotte - Woodland Suite Experience Small Luxury Hotels of the World Resort\", \"The Montenotte - Woodland Suite Experience Small Luxury Hotels of the World\", \"The Montenotte - Woodland Suite Experience Small Luxury Hotels of the World Cork, Ireland Hotel\", \"The Montenotte - Woodland Suite Experience Small Luxury Hotels of the World Cork, Ireland Resort\", \"The Montenotte - Woodland Suite Experience Small Luxury Hotels of the World Cork, Ireland\", \"The Montenotte - Woodland Suite Experience Hilton Hotel\", \"The Montenotte - Woodland Suite Experience Hilton Resort\", \"The Montenotte - Woodland Suite Experience Hilton\", \"The Montenotte - Woodland Suite Experience Hilton Cork, Ireland Hotel\", \"The Montenotte - Woodland Suite Experience Hilton Cork, Ireland Resort\", \"The Montenotte - Woodland Suite Experience Hilton Cork, Ireland\", \"Montenotte Woodland Suite Experience Small Luxury Hotels of the World Hotel\", \"Montenotte Woodland Suite Experience Small Luxury Hotels of the World Resort\", \"Montenotte Woodland Suite Experience Small Luxury Hotels of the World\", \"Montenotte Woodland Suite Experience Small Luxury Hotels of the World Cork, Ireland Hotel\", \"Montenotte Woodland Suite Experience Small Luxury Hotels of the World Cork, Ireland Resort\", \"Montenotte Woodland Suite Experience Small Luxury Hotels of the World Cork, Ireland\", \"Montenotte Woodland Suite Experience Hilton Hotel\", \"Montenotte Woodland Suite Experience Hilton Resort\", \"Montenotte Woodland Suite Experience Hilton\", \"Montenotte Woodland Suite Experience Hilton Cork, Ireland Hotel\", \"Montenotte Woodland Suite Experience Hilton Cork, Ireland Resort\", \"Montenotte Woodland Suite Experience Hilton Cork, Ireland\", \"The Montenotte - Woodland Suite Experience Hotel\", \"The Montenotte - Woodland Suite Experience Resort\", \"The Montenotte - Woodland Suite Experience\", \"The Montenotte - Woodland Suite Experience Cork, Ireland Hotel\", \"The Montenotte - Woodland Suite Experience Cork, Ireland Resort\", \"The Montenotte - Woodland Suite Experience Cork, Ireland\"], \"v\": 3}": {
+    "lat": 51.904415,
+    "lon": -8.451702,
+    "formatted_address": "The Montenotte, Middle Glanmire Rd, Tivoli, Cork, Ireland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJf0lP_aOaREgRHH5PkUe-HJQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "The Montenotte, Middle Glanmire Rd, Tivoli, Cork, Ireland",
+      "geometry": {
+        "location": {
+          "lat": 51.904415,
+          "lng": -8.451702
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.9058926302915,
+            "lng": -8.450401019708496
+          },
+          "southwest": {
+            "lat": 51.9031946697085,
+            "lng": -8.4530989802915
+          }
+        }
+      },
+      "name": "The Woodland Suites at The Montenotte",
+      "place_id": "ChIJf0lP_aOaREgRHH5PkUe-HJQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.themontenottehotel.com/the-woodland-suite-experience/"
     }
   }
 }
