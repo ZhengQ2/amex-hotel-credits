@@ -153292,7 +153292,6 @@
     }
   },
   "{\"brand\": \"THC\", \"hotel_name\": \"LaPlaya Beach and Golf Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"LaPlaya Beach and Golf Resort\"], \"v\": 3}": null,
-  "{\"brand\": \"THC\", \"hotel_name\": \"Omni Frisco Hotel at The Star\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Omni Frisco Hotel at The Star\"], \"v\": 3}": null,
   "{\"brand\": \"THC\", \"hotel_name\": \"Palacio de los Angeles La Rioja\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Palacio de los Angeles La Rioja\"], \"v\": 3}": null,
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Aluna Resort Tulum\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aluna Resort Tulum Kimpton Hotels & Restaurants Hotel\", \"Aluna Resort Tulum Kimpton Hotels & Restaurants Resort\", \"Aluna Resort Tulum Kimpton Hotels & Restaurants\", \"Aluna Resort Tulum Kimpton Hotels & Restaurants Tulum, Quintana Roo MX Hotel\", \"Aluna Resort Tulum Kimpton Hotels & Restaurants Tulum, Quintana Roo MX Resort\", \"Aluna Resort Tulum Kimpton Hotels & Restaurants Tulum, Quintana Roo MX\", \"Aluna Resort Tulum Hilton Hotel\", \"Aluna Resort Tulum Hilton Resort\", \"Aluna Resort Tulum Hilton\", \"Aluna Resort Tulum Hilton Tulum, Quintana Roo MX Hotel\", \"Aluna Resort Tulum Hilton Tulum, Quintana Roo MX Resort\", \"Aluna Resort Tulum Hilton Tulum, Quintana Roo MX\", \"Aluna Resort Tulum Hotel\", \"Aluna Resort Tulum Resort\", \"Aluna Resort Tulum\", \"Aluna Resort Tulum Tulum, Quintana Roo MX Hotel\", \"Aluna Resort Tulum Tulum, Quintana Roo MX Resort\", \"Aluna Resort Tulum Tulum, Quintana Roo MX\"], \"v\": 3}": {
     "lat": 20.2015027,
@@ -153376,48 +153375,6 @@
         "point_of_interest"
       ],
       "website": "https://www.laplayaresort.com/?utm_source=gmb-beachresort&utm_medium=organic&utm_campaign=gmb"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Omni Frisco Hotel at The Star\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Omni Frisco Hotel at The Star Omni Hotels & Resorts Hotel\", \"Omni Frisco Hotel at The Star Omni Hotels & Resorts Resort\", \"Omni Frisco Hotel at The Star Omni Hotels & Resorts\", \"Omni Frisco Hotel at The Star Omni Hotels & Resorts Frisco, Texas US Hotel\", \"Omni Frisco Hotel at The Star Omni Hotels & Resorts Frisco, Texas US Resort\", \"Omni Frisco Hotel at The Star Omni Hotels & Resorts Frisco, Texas US\", \"Omni Frisco Hotel at The Star Hilton Hotel\", \"Omni Frisco Hotel at The Star Hilton Resort\", \"Omni Frisco Hotel at The Star Hilton\", \"Omni Frisco Hotel at The Star Hilton Frisco, Texas US Hotel\", \"Omni Frisco Hotel at The Star Hilton Frisco, Texas US Resort\", \"Omni Frisco Hotel at The Star Hilton Frisco, Texas US\", \"Omni Frisco Hotel Star Omni Hotels & Resorts Hotel\", \"Omni Frisco Hotel Star Omni Hotels & Resorts Resort\", \"Omni Frisco Hotel Star Omni Hotels & Resorts\", \"Omni Frisco Hotel Star Omni Hotels & Resorts Frisco, Texas US Hotel\", \"Omni Frisco Hotel Star Omni Hotels & Resorts Frisco, Texas US Resort\", \"Omni Frisco Hotel Star Omni Hotels & Resorts Frisco, Texas US\", \"Omni Frisco Hotel Star Hilton Hotel\", \"Omni Frisco Hotel Star Hilton Resort\", \"Omni Frisco Hotel Star Hilton\", \"Omni Frisco Hotel Star Hilton Frisco, Texas US Hotel\", \"Omni Frisco Hotel Star Hilton Frisco, Texas US Resort\", \"Omni Frisco Hotel Star Hilton Frisco, Texas US\", \"Omni Frisco Hotel at The Star Hotel\", \"Omni Frisco Hotel at The Star Resort\", \"Omni Frisco Hotel at The Star\", \"Omni Frisco Hotel at The Star Frisco, Texas US Hotel\", \"Omni Frisco Hotel at The Star Frisco, Texas US Resort\", \"Omni Frisco Hotel at The Star Frisco, Texas US\"], \"v\": 3}": {
-    "lat": 33.1095886,
-    "lon": -96.8276815,
-    "formatted_address": "11 Cowboys Way, Frisco, TX 75034, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJNddZUoQ8TIYRuTLLsMU4SrY",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "11 Cowboys Way, Frisco, TX 75034, USA",
-      "geometry": {
-        "location": {
-          "lat": 33.1095886,
-          "lng": -96.8276815
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 33.1106793302915,
-            "lng": -96.82616536970849
-          },
-          "southwest": {
-            "lat": 33.1079813697085,
-            "lng": -96.8288633302915
-          }
-        }
-      },
-      "name": "Omni Frisco Hotel at The Star",
-      "place_id": "ChIJNddZUoQ8TIYRuTLLsMU4SrY",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.omnihotels.com/hotels/frisco?utm_source=gmblisting&utm_medium=organic"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Palacio de los Angeles La Rioja\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Palacio de los Angeles La Rioja The Leading Hotels of the World Hotel\", \"Palacio de los Angeles La Rioja The Leading Hotels of the World Resort\", \"Palacio de los Angeles La Rioja The Leading Hotels of the World\", \"Palacio de los Angeles La Rioja The Leading Hotels of the World Haro, Spain Hotel\", \"Palacio de los Angeles La Rioja The Leading Hotels of the World Haro, Spain Resort\", \"Palacio de los Angeles La Rioja The Leading Hotels of the World Haro, Spain\", \"Palacio de los Angeles La Rioja Hilton Hotel\", \"Palacio de los Angeles La Rioja Hilton Resort\", \"Palacio de los Angeles La Rioja Hilton\", \"Palacio de los Angeles La Rioja Hilton Haro, Spain Hotel\", \"Palacio de los Angeles La Rioja Hilton Haro, Spain Resort\", \"Palacio de los Angeles La Rioja Hilton Haro, Spain\", \"Palacio De Los Angeles La Rioja The Leading Hotels of the World Hotel\", \"Palacio De Los Angeles La Rioja The Leading Hotels of the World Resort\", \"Palacio De Los Angeles La Rioja The Leading Hotels of the World\", \"Palacio De Los Angeles La Rioja The Leading Hotels of the World Haro, Spain Hotel\", \"Palacio De Los Angeles La Rioja The Leading Hotels of the World Haro, Spain Resort\", \"Palacio De Los Angeles La Rioja The Leading Hotels of the World Haro, Spain\", \"Palacio De Los Angeles La Rioja Hilton Hotel\", \"Palacio De Los Angeles La Rioja Hilton Resort\", \"Palacio De Los Angeles La Rioja Hilton\", \"Palacio De Los Angeles La Rioja Hilton Haro, Spain Hotel\", \"Palacio De Los Angeles La Rioja Hilton Haro, Spain Resort\", \"Palacio De Los Angeles La Rioja Hilton Haro, Spain\", \"Palacio de los Angeles La Rioja Hotel\", \"Palacio de los Angeles La Rioja Resort\", \"Palacio de los Angeles La Rioja\", \"Palacio de los Angeles La Rioja Haro, Spain Hotel\", \"Palacio de los Angeles La Rioja Haro, Spain Resort\", \"Palacio de los Angeles La Rioja Haro, Spain\"], \"v\": 3}": {
@@ -155194,6 +155151,54 @@
         "point_of_interest"
       ],
       "website": "https://www.themontenottehotel.com/the-woodland-suite-experience/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Les Roches Rouges, a Beaumier hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Les Roches Rouges, a Beaumier hotel Hotel\", \"Les Roches Rouges, a Beaumier hotel Resort\", \"Les Roches Rouges, a Beaumier hotel\", \"Les Roches Rouges, a Beaumier hotel Saint Raphael, France Hotel\", \"Les Roches Rouges, a Beaumier hotel Saint Raphael, France Resort\", \"Les Roches Rouges, a Beaumier hotel Saint Raphael, France\", \"Les Roches Rouges a Beaumier Hotel Hotel\", \"Les Roches Rouges a Beaumier Hotel Resort\", \"Les Roches Rouges a Beaumier Hotel\", \"Les Roches Rouges a Beaumier Hotel Saint Raphael, France Hotel\", \"Les Roches Rouges a Beaumier Hotel Saint Raphael, France Resort\", \"Les Roches Rouges a Beaumier Hotel Saint Raphael, France\"], \"v\": 3}": {
+    "lat": 43.4168663,
+    "lon": 6.837301999999999,
+    "formatted_address": "90 Bd de la 36ème division du Texas, 83700 Saint-Raphaël, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJsWXvWUmXzhIR2FP9znvwCYw",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "90 Bd de la 36ème division du Texas, 83700 Saint-Raphaël, France",
+      "geometry": {
+        "location": {
+          "lat": 43.4168663,
+          "lng": 6.837301999999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.4182436302915,
+            "lng": 6.838609330291501
+          },
+          "southwest": {
+            "lat": 43.4155456697085,
+            "lng": 6.835911369708496
+          }
+        }
+      },
+      "name": "Les Roches Rouges Hotel, Saint Raphaël, Beaumier",
+      "place_id": "ChIJsWXvWUmXzhIR2FP9znvwCYw",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.beaumier.com/en/properties/les-roches-rouges-hotel/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
     }
   }
 }

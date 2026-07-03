@@ -803,54 +803,6 @@
       "website": "https://www.thebocaraton.com/suites-rooms/yacht-club/?utm_source=google&utm_medium=organic&utm_campaign=TBRY-GMB-listing-evergreen&NCK=5612889939"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Capelongue Hotel\", \"Capelongue Resort\", \"Capelongue\", \"Capelongue Bonnieux, France Hotel\", \"Capelongue Bonnieux, France Resort\", \"Capelongue Bonnieux, France\"], \"v\": 3}": {
-    "lat": 43.8219749,
-    "lon": 5.3180744,
-    "formatted_address": "Les Claparèdes, 550 Chem. des Cabanes, 84480 Bonnieux, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJD_sZA6sQyhIR_EwUXy1YjTM",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Les Claparèdes, 550 Chem. des Cabanes, 84480 Bonnieux, France",
-      "geometry": {
-        "location": {
-          "lat": 43.8219749,
-          "lng": 5.3180744
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 43.82333113029151,
-            "lng": 5.319478980291502
-          },
-          "southwest": {
-            "lat": 43.82063316970851,
-            "lng": 5.316781019708498
-          }
-        }
-      },
-      "name": "Capelongue, Bonnieux, a Beaumier Hotel",
-      "place_id": "ChIJD_sZA6sQyhIR_EwUXy1YjTM",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://www.beaumier.com/fr/proprietes/hotel-capelongue/?utm_source=google&utm_medium=organic"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aria Hotel Budapest Library Hotel Collection Hotel\", \"Aria Hotel Budapest Library Hotel Collection Resort\", \"Aria Hotel Budapest Library Hotel Collection\", \"Aria Hotel Budapest Library Hotel Collection Budapest, Hungary Hotel\", \"Aria Hotel Budapest Library Hotel Collection Budapest, Hungary Resort\", \"Aria Hotel Budapest Library Hotel Collection Budapest, Hungary\", \"Aria Hotel Budapest by Library Hotel Collection Hotel\", \"Aria Hotel Budapest by Library Hotel Collection Resort\", \"Aria Hotel Budapest by Library Hotel Collection\", \"Aria Hotel Budapest by Library Hotel Collection Budapest, Hungary Hotel\", \"Aria Hotel Budapest by Library Hotel Collection Budapest, Hungary Resort\", \"Aria Hotel Budapest by Library Hotel Collection Budapest, Hungary\"], \"v\": 3}": {
     "lat": 47.499834,
     "lon": 19.0534037,
@@ -125795,54 +125747,6 @@
       "website": "https://www.thebocaraton.com/suites-rooms/yacht-club/?utm_source=google&utm_medium=organic&utm_campaign=TBRY-GMB-listing-evergreen&NCK=5612889939"
     }
   },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Capelongue\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Capelongue Hotel\", \"Capelongue Resort\", \"Capelongue\", \"Capelongue Bonnieux, France Hotel\", \"Capelongue Bonnieux, France Resort\", \"Capelongue Bonnieux, France\"], \"v\": 3}": {
-    "lat": 43.8219749,
-    "lon": 5.3180744,
-    "formatted_address": "Les Claparèdes, 550 Chem. des Cabanes, 84480 Bonnieux, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJD_sZA6sQyhIR_EwUXy1YjTM",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Les Claparèdes, 550 Chem. des Cabanes, 84480 Bonnieux, France",
-      "geometry": {
-        "location": {
-          "lat": 43.8219749,
-          "lng": 5.3180744
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 43.82333113029151,
-            "lng": 5.319478980291502
-          },
-          "southwest": {
-            "lat": 43.82063316970851,
-            "lng": 5.316781019708498
-          }
-        }
-      },
-      "name": "Capelongue, Bonnieux, a Beaumier Hotel",
-      "place_id": "ChIJD_sZA6sQyhIR_EwUXy1YjTM",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://www.beaumier.com/fr/proprietes/hotel-capelongue/?utm_source=google&utm_medium=organic"
-    }
-  },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Steigenberger Icon Wiltcher's, Brussels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Steigenberger Icon Wiltcher's, Brussels Hotel\", \"Steigenberger Icon Wiltcher's, Brussels Resort\", \"Steigenberger Icon Wiltcher's, Brussels\", \"Steigenberger Icon Wiltcher's, Brussels Brussels, Belgium Hotel\", \"Steigenberger Icon Wiltcher's, Brussels Brussels, Belgium Resort\", \"Steigenberger Icon Wiltcher's, Brussels Brussels, Belgium\", \"Steigenberger Icon Wiltchers Brussels Hotel\", \"Steigenberger Icon Wiltchers Brussels Resort\", \"Steigenberger Icon Wiltchers Brussels\", \"Steigenberger Icon Wiltchers Brussels Brussels, Belgium Hotel\", \"Steigenberger Icon Wiltchers Brussels Brussels, Belgium Resort\", \"Steigenberger Icon Wiltchers Brussels Brussels, Belgium\"], \"v\": 3}": {
     "lat": 50.8324587,
     "lon": 4.357470900000001,
@@ -126459,8 +126363,8 @@
     "lat": 52.6495055,
     "lon": -7.251757099999999,
     "formatted_address": "22 & 23 Lower Patrick St, Gardens, Kilkenny, R95 DX76, Ireland",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
     "place_id": "ChIJ01oZ854wXUgRc53tyIAIH_M",
     "types": [
       "bar",
@@ -126472,26 +126376,92 @@
     ],
     "partial_match": false,
     "raw": {
-      "business_status": "OPERATIONAL",
+      "address_components": [
+        {
+          "long_name": "22 & 23 Lower",
+          "short_name": "22 & 23 Lower",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Patrick Street",
+          "short_name": "Patrick St",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Gardens",
+          "short_name": "Gardens",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Kilkenny",
+          "short_name": "KK",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "County Kilkenny",
+          "short_name": "County Kilkenny",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Ireland",
+          "short_name": "IE",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "R95 DX76",
+          "short_name": "R95 DX76",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
       "formatted_address": "22 & 23 Lower Patrick St, Gardens, Kilkenny, R95 DX76, Ireland",
       "geometry": {
         "location": {
           "lat": 52.6495055,
           "lng": -7.251757099999999
         },
+        "location_type": "ROOFTOP",
         "viewport": {
           "northeast": {
             "lat": 52.65086778029149,
-            "lng": -7.250302419708494
+            "lng": -7.250302419708498
           },
           "southwest": {
             "lat": 52.64816981970849,
-            "lng": -7.253000380291499
+            "lng": -7.253000380291502
           }
         }
       },
-      "name": "The Club House Hotel",
+      "navigation_points": [
+        {
+          "location": {
+            "latitude": 52.6495153,
+            "longitude": -7.2516458
+          }
+        }
+      ],
       "place_id": "ChIJ01oZ854wXUgRc53tyIAIH_M",
+      "plus_code": {
+        "compound_code": "JPXX+R7 Kilkenny, County Kilkenny, Ireland",
+        "global_code": "9C4JJPXX+R7"
+      },
       "types": [
         "bar",
         "establishment",
@@ -126499,8 +126469,7 @@
         "lodging",
         "point_of_interest",
         "restaurant"
-      ],
-      "website": "http://www.clubhousehotel.com/"
+      ]
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Dewberry\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Dewberry Hotel\", \"The Dewberry Resort\", \"The Dewberry\", \"The Dewberry Charleston, South Carolina US Hotel\", \"The Dewberry Charleston, South Carolina US Resort\", \"The Dewberry Charleston, South Carolina US\"], \"v\": 3}": {
@@ -127890,47 +127859,45 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Grove\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Grove Hotel\", \"The Grove Resort\", \"The Grove\", \"The Grove Hertfordshire, England Hotel\", \"The Grove Hertfordshire, England Resort\", \"The Grove Hertfordshire, England\"], \"v\": 3}": {
-    "lat": 51.677052,
-    "lon": -0.436857,
-    "formatted_address": "Chandler's Cross, Watford WD3 4TG, UK",
+    "lat": 43.6139805,
+    "lon": -116.2037791,
+    "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJPYjFIHpqdkgRn0B8GNfoTVo",
+    "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
     "types": [
       "establishment",
       "lodging",
-      "point_of_interest",
-      "spa"
+      "point_of_interest"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Chandler's Cross, Watford WD3 4TG, UK",
+      "formatted_address": "245 S Capitol Blvd, Boise, ID 83702, USA",
       "geometry": {
         "location": {
-          "lat": 51.677052,
-          "lng": -0.436857
+          "lat": 43.6139805,
+          "lng": -116.2037791
         },
         "viewport": {
           "northeast": {
-            "lat": 51.6786900802915,
-            "lng": -0.4358084197084979
+            "lat": 43.61524663029149,
+            "lng": -116.2022796697085
           },
           "southwest": {
-            "lat": 51.6759921197085,
-            "lng": -0.438506380291502
+            "lat": 43.6125486697085,
+            "lng": -116.2049776302915
           }
         }
       },
-      "name": "The Grove Hotel – Spa and Golf",
-      "place_id": "ChIJPYjFIHpqdkgRn0B8GNfoTVo",
+      "name": "The Grove Hotel",
+      "place_id": "ChIJJ4IrIeX4rlQRqU4eEpEWDNE",
       "types": [
         "establishment",
         "lodging",
-        "point_of_interest",
-        "spa"
+        "point_of_interest"
       ],
-      "website": "http://www.thegrove.co.uk/"
+      "website": "http://www.grovehotelboise.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Southern Ocean Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Southern Ocean Lodge Hotel\", \"Southern Ocean Lodge Resort\", \"Southern Ocean Lodge\", \"Southern Ocean Lodge Kingscote, Australia Hotel\", \"Southern Ocean Lodge Kingscote, Australia Resort\", \"Southern Ocean Lodge Kingscote, Australia\"], \"v\": 3}": {
@@ -129730,12 +129697,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 34.7012112,
-    "lon": -118.171488,
-    "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
+    "lat": 40.025647,
+    "lon": -76.2103178,
+    "formatted_address": "2320 Lincoln Hwy E, Lancaster, PA 17602, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
+    "place_id": "ChIJp6-nrr47xokR-cBopTFxWz4",
     "types": [
       "establishment",
       "lodging",
@@ -129744,31 +129711,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2300 W Double Play Way, Lancaster, CA 93536, USA",
+      "formatted_address": "2320 Lincoln Hwy E, Lancaster, PA 17602, USA",
       "geometry": {
         "location": {
-          "lat": 34.7012112,
-          "lng": -118.171488
+          "lat": 40.025647,
+          "lng": -76.2103178
         },
         "viewport": {
           "northeast": {
-            "lat": 34.7024083302915,
-            "lng": -118.1697845197085
+            "lat": 40.0270498302915,
+            "lng": -76.2090659697085
           },
           "southwest": {
-            "lat": 34.6997103697085,
-            "lng": -118.1724824802915
+            "lat": 40.0243518697085,
+            "lng": -76.21176393029151
           }
         }
       },
-      "name": "Hampton Inn & Suites Lancaster",
-      "place_id": "ChIJ9ZdpeM1EwoARp5u8bli_JcI",
+      "name": "Tru by Hilton Lancaster East",
+      "place_id": "ChIJp6-nrr47xokR-cBopTFxWz4",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/pdllchx-hampton-suites-lancaster/?SEO_id=GMB-AMER-HX-PDLLCHX&y_source=1_MjA4MzE4Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.hilton.com/en/hotels/lnsruru-tru-lancaster-east/?SEO_id=GMB-AMER-RU-LNSRURU&y_source=1_Nzg2MDQ3Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -210935,6 +210902,54 @@
         "point_of_interest"
       ],
       "website": "https://www.marriott.com/en-us/hotels/flrwh-w-florence/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Capelongue, a Beaumier Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Capelongue, a Beaumier Hotel Hotel\", \"Capelongue, a Beaumier Hotel Resort\", \"Capelongue, a Beaumier Hotel\", \"Capelongue, a Beaumier Hotel Bonnieux, France Hotel\", \"Capelongue, a Beaumier Hotel Bonnieux, France Resort\", \"Capelongue, a Beaumier Hotel Bonnieux, France\", \"Capelongue a Beaumier Hotel Hotel\", \"Capelongue a Beaumier Hotel Resort\", \"Capelongue a Beaumier Hotel\", \"Capelongue a Beaumier Hotel Bonnieux, France Hotel\", \"Capelongue a Beaumier Hotel Bonnieux, France Resort\", \"Capelongue a Beaumier Hotel Bonnieux, France\"], \"v\": 3}": {
+    "lat": 43.8213174,
+    "lon": 5.317623999999999,
+    "formatted_address": "Les Claparèdes, 550 Chem. des Cabanes, 84480 Bonnieux, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJD_sZA6sQyhIR_EwUXy1YjTM",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Les Claparèdes, 550 Chem. des Cabanes, 84480 Bonnieux, France",
+      "geometry": {
+        "location": {
+          "lat": 43.8213174,
+          "lng": 5.317623999999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.8226740802915,
+            "lng": 5.319029830291503
+          },
+          "southwest": {
+            "lat": 43.8199761197085,
+            "lng": 5.316331869708498
+          }
+        }
+      },
+      "name": "Capelongue, Bonnieux, a Beaumier Hotel",
+      "place_id": "ChIJD_sZA6sQyhIR_EwUXy1YjTM",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.beaumier.com/en/properties/capelongue-hotel/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
     }
   }
 }
