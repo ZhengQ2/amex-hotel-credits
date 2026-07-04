@@ -42365,48 +42365,6 @@
       "website": "https://www.campcreekinn.com/?utm_campaign=gmb&utm_medium=organic&utm_source=local"
     }
   },
-  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Oceans Edge Resort Marina Preferred Hotels & Resorts Hotel\", \"Oceans Edge Resort Marina Preferred Hotels & Resorts Resort\", \"Oceans Edge Resort Marina Preferred Hotels & Resorts\", \"Oceans Edge Resort Marina Preferred Hotels & Resorts Key West, Florida US Hotel\", \"Oceans Edge Resort Marina Preferred Hotels & Resorts Key West, Florida US Resort\", \"Oceans Edge Resort Marina Preferred Hotels & Resorts Key West, Florida US\", \"Oceans Edge Resort Marina Hilton Hotel\", \"Oceans Edge Resort Marina Hilton Resort\", \"Oceans Edge Resort Marina Hilton\", \"Oceans Edge Resort Marina Hilton Key West, Florida US Hotel\", \"Oceans Edge Resort Marina Hilton Key West, Florida US Resort\", \"Oceans Edge Resort Marina Hilton Key West, Florida US\", \"Oceans Edge Resort & Marina Preferred Hotels & Resorts Hotel\", \"Oceans Edge Resort & Marina Preferred Hotels & Resorts Resort\", \"Oceans Edge Resort & Marina Preferred Hotels & Resorts\", \"Oceans Edge Resort & Marina Preferred Hotels & Resorts Key West, Florida US Hotel\", \"Oceans Edge Resort & Marina Preferred Hotels & Resorts Key West, Florida US Resort\", \"Oceans Edge Resort & Marina Preferred Hotels & Resorts Key West, Florida US\", \"Oceans Edge Resort & Marina Hilton Hotel\", \"Oceans Edge Resort & Marina Hilton Resort\", \"Oceans Edge Resort & Marina Hilton\", \"Oceans Edge Resort & Marina Hilton Key West, Florida US Hotel\", \"Oceans Edge Resort & Marina Hilton Key West, Florida US Resort\", \"Oceans Edge Resort & Marina Hilton Key West, Florida US\", \"Oceans Edge Resort & Marina Hotel\", \"Oceans Edge Resort & Marina Resort\", \"Oceans Edge Resort & Marina\", \"Oceans Edge Resort & Marina Key West, Florida US Hotel\", \"Oceans Edge Resort & Marina Key West, Florida US Resort\", \"Oceans Edge Resort & Marina Key West, Florida US\"], \"v\": 3}": {
-    "lat": 24.5634933,
-    "lon": -81.7289632,
-    "formatted_address": "5950 Peninsular Ave, Key West, FL 33040, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ__8vMkOx0YgRFOuziNoX2V8",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "5950 Peninsular Ave, Key West, FL 33040, USA",
-      "geometry": {
-        "location": {
-          "lat": 24.5634933,
-          "lng": -81.7289632
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 24.5649419302915,
-            "lng": -81.72746836970849
-          },
-          "southwest": {
-            "lat": 24.5622439697085,
-            "lng": -81.73016633029151
-          }
-        }
-      },
-      "name": "Oceans Edge Resort & Marina",
-      "place_id": "ChIJ__8vMkOx0YgRFOuziNoX2V8",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.oceansedgekeywest.com/"
-    }
-  },
   "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Ette Hotel Preferred Hotels & Resorts Hotel\", \"Ette Hotel Preferred Hotels & Resorts Resort\", \"Ette Hotel Preferred Hotels & Resorts\", \"Ette Hotel Preferred Hotels & Resorts Kissimmee, Florida US Hotel\", \"Ette Hotel Preferred Hotels & Resorts Kissimmee, Florida US Resort\", \"Ette Hotel Preferred Hotels & Resorts Kissimmee, Florida US\", \"Ette Hotel Hilton Hotel\", \"Ette Hotel Hilton Resort\", \"Ette Hotel Hilton\", \"Ette Hotel Hilton Kissimmee, Florida US Hotel\", \"Ette Hotel Hilton Kissimmee, Florida US Resort\", \"Ette Hotel Hilton Kissimmee, Florida US\", \"ette hotel Preferred Hotels & Resorts Hotel\", \"ette hotel Preferred Hotels & Resorts Resort\", \"ette hotel Preferred Hotels & Resorts\", \"ette hotel Preferred Hotels & Resorts Kissimmee, Florida US Hotel\", \"ette hotel Preferred Hotels & Resorts Kissimmee, Florida US Resort\", \"ette hotel Preferred Hotels & Resorts Kissimmee, Florida US\", \"ette hotel Hilton Hotel\", \"ette hotel Hilton Resort\", \"ette hotel Hilton\", \"ette hotel Hilton Kissimmee, Florida US Hotel\", \"ette hotel Hilton Kissimmee, Florida US Resort\", \"ette hotel Hilton Kissimmee, Florida US\", \"ette hotel Hotel\", \"ette hotel Resort\", \"ette hotel\", \"ette hotel Kissimmee, Florida US Hotel\", \"ette hotel Kissimmee, Florida US Resort\", \"ette hotel Kissimmee, Florida US\"], \"v\": 3}": {
     "lat": 28.3368014,
     "lon": -81.5901871,
@@ -53489,54 +53447,6 @@
         "restaurant"
       ],
       "website": "http://www.splendideroyal.com/"
-    }
-  },
-  "{\"brand\": \"The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fonteverde Lifestyle Thermal Retreat The Leading Hotels of the World Hotel\", \"Fonteverde Lifestyle Thermal Retreat The Leading Hotels of the World Resort\", \"Fonteverde Lifestyle Thermal Retreat The Leading Hotels of the World\", \"Fonteverde Lifestyle Thermal Retreat The Leading Hotels of the World San Casciano dei Bagni, Italy Hotel\", \"Fonteverde Lifestyle Thermal Retreat The Leading Hotels of the World San Casciano dei Bagni, Italy Resort\", \"Fonteverde Lifestyle Thermal Retreat The Leading Hotels of the World San Casciano dei Bagni, Italy\", \"Fonteverde Lifestyle Thermal Retreat Hilton Hotel\", \"Fonteverde Lifestyle Thermal Retreat Hilton Resort\", \"Fonteverde Lifestyle Thermal Retreat Hilton\", \"Fonteverde Lifestyle Thermal Retreat Hilton San Casciano dei Bagni, Italy Hotel\", \"Fonteverde Lifestyle Thermal Retreat Hilton San Casciano dei Bagni, Italy Resort\", \"Fonteverde Lifestyle Thermal Retreat Hilton San Casciano dei Bagni, Italy\", \"Fonteverde Lifestyle & Thermal Retreat The Leading Hotels of the World Hotel\", \"Fonteverde Lifestyle & Thermal Retreat The Leading Hotels of the World Resort\", \"Fonteverde Lifestyle & Thermal Retreat The Leading Hotels of the World\", \"Fonteverde Lifestyle & Thermal Retreat The Leading Hotels of the World San Casciano dei Bagni, Italy Hotel\", \"Fonteverde Lifestyle & Thermal Retreat The Leading Hotels of the World San Casciano dei Bagni, Italy Resort\", \"Fonteverde Lifestyle & Thermal Retreat The Leading Hotels of the World San Casciano dei Bagni, Italy\", \"Fonteverde Lifestyle & Thermal Retreat Hilton Hotel\", \"Fonteverde Lifestyle & Thermal Retreat Hilton Resort\", \"Fonteverde Lifestyle & Thermal Retreat Hilton\", \"Fonteverde Lifestyle & Thermal Retreat Hilton San Casciano dei Bagni, Italy Hotel\", \"Fonteverde Lifestyle & Thermal Retreat Hilton San Casciano dei Bagni, Italy Resort\", \"Fonteverde Lifestyle & Thermal Retreat Hilton San Casciano dei Bagni, Italy\", \"Fonteverde Lifestyle & Thermal Retreat Hotel\", \"Fonteverde Lifestyle & Thermal Retreat Resort\", \"Fonteverde Lifestyle & Thermal Retreat\", \"Fonteverde Lifestyle & Thermal Retreat San Casciano dei Bagni, Italy Hotel\", \"Fonteverde Lifestyle & Thermal Retreat San Casciano dei Bagni, Italy Resort\", \"Fonteverde Lifestyle & Thermal Retreat San Casciano dei Bagni, Italy\"], \"v\": 3}": {
-    "lat": 42.86160599999999,
-    "lon": 11.876531,
-    "formatted_address": "Località Terme, 1, 53040 San Casciano dei Bagni SI, Italy",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJZXCYIjROKhMR8rR4unjmLUk",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Località Terme, 1, 53040 San Casciano dei Bagni SI, Italy",
-      "geometry": {
-        "location": {
-          "lat": 42.86160599999999,
-          "lng": 11.876531
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 42.8629992302915,
-            "lng": 11.8781397802915
-          },
-          "southwest": {
-            "lat": 42.8603012697085,
-            "lng": 11.8754418197085
-          }
-        }
-      },
-      "name": "Fonteverde",
-      "place_id": "ChIJZXCYIjROKhMR8rR4unjmLUk",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://www.fonteverdespa.com/"
     }
   },
   "{\"brand\": \"The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Royal Hotel Sanremo The Leading Hotels of the World Hotel\", \"Royal Hotel Sanremo The Leading Hotels of the World Resort\", \"Royal Hotel Sanremo The Leading Hotels of the World\", \"Royal Hotel Sanremo The Leading Hotels of the World Sanremo, Italy Hotel\", \"Royal Hotel Sanremo The Leading Hotels of the World Sanremo, Italy Resort\", \"Royal Hotel Sanremo The Leading Hotels of the World Sanremo, Italy\", \"Royal Hotel Sanremo Hilton Hotel\", \"Royal Hotel Sanremo Hilton Resort\", \"Royal Hotel Sanremo Hilton\", \"Royal Hotel Sanremo Hilton Sanremo, Italy Hotel\", \"Royal Hotel Sanremo Hilton Sanremo, Italy Resort\", \"Royal Hotel Sanremo Hilton Sanremo, Italy\", \"Royal Hotel Sanremo Hotel\", \"Royal Hotel Sanremo Resort\", \"Royal Hotel Sanremo\", \"Royal Hotel Sanremo Sanremo, Italy Hotel\", \"Royal Hotel Sanremo Sanremo, Italy Resort\", \"Royal Hotel Sanremo Sanremo, Italy\"], \"v\": 3}": {
@@ -78697,48 +78607,6 @@
       "website": "https://www.houstonian.com/?utm_source=GMB&utm_medium=Search&utm_campaign=Hotel"
     }
   },
-  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Oceans Edge Resort & Marina Preferred Hotels & Resorts Hotel\", \"Oceans Edge Resort & Marina Preferred Hotels & Resorts Resort\", \"Oceans Edge Resort & Marina Preferred Hotels & Resorts\", \"Oceans Edge Resort & Marina Preferred Hotels & Resorts Key West, Florida US Hotel\", \"Oceans Edge Resort & Marina Preferred Hotels & Resorts Key West, Florida US Resort\", \"Oceans Edge Resort & Marina Preferred Hotels & Resorts Key West, Florida US\", \"Oceans Edge Resort & Marina Hilton Hotel\", \"Oceans Edge Resort & Marina Hilton Resort\", \"Oceans Edge Resort & Marina Hilton\", \"Oceans Edge Resort & Marina Hilton Key West, Florida US Hotel\", \"Oceans Edge Resort & Marina Hilton Key West, Florida US Resort\", \"Oceans Edge Resort & Marina Hilton Key West, Florida US\", \"Oceans Edge Resort Marina Preferred Hotels & Resorts Hotel\", \"Oceans Edge Resort Marina Preferred Hotels & Resorts Resort\", \"Oceans Edge Resort Marina Preferred Hotels & Resorts\", \"Oceans Edge Resort Marina Preferred Hotels & Resorts Key West, Florida US Hotel\", \"Oceans Edge Resort Marina Preferred Hotels & Resorts Key West, Florida US Resort\", \"Oceans Edge Resort Marina Preferred Hotels & Resorts Key West, Florida US\", \"Oceans Edge Resort Marina Hilton Hotel\", \"Oceans Edge Resort Marina Hilton Resort\", \"Oceans Edge Resort Marina Hilton\", \"Oceans Edge Resort Marina Hilton Key West, Florida US Hotel\", \"Oceans Edge Resort Marina Hilton Key West, Florida US Resort\", \"Oceans Edge Resort Marina Hilton Key West, Florida US\", \"Oceans Edge Resort & Marina Hotel\", \"Oceans Edge Resort & Marina Resort\", \"Oceans Edge Resort & Marina\", \"Oceans Edge Resort & Marina Key West, Florida US Hotel\", \"Oceans Edge Resort & Marina Key West, Florida US Resort\", \"Oceans Edge Resort & Marina Key West, Florida US\"], \"v\": 3}": {
-    "lat": 24.5634933,
-    "lon": -81.7289632,
-    "formatted_address": "5950 Peninsular Ave, Key West, FL 33040, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ__8vMkOx0YgRFOuziNoX2V8",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "5950 Peninsular Ave, Key West, FL 33040, USA",
-      "geometry": {
-        "location": {
-          "lat": 24.5634933,
-          "lng": -81.7289632
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 24.5649419302915,
-            "lng": -81.72746836970849
-          },
-          "southwest": {
-            "lat": 24.5622439697085,
-            "lng": -81.73016633029151
-          }
-        }
-      },
-      "name": "Oceans Edge Resort & Marina",
-      "place_id": "ChIJ__8vMkOx0YgRFOuziNoX2V8",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.oceansedgekeywest.com/"
-    }
-  },
   "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"ette hotel Preferred Hotels & Resorts Hotel\", \"ette hotel Preferred Hotels & Resorts Resort\", \"ette hotel Preferred Hotels & Resorts\", \"ette hotel Preferred Hotels & Resorts Kissimmee, Florida US Hotel\", \"ette hotel Preferred Hotels & Resorts Kissimmee, Florida US Resort\", \"ette hotel Preferred Hotels & Resorts Kissimmee, Florida US\", \"ette hotel Hilton Hotel\", \"ette hotel Hilton Resort\", \"ette hotel Hilton\", \"ette hotel Hilton Kissimmee, Florida US Hotel\", \"ette hotel Hilton Kissimmee, Florida US Resort\", \"ette hotel Hilton Kissimmee, Florida US\", \"Ette Hotel Preferred Hotels & Resorts Hotel\", \"Ette Hotel Preferred Hotels & Resorts Resort\", \"Ette Hotel Preferred Hotels & Resorts\", \"Ette Hotel Preferred Hotels & Resorts Kissimmee, Florida US Hotel\", \"Ette Hotel Preferred Hotels & Resorts Kissimmee, Florida US Resort\", \"Ette Hotel Preferred Hotels & Resorts Kissimmee, Florida US\", \"Ette Hotel Hilton Hotel\", \"Ette Hotel Hilton Resort\", \"Ette Hotel Hilton\", \"Ette Hotel Hilton Kissimmee, Florida US Hotel\", \"Ette Hotel Hilton Kissimmee, Florida US Resort\", \"Ette Hotel Hilton Kissimmee, Florida US\", \"ette hotel Hotel\", \"ette hotel Resort\", \"ette hotel\", \"ette hotel Kissimmee, Florida US Hotel\", \"ette hotel Kissimmee, Florida US Resort\", \"ette hotel Kissimmee, Florida US\"], \"v\": 3}": {
     "lat": 28.3368014,
     "lon": -81.5901871,
@@ -83548,54 +83416,6 @@
         "spa"
       ],
       "website": "https://www.maison-albar-hotels-l-imperator.com/"
-    }
-  },
-  "{\"brand\": \"The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fonteverde Lifestyle & Thermal Retreat The Leading Hotels of the World Hotel\", \"Fonteverde Lifestyle & Thermal Retreat The Leading Hotels of the World Resort\", \"Fonteverde Lifestyle & Thermal Retreat The Leading Hotels of the World\", \"Fonteverde Lifestyle & Thermal Retreat The Leading Hotels of the World San Casciano dei Bagni, Italy Hotel\", \"Fonteverde Lifestyle & Thermal Retreat The Leading Hotels of the World San Casciano dei Bagni, Italy Resort\", \"Fonteverde Lifestyle & Thermal Retreat The Leading Hotels of the World San Casciano dei Bagni, Italy\", \"Fonteverde Lifestyle & Thermal Retreat Hilton Hotel\", \"Fonteverde Lifestyle & Thermal Retreat Hilton Resort\", \"Fonteverde Lifestyle & Thermal Retreat Hilton\", \"Fonteverde Lifestyle & Thermal Retreat Hilton San Casciano dei Bagni, Italy Hotel\", \"Fonteverde Lifestyle & Thermal Retreat Hilton San Casciano dei Bagni, Italy Resort\", \"Fonteverde Lifestyle & Thermal Retreat Hilton San Casciano dei Bagni, Italy\", \"Fonteverde Lifestyle Thermal Retreat The Leading Hotels of the World Hotel\", \"Fonteverde Lifestyle Thermal Retreat The Leading Hotels of the World Resort\", \"Fonteverde Lifestyle Thermal Retreat The Leading Hotels of the World\", \"Fonteverde Lifestyle Thermal Retreat The Leading Hotels of the World San Casciano dei Bagni, Italy Hotel\", \"Fonteverde Lifestyle Thermal Retreat The Leading Hotels of the World San Casciano dei Bagni, Italy Resort\", \"Fonteverde Lifestyle Thermal Retreat The Leading Hotels of the World San Casciano dei Bagni, Italy\", \"Fonteverde Lifestyle Thermal Retreat Hilton Hotel\", \"Fonteverde Lifestyle Thermal Retreat Hilton Resort\", \"Fonteverde Lifestyle Thermal Retreat Hilton\", \"Fonteverde Lifestyle Thermal Retreat Hilton San Casciano dei Bagni, Italy Hotel\", \"Fonteverde Lifestyle Thermal Retreat Hilton San Casciano dei Bagni, Italy Resort\", \"Fonteverde Lifestyle Thermal Retreat Hilton San Casciano dei Bagni, Italy\", \"Fonteverde Lifestyle & Thermal Retreat Hotel\", \"Fonteverde Lifestyle & Thermal Retreat Resort\", \"Fonteverde Lifestyle & Thermal Retreat\", \"Fonteverde Lifestyle & Thermal Retreat San Casciano dei Bagni, Italy Hotel\", \"Fonteverde Lifestyle & Thermal Retreat San Casciano dei Bagni, Italy Resort\", \"Fonteverde Lifestyle & Thermal Retreat San Casciano dei Bagni, Italy\"], \"v\": 3}": {
-    "lat": 42.86160599999999,
-    "lon": 11.876531,
-    "formatted_address": "Località Terme, 1, 53040 San Casciano dei Bagni SI, Italy",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJZXCYIjROKhMR8rR4unjmLUk",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Località Terme, 1, 53040 San Casciano dei Bagni SI, Italy",
-      "geometry": {
-        "location": {
-          "lat": 42.86160599999999,
-          "lng": 11.876531
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 42.8629992302915,
-            "lng": 11.8781397802915
-          },
-          "southwest": {
-            "lat": 42.8603012697085,
-            "lng": 11.8754418197085
-          }
-        }
-      },
-      "name": "Fonteverde",
-      "place_id": "ChIJZXCYIjROKhMR8rR4unjmLUk",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://www.fonteverdespa.com/"
     }
   },
   "{\"brand\": \"The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Imperial Floors, Imperial Hotel, Tokyo The Leading Hotels of the World Hotel\", \"Imperial Floors, Imperial Hotel, Tokyo The Leading Hotels of the World Resort\", \"Imperial Floors, Imperial Hotel, Tokyo The Leading Hotels of the World\", \"Imperial Floors, Imperial Hotel, Tokyo The Leading Hotels of the World Tokyo, Japan Hotel\", \"Imperial Floors, Imperial Hotel, Tokyo The Leading Hotels of the World Tokyo, Japan Resort\", \"Imperial Floors, Imperial Hotel, Tokyo The Leading Hotels of the World Tokyo, Japan\", \"Imperial Floors, Imperial Hotel, Tokyo Hilton Hotel\", \"Imperial Floors, Imperial Hotel, Tokyo Hilton Resort\", \"Imperial Floors, Imperial Hotel, Tokyo Hilton\", \"Imperial Floors, Imperial Hotel, Tokyo Hilton Tokyo, Japan Hotel\", \"Imperial Floors, Imperial Hotel, Tokyo Hilton Tokyo, Japan Resort\", \"Imperial Floors, Imperial Hotel, Tokyo Hilton Tokyo, Japan\", \"Imperial Floors Imperial Hotel Tokyo The Leading Hotels of the World Hotel\", \"Imperial Floors Imperial Hotel Tokyo The Leading Hotels of the World Resort\", \"Imperial Floors Imperial Hotel Tokyo The Leading Hotels of the World\", \"Imperial Floors Imperial Hotel Tokyo The Leading Hotels of the World Tokyo, Japan Hotel\", \"Imperial Floors Imperial Hotel Tokyo The Leading Hotels of the World Tokyo, Japan Resort\", \"Imperial Floors Imperial Hotel Tokyo The Leading Hotels of the World Tokyo, Japan\", \"Imperial Floors Imperial Hotel Tokyo Hilton Hotel\", \"Imperial Floors Imperial Hotel Tokyo Hilton Resort\", \"Imperial Floors Imperial Hotel Tokyo Hilton\", \"Imperial Floors Imperial Hotel Tokyo Hilton Tokyo, Japan Hotel\", \"Imperial Floors Imperial Hotel Tokyo Hilton Tokyo, Japan Resort\", \"Imperial Floors Imperial Hotel Tokyo Hilton Tokyo, Japan\", \"Imperial Floors, Imperial Hotel, Tokyo Hotel\", \"Imperial Floors, Imperial Hotel, Tokyo Resort\", \"Imperial Floors, Imperial Hotel, Tokyo\", \"Imperial Floors, Imperial Hotel, Tokyo Tokyo, Japan Hotel\", \"Imperial Floors, Imperial Hotel, Tokyo Tokyo, Japan Resort\", \"Imperial Floors, Imperial Hotel, Tokyo Tokyo, Japan\"], \"v\": 3}": {
@@ -135019,48 +134839,6 @@
       "website": "https://www.campcreekinn.com/?utm_campaign=gmb&utm_medium=organic&utm_source=local"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Oceans Edge Resort & Marina\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Oceans Edge Resort & Marina Preferred Hotels & Resorts Hotel\", \"Oceans Edge Resort & Marina Preferred Hotels & Resorts Resort\", \"Oceans Edge Resort & Marina Preferred Hotels & Resorts\", \"Oceans Edge Resort & Marina Preferred Hotels & Resorts Key West, Florida US Hotel\", \"Oceans Edge Resort & Marina Preferred Hotels & Resorts Key West, Florida US Resort\", \"Oceans Edge Resort & Marina Preferred Hotels & Resorts Key West, Florida US\", \"Oceans Edge Resort & Marina Hilton Hotel\", \"Oceans Edge Resort & Marina Hilton Resort\", \"Oceans Edge Resort & Marina Hilton\", \"Oceans Edge Resort & Marina Hilton Key West, Florida US Hotel\", \"Oceans Edge Resort & Marina Hilton Key West, Florida US Resort\", \"Oceans Edge Resort & Marina Hilton Key West, Florida US\", \"Oceans Edge Resort Marina Preferred Hotels & Resorts Hotel\", \"Oceans Edge Resort Marina Preferred Hotels & Resorts Resort\", \"Oceans Edge Resort Marina Preferred Hotels & Resorts\", \"Oceans Edge Resort Marina Preferred Hotels & Resorts Key West, Florida US Hotel\", \"Oceans Edge Resort Marina Preferred Hotels & Resorts Key West, Florida US Resort\", \"Oceans Edge Resort Marina Preferred Hotels & Resorts Key West, Florida US\", \"Oceans Edge Resort Marina Hilton Hotel\", \"Oceans Edge Resort Marina Hilton Resort\", \"Oceans Edge Resort Marina Hilton\", \"Oceans Edge Resort Marina Hilton Key West, Florida US Hotel\", \"Oceans Edge Resort Marina Hilton Key West, Florida US Resort\", \"Oceans Edge Resort Marina Hilton Key West, Florida US\", \"Oceans Edge Resort & Marina Hotel\", \"Oceans Edge Resort & Marina Resort\", \"Oceans Edge Resort & Marina\", \"Oceans Edge Resort & Marina Key West, Florida US Hotel\", \"Oceans Edge Resort & Marina Key West, Florida US Resort\", \"Oceans Edge Resort & Marina Key West, Florida US\"], \"v\": 3}": {
-    "lat": 24.5634933,
-    "lon": -81.7289632,
-    "formatted_address": "5950 Peninsular Ave, Key West, FL 33040, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ__8vMkOx0YgRFOuziNoX2V8",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "5950 Peninsular Ave, Key West, FL 33040, USA",
-      "geometry": {
-        "location": {
-          "lat": 24.5634933,
-          "lng": -81.7289632
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 24.5649419302915,
-            "lng": -81.72746836970849
-          },
-          "southwest": {
-            "lat": 24.5622439697085,
-            "lng": -81.73016633029151
-          }
-        }
-      },
-      "name": "Oceans Edge Resort & Marina",
-      "place_id": "ChIJ__8vMkOx0YgRFOuziNoX2V8",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.oceansedgekeywest.com/"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"ette hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"ette hotel Preferred Hotels & Resorts Hotel\", \"ette hotel Preferred Hotels & Resorts Resort\", \"ette hotel Preferred Hotels & Resorts\", \"ette hotel Preferred Hotels & Resorts Kissimmee, Florida US Hotel\", \"ette hotel Preferred Hotels & Resorts Kissimmee, Florida US Resort\", \"ette hotel Preferred Hotels & Resorts Kissimmee, Florida US\", \"ette hotel Hilton Hotel\", \"ette hotel Hilton Resort\", \"ette hotel Hilton\", \"ette hotel Hilton Kissimmee, Florida US Hotel\", \"ette hotel Hilton Kissimmee, Florida US Resort\", \"ette hotel Hilton Kissimmee, Florida US\", \"Ette Hotel Preferred Hotels & Resorts Hotel\", \"Ette Hotel Preferred Hotels & Resorts Resort\", \"Ette Hotel Preferred Hotels & Resorts\", \"Ette Hotel Preferred Hotels & Resorts Kissimmee, Florida US Hotel\", \"Ette Hotel Preferred Hotels & Resorts Kissimmee, Florida US Resort\", \"Ette Hotel Preferred Hotels & Resorts Kissimmee, Florida US\", \"Ette Hotel Hilton Hotel\", \"Ette Hotel Hilton Resort\", \"Ette Hotel Hilton\", \"Ette Hotel Hilton Kissimmee, Florida US Hotel\", \"Ette Hotel Hilton Kissimmee, Florida US Resort\", \"Ette Hotel Hilton Kissimmee, Florida US\", \"ette hotel Hotel\", \"ette hotel Resort\", \"ette hotel\", \"ette hotel Kissimmee, Florida US Hotel\", \"ette hotel Kissimmee, Florida US Resort\", \"ette hotel Kissimmee, Florida US\"], \"v\": 3}": {
     "lat": 28.3368014,
     "lon": -81.5901871,
@@ -146793,54 +146571,6 @@
       "website": "http://www.splendideroyal.com/"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Fonteverde Lifestyle & Thermal Retreat\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fonteverde Lifestyle & Thermal Retreat The Leading Hotels of the World Hotel\", \"Fonteverde Lifestyle & Thermal Retreat The Leading Hotels of the World Resort\", \"Fonteverde Lifestyle & Thermal Retreat The Leading Hotels of the World\", \"Fonteverde Lifestyle & Thermal Retreat The Leading Hotels of the World San Casciano dei Bagni, Italy Hotel\", \"Fonteverde Lifestyle & Thermal Retreat The Leading Hotels of the World San Casciano dei Bagni, Italy Resort\", \"Fonteverde Lifestyle & Thermal Retreat The Leading Hotels of the World San Casciano dei Bagni, Italy\", \"Fonteverde Lifestyle & Thermal Retreat Hilton Hotel\", \"Fonteverde Lifestyle & Thermal Retreat Hilton Resort\", \"Fonteverde Lifestyle & Thermal Retreat Hilton\", \"Fonteverde Lifestyle & Thermal Retreat Hilton San Casciano dei Bagni, Italy Hotel\", \"Fonteverde Lifestyle & Thermal Retreat Hilton San Casciano dei Bagni, Italy Resort\", \"Fonteverde Lifestyle & Thermal Retreat Hilton San Casciano dei Bagni, Italy\", \"Fonteverde Lifestyle Thermal Retreat The Leading Hotels of the World Hotel\", \"Fonteverde Lifestyle Thermal Retreat The Leading Hotels of the World Resort\", \"Fonteverde Lifestyle Thermal Retreat The Leading Hotels of the World\", \"Fonteverde Lifestyle Thermal Retreat The Leading Hotels of the World San Casciano dei Bagni, Italy Hotel\", \"Fonteverde Lifestyle Thermal Retreat The Leading Hotels of the World San Casciano dei Bagni, Italy Resort\", \"Fonteverde Lifestyle Thermal Retreat The Leading Hotels of the World San Casciano dei Bagni, Italy\", \"Fonteverde Lifestyle Thermal Retreat Hilton Hotel\", \"Fonteverde Lifestyle Thermal Retreat Hilton Resort\", \"Fonteverde Lifestyle Thermal Retreat Hilton\", \"Fonteverde Lifestyle Thermal Retreat Hilton San Casciano dei Bagni, Italy Hotel\", \"Fonteverde Lifestyle Thermal Retreat Hilton San Casciano dei Bagni, Italy Resort\", \"Fonteverde Lifestyle Thermal Retreat Hilton San Casciano dei Bagni, Italy\", \"Fonteverde Lifestyle & Thermal Retreat Hotel\", \"Fonteverde Lifestyle & Thermal Retreat Resort\", \"Fonteverde Lifestyle & Thermal Retreat\", \"Fonteverde Lifestyle & Thermal Retreat San Casciano dei Bagni, Italy Hotel\", \"Fonteverde Lifestyle & Thermal Retreat San Casciano dei Bagni, Italy Resort\", \"Fonteverde Lifestyle & Thermal Retreat San Casciano dei Bagni, Italy\"], \"v\": 3}": {
-    "lat": 42.86160599999999,
-    "lon": 11.876531,
-    "formatted_address": "Località Terme, 1, 53040 San Casciano dei Bagni SI, Italy",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJZXCYIjROKhMR8rR4unjmLUk",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Località Terme, 1, 53040 San Casciano dei Bagni SI, Italy",
-      "geometry": {
-        "location": {
-          "lat": 42.86160599999999,
-          "lng": 11.876531
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 42.8629992302915,
-            "lng": 11.8781397802915
-          },
-          "southwest": {
-            "lat": 42.8603012697085,
-            "lng": 11.8754418197085
-          }
-        }
-      },
-      "name": "Fonteverde",
-      "place_id": "ChIJZXCYIjROKhMR8rR4unjmLUk",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://www.fonteverdespa.com/"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Royal Hotel Sanremo\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Royal Hotel Sanremo The Leading Hotels of the World Hotel\", \"Royal Hotel Sanremo The Leading Hotels of the World Resort\", \"Royal Hotel Sanremo The Leading Hotels of the World\", \"Royal Hotel Sanremo The Leading Hotels of the World Sanremo, Italy Hotel\", \"Royal Hotel Sanremo The Leading Hotels of the World Sanremo, Italy Resort\", \"Royal Hotel Sanremo The Leading Hotels of the World Sanremo, Italy\", \"Royal Hotel Sanremo Hilton Hotel\", \"Royal Hotel Sanremo Hilton Resort\", \"Royal Hotel Sanremo Hilton\", \"Royal Hotel Sanremo Hilton Sanremo, Italy Hotel\", \"Royal Hotel Sanremo Hilton Sanremo, Italy Resort\", \"Royal Hotel Sanremo Hilton Sanremo, Italy\", \"Royal Hotel Sanremo Hotel\", \"Royal Hotel Sanremo Resort\", \"Royal Hotel Sanremo\", \"Royal Hotel Sanremo Sanremo, Italy Hotel\", \"Royal Hotel Sanremo Sanremo, Italy Resort\", \"Royal Hotel Sanremo Sanremo, Italy\"], \"v\": 3}": {
     "lat": 43.8140335,
     "lon": 7.768209399999999,
@@ -155199,6 +154929,98 @@
         "spa"
       ],
       "website": "https://www.beaumier.com/en/properties/les-roches-rouges-hotel/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hilton Key West Resort & Marina\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Key West Resort & Marina\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Fonteverde Thermal Spa Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fonteverde Thermal Spa Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hilton Key West Resort & Marina\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Key West Resort & Marina Preferred Hotels & Resorts Hotel\", \"Hilton Key West Resort & Marina Preferred Hotels & Resorts Resort\", \"Hilton Key West Resort & Marina Preferred Hotels & Resorts\", \"Hilton Key West Resort & Marina Preferred Hotels & Resorts Key West, Florida US Hotel\", \"Hilton Key West Resort & Marina Preferred Hotels & Resorts Key West, Florida US Resort\", \"Hilton Key West Resort & Marina Preferred Hotels & Resorts Key West, Florida US\", \"Hilton Key West Resort & Marina Hilton Hotel\", \"Hilton Key West Resort & Marina Hilton Resort\", \"Hilton Key West Resort & Marina Hilton\", \"Hilton Key West Resort & Marina Hilton Key West, Florida US Hotel\", \"Hilton Key West Resort & Marina Hilton Key West, Florida US Resort\", \"Hilton Key West Resort & Marina Hilton Key West, Florida US\", \"Hilton Key West Resort Marina Preferred Hotels & Resorts Hotel\", \"Hilton Key West Resort Marina Preferred Hotels & Resorts Resort\", \"Hilton Key West Resort Marina Preferred Hotels & Resorts\", \"Hilton Key West Resort Marina Preferred Hotels & Resorts Key West, Florida US Hotel\", \"Hilton Key West Resort Marina Preferred Hotels & Resorts Key West, Florida US Resort\", \"Hilton Key West Resort Marina Preferred Hotels & Resorts Key West, Florida US\", \"Hilton Key West Resort Marina Hilton Hotel\", \"Hilton Key West Resort Marina Hilton Resort\", \"Hilton Key West Resort Marina Hilton\", \"Hilton Key West Resort Marina Hilton Key West, Florida US Hotel\", \"Hilton Key West Resort Marina Hilton Key West, Florida US Resort\", \"Hilton Key West Resort Marina Hilton Key West, Florida US\", \"Hilton Key West Resort & Marina Hotel\", \"Hilton Key West Resort & Marina Resort\", \"Hilton Key West Resort & Marina\", \"Hilton Key West Resort & Marina Key West, Florida US Hotel\", \"Hilton Key West Resort & Marina Key West, Florida US Resort\", \"Hilton Key West Resort & Marina Key West, Florida US\"], \"v\": 3}": {
+    "lat": 24.5477352,
+    "lon": -81.7901279,
+    "formatted_address": "1500 Reynolds St, Key West, FL 33040, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJOffyTNm30YgRJQ5EnobQkVE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1500 Reynolds St, Key West, FL 33040, USA",
+      "geometry": {
+        "location": {
+          "lat": 24.5477352,
+          "lng": -81.7901279
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 24.5491990802915,
+            "lng": -81.7887609697085
+          },
+          "southwest": {
+            "lat": 24.54650111970849,
+            "lng": -81.79145893029151
+          }
+        }
+      },
+      "name": "Casa Marina Key West, Curio Collection by Hilton",
+      "place_id": "ChIJOffyTNm30YgRJQ5EnobQkVE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/eywcmqq-casa-marina-key-west/?SEO_id=GMB-AMER-QQ-EYWCMQQ&y_source=1_MzQyNTQyNjQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Fonteverde Thermal Spa Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fonteverde Thermal Spa Resort The Leading Hotels of the World Hotel\", \"Fonteverde Thermal Spa Resort The Leading Hotels of the World Resort\", \"Fonteverde Thermal Spa Resort The Leading Hotels of the World\", \"Fonteverde Thermal Spa Resort The Leading Hotels of the World San Casciano dei Bagni, Italy Hotel\", \"Fonteverde Thermal Spa Resort The Leading Hotels of the World San Casciano dei Bagni, Italy Resort\", \"Fonteverde Thermal Spa Resort The Leading Hotels of the World San Casciano dei Bagni, Italy\", \"Fonteverde Thermal Spa Resort Hilton Hotel\", \"Fonteverde Thermal Spa Resort Hilton Resort\", \"Fonteverde Thermal Spa Resort Hilton\", \"Fonteverde Thermal Spa Resort Hilton San Casciano dei Bagni, Italy Hotel\", \"Fonteverde Thermal Spa Resort Hilton San Casciano dei Bagni, Italy Resort\", \"Fonteverde Thermal Spa Resort Hilton San Casciano dei Bagni, Italy\", \"Fonteverde Thermal Spa Resort Hotel\", \"Fonteverde Thermal Spa Resort Resort\", \"Fonteverde Thermal Spa Resort\", \"Fonteverde Thermal Spa Resort San Casciano dei Bagni, Italy Hotel\", \"Fonteverde Thermal Spa Resort San Casciano dei Bagni, Italy Resort\", \"Fonteverde Thermal Spa Resort San Casciano dei Bagni, Italy\"], \"v\": 3}": {
+    "lat": 42.86160599999999,
+    "lon": 11.876531,
+    "formatted_address": "Località Terme, 1, 53040 San Casciano dei Bagni SI, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJZXCYIjROKhMR8rR4unjmLUk",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Località Terme, 1, 53040 San Casciano dei Bagni SI, Italy",
+      "geometry": {
+        "location": {
+          "lat": 42.86160599999999,
+          "lng": 11.876531
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.8629992302915,
+            "lng": 11.8781397802915
+          },
+          "southwest": {
+            "lat": 42.8603012697085,
+            "lng": 11.8754418197085
+          }
+        }
+      },
+      "name": "Fonteverde",
+      "place_id": "ChIJZXCYIjROKhMR8rR4unjmLUk",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.fonteverdespa.com/"
     }
   }
 }
