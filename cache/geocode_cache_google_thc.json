@@ -155365,5 +155365,53 @@
       ],
       "website": "https://www.omnihotels.com/hotels/frisco?utm_source=gmblisting&utm_medium=organic"
     }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Les Roches Rouges, a Beaumier Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Les Roches Rouges, a Beaumier Hotel Hotel\", \"Les Roches Rouges, a Beaumier Hotel Resort\", \"Les Roches Rouges, a Beaumier Hotel\", \"Les Roches Rouges, a Beaumier Hotel Saint Raphael, France Hotel\", \"Les Roches Rouges, a Beaumier Hotel Saint Raphael, France Resort\", \"Les Roches Rouges, a Beaumier Hotel Saint Raphael, France\", \"Les Roches Rouges a Beaumier Hotel Hotel\", \"Les Roches Rouges a Beaumier Hotel Resort\", \"Les Roches Rouges a Beaumier Hotel\", \"Les Roches Rouges a Beaumier Hotel Saint Raphael, France Hotel\", \"Les Roches Rouges a Beaumier Hotel Saint Raphael, France Resort\", \"Les Roches Rouges a Beaumier Hotel Saint Raphael, France\"], \"v\": 3}": {
+    "lat": 43.4168663,
+    "lon": 6.837301999999999,
+    "formatted_address": "90 Bd de la 36ème division du Texas, 83700 Saint-Raphaël, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJsWXvWUmXzhIR2FP9znvwCYw",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "90 Bd de la 36ème division du Texas, 83700 Saint-Raphaël, France",
+      "geometry": {
+        "location": {
+          "lat": 43.4168663,
+          "lng": 6.837301999999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.4182436302915,
+            "lng": 6.838609330291501
+          },
+          "southwest": {
+            "lat": 43.4155456697085,
+            "lng": 6.835911369708496
+          }
+        }
+      },
+      "name": "Les Roches Rouges Hotel, Saint Raphaël, Beaumier",
+      "place_id": "ChIJsWXvWUmXzhIR2FP9znvwCYw",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.beaumier.com/en/properties/les-roches-rouges-hotel/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+    }
   }
 }
