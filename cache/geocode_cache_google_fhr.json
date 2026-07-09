@@ -6224,48 +6224,6 @@
       "website": "https://www.thesebastianvail.com/?utm_source=Google&utm_medium=Yext"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Airelles Val Disere Hotel\", \"Airelles Val Disere Resort\", \"Airelles Val Disere\", \"Airelles Val Disere Val d'Is\\u00e8re, France Hotel\", \"Airelles Val Disere Val d'Is\\u00e8re, France Resort\", \"Airelles Val Disere Val d'Is\\u00e8re, France\", \"Airelles Val dIsere Hotel\", \"Airelles Val dIsere Resort\", \"Airelles Val dIsere\", \"Airelles Val dIsere Val d'Is\\u00e8re, France Hotel\", \"Airelles Val dIsere Val d'Is\\u00e8re, France Resort\", \"Airelles Val dIsere Val d'Is\\u00e8re, France\"], \"v\": 3}": {
-    "lat": 45.4473103,
-    "lon": 6.979686699999999,
-    "formatted_address": "145 Rue de la Poste, 73150 Val-d'Isère, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJx3AjAukLiUcRBCrC2jYXSoU",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "145 Rue de la Poste, 73150 Val-d'Isère, France",
-      "geometry": {
-        "location": {
-          "lat": 45.4473103,
-          "lng": 6.979686699999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 45.4488369802915,
-            "lng": 6.981292730291503
-          },
-          "southwest": {
-            "lat": 45.4461390197085,
-            "lng": 6.978594769708498
-          }
-        }
-      },
-      "name": "Airelles Val d'Isère",
-      "place_id": "ChIJx3AjAukLiUcRBCrC2jYXSoU",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://airelles.com/fr/destination/val-d-isere-hotel?utm_source=google&utm_medium=yext"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Loden Boutique Hotel Vancouver Hotel\", \"Loden Boutique Hotel Vancouver Resort\", \"Loden Boutique Hotel Vancouver\", \"Loden Boutique Hotel Vancouver Vancouver, British Columbia CA Hotel\", \"Loden Boutique Hotel Vancouver Vancouver, British Columbia CA Resort\", \"Loden Boutique Hotel Vancouver Vancouver, British Columbia CA\"], \"v\": 3}": {
     "lat": 49.2875667,
     "lon": -123.1232789,
@@ -67897,48 +67855,6 @@
       "website": "https://www.marriott.com/en-us/hotels/szglc-hotel-goldener-hirsch-a-luxury-collection-hotel-salzburg/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"The Luxury Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"St Anthony a Luxury Collection Hotel San Antonio The Luxury Collection Hotel\", \"St Anthony a Luxury Collection Hotel San Antonio The Luxury Collection Resort\", \"St Anthony a Luxury Collection Hotel San Antonio The Luxury Collection\", \"St Anthony a Luxury Collection Hotel San Antonio The Luxury Collection San Antonio, Texas US Hotel\", \"St Anthony a Luxury Collection Hotel San Antonio The Luxury Collection San Antonio, Texas US Resort\", \"St Anthony a Luxury Collection Hotel San Antonio The Luxury Collection San Antonio, Texas US\", \"St Anthony a Luxury Collection Hotel San Antonio Hilton Hotel\", \"St Anthony a Luxury Collection Hotel San Antonio Hilton Resort\", \"St Anthony a Luxury Collection Hotel San Antonio Hilton\", \"St Anthony a Luxury Collection Hotel San Antonio Hilton San Antonio, Texas US Hotel\", \"St Anthony a Luxury Collection Hotel San Antonio Hilton San Antonio, Texas US Resort\", \"St Anthony a Luxury Collection Hotel San Antonio Hilton San Antonio, Texas US\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio The Luxury Collection Hotel\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio The Luxury Collection Resort\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio The Luxury Collection\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio The Luxury Collection San Antonio, Texas US Hotel\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio The Luxury Collection San Antonio, Texas US Resort\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio The Luxury Collection San Antonio, Texas US\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hilton Hotel\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hilton Resort\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hilton\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hilton San Antonio, Texas US Hotel\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hilton San Antonio, Texas US Resort\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hilton San Antonio, Texas US\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hotel\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Resort\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio San Antonio, Texas US Hotel\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio San Antonio, Texas US Resort\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio San Antonio, Texas US\"], \"v\": 3}": {
-    "lat": 29.427455,
-    "lon": -98.4894638,
-    "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
-      "geometry": {
-        "location": {
-          "lat": 29.427455,
-          "lng": -98.4894638
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 29.4288507802915,
-            "lng": -98.4880806197085
-          },
-          "southwest": {
-            "lat": 29.4261528197085,
-            "lng": -98.4907785802915
-          }
-        }
-      },
-      "name": "The St. Anthony, a Luxury Collection Hotel, San Antonio",
-      "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/satlc-the-st-anthony-a-luxury-collection-hotel-san-antonio/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
   "{\"brand\": \"The Luxury Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Us Grant a Luxury Collection Hotel San Diego The Luxury Collection Hotel\", \"Us Grant a Luxury Collection Hotel San Diego The Luxury Collection Resort\", \"Us Grant a Luxury Collection Hotel San Diego The Luxury Collection\", \"Us Grant a Luxury Collection Hotel San Diego The Luxury Collection San Diego, California US Hotel\", \"Us Grant a Luxury Collection Hotel San Diego The Luxury Collection San Diego, California US Resort\", \"Us Grant a Luxury Collection Hotel San Diego The Luxury Collection San Diego, California US\", \"Us Grant a Luxury Collection Hotel San Diego Hilton Hotel\", \"Us Grant a Luxury Collection Hotel San Diego Hilton Resort\", \"Us Grant a Luxury Collection Hotel San Diego Hilton\", \"Us Grant a Luxury Collection Hotel San Diego Hilton San Diego, California US Hotel\", \"Us Grant a Luxury Collection Hotel San Diego Hilton San Diego, California US Resort\", \"Us Grant a Luxury Collection Hotel San Diego Hilton San Diego, California US\", \"THE US GRANT, a Luxury Collection Hotel, San Diego The Luxury Collection Hotel\", \"THE US GRANT, a Luxury Collection Hotel, San Diego The Luxury Collection Resort\", \"THE US GRANT, a Luxury Collection Hotel, San Diego The Luxury Collection\", \"THE US GRANT, a Luxury Collection Hotel, San Diego The Luxury Collection San Diego, California US Hotel\", \"THE US GRANT, a Luxury Collection Hotel, San Diego The Luxury Collection San Diego, California US Resort\", \"THE US GRANT, a Luxury Collection Hotel, San Diego The Luxury Collection San Diego, California US\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hilton Hotel\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hilton Resort\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hilton\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hilton San Diego, California US Hotel\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hilton San Diego, California US Resort\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hilton San Diego, California US\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hotel\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Resort\", \"THE US GRANT, a Luxury Collection Hotel, San Diego\", \"THE US GRANT, a Luxury Collection Hotel, San Diego San Diego, California US Hotel\", \"THE US GRANT, a Luxury Collection Hotel, San Diego San Diego, California US Resort\", \"THE US GRANT, a Luxury Collection Hotel, San Diego San Diego, California US\"], \"v\": 3}": {
     "lat": 32.716204,
     "lon": -117.1615507,
@@ -80941,48 +80857,6 @@
         "travel_agency"
       ],
       "website": "https://www.thesebastianvail.com/?utm_source=Google&utm_medium=Yext"
-    }
-  },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Airelles Val dIsere Hotel\", \"Airelles Val dIsere Resort\", \"Airelles Val dIsere\", \"Airelles Val dIsere Val d'Is\\u00e8re, France Hotel\", \"Airelles Val dIsere Val d'Is\\u00e8re, France Resort\", \"Airelles Val dIsere Val d'Is\\u00e8re, France\", \"Airelles Val Disere Hotel\", \"Airelles Val Disere Resort\", \"Airelles Val Disere\", \"Airelles Val Disere Val d'Is\\u00e8re, France Hotel\", \"Airelles Val Disere Val d'Is\\u00e8re, France Resort\", \"Airelles Val Disere Val d'Is\\u00e8re, France\"], \"v\": 3}": {
-    "lat": 45.4473103,
-    "lon": 6.979686699999999,
-    "formatted_address": "145 Rue de la Poste, 73150 Val-d'Isère, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJx3AjAukLiUcRBCrC2jYXSoU",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "145 Rue de la Poste, 73150 Val-d'Isère, France",
-      "geometry": {
-        "location": {
-          "lat": 45.4473103,
-          "lng": 6.979686699999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 45.4488369802915,
-            "lng": 6.981292730291503
-          },
-          "southwest": {
-            "lat": 45.4461390197085,
-            "lng": 6.978594769708498
-          }
-        }
-      },
-      "name": "Airelles Val d'Isère",
-      "place_id": "ChIJx3AjAukLiUcRBCrC2jYXSoU",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://airelles.com/fr/destination/val-d-isere-hotel?utm_source=google&utm_medium=yext"
     }
   },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Nolinski Venezia - Evok Collection Hotel\", \"Nolinski Venezia - Evok Collection Resort\", \"Nolinski Venezia - Evok Collection\", \"Nolinski Venezia - Evok Collection Venice, Italy Hotel\", \"Nolinski Venezia - Evok Collection Venice, Italy Resort\", \"Nolinski Venezia - Evok Collection Venice, Italy\", \"Nolinski Venezia Evok Collection Hotel\", \"Nolinski Venezia Evok Collection Resort\", \"Nolinski Venezia Evok Collection\", \"Nolinski Venezia Evok Collection Venice, Italy Hotel\", \"Nolinski Venezia Evok Collection Venice, Italy Resort\", \"Nolinski Venezia Evok Collection Venice, Italy\"], \"v\": 3}": {
@@ -113717,48 +113591,6 @@
       "website": "https://www.marriott.com/en-us/hotels/szglc-hotel-goldener-hirsch-a-luxury-collection-hotel-salzburg/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"The Luxury Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The St. Anthony, a Luxury Collection Hotel, San Antonio The Luxury Collection Hotel\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio The Luxury Collection Resort\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio The Luxury Collection\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio The Luxury Collection San Antonio, Texas US Hotel\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio The Luxury Collection San Antonio, Texas US Resort\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio The Luxury Collection San Antonio, Texas US\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hilton Hotel\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hilton Resort\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hilton\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hilton San Antonio, Texas US Hotel\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hilton San Antonio, Texas US Resort\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hilton San Antonio, Texas US\", \"St Anthony a Luxury Collection Hotel San Antonio The Luxury Collection Hotel\", \"St Anthony a Luxury Collection Hotel San Antonio The Luxury Collection Resort\", \"St Anthony a Luxury Collection Hotel San Antonio The Luxury Collection\", \"St Anthony a Luxury Collection Hotel San Antonio The Luxury Collection San Antonio, Texas US Hotel\", \"St Anthony a Luxury Collection Hotel San Antonio The Luxury Collection San Antonio, Texas US Resort\", \"St Anthony a Luxury Collection Hotel San Antonio The Luxury Collection San Antonio, Texas US\", \"St Anthony a Luxury Collection Hotel San Antonio Hilton Hotel\", \"St Anthony a Luxury Collection Hotel San Antonio Hilton Resort\", \"St Anthony a Luxury Collection Hotel San Antonio Hilton\", \"St Anthony a Luxury Collection Hotel San Antonio Hilton San Antonio, Texas US Hotel\", \"St Anthony a Luxury Collection Hotel San Antonio Hilton San Antonio, Texas US Resort\", \"St Anthony a Luxury Collection Hotel San Antonio Hilton San Antonio, Texas US\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hotel\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Resort\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio San Antonio, Texas US Hotel\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio San Antonio, Texas US Resort\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio San Antonio, Texas US\"], \"v\": 3}": {
-    "lat": 29.427455,
-    "lon": -98.4894638,
-    "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
-      "geometry": {
-        "location": {
-          "lat": 29.427455,
-          "lng": -98.4894638
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 29.4288507802915,
-            "lng": -98.4880806197085
-          },
-          "southwest": {
-            "lat": 29.4261528197085,
-            "lng": -98.4907785802915
-          }
-        }
-      },
-      "name": "The St. Anthony, a Luxury Collection Hotel, San Antonio",
-      "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/satlc-the-st-anthony-a-luxury-collection-hotel-san-antonio/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
   "{\"brand\": \"The Luxury Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"THE US GRANT, a Luxury Collection Hotel, San Diego The Luxury Collection Hotel\", \"THE US GRANT, a Luxury Collection Hotel, San Diego The Luxury Collection Resort\", \"THE US GRANT, a Luxury Collection Hotel, San Diego The Luxury Collection\", \"THE US GRANT, a Luxury Collection Hotel, San Diego The Luxury Collection San Diego, California US Hotel\", \"THE US GRANT, a Luxury Collection Hotel, San Diego The Luxury Collection San Diego, California US Resort\", \"THE US GRANT, a Luxury Collection Hotel, San Diego The Luxury Collection San Diego, California US\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hilton Hotel\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hilton Resort\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hilton\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hilton San Diego, California US Hotel\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hilton San Diego, California US Resort\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hilton San Diego, California US\", \"Us Grant a Luxury Collection Hotel San Diego The Luxury Collection Hotel\", \"Us Grant a Luxury Collection Hotel San Diego The Luxury Collection Resort\", \"Us Grant a Luxury Collection Hotel San Diego The Luxury Collection\", \"Us Grant a Luxury Collection Hotel San Diego The Luxury Collection San Diego, California US Hotel\", \"Us Grant a Luxury Collection Hotel San Diego The Luxury Collection San Diego, California US Resort\", \"Us Grant a Luxury Collection Hotel San Diego The Luxury Collection San Diego, California US\", \"Us Grant a Luxury Collection Hotel San Diego Hilton Hotel\", \"Us Grant a Luxury Collection Hotel San Diego Hilton Resort\", \"Us Grant a Luxury Collection Hotel San Diego Hilton\", \"Us Grant a Luxury Collection Hotel San Diego Hilton San Diego, California US Hotel\", \"Us Grant a Luxury Collection Hotel San Diego Hilton San Diego, California US Resort\", \"Us Grant a Luxury Collection Hotel San Diego Hilton San Diego, California US\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hotel\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Resort\", \"THE US GRANT, a Luxury Collection Hotel, San Diego\", \"THE US GRANT, a Luxury Collection Hotel, San Diego San Diego, California US Hotel\", \"THE US GRANT, a Luxury Collection Hotel, San Diego San Diego, California US Resort\", \"THE US GRANT, a Luxury Collection Hotel, San Diego San Diego, California US\"], \"v\": 3}": {
     "lat": 32.716204,
     "lon": -117.1615507,
@@ -129605,12 +129437,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 39.9927967,
-    "lon": -76.28769179999999,
-    "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
+    "lat": 40.0532091,
+    "lon": -76.2527628,
+    "formatted_address": "545 Greenfield Rd, Lancaster, PA 17601, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
+    "place_id": "ChIJ5eRM3147xokRVvi_lryvPU0",
     "types": [
       "establishment",
       "lodging",
@@ -129619,31 +129451,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
+      "formatted_address": "545 Greenfield Rd, Lancaster, PA 17601, USA",
       "geometry": {
         "location": {
-          "lat": 39.9927967,
-          "lng": -76.28769179999999
+          "lat": 40.0532091,
+          "lng": -76.2527628
         },
         "viewport": {
           "northeast": {
-            "lat": 39.9940706302915,
-            "lng": -76.28663611970849
+            "lat": 40.0546280302915,
+            "lng": -76.25150881970849
           },
           "southwest": {
-            "lat": 39.9913726697085,
-            "lng": -76.2893340802915
+            "lat": 40.0519300697085,
+            "lng": -76.2542067802915
           }
         }
       },
-      "name": "DoubleTree Resort by Hilton Hotel Lancaster",
-      "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
+      "name": "Hampton Inn Lancaster",
+      "place_id": "ChIJ5eRM3147xokRVvi_lryvPU0",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/lnswvdt-doubletree-resort-lancaster/?SEO_id=GMB-AMER-DT-LNSWVDT&y_source=1_MTM3MjczNC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.hilton.com/en/hotels/lnsgfhx-hampton-lancaster/?SEO_id=GMB-AMER-HX-LNSGFHX&y_source=1_MjA4NDQ5Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -131599,48 +131431,6 @@
         "travel_agency"
       ],
       "website": "https://www.thesebastianvail.com/?utm_source=Google&utm_medium=Yext"
-    }
-  },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Airelles Val dIsere\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Airelles Val dIsere Hotel\", \"Airelles Val dIsere Resort\", \"Airelles Val dIsere\", \"Airelles Val dIsere Val d'Is\\u00e8re, France Hotel\", \"Airelles Val dIsere Val d'Is\\u00e8re, France Resort\", \"Airelles Val dIsere Val d'Is\\u00e8re, France\", \"Airelles Val Disere Hotel\", \"Airelles Val Disere Resort\", \"Airelles Val Disere\", \"Airelles Val Disere Val d'Is\\u00e8re, France Hotel\", \"Airelles Val Disere Val d'Is\\u00e8re, France Resort\", \"Airelles Val Disere Val d'Is\\u00e8re, France\"], \"v\": 3}": {
-    "lat": 45.4473103,
-    "lon": 6.979686699999999,
-    "formatted_address": "145 Rue de la Poste, 73150 Val-d'Isère, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJx3AjAukLiUcRBCrC2jYXSoU",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "145 Rue de la Poste, 73150 Val-d'Isère, France",
-      "geometry": {
-        "location": {
-          "lat": 45.4473103,
-          "lng": 6.979686699999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 45.4488369802915,
-            "lng": 6.981292730291503
-          },
-          "southwest": {
-            "lat": 45.4461390197085,
-            "lng": 6.978594769708498
-          }
-        }
-      },
-      "name": "Airelles Val d'Isère",
-      "place_id": "ChIJx3AjAukLiUcRBCrC2jYXSoU",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://airelles.com/fr/destination/val-d-isere-hotel?utm_source=google&utm_medium=yext"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Loden Boutique Hotel Vancouver\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Loden Boutique Hotel Vancouver Hotel\", \"Loden Boutique Hotel Vancouver Resort\", \"Loden Boutique Hotel Vancouver\", \"Loden Boutique Hotel Vancouver Vancouver, British Columbia CA Hotel\", \"Loden Boutique Hotel Vancouver Vancouver, British Columbia CA Resort\", \"Loden Boutique Hotel Vancouver Vancouver, British Columbia CA\"], \"v\": 3}": {
@@ -142460,12 +142250,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Mason\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mason Design Hotels Hotel\", \"Mason Design Hotels Resort\", \"Mason Design Hotels\", \"Mason Design Hotels Chon Buri, Thailand Hotel\", \"Mason Design Hotels Chon Buri, Thailand Resort\", \"Mason Design Hotels Chon Buri, Thailand\", \"Mason Hilton Hotel\", \"Mason Hilton Resort\", \"Mason Hilton\", \"Mason Hilton Chon Buri, Thailand Hotel\", \"Mason Hilton Chon Buri, Thailand Resort\", \"Mason Hilton Chon Buri, Thailand\", \"Mason Hotel\", \"Mason Resort\", \"Mason\", \"Mason Chon Buri, Thailand Hotel\", \"Mason Chon Buri, Thailand Resort\", \"Mason Chon Buri, Thailand\"], \"v\": 3}": {
-    "lat": 33.1232566,
-    "lon": -89.0534744,
-    "formatted_address": "915 S Columbus Ave, Louisville, MS 39339, USA",
+    "lat": 39.3013806,
+    "lon": -84.3182874,
+    "formatted_address": "5200 Natorp Blvd, Mason, OH 45040, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJQRhldrhfgYgRluUrzlpJz6Q",
+    "place_id": "ChIJRU4KkvtWQIgRN0FJwaeuO8E",
     "types": [
       "establishment",
       "lodging",
@@ -142474,31 +142264,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "915 S Columbus Ave, Louisville, MS 39339, USA",
+      "formatted_address": "5200 Natorp Blvd, Mason, OH 45040, USA",
       "geometry": {
         "location": {
-          "lat": 33.1232566,
-          "lng": -89.0534744
+          "lat": 39.3013806,
+          "lng": -84.3182874
         },
         "viewport": {
           "northeast": {
-            "lat": 33.1245721302915,
-            "lng": -89.05201431970849
+            "lat": 39.30241353029151,
+            "lng": -84.31648501970851
           },
           "southwest": {
-            "lat": 33.1218741697085,
-            "lng": -89.0547122802915
+            "lat": 39.29971556970851,
+            "lng": -84.31918298029152
           }
         }
       },
-      "name": "The Mason Boutique Hotel",
-      "place_id": "ChIJQRhldrhfgYgRluUrzlpJz6Q",
+      "name": "Hilton Garden Inn Cincinnati/Mason",
+      "place_id": "ChIJRU4KkvtWQIgRN0FJwaeuO8E",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "http://www.themasonhotel.com/"
+      "website": "https://www.hilton.com/en/hotels/cvgcmgi-hilton-garden-inn-cincinnati-mason/?SEO_id=GMB-AMER-GI-CVGCMGI&y_source=1_MjA4NDQyOS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hospes Palacio del Bailio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hospes Palacio del Bailio Design Hotels Hotel\", \"Hospes Palacio del Bailio Design Hotels Resort\", \"Hospes Palacio del Bailio Design Hotels\", \"Hospes Palacio del Bailio Design Hotels Cordoba, Spain Hotel\", \"Hospes Palacio del Bailio Design Hotels Cordoba, Spain Resort\", \"Hospes Palacio del Bailio Design Hotels Cordoba, Spain\", \"Hospes Palacio del Bailio Hilton Hotel\", \"Hospes Palacio del Bailio Hilton Resort\", \"Hospes Palacio del Bailio Hilton\", \"Hospes Palacio del Bailio Hilton Cordoba, Spain Hotel\", \"Hospes Palacio del Bailio Hilton Cordoba, Spain Resort\", \"Hospes Palacio del Bailio Hilton Cordoba, Spain\", \"Hospes Palacio Del Bailio Design Hotels Hotel\", \"Hospes Palacio Del Bailio Design Hotels Resort\", \"Hospes Palacio Del Bailio Design Hotels\", \"Hospes Palacio Del Bailio Design Hotels Cordoba, Spain Hotel\", \"Hospes Palacio Del Bailio Design Hotels Cordoba, Spain Resort\", \"Hospes Palacio Del Bailio Design Hotels Cordoba, Spain\", \"Hospes Palacio Del Bailio Hilton Hotel\", \"Hospes Palacio Del Bailio Hilton Resort\", \"Hospes Palacio Del Bailio Hilton\", \"Hospes Palacio Del Bailio Hilton Cordoba, Spain Hotel\", \"Hospes Palacio Del Bailio Hilton Cordoba, Spain Resort\", \"Hospes Palacio Del Bailio Hilton Cordoba, Spain\", \"Hospes Palacio del Bailio Hotel\", \"Hospes Palacio del Bailio Resort\", \"Hospes Palacio del Bailio\", \"Hospes Palacio del Bailio Cordoba, Spain Hotel\", \"Hospes Palacio del Bailio Cordoba, Spain Resort\", \"Hospes Palacio del Bailio Cordoba, Spain\"], \"v\": 3}": {
@@ -187853,12 +187643,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Princes' Palace Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Princes' Palace Resort The Leading Hotels of the World Hotel\", \"Princes' Palace Resort The Leading Hotels of the World Resort\", \"Princes' Palace Resort The Leading Hotels of the World\", \"Princes' Palace Resort The Leading Hotels of the World Istanbul, Turkey Hotel\", \"Princes' Palace Resort The Leading Hotels of the World Istanbul, Turkey Resort\", \"Princes' Palace Resort The Leading Hotels of the World Istanbul, Turkey\", \"Princes' Palace Resort Hilton Hotel\", \"Princes' Palace Resort Hilton Resort\", \"Princes' Palace Resort Hilton\", \"Princes' Palace Resort Hilton Istanbul, Turkey Hotel\", \"Princes' Palace Resort Hilton Istanbul, Turkey Resort\", \"Princes' Palace Resort Hilton Istanbul, Turkey\", \"Princes Palace Resort The Leading Hotels of the World Hotel\", \"Princes Palace Resort The Leading Hotels of the World Resort\", \"Princes Palace Resort The Leading Hotels of the World\", \"Princes Palace Resort The Leading Hotels of the World Istanbul, Turkey Hotel\", \"Princes Palace Resort The Leading Hotels of the World Istanbul, Turkey Resort\", \"Princes Palace Resort The Leading Hotels of the World Istanbul, Turkey\", \"Princes Palace Resort Hilton Hotel\", \"Princes Palace Resort Hilton Resort\", \"Princes Palace Resort Hilton\", \"Princes Palace Resort Hilton Istanbul, Turkey Hotel\", \"Princes Palace Resort Hilton Istanbul, Turkey Resort\", \"Princes Palace Resort Hilton Istanbul, Turkey\", \"Princes' Palace Resort Hotel\", \"Princes' Palace Resort Resort\", \"Princes' Palace Resort\", \"Princes' Palace Resort Istanbul, Turkey Hotel\", \"Princes' Palace Resort Istanbul, Turkey Resort\", \"Princes' Palace Resort Istanbul, Turkey\"], \"v\": 3}": {
-    "lat": 40.870104,
-    "lon": 29.1200509,
-    "formatted_address": "Nizam, Çankaya Cd. No: 58, 34970 Büyükada/İstanbul, Türkiye",
+    "lat": 20.9783689,
+    "lon": -86.83426879999999,
+    "formatted_address": "Carretera Cancun-Chetumal, Riviera Maya Km.36.5, 77500 Cancún, Q.R., Mexico",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJC1z7sA_ByhQRCk0q1OdaHMk",
+    "place_id": "ChIJS-M_oXlDTo8RqH4VjGvJzHE",
     "types": [
       "establishment",
       "lodging",
@@ -187867,31 +187657,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Nizam, Çankaya Cd. No: 58, 34970 Büyükada/İstanbul, Türkiye",
+      "formatted_address": "Carretera Cancun-Chetumal, Riviera Maya Km.36.5, 77500 Cancún, Q.R., Mexico",
       "geometry": {
         "location": {
-          "lat": 40.870104,
-          "lng": 29.1200509
+          "lat": 20.9783689,
+          "lng": -86.83426879999999
         },
         "viewport": {
           "northeast": {
-            "lat": 40.8713693802915,
-            "lng": 29.12150058029149
+            "lat": 20.9800554802915,
+            "lng": -86.8330775697085
           },
           "southwest": {
-            "lat": 40.8686714197085,
-            "lng": 29.1188026197085
+            "lat": 20.9773575197085,
+            "lng": -86.83577553029151
           }
         }
       },
-      "name": "Princes' Palace Resort",
-      "place_id": "ChIJC1z7sA_ByhQRCk0q1OdaHMk",
+      "name": "Moon palace the grand",
+      "place_id": "ChIJS-M_oXlDTo8RqH4VjGvJzHE",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.princespalace.com/"
+      "website": "https://thegrand.moonpalace.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"King David Jerusalem\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"King David Jerusalem The Leading Hotels of the World Hotel\", \"King David Jerusalem The Leading Hotels of the World Resort\", \"King David Jerusalem The Leading Hotels of the World\", \"King David Jerusalem The Leading Hotels of the World Jerusalem, Israel Hotel\", \"King David Jerusalem The Leading Hotels of the World Jerusalem, Israel Resort\", \"King David Jerusalem The Leading Hotels of the World Jerusalem, Israel\", \"King David Jerusalem Hilton Hotel\", \"King David Jerusalem Hilton Resort\", \"King David Jerusalem Hilton\", \"King David Jerusalem Hilton Jerusalem, Israel Hotel\", \"King David Jerusalem Hilton Jerusalem, Israel Resort\", \"King David Jerusalem Hilton Jerusalem, Israel\", \"King David Jerusalem Hotel\", \"King David Jerusalem Resort\", \"King David Jerusalem\", \"King David Jerusalem Jerusalem, Israel Hotel\", \"King David Jerusalem Jerusalem, Israel Resort\", \"King David Jerusalem Jerusalem, Israel\"], \"v\": 3}": {
@@ -196205,48 +195995,6 @@
         "point_of_interest"
       ],
       "website": "https://www.marriott.com/en-us/hotels/szglc-hotel-goldener-hirsch-a-luxury-collection-hotel-salzburg/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The St. Anthony, a Luxury Collection Hotel, San Antonio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The St. Anthony, a Luxury Collection Hotel, San Antonio The Luxury Collection Hotel\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio The Luxury Collection Resort\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio The Luxury Collection\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio The Luxury Collection San Antonio, Texas US Hotel\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio The Luxury Collection San Antonio, Texas US Resort\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio The Luxury Collection San Antonio, Texas US\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hilton Hotel\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hilton Resort\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hilton\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hilton San Antonio, Texas US Hotel\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hilton San Antonio, Texas US Resort\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hilton San Antonio, Texas US\", \"St Anthony a Luxury Collection Hotel San Antonio The Luxury Collection Hotel\", \"St Anthony a Luxury Collection Hotel San Antonio The Luxury Collection Resort\", \"St Anthony a Luxury Collection Hotel San Antonio The Luxury Collection\", \"St Anthony a Luxury Collection Hotel San Antonio The Luxury Collection San Antonio, Texas US Hotel\", \"St Anthony a Luxury Collection Hotel San Antonio The Luxury Collection San Antonio, Texas US Resort\", \"St Anthony a Luxury Collection Hotel San Antonio The Luxury Collection San Antonio, Texas US\", \"St Anthony a Luxury Collection Hotel San Antonio Hilton Hotel\", \"St Anthony a Luxury Collection Hotel San Antonio Hilton Resort\", \"St Anthony a Luxury Collection Hotel San Antonio Hilton\", \"St Anthony a Luxury Collection Hotel San Antonio Hilton San Antonio, Texas US Hotel\", \"St Anthony a Luxury Collection Hotel San Antonio Hilton San Antonio, Texas US Resort\", \"St Anthony a Luxury Collection Hotel San Antonio Hilton San Antonio, Texas US\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Hotel\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio Resort\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio San Antonio, Texas US Hotel\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio San Antonio, Texas US Resort\", \"The St. Anthony, a Luxury Collection Hotel, San Antonio San Antonio, Texas US\"], \"v\": 3}": {
-    "lat": 29.427455,
-    "lon": -98.4894638,
-    "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
-      "geometry": {
-        "location": {
-          "lat": 29.427455,
-          "lng": -98.4894638
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 29.4288507802915,
-            "lng": -98.4880806197085
-          },
-          "southwest": {
-            "lat": 29.4261528197085,
-            "lng": -98.4907785802915
-          }
-        }
-      },
-      "name": "The St. Anthony, a Luxury Collection Hotel, San Antonio",
-      "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/satlc-the-st-anthony-a-luxury-collection-hotel-san-antonio/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"THE US GRANT, a Luxury Collection Hotel, San Diego\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"THE US GRANT, a Luxury Collection Hotel, San Diego The Luxury Collection Hotel\", \"THE US GRANT, a Luxury Collection Hotel, San Diego The Luxury Collection Resort\", \"THE US GRANT, a Luxury Collection Hotel, San Diego The Luxury Collection\", \"THE US GRANT, a Luxury Collection Hotel, San Diego The Luxury Collection San Diego, California US Hotel\", \"THE US GRANT, a Luxury Collection Hotel, San Diego The Luxury Collection San Diego, California US Resort\", \"THE US GRANT, a Luxury Collection Hotel, San Diego The Luxury Collection San Diego, California US\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hilton Hotel\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hilton Resort\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hilton\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hilton San Diego, California US Hotel\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hilton San Diego, California US Resort\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hilton San Diego, California US\", \"Us Grant a Luxury Collection Hotel San Diego The Luxury Collection Hotel\", \"Us Grant a Luxury Collection Hotel San Diego The Luxury Collection Resort\", \"Us Grant a Luxury Collection Hotel San Diego The Luxury Collection\", \"Us Grant a Luxury Collection Hotel San Diego The Luxury Collection San Diego, California US Hotel\", \"Us Grant a Luxury Collection Hotel San Diego The Luxury Collection San Diego, California US Resort\", \"Us Grant a Luxury Collection Hotel San Diego The Luxury Collection San Diego, California US\", \"Us Grant a Luxury Collection Hotel San Diego Hilton Hotel\", \"Us Grant a Luxury Collection Hotel San Diego Hilton Resort\", \"Us Grant a Luxury Collection Hotel San Diego Hilton\", \"Us Grant a Luxury Collection Hotel San Diego Hilton San Diego, California US Hotel\", \"Us Grant a Luxury Collection Hotel San Diego Hilton San Diego, California US Resort\", \"Us Grant a Luxury Collection Hotel San Diego Hilton San Diego, California US\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Hotel\", \"THE US GRANT, a Luxury Collection Hotel, San Diego Resort\", \"THE US GRANT, a Luxury Collection Hotel, San Diego\", \"THE US GRANT, a Luxury Collection Hotel, San Diego San Diego, California US Hotel\", \"THE US GRANT, a Luxury Collection Hotel, San Diego San Diego, California US Resort\", \"THE US GRANT, a Luxury Collection Hotel, San Diego San Diego, California US\"], \"v\": 3}": {
@@ -207062,12 +206810,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Maxx Royal Bodrum\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Maxx Royal Bodrum The Leading Hotels of the World Hotel\", \"Maxx Royal Bodrum The Leading Hotels of the World Resort\", \"Maxx Royal Bodrum The Leading Hotels of the World\", \"Maxx Royal Bodrum The Leading Hotels of the World Mugla, Turkey Hotel\", \"Maxx Royal Bodrum The Leading Hotels of the World Mugla, Turkey Resort\", \"Maxx Royal Bodrum The Leading Hotels of the World Mugla, Turkey\", \"Maxx Royal Bodrum Hilton Hotel\", \"Maxx Royal Bodrum Hilton Resort\", \"Maxx Royal Bodrum Hilton\", \"Maxx Royal Bodrum Hilton Mugla, Turkey Hotel\", \"Maxx Royal Bodrum Hilton Mugla, Turkey Resort\", \"Maxx Royal Bodrum Hilton Mugla, Turkey\", \"Maxx Royal Bodrum Hotel\", \"Maxx Royal Bodrum Resort\", \"Maxx Royal Bodrum\", \"Maxx Royal Bodrum Mugla, Turkey Hotel\", \"Maxx Royal Bodrum Mugla, Turkey Resort\", \"Maxx Royal Bodrum Mugla, Turkey\"], \"v\": 3}": {
-    "lat": 37.1305802,
-    "lon": 27.4044579,
-    "formatted_address": "Gölköy, 312 Sokak No:3, 48483 Bodrum/Muğla, Türkiye",
+    "lat": 36.8487893,
+    "lon": 31.0706699,
+    "formatted_address": "Belek, İskele Cad Maxx Royal Blok No: 21/14 İç Kapı No: Z1, 07505 Serik/Antalya, Türkiye",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJXw4kos9vvhQRKYQ9bw7hmcI",
+    "place_id": "ChIJvXB1vkV7wxQRteRz3zuPn0U",
     "types": [
       "establishment",
       "lodging",
@@ -207076,31 +206824,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Gölköy, 312 Sokak No:3, 48483 Bodrum/Muğla, Türkiye",
+      "formatted_address": "Belek, İskele Cad Maxx Royal Blok No: 21/14 İç Kapı No: Z1, 07505 Serik/Antalya, Türkiye",
       "geometry": {
         "location": {
-          "lat": 37.1305802,
-          "lng": 27.4044579
+          "lat": 36.8487893,
+          "lng": 31.0706699
         },
         "viewport": {
           "northeast": {
-            "lat": 37.1308733802915,
-            "lng": 27.4044631
+            "lat": 36.8502154802915,
+            "lng": 31.0720892302915
           },
           "southwest": {
-            "lat": 37.1281754197085,
-            "lng": 27.4015825
+            "lat": 36.8475175197085,
+            "lng": 31.0693912697085
           }
         }
       },
-      "name": "Maxx Royal Bodrum",
-      "place_id": "ChIJXw4kos9vvhQRKYQ9bw7hmcI",
+      "name": "Maxx Royal Belek Golf Resort",
+      "place_id": "ChIJvXB1vkV7wxQRteRz3zuPn0U",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.maxxroyal.com/tr/Bodrum-Resort"
+      "website": "http://www.maxxroyal.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"ESPACIO Nagoya Castle\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"ESPACIO Nagoya Castle The Leading Hotels of the World Hotel\", \"ESPACIO Nagoya Castle The Leading Hotels of the World Resort\", \"ESPACIO Nagoya Castle The Leading Hotels of the World\", \"ESPACIO Nagoya Castle The Leading Hotels of the World Nagoya, Japan Hotel\", \"ESPACIO Nagoya Castle The Leading Hotels of the World Nagoya, Japan Resort\", \"ESPACIO Nagoya Castle The Leading Hotels of the World Nagoya, Japan\", \"ESPACIO Nagoya Castle Hilton Hotel\", \"ESPACIO Nagoya Castle Hilton Resort\", \"ESPACIO Nagoya Castle Hilton\", \"ESPACIO Nagoya Castle Hilton Nagoya, Japan Hotel\", \"ESPACIO Nagoya Castle Hilton Nagoya, Japan Resort\", \"ESPACIO Nagoya Castle Hilton Nagoya, Japan\", \"Espacio Nagoya Castle The Leading Hotels of the World Hotel\", \"Espacio Nagoya Castle The Leading Hotels of the World Resort\", \"Espacio Nagoya Castle The Leading Hotels of the World\", \"Espacio Nagoya Castle The Leading Hotels of the World Nagoya, Japan Hotel\", \"Espacio Nagoya Castle The Leading Hotels of the World Nagoya, Japan Resort\", \"Espacio Nagoya Castle The Leading Hotels of the World Nagoya, Japan\", \"Espacio Nagoya Castle Hilton Hotel\", \"Espacio Nagoya Castle Hilton Resort\", \"Espacio Nagoya Castle Hilton\", \"Espacio Nagoya Castle Hilton Nagoya, Japan Hotel\", \"Espacio Nagoya Castle Hilton Nagoya, Japan Resort\", \"Espacio Nagoya Castle Hilton Nagoya, Japan\", \"ESPACIO Nagoya Castle Hotel\", \"ESPACIO Nagoya Castle Resort\", \"ESPACIO Nagoya Castle\", \"ESPACIO Nagoya Castle Nagoya, Japan Hotel\", \"ESPACIO Nagoya Castle Nagoya, Japan Resort\", \"ESPACIO Nagoya Castle Nagoya, Japan\"], \"v\": 3}": {
@@ -211160,6 +210908,49 @@
         "point_of_interest"
       ],
       "website": "https://www.hilton.com/en/hotels/hnlwiol-ka-lai-waikiki-beach/?SEO_id=GMB-AMER-OL-HNLWIOL&y_source=1_MTAzMTk4MzA4Mi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Airelles Val d'Isere\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Airelles Val d'Isere\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Airelles Val d'Isere\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Airelles Val d'Isere Hotel\", \"Airelles Val d'Isere Resort\", \"Airelles Val d'Isere\", \"Airelles Val d'Isere Val d'Is\\u00e8re, France Hotel\", \"Airelles Val d'Isere Val d'Is\\u00e8re, France Resort\", \"Airelles Val d'Isere Val d'Is\\u00e8re, France\", \"Airelles Val Disere Hotel\", \"Airelles Val Disere Resort\", \"Airelles Val Disere\", \"Airelles Val Disere Val d'Is\\u00e8re, France Hotel\", \"Airelles Val Disere Val d'Is\\u00e8re, France Resort\", \"Airelles Val Disere Val d'Is\\u00e8re, France\"], \"v\": 3}": {
+    "lat": 45.4473103,
+    "lon": 6.979686699999999,
+    "formatted_address": "145 Rue de la Poste, 73150 Val-d'Isère, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJx3AjAukLiUcRBCrC2jYXSoU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "145 Rue de la Poste, 73150 Val-d'Isère, France",
+      "geometry": {
+        "location": {
+          "lat": 45.4473103,
+          "lng": 6.979686699999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.4488369802915,
+            "lng": 6.981292730291503
+          },
+          "southwest": {
+            "lat": 45.4461390197085,
+            "lng": 6.978594769708498
+          }
+        }
+      },
+      "name": "Airelles Val d'Isère",
+      "place_id": "ChIJx3AjAukLiUcRBCrC2jYXSoU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://airelles.com/fr/destination/val-d-isere-hotel?utm_source=google&utm_medium=yext"
     }
   }
 }
