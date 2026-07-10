@@ -155330,5 +155330,131 @@
       ],
       "website": "https://www.marriott.com/en-us/hotels/sjuao-alma-san-juan-puerto-rico-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"STRAF Hotel Milano\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"STRAF Hotel Milano Design Hotels Hotel\", \"STRAF Hotel Milano Design Hotels Resort\", \"STRAF Hotel Milano Design Hotels\", \"STRAF Hotel Milano Design Hotels Milan, Italy Hotel\", \"STRAF Hotel Milano Design Hotels Milan, Italy Resort\", \"STRAF Hotel Milano Design Hotels Milan, Italy\", \"STRAF Hotel Milano Hilton Hotel\", \"STRAF Hotel Milano Hilton Resort\", \"STRAF Hotel Milano Hilton\", \"STRAF Hotel Milano Hilton Milan, Italy Hotel\", \"STRAF Hotel Milano Hilton Milan, Italy Resort\", \"STRAF Hotel Milano Hilton Milan, Italy\", \"Straf Hotel Milano Design Hotels Hotel\", \"Straf Hotel Milano Design Hotels Resort\", \"Straf Hotel Milano Design Hotels\", \"Straf Hotel Milano Design Hotels Milan, Italy Hotel\", \"Straf Hotel Milano Design Hotels Milan, Italy Resort\", \"Straf Hotel Milano Design Hotels Milan, Italy\", \"Straf Hotel Milano Hilton Hotel\", \"Straf Hotel Milano Hilton Resort\", \"Straf Hotel Milano Hilton\", \"Straf Hotel Milano Hilton Milan, Italy Hotel\", \"Straf Hotel Milano Hilton Milan, Italy Resort\", \"Straf Hotel Milano Hilton Milan, Italy\", \"STRAF Hotel Milano Hotel\", \"STRAF Hotel Milano Resort\", \"STRAF Hotel Milano\", \"STRAF Hotel Milano Milan, Italy Hotel\", \"STRAF Hotel Milano Milan, Italy Resort\", \"STRAF Hotel Milano Milan, Italy\"], \"v\": 3}": {
+    "lat": 45.4651658,
+    "lon": 9.191192,
+    "formatted_address": "Via S. Raffaele, 3, 20121 Milano MI, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ5wx4X67GhkcRve69j0nZ-5U",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via S. Raffaele, 3, 20121 Milano MI, Italy",
+      "geometry": {
+        "location": {
+          "lat": 45.4651658,
+          "lng": 9.191192
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.46687178029149,
+            "lng": 9.192622130291502
+          },
+          "southwest": {
+            "lat": 45.4641738197085,
+            "lng": 9.189924169708497
+          }
+        }
+      },
+      "name": "STRAF Hotel - A Member of Design Hotels",
+      "place_id": "ChIJ5wx4X67GhkcRve69j0nZ-5U",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.straf.it/en/?utm_source=google&utm_medium=local&utm_campaign=googlemybusiness"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The First Musica\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The First Musica Preferred Hotels & Resorts Hotel\", \"The First Musica Preferred Hotels & Resorts Resort\", \"The First Musica Preferred Hotels & Resorts\", \"The First Musica Preferred Hotels & Resorts Rome, Italy Hotel\", \"The First Musica Preferred Hotels & Resorts Rome, Italy Resort\", \"The First Musica Preferred Hotels & Resorts Rome, Italy\", \"The First Musica Hilton Hotel\", \"The First Musica Hilton Resort\", \"The First Musica Hilton\", \"The First Musica Hilton Rome, Italy Hotel\", \"The First Musica Hilton Rome, Italy Resort\", \"The First Musica Hilton Rome, Italy\", \"The First Musica Hotel\", \"The First Musica Resort\", \"The First Musica\", \"The First Musica Rome, Italy Hotel\", \"The First Musica Rome, Italy Resort\", \"The First Musica Rome, Italy\"], \"v\": 3}": {
+    "lat": 41.9070262,
+    "lon": 12.4731701,
+    "formatted_address": "Lungotevere dei Mellini, 26E - 27, 00193 Roma RM, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJK_IU0NphLxMRWMf2MIOsqAk",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Lungotevere dei Mellini, 26E - 27, 00193 Roma RM, Italy",
+      "geometry": {
+        "location": {
+          "lat": 41.9070262,
+          "lng": 12.4731701
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.9083422802915,
+            "lng": 12.4745687802915
+          },
+          "southwest": {
+            "lat": 41.9056443197085,
+            "lng": 12.4718708197085
+          }
+        }
+      },
+      "name": "The First Musica",
+      "place_id": "ChIJK_IU0NphLxMRWMf2MIOsqAk",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.pavilionshotels.com/destinations/italy/thefirstmusica/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Alex Lake Zurich\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Alex Lake Zurich Small Luxury Hotels of the World Hotel\", \"Alex Lake Zurich Small Luxury Hotels of the World Resort\", \"Alex Lake Zurich Small Luxury Hotels of the World\", \"Alex Lake Zurich Small Luxury Hotels of the World Thalwil, Switzerland Hotel\", \"Alex Lake Zurich Small Luxury Hotels of the World Thalwil, Switzerland Resort\", \"Alex Lake Zurich Small Luxury Hotels of the World Thalwil, Switzerland\", \"Alex Lake Zurich Hilton Hotel\", \"Alex Lake Zurich Hilton Resort\", \"Alex Lake Zurich Hilton\", \"Alex Lake Zurich Hilton Thalwil, Switzerland Hotel\", \"Alex Lake Zurich Hilton Thalwil, Switzerland Resort\", \"Alex Lake Zurich Hilton Thalwil, Switzerland\", \"Alex Lake Zurich Hotel\", \"Alex Lake Zurich Resort\", \"Alex Lake Zurich\", \"Alex Lake Zurich Thalwil, Switzerland Hotel\", \"Alex Lake Zurich Thalwil, Switzerland Resort\", \"Alex Lake Zurich Thalwil, Switzerland\"], \"v\": 3}": {
+    "lat": 47.3012474,
+    "lon": 8.5624753,
+    "formatted_address": "Seestrasse 182, 8800 Thalwil, Switzerland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJFXMG3punmkcRHeZNKQhTD9A",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Seestrasse 182, 8800 Thalwil, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.3012474,
+          "lng": 8.5624753
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.30251098029149,
+            "lng": 8.563750480291503
+          },
+          "southwest": {
+            "lat": 47.2998130197085,
+            "lng": 8.561052519708499
+          }
+        }
+      },
+      "name": "Alex Lake Zürich",
+      "place_id": "ChIJFXMG3punmkcRHeZNKQhTD9A",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://alexlakezurich.com/de/"
+    }
   }
 }
