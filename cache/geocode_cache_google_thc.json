@@ -140961,12 +140961,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Antonio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Antonio Small Luxury Hotels of the World Hotel\", \"San Antonio Small Luxury Hotels of the World Resort\", \"San Antonio Small Luxury Hotels of the World\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Hotel\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Resort\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece\", \"San Antonio Hilton Hotel\", \"San Antonio Hilton Resort\", \"San Antonio Hilton\", \"San Antonio Hilton Imerovigli, Greece Hotel\", \"San Antonio Hilton Imerovigli, Greece Resort\", \"San Antonio Hilton Imerovigli, Greece\", \"San Antonio Hotel\", \"San Antonio Resort\", \"San Antonio\", \"San Antonio Imerovigli, Greece Hotel\", \"San Antonio Imerovigli, Greece Resort\", \"San Antonio Imerovigli, Greece\"], \"v\": 3}": {
-    "lat": 29.6663753,
-    "lon": -98.4008875,
-    "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
+    "lat": 29.4274372,
+    "lon": -98.48950160000001,
+    "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
+    "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
     "types": [
       "establishment",
       "lodging",
@@ -140975,31 +140975,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
+      "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
       "geometry": {
         "location": {
-          "lat": 29.6663753,
-          "lng": -98.4008875
+          "lat": 29.4274372,
+          "lng": -98.48950160000001
         },
         "viewport": {
           "northeast": {
-            "lat": 29.6677274302915,
-            "lng": -98.39953276970849
+            "lat": 29.4288418802915,
+            "lng": -98.4880995197085
           },
           "southwest": {
-            "lat": 29.6650294697085,
-            "lng": -98.40223073029149
+            "lat": 29.4261439197085,
+            "lng": -98.4907974802915
           }
         }
       },
-      "name": "JW Marriott San Antonio Hill Country Resort & Spa",
-      "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
+      "name": "The St. Anthony, a Luxury Collection Hotel, San Antonio",
+      "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.marriott.com/en-us/hotels/satjw-jw-marriott-san-antonio-hill-country-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+      "website": "https://www.marriott.com/en-us/hotels/satlc-the-st-anthony-a-luxury-collection-hotel-san-antonio/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rusty Parrot Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
@@ -155455,6 +155455,305 @@
         "point_of_interest"
       ],
       "website": "https://alexlakezurich.com/de/"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Casa Mani Resort Napa, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Casa Mani Resort Napa, Curio Collection by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sunsuites Villas at Sunseeker Resort, Curio by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"The SOMM Hotel & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The SOMM Hotel & Spa\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hart Shoreditch Hotel London, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hart Shoreditch Hotel London, Curio Collection by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Morrison Dublin, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Morrison Dublin, Curio Collection by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Curio Collection Hotel\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Curio Collection Resort\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Curio Collection\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Curio Collection Charlotte Harbor, Florida US Hotel\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Curio Collection Charlotte Harbor, Florida US Resort\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Curio Collection Charlotte Harbor, Florida US\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Hilton Hotel\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Hilton Resort\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Hilton\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Hilton Charlotte Harbor, Florida US Hotel\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Hilton Charlotte Harbor, Florida US Resort\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Hilton Charlotte Harbor, Florida US\", \"Sunsuites Villas Sunseeker Resort Curio Hilton Curio Collection Hotel\", \"Sunsuites Villas Sunseeker Resort Curio Hilton Curio Collection Resort\", \"Sunsuites Villas Sunseeker Resort Curio Hilton Curio Collection\", \"Sunsuites Villas Sunseeker Resort Curio Hilton Curio Collection Charlotte Harbor, Florida US Hotel\", \"Sunsuites Villas Sunseeker Resort Curio Hilton Curio Collection Charlotte Harbor, Florida US Resort\", \"Sunsuites Villas Sunseeker Resort Curio Hilton Curio Collection Charlotte Harbor, Florida US\", \"Sunsuites Villas Sunseeker Resort Curio Hilton Hilton Hotel\", \"Sunsuites Villas Sunseeker Resort Curio Hilton Hilton Resort\", \"Sunsuites Villas Sunseeker Resort Curio Hilton Hilton\", \"Sunsuites Villas Sunseeker Resort Curio Hilton Hilton Charlotte Harbor, Florida US Hotel\", \"Sunsuites Villas Sunseeker Resort Curio Hilton Hilton Charlotte Harbor, Florida US Resort\", \"Sunsuites Villas Sunseeker Resort Curio Hilton Hilton Charlotte Harbor, Florida US\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Hotel\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Resort\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Charlotte Harbor, Florida US Hotel\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Charlotte Harbor, Florida US Resort\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Charlotte Harbor, Florida US\"], \"v\": 3}": {
+    "lat": 26.9529423,
+    "lon": -82.0630089,
+    "formatted_address": "5600 Sunseeker Way, Punta Gorda, FL 33980, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJaTmdVQCp3IgRH1rOOE6RUzI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "5600 Sunseeker Way, Punta Gorda, FL 33980, USA",
+      "geometry": {
+        "location": {
+          "lat": 26.9529423,
+          "lng": -82.0630089
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 26.9543984802915,
+            "lng": -82.0614876697085
+          },
+          "southwest": {
+            "lat": 26.9517005197085,
+            "lng": -82.0641856302915
+          }
+        }
+      },
+      "name": "Sunsuites Villas at Sunseeker Resort",
+      "place_id": "ChIJaTmdVQCp3IgRH1rOOE6RUzI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/pgdchqq-sunseeker-resort-florida-gulf-coast/sunsuites-villas/?arrivalDate=2026-05-04&departureDate=2026-05-05&flexibleDates=false&numRooms=1&numAdults=1&numChildren=0&room1ChildAges=&room1AdultAges="
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Morrison Dublin, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Morrison Dublin, Curio Collection by Hilton Curio Collection Hotel\", \"The Morrison Dublin, Curio Collection by Hilton Curio Collection Resort\", \"The Morrison Dublin, Curio Collection by Hilton Curio Collection\", \"The Morrison Dublin, Curio Collection by Hilton Curio Collection Dublin, Ireland Hotel\", \"The Morrison Dublin, Curio Collection by Hilton Curio Collection Dublin, Ireland Resort\", \"The Morrison Dublin, Curio Collection by Hilton Curio Collection Dublin, Ireland\", \"The Morrison Dublin, Curio Collection by Hilton Hilton Hotel\", \"The Morrison Dublin, Curio Collection by Hilton Hilton Resort\", \"The Morrison Dublin, Curio Collection by Hilton Hilton\", \"The Morrison Dublin, Curio Collection by Hilton Hilton Dublin, Ireland Hotel\", \"The Morrison Dublin, Curio Collection by Hilton Hilton Dublin, Ireland Resort\", \"The Morrison Dublin, Curio Collection by Hilton Hilton Dublin, Ireland\", \"Morrison Dublin Curio Collection Hilton Curio Collection Hotel\", \"Morrison Dublin Curio Collection Hilton Curio Collection Resort\", \"Morrison Dublin Curio Collection Hilton Curio Collection\", \"Morrison Dublin Curio Collection Hilton Curio Collection Dublin, Ireland Hotel\", \"Morrison Dublin Curio Collection Hilton Curio Collection Dublin, Ireland Resort\", \"Morrison Dublin Curio Collection Hilton Curio Collection Dublin, Ireland\", \"Morrison Dublin Curio Collection Hilton Hilton Hotel\", \"Morrison Dublin Curio Collection Hilton Hilton Resort\", \"Morrison Dublin Curio Collection Hilton Hilton\", \"Morrison Dublin Curio Collection Hilton Hilton Dublin, Ireland Hotel\", \"Morrison Dublin Curio Collection Hilton Hilton Dublin, Ireland Resort\", \"Morrison Dublin Curio Collection Hilton Hilton Dublin, Ireland\", \"The Morrison Dublin, Curio Collection by Hilton Hotel\", \"The Morrison Dublin, Curio Collection by Hilton Resort\", \"The Morrison Dublin, Curio Collection by Hilton\", \"The Morrison Dublin, Curio Collection by Hilton Dublin, Ireland Hotel\", \"The Morrison Dublin, Curio Collection by Hilton Dublin, Ireland Resort\", \"The Morrison Dublin, Curio Collection by Hilton Dublin, Ireland\"], \"v\": 3}": {
+    "lat": 53.3466514,
+    "lon": -6.2659595,
+    "formatted_address": "Ormond Quay Lower, North City, Dublin, D01 K5X5, Ireland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ1ZIUQIMOZ0gROwv_wx9rVdw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Ormond Quay Lower, North City, Dublin, D01 K5X5, Ireland",
+      "geometry": {
+        "location": {
+          "lat": 53.3466514,
+          "lng": -6.2659595
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 53.3480202302915,
+            "lng": -6.264562519708498
+          },
+          "southwest": {
+            "lat": 53.3453222697085,
+            "lng": -6.267260480291503
+          }
+        }
+      },
+      "name": "The Morrison Dublin, Curio Collection by Hilton",
+      "place_id": "ChIJ1ZIUQIMOZ0gROwv_wx9rVdw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/dubtmqq-the-morrison-dublin/?SEO_id=GMB-EMEA-QQ-DUBTMQQ"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hart Shoreditch Hotel London, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hart Shoreditch Hotel London, Curio Collection by Hilton Curio Collection Hotel\", \"Hart Shoreditch Hotel London, Curio Collection by Hilton Curio Collection Resort\", \"Hart Shoreditch Hotel London, Curio Collection by Hilton Curio Collection\", \"Hart Shoreditch Hotel London, Curio Collection by Hilton Curio Collection London, England Hotel\", \"Hart Shoreditch Hotel London, Curio Collection by Hilton Curio Collection London, England Resort\", \"Hart Shoreditch Hotel London, Curio Collection by Hilton Curio Collection London, England\", \"Hart Shoreditch Hotel London, Curio Collection by Hilton Hilton Hotel\", \"Hart Shoreditch Hotel London, Curio Collection by Hilton Hilton Resort\", \"Hart Shoreditch Hotel London, Curio Collection by Hilton Hilton\", \"Hart Shoreditch Hotel London, Curio Collection by Hilton Hilton London, England Hotel\", \"Hart Shoreditch Hotel London, Curio Collection by Hilton Hilton London, England Resort\", \"Hart Shoreditch Hotel London, Curio Collection by Hilton Hilton London, England\", \"Hart Shoreditch Hotel London Curio Collection Hilton Curio Collection Hotel\", \"Hart Shoreditch Hotel London Curio Collection Hilton Curio Collection Resort\", \"Hart Shoreditch Hotel London Curio Collection Hilton Curio Collection\", \"Hart Shoreditch Hotel London Curio Collection Hilton Curio Collection London, England Hotel\", \"Hart Shoreditch Hotel London Curio Collection Hilton Curio Collection London, England Resort\", \"Hart Shoreditch Hotel London Curio Collection Hilton Curio Collection London, England\", \"Hart Shoreditch Hotel London Curio Collection Hilton Hilton Hotel\", \"Hart Shoreditch Hotel London Curio Collection Hilton Hilton Resort\", \"Hart Shoreditch Hotel London Curio Collection Hilton Hilton\", \"Hart Shoreditch Hotel London Curio Collection Hilton Hilton London, England Hotel\", \"Hart Shoreditch Hotel London Curio Collection Hilton Hilton London, England Resort\", \"Hart Shoreditch Hotel London Curio Collection Hilton Hilton London, England\", \"Hart Shoreditch Hotel London, Curio Collection by Hilton Hotel\", \"Hart Shoreditch Hotel London, Curio Collection by Hilton Resort\", \"Hart Shoreditch Hotel London, Curio Collection by Hilton\", \"Hart Shoreditch Hotel London, Curio Collection by Hilton London, England Hotel\", \"Hart Shoreditch Hotel London, Curio Collection by Hilton London, England Resort\", \"Hart Shoreditch Hotel London, Curio Collection by Hilton London, England\"], \"v\": 3}": {
+    "lat": 51.5248857,
+    "lon": -0.0815446,
+    "formatted_address": "61 - 67 Great Eastern St, London EC2A 3HU, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJXZ6ImfMddkgRwdvB5DTxcoE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "61 - 67 Great Eastern St, London EC2A 3HU, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.5248857,
+          "lng": -0.0815446
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5262827302915,
+            "lng": -0.08012451970849797
+          },
+          "southwest": {
+            "lat": 51.5235847697085,
+            "lng": -0.08282248029150203
+          }
+        }
+      },
+      "name": "Hart Shoreditch Hotel London, Curio Collection by Hilton",
+      "place_id": "ChIJXZ6ImfMddkgRwdvB5DTxcoE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/lonsdqq-hart-shoreditch-hotel-london/?SEO_id=GMB-EMEA-QQ-LONSDQQ"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Casa Mani Resort Napa, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Casa Mani Resort Napa, Curio Collection by Hilton Curio Collection Hotel\", \"Casa Mani Resort Napa, Curio Collection by Hilton Curio Collection Resort\", \"Casa Mani Resort Napa, Curio Collection by Hilton Curio Collection\", \"Casa Mani Resort Napa, Curio Collection by Hilton Curio Collection Napa, California US Hotel\", \"Casa Mani Resort Napa, Curio Collection by Hilton Curio Collection Napa, California US Resort\", \"Casa Mani Resort Napa, Curio Collection by Hilton Curio Collection Napa, California US\", \"Casa Mani Resort Napa, Curio Collection by Hilton Hilton Hotel\", \"Casa Mani Resort Napa, Curio Collection by Hilton Hilton Resort\", \"Casa Mani Resort Napa, Curio Collection by Hilton Hilton\", \"Casa Mani Resort Napa, Curio Collection by Hilton Hilton Napa, California US Hotel\", \"Casa Mani Resort Napa, Curio Collection by Hilton Hilton Napa, California US Resort\", \"Casa Mani Resort Napa, Curio Collection by Hilton Hilton Napa, California US\", \"Casa Mani Resort Napa Curio Collection Hilton Curio Collection Hotel\", \"Casa Mani Resort Napa Curio Collection Hilton Curio Collection Resort\", \"Casa Mani Resort Napa Curio Collection Hilton Curio Collection\", \"Casa Mani Resort Napa Curio Collection Hilton Curio Collection Napa, California US Hotel\", \"Casa Mani Resort Napa Curio Collection Hilton Curio Collection Napa, California US Resort\", \"Casa Mani Resort Napa Curio Collection Hilton Curio Collection Napa, California US\", \"Casa Mani Resort Napa Curio Collection Hilton Hilton Hotel\", \"Casa Mani Resort Napa Curio Collection Hilton Hilton Resort\", \"Casa Mani Resort Napa Curio Collection Hilton Hilton\", \"Casa Mani Resort Napa Curio Collection Hilton Hilton Napa, California US Hotel\", \"Casa Mani Resort Napa Curio Collection Hilton Hilton Napa, California US Resort\", \"Casa Mani Resort Napa Curio Collection Hilton Hilton Napa, California US\", \"Casa Mani Resort Napa, Curio Collection by Hilton Hotel\", \"Casa Mani Resort Napa, Curio Collection by Hilton Resort\", \"Casa Mani Resort Napa, Curio Collection by Hilton\", \"Casa Mani Resort Napa, Curio Collection by Hilton Napa, California US Hotel\", \"Casa Mani Resort Napa, Curio Collection by Hilton Napa, California US Resort\", \"Casa Mani Resort Napa, Curio Collection by Hilton Napa, California US\"], \"v\": 3}": {
+    "lat": 38.3003264,
+    "lon": -122.3013016,
+    "formatted_address": "1075 California Blvd, Napa, CA 94559, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJlxgg-VgHhYARqI9xhyIEQ6M",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1075 California Blvd, Napa, CA 94559, USA",
+      "geometry": {
+        "location": {
+          "lat": 38.3003264,
+          "lng": -122.3013016
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.3016535302915,
+            "lng": -122.2998372697085
+          },
+          "southwest": {
+            "lat": 38.2989555697085,
+            "lng": -122.3025352302915
+          }
+        }
+      },
+      "name": "Casa Mani Resort Napa Valley, Curio Collection by Hilton",
+      "place_id": "ChIJlxgg-VgHhYARqI9xhyIEQ6M",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/napvpqq-casa-mani-resort-napa-valley/?SEO_id=GMB-AMER-QQ-NAPVPQQ&y_source=1_MjA0MzQ1MzU2NC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hilton Key West Resort & Marina\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Key West Resort & Marina Hilton Hotels & Resorts Hotel\", \"Hilton Key West Resort & Marina Hilton Hotels & Resorts Resort\", \"Hilton Key West Resort & Marina Hilton Hotels & Resorts\", \"Hilton Key West Resort & Marina Hilton Hotels & Resorts Key West, Florida US Hotel\", \"Hilton Key West Resort & Marina Hilton Hotels & Resorts Key West, Florida US Resort\", \"Hilton Key West Resort & Marina Hilton Hotels & Resorts Key West, Florida US\", \"Hilton Key West Resort & Marina Hilton Hotel\", \"Hilton Key West Resort & Marina Hilton Resort\", \"Hilton Key West Resort & Marina Hilton\", \"Hilton Key West Resort & Marina Hilton Key West, Florida US Hotel\", \"Hilton Key West Resort & Marina Hilton Key West, Florida US Resort\", \"Hilton Key West Resort & Marina Hilton Key West, Florida US\", \"Hilton Key West Resort Marina Hilton Hotels & Resorts Hotel\", \"Hilton Key West Resort Marina Hilton Hotels & Resorts Resort\", \"Hilton Key West Resort Marina Hilton Hotels & Resorts\", \"Hilton Key West Resort Marina Hilton Hotels & Resorts Key West, Florida US Hotel\", \"Hilton Key West Resort Marina Hilton Hotels & Resorts Key West, Florida US Resort\", \"Hilton Key West Resort Marina Hilton Hotels & Resorts Key West, Florida US\", \"Hilton Key West Resort Marina Hilton Hotel\", \"Hilton Key West Resort Marina Hilton Resort\", \"Hilton Key West Resort Marina Hilton\", \"Hilton Key West Resort Marina Hilton Key West, Florida US Hotel\", \"Hilton Key West Resort Marina Hilton Key West, Florida US Resort\", \"Hilton Key West Resort Marina Hilton Key West, Florida US\", \"Hilton Key West Resort & Marina Hotel\", \"Hilton Key West Resort & Marina Resort\", \"Hilton Key West Resort & Marina\", \"Hilton Key West Resort & Marina Key West, Florida US Hotel\", \"Hilton Key West Resort & Marina Key West, Florida US Resort\", \"Hilton Key West Resort & Marina Key West, Florida US\"], \"v\": 3}": {
+    "lat": 24.5477352,
+    "lon": -81.7901279,
+    "formatted_address": "1500 Reynolds St, Key West, FL 33040, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJOffyTNm30YgRJQ5EnobQkVE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1500 Reynolds St, Key West, FL 33040, USA",
+      "geometry": {
+        "location": {
+          "lat": 24.5477352,
+          "lng": -81.7901279
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 24.5491990802915,
+            "lng": -81.7887609697085
+          },
+          "southwest": {
+            "lat": 24.54650111970849,
+            "lng": -81.79145893029151
+          }
+        }
+      },
+      "name": "Casa Marina Key West, Curio Collection by Hilton",
+      "place_id": "ChIJOffyTNm30YgRJQ5EnobQkVE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/eywcmqq-casa-marina-key-west/?SEO_id=GMB-AMER-QQ-EYWCMQQ&y_source=1_MzQyNTQyNjQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Gaylord Palms Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Gaylord Palms Resort Marriott Hotel\", \"Gaylord Palms Resort Marriott Resort\", \"Gaylord Palms Resort Marriott\", \"Gaylord Palms Resort Marriott Kissimmee, Florida US Hotel\", \"Gaylord Palms Resort Marriott Kissimmee, Florida US Resort\", \"Gaylord Palms Resort Marriott Kissimmee, Florida US\", \"Gaylord Palms Resort Hilton Hotel\", \"Gaylord Palms Resort Hilton Resort\", \"Gaylord Palms Resort Hilton\", \"Gaylord Palms Resort Hilton Kissimmee, Florida US Hotel\", \"Gaylord Palms Resort Hilton Kissimmee, Florida US Resort\", \"Gaylord Palms Resort Hilton Kissimmee, Florida US\", \"Gaylord Palms Resort Hotel\", \"Gaylord Palms Resort Resort\", \"Gaylord Palms Resort\", \"Gaylord Palms Resort Kissimmee, Florida US Hotel\", \"Gaylord Palms Resort Kissimmee, Florida US Resort\", \"Gaylord Palms Resort Kissimmee, Florida US\"], \"v\": 3}": {
+    "lat": 28.343152,
+    "lon": -81.52601349999999,
+    "formatted_address": "6000 Osceola Pkwy, Kissimmee, FL 34746, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJl0CYCGZ_3YgRL05pG5wZSsE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "6000 Osceola Pkwy, Kissimmee, FL 34746, USA",
+      "geometry": {
+        "location": {
+          "lat": 28.343152,
+          "lng": -81.52601349999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 28.3452146,
+            "lng": -81.5235393697085
+          },
+          "southwest": {
+            "lat": 28.3419884,
+            "lng": -81.52623733029151
+          }
+        }
+      },
+      "name": "Gaylord Palms Resort & Convention Center",
+      "place_id": "ChIJl0CYCGZ_3YgRL05pG5wZSsE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/mcogp-gaylord-palms-resort-and-convention-center/overview/?cid=NAT_google_hotel_url"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The SOMM Hotel & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The SOMM Hotel & Spa Marriott Hotel\", \"The SOMM Hotel & Spa Marriott Resort\", \"The SOMM Hotel & Spa Marriott\", \"The SOMM Hotel & Spa Marriott Woodinville, Washington US Hotel\", \"The SOMM Hotel & Spa Marriott Woodinville, Washington US Resort\", \"The SOMM Hotel & Spa Marriott Woodinville, Washington US\", \"The SOMM Hotel & Spa Hilton Hotel\", \"The SOMM Hotel & Spa Hilton Resort\", \"The SOMM Hotel & Spa Hilton\", \"The SOMM Hotel & Spa Hilton Woodinville, Washington US Hotel\", \"The SOMM Hotel & Spa Hilton Woodinville, Washington US Resort\", \"The SOMM Hotel & Spa Hilton Woodinville, Washington US\", \"Somm Hotel Spa Marriott Hotel\", \"Somm Hotel Spa Marriott Resort\", \"Somm Hotel Spa Marriott\", \"Somm Hotel Spa Marriott Woodinville, Washington US Hotel\", \"Somm Hotel Spa Marriott Woodinville, Washington US Resort\", \"Somm Hotel Spa Marriott Woodinville, Washington US\", \"Somm Hotel Spa Hilton Hotel\", \"Somm Hotel Spa Hilton Resort\", \"Somm Hotel Spa Hilton\", \"Somm Hotel Spa Hilton Woodinville, Washington US Hotel\", \"Somm Hotel Spa Hilton Woodinville, Washington US Resort\", \"Somm Hotel Spa Hilton Woodinville, Washington US\", \"The SOMM Hotel & Spa Hotel\", \"The SOMM Hotel & Spa Resort\", \"The SOMM Hotel & Spa\", \"The SOMM Hotel & Spa Woodinville, Washington US Hotel\", \"The SOMM Hotel & Spa Woodinville, Washington US Resort\", \"The SOMM Hotel & Spa Woodinville, Washington US\"], \"v\": 3}": {
+    "lat": 47.731041,
+    "lon": -122.141367,
+    "formatted_address": "14800 NE 144th St, Woodinville, WA 98072, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJf11z5LINkFQR67d7buhbeJg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "14800 NE 144th St, Woodinville, WA 98072, USA",
+      "geometry": {
+        "location": {
+          "lat": 47.731041,
+          "lng": -122.141367
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.7323433802915,
+            "lng": -122.1399581697085
+          },
+          "southwest": {
+            "lat": 47.7296454197085,
+            "lng": -122.1426561302915
+          }
+        }
+      },
+      "name": "The SOMM Hotel & Spa, Autograph Collection",
+      "place_id": "ChIJf11z5LINkFQR67d7buhbeJg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/seawk-the-somm-hotel-and-spa-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   }
 }
