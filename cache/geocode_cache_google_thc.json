@@ -10788,48 +10788,6 @@
       "website": "https://www.hotelmetropole.com/?utm_source=GB&utm_medium=organic"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Aka Washington Circle Hotel\", \"Hotel Aka Washington Circle Resort\", \"Hotel Aka Washington Circle\", \"Hotel Aka Washington Circle Washington, District of Columbia US Hotel\", \"Hotel Aka Washington Circle Washington, District of Columbia US Resort\", \"Hotel Aka Washington Circle Washington, District of Columbia US\", \"Hotel AKA Washington Circle Hotel\", \"Hotel AKA Washington Circle Resort\", \"Hotel AKA Washington Circle\", \"Hotel AKA Washington Circle Washington, District of Columbia US Hotel\", \"Hotel AKA Washington Circle Washington, District of Columbia US Resort\", \"Hotel AKA Washington Circle Washington, District of Columbia US\"], \"v\": 3}": {
-    "lat": 38.9034054,
-    "lon": -77.0497749,
-    "formatted_address": "1 Washington Cir NW, Washington, DC 20037, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJjzzvCXe3t4kROKRKQYO22o0",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "1 Washington Cir NW, Washington, DC 20037, USA",
-      "geometry": {
-        "location": {
-          "lat": 38.9034054,
-          "lng": -77.0497749
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 38.9047020302915,
-            "lng": -77.0484491197085
-          },
-          "southwest": {
-            "lat": 38.9020040697085,
-            "lng": -77.05114708029151
-          }
-        }
-      },
-      "name": "Hotel AKA Washington Circle",
-      "place_id": "ChIJjzzvCXe3t4kROKRKQYO22o0",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.stayaka.com/hotel-aka-washington-circle?utm_source=Google&utm_medium=GMB&utm_campaign=WashingtonCircleGMB"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lyle Washington Dc Hotel\", \"Lyle Washington Dc Resort\", \"Lyle Washington Dc\", \"Lyle Washington Dc Washington, District of Columbia US Hotel\", \"Lyle Washington Dc Washington, District of Columbia US Resort\", \"Lyle Washington Dc Washington, District of Columbia US\", \"Lyle Washington DC Hotel\", \"Lyle Washington DC Resort\", \"Lyle Washington DC\", \"Lyle Washington DC Washington, District of Columbia US Hotel\", \"Lyle Washington DC Washington, District of Columbia US Resort\", \"Lyle Washington DC Washington, District of Columbia US\"], \"v\": 3}": {
     "lat": 38.9133664,
     "lon": -77.0395143,
@@ -60293,48 +60251,6 @@
       "website": "https://www.hotelmetropole.com/?utm_source=GB&utm_medium=organic"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel AKA Washington Circle Hotel\", \"Hotel AKA Washington Circle Resort\", \"Hotel AKA Washington Circle\", \"Hotel AKA Washington Circle Washington, District of Columbia US Hotel\", \"Hotel AKA Washington Circle Washington, District of Columbia US Resort\", \"Hotel AKA Washington Circle Washington, District of Columbia US\", \"Hotel Aka Washington Circle Hotel\", \"Hotel Aka Washington Circle Resort\", \"Hotel Aka Washington Circle\", \"Hotel Aka Washington Circle Washington, District of Columbia US Hotel\", \"Hotel Aka Washington Circle Washington, District of Columbia US Resort\", \"Hotel Aka Washington Circle Washington, District of Columbia US\"], \"v\": 3}": {
-    "lat": 38.9034054,
-    "lon": -77.0497749,
-    "formatted_address": "1 Washington Cir NW, Washington, DC 20037, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJjzzvCXe3t4kROKRKQYO22o0",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "1 Washington Cir NW, Washington, DC 20037, USA",
-      "geometry": {
-        "location": {
-          "lat": 38.9034054,
-          "lng": -77.0497749
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 38.9047020302915,
-            "lng": -77.0484491197085
-          },
-          "southwest": {
-            "lat": 38.9020040697085,
-            "lng": -77.05114708029151
-          }
-        }
-      },
-      "name": "Hotel AKA Washington Circle",
-      "place_id": "ChIJjzzvCXe3t4kROKRKQYO22o0",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.stayaka.com/hotel-aka-washington-circle?utm_source=Google&utm_medium=GMB&utm_campaign=WashingtonCircleGMB"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lyle Washington DC Hotel\", \"Lyle Washington DC Resort\", \"Lyle Washington DC\", \"Lyle Washington DC Washington, District of Columbia US Hotel\", \"Lyle Washington DC Washington, District of Columbia US Resort\", \"Lyle Washington DC Washington, District of Columbia US\", \"Lyle Washington Dc Hotel\", \"Lyle Washington Dc Resort\", \"Lyle Washington Dc\", \"Lyle Washington Dc Washington, District of Columbia US Hotel\", \"Lyle Washington Dc Washington, District of Columbia US Resort\", \"Lyle Washington Dc Washington, District of Columbia US\"], \"v\": 3}": {
     "lat": 38.9133664,
     "lon": -77.0395143,
@@ -84439,48 +84355,6 @@
       "website": "http://www.stayaka.com/aka-rittenhouse-square"
     }
   },
-  "{\"brand\": \"AKA\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel AKA Washington Circle AKA Hotel\", \"Hotel AKA Washington Circle AKA Resort\", \"Hotel AKA Washington Circle AKA\", \"Hotel AKA Washington Circle AKA Washington, District of Columbia US Hotel\", \"Hotel AKA Washington Circle AKA Washington, District of Columbia US Resort\", \"Hotel AKA Washington Circle AKA Washington, District of Columbia US\", \"Hotel AKA Washington Circle Hilton Hotel\", \"Hotel AKA Washington Circle Hilton Resort\", \"Hotel AKA Washington Circle Hilton\", \"Hotel AKA Washington Circle Hilton Washington, District of Columbia US Hotel\", \"Hotel AKA Washington Circle Hilton Washington, District of Columbia US Resort\", \"Hotel AKA Washington Circle Hilton Washington, District of Columbia US\", \"Hotel Aka Washington Circle AKA Hotel\", \"Hotel Aka Washington Circle AKA Resort\", \"Hotel Aka Washington Circle AKA\", \"Hotel Aka Washington Circle AKA Washington, District of Columbia US Hotel\", \"Hotel Aka Washington Circle AKA Washington, District of Columbia US Resort\", \"Hotel Aka Washington Circle AKA Washington, District of Columbia US\", \"Hotel Aka Washington Circle Hilton Hotel\", \"Hotel Aka Washington Circle Hilton Resort\", \"Hotel Aka Washington Circle Hilton\", \"Hotel Aka Washington Circle Hilton Washington, District of Columbia US Hotel\", \"Hotel Aka Washington Circle Hilton Washington, District of Columbia US Resort\", \"Hotel Aka Washington Circle Hilton Washington, District of Columbia US\", \"Hotel AKA Washington Circle Hotel\", \"Hotel AKA Washington Circle Resort\", \"Hotel AKA Washington Circle\", \"Hotel AKA Washington Circle Washington, District of Columbia US Hotel\", \"Hotel AKA Washington Circle Washington, District of Columbia US Resort\", \"Hotel AKA Washington Circle Washington, District of Columbia US\"], \"v\": 3}": {
-    "lat": 38.9034054,
-    "lon": -77.0497749,
-    "formatted_address": "1 Washington Cir NW, Washington, DC 20037, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJjzzvCXe3t4kROKRKQYO22o0",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "1 Washington Cir NW, Washington, DC 20037, USA",
-      "geometry": {
-        "location": {
-          "lat": 38.9034054,
-          "lng": -77.0497749
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 38.9047020302915,
-            "lng": -77.0484491197085
-          },
-          "southwest": {
-            "lat": 38.9020040697085,
-            "lng": -77.05114708029151
-          }
-        }
-      },
-      "name": "Hotel AKA Washington Circle",
-      "place_id": "ChIJjzzvCXe3t4kROKRKQYO22o0",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.stayaka.com/hotel-aka-washington-circle?utm_source=Google&utm_medium=GMB&utm_campaign=WashingtonCircleGMB"
-    }
-  },
   "{\"brand\": \"AKA\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel AKA West Palm AKA Hotel\", \"Hotel AKA West Palm AKA Resort\", \"Hotel AKA West Palm AKA\", \"Hotel AKA West Palm AKA West Palm Beach, Florida US Hotel\", \"Hotel AKA West Palm AKA West Palm Beach, Florida US Resort\", \"Hotel AKA West Palm AKA West Palm Beach, Florida US\", \"Hotel AKA West Palm Hilton Hotel\", \"Hotel AKA West Palm Hilton Resort\", \"Hotel AKA West Palm Hilton\", \"Hotel AKA West Palm Hilton West Palm Beach, Florida US Hotel\", \"Hotel AKA West Palm Hilton West Palm Beach, Florida US Resort\", \"Hotel AKA West Palm Hilton West Palm Beach, Florida US\", \"Hotel Aka West Palm AKA Hotel\", \"Hotel Aka West Palm AKA Resort\", \"Hotel Aka West Palm AKA\", \"Hotel Aka West Palm AKA West Palm Beach, Florida US Hotel\", \"Hotel Aka West Palm AKA West Palm Beach, Florida US Resort\", \"Hotel Aka West Palm AKA West Palm Beach, Florida US\", \"Hotel Aka West Palm Hilton Hotel\", \"Hotel Aka West Palm Hilton Resort\", \"Hotel Aka West Palm Hilton\", \"Hotel Aka West Palm Hilton West Palm Beach, Florida US Hotel\", \"Hotel Aka West Palm Hilton West Palm Beach, Florida US Resort\", \"Hotel Aka West Palm Hilton West Palm Beach, Florida US\", \"Hotel AKA West Palm Hotel\", \"Hotel AKA West Palm Resort\", \"Hotel AKA West Palm\", \"Hotel AKA West Palm West Palm Beach, Florida US Hotel\", \"Hotel AKA West Palm West Palm Beach, Florida US Resort\", \"Hotel AKA West Palm West Palm Beach, Florida US\"], \"v\": 3}": {
     "lat": 26.7071356,
     "lon": -80.05222359999999,
@@ -101653,48 +101527,6 @@
         "point_of_interest"
       ],
       "website": "http://www.stayaka.com/aka-rittenhouse-square"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel AKA Washington Circle\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel AKA Washington Circle AKA Hotel\", \"Hotel AKA Washington Circle AKA Resort\", \"Hotel AKA Washington Circle AKA\", \"Hotel AKA Washington Circle AKA Washington, District of Columbia US Hotel\", \"Hotel AKA Washington Circle AKA Washington, District of Columbia US Resort\", \"Hotel AKA Washington Circle AKA Washington, District of Columbia US\", \"Hotel AKA Washington Circle Hilton Hotel\", \"Hotel AKA Washington Circle Hilton Resort\", \"Hotel AKA Washington Circle Hilton\", \"Hotel AKA Washington Circle Hilton Washington, District of Columbia US Hotel\", \"Hotel AKA Washington Circle Hilton Washington, District of Columbia US Resort\", \"Hotel AKA Washington Circle Hilton Washington, District of Columbia US\", \"Hotel Aka Washington Circle AKA Hotel\", \"Hotel Aka Washington Circle AKA Resort\", \"Hotel Aka Washington Circle AKA\", \"Hotel Aka Washington Circle AKA Washington, District of Columbia US Hotel\", \"Hotel Aka Washington Circle AKA Washington, District of Columbia US Resort\", \"Hotel Aka Washington Circle AKA Washington, District of Columbia US\", \"Hotel Aka Washington Circle Hilton Hotel\", \"Hotel Aka Washington Circle Hilton Resort\", \"Hotel Aka Washington Circle Hilton\", \"Hotel Aka Washington Circle Hilton Washington, District of Columbia US Hotel\", \"Hotel Aka Washington Circle Hilton Washington, District of Columbia US Resort\", \"Hotel Aka Washington Circle Hilton Washington, District of Columbia US\", \"Hotel AKA Washington Circle Hotel\", \"Hotel AKA Washington Circle Resort\", \"Hotel AKA Washington Circle\", \"Hotel AKA Washington Circle Washington, District of Columbia US Hotel\", \"Hotel AKA Washington Circle Washington, District of Columbia US Resort\", \"Hotel AKA Washington Circle Washington, District of Columbia US\"], \"v\": 3}": {
-    "lat": 38.9034054,
-    "lon": -77.0497749,
-    "formatted_address": "1 Washington Cir NW, Washington, DC 20037, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJjzzvCXe3t4kROKRKQYO22o0",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "1 Washington Cir NW, Washington, DC 20037, USA",
-      "geometry": {
-        "location": {
-          "lat": 38.9034054,
-          "lng": -77.0497749
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 38.9047020302915,
-            "lng": -77.0484491197085
-          },
-          "southwest": {
-            "lat": 38.9020040697085,
-            "lng": -77.05114708029151
-          }
-        }
-      },
-      "name": "Hotel AKA Washington Circle",
-      "place_id": "ChIJjzzvCXe3t4kROKRKQYO22o0",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.stayaka.com/hotel-aka-washington-circle?utm_source=Google&utm_medium=GMB&utm_campaign=WashingtonCircleGMB"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel AKA West Palm\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel AKA West Palm AKA Hotel\", \"Hotel AKA West Palm AKA Resort\", \"Hotel AKA West Palm AKA\", \"Hotel AKA West Palm AKA West Palm Beach, Florida US Hotel\", \"Hotel AKA West Palm AKA West Palm Beach, Florida US Resort\", \"Hotel AKA West Palm AKA West Palm Beach, Florida US\", \"Hotel AKA West Palm Hilton Hotel\", \"Hotel AKA West Palm Hilton Resort\", \"Hotel AKA West Palm Hilton\", \"Hotel AKA West Palm Hilton West Palm Beach, Florida US Hotel\", \"Hotel AKA West Palm Hilton West Palm Beach, Florida US Resort\", \"Hotel AKA West Palm Hilton West Palm Beach, Florida US\", \"Hotel Aka West Palm AKA Hotel\", \"Hotel Aka West Palm AKA Resort\", \"Hotel Aka West Palm AKA\", \"Hotel Aka West Palm AKA West Palm Beach, Florida US Hotel\", \"Hotel Aka West Palm AKA West Palm Beach, Florida US Resort\", \"Hotel Aka West Palm AKA West Palm Beach, Florida US\", \"Hotel Aka West Palm Hilton Hotel\", \"Hotel Aka West Palm Hilton Resort\", \"Hotel Aka West Palm Hilton\", \"Hotel Aka West Palm Hilton West Palm Beach, Florida US Hotel\", \"Hotel Aka West Palm Hilton West Palm Beach, Florida US Resort\", \"Hotel Aka West Palm Hilton West Palm Beach, Florida US\", \"Hotel AKA West Palm Hotel\", \"Hotel AKA West Palm Resort\", \"Hotel AKA West Palm\", \"Hotel AKA West Palm West Palm Beach, Florida US Hotel\", \"Hotel AKA West Palm West Palm Beach, Florida US Resort\", \"Hotel AKA West Palm West Palm Beach, Florida US\"], \"v\": 3}": {
@@ -155754,6 +155586,49 @@
         "point_of_interest"
       ],
       "website": "https://www.marriott.com/en-us/hotels/seawk-the-somm-hotel-and-spa-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"One Washington Circle, Tapestry Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"One Washington Circle, Tapestry Collection by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"One Washington Circle, Tapestry Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"One Washington Circle, Tapestry Collection by Hilton AKA Hotel\", \"One Washington Circle, Tapestry Collection by Hilton AKA Resort\", \"One Washington Circle, Tapestry Collection by Hilton AKA\", \"One Washington Circle, Tapestry Collection by Hilton AKA Washington, District of Columbia US Hotel\", \"One Washington Circle, Tapestry Collection by Hilton AKA Washington, District of Columbia US Resort\", \"One Washington Circle, Tapestry Collection by Hilton AKA Washington, District of Columbia US\", \"One Washington Circle, Tapestry Collection by Hilton Hilton Hotel\", \"One Washington Circle, Tapestry Collection by Hilton Hilton Resort\", \"One Washington Circle, Tapestry Collection by Hilton Hilton\", \"One Washington Circle, Tapestry Collection by Hilton Hilton Washington, District of Columbia US Hotel\", \"One Washington Circle, Tapestry Collection by Hilton Hilton Washington, District of Columbia US Resort\", \"One Washington Circle, Tapestry Collection by Hilton Hilton Washington, District of Columbia US\", \"One Washington Circle Tapestry Collection Hilton AKA Hotel\", \"One Washington Circle Tapestry Collection Hilton AKA Resort\", \"One Washington Circle Tapestry Collection Hilton AKA\", \"One Washington Circle Tapestry Collection Hilton AKA Washington, District of Columbia US Hotel\", \"One Washington Circle Tapestry Collection Hilton AKA Washington, District of Columbia US Resort\", \"One Washington Circle Tapestry Collection Hilton AKA Washington, District of Columbia US\", \"One Washington Circle Tapestry Collection Hilton Hilton Hotel\", \"One Washington Circle Tapestry Collection Hilton Hilton Resort\", \"One Washington Circle Tapestry Collection Hilton Hilton\", \"One Washington Circle Tapestry Collection Hilton Hilton Washington, District of Columbia US Hotel\", \"One Washington Circle Tapestry Collection Hilton Hilton Washington, District of Columbia US Resort\", \"One Washington Circle Tapestry Collection Hilton Hilton Washington, District of Columbia US\", \"One Washington Circle, Tapestry Collection by Hilton Hotel\", \"One Washington Circle, Tapestry Collection by Hilton Resort\", \"One Washington Circle, Tapestry Collection by Hilton\", \"One Washington Circle, Tapestry Collection by Hilton Washington, District of Columbia US Hotel\", \"One Washington Circle, Tapestry Collection by Hilton Washington, District of Columbia US Resort\", \"One Washington Circle, Tapestry Collection by Hilton Washington, District of Columbia US\"], \"v\": 3}": {
+    "lat": 38.9034054,
+    "lon": -77.0497749,
+    "formatted_address": "1 Washington Cir NW, Washington, DC 20037, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJjzzvCXe3t4kROKRKQYO22o0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1 Washington Cir NW, Washington, DC 20037, USA",
+      "geometry": {
+        "location": {
+          "lat": 38.9034054,
+          "lng": -77.0497749
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.9047020302915,
+            "lng": -77.0484491197085
+          },
+          "southwest": {
+            "lat": 38.9020040697085,
+            "lng": -77.05114708029151
+          }
+        }
+      },
+      "name": "One Washington Circle, Tapestry Collection by Hilton",
+      "place_id": "ChIJjzzvCXe3t4kROKRKQYO22o0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/wasnwup-one-washington-circle-dc/"
     }
   }
 }
