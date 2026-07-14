@@ -155630,5 +155630,139 @@
       ],
       "website": "https://www.hilton.com/en/hotels/wasnwup-one-washington-circle-dc/"
     }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Graduate by Hilton Annapolis\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Graduate by Hilton Annapolis\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"MADE Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"MADE Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"MADE Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"MADE Hotel Hotel\", \"MADE Hotel Resort\", \"MADE Hotel\", \"MADE Hotel New York, New York US Hotel\", \"MADE Hotel New York, New York US Resort\", \"MADE Hotel New York, New York US\", \"Made Hotel Hotel\", \"Made Hotel Resort\", \"Made Hotel\", \"Made Hotel New York, New York US Hotel\", \"Made Hotel New York, New York US Resort\", \"Made Hotel New York, New York US\"], \"v\": 3}": {
+    "lat": 40.7461967,
+    "lon": -73.9894995,
+    "formatted_address": "44 W 29th St, New York, NY 10001, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJAQAsWK9ZwokRVNJ_cGoFFIE",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "44 W 29th St, New York, NY 10001, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.7461967,
+          "lng": -73.9894995
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.7476384302915,
+            "lng": -73.98809171970849
+          },
+          "southwest": {
+            "lat": 40.7449404697085,
+            "lng": -73.9907896802915
+          }
+        }
+      },
+      "name": "Made Hotel",
+      "place_id": "ChIJAQAsWK9ZwokRVNJ_cGoFFIE",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.madehotels.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Graduate by Hilton Annapolis\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Graduate by Hilton Annapolis Hilton Hotels & Resorts Hotel\", \"Graduate by Hilton Annapolis Hilton Hotels & Resorts Resort\", \"Graduate by Hilton Annapolis Hilton Hotels & Resorts\", \"Graduate by Hilton Annapolis Hilton Hotels & Resorts Annapolis, Maryland US Hotel\", \"Graduate by Hilton Annapolis Hilton Hotels & Resorts Annapolis, Maryland US Resort\", \"Graduate by Hilton Annapolis Hilton Hotels & Resorts Annapolis, Maryland US\", \"Graduate by Hilton Annapolis Hilton Hotel\", \"Graduate by Hilton Annapolis Hilton Resort\", \"Graduate by Hilton Annapolis Hilton\", \"Graduate by Hilton Annapolis Hilton Annapolis, Maryland US Hotel\", \"Graduate by Hilton Annapolis Hilton Annapolis, Maryland US Resort\", \"Graduate by Hilton Annapolis Hilton Annapolis, Maryland US\", \"Graduate Hilton Annapolis Hilton Hotels & Resorts Hotel\", \"Graduate Hilton Annapolis Hilton Hotels & Resorts Resort\", \"Graduate Hilton Annapolis Hilton Hotels & Resorts\", \"Graduate Hilton Annapolis Hilton Hotels & Resorts Annapolis, Maryland US Hotel\", \"Graduate Hilton Annapolis Hilton Hotels & Resorts Annapolis, Maryland US Resort\", \"Graduate Hilton Annapolis Hilton Hotels & Resorts Annapolis, Maryland US\", \"Graduate Hilton Annapolis Hilton Hotel\", \"Graduate Hilton Annapolis Hilton Resort\", \"Graduate Hilton Annapolis Hilton\", \"Graduate Hilton Annapolis Hilton Annapolis, Maryland US Hotel\", \"Graduate Hilton Annapolis Hilton Annapolis, Maryland US Resort\", \"Graduate Hilton Annapolis Hilton Annapolis, Maryland US\", \"Graduate by Hilton Annapolis Hotel\", \"Graduate by Hilton Annapolis Resort\", \"Graduate by Hilton Annapolis\", \"Graduate by Hilton Annapolis Annapolis, Maryland US Hotel\", \"Graduate by Hilton Annapolis Annapolis, Maryland US Resort\", \"Graduate by Hilton Annapolis Annapolis, Maryland US\"], \"v\": 3}": {
+    "lat": 38.97823899999999,
+    "lon": -76.49822089999999,
+    "formatted_address": "126 West St, Annapolis, MD 21401, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJJVNvU-H3t4kRi4gU_e80uZc",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "126 West St, Annapolis, MD 21401, USA",
+      "geometry": {
+        "location": {
+          "lat": 38.97823899999999,
+          "lng": -76.49822089999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.9796061802915,
+            "lng": -76.49672056970849
+          },
+          "southwest": {
+            "lat": 38.9769082197085,
+            "lng": -76.4994185302915
+          }
+        }
+      },
+      "name": "Graduate by Hilton Annapolis",
+      "place_id": "ChIJJVNvU-H3t4kRi4gU_e80uZc",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/anpgagu-graduate-annapolis/?SEO_id=GMB-AMER-GU-ANPGAGU&y_source=1_MTA1MzY0NDY3MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"One Washington Circle, Tapestry Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"One Washington Circle, Tapestry Collection by Hilton Hilton Hotels & Resorts Hotel\", \"One Washington Circle, Tapestry Collection by Hilton Hilton Hotels & Resorts Resort\", \"One Washington Circle, Tapestry Collection by Hilton Hilton Hotels & Resorts\", \"One Washington Circle, Tapestry Collection by Hilton Hilton Hotels & Resorts Washington, District of Columbia US Hotel\", \"One Washington Circle, Tapestry Collection by Hilton Hilton Hotels & Resorts Washington, District of Columbia US Resort\", \"One Washington Circle, Tapestry Collection by Hilton Hilton Hotels & Resorts Washington, District of Columbia US\", \"One Washington Circle, Tapestry Collection by Hilton Hilton Hotel\", \"One Washington Circle, Tapestry Collection by Hilton Hilton Resort\", \"One Washington Circle, Tapestry Collection by Hilton Hilton\", \"One Washington Circle, Tapestry Collection by Hilton Hilton Washington, District of Columbia US Hotel\", \"One Washington Circle, Tapestry Collection by Hilton Hilton Washington, District of Columbia US Resort\", \"One Washington Circle, Tapestry Collection by Hilton Hilton Washington, District of Columbia US\", \"One Washington Circle Tapestry Collection Hilton Hilton Hotels & Resorts Hotel\", \"One Washington Circle Tapestry Collection Hilton Hilton Hotels & Resorts Resort\", \"One Washington Circle Tapestry Collection Hilton Hilton Hotels & Resorts\", \"One Washington Circle Tapestry Collection Hilton Hilton Hotels & Resorts Washington, District of Columbia US Hotel\", \"One Washington Circle Tapestry Collection Hilton Hilton Hotels & Resorts Washington, District of Columbia US Resort\", \"One Washington Circle Tapestry Collection Hilton Hilton Hotels & Resorts Washington, District of Columbia US\", \"One Washington Circle Tapestry Collection Hilton Hilton Hotel\", \"One Washington Circle Tapestry Collection Hilton Hilton Resort\", \"One Washington Circle Tapestry Collection Hilton Hilton\", \"One Washington Circle Tapestry Collection Hilton Hilton Washington, District of Columbia US Hotel\", \"One Washington Circle Tapestry Collection Hilton Hilton Washington, District of Columbia US Resort\", \"One Washington Circle Tapestry Collection Hilton Hilton Washington, District of Columbia US\", \"One Washington Circle, Tapestry Collection by Hilton Hotel\", \"One Washington Circle, Tapestry Collection by Hilton Resort\", \"One Washington Circle, Tapestry Collection by Hilton\", \"One Washington Circle, Tapestry Collection by Hilton Washington, District of Columbia US Hotel\", \"One Washington Circle, Tapestry Collection by Hilton Washington, District of Columbia US Resort\", \"One Washington Circle, Tapestry Collection by Hilton Washington, District of Columbia US\"], \"v\": 3}": {
+    "lat": 38.9165712,
+    "lon": -77.0454106,
+    "formatted_address": "1919 Connecticut Ave NW, Washington, DC 20009, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJpRVYacW3t4kRdfwMBb3fwLY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1919 Connecticut Ave NW, Washington, DC 20009, USA",
+      "geometry": {
+        "location": {
+          "lat": 38.9165712,
+          "lng": -77.0454106
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.9176784802915,
+            "lng": -77.0440068197085
+          },
+          "southwest": {
+            "lat": 38.9149805197085,
+            "lng": -77.0467047802915
+          }
+        }
+      },
+      "name": "Washington Hilton",
+      "place_id": "ChIJpRVYacW3t4kRdfwMBb3fwLY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/dcawhhh-washington-hilton/?SEO_id=GMB-AMER-HH-DCAWHHH&y_source=1_MTIyMDgxNy03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    }
   }
 }
