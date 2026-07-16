@@ -142015,12 +142015,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Mason\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mason Design Hotels Hotel\", \"Mason Design Hotels Resort\", \"Mason Design Hotels\", \"Mason Design Hotels Chon Buri, Thailand Hotel\", \"Mason Design Hotels Chon Buri, Thailand Resort\", \"Mason Design Hotels Chon Buri, Thailand\", \"Mason Hilton Hotel\", \"Mason Hilton Resort\", \"Mason Hilton\", \"Mason Hilton Chon Buri, Thailand Hotel\", \"Mason Hilton Chon Buri, Thailand Resort\", \"Mason Hilton Chon Buri, Thailand\", \"Mason Hotel\", \"Mason Resort\", \"Mason\", \"Mason Chon Buri, Thailand Hotel\", \"Mason Chon Buri, Thailand Resort\", \"Mason Chon Buri, Thailand\"], \"v\": 3}": {
-    "lat": 39.2976976,
-    "lon": -84.3160975,
-    "formatted_address": "9665 Mason Montgomery Rd, Mason, OH 45040, USA",
+    "lat": 33.1232566,
+    "lon": -89.0534744,
+    "formatted_address": "915 S Columbus Ave, Louisville, MS 39339, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJdQkJlflWQIgR3TXcGuuc78s",
+    "place_id": "ChIJQRhldrhfgYgRluUrzlpJz6Q",
     "types": [
       "establishment",
       "lodging",
@@ -142029,31 +142029,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "9665 Mason Montgomery Rd, Mason, OH 45040, USA",
+      "formatted_address": "915 S Columbus Ave, Louisville, MS 39339, USA",
       "geometry": {
         "location": {
-          "lat": 39.2976976,
-          "lng": -84.3160975
+          "lat": 33.1232566,
+          "lng": -89.0534744
         },
         "viewport": {
           "northeast": {
-            "lat": 39.2992191302915,
-            "lng": -84.31471546970849
+            "lat": 33.1245721302915,
+            "lng": -89.05201431970849
           },
           "southwest": {
-            "lat": 39.2965211697085,
-            "lng": -84.3174134302915
+            "lat": 33.1218741697085,
+            "lng": -89.0547122802915
           }
         }
       },
-      "name": "Best Western Mason Inn",
-      "place_id": "ChIJdQkJlflWQIgR3TXcGuuc78s",
+      "name": "The Mason Boutique Hotel",
+      "place_id": "ChIJQRhldrhfgYgRluUrzlpJz6Q",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.bestwestern.com/en_US/book/hotel-rooms.36151.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:36151"
+      "website": "http://www.themasonhotel.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hospes Palacio del Bailio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hospes Palacio del Bailio Design Hotels Hotel\", \"Hospes Palacio del Bailio Design Hotels Resort\", \"Hospes Palacio del Bailio Design Hotels\", \"Hospes Palacio del Bailio Design Hotels Cordoba, Spain Hotel\", \"Hospes Palacio del Bailio Design Hotels Cordoba, Spain Resort\", \"Hospes Palacio del Bailio Design Hotels Cordoba, Spain\", \"Hospes Palacio del Bailio Hilton Hotel\", \"Hospes Palacio del Bailio Hilton Resort\", \"Hospes Palacio del Bailio Hilton\", \"Hospes Palacio del Bailio Hilton Cordoba, Spain Hotel\", \"Hospes Palacio del Bailio Hilton Cordoba, Spain Resort\", \"Hospes Palacio del Bailio Hilton Cordoba, Spain\", \"Hospes Palacio Del Bailio Design Hotels Hotel\", \"Hospes Palacio Del Bailio Design Hotels Resort\", \"Hospes Palacio Del Bailio Design Hotels\", \"Hospes Palacio Del Bailio Design Hotels Cordoba, Spain Hotel\", \"Hospes Palacio Del Bailio Design Hotels Cordoba, Spain Resort\", \"Hospes Palacio Del Bailio Design Hotels Cordoba, Spain\", \"Hospes Palacio Del Bailio Hilton Hotel\", \"Hospes Palacio Del Bailio Hilton Resort\", \"Hospes Palacio Del Bailio Hilton\", \"Hospes Palacio Del Bailio Hilton Cordoba, Spain Hotel\", \"Hospes Palacio Del Bailio Hilton Cordoba, Spain Resort\", \"Hospes Palacio Del Bailio Hilton Cordoba, Spain\", \"Hospes Palacio del Bailio Hotel\", \"Hospes Palacio del Bailio Resort\", \"Hospes Palacio del Bailio\", \"Hospes Palacio del Bailio Cordoba, Spain Hotel\", \"Hospes Palacio del Bailio Cordoba, Spain Resort\", \"Hospes Palacio del Bailio Cordoba, Spain\"], \"v\": 3}": {
@@ -143929,12 +143929,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Aliee Istanbul - a Paris Society Collection Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Istanbul, Turkey Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Istanbul, Turkey Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Ennismore Istanbul, Turkey\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Istanbul, Turkey Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Istanbul, Turkey Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Hilton Istanbul, Turkey\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Istanbul, Turkey Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Istanbul, Turkey Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Ennismore Istanbul, Turkey\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Istanbul, Turkey Hotel\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Istanbul, Turkey Resort\", \"Aliee Istanbul a Paris Society Collection Hotel Hilton Istanbul, Turkey\", \"Aliee Istanbul - a Paris Society Collection Hotel Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Istanbul, Turkey Hotel\", \"Aliee Istanbul - a Paris Society Collection Hotel Istanbul, Turkey Resort\", \"Aliee Istanbul - a Paris Society Collection Hotel Istanbul, Turkey\"], \"v\": 3}": {
-    "lat": 41.004282,
-    "lon": 28.979717,
-    "formatted_address": "Sultan Ahmet, Amiral Taftil Sok. no: 22, 34122 Fatih/İstanbul, Türkiye",
+    "lat": 41.0341765,
+    "lon": 28.9576444,
+    "formatted_address": "Camiikebir, Taşkızak Tersanesi Caddesi No:11-19, 34437 Beyoğlu/İstanbul, Türkiye",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJH1Yn8Ni5yhQROM8eJphCNJU",
+    "place_id": "ChIJAZYD8YW5yhQR5_ttVyVxclA",
     "types": [
       "establishment",
       "lodging",
@@ -143943,31 +143943,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Sultan Ahmet, Amiral Taftil Sok. no: 22, 34122 Fatih/İstanbul, Türkiye",
+      "formatted_address": "Camiikebir, Taşkızak Tersanesi Caddesi No:11-19, 34437 Beyoğlu/İstanbul, Türkiye",
       "geometry": {
         "location": {
-          "lat": 41.004282,
-          "lng": 28.979717
+          "lat": 41.0341765,
+          "lng": 28.9576444
         },
         "viewport": {
           "northeast": {
-            "lat": 41.0056203302915,
-            "lng": 28.9810855302915
+            "lat": 41.03590123029149,
+            "lng": 28.95917328029149
           },
           "southwest": {
-            "lat": 41.0029223697085,
-            "lng": 28.97838756970851
+            "lat": 41.03320326970849,
+            "lng": 28.9564753197085
           }
         }
       },
-      "name": "Paris Garden Hotel Istanbul",
-      "place_id": "ChIJH1Yn8Ni5yhQROM8eJphCNJU",
+      "name": "Aliée Istanbul - A Paris Society Collection Hotel",
+      "place_id": "ChIJAZYD8YW5yhQR5_ttVyVxclA",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "http://www.parisgardenhotel.com/"
+      "website": "https://alieeistanbul.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Faena Miami Beach\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Faena Miami Beach Ennismore Hotel\", \"Faena Miami Beach Ennismore Resort\", \"Faena Miami Beach Ennismore\", \"Faena Miami Beach Ennismore Miami Beach, Florida US Hotel\", \"Faena Miami Beach Ennismore Miami Beach, Florida US Resort\", \"Faena Miami Beach Ennismore Miami Beach, Florida US\", \"Faena Miami Beach Hilton Hotel\", \"Faena Miami Beach Hilton Resort\", \"Faena Miami Beach Hilton\", \"Faena Miami Beach Hilton Miami Beach, Florida US Hotel\", \"Faena Miami Beach Hilton Miami Beach, Florida US Resort\", \"Faena Miami Beach Hilton Miami Beach, Florida US\", \"Faena Miami Beach Hotel\", \"Faena Miami Beach Resort\", \"Faena Miami Beach\", \"Faena Miami Beach Miami Beach, Florida US Hotel\", \"Faena Miami Beach Miami Beach, Florida US Resort\", \"Faena Miami Beach Miami Beach, Florida US\"], \"v\": 3}": {
@@ -191896,87 +191896,23 @@
     "lat": 44.4369829,
     "lon": 26.0978814,
     "formatted_address": "Calea Victoriei 56, 010083 București, Romania",
-    "provider": "google_geocoding",
-    "confidence": "ROOFTOP",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
     "place_id": "ChIJNWQykkb_sUARq_2J4mFJJ7w",
     "types": [
       "establishment",
       "lodging",
       "point_of_interest"
     ],
-    "partial_match": true,
+    "partial_match": false,
     "raw": {
-      "address_components": [
-        {
-          "long_name": "56",
-          "short_name": "56",
-          "types": [
-            "street_number"
-          ]
-        },
-        {
-          "long_name": "Calea Victoriei",
-          "short_name": "Calea Victoriei",
-          "types": [
-            "route"
-          ]
-        },
-        {
-          "long_name": "Bucureşti Sectorul 3",
-          "short_name": "Bucureşti Sectorul 3",
-          "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_1"
-          ]
-        },
-        {
-          "long_name": "București",
-          "short_name": "București",
-          "types": [
-            "locality",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Municipiul București",
-          "short_name": "Municipiul București",
-          "types": [
-            "administrative_area_level_2",
-            "political"
-          ]
-        },
-        {
-          "long_name": "București",
-          "short_name": "București",
-          "types": [
-            "administrative_area_level_1",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Romania",
-          "short_name": "RO",
-          "types": [
-            "country",
-            "political"
-          ]
-        },
-        {
-          "long_name": "010083",
-          "short_name": "010083",
-          "types": [
-            "postal_code"
-          ]
-        }
-      ],
+      "business_status": "OPERATIONAL",
       "formatted_address": "Calea Victoriei 56, 010083 București, Romania",
       "geometry": {
         "location": {
           "lat": 44.4369829,
           "lng": 26.0978814
         },
-        "location_type": "ROOFTOP",
         "viewport": {
           "northeast": {
             "lat": 44.43846723029149,
@@ -191988,37 +191924,14 @@
           }
         }
       },
-      "navigation_points": [
-        {
-          "location": {
-            "latitude": 44.4369325,
-            "longitude": 26.0977844
-          }
-        },
-        {
-          "location": {
-            "latitude": 44.4372643,
-            "longitude": 26.0980309
-          }
-        },
-        {
-          "location": {
-            "latitude": 44.4372858,
-            "longitude": 26.0981926
-          }
-        }
-      ],
-      "partial_match": true,
+      "name": "Grand Hotel Continental Bucharest",
       "place_id": "ChIJNWQykkb_sUARq_2J4mFJJ7w",
-      "plus_code": {
-        "compound_code": "C3PX+Q5 Bucharest, Romania",
-        "global_code": "8GP8C3PX+Q5"
-      },
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
-      ]
+      ],
+      "website": "https://grand-hotel-continental-bucuresti.continentalhotels.ro/en/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Grand Hotel Excelsior Vittoria\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Hotel Excelsior Vittoria The Leading Hotels of the World Hotel\", \"Grand Hotel Excelsior Vittoria The Leading Hotels of the World Resort\", \"Grand Hotel Excelsior Vittoria The Leading Hotels of the World\", \"Grand Hotel Excelsior Vittoria The Leading Hotels of the World Sorrento, Italy Hotel\", \"Grand Hotel Excelsior Vittoria The Leading Hotels of the World Sorrento, Italy Resort\", \"Grand Hotel Excelsior Vittoria The Leading Hotels of the World Sorrento, Italy\", \"Grand Hotel Excelsior Vittoria Hilton Hotel\", \"Grand Hotel Excelsior Vittoria Hilton Resort\", \"Grand Hotel Excelsior Vittoria Hilton\", \"Grand Hotel Excelsior Vittoria Hilton Sorrento, Italy Hotel\", \"Grand Hotel Excelsior Vittoria Hilton Sorrento, Italy Resort\", \"Grand Hotel Excelsior Vittoria Hilton Sorrento, Italy\", \"Grand Hotel Excelsior Vittoria Hotel\", \"Grand Hotel Excelsior Vittoria Resort\", \"Grand Hotel Excelsior Vittoria\", \"Grand Hotel Excelsior Vittoria Sorrento, Italy Hotel\", \"Grand Hotel Excelsior Vittoria Sorrento, Italy Resort\", \"Grand Hotel Excelsior Vittoria Sorrento, Italy\"], \"v\": 3}": {
@@ -210673,6 +210586,51 @@
         "point_of_interest"
       ],
       "website": "https://airelles.com/fr/destination/val-d-isere-hotel?utm_source=google&utm_medium=yext"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Pendry Park City\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Pendry Park City\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Pendry Park City\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Pendry Park City Preferred Hotels & Resorts Hotel\", \"Pendry Park City Preferred Hotels & Resorts Resort\", \"Pendry Park City Preferred Hotels & Resorts\", \"Pendry Park City Preferred Hotels & Resorts Park City, Utah US Hotel\", \"Pendry Park City Preferred Hotels & Resorts Park City, Utah US Resort\", \"Pendry Park City Preferred Hotels & Resorts Park City, Utah US\", \"Pendry Park City Hilton Hotel\", \"Pendry Park City Hilton Resort\", \"Pendry Park City Hilton\", \"Pendry Park City Hilton Park City, Utah US Hotel\", \"Pendry Park City Hilton Park City, Utah US Resort\", \"Pendry Park City Hilton Park City, Utah US\", \"Pendry Park City Hotel\", \"Pendry Park City Resort\", \"Pendry Park City\", \"Pendry Park City Park City, Utah US Hotel\", \"Pendry Park City Park City, Utah US Resort\", \"Pendry Park City Park City, Utah US\"], \"v\": 3}": {
+    "lat": 40.6836357,
+    "lon": -111.5563669,
+    "formatted_address": "2417 W High Mountain Rd, Park City, UT 84098, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJCTCakN1tUocRupr5OtlR6FA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2417 W High Mountain Rd, Park City, UT 84098, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.6836357,
+          "lng": -111.5563669
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.6850062802915,
+            "lng": -111.5550846197085
+          },
+          "southwest": {
+            "lat": 40.6823083197085,
+            "lng": -111.5577825802915
+          }
+        }
+      },
+      "name": "Pendry Park City",
+      "place_id": "ChIJCTCakN1tUocRupr5OtlR6FA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.pendry.com/park-city/?utm_source=google&utm_medium=organic&utm_campaign=google_business_profile&utm_content=website_button"
     }
   }
 }
