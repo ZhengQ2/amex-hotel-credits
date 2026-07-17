@@ -129202,12 +129202,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 39.9927967,
-    "lon": -76.28769179999999,
-    "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
+    "lat": 40.0468379,
+    "lon": -76.3123846,
+    "formatted_address": "300 Harrisburg Ave, Lancaster, PA 17603, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
+    "place_id": "ChIJuYcX7oskxokRA0mkXF3g15k",
     "types": [
       "establishment",
       "lodging",
@@ -129216,31 +129216,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
+      "formatted_address": "300 Harrisburg Ave, Lancaster, PA 17603, USA",
       "geometry": {
         "location": {
-          "lat": 39.9927967,
-          "lng": -76.28769179999999
+          "lat": 40.0468379,
+          "lng": -76.3123846
         },
         "viewport": {
           "northeast": {
-            "lat": 39.9940706302915,
-            "lng": -76.28663611970849
+            "lat": 40.0486361802915,
+            "lng": -76.3115735197085
           },
           "southwest": {
-            "lat": 39.9913726697085,
-            "lng": -76.2893340802915
+            "lat": 40.0459382197085,
+            "lng": -76.31427148029151
           }
         }
       },
-      "name": "DoubleTree Resort by Hilton Hotel Lancaster",
-      "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
+      "name": "Lancaster Arts Hotel",
+      "place_id": "ChIJuYcX7oskxokRA0mkXF3g15k",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/lnswvdt-doubletree-resort-lancaster/?SEO_id=GMB-AMER-DT-LNSWVDT"
+      "website": "https://www.lancasterartshotel.com/?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=gmb"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -142015,45 +142015,49 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Mason\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mason Design Hotels Hotel\", \"Mason Design Hotels Resort\", \"Mason Design Hotels\", \"Mason Design Hotels Chon Buri, Thailand Hotel\", \"Mason Design Hotels Chon Buri, Thailand Resort\", \"Mason Design Hotels Chon Buri, Thailand\", \"Mason Hilton Hotel\", \"Mason Hilton Resort\", \"Mason Hilton\", \"Mason Hilton Chon Buri, Thailand Hotel\", \"Mason Hilton Chon Buri, Thailand Resort\", \"Mason Hilton Chon Buri, Thailand\", \"Mason Hotel\", \"Mason Resort\", \"Mason\", \"Mason Chon Buri, Thailand Hotel\", \"Mason Chon Buri, Thailand Resort\", \"Mason Chon Buri, Thailand\"], \"v\": 3}": {
-    "lat": 33.1232566,
-    "lon": -89.0534744,
-    "formatted_address": "915 S Columbus Ave, Louisville, MS 39339, USA",
+    "lat": 42.6558799,
+    "lon": -86.2018916,
+    "formatted_address": "350 Mason St, Saugatuck, MI 49453, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJQRhldrhfgYgRluUrzlpJz6Q",
+    "place_id": "ChIJDeW5Mp_3GYgRznXK50XRIlk",
     "types": [
       "establishment",
       "lodging",
-      "point_of_interest"
+      "point_of_interest",
+      "real_estate_agency",
+      "travel_agency"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "915 S Columbus Ave, Louisville, MS 39339, USA",
+      "formatted_address": "350 Mason St, Saugatuck, MI 49453, USA",
       "geometry": {
         "location": {
-          "lat": 33.1232566,
-          "lng": -89.0534744
+          "lat": 42.6558799,
+          "lng": -86.2018916
         },
         "viewport": {
           "northeast": {
-            "lat": 33.1245721302915,
-            "lng": -89.05201431970849
+            "lat": 42.6571540302915,
+            "lng": -86.20053816970851
           },
           "southwest": {
-            "lat": 33.1218741697085,
-            "lng": -89.0547122802915
+            "lat": 42.6544560697085,
+            "lng": -86.20323613029151
           }
         }
       },
-      "name": "The Mason Boutique Hotel",
-      "place_id": "ChIJQRhldrhfgYgRluUrzlpJz6Q",
+      "name": "Porches On Mason Inn & Suites",
+      "place_id": "ChIJDeW5Mp_3GYgRznXK50XRIlk",
       "types": [
         "establishment",
         "lodging",
-        "point_of_interest"
+        "point_of_interest",
+        "real_estate_agency",
+        "travel_agency"
       ],
-      "website": "http://www.themasonhotel.com/"
+      "website": "https://www.porchesonmason.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hospes Palacio del Bailio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hospes Palacio del Bailio Design Hotels Hotel\", \"Hospes Palacio del Bailio Design Hotels Resort\", \"Hospes Palacio del Bailio Design Hotels\", \"Hospes Palacio del Bailio Design Hotels Cordoba, Spain Hotel\", \"Hospes Palacio del Bailio Design Hotels Cordoba, Spain Resort\", \"Hospes Palacio del Bailio Design Hotels Cordoba, Spain\", \"Hospes Palacio del Bailio Hilton Hotel\", \"Hospes Palacio del Bailio Hilton Resort\", \"Hospes Palacio del Bailio Hilton\", \"Hospes Palacio del Bailio Hilton Cordoba, Spain Hotel\", \"Hospes Palacio del Bailio Hilton Cordoba, Spain Resort\", \"Hospes Palacio del Bailio Hilton Cordoba, Spain\", \"Hospes Palacio Del Bailio Design Hotels Hotel\", \"Hospes Palacio Del Bailio Design Hotels Resort\", \"Hospes Palacio Del Bailio Design Hotels\", \"Hospes Palacio Del Bailio Design Hotels Cordoba, Spain Hotel\", \"Hospes Palacio Del Bailio Design Hotels Cordoba, Spain Resort\", \"Hospes Palacio Del Bailio Design Hotels Cordoba, Spain\", \"Hospes Palacio Del Bailio Hilton Hotel\", \"Hospes Palacio Del Bailio Hilton Resort\", \"Hospes Palacio Del Bailio Hilton\", \"Hospes Palacio Del Bailio Hilton Cordoba, Spain Hotel\", \"Hospes Palacio Del Bailio Hilton Cordoba, Spain Resort\", \"Hospes Palacio Del Bailio Hilton Cordoba, Spain\", \"Hospes Palacio del Bailio Hotel\", \"Hospes Palacio del Bailio Resort\", \"Hospes Palacio del Bailio\", \"Hospes Palacio del Bailio Cordoba, Spain Hotel\", \"Hospes Palacio del Bailio Cordoba, Spain Resort\", \"Hospes Palacio del Bailio Cordoba, Spain\"], \"v\": 3}": {
@@ -169183,7 +169187,7 @@
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Raffles Istanbul\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Raffles Istanbul Raffles Hotel\", \"Raffles Istanbul Raffles Resort\", \"Raffles Istanbul Raffles\", \"Raffles Istanbul Raffles Istanbul, Turkey Hotel\", \"Raffles Istanbul Raffles Istanbul, Turkey Resort\", \"Raffles Istanbul Raffles Istanbul, Turkey\", \"Raffles Istanbul Hilton Hotel\", \"Raffles Istanbul Hilton Resort\", \"Raffles Istanbul Hilton\", \"Raffles Istanbul Hilton Istanbul, Turkey Hotel\", \"Raffles Istanbul Hilton Istanbul, Turkey Resort\", \"Raffles Istanbul Hilton Istanbul, Turkey\", \"Raffles Istanbul Hotel\", \"Raffles Istanbul Resort\", \"Raffles Istanbul\", \"Raffles Istanbul Istanbul, Turkey Hotel\", \"Raffles Istanbul Istanbul, Turkey Resort\", \"Raffles Istanbul Istanbul, Turkey\"], \"v\": 3}": {
     "lat": 41.066551,
     "lon": 29.018055,
-    "formatted_address": "Levazım, Vadi Caddesi Zorlu Center, 34340 Beşiktaş/İstanbul, Türkiye",
+    "formatted_address": "Zorlu Center - Shopping Mall, Levazım, Vadi Caddesi, 34340 Beşiktaş/İstanbul, Türkiye",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
     "place_id": "ChIJ-b4di0W2yhQRKJh_UY_Yg0s",
@@ -169197,7 +169201,7 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Levazım, Vadi Caddesi Zorlu Center, 34340 Beşiktaş/İstanbul, Türkiye",
+      "formatted_address": "Zorlu Center - Shopping Mall, Levazım, Vadi Caddesi, 34340 Beşiktaş/İstanbul, Türkiye",
       "geometry": {
         "location": {
           "lat": 41.066551,
@@ -191893,12 +191897,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Grand Hotel Continental\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Hotel Continental The Leading Hotels of the World Hotel\", \"Grand Hotel Continental The Leading Hotels of the World Resort\", \"Grand Hotel Continental The Leading Hotels of the World\", \"Grand Hotel Continental The Leading Hotels of the World Siena, Italy Hotel\", \"Grand Hotel Continental The Leading Hotels of the World Siena, Italy Resort\", \"Grand Hotel Continental The Leading Hotels of the World Siena, Italy\", \"Grand Hotel Continental Hilton Hotel\", \"Grand Hotel Continental Hilton Resort\", \"Grand Hotel Continental Hilton\", \"Grand Hotel Continental Hilton Siena, Italy Hotel\", \"Grand Hotel Continental Hilton Siena, Italy Resort\", \"Grand Hotel Continental Hilton Siena, Italy\", \"Grand Hotel Continental Hotel\", \"Grand Hotel Continental Resort\", \"Grand Hotel Continental\", \"Grand Hotel Continental Siena, Italy Hotel\", \"Grand Hotel Continental Siena, Italy Resort\", \"Grand Hotel Continental Siena, Italy\"], \"v\": 3}": {
-    "lat": 44.4369829,
-    "lon": 26.0978814,
-    "formatted_address": "Calea Victoriei 56, 010083 București, Romania",
+    "lat": 44.4371686,
+    "lon": 26.1023313,
+    "formatted_address": "Bulevardul Nicolae Bălcescu 4, 010051 București, Romania",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJNWQykkb_sUARq_2J4mFJJ7w",
+    "place_id": "ChIJ3eo7okf_sUAR2s22zdBJ2Ts",
     "types": [
       "establishment",
       "lodging",
@@ -191907,31 +191911,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Calea Victoriei 56, 010083 București, Romania",
+      "formatted_address": "Bulevardul Nicolae Bălcescu 4, 010051 București, Romania",
       "geometry": {
         "location": {
-          "lat": 44.4369829,
-          "lng": 26.0978814
+          "lat": 44.4371686,
+          "lng": 26.1023313
         },
         "viewport": {
           "northeast": {
-            "lat": 44.43846723029149,
-            "lng": 26.0993190802915
+            "lat": 44.4384848802915,
+            "lng": 26.1037068802915
           },
           "southwest": {
-            "lat": 44.43576926970849,
-            "lng": 26.09662111970849
+            "lat": 44.4357869197085,
+            "lng": 26.1010089197085
           }
         }
       },
-      "name": "Grand Hotel Continental Bucharest",
-      "place_id": "ChIJNWQykkb_sUARq_2J4mFJJ7w",
+      "name": "Grand Hotel Bucharest",
+      "place_id": "ChIJ3eo7okf_sUAR2s22zdBJ2Ts",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://grand-hotel-continental-bucuresti.continentalhotels.ro/en/"
+      "website": "https://www.grandhotelbucharest.ro/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Grand Hotel Excelsior Vittoria\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Hotel Excelsior Vittoria The Leading Hotels of the World Hotel\", \"Grand Hotel Excelsior Vittoria The Leading Hotels of the World Resort\", \"Grand Hotel Excelsior Vittoria The Leading Hotels of the World\", \"Grand Hotel Excelsior Vittoria The Leading Hotels of the World Sorrento, Italy Hotel\", \"Grand Hotel Excelsior Vittoria The Leading Hotels of the World Sorrento, Italy Resort\", \"Grand Hotel Excelsior Vittoria The Leading Hotels of the World Sorrento, Italy\", \"Grand Hotel Excelsior Vittoria Hilton Hotel\", \"Grand Hotel Excelsior Vittoria Hilton Resort\", \"Grand Hotel Excelsior Vittoria Hilton\", \"Grand Hotel Excelsior Vittoria Hilton Sorrento, Italy Hotel\", \"Grand Hotel Excelsior Vittoria Hilton Sorrento, Italy Resort\", \"Grand Hotel Excelsior Vittoria Hilton Sorrento, Italy\", \"Grand Hotel Excelsior Vittoria Hotel\", \"Grand Hotel Excelsior Vittoria Resort\", \"Grand Hotel Excelsior Vittoria\", \"Grand Hotel Excelsior Vittoria Sorrento, Italy Hotel\", \"Grand Hotel Excelsior Vittoria Sorrento, Italy Resort\", \"Grand Hotel Excelsior Vittoria Sorrento, Italy\"], \"v\": 3}": {
@@ -210631,6 +210635,57 @@
         "spa"
       ],
       "website": "https://www.pendry.com/park-city/?utm_source=google&utm_medium=organic&utm_campaign=google_business_profile&utm_content=website_button"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Hotel Barriere Le Grand Hotel Dinard\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Barriere Le Grand Hotel Dinard\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Barriere Le Grand Hotel Dinard\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Barriere Le Grand Hotel Dinard Barri\\u00e8re Group Hotel\", \"Hotel Barriere Le Grand Hotel Dinard Barri\\u00e8re Group Resort\", \"Hotel Barriere Le Grand Hotel Dinard Barri\\u00e8re Group\", \"Hotel Barriere Le Grand Hotel Dinard Barri\\u00e8re Group Dinard, France Hotel\", \"Hotel Barriere Le Grand Hotel Dinard Barri\\u00e8re Group Dinard, France Resort\", \"Hotel Barriere Le Grand Hotel Dinard Barri\\u00e8re Group Dinard, France\", \"Hotel Barriere Le Grand Hotel Dinard Hilton Hotel\", \"Hotel Barriere Le Grand Hotel Dinard Hilton Resort\", \"Hotel Barriere Le Grand Hotel Dinard Hilton\", \"Hotel Barriere Le Grand Hotel Dinard Hilton Dinard, France Hotel\", \"Hotel Barriere Le Grand Hotel Dinard Hilton Dinard, France Resort\", \"Hotel Barriere Le Grand Hotel Dinard Hilton Dinard, France\", \"Hotel Barriere Le Grand Hotel Dinard Hotel\", \"Hotel Barriere Le Grand Hotel Dinard Resort\", \"Hotel Barriere Le Grand Hotel Dinard\", \"Hotel Barriere Le Grand Hotel Dinard Dinard, France Hotel\", \"Hotel Barriere Le Grand Hotel Dinard Dinard, France Resort\", \"Hotel Barriere Le Grand Hotel Dinard Dinard, France\"], \"v\": 3}": {
+    "lat": 48.6332795,
+    "lon": -2.0514913,
+    "formatted_address": "46 Av. George V, 35800 Dinard, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJafwbD8SADkgR547npNjL080",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "46 Av. George V, 35800 Dinard, France",
+      "geometry": {
+        "location": {
+          "lat": 48.6332795,
+          "lng": -2.0514913
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.63458638029149,
+            "lng": -2.050105869708498
+          },
+          "southwest": {
+            "lat": 48.6318884197085,
+            "lng": -2.052803830291502
+          }
+        }
+      },
+      "name": "Le Grand Hôtel Dinard",
+      "place_id": "ChIJafwbD8SADkgR547npNjL080",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.hotelsbarriere.com/dinard/le-grand-hotel-dinard"
     }
   }
 }
