@@ -41765,48 +41765,6 @@
       "website": "https://virginhotels.com/dallas/?utm_source=google&utm_medium=organic&utm_campaign=google_local_virgin_hotels_dallas"
     }
   },
-  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hawks Cay Resort Preferred Hotels & Resorts Hotel\", \"Hawks Cay Resort Preferred Hotels & Resorts Resort\", \"Hawks Cay Resort Preferred Hotels & Resorts\", \"Hawks Cay Resort Preferred Hotels & Resorts Duck Key, Florida US Hotel\", \"Hawks Cay Resort Preferred Hotels & Resorts Duck Key, Florida US Resort\", \"Hawks Cay Resort Preferred Hotels & Resorts Duck Key, Florida US\", \"Hawks Cay Resort Hilton Hotel\", \"Hawks Cay Resort Hilton Resort\", \"Hawks Cay Resort Hilton\", \"Hawks Cay Resort Hilton Duck Key, Florida US Hotel\", \"Hawks Cay Resort Hilton Duck Key, Florida US Resort\", \"Hawks Cay Resort Hilton Duck Key, Florida US\", \"Hawks Cay Resort Hotel\", \"Hawks Cay Resort Resort\", \"Hawks Cay Resort\", \"Hawks Cay Resort Duck Key, Florida US Hotel\", \"Hawks Cay Resort Duck Key, Florida US Resort\", \"Hawks Cay Resort Duck Key, Florida US\"], \"v\": 3}": {
-    "lat": 24.7762616,
-    "lon": -80.90960679999999,
-    "formatted_address": "61 Hawks Cay Blvd, Duck Key, FL 33050, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJk6Zlq4TR0IgRlhUZmRzsoVM",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "61 Hawks Cay Blvd, Duck Key, FL 33050, USA",
-      "geometry": {
-        "location": {
-          "lat": 24.7762616,
-          "lng": -80.90960679999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 24.7773755802915,
-            "lng": -80.90841176970851
-          },
-          "southwest": {
-            "lat": 24.77467761970849,
-            "lng": -80.91110973029151
-          }
-        }
-      },
-      "name": "Hawks Cay Resort & Villas",
-      "place_id": "ChIJk6Zlq4TR0IgRlhUZmRzsoVM",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hawkscay.com/"
-    }
-  },
   "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Virgin Hotels Edinburgh Preferred Hotels & Resorts Hotel\", \"Virgin Hotels Edinburgh Preferred Hotels & Resorts Resort\", \"Virgin Hotels Edinburgh Preferred Hotels & Resorts\", \"Virgin Hotels Edinburgh Preferred Hotels & Resorts Edinburgh, Scotland Hotel\", \"Virgin Hotels Edinburgh Preferred Hotels & Resorts Edinburgh, Scotland Resort\", \"Virgin Hotels Edinburgh Preferred Hotels & Resorts Edinburgh, Scotland\", \"Virgin Hotels Edinburgh Hilton Hotel\", \"Virgin Hotels Edinburgh Hilton Resort\", \"Virgin Hotels Edinburgh Hilton\", \"Virgin Hotels Edinburgh Hilton Edinburgh, Scotland Hotel\", \"Virgin Hotels Edinburgh Hilton Edinburgh, Scotland Resort\", \"Virgin Hotels Edinburgh Hilton Edinburgh, Scotland\", \"Virgin Hotels Edinburgh Hotel\", \"Virgin Hotels Edinburgh Resort\", \"Virgin Hotels Edinburgh\", \"Virgin Hotels Edinburgh Edinburgh, Scotland Hotel\", \"Virgin Hotels Edinburgh Edinburgh, Scotland Resort\", \"Virgin Hotels Edinburgh Edinburgh, Scotland\"], \"v\": 3}": {
     "lat": 55.9486259,
     "lon": -3.1929921,
@@ -133945,48 +133903,6 @@
         "point_of_interest"
       ],
       "website": "https://virginhotels.com/dallas/?utm_source=google&utm_medium=organic&utm_campaign=google_local_virgin_hotels_dallas"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hawks Cay Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hawks Cay Resort Preferred Hotels & Resorts Hotel\", \"Hawks Cay Resort Preferred Hotels & Resorts Resort\", \"Hawks Cay Resort Preferred Hotels & Resorts\", \"Hawks Cay Resort Preferred Hotels & Resorts Duck Key, Florida US Hotel\", \"Hawks Cay Resort Preferred Hotels & Resorts Duck Key, Florida US Resort\", \"Hawks Cay Resort Preferred Hotels & Resorts Duck Key, Florida US\", \"Hawks Cay Resort Hilton Hotel\", \"Hawks Cay Resort Hilton Resort\", \"Hawks Cay Resort Hilton\", \"Hawks Cay Resort Hilton Duck Key, Florida US Hotel\", \"Hawks Cay Resort Hilton Duck Key, Florida US Resort\", \"Hawks Cay Resort Hilton Duck Key, Florida US\", \"Hawks Cay Resort Hotel\", \"Hawks Cay Resort Resort\", \"Hawks Cay Resort\", \"Hawks Cay Resort Duck Key, Florida US Hotel\", \"Hawks Cay Resort Duck Key, Florida US Resort\", \"Hawks Cay Resort Duck Key, Florida US\"], \"v\": 3}": {
-    "lat": 24.7762616,
-    "lon": -80.90960679999999,
-    "formatted_address": "61 Hawks Cay Blvd, Duck Key, FL 33050, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJk6Zlq4TR0IgRlhUZmRzsoVM",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "61 Hawks Cay Blvd, Duck Key, FL 33050, USA",
-      "geometry": {
-        "location": {
-          "lat": 24.7762616,
-          "lng": -80.90960679999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 24.7773755802915,
-            "lng": -80.90841176970851
-          },
-          "southwest": {
-            "lat": 24.77467761970849,
-            "lng": -80.91110973029151
-          }
-        }
-      },
-      "name": "Hawks Cay Resort & Villas",
-      "place_id": "ChIJk6Zlq4TR0IgRlhUZmRzsoVM",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hawkscay.com/"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Virgin Hotels Edinburgh\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Virgin Hotels Edinburgh Preferred Hotels & Resorts Hotel\", \"Virgin Hotels Edinburgh Preferred Hotels & Resorts Resort\", \"Virgin Hotels Edinburgh Preferred Hotels & Resorts\", \"Virgin Hotels Edinburgh Preferred Hotels & Resorts Edinburgh, Scotland Hotel\", \"Virgin Hotels Edinburgh Preferred Hotels & Resorts Edinburgh, Scotland Resort\", \"Virgin Hotels Edinburgh Preferred Hotels & Resorts Edinburgh, Scotland\", \"Virgin Hotels Edinburgh Hilton Hotel\", \"Virgin Hotels Edinburgh Hilton Resort\", \"Virgin Hotels Edinburgh Hilton\", \"Virgin Hotels Edinburgh Hilton Edinburgh, Scotland Hotel\", \"Virgin Hotels Edinburgh Hilton Edinburgh, Scotland Resort\", \"Virgin Hotels Edinburgh Hilton Edinburgh, Scotland\", \"Virgin Hotels Edinburgh Hotel\", \"Virgin Hotels Edinburgh Resort\", \"Virgin Hotels Edinburgh\", \"Virgin Hotels Edinburgh Edinburgh, Scotland Hotel\", \"Virgin Hotels Edinburgh Edinburgh, Scotland Resort\", \"Virgin Hotels Edinburgh Edinburgh, Scotland\"], \"v\": 3}": {
