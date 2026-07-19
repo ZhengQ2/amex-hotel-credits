@@ -33998,48 +33998,6 @@
       "website": "https://thejuntohotel.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
     }
   },
-  "{\"brand\": \"Makeready\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Clayton Hotel Members Club Makeready Hotel\", \"Clayton Hotel Members Club Makeready Resort\", \"Clayton Hotel Members Club Makeready\", \"Clayton Hotel Members Club Makeready Denver, Colorado US Hotel\", \"Clayton Hotel Members Club Makeready Denver, Colorado US Resort\", \"Clayton Hotel Members Club Makeready Denver, Colorado US\", \"Clayton Hotel Members Club Hilton Hotel\", \"Clayton Hotel Members Club Hilton Resort\", \"Clayton Hotel Members Club Hilton\", \"Clayton Hotel Members Club Hilton Denver, Colorado US Hotel\", \"Clayton Hotel Members Club Hilton Denver, Colorado US Resort\", \"Clayton Hotel Members Club Hilton Denver, Colorado US\", \"Clayton Hotel and Members Club Makeready Hotel\", \"Clayton Hotel and Members Club Makeready Resort\", \"Clayton Hotel and Members Club Makeready\", \"Clayton Hotel and Members Club Makeready Denver, Colorado US Hotel\", \"Clayton Hotel and Members Club Makeready Denver, Colorado US Resort\", \"Clayton Hotel and Members Club Makeready Denver, Colorado US\", \"Clayton Hotel and Members Club Hilton Hotel\", \"Clayton Hotel and Members Club Hilton Resort\", \"Clayton Hotel and Members Club Hilton\", \"Clayton Hotel and Members Club Hilton Denver, Colorado US Hotel\", \"Clayton Hotel and Members Club Hilton Denver, Colorado US Resort\", \"Clayton Hotel and Members Club Hilton Denver, Colorado US\", \"Clayton Hotel and Members Club Hotel\", \"Clayton Hotel and Members Club Resort\", \"Clayton Hotel and Members Club\", \"Clayton Hotel and Members Club Denver, Colorado US Hotel\", \"Clayton Hotel and Members Club Denver, Colorado US Resort\", \"Clayton Hotel and Members Club Denver, Colorado US\"], \"v\": 3}": {
-    "lat": 39.7203064,
-    "lon": -104.9561798,
-    "formatted_address": "233 Clayton St, Denver, CO 80206, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ53STNcd_bIcRLrum86VKCyY",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "233 Clayton St, Denver, CO 80206, USA",
-      "geometry": {
-        "location": {
-          "lat": 39.7203064,
-          "lng": -104.9561798
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 39.72161618029149,
-            "lng": -104.9546681697085
-          },
-          "southwest": {
-            "lat": 39.71891821970849,
-            "lng": -104.9573661302915
-          }
-        }
-      },
-      "name": "Clayton Hotel & Members Club",
-      "place_id": "ChIJ53STNcd_bIcRLrum86VKCyY",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://claytondenver.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
-    }
-  },
   "{\"brand\": \"Makeready\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Halcyon a Hotel In Cherry Creek Makeready Hotel\", \"Halcyon a Hotel In Cherry Creek Makeready Resort\", \"Halcyon a Hotel In Cherry Creek Makeready\", \"Halcyon a Hotel In Cherry Creek Makeready Denver, Colorado US Hotel\", \"Halcyon a Hotel In Cherry Creek Makeready Denver, Colorado US Resort\", \"Halcyon a Hotel In Cherry Creek Makeready Denver, Colorado US\", \"Halcyon a Hotel In Cherry Creek Hilton Hotel\", \"Halcyon a Hotel In Cherry Creek Hilton Resort\", \"Halcyon a Hotel In Cherry Creek Hilton\", \"Halcyon a Hotel In Cherry Creek Hilton Denver, Colorado US Hotel\", \"Halcyon a Hotel In Cherry Creek Hilton Denver, Colorado US Resort\", \"Halcyon a Hotel In Cherry Creek Hilton Denver, Colorado US\", \"Halcyon, a hotel in Cherry Creek Makeready Hotel\", \"Halcyon, a hotel in Cherry Creek Makeready Resort\", \"Halcyon, a hotel in Cherry Creek Makeready\", \"Halcyon, a hotel in Cherry Creek Makeready Denver, Colorado US Hotel\", \"Halcyon, a hotel in Cherry Creek Makeready Denver, Colorado US Resort\", \"Halcyon, a hotel in Cherry Creek Makeready Denver, Colorado US\", \"Halcyon, a hotel in Cherry Creek Hilton Hotel\", \"Halcyon, a hotel in Cherry Creek Hilton Resort\", \"Halcyon, a hotel in Cherry Creek Hilton\", \"Halcyon, a hotel in Cherry Creek Hilton Denver, Colorado US Hotel\", \"Halcyon, a hotel in Cherry Creek Hilton Denver, Colorado US Resort\", \"Halcyon, a hotel in Cherry Creek Hilton Denver, Colorado US\", \"Halcyon, a hotel in Cherry Creek Hotel\", \"Halcyon, a hotel in Cherry Creek Resort\", \"Halcyon, a hotel in Cherry Creek\", \"Halcyon, a hotel in Cherry Creek Denver, Colorado US Hotel\", \"Halcyon, a hotel in Cherry Creek Denver, Colorado US Resort\", \"Halcyon, a hotel in Cherry Creek Denver, Colorado US\"], \"v\": 3}": {
     "lat": 39.7203341,
     "lon": -104.9573003,
@@ -73462,48 +73420,6 @@
   },
   "{\"brand\": \"LXR Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sandblu Santorini, LXR Hotels & Resorts LXR Hotels & Resorts Hotel\", \"Sandblu Santorini, LXR Hotels & Resorts LXR Hotels & Resorts Resort\", \"Sandblu Santorini, LXR Hotels & Resorts LXR Hotels & Resorts\", \"Sandblu Santorini, LXR Hotels & Resorts LXR Hotels & Resorts Kamari, Greece Hotel\", \"Sandblu Santorini, LXR Hotels & Resorts LXR Hotels & Resorts Kamari, Greece Resort\", \"Sandblu Santorini, LXR Hotels & Resorts LXR Hotels & Resorts Kamari, Greece\", \"Sandblu Santorini, LXR Hotels & Resorts Hilton Hotel\", \"Sandblu Santorini, LXR Hotels & Resorts Hilton Resort\", \"Sandblu Santorini, LXR Hotels & Resorts Hilton\", \"Sandblu Santorini, LXR Hotels & Resorts Hilton Kamari, Greece Hotel\", \"Sandblu Santorini, LXR Hotels & Resorts Hilton Kamari, Greece Resort\", \"Sandblu Santorini, LXR Hotels & Resorts Hilton Kamari, Greece\", \"Sandblu Santorini Lxr Hotels Resorts LXR Hotels & Resorts Hotel\", \"Sandblu Santorini Lxr Hotels Resorts LXR Hotels & Resorts Resort\", \"Sandblu Santorini Lxr Hotels Resorts LXR Hotels & Resorts\", \"Sandblu Santorini Lxr Hotels Resorts LXR Hotels & Resorts Kamari, Greece Hotel\", \"Sandblu Santorini Lxr Hotels Resorts LXR Hotels & Resorts Kamari, Greece Resort\", \"Sandblu Santorini Lxr Hotels Resorts LXR Hotels & Resorts Kamari, Greece\", \"Sandblu Santorini Lxr Hotels Resorts Hilton Hotel\", \"Sandblu Santorini Lxr Hotels Resorts Hilton Resort\", \"Sandblu Santorini Lxr Hotels Resorts Hilton\", \"Sandblu Santorini Lxr Hotels Resorts Hilton Kamari, Greece Hotel\", \"Sandblu Santorini Lxr Hotels Resorts Hilton Kamari, Greece Resort\", \"Sandblu Santorini Lxr Hotels Resorts Hilton Kamari, Greece\", \"Sandblu Santorini, LXR Hotels & Resorts Hotel\", \"Sandblu Santorini, LXR Hotels & Resorts Resort\", \"Sandblu Santorini, LXR Hotels & Resorts\", \"Sandblu Santorini, LXR Hotels & Resorts Kamari, Greece Hotel\", \"Sandblu Santorini, LXR Hotels & Resorts Kamari, Greece Resort\", \"Sandblu Santorini, LXR Hotels & Resorts Kamari, Greece\"], \"v\": 3}": {
     "status": "NO_RESULT"
-  },
-  "{\"brand\": \"Makeready\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Clayton Hotel and Members Club Makeready Hotel\", \"Clayton Hotel and Members Club Makeready Resort\", \"Clayton Hotel and Members Club Makeready\", \"Clayton Hotel and Members Club Makeready Denver, Colorado US Hotel\", \"Clayton Hotel and Members Club Makeready Denver, Colorado US Resort\", \"Clayton Hotel and Members Club Makeready Denver, Colorado US\", \"Clayton Hotel and Members Club Hilton Hotel\", \"Clayton Hotel and Members Club Hilton Resort\", \"Clayton Hotel and Members Club Hilton\", \"Clayton Hotel and Members Club Hilton Denver, Colorado US Hotel\", \"Clayton Hotel and Members Club Hilton Denver, Colorado US Resort\", \"Clayton Hotel and Members Club Hilton Denver, Colorado US\", \"Clayton Hotel Members Club Makeready Hotel\", \"Clayton Hotel Members Club Makeready Resort\", \"Clayton Hotel Members Club Makeready\", \"Clayton Hotel Members Club Makeready Denver, Colorado US Hotel\", \"Clayton Hotel Members Club Makeready Denver, Colorado US Resort\", \"Clayton Hotel Members Club Makeready Denver, Colorado US\", \"Clayton Hotel Members Club Hilton Hotel\", \"Clayton Hotel Members Club Hilton Resort\", \"Clayton Hotel Members Club Hilton\", \"Clayton Hotel Members Club Hilton Denver, Colorado US Hotel\", \"Clayton Hotel Members Club Hilton Denver, Colorado US Resort\", \"Clayton Hotel Members Club Hilton Denver, Colorado US\", \"Clayton Hotel and Members Club Hotel\", \"Clayton Hotel and Members Club Resort\", \"Clayton Hotel and Members Club\", \"Clayton Hotel and Members Club Denver, Colorado US Hotel\", \"Clayton Hotel and Members Club Denver, Colorado US Resort\", \"Clayton Hotel and Members Club Denver, Colorado US\"], \"v\": 3}": {
-    "lat": 39.7203064,
-    "lon": -104.9561798,
-    "formatted_address": "233 Clayton St, Denver, CO 80206, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ53STNcd_bIcRLrum86VKCyY",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "233 Clayton St, Denver, CO 80206, USA",
-      "geometry": {
-        "location": {
-          "lat": 39.7203064,
-          "lng": -104.9561798
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 39.72161618029149,
-            "lng": -104.9546681697085
-          },
-          "southwest": {
-            "lat": 39.71891821970849,
-            "lng": -104.9573661302915
-          }
-        }
-      },
-      "name": "Clayton Hotel & Members Club",
-      "place_id": "ChIJ53STNcd_bIcRLrum86VKCyY",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://claytondenver.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
-    }
   },
   "{\"brand\": \"Makeready\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Halcyon, a hotel in Cherry Creek Makeready Hotel\", \"Halcyon, a hotel in Cherry Creek Makeready Resort\", \"Halcyon, a hotel in Cherry Creek Makeready\", \"Halcyon, a hotel in Cherry Creek Makeready Denver, Colorado US Hotel\", \"Halcyon, a hotel in Cherry Creek Makeready Denver, Colorado US Resort\", \"Halcyon, a hotel in Cherry Creek Makeready Denver, Colorado US\", \"Halcyon, a hotel in Cherry Creek Hilton Hotel\", \"Halcyon, a hotel in Cherry Creek Hilton Resort\", \"Halcyon, a hotel in Cherry Creek Hilton\", \"Halcyon, a hotel in Cherry Creek Hilton Denver, Colorado US Hotel\", \"Halcyon, a hotel in Cherry Creek Hilton Denver, Colorado US Resort\", \"Halcyon, a hotel in Cherry Creek Hilton Denver, Colorado US\", \"Halcyon a Hotel In Cherry Creek Makeready Hotel\", \"Halcyon a Hotel In Cherry Creek Makeready Resort\", \"Halcyon a Hotel In Cherry Creek Makeready\", \"Halcyon a Hotel In Cherry Creek Makeready Denver, Colorado US Hotel\", \"Halcyon a Hotel In Cherry Creek Makeready Denver, Colorado US Resort\", \"Halcyon a Hotel In Cherry Creek Makeready Denver, Colorado US\", \"Halcyon a Hotel In Cherry Creek Hilton Hotel\", \"Halcyon a Hotel In Cherry Creek Hilton Resort\", \"Halcyon a Hotel In Cherry Creek Hilton\", \"Halcyon a Hotel In Cherry Creek Hilton Denver, Colorado US Hotel\", \"Halcyon a Hotel In Cherry Creek Hilton Denver, Colorado US Resort\", \"Halcyon a Hotel In Cherry Creek Hilton Denver, Colorado US\", \"Halcyon, a hotel in Cherry Creek Hotel\", \"Halcyon, a hotel in Cherry Creek Resort\", \"Halcyon, a hotel in Cherry Creek\", \"Halcyon, a hotel in Cherry Creek Denver, Colorado US Hotel\", \"Halcyon, a hotel in Cherry Creek Denver, Colorado US Resort\", \"Halcyon, a hotel in Cherry Creek Denver, Colorado US\"], \"v\": 3}": {
     "lat": 39.7203341,
@@ -125682,48 +125598,6 @@
       "website": "https://thejuntohotel.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Clayton Hotel and Members Club\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Clayton Hotel and Members Club Makeready Hotel\", \"Clayton Hotel and Members Club Makeready Resort\", \"Clayton Hotel and Members Club Makeready\", \"Clayton Hotel and Members Club Makeready Denver, Colorado US Hotel\", \"Clayton Hotel and Members Club Makeready Denver, Colorado US Resort\", \"Clayton Hotel and Members Club Makeready Denver, Colorado US\", \"Clayton Hotel and Members Club Hilton Hotel\", \"Clayton Hotel and Members Club Hilton Resort\", \"Clayton Hotel and Members Club Hilton\", \"Clayton Hotel and Members Club Hilton Denver, Colorado US Hotel\", \"Clayton Hotel and Members Club Hilton Denver, Colorado US Resort\", \"Clayton Hotel and Members Club Hilton Denver, Colorado US\", \"Clayton Hotel Members Club Makeready Hotel\", \"Clayton Hotel Members Club Makeready Resort\", \"Clayton Hotel Members Club Makeready\", \"Clayton Hotel Members Club Makeready Denver, Colorado US Hotel\", \"Clayton Hotel Members Club Makeready Denver, Colorado US Resort\", \"Clayton Hotel Members Club Makeready Denver, Colorado US\", \"Clayton Hotel Members Club Hilton Hotel\", \"Clayton Hotel Members Club Hilton Resort\", \"Clayton Hotel Members Club Hilton\", \"Clayton Hotel Members Club Hilton Denver, Colorado US Hotel\", \"Clayton Hotel Members Club Hilton Denver, Colorado US Resort\", \"Clayton Hotel Members Club Hilton Denver, Colorado US\", \"Clayton Hotel and Members Club Hotel\", \"Clayton Hotel and Members Club Resort\", \"Clayton Hotel and Members Club\", \"Clayton Hotel and Members Club Denver, Colorado US Hotel\", \"Clayton Hotel and Members Club Denver, Colorado US Resort\", \"Clayton Hotel and Members Club Denver, Colorado US\"], \"v\": 3}": {
-    "lat": 39.7203064,
-    "lon": -104.9561798,
-    "formatted_address": "233 Clayton St, Denver, CO 80206, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ53STNcd_bIcRLrum86VKCyY",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "233 Clayton St, Denver, CO 80206, USA",
-      "geometry": {
-        "location": {
-          "lat": 39.7203064,
-          "lng": -104.9561798
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 39.72161618029149,
-            "lng": -104.9546681697085
-          },
-          "southwest": {
-            "lat": 39.71891821970849,
-            "lng": -104.9573661302915
-          }
-        }
-      },
-      "name": "Clayton Hotel & Members Club",
-      "place_id": "ChIJ53STNcd_bIcRLrum86VKCyY",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://claytondenver.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Halcyon, a hotel in Cherry Creek\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Halcyon, a hotel in Cherry Creek Makeready Hotel\", \"Halcyon, a hotel in Cherry Creek Makeready Resort\", \"Halcyon, a hotel in Cherry Creek Makeready\", \"Halcyon, a hotel in Cherry Creek Makeready Denver, Colorado US Hotel\", \"Halcyon, a hotel in Cherry Creek Makeready Denver, Colorado US Resort\", \"Halcyon, a hotel in Cherry Creek Makeready Denver, Colorado US\", \"Halcyon, a hotel in Cherry Creek Hilton Hotel\", \"Halcyon, a hotel in Cherry Creek Hilton Resort\", \"Halcyon, a hotel in Cherry Creek Hilton\", \"Halcyon, a hotel in Cherry Creek Hilton Denver, Colorado US Hotel\", \"Halcyon, a hotel in Cherry Creek Hilton Denver, Colorado US Resort\", \"Halcyon, a hotel in Cherry Creek Hilton Denver, Colorado US\", \"Halcyon a Hotel In Cherry Creek Makeready Hotel\", \"Halcyon a Hotel In Cherry Creek Makeready Resort\", \"Halcyon a Hotel In Cherry Creek Makeready\", \"Halcyon a Hotel In Cherry Creek Makeready Denver, Colorado US Hotel\", \"Halcyon a Hotel In Cherry Creek Makeready Denver, Colorado US Resort\", \"Halcyon a Hotel In Cherry Creek Makeready Denver, Colorado US\", \"Halcyon a Hotel In Cherry Creek Hilton Hotel\", \"Halcyon a Hotel In Cherry Creek Hilton Resort\", \"Halcyon a Hotel In Cherry Creek Hilton\", \"Halcyon a Hotel In Cherry Creek Hilton Denver, Colorado US Hotel\", \"Halcyon a Hotel In Cherry Creek Hilton Denver, Colorado US Resort\", \"Halcyon a Hotel In Cherry Creek Hilton Denver, Colorado US\", \"Halcyon, a hotel in Cherry Creek Hotel\", \"Halcyon, a hotel in Cherry Creek Resort\", \"Halcyon, a hotel in Cherry Creek\", \"Halcyon, a hotel in Cherry Creek Denver, Colorado US Hotel\", \"Halcyon, a hotel in Cherry Creek Denver, Colorado US Resort\", \"Halcyon, a hotel in Cherry Creek Denver, Colorado US\"], \"v\": 3}": {
     "lat": 39.7203341,
     "lon": -104.9573003,
@@ -155640,6 +155514,91 @@
         "point_of_interest"
       ],
       "website": "https://www.lioraestatehotel.com/?utm_source=local&utm_medium=organic&utm_campaign=website_link"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Clayton Hotel & Members Club - Cherry Creek, Denver\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Clayton Hotel & Members Club - Cherry Creek, Denver\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Clayton Hotel & Members Club - Cherry Creek, Denver\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Clayton Hotel & Members Club - Cherry Creek, Denver Makeready Hotel\", \"Clayton Hotel & Members Club - Cherry Creek, Denver Makeready Resort\", \"Clayton Hotel & Members Club - Cherry Creek, Denver Makeready\", \"Clayton Hotel & Members Club - Cherry Creek, Denver Makeready Denver, Colorado US Hotel\", \"Clayton Hotel & Members Club - Cherry Creek, Denver Makeready Denver, Colorado US Resort\", \"Clayton Hotel & Members Club - Cherry Creek, Denver Makeready Denver, Colorado US\", \"Clayton Hotel & Members Club - Cherry Creek, Denver Hilton Hotel\", \"Clayton Hotel & Members Club - Cherry Creek, Denver Hilton Resort\", \"Clayton Hotel & Members Club - Cherry Creek, Denver Hilton\", \"Clayton Hotel & Members Club - Cherry Creek, Denver Hilton Denver, Colorado US Hotel\", \"Clayton Hotel & Members Club - Cherry Creek, Denver Hilton Denver, Colorado US Resort\", \"Clayton Hotel & Members Club - Cherry Creek, Denver Hilton Denver, Colorado US\", \"Clayton Hotel Members Club Cherry Creek Denver Makeready Hotel\", \"Clayton Hotel Members Club Cherry Creek Denver Makeready Resort\", \"Clayton Hotel Members Club Cherry Creek Denver Makeready\", \"Clayton Hotel Members Club Cherry Creek Denver Makeready Denver, Colorado US Hotel\", \"Clayton Hotel Members Club Cherry Creek Denver Makeready Denver, Colorado US Resort\", \"Clayton Hotel Members Club Cherry Creek Denver Makeready Denver, Colorado US\", \"Clayton Hotel Members Club Cherry Creek Denver Hilton Hotel\", \"Clayton Hotel Members Club Cherry Creek Denver Hilton Resort\", \"Clayton Hotel Members Club Cherry Creek Denver Hilton\", \"Clayton Hotel Members Club Cherry Creek Denver Hilton Denver, Colorado US Hotel\", \"Clayton Hotel Members Club Cherry Creek Denver Hilton Denver, Colorado US Resort\", \"Clayton Hotel Members Club Cherry Creek Denver Hilton Denver, Colorado US\", \"Clayton Hotel & Members Club - Cherry Creek, Denver Hotel\", \"Clayton Hotel & Members Club - Cherry Creek, Denver Resort\", \"Clayton Hotel & Members Club - Cherry Creek, Denver\", \"Clayton Hotel & Members Club - Cherry Creek, Denver Denver, Colorado US Hotel\", \"Clayton Hotel & Members Club - Cherry Creek, Denver Denver, Colorado US Resort\", \"Clayton Hotel & Members Club - Cherry Creek, Denver Denver, Colorado US\"], \"v\": 3}": {
+    "lat": 39.7203064,
+    "lon": -104.9561798,
+    "formatted_address": "233 Clayton St, Denver, CO 80206, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ53STNcd_bIcRLrum86VKCyY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "233 Clayton St, Denver, CO 80206, USA",
+      "geometry": {
+        "location": {
+          "lat": 39.7203064,
+          "lng": -104.9561798
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.72161618029149,
+            "lng": -104.9546681697085
+          },
+          "southwest": {
+            "lat": 39.71891821970849,
+            "lng": -104.9573661302915
+          }
+        }
+      },
+      "name": "Clayton Hotel & Members Club - Cherry Creek, Denver",
+      "place_id": "ChIJ53STNcd_bIcRLrum86VKCyY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://claytondenver.com/?y_source=1_MjA3MzA1MDk1Mi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Halcyon, a hotel in Cherry Creek, Denver\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Halcyon, a hotel in Cherry Creek, Denver Makeready Hotel\", \"Halcyon, a hotel in Cherry Creek, Denver Makeready Resort\", \"Halcyon, a hotel in Cherry Creek, Denver Makeready\", \"Halcyon, a hotel in Cherry Creek, Denver Makeready Denver, Colorado US Hotel\", \"Halcyon, a hotel in Cherry Creek, Denver Makeready Denver, Colorado US Resort\", \"Halcyon, a hotel in Cherry Creek, Denver Makeready Denver, Colorado US\", \"Halcyon, a hotel in Cherry Creek, Denver Hilton Hotel\", \"Halcyon, a hotel in Cherry Creek, Denver Hilton Resort\", \"Halcyon, a hotel in Cherry Creek, Denver Hilton\", \"Halcyon, a hotel in Cherry Creek, Denver Hilton Denver, Colorado US Hotel\", \"Halcyon, a hotel in Cherry Creek, Denver Hilton Denver, Colorado US Resort\", \"Halcyon, a hotel in Cherry Creek, Denver Hilton Denver, Colorado US\", \"Halcyon a Hotel In Cherry Creek Denver Makeready Hotel\", \"Halcyon a Hotel In Cherry Creek Denver Makeready Resort\", \"Halcyon a Hotel In Cherry Creek Denver Makeready\", \"Halcyon a Hotel In Cherry Creek Denver Makeready Denver, Colorado US Hotel\", \"Halcyon a Hotel In Cherry Creek Denver Makeready Denver, Colorado US Resort\", \"Halcyon a Hotel In Cherry Creek Denver Makeready Denver, Colorado US\", \"Halcyon a Hotel In Cherry Creek Denver Hilton Hotel\", \"Halcyon a Hotel In Cherry Creek Denver Hilton Resort\", \"Halcyon a Hotel In Cherry Creek Denver Hilton\", \"Halcyon a Hotel In Cherry Creek Denver Hilton Denver, Colorado US Hotel\", \"Halcyon a Hotel In Cherry Creek Denver Hilton Denver, Colorado US Resort\", \"Halcyon a Hotel In Cherry Creek Denver Hilton Denver, Colorado US\", \"Halcyon, a hotel in Cherry Creek, Denver Hotel\", \"Halcyon, a hotel in Cherry Creek, Denver Resort\", \"Halcyon, a hotel in Cherry Creek, Denver\", \"Halcyon, a hotel in Cherry Creek, Denver Denver, Colorado US Hotel\", \"Halcyon, a hotel in Cherry Creek, Denver Denver, Colorado US Resort\", \"Halcyon, a hotel in Cherry Creek, Denver Denver, Colorado US\"], \"v\": 3}": {
+    "lat": 39.7203341,
+    "lon": -104.9573003,
+    "formatted_address": "245 Columbine St, Denver, CO 80206, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJJ2qBw5V-bIcRNiFnEsf004A",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "245 Columbine St, Denver, CO 80206, USA",
+      "geometry": {
+        "location": {
+          "lat": 39.7203341,
+          "lng": -104.9573003
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.7216981302915,
+            "lng": -104.9558204697085
+          },
+          "southwest": {
+            "lat": 39.7190001697085,
+            "lng": -104.9585184302915
+          }
+        }
+      },
+      "name": "Halcyon, a hotel in Cherry Creek",
+      "place_id": "ChIJJ2qBw5V-bIcRNiFnEsf004A",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.halcyonhotelcherrycreek.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
     }
   }
 }
