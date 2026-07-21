@@ -140501,12 +140501,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Antonio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Antonio Small Luxury Hotels of the World Hotel\", \"San Antonio Small Luxury Hotels of the World Resort\", \"San Antonio Small Luxury Hotels of the World\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Hotel\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Resort\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece\", \"San Antonio Hilton Hotel\", \"San Antonio Hilton Resort\", \"San Antonio Hilton\", \"San Antonio Hilton Imerovigli, Greece Hotel\", \"San Antonio Hilton Imerovigli, Greece Resort\", \"San Antonio Hilton Imerovigli, Greece\", \"San Antonio Hotel\", \"San Antonio Resort\", \"San Antonio\", \"San Antonio Imerovigli, Greece Hotel\", \"San Antonio Imerovigli, Greece Resort\", \"San Antonio Imerovigli, Greece\"], \"v\": 3}": {
-    "lat": 29.4219268,
-    "lon": -98.4843688,
-    "formatted_address": "600 E Market St, San Antonio, TX 78205, USA",
+    "lat": 29.6663753,
+    "lon": -98.4008875,
+    "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJy6ciXqpYXIYRo5XoO_IClA8",
+    "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
     "types": [
       "establishment",
       "lodging",
@@ -140515,31 +140515,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "600 E Market St, San Antonio, TX 78205, USA",
+      "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
       "geometry": {
         "location": {
-          "lat": 29.4219268,
-          "lng": -98.4843688
+          "lat": 29.6663753,
+          "lng": -98.4008875
         },
         "viewport": {
           "northeast": {
-            "lat": 29.4234292302915,
-            "lng": -98.48268751970849
+            "lat": 29.6677274302915,
+            "lng": -98.39953276970849
           },
           "southwest": {
-            "lat": 29.4207312697085,
-            "lng": -98.48538548029151
+            "lat": 29.6650294697085,
+            "lng": -98.40223073029149
           }
         }
       },
-      "name": "Grand Hyatt San Antonio River Walk",
-      "place_id": "ChIJy6ciXqpYXIYRo5XoO_IClA8",
+      "name": "JW Marriott San Antonio Hill Country Resort & Spa",
+      "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hyatt.com/grand-hyatt/en-US/satgh-grand-hyatt-san-antonio-river-walk?src=corp_lclb_google_seo_satgh&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+      "website": "https://www.marriott.com/en-us/hotels/satjw-jw-marriott-san-antonio-hill-country-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rusty Parrot Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
@@ -155599,6 +155599,133 @@
         "point_of_interest"
       ],
       "website": "https://www.halcyonhotelcherrycreek.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Windjammer Landing Resort & Residences\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Windjammer Landing Resort & Residences\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Alma San Juan, Puerto Rico, Autograph Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Alma San Juan, Puerto Rico, Autograph Collection Autograph Collection Hotels Hotel\", \"Alma San Juan, Puerto Rico, Autograph Collection Autograph Collection Hotels Resort\", \"Alma San Juan, Puerto Rico, Autograph Collection Autograph Collection Hotels\", \"Alma San Juan, Puerto Rico, Autograph Collection Autograph Collection Hotels San Juan, Puerto Rico Hotel\", \"Alma San Juan, Puerto Rico, Autograph Collection Autograph Collection Hotels San Juan, Puerto Rico Resort\", \"Alma San Juan, Puerto Rico, Autograph Collection Autograph Collection Hotels San Juan, Puerto Rico\", \"Alma San Juan, Puerto Rico, Autograph Collection Hilton Hotel\", \"Alma San Juan, Puerto Rico, Autograph Collection Hilton Resort\", \"Alma San Juan, Puerto Rico, Autograph Collection Hilton\", \"Alma San Juan, Puerto Rico, Autograph Collection Hilton San Juan, Puerto Rico Hotel\", \"Alma San Juan, Puerto Rico, Autograph Collection Hilton San Juan, Puerto Rico Resort\", \"Alma San Juan, Puerto Rico, Autograph Collection Hilton San Juan, Puerto Rico\", \"Alma San Juan Puerto Rico Autograph Collection Autograph Collection Hotels Hotel\", \"Alma San Juan Puerto Rico Autograph Collection Autograph Collection Hotels Resort\", \"Alma San Juan Puerto Rico Autograph Collection Autograph Collection Hotels\", \"Alma San Juan Puerto Rico Autograph Collection Autograph Collection Hotels San Juan, Puerto Rico Hotel\", \"Alma San Juan Puerto Rico Autograph Collection Autograph Collection Hotels San Juan, Puerto Rico Resort\", \"Alma San Juan Puerto Rico Autograph Collection Autograph Collection Hotels San Juan, Puerto Rico\", \"Alma San Juan Puerto Rico Autograph Collection Hilton Hotel\", \"Alma San Juan Puerto Rico Autograph Collection Hilton Resort\", \"Alma San Juan Puerto Rico Autograph Collection Hilton\", \"Alma San Juan Puerto Rico Autograph Collection Hilton San Juan, Puerto Rico Hotel\", \"Alma San Juan Puerto Rico Autograph Collection Hilton San Juan, Puerto Rico Resort\", \"Alma San Juan Puerto Rico Autograph Collection Hilton San Juan, Puerto Rico\", \"Alma San Juan, Puerto Rico, Autograph Collection Hotel\", \"Alma San Juan, Puerto Rico, Autograph Collection Resort\", \"Alma San Juan, Puerto Rico, Autograph Collection\", \"Alma San Juan, Puerto Rico, Autograph Collection San Juan, Puerto Rico Hotel\", \"Alma San Juan, Puerto Rico, Autograph Collection San Juan, Puerto Rico Resort\", \"Alma San Juan, Puerto Rico, Autograph Collection San Juan, Puerto Rico\"], \"v\": 3}": {
+    "lat": 18.4665774,
+    "lon": -66.1122283,
+    "formatted_address": "405 C. de San Francisco, San Juan, 00901, Puerto Rico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJRSFgkfBvA4wR_Ym2t6ienLY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "405 C. de San Francisco, San Juan, 00901, Puerto Rico",
+      "geometry": {
+        "location": {
+          "lat": 18.4665774,
+          "lng": -66.1122283
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 18.4678622802915,
+            "lng": -66.1108832697085
+          },
+          "southwest": {
+            "lat": 18.4651643197085,
+            "lng": -66.1135812302915
+          }
+        }
+      },
+      "name": "Alma San Juan",
+      "place_id": "ChIJRSFgkfBvA4wR_Ym2t6ienLY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/sjuao-alma-san-juan-puerto-rico-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Nemi, Milan, A Tribute Portfolio Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Nemi, Milan, A Tribute Portfolio Hotel Marriott Hotel\", \"Nemi, Milan, A Tribute Portfolio Hotel Marriott Resort\", \"Nemi, Milan, A Tribute Portfolio Hotel Marriott\", \"Nemi, Milan, A Tribute Portfolio Hotel Marriott Milan, Italy Hotel\", \"Nemi, Milan, A Tribute Portfolio Hotel Marriott Milan, Italy Resort\", \"Nemi, Milan, A Tribute Portfolio Hotel Marriott Milan, Italy\", \"Nemi, Milan, A Tribute Portfolio Hotel Hilton Hotel\", \"Nemi, Milan, A Tribute Portfolio Hotel Hilton Resort\", \"Nemi, Milan, A Tribute Portfolio Hotel Hilton\", \"Nemi, Milan, A Tribute Portfolio Hotel Hilton Milan, Italy Hotel\", \"Nemi, Milan, A Tribute Portfolio Hotel Hilton Milan, Italy Resort\", \"Nemi, Milan, A Tribute Portfolio Hotel Hilton Milan, Italy\", \"Nemi Milan A Tribute Portfolio Hotel Marriott Hotel\", \"Nemi Milan A Tribute Portfolio Hotel Marriott Resort\", \"Nemi Milan A Tribute Portfolio Hotel Marriott\", \"Nemi Milan A Tribute Portfolio Hotel Marriott Milan, Italy Hotel\", \"Nemi Milan A Tribute Portfolio Hotel Marriott Milan, Italy Resort\", \"Nemi Milan A Tribute Portfolio Hotel Marriott Milan, Italy\", \"Nemi Milan A Tribute Portfolio Hotel Hilton Hotel\", \"Nemi Milan A Tribute Portfolio Hotel Hilton Resort\", \"Nemi Milan A Tribute Portfolio Hotel Hilton\", \"Nemi Milan A Tribute Portfolio Hotel Hilton Milan, Italy Hotel\", \"Nemi Milan A Tribute Portfolio Hotel Hilton Milan, Italy Resort\", \"Nemi Milan A Tribute Portfolio Hotel Hilton Milan, Italy\", \"Nemi, Milan, A Tribute Portfolio Hotel Hotel\", \"Nemi, Milan, A Tribute Portfolio Hotel Resort\", \"Nemi, Milan, A Tribute Portfolio Hotel\", \"Nemi, Milan, A Tribute Portfolio Hotel Milan, Italy Hotel\", \"Nemi, Milan, A Tribute Portfolio Hotel Milan, Italy Resort\", \"Nemi, Milan, A Tribute Portfolio Hotel Milan, Italy\"], \"v\": 3}": {
+    "lat": 45.463988,
+    "lon": 9.208947,
+    "formatted_address": "Via Benvenuto Cellini, 14, 20129 Milano MI, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJxWdXWpjGhkcR8gEEghhN2aM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Benvenuto Cellini, 14, 20129 Milano MI, Italy",
+      "geometry": {
+        "location": {
+          "lat": 45.463988,
+          "lng": 9.208947
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.4653523802915,
+            "lng": 9.210231230291503
+          },
+          "southwest": {
+            "lat": 45.4626544197085,
+            "lng": 9.207533269708499
+          }
+        }
+      },
+      "name": "NEMI, Milan, a Tribute Portfolio Hotel",
+      "place_id": "ChIJxWdXWpjGhkcR8gEEghhN2aM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/milnt-nemi-milan-a-tribute-portfolio-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Windjammer Landing Resort & Residences\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Windjammer Landing Resort & Residences The Leading Hotels of the World Hotel\", \"Windjammer Landing Resort & Residences The Leading Hotels of the World Resort\", \"Windjammer Landing Resort & Residences The Leading Hotels of the World\", \"Windjammer Landing Resort & Residences The Leading Hotels of the World Castries, Saint Lucia Hotel\", \"Windjammer Landing Resort & Residences The Leading Hotels of the World Castries, Saint Lucia Resort\", \"Windjammer Landing Resort & Residences The Leading Hotels of the World Castries, Saint Lucia\", \"Windjammer Landing Resort & Residences Hilton Hotel\", \"Windjammer Landing Resort & Residences Hilton Resort\", \"Windjammer Landing Resort & Residences Hilton\", \"Windjammer Landing Resort & Residences Hilton Castries, Saint Lucia Hotel\", \"Windjammer Landing Resort & Residences Hilton Castries, Saint Lucia Resort\", \"Windjammer Landing Resort & Residences Hilton Castries, Saint Lucia\", \"Windjammer Landing Resort Residences The Leading Hotels of the World Hotel\", \"Windjammer Landing Resort Residences The Leading Hotels of the World Resort\", \"Windjammer Landing Resort Residences The Leading Hotels of the World\", \"Windjammer Landing Resort Residences The Leading Hotels of the World Castries, Saint Lucia Hotel\", \"Windjammer Landing Resort Residences The Leading Hotels of the World Castries, Saint Lucia Resort\", \"Windjammer Landing Resort Residences The Leading Hotels of the World Castries, Saint Lucia\", \"Windjammer Landing Resort Residences Hilton Hotel\", \"Windjammer Landing Resort Residences Hilton Resort\", \"Windjammer Landing Resort Residences Hilton\", \"Windjammer Landing Resort Residences Hilton Castries, Saint Lucia Hotel\", \"Windjammer Landing Resort Residences Hilton Castries, Saint Lucia Resort\", \"Windjammer Landing Resort Residences Hilton Castries, Saint Lucia\", \"Windjammer Landing Resort & Residences Hotel\", \"Windjammer Landing Resort & Residences Resort\", \"Windjammer Landing Resort & Residences\", \"Windjammer Landing Resort & Residences Castries, Saint Lucia Hotel\", \"Windjammer Landing Resort & Residences Castries, Saint Lucia Resort\", \"Windjammer Landing Resort & Residences Castries, Saint Lucia\"], \"v\": 3}": {
+    "lat": 14.0590096,
+    "lon": -60.9741993,
+    "formatted_address": "1504, Labrelotte Bay, St Lucia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ61G-cBRoQIwRUHTtBQPFLAg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1504, Labrelotte Bay, St Lucia",
+      "geometry": {
+        "location": {
+          "lat": 14.0590096,
+          "lng": -60.9741993
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 14.0603640802915,
+            "lng": -60.97284536970849
+          },
+          "southwest": {
+            "lat": 14.0576661197085,
+            "lng": -60.9755433302915
+          }
+        }
+      },
+      "name": "Windjammer Landing Resort and Residences",
+      "place_id": "ChIJ61G-cBRoQIwRUHTtBQPFLAg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.windjammer-landing.com/?utm_source=googlelisting&utm_medium=organic"
     }
   }
 }
