@@ -90423,48 +90423,6 @@
       "website": "https://www.hyatt.com/destination-by-hyatt/en-US/oggal-hana-maui-resort?src=corp_lclb_google_seo_oggal&utm_source=google&utm_medium=organic&utm_campaign=lmr"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"SIRO Boka Place Hotel\", \"SIRO Boka Place Resort\", \"SIRO Boka Place\", \"SIRO Boka Place Tivat, Montenegro Hotel\", \"SIRO Boka Place Tivat, Montenegro Resort\", \"SIRO Boka Place Tivat, Montenegro\", \"Siro Boka Place Hotel\", \"Siro Boka Place Resort\", \"Siro Boka Place\", \"Siro Boka Place Tivat, Montenegro Hotel\", \"Siro Boka Place Tivat, Montenegro Resort\", \"Siro Boka Place Tivat, Montenegro\"], \"v\": 3}": {
-    "lat": 42.4382406,
-    "lon": 18.6956781,
-    "formatted_address": "Jadranska magistrala, Tivat, Montenegro",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJlR-kSbMxTBMRoBc3OCNEMxA",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Jadranska magistrala, Tivat, Montenegro",
-      "geometry": {
-        "location": {
-          "lat": 42.4382406,
-          "lng": 18.6956781
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 42.4396740802915,
-            "lng": 18.6971765302915
-          },
-          "southwest": {
-            "lat": 42.4369761197085,
-            "lng": 18.6944785697085
-          }
-        }
-      },
-      "name": "SIRO Boka Place",
-      "place_id": "ChIJlR-kSbMxTBMRoBc3OCNEMxA",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.sirohotels.com/montenegro/boka-place?utm_medium=organic-search&utm_source=gbp&utm_campaign=gbp_ao_y_sbp_row_wt__ao__kz&utm_content=__&utm_term=gbp&utm_id=n81pr0"
-    }
-  },
   "{\"brand\": \"21c Museum Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"21c Museum Hotel Louisville 21c Museum Hotels Hotel\", \"21c Museum Hotel Louisville 21c Museum Hotels Resort\", \"21c Museum Hotel Louisville 21c Museum Hotels\", \"21c Museum Hotel Louisville 21c Museum Hotels Louisville, Kentucky US Hotel\", \"21c Museum Hotel Louisville 21c Museum Hotels Louisville, Kentucky US Resort\", \"21c Museum Hotel Louisville 21c Museum Hotels Louisville, Kentucky US\", \"21c Museum Hotel Louisville Hilton Hotel\", \"21c Museum Hotel Louisville Hilton Resort\", \"21c Museum Hotel Louisville Hilton\", \"21c Museum Hotel Louisville Hilton Louisville, Kentucky US Hotel\", \"21c Museum Hotel Louisville Hilton Louisville, Kentucky US Resort\", \"21c Museum Hotel Louisville Hilton Louisville, Kentucky US\", \"21c Museum Hotel Louisville Hotel\", \"21c Museum Hotel Louisville Resort\", \"21c Museum Hotel Louisville\", \"21c Museum Hotel Louisville Louisville, Kentucky US Hotel\", \"21c Museum Hotel Louisville Louisville, Kentucky US Resort\", \"21c Museum Hotel Louisville Louisville, Kentucky US\"], \"v\": 3}": {
     "lat": 38.2567999,
     "lon": -85.7619155,
@@ -99944,48 +99902,6 @@
         "point_of_interest"
       ],
       "website": "https://www.treehousehotels.com/silicon-valley?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"SIRO Boka Place\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"SIRO Boka Place Hotel\", \"SIRO Boka Place Resort\", \"SIRO Boka Place\", \"SIRO Boka Place Tivat, Montenegro Hotel\", \"SIRO Boka Place Tivat, Montenegro Resort\", \"SIRO Boka Place Tivat, Montenegro\", \"Siro Boka Place Hotel\", \"Siro Boka Place Resort\", \"Siro Boka Place\", \"Siro Boka Place Tivat, Montenegro Hotel\", \"Siro Boka Place Tivat, Montenegro Resort\", \"Siro Boka Place Tivat, Montenegro\"], \"v\": 3}": {
-    "lat": 42.4382406,
-    "lon": 18.6956781,
-    "formatted_address": "Jadranska magistrala, Tivat, Montenegro",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJlR-kSbMxTBMRoBc3OCNEMxA",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Jadranska magistrala, Tivat, Montenegro",
-      "geometry": {
-        "location": {
-          "lat": 42.4382406,
-          "lng": 18.6956781
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 42.4396740802915,
-            "lng": 18.6971765302915
-          },
-          "southwest": {
-            "lat": 42.4369761197085,
-            "lng": 18.6944785697085
-          }
-        }
-      },
-      "name": "SIRO Boka Place",
-      "place_id": "ChIJlR-kSbMxTBMRoBc3OCNEMxA",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.sirohotels.com/montenegro/boka-place?utm_medium=organic-search&utm_source=gbp&utm_campaign=gbp_ao_y_sbp_row_wt__ao__kz&utm_content=__&utm_term=gbp&utm_id=n81pr0"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Le Germain Hotel Toronto Mercer\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Le Germain Hotel Toronto Mercer Hotel\", \"Le Germain Hotel Toronto Mercer Resort\", \"Le Germain Hotel Toronto Mercer\", \"Le Germain Hotel Toronto Mercer Toronto, Ontario CA Hotel\", \"Le Germain Hotel Toronto Mercer Toronto, Ontario CA Resort\", \"Le Germain Hotel Toronto Mercer Toronto, Ontario CA\"], \"v\": 3}": {
@@ -140501,12 +140417,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Antonio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Antonio Small Luxury Hotels of the World Hotel\", \"San Antonio Small Luxury Hotels of the World Resort\", \"San Antonio Small Luxury Hotels of the World\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Hotel\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece Resort\", \"San Antonio Small Luxury Hotels of the World Imerovigli, Greece\", \"San Antonio Hilton Hotel\", \"San Antonio Hilton Resort\", \"San Antonio Hilton\", \"San Antonio Hilton Imerovigli, Greece Hotel\", \"San Antonio Hilton Imerovigli, Greece Resort\", \"San Antonio Hilton Imerovigli, Greece\", \"San Antonio Hotel\", \"San Antonio Resort\", \"San Antonio\", \"San Antonio Imerovigli, Greece Hotel\", \"San Antonio Imerovigli, Greece Resort\", \"San Antonio Imerovigli, Greece\"], \"v\": 3}": {
-    "lat": 29.6663753,
-    "lon": -98.4008875,
-    "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
+    "lat": 29.4274372,
+    "lon": -98.48950160000001,
+    "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
+    "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
     "types": [
       "establishment",
       "lodging",
@@ -140515,31 +140431,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "23808 Resort Pkwy, San Antonio, TX 78261, USA",
+      "formatted_address": "300 E Travis St, San Antonio, TX 78205, USA",
       "geometry": {
         "location": {
-          "lat": 29.6663753,
-          "lng": -98.4008875
+          "lat": 29.4274372,
+          "lng": -98.48950160000001
         },
         "viewport": {
           "northeast": {
-            "lat": 29.6677274302915,
-            "lng": -98.39953276970849
+            "lat": 29.4288418802915,
+            "lng": -98.4880995197085
           },
           "southwest": {
-            "lat": 29.6650294697085,
-            "lng": -98.40223073029149
+            "lat": 29.4261439197085,
+            "lng": -98.4907974802915
           }
         }
       },
-      "name": "JW Marriott San Antonio Hill Country Resort & Spa",
-      "place_id": "ChIJCSJ-DNSIXIYRg1iKmBOCzDA",
+      "name": "The St. Anthony, a Luxury Collection Hotel, San Antonio",
+      "place_id": "ChIJYZ1VfVNfXIYRBPzhpCTxRgI",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.marriott.com/en-us/hotels/satjw-jw-marriott-san-antonio-hill-country-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+      "website": "https://www.marriott.com/en-us/hotels/satlc-the-st-anthony-a-luxury-collection-hotel-san-antonio/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rusty Parrot Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
@@ -155726,6 +155642,49 @@
         "point_of_interest"
       ],
       "website": "https://www.windjammer-landing.com/?utm_source=googlelisting&utm_medium=organic"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"SIRO Porto Montenegro\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"SIRO Porto Montenegro\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"SIRO Porto Montenegro\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"SIRO Porto Montenegro Hotel\", \"SIRO Porto Montenegro Resort\", \"SIRO Porto Montenegro\", \"SIRO Porto Montenegro Tivat, Montenegro Hotel\", \"SIRO Porto Montenegro Tivat, Montenegro Resort\", \"SIRO Porto Montenegro Tivat, Montenegro\", \"Siro Porto Montenegro Hotel\", \"Siro Porto Montenegro Resort\", \"Siro Porto Montenegro\", \"Siro Porto Montenegro Tivat, Montenegro Hotel\", \"Siro Porto Montenegro Tivat, Montenegro Resort\", \"Siro Porto Montenegro Tivat, Montenegro\"], \"v\": 3}": {
+    "lat": 42.4382406,
+    "lon": 18.6956781,
+    "formatted_address": "Jadranska magistrala, Tivat, Montenegro",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJlR-kSbMxTBMRoBc3OCNEMxA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Jadranska magistrala, Tivat, Montenegro",
+      "geometry": {
+        "location": {
+          "lat": 42.4382406,
+          "lng": 18.6956781
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.4396740802915,
+            "lng": 18.6971765302915
+          },
+          "southwest": {
+            "lat": 42.4369761197085,
+            "lng": 18.6944785697085
+          }
+        }
+      },
+      "name": "SIRO Porto Montenegro",
+      "place_id": "ChIJlR-kSbMxTBMRoBc3OCNEMxA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.sirohotels.com/montenegro/porto-montenegro?utm_medium=organic-search&utm_source=gbp&utm_campaign=gbp_ao_y_sro_pri-mkt_sec-mkt_wt__gen__kz&utm_content=__&utm_term=&utm_id=s92ap2"
     }
   }
 }
