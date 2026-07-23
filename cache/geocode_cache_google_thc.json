@@ -155686,5 +155686,218 @@
       ],
       "website": "https://www.sirohotels.com/montenegro/porto-montenegro?utm_medium=organic-search&utm_source=gbp&utm_campaign=gbp_ao_y_sro_pri-mkt_sec-mkt_wt__gen__kz&utm_content=__&utm_term=&utm_id=s92ap2"
     }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Inn on Biltmore Estate\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Inn on Biltmore Estate\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Inn on Biltmore Estate\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Inn on Biltmore Estate Hotel\", \"The Inn on Biltmore Estate Resort\", \"The Inn on Biltmore Estate\", \"The Inn on Biltmore Estate Asheville, North Carolina US Hotel\", \"The Inn on Biltmore Estate Asheville, North Carolina US Resort\", \"The Inn on Biltmore Estate Asheville, North Carolina US\", \"Inn On Biltmore Estate Hotel\", \"Inn On Biltmore Estate Resort\", \"Inn On Biltmore Estate\", \"Inn On Biltmore Estate Asheville, North Carolina US Hotel\", \"Inn On Biltmore Estate Asheville, North Carolina US Resort\", \"Inn On Biltmore Estate Asheville, North Carolina US\"], \"v\": 3}": {
+    "lat": 35.5577866,
+    "lon": -82.5805968,
+    "formatted_address": "1 Antler Hill Rd, Asheville, NC 28803, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ2xdFCt-MWYgRJI2WpgFUK0Q",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1 Antler Hill Rd, Asheville, NC 28803, USA",
+      "geometry": {
+        "location": {
+          "lat": 35.5577866,
+          "lng": -82.5805968
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.5592901802915,
+            "lng": -82.5793278697085
+          },
+          "southwest": {
+            "lat": 35.5565922197085,
+            "lng": -82.5820258302915
+          }
+        }
+      },
+      "name": "The Inn on Biltmore Estate",
+      "place_id": "ChIJ2xdFCt-MWYgRJI2WpgFUK0Q",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.biltmore.com/stay"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Signia by Hilton Diplomat Beach Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Signia by Hilton Diplomat Beach Resort Signia by Hilton Hotel\", \"Signia by Hilton Diplomat Beach Resort Signia by Hilton Resort\", \"Signia by Hilton Diplomat Beach Resort Signia by Hilton\", \"Signia by Hilton Diplomat Beach Resort Signia by Hilton Hollywood, Florida US Hotel\", \"Signia by Hilton Diplomat Beach Resort Signia by Hilton Hollywood, Florida US Resort\", \"Signia by Hilton Diplomat Beach Resort Signia by Hilton Hollywood, Florida US\", \"Signia by Hilton Diplomat Beach Resort Hilton Hotel\", \"Signia by Hilton Diplomat Beach Resort Hilton Resort\", \"Signia by Hilton Diplomat Beach Resort Hilton\", \"Signia by Hilton Diplomat Beach Resort Hilton Hollywood, Florida US Hotel\", \"Signia by Hilton Diplomat Beach Resort Hilton Hollywood, Florida US Resort\", \"Signia by Hilton Diplomat Beach Resort Hilton Hollywood, Florida US\", \"Signia Hilton Diplomat Beach Resort Signia by Hilton Hotel\", \"Signia Hilton Diplomat Beach Resort Signia by Hilton Resort\", \"Signia Hilton Diplomat Beach Resort Signia by Hilton\", \"Signia Hilton Diplomat Beach Resort Signia by Hilton Hollywood, Florida US Hotel\", \"Signia Hilton Diplomat Beach Resort Signia by Hilton Hollywood, Florida US Resort\", \"Signia Hilton Diplomat Beach Resort Signia by Hilton Hollywood, Florida US\", \"Signia Hilton Diplomat Beach Resort Hilton Hotel\", \"Signia Hilton Diplomat Beach Resort Hilton Resort\", \"Signia Hilton Diplomat Beach Resort Hilton\", \"Signia Hilton Diplomat Beach Resort Hilton Hollywood, Florida US Hotel\", \"Signia Hilton Diplomat Beach Resort Hilton Hollywood, Florida US Resort\", \"Signia Hilton Diplomat Beach Resort Hilton Hollywood, Florida US\", \"Signia by Hilton Diplomat Beach Resort Hotel\", \"Signia by Hilton Diplomat Beach Resort Resort\", \"Signia by Hilton Diplomat Beach Resort\", \"Signia by Hilton Diplomat Beach Resort Hollywood, Florida US Hotel\", \"Signia by Hilton Diplomat Beach Resort Hollywood, Florida US Resort\", \"Signia by Hilton Diplomat Beach Resort Hollywood, Florida US\"], \"v\": 3}": {
+    "lat": 25.9916936,
+    "lon": -80.1179417,
+    "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJdegypsir2YgRhe4rbEB80oU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
+      "geometry": {
+        "location": {
+          "lat": 25.9916936,
+          "lng": -80.1179417
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.9930086802915,
+            "lng": -80.1168308697085
+          },
+          "southwest": {
+            "lat": 25.9903107197085,
+            "lng": -80.1195288302915
+          }
+        }
+      },
+      "name": "Signia by Hilton Diplomat Beach Resort",
+      "place_id": "ChIJdegypsir2YgRhe4rbEB80oU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/flldhsa-signia-diplomat-beach-resort/?SEO_id=GMB-AMER-SA-FLLDHSA"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Signia by Hilton Orlando Bonnet Creek\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Signia by Hilton Orlando Bonnet Creek Signia by Hilton Hotel\", \"Signia by Hilton Orlando Bonnet Creek Signia by Hilton Resort\", \"Signia by Hilton Orlando Bonnet Creek Signia by Hilton\", \"Signia by Hilton Orlando Bonnet Creek Signia by Hilton Orlando, Florida US Hotel\", \"Signia by Hilton Orlando Bonnet Creek Signia by Hilton Orlando, Florida US Resort\", \"Signia by Hilton Orlando Bonnet Creek Signia by Hilton Orlando, Florida US\", \"Signia by Hilton Orlando Bonnet Creek Hilton Hotel\", \"Signia by Hilton Orlando Bonnet Creek Hilton Resort\", \"Signia by Hilton Orlando Bonnet Creek Hilton\", \"Signia by Hilton Orlando Bonnet Creek Hilton Orlando, Florida US Hotel\", \"Signia by Hilton Orlando Bonnet Creek Hilton Orlando, Florida US Resort\", \"Signia by Hilton Orlando Bonnet Creek Hilton Orlando, Florida US\", \"Signia Hilton Orlando Bonnet Creek Signia by Hilton Hotel\", \"Signia Hilton Orlando Bonnet Creek Signia by Hilton Resort\", \"Signia Hilton Orlando Bonnet Creek Signia by Hilton\", \"Signia Hilton Orlando Bonnet Creek Signia by Hilton Orlando, Florida US Hotel\", \"Signia Hilton Orlando Bonnet Creek Signia by Hilton Orlando, Florida US Resort\", \"Signia Hilton Orlando Bonnet Creek Signia by Hilton Orlando, Florida US\", \"Signia Hilton Orlando Bonnet Creek Hilton Hotel\", \"Signia Hilton Orlando Bonnet Creek Hilton Resort\", \"Signia Hilton Orlando Bonnet Creek Hilton\", \"Signia Hilton Orlando Bonnet Creek Hilton Orlando, Florida US Hotel\", \"Signia Hilton Orlando Bonnet Creek Hilton Orlando, Florida US Resort\", \"Signia Hilton Orlando Bonnet Creek Hilton Orlando, Florida US\", \"Signia by Hilton Orlando Bonnet Creek Hotel\", \"Signia by Hilton Orlando Bonnet Creek Resort\", \"Signia by Hilton Orlando Bonnet Creek\", \"Signia by Hilton Orlando Bonnet Creek Orlando, Florida US Hotel\", \"Signia by Hilton Orlando Bonnet Creek Orlando, Florida US Resort\", \"Signia by Hilton Orlando Bonnet Creek Orlando, Florida US\"], \"v\": 3}": {
+    "lat": 28.3558228,
+    "lon": -81.5347968,
+    "formatted_address": "14100 Bonnet Creek Resort Ln, Orlando, FL 32821, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJObirUnJ_3YgRgKoJdbtSzWQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "14100 Bonnet Creek Resort Ln, Orlando, FL 32821, USA",
+      "geometry": {
+        "location": {
+          "lat": 28.3558228,
+          "lng": -81.5347968
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 28.3572224302915,
+            "lng": -81.5333198197085
+          },
+          "southwest": {
+            "lat": 28.3545244697085,
+            "lng": -81.5360177802915
+          }
+        }
+      },
+      "name": "Signia by Hilton Orlando - An Official Walt Disney World Hotel",
+      "place_id": "ChIJObirUnJ_3YgRgKoJdbtSzWQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/orlhhsa-signia-by-hilton-orlando-bonnet-creek/?SEO_id=GMB-AMER-SA-ORLHHSA&y_source=1_MTIyMDc5MC03MTUtbG9jYXRpb24ud2Vic2l0ZQ=="
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Signia by Hilton La Cantera Resort & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Signia by Hilton La Cantera Resort & Spa Signia by Hilton Hotel\", \"Signia by Hilton La Cantera Resort & Spa Signia by Hilton Resort\", \"Signia by Hilton La Cantera Resort & Spa Signia by Hilton\", \"Signia by Hilton La Cantera Resort & Spa Signia by Hilton San Antonio, Texas US Hotel\", \"Signia by Hilton La Cantera Resort & Spa Signia by Hilton San Antonio, Texas US Resort\", \"Signia by Hilton La Cantera Resort & Spa Signia by Hilton San Antonio, Texas US\", \"Signia by Hilton La Cantera Resort & Spa Hilton Hotel\", \"Signia by Hilton La Cantera Resort & Spa Hilton Resort\", \"Signia by Hilton La Cantera Resort & Spa Hilton\", \"Signia by Hilton La Cantera Resort & Spa Hilton San Antonio, Texas US Hotel\", \"Signia by Hilton La Cantera Resort & Spa Hilton San Antonio, Texas US Resort\", \"Signia by Hilton La Cantera Resort & Spa Hilton San Antonio, Texas US\", \"Signia Hilton La Cantera Resort Spa Signia by Hilton Hotel\", \"Signia Hilton La Cantera Resort Spa Signia by Hilton Resort\", \"Signia Hilton La Cantera Resort Spa Signia by Hilton\", \"Signia Hilton La Cantera Resort Spa Signia by Hilton San Antonio, Texas US Hotel\", \"Signia Hilton La Cantera Resort Spa Signia by Hilton San Antonio, Texas US Resort\", \"Signia Hilton La Cantera Resort Spa Signia by Hilton San Antonio, Texas US\", \"Signia Hilton La Cantera Resort Spa Hilton Hotel\", \"Signia Hilton La Cantera Resort Spa Hilton Resort\", \"Signia Hilton La Cantera Resort Spa Hilton\", \"Signia Hilton La Cantera Resort Spa Hilton San Antonio, Texas US Hotel\", \"Signia Hilton La Cantera Resort Spa Hilton San Antonio, Texas US Resort\", \"Signia Hilton La Cantera Resort Spa Hilton San Antonio, Texas US\", \"Signia by Hilton La Cantera Resort & Spa Hotel\", \"Signia by Hilton La Cantera Resort & Spa Resort\", \"Signia by Hilton La Cantera Resort & Spa\", \"Signia by Hilton La Cantera Resort & Spa San Antonio, Texas US Hotel\", \"Signia by Hilton La Cantera Resort & Spa San Antonio, Texas US Resort\", \"Signia by Hilton La Cantera Resort & Spa San Antonio, Texas US\"], \"v\": 3}": {
+    "lat": 29.6028861,
+    "lon": -98.6224536,
+    "formatted_address": "16641 La Cantera Pkwy, San Antonio, TX 78256, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ9ectyNVlXIYR3JGJAHxo5rE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "16641 La Cantera Pkwy, San Antonio, TX 78256, USA",
+      "geometry": {
+        "location": {
+          "lat": 29.6028861,
+          "lng": -98.6224536
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 29.60457753029151,
+            "lng": -98.62075811970848
+          },
+          "southwest": {
+            "lat": 29.60187956970851,
+            "lng": -98.6234560802915
+          }
+        }
+      },
+      "name": "Signia by Hilton La Cantera Resort & Spa",
+      "place_id": "ChIJ9ectyNVlXIYR3JGJAHxo5rE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/satcnsa-signia-la-cantera-resort-and-spa/?SEO_id=GMB-AMER-SA-SATCNSA&y_source=1_MjAxOTUxNjg0OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Signia by Hilton San Jose\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Signia by Hilton San Jose Signia by Hilton Hotel\", \"Signia by Hilton San Jose Signia by Hilton Resort\", \"Signia by Hilton San Jose Signia by Hilton\", \"Signia by Hilton San Jose Signia by Hilton San Jose, California US Hotel\", \"Signia by Hilton San Jose Signia by Hilton San Jose, California US Resort\", \"Signia by Hilton San Jose Signia by Hilton San Jose, California US\", \"Signia by Hilton San Jose Hilton Hotel\", \"Signia by Hilton San Jose Hilton Resort\", \"Signia by Hilton San Jose Hilton\", \"Signia by Hilton San Jose Hilton San Jose, California US Hotel\", \"Signia by Hilton San Jose Hilton San Jose, California US Resort\", \"Signia by Hilton San Jose Hilton San Jose, California US\", \"Signia Hilton San Jose Signia by Hilton Hotel\", \"Signia Hilton San Jose Signia by Hilton Resort\", \"Signia Hilton San Jose Signia by Hilton\", \"Signia Hilton San Jose Signia by Hilton San Jose, California US Hotel\", \"Signia Hilton San Jose Signia by Hilton San Jose, California US Resort\", \"Signia Hilton San Jose Signia by Hilton San Jose, California US\", \"Signia Hilton San Jose Hilton Hotel\", \"Signia Hilton San Jose Hilton Resort\", \"Signia Hilton San Jose Hilton\", \"Signia Hilton San Jose Hilton San Jose, California US Hotel\", \"Signia Hilton San Jose Hilton San Jose, California US Resort\", \"Signia Hilton San Jose Hilton San Jose, California US\", \"Signia by Hilton San Jose Hotel\", \"Signia by Hilton San Jose Resort\", \"Signia by Hilton San Jose\", \"Signia by Hilton San Jose San Jose, California US Hotel\", \"Signia by Hilton San Jose San Jose, California US Resort\", \"Signia by Hilton San Jose San Jose, California US\"], \"v\": 3}": {
+    "lat": 37.3328802,
+    "lon": -121.8893056,
+    "formatted_address": "170 S Market St, San Jose, CA 95113, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJTaXXJLvMj4AR17y9GP41Dkc",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "170 S Market St, San Jose, CA 95113, USA",
+      "geometry": {
+        "location": {
+          "lat": 37.3328802,
+          "lng": -121.8893056
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.33417468029149,
+            "lng": -121.8881019197085
+          },
+          "southwest": {
+            "lat": 37.33147671970849,
+            "lng": -121.8907998802915
+          }
+        }
+      },
+      "name": "Signia by Hilton San Jose",
+      "place_id": "ChIJTaXXJLvMj4AR17y9GP41Dkc",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/sjcsmsa-signia-san-jose/?SEO_id=GMB-AMER-SA-SJCSMSA&y_source=1_MjkxMDY1OTktNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
   }
 }

@@ -129202,12 +129202,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 29.76149999999999,
-    "lon": -95.3648,
-    "formatted_address": "701 Texas Ave, Houston, TX 77002, USA",
+    "lat": 39.9927967,
+    "lon": -76.28769179999999,
+    "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJpXTqeDC_QIYRWTBSOg3rarM",
+    "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
     "types": [
       "establishment",
       "lodging",
@@ -129216,31 +129216,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "701 Texas Ave, Houston, TX 77002, USA",
+      "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
       "geometry": {
         "location": {
-          "lat": 29.76149999999999,
-          "lng": -95.3648
+          "lat": 39.9927967,
+          "lng": -76.28769179999999
         },
         "viewport": {
           "northeast": {
-            "lat": 29.7627978302915,
-            "lng": -95.36351171970851
+            "lat": 39.9940706302915,
+            "lng": -76.28663611970849
           },
           "southwest": {
-            "lat": 29.7600998697085,
-            "lng": -95.36620968029152
+            "lat": 39.9913726697085,
+            "lng": -76.2893340802915
           }
         }
       },
-      "name": "The Lancaster Hotel",
-      "place_id": "ChIJpXTqeDC_QIYRWTBSOg3rarM",
+      "name": "DoubleTree Resort by Hilton Hotel Lancaster",
+      "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://thelancaster.com/"
+      "website": "https://www.hilton.com/en/hotels/lnswvdt-doubletree-resort-lancaster/?SEO_id=GMB-AMER-DT-LNSWVDT"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -210989,6 +210989,217 @@
         "point_of_interest"
       ],
       "website": "https://www.hilton.com/en/hotels/helaihi-hilton-helsinki-airport/?SEO_id=GMB-EMEA-HI-HELAIHI"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"SKYLOFTS at MGM Grand\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"SKYLOFTS at MGM Grand\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Odera Tinos, Autograph Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Odera Tinos, Autograph Collection Autograph Collection Hotels Hotel\", \"Odera Tinos, Autograph Collection Autograph Collection Hotels Resort\", \"Odera Tinos, Autograph Collection Autograph Collection Hotels\", \"Odera Tinos, Autograph Collection Autograph Collection Hotels Tinos, Greece Hotel\", \"Odera Tinos, Autograph Collection Autograph Collection Hotels Tinos, Greece Resort\", \"Odera Tinos, Autograph Collection Autograph Collection Hotels Tinos, Greece\", \"Odera Tinos, Autograph Collection Hilton Hotel\", \"Odera Tinos, Autograph Collection Hilton Resort\", \"Odera Tinos, Autograph Collection Hilton\", \"Odera Tinos, Autograph Collection Hilton Tinos, Greece Hotel\", \"Odera Tinos, Autograph Collection Hilton Tinos, Greece Resort\", \"Odera Tinos, Autograph Collection Hilton Tinos, Greece\", \"Odera Tinos Autograph Collection Autograph Collection Hotels Hotel\", \"Odera Tinos Autograph Collection Autograph Collection Hotels Resort\", \"Odera Tinos Autograph Collection Autograph Collection Hotels\", \"Odera Tinos Autograph Collection Autograph Collection Hotels Tinos, Greece Hotel\", \"Odera Tinos Autograph Collection Autograph Collection Hotels Tinos, Greece Resort\", \"Odera Tinos Autograph Collection Autograph Collection Hotels Tinos, Greece\", \"Odera Tinos Autograph Collection Hilton Hotel\", \"Odera Tinos Autograph Collection Hilton Resort\", \"Odera Tinos Autograph Collection Hilton\", \"Odera Tinos Autograph Collection Hilton Tinos, Greece Hotel\", \"Odera Tinos Autograph Collection Hilton Tinos, Greece Resort\", \"Odera Tinos Autograph Collection Hilton Tinos, Greece\", \"Odera Tinos, Autograph Collection Hotel\", \"Odera Tinos, Autograph Collection Resort\", \"Odera Tinos, Autograph Collection\", \"Odera Tinos, Autograph Collection Tinos, Greece Hotel\", \"Odera Tinos, Autograph Collection Tinos, Greece Resort\", \"Odera Tinos, Autograph Collection Tinos, Greece\"], \"v\": 3}": {
+    "lat": 37.5523441,
+    "lon": 25.1211486,
+    "formatted_address": "Vourni beach, Tinos 842 00, Greece",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJm1pnfm_tohQRg0W_J8pmr4w",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Vourni beach, Tinos 842 00, Greece",
+      "geometry": {
+        "location": {
+          "lat": 37.5523441,
+          "lng": 25.1211486
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.5540068802915,
+            "lng": 25.12120713029151
+          },
+          "southwest": {
+            "lat": 37.5513089197085,
+            "lng": 25.1185091697085
+          }
+        }
+      },
+      "name": "Odera, Tinos, Autograph Collection",
+      "place_id": "ChIJm1pnfm_tohQRg0W_J8pmr4w",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/jmkti-odera-tinos-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"RiverPlace Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"RiverPlace Hotel CoralTree Hospitality Hotel\", \"RiverPlace Hotel CoralTree Hospitality Resort\", \"RiverPlace Hotel CoralTree Hospitality\", \"RiverPlace Hotel CoralTree Hospitality Portland, Oregon US Hotel\", \"RiverPlace Hotel CoralTree Hospitality Portland, Oregon US Resort\", \"RiverPlace Hotel CoralTree Hospitality Portland, Oregon US\", \"RiverPlace Hotel Hilton Hotel\", \"RiverPlace Hotel Hilton Resort\", \"RiverPlace Hotel Hilton\", \"RiverPlace Hotel Hilton Portland, Oregon US Hotel\", \"RiverPlace Hotel Hilton Portland, Oregon US Resort\", \"RiverPlace Hotel Hilton Portland, Oregon US\", \"Riverplace Hotel CoralTree Hospitality Hotel\", \"Riverplace Hotel CoralTree Hospitality Resort\", \"Riverplace Hotel CoralTree Hospitality\", \"Riverplace Hotel CoralTree Hospitality Portland, Oregon US Hotel\", \"Riverplace Hotel CoralTree Hospitality Portland, Oregon US Resort\", \"Riverplace Hotel CoralTree Hospitality Portland, Oregon US\", \"Riverplace Hotel Hilton Hotel\", \"Riverplace Hotel Hilton Resort\", \"Riverplace Hotel Hilton\", \"Riverplace Hotel Hilton Portland, Oregon US Hotel\", \"Riverplace Hotel Hilton Portland, Oregon US Resort\", \"Riverplace Hotel Hilton Portland, Oregon US\", \"RiverPlace Hotel Hotel\", \"RiverPlace Hotel Resort\", \"RiverPlace Hotel\", \"RiverPlace Hotel Portland, Oregon US Hotel\", \"RiverPlace Hotel Portland, Oregon US Resort\", \"RiverPlace Hotel Portland, Oregon US\"], \"v\": 3}": {
+    "lat": 45.5207857,
+    "lon": -122.6785139,
+    "formatted_address": "422 SW Broadway, Portland, OR 97205, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJRWPybAQKlVQR5n-bbuHT3FM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "422 SW Broadway, Portland, OR 97205, USA",
+      "geometry": {
+        "location": {
+          "lat": 45.5207857,
+          "lng": -122.6785139
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.5221790302915,
+            "lng": -122.6773169197085
+          },
+          "southwest": {
+            "lat": 45.5194810697085,
+            "lng": -122.6800148802915
+          }
+        }
+      },
+      "name": "Kimpton Hotel Vintage Portland",
+      "place_id": "ChIJRWPybAQKlVQR5n-bbuHT3FM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hotelvintage-portland.com/?&cm_mmc=WEB-_-KI-_-AMER-_-EN-_-EV-_-Google%20Business%20Profile-_-DD-_-vintage%20portland"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Aliee Istanbul - A Paris Society Collection Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aliee Istanbul - A Paris Society Collection Hotel Ennismore Hotel\", \"Aliee Istanbul - A Paris Society Collection Hotel Ennismore Resort\", \"Aliee Istanbul - A Paris Society Collection Hotel Ennismore\", \"Aliee Istanbul - A Paris Society Collection Hotel Ennismore Istanbul, Turkey Hotel\", \"Aliee Istanbul - A Paris Society Collection Hotel Ennismore Istanbul, Turkey Resort\", \"Aliee Istanbul - A Paris Society Collection Hotel Ennismore Istanbul, Turkey\", \"Aliee Istanbul - A Paris Society Collection Hotel Hilton Hotel\", \"Aliee Istanbul - A Paris Society Collection Hotel Hilton Resort\", \"Aliee Istanbul - A Paris Society Collection Hotel Hilton\", \"Aliee Istanbul - A Paris Society Collection Hotel Hilton Istanbul, Turkey Hotel\", \"Aliee Istanbul - A Paris Society Collection Hotel Hilton Istanbul, Turkey Resort\", \"Aliee Istanbul - A Paris Society Collection Hotel Hilton Istanbul, Turkey\", \"Aliee Istanbul A Paris Society Collection Hotel Ennismore Hotel\", \"Aliee Istanbul A Paris Society Collection Hotel Ennismore Resort\", \"Aliee Istanbul A Paris Society Collection Hotel Ennismore\", \"Aliee Istanbul A Paris Society Collection Hotel Ennismore Istanbul, Turkey Hotel\", \"Aliee Istanbul A Paris Society Collection Hotel Ennismore Istanbul, Turkey Resort\", \"Aliee Istanbul A Paris Society Collection Hotel Ennismore Istanbul, Turkey\", \"Aliee Istanbul A Paris Society Collection Hotel Hilton Hotel\", \"Aliee Istanbul A Paris Society Collection Hotel Hilton Resort\", \"Aliee Istanbul A Paris Society Collection Hotel Hilton\", \"Aliee Istanbul A Paris Society Collection Hotel Hilton Istanbul, Turkey Hotel\", \"Aliee Istanbul A Paris Society Collection Hotel Hilton Istanbul, Turkey Resort\", \"Aliee Istanbul A Paris Society Collection Hotel Hilton Istanbul, Turkey\", \"Aliee Istanbul - A Paris Society Collection Hotel Hotel\", \"Aliee Istanbul - A Paris Society Collection Hotel Resort\", \"Aliee Istanbul - A Paris Society Collection Hotel\", \"Aliee Istanbul - A Paris Society Collection Hotel Istanbul, Turkey Hotel\", \"Aliee Istanbul - A Paris Society Collection Hotel Istanbul, Turkey Resort\", \"Aliee Istanbul - A Paris Society Collection Hotel Istanbul, Turkey\"], \"v\": 3}": {
+    "lat": 41.0341765,
+    "lon": 28.9576444,
+    "formatted_address": "Camiikebir, Taşkızak Tersanesi Caddesi No:11-19, 34437 Beyoğlu/İstanbul, Türkiye",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJAZYD8YW5yhQR5_ttVyVxclA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Camiikebir, Taşkızak Tersanesi Caddesi No:11-19, 34437 Beyoğlu/İstanbul, Türkiye",
+      "geometry": {
+        "location": {
+          "lat": 41.0341765,
+          "lng": 28.9576444
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.03590123029149,
+            "lng": 28.95917328029149
+          },
+          "southwest": {
+            "lat": 41.03320326970849,
+            "lng": 28.9564753197085
+          }
+        }
+      },
+      "name": "Aliée Istanbul - A Paris Society Collection Hotel",
+      "place_id": "ChIJAZYD8YW5yhQR5_ttVyVxclA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://alieeistanbul.com/en"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"InterContinental Sydney Coogee Beach\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Sydney Coogee Beach IHG Hotels & Resorts Hotel\", \"InterContinental Sydney Coogee Beach IHG Hotels & Resorts Resort\", \"InterContinental Sydney Coogee Beach IHG Hotels & Resorts\", \"InterContinental Sydney Coogee Beach IHG Hotels & Resorts Sydney, Australia Hotel\", \"InterContinental Sydney Coogee Beach IHG Hotels & Resorts Sydney, Australia Resort\", \"InterContinental Sydney Coogee Beach IHG Hotels & Resorts Sydney, Australia\", \"InterContinental Sydney Coogee Beach Hilton Hotel\", \"InterContinental Sydney Coogee Beach Hilton Resort\", \"InterContinental Sydney Coogee Beach Hilton\", \"InterContinental Sydney Coogee Beach Hilton Sydney, Australia Hotel\", \"InterContinental Sydney Coogee Beach Hilton Sydney, Australia Resort\", \"InterContinental Sydney Coogee Beach Hilton Sydney, Australia\", \"Intercontinental Sydney Coogee Beach IHG Hotels & Resorts Hotel\", \"Intercontinental Sydney Coogee Beach IHG Hotels & Resorts Resort\", \"Intercontinental Sydney Coogee Beach IHG Hotels & Resorts\", \"Intercontinental Sydney Coogee Beach IHG Hotels & Resorts Sydney, Australia Hotel\", \"Intercontinental Sydney Coogee Beach IHG Hotels & Resorts Sydney, Australia Resort\", \"Intercontinental Sydney Coogee Beach IHG Hotels & Resorts Sydney, Australia\", \"Intercontinental Sydney Coogee Beach Hilton Hotel\", \"Intercontinental Sydney Coogee Beach Hilton Resort\", \"Intercontinental Sydney Coogee Beach Hilton\", \"Intercontinental Sydney Coogee Beach Hilton Sydney, Australia Hotel\", \"Intercontinental Sydney Coogee Beach Hilton Sydney, Australia Resort\", \"Intercontinental Sydney Coogee Beach Hilton Sydney, Australia\", \"InterContinental Sydney Coogee Beach Hotel\", \"InterContinental Sydney Coogee Beach Resort\", \"InterContinental Sydney Coogee Beach\", \"InterContinental Sydney Coogee Beach Sydney, Australia Hotel\", \"InterContinental Sydney Coogee Beach Sydney, Australia Resort\", \"InterContinental Sydney Coogee Beach Sydney, Australia\"], \"v\": 3}": {
+    "lat": -33.9225467,
+    "lon": 151.2559425,
+    "formatted_address": "242 Arden St, Coogee NSW 2034, Australia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJqaQc7z-yEmsRyiVMOspG64Q",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "242 Arden St, Coogee NSW 2034, Australia",
+      "geometry": {
+        "location": {
+          "lat": -33.9225467,
+          "lng": 151.2559425
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -33.9212819697085,
+            "lng": 151.2572175802915
+          },
+          "southwest": {
+            "lat": -33.9239799302915,
+            "lng": 151.2545196197085
+          }
+        }
+      },
+      "name": "InterContinental Sydney Coogee Beach by IHG",
+      "place_id": "ChIJqaQc7z-yEmsRyiVMOspG64Q",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ihg.com/intercontinental/hotels/us/en/sydney/sydcb/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-AU-_-SYDCB"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"SKYLOFTS at MGM Grand\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"SKYLOFTS at MGM Grand MGM Resorts International Hotel\", \"SKYLOFTS at MGM Grand MGM Resorts International Resort\", \"SKYLOFTS at MGM Grand MGM Resorts International\", \"SKYLOFTS at MGM Grand MGM Resorts International Las Vegas, Nevada US Hotel\", \"SKYLOFTS at MGM Grand MGM Resorts International Las Vegas, Nevada US Resort\", \"SKYLOFTS at MGM Grand MGM Resorts International Las Vegas, Nevada US\", \"SKYLOFTS at MGM Grand Hilton Hotel\", \"SKYLOFTS at MGM Grand Hilton Resort\", \"SKYLOFTS at MGM Grand Hilton\", \"SKYLOFTS at MGM Grand Hilton Las Vegas, Nevada US Hotel\", \"SKYLOFTS at MGM Grand Hilton Las Vegas, Nevada US Resort\", \"SKYLOFTS at MGM Grand Hilton Las Vegas, Nevada US\", \"Skylofts Mgm Grand MGM Resorts International Hotel\", \"Skylofts Mgm Grand MGM Resorts International Resort\", \"Skylofts Mgm Grand MGM Resorts International\", \"Skylofts Mgm Grand MGM Resorts International Las Vegas, Nevada US Hotel\", \"Skylofts Mgm Grand MGM Resorts International Las Vegas, Nevada US Resort\", \"Skylofts Mgm Grand MGM Resorts International Las Vegas, Nevada US\", \"Skylofts Mgm Grand Hilton Hotel\", \"Skylofts Mgm Grand Hilton Resort\", \"Skylofts Mgm Grand Hilton\", \"Skylofts Mgm Grand Hilton Las Vegas, Nevada US Hotel\", \"Skylofts Mgm Grand Hilton Las Vegas, Nevada US Resort\", \"Skylofts Mgm Grand Hilton Las Vegas, Nevada US\", \"SKYLOFTS at MGM Grand Hotel\", \"SKYLOFTS at MGM Grand Resort\", \"SKYLOFTS at MGM Grand\", \"SKYLOFTS at MGM Grand Las Vegas, Nevada US Hotel\", \"SKYLOFTS at MGM Grand Las Vegas, Nevada US Resort\", \"SKYLOFTS at MGM Grand Las Vegas, Nevada US\"], \"v\": 3}": {
+    "lat": 36.1021033,
+    "lon": -115.1703273,
+    "formatted_address": "MGM Grand, 3799 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJZ-93QcvFyIARRGDd3j_6XWw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "MGM Grand, 3799 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+      "geometry": {
+        "location": {
+          "lat": 36.1021033,
+          "lng": -115.1703273
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.10324798029149,
+            "lng": -115.1686503697085
+          },
+          "southwest": {
+            "lat": 36.1005500197085,
+            "lng": -115.1713483302915
+          }
+        }
+      },
+      "name": "Skylofts at MGM Grand",
+      "place_id": "ChIJZ-93QcvFyIARRGDd3j_6XWw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://mgmgrand.mgmresorts.com/en/hotel/skylofts-mgm-grand.html"
     }
   }
 }
