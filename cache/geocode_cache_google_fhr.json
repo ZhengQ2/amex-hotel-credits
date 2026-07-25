@@ -51450,48 +51450,6 @@
       "website": "https://marbella.nobuhotels.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
     }
   },
-  "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Malliouhana Resort Anguilla Small Luxury Hotels of the World Hotel\", \"Malliouhana Resort Anguilla Small Luxury Hotels of the World Resort\", \"Malliouhana Resort Anguilla Small Luxury Hotels of the World\", \"Malliouhana Resort Anguilla Small Luxury Hotels of the World Meads Bay, Anguilla Hotel\", \"Malliouhana Resort Anguilla Small Luxury Hotels of the World Meads Bay, Anguilla Resort\", \"Malliouhana Resort Anguilla Small Luxury Hotels of the World Meads Bay, Anguilla\", \"Malliouhana Resort Anguilla Hilton Hotel\", \"Malliouhana Resort Anguilla Hilton Resort\", \"Malliouhana Resort Anguilla Hilton\", \"Malliouhana Resort Anguilla Hilton Meads Bay, Anguilla Hotel\", \"Malliouhana Resort Anguilla Hilton Meads Bay, Anguilla Resort\", \"Malliouhana Resort Anguilla Hilton Meads Bay, Anguilla\", \"Malliouhana Resort Anguilla Hotel\", \"Malliouhana Resort Anguilla Resort\", \"Malliouhana Resort Anguilla\", \"Malliouhana Resort Anguilla Meads Bay, Anguilla Hotel\", \"Malliouhana Resort Anguilla Meads Bay, Anguilla Resort\", \"Malliouhana Resort Anguilla Meads Bay, Anguilla\"], \"v\": 3}": {
-    "lat": 18.1876457,
-    "lon": -63.134498,
-    "formatted_address": "Meads Bay, British West Indies 2640, Anguilla",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJoe4ZO8dmDowRV195Oc9dQ4g",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Meads Bay, British West Indies 2640, Anguilla",
-      "geometry": {
-        "location": {
-          "lat": 18.1876457,
-          "lng": -63.134498
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 18.1890151802915,
-            "lng": -63.1330548697085
-          },
-          "southwest": {
-            "lat": 18.1863172197085,
-            "lng": -63.13575283029151
-          }
-        }
-      },
-      "name": "Malliouhana",
-      "place_id": "ChIJoe4ZO8dmDowRV195Oc9dQ4g",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://malliouhana.com/"
-    }
-  },
   "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Hotel Victoria Concept Spa Small Luxury Hotels of the World Hotel\", \"Grand Hotel Victoria Concept Spa Small Luxury Hotels of the World Resort\", \"Grand Hotel Victoria Concept Spa Small Luxury Hotels of the World\", \"Grand Hotel Victoria Concept Spa Small Luxury Hotels of the World Menaggio, Italy Hotel\", \"Grand Hotel Victoria Concept Spa Small Luxury Hotels of the World Menaggio, Italy Resort\", \"Grand Hotel Victoria Concept Spa Small Luxury Hotels of the World Menaggio, Italy\", \"Grand Hotel Victoria Concept Spa Hilton Hotel\", \"Grand Hotel Victoria Concept Spa Hilton Resort\", \"Grand Hotel Victoria Concept Spa Hilton\", \"Grand Hotel Victoria Concept Spa Hilton Menaggio, Italy Hotel\", \"Grand Hotel Victoria Concept Spa Hilton Menaggio, Italy Resort\", \"Grand Hotel Victoria Concept Spa Hilton Menaggio, Italy\", \"Grand Hotel Victoria Concept & Spa Small Luxury Hotels of the World Hotel\", \"Grand Hotel Victoria Concept & Spa Small Luxury Hotels of the World Resort\", \"Grand Hotel Victoria Concept & Spa Small Luxury Hotels of the World\", \"Grand Hotel Victoria Concept & Spa Small Luxury Hotels of the World Menaggio, Italy Hotel\", \"Grand Hotel Victoria Concept & Spa Small Luxury Hotels of the World Menaggio, Italy Resort\", \"Grand Hotel Victoria Concept & Spa Small Luxury Hotels of the World Menaggio, Italy\", \"Grand Hotel Victoria Concept & Spa Hilton Hotel\", \"Grand Hotel Victoria Concept & Spa Hilton Resort\", \"Grand Hotel Victoria Concept & Spa Hilton\", \"Grand Hotel Victoria Concept & Spa Hilton Menaggio, Italy Hotel\", \"Grand Hotel Victoria Concept & Spa Hilton Menaggio, Italy Resort\", \"Grand Hotel Victoria Concept & Spa Hilton Menaggio, Italy\", \"Grand Hotel Victoria Concept & Spa Hotel\", \"Grand Hotel Victoria Concept & Spa Resort\", \"Grand Hotel Victoria Concept & Spa\", \"Grand Hotel Victoria Concept & Spa Menaggio, Italy Hotel\", \"Grand Hotel Victoria Concept & Spa Menaggio, Italy Resort\", \"Grand Hotel Victoria Concept & Spa Menaggio, Italy\"], \"v\": 3}": {
     "lat": 48.4205556,
     "lon": -123.3725,
@@ -178988,48 +178946,6 @@
       "website": "https://marbella.nobuhotels.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
     }
   },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Malliouhana Resort Anguilla\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Malliouhana Resort Anguilla Small Luxury Hotels of the World Hotel\", \"Malliouhana Resort Anguilla Small Luxury Hotels of the World Resort\", \"Malliouhana Resort Anguilla Small Luxury Hotels of the World\", \"Malliouhana Resort Anguilla Small Luxury Hotels of the World Meads Bay, Anguilla Hotel\", \"Malliouhana Resort Anguilla Small Luxury Hotels of the World Meads Bay, Anguilla Resort\", \"Malliouhana Resort Anguilla Small Luxury Hotels of the World Meads Bay, Anguilla\", \"Malliouhana Resort Anguilla Hilton Hotel\", \"Malliouhana Resort Anguilla Hilton Resort\", \"Malliouhana Resort Anguilla Hilton\", \"Malliouhana Resort Anguilla Hilton Meads Bay, Anguilla Hotel\", \"Malliouhana Resort Anguilla Hilton Meads Bay, Anguilla Resort\", \"Malliouhana Resort Anguilla Hilton Meads Bay, Anguilla\", \"Malliouhana Resort Anguilla Hotel\", \"Malliouhana Resort Anguilla Resort\", \"Malliouhana Resort Anguilla\", \"Malliouhana Resort Anguilla Meads Bay, Anguilla Hotel\", \"Malliouhana Resort Anguilla Meads Bay, Anguilla Resort\", \"Malliouhana Resort Anguilla Meads Bay, Anguilla\"], \"v\": 3}": {
-    "lat": 18.1876457,
-    "lon": -63.134498,
-    "formatted_address": "Meads Bay, British West Indies 2640, Anguilla",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJoe4ZO8dmDowRV195Oc9dQ4g",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Meads Bay, British West Indies 2640, Anguilla",
-      "geometry": {
-        "location": {
-          "lat": 18.1876457,
-          "lng": -63.134498
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 18.1890151802915,
-            "lng": -63.1330548697085
-          },
-          "southwest": {
-            "lat": 18.1863172197085,
-            "lng": -63.13575283029151
-          }
-        }
-      },
-      "name": "Malliouhana",
-      "place_id": "ChIJoe4ZO8dmDowRV195Oc9dQ4g",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://malliouhana.com/"
-    }
-  },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Grand Hotel Victoria Concept & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Hotel Victoria Concept & Spa Small Luxury Hotels of the World Hotel\", \"Grand Hotel Victoria Concept & Spa Small Luxury Hotels of the World Resort\", \"Grand Hotel Victoria Concept & Spa Small Luxury Hotels of the World\", \"Grand Hotel Victoria Concept & Spa Small Luxury Hotels of the World Menaggio, Italy Hotel\", \"Grand Hotel Victoria Concept & Spa Small Luxury Hotels of the World Menaggio, Italy Resort\", \"Grand Hotel Victoria Concept & Spa Small Luxury Hotels of the World Menaggio, Italy\", \"Grand Hotel Victoria Concept & Spa Hilton Hotel\", \"Grand Hotel Victoria Concept & Spa Hilton Resort\", \"Grand Hotel Victoria Concept & Spa Hilton\", \"Grand Hotel Victoria Concept & Spa Hilton Menaggio, Italy Hotel\", \"Grand Hotel Victoria Concept & Spa Hilton Menaggio, Italy Resort\", \"Grand Hotel Victoria Concept & Spa Hilton Menaggio, Italy\", \"Grand Hotel Victoria Concept Spa Small Luxury Hotels of the World Hotel\", \"Grand Hotel Victoria Concept Spa Small Luxury Hotels of the World Resort\", \"Grand Hotel Victoria Concept Spa Small Luxury Hotels of the World\", \"Grand Hotel Victoria Concept Spa Small Luxury Hotels of the World Menaggio, Italy Hotel\", \"Grand Hotel Victoria Concept Spa Small Luxury Hotels of the World Menaggio, Italy Resort\", \"Grand Hotel Victoria Concept Spa Small Luxury Hotels of the World Menaggio, Italy\", \"Grand Hotel Victoria Concept Spa Hilton Hotel\", \"Grand Hotel Victoria Concept Spa Hilton Resort\", \"Grand Hotel Victoria Concept Spa Hilton\", \"Grand Hotel Victoria Concept Spa Hilton Menaggio, Italy Hotel\", \"Grand Hotel Victoria Concept Spa Hilton Menaggio, Italy Resort\", \"Grand Hotel Victoria Concept Spa Hilton Menaggio, Italy\", \"Grand Hotel Victoria Concept & Spa Hotel\", \"Grand Hotel Victoria Concept & Spa Resort\", \"Grand Hotel Victoria Concept & Spa\", \"Grand Hotel Victoria Concept & Spa Menaggio, Italy Hotel\", \"Grand Hotel Victoria Concept & Spa Menaggio, Italy Resort\", \"Grand Hotel Victoria Concept & Spa Menaggio, Italy\"], \"v\": 3}": {
     "lat": 46.0208982,
     "lon": 9.2415068,
@@ -211200,6 +211116,48 @@
         "point_of_interest"
       ],
       "website": "https://mgmgrand.mgmresorts.com/en/hotel/skylofts-mgm-grand.html"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Fouquet's New York\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fouquet's New York Barri\\u00e8re Group Hotel\", \"Fouquet's New York Barri\\u00e8re Group Resort\", \"Fouquet's New York Barri\\u00e8re Group\", \"Fouquet's New York Barri\\u00e8re Group New York, New York US Hotel\", \"Fouquet's New York Barri\\u00e8re Group New York, New York US Resort\", \"Fouquet's New York Barri\\u00e8re Group New York, New York US\", \"Fouquet's New York Hilton Hotel\", \"Fouquet's New York Hilton Resort\", \"Fouquet's New York Hilton\", \"Fouquet's New York Hilton New York, New York US Hotel\", \"Fouquet's New York Hilton New York, New York US Resort\", \"Fouquet's New York Hilton New York, New York US\", \"Fouquets New York Barri\\u00e8re Group Hotel\", \"Fouquets New York Barri\\u00e8re Group Resort\", \"Fouquets New York Barri\\u00e8re Group\", \"Fouquets New York Barri\\u00e8re Group New York, New York US Hotel\", \"Fouquets New York Barri\\u00e8re Group New York, New York US Resort\", \"Fouquets New York Barri\\u00e8re Group New York, New York US\", \"Fouquets New York Hilton Hotel\", \"Fouquets New York Hilton Resort\", \"Fouquets New York Hilton\", \"Fouquets New York Hilton New York, New York US Hotel\", \"Fouquets New York Hilton New York, New York US Resort\", \"Fouquets New York Hilton New York, New York US\", \"Fouquet's New York Hotel\", \"Fouquet's New York Resort\", \"Fouquet's New York\", \"Fouquet's New York New York, New York US Hotel\", \"Fouquet's New York New York, New York US Resort\", \"Fouquet's New York New York, New York US\"], \"v\": 3}": {
+    "lat": 40.7236168,
+    "lon": -74.0097526,
+    "formatted_address": "456 Greenwich St, New York, NY 10013, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ2WPuSHVZwokRsWWXSptB01A",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "456 Greenwich St, New York, NY 10013, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.7236168,
+          "lng": -74.0097526
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.7249503302915,
+            "lng": -74.0082852697085
+          },
+          "southwest": {
+            "lat": 40.7222523697085,
+            "lng": -74.0109832302915
+          }
+        }
+      },
+      "name": "Fouquet's New York",
+      "place_id": "ChIJ2WPuSHVZwokRsWWXSptB01A",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hotelsbarriere.com/en/new-york/fouquets-new-york.html"
     }
   }
 }
