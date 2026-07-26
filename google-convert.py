@@ -25,6 +25,7 @@ import time
 import re
 import random
 import argparse
+import unicodedata
 from pathlib import Path
 from typing import Dict, Any, Optional, Tuple, List
 from urllib.parse import urlparse, unquote
@@ -362,28 +363,113 @@ def acceptable_from_details(details: Dict[str, Any]) -> bool:
     return True
 
 
-def _location_compatible(formatted_address: str, hotel_location: str) -> bool:
-    """Return False only when we are confident the geocoded place is in the wrong region.
+# Canonical country name for common spellings/aliases/constituent-country names
+# seen in scraped "City, Region"-style locations and in Google's formatted
+# addresses. Deliberately small and conservative: anything not listed here
+# stays unresolved rather than risk a wrong alias.
+_COUNTRY_ALIASES = {
+    "us": "united states", "usa": "united states", "america": "united states",
+    "united states of america": "united states",
+    "uk": "united kingdom", "britain": "united kingdom", "great britain": "united kingdom",
+    "england": "united kingdom", "scotland": "united kingdom",
+    "wales": "united kingdom", "northern ireland": "united kingdom",
+    "uae": "united arab emirates",
+    "turkiye": "turkey", "turkiy": "turkey",
+    "czechia": "czech republic",
+    "holland": "netherlands",
+    "south korea": "korea", "republic of korea": "korea",
+    "macau": "macao",
+    "ca": "canada", "mx": "mexico",
+}
 
-    Tokenises both strings after normalising common country abbreviations
-    (US → united states, UK → united kingdom) and checks for any overlap.
-    Returns True when either value is empty so we never reject on missing data.
+# Aliases safe to fold into the *middle* of arbitrary address text (used by
+# _normalize_geo_text below). Excludes short codes that collide with common
+# US state / Canadian province postal abbreviations appearing elsewhere in
+# an address - "ca" is both the Canada country code and California's postal
+# abbreviation, so blanket-expanding it there would misclassify a US
+# address as Canadian. Those short codes are only resolved positionally, as
+# a trailing "State CODE" suffix, inside _country_of.
+_TEXT_EXPANSIONS = {k: v for k, v in _COUNTRY_ALIASES.items() if k not in ("ca", "mx")}
+
+
+def _strip_diacritics(s: str) -> str:
+    normalized = unicodedata.normalize("NFKD", s)
+    return "".join(ch for ch in normalized if not unicodedata.combining(ch))
+
+
+def _normalize_geo_text(s: str) -> str:
+    """Lowercase, strip diacritics/punctuation, and fold common abbreviations.
+
+    "St" -> "saint" (St Lucia / St. Thomas / Saint-Barthelemy all end up
+    equal), "USVI" -> "us virgin islands", "&" -> "and" (St Kitts & Nevis
+    vs "Saint Kitts and Nevis"), and short country codes like "USA"/"UK"/
+    "UAE" expand to their full name, so it doesn't matter which spelling
+    Google or the source site happened to use.
+    """
+    s = s.replace("&", " and ")
+    s = _strip_diacritics(s).lower()
+    s = re.sub(r"[^a-z\s]", " ", s)
+    s = re.sub(r"\bu\s+s\b", "us", s)  # "U.S." -> "u s" after punctuation strip -> "us"
+    s = re.sub(r"\busvi\b", "us virgin islands", s)
+    s = re.sub(r"\bst\b", "saint", s)
+    for alias, canonical in _TEXT_EXPANSIONS.items():
+        s = re.sub(rf"\b{re.escape(alias)}\b", canonical, s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def _country_of(s: str) -> str:
+    """Best-effort canonical country name from the last comma segment of s.
+
+    Most locations are "City, Country" (or "..., County, Country"), so the
+    last comma segment is the country. But the scraper's domestic-style
+    locations instead append a short ALL-CAPS country code straight after
+    the state/province with a space, no comma (e.g. "Austin, Texas US",
+    "Toronto, Ontario CA") - detect that form first before falling back to
+    treating the whole trailing segment as the country name.
+    """
+    segment = s.split(",")[-1]
+    trailing_code = re.search(r"\b([A-Za-z]{2,3})\s*$", segment.strip())
+    if trailing_code and trailing_code.group(1).isupper():
+        code = trailing_code.group(1).lower()
+        if code in _COUNTRY_ALIASES:
+            return _COUNTRY_ALIASES[code]
+
+    norm = _normalize_geo_text(segment)
+    return _COUNTRY_ALIASES.get(norm, norm)
+
+
+def _location_compatible(formatted_address: str, hotel_location: str) -> bool:
+    """Return False only when we are confident the geocoded place is in the wrong country.
+
+    We resolve the scraped `hotel_location`'s trailing country/region to a
+    canonical name, then check whether that name appears *anywhere* in the
+    full normalized `formatted_address`, not just its own last segment. A
+    pure last-segment-to-last-segment comparison breaks whenever the two
+    sources punctuate differently: Google sometimes separates an address
+    with " - " instead of ", " (common for Arabic-script results), and
+    sometimes repeats the country earlier in the string but not at the very
+    end. Substring containment across the whole address tolerates that,
+    while still rejecting a confidently different country (e.g. a hotel
+    that should be in Italy but the cached match is in Ireland).
     """
     if not formatted_address or not hotel_location:
         return True
 
-    def _loc_tokens(s: str) -> set:
-        s = s.lower()
-        s = re.sub(r"\bus\b", "united states", s)
-        s = re.sub(r"\busa\b", "united states", s)
-        s = re.sub(r"\buk\b", "united kingdom", s)
-        return {t for t in re.findall(r"[a-z]+", s) if len(t) > 2}
-
-    loc_tokens = _loc_tokens(hotel_location)
-    addr_tokens = _loc_tokens(formatted_address)
-    if not loc_tokens:
+    loc_country = _country_of(hotel_location)
+    if not loc_country:
         return True
-    return bool(loc_tokens & addr_tokens)
+    addr_norm = _normalize_geo_text(formatted_address)
+    if loc_country in addr_norm:
+        return True
+
+    # Hong Kong and Macao are scraped as "..., China" (their sovereign
+    # state), but as Special Administrative Regions Google's formatted
+    # address for them names the SAR itself and never appends "China" - so
+    # accept those specifically rather than flagging every HK/Macau hotel
+    # as a country mismatch.
+    if loc_country == "china" and ("hong kong" in addr_norm or "macao" in addr_norm):
+        return True
+    return False
 
 
 # -----------------------
