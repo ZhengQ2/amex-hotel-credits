@@ -129160,12 +129160,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 39.9927967,
-    "lon": -76.28769179999999,
-    "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
+    "lat": 29.76149999999999,
+    "lon": -95.3648,
+    "formatted_address": "701 Texas Ave, Houston, TX 77002, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
+    "place_id": "ChIJpXTqeDC_QIYRWTBSOg3rarM",
     "types": [
       "establishment",
       "lodging",
@@ -129174,31 +129174,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
+      "formatted_address": "701 Texas Ave, Houston, TX 77002, USA",
       "geometry": {
         "location": {
-          "lat": 39.9927967,
-          "lng": -76.28769179999999
+          "lat": 29.76149999999999,
+          "lng": -95.3648
         },
         "viewport": {
           "northeast": {
-            "lat": 39.9940706302915,
-            "lng": -76.28663611970849
+            "lat": 29.7627978302915,
+            "lng": -95.36351171970851
           },
           "southwest": {
-            "lat": 39.9913726697085,
-            "lng": -76.2893340802915
+            "lat": 29.7600998697085,
+            "lng": -95.36620968029152
           }
         }
       },
-      "name": "DoubleTree Resort by Hilton Hotel Lancaster",
-      "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
+      "name": "The Lancaster Hotel",
+      "place_id": "ChIJpXTqeDC_QIYRWTBSOg3rarM",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/lnswvdt-doubletree-resort-lancaster/?SEO_id=GMB-AMER-DT-LNSWVDT"
+      "website": "https://thelancaster.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
@@ -181894,8 +181894,8 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The St. Regis Macao\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The St. Regis Macao St. Regis Hotel\", \"The St. Regis Macao St. Regis Resort\", \"The St. Regis Macao St. Regis\", \"The St. Regis Macao St. Regis Macau, China Hotel\", \"The St. Regis Macao St. Regis Macau, China Resort\", \"The St. Regis Macao St. Regis Macau, China\", \"The St. Regis Macao Hilton Hotel\", \"The St. Regis Macao Hilton Resort\", \"The St. Regis Macao Hilton\", \"The St. Regis Macao Hilton Macau, China Hotel\", \"The St. Regis Macao Hilton Macau, China Resort\", \"The St. Regis Macao Hilton Macau, China\", \"St Regis Macao St. Regis Hotel\", \"St Regis Macao St. Regis Resort\", \"St Regis Macao St. Regis\", \"St Regis Macao St. Regis Macau, China Hotel\", \"St Regis Macao St. Regis Macau, China Resort\", \"St Regis Macao St. Regis Macau, China\", \"St Regis Macao Hilton Hotel\", \"St Regis Macao Hilton Resort\", \"St Regis Macao Hilton\", \"St Regis Macao Hilton Macau, China Hotel\", \"St Regis Macao Hilton Macau, China Resort\", \"St Regis Macao Hilton Macau, China\", \"The St. Regis Macao Hotel\", \"The St. Regis Macao Resort\", \"The St. Regis Macao\", \"The St. Regis Macao Macau, China Hotel\", \"The St. Regis Macao Macau, China Resort\", \"The St. Regis Macao Macau, China\"], \"v\": 3}": {
-    "lat": 22.146745,
-    "lon": 113.5658947,
+    "lat": 22.1476071,
+    "lon": 113.5657754,
     "formatted_address": "Sands Cotai Central Cotai Strip, Macao",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
@@ -181911,17 +181911,17 @@
       "formatted_address": "Sands Cotai Central Cotai Strip, Macao",
       "geometry": {
         "location": {
-          "lat": 22.146745,
-          "lng": 113.5658947
+          "lat": 22.1476071,
+          "lng": 113.5657754
         },
         "viewport": {
           "northeast": {
             "lat": 22.1483752802915,
-            "lng": 113.5676082302915
+            "lng": 113.5675485802915
           },
           "southwest": {
             "lat": 22.1456773197085,
-            "lng": 113.5649102697085
+            "lng": 113.5648506197085
           }
         }
       },
@@ -211158,6 +211158,48 @@
         "point_of_interest"
       ],
       "website": "https://www.hotelsbarriere.com/en/new-york/fouquets-new-york.html"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Tortuga Bay Puntacana\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Tortuga Bay Puntacana The Leading Hotels of the World Hotel\", \"Tortuga Bay Puntacana The Leading Hotels of the World Resort\", \"Tortuga Bay Puntacana The Leading Hotels of the World\", \"Tortuga Bay Puntacana The Leading Hotels of the World Punta Cana, Dominican Republic Hotel\", \"Tortuga Bay Puntacana The Leading Hotels of the World Punta Cana, Dominican Republic Resort\", \"Tortuga Bay Puntacana The Leading Hotels of the World Punta Cana, Dominican Republic\", \"Tortuga Bay Puntacana Hilton Hotel\", \"Tortuga Bay Puntacana Hilton Resort\", \"Tortuga Bay Puntacana Hilton\", \"Tortuga Bay Puntacana Hilton Punta Cana, Dominican Republic Hotel\", \"Tortuga Bay Puntacana Hilton Punta Cana, Dominican Republic Resort\", \"Tortuga Bay Puntacana Hilton Punta Cana, Dominican Republic\", \"Tortuga Bay Puntacana Hotel\", \"Tortuga Bay Puntacana Resort\", \"Tortuga Bay Puntacana\", \"Tortuga Bay Puntacana Punta Cana, Dominican Republic Hotel\", \"Tortuga Bay Puntacana Punta Cana, Dominican Republic Resort\", \"Tortuga Bay Puntacana Punta Cana, Dominican Republic\"], \"v\": 3}": {
+    "lat": 18.517452,
+    "lon": -68.369451,
+    "formatted_address": "Punta Cana Resort & Golf Club, Higüey 23000, Dominican Republic",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJg9Nw97uRqI4RnoyrmKiFehI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Punta Cana Resort & Golf Club, Higüey 23000, Dominican Republic",
+      "geometry": {
+        "location": {
+          "lat": 18.517452,
+          "lng": -68.369451
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 18.51883268029151,
+            "lng": -68.3680803697085
+          },
+          "southwest": {
+            "lat": 18.5161347197085,
+            "lng": -68.3707783302915
+          }
+        }
+      },
+      "name": "Tortuga Bay Hotel at Puntacana Resort",
+      "place_id": "ChIJg9Nw97uRqI4RnoyrmKiFehI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.tortugabayhotel.com/"
     }
   }
 }
