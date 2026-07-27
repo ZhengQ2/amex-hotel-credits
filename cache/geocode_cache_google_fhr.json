@@ -125977,7 +125977,8 @@
         "restaurant"
       ],
       "website": "http://www.clubhousehotel.com/"
-    }
+    },
+    "_location_mismatch_confirmed_at": 1785147830.069346
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Dewberry\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Dewberry Hotel\", \"The Dewberry Resort\", \"The Dewberry\", \"The Dewberry Charleston, South Carolina US Hotel\", \"The Dewberry Charleston, South Carolina US Resort\", \"The Dewberry Charleston, South Carolina US\"], \"v\": 3}": {
     "lat": 32.7878367,
@@ -129160,12 +129161,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lancaster\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lancaster Hotel\", \"Hotel Lancaster Resort\", \"Hotel Lancaster\", \"Hotel Lancaster Paris, France Hotel\", \"Hotel Lancaster Paris, France Resort\", \"Hotel Lancaster Paris, France\"], \"v\": 3}": {
-    "lat": 29.76149999999999,
-    "lon": -95.3648,
-    "formatted_address": "701 Texas Ave, Houston, TX 77002, USA",
+    "lat": 39.9927967,
+    "lon": -76.28769179999999,
+    "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJpXTqeDC_QIYRWTBSOg3rarM",
+    "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
     "types": [
       "establishment",
       "lodging",
@@ -129174,32 +129175,33 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "701 Texas Ave, Houston, TX 77002, USA",
+      "formatted_address": "2400 Willow Street Pike, Lancaster, PA 17602, USA",
       "geometry": {
         "location": {
-          "lat": 29.76149999999999,
-          "lng": -95.3648
+          "lat": 39.9927967,
+          "lng": -76.28769179999999
         },
         "viewport": {
           "northeast": {
-            "lat": 29.7627978302915,
-            "lng": -95.36351171970851
+            "lat": 39.9940706302915,
+            "lng": -76.28663611970849
           },
           "southwest": {
-            "lat": 29.7600998697085,
-            "lng": -95.36620968029152
+            "lat": 39.9913726697085,
+            "lng": -76.2893340802915
           }
         }
       },
-      "name": "The Lancaster Hotel",
-      "place_id": "ChIJpXTqeDC_QIYRWTBSOg3rarM",
+      "name": "DoubleTree Resort by Hilton Hotel Lancaster",
+      "place_id": "ChIJCwKIp0MlxokRJ4DRj3gILnE",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://thelancaster.com/"
-    }
+      "website": "https://www.hilton.com/en/hotels/lnswvdt-doubletree-resort-lancaster/?SEO_id=GMB-AMER-DT-LNSWVDT"
+    },
+    "_location_mismatch_confirmed_at": 1785147832.1218383
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La Fantaisie\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Fantaisie Hotel\", \"La Fantaisie Resort\", \"La Fantaisie\", \"La Fantaisie Paris, France Hotel\", \"La Fantaisie Paris, France Resort\", \"La Fantaisie Paris, France\"], \"v\": 3}": {
     "lat": 48.875403,
@@ -142012,7 +142014,8 @@
         "point_of_interest"
       ],
       "website": "http://www.themasonhotel.com/"
-    }
+    },
+    "_location_mismatch_confirmed_at": 1785147834.1448174
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hospes Palacio del Bailio\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hospes Palacio del Bailio Design Hotels Hotel\", \"Hospes Palacio del Bailio Design Hotels Resort\", \"Hospes Palacio del Bailio Design Hotels\", \"Hospes Palacio del Bailio Design Hotels Cordoba, Spain Hotel\", \"Hospes Palacio del Bailio Design Hotels Cordoba, Spain Resort\", \"Hospes Palacio del Bailio Design Hotels Cordoba, Spain\", \"Hospes Palacio del Bailio Hilton Hotel\", \"Hospes Palacio del Bailio Hilton Resort\", \"Hospes Palacio del Bailio Hilton\", \"Hospes Palacio del Bailio Hilton Cordoba, Spain Hotel\", \"Hospes Palacio del Bailio Hilton Cordoba, Spain Resort\", \"Hospes Palacio del Bailio Hilton Cordoba, Spain\", \"Hospes Palacio Del Bailio Design Hotels Hotel\", \"Hospes Palacio Del Bailio Design Hotels Resort\", \"Hospes Palacio Del Bailio Design Hotels\", \"Hospes Palacio Del Bailio Design Hotels Cordoba, Spain Hotel\", \"Hospes Palacio Del Bailio Design Hotels Cordoba, Spain Resort\", \"Hospes Palacio Del Bailio Design Hotels Cordoba, Spain\", \"Hospes Palacio Del Bailio Hilton Hotel\", \"Hospes Palacio Del Bailio Hilton Resort\", \"Hospes Palacio Del Bailio Hilton\", \"Hospes Palacio Del Bailio Hilton Cordoba, Spain Hotel\", \"Hospes Palacio Del Bailio Hilton Cordoba, Spain Resort\", \"Hospes Palacio Del Bailio Hilton Cordoba, Spain\", \"Hospes Palacio del Bailio Hotel\", \"Hospes Palacio del Bailio Resort\", \"Hospes Palacio del Bailio\", \"Hospes Palacio del Bailio Cordoba, Spain Hotel\", \"Hospes Palacio del Bailio Cordoba, Spain Resort\", \"Hospes Palacio del Bailio Cordoba, Spain\"], \"v\": 3}": {
     "lat": 37.887409,
@@ -187957,7 +187960,8 @@
         "restaurant"
       ],
       "website": "http://www.splendideroyal.com/"
-    }
+    },
+    "_location_mismatch_confirmed_at": 1785147836.517285
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Villa Maia Lyon\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Villa Maia Lyon The Leading Hotels of the World Hotel\", \"Villa Maia Lyon The Leading Hotels of the World Resort\", \"Villa Maia Lyon The Leading Hotels of the World\", \"Villa Maia Lyon The Leading Hotels of the World Lyon, France Hotel\", \"Villa Maia Lyon The Leading Hotels of the World Lyon, France Resort\", \"Villa Maia Lyon The Leading Hotels of the World Lyon, France\", \"Villa Maia Lyon Hilton Hotel\", \"Villa Maia Lyon Hilton Resort\", \"Villa Maia Lyon Hilton\", \"Villa Maia Lyon Hilton Lyon, France Hotel\", \"Villa Maia Lyon Hilton Lyon, France Resort\", \"Villa Maia Lyon Hilton Lyon, France\", \"Villa Maia Lyon Hotel\", \"Villa Maia Lyon Resort\", \"Villa Maia Lyon\", \"Villa Maia Lyon Lyon, France Hotel\", \"Villa Maia Lyon Lyon, France Resort\", \"Villa Maia Lyon Lyon, France\"], \"v\": 3}": {
     "lat": 45.7591964,
@@ -191848,7 +191852,8 @@
         "point_of_interest"
       ],
       "website": "https://grand-hotel-continental-bucuresti.continentalhotels.ro/en/"
-    }
+    },
+    "_location_mismatch_confirmed_at": 1785147838.45188
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Grand Hotel Excelsior Vittoria\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Hotel Excelsior Vittoria The Leading Hotels of the World Hotel\", \"Grand Hotel Excelsior Vittoria The Leading Hotels of the World Resort\", \"Grand Hotel Excelsior Vittoria The Leading Hotels of the World\", \"Grand Hotel Excelsior Vittoria The Leading Hotels of the World Sorrento, Italy Hotel\", \"Grand Hotel Excelsior Vittoria The Leading Hotels of the World Sorrento, Italy Resort\", \"Grand Hotel Excelsior Vittoria The Leading Hotels of the World Sorrento, Italy\", \"Grand Hotel Excelsior Vittoria Hilton Hotel\", \"Grand Hotel Excelsior Vittoria Hilton Resort\", \"Grand Hotel Excelsior Vittoria Hilton\", \"Grand Hotel Excelsior Vittoria Hilton Sorrento, Italy Hotel\", \"Grand Hotel Excelsior Vittoria Hilton Sorrento, Italy Resort\", \"Grand Hotel Excelsior Vittoria Hilton Sorrento, Italy\", \"Grand Hotel Excelsior Vittoria Hotel\", \"Grand Hotel Excelsior Vittoria Resort\", \"Grand Hotel Excelsior Vittoria\", \"Grand Hotel Excelsior Vittoria Sorrento, Italy Hotel\", \"Grand Hotel Excelsior Vittoria Sorrento, Italy Resort\", \"Grand Hotel Excelsior Vittoria Sorrento, Italy\"], \"v\": 3}": {
     "lat": 40.6282119,

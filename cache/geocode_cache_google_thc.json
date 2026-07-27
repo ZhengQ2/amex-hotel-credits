@@ -140456,7 +140456,8 @@
         "point_of_interest"
       ],
       "website": "https://www.marriott.com/en-us/hotels/satlc-the-st-anthony-a-luxury-collection-hotel-san-antonio/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
+    },
+    "_location_mismatch_confirmed_at": 1785147842.6287327
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rusty Parrot Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hilton Hotel\", \"Rusty Parrot Lodge and Spa Hilton Resort\", \"Rusty Parrot Lodge and Spa Hilton\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Small Luxury Hotels of the World Jackson, Wyoming US\", \"Rusty Parrot Lodge Spa Hilton Hotel\", \"Rusty Parrot Lodge Spa Hilton Resort\", \"Rusty Parrot Lodge Spa Hilton\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge Spa Hilton Jackson, Wyoming US\", \"Rusty Parrot Lodge and Spa Hotel\", \"Rusty Parrot Lodge and Spa Resort\", \"Rusty Parrot Lodge and Spa\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Hotel\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US Resort\", \"Rusty Parrot Lodge and Spa Jackson, Wyoming US\"], \"v\": 3}": {
     "lat": 43.4815139,
@@ -151633,7 +151634,8 @@
         "point_of_interest"
       ],
       "website": "https://mgallery.accor.com/hotels/9338?merchantid=seo-maps-PH-9338&sourceid=aw-cen&utm_source=google+Maps&utm_medium=seo+maps&utm_campaign=seo+maps&utm_term=MGallery-Launch"
-    }
+    },
+    "_location_mismatch_confirmed_at": 1785147840.9489121
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Villa Petriolo Tuscany\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Villa Petriolo Tuscany Small Luxury Hotels of the World Hotel\", \"Villa Petriolo Tuscany Small Luxury Hotels of the World Resort\", \"Villa Petriolo Tuscany Small Luxury Hotels of the World\", \"Villa Petriolo Tuscany Small Luxury Hotels of the World Cerreto Guidi, Italy Hotel\", \"Villa Petriolo Tuscany Small Luxury Hotels of the World Cerreto Guidi, Italy Resort\", \"Villa Petriolo Tuscany Small Luxury Hotels of the World Cerreto Guidi, Italy\", \"Villa Petriolo Tuscany Hilton Hotel\", \"Villa Petriolo Tuscany Hilton Resort\", \"Villa Petriolo Tuscany Hilton\", \"Villa Petriolo Tuscany Hilton Cerreto Guidi, Italy Hotel\", \"Villa Petriolo Tuscany Hilton Cerreto Guidi, Italy Resort\", \"Villa Petriolo Tuscany Hilton Cerreto Guidi, Italy\", \"Villa Petriolo Tuscany Hotel\", \"Villa Petriolo Tuscany Resort\", \"Villa Petriolo Tuscany\", \"Villa Petriolo Tuscany Cerreto Guidi, Italy Hotel\", \"Villa Petriolo Tuscany Cerreto Guidi, Italy Resort\", \"Villa Petriolo Tuscany Cerreto Guidi, Italy\"], \"v\": 3}": {
     "lat": 43.7425731,
