@@ -438,6 +438,32 @@ def _country_of(s: str) -> str:
     return _COUNTRY_ALIASES.get(norm, norm)
 
 
+# How long a confirmed location mismatch is trusted before we try again.
+#
+# Re-geocoding a geographically wrong cache entry only heals it if Google's
+# answer has actually changed. When it hasn't, the entry is rejected, re-fetched,
+# and rejected again on every run - a paid Places call per hotel per night, with
+# no path to convergence. Re-check on a slow cadence instead, so a genuinely
+# improved Google result is still picked up eventually.
+LOCATION_MISMATCH_RECHECK_DAYS = 30
+
+# Stored on a cached result whose location we have re-verified and found still
+# wrong. Leading underscore keeps it clear this is our bookkeeping, not part of
+# the Places payload; output rows are built from named fields, so it is ignored
+# everywhere downstream.
+_MISMATCH_STAMP = "_location_mismatch_confirmed_at"
+
+
+def _mismatch_recheck_due(entry: Dict[str, Any]) -> bool:
+    """True when a known-wrong-location entry is due for another geocode attempt."""
+    if not isinstance(entry, dict):
+        return True
+    stamp = entry.get(_MISMATCH_STAMP)
+    if not isinstance(stamp, (int, float)):
+        return True  # never re-verified before, so try once
+    return (time.time() - stamp) / 86400.0 >= LOCATION_MISMATCH_RECHECK_DAYS
+
+
 def _location_compatible(formatted_address: str, hotel_location: str) -> bool:
     """Return False only when we are confident the geocoded place is in the wrong country.
 
@@ -642,10 +668,16 @@ def main():
         if cached is not None:
             res = None if cached == {"status": "NO_RESULT"} else cached
             if res and not _location_compatible(res.get("formatted_address", ""), hotel_location):
-                # Cached result is geographically wrong; discard and re-geocode.
-                res = None
-                needs_geocode = True
-                status = "CACHED:LOCATION_MISMATCH"
+                if _mismatch_recheck_due(res):
+                    # Cached result is geographically wrong; discard and re-geocode.
+                    res = None
+                    needs_geocode = True
+                    status = "CACHED:LOCATION_MISMATCH"
+                else:
+                    # Already re-geocoded recently and Google still returned the
+                    # wrong country, so another identical lookup would just burn
+                    # quota. Keep serving it, but keep saying so in the status.
+                    status = "CACHED:LOCATION_MISMATCH_CONFIRMED"
             else:
                 status = "CACHED" if res else "CACHED:NO_RESULT"
 
@@ -670,7 +702,16 @@ def main():
 
             if res is None and status != "CACHED:RENAMED:NO_RESULT":
                 res, status = geocode_places_first(queries, brand, hotel, BASE_DELAY)
-                cache[cache_key] = res or {"status": "NO_RESULT"}
+                to_store = res or {"status": "NO_RESULT"}
+                if res and not _location_compatible(res.get("formatted_address", ""), hotel_location):
+                    # The fresh lookup is in the wrong country too, so this query
+                    # set simply cannot resolve this hotel. Record that we checked
+                    # so the next run doesn't repeat the same paid call; it will
+                    # be retried once LOCATION_MISMATCH_RECHECK_DAYS have passed.
+                    to_store = dict(res)
+                    to_store[_MISMATCH_STAMP] = time.time()
+                    status = f"{status}:LOCATION_MISMATCH"
+                cache[cache_key] = to_store
                 save_cache(cache_path_obj, cache)
 
         out = {
