@@ -74,8 +74,13 @@ jobs:
           echo "thc_changed=${thc_changed}" >> "$GITHUB_OUTPUT"
           echo "any_changed=${any_changed}" >> "$GITHUB_OUTPUT"
 
+      # Geocoding always runs. It makes no API calls when every hotel is cached
+      # and location-compatible, so it is effectively free, and it is the only
+      # thing that can repair a cache entry whose coordinates are wrong. Gating
+      # it on "the hotel list changed" meant a wrong coordinate could never be
+      # corrected unless AMEX happened to add or drop a hotel that night.
+      # Notifications are gated separately, on whether output actually changed.
       - name: Run Google geocoding (FHR)
-        if: steps.check_list.outputs.fhr_changed == 'true'
         env:
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
         run: |
@@ -86,7 +91,6 @@ jobs:
             --input-format fhrthc | tee -a fhrthc.log
 
       - name: Run Google geocoding (THC)
-        if: steps.check_list.outputs.thc_changed == 'true'
         env:
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
         run: |
@@ -96,13 +100,41 @@ jobs:
             --cache cache/geocode_cache_google_thc.json \
             --input-format fhrthc | tee -a fhrthc.log
 
+      - name: Did the geocoded output actually change?
+        id: check_output
+        run: |
+          # A notification should mean "the hotel data changed", so compare the
+          # geocoded CSVs (names + coordinates) rather than the cache files.
+          # The caches also carry bookkeeping - notably the refreshed
+          # location-mismatch timestamp - which changes without the data
+          # changing, and must not generate mail.
+          fhr_out="false"
+          thc_out="false"
+          if ! git diff --quiet -- cache/fhr_hotels_geocoded_google.csv; then
+            fhr_out="true"
+          fi
+          if ! git diff --quiet -- cache/thc_hotels_geocoded_google.csv; then
+            thc_out="true"
+          fi
+
+          notify="false"
+          if [ "$fhr_out" = "true" ] || [ "$thc_out" = "true" ] \
+             || [ "${{ steps.check_list.outputs.any_changed }}" = "true" ]; then
+            notify="true"
+          fi
+
+          echo "fhr_out=${fhr_out}" >> "$GITHUB_OUTPUT"
+          echo "thc_out=${thc_out}" >> "$GITHUB_OUTPUT"
+          echo "notify=${notify}" >> "$GITHUB_OUTPUT"
+          echo "geocoded output changed: fhr=${fhr_out} thc=${thc_out} -> notify=${notify}"
+
       - name: Write Google service account credentials
-        if: steps.check_list.outputs.any_changed == 'true'
+        if: steps.check_output.outputs.notify == 'true'
         run: |
           echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}' > service_account.json
 
       - name: Update Google Sheet with geocoded FHR CSV
-        if: steps.check_list.outputs.fhr_changed == 'true'
+        if: steps.check_output.outputs.fhr_out == 'true'
         continue-on-error: true
         env:
           FHR_SHEET_ID: ${{ vars.FHR_SHEET_ID || secrets.FHR_SHEET_ID }}
@@ -140,7 +172,7 @@ jobs:
           PY
 
       - name: Update Google Sheet with geocoded THC CSV
-        if: steps.check_list.outputs.thc_changed == 'true'
+        if: steps.check_output.outputs.thc_out == 'true'
         continue-on-error: true
         env:
           THC_SHEET_ID: ${{ vars.THC_SHEET_ID || secrets.THC_SHEET_ID }}
@@ -178,7 +210,7 @@ jobs:
           PY
 
       - name: Send email with updated geocoded FHR/THC CSVs
-        if: steps.check_list.outputs.any_changed == 'true'
+        if: steps.check_output.outputs.notify == 'true'
         uses: dawidd6/action-send-mail@v6
         with:
           server_address: ${{ vars.SMTP_SERVER }}
@@ -193,8 +225,11 @@ jobs:
             cache/fhr_hotels_geocoded_google.csv
             cache/thc_hotels_geocoded_google.csv
 
+      # Always attempt the commit: cache bookkeeping (e.g. a refreshed
+      # location-mismatch timestamp) should still be persisted even when it is
+      # not worth an email. The porcelain check below makes this a no-op when
+      # there is genuinely nothing to write.
       - name: Commit and push cache and map updates
-        if: steps.check_list.outputs.any_changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -208,9 +243,13 @@ jobs:
           python generate_map_data.py
           git add docs/hotels.json
 
-          if [ -n "$(git status --porcelain)" ]; then
+          # Test the index, not the working tree: git status --porcelain also
+          # reports untracked files (the scraper log, service_account.json),
+          # which would make this look dirty on a no-change run and then fail
+          # on an empty commit.
+          if git diff --cached --quiet; then
+            echo "No cache changes to commit."
+          else
             git commit -m "Update FHR/THC cache, geocoded hotels, and map [CI]"
             git push
-          else
-            echo "No cache changes to commit."
           fi

@@ -1,4 +1,5 @@
 import csv
+import json
 import re
 from html.parser import HTMLParser
 from typing import Dict, List, Tuple
@@ -26,6 +27,19 @@ THC_CACHE_FILE = "cache/geocode_cache_google_thc.json"
 
 def _clean_text(s: str) -> str:
     return _clean_text_shared(s)
+
+
+def _official_name_from_key(cache_key: str, fallback: str) -> str:
+    """Official (original-case) hotel name stored on a cache key.
+
+    Cache entries predating the hotel_name field only have queries, so fall back
+    to the lookup canonical for those.
+    """
+    try:
+        name = json.loads(cache_key).get("hotel_name", "")
+    except Exception:
+        name = ""
+    return _clean_text(name) or fallback
 
 
 def _program_bucket(label: str) -> str:
@@ -419,8 +433,10 @@ def main():
 
     if renamed_hotels:
         print("FHR/THC hotels with possible name changes (already geocoded, no re-geocoding needed):")
-        for scraped, cached, program in sorted(renamed_hotels, key=lambda x: (x[2], x[0])):
-            print(f"- [program: {program}] cached: {cached!r}  ->  scraped: {scraped!r}")
+        for scraped, _cached, program in sorted(renamed_hotels, key=lambda x: (x[2], x[0])):
+            # Report the official scraped name; the cached canonical is an
+            # internal, lower-cased lookup key and is noise in the email.
+            print(f"- {scraped}  [program: {program}]")
 
     # entry[1] is scope_key from the cache (brand.lower()). Pass it through
     # _program_bucket so that old google-convert entries with brand=brand_label
@@ -437,7 +453,9 @@ def main():
             if summary_key in seen_removed:
                 continue
             seen_removed.add(summary_key)
-            removed_hotels.append((entry[0], program))
+            # entry[0] is the lower-cased lookup canonical; prefer the official
+            # name stored on the cache key so the email reads naturally.
+            removed_hotels.append((_official_name_from_key(entry[2], entry[0]), program))
 
     if not removed_entries:
         print("No cached FHR/THC hotels appear to have been removed from the current list.")

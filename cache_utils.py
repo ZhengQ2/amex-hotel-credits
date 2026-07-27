@@ -31,6 +31,29 @@ DEFAULT_GENERIC_TOKENS: FrozenSet[str] = frozenset({
 })
 MIN_FUZZY_MATCH_TOKENS = 2
 
+# The FHR/THC scope field is written under two different conventions:
+# fhrthc.py records placeholders for newly-seen hotels using the program bucket
+# ("FHR"/"THC"), while google-convert.py records the real geocoded entry using
+# the scraped programme label ("FINE HOTELS + RESORTS"/"THE HOTEL COLLECTION").
+# Left unnormalised these behave as two separate namespaces, so a scope-filtered
+# lookup can only ever see the placeholder and never the geocoded entry - which
+# made every run re-report the same hotels as renamed. Fold them together.
+_SCOPE_ALIASES = {
+    "fine hotels + resorts": "fhr",
+    "fine hotels and resorts": "fhr",
+    "fine hotels & resorts": "fhr",
+    "fhr": "fhr",
+    "the hotel collection": "thc",
+    "hotel collection": "thc",
+    "thc": "thc",
+}
+
+
+def _normalize_scope(scope: str) -> str:
+    """Canonical scope key, folding the FHR/THC programme-label variants."""
+    s = _clean_text(scope).lower()
+    return _SCOPE_ALIASES.get(s, s)
+
 
 def _clean_text(s: str) -> str:
     if not s:
@@ -157,7 +180,7 @@ def load_geocode_cache_index(
             except Exception:
                 continue
 
-            scope_key = _clean_text(meta.get("brand", "")).lower()
+            scope_key = _normalize_scope(meta.get("brand", ""))
             hotel_name_field = meta.get("hotel_name", "")
 
             if hotel_name_field:
@@ -199,7 +222,7 @@ def is_hotel_in_cache(hotel_name: str, scope_key: str, cache_index: Dict) -> boo
     query-string matching for old-style entries that predate hotel_name storage.
     """
     name = _clean_text(hotel_name).lower()
-    sk = _clean_text(scope_key).lower()
+    sk = _normalize_scope(scope_key)
 
     official = cache_index.get("__official__", {})
     official_names = _scoped_candidates(official, sk)
@@ -223,7 +246,7 @@ def find_cache_match(
       - entry returned, canonical == cleaned scraped name → unchanged
       - entry returned, canonical != cleaned scraped name → possible rename/rebrand
     """
-    target_scope = _clean_text(scope_key).lower()
+    target_scope = _normalize_scope(scope_key)
     best_entry: Optional[Tuple[str, str, str, str]] = None
     best_quality: Optional[Tuple[int, int, int, int, int]] = None
 
@@ -306,7 +329,7 @@ def is_cached_hotel_in_scraped(
     Exact match first (fast path), then fuzzy fallback.
     """
     name = _clean_text(cached_name).lower()
-    sk = _clean_text(scope_key).lower()
+    sk = _normalize_scope(scope_key)
 
     candidates: Set[str] = (
         scraped_index.get(sk, set()) if sk

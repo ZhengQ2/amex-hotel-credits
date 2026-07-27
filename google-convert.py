@@ -320,9 +320,33 @@ def _brand_in_name(name: str, brand: str) -> bool:
     return any(h.lower() in name_l for h in BRAND_HINTS)
 
 
-def choose_best_place(results: List[Dict[str, Any]], brand: str, hotel_name: str) -> Optional[Dict[str, Any]]:
+def choose_best_place(
+    results: List[Dict[str, Any]],
+    brand: str,
+    hotel_name: str,
+    hotel_location: str = "",
+) -> Optional[Dict[str, Any]]:
     if not results:
         return None
+
+    # Drop candidates in the wrong country before ranking. Text Search already
+    # returns formatted_address, so this costs nothing and also avoids paying
+    # for a Place Details lookup on a candidate we would reject afterwards.
+    # Without it, ranking is driven by user_ratings_total, so a famous namesake
+    # beats the actual property - "San Antonio" (a hotel in Imerovigli, Greece)
+    # loses to San Antonio, Texas.
+    if hotel_location:
+        in_country = [
+            r for r in results
+            if _location_compatible(r.get("formatted_address", ""), hotel_location)
+        ]
+        if in_country:
+            results = in_country
+        else:
+            # Nothing in the right country for this query; let the caller try
+            # the next, weaker query rather than accept a known-wrong place.
+            return None
+
     # Rank: (lodging priority, brand-in-name, rating presence, user_ratings_total)
     ranked = []
     for r in results:
@@ -452,6 +476,15 @@ LOCATION_MISMATCH_RECHECK_DAYS = 30
 # the Places payload; output rows are built from named fields, so it is ignored
 # everywhere downstream.
 _MISMATCH_STAMP = "_location_mismatch_confirmed_at"
+_MISMATCH_SELECTOR_V = "_location_mismatch_selector_v"
+
+# Bumped whenever candidate selection changes in a way that could turn a
+# previously unresolvable hotel into a resolvable one. A stamp recorded by an
+# older selector is not evidence about the current one, so it is ignored and the
+# hotel gets one fresh attempt instead of waiting out the recheck window.
+#   1 - selection ignored hotel_location entirely
+#   2 - candidates in the wrong country are filtered out before ranking
+SELECTOR_VERSION = 2
 
 
 def _mismatch_recheck_due(entry: Dict[str, Any]) -> bool:
@@ -461,6 +494,8 @@ def _mismatch_recheck_due(entry: Dict[str, Any]) -> bool:
     stamp = entry.get(_MISMATCH_STAMP)
     if not isinstance(stamp, (int, float)):
         return True  # never re-verified before, so try once
+    if entry.get(_MISMATCH_SELECTOR_V) != SELECTOR_VERSION:
+        return True  # recorded under different selection logic; re-test once
     return (time.time() - stamp) / 86400.0 >= LOCATION_MISMATCH_RECHECK_DAYS
 
 
@@ -502,12 +537,32 @@ def _location_compatible(formatted_address: str, hotel_location: str) -> bool:
 # Orchestration
 # -----------------------
 
-def geocode_places_first(queries: List[str], brand: str, hotel_name: str, base_delay: float) -> Tuple[Optional[Dict[str, Any]], str]:
+def geocode_places_first(
+    queries: List[str],
+    brand: str,
+    hotel_name: str,
+    base_delay: float,
+    hotel_location: str = "",
+) -> Tuple[Optional[Dict[str, Any]], str]:
     last = "NO_RESULT"
+
+    # Try location-qualified queries first. Each query is a billed Text Search,
+    # and for an ambiguous name ("San Antonio", "Mason") the bare-name variants
+    # reliably return a famous namesake that the location filter then discards -
+    # pure spend for no result. Ordering costs nothing: the cache key stores the
+    # query list as built, so reordering execution here does not change any key
+    # or invalidate a single cached entry.
+    if hotel_location:
+        loc_needle = hotel_location.split(",")[0].strip().lower()
+        queries = sorted(
+            queries,
+            key=lambda q: 0 if loc_needle and loc_needle in q.lower() else 1,
+        )
+
     for q in queries:
         try:
             ts = places_text_search(q, API_KEY)
-            cand = choose_best_place(ts.get("results", []), brand, hotel_name)
+            cand = choose_best_place(ts.get("results", []), brand, hotel_name, hotel_location)
             if cand:
                 det = places_details(cand["place_id"], API_KEY)
                 if det and acceptable_from_details(det):
@@ -530,6 +585,7 @@ def geocode_places_first(queries: List[str], brand: str, hotel_name: str, base_d
                 and geo.get("confidence", "").upper() == "ROOFTOP"
                 and _is_lodging_type(geo.get("types", []))
                 and _is_name_compatible(geo.get("raw", {}).get("name", "") or q, hotel_name)
+                and _location_compatible(geo.get("formatted_address", ""), hotel_location)
             ):
                 return geo, f"GEOCODE:{q}"
             last = f"WEAK_OR_EMPTY:{q}"
@@ -701,7 +757,7 @@ def main():
                 # else: fuzzy match also has wrong location — fall through to geocode
 
             if res is None and status != "CACHED:RENAMED:NO_RESULT":
-                res, status = geocode_places_first(queries, brand, hotel, BASE_DELAY)
+                res, status = geocode_places_first(queries, brand, hotel, BASE_DELAY, hotel_location)
                 to_store = res or {"status": "NO_RESULT"}
                 if res and not _location_compatible(res.get("formatted_address", ""), hotel_location):
                     # The fresh lookup is in the wrong country too, so this query
@@ -710,6 +766,7 @@ def main():
                     # be retried once LOCATION_MISMATCH_RECHECK_DAYS have passed.
                     to_store = dict(res)
                     to_store[_MISMATCH_STAMP] = time.time()
+                    to_store[_MISMATCH_SELECTOR_V] = SELECTOR_VERSION
                     status = f"{status}:LOCATION_MISMATCH"
                 cache[cache_key] = to_store
                 save_cache(cache_path_obj, cache)

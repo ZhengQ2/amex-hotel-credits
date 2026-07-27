@@ -51,8 +51,10 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
 
+      # Always run: no API calls when everything is cached and
+      # location-compatible, and it is the only thing that can repair a cache
+      # entry whose coordinates are wrong. Notifications gate separately below.
       - name: Run Google geocoding (Hilton)
-        if: steps.check_list.outputs.changed == 'true'
         env:
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
         run: |
@@ -62,13 +64,28 @@ jobs:
             --cache cache/geocode_cache_google_hilton.json \
             --input-format hilton | tee -a hilton.log
 
+      - name: Did the geocoded output actually change?
+        id: check_output
+        run: |
+          # Compare the geocoded CSV (names + coordinates), not the cache, which
+          # also carries bookkeeping that changes without the data changing.
+          notify="false"
+          if ! git diff --quiet -- cache/hilton_hotels_geocoded_google.csv; then
+            notify="true"
+          fi
+          if [ "${{ steps.check_list.outputs.changed }}" = "true" ]; then
+            notify="true"
+          fi
+          echo "notify=${notify}" >> "$GITHUB_OUTPUT"
+          echo "geocoded output changed -> notify=${notify}"
+
       - name: Write Google service account credentials
-        if: steps.check_list.outputs.changed == 'true'
+        if: steps.check_output.outputs.notify == 'true'
         run: |
           echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}' > service_account.json
 
       - name: Update Google Sheet with geocoded Hilton CSV
-        if: steps.check_list.outputs.changed == 'true'
+        if: steps.check_output.outputs.notify == 'true'
         continue-on-error: true
         env:
           HILTON_SHEET_ID: ${{ vars.HILTON_SHEET_ID || secrets.HILTON_SHEET_ID }}
@@ -106,7 +123,7 @@ jobs:
           PY
 
       - name: Send email with updated geocoded Hilton CSV
-        if: steps.check_list.outputs.changed == 'true'
+        if: steps.check_output.outputs.notify == 'true'
         uses: dawidd6/action-send-mail@v6
         with:
           server_address: ${{ vars.SMTP_SERVER }}
@@ -121,7 +138,6 @@ jobs:
             cache/hilton_hotels_geocoded_google.csv
 
       - name: Commit and push cache and map updates
-        if: steps.check_list.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -131,7 +147,10 @@ jobs:
           python generate_map_data.py
           git add docs/hotels.json
 
-          if [ -n "$(git status --porcelain)" ]; then
+          # Test the index, not the working tree: --porcelain also reports
+          # untracked files (log, service_account.json) and would then fail on
+          # an empty commit.
+          if ! git diff --cached --quiet; then
             git commit -m "Update Hilton cache, geocoded hotels, and map [CI]"
             git push
           else

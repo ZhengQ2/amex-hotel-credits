@@ -24,6 +24,9 @@ dist
 .env
 .env.local
 
+# Credentials materialised by CI from secrets - must never be committed
+service_account.json
+
 # Temporary files
 *.log
 *.tmp
