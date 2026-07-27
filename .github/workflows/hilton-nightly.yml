@@ -66,18 +66,40 @@ jobs:
 
       - name: Did the geocoded output actually change?
         id: check_output
+        env:
+          LIST_CHANGED: ${{ steps.check_list.outputs.changed }}
         run: |
-          # Compare the geocoded CSV (names + coordinates), not the cache, which
-          # also carries bookkeeping that changes without the data changing.
-          notify="false"
-          if ! git diff --quiet -- cache/hilton_hotels_geocoded_google.csv; then
-            notify="true"
-          fi
-          if [ "${{ steps.check_list.outputs.changed }}" = "true" ]; then
-            notify="true"
-          fi
-          echo "notify=${notify}" >> "$GITHUB_OUTPUT"
-          echo "geocoded output changed -> notify=${notify}"
+          # Compare the geocoded CSV, not the cache (which carries bookkeeping
+          # that changes without the data changing). The status column is
+          # excluded: it records how a row was obtained this run and flips from
+          # "PLACES:<query>" to "CACHED" after any geocode, which would mail a
+          # diff whose coordinates are identical.
+          python - <<'PY'
+          import csv, io, os, subprocess
+
+          PATH = "cache/hilton_hotels_geocoded_google.csv"
+          IGNORED = {"status"}
+
+          def rows(text):
+              return [
+                  {k: v for k, v in row.items() if k not in IGNORED}
+                  for row in csv.DictReader(io.StringIO(text))
+              ]
+
+          r = subprocess.run(["git", "show", f"HEAD:{PATH}"],
+                             capture_output=True, text=True)
+          old = r.stdout if r.returncode == 0 else ""
+          new = ""
+          if os.path.exists(PATH):
+              with open(PATH, encoding="utf-8") as fh:
+                  new = fh.read()
+
+          changed = rows(old) != rows(new)
+          notify = "true" if changed or os.environ.get("LIST_CHANGED") == "true" else "false"
+          with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+              fh.write(f"notify={notify}\n")
+          print(f"meaningful change (status column ignored): {changed} -> notify={notify}")
+          PY
 
       - name: Write Google service account credentials
         if: steps.check_output.outputs.notify == 'true'

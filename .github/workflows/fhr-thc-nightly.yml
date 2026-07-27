@@ -102,31 +102,57 @@ jobs:
 
       - name: Did the geocoded output actually change?
         id: check_output
+        env:
+          LIST_CHANGED: ${{ steps.check_list.outputs.any_changed }}
         run: |
           # A notification should mean "the hotel data changed", so compare the
-          # geocoded CSVs (names + coordinates) rather than the cache files.
-          # The caches also carry bookkeeping - notably the refreshed
-          # location-mismatch timestamp - which changes without the data
-          # changing, and must not generate mail.
-          fhr_out="false"
-          thc_out="false"
-          if ! git diff --quiet -- cache/fhr_hotels_geocoded_google.csv; then
-            fhr_out="true"
-          fi
-          if ! git diff --quiet -- cache/thc_hotels_geocoded_google.csv; then
-            thc_out="true"
-          fi
+          # geocoded CSVs rather than the cache files - the caches also carry
+          # bookkeeping (e.g. a refreshed location-mismatch timestamp) that
+          # changes without the data changing.
+          #
+          # The status column is excluded: it records how a row was obtained
+          # this run, not what the row says. It necessarily flips from
+          # "PLACES:<query>" to "CACHED" on the run after any geocode, which
+          # would otherwise mail out a diff whose coordinates are identical.
+          python - <<'PY'
+          import csv, io, os, subprocess
 
-          notify="false"
-          if [ "$fhr_out" = "true" ] || [ "$thc_out" = "true" ] \
-             || [ "${{ steps.check_list.outputs.any_changed }}" = "true" ]; then
-            notify="true"
-          fi
+          IGNORED = {"status"}
 
-          echo "fhr_out=${fhr_out}" >> "$GITHUB_OUTPUT"
-          echo "thc_out=${thc_out}" >> "$GITHUB_OUTPUT"
-          echo "notify=${notify}" >> "$GITHUB_OUTPUT"
-          echo "geocoded output changed: fhr=${fhr_out} thc=${thc_out} -> notify=${notify}"
+          def rows(text):
+              return [
+                  {k: v for k, v in row.items() if k not in IGNORED}
+                  for row in csv.DictReader(io.StringIO(text))
+              ]
+
+          def committed(path):
+              r = subprocess.run(["git", "show", f"HEAD:{path}"],
+                                 capture_output=True, text=True)
+              return r.stdout if r.returncode == 0 else ""
+
+          def current(path):
+              if not os.path.exists(path):
+                  return ""
+              with open(path, encoding="utf-8") as fh:
+                  return fh.read()
+
+          results = {}
+          for key, path in [("fhr_out", "cache/fhr_hotels_geocoded_google.csv"),
+                            ("thc_out", "cache/thc_hotels_geocoded_google.csv")]:
+              results[key] = "true" if rows(committed(path)) != rows(current(path)) else "false"
+
+          notify = (
+              "true"
+              if "true" in results.values() or os.environ.get("LIST_CHANGED") == "true"
+              else "false"
+          )
+          results["notify"] = notify
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+              for key, value in results.items():
+                  fh.write(f"{key}={value}\n")
+          print(f"meaningful change (status column ignored): {results}")
+          PY
 
       - name: Write Google service account credentials
         if: steps.check_output.outputs.notify == 'true'
