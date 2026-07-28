@@ -25890,48 +25890,6 @@
       "website": "https://www.hyatt.com/hyatt-regency/en-US/aruba-hyatt-regency-aruba-resort-spa-and-casino?src=corp_lclb_google_seo_aruba&utm_source=google&utm_medium=organic&utm_campaign=lmr"
     }
   },
-  "{\"brand\": \"IHG Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Intercontinental Amstel Amsterdam IHG Hotels & Resorts Hotel\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts Resort\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands Hotel\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands Resort\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands\", \"Intercontinental Amstel Amsterdam Hilton Hotel\", \"Intercontinental Amstel Amsterdam Hilton Resort\", \"Intercontinental Amstel Amsterdam Hilton\", \"Intercontinental Amstel Amsterdam Hilton Amsterdam, Netherlands Hotel\", \"Intercontinental Amstel Amsterdam Hilton Amsterdam, Netherlands Resort\", \"Intercontinental Amstel Amsterdam Hilton Amsterdam, Netherlands\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts Hotel\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts Resort\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands Hotel\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands Resort\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands\", \"InterContinental Amstel Amsterdam Hilton Hotel\", \"InterContinental Amstel Amsterdam Hilton Resort\", \"InterContinental Amstel Amsterdam Hilton\", \"InterContinental Amstel Amsterdam Hilton Amsterdam, Netherlands Hotel\", \"InterContinental Amstel Amsterdam Hilton Amsterdam, Netherlands Resort\", \"InterContinental Amstel Amsterdam Hilton Amsterdam, Netherlands\", \"InterContinental Amstel Amsterdam Hotel\", \"InterContinental Amstel Amsterdam Resort\", \"InterContinental Amstel Amsterdam\", \"InterContinental Amstel Amsterdam Amsterdam, Netherlands Hotel\", \"InterContinental Amstel Amsterdam Amsterdam, Netherlands Resort\", \"InterContinental Amstel Amsterdam Amsterdam, Netherlands\"], \"v\": 3}": {
-    "lat": 52.3601,
-    "lon": 4.9049,
-    "formatted_address": "Professor Tulpplein 1, 1018 GX Amsterdam, Netherlands",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ2z9uuZAJxkcRTdWVTMl58-o",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Professor Tulpplein 1, 1018 GX Amsterdam, Netherlands",
-      "geometry": {
-        "location": {
-          "lat": 52.3601,
-          "lng": 4.9049
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 52.36142308029149,
-            "lng": 4.906520380291502
-          },
-          "southwest": {
-            "lat": 52.3587251197085,
-            "lng": 4.903822419708497
-          }
-        }
-      },
-      "name": "InterContinental Amstel Amsterdam by IHG",
-      "place_id": "ChIJ2z9uuZAJxkcRTdWVTMl58-o",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.ihg.com/intercontinental/hotels/gb/en/amsterdam/amsha/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-NL-_-AMSHA"
-    }
-  },
   "{\"brand\": \"IHG Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Intercontinental Buckhead Atlanta IHG Hotels & Resorts Hotel\", \"Intercontinental Buckhead Atlanta IHG Hotels & Resorts Resort\", \"Intercontinental Buckhead Atlanta IHG Hotels & Resorts\", \"Intercontinental Buckhead Atlanta IHG Hotels & Resorts Atlanta, Georgia US Hotel\", \"Intercontinental Buckhead Atlanta IHG Hotels & Resorts Atlanta, Georgia US Resort\", \"Intercontinental Buckhead Atlanta IHG Hotels & Resorts Atlanta, Georgia US\", \"Intercontinental Buckhead Atlanta Hilton Hotel\", \"Intercontinental Buckhead Atlanta Hilton Resort\", \"Intercontinental Buckhead Atlanta Hilton\", \"Intercontinental Buckhead Atlanta Hilton Atlanta, Georgia US Hotel\", \"Intercontinental Buckhead Atlanta Hilton Atlanta, Georgia US Resort\", \"Intercontinental Buckhead Atlanta Hilton Atlanta, Georgia US\", \"InterContinental Buckhead Atlanta IHG Hotels & Resorts Hotel\", \"InterContinental Buckhead Atlanta IHG Hotels & Resorts Resort\", \"InterContinental Buckhead Atlanta IHG Hotels & Resorts\", \"InterContinental Buckhead Atlanta IHG Hotels & Resorts Atlanta, Georgia US Hotel\", \"InterContinental Buckhead Atlanta IHG Hotels & Resorts Atlanta, Georgia US Resort\", \"InterContinental Buckhead Atlanta IHG Hotels & Resorts Atlanta, Georgia US\", \"InterContinental Buckhead Atlanta Hilton Hotel\", \"InterContinental Buckhead Atlanta Hilton Resort\", \"InterContinental Buckhead Atlanta Hilton\", \"InterContinental Buckhead Atlanta Hilton Atlanta, Georgia US Hotel\", \"InterContinental Buckhead Atlanta Hilton Atlanta, Georgia US Resort\", \"InterContinental Buckhead Atlanta Hilton Atlanta, Georgia US\", \"InterContinental Buckhead Atlanta Hotel\", \"InterContinental Buckhead Atlanta Resort\", \"InterContinental Buckhead Atlanta\", \"InterContinental Buckhead Atlanta Atlanta, Georgia US Hotel\", \"InterContinental Buckhead Atlanta Atlanta, Georgia US Resort\", \"InterContinental Buckhead Atlanta Atlanta, Georgia US\"], \"v\": 3}": {
     "lat": 33.8451862,
     "lon": -84.3683337,
@@ -90156,48 +90114,6 @@
       "website": "https://www.hyatt.com/hyatt-regency/en-US/aruba-hyatt-regency-aruba-resort-spa-and-casino?src=corp_lclb_google_seo_aruba&utm_source=google&utm_medium=organic&utm_campaign=lmr"
     }
   },
-  "{\"brand\": \"IHG Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Amstel Amsterdam IHG Hotels & Resorts Hotel\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts Resort\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands Hotel\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands Resort\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands\", \"InterContinental Amstel Amsterdam Hilton Hotel\", \"InterContinental Amstel Amsterdam Hilton Resort\", \"InterContinental Amstel Amsterdam Hilton\", \"InterContinental Amstel Amsterdam Hilton Amsterdam, Netherlands Hotel\", \"InterContinental Amstel Amsterdam Hilton Amsterdam, Netherlands Resort\", \"InterContinental Amstel Amsterdam Hilton Amsterdam, Netherlands\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts Hotel\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts Resort\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands Hotel\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands Resort\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands\", \"Intercontinental Amstel Amsterdam Hilton Hotel\", \"Intercontinental Amstel Amsterdam Hilton Resort\", \"Intercontinental Amstel Amsterdam Hilton\", \"Intercontinental Amstel Amsterdam Hilton Amsterdam, Netherlands Hotel\", \"Intercontinental Amstel Amsterdam Hilton Amsterdam, Netherlands Resort\", \"Intercontinental Amstel Amsterdam Hilton Amsterdam, Netherlands\", \"InterContinental Amstel Amsterdam Hotel\", \"InterContinental Amstel Amsterdam Resort\", \"InterContinental Amstel Amsterdam\", \"InterContinental Amstel Amsterdam Amsterdam, Netherlands Hotel\", \"InterContinental Amstel Amsterdam Amsterdam, Netherlands Resort\", \"InterContinental Amstel Amsterdam Amsterdam, Netherlands\"], \"v\": 3}": {
-    "lat": 52.3601,
-    "lon": 4.9049,
-    "formatted_address": "Professor Tulpplein 1, 1018 GX Amsterdam, Netherlands",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ2z9uuZAJxkcRTdWVTMl58-o",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Professor Tulpplein 1, 1018 GX Amsterdam, Netherlands",
-      "geometry": {
-        "location": {
-          "lat": 52.3601,
-          "lng": 4.9049
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 52.36142308029149,
-            "lng": 4.906520380291502
-          },
-          "southwest": {
-            "lat": 52.3587251197085,
-            "lng": 4.903822419708497
-          }
-        }
-      },
-      "name": "InterContinental Amstel Amsterdam by IHG",
-      "place_id": "ChIJ2z9uuZAJxkcRTdWVTMl58-o",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.ihg.com/intercontinental/hotels/gb/en/amsterdam/amsha/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-NL-_-AMSHA"
-    }
-  },
   "{\"brand\": \"IHG Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Buckhead Atlanta IHG Hotels & Resorts Hotel\", \"InterContinental Buckhead Atlanta IHG Hotels & Resorts Resort\", \"InterContinental Buckhead Atlanta IHG Hotels & Resorts\", \"InterContinental Buckhead Atlanta IHG Hotels & Resorts Atlanta, Georgia US Hotel\", \"InterContinental Buckhead Atlanta IHG Hotels & Resorts Atlanta, Georgia US Resort\", \"InterContinental Buckhead Atlanta IHG Hotels & Resorts Atlanta, Georgia US\", \"InterContinental Buckhead Atlanta Hilton Hotel\", \"InterContinental Buckhead Atlanta Hilton Resort\", \"InterContinental Buckhead Atlanta Hilton\", \"InterContinental Buckhead Atlanta Hilton Atlanta, Georgia US Hotel\", \"InterContinental Buckhead Atlanta Hilton Atlanta, Georgia US Resort\", \"InterContinental Buckhead Atlanta Hilton Atlanta, Georgia US\", \"Intercontinental Buckhead Atlanta IHG Hotels & Resorts Hotel\", \"Intercontinental Buckhead Atlanta IHG Hotels & Resorts Resort\", \"Intercontinental Buckhead Atlanta IHG Hotels & Resorts\", \"Intercontinental Buckhead Atlanta IHG Hotels & Resorts Atlanta, Georgia US Hotel\", \"Intercontinental Buckhead Atlanta IHG Hotels & Resorts Atlanta, Georgia US Resort\", \"Intercontinental Buckhead Atlanta IHG Hotels & Resorts Atlanta, Georgia US\", \"Intercontinental Buckhead Atlanta Hilton Hotel\", \"Intercontinental Buckhead Atlanta Hilton Resort\", \"Intercontinental Buckhead Atlanta Hilton\", \"Intercontinental Buckhead Atlanta Hilton Atlanta, Georgia US Hotel\", \"Intercontinental Buckhead Atlanta Hilton Atlanta, Georgia US Resort\", \"Intercontinental Buckhead Atlanta Hilton Atlanta, Georgia US\", \"InterContinental Buckhead Atlanta Hotel\", \"InterContinental Buckhead Atlanta Resort\", \"InterContinental Buckhead Atlanta\", \"InterContinental Buckhead Atlanta Atlanta, Georgia US Hotel\", \"InterContinental Buckhead Atlanta Atlanta, Georgia US Resort\", \"InterContinental Buckhead Atlanta Atlanta, Georgia US\"], \"v\": 3}": {
     "lat": 33.8451862,
     "lon": -84.3683337,
@@ -152268,48 +152184,6 @@
         "point_of_interest"
       ],
       "website": "https://www.hyatt.com/hyatt-regency/en-US/aruba-hyatt-regency-aruba-resort-spa-and-casino?src=corp_lclb_google_seo_aruba&utm_source=google&utm_medium=organic&utm_campaign=lmr"
-    }
-  },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"InterContinental Amstel Amsterdam\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Amstel Amsterdam IHG Hotels & Resorts Hotel\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts Resort\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands Hotel\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands Resort\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands\", \"InterContinental Amstel Amsterdam Hilton Hotel\", \"InterContinental Amstel Amsterdam Hilton Resort\", \"InterContinental Amstel Amsterdam Hilton\", \"InterContinental Amstel Amsterdam Hilton Amsterdam, Netherlands Hotel\", \"InterContinental Amstel Amsterdam Hilton Amsterdam, Netherlands Resort\", \"InterContinental Amstel Amsterdam Hilton Amsterdam, Netherlands\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts Hotel\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts Resort\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands Hotel\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands Resort\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands\", \"Intercontinental Amstel Amsterdam Hilton Hotel\", \"Intercontinental Amstel Amsterdam Hilton Resort\", \"Intercontinental Amstel Amsterdam Hilton\", \"Intercontinental Amstel Amsterdam Hilton Amsterdam, Netherlands Hotel\", \"Intercontinental Amstel Amsterdam Hilton Amsterdam, Netherlands Resort\", \"Intercontinental Amstel Amsterdam Hilton Amsterdam, Netherlands\", \"InterContinental Amstel Amsterdam Hotel\", \"InterContinental Amstel Amsterdam Resort\", \"InterContinental Amstel Amsterdam\", \"InterContinental Amstel Amsterdam Amsterdam, Netherlands Hotel\", \"InterContinental Amstel Amsterdam Amsterdam, Netherlands Resort\", \"InterContinental Amstel Amsterdam Amsterdam, Netherlands\"], \"v\": 3}": {
-    "lat": 52.3601,
-    "lon": 4.9049,
-    "formatted_address": "Professor Tulpplein 1, 1018 GX Amsterdam, Netherlands",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ2z9uuZAJxkcRTdWVTMl58-o",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Professor Tulpplein 1, 1018 GX Amsterdam, Netherlands",
-      "geometry": {
-        "location": {
-          "lat": 52.3601,
-          "lng": 4.9049
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 52.36142308029149,
-            "lng": 4.906520380291502
-          },
-          "southwest": {
-            "lat": 52.3587251197085,
-            "lng": 4.903822419708497
-          }
-        }
-      },
-      "name": "InterContinental Amstel Amsterdam by IHG",
-      "place_id": "ChIJ2z9uuZAJxkcRTdWVTMl58-o",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.ihg.com/intercontinental/hotels/gb/en/amsterdam/amsha/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-NL-_-AMSHA"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"InterContinental Buckhead Atlanta\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Buckhead Atlanta IHG Hotels & Resorts Hotel\", \"InterContinental Buckhead Atlanta IHG Hotels & Resorts Resort\", \"InterContinental Buckhead Atlanta IHG Hotels & Resorts\", \"InterContinental Buckhead Atlanta IHG Hotels & Resorts Atlanta, Georgia US Hotel\", \"InterContinental Buckhead Atlanta IHG Hotels & Resorts Atlanta, Georgia US Resort\", \"InterContinental Buckhead Atlanta IHG Hotels & Resorts Atlanta, Georgia US\", \"InterContinental Buckhead Atlanta Hilton Hotel\", \"InterContinental Buckhead Atlanta Hilton Resort\", \"InterContinental Buckhead Atlanta Hilton\", \"InterContinental Buckhead Atlanta Hilton Atlanta, Georgia US Hotel\", \"InterContinental Buckhead Atlanta Hilton Atlanta, Georgia US Resort\", \"InterContinental Buckhead Atlanta Hilton Atlanta, Georgia US\", \"Intercontinental Buckhead Atlanta IHG Hotels & Resorts Hotel\", \"Intercontinental Buckhead Atlanta IHG Hotels & Resorts Resort\", \"Intercontinental Buckhead Atlanta IHG Hotels & Resorts\", \"Intercontinental Buckhead Atlanta IHG Hotels & Resorts Atlanta, Georgia US Hotel\", \"Intercontinental Buckhead Atlanta IHG Hotels & Resorts Atlanta, Georgia US Resort\", \"Intercontinental Buckhead Atlanta IHG Hotels & Resorts Atlanta, Georgia US\", \"Intercontinental Buckhead Atlanta Hilton Hotel\", \"Intercontinental Buckhead Atlanta Hilton Resort\", \"Intercontinental Buckhead Atlanta Hilton\", \"Intercontinental Buckhead Atlanta Hilton Atlanta, Georgia US Hotel\", \"Intercontinental Buckhead Atlanta Hilton Atlanta, Georgia US Resort\", \"Intercontinental Buckhead Atlanta Hilton Atlanta, Georgia US\", \"InterContinental Buckhead Atlanta Hotel\", \"InterContinental Buckhead Atlanta Resort\", \"InterContinental Buckhead Atlanta\", \"InterContinental Buckhead Atlanta Atlanta, Georgia US Hotel\", \"InterContinental Buckhead Atlanta Atlanta, Georgia US Resort\", \"InterContinental Buckhead Atlanta Atlanta, Georgia US\"], \"v\": 3}": {
