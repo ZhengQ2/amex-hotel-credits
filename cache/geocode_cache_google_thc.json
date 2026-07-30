@@ -15323,48 +15323,6 @@
       "website": "https://www.hilton.com/en/hotels/sezmapy-canopy-seychelles-resort/?SEO_id=GMB-EMEA-PY-SEZMAPY"
     }
   },
-  "{\"brand\": \"Canopy by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy Hilton Memphis Downtown Canopy by Hilton Hotel\", \"Canopy Hilton Memphis Downtown Canopy by Hilton Resort\", \"Canopy Hilton Memphis Downtown Canopy by Hilton\", \"Canopy Hilton Memphis Downtown Canopy by Hilton Memphis, Tennessee US Hotel\", \"Canopy Hilton Memphis Downtown Canopy by Hilton Memphis, Tennessee US Resort\", \"Canopy Hilton Memphis Downtown Canopy by Hilton Memphis, Tennessee US\", \"Canopy Hilton Memphis Downtown Hilton Hotel\", \"Canopy Hilton Memphis Downtown Hilton Resort\", \"Canopy Hilton Memphis Downtown Hilton\", \"Canopy Hilton Memphis Downtown Hilton Memphis, Tennessee US Hotel\", \"Canopy Hilton Memphis Downtown Hilton Memphis, Tennessee US Resort\", \"Canopy Hilton Memphis Downtown Hilton Memphis, Tennessee US\", \"Canopy by Hilton Memphis Downtown Canopy by Hilton Hotel\", \"Canopy by Hilton Memphis Downtown Canopy by Hilton Resort\", \"Canopy by Hilton Memphis Downtown Canopy by Hilton\", \"Canopy by Hilton Memphis Downtown Canopy by Hilton Memphis, Tennessee US Hotel\", \"Canopy by Hilton Memphis Downtown Canopy by Hilton Memphis, Tennessee US Resort\", \"Canopy by Hilton Memphis Downtown Canopy by Hilton Memphis, Tennessee US\", \"Canopy by Hilton Memphis Downtown Hilton Hotel\", \"Canopy by Hilton Memphis Downtown Hilton Resort\", \"Canopy by Hilton Memphis Downtown Hilton\", \"Canopy by Hilton Memphis Downtown Hilton Memphis, Tennessee US Hotel\", \"Canopy by Hilton Memphis Downtown Hilton Memphis, Tennessee US Resort\", \"Canopy by Hilton Memphis Downtown Hilton Memphis, Tennessee US\", \"Canopy by Hilton Memphis Downtown Hotel\", \"Canopy by Hilton Memphis Downtown Resort\", \"Canopy by Hilton Memphis Downtown\", \"Canopy by Hilton Memphis Downtown Memphis, Tennessee US Hotel\", \"Canopy by Hilton Memphis Downtown Memphis, Tennessee US Resort\", \"Canopy by Hilton Memphis Downtown Memphis, Tennessee US\"], \"v\": 3}": {
-    "lat": 35.1428152,
-    "lon": -90.05150640000001,
-    "formatted_address": "164 Union Ave, Memphis, TN 38103, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJWXjhrJZ-1YcRfH5ITT5QZKs",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "164 Union Ave, Memphis, TN 38103, USA",
-      "geometry": {
-        "location": {
-          "lat": 35.1428152,
-          "lng": -90.05150640000001
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 35.1440656302915,
-            "lng": -90.05004096970849
-          },
-          "southwest": {
-            "lat": 35.1413676697085,
-            "lng": -90.0527389302915
-          }
-        }
-      },
-      "name": "Canopy by Hilton Memphis Downtown Beale Street",
-      "place_id": "ChIJWXjhrJZ-1YcRfH5ITT5QZKs",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hilton.com/en/hotels/memcdpy-canopy-memphis-downtown-beale-street/?SEO_id=GMB-AMER-PY-MEMCDPY&y_source=1_MTc2MDY4NjItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
-    }
-  },
   "{\"brand\": \"Canopy by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy Hilton Minneapolis Mill District Canopy by Hilton Hotel\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton Resort\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton Minneapolis, Minnesota US Hotel\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton Minneapolis, Minnesota US Resort\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton Minneapolis, Minnesota US\", \"Canopy Hilton Minneapolis Mill District Hilton Hotel\", \"Canopy Hilton Minneapolis Mill District Hilton Resort\", \"Canopy Hilton Minneapolis Mill District Hilton\", \"Canopy Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US Hotel\", \"Canopy Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US Resort\", \"Canopy Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US\", \"Canopy by Hilton Minneapolis Mill District Canopy by Hilton Hotel\", \"Canopy by Hilton Minneapolis Mill District Canopy by Hilton Resort\", \"Canopy by Hilton Minneapolis Mill District Canopy by Hilton\", \"Canopy by Hilton Minneapolis Mill District Canopy by Hilton Minneapolis, Minnesota US Hotel\", \"Canopy by Hilton Minneapolis Mill District Canopy by Hilton Minneapolis, Minnesota US Resort\", \"Canopy by Hilton Minneapolis Mill District Canopy by Hilton Minneapolis, Minnesota US\", \"Canopy by Hilton Minneapolis Mill District Hilton Hotel\", \"Canopy by Hilton Minneapolis Mill District Hilton Resort\", \"Canopy by Hilton Minneapolis Mill District Hilton\", \"Canopy by Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US Hotel\", \"Canopy by Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US Resort\", \"Canopy by Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US\", \"Canopy by Hilton Minneapolis Mill District Hotel\", \"Canopy by Hilton Minneapolis Mill District Resort\", \"Canopy by Hilton Minneapolis Mill District\", \"Canopy by Hilton Minneapolis Mill District Minneapolis, Minnesota US Hotel\", \"Canopy by Hilton Minneapolis Mill District Minneapolis, Minnesota US Resort\", \"Canopy by Hilton Minneapolis Mill District Minneapolis, Minnesota US\"], \"v\": 3}": {
     "lat": 44.9768005,
     "lon": -93.2588646,
@@ -63087,48 +63045,6 @@
       "website": "https://www.hilton.com/en/hotels/sezmapy-canopy-seychelles-resort/?SEO_id=GMB-EMEA-PY-SEZMAPY"
     }
   },
-  "{\"brand\": \"Canopy by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Memphis Downtown Canopy by Hilton Hotel\", \"Canopy by Hilton Memphis Downtown Canopy by Hilton Resort\", \"Canopy by Hilton Memphis Downtown Canopy by Hilton\", \"Canopy by Hilton Memphis Downtown Canopy by Hilton Memphis, Tennessee US Hotel\", \"Canopy by Hilton Memphis Downtown Canopy by Hilton Memphis, Tennessee US Resort\", \"Canopy by Hilton Memphis Downtown Canopy by Hilton Memphis, Tennessee US\", \"Canopy by Hilton Memphis Downtown Hilton Hotel\", \"Canopy by Hilton Memphis Downtown Hilton Resort\", \"Canopy by Hilton Memphis Downtown Hilton\", \"Canopy by Hilton Memphis Downtown Hilton Memphis, Tennessee US Hotel\", \"Canopy by Hilton Memphis Downtown Hilton Memphis, Tennessee US Resort\", \"Canopy by Hilton Memphis Downtown Hilton Memphis, Tennessee US\", \"Canopy Hilton Memphis Downtown Canopy by Hilton Hotel\", \"Canopy Hilton Memphis Downtown Canopy by Hilton Resort\", \"Canopy Hilton Memphis Downtown Canopy by Hilton\", \"Canopy Hilton Memphis Downtown Canopy by Hilton Memphis, Tennessee US Hotel\", \"Canopy Hilton Memphis Downtown Canopy by Hilton Memphis, Tennessee US Resort\", \"Canopy Hilton Memphis Downtown Canopy by Hilton Memphis, Tennessee US\", \"Canopy Hilton Memphis Downtown Hilton Hotel\", \"Canopy Hilton Memphis Downtown Hilton Resort\", \"Canopy Hilton Memphis Downtown Hilton\", \"Canopy Hilton Memphis Downtown Hilton Memphis, Tennessee US Hotel\", \"Canopy Hilton Memphis Downtown Hilton Memphis, Tennessee US Resort\", \"Canopy Hilton Memphis Downtown Hilton Memphis, Tennessee US\", \"Canopy by Hilton Memphis Downtown Hotel\", \"Canopy by Hilton Memphis Downtown Resort\", \"Canopy by Hilton Memphis Downtown\", \"Canopy by Hilton Memphis Downtown Memphis, Tennessee US Hotel\", \"Canopy by Hilton Memphis Downtown Memphis, Tennessee US Resort\", \"Canopy by Hilton Memphis Downtown Memphis, Tennessee US\"], \"v\": 3}": {
-    "lat": 35.1428152,
-    "lon": -90.05150640000001,
-    "formatted_address": "164 Union Ave, Memphis, TN 38103, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJWXjhrJZ-1YcRfH5ITT5QZKs",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "164 Union Ave, Memphis, TN 38103, USA",
-      "geometry": {
-        "location": {
-          "lat": 35.1428152,
-          "lng": -90.05150640000001
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 35.1440656302915,
-            "lng": -90.05004096970849
-          },
-          "southwest": {
-            "lat": 35.1413676697085,
-            "lng": -90.0527389302915
-          }
-        }
-      },
-      "name": "Canopy by Hilton Memphis Downtown Beale Street",
-      "place_id": "ChIJWXjhrJZ-1YcRfH5ITT5QZKs",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hilton.com/en/hotels/memcdpy-canopy-memphis-downtown-beale-street/?SEO_id=GMB-AMER-PY-MEMCDPY&y_source=1_MTc2MDY4NjItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
-    }
-  },
   "{\"brand\": \"Canopy by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Minneapolis Mill District Canopy by Hilton Hotel\", \"Canopy by Hilton Minneapolis Mill District Canopy by Hilton Resort\", \"Canopy by Hilton Minneapolis Mill District Canopy by Hilton\", \"Canopy by Hilton Minneapolis Mill District Canopy by Hilton Minneapolis, Minnesota US Hotel\", \"Canopy by Hilton Minneapolis Mill District Canopy by Hilton Minneapolis, Minnesota US Resort\", \"Canopy by Hilton Minneapolis Mill District Canopy by Hilton Minneapolis, Minnesota US\", \"Canopy by Hilton Minneapolis Mill District Hilton Hotel\", \"Canopy by Hilton Minneapolis Mill District Hilton Resort\", \"Canopy by Hilton Minneapolis Mill District Hilton\", \"Canopy by Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US Hotel\", \"Canopy by Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US Resort\", \"Canopy by Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton Hotel\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton Resort\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton Minneapolis, Minnesota US Hotel\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton Minneapolis, Minnesota US Resort\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton Minneapolis, Minnesota US\", \"Canopy Hilton Minneapolis Mill District Hilton Hotel\", \"Canopy Hilton Minneapolis Mill District Hilton Resort\", \"Canopy Hilton Minneapolis Mill District Hilton\", \"Canopy Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US Hotel\", \"Canopy Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US Resort\", \"Canopy Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US\", \"Canopy by Hilton Minneapolis Mill District Hotel\", \"Canopy by Hilton Minneapolis Mill District Resort\", \"Canopy by Hilton Minneapolis Mill District\", \"Canopy by Hilton Minneapolis Mill District Minneapolis, Minnesota US Hotel\", \"Canopy by Hilton Minneapolis Mill District Minneapolis, Minnesota US Resort\", \"Canopy by Hilton Minneapolis Mill District Minneapolis, Minnesota US\"], \"v\": 3}": {
     "lat": 44.9768005,
     "lon": -93.2588646,
@@ -84397,48 +84313,6 @@
       "website": "https://www.hilton.com/en/hotels/cptlopy-canopy-cape-town-longkloof/?SEO_id=GMB-EMEA-PY-CPTLOPY"
     }
   },
-  "{\"brand\": \"Canopy by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Memphis Downtown Beale Street Canopy by Hilton Hotel\", \"Canopy by Hilton Memphis Downtown Beale Street Canopy by Hilton Resort\", \"Canopy by Hilton Memphis Downtown Beale Street Canopy by Hilton\", \"Canopy by Hilton Memphis Downtown Beale Street Canopy by Hilton Memphis, Tennessee US Hotel\", \"Canopy by Hilton Memphis Downtown Beale Street Canopy by Hilton Memphis, Tennessee US Resort\", \"Canopy by Hilton Memphis Downtown Beale Street Canopy by Hilton Memphis, Tennessee US\", \"Canopy by Hilton Memphis Downtown Beale Street Hilton Hotel\", \"Canopy by Hilton Memphis Downtown Beale Street Hilton Resort\", \"Canopy by Hilton Memphis Downtown Beale Street Hilton\", \"Canopy by Hilton Memphis Downtown Beale Street Hilton Memphis, Tennessee US Hotel\", \"Canopy by Hilton Memphis Downtown Beale Street Hilton Memphis, Tennessee US Resort\", \"Canopy by Hilton Memphis Downtown Beale Street Hilton Memphis, Tennessee US\", \"Canopy Hilton Memphis Downtown Beale Street Canopy by Hilton Hotel\", \"Canopy Hilton Memphis Downtown Beale Street Canopy by Hilton Resort\", \"Canopy Hilton Memphis Downtown Beale Street Canopy by Hilton\", \"Canopy Hilton Memphis Downtown Beale Street Canopy by Hilton Memphis, Tennessee US Hotel\", \"Canopy Hilton Memphis Downtown Beale Street Canopy by Hilton Memphis, Tennessee US Resort\", \"Canopy Hilton Memphis Downtown Beale Street Canopy by Hilton Memphis, Tennessee US\", \"Canopy Hilton Memphis Downtown Beale Street Hilton Hotel\", \"Canopy Hilton Memphis Downtown Beale Street Hilton Resort\", \"Canopy Hilton Memphis Downtown Beale Street Hilton\", \"Canopy Hilton Memphis Downtown Beale Street Hilton Memphis, Tennessee US Hotel\", \"Canopy Hilton Memphis Downtown Beale Street Hilton Memphis, Tennessee US Resort\", \"Canopy Hilton Memphis Downtown Beale Street Hilton Memphis, Tennessee US\", \"Canopy by Hilton Memphis Downtown Beale Street Hotel\", \"Canopy by Hilton Memphis Downtown Beale Street Resort\", \"Canopy by Hilton Memphis Downtown Beale Street\", \"Canopy by Hilton Memphis Downtown Beale Street Memphis, Tennessee US Hotel\", \"Canopy by Hilton Memphis Downtown Beale Street Memphis, Tennessee US Resort\", \"Canopy by Hilton Memphis Downtown Beale Street Memphis, Tennessee US\"], \"v\": 3}": {
-    "lat": 35.1428152,
-    "lon": -90.05150640000001,
-    "formatted_address": "164 Union Ave, Memphis, TN 38103, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJWXjhrJZ-1YcRfH5ITT5QZKs",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "164 Union Ave, Memphis, TN 38103, USA",
-      "geometry": {
-        "location": {
-          "lat": 35.1428152,
-          "lng": -90.05150640000001
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 35.1440656302915,
-            "lng": -90.05004096970849
-          },
-          "southwest": {
-            "lat": 35.1413676697085,
-            "lng": -90.0527389302915
-          }
-        }
-      },
-      "name": "Canopy by Hilton Memphis Downtown Beale Street",
-      "place_id": "ChIJWXjhrJZ-1YcRfH5ITT5QZKs",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hilton.com/en/hotels/memcdpy-canopy-memphis-downtown-beale-street/?SEO_id=GMB-AMER-PY-MEMCDPY&y_source=1_MTc2MDY4NjItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
-    }
-  },
   "{\"brand\": \"Canopy by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Minneapolis - Mill District Canopy by Hilton Hotel\", \"Canopy by Hilton Minneapolis - Mill District Canopy by Hilton Resort\", \"Canopy by Hilton Minneapolis - Mill District Canopy by Hilton\", \"Canopy by Hilton Minneapolis - Mill District Canopy by Hilton Minneapolis, Minnesota US Hotel\", \"Canopy by Hilton Minneapolis - Mill District Canopy by Hilton Minneapolis, Minnesota US Resort\", \"Canopy by Hilton Minneapolis - Mill District Canopy by Hilton Minneapolis, Minnesota US\", \"Canopy by Hilton Minneapolis - Mill District Hilton Hotel\", \"Canopy by Hilton Minneapolis - Mill District Hilton Resort\", \"Canopy by Hilton Minneapolis - Mill District Hilton\", \"Canopy by Hilton Minneapolis - Mill District Hilton Minneapolis, Minnesota US Hotel\", \"Canopy by Hilton Minneapolis - Mill District Hilton Minneapolis, Minnesota US Resort\", \"Canopy by Hilton Minneapolis - Mill District Hilton Minneapolis, Minnesota US\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton Hotel\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton Resort\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton Minneapolis, Minnesota US Hotel\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton Minneapolis, Minnesota US Resort\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton Minneapolis, Minnesota US\", \"Canopy Hilton Minneapolis Mill District Hilton Hotel\", \"Canopy Hilton Minneapolis Mill District Hilton Resort\", \"Canopy Hilton Minneapolis Mill District Hilton\", \"Canopy Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US Hotel\", \"Canopy Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US Resort\", \"Canopy Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US\", \"Canopy by Hilton Minneapolis - Mill District Hotel\", \"Canopy by Hilton Minneapolis - Mill District Resort\", \"Canopy by Hilton Minneapolis - Mill District\", \"Canopy by Hilton Minneapolis - Mill District Minneapolis, Minnesota US Hotel\", \"Canopy by Hilton Minneapolis - Mill District Minneapolis, Minnesota US Resort\", \"Canopy by Hilton Minneapolis - Mill District Minneapolis, Minnesota US\"], \"v\": 3}": {
     "lat": 44.9768005,
     "lon": -93.2588646,
@@ -105081,48 +104955,6 @@
         "spa"
       ],
       "website": "https://www.hilton.com/en/hotels/sezmapy-canopy-seychelles-resort/?SEO_id=GMB-EMEA-PY-SEZMAPY"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Memphis Downtown Beale Street\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Memphis Downtown Beale Street Canopy by Hilton Hotel\", \"Canopy by Hilton Memphis Downtown Beale Street Canopy by Hilton Resort\", \"Canopy by Hilton Memphis Downtown Beale Street Canopy by Hilton\", \"Canopy by Hilton Memphis Downtown Beale Street Canopy by Hilton Memphis, Tennessee US Hotel\", \"Canopy by Hilton Memphis Downtown Beale Street Canopy by Hilton Memphis, Tennessee US Resort\", \"Canopy by Hilton Memphis Downtown Beale Street Canopy by Hilton Memphis, Tennessee US\", \"Canopy by Hilton Memphis Downtown Beale Street Hilton Hotel\", \"Canopy by Hilton Memphis Downtown Beale Street Hilton Resort\", \"Canopy by Hilton Memphis Downtown Beale Street Hilton\", \"Canopy by Hilton Memphis Downtown Beale Street Hilton Memphis, Tennessee US Hotel\", \"Canopy by Hilton Memphis Downtown Beale Street Hilton Memphis, Tennessee US Resort\", \"Canopy by Hilton Memphis Downtown Beale Street Hilton Memphis, Tennessee US\", \"Canopy Hilton Memphis Downtown Beale Street Canopy by Hilton Hotel\", \"Canopy Hilton Memphis Downtown Beale Street Canopy by Hilton Resort\", \"Canopy Hilton Memphis Downtown Beale Street Canopy by Hilton\", \"Canopy Hilton Memphis Downtown Beale Street Canopy by Hilton Memphis, Tennessee US Hotel\", \"Canopy Hilton Memphis Downtown Beale Street Canopy by Hilton Memphis, Tennessee US Resort\", \"Canopy Hilton Memphis Downtown Beale Street Canopy by Hilton Memphis, Tennessee US\", \"Canopy Hilton Memphis Downtown Beale Street Hilton Hotel\", \"Canopy Hilton Memphis Downtown Beale Street Hilton Resort\", \"Canopy Hilton Memphis Downtown Beale Street Hilton\", \"Canopy Hilton Memphis Downtown Beale Street Hilton Memphis, Tennessee US Hotel\", \"Canopy Hilton Memphis Downtown Beale Street Hilton Memphis, Tennessee US Resort\", \"Canopy Hilton Memphis Downtown Beale Street Hilton Memphis, Tennessee US\", \"Canopy by Hilton Memphis Downtown Beale Street Hotel\", \"Canopy by Hilton Memphis Downtown Beale Street Resort\", \"Canopy by Hilton Memphis Downtown Beale Street\", \"Canopy by Hilton Memphis Downtown Beale Street Memphis, Tennessee US Hotel\", \"Canopy by Hilton Memphis Downtown Beale Street Memphis, Tennessee US Resort\", \"Canopy by Hilton Memphis Downtown Beale Street Memphis, Tennessee US\"], \"v\": 3}": {
-    "lat": 35.1428152,
-    "lon": -90.05150640000001,
-    "formatted_address": "164 Union Ave, Memphis, TN 38103, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJWXjhrJZ-1YcRfH5ITT5QZKs",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "164 Union Ave, Memphis, TN 38103, USA",
-      "geometry": {
-        "location": {
-          "lat": 35.1428152,
-          "lng": -90.05150640000001
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 35.1440656302915,
-            "lng": -90.05004096970849
-          },
-          "southwest": {
-            "lat": 35.1413676697085,
-            "lng": -90.0527389302915
-          }
-        }
-      },
-      "name": "Canopy by Hilton Memphis Downtown Beale Street",
-      "place_id": "ChIJWXjhrJZ-1YcRfH5ITT5QZKs",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hilton.com/en/hotels/memcdpy-canopy-memphis-downtown-beale-street/?SEO_id=GMB-AMER-PY-MEMCDPY&y_source=1_MTc2MDY4NjItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Minneapolis - Mill District\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Minneapolis - Mill District Canopy by Hilton Hotel\", \"Canopy by Hilton Minneapolis - Mill District Canopy by Hilton Resort\", \"Canopy by Hilton Minneapolis - Mill District Canopy by Hilton\", \"Canopy by Hilton Minneapolis - Mill District Canopy by Hilton Minneapolis, Minnesota US Hotel\", \"Canopy by Hilton Minneapolis - Mill District Canopy by Hilton Minneapolis, Minnesota US Resort\", \"Canopy by Hilton Minneapolis - Mill District Canopy by Hilton Minneapolis, Minnesota US\", \"Canopy by Hilton Minneapolis - Mill District Hilton Hotel\", \"Canopy by Hilton Minneapolis - Mill District Hilton Resort\", \"Canopy by Hilton Minneapolis - Mill District Hilton\", \"Canopy by Hilton Minneapolis - Mill District Hilton Minneapolis, Minnesota US Hotel\", \"Canopy by Hilton Minneapolis - Mill District Hilton Minneapolis, Minnesota US Resort\", \"Canopy by Hilton Minneapolis - Mill District Hilton Minneapolis, Minnesota US\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton Hotel\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton Resort\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton Minneapolis, Minnesota US Hotel\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton Minneapolis, Minnesota US Resort\", \"Canopy Hilton Minneapolis Mill District Canopy by Hilton Minneapolis, Minnesota US\", \"Canopy Hilton Minneapolis Mill District Hilton Hotel\", \"Canopy Hilton Minneapolis Mill District Hilton Resort\", \"Canopy Hilton Minneapolis Mill District Hilton\", \"Canopy Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US Hotel\", \"Canopy Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US Resort\", \"Canopy Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US\", \"Canopy by Hilton Minneapolis - Mill District Hotel\", \"Canopy by Hilton Minneapolis - Mill District Resort\", \"Canopy by Hilton Minneapolis - Mill District\", \"Canopy by Hilton Minneapolis - Mill District Minneapolis, Minnesota US Hotel\", \"Canopy by Hilton Minneapolis - Mill District Minneapolis, Minnesota US Resort\", \"Canopy by Hilton Minneapolis - Mill District Minneapolis, Minnesota US\"], \"v\": 3}": {
@@ -155904,6 +155736,302 @@
         "point_of_interest"
       ],
       "website": "https://www.hilton.com/en/hotels/sjcsmsa-signia-san-jose/?SEO_id=GMB-AMER-SA-SJCSMSA&y_source=1_MjkxMDY1OTktNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hutton Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hutton Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hilton Cancun, an All-Inclusive Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Cancun, an All-Inclusive Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Lincoln Plaza London, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lincoln Plaza London, Curio Collection by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Myconian Naia\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Myconian Naia\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Reykjavik Konsulat Hotel, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Reykjavik Konsulat Hotel, Curio Collection by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hilton Cancun, an All-Inclusive Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts Hotel\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts Resort\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX Hotel\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX Resort\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotel\", \"Hilton Cancun, an All-Inclusive Resort Hilton Resort\", \"Hilton Cancun, an All-Inclusive Resort Hilton\", \"Hilton Cancun, an All-Inclusive Resort Hilton CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX Hotel\", \"Hilton Cancun, an All-Inclusive Resort Hilton CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX Resort\", \"Hilton Cancun, an All-Inclusive Resort Hilton CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts Hotel\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts Resort\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX Hotel\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX Resort\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX\", \"Hilton Cancun An All inclusive Resort Hilton Hotel\", \"Hilton Cancun An All inclusive Resort Hilton Resort\", \"Hilton Cancun An All inclusive Resort Hilton\", \"Hilton Cancun An All inclusive Resort Hilton CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX Hotel\", \"Hilton Cancun An All inclusive Resort Hilton CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX Resort\", \"Hilton Cancun An All inclusive Resort Hilton CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX\", \"Hilton Cancun, an All-Inclusive Resort Hotel\", \"Hilton Cancun, an All-Inclusive Resort Resort\", \"Hilton Cancun, an All-Inclusive Resort\", \"Hilton Cancun, an All-Inclusive Resort CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX Hotel\", \"Hilton Cancun, an All-Inclusive Resort CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX Resort\", \"Hilton Cancun, an All-Inclusive Resort CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX\"], \"v\": 3}": {
+    "lat": 20.9538196,
+    "lon": -86.83611169999999,
+    "formatted_address": "Carr Federal Libre 307 Cancun-Tulum Km 248-868, SM-36, LT-1-01 UPE-1E, 77580 Cancun, Q.R., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJFzwYx7uGTo8R7Zvxt7RS1Ac",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carr Federal Libre 307 Cancun-Tulum Km 248-868, SM-36, LT-1-01 UPE-1E, 77580 Cancun, Q.R., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 20.9538196,
+          "lng": -86.83611169999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 20.9550635302915,
+            "lng": -86.8350504197085
+          },
+          "southwest": {
+            "lat": 20.9523655697085,
+            "lng": -86.8377483802915
+          }
+        }
+      },
+      "name": "Hilton Cancun, an All-Inclusive Resort",
+      "place_id": "ChIJFzwYx7uGTo8R7Zvxt7RS1Ac",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/cunqrhh-hilton-cancun/?SEO_id=GMB-AMER-HH-CUNQRHH"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Lincoln Plaza London, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotels & Resorts Hotel\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotels & Resorts Resort\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotels & Resorts\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotels & Resorts London, United Kingdom Hotel\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotels & Resorts London, United Kingdom Resort\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotels & Resorts London, United Kingdom\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotel\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Resort\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton London, United Kingdom Hotel\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton London, United Kingdom Resort\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton London, United Kingdom\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotels & Resorts Hotel\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotels & Resorts Resort\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotels & Resorts\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotels & Resorts London, United Kingdom Hotel\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotels & Resorts London, United Kingdom Resort\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotels & Resorts London, United Kingdom\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotel\", \"Lincoln Plaza London Curio Collection Hilton Hilton Resort\", \"Lincoln Plaza London Curio Collection Hilton Hilton\", \"Lincoln Plaza London Curio Collection Hilton Hilton London, United Kingdom Hotel\", \"Lincoln Plaza London Curio Collection Hilton Hilton London, United Kingdom Resort\", \"Lincoln Plaza London Curio Collection Hilton Hilton London, United Kingdom\", \"Lincoln Plaza London, Curio Collection by Hilton Hotel\", \"Lincoln Plaza London, Curio Collection by Hilton Resort\", \"Lincoln Plaza London, Curio Collection by Hilton\", \"Lincoln Plaza London, Curio Collection by Hilton London, United Kingdom Hotel\", \"Lincoln Plaza London, Curio Collection by Hilton London, United Kingdom Resort\", \"Lincoln Plaza London, Curio Collection by Hilton London, United Kingdom\"], \"v\": 3}": {
+    "lat": 51.49850679999999,
+    "lon": -0.0194893,
+    "formatted_address": "2 Lincoln Plaza, London E14 9BN, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJO_Wi3L4CdkgRBqUskLZpi2k",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2 Lincoln Plaza, London E14 9BN, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.49850679999999,
+          "lng": -0.0194893
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.49988168029149,
+            "lng": -0.01780926970849797
+          },
+          "southwest": {
+            "lat": 51.4971837197085,
+            "lng": -0.02050723029150203
+          }
+        }
+      },
+      "name": "Lincoln Plaza London, Curio Collection by Hilton",
+      "place_id": "ChIJO_Wi3L4CdkgRBqUskLZpi2k",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/loncuqq-lincoln-plaza-london/?SEO_id=GMB-EMEA-QQ-LONCUQQ"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Reykjavik Konsulat Hotel, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Reykjavik Konsulat Hotel, Curio Collection by Hilton Hilton Hotels & Resorts Hotel\", \"Reykjavik Konsulat Hotel, Curio Collection by Hilton Hilton Hotels & Resorts Resort\", \"Reykjavik Konsulat Hotel, Curio Collection by Hilton Hilton Hotels & Resorts\", \"Reykjavik Konsulat Hotel, Curio Collection by Hilton Hilton Hotels & Resorts Reykjavik, Iceland Hotel\", \"Reykjavik Konsulat Hotel, Curio Collection by Hilton Hilton Hotels & Resorts Reykjavik, Iceland Resort\", \"Reykjavik Konsulat Hotel, Curio Collection by Hilton Hilton Hotels & Resorts Reykjavik, Iceland\", \"Reykjavik Konsulat Hotel, Curio Collection by Hilton Hilton Hotel\", \"Reykjavik Konsulat Hotel, Curio Collection by Hilton Hilton Resort\", \"Reykjavik Konsulat Hotel, Curio Collection by Hilton Hilton\", \"Reykjavik Konsulat Hotel, Curio Collection by Hilton Hilton Reykjavik, Iceland Hotel\", \"Reykjavik Konsulat Hotel, Curio Collection by Hilton Hilton Reykjavik, Iceland Resort\", \"Reykjavik Konsulat Hotel, Curio Collection by Hilton Hilton Reykjavik, Iceland\", \"Reykjavik Konsulat Hotel Curio Collection Hilton Hilton Hotels & Resorts Hotel\", \"Reykjavik Konsulat Hotel Curio Collection Hilton Hilton Hotels & Resorts Resort\", \"Reykjavik Konsulat Hotel Curio Collection Hilton Hilton Hotels & Resorts\", \"Reykjavik Konsulat Hotel Curio Collection Hilton Hilton Hotels & Resorts Reykjavik, Iceland Hotel\", \"Reykjavik Konsulat Hotel Curio Collection Hilton Hilton Hotels & Resorts Reykjavik, Iceland Resort\", \"Reykjavik Konsulat Hotel Curio Collection Hilton Hilton Hotels & Resorts Reykjavik, Iceland\", \"Reykjavik Konsulat Hotel Curio Collection Hilton Hilton Hotel\", \"Reykjavik Konsulat Hotel Curio Collection Hilton Hilton Resort\", \"Reykjavik Konsulat Hotel Curio Collection Hilton Hilton\", \"Reykjavik Konsulat Hotel Curio Collection Hilton Hilton Reykjavik, Iceland Hotel\", \"Reykjavik Konsulat Hotel Curio Collection Hilton Hilton Reykjavik, Iceland Resort\", \"Reykjavik Konsulat Hotel Curio Collection Hilton Hilton Reykjavik, Iceland\", \"Reykjavik Konsulat Hotel, Curio Collection by Hilton Hotel\", \"Reykjavik Konsulat Hotel, Curio Collection by Hilton Resort\", \"Reykjavik Konsulat Hotel, Curio Collection by Hilton\", \"Reykjavik Konsulat Hotel, Curio Collection by Hilton Reykjavik, Iceland Hotel\", \"Reykjavik Konsulat Hotel, Curio Collection by Hilton Reykjavik, Iceland Resort\", \"Reykjavik Konsulat Hotel, Curio Collection by Hilton Reykjavik, Iceland\"], \"v\": 3}": {
+    "lat": 64.14800199999999,
+    "lon": -21.9375184,
+    "formatted_address": "Hafnarstræti 17-19, 101 Reykjavík, Iceland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJu7VqNi0L1kgR-0GWJP6UT80",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Hafnarstræti 17-19, 101 Reykjavík, Iceland",
+      "geometry": {
+        "location": {
+          "lat": 64.14800199999999,
+          "lng": -21.9375184
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 64.1493192302915,
+            "lng": -21.93619036970849
+          },
+          "southwest": {
+            "lat": 64.14662126970848,
+            "lng": -21.9388883302915
+          }
+        }
+      },
+      "name": "Reykjavik Konsulat Hotel, Curio Collection by Hilton",
+      "place_id": "ChIJu7VqNi0L1kgR-0GWJP6UT80",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/rekcuqq-reykjavik-konsulat-hotel/?SEO_id=GMB-EMEA-QQ-REKCUQQ"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hutton Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hutton Hotel Marriott Hotel\", \"Hutton Hotel Marriott Resort\", \"Hutton Hotel Marriott\", \"Hutton Hotel Marriott Nashville, Tennessee US Hotel\", \"Hutton Hotel Marriott Nashville, Tennessee US Resort\", \"Hutton Hotel Marriott Nashville, Tennessee US\", \"Hutton Hotel Hilton Hotel\", \"Hutton Hotel Hilton Resort\", \"Hutton Hotel Hilton\", \"Hutton Hotel Hilton Nashville, Tennessee US Hotel\", \"Hutton Hotel Hilton Nashville, Tennessee US Resort\", \"Hutton Hotel Hilton Nashville, Tennessee US\", \"Hutton Hotel Hotel\", \"Hutton Hotel Resort\", \"Hutton Hotel\", \"Hutton Hotel Nashville, Tennessee US Hotel\", \"Hutton Hotel Nashville, Tennessee US Resort\", \"Hutton Hotel Nashville, Tennessee US\"], \"v\": 3}": {
+    "lat": 36.153155,
+    "lon": -86.7972844,
+    "formatted_address": "1808 West End Ave, Nashville, TN 37203, USA",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
+    "place_id": "ChIJASl2gZRmZIgREkNMxEpwu6I",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": true,
+    "raw": {
+      "address_components": [
+        {
+          "long_name": "1808",
+          "short_name": "1808",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "West End Avenue",
+          "short_name": "West End Ave",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Midtown",
+          "short_name": "Midtown",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Nashville",
+          "short_name": "Nashville",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Davidson County",
+          "short_name": "Davidson County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Tennessee",
+          "short_name": "TN",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "37203",
+          "short_name": "37203",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "2506",
+          "short_name": "2506",
+          "types": [
+            "postal_code_suffix"
+          ]
+        }
+      ],
+      "formatted_address": "1808 West End Ave, Nashville, TN 37203, USA",
+      "geometry": {
+        "location": {
+          "lat": 36.153155,
+          "lng": -86.7972844
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.1543573302915,
+            "lng": -86.7959153197085
+          },
+          "southwest": {
+            "lat": 36.1516593697085,
+            "lng": -86.7986132802915
+          }
+        }
+      },
+      "navigation_points": [
+        {
+          "location": {
+            "latitude": 36.1528982,
+            "longitude": -86.7972325
+          }
+        }
+      ],
+      "partial_match": true,
+      "place_id": "ChIJASl2gZRmZIgREkNMxEpwu6I",
+      "plus_code": {
+        "compound_code": "5633+73 Nashville, TN",
+        "global_code": "868M5633+73"
+      },
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Myconian Naia\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Myconian Naia Preferred Hotels & Resorts Hotel\", \"Myconian Naia Preferred Hotels & Resorts Resort\", \"Myconian Naia Preferred Hotels & Resorts\", \"Myconian Naia Preferred Hotels & Resorts Mykonos, Greece Hotel\", \"Myconian Naia Preferred Hotels & Resorts Mykonos, Greece Resort\", \"Myconian Naia Preferred Hotels & Resorts Mykonos, Greece\", \"Myconian Naia Hilton Hotel\", \"Myconian Naia Hilton Resort\", \"Myconian Naia Hilton\", \"Myconian Naia Hilton Mykonos, Greece Hotel\", \"Myconian Naia Hilton Mykonos, Greece Resort\", \"Myconian Naia Hilton Mykonos, Greece\", \"Myconian Naia Hotel\", \"Myconian Naia Resort\", \"Myconian Naia\", \"Myconian Naia Mykonos, Greece Hotel\", \"Myconian Naia Mykonos, Greece Resort\", \"Myconian Naia Mykonos, Greece\"], \"v\": 3}": {
+    "lat": 37.436454,
+    "lon": 25.329173,
+    "formatted_address": "Mykonos Town, Mikonos 846 00, Greece",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJnVkyRf--ohQRNyfRQwO1ZJc",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Mykonos Town, Mikonos 846 00, Greece",
+      "geometry": {
+        "location": {
+          "lat": 37.436454,
+          "lng": 25.329173
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.4379841302915,
+            "lng": 25.3306413802915
+          },
+          "southwest": {
+            "lat": 37.4352861697085,
+            "lng": 25.32794341970849
+          }
+        }
+      },
+      "name": "Myconian Naia",
+      "place_id": "ChIJnVkyRf--ohQRNyfRQwO1ZJc",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.myconian-naia.gr/"
     }
   }
 }

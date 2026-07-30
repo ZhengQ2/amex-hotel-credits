@@ -7942,48 +7942,6 @@
       "website": "https://www.aman.com/zh-cn/resorts/amanfayun"
     }
   },
-  "{\"brand\": \"Aman\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amangani Aman Hotel\", \"Amangani Aman Resort\", \"Amangani Aman\", \"Amangani Aman Jackson, Wyoming US Hotel\", \"Amangani Aman Jackson, Wyoming US Resort\", \"Amangani Aman Jackson, Wyoming US\", \"Amangani Hilton Hotel\", \"Amangani Hilton Resort\", \"Amangani Hilton\", \"Amangani Hilton Jackson, Wyoming US Hotel\", \"Amangani Hilton Jackson, Wyoming US Resort\", \"Amangani Hilton Jackson, Wyoming US\", \"Amangani Hotel\", \"Amangani Resort\", \"Amangani\", \"Amangani Jackson, Wyoming US Hotel\", \"Amangani Jackson, Wyoming US Resort\", \"Amangani Jackson, Wyoming US\"], \"v\": 3}": {
-    "lat": 43.5040497,
-    "lon": -110.7743935,
-    "formatted_address": "1535 E Butte Rd, Jackson, WY 83001, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJXUtAiukaU1MRzNuTJdCwny4",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "CLOSED_TEMPORARILY",
-      "formatted_address": "1535 E Butte Rd, Jackson, WY 83001, USA",
-      "geometry": {
-        "location": {
-          "lat": 43.5040497,
-          "lng": -110.7743935
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 43.50558353029149,
-            "lng": -110.7728246197085
-          },
-          "southwest": {
-            "lat": 43.50288556970849,
-            "lng": -110.7755225802915
-          }
-        }
-      },
-      "name": "Amangani",
-      "place_id": "ChIJXUtAiukaU1MRzNuTJdCwny4",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.aman.com/resorts/amangani?utm_source=Google&utm_medium=Yext&y_source=1_MTU3MDc0MTEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
-    }
-  },
   "{\"brand\": \"Aman\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aman Kyoto Aman Hotel\", \"Aman Kyoto Aman Resort\", \"Aman Kyoto Aman\", \"Aman Kyoto Aman Kyoto, Japan Hotel\", \"Aman Kyoto Aman Kyoto, Japan Resort\", \"Aman Kyoto Aman Kyoto, Japan\", \"Aman Kyoto Hilton Hotel\", \"Aman Kyoto Hilton Resort\", \"Aman Kyoto Hilton\", \"Aman Kyoto Hilton Kyoto, Japan Hotel\", \"Aman Kyoto Hilton Kyoto, Japan Resort\", \"Aman Kyoto Hilton Kyoto, Japan\", \"Aman Kyoto Hotel\", \"Aman Kyoto Resort\", \"Aman Kyoto\", \"Aman Kyoto Kyoto, Japan Hotel\", \"Aman Kyoto Kyoto, Japan Resort\", \"Aman Kyoto Kyoto, Japan\"], \"v\": 3}": {
     "lat": 35.05076409999999,
     "lon": 135.7305842,
@@ -132989,48 +132947,6 @@
       "website": "https://www.aman.com/zh-cn/resorts/amanfayun"
     }
   },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Amangani\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amangani Aman Hotel\", \"Amangani Aman Resort\", \"Amangani Aman\", \"Amangani Aman Jackson, Wyoming US Hotel\", \"Amangani Aman Jackson, Wyoming US Resort\", \"Amangani Aman Jackson, Wyoming US\", \"Amangani Hilton Hotel\", \"Amangani Hilton Resort\", \"Amangani Hilton\", \"Amangani Hilton Jackson, Wyoming US Hotel\", \"Amangani Hilton Jackson, Wyoming US Resort\", \"Amangani Hilton Jackson, Wyoming US\", \"Amangani Hotel\", \"Amangani Resort\", \"Amangani\", \"Amangani Jackson, Wyoming US Hotel\", \"Amangani Jackson, Wyoming US Resort\", \"Amangani Jackson, Wyoming US\"], \"v\": 3}": {
-    "lat": 43.5040497,
-    "lon": -110.7743935,
-    "formatted_address": "1535 E Butte Rd, Jackson, WY 83001, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJXUtAiukaU1MRzNuTJdCwny4",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "CLOSED_TEMPORARILY",
-      "formatted_address": "1535 E Butte Rd, Jackson, WY 83001, USA",
-      "geometry": {
-        "location": {
-          "lat": 43.5040497,
-          "lng": -110.7743935
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 43.50558353029149,
-            "lng": -110.7728246197085
-          },
-          "southwest": {
-            "lat": 43.50288556970849,
-            "lng": -110.7755225802915
-          }
-        }
-      },
-      "name": "Amangani",
-      "place_id": "ChIJXUtAiukaU1MRzNuTJdCwny4",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.aman.com/resorts/amangani?utm_source=Google&utm_medium=Yext&y_source=1_MTU3MDc0MTEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
-    }
-  },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Aman Kyoto\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aman Kyoto Aman Hotel\", \"Aman Kyoto Aman Resort\", \"Aman Kyoto Aman\", \"Aman Kyoto Aman Kyoto, Japan Hotel\", \"Aman Kyoto Aman Kyoto, Japan Resort\", \"Aman Kyoto Aman Kyoto, Japan\", \"Aman Kyoto Hilton Hotel\", \"Aman Kyoto Hilton Resort\", \"Aman Kyoto Hilton\", \"Aman Kyoto Hilton Kyoto, Japan Hotel\", \"Aman Kyoto Hilton Kyoto, Japan Resort\", \"Aman Kyoto Hilton Kyoto, Japan\", \"Aman Kyoto Hotel\", \"Aman Kyoto Resort\", \"Aman Kyoto\", \"Aman Kyoto Kyoto, Japan Hotel\", \"Aman Kyoto Kyoto, Japan Resort\", \"Aman Kyoto Kyoto, Japan\"], \"v\": 3}": {
     "lat": 35.05076409999999,
     "lon": 135.7305842,
@@ -211155,6 +211071,231 @@
         "point_of_interest"
       ],
       "website": "https://www.tortugabayhotel.com/"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Malliouhana Resort Anguilla\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Malliouhana Resort Anguilla\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Aman Sveti Stefan, Montenegro\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aman Sveti Stefan, Montenegro\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Conrad Athens, The Ilisian\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Conrad Athens, The Ilisian\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"InterContinental Amstel Amsterdam\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Amstel Amsterdam\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Waldorf Astoria Kuala Lumpur\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Waldorf Astoria Kuala Lumpur\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Aman Sveti Stefan, Montenegro\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aman Sveti Stefan, Montenegro Aman Hotel\", \"Aman Sveti Stefan, Montenegro Aman Resort\", \"Aman Sveti Stefan, Montenegro Aman\", \"Aman Sveti Stefan, Montenegro Aman Montenegro, Montenegro Hotel\", \"Aman Sveti Stefan, Montenegro Aman Montenegro, Montenegro Resort\", \"Aman Sveti Stefan, Montenegro Aman Montenegro, Montenegro\", \"Aman Sveti Stefan, Montenegro Hilton Hotel\", \"Aman Sveti Stefan, Montenegro Hilton Resort\", \"Aman Sveti Stefan, Montenegro Hilton\", \"Aman Sveti Stefan, Montenegro Hilton Montenegro, Montenegro Hotel\", \"Aman Sveti Stefan, Montenegro Hilton Montenegro, Montenegro Resort\", \"Aman Sveti Stefan, Montenegro Hilton Montenegro, Montenegro\", \"Aman Sveti Stefan Montenegro Aman Hotel\", \"Aman Sveti Stefan Montenegro Aman Resort\", \"Aman Sveti Stefan Montenegro Aman\", \"Aman Sveti Stefan Montenegro Aman Montenegro, Montenegro Hotel\", \"Aman Sveti Stefan Montenegro Aman Montenegro, Montenegro Resort\", \"Aman Sveti Stefan Montenegro Aman Montenegro, Montenegro\", \"Aman Sveti Stefan Montenegro Hilton Hotel\", \"Aman Sveti Stefan Montenegro Hilton Resort\", \"Aman Sveti Stefan Montenegro Hilton\", \"Aman Sveti Stefan Montenegro Hilton Montenegro, Montenegro Hotel\", \"Aman Sveti Stefan Montenegro Hilton Montenegro, Montenegro Resort\", \"Aman Sveti Stefan Montenegro Hilton Montenegro, Montenegro\", \"Aman Sveti Stefan, Montenegro Hotel\", \"Aman Sveti Stefan, Montenegro Resort\", \"Aman Sveti Stefan, Montenegro\", \"Aman Sveti Stefan, Montenegro Montenegro, Montenegro Hotel\", \"Aman Sveti Stefan, Montenegro Montenegro, Montenegro Resort\", \"Aman Sveti Stefan, Montenegro Montenegro, Montenegro\"], \"v\": 3}": {
+    "lat": 42.2558678,
+    "lon": 18.8909378,
+    "formatted_address": "Aman, Sveti Stefan 85315, Montenegro",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJE2oM_C_UTRMRCj_jgPHfx-E",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Aman, Sveti Stefan 85315, Montenegro",
+      "geometry": {
+        "location": {
+          "lat": 42.2558678,
+          "lng": 18.8909378
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.2575061802915,
+            "lng": 18.8943451
+          },
+          "southwest": {
+            "lat": 42.2548082197085,
+            "lng": 18.8909378
+          }
+        }
+      },
+      "name": "Aman Sveti Stefan",
+      "place_id": "ChIJE2oM_C_UTRMRCj_jgPHfx-E",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.aman.com/resorts/aman-sveti-stefan?utm_source=Google&utm_medium=Yext&y_source=1_MTU3MDc3MDAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Conrad Athens, The Ilisian\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Conrad Athens, The Ilisian Hilton Hotels & Resorts Hotel\", \"Conrad Athens, The Ilisian Hilton Hotels & Resorts Resort\", \"Conrad Athens, The Ilisian Hilton Hotels & Resorts\", \"Conrad Athens, The Ilisian Hilton Hotels & Resorts Athens, Greece Hotel\", \"Conrad Athens, The Ilisian Hilton Hotels & Resorts Athens, Greece Resort\", \"Conrad Athens, The Ilisian Hilton Hotels & Resorts Athens, Greece\", \"Conrad Athens, The Ilisian Hilton Hotel\", \"Conrad Athens, The Ilisian Hilton Resort\", \"Conrad Athens, The Ilisian Hilton\", \"Conrad Athens, The Ilisian Hilton Athens, Greece Hotel\", \"Conrad Athens, The Ilisian Hilton Athens, Greece Resort\", \"Conrad Athens, The Ilisian Hilton Athens, Greece\", \"Conrad Athens Ilisian Hilton Hotels & Resorts Hotel\", \"Conrad Athens Ilisian Hilton Hotels & Resorts Resort\", \"Conrad Athens Ilisian Hilton Hotels & Resorts\", \"Conrad Athens Ilisian Hilton Hotels & Resorts Athens, Greece Hotel\", \"Conrad Athens Ilisian Hilton Hotels & Resorts Athens, Greece Resort\", \"Conrad Athens Ilisian Hilton Hotels & Resorts Athens, Greece\", \"Conrad Athens Ilisian Hilton Hotel\", \"Conrad Athens Ilisian Hilton Resort\", \"Conrad Athens Ilisian Hilton\", \"Conrad Athens Ilisian Hilton Athens, Greece Hotel\", \"Conrad Athens Ilisian Hilton Athens, Greece Resort\", \"Conrad Athens Ilisian Hilton Athens, Greece\", \"Conrad Athens, The Ilisian Hotel\", \"Conrad Athens, The Ilisian Resort\", \"Conrad Athens, The Ilisian\", \"Conrad Athens, The Ilisian Athens, Greece Hotel\", \"Conrad Athens, The Ilisian Athens, Greece Resort\", \"Conrad Athens, The Ilisian Athens, Greece\"], \"v\": 3}": {
+    "lat": 37.97645869999999,
+    "lon": 23.7502782,
+    "formatted_address": "Vasilissis Sofias 46, Athina 115 28, Greece",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJLYfJrP-9oRQR9HEmZtslq60",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Vasilissis Sofias 46, Athina 115 28, Greece",
+      "geometry": {
+        "location": {
+          "lat": 37.97645869999999,
+          "lng": 23.7502782
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.97782298029149,
+            "lng": 23.75161973029151
+          },
+          "southwest": {
+            "lat": 37.97512501970849,
+            "lng": 23.7489217697085
+          }
+        }
+      },
+      "name": "Conrad Athens The Ilisian",
+      "place_id": "ChIJLYfJrP-9oRQR9HEmZtslq60",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/athgrci-conrad-athens-the-ilisian/?SEO_id=GMB-EMEA-CI-ATHGRCI"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Waldorf Astoria Kuala Lumpur\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Waldorf Astoria Kuala Lumpur Hilton Hotels & Resorts Hotel\", \"Waldorf Astoria Kuala Lumpur Hilton Hotels & Resorts Resort\", \"Waldorf Astoria Kuala Lumpur Hilton Hotels & Resorts\", \"Waldorf Astoria Kuala Lumpur Hilton Hotels & Resorts Kuala Lumpur, Malaysia Hotel\", \"Waldorf Astoria Kuala Lumpur Hilton Hotels & Resorts Kuala Lumpur, Malaysia Resort\", \"Waldorf Astoria Kuala Lumpur Hilton Hotels & Resorts Kuala Lumpur, Malaysia\", \"Waldorf Astoria Kuala Lumpur Hilton Hotel\", \"Waldorf Astoria Kuala Lumpur Hilton Resort\", \"Waldorf Astoria Kuala Lumpur Hilton\", \"Waldorf Astoria Kuala Lumpur Hilton Kuala Lumpur, Malaysia Hotel\", \"Waldorf Astoria Kuala Lumpur Hilton Kuala Lumpur, Malaysia Resort\", \"Waldorf Astoria Kuala Lumpur Hilton Kuala Lumpur, Malaysia\", \"Waldorf Astoria Kuala Lumpur Hotel\", \"Waldorf Astoria Kuala Lumpur Resort\", \"Waldorf Astoria Kuala Lumpur\", \"Waldorf Astoria Kuala Lumpur Kuala Lumpur, Malaysia Hotel\", \"Waldorf Astoria Kuala Lumpur Kuala Lumpur, Malaysia Resort\", \"Waldorf Astoria Kuala Lumpur Kuala Lumpur, Malaysia\"], \"v\": 3}": {
+    "lat": 3.1352691,
+    "lon": 101.6862387,
+    "formatted_address": "3, Jalan Stesen Sentral, Kuala Lumpur Sentral, 50470 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJS1D268BJzDER2E5IN5pdsO8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "3, Jalan Stesen Sentral, Kuala Lumpur Sentral, 50470 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "geometry": {
+        "location": {
+          "lat": 3.1352691,
+          "lng": 101.6862387
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 3.136563480291501,
+            "lng": 101.6875508802915
+          },
+          "southwest": {
+            "lat": 3.133865519708498,
+            "lng": 101.6848529197085
+          }
+        }
+      },
+      "name": "Hilton Kuala Lumpur",
+      "place_id": "ChIJS1D268BJzDER2E5IN5pdsO8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/kulhihi-hilton-kuala-lumpur/?SEO_id=GMB-APAC-HI-KULHIHI"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"InterContinental Amstel Amsterdam\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Amstel Amsterdam IHG Hotels & Resorts Hotel\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts Resort\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands Hotel\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands Resort\", \"InterContinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands\", \"InterContinental Amstel Amsterdam Hilton Hotel\", \"InterContinental Amstel Amsterdam Hilton Resort\", \"InterContinental Amstel Amsterdam Hilton\", \"InterContinental Amstel Amsterdam Hilton Amsterdam, Netherlands Hotel\", \"InterContinental Amstel Amsterdam Hilton Amsterdam, Netherlands Resort\", \"InterContinental Amstel Amsterdam Hilton Amsterdam, Netherlands\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts Hotel\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts Resort\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands Hotel\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands Resort\", \"Intercontinental Amstel Amsterdam IHG Hotels & Resorts Amsterdam, Netherlands\", \"Intercontinental Amstel Amsterdam Hilton Hotel\", \"Intercontinental Amstel Amsterdam Hilton Resort\", \"Intercontinental Amstel Amsterdam Hilton\", \"Intercontinental Amstel Amsterdam Hilton Amsterdam, Netherlands Hotel\", \"Intercontinental Amstel Amsterdam Hilton Amsterdam, Netherlands Resort\", \"Intercontinental Amstel Amsterdam Hilton Amsterdam, Netherlands\", \"InterContinental Amstel Amsterdam Hotel\", \"InterContinental Amstel Amsterdam Resort\", \"InterContinental Amstel Amsterdam\", \"InterContinental Amstel Amsterdam Amsterdam, Netherlands Hotel\", \"InterContinental Amstel Amsterdam Amsterdam, Netherlands Resort\", \"InterContinental Amstel Amsterdam Amsterdam, Netherlands\"], \"v\": 3}": {
+    "lat": 52.3601,
+    "lon": 4.9049,
+    "formatted_address": "Professor Tulpplein 1, 1018 GX Amsterdam, Netherlands",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ2z9uuZAJxkcRTdWVTMl58-o",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Professor Tulpplein 1, 1018 GX Amsterdam, Netherlands",
+      "geometry": {
+        "location": {
+          "lat": 52.3601,
+          "lng": 4.9049
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.36142308029149,
+            "lng": 4.906520380291502
+          },
+          "southwest": {
+            "lat": 52.3587251197085,
+            "lng": 4.903822419708497
+          }
+        }
+      },
+      "name": "InterContinental Amstel Amsterdam by IHG",
+      "place_id": "ChIJ2z9uuZAJxkcRTdWVTMl58-o",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.ihg.com/intercontinental/hotels/gb/en/amsterdam/amsha/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-NL-_-AMSHA"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Malliouhana Resort Anguilla\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Malliouhana Resort Anguilla Small Luxury Hotels of the World Hotel\", \"Malliouhana Resort Anguilla Small Luxury Hotels of the World Resort\", \"Malliouhana Resort Anguilla Small Luxury Hotels of the World\", \"Malliouhana Resort Anguilla Small Luxury Hotels of the World Meads Bay, Anguilla Hotel\", \"Malliouhana Resort Anguilla Small Luxury Hotels of the World Meads Bay, Anguilla Resort\", \"Malliouhana Resort Anguilla Small Luxury Hotels of the World Meads Bay, Anguilla\", \"Malliouhana Resort Anguilla Hilton Hotel\", \"Malliouhana Resort Anguilla Hilton Resort\", \"Malliouhana Resort Anguilla Hilton\", \"Malliouhana Resort Anguilla Hilton Meads Bay, Anguilla Hotel\", \"Malliouhana Resort Anguilla Hilton Meads Bay, Anguilla Resort\", \"Malliouhana Resort Anguilla Hilton Meads Bay, Anguilla\", \"Malliouhana Resort Anguilla Hotel\", \"Malliouhana Resort Anguilla Resort\", \"Malliouhana Resort Anguilla\", \"Malliouhana Resort Anguilla Meads Bay, Anguilla Hotel\", \"Malliouhana Resort Anguilla Meads Bay, Anguilla Resort\", \"Malliouhana Resort Anguilla Meads Bay, Anguilla\"], \"v\": 3}": {
+    "lat": 18.1876457,
+    "lon": -63.134498,
+    "formatted_address": "Meads Bay, British West Indies 2640, Anguilla",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJoe4ZO8dmDowRV195Oc9dQ4g",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Meads Bay, British West Indies 2640, Anguilla",
+      "geometry": {
+        "location": {
+          "lat": 18.1876457,
+          "lng": -63.134498
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 18.1890151802915,
+            "lng": -63.1330548697085
+          },
+          "southwest": {
+            "lat": 18.1863172197085,
+            "lng": -63.13575283029151
+          }
+        }
+      },
+      "name": "Malliouhana",
+      "place_id": "ChIJoe4ZO8dmDowRV195Oc9dQ4g",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://malliouhana.com/"
     }
   }
 }
