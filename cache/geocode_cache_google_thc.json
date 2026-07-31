@@ -52967,56 +52967,6 @@
       "website": "http://www.jackalopehotels.com/"
     }
   },
-  "{\"brand\": \"The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Maison Albar Amoure The Leading Hotels of the World Hotel\", \"Maison Albar Amoure The Leading Hotels of the World Resort\", \"Maison Albar Amoure The Leading Hotels of the World\", \"Maison Albar Amoure The Leading Hotels of the World Moure, Portugal Hotel\", \"Maison Albar Amoure The Leading Hotels of the World Moure, Portugal Resort\", \"Maison Albar Amoure The Leading Hotels of the World Moure, Portugal\", \"Maison Albar Amoure Hilton Hotel\", \"Maison Albar Amoure Hilton Resort\", \"Maison Albar Amoure Hilton\", \"Maison Albar Amoure Hilton Moure, Portugal Hotel\", \"Maison Albar Amoure Hilton Moure, Portugal Resort\", \"Maison Albar Amoure Hilton Moure, Portugal\", \"Maison Albar - Amoure The Leading Hotels of the World Hotel\", \"Maison Albar - Amoure The Leading Hotels of the World Resort\", \"Maison Albar - Amoure The Leading Hotels of the World\", \"Maison Albar - Amoure The Leading Hotels of the World Moure, Portugal Hotel\", \"Maison Albar - Amoure The Leading Hotels of the World Moure, Portugal Resort\", \"Maison Albar - Amoure The Leading Hotels of the World Moure, Portugal\", \"Maison Albar - Amoure Hilton Hotel\", \"Maison Albar - Amoure Hilton Resort\", \"Maison Albar - Amoure Hilton\", \"Maison Albar - Amoure Hilton Moure, Portugal Hotel\", \"Maison Albar - Amoure Hilton Moure, Portugal Resort\", \"Maison Albar - Amoure Hilton Moure, Portugal\", \"Maison Albar - Amoure Hotel\", \"Maison Albar - Amoure Resort\", \"Maison Albar - Amoure\", \"Maison Albar - Amoure Moure, Portugal Hotel\", \"Maison Albar - Amoure Moure, Portugal Resort\", \"Maison Albar - Amoure Moure, Portugal\"], \"v\": 3}": {
-    "lat": 41.6374963,
-    "lon": -8.476974199999999,
-    "formatted_address": "Av. da Câmara 22, 4730-304, Portugal",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJqxPQQ3oAJQ0RSq334t-I6pE",
-    "types": [
-      "bar",
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Av. da Câmara 22, 4730-304, Portugal",
-      "geometry": {
-        "location": {
-          "lat": 41.6374963,
-          "lng": -8.476974199999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 41.6388354302915,
-            "lng": -8.475585169708497
-          },
-          "southwest": {
-            "lat": 41.63613746970851,
-            "lng": -8.478283130291501
-          }
-        }
-      },
-      "name": "Maison Albar - Amoure",
-      "place_id": "ChIJqxPQQ3oAJQ0RSq334t-I6pE",
-      "types": [
-        "bar",
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://www.maison-albar-hotels-amoure.com/"
-    }
-  },
   "{\"brand\": \"The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Avant Mar The Leading Hotels of the World Hotel\", \"Avant Mar The Leading Hotels of the World Resort\", \"Avant Mar The Leading Hotels of the World\", \"Avant Mar The Leading Hotels of the World Naoussa, Greece Hotel\", \"Avant Mar The Leading Hotels of the World Naoussa, Greece Resort\", \"Avant Mar The Leading Hotels of the World Naoussa, Greece\", \"Avant Mar Hilton Hotel\", \"Avant Mar Hilton Resort\", \"Avant Mar Hilton\", \"Avant Mar Hilton Naoussa, Greece Hotel\", \"Avant Mar Hilton Naoussa, Greece Resort\", \"Avant Mar Hilton Naoussa, Greece\", \"Avant Mar Hotel\", \"Avant Mar Resort\", \"Avant Mar\", \"Avant Mar Naoussa, Greece Hotel\", \"Avant Mar Naoussa, Greece Resort\", \"Avant Mar Naoussa, Greece\"], \"v\": 3}": {
     "lat": 37.121944,
     "lon": 25.2324715,
@@ -82938,56 +82888,6 @@
         "point_of_interest"
       ],
       "website": "https://thehoxton.com/paris/?utm_source=google&utm_medium=local&utm_campaign=hotel-thehoxtonparis"
-    }
-  },
-  "{\"brand\": \"The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Maison Albar - Amoure The Leading Hotels of the World Hotel\", \"Maison Albar - Amoure The Leading Hotels of the World Resort\", \"Maison Albar - Amoure The Leading Hotels of the World\", \"Maison Albar - Amoure The Leading Hotels of the World Moure, Portugal Hotel\", \"Maison Albar - Amoure The Leading Hotels of the World Moure, Portugal Resort\", \"Maison Albar - Amoure The Leading Hotels of the World Moure, Portugal\", \"Maison Albar - Amoure Hilton Hotel\", \"Maison Albar - Amoure Hilton Resort\", \"Maison Albar - Amoure Hilton\", \"Maison Albar - Amoure Hilton Moure, Portugal Hotel\", \"Maison Albar - Amoure Hilton Moure, Portugal Resort\", \"Maison Albar - Amoure Hilton Moure, Portugal\", \"Maison Albar Amoure The Leading Hotels of the World Hotel\", \"Maison Albar Amoure The Leading Hotels of the World Resort\", \"Maison Albar Amoure The Leading Hotels of the World\", \"Maison Albar Amoure The Leading Hotels of the World Moure, Portugal Hotel\", \"Maison Albar Amoure The Leading Hotels of the World Moure, Portugal Resort\", \"Maison Albar Amoure The Leading Hotels of the World Moure, Portugal\", \"Maison Albar Amoure Hilton Hotel\", \"Maison Albar Amoure Hilton Resort\", \"Maison Albar Amoure Hilton\", \"Maison Albar Amoure Hilton Moure, Portugal Hotel\", \"Maison Albar Amoure Hilton Moure, Portugal Resort\", \"Maison Albar Amoure Hilton Moure, Portugal\", \"Maison Albar - Amoure Hotel\", \"Maison Albar - Amoure Resort\", \"Maison Albar - Amoure\", \"Maison Albar - Amoure Moure, Portugal Hotel\", \"Maison Albar - Amoure Moure, Portugal Resort\", \"Maison Albar - Amoure Moure, Portugal\"], \"v\": 3}": {
-    "lat": 41.6374963,
-    "lon": -8.476974199999999,
-    "formatted_address": "Av. da Câmara 22, 4730-304, Portugal",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJqxPQQ3oAJQ0RSq334t-I6pE",
-    "types": [
-      "bar",
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Av. da Câmara 22, 4730-304, Portugal",
-      "geometry": {
-        "location": {
-          "lat": 41.6374963,
-          "lng": -8.476974199999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 41.6388354302915,
-            "lng": -8.475585169708497
-          },
-          "southwest": {
-            "lat": 41.63613746970851,
-            "lng": -8.478283130291501
-          }
-        }
-      },
-      "name": "Maison Albar - Amoure",
-      "place_id": "ChIJqxPQQ3oAJQ0RSq334t-I6pE",
-      "types": [
-        "bar",
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://www.maison-albar-hotels-amoure.com/"
     }
   },
   "{\"brand\": \"The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Maison Albar - L'Imperator The Leading Hotels of the World Hotel\", \"Maison Albar - L'Imperator The Leading Hotels of the World Resort\", \"Maison Albar - L'Imperator The Leading Hotels of the World\", \"Maison Albar - L'Imperator The Leading Hotels of the World Nimes, France Hotel\", \"Maison Albar - L'Imperator The Leading Hotels of the World Nimes, France Resort\", \"Maison Albar - L'Imperator The Leading Hotels of the World Nimes, France\", \"Maison Albar - L'Imperator Hilton Hotel\", \"Maison Albar - L'Imperator Hilton Resort\", \"Maison Albar - L'Imperator Hilton\", \"Maison Albar - L'Imperator Hilton Nimes, France Hotel\", \"Maison Albar - L'Imperator Hilton Nimes, France Resort\", \"Maison Albar - L'Imperator Hilton Nimes, France\", \"Maison Albar Limperator The Leading Hotels of the World Hotel\", \"Maison Albar Limperator The Leading Hotels of the World Resort\", \"Maison Albar Limperator The Leading Hotels of the World\", \"Maison Albar Limperator The Leading Hotels of the World Nimes, France Hotel\", \"Maison Albar Limperator The Leading Hotels of the World Nimes, France Resort\", \"Maison Albar Limperator The Leading Hotels of the World Nimes, France\", \"Maison Albar Limperator Hilton Hotel\", \"Maison Albar Limperator Hilton Resort\", \"Maison Albar Limperator Hilton\", \"Maison Albar Limperator Hilton Nimes, France Hotel\", \"Maison Albar Limperator Hilton Nimes, France Resort\", \"Maison Albar Limperator Hilton Nimes, France\", \"Maison Albar - L'Imperator Hotel\", \"Maison Albar - L'Imperator Resort\", \"Maison Albar - L'Imperator\", \"Maison Albar - L'Imperator Nimes, France Hotel\", \"Maison Albar - L'Imperator Nimes, France Resort\", \"Maison Albar - L'Imperator Nimes, France\"], \"v\": 3}": {
@@ -145461,56 +145361,6 @@
       "website": "http://www.jackalopehotels.com/"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Maison Albar - Amoure\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Maison Albar - Amoure The Leading Hotels of the World Hotel\", \"Maison Albar - Amoure The Leading Hotels of the World Resort\", \"Maison Albar - Amoure The Leading Hotels of the World\", \"Maison Albar - Amoure The Leading Hotels of the World Moure, Portugal Hotel\", \"Maison Albar - Amoure The Leading Hotels of the World Moure, Portugal Resort\", \"Maison Albar - Amoure The Leading Hotels of the World Moure, Portugal\", \"Maison Albar - Amoure Hilton Hotel\", \"Maison Albar - Amoure Hilton Resort\", \"Maison Albar - Amoure Hilton\", \"Maison Albar - Amoure Hilton Moure, Portugal Hotel\", \"Maison Albar - Amoure Hilton Moure, Portugal Resort\", \"Maison Albar - Amoure Hilton Moure, Portugal\", \"Maison Albar Amoure The Leading Hotels of the World Hotel\", \"Maison Albar Amoure The Leading Hotels of the World Resort\", \"Maison Albar Amoure The Leading Hotels of the World\", \"Maison Albar Amoure The Leading Hotels of the World Moure, Portugal Hotel\", \"Maison Albar Amoure The Leading Hotels of the World Moure, Portugal Resort\", \"Maison Albar Amoure The Leading Hotels of the World Moure, Portugal\", \"Maison Albar Amoure Hilton Hotel\", \"Maison Albar Amoure Hilton Resort\", \"Maison Albar Amoure Hilton\", \"Maison Albar Amoure Hilton Moure, Portugal Hotel\", \"Maison Albar Amoure Hilton Moure, Portugal Resort\", \"Maison Albar Amoure Hilton Moure, Portugal\", \"Maison Albar - Amoure Hotel\", \"Maison Albar - Amoure Resort\", \"Maison Albar - Amoure\", \"Maison Albar - Amoure Moure, Portugal Hotel\", \"Maison Albar - Amoure Moure, Portugal Resort\", \"Maison Albar - Amoure Moure, Portugal\"], \"v\": 3}": {
-    "lat": 41.6374963,
-    "lon": -8.476974199999999,
-    "formatted_address": "Av. da Câmara 22, 4730-304, Portugal",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJqxPQQ3oAJQ0RSq334t-I6pE",
-    "types": [
-      "bar",
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Av. da Câmara 22, 4730-304, Portugal",
-      "geometry": {
-        "location": {
-          "lat": 41.6374963,
-          "lng": -8.476974199999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 41.6388354302915,
-            "lng": -8.475585169708497
-          },
-          "southwest": {
-            "lat": 41.63613746970851,
-            "lng": -8.478283130291501
-          }
-        }
-      },
-      "name": "Maison Albar - Amoure",
-      "place_id": "ChIJqxPQQ3oAJQ0RSq334t-I6pE",
-      "types": [
-        "bar",
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://www.maison-albar-hotels-amoure.com/"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Avant Mar\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Avant Mar The Leading Hotels of the World Hotel\", \"Avant Mar The Leading Hotels of the World Resort\", \"Avant Mar The Leading Hotels of the World\", \"Avant Mar The Leading Hotels of the World Naoussa, Greece Hotel\", \"Avant Mar The Leading Hotels of the World Naoussa, Greece Resort\", \"Avant Mar The Leading Hotels of the World Naoussa, Greece\", \"Avant Mar Hilton Hotel\", \"Avant Mar Hilton Resort\", \"Avant Mar Hilton\", \"Avant Mar Hilton Naoussa, Greece Hotel\", \"Avant Mar Hilton Naoussa, Greece Resort\", \"Avant Mar Hilton Naoussa, Greece\", \"Avant Mar Hotel\", \"Avant Mar Resort\", \"Avant Mar\", \"Avant Mar Naoussa, Greece Hotel\", \"Avant Mar Naoussa, Greece Resort\", \"Avant Mar Naoussa, Greece\"], \"v\": 3}": {
     "lat": 37.121944,
     "lon": 25.2324715,
@@ -153923,7 +153773,6 @@
       "website": "https://www.marriott.com/en-us/hotels/waska-the-satire-autograph-collection/overview/"
     }
   },
-  "{\"brand\": \"THC\", \"hotel_name\": \"The Montenotte - Woodland Suite Experience\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Montenotte - Woodland Suite Experience\"], \"v\": 3}": null,
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"San Montano Resort & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Montano Resort & Spa Relais & Ch\\u00e2teaux Hotel\", \"San Montano Resort & Spa Relais & Ch\\u00e2teaux Resort\", \"San Montano Resort & Spa Relais & Ch\\u00e2teaux\", \"San Montano Resort & Spa Relais & Ch\\u00e2teaux Lacco Ameno, Italy Hotel\", \"San Montano Resort & Spa Relais & Ch\\u00e2teaux Lacco Ameno, Italy Resort\", \"San Montano Resort & Spa Relais & Ch\\u00e2teaux Lacco Ameno, Italy\", \"San Montano Resort & Spa Hilton Hotel\", \"San Montano Resort & Spa Hilton Resort\", \"San Montano Resort & Spa Hilton\", \"San Montano Resort & Spa Hilton Lacco Ameno, Italy Hotel\", \"San Montano Resort & Spa Hilton Lacco Ameno, Italy Resort\", \"San Montano Resort & Spa Hilton Lacco Ameno, Italy\", \"San Montano Resort Spa Relais & Ch\\u00e2teaux Hotel\", \"San Montano Resort Spa Relais & Ch\\u00e2teaux Resort\", \"San Montano Resort Spa Relais & Ch\\u00e2teaux\", \"San Montano Resort Spa Relais & Ch\\u00e2teaux Lacco Ameno, Italy Hotel\", \"San Montano Resort Spa Relais & Ch\\u00e2teaux Lacco Ameno, Italy Resort\", \"San Montano Resort Spa Relais & Ch\\u00e2teaux Lacco Ameno, Italy\", \"San Montano Resort Spa Hilton Hotel\", \"San Montano Resort Spa Hilton Resort\", \"San Montano Resort Spa Hilton\", \"San Montano Resort Spa Hilton Lacco Ameno, Italy Hotel\", \"San Montano Resort Spa Hilton Lacco Ameno, Italy Resort\", \"San Montano Resort Spa Hilton Lacco Ameno, Italy\", \"San Montano Resort & Spa Hotel\", \"San Montano Resort & Spa Resort\", \"San Montano Resort & Spa\", \"San Montano Resort & Spa Lacco Ameno, Italy Hotel\", \"San Montano Resort & Spa Lacco Ameno, Italy Resort\", \"San Montano Resort & Spa Lacco Ameno, Italy\"], \"v\": 3}": {
     "lat": 40.7561866,
     "lon": 13.8822448,
@@ -153964,48 +153813,6 @@
         "point_of_interest"
       ],
       "website": "http://www.sanmontano.com/"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Montenotte - Woodland Suite Experience\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Montenotte - Woodland Suite Experience Small Luxury Hotels of the World Hotel\", \"The Montenotte - Woodland Suite Experience Small Luxury Hotels of the World Resort\", \"The Montenotte - Woodland Suite Experience Small Luxury Hotels of the World\", \"The Montenotte - Woodland Suite Experience Small Luxury Hotels of the World Cork, Ireland Hotel\", \"The Montenotte - Woodland Suite Experience Small Luxury Hotels of the World Cork, Ireland Resort\", \"The Montenotte - Woodland Suite Experience Small Luxury Hotels of the World Cork, Ireland\", \"The Montenotte - Woodland Suite Experience Hilton Hotel\", \"The Montenotte - Woodland Suite Experience Hilton Resort\", \"The Montenotte - Woodland Suite Experience Hilton\", \"The Montenotte - Woodland Suite Experience Hilton Cork, Ireland Hotel\", \"The Montenotte - Woodland Suite Experience Hilton Cork, Ireland Resort\", \"The Montenotte - Woodland Suite Experience Hilton Cork, Ireland\", \"Montenotte Woodland Suite Experience Small Luxury Hotels of the World Hotel\", \"Montenotte Woodland Suite Experience Small Luxury Hotels of the World Resort\", \"Montenotte Woodland Suite Experience Small Luxury Hotels of the World\", \"Montenotte Woodland Suite Experience Small Luxury Hotels of the World Cork, Ireland Hotel\", \"Montenotte Woodland Suite Experience Small Luxury Hotels of the World Cork, Ireland Resort\", \"Montenotte Woodland Suite Experience Small Luxury Hotels of the World Cork, Ireland\", \"Montenotte Woodland Suite Experience Hilton Hotel\", \"Montenotte Woodland Suite Experience Hilton Resort\", \"Montenotte Woodland Suite Experience Hilton\", \"Montenotte Woodland Suite Experience Hilton Cork, Ireland Hotel\", \"Montenotte Woodland Suite Experience Hilton Cork, Ireland Resort\", \"Montenotte Woodland Suite Experience Hilton Cork, Ireland\", \"The Montenotte - Woodland Suite Experience Hotel\", \"The Montenotte - Woodland Suite Experience Resort\", \"The Montenotte - Woodland Suite Experience\", \"The Montenotte - Woodland Suite Experience Cork, Ireland Hotel\", \"The Montenotte - Woodland Suite Experience Cork, Ireland Resort\", \"The Montenotte - Woodland Suite Experience Cork, Ireland\"], \"v\": 3}": {
-    "lat": 51.904415,
-    "lon": -8.451702,
-    "formatted_address": "The Montenotte, Middle Glanmire Rd, Tivoli, Cork, Ireland",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJf0lP_aOaREgRHH5PkUe-HJQ",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "The Montenotte, Middle Glanmire Rd, Tivoli, Cork, Ireland",
-      "geometry": {
-        "location": {
-          "lat": 51.904415,
-          "lng": -8.451702
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 51.9058926302915,
-            "lng": -8.450401019708496
-          },
-          "southwest": {
-            "lat": 51.9031946697085,
-            "lng": -8.4530989802915
-          }
-        }
-      },
-      "name": "The Woodland Suites at The Montenotte",
-      "place_id": "ChIJf0lP_aOaREgRHH5PkUe-HJQ",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.themontenottehotel.com/the-woodland-suite-experience/"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Les Roches Rouges, a Beaumier hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Les Roches Rouges, a Beaumier hotel Hotel\", \"Les Roches Rouges, a Beaumier hotel Resort\", \"Les Roches Rouges, a Beaumier hotel\", \"Les Roches Rouges, a Beaumier hotel Saint Raphael, France Hotel\", \"Les Roches Rouges, a Beaumier hotel Saint Raphael, France Resort\", \"Les Roches Rouges, a Beaumier hotel Saint Raphael, France\", \"Les Roches Rouges a Beaumier Hotel Hotel\", \"Les Roches Rouges a Beaumier Hotel Resort\", \"Les Roches Rouges a Beaumier Hotel\", \"Les Roches Rouges a Beaumier Hotel Saint Raphael, France Hotel\", \"Les Roches Rouges a Beaumier Hotel Saint Raphael, France Resort\", \"Les Roches Rouges a Beaumier Hotel Saint Raphael, France\"], \"v\": 3}": {
@@ -156032,6 +155839,143 @@
         "point_of_interest"
       ],
       "website": "http://www.myconian-naia.gr/"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Montenotte\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Montenotte\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Lincoln Plaza London, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotels & Resorts Hotel\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotels & Resorts Resort\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotels & Resorts\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotels & Resorts London, England Hotel\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotels & Resorts London, England Resort\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotels & Resorts London, England\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotel\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Resort\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton London, England Hotel\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton London, England Resort\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton London, England\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotels & Resorts Hotel\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotels & Resorts Resort\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotels & Resorts\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotels & Resorts London, England Hotel\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotels & Resorts London, England Resort\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotels & Resorts London, England\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotel\", \"Lincoln Plaza London Curio Collection Hilton Hilton Resort\", \"Lincoln Plaza London Curio Collection Hilton Hilton\", \"Lincoln Plaza London Curio Collection Hilton Hilton London, England Hotel\", \"Lincoln Plaza London Curio Collection Hilton Hilton London, England Resort\", \"Lincoln Plaza London Curio Collection Hilton Hilton London, England\", \"Lincoln Plaza London, Curio Collection by Hilton Hotel\", \"Lincoln Plaza London, Curio Collection by Hilton Resort\", \"Lincoln Plaza London, Curio Collection by Hilton\", \"Lincoln Plaza London, Curio Collection by Hilton London, England Hotel\", \"Lincoln Plaza London, Curio Collection by Hilton London, England Resort\", \"Lincoln Plaza London, Curio Collection by Hilton London, England\"], \"v\": 3}": {
+    "lat": 51.49850679999999,
+    "lon": -0.0194893,
+    "formatted_address": "2 Lincoln Plaza, London E14 9BN, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJO_Wi3L4CdkgRBqUskLZpi2k",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2 Lincoln Plaza, London E14 9BN, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.49850679999999,
+          "lng": -0.0194893
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.49988168029149,
+            "lng": -0.01780926970849797
+          },
+          "southwest": {
+            "lat": 51.4971837197085,
+            "lng": -0.02050723029150203
+          }
+        }
+      },
+      "name": "Lincoln Plaza London, Curio Collection by Hilton",
+      "place_id": "ChIJO_Wi3L4CdkgRBqUskLZpi2k",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/loncuqq-lincoln-plaza-london/?SEO_id=GMB-EMEA-QQ-LONCUQQ"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Montenotte\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Montenotte Small Luxury Hotels of the World Hotel\", \"The Montenotte Small Luxury Hotels of the World Resort\", \"The Montenotte Small Luxury Hotels of the World\", \"The Montenotte Small Luxury Hotels of the World Cork, Ireland Hotel\", \"The Montenotte Small Luxury Hotels of the World Cork, Ireland Resort\", \"The Montenotte Small Luxury Hotels of the World Cork, Ireland\", \"The Montenotte Hilton Hotel\", \"The Montenotte Hilton Resort\", \"The Montenotte Hilton\", \"The Montenotte Hilton Cork, Ireland Hotel\", \"The Montenotte Hilton Cork, Ireland Resort\", \"The Montenotte Hilton Cork, Ireland\", \"The Montenotte Hotel\", \"The Montenotte Resort\", \"The Montenotte\", \"The Montenotte Cork, Ireland Hotel\", \"The Montenotte Cork, Ireland Resort\", \"The Montenotte Cork, Ireland\"], \"v\": 3}": {
+    "lat": 51.9046011,
+    "lon": -8.4521724,
+    "formatted_address": "Middle Glanmire Rd, Montenotte, Cork, T23 E9DX, Ireland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJC5Fa9byaREgRCn3WQfadiKI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Middle Glanmire Rd, Montenotte, Cork, T23 E9DX, Ireland",
+      "geometry": {
+        "location": {
+          "lat": 51.9046011,
+          "lng": -8.4521724
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.90598608029151,
+            "lng": -8.450700869708498
+          },
+          "southwest": {
+            "lat": 51.90328811970851,
+            "lng": -8.453398830291503
+          }
+        }
+      },
+      "name": "The Montenotte Hotel, an SLH Hotel",
+      "place_id": "ChIJC5Fa9byaREgRCn3WQfadiKI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.themontenottehotel.com/?utm_source=knowledge-graph&utm_medium=organic&utm_campaign=gmb-link"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Amoure Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amoure Hotel The Leading Hotels of the World Hotel\", \"Amoure Hotel The Leading Hotels of the World Resort\", \"Amoure Hotel The Leading Hotels of the World\", \"Amoure Hotel The Leading Hotels of the World Moure, Portugal Hotel\", \"Amoure Hotel The Leading Hotels of the World Moure, Portugal Resort\", \"Amoure Hotel The Leading Hotels of the World Moure, Portugal\", \"Amoure Hotel Hilton Hotel\", \"Amoure Hotel Hilton Resort\", \"Amoure Hotel Hilton\", \"Amoure Hotel Hilton Moure, Portugal Hotel\", \"Amoure Hotel Hilton Moure, Portugal Resort\", \"Amoure Hotel Hilton Moure, Portugal\", \"Amoure Hotel Hotel\", \"Amoure Hotel Resort\", \"Amoure Hotel\", \"Amoure Hotel Moure, Portugal Hotel\", \"Amoure Hotel Moure, Portugal Resort\", \"Amoure Hotel Moure, Portugal\"], \"v\": 3}": {
+    "lat": 41.6374963,
+    "lon": -8.476974199999999,
+    "formatted_address": "Av. da Câmara 22, 4730-304, Portugal",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJqxPQQ3oAJQ0RSq334t-I6pE",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Av. da Câmara 22, 4730-304, Portugal",
+      "geometry": {
+        "location": {
+          "lat": 41.6374963,
+          "lng": -8.476974199999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.6388354302915,
+            "lng": -8.475585169708497
+          },
+          "southwest": {
+            "lat": 41.63613746970851,
+            "lng": -8.478283130291501
+          }
+        }
+      },
+      "name": "Amoure Hotel",
+      "place_id": "ChIJqxPQQ3oAJQ0RSq334t-I6pE",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "http://www.amourehotel.com/"
     }
   }
 }

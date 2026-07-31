@@ -211297,5 +211297,47 @@
       ],
       "website": "http://malliouhana.com/"
     }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Ritz-Carlton Tenerife, Abama\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Ritz-Carlton Tenerife, Abama The Ritz-Carlton Hotel\", \"The Ritz-Carlton Tenerife, Abama The Ritz-Carlton Resort\", \"The Ritz-Carlton Tenerife, Abama The Ritz-Carlton\", \"The Ritz-Carlton Tenerife, Abama The Ritz-Carlton Guia de Isora, Spain Hotel\", \"The Ritz-Carlton Tenerife, Abama The Ritz-Carlton Guia de Isora, Spain Resort\", \"The Ritz-Carlton Tenerife, Abama The Ritz-Carlton Guia de Isora, Spain\", \"The Ritz-Carlton Tenerife, Abama Hilton Hotel\", \"The Ritz-Carlton Tenerife, Abama Hilton Resort\", \"The Ritz-Carlton Tenerife, Abama Hilton\", \"The Ritz-Carlton Tenerife, Abama Hilton Guia de Isora, Spain Hotel\", \"The Ritz-Carlton Tenerife, Abama Hilton Guia de Isora, Spain Resort\", \"The Ritz-Carlton Tenerife, Abama Hilton Guia de Isora, Spain\", \"Ritz carlton Tenerife Abama The Ritz-Carlton Hotel\", \"Ritz carlton Tenerife Abama The Ritz-Carlton Resort\", \"Ritz carlton Tenerife Abama The Ritz-Carlton\", \"Ritz carlton Tenerife Abama The Ritz-Carlton Guia de Isora, Spain Hotel\", \"Ritz carlton Tenerife Abama The Ritz-Carlton Guia de Isora, Spain Resort\", \"Ritz carlton Tenerife Abama The Ritz-Carlton Guia de Isora, Spain\", \"Ritz carlton Tenerife Abama Hilton Hotel\", \"Ritz carlton Tenerife Abama Hilton Resort\", \"Ritz carlton Tenerife Abama Hilton\", \"Ritz carlton Tenerife Abama Hilton Guia de Isora, Spain Hotel\", \"Ritz carlton Tenerife Abama Hilton Guia de Isora, Spain Resort\", \"Ritz carlton Tenerife Abama Hilton Guia de Isora, Spain\", \"The Ritz-Carlton Tenerife, Abama Hotel\", \"The Ritz-Carlton Tenerife, Abama Resort\", \"The Ritz-Carlton Tenerife, Abama\", \"The Ritz-Carlton Tenerife, Abama Guia de Isora, Spain Hotel\", \"The Ritz-Carlton Tenerife, Abama Guia de Isora, Spain Resort\", \"The Ritz-Carlton Tenerife, Abama Guia de Isora, Spain\"], \"v\": 3}": {
+    "lat": 28.1712488,
+    "lon": -16.7992474,
+    "formatted_address": "Calle María Zambrano 2, Carretera General, TF-47, Km 9, 38687, Santa Cruz de Tenerife, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJZwrnKAGOagwRn3KpWvGoR9A",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Calle María Zambrano 2, Carretera General, TF-47, Km 9, 38687, Santa Cruz de Tenerife, Spain",
+      "geometry": {
+        "location": {
+          "lat": 28.1712488,
+          "lng": -16.7992474
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 28.1725590302915,
+            "lng": -16.7979194697085
+          },
+          "southwest": {
+            "lat": 28.1698610697085,
+            "lng": -16.8006174302915
+          }
+        }
+      },
+      "name": "The Ritz-Carlton Tenerife, Abama",
+      "place_id": "ChIJZwrnKAGOagwRn3KpWvGoR9A",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-tenerife-abama/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
   }
 }
