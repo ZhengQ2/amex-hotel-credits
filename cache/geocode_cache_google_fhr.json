@@ -37093,48 +37093,6 @@
       "website": "http://www.nizuc.com/"
     }
   },
-  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Las Islas Preferred Hotels & Resorts Hotel\", \"Hotel Las Islas Preferred Hotels & Resorts Resort\", \"Hotel Las Islas Preferred Hotels & Resorts\", \"Hotel Las Islas Preferred Hotels & Resorts Cartagena, Colombia Hotel\", \"Hotel Las Islas Preferred Hotels & Resorts Cartagena, Colombia Resort\", \"Hotel Las Islas Preferred Hotels & Resorts Cartagena, Colombia\", \"Hotel Las Islas Hilton Hotel\", \"Hotel Las Islas Hilton Resort\", \"Hotel Las Islas Hilton\", \"Hotel Las Islas Hilton Cartagena, Colombia Hotel\", \"Hotel Las Islas Hilton Cartagena, Colombia Resort\", \"Hotel Las Islas Hilton Cartagena, Colombia\", \"Hotel Las Islas Hotel\", \"Hotel Las Islas Resort\", \"Hotel Las Islas\", \"Hotel Las Islas Cartagena, Colombia Hotel\", \"Hotel Las Islas Cartagena, Colombia Resort\", \"Hotel Las Islas Cartagena, Colombia\"], \"v\": 3}": {
-    "lat": 10.1556837,
-    "lon": -75.6854863,
-    "formatted_address": "Ciénaga de Cholón, Barú, Bolívar, Colombia",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJIQ77jPmGWI4R5sAbJMeiSa4",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Ciénaga de Cholón, Barú, Bolívar, Colombia",
-      "geometry": {
-        "location": {
-          "lat": 10.1556837,
-          "lng": -75.6854863
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 10.1567205802915,
-            "lng": -75.68396531970848
-          },
-          "southwest": {
-            "lat": 10.1540226197085,
-            "lng": -75.6866632802915
-          }
-        }
-      },
-      "name": "Hotel Las Islas",
-      "place_id": "ChIJIQ77jPmGWI4R5sAbJMeiSa4",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.lasislas.com.co/"
-    }
-  },
   "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Finca Cortesin Hotel Golf Spa Preferred Hotels & Resorts Hotel\", \"Finca Cortesin Hotel Golf Spa Preferred Hotels & Resorts Resort\", \"Finca Cortesin Hotel Golf Spa Preferred Hotels & Resorts\", \"Finca Cortesin Hotel Golf Spa Preferred Hotels & Resorts Casares, Spain Hotel\", \"Finca Cortesin Hotel Golf Spa Preferred Hotels & Resorts Casares, Spain Resort\", \"Finca Cortesin Hotel Golf Spa Preferred Hotels & Resorts Casares, Spain\", \"Finca Cortesin Hotel Golf Spa Hilton Hotel\", \"Finca Cortesin Hotel Golf Spa Hilton Resort\", \"Finca Cortesin Hotel Golf Spa Hilton\", \"Finca Cortesin Hotel Golf Spa Hilton Casares, Spain Hotel\", \"Finca Cortesin Hotel Golf Spa Hilton Casares, Spain Resort\", \"Finca Cortesin Hotel Golf Spa Hilton Casares, Spain\", \"Finca Cortes\\u00edn Hotel Golf & Spa Preferred Hotels & Resorts Hotel\", \"Finca Cortes\\u00edn Hotel Golf & Spa Preferred Hotels & Resorts Resort\", \"Finca Cortes\\u00edn Hotel Golf & Spa Preferred Hotels & Resorts\", \"Finca Cortes\\u00edn Hotel Golf & Spa Preferred Hotels & Resorts Casares, Spain Hotel\", \"Finca Cortes\\u00edn Hotel Golf & Spa Preferred Hotels & Resorts Casares, Spain Resort\", \"Finca Cortes\\u00edn Hotel Golf & Spa Preferred Hotels & Resorts Casares, Spain\", \"Finca Cortes\\u00edn Hotel Golf & Spa Hilton Hotel\", \"Finca Cortes\\u00edn Hotel Golf & Spa Hilton Resort\", \"Finca Cortes\\u00edn Hotel Golf & Spa Hilton\", \"Finca Cortes\\u00edn Hotel Golf & Spa Hilton Casares, Spain Hotel\", \"Finca Cortes\\u00edn Hotel Golf & Spa Hilton Casares, Spain Resort\", \"Finca Cortes\\u00edn Hotel Golf & Spa Hilton Casares, Spain\", \"Finca Cortes\\u00edn Hotel Golf & Spa Hotel\", \"Finca Cortes\\u00edn Hotel Golf & Spa Resort\", \"Finca Cortes\\u00edn Hotel Golf & Spa\", \"Finca Cortes\\u00edn Hotel Golf & Spa Casares, Spain Hotel\", \"Finca Cortes\\u00edn Hotel Golf & Spa Casares, Spain Resort\", \"Finca Cortes\\u00edn Hotel Golf & Spa Casares, Spain\"], \"v\": 3}": {
     "lat": 36.397025,
     "lon": -5.2235179,
@@ -164047,48 +164005,6 @@
         "spa"
       ],
       "website": "http://www.nizuc.com/"
-    }
-  },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Las Islas\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Las Islas Preferred Hotels & Resorts Hotel\", \"Hotel Las Islas Preferred Hotels & Resorts Resort\", \"Hotel Las Islas Preferred Hotels & Resorts\", \"Hotel Las Islas Preferred Hotels & Resorts Cartagena, Colombia Hotel\", \"Hotel Las Islas Preferred Hotels & Resorts Cartagena, Colombia Resort\", \"Hotel Las Islas Preferred Hotels & Resorts Cartagena, Colombia\", \"Hotel Las Islas Hilton Hotel\", \"Hotel Las Islas Hilton Resort\", \"Hotel Las Islas Hilton\", \"Hotel Las Islas Hilton Cartagena, Colombia Hotel\", \"Hotel Las Islas Hilton Cartagena, Colombia Resort\", \"Hotel Las Islas Hilton Cartagena, Colombia\", \"Hotel Las Islas Hotel\", \"Hotel Las Islas Resort\", \"Hotel Las Islas\", \"Hotel Las Islas Cartagena, Colombia Hotel\", \"Hotel Las Islas Cartagena, Colombia Resort\", \"Hotel Las Islas Cartagena, Colombia\"], \"v\": 3}": {
-    "lat": 10.1556837,
-    "lon": -75.6854863,
-    "formatted_address": "Ciénaga de Cholón, Barú, Bolívar, Colombia",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJIQ77jPmGWI4R5sAbJMeiSa4",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Ciénaga de Cholón, Barú, Bolívar, Colombia",
-      "geometry": {
-        "location": {
-          "lat": 10.1556837,
-          "lng": -75.6854863
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 10.1567205802915,
-            "lng": -75.68396531970848
-          },
-          "southwest": {
-            "lat": 10.1540226197085,
-            "lng": -75.6866632802915
-          }
-        }
-      },
-      "name": "Hotel Las Islas",
-      "place_id": "ChIJIQ77jPmGWI4R5sAbJMeiSa4",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.lasislas.com.co/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Finca Cortes\\u00edn Hotel Golf & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Finca Cortes\\u00edn Hotel Golf & Spa Preferred Hotels & Resorts Hotel\", \"Finca Cortes\\u00edn Hotel Golf & Spa Preferred Hotels & Resorts Resort\", \"Finca Cortes\\u00edn Hotel Golf & Spa Preferred Hotels & Resorts\", \"Finca Cortes\\u00edn Hotel Golf & Spa Preferred Hotels & Resorts Casares, Spain Hotel\", \"Finca Cortes\\u00edn Hotel Golf & Spa Preferred Hotels & Resorts Casares, Spain Resort\", \"Finca Cortes\\u00edn Hotel Golf & Spa Preferred Hotels & Resorts Casares, Spain\", \"Finca Cortes\\u00edn Hotel Golf & Spa Hilton Hotel\", \"Finca Cortes\\u00edn Hotel Golf & Spa Hilton Resort\", \"Finca Cortes\\u00edn Hotel Golf & Spa Hilton\", \"Finca Cortes\\u00edn Hotel Golf & Spa Hilton Casares, Spain Hotel\", \"Finca Cortes\\u00edn Hotel Golf & Spa Hilton Casares, Spain Resort\", \"Finca Cortes\\u00edn Hotel Golf & Spa Hilton Casares, Spain\", \"Finca Cortesin Hotel Golf Spa Preferred Hotels & Resorts Hotel\", \"Finca Cortesin Hotel Golf Spa Preferred Hotels & Resorts Resort\", \"Finca Cortesin Hotel Golf Spa Preferred Hotels & Resorts\", \"Finca Cortesin Hotel Golf Spa Preferred Hotels & Resorts Casares, Spain Hotel\", \"Finca Cortesin Hotel Golf Spa Preferred Hotels & Resorts Casares, Spain Resort\", \"Finca Cortesin Hotel Golf Spa Preferred Hotels & Resorts Casares, Spain\", \"Finca Cortesin Hotel Golf Spa Hilton Hotel\", \"Finca Cortesin Hotel Golf Spa Hilton Resort\", \"Finca Cortesin Hotel Golf Spa Hilton\", \"Finca Cortesin Hotel Golf Spa Hilton Casares, Spain Hotel\", \"Finca Cortesin Hotel Golf Spa Hilton Casares, Spain Resort\", \"Finca Cortesin Hotel Golf Spa Hilton Casares, Spain\", \"Finca Cortes\\u00edn Hotel Golf & Spa Hotel\", \"Finca Cortes\\u00edn Hotel Golf & Spa Resort\", \"Finca Cortes\\u00edn Hotel Golf & Spa\", \"Finca Cortes\\u00edn Hotel Golf & Spa Casares, Spain Hotel\", \"Finca Cortes\\u00edn Hotel Golf & Spa Casares, Spain Resort\", \"Finca Cortes\\u00edn Hotel Golf & Spa Casares, Spain\"], \"v\": 3}": {
