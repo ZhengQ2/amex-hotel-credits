@@ -155977,5 +155977,60 @@
       ],
       "website": "http://www.amourehotel.com/"
     }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Lough Eske Castle Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lough Eske Castle Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Lough Eske Castle Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lough Eske Castle Hotel Hotel\", \"Lough Eske Castle Hotel Resort\", \"Lough Eske Castle Hotel\", \"Lough Eske Castle Hotel Donegal, Ireland Hotel\", \"Lough Eske Castle Hotel Donegal, Ireland Resort\", \"Lough Eske Castle Hotel Donegal, Ireland\"], \"v\": 3}": {
+    "lat": 54.688067,
+    "lon": -8.0659423,
+    "formatted_address": "Lough Eske Castle Hotel, Lough Eske, Lougheask Demesne, Co. Donegal, F94 HX59, Ireland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ3bGOWYnBX0gRm6DkarHLv6Y",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "gym",
+      "health",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Lough Eske Castle Hotel, Lough Eske, Lougheask Demesne, Co. Donegal, F94 HX59, Ireland",
+      "geometry": {
+        "location": {
+          "lat": 54.688067,
+          "lng": -8.0659423
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 54.68935878029149,
+            "lng": -8.064594219708498
+          },
+          "southwest": {
+            "lat": 54.68666081970849,
+            "lng": -8.067292180291503
+          }
+        }
+      },
+      "name": "Lough Eske Castle",
+      "place_id": "ChIJ3bGOWYnBX0gRm6DkarHLv6Y",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "gym",
+        "health",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.lougheskecastlehotel.com/?utm_source=google&utm_campaign=google_my_business&utm_medium=organic"
+    }
   }
 }
