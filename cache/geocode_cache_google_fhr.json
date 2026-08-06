@@ -211255,5 +211255,48 @@
       ],
       "website": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-tenerife-abama/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Few and Far Luvhondo\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Few and Far Luvhondo\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Few and Far Luvhondo\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Few and Far Luvhondo Relais & Ch\\u00e2teaux Hotel\", \"Few and Far Luvhondo Relais & Ch\\u00e2teaux Resort\", \"Few and Far Luvhondo Relais & Ch\\u00e2teaux\", \"Few and Far Luvhondo Relais & Ch\\u00e2teaux Waterpoort, South Africa Hotel\", \"Few and Far Luvhondo Relais & Ch\\u00e2teaux Waterpoort, South Africa Resort\", \"Few and Far Luvhondo Relais & Ch\\u00e2teaux Waterpoort, South Africa\", \"Few and Far Luvhondo Hilton Hotel\", \"Few and Far Luvhondo Hilton Resort\", \"Few and Far Luvhondo Hilton\", \"Few and Far Luvhondo Hilton Waterpoort, South Africa Hotel\", \"Few and Far Luvhondo Hilton Waterpoort, South Africa Resort\", \"Few and Far Luvhondo Hilton Waterpoort, South Africa\", \"Few Far Luvhondo Relais & Ch\\u00e2teaux Hotel\", \"Few Far Luvhondo Relais & Ch\\u00e2teaux Resort\", \"Few Far Luvhondo Relais & Ch\\u00e2teaux\", \"Few Far Luvhondo Relais & Ch\\u00e2teaux Waterpoort, South Africa Hotel\", \"Few Far Luvhondo Relais & Ch\\u00e2teaux Waterpoort, South Africa Resort\", \"Few Far Luvhondo Relais & Ch\\u00e2teaux Waterpoort, South Africa\", \"Few Far Luvhondo Hilton Hotel\", \"Few Far Luvhondo Hilton Resort\", \"Few Far Luvhondo Hilton\", \"Few Far Luvhondo Hilton Waterpoort, South Africa Hotel\", \"Few Far Luvhondo Hilton Waterpoort, South Africa Resort\", \"Few Far Luvhondo Hilton Waterpoort, South Africa\", \"Few and Far Luvhondo Hotel\", \"Few and Far Luvhondo Resort\", \"Few and Far Luvhondo\", \"Few and Far Luvhondo Waterpoort, South Africa Hotel\", \"Few and Far Luvhondo Waterpoort, South Africa Resort\", \"Few and Far Luvhondo Waterpoort, South Africa\"], \"v\": 3}": {
+    "lat": -22.930897,
+    "lon": 29.5715264,
+    "formatted_address": "R523, Waterpoort, 3813, South Africa",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJdWWU4lw7xh4R0uGYMEMZDLM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "R523, Waterpoort, 3813, South Africa",
+      "geometry": {
+        "location": {
+          "lat": -22.930897,
+          "lng": 29.5715264
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -22.9295480197085,
+            "lng": 29.5728753802915
+          },
+          "southwest": {
+            "lat": -22.9322459802915,
+            "lng": 29.5701774197085
+          }
+        }
+      },
+      "name": "Few & Far Luvhondo",
+      "place_id": "ChIJdWWU4lw7xh4R0uGYMEMZDLM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.fewandfarluvhondo.com/"
+    }
   }
 }
