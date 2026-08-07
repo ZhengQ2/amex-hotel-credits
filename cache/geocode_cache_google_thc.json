@@ -156074,5 +156074,140 @@
       ],
       "website": "https://www.nobuhotels.com/los-cabos/?utm_source=mybusiness&utm_medium=organic"
     }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Derby London City, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Derby London City, Curio Collection by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"ULUM Moab\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"ULUM Moab Hotel\", \"ULUM Moab Resort\", \"ULUM Moab\", \"ULUM Moab La Sal, Utah US Hotel\", \"ULUM Moab La Sal, Utah US Resort\", \"ULUM Moab La Sal, Utah US\", \"Ulum Moab Hotel\", \"Ulum Moab Resort\", \"Ulum Moab\", \"Ulum Moab La Sal, Utah US Hotel\", \"Ulum Moab La Sal, Utah US Resort\", \"Ulum Moab La Sal, Utah US\"], \"v\": 3}": {
+    "lat": 38.2758332,
+    "lon": -109.3992072,
+    "formatted_address": "147 Looking Glass Rd, Moab, UT 84532, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJX5WcljAEOIcRhowr9IIZo3I",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "147 Looking Glass Rd, Moab, UT 84532, USA",
+      "geometry": {
+        "location": {
+          "lat": 38.2758332,
+          "lng": -109.3992072
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.27718678029149,
+            "lng": -109.3978608197085
+          },
+          "southwest": {
+            "lat": 38.27448881970849,
+            "lng": -109.4005587802915
+          }
+        }
+      },
+      "name": "ULUM Moab",
+      "place_id": "ChIJX5WcljAEOIcRhowr9IIZo3I",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ulumresorts.com/moab/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Derby London City, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Derby London City, Curio Collection by Hilton Curio Collection Hotel\", \"The Derby London City, Curio Collection by Hilton Curio Collection Resort\", \"The Derby London City, Curio Collection by Hilton Curio Collection\", \"The Derby London City, Curio Collection by Hilton Curio Collection London, England Hotel\", \"The Derby London City, Curio Collection by Hilton Curio Collection London, England Resort\", \"The Derby London City, Curio Collection by Hilton Curio Collection London, England\", \"The Derby London City, Curio Collection by Hilton Hilton Hotel\", \"The Derby London City, Curio Collection by Hilton Hilton Resort\", \"The Derby London City, Curio Collection by Hilton Hilton\", \"The Derby London City, Curio Collection by Hilton Hilton London, England Hotel\", \"The Derby London City, Curio Collection by Hilton Hilton London, England Resort\", \"The Derby London City, Curio Collection by Hilton Hilton London, England\", \"Derby London City Curio Collection Hilton Curio Collection Hotel\", \"Derby London City Curio Collection Hilton Curio Collection Resort\", \"Derby London City Curio Collection Hilton Curio Collection\", \"Derby London City Curio Collection Hilton Curio Collection London, England Hotel\", \"Derby London City Curio Collection Hilton Curio Collection London, England Resort\", \"Derby London City Curio Collection Hilton Curio Collection London, England\", \"Derby London City Curio Collection Hilton Hilton Hotel\", \"Derby London City Curio Collection Hilton Hilton Resort\", \"Derby London City Curio Collection Hilton Hilton\", \"Derby London City Curio Collection Hilton Hilton London, England Hotel\", \"Derby London City Curio Collection Hilton Hilton London, England Resort\", \"Derby London City Curio Collection Hilton Hilton London, England\", \"The Derby London City, Curio Collection by Hilton Hotel\", \"The Derby London City, Curio Collection by Hilton Resort\", \"The Derby London City, Curio Collection by Hilton\", \"The Derby London City, Curio Collection by Hilton London, England Hotel\", \"The Derby London City, Curio Collection by Hilton London, England Resort\", \"The Derby London City, Curio Collection by Hilton London, England\"], \"v\": 3}": {
+    "lat": 51.5100571,
+    "lon": -0.0819647,
+    "formatted_address": "5-10 Great Tower St, London EC3R 5AA, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJAYJvGqADdkgRn4j3N2gOfbs",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "5-10 Great Tower St, London EC3R 5AA, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.5100571,
+          "lng": -0.0819647
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.51145293029149,
+            "lng": -0.08057006970849798
+          },
+          "southwest": {
+            "lat": 51.5087549697085,
+            "lng": -0.08326803029150204
+          }
+        }
+      },
+      "name": "The Derby London City, Curio Collection by Hilton",
+      "place_id": "ChIJAYJvGqADdkgRn4j3N2gOfbs",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/lonerqq-the-derby-london-city/?SEO_id=GMB-EMEA-QQ-LONERQQ"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Boscolo H\\u00f4tel & Spa Lyon\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Boscolo H\\u00f4tel & Spa Lyon Preferred Hotels & Resorts Hotel\", \"Boscolo H\\u00f4tel & Spa Lyon Preferred Hotels & Resorts Resort\", \"Boscolo H\\u00f4tel & Spa Lyon Preferred Hotels & Resorts\", \"Boscolo H\\u00f4tel & Spa Lyon Preferred Hotels & Resorts Lyon, France Hotel\", \"Boscolo H\\u00f4tel & Spa Lyon Preferred Hotels & Resorts Lyon, France Resort\", \"Boscolo H\\u00f4tel & Spa Lyon Preferred Hotels & Resorts Lyon, France\", \"Boscolo H\\u00f4tel & Spa Lyon Hilton Hotel\", \"Boscolo H\\u00f4tel & Spa Lyon Hilton Resort\", \"Boscolo H\\u00f4tel & Spa Lyon Hilton\", \"Boscolo H\\u00f4tel & Spa Lyon Hilton Lyon, France Hotel\", \"Boscolo H\\u00f4tel & Spa Lyon Hilton Lyon, France Resort\", \"Boscolo H\\u00f4tel & Spa Lyon Hilton Lyon, France\", \"Boscolo Hotel Spa Lyon Preferred Hotels & Resorts Hotel\", \"Boscolo Hotel Spa Lyon Preferred Hotels & Resorts Resort\", \"Boscolo Hotel Spa Lyon Preferred Hotels & Resorts\", \"Boscolo Hotel Spa Lyon Preferred Hotels & Resorts Lyon, France Hotel\", \"Boscolo Hotel Spa Lyon Preferred Hotels & Resorts Lyon, France Resort\", \"Boscolo Hotel Spa Lyon Preferred Hotels & Resorts Lyon, France\", \"Boscolo Hotel Spa Lyon Hilton Hotel\", \"Boscolo Hotel Spa Lyon Hilton Resort\", \"Boscolo Hotel Spa Lyon Hilton\", \"Boscolo Hotel Spa Lyon Hilton Lyon, France Hotel\", \"Boscolo Hotel Spa Lyon Hilton Lyon, France Resort\", \"Boscolo Hotel Spa Lyon Hilton Lyon, France\", \"Boscolo H\\u00f4tel & Spa Lyon Hotel\", \"Boscolo H\\u00f4tel & Spa Lyon Resort\", \"Boscolo H\\u00f4tel & Spa Lyon\", \"Boscolo H\\u00f4tel & Spa Lyon Lyon, France Hotel\", \"Boscolo H\\u00f4tel & Spa Lyon Lyon, France Resort\", \"Boscolo H\\u00f4tel & Spa Lyon Lyon, France\"], \"v\": 3}": {
+    "lat": 45.7608436,
+    "lon": 4.8375639,
+    "formatted_address": "11 Quai Jules Courmont, 69002 Lyon, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJh9SOPDbr9EcRL1YsIQcBk80",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "11 Quai Jules Courmont, 69002 Lyon, France",
+      "geometry": {
+        "location": {
+          "lat": 45.7608436,
+          "lng": 4.8375639
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.7621550802915,
+            "lng": 4.839057180291503
+          },
+          "southwest": {
+            "lat": 45.7594571197085,
+            "lng": 4.836359219708498
+          }
+        }
+      },
+      "name": "Boscolo Lyon Hotel & Spa",
+      "place_id": "ChIJh9SOPDbr9EcRL1YsIQcBk80",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://boscolocollection.com/lyon/"
+    }
   }
 }

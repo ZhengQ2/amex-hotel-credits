@@ -51380,48 +51380,6 @@
       "website": "http://www.hotelgrandpacific.com/"
     }
   },
-  "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Domes White Coast Milos Small Luxury Hotels of the World Hotel\", \"Domes White Coast Milos Small Luxury Hotels of the World Resort\", \"Domes White Coast Milos Small Luxury Hotels of the World\", \"Domes White Coast Milos Small Luxury Hotels of the World Milos, Greece Hotel\", \"Domes White Coast Milos Small Luxury Hotels of the World Milos, Greece Resort\", \"Domes White Coast Milos Small Luxury Hotels of the World Milos, Greece\", \"Domes White Coast Milos Hilton Hotel\", \"Domes White Coast Milos Hilton Resort\", \"Domes White Coast Milos Hilton\", \"Domes White Coast Milos Hilton Milos, Greece Hotel\", \"Domes White Coast Milos Hilton Milos, Greece Resort\", \"Domes White Coast Milos Hilton Milos, Greece\", \"Domes White Coast Milos Hotel\", \"Domes White Coast Milos Resort\", \"Domes White Coast Milos\", \"Domes White Coast Milos Milos, Greece Hotel\", \"Domes White Coast Milos Milos, Greece Resort\", \"Domes White Coast Milos Milos, Greece\"], \"v\": 3}": {
-    "lat": 36.7445297,
-    "lon": 24.4817218,
-    "formatted_address": "Mytakas, Pachena 848 00, Greece",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJjUneyFTemBQR8l8IIFjXpKE",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Mytakas, Pachena 848 00, Greece",
-      "geometry": {
-        "location": {
-          "lat": 36.7445297,
-          "lng": 24.4817218
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 36.7446361302915,
-            "lng": 24.4826713802915
-          },
-          "southwest": {
-            "lat": 36.7419381697085,
-            "lng": 24.4799734197085
-          }
-        }
-      },
-      "name": "Domes White Coast Milos",
-      "place_id": "ChIJjUneyFTemBQR8l8IIFjXpKE",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://www.domesresorts.com/domeswhitecoastmilos/"
-    }
-  },
   "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Finca Serena Mallorca Small Luxury Hotels of the World Hotel\", \"Finca Serena Mallorca Small Luxury Hotels of the World Resort\", \"Finca Serena Mallorca Small Luxury Hotels of the World\", \"Finca Serena Mallorca Small Luxury Hotels of the World Montuiri, Spain Hotel\", \"Finca Serena Mallorca Small Luxury Hotels of the World Montuiri, Spain Resort\", \"Finca Serena Mallorca Small Luxury Hotels of the World Montuiri, Spain\", \"Finca Serena Mallorca Hilton Hotel\", \"Finca Serena Mallorca Hilton Resort\", \"Finca Serena Mallorca Hilton\", \"Finca Serena Mallorca Hilton Montuiri, Spain Hotel\", \"Finca Serena Mallorca Hilton Montuiri, Spain Resort\", \"Finca Serena Mallorca Hilton Montuiri, Spain\", \"Finca Serena Mallorca Hotel\", \"Finca Serena Mallorca Resort\", \"Finca Serena Mallorca\", \"Finca Serena Mallorca Montuiri, Spain Hotel\", \"Finca Serena Mallorca Montuiri, Spain Resort\", \"Finca Serena Mallorca Montuiri, Spain\"], \"v\": 3}": {
     "lat": 39.58717619999999,
     "lon": 2.9462416,
@@ -178767,48 +178725,6 @@
       "website": "http://www.grandhotelvictoria.it/"
     }
   },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Domes White Coast Milos\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Domes White Coast Milos Small Luxury Hotels of the World Hotel\", \"Domes White Coast Milos Small Luxury Hotels of the World Resort\", \"Domes White Coast Milos Small Luxury Hotels of the World\", \"Domes White Coast Milos Small Luxury Hotels of the World Milos, Greece Hotel\", \"Domes White Coast Milos Small Luxury Hotels of the World Milos, Greece Resort\", \"Domes White Coast Milos Small Luxury Hotels of the World Milos, Greece\", \"Domes White Coast Milos Hilton Hotel\", \"Domes White Coast Milos Hilton Resort\", \"Domes White Coast Milos Hilton\", \"Domes White Coast Milos Hilton Milos, Greece Hotel\", \"Domes White Coast Milos Hilton Milos, Greece Resort\", \"Domes White Coast Milos Hilton Milos, Greece\", \"Domes White Coast Milos Hotel\", \"Domes White Coast Milos Resort\", \"Domes White Coast Milos\", \"Domes White Coast Milos Milos, Greece Hotel\", \"Domes White Coast Milos Milos, Greece Resort\", \"Domes White Coast Milos Milos, Greece\"], \"v\": 3}": {
-    "lat": 36.7445297,
-    "lon": 24.4817218,
-    "formatted_address": "Mytakas, Pachena 848 00, Greece",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJjUneyFTemBQR8l8IIFjXpKE",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Mytakas, Pachena 848 00, Greece",
-      "geometry": {
-        "location": {
-          "lat": 36.7445297,
-          "lng": 24.4817218
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 36.7446361302915,
-            "lng": 24.4826713802915
-          },
-          "southwest": {
-            "lat": 36.7419381697085,
-            "lng": 24.4799734197085
-          }
-        }
-      },
-      "name": "Domes White Coast Milos",
-      "place_id": "ChIJjUneyFTemBQR8l8IIFjXpKE",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://www.domesresorts.com/domeswhitecoastmilos/"
-    }
-  },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Finca Serena Mallorca\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Finca Serena Mallorca Small Luxury Hotels of the World Hotel\", \"Finca Serena Mallorca Small Luxury Hotels of the World Resort\", \"Finca Serena Mallorca Small Luxury Hotels of the World\", \"Finca Serena Mallorca Small Luxury Hotels of the World Montuiri, Spain Hotel\", \"Finca Serena Mallorca Small Luxury Hotels of the World Montuiri, Spain Resort\", \"Finca Serena Mallorca Small Luxury Hotels of the World Montuiri, Spain\", \"Finca Serena Mallorca Hilton Hotel\", \"Finca Serena Mallorca Hilton Resort\", \"Finca Serena Mallorca Hilton\", \"Finca Serena Mallorca Hilton Montuiri, Spain Hotel\", \"Finca Serena Mallorca Hilton Montuiri, Spain Resort\", \"Finca Serena Mallorca Hilton Montuiri, Spain\", \"Finca Serena Mallorca Hotel\", \"Finca Serena Mallorca Resort\", \"Finca Serena Mallorca\", \"Finca Serena Mallorca Montuiri, Spain Hotel\", \"Finca Serena Mallorca Montuiri, Spain Resort\", \"Finca Serena Mallorca Montuiri, Spain\"], \"v\": 3}": {
     "lat": 39.58717619999999,
     "lon": 2.9462416,
@@ -211297,6 +211213,48 @@
         "point_of_interest"
       ],
       "website": "https://www.fewandfarluvhondo.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"MYTHIC SANA Downtown Suites\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"MYTHIC SANA Downtown Suites Preferred Hotels & Resorts Hotel\", \"MYTHIC SANA Downtown Suites Preferred Hotels & Resorts Resort\", \"MYTHIC SANA Downtown Suites Preferred Hotels & Resorts\", \"MYTHIC SANA Downtown Suites Preferred Hotels & Resorts Lisbon, Portugal Hotel\", \"MYTHIC SANA Downtown Suites Preferred Hotels & Resorts Lisbon, Portugal Resort\", \"MYTHIC SANA Downtown Suites Preferred Hotels & Resorts Lisbon, Portugal\", \"MYTHIC SANA Downtown Suites Hilton Hotel\", \"MYTHIC SANA Downtown Suites Hilton Resort\", \"MYTHIC SANA Downtown Suites Hilton\", \"MYTHIC SANA Downtown Suites Hilton Lisbon, Portugal Hotel\", \"MYTHIC SANA Downtown Suites Hilton Lisbon, Portugal Resort\", \"MYTHIC SANA Downtown Suites Hilton Lisbon, Portugal\", \"Mythic Sana Downtown Suites Preferred Hotels & Resorts Hotel\", \"Mythic Sana Downtown Suites Preferred Hotels & Resorts Resort\", \"Mythic Sana Downtown Suites Preferred Hotels & Resorts\", \"Mythic Sana Downtown Suites Preferred Hotels & Resorts Lisbon, Portugal Hotel\", \"Mythic Sana Downtown Suites Preferred Hotels & Resorts Lisbon, Portugal Resort\", \"Mythic Sana Downtown Suites Preferred Hotels & Resorts Lisbon, Portugal\", \"Mythic Sana Downtown Suites Hilton Hotel\", \"Mythic Sana Downtown Suites Hilton Resort\", \"Mythic Sana Downtown Suites Hilton\", \"Mythic Sana Downtown Suites Hilton Lisbon, Portugal Hotel\", \"Mythic Sana Downtown Suites Hilton Lisbon, Portugal Resort\", \"Mythic Sana Downtown Suites Hilton Lisbon, Portugal\", \"MYTHIC SANA Downtown Suites Hotel\", \"MYTHIC SANA Downtown Suites Resort\", \"MYTHIC SANA Downtown Suites\", \"MYTHIC SANA Downtown Suites Lisbon, Portugal Hotel\", \"MYTHIC SANA Downtown Suites Lisbon, Portugal Resort\", \"MYTHIC SANA Downtown Suites Lisbon, Portugal\"], \"v\": 3}": {
+    "lat": 38.7103007,
+    "lon": -9.1383362,
+    "formatted_address": "R. Áurea 126 128, 1100-060 Lisboa, Portugal",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJw3OAGXk0GQ0RxsYaSD1kdbw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "R. Áurea 126 128, 1100-060 Lisboa, Portugal",
+      "geometry": {
+        "location": {
+          "lat": 38.7103007,
+          "lng": -9.1383362
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.71175828029151,
+            "lng": -9.137048419708501
+          },
+          "southwest": {
+            "lat": 38.70906031970851,
+            "lng": -9.139746380291504
+          }
+        }
+      },
+      "name": "MYTHIC SANA Downtown Suites",
+      "place_id": "ChIJw3OAGXk0GQ0RxsYaSD1kdbw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.sanahotels.com/pt/hotel/mythic-sana-downtown-suites/"
     }
   }
 }
