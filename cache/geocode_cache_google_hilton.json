@@ -9769,158 +9769,6 @@
       "website": "https://www.hilton.com/en/hotels/yqbmthw-homewood-suites-mont-tremblant-resort/?SEO_id=GMB-AMER-HG-YQBMTHW&y_source=1_MjA4MzU5MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
-  "{\"brand\": \"Signia by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Signia by Hilton La Cantera Resort & Spa Signia by Hilton Hotel\", \"Signia by Hilton La Cantera Resort & Spa Signia by Hilton Resort\", \"Signia by Hilton La Cantera Resort & Spa Signia by Hilton\", \"Signia by Hilton La Cantera Resort & Spa Hilton Hotel\", \"Signia by Hilton La Cantera Resort & Spa Hilton Resort\", \"Signia by Hilton La Cantera Resort & Spa Hilton\", \"satcnsa signia la cantera resort spa Signia by Hilton Hotel\", \"satcnsa signia la cantera resort spa Signia by Hilton Resort\", \"satcnsa signia la cantera resort spa Signia by Hilton\", \"satcnsa signia la cantera resort spa Hilton Hotel\", \"satcnsa signia la cantera resort spa Hilton Resort\", \"satcnsa signia la cantera resort spa Hilton\", \"Signia by Hilton La Cantera Resort & Spa Hotel\", \"Signia by Hilton La Cantera Resort & Spa Resort\", \"Signia by Hilton La Cantera Resort & Spa\"], \"v\": 3}": {
-    "lat": 29.6028861,
-    "lon": -98.6224536,
-    "formatted_address": "16641 La Cantera Pkwy, San Antonio, TX 78256, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ9ectyNVlXIYR3JGJAHxo5rE",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "16641 La Cantera Pkwy, San Antonio, TX 78256, USA",
-      "geometry": {
-        "location": {
-          "lat": 29.6028861,
-          "lng": -98.6224536
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 29.60457753029151,
-            "lng": -98.62075811970848
-          },
-          "southwest": {
-            "lat": 29.60187956970851,
-            "lng": -98.6234560802915
-          }
-        }
-      },
-      "name": "Signia by Hilton La Cantera Resort & Spa",
-      "place_id": "ChIJ9ectyNVlXIYR3JGJAHxo5rE",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest",
-        "spa"
-      ],
-      "website": "https://www.hilton.com/en/hotels/satcnsa-signia-la-cantera-resort-and-spa/?SEO_id=GMB-AMER-SA-SATCNSA&y_source=1_MjAxOTUxNjg0OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
-    }
-  },
-  "{\"brand\": \"Signia by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Signia by Hilton Orlando Bonnet Creek Signia by Hilton Hotel\", \"Signia by Hilton Orlando Bonnet Creek Signia by Hilton Resort\", \"Signia by Hilton Orlando Bonnet Creek Signia by Hilton\", \"Signia by Hilton Orlando Bonnet Creek Hilton Hotel\", \"Signia by Hilton Orlando Bonnet Creek Hilton Resort\", \"Signia by Hilton Orlando Bonnet Creek Hilton\", \"orlhhsa signia Hilton orlando bonnet creek Signia by Hilton Hotel\", \"orlhhsa signia Hilton orlando bonnet creek Signia by Hilton Resort\", \"orlhhsa signia Hilton orlando bonnet creek Signia by Hilton\", \"orlhhsa signia Hilton orlando bonnet creek Hilton Hotel\", \"orlhhsa signia Hilton orlando bonnet creek Hilton Resort\", \"orlhhsa signia Hilton orlando bonnet creek Hilton\", \"Signia by Hilton Orlando Bonnet Creek Hotel\", \"Signia by Hilton Orlando Bonnet Creek Resort\", \"Signia by Hilton Orlando Bonnet Creek\"], \"v\": 3}": {
-    "lat": 28.3558228,
-    "lon": -81.5347968,
-    "formatted_address": "14100 Bonnet Creek Resort Ln, Orlando, FL 32821, USA",
-    "provider": "google_geocoding",
-    "confidence": "ROOFTOP",
-    "place_id": "ChIJObirUnJ_3YgRgKoJdbtSzWQ",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": true,
-    "raw": {
-      "address_components": [
-        {
-          "long_name": "14100",
-          "short_name": "14100",
-          "types": [
-            "street_number"
-          ]
-        },
-        {
-          "long_name": "Bonnet Creek Resort Lane",
-          "short_name": "Bonnet Creek Resort Ln",
-          "types": [
-            "route"
-          ]
-        },
-        {
-          "long_name": "Orlando",
-          "short_name": "Orlando",
-          "types": [
-            "locality",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Orange County",
-          "short_name": "Orange County",
-          "types": [
-            "administrative_area_level_2",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Florida",
-          "short_name": "FL",
-          "types": [
-            "administrative_area_level_1",
-            "political"
-          ]
-        },
-        {
-          "long_name": "United States",
-          "short_name": "US",
-          "types": [
-            "country",
-            "political"
-          ]
-        },
-        {
-          "long_name": "32821",
-          "short_name": "32821",
-          "types": [
-            "postal_code"
-          ]
-        }
-      ],
-      "formatted_address": "14100 Bonnet Creek Resort Ln, Orlando, FL 32821, USA",
-      "geometry": {
-        "location": {
-          "lat": 28.3558228,
-          "lng": -81.5347968
-        },
-        "location_type": "ROOFTOP",
-        "viewport": {
-          "northeast": {
-            "lat": 28.3572224302915,
-            "lng": -81.5333198197085
-          },
-          "southwest": {
-            "lat": 28.3545244697085,
-            "lng": -81.5360177802915
-          }
-        }
-      },
-      "navigation_points": [
-        {
-          "location": {
-            "latitude": 28.3559154,
-            "longitude": -81.5345779
-          }
-        }
-      ],
-      "partial_match": true,
-      "place_id": "ChIJObirUnJ_3YgRgKoJdbtSzWQ",
-      "plus_code": {
-        "compound_code": "9F48+83 Orlando, FL",
-        "global_code": "76WW9F48+83"
-      },
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ]
-    }
-  },
   "{\"brand\": \"Waldorf Astoria Hotels & Resorts\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Wailea, A Waldorf Astoria Resort Waldorf Astoria Hotels & Resorts Hotel\", \"Grand Wailea, A Waldorf Astoria Resort Waldorf Astoria Hotels & Resorts Resort\", \"Grand Wailea, A Waldorf Astoria Resort Waldorf Astoria Hotels & Resorts\", \"Grand Wailea, A Waldorf Astoria Resort Hilton Hotel\", \"Grand Wailea, A Waldorf Astoria Resort Hilton Resort\", \"Grand Wailea, A Waldorf Astoria Resort Hilton\", \"Grand Wailea, A Waldorf Astoria Resort Hotel\", \"Grand Wailea, A Waldorf Astoria Resort Resort\", \"Grand Wailea, A Waldorf Astoria Resort\"], \"v\": 3}": {
     "lat": 20.6843088,
     "lon": -156.4410036,
@@ -23480,158 +23328,6 @@
       "website": "https://www.hilton.com/en/hotels/axazbol-zemi-beach-house/?SEO_id=GMB-AMER-OL-AXAZBOL&y_source=1_MTQ5OTU4NzgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
-  "{\"brand\": \"Signia by Hilton\", \"hotel_name\": \"Signia by Hilton La Cantera Resort & Spa\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Signia by Hilton La Cantera Resort & Spa Signia by Hilton Hotel\", \"Signia by Hilton La Cantera Resort & Spa Signia by Hilton Resort\", \"Signia by Hilton La Cantera Resort & Spa Signia by Hilton\", \"Signia by Hilton La Cantera Resort & Spa Hilton Hotel\", \"Signia by Hilton La Cantera Resort & Spa Hilton Resort\", \"Signia by Hilton La Cantera Resort & Spa Hilton\", \"satcnsa signia la cantera resort spa Signia by Hilton Hotel\", \"satcnsa signia la cantera resort spa Signia by Hilton Resort\", \"satcnsa signia la cantera resort spa Signia by Hilton\", \"satcnsa signia la cantera resort spa Hilton Hotel\", \"satcnsa signia la cantera resort spa Hilton Resort\", \"satcnsa signia la cantera resort spa Hilton\", \"Signia by Hilton La Cantera Resort & Spa Hotel\", \"Signia by Hilton La Cantera Resort & Spa Resort\", \"Signia by Hilton La Cantera Resort & Spa\"], \"v\": 3}": {
-    "lat": 29.6028861,
-    "lon": -98.6224536,
-    "formatted_address": "16641 La Cantera Pkwy, San Antonio, TX 78256, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ9ectyNVlXIYR3JGJAHxo5rE",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "16641 La Cantera Pkwy, San Antonio, TX 78256, USA",
-      "geometry": {
-        "location": {
-          "lat": 29.6028861,
-          "lng": -98.6224536
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 29.60457753029151,
-            "lng": -98.62075811970848
-          },
-          "southwest": {
-            "lat": 29.60187956970851,
-            "lng": -98.6234560802915
-          }
-        }
-      },
-      "name": "Signia by Hilton La Cantera Resort & Spa",
-      "place_id": "ChIJ9ectyNVlXIYR3JGJAHxo5rE",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest",
-        "spa"
-      ],
-      "website": "https://www.hilton.com/en/hotels/satcnsa-signia-la-cantera-resort-and-spa/?SEO_id=GMB-AMER-SA-SATCNSA&y_source=1_MjAxOTUxNjg0OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
-    }
-  },
-  "{\"brand\": \"Signia by Hilton\", \"hotel_name\": \"Signia by Hilton Orlando Bonnet Creek\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Signia by Hilton Orlando Bonnet Creek Signia by Hilton Hotel\", \"Signia by Hilton Orlando Bonnet Creek Signia by Hilton Resort\", \"Signia by Hilton Orlando Bonnet Creek Signia by Hilton\", \"Signia by Hilton Orlando Bonnet Creek Hilton Hotel\", \"Signia by Hilton Orlando Bonnet Creek Hilton Resort\", \"Signia by Hilton Orlando Bonnet Creek Hilton\", \"orlhhsa signia Hilton orlando bonnet creek Signia by Hilton Hotel\", \"orlhhsa signia Hilton orlando bonnet creek Signia by Hilton Resort\", \"orlhhsa signia Hilton orlando bonnet creek Signia by Hilton\", \"orlhhsa signia Hilton orlando bonnet creek Hilton Hotel\", \"orlhhsa signia Hilton orlando bonnet creek Hilton Resort\", \"orlhhsa signia Hilton orlando bonnet creek Hilton\", \"Signia by Hilton Orlando Bonnet Creek Hotel\", \"Signia by Hilton Orlando Bonnet Creek Resort\", \"Signia by Hilton Orlando Bonnet Creek\"], \"v\": 3}": {
-    "lat": 28.3558228,
-    "lon": -81.5347968,
-    "formatted_address": "14100 Bonnet Creek Resort Ln, Orlando, FL 32821, USA",
-    "provider": "google_geocoding",
-    "confidence": "ROOFTOP",
-    "place_id": "ChIJObirUnJ_3YgRgKoJdbtSzWQ",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": true,
-    "raw": {
-      "address_components": [
-        {
-          "long_name": "14100",
-          "short_name": "14100",
-          "types": [
-            "street_number"
-          ]
-        },
-        {
-          "long_name": "Bonnet Creek Resort Lane",
-          "short_name": "Bonnet Creek Resort Ln",
-          "types": [
-            "route"
-          ]
-        },
-        {
-          "long_name": "Orlando",
-          "short_name": "Orlando",
-          "types": [
-            "locality",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Orange County",
-          "short_name": "Orange County",
-          "types": [
-            "administrative_area_level_2",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Florida",
-          "short_name": "FL",
-          "types": [
-            "administrative_area_level_1",
-            "political"
-          ]
-        },
-        {
-          "long_name": "United States",
-          "short_name": "US",
-          "types": [
-            "country",
-            "political"
-          ]
-        },
-        {
-          "long_name": "32821",
-          "short_name": "32821",
-          "types": [
-            "postal_code"
-          ]
-        }
-      ],
-      "formatted_address": "14100 Bonnet Creek Resort Ln, Orlando, FL 32821, USA",
-      "geometry": {
-        "location": {
-          "lat": 28.3558228,
-          "lng": -81.5347968
-        },
-        "location_type": "ROOFTOP",
-        "viewport": {
-          "northeast": {
-            "lat": 28.3572224302915,
-            "lng": -81.5333198197085
-          },
-          "southwest": {
-            "lat": 28.3545244697085,
-            "lng": -81.5360177802915
-          }
-        }
-      },
-      "navigation_points": [
-        {
-          "location": {
-            "latitude": 28.3559154,
-            "longitude": -81.5345779
-          }
-        }
-      ],
-      "partial_match": true,
-      "place_id": "ChIJObirUnJ_3YgRgKoJdbtSzWQ",
-      "plus_code": {
-        "compound_code": "9F48+83 Orlando, FL",
-        "global_code": "76WW9F48+83"
-      },
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ]
-    }
-  },
   "{\"brand\": \"Tapestry Collection by Hilton\", \"hotel_name\": \"Fuwairit Kite Beach, Tapestry Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Fuwairit Kite Beach, Tapestry Collection by Hilton Tapestry Collection by Hilton Hotel\", \"Fuwairit Kite Beach, Tapestry Collection by Hilton Tapestry Collection by Hilton Resort\", \"Fuwairit Kite Beach, Tapestry Collection by Hilton Tapestry Collection by Hilton\", \"Fuwairit Kite Beach, Tapestry Collection by Hilton Hilton Hotel\", \"Fuwairit Kite Beach, Tapestry Collection by Hilton Hilton Resort\", \"Fuwairit Kite Beach, Tapestry Collection by Hilton Hilton\", \"dohkbup fuwairit kite beach Tapestry Collection by Hilton Hotel\", \"dohkbup fuwairit kite beach Tapestry Collection by Hilton Resort\", \"dohkbup fuwairit kite beach Tapestry Collection by Hilton\", \"dohkbup fuwairit kite beach Hilton Hotel\", \"dohkbup fuwairit kite beach Hilton Resort\", \"dohkbup fuwairit kite beach Hilton\", \"Fuwairit Kite Beach, Tapestry Collection by Hilton Hotel\", \"Fuwairit Kite Beach, Tapestry Collection by Hilton Resort\", \"Fuwairit Kite Beach, Tapestry Collection by Hilton\"], \"v\": 3}": {
     "lat": 26.0189698,
     "lon": 51.3826087,
@@ -24360,49 +24056,6 @@
       "website": "https://www.hilton.com/en/hotels/cdgtpwa-waldorf-astoria-versailles-trianon-palace/?SEO_id=GMB-EMEA-WA-CDGTPWA"
     }
   },
-  "{\"brand\": \"Signia by Hilton\", \"hotel_name\": \"Signia by Hilton Diplomat Beach Resort\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Signia by Hilton Diplomat Beach Resort\"], \"v\": 3}": null,
-  "{\"brand\": \"Signia by Hilton\", \"hotel_name\": \"Signia by Hilton Diplomat Beach Resort\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Signia by Hilton Diplomat Beach Resort Signia by Hilton Hotel\", \"Signia by Hilton Diplomat Beach Resort Signia by Hilton Resort\", \"Signia by Hilton Diplomat Beach Resort Signia by Hilton\", \"Signia by Hilton Diplomat Beach Resort Hilton Hotel\", \"Signia by Hilton Diplomat Beach Resort Hilton Resort\", \"Signia by Hilton Diplomat Beach Resort Hilton\", \"flldhsa signia diplomat beach resort Signia by Hilton Hotel\", \"flldhsa signia diplomat beach resort Signia by Hilton Resort\", \"flldhsa signia diplomat beach resort Signia by Hilton\", \"flldhsa signia diplomat beach resort Hilton Hotel\", \"flldhsa signia diplomat beach resort Hilton Resort\", \"flldhsa signia diplomat beach resort Hilton\", \"Signia by Hilton Diplomat Beach Resort Hotel\", \"Signia by Hilton Diplomat Beach Resort Resort\", \"Signia by Hilton Diplomat Beach Resort\"], \"v\": 3}": {
-    "lat": 25.9916936,
-    "lon": -80.1179417,
-    "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJdegypsir2YgRhe4rbEB80oU",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
-      "geometry": {
-        "location": {
-          "lat": 25.9916936,
-          "lng": -80.1179417
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.9927793302915,
-            "lng": -80.1168228197085
-          },
-          "southwest": {
-            "lat": 25.9900813697085,
-            "lng": -80.11952078029151
-          }
-        }
-      },
-      "name": "Signia by Hilton Diplomat Beach Resort",
-      "place_id": "ChIJdegypsir2YgRhe4rbEB80oU",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hilton.com/en/hotels/flldhsa-signia-diplomat-beach-resort/?SEO_id=GMB-AMER-SA-FLLDHSA&y_source=1_MjA1OTUxODA5My03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
-    }
-  },
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton\"], \"v\": 3}": null,
   "{\"brand\": \"LXR Hotels & Resorts\", \"hotel_name\": \"Imperial Hotel Gold Coast\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Imperial Hotel Gold Coast\"], \"v\": 3}": null,
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton Curio Collection by Hilton\", \"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton Hilton Hotel\", \"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton Hilton Resort\", \"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton Hilton\", \"herniqq numo ierapetra beach resort crete Curio Collection by Hilton Hotel\", \"herniqq numo ierapetra beach resort crete Curio Collection by Hilton Resort\", \"herniqq numo ierapetra beach resort crete Curio Collection by Hilton\", \"herniqq numo ierapetra beach resort crete Hilton Hotel\", \"herniqq numo ierapetra beach resort crete Hilton Resort\", \"herniqq numo ierapetra beach resort crete Hilton\", \"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton Hotel\", \"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton Resort\", \"Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton\"], \"v\": 3}": {
@@ -24754,6 +24407,512 @@
         "point_of_interest"
       ],
       "website": "https://www.hilton.com/en/hotels/bontrup-delfins-beach-resort-bonaire/?SEO_id=GMB-UP-BONTRUP"
+    }
+  },
+  "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Aulus Chania Resort, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Aulus Chania Resort, Curio Collection by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Sunseeker Resort Florida Gulf Coast, Curio by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Sunsuites Villas at Sunseeker Resort, Curio by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"Hilton Grand Vacation Club\", \"hotel_name\": \"Hilton Vacation Club Eilan Resort & Spa San Antonio\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Vacation Club Eilan Resort & Spa San Antonio\"], \"v\": 3}": null,
+  "{\"brand\": \"Hilton Grand Vacation Club\", \"hotel_name\": \"Hilton Vacation Club The Fountains Orlando\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Vacation Club The Fountains Orlando\"], \"v\": 3}": null,
+  "{\"brand\": \"Hilton Hotels & Resorts\", \"hotel_name\": \"Hilton Chania Old Town Resort & Spa\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Chania Old Town Resort & Spa\"], \"v\": 3}": null,
+  "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Aulus Chania Resort, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Aulus Chania Resort, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"Aulus Chania Resort, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"Aulus Chania Resort, Curio Collection by Hilton Curio Collection by Hilton\", \"Aulus Chania Resort, Curio Collection by Hilton Hilton Hotel\", \"Aulus Chania Resort, Curio Collection by Hilton Hilton Resort\", \"Aulus Chania Resort, Curio Collection by Hilton Hilton\", \"heribqq aulus chania resort Curio Collection by Hilton Hotel\", \"heribqq aulus chania resort Curio Collection by Hilton Resort\", \"heribqq aulus chania resort Curio Collection by Hilton\", \"heribqq aulus chania resort Hilton Hotel\", \"heribqq aulus chania resort Hilton Resort\", \"heribqq aulus chania resort Hilton\", \"Aulus Chania Resort, Curio Collection by Hilton Hotel\", \"Aulus Chania Resort, Curio Collection by Hilton Resort\", \"Aulus Chania Resort, Curio Collection by Hilton\"], \"v\": 3}": {
+    "lat": 35.5842249,
+    "lon": 24.0754187,
+    "formatted_address": "Stavros 731 00, Greece",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJWXPnHWZ5nBQRtMoVXuWzvAc",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Stavros 731 00, Greece",
+      "geometry": {
+        "location": {
+          "lat": 35.5842249,
+          "lng": 24.0754187
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.5854846302915,
+            "lng": 24.07672193029151
+          },
+          "southwest": {
+            "lat": 35.5827866697085,
+            "lng": 24.0740239697085
+          }
+        }
+      },
+      "name": "Aulus Chania Resort, Curio Collection by Hilton",
+      "place_id": "ChIJWXPnHWZ5nBQRtMoVXuWzvAc",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/heribqq-aulus-chania-resort/?SEO_id=GMB-EMEA-QQ-HERIBQQ"
+    }
+  },
+  "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Curio Collection by Hilton Hotel\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Curio Collection by Hilton Resort\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Curio Collection by Hilton\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Hilton Hotel\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Hilton Resort\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Hilton\", \"pgdchqq sunseeker resort florida gulf coast Curio Collection by Hilton Hotel\", \"pgdchqq sunseeker resort florida gulf coast Curio Collection by Hilton Resort\", \"pgdchqq sunseeker resort florida gulf coast Curio Collection by Hilton\", \"pgdchqq sunseeker resort florida gulf coast Hilton Hotel\", \"pgdchqq sunseeker resort florida gulf coast Hilton Resort\", \"pgdchqq sunseeker resort florida gulf coast Hilton\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Hotel\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Resort\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton\"], \"v\": 3}": {
+    "lat": 26.9543247,
+    "lon": -82.0643425,
+    "formatted_address": "5500 Sunseeker Way, Charlotte Harbor, FL 33980, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJYXKIC8Wp3IgRNXsR0tfjoFQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "5500 Sunseeker Way, Charlotte Harbor, FL 33980, USA",
+      "geometry": {
+        "location": {
+          "lat": 26.9543247,
+          "lng": -82.0643425
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 26.9558987302915,
+            "lng": -82.0630692197085
+          },
+          "southwest": {
+            "lat": 26.9532007697085,
+            "lng": -82.0657671802915
+          }
+        }
+      },
+      "name": "Sunseeker Resort Florida Gulf Coast, Curio Collection by Hilton",
+      "place_id": "ChIJYXKIC8Wp3IgRNXsR0tfjoFQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/pgdchqq-sunseeker-resort-florida-gulf-coast/?SEO_id=GMB-AMER-QQ-PGDCHQQ"
+    }
+  },
+  "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Curio Collection by Hilton Hotel\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Curio Collection by Hilton Resort\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Curio Collection by Hilton\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Hilton Hotel\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Hilton Resort\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Hilton\", \"pgdssqq sunsuites villas sunseeker resort Curio Collection by Hilton Hotel\", \"pgdssqq sunsuites villas sunseeker resort Curio Collection by Hilton Resort\", \"pgdssqq sunsuites villas sunseeker resort Curio Collection by Hilton\", \"pgdssqq sunsuites villas sunseeker resort Hilton Hotel\", \"pgdssqq sunsuites villas sunseeker resort Hilton Resort\", \"pgdssqq sunsuites villas sunseeker resort Hilton\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Hotel\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton Resort\", \"Sunsuites Villas at Sunseeker Resort, Curio by Hilton\"], \"v\": 3}": {
+    "lat": 26.9529423,
+    "lon": -82.0630089,
+    "formatted_address": "5600 Sunseeker Way, Punta Gorda, FL 33980, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJaTmdVQCp3IgRH1rOOE6RUzI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "5600 Sunseeker Way, Punta Gorda, FL 33980, USA",
+      "geometry": {
+        "location": {
+          "lat": 26.9529423,
+          "lng": -82.0630089
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 26.9543984802915,
+            "lng": -82.0614876697085
+          },
+          "southwest": {
+            "lat": 26.9517005197085,
+            "lng": -82.0641856302915
+          }
+        }
+      },
+      "name": "Sunsuites Villas at Sunseeker Resort",
+      "place_id": "ChIJaTmdVQCp3IgRH1rOOE6RUzI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/pgdchqq-sunseeker-resort-florida-gulf-coast/sunsuites-villas/?arrivalDate=2026-05-04&departureDate=2026-05-05&flexibleDates=false&numRooms=1&numAdults=1&numChildren=0&room1ChildAges=&room1AdultAges="
+    }
+  },
+  "{\"brand\": \"Hilton Grand Vacation Club\", \"hotel_name\": \"Hilton Vacation Club Eilan Resort & Spa San Antonio\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Vacation Club Eilan Resort & Spa San Antonio Hilton Grand Vacation Club Hotel\", \"Hilton Vacation Club Eilan Resort & Spa San Antonio Hilton Grand Vacation Club Resort\", \"Hilton Vacation Club Eilan Resort & Spa San Antonio Hilton Grand Vacation Club\", \"Hilton Vacation Club Eilan Resort & Spa San Antonio Hilton Hotel\", \"Hilton Vacation Club Eilan Resort & Spa San Antonio Hilton Resort\", \"Hilton Vacation Club Eilan Resort & Spa San Antonio Hilton\", \"satergv Hilton vacation club eilan resort spa san antonio Hilton Grand Vacation Club Hotel\", \"satergv Hilton vacation club eilan resort spa san antonio Hilton Grand Vacation Club Resort\", \"satergv Hilton vacation club eilan resort spa san antonio Hilton Grand Vacation Club\", \"satergv Hilton vacation club eilan resort spa san antonio Hilton Hotel\", \"satergv Hilton vacation club eilan resort spa san antonio Hilton Resort\", \"satergv Hilton vacation club eilan resort spa san antonio Hilton\", \"Hilton Vacation Club Eilan Resort & Spa San Antonio Hotel\", \"Hilton Vacation Club Eilan Resort & Spa San Antonio Resort\", \"Hilton Vacation Club Eilan Resort & Spa San Antonio\"], \"v\": 3}": {
+    "lat": 29.6105594,
+    "lon": -98.60673539999999,
+    "formatted_address": "18603 La Cantera Terrace, San Antonio, TX 78256, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJPU8XbClkXIYRR1EXUERsYP4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "18603 La Cantera Terrace, San Antonio, TX 78256, USA",
+      "geometry": {
+        "location": {
+          "lat": 29.6105594,
+          "lng": -98.60673539999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 29.6117811302915,
+            "lng": -98.60568761970849
+          },
+          "southwest": {
+            "lat": 29.60908316970851,
+            "lng": -98.6083855802915
+          }
+        }
+      },
+      "name": "Hilton Vacation Club Eilan Resort & Spa San Antonio",
+      "place_id": "ChIJPU8XbClkXIYRR1EXUERsYP4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/satergv-hilton-vacation-club-eilan-resort-and-spa-san-antonio/?SEO_id=GMB-AMER-HH-SATERGV"
+    }
+  },
+  "{\"brand\": \"Hilton Grand Vacation Club\", \"hotel_name\": \"Hilton Vacation Club The Fountains Orlando\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Vacation Club The Fountains Orlando Hilton Grand Vacation Club Hotel\", \"Hilton Vacation Club The Fountains Orlando Hilton Grand Vacation Club Resort\", \"Hilton Vacation Club The Fountains Orlando Hilton Grand Vacation Club\", \"Hilton Vacation Club The Fountains Orlando Hilton Hotel\", \"Hilton Vacation Club The Fountains Orlando Hilton Resort\", \"Hilton Vacation Club The Fountains Orlando Hilton\", \"mcogvgv Hilton vacation club fountains orlando Hilton Grand Vacation Club Hotel\", \"mcogvgv Hilton vacation club fountains orlando Hilton Grand Vacation Club Resort\", \"mcogvgv Hilton vacation club fountains orlando Hilton Grand Vacation Club\", \"mcogvgv Hilton vacation club fountains orlando Hilton Hotel\", \"mcogvgv Hilton vacation club fountains orlando Hilton Resort\", \"mcogvgv Hilton vacation club fountains orlando Hilton\", \"Hilton Vacation Club The Fountains Orlando Hotel\", \"Hilton Vacation Club The Fountains Orlando Resort\", \"Hilton Vacation Club The Fountains Orlando\"], \"v\": 3}": {
+    "lat": 28.3879201,
+    "lon": -81.4772978,
+    "formatted_address": "12400 International Dr, Orlando, FL 32821, USA",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
+    "place_id": "ChIJ_SSw5mOA3YgRTPRxqRB6XBA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": true,
+    "raw": {
+      "address_components": [
+        {
+          "long_name": "12400",
+          "short_name": "12400",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "International Drive",
+          "short_name": "International Dr",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Orlando",
+          "short_name": "Orlando",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orange County",
+          "short_name": "Orange County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Florida",
+          "short_name": "FL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "32821",
+          "short_name": "32821",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "12400 International Dr, Orlando, FL 32821, USA",
+      "geometry": {
+        "location": {
+          "lat": 28.3879201,
+          "lng": -81.4772978
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 28.3891154802915,
+            "lng": -81.4761290197085
+          },
+          "southwest": {
+            "lat": 28.38641751970849,
+            "lng": -81.4788269802915
+          }
+        }
+      },
+      "partial_match": true,
+      "place_id": "ChIJ_SSw5mOA3YgRTPRxqRB6XBA",
+      "plus_code": {
+        "compound_code": "9GQF+53 Orlando, FL",
+        "global_code": "76WW9GQF+53"
+      },
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
+    }
+  },
+  "{\"brand\": \"Hilton Hotels & Resorts\", \"hotel_name\": \"Hilton Chania Old Town Resort & Spa\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Chania Old Town Resort & Spa Hilton Hotels & Resorts Hotel\", \"Hilton Chania Old Town Resort & Spa Hilton Hotels & Resorts Resort\", \"Hilton Chania Old Town Resort & Spa Hilton Hotels & Resorts\", \"Hilton Chania Old Town Resort & Spa Hilton Hotel\", \"Hilton Chania Old Town Resort & Spa Hilton Resort\", \"Hilton Chania Old Town Resort & Spa Hilton\", \"chqiahi Hilton chania Hilton Hotels & Resorts Hotel\", \"chqiahi Hilton chania Hilton Hotels & Resorts Resort\", \"chqiahi Hilton chania Hilton Hotels & Resorts\", \"chqiahi Hilton chania Hilton Hotel\", \"chqiahi Hilton chania Hilton Resort\", \"chqiahi Hilton chania Hilton\", \"Hilton Chania Old Town Resort & Spa Hotel\", \"Hilton Chania Old Town Resort & Spa Resort\", \"Hilton Chania Old Town Resort & Spa\"], \"v\": 3}": {
+    "lat": 35.5175408,
+    "lon": 24.0122498,
+    "formatted_address": "Akti Kanari, Chania 731 31, Greece",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJT8A6tM99nBQRA1sXXdaUzEE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Akti Kanari, Chania 731 31, Greece",
+      "geometry": {
+        "location": {
+          "lat": 35.5175408,
+          "lng": 24.0122498
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.51893773029149,
+            "lng": 24.0135861302915
+          },
+          "southwest": {
+            "lat": 35.51623976970849,
+            "lng": 24.0108881697085
+          }
+        }
+      },
+      "name": "Hilton Chania Old Town Resort & Spa",
+      "place_id": "ChIJT8A6tM99nBQRA1sXXdaUzEE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/chqiahi-hilton-chania/?SEO_id=GMB-EMEA-HI-CHQIAHI"
+    }
+  },
+  "{\"brand\": \"Signia Hilton\", \"hotel_name\": \"Signia Hilton Diplomat Beach Resort\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Signia Hilton Diplomat Beach Resort Signia Hilton Hotel\", \"Signia Hilton Diplomat Beach Resort Signia Hilton Resort\", \"Signia Hilton Diplomat Beach Resort Signia Hilton\", \"Signia Hilton Diplomat Beach Resort Hilton Hotel\", \"Signia Hilton Diplomat Beach Resort Hilton Resort\", \"Signia Hilton Diplomat Beach Resort Hilton\", \"flldhsa signia diplomat beach resort Signia Hilton Hotel\", \"flldhsa signia diplomat beach resort Signia Hilton Resort\", \"flldhsa signia diplomat beach resort Signia Hilton\", \"flldhsa signia diplomat beach resort Hilton Hotel\", \"flldhsa signia diplomat beach resort Hilton Resort\", \"flldhsa signia diplomat beach resort Hilton\", \"Signia Hilton Diplomat Beach Resort Hotel\", \"Signia Hilton Diplomat Beach Resort Resort\", \"Signia Hilton Diplomat Beach Resort\"], \"v\": 3}": {
+    "lat": 25.9916936,
+    "lon": -80.1179417,
+    "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJdegypsir2YgRhe4rbEB80oU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "3555 S Ocean Dr, Hollywood, FL 33019, USA",
+      "geometry": {
+        "location": {
+          "lat": 25.9916936,
+          "lng": -80.1179417
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.9930086802915,
+            "lng": -80.1168308697085
+          },
+          "southwest": {
+            "lat": 25.9903107197085,
+            "lng": -80.1195288302915
+          }
+        }
+      },
+      "name": "Signia by Hilton Diplomat Beach Resort",
+      "place_id": "ChIJdegypsir2YgRhe4rbEB80oU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/flldhsa-signia-diplomat-beach-resort/?SEO_id=GMB-AMER-SA-FLLDHSA"
+    }
+  },
+  "{\"brand\": \"Signia Hilton\", \"hotel_name\": \"Signia Hilton La Cantera Resort & Spa\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Signia Hilton La Cantera Resort & Spa Signia Hilton Hotel\", \"Signia Hilton La Cantera Resort & Spa Signia Hilton Resort\", \"Signia Hilton La Cantera Resort & Spa Signia Hilton\", \"Signia Hilton La Cantera Resort & Spa Hilton Hotel\", \"Signia Hilton La Cantera Resort & Spa Hilton Resort\", \"Signia Hilton La Cantera Resort & Spa Hilton\", \"satcnsa signia la cantera resort spa Signia Hilton Hotel\", \"satcnsa signia la cantera resort spa Signia Hilton Resort\", \"satcnsa signia la cantera resort spa Signia Hilton\", \"satcnsa signia la cantera resort spa Hilton Hotel\", \"satcnsa signia la cantera resort spa Hilton Resort\", \"satcnsa signia la cantera resort spa Hilton\", \"Signia Hilton La Cantera Resort & Spa Hotel\", \"Signia Hilton La Cantera Resort & Spa Resort\", \"Signia Hilton La Cantera Resort & Spa\"], \"v\": 3}": {
+    "lat": 29.6028861,
+    "lon": -98.6224536,
+    "formatted_address": "16641 La Cantera Pkwy, San Antonio, TX 78256, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ9ectyNVlXIYR3JGJAHxo5rE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "16641 La Cantera Pkwy, San Antonio, TX 78256, USA",
+      "geometry": {
+        "location": {
+          "lat": 29.6028861,
+          "lng": -98.6224536
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 29.60457753029151,
+            "lng": -98.62075811970848
+          },
+          "southwest": {
+            "lat": 29.60187956970851,
+            "lng": -98.6234560802915
+          }
+        }
+      },
+      "name": "Signia by Hilton La Cantera Resort & Spa",
+      "place_id": "ChIJ9ectyNVlXIYR3JGJAHxo5rE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/satcnsa-signia-la-cantera-resort-and-spa/?SEO_id=GMB-AMER-SA-SATCNSA"
+    }
+  },
+  "{\"brand\": \"Signia Hilton\", \"hotel_name\": \"Signia Hilton Orlando Bonnet Creek\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Signia Hilton Orlando Bonnet Creek Signia Hilton Hotel\", \"Signia Hilton Orlando Bonnet Creek Signia Hilton Resort\", \"Signia Hilton Orlando Bonnet Creek Signia Hilton\", \"Signia Hilton Orlando Bonnet Creek Hilton Hotel\", \"Signia Hilton Orlando Bonnet Creek Hilton Resort\", \"Signia Hilton Orlando Bonnet Creek Hilton\", \"orlhhsa signia Hilton orlando bonnet creek Signia Hilton Hotel\", \"orlhhsa signia Hilton orlando bonnet creek Signia Hilton Resort\", \"orlhhsa signia Hilton orlando bonnet creek Signia Hilton\", \"orlhhsa signia Hilton orlando bonnet creek Hilton Hotel\", \"orlhhsa signia Hilton orlando bonnet creek Hilton Resort\", \"orlhhsa signia Hilton orlando bonnet creek Hilton\", \"Signia Hilton Orlando Bonnet Creek Hotel\", \"Signia Hilton Orlando Bonnet Creek Resort\", \"Signia Hilton Orlando Bonnet Creek\"], \"v\": 3}": {
+    "lat": 28.3558228,
+    "lon": -81.5347968,
+    "formatted_address": "14100 Bonnet Creek Resort Ln, Orlando, FL 32821, USA",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
+    "place_id": "ChIJObirUnJ_3YgRgKoJdbtSzWQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": true,
+    "raw": {
+      "address_components": [
+        {
+          "long_name": "14100",
+          "short_name": "14100",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Bonnet Creek Resort Lane",
+          "short_name": "Bonnet Creek Resort Ln",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Orlando",
+          "short_name": "Orlando",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Orange County",
+          "short_name": "Orange County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Florida",
+          "short_name": "FL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "32821",
+          "short_name": "32821",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "14100 Bonnet Creek Resort Ln, Orlando, FL 32821, USA",
+      "geometry": {
+        "location": {
+          "lat": 28.3558228,
+          "lng": -81.5347968
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 28.3572224302915,
+            "lng": -81.5333198197085
+          },
+          "southwest": {
+            "lat": 28.3545244697085,
+            "lng": -81.5360177802915
+          }
+        }
+      },
+      "partial_match": true,
+      "place_id": "ChIJObirUnJ_3YgRgKoJdbtSzWQ",
+      "plus_code": {
+        "compound_code": "9F48+83 Orlando, FL",
+        "global_code": "76WW9F48+83"
+      },
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
     }
   }
 }
