@@ -33787,48 +33787,6 @@
       "website": "https://www.lottenypalace.com/?utm_source=google&utm_medium=organic&utm_campaign=business-listing"
     }
   },
-  "{\"brand\": \"Lotte Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lotte Hotel Seoul Lotte Hotels & Resorts Hotel\", \"Lotte Hotel Seoul Lotte Hotels & Resorts Resort\", \"Lotte Hotel Seoul Lotte Hotels & Resorts\", \"Lotte Hotel Seoul Lotte Hotels & Resorts Seoul, South Korea Hotel\", \"Lotte Hotel Seoul Lotte Hotels & Resorts Seoul, South Korea Resort\", \"Lotte Hotel Seoul Lotte Hotels & Resorts Seoul, South Korea\", \"Lotte Hotel Seoul Hilton Hotel\", \"Lotte Hotel Seoul Hilton Resort\", \"Lotte Hotel Seoul Hilton\", \"Lotte Hotel Seoul Hilton Seoul, South Korea Hotel\", \"Lotte Hotel Seoul Hilton Seoul, South Korea Resort\", \"Lotte Hotel Seoul Hilton Seoul, South Korea\", \"Lotte Hotel Seoul Hotel\", \"Lotte Hotel Seoul Resort\", \"Lotte Hotel Seoul\", \"Lotte Hotel Seoul Seoul, South Korea Hotel\", \"Lotte Hotel Seoul Seoul, South Korea Resort\", \"Lotte Hotel Seoul Seoul, South Korea\"], \"v\": 3}": {
-    "lat": 37.5653,
-    "lon": 126.980979,
-    "formatted_address": "30 Eulji-ro, Jung District, Seoul, South Korea",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ92BD_-2ifDURWdfj5R8TWjs",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "30 Eulji-ro, Jung District, Seoul, South Korea",
-      "geometry": {
-        "location": {
-          "lat": 37.5653,
-          "lng": 126.980979
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 37.5666489802915,
-            "lng": 126.9823279802915
-          },
-          "southwest": {
-            "lat": 37.56395101970851,
-            "lng": 126.9796300197085
-          }
-        }
-      },
-      "name": "LOTTE HOTEL SEOUL",
-      "place_id": "ChIJ92BD_-2ifDURWdfj5R8TWjs",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.lottehotel.com/seoul-hotel/en"
-    }
-  },
   "{\"brand\": \"LXR Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sandblu Santorini Lxr Hotels Resorts LXR Hotels & Resorts Hotel\", \"Sandblu Santorini Lxr Hotels Resorts LXR Hotels & Resorts Resort\", \"Sandblu Santorini Lxr Hotels Resorts LXR Hotels & Resorts\", \"Sandblu Santorini Lxr Hotels Resorts LXR Hotels & Resorts Kamari, Greece Hotel\", \"Sandblu Santorini Lxr Hotels Resorts LXR Hotels & Resorts Kamari, Greece Resort\", \"Sandblu Santorini Lxr Hotels Resorts LXR Hotels & Resorts Kamari, Greece\", \"Sandblu Santorini Lxr Hotels Resorts Hilton Hotel\", \"Sandblu Santorini Lxr Hotels Resorts Hilton Resort\", \"Sandblu Santorini Lxr Hotels Resorts Hilton\", \"Sandblu Santorini Lxr Hotels Resorts Hilton Kamari, Greece Hotel\", \"Sandblu Santorini Lxr Hotels Resorts Hilton Kamari, Greece Resort\", \"Sandblu Santorini Lxr Hotels Resorts Hilton Kamari, Greece\", \"Sandblu Santorini, LXR Hotels & Resorts LXR Hotels & Resorts Hotel\", \"Sandblu Santorini, LXR Hotels & Resorts LXR Hotels & Resorts Resort\", \"Sandblu Santorini, LXR Hotels & Resorts LXR Hotels & Resorts\", \"Sandblu Santorini, LXR Hotels & Resorts LXR Hotels & Resorts Kamari, Greece Hotel\", \"Sandblu Santorini, LXR Hotels & Resorts LXR Hotels & Resorts Kamari, Greece Resort\", \"Sandblu Santorini, LXR Hotels & Resorts LXR Hotels & Resorts Kamari, Greece\", \"Sandblu Santorini, LXR Hotels & Resorts Hilton Hotel\", \"Sandblu Santorini, LXR Hotels & Resorts Hilton Resort\", \"Sandblu Santorini, LXR Hotels & Resorts Hilton\", \"Sandblu Santorini, LXR Hotels & Resorts Hilton Kamari, Greece Hotel\", \"Sandblu Santorini, LXR Hotels & Resorts Hilton Kamari, Greece Resort\", \"Sandblu Santorini, LXR Hotels & Resorts Hilton Kamari, Greece\", \"Sandblu Santorini, LXR Hotels & Resorts Hotel\", \"Sandblu Santorini, LXR Hotels & Resorts Resort\", \"Sandblu Santorini, LXR Hotels & Resorts\", \"Sandblu Santorini, LXR Hotels & Resorts Kamari, Greece Hotel\", \"Sandblu Santorini, LXR Hotels & Resorts Kamari, Greece Resort\", \"Sandblu Santorini, LXR Hotels & Resorts Kamari, Greece\"], \"v\": 3}": {
     "status": "NO_RESULT"
   },
@@ -125077,48 +125035,6 @@
       "website": "https://www.lottenypalace.com/?utm_source=google&utm_medium=organic&utm_campaign=business-listing"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Lotte Hotel Seoul\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lotte Hotel Seoul Lotte Hotels & Resorts Hotel\", \"Lotte Hotel Seoul Lotte Hotels & Resorts Resort\", \"Lotte Hotel Seoul Lotte Hotels & Resorts\", \"Lotte Hotel Seoul Lotte Hotels & Resorts Seoul, South Korea Hotel\", \"Lotte Hotel Seoul Lotte Hotels & Resorts Seoul, South Korea Resort\", \"Lotte Hotel Seoul Lotte Hotels & Resorts Seoul, South Korea\", \"Lotte Hotel Seoul Hilton Hotel\", \"Lotte Hotel Seoul Hilton Resort\", \"Lotte Hotel Seoul Hilton\", \"Lotte Hotel Seoul Hilton Seoul, South Korea Hotel\", \"Lotte Hotel Seoul Hilton Seoul, South Korea Resort\", \"Lotte Hotel Seoul Hilton Seoul, South Korea\", \"Lotte Hotel Seoul Hotel\", \"Lotte Hotel Seoul Resort\", \"Lotte Hotel Seoul\", \"Lotte Hotel Seoul Seoul, South Korea Hotel\", \"Lotte Hotel Seoul Seoul, South Korea Resort\", \"Lotte Hotel Seoul Seoul, South Korea\"], \"v\": 3}": {
-    "lat": 37.5653,
-    "lon": 126.980979,
-    "formatted_address": "30 Eulji-ro, Jung District, Seoul, South Korea",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ92BD_-2ifDURWdfj5R8TWjs",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "30 Eulji-ro, Jung District, Seoul, South Korea",
-      "geometry": {
-        "location": {
-          "lat": 37.5653,
-          "lng": 126.980979
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 37.5666489802915,
-            "lng": 126.9823279802915
-          },
-          "southwest": {
-            "lat": 37.56395101970851,
-            "lng": 126.9796300197085
-          }
-        }
-      },
-      "name": "LOTTE HOTEL SEOUL",
-      "place_id": "ChIJ92BD_-2ifDURWdfj5R8TWjs",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.lottehotel.com/seoul-hotel/en"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Sandblu Santorini, LXR Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sandblu Santorini, LXR Hotels & Resorts LXR Hotels & Resorts Hotel\", \"Sandblu Santorini, LXR Hotels & Resorts LXR Hotels & Resorts Resort\", \"Sandblu Santorini, LXR Hotels & Resorts LXR Hotels & Resorts\", \"Sandblu Santorini, LXR Hotels & Resorts LXR Hotels & Resorts Kamari, Greece Hotel\", \"Sandblu Santorini, LXR Hotels & Resorts LXR Hotels & Resorts Kamari, Greece Resort\", \"Sandblu Santorini, LXR Hotels & Resorts LXR Hotels & Resorts Kamari, Greece\", \"Sandblu Santorini, LXR Hotels & Resorts Hilton Hotel\", \"Sandblu Santorini, LXR Hotels & Resorts Hilton Resort\", \"Sandblu Santorini, LXR Hotels & Resorts Hilton\", \"Sandblu Santorini, LXR Hotels & Resorts Hilton Kamari, Greece Hotel\", \"Sandblu Santorini, LXR Hotels & Resorts Hilton Kamari, Greece Resort\", \"Sandblu Santorini, LXR Hotels & Resorts Hilton Kamari, Greece\", \"Sandblu Santorini Lxr Hotels Resorts LXR Hotels & Resorts Hotel\", \"Sandblu Santorini Lxr Hotels Resorts LXR Hotels & Resorts Resort\", \"Sandblu Santorini Lxr Hotels Resorts LXR Hotels & Resorts\", \"Sandblu Santorini Lxr Hotels Resorts LXR Hotels & Resorts Kamari, Greece Hotel\", \"Sandblu Santorini Lxr Hotels Resorts LXR Hotels & Resorts Kamari, Greece Resort\", \"Sandblu Santorini Lxr Hotels Resorts LXR Hotels & Resorts Kamari, Greece\", \"Sandblu Santorini Lxr Hotels Resorts Hilton Hotel\", \"Sandblu Santorini Lxr Hotels Resorts Hilton Resort\", \"Sandblu Santorini Lxr Hotels Resorts Hilton\", \"Sandblu Santorini Lxr Hotels Resorts Hilton Kamari, Greece Hotel\", \"Sandblu Santorini Lxr Hotels Resorts Hilton Kamari, Greece Resort\", \"Sandblu Santorini Lxr Hotels Resorts Hilton Kamari, Greece\", \"Sandblu Santorini, LXR Hotels & Resorts Hotel\", \"Sandblu Santorini, LXR Hotels & Resorts Resort\", \"Sandblu Santorini, LXR Hotels & Resorts\", \"Sandblu Santorini, LXR Hotels & Resorts Kamari, Greece Hotel\", \"Sandblu Santorini, LXR Hotels & Resorts Kamari, Greece Resort\", \"Sandblu Santorini, LXR Hotels & Resorts Kamari, Greece\"], \"v\": 3}": {
     "status": "NO_RESULT"
   },
@@ -156262,6 +156178,49 @@
         "spa"
       ],
       "website": "https://www.lougheskecastlehotel.com/?utm_source=google&utm_campaign=google_my_business&utm_medium=organic"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Grand Lotte Seoul\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Grand Lotte Seoul\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Grand Lotte Seoul\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Grand Lotte Seoul Lotte Hotels & Resorts Hotel\", \"The Grand Lotte Seoul Lotte Hotels & Resorts Resort\", \"The Grand Lotte Seoul Lotte Hotels & Resorts\", \"The Grand Lotte Seoul Lotte Hotels & Resorts Seoul, South Korea Hotel\", \"The Grand Lotte Seoul Lotte Hotels & Resorts Seoul, South Korea Resort\", \"The Grand Lotte Seoul Lotte Hotels & Resorts Seoul, South Korea\", \"The Grand Lotte Seoul Hilton Hotel\", \"The Grand Lotte Seoul Hilton Resort\", \"The Grand Lotte Seoul Hilton\", \"The Grand Lotte Seoul Hilton Seoul, South Korea Hotel\", \"The Grand Lotte Seoul Hilton Seoul, South Korea Resort\", \"The Grand Lotte Seoul Hilton Seoul, South Korea\", \"Grand Lotte Seoul Lotte Hotels & Resorts Hotel\", \"Grand Lotte Seoul Lotte Hotels & Resorts Resort\", \"Grand Lotte Seoul Lotte Hotels & Resorts\", \"Grand Lotte Seoul Lotte Hotels & Resorts Seoul, South Korea Hotel\", \"Grand Lotte Seoul Lotte Hotels & Resorts Seoul, South Korea Resort\", \"Grand Lotte Seoul Lotte Hotels & Resorts Seoul, South Korea\", \"Grand Lotte Seoul Hilton Hotel\", \"Grand Lotte Seoul Hilton Resort\", \"Grand Lotte Seoul Hilton\", \"Grand Lotte Seoul Hilton Seoul, South Korea Hotel\", \"Grand Lotte Seoul Hilton Seoul, South Korea Resort\", \"Grand Lotte Seoul Hilton Seoul, South Korea\", \"The Grand Lotte Seoul Hotel\", \"The Grand Lotte Seoul Resort\", \"The Grand Lotte Seoul\", \"The Grand Lotte Seoul Seoul, South Korea Hotel\", \"The Grand Lotte Seoul Seoul, South Korea Resort\", \"The Grand Lotte Seoul Seoul, South Korea\"], \"v\": 3}": {
+    "lat": 37.5653,
+    "lon": 126.980979,
+    "formatted_address": "30 Eulji-ro, Jung District, Seoul, South Korea",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ92BD_-2ifDURWdfj5R8TWjs",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "30 Eulji-ro, Jung District, Seoul, South Korea",
+      "geometry": {
+        "location": {
+          "lat": 37.5653,
+          "lng": 126.980979
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.5666489802915,
+            "lng": 126.9823279802915
+          },
+          "southwest": {
+            "lat": 37.56395101970851,
+            "lng": 126.9796300197085
+          }
+        }
+      },
+      "name": "LOTTE HOTEL SEOUL",
+      "place_id": "ChIJ92BD_-2ifDURWdfj5R8TWjs",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.lottehotel.com/seoul-hotel/en"
     }
   }
 }
