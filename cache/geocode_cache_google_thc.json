@@ -156222,5 +156222,50 @@
       ],
       "website": "https://www.lottehotel.com/seoul-hotel/en"
     }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Signia by Hilton Amman\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Signia by Hilton Amman\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Signia by Hilton Amman\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Signia by Hilton Amman Signia by Hilton Hotel\", \"Signia by Hilton Amman Signia by Hilton Resort\", \"Signia by Hilton Amman Signia by Hilton\", \"Signia by Hilton Amman Signia by Hilton Amman, Jordan Hotel\", \"Signia by Hilton Amman Signia by Hilton Amman, Jordan Resort\", \"Signia by Hilton Amman Signia by Hilton Amman, Jordan\", \"Signia by Hilton Amman Hilton Hotel\", \"Signia by Hilton Amman Hilton Resort\", \"Signia by Hilton Amman Hilton\", \"Signia by Hilton Amman Hilton Amman, Jordan Hotel\", \"Signia by Hilton Amman Hilton Amman, Jordan Resort\", \"Signia by Hilton Amman Hilton Amman, Jordan\", \"Signia Hilton Amman Signia by Hilton Hotel\", \"Signia Hilton Amman Signia by Hilton Resort\", \"Signia Hilton Amman Signia by Hilton\", \"Signia Hilton Amman Signia by Hilton Amman, Jordan Hotel\", \"Signia Hilton Amman Signia by Hilton Amman, Jordan Resort\", \"Signia Hilton Amman Signia by Hilton Amman, Jordan\", \"Signia Hilton Amman Hilton Hotel\", \"Signia Hilton Amman Hilton Resort\", \"Signia Hilton Amman Hilton\", \"Signia Hilton Amman Hilton Amman, Jordan Hotel\", \"Signia Hilton Amman Hilton Amman, Jordan Resort\", \"Signia Hilton Amman Hilton Amman, Jordan\", \"Signia by Hilton Amman Hotel\", \"Signia by Hilton Amman Resort\", \"Signia by Hilton Amman\", \"Signia by Hilton Amman Amman, Jordan Hotel\", \"Signia by Hilton Amman Amman, Jordan Resort\", \"Signia by Hilton Amman Amman, Jordan\"], \"v\": 3}": {
+    "lat": 31.96856619999999,
+    "lon": 35.8977416,
+    "formatted_address": "XV9X+945, Al Qadi Ayad, Amman, Jordan",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJySkEYWmgHBUR-0pbWOb79ao",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "XV9X+945, Al Qadi Ayad, Amman, Jordan",
+      "geometry": {
+        "location": {
+          "lat": 31.96856619999999,
+          "lng": 35.8977416
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 31.9699224302915,
+            "lng": 35.8990897302915
+          },
+          "southwest": {
+            "lat": 31.9672244697085,
+            "lng": 35.8963917697085
+          }
+        }
+      },
+      "name": "Signia by Hilton Amman",
+      "place_id": "ChIJySkEYWmgHBUR-0pbWOb79ao",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/ammhasa-signia-amman/?SEO_id=GMB-EMEA-SA-AMMHASA"
+    }
   }
 }
