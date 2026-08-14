@@ -211256,5 +211256,47 @@
       ],
       "website": "https://www.sanahotels.com/pt/hotel/mythic-sana-downtown-suites/"
     }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Jumeirah Olhahali Island Maldives\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Jumeirah Olhahali Island Maldives Jumeirah Hotels & Resorts Hotel\", \"Jumeirah Olhahali Island Maldives Jumeirah Hotels & Resorts Resort\", \"Jumeirah Olhahali Island Maldives Jumeirah Hotels & Resorts\", \"Jumeirah Olhahali Island Maldives Jumeirah Hotels & Resorts Mal\\u00e9, Maldives Hotel\", \"Jumeirah Olhahali Island Maldives Jumeirah Hotels & Resorts Mal\\u00e9, Maldives Resort\", \"Jumeirah Olhahali Island Maldives Jumeirah Hotels & Resorts Mal\\u00e9, Maldives\", \"Jumeirah Olhahali Island Maldives Hilton Hotel\", \"Jumeirah Olhahali Island Maldives Hilton Resort\", \"Jumeirah Olhahali Island Maldives Hilton\", \"Jumeirah Olhahali Island Maldives Hilton Mal\\u00e9, Maldives Hotel\", \"Jumeirah Olhahali Island Maldives Hilton Mal\\u00e9, Maldives Resort\", \"Jumeirah Olhahali Island Maldives Hilton Mal\\u00e9, Maldives\", \"Jumeirah Olhahali Island Maldives Hotel\", \"Jumeirah Olhahali Island Maldives Resort\", \"Jumeirah Olhahali Island Maldives\", \"Jumeirah Olhahali Island Maldives Mal\\u00e9, Maldives Hotel\", \"Jumeirah Olhahali Island Maldives Mal\\u00e9, Maldives Resort\", \"Jumeirah Olhahali Island Maldives Mal\\u00e9, Maldives\"], \"v\": 3}": {
+    "lat": 4.689454,
+    "lon": 73.45135239999999,
+    "formatted_address": "Olhuhali, North Male Atoll Maldives, 00000, Maldives",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJyZVXxQkJQDsR2GOMtwqz-bs",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Olhuhali, North Male Atoll Maldives, 00000, Maldives",
+      "geometry": {
+        "location": {
+          "lat": 4.689454,
+          "lng": 73.45135239999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 4.690802980291502,
+            "lng": 73.4527013802915
+          },
+          "southwest": {
+            "lat": 4.688105019708498,
+            "lng": 73.45000341970848
+          }
+        }
+      },
+      "name": "Jumeirah Olhahali Island",
+      "place_id": "ChIJyZVXxQkJQDsR2GOMtwqz-bs",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.jumeirah.com/en/stay/maldives/jumeirah-maldives?utm_source=google&utm_medium=google%20places&utm_campaign=hotel"
+    }
   }
 }

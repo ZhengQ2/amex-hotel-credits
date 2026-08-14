@@ -156267,5 +156267,135 @@
       ],
       "website": "https://www.hilton.com/en/hotels/ammhasa-signia-amman/?SEO_id=GMB-EMEA-SA-AMMHASA"
     }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection Preferred Hotels & Resorts Hotel\", \"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection Preferred Hotels & Resorts Resort\", \"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection Preferred Hotels & Resorts\", \"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection Preferred Hotels & Resorts D\\u00fcsseldorf, Germany Hotel\", \"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection Preferred Hotels & Resorts D\\u00fcsseldorf, Germany Resort\", \"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection Preferred Hotels & Resorts D\\u00fcsseldorf, Germany\", \"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection Hilton Hotel\", \"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection Hilton Resort\", \"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection Hilton\", \"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection Hilton D\\u00fcsseldorf, Germany Hotel\", \"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection Hilton D\\u00fcsseldorf, Germany Resort\", \"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection Hilton D\\u00fcsseldorf, Germany\", \"Hotel Ko59 Dusseldorf Member Of Hommage Luxury Hotels Collection Preferred Hotels & Resorts Hotel\", \"Hotel Ko59 Dusseldorf Member Of Hommage Luxury Hotels Collection Preferred Hotels & Resorts Resort\", \"Hotel Ko59 Dusseldorf Member Of Hommage Luxury Hotels Collection Preferred Hotels & Resorts\", \"Hotel Ko59 Dusseldorf Member Of Hommage Luxury Hotels Collection Preferred Hotels & Resorts D\\u00fcsseldorf, Germany Hotel\", \"Hotel Ko59 Dusseldorf Member Of Hommage Luxury Hotels Collection Preferred Hotels & Resorts D\\u00fcsseldorf, Germany Resort\", \"Hotel Ko59 Dusseldorf Member Of Hommage Luxury Hotels Collection Preferred Hotels & Resorts D\\u00fcsseldorf, Germany\", \"Hotel Ko59 Dusseldorf Member Of Hommage Luxury Hotels Collection Hilton Hotel\", \"Hotel Ko59 Dusseldorf Member Of Hommage Luxury Hotels Collection Hilton Resort\", \"Hotel Ko59 Dusseldorf Member Of Hommage Luxury Hotels Collection Hilton\", \"Hotel Ko59 Dusseldorf Member Of Hommage Luxury Hotels Collection Hilton D\\u00fcsseldorf, Germany Hotel\", \"Hotel Ko59 Dusseldorf Member Of Hommage Luxury Hotels Collection Hilton D\\u00fcsseldorf, Germany Resort\", \"Hotel Ko59 Dusseldorf Member Of Hommage Luxury Hotels Collection Hilton D\\u00fcsseldorf, Germany\", \"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection Hotel\", \"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection Resort\", \"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection\", \"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection D\\u00fcsseldorf, Germany Hotel\", \"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection D\\u00fcsseldorf, Germany Resort\", \"Hotel K\\u00f659 D\\u00fcsseldorf - Member of Hommage Luxury Hotels Collection D\\u00fcsseldorf, Germany\"], \"v\": 3}": {
+    "lat": 51.2205117,
+    "lon": 6.7781539,
+    "formatted_address": "Königsallee 59, 40215 Düsseldorf, Germany",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJCfSqsD3KuEcRJAUc1lFveXs",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Königsallee 59, 40215 Düsseldorf, Germany",
+      "geometry": {
+        "location": {
+          "lat": 51.2205117,
+          "lng": 6.7781539
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.2219139302915,
+            "lng": 6.779599930291502
+          },
+          "southwest": {
+            "lat": 51.21921596970851,
+            "lng": 6.776901969708497
+          }
+        }
+      },
+      "name": "Hotel Kö59 Düsseldorf - Member of Hommage",
+      "place_id": "ChIJCfSqsD3KuEcRJAUc1lFveXs",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hommage-hotels.com/hotel-koe59-duesseldorf/unser-hotel"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Tides Inn\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Tides Inn Preferred Hotels & Resorts Hotel\", \"The Tides Inn Preferred Hotels & Resorts Resort\", \"The Tides Inn Preferred Hotels & Resorts\", \"The Tides Inn Preferred Hotels & Resorts Irvington, Virginia US Hotel\", \"The Tides Inn Preferred Hotels & Resorts Irvington, Virginia US Resort\", \"The Tides Inn Preferred Hotels & Resorts Irvington, Virginia US\", \"The Tides Inn Hilton Hotel\", \"The Tides Inn Hilton Resort\", \"The Tides Inn Hilton\", \"The Tides Inn Hilton Irvington, Virginia US Hotel\", \"The Tides Inn Hilton Irvington, Virginia US Resort\", \"The Tides Inn Hilton Irvington, Virginia US\", \"The Tides Inn Hotel\", \"The Tides Inn Resort\", \"The Tides Inn\", \"The Tides Inn Irvington, Virginia US Hotel\", \"The Tides Inn Irvington, Virginia US Resort\", \"The Tides Inn Irvington, Virginia US\"], \"v\": 3}": {
+    "lat": 37.6642703,
+    "lon": -76.4325822,
+    "formatted_address": "480 King Carter Dr, Irvington, VA 22480, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJK9M7JkkIuokRY2lb8ttPd3E",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "480 King Carter Dr, Irvington, VA 22480, USA",
+      "geometry": {
+        "location": {
+          "lat": 37.6642703,
+          "lng": -76.4325822
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.6656981802915,
+            "lng": -76.4311978697085
+          },
+          "southwest": {
+            "lat": 37.6630002197085,
+            "lng": -76.4338958302915
+          }
+        }
+      },
+      "name": "The Tides Inn",
+      "place_id": "ChIJK9M7JkkIuokRY2lb8ttPd3E",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://tidesinn.com/?utm_source=local&utm_medium=organic&utm_campaign=website_link"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Schweizerhof Zurich\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Schweizerhof Zurich Preferred Hotels & Resorts Hotel\", \"Hotel Schweizerhof Zurich Preferred Hotels & Resorts Resort\", \"Hotel Schweizerhof Zurich Preferred Hotels & Resorts\", \"Hotel Schweizerhof Zurich Preferred Hotels & Resorts Zurich, Switzerland Hotel\", \"Hotel Schweizerhof Zurich Preferred Hotels & Resorts Zurich, Switzerland Resort\", \"Hotel Schweizerhof Zurich Preferred Hotels & Resorts Zurich, Switzerland\", \"Hotel Schweizerhof Zurich Hilton Hotel\", \"Hotel Schweizerhof Zurich Hilton Resort\", \"Hotel Schweizerhof Zurich Hilton\", \"Hotel Schweizerhof Zurich Hilton Zurich, Switzerland Hotel\", \"Hotel Schweizerhof Zurich Hilton Zurich, Switzerland Resort\", \"Hotel Schweizerhof Zurich Hilton Zurich, Switzerland\", \"Hotel Schweizerhof Zurich Hotel\", \"Hotel Schweizerhof Zurich Resort\", \"Hotel Schweizerhof Zurich\", \"Hotel Schweizerhof Zurich Zurich, Switzerland Hotel\", \"Hotel Schweizerhof Zurich Zurich, Switzerland Resort\", \"Hotel Schweizerhof Zurich Zurich, Switzerland\"], \"v\": 3}": {
+    "lat": 47.3769444,
+    "lon": 8.539444399999999,
+    "formatted_address": "Bahnhofplatz 7, 8001 Zürich, Switzerland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJq2UJnAgKkEcRpogMbETPEI4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Bahnhofplatz 7, 8001 Zürich, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.3769444,
+          "lng": 8.539444399999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.37836103029149,
+            "lng": 8.540811130291504
+          },
+          "southwest": {
+            "lat": 47.37566306970849,
+            "lng": 8.538113169708499
+          }
+        }
+      },
+      "name": "Hotel Schweizerhof Zürich",
+      "place_id": "ChIJq2UJnAgKkEcRpogMbETPEI4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hotelschweizerhof.com/"
+    }
   }
 }
