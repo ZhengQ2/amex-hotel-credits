@@ -211298,5 +211298,49 @@
       ],
       "website": "https://www.jumeirah.com/en/stay/maldives/jumeirah-maldives?utm_source=google&utm_medium=google%20places&utm_campaign=hotel"
     }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Four Seasons Resort Dubai at Jumeirah Beach\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Four Seasons Resort Dubai at Jumeirah Beach Four Seasons Hotels and Resorts Hotel\", \"Four Seasons Resort Dubai at Jumeirah Beach Four Seasons Hotels and Resorts Resort\", \"Four Seasons Resort Dubai at Jumeirah Beach Four Seasons Hotels and Resorts\", \"Four Seasons Resort Dubai at Jumeirah Beach Four Seasons Hotels and Resorts Dubai, United Arab Emirates Hotel\", \"Four Seasons Resort Dubai at Jumeirah Beach Four Seasons Hotels and Resorts Dubai, United Arab Emirates Resort\", \"Four Seasons Resort Dubai at Jumeirah Beach Four Seasons Hotels and Resorts Dubai, United Arab Emirates\", \"Four Seasons Resort Dubai at Jumeirah Beach Hilton Hotel\", \"Four Seasons Resort Dubai at Jumeirah Beach Hilton Resort\", \"Four Seasons Resort Dubai at Jumeirah Beach Hilton\", \"Four Seasons Resort Dubai at Jumeirah Beach Hilton Dubai, United Arab Emirates Hotel\", \"Four Seasons Resort Dubai at Jumeirah Beach Hilton Dubai, United Arab Emirates Resort\", \"Four Seasons Resort Dubai at Jumeirah Beach Hilton Dubai, United Arab Emirates\", \"Four Seasons Resort Dubai Jumeirah Beach Four Seasons Hotels and Resorts Hotel\", \"Four Seasons Resort Dubai Jumeirah Beach Four Seasons Hotels and Resorts Resort\", \"Four Seasons Resort Dubai Jumeirah Beach Four Seasons Hotels and Resorts\", \"Four Seasons Resort Dubai Jumeirah Beach Four Seasons Hotels and Resorts Dubai, United Arab Emirates Hotel\", \"Four Seasons Resort Dubai Jumeirah Beach Four Seasons Hotels and Resorts Dubai, United Arab Emirates Resort\", \"Four Seasons Resort Dubai Jumeirah Beach Four Seasons Hotels and Resorts Dubai, United Arab Emirates\", \"Four Seasons Resort Dubai Jumeirah Beach Hilton Hotel\", \"Four Seasons Resort Dubai Jumeirah Beach Hilton Resort\", \"Four Seasons Resort Dubai Jumeirah Beach Hilton\", \"Four Seasons Resort Dubai Jumeirah Beach Hilton Dubai, United Arab Emirates Hotel\", \"Four Seasons Resort Dubai Jumeirah Beach Hilton Dubai, United Arab Emirates Resort\", \"Four Seasons Resort Dubai Jumeirah Beach Hilton Dubai, United Arab Emirates\", \"Four Seasons Resort Dubai at Jumeirah Beach Hotel\", \"Four Seasons Resort Dubai at Jumeirah Beach Resort\", \"Four Seasons Resort Dubai at Jumeirah Beach\", \"Four Seasons Resort Dubai at Jumeirah Beach Dubai, United Arab Emirates Hotel\", \"Four Seasons Resort Dubai at Jumeirah Beach Dubai, United Arab Emirates Resort\", \"Four Seasons Resort Dubai at Jumeirah Beach Dubai, United Arab Emirates\"], \"v\": 3}": {
+    "lat": 25.2023141,
+    "lon": 55.2402131,
+    "formatted_address": "Jumeira St - Jumeirah - Jumeirah 2 - Dubai - United Arab Emirates",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJW4eo-VFCXz4RieFckb95Wqo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Jumeira St - Jumeirah - Jumeirah 2 - Dubai - United Arab Emirates",
+      "geometry": {
+        "location": {
+          "lat": 25.2023141,
+          "lng": 55.2402131
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.2035087802915,
+            "lng": 55.2413863302915
+          },
+          "southwest": {
+            "lat": 25.2008108197085,
+            "lng": 55.2386883697085
+          }
+        }
+      },
+      "name": "Four Seasons Resort Dubai at Jumeirah Beach",
+      "place_id": "ChIJW4eo-VFCXz4RieFckb95Wqo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.fourseasons.com/dubaijb/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-bal-hre-mid-seo-na&utm_content=na-na&utm_term=na"
+    }
   }
 }

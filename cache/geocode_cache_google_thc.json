@@ -156397,5 +156397,48 @@
       ],
       "website": "https://www.hotelschweizerhof.com/"
     }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection Meli\\u00e1 Hotels & Resorts Hotel\", \"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection Meli\\u00e1 Hotels & Resorts Resort\", \"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection Meli\\u00e1 Hotels & Resorts\", \"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection Meli\\u00e1 Hotels & Resorts Puigpunyent, Spain Hotel\", \"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection Meli\\u00e1 Hotels & Resorts Puigpunyent, Spain Resort\", \"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection Meli\\u00e1 Hotels & Resorts Puigpunyent, Spain\", \"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection Hilton Hotel\", \"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection Hilton Resort\", \"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection Hilton\", \"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection Hilton Puigpunyent, Spain Hotel\", \"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection Hilton Puigpunyent, Spain Resort\", \"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection Hilton Puigpunyent, Spain\", \"Finca Ratxo Hotel Melia Collection Meli\\u00e1 Hotels & Resorts Hotel\", \"Finca Ratxo Hotel Melia Collection Meli\\u00e1 Hotels & Resorts Resort\", \"Finca Ratxo Hotel Melia Collection Meli\\u00e1 Hotels & Resorts\", \"Finca Ratxo Hotel Melia Collection Meli\\u00e1 Hotels & Resorts Puigpunyent, Spain Hotel\", \"Finca Ratxo Hotel Melia Collection Meli\\u00e1 Hotels & Resorts Puigpunyent, Spain Resort\", \"Finca Ratxo Hotel Melia Collection Meli\\u00e1 Hotels & Resorts Puigpunyent, Spain\", \"Finca Ratxo Hotel Melia Collection Hilton Hotel\", \"Finca Ratxo Hotel Melia Collection Hilton Resort\", \"Finca Ratxo Hotel Melia Collection Hilton\", \"Finca Ratxo Hotel Melia Collection Hilton Puigpunyent, Spain Hotel\", \"Finca Ratxo Hotel Melia Collection Hilton Puigpunyent, Spain Resort\", \"Finca Ratxo Hotel Melia Collection Hilton Puigpunyent, Spain\", \"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection Hotel\", \"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection Resort\", \"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection\", \"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection Puigpunyent, Spain Hotel\", \"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection Puigpunyent, Spain Resort\", \"Finca Ratx\\u00f3 Hotel Meli\\u00e1 Collection Puigpunyent, Spain\"], \"v\": 3}": {
+    "lat": 39.615358,
+    "lon": 2.49147,
+    "formatted_address": "Cami Son Net, 07194 Puigpunyent, Illes Balears, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJvZNCE3KLlxIRgpzUgVt-KI0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Cami Son Net, 07194 Puigpunyent, Illes Balears, Spain",
+      "geometry": {
+        "location": {
+          "lat": 39.615358,
+          "lng": 2.49147
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.6166322302915,
+            "lng": 2.493105580291502
+          },
+          "southwest": {
+            "lat": 39.6139342697085,
+            "lng": 2.490407619708498
+          }
+        }
+      },
+      "name": "Finca Ratxó Hotel, member of Meliá Collection",
+      "place_id": "ChIJvZNCE3KLlxIRgpzUgVt-KI0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.melia.com/en/hotels/spain/majorca/ratxo-retreat-hotel-melia-collection?utm_campaign=google&utm_content=0999&utm_medium=organic&utm_source=directories"
+    }
   }
 }
