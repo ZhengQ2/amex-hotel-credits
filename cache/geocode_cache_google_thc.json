@@ -156440,5 +156440,48 @@
       ],
       "website": "https://www.melia.com/en/hotels/spain/majorca/ratxo-retreat-hotel-melia-collection?utm_campaign=google&utm_content=0999&utm_medium=organic&utm_source=directories"
     }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Canopy by Hilton Izmir Bomonti\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Izmir Bomonti\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Izmir Bomonti\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Izmir Bomonti Canopy by Hilton Hotel\", \"Canopy by Hilton Izmir Bomonti Canopy by Hilton Resort\", \"Canopy by Hilton Izmir Bomonti Canopy by Hilton\", \"Canopy by Hilton Izmir Bomonti Canopy by Hilton \\u0130zmir, Turkey Hotel\", \"Canopy by Hilton Izmir Bomonti Canopy by Hilton \\u0130zmir, Turkey Resort\", \"Canopy by Hilton Izmir Bomonti Canopy by Hilton \\u0130zmir, Turkey\", \"Canopy by Hilton Izmir Bomonti Hilton Hotel\", \"Canopy by Hilton Izmir Bomonti Hilton Resort\", \"Canopy by Hilton Izmir Bomonti Hilton\", \"Canopy by Hilton Izmir Bomonti Hilton \\u0130zmir, Turkey Hotel\", \"Canopy by Hilton Izmir Bomonti Hilton \\u0130zmir, Turkey Resort\", \"Canopy by Hilton Izmir Bomonti Hilton \\u0130zmir, Turkey\", \"Canopy Hilton Izmir Bomonti Canopy by Hilton Hotel\", \"Canopy Hilton Izmir Bomonti Canopy by Hilton Resort\", \"Canopy Hilton Izmir Bomonti Canopy by Hilton\", \"Canopy Hilton Izmir Bomonti Canopy by Hilton \\u0130zmir, Turkey Hotel\", \"Canopy Hilton Izmir Bomonti Canopy by Hilton \\u0130zmir, Turkey Resort\", \"Canopy Hilton Izmir Bomonti Canopy by Hilton \\u0130zmir, Turkey\", \"Canopy Hilton Izmir Bomonti Hilton Hotel\", \"Canopy Hilton Izmir Bomonti Hilton Resort\", \"Canopy Hilton Izmir Bomonti Hilton\", \"Canopy Hilton Izmir Bomonti Hilton \\u0130zmir, Turkey Hotel\", \"Canopy Hilton Izmir Bomonti Hilton \\u0130zmir, Turkey Resort\", \"Canopy Hilton Izmir Bomonti Hilton \\u0130zmir, Turkey\", \"Canopy by Hilton Izmir Bomonti Hotel\", \"Canopy by Hilton Izmir Bomonti Resort\", \"Canopy by Hilton Izmir Bomonti\", \"Canopy by Hilton Izmir Bomonti \\u0130zmir, Turkey Hotel\", \"Canopy by Hilton Izmir Bomonti \\u0130zmir, Turkey Resort\", \"Canopy by Hilton Izmir Bomonti \\u0130zmir, Turkey\"], \"v\": 3}": {
+    "lat": 38.4346246,
+    "lon": 27.1638896,
+    "formatted_address": "Halkapınar, Mürselpaşa Blv. No:172, 35170 Konak/İzmir, Türkiye",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ4VaES2HZuxQRykdJdWsLZ9s",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Halkapınar, Mürselpaşa Blv. No:172, 35170 Konak/İzmir, Türkiye",
+      "geometry": {
+        "location": {
+          "lat": 38.4346246,
+          "lng": 27.1638896
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.4361016802915,
+            "lng": 27.1652257302915
+          },
+          "southwest": {
+            "lat": 38.4334037197085,
+            "lng": 27.1625277697085
+          }
+        }
+      },
+      "name": "Canopy by Hilton Izmir Bomonti",
+      "place_id": "ChIJ4VaES2HZuxQRykdJdWsLZ9s",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/izmirpy-canopy-izmir-bomonti/?SEO_id=GMB-EMEA-PY-IZMIRPY"
+    }
   }
 }
