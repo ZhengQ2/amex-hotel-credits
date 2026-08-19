@@ -41367,54 +41367,6 @@
       "website": "https://www.pendry.com/washington-dc/"
     }
   },
-  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Salamander Washington Dc Preferred Hotels & Resorts Hotel\", \"Salamander Washington Dc Preferred Hotels & Resorts Resort\", \"Salamander Washington Dc Preferred Hotels & Resorts\", \"Salamander Washington Dc Preferred Hotels & Resorts Washington, District of Columbia US Hotel\", \"Salamander Washington Dc Preferred Hotels & Resorts Washington, District of Columbia US Resort\", \"Salamander Washington Dc Preferred Hotels & Resorts Washington, District of Columbia US\", \"Salamander Washington Dc Hilton Hotel\", \"Salamander Washington Dc Hilton Resort\", \"Salamander Washington Dc Hilton\", \"Salamander Washington Dc Hilton Washington, District of Columbia US Hotel\", \"Salamander Washington Dc Hilton Washington, District of Columbia US Resort\", \"Salamander Washington Dc Hilton Washington, District of Columbia US\", \"Salamander Washington DC Preferred Hotels & Resorts Hotel\", \"Salamander Washington DC Preferred Hotels & Resorts Resort\", \"Salamander Washington DC Preferred Hotels & Resorts\", \"Salamander Washington DC Preferred Hotels & Resorts Washington, District of Columbia US Hotel\", \"Salamander Washington DC Preferred Hotels & Resorts Washington, District of Columbia US Resort\", \"Salamander Washington DC Preferred Hotels & Resorts Washington, District of Columbia US\", \"Salamander Washington DC Hilton Hotel\", \"Salamander Washington DC Hilton Resort\", \"Salamander Washington DC Hilton\", \"Salamander Washington DC Hilton Washington, District of Columbia US Hotel\", \"Salamander Washington DC Hilton Washington, District of Columbia US Resort\", \"Salamander Washington DC Hilton Washington, District of Columbia US\", \"Salamander Washington DC Hotel\", \"Salamander Washington DC Resort\", \"Salamander Washington DC\", \"Salamander Washington DC Washington, District of Columbia US Hotel\", \"Salamander Washington DC Washington, District of Columbia US Resort\", \"Salamander Washington DC Washington, District of Columbia US\"], \"v\": 3}": {
-    "lat": 38.8837381,
-    "lon": -77.03009879999999,
-    "formatted_address": "1330 Maryland Ave SW, Washington, DC 20024, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJP6jnCXW3t4kRTKMVLFOpK6o",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "1330 Maryland Ave SW, Washington, DC 20024, USA",
-      "geometry": {
-        "location": {
-          "lat": 38.8837381,
-          "lng": -77.03009879999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 38.88511853029149,
-            "lng": -77.02880111970849
-          },
-          "southwest": {
-            "lat": 38.88242056970849,
-            "lng": -77.0314990802915
-          }
-        }
-      },
-      "name": "Salamander Washington DC",
-      "place_id": "ChIJP6jnCXW3t4kRTKMVLFOpK6o",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://www.salamanderdc.com/?utm_source=google&utm_medium=listing&utm_campaign=google-business-profile"
-    }
-  },
   "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Sun Rose Preferred Hotels & Resorts Hotel\", \"The Sun Rose Preferred Hotels & Resorts Resort\", \"The Sun Rose Preferred Hotels & Resorts\", \"The Sun Rose Preferred Hotels & Resorts West Hollywood, California US Hotel\", \"The Sun Rose Preferred Hotels & Resorts West Hollywood, California US Resort\", \"The Sun Rose Preferred Hotels & Resorts West Hollywood, California US\", \"The Sun Rose Hilton Hotel\", \"The Sun Rose Hilton Resort\", \"The Sun Rose Hilton\", \"The Sun Rose Hilton West Hollywood, California US Hotel\", \"The Sun Rose Hilton West Hollywood, California US Resort\", \"The Sun Rose Hilton West Hollywood, California US\", \"The Sun Rose Hotel\", \"The Sun Rose Resort\", \"The Sun Rose\", \"The Sun Rose West Hollywood, California US Hotel\", \"The Sun Rose West Hollywood, California US Resort\", \"The Sun Rose West Hollywood, California US\"], \"v\": 3}": {
     "lat": 34.094859,
     "lon": -118.3734168,
@@ -99562,54 +99514,6 @@
         "point_of_interest"
       ],
       "website": "https://www.pendry.com/washington-dc/"
-    }
-  },
-  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Salamander Washington DC Preferred Hotels & Resorts Hotel\", \"Salamander Washington DC Preferred Hotels & Resorts Resort\", \"Salamander Washington DC Preferred Hotels & Resorts\", \"Salamander Washington DC Preferred Hotels & Resorts Washington, District of Columbia US Hotel\", \"Salamander Washington DC Preferred Hotels & Resorts Washington, District of Columbia US Resort\", \"Salamander Washington DC Preferred Hotels & Resorts Washington, District of Columbia US\", \"Salamander Washington DC Hilton Hotel\", \"Salamander Washington DC Hilton Resort\", \"Salamander Washington DC Hilton\", \"Salamander Washington DC Hilton Washington, District of Columbia US Hotel\", \"Salamander Washington DC Hilton Washington, District of Columbia US Resort\", \"Salamander Washington DC Hilton Washington, District of Columbia US\", \"Salamander Washington Dc Preferred Hotels & Resorts Hotel\", \"Salamander Washington Dc Preferred Hotels & Resorts Resort\", \"Salamander Washington Dc Preferred Hotels & Resorts\", \"Salamander Washington Dc Preferred Hotels & Resorts Washington, District of Columbia US Hotel\", \"Salamander Washington Dc Preferred Hotels & Resorts Washington, District of Columbia US Resort\", \"Salamander Washington Dc Preferred Hotels & Resorts Washington, District of Columbia US\", \"Salamander Washington Dc Hilton Hotel\", \"Salamander Washington Dc Hilton Resort\", \"Salamander Washington Dc Hilton\", \"Salamander Washington Dc Hilton Washington, District of Columbia US Hotel\", \"Salamander Washington Dc Hilton Washington, District of Columbia US Resort\", \"Salamander Washington Dc Hilton Washington, District of Columbia US\", \"Salamander Washington DC Hotel\", \"Salamander Washington DC Resort\", \"Salamander Washington DC\", \"Salamander Washington DC Washington, District of Columbia US Hotel\", \"Salamander Washington DC Washington, District of Columbia US Resort\", \"Salamander Washington DC Washington, District of Columbia US\"], \"v\": 3}": {
-    "lat": 38.8837381,
-    "lon": -77.03009879999999,
-    "formatted_address": "1330 Maryland Ave SW, Washington, DC 20024, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJP6jnCXW3t4kRTKMVLFOpK6o",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "1330 Maryland Ave SW, Washington, DC 20024, USA",
-      "geometry": {
-        "location": {
-          "lat": 38.8837381,
-          "lng": -77.03009879999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 38.88511853029149,
-            "lng": -77.02880111970849
-          },
-          "southwest": {
-            "lat": 38.88242056970849,
-            "lng": -77.0314990802915
-          }
-        }
-      },
-      "name": "Salamander Washington DC",
-      "place_id": "ChIJP6jnCXW3t4kRTKMVLFOpK6o",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://www.salamanderdc.com/?utm_source=google&utm_medium=listing&utm_campaign=google-business-profile"
     }
   },
   "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Woodstock Inn & Resort Preferred Hotels & Resorts Hotel\", \"Woodstock Inn & Resort Preferred Hotels & Resorts Resort\", \"Woodstock Inn & Resort Preferred Hotels & Resorts\", \"Woodstock Inn & Resort Preferred Hotels & Resorts Woodstock, Vermont US Hotel\", \"Woodstock Inn & Resort Preferred Hotels & Resorts Woodstock, Vermont US Resort\", \"Woodstock Inn & Resort Preferred Hotels & Resorts Woodstock, Vermont US\", \"Woodstock Inn & Resort Hilton Hotel\", \"Woodstock Inn & Resort Hilton Resort\", \"Woodstock Inn & Resort Hilton\", \"Woodstock Inn & Resort Hilton Woodstock, Vermont US Hotel\", \"Woodstock Inn & Resort Hilton Woodstock, Vermont US Resort\", \"Woodstock Inn & Resort Hilton Woodstock, Vermont US\", \"Woodstock Inn Resort Preferred Hotels & Resorts Hotel\", \"Woodstock Inn Resort Preferred Hotels & Resorts Resort\", \"Woodstock Inn Resort Preferred Hotels & Resorts\", \"Woodstock Inn Resort Preferred Hotels & Resorts Woodstock, Vermont US Hotel\", \"Woodstock Inn Resort Preferred Hotels & Resorts Woodstock, Vermont US Resort\", \"Woodstock Inn Resort Preferred Hotels & Resorts Woodstock, Vermont US\", \"Woodstock Inn Resort Hilton Hotel\", \"Woodstock Inn Resort Hilton Resort\", \"Woodstock Inn Resort Hilton\", \"Woodstock Inn Resort Hilton Woodstock, Vermont US Hotel\", \"Woodstock Inn Resort Hilton Woodstock, Vermont US Resort\", \"Woodstock Inn Resort Hilton Woodstock, Vermont US\", \"Woodstock Inn & Resort Hotel\", \"Woodstock Inn & Resort Resort\", \"Woodstock Inn & Resort\", \"Woodstock Inn & Resort Woodstock, Vermont US Hotel\", \"Woodstock Inn & Resort Woodstock, Vermont US Resort\", \"Woodstock Inn & Resort Woodstock, Vermont US\"], \"v\": 3}": {
@@ -168341,54 +168245,6 @@
       "website": "https://www.pendry.com/washington-dc/"
     }
   },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Salamander Washington DC\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Salamander Washington DC Preferred Hotels & Resorts Hotel\", \"Salamander Washington DC Preferred Hotels & Resorts Resort\", \"Salamander Washington DC Preferred Hotels & Resorts\", \"Salamander Washington DC Preferred Hotels & Resorts Washington, District of Columbia US Hotel\", \"Salamander Washington DC Preferred Hotels & Resorts Washington, District of Columbia US Resort\", \"Salamander Washington DC Preferred Hotels & Resorts Washington, District of Columbia US\", \"Salamander Washington DC Hilton Hotel\", \"Salamander Washington DC Hilton Resort\", \"Salamander Washington DC Hilton\", \"Salamander Washington DC Hilton Washington, District of Columbia US Hotel\", \"Salamander Washington DC Hilton Washington, District of Columbia US Resort\", \"Salamander Washington DC Hilton Washington, District of Columbia US\", \"Salamander Washington Dc Preferred Hotels & Resorts Hotel\", \"Salamander Washington Dc Preferred Hotels & Resorts Resort\", \"Salamander Washington Dc Preferred Hotels & Resorts\", \"Salamander Washington Dc Preferred Hotels & Resorts Washington, District of Columbia US Hotel\", \"Salamander Washington Dc Preferred Hotels & Resorts Washington, District of Columbia US Resort\", \"Salamander Washington Dc Preferred Hotels & Resorts Washington, District of Columbia US\", \"Salamander Washington Dc Hilton Hotel\", \"Salamander Washington Dc Hilton Resort\", \"Salamander Washington Dc Hilton\", \"Salamander Washington Dc Hilton Washington, District of Columbia US Hotel\", \"Salamander Washington Dc Hilton Washington, District of Columbia US Resort\", \"Salamander Washington Dc Hilton Washington, District of Columbia US\", \"Salamander Washington DC Hotel\", \"Salamander Washington DC Resort\", \"Salamander Washington DC\", \"Salamander Washington DC Washington, District of Columbia US Hotel\", \"Salamander Washington DC Washington, District of Columbia US Resort\", \"Salamander Washington DC Washington, District of Columbia US\"], \"v\": 3}": {
-    "lat": 38.8837381,
-    "lon": -77.03009879999999,
-    "formatted_address": "1330 Maryland Ave SW, Washington, DC 20024, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJP6jnCXW3t4kRTKMVLFOpK6o",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "1330 Maryland Ave SW, Washington, DC 20024, USA",
-      "geometry": {
-        "location": {
-          "lat": 38.8837381,
-          "lng": -77.03009879999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 38.88511853029149,
-            "lng": -77.02880111970849
-          },
-          "southwest": {
-            "lat": 38.88242056970849,
-            "lng": -77.0314990802915
-          }
-        }
-      },
-      "name": "Salamander Washington DC",
-      "place_id": "ChIJP6jnCXW3t4kRTKMVLFOpK6o",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://www.salamanderdc.com/?utm_source=google&utm_medium=listing&utm_campaign=google-business-profile"
-    }
-  },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Sun Rose\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Sun Rose Preferred Hotels & Resorts Hotel\", \"The Sun Rose Preferred Hotels & Resorts Resort\", \"The Sun Rose Preferred Hotels & Resorts\", \"The Sun Rose Preferred Hotels & Resorts West Hollywood, California US Hotel\", \"The Sun Rose Preferred Hotels & Resorts West Hollywood, California US Resort\", \"The Sun Rose Preferred Hotels & Resorts West Hollywood, California US\", \"The Sun Rose Hilton Hotel\", \"The Sun Rose Hilton Resort\", \"The Sun Rose Hilton\", \"The Sun Rose Hilton West Hollywood, California US Hotel\", \"The Sun Rose Hilton West Hollywood, California US Resort\", \"The Sun Rose Hilton West Hollywood, California US\", \"The Sun Rose Hotel\", \"The Sun Rose Resort\", \"The Sun Rose\", \"The Sun Rose West Hollywood, California US Hotel\", \"The Sun Rose West Hollywood, California US Resort\", \"The Sun Rose West Hollywood, California US\"], \"v\": 3}": {
     "lat": 34.094859,
     "lon": -118.3734168,
@@ -211341,6 +211197,49 @@
         "spa"
       ],
       "website": "https://www.fourseasons.com/dubaijb/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-bal-hre-mid-seo-na&utm_content=na-na&utm_term=na"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Amanvari\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amanvari\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Amanvari\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amanvari Aman Hotel\", \"Amanvari Aman Resort\", \"Amanvari Aman\", \"Amanvari Aman La Ribera, Baja California Sur MX Hotel\", \"Amanvari Aman La Ribera, Baja California Sur MX Resort\", \"Amanvari Aman La Ribera, Baja California Sur MX\", \"Amanvari Hilton Hotel\", \"Amanvari Hilton Resort\", \"Amanvari Hilton\", \"Amanvari Hilton La Ribera, Baja California Sur MX Hotel\", \"Amanvari Hilton La Ribera, Baja California Sur MX Resort\", \"Amanvari Hilton La Ribera, Baja California Sur MX\", \"Amanvari Hotel\", \"Amanvari Resort\", \"Amanvari\", \"Amanvari La Ribera, Baja California Sur MX Hotel\", \"Amanvari La Ribera, Baja California Sur MX Resort\", \"Amanvari La Ribera, Baja California Sur MX\"], \"v\": 3}": {
+    "lat": 23.6143301,
+    "lon": -109.6022102,
+    "formatted_address": "Eureka s/n esquina con Sta Maria la Ribera, 23570 East Cape, B.C.S., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ2yMdhTSBpYYRNAUn9UU0r0U",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Eureka s/n esquina con Sta Maria la Ribera, 23570 East Cape, B.C.S., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 23.6143301,
+          "lng": -109.6022102
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.61535928029151,
+            "lng": -109.6003823197085
+          },
+          "southwest": {
+            "lat": 23.6126613197085,
+            "lng": -109.6030802802915
+          }
+        }
+      },
+      "name": "Amanvari",
+      "place_id": "ChIJ2yMdhTSBpYYRNAUn9UU0r0U",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.aman.com/resorts/amanvari"
     }
   }
 }
