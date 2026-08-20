@@ -156483,5 +156483,59 @@
       ],
       "website": "https://www.hilton.com/en/hotels/izmirpy-canopy-izmir-bomonti/?SEO_id=GMB-EMEA-PY-IZMIRPY"
     }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Manapany\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Manapany Hotel\", \"Hotel Manapany Resort\", \"Hotel Manapany\", \"Hotel Manapany Gustavia, Saint Barthelemy Hotel\", \"Hotel Manapany Gustavia, Saint Barthelemy Resort\", \"Hotel Manapany Gustavia, Saint Barthelemy\"], \"v\": 3}": {
+    "lat": 17.9110541,
+    "lon": -62.84436899999999,
+    "formatted_address": "97133, St Barthélemy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJw2K2dEZ1DowRjcVJeth3Cyc",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "gym",
+      "health",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "97133, St Barthélemy",
+      "geometry": {
+        "location": {
+          "lat": 17.9110541,
+          "lng": -62.84436899999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 17.9123899302915,
+            "lng": -62.84310401970849
+          },
+          "southwest": {
+            "lat": 17.9096919697085,
+            "lng": -62.8458019802915
+          }
+        }
+      },
+      "name": "Hotel Manapany",
+      "place_id": "ChIJw2K2dEZ1DowRjcVJeth3Cyc",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "gym",
+        "health",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "http://www.hotelmanapany.com/"
+    }
   }
 }

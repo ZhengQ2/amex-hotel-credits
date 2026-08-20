@@ -211241,5 +211241,190 @@
       ],
       "website": "https://www.aman.com/resorts/amanvari"
     }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Palais Coburg\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Palais Coburg\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"The St. Regis London\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The St. Regis London\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Montauk Yacht Club\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Montauk Yacht Club Hotel\", \"Montauk Yacht Club Resort\", \"Montauk Yacht Club\", \"Montauk Yacht Club Montauk, New York US Hotel\", \"Montauk Yacht Club Montauk, New York US Resort\", \"Montauk Yacht Club Montauk, New York US\"], \"v\": 3}": {
+    "lat": 41.0691804,
+    "lon": -71.9325127,
+    "formatted_address": "32 Star Island Rd, Montauk, NY 11954, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ_afXehxV74kR-x2fhiGPvJo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "32 Star Island Rd, Montauk, NY 11954, USA",
+      "geometry": {
+        "location": {
+          "lat": 41.0691804,
+          "lng": -71.9325127
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.07078853029149,
+            "lng": -71.9318526197085
+          },
+          "southwest": {
+            "lat": 41.0680905697085,
+            "lng": -71.93455058029151
+          }
+        }
+      },
+      "name": "Montauk Yacht Club",
+      "place_id": "ChIJ_afXehxV74kR-x2fhiGPvJo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://montaukyachtclub.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The St. Regis London\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The St. Regis London St. Regis Hotel\", \"The St. Regis London St. Regis Resort\", \"The St. Regis London St. Regis\", \"The St. Regis London St. Regis London, England Hotel\", \"The St. Regis London St. Regis London, England Resort\", \"The St. Regis London St. Regis London, England\", \"The St. Regis London Hilton Hotel\", \"The St. Regis London Hilton Resort\", \"The St. Regis London Hilton\", \"The St. Regis London Hilton London, England Hotel\", \"The St. Regis London Hilton London, England Resort\", \"The St. Regis London Hilton London, England\", \"St Regis London St. Regis Hotel\", \"St Regis London St. Regis Resort\", \"St Regis London St. Regis\", \"St Regis London St. Regis London, England Hotel\", \"St Regis London St. Regis London, England Resort\", \"St Regis London St. Regis London, England\", \"St Regis London Hilton Hotel\", \"St Regis London Hilton Resort\", \"St Regis London Hilton\", \"St Regis London Hilton London, England Hotel\", \"St Regis London Hilton London, England Resort\", \"St Regis London Hilton London, England\", \"The St. Regis London Hotel\", \"The St. Regis London Resort\", \"The St. Regis London\", \"The St. Regis London London, England Hotel\", \"The St. Regis London London, England Resort\", \"The St. Regis London London, England\"], \"v\": 3}": {
+    "lat": 51.5113487,
+    "lon": -0.1425567,
+    "formatted_address": "37 Conduit St, London W1S 2YF, UK",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
+    "place_id": "ChIJf43M3J8FdkgRP3wLCYWlNNs",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": true,
+    "raw": {
+      "address_components": [
+        {
+          "long_name": "37",
+          "short_name": "37",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Conduit Street",
+          "short_name": "Conduit St",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "London",
+          "short_name": "London",
+          "types": [
+            "postal_town"
+          ]
+        },
+        {
+          "long_name": "Greater London",
+          "short_name": "Greater London",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "England",
+          "short_name": "England",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United Kingdom",
+          "short_name": "GB",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "W1S 2YF",
+          "short_name": "W1S 2YF",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "37 Conduit St, London W1S 2YF, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.5113487,
+          "lng": -0.1425567
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 51.51283103029149,
+            "lng": -0.141254269708498
+          },
+          "southwest": {
+            "lat": 51.51013306970849,
+            "lng": -0.143952230291502
+          }
+        }
+      },
+      "partial_match": true,
+      "place_id": "ChIJf43M3J8FdkgRP3wLCYWlNNs",
+      "plus_code": {
+        "compound_code": "GV64+GX London, UK",
+        "global_code": "9C3XGV64+GX"
+      },
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Palais Coburg\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Palais Coburg The Leading Hotels of the World Hotel\", \"Palais Coburg The Leading Hotels of the World Resort\", \"Palais Coburg The Leading Hotels of the World\", \"Palais Coburg The Leading Hotels of the World Vienna, Austria Hotel\", \"Palais Coburg The Leading Hotels of the World Vienna, Austria Resort\", \"Palais Coburg The Leading Hotels of the World Vienna, Austria\", \"Palais Coburg Hilton Hotel\", \"Palais Coburg Hilton Resort\", \"Palais Coburg Hilton\", \"Palais Coburg Hilton Vienna, Austria Hotel\", \"Palais Coburg Hilton Vienna, Austria Resort\", \"Palais Coburg Hilton Vienna, Austria\", \"Palais Coburg Hotel\", \"Palais Coburg Resort\", \"Palais Coburg\", \"Palais Coburg Vienna, Austria Hotel\", \"Palais Coburg Vienna, Austria Resort\", \"Palais Coburg Vienna, Austria\"], \"v\": 3}": {
+    "lat": 48.2056325,
+    "lon": 16.3767184,
+    "formatted_address": "Coburgbastei 4, 1010 Wien, Austria",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJMSPZIZ4HbUcRtTEF1FhMe0E",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Coburgbastei 4, 1010 Wien, Austria",
+      "geometry": {
+        "location": {
+          "lat": 48.2056325,
+          "lng": 16.3767184
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.2069530302915,
+            "lng": 16.3781824802915
+          },
+          "southwest": {
+            "lat": 48.2042550697085,
+            "lng": 16.37548451970849
+          }
+        }
+      },
+      "name": "Palais Coburg",
+      "place_id": "ChIJMSPZIZ4HbUcRtTEF1FhMe0E",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.palais-coburg.com/"
+    }
   }
 }
