@@ -76614,54 +76614,6 @@
       "website": "https://www.thesanderling.com/?utm_source=local-listings&utm_medium=organic&utm_campaign=local-listings"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Betsy South Beach Hotel\", \"Betsy South Beach Resort\", \"Betsy South Beach\", \"Betsy South Beach Miami Beach, Florida US Hotel\", \"Betsy South Beach Miami Beach, Florida US Resort\", \"Betsy South Beach Miami Beach, Florida US\", \"The Betsy South Beach Hotel\", \"The Betsy South Beach Resort\", \"The Betsy South Beach\", \"The Betsy South Beach Miami Beach, Florida US Hotel\", \"The Betsy South Beach Miami Beach, Florida US Resort\", \"The Betsy South Beach Miami Beach, Florida US\"], \"v\": 3}": {
-    "lat": 25.7865312,
-    "lon": -80.1297167,
-    "formatted_address": "1440 Ocean Dr, Miami Beach, FL 33139, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJq6rYZ5C02YgRRQQFwe0BnCM",
-    "types": [
-      "bar",
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "1440 Ocean Dr, Miami Beach, FL 33139, USA",
-      "geometry": {
-        "location": {
-          "lat": 25.7865312,
-          "lng": -80.1297167
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.7878571302915,
-            "lng": -80.1282873697085
-          },
-          "southwest": {
-            "lat": 25.7851591697085,
-            "lng": -80.13098533029151
-          }
-        }
-      },
-      "name": "The Betsy Hotel",
-      "place_id": "ChIJq6rYZ5C02YgRRQQFwe0BnCM",
-      "types": [
-        "bar",
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.thebetsyhotel.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Margaritaville Hotel Nashville Hotel\", \"Margaritaville Hotel Nashville Resort\", \"Margaritaville Hotel Nashville\", \"Margaritaville Hotel Nashville Nashville, Tennessee US Hotel\", \"Margaritaville Hotel Nashville Nashville, Tennessee US Resort\", \"Margaritaville Hotel Nashville Nashville, Tennessee US\"], \"v\": 3}": {
     "lat": 36.1556505,
     "lon": -86.7754733,
@@ -118561,54 +118513,6 @@
         "point_of_interest"
       ],
       "website": "https://www.marriott.com/en-us/hotels/bobwi-the-westin-bora-bora-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Betsy South Beach Hotel\", \"The Betsy South Beach Resort\", \"The Betsy South Beach\", \"The Betsy South Beach Miami Beach, Florida US Hotel\", \"The Betsy South Beach Miami Beach, Florida US Resort\", \"The Betsy South Beach Miami Beach, Florida US\", \"Betsy South Beach Hotel\", \"Betsy South Beach Resort\", \"Betsy South Beach\", \"Betsy South Beach Miami Beach, Florida US Hotel\", \"Betsy South Beach Miami Beach, Florida US Resort\", \"Betsy South Beach Miami Beach, Florida US\"], \"v\": 3}": {
-    "lat": 25.7865312,
-    "lon": -80.1297167,
-    "formatted_address": "1440 Ocean Dr, Miami Beach, FL 33139, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJq6rYZ5C02YgRRQQFwe0BnCM",
-    "types": [
-      "bar",
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "1440 Ocean Dr, Miami Beach, FL 33139, USA",
-      "geometry": {
-        "location": {
-          "lat": 25.7865312,
-          "lng": -80.1297167
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.7878571302915,
-            "lng": -80.1282873697085
-          },
-          "southwest": {
-            "lat": 25.7851591697085,
-            "lng": -80.13098533029151
-          }
-        }
-      },
-      "name": "The Betsy Hotel",
-      "place_id": "ChIJq6rYZ5C02YgRRQQFwe0BnCM",
-      "types": [
-        "bar",
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.thebetsyhotel.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
     }
   },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Metropole Hotel, Venice Hotel\", \"Metropole Hotel, Venice Resort\", \"Metropole Hotel, Venice\", \"Metropole Hotel, Venice Venice, Italy Hotel\", \"Metropole Hotel, Venice Venice, Italy Resort\", \"Metropole Hotel, Venice Venice, Italy\", \"Metropole Hotel Venice Hotel\", \"Metropole Hotel Venice Resort\", \"Metropole Hotel Venice\", \"Metropole Hotel Venice Venice, Italy Hotel\", \"Metropole Hotel Venice Venice, Italy Resort\", \"Metropole Hotel Venice Venice, Italy\"], \"v\": 3}": {
