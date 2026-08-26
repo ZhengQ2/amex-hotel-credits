@@ -211330,5 +211330,47 @@
       ],
       "website": "http://www.palais-coburg.com/"
     }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Sanchaya\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Sanchaya The Leading Hotels of the World Hotel\", \"The Sanchaya The Leading Hotels of the World Resort\", \"The Sanchaya The Leading Hotels of the World\", \"The Sanchaya The Leading Hotels of the World Bintan, Indonesia Hotel\", \"The Sanchaya The Leading Hotels of the World Bintan, Indonesia Resort\", \"The Sanchaya The Leading Hotels of the World Bintan, Indonesia\", \"The Sanchaya Hilton Hotel\", \"The Sanchaya Hilton Resort\", \"The Sanchaya Hilton\", \"The Sanchaya Hilton Bintan, Indonesia Hotel\", \"The Sanchaya Hilton Bintan, Indonesia Resort\", \"The Sanchaya Hilton Bintan, Indonesia\", \"The Sanchaya Hotel\", \"The Sanchaya Resort\", \"The Sanchaya\", \"The Sanchaya Bintan, Indonesia Hotel\", \"The Sanchaya Bintan, Indonesia Resort\", \"The Sanchaya Bintan, Indonesia\"], \"v\": 3}": {
+    "lat": 1.1774665,
+    "lon": 104.3682292,
+    "formatted_address": "Lagoi Bay, Jl. Gurindam Duabelas No.Plot 5, Sebong Lagoi, Kec. Tlk. Sebong, Kabupaten Bintan, Kepulauan Riau 29155, Indonesia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJKXlN8grW2zERrN4heoRCOp4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Lagoi Bay, Jl. Gurindam Duabelas No.Plot 5, Sebong Lagoi, Kec. Tlk. Sebong, Kabupaten Bintan, Kepulauan Riau 29155, Indonesia",
+      "geometry": {
+        "location": {
+          "lat": 1.1774665,
+          "lng": 104.3682292
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 1.178678580291502,
+            "lng": 104.3696412802915
+          },
+          "southwest": {
+            "lat": 1.175980619708498,
+            "lng": 104.3669433197085
+          }
+        }
+      },
+      "name": "The Sanchaya",
+      "place_id": "ChIJKXlN8grW2zERrN4heoRCOp4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.thesanchaya.com/"
+    }
   }
 }
