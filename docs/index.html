@@ -37,7 +37,7 @@
 </div>
 <div id="map"></div>
 
-<script src="map-config.js"></script>
+<script src="map-config.js?v=secure-1"></script>
 <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
 <script>
 const PROGRAMS = {
@@ -125,7 +125,7 @@ function loadGoogleMaps() {
   const key = window.MAP_CONFIG && window.MAP_CONFIG.googleMapsApiKey;
   if (!key) { tally.textContent = "Google Maps key required"; console.error("Set googleMapsApiKey in docs/map-config.js before publishing."); return; }
   const script = document.createElement("script");
-  script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(key)}&v=weekly`;
+  script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(key)}&v=weekly&loading=async`;
   script.async = true;
   script.onload = initMap;
   script.onerror = () => { tally.textContent = "Failed to load Google Maps"; };
