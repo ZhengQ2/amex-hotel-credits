@@ -156537,5 +156537,93 @@
       ],
       "website": "http://www.hotelmanapany.com/"
     }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Parco dei Principi Sorrento\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Parco dei Principi Sorrento Hotel\", \"Hotel Parco dei Principi Sorrento Resort\", \"Hotel Parco dei Principi Sorrento\", \"Hotel Parco dei Principi Sorrento Sorrento, Italy Hotel\", \"Hotel Parco dei Principi Sorrento Sorrento, Italy Resort\", \"Hotel Parco dei Principi Sorrento Sorrento, Italy\", \"Hotel Parco Dei Principi Sorrento Hotel\", \"Hotel Parco Dei Principi Sorrento Resort\", \"Hotel Parco Dei Principi Sorrento\", \"Hotel Parco Dei Principi Sorrento Sorrento, Italy Hotel\", \"Hotel Parco Dei Principi Sorrento Sorrento, Italy Resort\", \"Hotel Parco Dei Principi Sorrento Sorrento, Italy\"], \"v\": 3}": {
+    "lat": 40.6331329,
+    "lon": 14.3883705,
+    "formatted_address": "Via Bernardino Rota, 44, 80067 Sorrento NA, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJrUw8ZU2ZOxMRZvYnwRdW198",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Bernardino Rota, 44, 80067 Sorrento NA, Italy",
+      "geometry": {
+        "location": {
+          "lat": 40.6331329,
+          "lng": 14.3883705
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.6338715802915,
+            "lng": 14.3902361302915
+          },
+          "southwest": {
+            "lat": 40.63117361970851,
+            "lng": 14.3875381697085
+          }
+        }
+      },
+      "name": "Hotel Parco dei Principi di Sorrento",
+      "place_id": "ChIJrUw8ZU2ZOxMRZvYnwRdW198",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.hotelparcoprincipi.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Grand Cayman Marriott Beach Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Cayman Marriott Beach Resort Marriott Hotel\", \"Grand Cayman Marriott Beach Resort Marriott Resort\", \"Grand Cayman Marriott Beach Resort Marriott\", \"Grand Cayman Marriott Beach Resort Marriott Grand Cayman, Cayman Islands Hotel\", \"Grand Cayman Marriott Beach Resort Marriott Grand Cayman, Cayman Islands Resort\", \"Grand Cayman Marriott Beach Resort Marriott Grand Cayman, Cayman Islands\", \"Grand Cayman Marriott Beach Resort Hilton Hotel\", \"Grand Cayman Marriott Beach Resort Hilton Resort\", \"Grand Cayman Marriott Beach Resort Hilton\", \"Grand Cayman Marriott Beach Resort Hilton Grand Cayman, Cayman Islands Hotel\", \"Grand Cayman Marriott Beach Resort Hilton Grand Cayman, Cayman Islands Resort\", \"Grand Cayman Marriott Beach Resort Hilton Grand Cayman, Cayman Islands\", \"Grand Cayman Marriott Beach Resort Hotel\", \"Grand Cayman Marriott Beach Resort Resort\", \"Grand Cayman Marriott Beach Resort\", \"Grand Cayman Marriott Beach Resort Grand Cayman, Cayman Islands Hotel\", \"Grand Cayman Marriott Beach Resort Grand Cayman, Cayman Islands Resort\", \"Grand Cayman Marriott Beach Resort Grand Cayman, Cayman Islands\"], \"v\": 3}": {
+    "lat": 19.3174601,
+    "lon": -81.3835374,
+    "formatted_address": "Seven Mile Beach, 389 W Bay Rd, KY1-1202, Cayman Islands",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJhx0SqaqHJY8RaBgXRgAQwzA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Seven Mile Beach, 389 W Bay Rd, KY1-1202, Cayman Islands",
+      "geometry": {
+        "location": {
+          "lat": 19.3174601,
+          "lng": -81.3835374
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 19.3187799802915,
+            "lng": -81.38206386970849
+          },
+          "southwest": {
+            "lat": 19.3160820197085,
+            "lng": -81.3847618302915
+          }
+        }
+      },
+      "name": "Grand Cayman Marriott Resort",
+      "place_id": "ChIJhx0SqaqHJY8RaBgXRgAQwzA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/gcmgc-grand-cayman-marriott-resort/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
   }
 }
