@@ -211372,5 +211372,146 @@
       ],
       "website": "https://www.thesanchaya.com/"
     }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"JA Mar Hall\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"JA Mar Hall\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Palacio Gran Via Royal Hideaway Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Palacio Gran Via Royal Hideaway Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Thyme\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Thyme\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"JA Mar Hall\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"JA Mar Hall Hotel\", \"JA Mar Hall Resort\", \"JA Mar Hall\", \"JA Mar Hall Bishopton, Scotland Hotel\", \"JA Mar Hall Bishopton, Scotland Resort\", \"JA Mar Hall Bishopton, Scotland\", \"Ja Mar Hall Hotel\", \"Ja Mar Hall Resort\", \"Ja Mar Hall\", \"Ja Mar Hall Bishopton, Scotland Hotel\", \"Ja Mar Hall Bishopton, Scotland Resort\", \"Ja Mar Hall Bishopton, Scotland\"], \"v\": 3}": {
+    "lat": 55.9208566,
+    "lon": -4.4786075,
+    "formatted_address": "Mar Hall Drive, Earl of Mar Estate, Bishopton PA7 5NW, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJuWQ1jN1NiEgRxiz9Ztjqab0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Mar Hall Drive, Earl of Mar Estate, Bishopton PA7 5NW, UK",
+      "geometry": {
+        "location": {
+          "lat": 55.9208566,
+          "lng": -4.4786075
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 55.9215921302915,
+            "lng": -4.477149019708498
+          },
+          "southwest": {
+            "lat": 55.9188941697085,
+            "lng": -4.479846980291502
+          }
+        }
+      },
+      "name": "JA Mar Hall Golf & Spa Resort",
+      "place_id": "ChIJuWQ1jN1NiEgRxiz9Ztjqab0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marhall.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Palacio Gran Via Royal Hideaway Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Palacio Gran Via Royal Hideaway Hotel Hotel\", \"Palacio Gran Via Royal Hideaway Hotel Resort\", \"Palacio Gran Via Royal Hideaway Hotel\", \"Palacio Gran Via Royal Hideaway Hotel Granada, Spain Hotel\", \"Palacio Gran Via Royal Hideaway Hotel Granada, Spain Resort\", \"Palacio Gran Via Royal Hideaway Hotel Granada, Spain\"], \"v\": 3}": {
+    "lat": 37.1771952,
+    "lon": -3.5980964,
+    "formatted_address": "C. Gran Vía de Colón, 14, Centro, 18010 Granada, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ4SAsIkn9cQ0R4iNxgD7DGHg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "C. Gran Vía de Colón, 14, Centro, 18010 Granada, Spain",
+      "geometry": {
+        "location": {
+          "lat": 37.1771952,
+          "lng": -3.5980964
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.1785110302915,
+            "lng": -3.596837169708498
+          },
+          "southwest": {
+            "lat": 37.1758130697085,
+            "lng": -3.599535130291502
+          }
+        }
+      },
+      "name": "Palacio Gran Vía, a Royal Hideaway Hotel",
+      "place_id": "ChIJ4SAsIkn9cQ0R4iNxgD7DGHg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.barcelo.com/es-es/palacio-gran-via-a-royal-hideaway-hotel/?utm_source=google&utm_medium=organic&utm_campaign=my_business&utm_content=40963"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Thyme\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Thyme Hotel\", \"Thyme Resort\", \"Thyme\", \"Thyme Southrop, England Hotel\", \"Thyme Southrop, England Resort\", \"Thyme Southrop, England\"], \"v\": 3}": {
+    "lat": 51.7289505,
+    "lon": -1.7095388,
+    "formatted_address": "Thyme, Southrop Manor, Southrop, Gloucestershire GL7 3NX, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ8Z_KVms3cUgRQ9PZCZoZiCw",
+    "types": [
+      "bar",
+      "clothing_store",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa",
+      "store"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Thyme, Southrop Manor, Southrop, Gloucestershire GL7 3NX, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.7289505,
+          "lng": -1.7095388
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.7300906802915,
+            "lng": -1.708204269708498
+          },
+          "southwest": {
+            "lat": 51.7273927197085,
+            "lng": -1.710902230291502
+          }
+        }
+      },
+      "name": "Thyme – Hotel, Restaurant, Spa",
+      "place_id": "ChIJ8Z_KVms3cUgRQ9PZCZoZiCw",
+      "types": [
+        "bar",
+        "clothing_store",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa",
+        "store"
+      ],
+      "website": "https://www.thyme.co.uk/?utm_source=GMB"
+    }
   }
 }

@@ -156583,5 +156583,47 @@
         "point_of_interest"
       ]
     }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Chateau des Fleurs Paris\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Chateau des Fleurs Paris Small Luxury Hotels of the World Hotel\", \"Chateau des Fleurs Paris Small Luxury Hotels of the World Resort\", \"Chateau des Fleurs Paris Small Luxury Hotels of the World\", \"Chateau des Fleurs Paris Small Luxury Hotels of the World Paris, France Hotel\", \"Chateau des Fleurs Paris Small Luxury Hotels of the World Paris, France Resort\", \"Chateau des Fleurs Paris Small Luxury Hotels of the World Paris, France\", \"Chateau des Fleurs Paris Hilton Hotel\", \"Chateau des Fleurs Paris Hilton Resort\", \"Chateau des Fleurs Paris Hilton\", \"Chateau des Fleurs Paris Hilton Paris, France Hotel\", \"Chateau des Fleurs Paris Hilton Paris, France Resort\", \"Chateau des Fleurs Paris Hilton Paris, France\", \"Chateau Des Fleurs Paris Small Luxury Hotels of the World Hotel\", \"Chateau Des Fleurs Paris Small Luxury Hotels of the World Resort\", \"Chateau Des Fleurs Paris Small Luxury Hotels of the World\", \"Chateau Des Fleurs Paris Small Luxury Hotels of the World Paris, France Hotel\", \"Chateau Des Fleurs Paris Small Luxury Hotels of the World Paris, France Resort\", \"Chateau Des Fleurs Paris Small Luxury Hotels of the World Paris, France\", \"Chateau Des Fleurs Paris Hilton Hotel\", \"Chateau Des Fleurs Paris Hilton Resort\", \"Chateau Des Fleurs Paris Hilton\", \"Chateau Des Fleurs Paris Hilton Paris, France Hotel\", \"Chateau Des Fleurs Paris Hilton Paris, France Resort\", \"Chateau Des Fleurs Paris Hilton Paris, France\", \"Chateau des Fleurs Paris Hotel\", \"Chateau des Fleurs Paris Resort\", \"Chateau des Fleurs Paris\", \"Chateau des Fleurs Paris Paris, France Hotel\", \"Chateau des Fleurs Paris Paris, France Resort\", \"Chateau des Fleurs Paris Paris, France\"], \"v\": 3}": {
+    "lat": 48.8718263,
+    "lon": 2.2983964,
+    "formatted_address": "19 Rue Vernet, 75008 Paris, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJCZhohOlv5kcRnrqBWeFld6I",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "19 Rue Vernet, 75008 Paris, France",
+      "geometry": {
+        "location": {
+          "lat": 48.8718263,
+          "lng": 2.2983964
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.8731665302915,
+            "lng": 2.299841130291501
+          },
+          "southwest": {
+            "lat": 48.8704685697085,
+            "lng": 2.297143169708498
+          }
+        }
+      },
+      "name": "Chateau des Fleurs",
+      "place_id": "ChIJCZhohOlv5kcRnrqBWeFld6I",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.chateaudesfleurs.paris/"
+    }
   }
 }
