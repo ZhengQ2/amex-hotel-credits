@@ -211513,5 +211513,47 @@
       ],
       "website": "https://www.thyme.co.uk/?utm_source=GMB"
     }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Amanvari\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amanvari Aman Hotel\", \"Amanvari Aman Resort\", \"Amanvari Aman\", \"Amanvari Aman East Cape, Baja California Sur MX Hotel\", \"Amanvari Aman East Cape, Baja California Sur MX Resort\", \"Amanvari Aman East Cape, Baja California Sur MX\", \"Amanvari Hilton Hotel\", \"Amanvari Hilton Resort\", \"Amanvari Hilton\", \"Amanvari Hilton East Cape, Baja California Sur MX Hotel\", \"Amanvari Hilton East Cape, Baja California Sur MX Resort\", \"Amanvari Hilton East Cape, Baja California Sur MX\", \"Amanvari Hotel\", \"Amanvari Resort\", \"Amanvari\", \"Amanvari East Cape, Baja California Sur MX Hotel\", \"Amanvari East Cape, Baja California Sur MX Resort\", \"Amanvari East Cape, Baja California Sur MX\"], \"v\": 3}": {
+    "lat": 23.6143301,
+    "lon": -109.6022102,
+    "formatted_address": "Eureka s/n esquina con Sta Maria la Ribera, 23570 East Cape, B.C.S., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ2yMdhTSBpYYRNAUn9UU0r0U",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Eureka s/n esquina con Sta Maria la Ribera, 23570 East Cape, B.C.S., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 23.6143301,
+          "lng": -109.6022102
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.61535928029151,
+            "lng": -109.6003823197085
+          },
+          "southwest": {
+            "lat": 23.6126613197085,
+            "lng": -109.6030802802915
+          }
+        }
+      },
+      "name": "Amanvari",
+      "place_id": "ChIJ2yMdhTSBpYYRNAUn9UU0r0U",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.aman.com/resorts/amanvari"
+    }
   }
 }
