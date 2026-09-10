@@ -211555,5 +211555,47 @@
       ],
       "website": "https://www.aman.com/resorts/amanvari"
     }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Red Sea EDITION\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Red Sea EDITION EDITION Hotels Hotel\", \"The Red Sea EDITION EDITION Hotels Resort\", \"The Red Sea EDITION EDITION Hotels\", \"The Red Sea EDITION EDITION Hotels Shura Island, Saudi Arabia Hotel\", \"The Red Sea EDITION EDITION Hotels Shura Island, Saudi Arabia Resort\", \"The Red Sea EDITION EDITION Hotels Shura Island, Saudi Arabia\", \"The Red Sea EDITION Hilton Hotel\", \"The Red Sea EDITION Hilton Resort\", \"The Red Sea EDITION Hilton\", \"The Red Sea EDITION Hilton Shura Island, Saudi Arabia Hotel\", \"The Red Sea EDITION Hilton Shura Island, Saudi Arabia Resort\", \"The Red Sea EDITION Hilton Shura Island, Saudi Arabia\", \"Red Sea Edition EDITION Hotels Hotel\", \"Red Sea Edition EDITION Hotels Resort\", \"Red Sea Edition EDITION Hotels\", \"Red Sea Edition EDITION Hotels Shura Island, Saudi Arabia Hotel\", \"Red Sea Edition EDITION Hotels Shura Island, Saudi Arabia Resort\", \"Red Sea Edition EDITION Hotels Shura Island, Saudi Arabia\", \"Red Sea Edition Hilton Hotel\", \"Red Sea Edition Hilton Resort\", \"Red Sea Edition Hilton\", \"Red Sea Edition Hilton Shura Island, Saudi Arabia Hotel\", \"Red Sea Edition Hilton Shura Island, Saudi Arabia Resort\", \"Red Sea Edition Hilton Shura Island, Saudi Arabia\", \"The Red Sea EDITION Hotel\", \"The Red Sea EDITION Resort\", \"The Red Sea EDITION\", \"The Red Sea EDITION Shura Island, Saudi Arabia Hotel\", \"The Red Sea EDITION Shura Island, Saudi Arabia Resort\", \"The Red Sea EDITION Shura Island, Saudi Arabia\"], \"v\": 3}": {
+    "lat": 25.4960139,
+    "lon": 36.9679478,
+    "formatted_address": "Shura Island, Hanak 48313, Saudi Arabia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ109F3DSJsBUR2NZZXQRWkaU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Shura Island, Hanak 48313, Saudi Arabia",
+      "geometry": {
+        "location": {
+          "lat": 25.4960139,
+          "lng": 36.9679478
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.4976358802915,
+            "lng": 36.9698579802915
+          },
+          "southwest": {
+            "lat": 25.4949379197085,
+            "lng": 36.9671600197085
+          }
+        }
+      },
+      "name": "The Red Sea EDITION",
+      "place_id": "ChIJ109F3DSJsBUR2NZZXQRWkaU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/ejheb-the-red-sea-edition/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
   }
 }
