@@ -211597,5 +211597,47 @@
       ],
       "website": "https://www.marriott.com/en-us/hotels/ejheb-the-red-sea-edition/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Esiweni Luxury Safari Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Esiweni Luxury Safari Lodge Relais & Ch\\u00e2teaux Hotel\", \"Esiweni Luxury Safari Lodge Relais & Ch\\u00e2teaux Resort\", \"Esiweni Luxury Safari Lodge Relais & Ch\\u00e2teaux\", \"Esiweni Luxury Safari Lodge Relais & Ch\\u00e2teaux Ladysmith, South Africa Hotel\", \"Esiweni Luxury Safari Lodge Relais & Ch\\u00e2teaux Ladysmith, South Africa Resort\", \"Esiweni Luxury Safari Lodge Relais & Ch\\u00e2teaux Ladysmith, South Africa\", \"Esiweni Luxury Safari Lodge Hilton Hotel\", \"Esiweni Luxury Safari Lodge Hilton Resort\", \"Esiweni Luxury Safari Lodge Hilton\", \"Esiweni Luxury Safari Lodge Hilton Ladysmith, South Africa Hotel\", \"Esiweni Luxury Safari Lodge Hilton Ladysmith, South Africa Resort\", \"Esiweni Luxury Safari Lodge Hilton Ladysmith, South Africa\", \"Esiweni Luxury Safari Lodge Hotel\", \"Esiweni Luxury Safari Lodge Resort\", \"Esiweni Luxury Safari Lodge\", \"Esiweni Luxury Safari Lodge Ladysmith, South Africa Hotel\", \"Esiweni Luxury Safari Lodge Ladysmith, South Africa Resort\", \"Esiweni Luxury Safari Lodge Ladysmith, South Africa\"], \"v\": 3}": {
+    "lat": -28.4402076,
+    "lon": 30.01878499999999,
+    "formatted_address": "Memorial Gate, Nambiti Game reserve, Esiweni accès, Ladysmith, 3370, South Africa",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJfYI59Pci8h4RGor2l4iO12E",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Memorial Gate, Nambiti Game reserve, Esiweni accès, Ladysmith, 3370, South Africa",
+      "geometry": {
+        "location": {
+          "lat": -28.4402076,
+          "lng": 30.01878499999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -28.4386961197085,
+            "lng": 30.0197046802915
+          },
+          "southwest": {
+            "lat": -28.4413940802915,
+            "lng": 30.0170067197085
+          }
+        }
+      },
+      "name": "Esiweni Luxury Safari Lodge , Relais&châteaux",
+      "place_id": "ChIJfYI59Pci8h4RGor2l4iO12E",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.esiwenilodge.com/"
+    }
   }
 }
