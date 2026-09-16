@@ -55876,48 +55876,6 @@
       "website": "https://www.tajhotels.com/en-in/hotels/taj-lake-palace-udaipur?utm_medium=local&utm-source=google&utm-campaign=taj-lake-palace-udaipur"
     }
   },
-  "{\"brand\": \"The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Adare Manor The Leading Hotels of the World Hotel\", \"Adare Manor The Leading Hotels of the World Resort\", \"Adare Manor The Leading Hotels of the World\", \"Adare Manor The Leading Hotels of the World Adare, Ireland Hotel\", \"Adare Manor The Leading Hotels of the World Adare, Ireland Resort\", \"Adare Manor The Leading Hotels of the World Adare, Ireland\", \"Adare Manor Hilton Hotel\", \"Adare Manor Hilton Resort\", \"Adare Manor Hilton\", \"Adare Manor Hilton Adare, Ireland Hotel\", \"Adare Manor Hilton Adare, Ireland Resort\", \"Adare Manor Hilton Adare, Ireland\", \"Adare Manor Hotel\", \"Adare Manor Resort\", \"Adare Manor\", \"Adare Manor Adare, Ireland Hotel\", \"Adare Manor Adare, Ireland Resort\", \"Adare Manor Adare, Ireland\"], \"v\": 3}": {
-    "lat": 52.5641133,
-    "lon": -8.7778239,
-    "formatted_address": "Adare, Co. Limerick, V94 W8WR, Ireland",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJseboCAxGW0gRV4g3qbkTedE",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Adare, Co. Limerick, V94 W8WR, Ireland",
-      "geometry": {
-        "location": {
-          "lat": 52.5641133,
-          "lng": -8.7778239
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 52.56537893029149,
-            "lng": -8.776782369708496
-          },
-          "southwest": {
-            "lat": 52.5626809697085,
-            "lng": -8.7794803302915
-          }
-        }
-      },
-      "name": "Adare Manor",
-      "place_id": "ChIJseboCAxGW0gRV4g3qbkTedE",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.adaremanor.com/?utm_source=GMB&utm_medium=Organic&utm_campaign=GMB%20Organic"
-    }
-  },
   "{\"brand\": \"The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Como Alpina Dolomites The Leading Hotels of the World Hotel\", \"Como Alpina Dolomites The Leading Hotels of the World Resort\", \"Como Alpina Dolomites The Leading Hotels of the World\", \"Como Alpina Dolomites The Leading Hotels of the World Alpe di Siusi, Italy Hotel\", \"Como Alpina Dolomites The Leading Hotels of the World Alpe di Siusi, Italy Resort\", \"Como Alpina Dolomites The Leading Hotels of the World Alpe di Siusi, Italy\", \"Como Alpina Dolomites Hilton Hotel\", \"Como Alpina Dolomites Hilton Resort\", \"Como Alpina Dolomites Hilton\", \"Como Alpina Dolomites Hilton Alpe di Siusi, Italy Hotel\", \"Como Alpina Dolomites Hilton Alpe di Siusi, Italy Resort\", \"Como Alpina Dolomites Hilton Alpe di Siusi, Italy\", \"COMO Alpina Dolomites The Leading Hotels of the World Hotel\", \"COMO Alpina Dolomites The Leading Hotels of the World Resort\", \"COMO Alpina Dolomites The Leading Hotels of the World\", \"COMO Alpina Dolomites The Leading Hotels of the World Alpe di Siusi, Italy Hotel\", \"COMO Alpina Dolomites The Leading Hotels of the World Alpe di Siusi, Italy Resort\", \"COMO Alpina Dolomites The Leading Hotels of the World Alpe di Siusi, Italy\", \"COMO Alpina Dolomites Hilton Hotel\", \"COMO Alpina Dolomites Hilton Resort\", \"COMO Alpina Dolomites Hilton\", \"COMO Alpina Dolomites Hilton Alpe di Siusi, Italy Hotel\", \"COMO Alpina Dolomites Hilton Alpe di Siusi, Italy Resort\", \"COMO Alpina Dolomites Hilton Alpe di Siusi, Italy\", \"COMO Alpina Dolomites Hotel\", \"COMO Alpina Dolomites Resort\", \"COMO Alpina Dolomites\", \"COMO Alpina Dolomites Alpe di Siusi, Italy Hotel\", \"COMO Alpina Dolomites Alpe di Siusi, Italy Resort\", \"COMO Alpina Dolomites Alpe di Siusi, Italy\"], \"v\": 3}": {
     "lat": 46.5427778,
     "lon": 11.6155556,
@@ -183029,48 +182987,6 @@
       "website": "https://www.tajhotels.com/en-in/hotels/taj-lake-palace-udaipur?utm_medium=local&utm-source=google&utm-campaign=taj-lake-palace-udaipur"
     }
   },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Adare Manor\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Adare Manor The Leading Hotels of the World Hotel\", \"Adare Manor The Leading Hotels of the World Resort\", \"Adare Manor The Leading Hotels of the World\", \"Adare Manor The Leading Hotels of the World Adare, Ireland Hotel\", \"Adare Manor The Leading Hotels of the World Adare, Ireland Resort\", \"Adare Manor The Leading Hotels of the World Adare, Ireland\", \"Adare Manor Hilton Hotel\", \"Adare Manor Hilton Resort\", \"Adare Manor Hilton\", \"Adare Manor Hilton Adare, Ireland Hotel\", \"Adare Manor Hilton Adare, Ireland Resort\", \"Adare Manor Hilton Adare, Ireland\", \"Adare Manor Hotel\", \"Adare Manor Resort\", \"Adare Manor\", \"Adare Manor Adare, Ireland Hotel\", \"Adare Manor Adare, Ireland Resort\", \"Adare Manor Adare, Ireland\"], \"v\": 3}": {
-    "lat": 52.5641133,
-    "lon": -8.7778239,
-    "formatted_address": "Adare, Co. Limerick, V94 W8WR, Ireland",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJseboCAxGW0gRV4g3qbkTedE",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Adare, Co. Limerick, V94 W8WR, Ireland",
-      "geometry": {
-        "location": {
-          "lat": 52.5641133,
-          "lng": -8.7778239
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 52.56537893029149,
-            "lng": -8.776782369708496
-          },
-          "southwest": {
-            "lat": 52.5626809697085,
-            "lng": -8.7794803302915
-          }
-        }
-      },
-      "name": "Adare Manor",
-      "place_id": "ChIJseboCAxGW0gRV4g3qbkTedE",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.adaremanor.com/?utm_source=GMB&utm_medium=Organic&utm_campaign=GMB%20Organic"
-    }
-  },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"COMO Alpina Dolomites\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"COMO Alpina Dolomites The Leading Hotels of the World Hotel\", \"COMO Alpina Dolomites The Leading Hotels of the World Resort\", \"COMO Alpina Dolomites The Leading Hotels of the World\", \"COMO Alpina Dolomites The Leading Hotels of the World Alpe di Siusi, Italy Hotel\", \"COMO Alpina Dolomites The Leading Hotels of the World Alpe di Siusi, Italy Resort\", \"COMO Alpina Dolomites The Leading Hotels of the World Alpe di Siusi, Italy\", \"COMO Alpina Dolomites Hilton Hotel\", \"COMO Alpina Dolomites Hilton Resort\", \"COMO Alpina Dolomites Hilton\", \"COMO Alpina Dolomites Hilton Alpe di Siusi, Italy Hotel\", \"COMO Alpina Dolomites Hilton Alpe di Siusi, Italy Resort\", \"COMO Alpina Dolomites Hilton Alpe di Siusi, Italy\", \"Como Alpina Dolomites The Leading Hotels of the World Hotel\", \"Como Alpina Dolomites The Leading Hotels of the World Resort\", \"Como Alpina Dolomites The Leading Hotels of the World\", \"Como Alpina Dolomites The Leading Hotels of the World Alpe di Siusi, Italy Hotel\", \"Como Alpina Dolomites The Leading Hotels of the World Alpe di Siusi, Italy Resort\", \"Como Alpina Dolomites The Leading Hotels of the World Alpe di Siusi, Italy\", \"Como Alpina Dolomites Hilton Hotel\", \"Como Alpina Dolomites Hilton Resort\", \"Como Alpina Dolomites Hilton\", \"Como Alpina Dolomites Hilton Alpe di Siusi, Italy Hotel\", \"Como Alpina Dolomites Hilton Alpe di Siusi, Italy Resort\", \"Como Alpina Dolomites Hilton Alpe di Siusi, Italy\", \"COMO Alpina Dolomites Hotel\", \"COMO Alpina Dolomites Resort\", \"COMO Alpina Dolomites\", \"COMO Alpina Dolomites Alpe di Siusi, Italy Hotel\", \"COMO Alpina Dolomites Alpe di Siusi, Italy Resort\", \"COMO Alpina Dolomites Alpe di Siusi, Italy\"], \"v\": 3}": {
     "lat": 46.5427778,
     "lon": 11.6155556,
@@ -211638,6 +211554,48 @@
         "point_of_interest"
       ],
       "website": "http://www.esiwenilodge.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Ikos Andalusia\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Ikos Andalusia Hotel\", \"Ikos Andalusia Resort\", \"Ikos Andalusia\", \"Ikos Andalusia Marbella, Spain Hotel\", \"Ikos Andalusia Marbella, Spain Resort\", \"Ikos Andalusia Marbella, Spain\"], \"v\": 3}": {
+    "lat": 36.4528219,
+    "lon": -5.0605385,
+    "formatted_address": "N-340, Km 164, 29680 Estepona, Málaga, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJtbQZRNrVDA0RsKJ1_EYAPuI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "N-340, Km 164, 29680 Estepona, Málaga, Spain",
+      "geometry": {
+        "location": {
+          "lat": 36.4528219,
+          "lng": -5.0605385
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.45413103029151,
+            "lng": -5.059536469708497
+          },
+          "southwest": {
+            "lat": 36.45143306970851,
+            "lng": -5.062234430291502
+          }
+        }
+      },
+      "name": "Ikos Andalusia",
+      "place_id": "ChIJtbQZRNrVDA0RsKJ1_EYAPuI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ikosresorts.com/resorts/ikos-andalusia/"
     }
   }
 }
