@@ -157055,5 +157055,51 @@
       ],
       "website": "https://www.nobuhotels.com/palo-alto?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
     }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Trump National Doral\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Trump National Doral Trump Hotels Hotel\", \"Trump National Doral Trump Hotels Resort\", \"Trump National Doral Trump Hotels\", \"Trump National Doral Trump Hotels Doral, Florida US Hotel\", \"Trump National Doral Trump Hotels Doral, Florida US Resort\", \"Trump National Doral Trump Hotels Doral, Florida US\", \"Trump National Doral Hilton Hotel\", \"Trump National Doral Hilton Resort\", \"Trump National Doral Hilton\", \"Trump National Doral Hilton Doral, Florida US Hotel\", \"Trump National Doral Hilton Doral, Florida US Resort\", \"Trump National Doral Hilton Doral, Florida US\", \"Trump National Doral Hotel\", \"Trump National Doral Resort\", \"Trump National Doral\", \"Trump National Doral Doral, Florida US Hotel\", \"Trump National Doral Doral, Florida US Resort\", \"Trump National Doral Doral, Florida US\"], \"v\": 3}": {
+    "lat": 25.8129673,
+    "lon": -80.3387175,
+    "formatted_address": "4400 NW 87th Ave, Miami, FL 33178, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJISHCY9-72YgRlV26O7OK5fk",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "4400 NW 87th Ave, Miami, FL 33178, USA",
+      "geometry": {
+        "location": {
+          "lat": 25.8129673,
+          "lng": -80.3387175
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.8143001802915,
+            "lng": -80.3373740697085
+          },
+          "southwest": {
+            "lat": 25.8116022197085,
+            "lng": -80.34007203029151
+          }
+        }
+      },
+      "name": "Trump National Doral Miami",
+      "place_id": "ChIJISHCY9-72YgRlV26O7OK5fk",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.trumphotels.com/miami?utm_source=google-local&utm_medium=organic&utm_campaign=gmb"
+    }
   }
 }
