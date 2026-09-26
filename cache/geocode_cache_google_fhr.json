@@ -211649,5 +211649,183 @@
       ],
       "website": "https://www.adaremanor.com/?utm_source=GMB&utm_medium=Organic&utm_campaign=GMB_Organic"
     }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Cambridge House, Auberge Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cambridge House, Auberge Collection\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Lanserhof Sylt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lanserhof Sylt\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Waldorf Astoria Jeddah - Qasr Al Sharq\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Waldorf Astoria Jeddah - Qasr Al Sharq\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Conrad Nagoya\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Conrad Nagoya\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Lanserhof Sylt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lanserhof Sylt Hotel\", \"Lanserhof Sylt Resort\", \"Lanserhof Sylt\", \"Lanserhof Sylt List auf Sylt, Germany Hotel\", \"Lanserhof Sylt List auf Sylt, Germany Resort\", \"Lanserhof Sylt List auf Sylt, Germany\"], \"v\": 3}": {
+    "lat": 55.0137079,
+    "lon": 8.423540599999999,
+    "formatted_address": "Am Lanserhof 1-8, 25992 List auf Sylt, Germany",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJdwXG7uHbtEcRB1CLhFIeGPs",
+    "types": [
+      "establishment",
+      "health",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Am Lanserhof 1-8, 25992 List auf Sylt, Germany",
+      "geometry": {
+        "location": {
+          "lat": 55.0137079,
+          "lng": 8.423540599999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 55.0149193802915,
+            "lng": 8.4247438302915
+          },
+          "southwest": {
+            "lat": 55.0122214197085,
+            "lng": 8.422045869708496
+          }
+        }
+      },
+      "name": "Lanserhof Sylt - Gesundheitsresort Sylt",
+      "place_id": "ChIJdwXG7uHbtEcRB1CLhFIeGPs",
+      "types": [
+        "establishment",
+        "health",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://lanserhof.com/de/lanserhof-sylt/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Cambridge House, Auberge Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cambridge House, Auberge Collection Auberge Collection Hotel\", \"Cambridge House, Auberge Collection Auberge Collection Resort\", \"Cambridge House, Auberge Collection Auberge Collection\", \"Cambridge House, Auberge Collection Auberge Collection London, England Hotel\", \"Cambridge House, Auberge Collection Auberge Collection London, England Resort\", \"Cambridge House, Auberge Collection Auberge Collection London, England\", \"Cambridge House, Auberge Collection Hilton Hotel\", \"Cambridge House, Auberge Collection Hilton Resort\", \"Cambridge House, Auberge Collection Hilton\", \"Cambridge House, Auberge Collection Hilton London, England Hotel\", \"Cambridge House, Auberge Collection Hilton London, England Resort\", \"Cambridge House, Auberge Collection Hilton London, England\", \"Cambridge House Auberge Collection Auberge Collection Hotel\", \"Cambridge House Auberge Collection Auberge Collection Resort\", \"Cambridge House Auberge Collection Auberge Collection\", \"Cambridge House Auberge Collection Auberge Collection London, England Hotel\", \"Cambridge House Auberge Collection Auberge Collection London, England Resort\", \"Cambridge House Auberge Collection Auberge Collection London, England\", \"Cambridge House Auberge Collection Hilton Hotel\", \"Cambridge House Auberge Collection Hilton Resort\", \"Cambridge House Auberge Collection Hilton\", \"Cambridge House Auberge Collection Hilton London, England Hotel\", \"Cambridge House Auberge Collection Hilton London, England Resort\", \"Cambridge House Auberge Collection Hilton London, England\", \"Cambridge House, Auberge Collection Hotel\", \"Cambridge House, Auberge Collection Resort\", \"Cambridge House, Auberge Collection\", \"Cambridge House, Auberge Collection London, England Hotel\", \"Cambridge House, Auberge Collection London, England Resort\", \"Cambridge House, Auberge Collection London, England\"], \"v\": 3}": {
+    "lat": 51.5056805,
+    "lon": -0.145076,
+    "formatted_address": "94 Piccadilly, London W1J 7PB, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJe0H46igFdkgRiAfWpuvEGLY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "94 Piccadilly, London W1J 7PB, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.5056805,
+          "lng": -0.145076
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.5070387802915,
+            "lng": -0.143740119708498
+          },
+          "southwest": {
+            "lat": 51.5043408197085,
+            "lng": -0.146438080291502
+          }
+        }
+      },
+      "name": "Cambridge House, Auberge Collection",
+      "place_id": "ChIJe0H46igFdkgRiAfWpuvEGLY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://auberge.com/cambridge-house/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Conrad Nagoya\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Conrad Nagoya Conrad Hotels & Resorts Hotel\", \"Conrad Nagoya Conrad Hotels & Resorts Resort\", \"Conrad Nagoya Conrad Hotels & Resorts\", \"Conrad Nagoya Conrad Hotels & Resorts Nagoya, Japan Hotel\", \"Conrad Nagoya Conrad Hotels & Resorts Nagoya, Japan Resort\", \"Conrad Nagoya Conrad Hotels & Resorts Nagoya, Japan\", \"Conrad Nagoya Hilton Hotel\", \"Conrad Nagoya Hilton Resort\", \"Conrad Nagoya Hilton\", \"Conrad Nagoya Hilton Nagoya, Japan Hotel\", \"Conrad Nagoya Hilton Nagoya, Japan Resort\", \"Conrad Nagoya Hilton Nagoya, Japan\", \"Conrad Nagoya Hotel\", \"Conrad Nagoya Resort\", \"Conrad Nagoya\", \"Conrad Nagoya Nagoya, Japan Hotel\", \"Conrad Nagoya Nagoya, Japan Resort\", \"Conrad Nagoya Nagoya, Japan\"], \"v\": 3}": {
+    "lat": 35.1697236,
+    "lon": 136.9074612,
+    "formatted_address": "3-chōme-25-1 Nishiki, Naka Ward, Nagoya, Aichi 460-0003, Japan",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ4dqZ-tJxA2AR6jHbW17bo5s",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "3-chōme-25-1 Nishiki, Naka Ward, Nagoya, Aichi 460-0003, Japan",
+      "geometry": {
+        "location": {
+          "lat": 35.1697236,
+          "lng": 136.9074612
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.1711433302915,
+            "lng": 136.9088038802915
+          },
+          "southwest": {
+            "lat": 35.1684453697085,
+            "lng": 136.9061059197085
+          }
+        }
+      },
+      "name": "Conrad Nagoya",
+      "place_id": "ChIJ4dqZ-tJxA2AR6jHbW17bo5s",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/ngocici-conrad-nagoya/?SEO_id=GMB-APAC-CI-NGOCICI"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Waldorf Astoria Jeddah - Qasr Al Sharq\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Waldorf Astoria Jeddah - Qasr Al Sharq Waldorf Astoria Hotels & Resorts Hotel\", \"Waldorf Astoria Jeddah - Qasr Al Sharq Waldorf Astoria Hotels & Resorts Resort\", \"Waldorf Astoria Jeddah - Qasr Al Sharq Waldorf Astoria Hotels & Resorts\", \"Waldorf Astoria Jeddah - Qasr Al Sharq Waldorf Astoria Hotels & Resorts Jeddah, Saudi Arabia Hotel\", \"Waldorf Astoria Jeddah - Qasr Al Sharq Waldorf Astoria Hotels & Resorts Jeddah, Saudi Arabia Resort\", \"Waldorf Astoria Jeddah - Qasr Al Sharq Waldorf Astoria Hotels & Resorts Jeddah, Saudi Arabia\", \"Waldorf Astoria Jeddah - Qasr Al Sharq Hilton Hotel\", \"Waldorf Astoria Jeddah - Qasr Al Sharq Hilton Resort\", \"Waldorf Astoria Jeddah - Qasr Al Sharq Hilton\", \"Waldorf Astoria Jeddah - Qasr Al Sharq Hilton Jeddah, Saudi Arabia Hotel\", \"Waldorf Astoria Jeddah - Qasr Al Sharq Hilton Jeddah, Saudi Arabia Resort\", \"Waldorf Astoria Jeddah - Qasr Al Sharq Hilton Jeddah, Saudi Arabia\", \"Waldorf Astoria Jeddah Qasr Al Sharq Waldorf Astoria Hotels & Resorts Hotel\", \"Waldorf Astoria Jeddah Qasr Al Sharq Waldorf Astoria Hotels & Resorts Resort\", \"Waldorf Astoria Jeddah Qasr Al Sharq Waldorf Astoria Hotels & Resorts\", \"Waldorf Astoria Jeddah Qasr Al Sharq Waldorf Astoria Hotels & Resorts Jeddah, Saudi Arabia Hotel\", \"Waldorf Astoria Jeddah Qasr Al Sharq Waldorf Astoria Hotels & Resorts Jeddah, Saudi Arabia Resort\", \"Waldorf Astoria Jeddah Qasr Al Sharq Waldorf Astoria Hotels & Resorts Jeddah, Saudi Arabia\", \"Waldorf Astoria Jeddah Qasr Al Sharq Hilton Hotel\", \"Waldorf Astoria Jeddah Qasr Al Sharq Hilton Resort\", \"Waldorf Astoria Jeddah Qasr Al Sharq Hilton\", \"Waldorf Astoria Jeddah Qasr Al Sharq Hilton Jeddah, Saudi Arabia Hotel\", \"Waldorf Astoria Jeddah Qasr Al Sharq Hilton Jeddah, Saudi Arabia Resort\", \"Waldorf Astoria Jeddah Qasr Al Sharq Hilton Jeddah, Saudi Arabia\", \"Waldorf Astoria Jeddah - Qasr Al Sharq Hotel\", \"Waldorf Astoria Jeddah - Qasr Al Sharq Resort\", \"Waldorf Astoria Jeddah - Qasr Al Sharq\", \"Waldorf Astoria Jeddah - Qasr Al Sharq Jeddah, Saudi Arabia Hotel\", \"Waldorf Astoria Jeddah - Qasr Al Sharq Jeddah, Saudi Arabia Resort\", \"Waldorf Astoria Jeddah - Qasr Al Sharq Jeddah, Saudi Arabia\"], \"v\": 3}": {
+    "lat": 21.6035612,
+    "lon": 39.1088286,
+    "formatted_address": "Al Kurnaysh Br Rd, Ash Shati, Jeddah 21462, Saudi Arabia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJVyuqUdfbwxURn6j1xZSTkho",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Al Kurnaysh Br Rd, Ash Shati, Jeddah 21462, Saudi Arabia",
+      "geometry": {
+        "location": {
+          "lat": 21.6035612,
+          "lng": 39.1088286
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 21.6049393302915,
+            "lng": 39.11009518029149
+          },
+          "southwest": {
+            "lat": 21.60224136970849,
+            "lng": 39.1073972197085
+          }
+        }
+      },
+      "name": "Waldorf Astoria Jeddah - Qasr Al Sharq",
+      "place_id": "ChIJVyuqUdfbwxURn6j1xZSTkho",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/?SEO_id=GMB-EMEA-WA-JEDWAWA"
+    }
   }
 }

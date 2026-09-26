@@ -49211,48 +49211,6 @@
       "website": "https://www.chaletivy.com/"
     }
   },
-  "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Barracks Hotel Sentosa Small Luxury Hotels of the World Hotel\", \"Barracks Hotel Sentosa Small Luxury Hotels of the World Resort\", \"Barracks Hotel Sentosa Small Luxury Hotels of the World\", \"Barracks Hotel Sentosa Small Luxury Hotels of the World Singapore, Singapore Hotel\", \"Barracks Hotel Sentosa Small Luxury Hotels of the World Singapore, Singapore Resort\", \"Barracks Hotel Sentosa Small Luxury Hotels of the World Singapore, Singapore\", \"Barracks Hotel Sentosa Hilton Hotel\", \"Barracks Hotel Sentosa Hilton Resort\", \"Barracks Hotel Sentosa Hilton\", \"Barracks Hotel Sentosa Hilton Singapore, Singapore Hotel\", \"Barracks Hotel Sentosa Hilton Singapore, Singapore Resort\", \"Barracks Hotel Sentosa Hilton Singapore, Singapore\", \"The Barracks Hotel Sentosa Small Luxury Hotels of the World Hotel\", \"The Barracks Hotel Sentosa Small Luxury Hotels of the World Resort\", \"The Barracks Hotel Sentosa Small Luxury Hotels of the World\", \"The Barracks Hotel Sentosa Small Luxury Hotels of the World Singapore, Singapore Hotel\", \"The Barracks Hotel Sentosa Small Luxury Hotels of the World Singapore, Singapore Resort\", \"The Barracks Hotel Sentosa Small Luxury Hotels of the World Singapore, Singapore\", \"The Barracks Hotel Sentosa Hilton Hotel\", \"The Barracks Hotel Sentosa Hilton Resort\", \"The Barracks Hotel Sentosa Hilton\", \"The Barracks Hotel Sentosa Hilton Singapore, Singapore Hotel\", \"The Barracks Hotel Sentosa Hilton Singapore, Singapore Resort\", \"The Barracks Hotel Sentosa Hilton Singapore, Singapore\", \"The Barracks Hotel Sentosa Hotel\", \"The Barracks Hotel Sentosa Resort\", \"The Barracks Hotel Sentosa\", \"The Barracks Hotel Sentosa Singapore, Singapore Hotel\", \"The Barracks Hotel Sentosa Singapore, Singapore Resort\", \"The Barracks Hotel Sentosa Singapore, Singapore\"], \"v\": 3}": {
-    "lat": 1.2519692,
-    "lon": 103.8209931,
-    "formatted_address": "2 Gunner Ln, Singapore 099567",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ0cN3jf8b2jERUFt9yXd1Rws",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "2 Gunner Ln, Singapore 099567",
-      "geometry": {
-        "location": {
-          "lat": 1.2519692,
-          "lng": 103.8209931
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 1.253488630291502,
-            "lng": 103.8224680802915
-          },
-          "southwest": {
-            "lat": 1.250790669708498,
-            "lng": 103.8197701197085
-          }
-        }
-      },
-      "name": "The Barracks Hotel Sentosa",
-      "place_id": "ChIJ0cN3jf8b2jERUFt9yXd1Rws",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.thebarrackshotel.com.sg/?utm_source=googleplaces_tbh&utm_medium=organic"
-    }
-  },
   "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Tannenhof Small Luxury Hotels of the World Hotel\", \"Hotel Tannenhof Small Luxury Hotels of the World Resort\", \"Hotel Tannenhof Small Luxury Hotels of the World\", \"Hotel Tannenhof Small Luxury Hotels of the World St. Anton am Arlberg, Austria Hotel\", \"Hotel Tannenhof Small Luxury Hotels of the World St. Anton am Arlberg, Austria Resort\", \"Hotel Tannenhof Small Luxury Hotels of the World St. Anton am Arlberg, Austria\", \"Hotel Tannenhof Hilton Hotel\", \"Hotel Tannenhof Hilton Resort\", \"Hotel Tannenhof Hilton\", \"Hotel Tannenhof Hilton St. Anton am Arlberg, Austria Hotel\", \"Hotel Tannenhof Hilton St. Anton am Arlberg, Austria Resort\", \"Hotel Tannenhof Hilton St. Anton am Arlberg, Austria\", \"Hotel Tannenhof Hotel\", \"Hotel Tannenhof Resort\", \"Hotel Tannenhof\", \"Hotel Tannenhof St. Anton am Arlberg, Austria Hotel\", \"Hotel Tannenhof St. Anton am Arlberg, Austria Resort\", \"Hotel Tannenhof St. Anton am Arlberg, Austria\"], \"v\": 3}": {
     "lat": 47.1395648,
     "lon": 10.2771101,
@@ -81338,48 +81296,6 @@
         "point_of_interest"
       ],
       "website": "https://theinnatrsf.com/?utm_source=Google&utm_medium=GBP"
-    }
-  },
-  "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Barracks Hotel Sentosa Small Luxury Hotels of the World Hotel\", \"The Barracks Hotel Sentosa Small Luxury Hotels of the World Resort\", \"The Barracks Hotel Sentosa Small Luxury Hotels of the World\", \"The Barracks Hotel Sentosa Small Luxury Hotels of the World Singapore, Singapore Hotel\", \"The Barracks Hotel Sentosa Small Luxury Hotels of the World Singapore, Singapore Resort\", \"The Barracks Hotel Sentosa Small Luxury Hotels of the World Singapore, Singapore\", \"The Barracks Hotel Sentosa Hilton Hotel\", \"The Barracks Hotel Sentosa Hilton Resort\", \"The Barracks Hotel Sentosa Hilton\", \"The Barracks Hotel Sentosa Hilton Singapore, Singapore Hotel\", \"The Barracks Hotel Sentosa Hilton Singapore, Singapore Resort\", \"The Barracks Hotel Sentosa Hilton Singapore, Singapore\", \"Barracks Hotel Sentosa Small Luxury Hotels of the World Hotel\", \"Barracks Hotel Sentosa Small Luxury Hotels of the World Resort\", \"Barracks Hotel Sentosa Small Luxury Hotels of the World\", \"Barracks Hotel Sentosa Small Luxury Hotels of the World Singapore, Singapore Hotel\", \"Barracks Hotel Sentosa Small Luxury Hotels of the World Singapore, Singapore Resort\", \"Barracks Hotel Sentosa Small Luxury Hotels of the World Singapore, Singapore\", \"Barracks Hotel Sentosa Hilton Hotel\", \"Barracks Hotel Sentosa Hilton Resort\", \"Barracks Hotel Sentosa Hilton\", \"Barracks Hotel Sentosa Hilton Singapore, Singapore Hotel\", \"Barracks Hotel Sentosa Hilton Singapore, Singapore Resort\", \"Barracks Hotel Sentosa Hilton Singapore, Singapore\", \"The Barracks Hotel Sentosa Hotel\", \"The Barracks Hotel Sentosa Resort\", \"The Barracks Hotel Sentosa\", \"The Barracks Hotel Sentosa Singapore, Singapore Hotel\", \"The Barracks Hotel Sentosa Singapore, Singapore Resort\", \"The Barracks Hotel Sentosa Singapore, Singapore\"], \"v\": 3}": {
-    "lat": 1.2519692,
-    "lon": 103.8209931,
-    "formatted_address": "2 Gunner Ln, Singapore 099567",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ0cN3jf8b2jERUFt9yXd1Rws",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "2 Gunner Ln, Singapore 099567",
-      "geometry": {
-        "location": {
-          "lat": 1.2519692,
-          "lng": 103.8209931
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 1.253488630291502,
-            "lng": 103.8224680802915
-          },
-          "southwest": {
-            "lat": 1.250790669708498,
-            "lng": 103.8197701197085
-          }
-        }
-      },
-      "name": "The Barracks Hotel Sentosa",
-      "place_id": "ChIJ0cN3jf8b2jERUFt9yXd1Rws",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.thebarrackshotel.com.sg/?utm_source=googleplaces_tbh&utm_medium=organic"
     }
   },
   "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Tokyo Station Hotel Small Luxury Hotels of the World Hotel\", \"The Tokyo Station Hotel Small Luxury Hotels of the World Resort\", \"The Tokyo Station Hotel Small Luxury Hotels of the World\", \"The Tokyo Station Hotel Small Luxury Hotels of the World Tokyo, Japan Hotel\", \"The Tokyo Station Hotel Small Luxury Hotels of the World Tokyo, Japan Resort\", \"The Tokyo Station Hotel Small Luxury Hotels of the World Tokyo, Japan\", \"The Tokyo Station Hotel Hilton Hotel\", \"The Tokyo Station Hotel Hilton Resort\", \"The Tokyo Station Hotel Hilton\", \"The Tokyo Station Hotel Hilton Tokyo, Japan Hotel\", \"The Tokyo Station Hotel Hilton Tokyo, Japan Resort\", \"The Tokyo Station Hotel Hilton Tokyo, Japan\", \"Tokyo Station Hotel Small Luxury Hotels of the World Hotel\", \"Tokyo Station Hotel Small Luxury Hotels of the World Resort\", \"Tokyo Station Hotel Small Luxury Hotels of the World\", \"Tokyo Station Hotel Small Luxury Hotels of the World Tokyo, Japan Hotel\", \"Tokyo Station Hotel Small Luxury Hotels of the World Tokyo, Japan Resort\", \"Tokyo Station Hotel Small Luxury Hotels of the World Tokyo, Japan\", \"Tokyo Station Hotel Hilton Hotel\", \"Tokyo Station Hotel Hilton Resort\", \"Tokyo Station Hotel Hilton\", \"Tokyo Station Hotel Hilton Tokyo, Japan Hotel\", \"Tokyo Station Hotel Hilton Tokyo, Japan Resort\", \"Tokyo Station Hotel Hilton Tokyo, Japan\", \"The Tokyo Station Hotel Hotel\", \"The Tokyo Station Hotel Resort\", \"The Tokyo Station Hotel\", \"The Tokyo Station Hotel Tokyo, Japan Hotel\", \"The Tokyo Station Hotel Tokyo, Japan Resort\", \"The Tokyo Station Hotel Tokyo, Japan\"], \"v\": 3}": {
@@ -141618,48 +141534,6 @@
         "restaurant"
       ],
       "website": "https://hiddenhotels.com/cavalta-boutique-hotel/en/?partner=7449&utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness&utm_content=cavalta"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Barracks Hotel Sentosa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Barracks Hotel Sentosa Small Luxury Hotels of the World Hotel\", \"The Barracks Hotel Sentosa Small Luxury Hotels of the World Resort\", \"The Barracks Hotel Sentosa Small Luxury Hotels of the World\", \"The Barracks Hotel Sentosa Small Luxury Hotels of the World Singapore, Singapore Hotel\", \"The Barracks Hotel Sentosa Small Luxury Hotels of the World Singapore, Singapore Resort\", \"The Barracks Hotel Sentosa Small Luxury Hotels of the World Singapore, Singapore\", \"The Barracks Hotel Sentosa Hilton Hotel\", \"The Barracks Hotel Sentosa Hilton Resort\", \"The Barracks Hotel Sentosa Hilton\", \"The Barracks Hotel Sentosa Hilton Singapore, Singapore Hotel\", \"The Barracks Hotel Sentosa Hilton Singapore, Singapore Resort\", \"The Barracks Hotel Sentosa Hilton Singapore, Singapore\", \"Barracks Hotel Sentosa Small Luxury Hotels of the World Hotel\", \"Barracks Hotel Sentosa Small Luxury Hotels of the World Resort\", \"Barracks Hotel Sentosa Small Luxury Hotels of the World\", \"Barracks Hotel Sentosa Small Luxury Hotels of the World Singapore, Singapore Hotel\", \"Barracks Hotel Sentosa Small Luxury Hotels of the World Singapore, Singapore Resort\", \"Barracks Hotel Sentosa Small Luxury Hotels of the World Singapore, Singapore\", \"Barracks Hotel Sentosa Hilton Hotel\", \"Barracks Hotel Sentosa Hilton Resort\", \"Barracks Hotel Sentosa Hilton\", \"Barracks Hotel Sentosa Hilton Singapore, Singapore Hotel\", \"Barracks Hotel Sentosa Hilton Singapore, Singapore Resort\", \"Barracks Hotel Sentosa Hilton Singapore, Singapore\", \"The Barracks Hotel Sentosa Hotel\", \"The Barracks Hotel Sentosa Resort\", \"The Barracks Hotel Sentosa\", \"The Barracks Hotel Sentosa Singapore, Singapore Hotel\", \"The Barracks Hotel Sentosa Singapore, Singapore Resort\", \"The Barracks Hotel Sentosa Singapore, Singapore\"], \"v\": 3}": {
-    "lat": 1.2519692,
-    "lon": 103.8209931,
-    "formatted_address": "2 Gunner Ln, Singapore 099567",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ0cN3jf8b2jERUFt9yXd1Rws",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "2 Gunner Ln, Singapore 099567",
-      "geometry": {
-        "location": {
-          "lat": 1.2519692,
-          "lng": 103.8209931
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 1.253488630291502,
-            "lng": 103.8224680802915
-          },
-          "southwest": {
-            "lat": 1.250790669708498,
-            "lng": 103.8197701197085
-          }
-        }
-      },
-      "name": "The Barracks Hotel Sentosa",
-      "place_id": "ChIJ0cN3jf8b2jERUFt9yXd1Rws",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.thebarrackshotel.com.sg/?utm_source=googleplaces_tbh&utm_medium=organic"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Tannenhof\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Tannenhof Small Luxury Hotels of the World Hotel\", \"Hotel Tannenhof Small Luxury Hotels of the World Resort\", \"Hotel Tannenhof Small Luxury Hotels of the World\", \"Hotel Tannenhof Small Luxury Hotels of the World St. Anton am Arlberg, Austria Hotel\", \"Hotel Tannenhof Small Luxury Hotels of the World St. Anton am Arlberg, Austria Resort\", \"Hotel Tannenhof Small Luxury Hotels of the World St. Anton am Arlberg, Austria\", \"Hotel Tannenhof Hilton Hotel\", \"Hotel Tannenhof Hilton Resort\", \"Hotel Tannenhof Hilton\", \"Hotel Tannenhof Hilton St. Anton am Arlberg, Austria Hotel\", \"Hotel Tannenhof Hilton St. Anton am Arlberg, Austria Resort\", \"Hotel Tannenhof Hilton St. Anton am Arlberg, Austria\", \"Hotel Tannenhof Hotel\", \"Hotel Tannenhof Resort\", \"Hotel Tannenhof\", \"Hotel Tannenhof St. Anton am Arlberg, Austria Hotel\", \"Hotel Tannenhof St. Anton am Arlberg, Austria Resort\", \"Hotel Tannenhof St. Anton am Arlberg, Austria\"], \"v\": 3}": {
