@@ -3181,48 +3181,6 @@
       "website": "https://www.thereadhousehotel.com/"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel 55 Chicago Downtown Hotel\", \"Hotel 55 Chicago Downtown Resort\", \"Hotel 55 Chicago Downtown\", \"Hotel 55 Chicago Downtown Chicago, Illinois US Hotel\", \"Hotel 55 Chicago Downtown Chicago, Illinois US Resort\", \"Hotel 55 Chicago Downtown Chicago, Illinois US\"], \"v\": 3}": {
-    "lat": 41.8931911,
-    "lon": -87.62602070000001,
-    "formatted_address": "55 E Ontario St, Chicago, IL 60611, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJlW1EWmctDogRHofRXWsFe2s",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "55 E Ontario St, Chicago, IL 60611, USA",
-      "geometry": {
-        "location": {
-          "lat": 41.8931911,
-          "lng": -87.62602070000001
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 41.89460123029149,
-            "lng": -87.62459351970848
-          },
-          "southwest": {
-            "lat": 41.89190326970849,
-            "lng": -87.6272914802915
-          }
-        }
-      },
-      "name": "Hotel 55 Chicago Downtown",
-      "place_id": "ChIJlW1EWmctDogRHofRXWsFe2s",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/chidb-hotel-55-chicago-downtown/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Nobu Hotel Chicago Hotel\", \"Nobu Hotel Chicago Resort\", \"Nobu Hotel Chicago\", \"Nobu Hotel Chicago Chicago, Illinois US Hotel\", \"Nobu Hotel Chicago Chicago, Illinois US Resort\", \"Nobu Hotel Chicago Chicago, Illinois US\"], \"v\": 3}": {
     "lat": 41.8846776,
     "lon": -87.649469,
@@ -91709,48 +91667,6 @@
       "website": "https://www.thereadhousehotel.com/"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel 55 Chicago Downtown\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel 55 Chicago Downtown Hotel\", \"Hotel 55 Chicago Downtown Resort\", \"Hotel 55 Chicago Downtown\", \"Hotel 55 Chicago Downtown Chicago, Illinois US Hotel\", \"Hotel 55 Chicago Downtown Chicago, Illinois US Resort\", \"Hotel 55 Chicago Downtown Chicago, Illinois US\"], \"v\": 3}": {
-    "lat": 41.8931911,
-    "lon": -87.62602070000001,
-    "formatted_address": "55 E Ontario St, Chicago, IL 60611, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJlW1EWmctDogRHofRXWsFe2s",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "55 E Ontario St, Chicago, IL 60611, USA",
-      "geometry": {
-        "location": {
-          "lat": 41.8931911,
-          "lng": -87.62602070000001
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 41.89460123029149,
-            "lng": -87.62459351970848
-          },
-          "southwest": {
-            "lat": 41.89190326970849,
-            "lng": -87.6272914802915
-          }
-        }
-      },
-      "name": "Hotel 55 Chicago Downtown",
-      "place_id": "ChIJlW1EWmctDogRHofRXWsFe2s",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/chidb-hotel-55-chicago-downtown/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Nobu Hotel Chicago\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Nobu Hotel Chicago Hotel\", \"Nobu Hotel Chicago Resort\", \"Nobu Hotel Chicago\", \"Nobu Hotel Chicago Chicago, Illinois US Hotel\", \"Nobu Hotel Chicago Chicago, Illinois US Resort\", \"Nobu Hotel Chicago Chicago, Illinois US\"], \"v\": 3}": {
     "lat": 41.8846776,
     "lon": -87.649469,
@@ -156974,6 +156890,49 @@
         "restaurant"
       ],
       "website": "https://www.trumphotels.com/miami?utm_source=google-local&utm_medium=organic&utm_campaign=gmb"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Hotel\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Resort\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Chicago, Illinois US Hotel\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Chicago, Illinois US Resort\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Chicago, Illinois US\", \"Rivvy Chicago Downtown a Tribute Portfolio Hotel Hotel\", \"Rivvy Chicago Downtown a Tribute Portfolio Hotel Resort\", \"Rivvy Chicago Downtown a Tribute Portfolio Hotel\", \"Rivvy Chicago Downtown a Tribute Portfolio Hotel Chicago, Illinois US Hotel\", \"Rivvy Chicago Downtown a Tribute Portfolio Hotel Chicago, Illinois US Resort\", \"Rivvy Chicago Downtown a Tribute Portfolio Hotel Chicago, Illinois US\"], \"v\": 3}": {
+    "lat": 41.8931911,
+    "lon": -87.62602070000001,
+    "formatted_address": "55 E Ontario St, Chicago, IL 60611, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJlW1EWmctDogRHofRXWsFe2s",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "55 E Ontario St, Chicago, IL 60611, USA",
+      "geometry": {
+        "location": {
+          "lat": 41.8931911,
+          "lng": -87.62602070000001
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.89460123029149,
+            "lng": -87.62459351970848
+          },
+          "southwest": {
+            "lat": 41.89190326970849,
+            "lng": -87.6272914802915
+          }
+        }
+      },
+      "name": "The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel",
+      "place_id": "ChIJlW1EWmctDogRHofRXWsFe2s",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/chidb-the-rivvy-chicago-downtown-a-tribute-portfolio-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   }
 }

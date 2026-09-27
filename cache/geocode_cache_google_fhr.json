@@ -211827,5 +211827,49 @@
       ],
       "website": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/?SEO_id=GMB-EMEA-WA-JEDWAWA"
     }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Palazzo at The Venetian Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Palazzo at The Venetian Resort Hotel\", \"The Palazzo at The Venetian Resort Resort\", \"The Palazzo at The Venetian Resort\", \"The Palazzo at The Venetian Resort Las Vegas, Nevada US Hotel\", \"The Palazzo at The Venetian Resort Las Vegas, Nevada US Resort\", \"The Palazzo at The Venetian Resort Las Vegas, Nevada US\", \"Palazzo Venetian Resort Hotel\", \"Palazzo Venetian Resort Resort\", \"Palazzo Venetian Resort\", \"Palazzo Venetian Resort Las Vegas, Nevada US Hotel\", \"Palazzo Venetian Resort Las Vegas, Nevada US Resort\", \"Palazzo Venetian Resort Las Vegas, Nevada US\"], \"v\": 3}": {
+    "lat": 36.1240054,
+    "lon": -115.1679583,
+    "formatted_address": "3325 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ9TdsBj7EyIARVQQd4t-9bkU",
+    "types": [
+      "casino",
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "3325 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+      "geometry": {
+        "location": {
+          "lat": 36.1240054,
+          "lng": -115.1679583
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.12562488029149,
+            "lng": -115.1673888
+          },
+          "southwest": {
+            "lat": 36.1229269197085,
+            "lng": -115.170125
+          }
+        }
+      },
+      "name": "The Palazzo at The Venetian Resort",
+      "place_id": "ChIJ9TdsBj7EyIARVQQd4t-9bkU",
+      "types": [
+        "casino",
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.venetianlasvegas.com/hotel/the-palazzo.html"
+    }
   }
 }
