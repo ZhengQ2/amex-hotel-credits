@@ -156934,5 +156934,47 @@
       ],
       "website": "https://www.marriott.com/en-us/hotels/chidb-the-rivvy-chicago-downtown-a-tribute-portfolio-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Hari Hong Kong, Vignette Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Hari Hong Kong, Vignette Collection Hotel\", \"The Hari Hong Kong, Vignette Collection Resort\", \"The Hari Hong Kong, Vignette Collection\", \"The Hari Hong Kong, Vignette Collection Hong Kong, China Hotel\", \"The Hari Hong Kong, Vignette Collection Hong Kong, China Resort\", \"The Hari Hong Kong, Vignette Collection Hong Kong, China\", \"Hari Hong Kong Vignette Collection Hotel\", \"Hari Hong Kong Vignette Collection Resort\", \"Hari Hong Kong Vignette Collection\", \"Hari Hong Kong Vignette Collection Hong Kong, China Hotel\", \"Hari Hong Kong Vignette Collection Hong Kong, China Resort\", \"Hari Hong Kong Vignette Collection Hong Kong, China\"], \"v\": 3}": {
+    "lat": 22.2788492,
+    "lon": 114.1781606,
+    "formatted_address": "1/F, 330 Lockhart Rd, Wan Chai, Hong Kong",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJmfSEk7UBBDQRZpRxHKmlO5c",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1/F, 330 Lockhart Rd, Wan Chai, Hong Kong",
+      "geometry": {
+        "location": {
+          "lat": 22.2788492,
+          "lng": 114.1781606
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 22.2802299802915,
+            "lng": 114.1794992302915
+          },
+          "southwest": {
+            "lat": 22.2775320197085,
+            "lng": 114.1768012697085
+          }
+        }
+      },
+      "name": "The Hari Hong Kong",
+      "place_id": "ChIJmfSEk7UBBDQRZpRxHKmlO5c",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.thehari.com/hong-kong/"
+    }
   }
 }
