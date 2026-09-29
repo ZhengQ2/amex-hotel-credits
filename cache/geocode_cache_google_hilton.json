@@ -5839,50 +5839,6 @@
       "website": "https://www.hilton.com/en/hotels/miambhf-hilton-cabana-miami-beach-resort/?SEO_id=GMB-AMER-HH-MIAMBHF&y_source=1_MTcwNjY3MC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
-  "{\"brand\": \"Hilton Hotels & Resorts\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Cabo Verde Sal Resort Hilton Hotels & Resorts Hotel\", \"Hilton Cabo Verde Sal Resort Hilton Hotels & Resorts Resort\", \"Hilton Cabo Verde Sal Resort Hilton Hotels & Resorts\", \"Hilton Cabo Verde Sal Resort Hilton Hotel\", \"Hilton Cabo Verde Sal Resort Hilton Resort\", \"Hilton Cabo Verde Sal Resort Hilton\", \"sidcvhi Hilton cabo verde sal resort Hilton Hotels & Resorts Hotel\", \"sidcvhi Hilton cabo verde sal resort Hilton Hotels & Resorts Resort\", \"sidcvhi Hilton cabo verde sal resort Hilton Hotels & Resorts\", \"sidcvhi Hilton cabo verde sal resort Hilton Hotel\", \"sidcvhi Hilton cabo verde sal resort Hilton Resort\", \"sidcvhi Hilton cabo verde sal resort Hilton\", \"Hilton Cabo Verde Sal Resort Hotel\", \"Hilton Cabo Verde Sal Resort Resort\", \"Hilton Cabo Verde Sal Resort\"], \"v\": 3}": {
-    "lat": 16.5949955,
-    "lon": -22.9170143,
-    "formatted_address": "Avenida dos Hoteis, Santa Maria 4111, Cabo Verde",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ0SdtyHJcSwkRHKufYAwzWA8",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Avenida dos Hoteis, Santa Maria 4111, Cabo Verde",
-      "geometry": {
-        "location": {
-          "lat": 16.5949955,
-          "lng": -22.9170143
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 16.5963978802915,
-            "lng": -22.9157185197085
-          },
-          "southwest": {
-            "lat": 16.5936999197085,
-            "lng": -22.9184164802915
-          }
-        }
-      },
-      "name": "Hilton Cabo Verde Sal Resort",
-      "place_id": "ChIJ0SdtyHJcSwkRHKufYAwzWA8",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest",
-        "spa"
-      ],
-      "website": "https://www.hilton.com/en/hotels/sidcvhi-hilton-cabo-verde-sal-resort/?SEO_id=GMB-EMEA-HI-SIDCVHI"
-    }
-  },
   "{\"brand\": \"Hilton Hotels & Resorts\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Cancun Mar Caribe All-Inclusive Resort Hilton Hotels & Resorts Hotel\", \"Hilton Cancun Mar Caribe All-Inclusive Resort Hilton Hotels & Resorts Resort\", \"Hilton Cancun Mar Caribe All-Inclusive Resort Hilton Hotels & Resorts\", \"Hilton Cancun Mar Caribe All-Inclusive Resort Hilton Hotel\", \"Hilton Cancun Mar Caribe All-Inclusive Resort Hilton Resort\", \"Hilton Cancun Mar Caribe All-Inclusive Resort Hilton\", \"cunmchh Hilton cancun mar caribe all inclusive resort Hilton Hotels & Resorts Hotel\", \"cunmchh Hilton cancun mar caribe all inclusive resort Hilton Hotels & Resorts Resort\", \"cunmchh Hilton cancun mar caribe all inclusive resort Hilton Hotels & Resorts\", \"cunmchh Hilton cancun mar caribe all inclusive resort Hilton Hotel\", \"cunmchh Hilton cancun mar caribe all inclusive resort Hilton Resort\", \"cunmchh Hilton cancun mar caribe all inclusive resort Hilton\", \"Hilton Cancun Mar Caribe All-Inclusive Resort Hotel\", \"Hilton Cancun Mar Caribe All-Inclusive Resort Resort\", \"Hilton Cancun Mar Caribe All-Inclusive Resort\"], \"v\": 3}": {
     "lat": 21.071961,
     "lon": -86.77672129999999,
@@ -18710,50 +18666,6 @@
         "point_of_interest"
       ],
       "website": "https://www.hilton.com/en/hotels/miambhf-hilton-cabana-miami-beach-resort/?SEO_id=GMB-AMER-HH-MIAMBHF&y_source=1_MTcwNjY3MC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
-    }
-  },
-  "{\"brand\": \"Hilton Hotels & Resorts\", \"hotel_name\": \"Hilton Cabo Verde Sal Resort\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Cabo Verde Sal Resort Hilton Hotels & Resorts Hotel\", \"Hilton Cabo Verde Sal Resort Hilton Hotels & Resorts Resort\", \"Hilton Cabo Verde Sal Resort Hilton Hotels & Resorts\", \"Hilton Cabo Verde Sal Resort Hilton Hotel\", \"Hilton Cabo Verde Sal Resort Hilton Resort\", \"Hilton Cabo Verde Sal Resort Hilton\", \"sidcvhi Hilton cabo verde sal resort Hilton Hotels & Resorts Hotel\", \"sidcvhi Hilton cabo verde sal resort Hilton Hotels & Resorts Resort\", \"sidcvhi Hilton cabo verde sal resort Hilton Hotels & Resorts\", \"sidcvhi Hilton cabo verde sal resort Hilton Hotel\", \"sidcvhi Hilton cabo verde sal resort Hilton Resort\", \"sidcvhi Hilton cabo verde sal resort Hilton\", \"Hilton Cabo Verde Sal Resort Hotel\", \"Hilton Cabo Verde Sal Resort Resort\", \"Hilton Cabo Verde Sal Resort\"], \"v\": 3}": {
-    "lat": 16.5949955,
-    "lon": -22.9170143,
-    "formatted_address": "Avenida dos Hoteis, Santa Maria 4111, Cabo Verde",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ0SdtyHJcSwkRHKufYAwzWA8",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Avenida dos Hoteis, Santa Maria 4111, Cabo Verde",
-      "geometry": {
-        "location": {
-          "lat": 16.5949955,
-          "lng": -22.9170143
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 16.5963978802915,
-            "lng": -22.9157185197085
-          },
-          "southwest": {
-            "lat": 16.5936999197085,
-            "lng": -22.9184164802915
-          }
-        }
-      },
-      "name": "Hilton Cabo Verde Sal Resort",
-      "place_id": "ChIJ0SdtyHJcSwkRHKufYAwzWA8",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest",
-        "spa"
-      ],
-      "website": "https://www.hilton.com/en/hotels/sidcvhi-hilton-cabo-verde-sal-resort/?SEO_id=GMB-EMEA-HI-SIDCVHI"
     }
   },
   "{\"brand\": \"Hilton Hotels & Resorts\", \"hotel_name\": \"Hilton Cancun Mar Caribe All-Inclusive Resort\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Cancun Mar Caribe All-Inclusive Resort Hilton Hotels & Resorts Hotel\", \"Hilton Cancun Mar Caribe All-Inclusive Resort Hilton Hotels & Resorts Resort\", \"Hilton Cancun Mar Caribe All-Inclusive Resort Hilton Hotels & Resorts\", \"Hilton Cancun Mar Caribe All-Inclusive Resort Hilton Hotel\", \"Hilton Cancun Mar Caribe All-Inclusive Resort Hilton Resort\", \"Hilton Cancun Mar Caribe All-Inclusive Resort Hilton\", \"cunmchh Hilton cancun mar caribe all inclusive resort Hilton Hotels & Resorts Hotel\", \"cunmchh Hilton cancun mar caribe all inclusive resort Hilton Hotels & Resorts Resort\", \"cunmchh Hilton cancun mar caribe all inclusive resort Hilton Hotels & Resorts\", \"cunmchh Hilton cancun mar caribe all inclusive resort Hilton Hotel\", \"cunmchh Hilton cancun mar caribe all inclusive resort Hilton Resort\", \"cunmchh Hilton cancun mar caribe all inclusive resort Hilton\", \"Hilton Cancun Mar Caribe All-Inclusive Resort Hotel\", \"Hilton Cancun Mar Caribe All-Inclusive Resort Resort\", \"Hilton Cancun Mar Caribe All-Inclusive Resort\"], \"v\": 3}": {
