@@ -211787,5 +211787,132 @@
       ],
       "website": "https://www.venetianlasvegas.com/hotel/the-palazzo.html"
     }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Waldorf Astoria Riviera Maya\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Waldorf Astoria Riviera Maya\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Residences at The St. Regis Cap Cana Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Residences at The St. Regis Cap Cana Resort Hotel\", \"The Residences at The St. Regis Cap Cana Resort Resort\", \"The Residences at The St. Regis Cap Cana Resort\", \"The Residences at The St. Regis Cap Cana Resort Punta Cana, Dominican Republic Hotel\", \"The Residences at The St. Regis Cap Cana Resort Punta Cana, Dominican Republic Resort\", \"The Residences at The St. Regis Cap Cana Resort Punta Cana, Dominican Republic\", \"Residences St Regis Cap Cana Resort Hotel\", \"Residences St Regis Cap Cana Resort Resort\", \"Residences St Regis Cap Cana Resort\", \"Residences St Regis Cap Cana Resort Punta Cana, Dominican Republic Hotel\", \"Residences St Regis Cap Cana Resort Punta Cana, Dominican Republic Resort\", \"Residences St Regis Cap Cana Resort Punta Cana, Dominican Republic\"], \"v\": 3}": {
+    "lat": 18.4560625,
+    "lon": -68.4153125,
+    "formatted_address": "Punta Cana 23000, Dominican Republic",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ9701yJibqI4R2OeUYjuQJ9A",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Punta Cana 23000, Dominican Republic",
+      "geometry": {
+        "location": {
+          "lat": 18.4560625,
+          "lng": -68.4153125
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 18.4573874802915,
+            "lng": -68.41393591970849
+          },
+          "southwest": {
+            "lat": 18.4546895197085,
+            "lng": -68.41663388029151
+          }
+        }
+      },
+      "name": "The St. Regis Cap Cana Resort",
+      "place_id": "ChIJ9701yJibqI4R2OeUYjuQJ9A",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/pujxr-the-st-regis-cap-cana-resort/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"HUUS QUELL\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"HUUS QUELL The Leading Hotels of the World Hotel\", \"HUUS QUELL The Leading Hotels of the World Resort\", \"HUUS QUELL The Leading Hotels of the World\", \"HUUS QUELL The Leading Hotels of the World Gonten, Switzerland Hotel\", \"HUUS QUELL The Leading Hotels of the World Gonten, Switzerland Resort\", \"HUUS QUELL The Leading Hotels of the World Gonten, Switzerland\", \"HUUS QUELL Hilton Hotel\", \"HUUS QUELL Hilton Resort\", \"HUUS QUELL Hilton\", \"HUUS QUELL Hilton Gonten, Switzerland Hotel\", \"HUUS QUELL Hilton Gonten, Switzerland Resort\", \"HUUS QUELL Hilton Gonten, Switzerland\", \"Huus Quell The Leading Hotels of the World Hotel\", \"Huus Quell The Leading Hotels of the World Resort\", \"Huus Quell The Leading Hotels of the World\", \"Huus Quell The Leading Hotels of the World Gonten, Switzerland Hotel\", \"Huus Quell The Leading Hotels of the World Gonten, Switzerland Resort\", \"Huus Quell The Leading Hotels of the World Gonten, Switzerland\", \"Huus Quell Hilton Hotel\", \"Huus Quell Hilton Resort\", \"Huus Quell Hilton\", \"Huus Quell Hilton Gonten, Switzerland Hotel\", \"Huus Quell Hilton Gonten, Switzerland Resort\", \"Huus Quell Hilton Gonten, Switzerland\", \"HUUS QUELL Hotel\", \"HUUS QUELL Resort\", \"HUUS QUELL\", \"HUUS QUELL Gonten, Switzerland Hotel\", \"HUUS QUELL Gonten, Switzerland Resort\", \"HUUS QUELL Gonten, Switzerland\"], \"v\": 3}": {
+    "lat": 47.3289754,
+    "lon": 9.346454699999999,
+    "formatted_address": "Dorfstrasse 40, 9108 Gonten, Switzerland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJi9jqzj0hm0cRnvXQ3jaJX0c",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Dorfstrasse 40, 9108 Gonten, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.3289754,
+          "lng": 9.346454699999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.33024798029149,
+            "lng": 9.347899980291501
+          },
+          "southwest": {
+            "lat": 47.3275500197085,
+            "lng": 9.345202019708497
+          }
+        }
+      },
+      "name": "HUUS QUELL",
+      "place_id": "ChIJi9jqzj0hm0cRnvXQ3jaJX0c",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://appenzellerhuus.ch/de/hotels/hotels/huus-quell/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Waldorf Astoria Riviera Maya\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Waldorf Astoria Riviera Maya Waldorf Astoria Hotels & Resorts Hotel\", \"Waldorf Astoria Riviera Maya Waldorf Astoria Hotels & Resorts Resort\", \"Waldorf Astoria Riviera Maya Waldorf Astoria Hotels & Resorts\", \"Waldorf Astoria Riviera Maya Waldorf Astoria Hotels & Resorts Canc\\u00fan, Quintana Roo MX Hotel\", \"Waldorf Astoria Riviera Maya Waldorf Astoria Hotels & Resorts Canc\\u00fan, Quintana Roo MX Resort\", \"Waldorf Astoria Riviera Maya Waldorf Astoria Hotels & Resorts Canc\\u00fan, Quintana Roo MX\", \"Waldorf Astoria Riviera Maya Hilton Hotel\", \"Waldorf Astoria Riviera Maya Hilton Resort\", \"Waldorf Astoria Riviera Maya Hilton\", \"Waldorf Astoria Riviera Maya Hilton Canc\\u00fan, Quintana Roo MX Hotel\", \"Waldorf Astoria Riviera Maya Hilton Canc\\u00fan, Quintana Roo MX Resort\", \"Waldorf Astoria Riviera Maya Hilton Canc\\u00fan, Quintana Roo MX\", \"Waldorf Astoria Riviera Maya Hotel\", \"Waldorf Astoria Riviera Maya Resort\", \"Waldorf Astoria Riviera Maya\", \"Waldorf Astoria Riviera Maya Canc\\u00fan, Quintana Roo MX Hotel\", \"Waldorf Astoria Riviera Maya Canc\\u00fan, Quintana Roo MX Resort\", \"Waldorf Astoria Riviera Maya Canc\\u00fan, Quintana Roo MX\"], \"v\": 3}": {
+    "lat": 20.9520531,
+    "lon": -86.836666,
+    "formatted_address": "Carr Federal Libre 307 Cancun-Tulum 248-868, SM-36, MZ-1 LT-1-01 UPE-1E, 77580 Cancun, Q.R., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJkyOt07uGTo8RMr3LpxWrWeg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carr Federal Libre 307 Cancun-Tulum 248-868, SM-36, MZ-1 LT-1-01 UPE-1E, 77580 Cancun, Q.R., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 20.9520531,
+          "lng": -86.836666
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 20.9535151802915,
+            "lng": -86.83547511970849
+          },
+          "southwest": {
+            "lat": 20.9508172197085,
+            "lng": -86.83817308029151
+          }
+        }
+      },
+      "name": "Waldorf Astoria Riviera Maya",
+      "place_id": "ChIJkyOt07uGTo8RMr3LpxWrWeg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/cunwawa-waldorf-astoria-riviera-maya/?SEO_id=GMB-AMER-WA-CUNWAWA"
+    }
   }
 }
