@@ -12063,52 +12063,6 @@
       "website": "https://www.banyantree.com/mexico/puebla"
     }
   },
-  "{\"brand\": \"Barri\\u00e8re Group\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Barriere Le Majestic Cannes Barri\\u00e8re Group Hotel\", \"Hotel Barriere Le Majestic Cannes Barri\\u00e8re Group Resort\", \"Hotel Barriere Le Majestic Cannes Barri\\u00e8re Group\", \"Hotel Barriere Le Majestic Cannes Barri\\u00e8re Group Cannes, France Hotel\", \"Hotel Barriere Le Majestic Cannes Barri\\u00e8re Group Cannes, France Resort\", \"Hotel Barriere Le Majestic Cannes Barri\\u00e8re Group Cannes, France\", \"Hotel Barriere Le Majestic Cannes Hilton Hotel\", \"Hotel Barriere Le Majestic Cannes Hilton Resort\", \"Hotel Barriere Le Majestic Cannes Hilton\", \"Hotel Barriere Le Majestic Cannes Hilton Cannes, France Hotel\", \"Hotel Barriere Le Majestic Cannes Hilton Cannes, France Resort\", \"Hotel Barriere Le Majestic Cannes Hilton Cannes, France\", \"Hotel Barriere Le Majestic Cannes Hotel\", \"Hotel Barriere Le Majestic Cannes Resort\", \"Hotel Barriere Le Majestic Cannes\", \"Hotel Barriere Le Majestic Cannes Cannes, France Hotel\", \"Hotel Barriere Le Majestic Cannes Cannes, France Resort\", \"Hotel Barriere Le Majestic Cannes Cannes, France\"], \"v\": 3}": {
-    "lat": 43.5508821,
-    "lon": 7.01976,
-    "formatted_address": "10 Bd de la Croisette, 06400 Cannes, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ76FknZGBzhIRL394VZWcbbo",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "10 Bd de la Croisette, 06400 Cannes, France",
-      "geometry": {
-        "location": {
-          "lat": 43.5508821,
-          "lng": 7.01976
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 43.55221463029149,
-            "lng": 7.021102630291502
-          },
-          "southwest": {
-            "lat": 43.5495166697085,
-            "lng": 7.018404669708498
-          }
-        }
-      },
-      "name": "Hotel Barrière Le Majestic Cannes",
-      "place_id": "ChIJ76FknZGBzhIRL394VZWcbbo",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.hotelsbarriere.com/cannes/le-majestic"
-    }
-  },
   "{\"brand\": \"Barri\\u00e8re Group\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fouquets Courchevel Barri\\u00e8re Group Hotel\", \"Fouquets Courchevel Barri\\u00e8re Group Resort\", \"Fouquets Courchevel Barri\\u00e8re Group\", \"Fouquets Courchevel Barri\\u00e8re Group Courchevel, France Hotel\", \"Fouquets Courchevel Barri\\u00e8re Group Courchevel, France Resort\", \"Fouquets Courchevel Barri\\u00e8re Group Courchevel, France\", \"Fouquets Courchevel Hilton Hotel\", \"Fouquets Courchevel Hilton Resort\", \"Fouquets Courchevel Hilton\", \"Fouquets Courchevel Hilton Courchevel, France Hotel\", \"Fouquets Courchevel Hilton Courchevel, France Resort\", \"Fouquets Courchevel Hilton Courchevel, France\", \"Fouquet's Courchevel Barri\\u00e8re Group Hotel\", \"Fouquet's Courchevel Barri\\u00e8re Group Resort\", \"Fouquet's Courchevel Barri\\u00e8re Group\", \"Fouquet's Courchevel Barri\\u00e8re Group Courchevel, France Hotel\", \"Fouquet's Courchevel Barri\\u00e8re Group Courchevel, France Resort\", \"Fouquet's Courchevel Barri\\u00e8re Group Courchevel, France\", \"Fouquet's Courchevel Hilton Hotel\", \"Fouquet's Courchevel Hilton Resort\", \"Fouquet's Courchevel Hilton\", \"Fouquet's Courchevel Hilton Courchevel, France Hotel\", \"Fouquet's Courchevel Hilton Courchevel, France Resort\", \"Fouquet's Courchevel Hilton Courchevel, France\", \"Fouquet's Courchevel Hotel\", \"Fouquet's Courchevel Resort\", \"Fouquet's Courchevel\", \"Fouquet's Courchevel Courchevel, France Hotel\", \"Fouquet's Courchevel Courchevel, France Resort\", \"Fouquet's Courchevel Courchevel, France\"], \"v\": 3}": {
     "lat": 45.4123257,
     "lon": 6.636731999999999,
@@ -136935,52 +136889,6 @@
         "point_of_interest"
       ],
       "website": "https://www.banyantree.com/singapore/mandai-rainforest-resort-by-banyan-tree"
-    }
-  },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Barriere Le Majestic Cannes\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Barriere Le Majestic Cannes Barri\\u00e8re Group Hotel\", \"Hotel Barriere Le Majestic Cannes Barri\\u00e8re Group Resort\", \"Hotel Barriere Le Majestic Cannes Barri\\u00e8re Group\", \"Hotel Barriere Le Majestic Cannes Barri\\u00e8re Group Cannes, France Hotel\", \"Hotel Barriere Le Majestic Cannes Barri\\u00e8re Group Cannes, France Resort\", \"Hotel Barriere Le Majestic Cannes Barri\\u00e8re Group Cannes, France\", \"Hotel Barriere Le Majestic Cannes Hilton Hotel\", \"Hotel Barriere Le Majestic Cannes Hilton Resort\", \"Hotel Barriere Le Majestic Cannes Hilton\", \"Hotel Barriere Le Majestic Cannes Hilton Cannes, France Hotel\", \"Hotel Barriere Le Majestic Cannes Hilton Cannes, France Resort\", \"Hotel Barriere Le Majestic Cannes Hilton Cannes, France\", \"Hotel Barriere Le Majestic Cannes Hotel\", \"Hotel Barriere Le Majestic Cannes Resort\", \"Hotel Barriere Le Majestic Cannes\", \"Hotel Barriere Le Majestic Cannes Cannes, France Hotel\", \"Hotel Barriere Le Majestic Cannes Cannes, France Resort\", \"Hotel Barriere Le Majestic Cannes Cannes, France\"], \"v\": 3}": {
-    "lat": 43.5508821,
-    "lon": 7.01976,
-    "formatted_address": "10 Bd de la Croisette, 06400 Cannes, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ76FknZGBzhIRL394VZWcbbo",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "10 Bd de la Croisette, 06400 Cannes, France",
-      "geometry": {
-        "location": {
-          "lat": 43.5508821,
-          "lng": 7.01976
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 43.55221463029149,
-            "lng": 7.021102630291502
-          },
-          "southwest": {
-            "lat": 43.5495166697085,
-            "lng": 7.018404669708498
-          }
-        }
-      },
-      "name": "Hotel Barrière Le Majestic Cannes",
-      "place_id": "ChIJ76FknZGBzhIRL394VZWcbbo",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.hotelsbarriere.com/cannes/le-majestic"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Fouquet's Courchevel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fouquet's Courchevel Barri\\u00e8re Group Hotel\", \"Fouquet's Courchevel Barri\\u00e8re Group Resort\", \"Fouquet's Courchevel Barri\\u00e8re Group\", \"Fouquet's Courchevel Barri\\u00e8re Group Courchevel, France Hotel\", \"Fouquet's Courchevel Barri\\u00e8re Group Courchevel, France Resort\", \"Fouquet's Courchevel Barri\\u00e8re Group Courchevel, France\", \"Fouquet's Courchevel Hilton Hotel\", \"Fouquet's Courchevel Hilton Resort\", \"Fouquet's Courchevel Hilton\", \"Fouquet's Courchevel Hilton Courchevel, France Hotel\", \"Fouquet's Courchevel Hilton Courchevel, France Resort\", \"Fouquet's Courchevel Hilton Courchevel, France\", \"Fouquets Courchevel Barri\\u00e8re Group Hotel\", \"Fouquets Courchevel Barri\\u00e8re Group Resort\", \"Fouquets Courchevel Barri\\u00e8re Group\", \"Fouquets Courchevel Barri\\u00e8re Group Courchevel, France Hotel\", \"Fouquets Courchevel Barri\\u00e8re Group Courchevel, France Resort\", \"Fouquets Courchevel Barri\\u00e8re Group Courchevel, France\", \"Fouquets Courchevel Hilton Hotel\", \"Fouquets Courchevel Hilton Resort\", \"Fouquets Courchevel Hilton\", \"Fouquets Courchevel Hilton Courchevel, France Hotel\", \"Fouquets Courchevel Hilton Courchevel, France Resort\", \"Fouquets Courchevel Hilton Courchevel, France\", \"Fouquet's Courchevel Hotel\", \"Fouquet's Courchevel Resort\", \"Fouquet's Courchevel\", \"Fouquet's Courchevel Courchevel, France Hotel\", \"Fouquet's Courchevel Courchevel, France Resort\", \"Fouquet's Courchevel Courchevel, France\"], \"v\": 3}": {

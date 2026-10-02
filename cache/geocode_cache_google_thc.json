@@ -13365,48 +13365,6 @@
       "website": "https://www.marriott.com/en-us/hotels/yulak-humaniti-hotel-montreal-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"Autograph Collection Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Bohemian Hotel Mountain Brook Autograph Collection Autograph Collection Hotels Hotel\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Autograph Collection Hotels Resort\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Autograph Collection Hotels\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US Hotel\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US Resort\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Hilton Hotel\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Hilton Resort\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Hilton\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Hilton Mountain Brook, Alabama US Hotel\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Hilton Mountain Brook, Alabama US Resort\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Hilton Mountain Brook, Alabama US\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Autograph Collection Hotels Hotel\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Autograph Collection Hotels Resort\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Autograph Collection Hotels\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US Hotel\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US Resort\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hilton Hotel\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hilton Resort\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hilton\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hilton Mountain Brook, Alabama US Hotel\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hilton Mountain Brook, Alabama US Resort\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hilton Mountain Brook, Alabama US\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hotel\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Resort\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Mountain Brook, Alabama US Hotel\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Mountain Brook, Alabama US Resort\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Mountain Brook, Alabama US\"], \"v\": 3}": {
-    "lat": 33.4877821,
-    "lon": -86.7740589,
-    "formatted_address": "2655 Lane Park Rd, Birmingham, AL 35223, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJETQptSkaiYgRoeohBx9xhLI",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "2655 Lane Park Rd, Birmingham, AL 35223, USA",
-      "geometry": {
-        "location": {
-          "lat": 33.4877821,
-          "lng": -86.7740589
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 33.4891200802915,
-            "lng": -86.77285781970849
-          },
-          "southwest": {
-            "lat": 33.4864221197085,
-            "lng": -86.7755557802915
-          }
-        }
-      },
-      "name": "Grand Bohemian Mountain Brook, Autograph Collection",
-      "place_id": "ChIJETQptSkaiYgRoeohBx9xhLI",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/bhmag-grand-bohemian-mountain-brook-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
   "{\"brand\": \"Autograph Collection Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Union Station Nashville Yards Autograph Collection Hotels Hotel\", \"Union Station Nashville Yards Autograph Collection Hotels Resort\", \"Union Station Nashville Yards Autograph Collection Hotels\", \"Union Station Nashville Yards Autograph Collection Hotels Nashville, Tennessee US Hotel\", \"Union Station Nashville Yards Autograph Collection Hotels Nashville, Tennessee US Resort\", \"Union Station Nashville Yards Autograph Collection Hotels Nashville, Tennessee US\", \"Union Station Nashville Yards Hilton Hotel\", \"Union Station Nashville Yards Hilton Resort\", \"Union Station Nashville Yards Hilton\", \"Union Station Nashville Yards Hilton Nashville, Tennessee US Hotel\", \"Union Station Nashville Yards Hilton Nashville, Tennessee US Resort\", \"Union Station Nashville Yards Hilton Nashville, Tennessee US\", \"The Union Station Nashville Yards Autograph Collection Hotels Hotel\", \"The Union Station Nashville Yards Autograph Collection Hotels Resort\", \"The Union Station Nashville Yards Autograph Collection Hotels\", \"The Union Station Nashville Yards Autograph Collection Hotels Nashville, Tennessee US Hotel\", \"The Union Station Nashville Yards Autograph Collection Hotels Nashville, Tennessee US Resort\", \"The Union Station Nashville Yards Autograph Collection Hotels Nashville, Tennessee US\", \"The Union Station Nashville Yards Hilton Hotel\", \"The Union Station Nashville Yards Hilton Resort\", \"The Union Station Nashville Yards Hilton\", \"The Union Station Nashville Yards Hilton Nashville, Tennessee US Hotel\", \"The Union Station Nashville Yards Hilton Nashville, Tennessee US Resort\", \"The Union Station Nashville Yards Hilton Nashville, Tennessee US\", \"The Union Station Nashville Yards Hotel\", \"The Union Station Nashville Yards Resort\", \"The Union Station Nashville Yards\", \"The Union Station Nashville Yards Nashville, Tennessee US Hotel\", \"The Union Station Nashville Yards Nashville, Tennessee US Resort\", \"The Union Station Nashville Yards Nashville, Tennessee US\"], \"v\": 3}": {
     "lat": 36.1572649,
     "lon": -86.78476979999999,
@@ -61305,48 +61263,6 @@
       "website": "https://www.marriott.com/en-us/hotels/mspak-emery-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"Autograph Collection Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Bohemian Hotel Mountain Brook, Autograph Collection Autograph Collection Hotels Hotel\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Autograph Collection Hotels Resort\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Autograph Collection Hotels\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US Hotel\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US Resort\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hilton Hotel\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hilton Resort\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hilton\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hilton Mountain Brook, Alabama US Hotel\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hilton Mountain Brook, Alabama US Resort\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hilton Mountain Brook, Alabama US\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Autograph Collection Hotels Hotel\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Autograph Collection Hotels Resort\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Autograph Collection Hotels\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US Hotel\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US Resort\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Hilton Hotel\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Hilton Resort\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Hilton\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Hilton Mountain Brook, Alabama US Hotel\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Hilton Mountain Brook, Alabama US Resort\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Hilton Mountain Brook, Alabama US\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hotel\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Resort\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Mountain Brook, Alabama US Hotel\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Mountain Brook, Alabama US Resort\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Mountain Brook, Alabama US\"], \"v\": 3}": {
-    "lat": 33.4877821,
-    "lon": -86.7740589,
-    "formatted_address": "2655 Lane Park Rd, Birmingham, AL 35223, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJETQptSkaiYgRoeohBx9xhLI",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "2655 Lane Park Rd, Birmingham, AL 35223, USA",
-      "geometry": {
-        "location": {
-          "lat": 33.4877821,
-          "lng": -86.7740589
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 33.4891200802915,
-            "lng": -86.77285781970849
-          },
-          "southwest": {
-            "lat": 33.4864221197085,
-            "lng": -86.7755557802915
-          }
-        }
-      },
-      "name": "Grand Bohemian Mountain Brook, Autograph Collection",
-      "place_id": "ChIJETQptSkaiYgRoeohBx9xhLI",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/bhmag-grand-bohemian-mountain-brook-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
   "{\"brand\": \"Autograph Collection Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Union Station Nashville Yards Autograph Collection Hotels Hotel\", \"The Union Station Nashville Yards Autograph Collection Hotels Resort\", \"The Union Station Nashville Yards Autograph Collection Hotels\", \"The Union Station Nashville Yards Autograph Collection Hotels Nashville, Tennessee US Hotel\", \"The Union Station Nashville Yards Autograph Collection Hotels Nashville, Tennessee US Resort\", \"The Union Station Nashville Yards Autograph Collection Hotels Nashville, Tennessee US\", \"The Union Station Nashville Yards Hilton Hotel\", \"The Union Station Nashville Yards Hilton Resort\", \"The Union Station Nashville Yards Hilton\", \"The Union Station Nashville Yards Hilton Nashville, Tennessee US Hotel\", \"The Union Station Nashville Yards Hilton Nashville, Tennessee US Resort\", \"The Union Station Nashville Yards Hilton Nashville, Tennessee US\", \"Union Station Nashville Yards Autograph Collection Hotels Hotel\", \"Union Station Nashville Yards Autograph Collection Hotels Resort\", \"Union Station Nashville Yards Autograph Collection Hotels\", \"Union Station Nashville Yards Autograph Collection Hotels Nashville, Tennessee US Hotel\", \"Union Station Nashville Yards Autograph Collection Hotels Nashville, Tennessee US Resort\", \"Union Station Nashville Yards Autograph Collection Hotels Nashville, Tennessee US\", \"Union Station Nashville Yards Hilton Hotel\", \"Union Station Nashville Yards Hilton Resort\", \"Union Station Nashville Yards Hilton\", \"Union Station Nashville Yards Hilton Nashville, Tennessee US Hotel\", \"Union Station Nashville Yards Hilton Nashville, Tennessee US Resort\", \"Union Station Nashville Yards Hilton Nashville, Tennessee US\", \"The Union Station Nashville Yards Hotel\", \"The Union Station Nashville Yards Resort\", \"The Union Station Nashville Yards\", \"The Union Station Nashville Yards Nashville, Tennessee US Hotel\", \"The Union Station Nashville Yards Nashville, Tennessee US Resort\", \"The Union Station Nashville Yards Nashville, Tennessee US\"], \"v\": 3}": {
     "lat": 36.1572649,
     "lon": -86.78476979999999,
@@ -102561,48 +102477,6 @@
         "point_of_interest"
       ],
       "website": "https://www.marriott.com/en-us/hotels/yulak-humaniti-hotel-montreal-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Grand Bohemian Hotel Mountain Brook, Autograph Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Bohemian Hotel Mountain Brook, Autograph Collection Autograph Collection Hotels Hotel\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Autograph Collection Hotels Resort\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Autograph Collection Hotels\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US Hotel\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US Resort\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hilton Hotel\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hilton Resort\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hilton\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hilton Mountain Brook, Alabama US Hotel\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hilton Mountain Brook, Alabama US Resort\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hilton Mountain Brook, Alabama US\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Autograph Collection Hotels Hotel\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Autograph Collection Hotels Resort\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Autograph Collection Hotels\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US Hotel\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US Resort\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Hilton Hotel\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Hilton Resort\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Hilton\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Hilton Mountain Brook, Alabama US Hotel\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Hilton Mountain Brook, Alabama US Resort\", \"Grand Bohemian Hotel Mountain Brook Autograph Collection Hilton Mountain Brook, Alabama US\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Hotel\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Resort\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Mountain Brook, Alabama US Hotel\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Mountain Brook, Alabama US Resort\", \"Grand Bohemian Hotel Mountain Brook, Autograph Collection Mountain Brook, Alabama US\"], \"v\": 3}": {
-    "lat": 33.4877821,
-    "lon": -86.7740589,
-    "formatted_address": "2655 Lane Park Rd, Birmingham, AL 35223, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJETQptSkaiYgRoeohBx9xhLI",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "2655 Lane Park Rd, Birmingham, AL 35223, USA",
-      "geometry": {
-        "location": {
-          "lat": 33.4877821,
-          "lng": -86.7740589
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 33.4891200802915,
-            "lng": -86.77285781970849
-          },
-          "southwest": {
-            "lat": 33.4864221197085,
-            "lng": -86.7755557802915
-          }
-        }
-      },
-      "name": "Grand Bohemian Mountain Brook, Autograph Collection",
-      "place_id": "ChIJETQptSkaiYgRoeohBx9xhLI",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/bhmag-grand-bohemian-mountain-brook-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Dean Munich - Autograph Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Dean Munich - Autograph Collection Autograph Collection Hotels Hotel\", \"The Dean Munich - Autograph Collection Autograph Collection Hotels Resort\", \"The Dean Munich - Autograph Collection Autograph Collection Hotels\", \"The Dean Munich - Autograph Collection Autograph Collection Hotels Munich, Germany Hotel\", \"The Dean Munich - Autograph Collection Autograph Collection Hotels Munich, Germany Resort\", \"The Dean Munich - Autograph Collection Autograph Collection Hotels Munich, Germany\", \"The Dean Munich - Autograph Collection Hilton Hotel\", \"The Dean Munich - Autograph Collection Hilton Resort\", \"The Dean Munich - Autograph Collection Hilton\", \"The Dean Munich - Autograph Collection Hilton Munich, Germany Hotel\", \"The Dean Munich - Autograph Collection Hilton Munich, Germany Resort\", \"The Dean Munich - Autograph Collection Hilton Munich, Germany\", \"Dean Munich Autograph Collection Autograph Collection Hotels Hotel\", \"Dean Munich Autograph Collection Autograph Collection Hotels Resort\", \"Dean Munich Autograph Collection Autograph Collection Hotels\", \"Dean Munich Autograph Collection Autograph Collection Hotels Munich, Germany Hotel\", \"Dean Munich Autograph Collection Autograph Collection Hotels Munich, Germany Resort\", \"Dean Munich Autograph Collection Autograph Collection Hotels Munich, Germany\", \"Dean Munich Autograph Collection Hilton Hotel\", \"Dean Munich Autograph Collection Hilton Resort\", \"Dean Munich Autograph Collection Hilton\", \"Dean Munich Autograph Collection Hilton Munich, Germany Hotel\", \"Dean Munich Autograph Collection Hilton Munich, Germany Resort\", \"Dean Munich Autograph Collection Hilton Munich, Germany\", \"The Dean Munich - Autograph Collection Hotel\", \"The Dean Munich - Autograph Collection Resort\", \"The Dean Munich - Autograph Collection\", \"The Dean Munich - Autograph Collection Munich, Germany Hotel\", \"The Dean Munich - Autograph Collection Munich, Germany Resort\", \"The Dean Munich - Autograph Collection Munich, Germany\"], \"v\": 3}": {
@@ -156975,6 +156849,149 @@
         "point_of_interest"
       ],
       "website": "https://www.thehari.com/hong-kong/"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hotel Operis, Autograph Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Operis, Autograph Collection\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hotel Wildemont, Autograph Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Wildemont, Autograph Collection\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Operis, Autograph Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Operis, Autograph Collection Autograph Collection Hotels Hotel\", \"Hotel Operis, Autograph Collection Autograph Collection Hotels Resort\", \"Hotel Operis, Autograph Collection Autograph Collection Hotels\", \"Hotel Operis, Autograph Collection Autograph Collection Hotels Charleston, South Carolina US Hotel\", \"Hotel Operis, Autograph Collection Autograph Collection Hotels Charleston, South Carolina US Resort\", \"Hotel Operis, Autograph Collection Autograph Collection Hotels Charleston, South Carolina US\", \"Hotel Operis, Autograph Collection Hilton Hotel\", \"Hotel Operis, Autograph Collection Hilton Resort\", \"Hotel Operis, Autograph Collection Hilton\", \"Hotel Operis, Autograph Collection Hilton Charleston, South Carolina US Hotel\", \"Hotel Operis, Autograph Collection Hilton Charleston, South Carolina US Resort\", \"Hotel Operis, Autograph Collection Hilton Charleston, South Carolina US\", \"Hotel Operis Autograph Collection Autograph Collection Hotels Hotel\", \"Hotel Operis Autograph Collection Autograph Collection Hotels Resort\", \"Hotel Operis Autograph Collection Autograph Collection Hotels\", \"Hotel Operis Autograph Collection Autograph Collection Hotels Charleston, South Carolina US Hotel\", \"Hotel Operis Autograph Collection Autograph Collection Hotels Charleston, South Carolina US Resort\", \"Hotel Operis Autograph Collection Autograph Collection Hotels Charleston, South Carolina US\", \"Hotel Operis Autograph Collection Hilton Hotel\", \"Hotel Operis Autograph Collection Hilton Resort\", \"Hotel Operis Autograph Collection Hilton\", \"Hotel Operis Autograph Collection Hilton Charleston, South Carolina US Hotel\", \"Hotel Operis Autograph Collection Hilton Charleston, South Carolina US Resort\", \"Hotel Operis Autograph Collection Hilton Charleston, South Carolina US\", \"Hotel Operis, Autograph Collection Hotel\", \"Hotel Operis, Autograph Collection Resort\", \"Hotel Operis, Autograph Collection\", \"Hotel Operis, Autograph Collection Charleston, South Carolina US Hotel\", \"Hotel Operis, Autograph Collection Charleston, South Carolina US Resort\", \"Hotel Operis, Autograph Collection Charleston, South Carolina US\"], \"v\": 3}": {
+    "lat": 32.7830378,
+    "lon": -79.9323831,
+    "formatted_address": "55 Wentworth St, Charleston, SC 29401, USA",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
+    "place_id": "ChIJteC-8RJ6_ogRUUPtLB-ChxA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": true,
+    "raw": {
+      "address_components": [
+        {
+          "long_name": "55",
+          "short_name": "55",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Wentworth Street",
+          "short_name": "Wentworth St",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Charleston",
+          "short_name": "Charleston",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Charleston County",
+          "short_name": "Charleston County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "South Carolina",
+          "short_name": "SC",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "29401",
+          "short_name": "29401",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "55 Wentworth St, Charleston, SC 29401, USA",
+      "geometry": {
+        "location": {
+          "lat": 32.7830378,
+          "lng": -79.9323831
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 32.7844218802915,
+            "lng": -79.93105656970849
+          },
+          "southwest": {
+            "lat": 32.7817239197085,
+            "lng": -79.93375453029151
+          }
+        }
+      },
+      "partial_match": true,
+      "place_id": "ChIJteC-8RJ6_ogRUUPtLB-ChxA",
+      "plus_code": {
+        "compound_code": "Q3M9+62 Charleston, SC",
+        "global_code": "8742Q3M9+62"
+      },
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Wildemont, Autograph Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Wildemont, Autograph Collection Autograph Collection Hotels Hotel\", \"Hotel Wildemont, Autograph Collection Autograph Collection Hotels Resort\", \"Hotel Wildemont, Autograph Collection Autograph Collection Hotels\", \"Hotel Wildemont, Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US Hotel\", \"Hotel Wildemont, Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US Resort\", \"Hotel Wildemont, Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US\", \"Hotel Wildemont, Autograph Collection Hilton Hotel\", \"Hotel Wildemont, Autograph Collection Hilton Resort\", \"Hotel Wildemont, Autograph Collection Hilton\", \"Hotel Wildemont, Autograph Collection Hilton Mountain Brook, Alabama US Hotel\", \"Hotel Wildemont, Autograph Collection Hilton Mountain Brook, Alabama US Resort\", \"Hotel Wildemont, Autograph Collection Hilton Mountain Brook, Alabama US\", \"Hotel Wildemont Autograph Collection Autograph Collection Hotels Hotel\", \"Hotel Wildemont Autograph Collection Autograph Collection Hotels Resort\", \"Hotel Wildemont Autograph Collection Autograph Collection Hotels\", \"Hotel Wildemont Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US Hotel\", \"Hotel Wildemont Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US Resort\", \"Hotel Wildemont Autograph Collection Autograph Collection Hotels Mountain Brook, Alabama US\", \"Hotel Wildemont Autograph Collection Hilton Hotel\", \"Hotel Wildemont Autograph Collection Hilton Resort\", \"Hotel Wildemont Autograph Collection Hilton\", \"Hotel Wildemont Autograph Collection Hilton Mountain Brook, Alabama US Hotel\", \"Hotel Wildemont Autograph Collection Hilton Mountain Brook, Alabama US Resort\", \"Hotel Wildemont Autograph Collection Hilton Mountain Brook, Alabama US\", \"Hotel Wildemont, Autograph Collection Hotel\", \"Hotel Wildemont, Autograph Collection Resort\", \"Hotel Wildemont, Autograph Collection\", \"Hotel Wildemont, Autograph Collection Mountain Brook, Alabama US Hotel\", \"Hotel Wildemont, Autograph Collection Mountain Brook, Alabama US Resort\", \"Hotel Wildemont, Autograph Collection Mountain Brook, Alabama US\"], \"v\": 3}": {
+    "lat": 33.487664,
+    "lon": -86.77404659999999,
+    "formatted_address": "2655 Lane Park Rd, Birmingham, AL 35223, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJsWPftCkaiYgRKC-Mq_a1EMQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2655 Lane Park Rd, Birmingham, AL 35223, USA",
+      "geometry": {
+        "location": {
+          "lat": 33.487664,
+          "lng": -86.77404659999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.4890130802915,
+            "lng": -86.7728517197085
+          },
+          "southwest": {
+            "lat": 33.4863151197085,
+            "lng": -86.7755496802915
+          }
+        }
+      },
+      "name": "Hotel Wildemont, Autograph Collection",
+      "place_id": "ChIJsWPftCkaiYgRKC-Mq_a1EMQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
     }
   }
 }
