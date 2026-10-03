@@ -211822,5 +211822,95 @@
       ],
       "website": "https://www.hilton.com/en/hotels/cunwawa-waldorf-astoria-riviera-maya/?SEO_id=GMB-AMER-WA-CUNWAWA"
     }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"The Knox, Auberge Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Knox, Auberge Collection\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Hotel Barriere Le Majestic Cannes\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Barriere Le Majestic Cannes\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Knox, Auberge Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Knox, Auberge Collection Hotel\", \"The Knox, Auberge Collection Resort\", \"The Knox, Auberge Collection\", \"The Knox, Auberge Collection Dallas, Texas US Hotel\", \"The Knox, Auberge Collection Dallas, Texas US Resort\", \"The Knox, Auberge Collection Dallas, Texas US\", \"Knox Auberge Collection Hotel\", \"Knox Auberge Collection Resort\", \"Knox Auberge Collection\", \"Knox Auberge Collection Dallas, Texas US Hotel\", \"Knox Auberge Collection Dallas, Texas US Resort\", \"Knox Auberge Collection Dallas, Texas US\"], \"v\": 3}": {
+    "lat": 32.8234346,
+    "lon": -96.7906605,
+    "formatted_address": "4555 Travis St, Dallas, TX 75205, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJtfjRaACfToYRSKK-D9X4daM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "4555 Travis St, Dallas, TX 75205, USA",
+      "geometry": {
+        "location": {
+          "lat": 32.8234346,
+          "lng": -96.7906605
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.8247248802915,
+            "lng": -96.7892362197085
+          },
+          "southwest": {
+            "lat": 32.8220269197085,
+            "lng": -96.7919341802915
+          }
+        }
+      },
+      "name": "The Knox Hotel and Residences",
+      "place_id": "ChIJtfjRaACfToYRSKK-D9X4daM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://auberge.com/the-knox/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Barriere Le Majestic Cannes\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Barriere Le Majestic Cannes Barri\\u00e8re Group Hotel\", \"Hotel Barriere Le Majestic Cannes Barri\\u00e8re Group Resort\", \"Hotel Barriere Le Majestic Cannes Barri\\u00e8re Group\", \"Hotel Barriere Le Majestic Cannes Barri\\u00e8re Group Cannes, France Hotel\", \"Hotel Barriere Le Majestic Cannes Barri\\u00e8re Group Cannes, France Resort\", \"Hotel Barriere Le Majestic Cannes Barri\\u00e8re Group Cannes, France\", \"Hotel Barriere Le Majestic Cannes Hilton Hotel\", \"Hotel Barriere Le Majestic Cannes Hilton Resort\", \"Hotel Barriere Le Majestic Cannes Hilton\", \"Hotel Barriere Le Majestic Cannes Hilton Cannes, France Hotel\", \"Hotel Barriere Le Majestic Cannes Hilton Cannes, France Resort\", \"Hotel Barriere Le Majestic Cannes Hilton Cannes, France\", \"Hotel Barriere Le Majestic Cannes Hotel\", \"Hotel Barriere Le Majestic Cannes Resort\", \"Hotel Barriere Le Majestic Cannes\", \"Hotel Barriere Le Majestic Cannes Cannes, France Hotel\", \"Hotel Barriere Le Majestic Cannes Cannes, France Resort\", \"Hotel Barriere Le Majestic Cannes Cannes, France\"], \"v\": 3}": {
+    "lat": 43.5508821,
+    "lon": 7.01976,
+    "formatted_address": "10 Bd de la Croisette, 06400 Cannes, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ76FknZGBzhIRL394VZWcbbo",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "10 Bd de la Croisette, 06400 Cannes, France",
+      "geometry": {
+        "location": {
+          "lat": 43.5508821,
+          "lng": 7.01976
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.55239228029149,
+            "lng": 7.021281580291502
+          },
+          "southwest": {
+            "lat": 43.5496943197085,
+            "lng": 7.018583619708497
+          }
+        }
+      },
+      "name": "Hotel Barrière Le Majestic Cannes",
+      "place_id": "ChIJ76FknZGBzhIRL394VZWcbbo",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.hotelsbarriere.com/cannes/le-majestic"
+    }
   }
 }
