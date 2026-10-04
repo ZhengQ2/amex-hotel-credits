@@ -46890,58 +46890,6 @@
       "website": "https://www.rosewoodhotels.com/en/mandarina"
     }
   },
-  "{\"brand\": \"Rosewood Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rosewood Le Guanahani St Barth Rosewood Hotels & Resorts Hotel\", \"Rosewood Le Guanahani St Barth Rosewood Hotels & Resorts Resort\", \"Rosewood Le Guanahani St Barth Rosewood Hotels & Resorts\", \"Rosewood Le Guanahani St Barth Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Rosewood Le Guanahani St Barth Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Rosewood Le Guanahani St Barth Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy\", \"Rosewood Le Guanahani St Barth Hilton Hotel\", \"Rosewood Le Guanahani St Barth Hilton Resort\", \"Rosewood Le Guanahani St Barth Hilton\", \"Rosewood Le Guanahani St Barth Hilton Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Rosewood Le Guanahani St Barth Hilton Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Rosewood Le Guanahani St Barth Hilton Grand Cul-de-Sac, Saint Barthelemy\", \"Rosewood Le Guanahani St. Barth Rosewood Hotels & Resorts Hotel\", \"Rosewood Le Guanahani St. Barth Rosewood Hotels & Resorts Resort\", \"Rosewood Le Guanahani St. Barth Rosewood Hotels & Resorts\", \"Rosewood Le Guanahani St. Barth Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Rosewood Le Guanahani St. Barth Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Rosewood Le Guanahani St. Barth Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy\", \"Rosewood Le Guanahani St. Barth Hilton Hotel\", \"Rosewood Le Guanahani St. Barth Hilton Resort\", \"Rosewood Le Guanahani St. Barth Hilton\", \"Rosewood Le Guanahani St. Barth Hilton Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Rosewood Le Guanahani St. Barth Hilton Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Rosewood Le Guanahani St. Barth Hilton Grand Cul-de-Sac, Saint Barthelemy\", \"Rosewood Le Guanahani St. Barth Hotel\", \"Rosewood Le Guanahani St. Barth Resort\", \"Rosewood Le Guanahani St. Barth\", \"Rosewood Le Guanahani St. Barth Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Rosewood Le Guanahani St. Barth Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Rosewood Le Guanahani St. Barth Grand Cul-de-Sac, Saint Barthelemy\"], \"v\": 3}": {
-    "lat": 17.9123155,
-    "lon": -62.8037432,
-    "formatted_address": "D209, 97133, St Barthélemy",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJh2i0kurfDYwRzK4HSdds2lU",
-    "types": [
-      "clothing_store",
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa",
-      "store"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "D209, 97133, St Barthélemy",
-      "geometry": {
-        "location": {
-          "lat": 17.9123155,
-          "lng": -62.8037432
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 17.9136862802915,
-            "lng": -62.8024483697085
-          },
-          "southwest": {
-            "lat": 17.91098831970849,
-            "lng": -62.80514633029151
-          }
-        }
-      },
-      "name": "Rosewood Le Guanahani St Barth",
-      "place_id": "ChIJh2i0kurfDYwRzK4HSdds2lU",
-      "types": [
-        "clothing_store",
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa",
-        "store"
-      ],
-      "website": "https://www.rosewoodhotels.com/en/le-guanahani"
-    }
-  },
   "{\"brand\": \"Rosewood Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rosewood Guangzhou Rosewood Hotels & Resorts Hotel\", \"Rosewood Guangzhou Rosewood Hotels & Resorts Resort\", \"Rosewood Guangzhou Rosewood Hotels & Resorts\", \"Rosewood Guangzhou Rosewood Hotels & Resorts Guangzhou, China Hotel\", \"Rosewood Guangzhou Rosewood Hotels & Resorts Guangzhou, China Resort\", \"Rosewood Guangzhou Rosewood Hotels & Resorts Guangzhou, China\", \"Rosewood Guangzhou Hilton Hotel\", \"Rosewood Guangzhou Hilton Resort\", \"Rosewood Guangzhou Hilton\", \"Rosewood Guangzhou Hilton Guangzhou, China Hotel\", \"Rosewood Guangzhou Hilton Guangzhou, China Resort\", \"Rosewood Guangzhou Hilton Guangzhou, China\", \"Rosewood Guangzhou Hotel\", \"Rosewood Guangzhou Resort\", \"Rosewood Guangzhou\", \"Rosewood Guangzhou Guangzhou, China Hotel\", \"Rosewood Guangzhou Guangzhou, China Resort\", \"Rosewood Guangzhou Guangzhou, China\"], \"v\": 3}": {
     "lat": 23.1173761,
     "lon": 113.3260492,
@@ -101777,58 +101725,6 @@
         "restaurant"
       ],
       "website": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas"
-    }
-  },
-  "{\"brand\": \"Rosewood Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rosewood Le Guanahani St. Barth Rosewood Hotels & Resorts Hotel\", \"Rosewood Le Guanahani St. Barth Rosewood Hotels & Resorts Resort\", \"Rosewood Le Guanahani St. Barth Rosewood Hotels & Resorts\", \"Rosewood Le Guanahani St. Barth Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Rosewood Le Guanahani St. Barth Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Rosewood Le Guanahani St. Barth Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy\", \"Rosewood Le Guanahani St. Barth Hilton Hotel\", \"Rosewood Le Guanahani St. Barth Hilton Resort\", \"Rosewood Le Guanahani St. Barth Hilton\", \"Rosewood Le Guanahani St. Barth Hilton Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Rosewood Le Guanahani St. Barth Hilton Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Rosewood Le Guanahani St. Barth Hilton Grand Cul-de-Sac, Saint Barthelemy\", \"Rosewood Le Guanahani St Barth Rosewood Hotels & Resorts Hotel\", \"Rosewood Le Guanahani St Barth Rosewood Hotels & Resorts Resort\", \"Rosewood Le Guanahani St Barth Rosewood Hotels & Resorts\", \"Rosewood Le Guanahani St Barth Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Rosewood Le Guanahani St Barth Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Rosewood Le Guanahani St Barth Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy\", \"Rosewood Le Guanahani St Barth Hilton Hotel\", \"Rosewood Le Guanahani St Barth Hilton Resort\", \"Rosewood Le Guanahani St Barth Hilton\", \"Rosewood Le Guanahani St Barth Hilton Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Rosewood Le Guanahani St Barth Hilton Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Rosewood Le Guanahani St Barth Hilton Grand Cul-de-Sac, Saint Barthelemy\", \"Rosewood Le Guanahani St. Barth Hotel\", \"Rosewood Le Guanahani St. Barth Resort\", \"Rosewood Le Guanahani St. Barth\", \"Rosewood Le Guanahani St. Barth Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Rosewood Le Guanahani St. Barth Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Rosewood Le Guanahani St. Barth Grand Cul-de-Sac, Saint Barthelemy\"], \"v\": 3}": {
-    "lat": 17.9123155,
-    "lon": -62.8037432,
-    "formatted_address": "D209, 97133, St Barthélemy",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJh2i0kurfDYwRzK4HSdds2lU",
-    "types": [
-      "clothing_store",
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa",
-      "store"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "D209, 97133, St Barthélemy",
-      "geometry": {
-        "location": {
-          "lat": 17.9123155,
-          "lng": -62.8037432
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 17.9136862802915,
-            "lng": -62.8024483697085
-          },
-          "southwest": {
-            "lat": 17.91098831970849,
-            "lng": -62.80514633029151
-          }
-        }
-      },
-      "name": "Rosewood Le Guanahani St Barth",
-      "place_id": "ChIJh2i0kurfDYwRzK4HSdds2lU",
-      "types": [
-        "clothing_store",
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa",
-        "store"
-      ],
-      "website": "https://www.rosewoodhotels.com/en/le-guanahani"
     }
   },
   "{\"brand\": \"Rosewood Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Kona Village, A Rosewood Resort Rosewood Hotels & Resorts Hotel\", \"Kona Village, A Rosewood Resort Rosewood Hotels & Resorts Resort\", \"Kona Village, A Rosewood Resort Rosewood Hotels & Resorts\", \"Kona Village, A Rosewood Resort Rosewood Hotels & Resorts Kailua-Kona, Hawaii US Hotel\", \"Kona Village, A Rosewood Resort Rosewood Hotels & Resorts Kailua-Kona, Hawaii US Resort\", \"Kona Village, A Rosewood Resort Rosewood Hotels & Resorts Kailua-Kona, Hawaii US\", \"Kona Village, A Rosewood Resort Hilton Hotel\", \"Kona Village, A Rosewood Resort Hilton Resort\", \"Kona Village, A Rosewood Resort Hilton\", \"Kona Village, A Rosewood Resort Hilton Kailua-Kona, Hawaii US Hotel\", \"Kona Village, A Rosewood Resort Hilton Kailua-Kona, Hawaii US Resort\", \"Kona Village, A Rosewood Resort Hilton Kailua-Kona, Hawaii US\", \"Kona Village A Rosewood Resort Rosewood Hotels & Resorts Hotel\", \"Kona Village A Rosewood Resort Rosewood Hotels & Resorts Resort\", \"Kona Village A Rosewood Resort Rosewood Hotels & Resorts\", \"Kona Village A Rosewood Resort Rosewood Hotels & Resorts Kailua-Kona, Hawaii US Hotel\", \"Kona Village A Rosewood Resort Rosewood Hotels & Resorts Kailua-Kona, Hawaii US Resort\", \"Kona Village A Rosewood Resort Rosewood Hotels & Resorts Kailua-Kona, Hawaii US\", \"Kona Village A Rosewood Resort Hilton Hotel\", \"Kona Village A Rosewood Resort Hilton Resort\", \"Kona Village A Rosewood Resort Hilton\", \"Kona Village A Rosewood Resort Hilton Kailua-Kona, Hawaii US Hotel\", \"Kona Village A Rosewood Resort Hilton Kailua-Kona, Hawaii US Resort\", \"Kona Village A Rosewood Resort Hilton Kailua-Kona, Hawaii US\", \"Kona Village, A Rosewood Resort Hotel\", \"Kona Village, A Rosewood Resort Resort\", \"Kona Village, A Rosewood Resort\", \"Kona Village, A Rosewood Resort Kailua-Kona, Hawaii US Hotel\", \"Kona Village, A Rosewood Resort Kailua-Kona, Hawaii US Resort\", \"Kona Village, A Rosewood Resort Kailua-Kona, Hawaii US\"], \"v\": 3}": {
@@ -173591,58 +173487,6 @@
       "website": "https://www.rosewoodhotels.com/en/mandarina"
     }
   },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Rosewood Le Guanahani St. Barth\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rosewood Le Guanahani St. Barth Rosewood Hotels & Resorts Hotel\", \"Rosewood Le Guanahani St. Barth Rosewood Hotels & Resorts Resort\", \"Rosewood Le Guanahani St. Barth Rosewood Hotels & Resorts\", \"Rosewood Le Guanahani St. Barth Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Rosewood Le Guanahani St. Barth Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Rosewood Le Guanahani St. Barth Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy\", \"Rosewood Le Guanahani St. Barth Hilton Hotel\", \"Rosewood Le Guanahani St. Barth Hilton Resort\", \"Rosewood Le Guanahani St. Barth Hilton\", \"Rosewood Le Guanahani St. Barth Hilton Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Rosewood Le Guanahani St. Barth Hilton Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Rosewood Le Guanahani St. Barth Hilton Grand Cul-de-Sac, Saint Barthelemy\", \"Rosewood Le Guanahani St Barth Rosewood Hotels & Resorts Hotel\", \"Rosewood Le Guanahani St Barth Rosewood Hotels & Resorts Resort\", \"Rosewood Le Guanahani St Barth Rosewood Hotels & Resorts\", \"Rosewood Le Guanahani St Barth Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Rosewood Le Guanahani St Barth Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Rosewood Le Guanahani St Barth Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy\", \"Rosewood Le Guanahani St Barth Hilton Hotel\", \"Rosewood Le Guanahani St Barth Hilton Resort\", \"Rosewood Le Guanahani St Barth Hilton\", \"Rosewood Le Guanahani St Barth Hilton Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Rosewood Le Guanahani St Barth Hilton Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Rosewood Le Guanahani St Barth Hilton Grand Cul-de-Sac, Saint Barthelemy\", \"Rosewood Le Guanahani St. Barth Hotel\", \"Rosewood Le Guanahani St. Barth Resort\", \"Rosewood Le Guanahani St. Barth\", \"Rosewood Le Guanahani St. Barth Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Rosewood Le Guanahani St. Barth Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Rosewood Le Guanahani St. Barth Grand Cul-de-Sac, Saint Barthelemy\"], \"v\": 3}": {
-    "lat": 17.9123155,
-    "lon": -62.8037432,
-    "formatted_address": "D209, 97133, St Barthélemy",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJh2i0kurfDYwRzK4HSdds2lU",
-    "types": [
-      "clothing_store",
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa",
-      "store"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "D209, 97133, St Barthélemy",
-      "geometry": {
-        "location": {
-          "lat": 17.9123155,
-          "lng": -62.8037432
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 17.9136862802915,
-            "lng": -62.8024483697085
-          },
-          "southwest": {
-            "lat": 17.91098831970849,
-            "lng": -62.80514633029151
-          }
-        }
-      },
-      "name": "Rosewood Le Guanahani St Barth",
-      "place_id": "ChIJh2i0kurfDYwRzK4HSdds2lU",
-      "types": [
-        "clothing_store",
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa",
-        "store"
-      ],
-      "website": "https://www.rosewoodhotels.com/en/le-guanahani"
-    }
-  },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Rosewood Guangzhou\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rosewood Guangzhou Rosewood Hotels & Resorts Hotel\", \"Rosewood Guangzhou Rosewood Hotels & Resorts Resort\", \"Rosewood Guangzhou Rosewood Hotels & Resorts\", \"Rosewood Guangzhou Rosewood Hotels & Resorts Guangzhou, China Hotel\", \"Rosewood Guangzhou Rosewood Hotels & Resorts Guangzhou, China Resort\", \"Rosewood Guangzhou Rosewood Hotels & Resorts Guangzhou, China\", \"Rosewood Guangzhou Hilton Hotel\", \"Rosewood Guangzhou Hilton Resort\", \"Rosewood Guangzhou Hilton\", \"Rosewood Guangzhou Hilton Guangzhou, China Hotel\", \"Rosewood Guangzhou Hilton Guangzhou, China Resort\", \"Rosewood Guangzhou Hilton Guangzhou, China\", \"Rosewood Guangzhou Hotel\", \"Rosewood Guangzhou Resort\", \"Rosewood Guangzhou\", \"Rosewood Guangzhou Guangzhou, China Hotel\", \"Rosewood Guangzhou Guangzhou, China Resort\", \"Rosewood Guangzhou Guangzhou, China\"], \"v\": 3}": {
     "lat": 23.1173761,
     "lon": 113.3260492,
@@ -211911,6 +211755,59 @@
         "restaurant"
       ],
       "website": "https://www.hotelsbarriere.com/cannes/le-majestic"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Airelles Le Guanahani\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Airelles Le Guanahani\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Airelles Le Guanahani\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Airelles Le Guanahani Rosewood Hotels & Resorts Hotel\", \"Airelles Le Guanahani Rosewood Hotels & Resorts Resort\", \"Airelles Le Guanahani Rosewood Hotels & Resorts\", \"Airelles Le Guanahani Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Airelles Le Guanahani Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Airelles Le Guanahani Rosewood Hotels & Resorts Grand Cul-de-Sac, Saint Barthelemy\", \"Airelles Le Guanahani Hilton Hotel\", \"Airelles Le Guanahani Hilton Resort\", \"Airelles Le Guanahani Hilton\", \"Airelles Le Guanahani Hilton Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Airelles Le Guanahani Hilton Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Airelles Le Guanahani Hilton Grand Cul-de-Sac, Saint Barthelemy\", \"Airelles Le Guanahani Hotel\", \"Airelles Le Guanahani Resort\", \"Airelles Le Guanahani\", \"Airelles Le Guanahani Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Airelles Le Guanahani Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Airelles Le Guanahani Grand Cul-de-Sac, Saint Barthelemy\"], \"v\": 3}": {
+    "lat": 17.9123155,
+    "lon": -62.8037432,
+    "formatted_address": "D209, 97133, St Barthélemy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJh2i0kurfDYwRzK4HSdds2lU",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa",
+      "store"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "D209, 97133, St Barthélemy",
+      "geometry": {
+        "location": {
+          "lat": 17.9123155,
+          "lng": -62.8037432
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 17.9136862802915,
+            "lng": -62.8024483697085
+          },
+          "southwest": {
+            "lat": 17.91098831970849,
+            "lng": -62.80514633029151
+          }
+        }
+      },
+      "name": "Airelles Le Guanahani, Saint-Barthélemy",
+      "place_id": "ChIJh2i0kurfDYwRzK4HSdds2lU",
+      "types": [
+        "clothing_store",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa",
+        "store"
+      ],
+      "website": "https://airelles.com/fr/destination/saint-barthelemy"
     }
   }
 }

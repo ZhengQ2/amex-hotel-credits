@@ -5677,54 +5677,6 @@
       "website": "https://www.doylecollection.com/hotels/the-bloomsbury-hotel?utm_source=google&utm_medium=organic&utm_campaign=google_local_the_bloomsbury_hotel"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hari Hotel London Hotel\", \"Hari Hotel London Resort\", \"Hari Hotel London\", \"Hari Hotel London London, England Hotel\", \"Hari Hotel London London, England Resort\", \"Hari Hotel London London, England\", \"The Hari Hotel London Hotel\", \"The Hari Hotel London Resort\", \"The Hari Hotel London\", \"The Hari Hotel London London, England Hotel\", \"The Hari Hotel London London, England Resort\", \"The Hari Hotel London London, England\"], \"v\": 3}": {
-    "lat": 51.49733,
-    "lon": -0.1562088,
-    "formatted_address": "20 Chesham Pl, London SW1X 8HQ, UK",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJYa44RTwFdkgRUJVKKazdnrA",
-    "types": [
-      "bar",
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "20 Chesham Pl, London SW1X 8HQ, UK",
-      "geometry": {
-        "location": {
-          "lat": 51.49733,
-          "lng": -0.1562088
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 51.49868293029151,
-            "lng": -0.154726869708498
-          },
-          "southwest": {
-            "lat": 51.49598496970851,
-            "lng": -0.157424830291502
-          }
-        }
-      },
-      "name": "The Hari",
-      "place_id": "ChIJYa44RTwFdkgRUJVKKazdnrA",
-      "types": [
-        "bar",
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.thehari.com/"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Kensington Hotel Hotel\", \"The Kensington Hotel Resort\", \"The Kensington Hotel\", \"The Kensington Hotel London, England Hotel\", \"The Kensington Hotel London, England Resort\", \"The Kensington Hotel London, England\"], \"v\": 3}": {
     "lat": 51.4925141,
     "lon": -0.1780433,
@@ -57642,54 +57594,6 @@
       "website": "https://kauairesort.sonesta.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Hari Hotel London Hotel\", \"The Hari Hotel London Resort\", \"The Hari Hotel London\", \"The Hari Hotel London London, England Hotel\", \"The Hari Hotel London London, England Resort\", \"The Hari Hotel London London, England\", \"Hari Hotel London Hotel\", \"Hari Hotel London Resort\", \"Hari Hotel London\", \"Hari Hotel London London, England Hotel\", \"Hari Hotel London London, England Resort\", \"Hari Hotel London London, England\"], \"v\": 3}": {
-    "lat": 51.49733,
-    "lon": -0.1562088,
-    "formatted_address": "20 Chesham Pl, London SW1X 8HQ, UK",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJYa44RTwFdkgRUJVKKazdnrA",
-    "types": [
-      "bar",
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "20 Chesham Pl, London SW1X 8HQ, UK",
-      "geometry": {
-        "location": {
-          "lat": 51.49733,
-          "lng": -0.1562088
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 51.49868293029151,
-            "lng": -0.154726869708498
-          },
-          "southwest": {
-            "lat": 51.49598496970851,
-            "lng": -0.157424830291502
-          }
-        }
-      },
-      "name": "The Hari",
-      "place_id": "ChIJYa44RTwFdkgRUJVKKazdnrA",
-      "types": [
-        "bar",
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.thehari.com/"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Twenty Two London Hotel\", \"The Twenty Two London Resort\", \"The Twenty Two London\", \"The Twenty Two London London, England Hotel\", \"The Twenty Two London London, England Resort\", \"The Twenty Two London London, England\", \"Twenty Two London Hotel\", \"Twenty Two London Resort\", \"Twenty Two London\", \"Twenty Two London London, England Hotel\", \"Twenty Two London London, England Resort\", \"Twenty Two London London, England\"], \"v\": 3}": {
     "lat": 51.51202079999999,
     "lon": -0.1531119,
@@ -94211,54 +94115,6 @@
         "point_of_interest"
       ],
       "website": "https://www.doylecollection.com/hotels/the-bloomsbury-hotel?utm_source=google&utm_medium=organic&utm_campaign=google_local_the_bloomsbury_hotel"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Hari Hotel London\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Hari Hotel London Hotel\", \"The Hari Hotel London Resort\", \"The Hari Hotel London\", \"The Hari Hotel London London, England Hotel\", \"The Hari Hotel London London, England Resort\", \"The Hari Hotel London London, England\", \"Hari Hotel London Hotel\", \"Hari Hotel London Resort\", \"Hari Hotel London\", \"Hari Hotel London London, England Hotel\", \"Hari Hotel London London, England Resort\", \"Hari Hotel London London, England\"], \"v\": 3}": {
-    "lat": 51.49733,
-    "lon": -0.1562088,
-    "formatted_address": "20 Chesham Pl, London SW1X 8HQ, UK",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJYa44RTwFdkgRUJVKKazdnrA",
-    "types": [
-      "bar",
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "20 Chesham Pl, London SW1X 8HQ, UK",
-      "geometry": {
-        "location": {
-          "lat": 51.49733,
-          "lng": -0.1562088
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 51.49868293029151,
-            "lng": -0.154726869708498
-          },
-          "southwest": {
-            "lat": 51.49598496970851,
-            "lng": -0.157424830291502
-          }
-        }
-      },
-      "name": "The Hari",
-      "place_id": "ChIJYa44RTwFdkgRUJVKKazdnrA",
-      "types": [
-        "bar",
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.thehari.com/"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Kensington Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Kensington Hotel Hotel\", \"The Kensington Hotel Resort\", \"The Kensington Hotel\", \"The Kensington Hotel London, England Hotel\", \"The Kensington Hotel London, England Resort\", \"The Kensington Hotel London, England\"], \"v\": 3}": {
@@ -156992,6 +156848,55 @@
         "lodging",
         "point_of_interest"
       ]
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Hari London, Vignette Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Hari London, Vignette Collection\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Hari London, Vignette Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Hari London, Vignette Collection Hotel\", \"The Hari London, Vignette Collection Resort\", \"The Hari London, Vignette Collection\", \"The Hari London, Vignette Collection London, England Hotel\", \"The Hari London, Vignette Collection London, England Resort\", \"The Hari London, Vignette Collection London, England\", \"Hari London Vignette Collection Hotel\", \"Hari London Vignette Collection Resort\", \"Hari London Vignette Collection\", \"Hari London Vignette Collection London, England Hotel\", \"Hari London Vignette Collection London, England Resort\", \"Hari London Vignette Collection London, England\"], \"v\": 3}": {
+    "lat": 51.49733,
+    "lon": -0.1562088,
+    "formatted_address": "20 Chesham Pl, London SW1X 8HQ, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJYa44RTwFdkgRUJVKKazdnrA",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "20 Chesham Pl, London SW1X 8HQ, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.49733,
+          "lng": -0.1562088
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.49868293029151,
+            "lng": -0.154726869708498
+          },
+          "southwest": {
+            "lat": 51.49598496970851,
+            "lng": -0.157424830291502
+          }
+        }
+      },
+      "name": "The Hari London, Vignette Collection",
+      "place_id": "ChIJYa44RTwFdkgRUJVKKazdnrA",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.thehari.com/"
     }
   }
 }
