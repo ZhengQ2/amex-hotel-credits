@@ -6903,48 +6903,6 @@
       "website": "https://www.opalcollection.com/edgewater/?utm_source=google&utm_medium=listing&utm_campaign=opal+edgewater+beach+hotel"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Margaritaville Hotel Nashville Hotel\", \"Margaritaville Hotel Nashville Resort\", \"Margaritaville Hotel Nashville\", \"Margaritaville Hotel Nashville Nashville, Tennessee US Hotel\", \"Margaritaville Hotel Nashville Nashville, Tennessee US Resort\", \"Margaritaville Hotel Nashville Nashville, Tennessee US\"], \"v\": 3}": {
-    "lat": 36.1556505,
-    "lon": -86.7754733,
-    "formatted_address": "425 Rep. John Lewis Way S, Nashville, TN 37203, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJX7MOBV5mZIgR-rar5HrNVM4",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "425 Rep. John Lewis Way S, Nashville, TN 37203, USA",
-      "geometry": {
-        "location": {
-          "lat": 36.1556505,
-          "lng": -86.7754733
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 36.1568539302915,
-            "lng": -86.7741007697085
-          },
-          "southwest": {
-            "lat": 36.1541559697085,
-            "lng": -86.7767987302915
-          }
-        }
-      },
-      "name": "Margaritaville Hotel Nashville",
-      "place_id": "ChIJX7MOBV5mZIgR-rar5HrNVM4",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.margaritavilleresorts.com/margaritaville-hotel-nashville?utm_source=local&utm_medium=organic&utm_campaign=website_link"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Margaritaville Beach Resort Nassau Hotel\", \"Margaritaville Beach Resort Nassau Resort\", \"Margaritaville Beach Resort Nassau\", \"Margaritaville Beach Resort Nassau Nassau, The Bahamas Hotel\", \"Margaritaville Beach Resort Nassau Nassau, The Bahamas Resort\", \"Margaritaville Beach Resort Nassau Nassau, The Bahamas\"], \"v\": 3}": {
     "lat": 25.0788417,
     "lon": -77.3479861,
@@ -95479,48 +95437,6 @@
         "point_of_interest"
       ],
       "website": "https://www.opalcollection.com/edgewater/?utm_source=google&utm_medium=listing&utm_campaign=opal+edgewater+beach+hotel"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Margaritaville Hotel Nashville\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Margaritaville Hotel Nashville Hotel\", \"Margaritaville Hotel Nashville Resort\", \"Margaritaville Hotel Nashville\", \"Margaritaville Hotel Nashville Nashville, Tennessee US Hotel\", \"Margaritaville Hotel Nashville Nashville, Tennessee US Resort\", \"Margaritaville Hotel Nashville Nashville, Tennessee US\"], \"v\": 3}": {
-    "lat": 36.1556505,
-    "lon": -86.7754733,
-    "formatted_address": "425 Rep. John Lewis Way S, Nashville, TN 37203, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJX7MOBV5mZIgR-rar5HrNVM4",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "425 Rep. John Lewis Way S, Nashville, TN 37203, USA",
-      "geometry": {
-        "location": {
-          "lat": 36.1556505,
-          "lng": -86.7754733
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 36.1568539302915,
-            "lng": -86.7741007697085
-          },
-          "southwest": {
-            "lat": 36.1541559697085,
-            "lng": -86.7767987302915
-          }
-        }
-      },
-      "name": "Margaritaville Hotel Nashville",
-      "place_id": "ChIJX7MOBV5mZIgR-rar5HrNVM4",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.margaritavilleresorts.com/margaritaville-hotel-nashville?utm_source=local&utm_medium=organic&utm_campaign=website_link"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Margaritaville Beach Resort Nassau\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Margaritaville Beach Resort Nassau Hotel\", \"Margaritaville Beach Resort Nassau Resort\", \"Margaritaville Beach Resort Nassau\", \"Margaritaville Beach Resort Nassau Nassau, The Bahamas Hotel\", \"Margaritaville Beach Resort Nassau Nassau, The Bahamas Resort\", \"Margaritaville Beach Resort Nassau Nassau, The Bahamas\"], \"v\": 3}": {
