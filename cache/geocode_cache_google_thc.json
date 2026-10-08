@@ -2365,48 +2365,6 @@
       "website": "http://www.claremontresortandclub.com/"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sixty Beverly Hills Hotel\", \"Sixty Beverly Hills Resort\", \"Sixty Beverly Hills\", \"Sixty Beverly Hills Beverly Hills, California US Hotel\", \"Sixty Beverly Hills Beverly Hills, California US Resort\", \"Sixty Beverly Hills Beverly Hills, California US\", \"SIXTY Beverly Hills Hotel\", \"SIXTY Beverly Hills Resort\", \"SIXTY Beverly Hills\", \"SIXTY Beverly Hills Beverly Hills, California US Hotel\", \"SIXTY Beverly Hills Beverly Hills, California US Resort\", \"SIXTY Beverly Hills Beverly Hills, California US\"], \"v\": 3}": {
-    "lat": 34.0667845,
-    "lon": -118.3961223,
-    "formatted_address": "9360 Wilshire Blvd, Beverly Hills, CA 90212, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ_x-Ti_67woARU-UKGOCzqIs",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "9360 Wilshire Blvd, Beverly Hills, CA 90212, USA",
-      "geometry": {
-        "location": {
-          "lat": 34.0667845,
-          "lng": -118.3961223
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 34.06828013029151,
-            "lng": -118.3948261197085
-          },
-          "southwest": {
-            "lat": 34.06558216970851,
-            "lng": -118.3975240802915
-          }
-        }
-      },
-      "name": "SIXTY Beverly Hills",
-      "place_id": "ChIJ_x-Ti_67woARU-UKGOCzqIs",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.sixtyhotels.com/beverly-hills/?utm_source=local-listings&utm_medium=organic&utm_campaign=yext-beverly-hills"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Regina Experimental Biarritz Hotel\", \"Regina Experimental Biarritz Resort\", \"Regina Experimental Biarritz\", \"Regina Experimental Biarritz Biarritz, France Hotel\", \"Regina Experimental Biarritz Biarritz, France Resort\", \"Regina Experimental Biarritz Biarritz, France\"], \"v\": 3}": {
     "lat": 43.49137959999999,
     "lon": -1.5520148,
@@ -56084,48 +56042,6 @@
       "website": "http://www.claremontresortandclub.com/"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"SIXTY Beverly Hills Hotel\", \"SIXTY Beverly Hills Resort\", \"SIXTY Beverly Hills\", \"SIXTY Beverly Hills Beverly Hills, California US Hotel\", \"SIXTY Beverly Hills Beverly Hills, California US Resort\", \"SIXTY Beverly Hills Beverly Hills, California US\", \"Sixty Beverly Hills Hotel\", \"Sixty Beverly Hills Resort\", \"Sixty Beverly Hills\", \"Sixty Beverly Hills Beverly Hills, California US Hotel\", \"Sixty Beverly Hills Beverly Hills, California US Resort\", \"Sixty Beverly Hills Beverly Hills, California US\"], \"v\": 3}": {
-    "lat": 34.0667845,
-    "lon": -118.3961223,
-    "formatted_address": "9360 Wilshire Blvd, Beverly Hills, CA 90212, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ_x-Ti_67woARU-UKGOCzqIs",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "9360 Wilshire Blvd, Beverly Hills, CA 90212, USA",
-      "geometry": {
-        "location": {
-          "lat": 34.0667845,
-          "lng": -118.3961223
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 34.06828013029151,
-            "lng": -118.3948261197085
-          },
-          "southwest": {
-            "lat": 34.06558216970851,
-            "lng": -118.3975240802915
-          }
-        }
-      },
-      "name": "SIXTY Beverly Hills",
-      "place_id": "ChIJ_x-Ti_67woARU-UKGOCzqIs",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.sixtyhotels.com/beverly-hills/?utm_source=local-listings&utm_medium=organic&utm_campaign=yext-beverly-hills"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Summit Hotel at Big Sky Resort Hotel\", \"The Summit Hotel at Big Sky Resort Resort\", \"The Summit Hotel at Big Sky Resort\", \"The Summit Hotel at Big Sky Resort Big Sky, Montana US Hotel\", \"The Summit Hotel at Big Sky Resort Big Sky, Montana US Resort\", \"The Summit Hotel at Big Sky Resort Big Sky, Montana US\", \"Summit Hotel Big Sky Resort Hotel\", \"Summit Hotel Big Sky Resort Resort\", \"Summit Hotel Big Sky Resort\", \"Summit Hotel Big Sky Resort Big Sky, Montana US Hotel\", \"Summit Hotel Big Sky Resort Big Sky, Montana US Resort\", \"Summit Hotel Big Sky Resort Big Sky, Montana US\"], \"v\": 3}": {
     "lat": 45.28342259999999,
     "lon": -111.4003678,
@@ -90539,48 +90455,6 @@
         "restaurant"
       ],
       "website": "http://www.claremontresortandclub.com/"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"SIXTY Beverly Hills\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"SIXTY Beverly Hills Hotel\", \"SIXTY Beverly Hills Resort\", \"SIXTY Beverly Hills\", \"SIXTY Beverly Hills Beverly Hills, California US Hotel\", \"SIXTY Beverly Hills Beverly Hills, California US Resort\", \"SIXTY Beverly Hills Beverly Hills, California US\", \"Sixty Beverly Hills Hotel\", \"Sixty Beverly Hills Resort\", \"Sixty Beverly Hills\", \"Sixty Beverly Hills Beverly Hills, California US Hotel\", \"Sixty Beverly Hills Beverly Hills, California US Resort\", \"Sixty Beverly Hills Beverly Hills, California US\"], \"v\": 3}": {
-    "lat": 34.0667845,
-    "lon": -118.3961223,
-    "formatted_address": "9360 Wilshire Blvd, Beverly Hills, CA 90212, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ_x-Ti_67woARU-UKGOCzqIs",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "9360 Wilshire Blvd, Beverly Hills, CA 90212, USA",
-      "geometry": {
-        "location": {
-          "lat": 34.0667845,
-          "lng": -118.3961223
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 34.06828013029151,
-            "lng": -118.3948261197085
-          },
-          "southwest": {
-            "lat": 34.06558216970851,
-            "lng": -118.3975240802915
-          }
-        }
-      },
-      "name": "SIXTY Beverly Hills",
-      "place_id": "ChIJ_x-Ti_67woARU-UKGOCzqIs",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.sixtyhotels.com/beverly-hills/?utm_source=local-listings&utm_medium=organic&utm_campaign=yext-beverly-hills"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Regina Experimental Biarritz\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Regina Experimental Biarritz Hotel\", \"Regina Experimental Biarritz Resort\", \"Regina Experimental Biarritz\", \"Regina Experimental Biarritz Biarritz, France Hotel\", \"Regina Experimental Biarritz Biarritz, France Resort\", \"Regina Experimental Biarritz Biarritz, France\"], \"v\": 3}": {
@@ -156813,6 +156687,48 @@
         "restaurant"
       ],
       "website": "https://www.thehari.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Hari Hong Kong, Vignette Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Hari Hong Kong, Vignette Collection IHG Hotels & Resorts Hotel\", \"The Hari Hong Kong, Vignette Collection IHG Hotels & Resorts Resort\", \"The Hari Hong Kong, Vignette Collection IHG Hotels & Resorts\", \"The Hari Hong Kong, Vignette Collection IHG Hotels & Resorts Hong Kong, China Hotel\", \"The Hari Hong Kong, Vignette Collection IHG Hotels & Resorts Hong Kong, China Resort\", \"The Hari Hong Kong, Vignette Collection IHG Hotels & Resorts Hong Kong, China\", \"The Hari Hong Kong, Vignette Collection Hilton Hotel\", \"The Hari Hong Kong, Vignette Collection Hilton Resort\", \"The Hari Hong Kong, Vignette Collection Hilton\", \"The Hari Hong Kong, Vignette Collection Hilton Hong Kong, China Hotel\", \"The Hari Hong Kong, Vignette Collection Hilton Hong Kong, China Resort\", \"The Hari Hong Kong, Vignette Collection Hilton Hong Kong, China\", \"Hari Hong Kong Vignette Collection IHG Hotels & Resorts Hotel\", \"Hari Hong Kong Vignette Collection IHG Hotels & Resorts Resort\", \"Hari Hong Kong Vignette Collection IHG Hotels & Resorts\", \"Hari Hong Kong Vignette Collection IHG Hotels & Resorts Hong Kong, China Hotel\", \"Hari Hong Kong Vignette Collection IHG Hotels & Resorts Hong Kong, China Resort\", \"Hari Hong Kong Vignette Collection IHG Hotels & Resorts Hong Kong, China\", \"Hari Hong Kong Vignette Collection Hilton Hotel\", \"Hari Hong Kong Vignette Collection Hilton Resort\", \"Hari Hong Kong Vignette Collection Hilton\", \"Hari Hong Kong Vignette Collection Hilton Hong Kong, China Hotel\", \"Hari Hong Kong Vignette Collection Hilton Hong Kong, China Resort\", \"Hari Hong Kong Vignette Collection Hilton Hong Kong, China\", \"The Hari Hong Kong, Vignette Collection Hotel\", \"The Hari Hong Kong, Vignette Collection Resort\", \"The Hari Hong Kong, Vignette Collection\", \"The Hari Hong Kong, Vignette Collection Hong Kong, China Hotel\", \"The Hari Hong Kong, Vignette Collection Hong Kong, China Resort\", \"The Hari Hong Kong, Vignette Collection Hong Kong, China\"], \"v\": 3}": {
+    "lat": 22.2788492,
+    "lon": 114.1781606,
+    "formatted_address": "1/F, 330 Lockhart Rd, Wan Chai, Hong Kong",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJmfSEk7UBBDQRZpRxHKmlO5c",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1/F, 330 Lockhart Rd, Wan Chai, Hong Kong",
+      "geometry": {
+        "location": {
+          "lat": 22.2788492,
+          "lng": 114.1781606
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 22.2802299802915,
+            "lng": 114.1794992302915
+          },
+          "southwest": {
+            "lat": 22.2775320197085,
+            "lng": 114.1768012697085
+          }
+        }
+      },
+      "name": "The Hari Hong Kong",
+      "place_id": "ChIJmfSEk7UBBDQRZpRxHKmlO5c",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.thehari.com/hong-kong/"
     }
   }
 }

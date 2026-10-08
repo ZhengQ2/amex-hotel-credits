@@ -4167,48 +4167,6 @@
       "website": "https://www.thebreakers.com/"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Colony Palms Hotel Bungalows Hotel\", \"Colony Palms Hotel Bungalows Resort\", \"Colony Palms Hotel Bungalows\", \"Colony Palms Hotel Bungalows Palm Springs, California US Hotel\", \"Colony Palms Hotel Bungalows Palm Springs, California US Resort\", \"Colony Palms Hotel Bungalows Palm Springs, California US\", \"Colony Palms Hotel and Bungalows Hotel\", \"Colony Palms Hotel and Bungalows Resort\", \"Colony Palms Hotel and Bungalows\", \"Colony Palms Hotel and Bungalows Palm Springs, California US Hotel\", \"Colony Palms Hotel and Bungalows Palm Springs, California US Resort\", \"Colony Palms Hotel and Bungalows Palm Springs, California US\"], \"v\": 3}": {
-    "lat": 33.8312887,
-    "lon": -116.5450461,
-    "formatted_address": "572 N Indian Canyon Dr, Palm Springs, CA 92262, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJGWMCYrkb24AR6v_wgdM8iJ4",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "572 N Indian Canyon Dr, Palm Springs, CA 92262, USA",
-      "geometry": {
-        "location": {
-          "lat": 33.8312887,
-          "lng": -116.5450461
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 33.83276438029149,
-            "lng": -116.5439379197085
-          },
-          "southwest": {
-            "lat": 33.83006641970849,
-            "lng": -116.5466358802915
-          }
-        }
-      },
-      "name": "The Colony Palms Hotel and Bungalows",
-      "place_id": "ChIJGWMCYrkb24AR6v_wgdM8iJ4",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://colonypalmshotel.com/"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lhorizon Resort Spa Hermann Bungalows Hotel\", \"Lhorizon Resort Spa Hermann Bungalows Resort\", \"Lhorizon Resort Spa Hermann Bungalows\", \"Lhorizon Resort Spa Hermann Bungalows Palm Springs, California US Hotel\", \"Lhorizon Resort Spa Hermann Bungalows Palm Springs, California US Resort\", \"Lhorizon Resort Spa Hermann Bungalows Palm Springs, California US\", \"L'Horizon Resort & Spa, Hermann Bungalows Hotel\", \"L'Horizon Resort & Spa, Hermann Bungalows Resort\", \"L'Horizon Resort & Spa, Hermann Bungalows\", \"L'Horizon Resort & Spa, Hermann Bungalows Palm Springs, California US Hotel\", \"L'Horizon Resort & Spa, Hermann Bungalows Palm Springs, California US Resort\", \"L'Horizon Resort & Spa, Hermann Bungalows Palm Springs, California US\"], \"v\": 3}": {
     "lat": 33.8016091,
     "lon": -116.5353501,
@@ -79368,48 +79326,6 @@
       "website": "https://www.thebreakers.com/"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Colony Palms Hotel and Bungalows Hotel\", \"Colony Palms Hotel and Bungalows Resort\", \"Colony Palms Hotel and Bungalows\", \"Colony Palms Hotel and Bungalows Palm Springs, California US Hotel\", \"Colony Palms Hotel and Bungalows Palm Springs, California US Resort\", \"Colony Palms Hotel and Bungalows Palm Springs, California US\", \"Colony Palms Hotel Bungalows Hotel\", \"Colony Palms Hotel Bungalows Resort\", \"Colony Palms Hotel Bungalows\", \"Colony Palms Hotel Bungalows Palm Springs, California US Hotel\", \"Colony Palms Hotel Bungalows Palm Springs, California US Resort\", \"Colony Palms Hotel Bungalows Palm Springs, California US\"], \"v\": 3}": {
-    "lat": 33.8312887,
-    "lon": -116.5450461,
-    "formatted_address": "572 N Indian Canyon Dr, Palm Springs, CA 92262, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJGWMCYrkb24AR6v_wgdM8iJ4",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "572 N Indian Canyon Dr, Palm Springs, CA 92262, USA",
-      "geometry": {
-        "location": {
-          "lat": 33.8312887,
-          "lng": -116.5450461
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 33.83276438029149,
-            "lng": -116.5439379197085
-          },
-          "southwest": {
-            "lat": 33.83006641970849,
-            "lng": -116.5466358802915
-          }
-        }
-      },
-      "name": "The Colony Palms Hotel and Bungalows",
-      "place_id": "ChIJGWMCYrkb24AR6v_wgdM8iJ4",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://colonypalmshotel.com/"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"L'Horizon Resort & Spa, Hermann Bungalows Hotel\", \"L'Horizon Resort & Spa, Hermann Bungalows Resort\", \"L'Horizon Resort & Spa, Hermann Bungalows\", \"L'Horizon Resort & Spa, Hermann Bungalows Palm Springs, California US Hotel\", \"L'Horizon Resort & Spa, Hermann Bungalows Palm Springs, California US Resort\", \"L'Horizon Resort & Spa, Hermann Bungalows Palm Springs, California US\", \"Lhorizon Resort Spa Hermann Bungalows Hotel\", \"Lhorizon Resort Spa Hermann Bungalows Resort\", \"Lhorizon Resort Spa Hermann Bungalows\", \"Lhorizon Resort Spa Hermann Bungalows Palm Springs, California US Hotel\", \"Lhorizon Resort Spa Hermann Bungalows Palm Springs, California US Resort\", \"Lhorizon Resort Spa Hermann Bungalows Palm Springs, California US\"], \"v\": 3}": {
     "lat": 33.8016091,
     "lon": -116.5353501,
@@ -128178,48 +128094,6 @@
         "restaurant"
       ],
       "website": "https://www.thebreakers.com/"
-    }
-  },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Colony Palms Hotel and Bungalows\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Colony Palms Hotel and Bungalows Hotel\", \"Colony Palms Hotel and Bungalows Resort\", \"Colony Palms Hotel and Bungalows\", \"Colony Palms Hotel and Bungalows Palm Springs, California US Hotel\", \"Colony Palms Hotel and Bungalows Palm Springs, California US Resort\", \"Colony Palms Hotel and Bungalows Palm Springs, California US\", \"Colony Palms Hotel Bungalows Hotel\", \"Colony Palms Hotel Bungalows Resort\", \"Colony Palms Hotel Bungalows\", \"Colony Palms Hotel Bungalows Palm Springs, California US Hotel\", \"Colony Palms Hotel Bungalows Palm Springs, California US Resort\", \"Colony Palms Hotel Bungalows Palm Springs, California US\"], \"v\": 3}": {
-    "lat": 33.8312887,
-    "lon": -116.5450461,
-    "formatted_address": "572 N Indian Canyon Dr, Palm Springs, CA 92262, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJGWMCYrkb24AR6v_wgdM8iJ4",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "572 N Indian Canyon Dr, Palm Springs, CA 92262, USA",
-      "geometry": {
-        "location": {
-          "lat": 33.8312887,
-          "lng": -116.5450461
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 33.83276438029149,
-            "lng": -116.5439379197085
-          },
-          "southwest": {
-            "lat": 33.83006641970849,
-            "lng": -116.5466358802915
-          }
-        }
-      },
-      "name": "The Colony Palms Hotel and Bungalows",
-      "place_id": "ChIJGWMCYrkb24AR6v_wgdM8iJ4",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://colonypalmshotel.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"L'Horizon Resort & Spa, Hermann Bungalows\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"L'Horizon Resort & Spa, Hermann Bungalows Hotel\", \"L'Horizon Resort & Spa, Hermann Bungalows Resort\", \"L'Horizon Resort & Spa, Hermann Bungalows\", \"L'Horizon Resort & Spa, Hermann Bungalows Palm Springs, California US Hotel\", \"L'Horizon Resort & Spa, Hermann Bungalows Palm Springs, California US Resort\", \"L'Horizon Resort & Spa, Hermann Bungalows Palm Springs, California US\", \"Lhorizon Resort Spa Hermann Bungalows Hotel\", \"Lhorizon Resort Spa Hermann Bungalows Resort\", \"Lhorizon Resort Spa Hermann Bungalows\", \"Lhorizon Resort Spa Hermann Bungalows Palm Springs, California US Hotel\", \"Lhorizon Resort Spa Hermann Bungalows Palm Springs, California US Resort\", \"Lhorizon Resort Spa Hermann Bungalows Palm Springs, California US\"], \"v\": 3}": {
@@ -211808,6 +211682,232 @@
         "store"
       ],
       "website": "https://airelles.com/fr/destination/saint-barthelemy"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Airelles Le Guanahani\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Airelles Le Guanahani Airelles Hotel\", \"Airelles Le Guanahani Airelles Resort\", \"Airelles Le Guanahani Airelles\", \"Airelles Le Guanahani Airelles Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Airelles Le Guanahani Airelles Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Airelles Le Guanahani Airelles Grand Cul-de-Sac, Saint Barthelemy\", \"Airelles Le Guanahani Hilton Hotel\", \"Airelles Le Guanahani Hilton Resort\", \"Airelles Le Guanahani Hilton\", \"Airelles Le Guanahani Hilton Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Airelles Le Guanahani Hilton Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Airelles Le Guanahani Hilton Grand Cul-de-Sac, Saint Barthelemy\", \"Airelles Le Guanahani Hotel\", \"Airelles Le Guanahani Resort\", \"Airelles Le Guanahani\", \"Airelles Le Guanahani Grand Cul-de-Sac, Saint Barthelemy Hotel\", \"Airelles Le Guanahani Grand Cul-de-Sac, Saint Barthelemy Resort\", \"Airelles Le Guanahani Grand Cul-de-Sac, Saint Barthelemy\"], \"v\": 3}": {
+    "lat": 17.9123155,
+    "lon": -62.8037432,
+    "formatted_address": "D209, 97133, St Barthélemy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJh2i0kurfDYwRzK4HSdds2lU",
+    "types": [
+      "clothing_store",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa",
+      "store"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "D209, 97133, St Barthélemy",
+      "geometry": {
+        "location": {
+          "lat": 17.9123155,
+          "lng": -62.8037432
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 17.9136862802915,
+            "lng": -62.8024483697085
+          },
+          "southwest": {
+            "lat": 17.91098831970849,
+            "lng": -62.80514633029151
+          }
+        }
+      },
+      "name": "Airelles Le Guanahani, Saint-Barthélemy",
+      "place_id": "ChIJh2i0kurfDYwRzK4HSdds2lU",
+      "types": [
+        "clothing_store",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa",
+        "store"
+      ],
+      "website": "https://airelles.com/fr/destination/saint-barthelemy"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Aman Sveti Stefan, Montenegro\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aman Sveti Stefan, Montenegro Aman Hotel\", \"Aman Sveti Stefan, Montenegro Aman Resort\", \"Aman Sveti Stefan, Montenegro Aman\", \"Aman Sveti Stefan, Montenegro Aman Sveti Stefan, Montenegro Hotel\", \"Aman Sveti Stefan, Montenegro Aman Sveti Stefan, Montenegro Resort\", \"Aman Sveti Stefan, Montenegro Aman Sveti Stefan, Montenegro\", \"Aman Sveti Stefan, Montenegro Hilton Hotel\", \"Aman Sveti Stefan, Montenegro Hilton Resort\", \"Aman Sveti Stefan, Montenegro Hilton\", \"Aman Sveti Stefan, Montenegro Hilton Sveti Stefan, Montenegro Hotel\", \"Aman Sveti Stefan, Montenegro Hilton Sveti Stefan, Montenegro Resort\", \"Aman Sveti Stefan, Montenegro Hilton Sveti Stefan, Montenegro\", \"Aman Sveti Stefan Montenegro Aman Hotel\", \"Aman Sveti Stefan Montenegro Aman Resort\", \"Aman Sveti Stefan Montenegro Aman\", \"Aman Sveti Stefan Montenegro Aman Sveti Stefan, Montenegro Hotel\", \"Aman Sveti Stefan Montenegro Aman Sveti Stefan, Montenegro Resort\", \"Aman Sveti Stefan Montenegro Aman Sveti Stefan, Montenegro\", \"Aman Sveti Stefan Montenegro Hilton Hotel\", \"Aman Sveti Stefan Montenegro Hilton Resort\", \"Aman Sveti Stefan Montenegro Hilton\", \"Aman Sveti Stefan Montenegro Hilton Sveti Stefan, Montenegro Hotel\", \"Aman Sveti Stefan Montenegro Hilton Sveti Stefan, Montenegro Resort\", \"Aman Sveti Stefan Montenegro Hilton Sveti Stefan, Montenegro\", \"Aman Sveti Stefan, Montenegro Hotel\", \"Aman Sveti Stefan, Montenegro Resort\", \"Aman Sveti Stefan, Montenegro\", \"Aman Sveti Stefan, Montenegro Sveti Stefan, Montenegro Hotel\", \"Aman Sveti Stefan, Montenegro Sveti Stefan, Montenegro Resort\", \"Aman Sveti Stefan, Montenegro Sveti Stefan, Montenegro\"], \"v\": 3}": {
+    "lat": 42.2558678,
+    "lon": 18.8909378,
+    "formatted_address": "Aman, Sveti Stefan 85315, Montenegro",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJE2oM_C_UTRMRCj_jgPHfx-E",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Aman, Sveti Stefan 85315, Montenegro",
+      "geometry": {
+        "location": {
+          "lat": 42.2558678,
+          "lng": 18.8909378
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.2575061802915,
+            "lng": 18.8943451
+          },
+          "southwest": {
+            "lat": 42.2548082197085,
+            "lng": 18.8909378
+          }
+        }
+      },
+      "name": "Aman Sveti Stefan",
+      "place_id": "ChIJE2oM_C_UTRMRCj_jgPHfx-E",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.aman.com/resorts/aman-sveti-stefan?utm_source=Google&utm_medium=Yext&y_source=1_MTU3MDc3MDAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Knox, Auberge Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Knox, Auberge Collection Auberge Collection Hotel\", \"The Knox, Auberge Collection Auberge Collection Resort\", \"The Knox, Auberge Collection Auberge Collection\", \"The Knox, Auberge Collection Auberge Collection Dallas, Texas US Hotel\", \"The Knox, Auberge Collection Auberge Collection Dallas, Texas US Resort\", \"The Knox, Auberge Collection Auberge Collection Dallas, Texas US\", \"The Knox, Auberge Collection Hilton Hotel\", \"The Knox, Auberge Collection Hilton Resort\", \"The Knox, Auberge Collection Hilton\", \"The Knox, Auberge Collection Hilton Dallas, Texas US Hotel\", \"The Knox, Auberge Collection Hilton Dallas, Texas US Resort\", \"The Knox, Auberge Collection Hilton Dallas, Texas US\", \"Knox Auberge Collection Auberge Collection Hotel\", \"Knox Auberge Collection Auberge Collection Resort\", \"Knox Auberge Collection Auberge Collection\", \"Knox Auberge Collection Auberge Collection Dallas, Texas US Hotel\", \"Knox Auberge Collection Auberge Collection Dallas, Texas US Resort\", \"Knox Auberge Collection Auberge Collection Dallas, Texas US\", \"Knox Auberge Collection Hilton Hotel\", \"Knox Auberge Collection Hilton Resort\", \"Knox Auberge Collection Hilton\", \"Knox Auberge Collection Hilton Dallas, Texas US Hotel\", \"Knox Auberge Collection Hilton Dallas, Texas US Resort\", \"Knox Auberge Collection Hilton Dallas, Texas US\", \"The Knox, Auberge Collection Hotel\", \"The Knox, Auberge Collection Resort\", \"The Knox, Auberge Collection\", \"The Knox, Auberge Collection Dallas, Texas US Hotel\", \"The Knox, Auberge Collection Dallas, Texas US Resort\", \"The Knox, Auberge Collection Dallas, Texas US\"], \"v\": 3}": {
+    "lat": 32.8234346,
+    "lon": -96.7906605,
+    "formatted_address": "4555 Travis St, Dallas, TX 75205, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJtfjRaACfToYRSKK-D9X4daM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "4555 Travis St, Dallas, TX 75205, USA",
+      "geometry": {
+        "location": {
+          "lat": 32.8234346,
+          "lng": -96.7906605
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.8247248802915,
+            "lng": -96.7892362197085
+          },
+          "southwest": {
+            "lat": 32.8220269197085,
+            "lng": -96.7919341802915
+          }
+        }
+      },
+      "name": "The Knox Hotel and Residences",
+      "place_id": "ChIJtfjRaACfToYRSKK-D9X4daM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://auberge.com/the-knox/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Residences at The St. Regis Cap Cana Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Residences at The St. Regis Cap Cana Resort St. Regis Hotel\", \"The Residences at The St. Regis Cap Cana Resort St. Regis Resort\", \"The Residences at The St. Regis Cap Cana Resort St. Regis\", \"The Residences at The St. Regis Cap Cana Resort St. Regis Punta Cana, Dominican Republic Hotel\", \"The Residences at The St. Regis Cap Cana Resort St. Regis Punta Cana, Dominican Republic Resort\", \"The Residences at The St. Regis Cap Cana Resort St. Regis Punta Cana, Dominican Republic\", \"The Residences at The St. Regis Cap Cana Resort Hilton Hotel\", \"The Residences at The St. Regis Cap Cana Resort Hilton Resort\", \"The Residences at The St. Regis Cap Cana Resort Hilton\", \"The Residences at The St. Regis Cap Cana Resort Hilton Punta Cana, Dominican Republic Hotel\", \"The Residences at The St. Regis Cap Cana Resort Hilton Punta Cana, Dominican Republic Resort\", \"The Residences at The St. Regis Cap Cana Resort Hilton Punta Cana, Dominican Republic\", \"Residences St Regis Cap Cana Resort St. Regis Hotel\", \"Residences St Regis Cap Cana Resort St. Regis Resort\", \"Residences St Regis Cap Cana Resort St. Regis\", \"Residences St Regis Cap Cana Resort St. Regis Punta Cana, Dominican Republic Hotel\", \"Residences St Regis Cap Cana Resort St. Regis Punta Cana, Dominican Republic Resort\", \"Residences St Regis Cap Cana Resort St. Regis Punta Cana, Dominican Republic\", \"Residences St Regis Cap Cana Resort Hilton Hotel\", \"Residences St Regis Cap Cana Resort Hilton Resort\", \"Residences St Regis Cap Cana Resort Hilton\", \"Residences St Regis Cap Cana Resort Hilton Punta Cana, Dominican Republic Hotel\", \"Residences St Regis Cap Cana Resort Hilton Punta Cana, Dominican Republic Resort\", \"Residences St Regis Cap Cana Resort Hilton Punta Cana, Dominican Republic\", \"The Residences at The St. Regis Cap Cana Resort Hotel\", \"The Residences at The St. Regis Cap Cana Resort Resort\", \"The Residences at The St. Regis Cap Cana Resort\", \"The Residences at The St. Regis Cap Cana Resort Punta Cana, Dominican Republic Hotel\", \"The Residences at The St. Regis Cap Cana Resort Punta Cana, Dominican Republic Resort\", \"The Residences at The St. Regis Cap Cana Resort Punta Cana, Dominican Republic\"], \"v\": 3}": {
+    "lat": 18.4560625,
+    "lon": -68.4153125,
+    "formatted_address": "Punta Cana 23000, Dominican Republic",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ9701yJibqI4R2OeUYjuQJ9A",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Punta Cana 23000, Dominican Republic",
+      "geometry": {
+        "location": {
+          "lat": 18.4560625,
+          "lng": -68.4153125
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 18.4573874802915,
+            "lng": -68.41393591970849
+          },
+          "southwest": {
+            "lat": 18.4546895197085,
+            "lng": -68.41663388029151
+          }
+        }
+      },
+      "name": "The St. Regis Cap Cana Resort",
+      "place_id": "ChIJ9701yJibqI4R2OeUYjuQJ9A",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/pujxr-the-st-regis-cap-cana-resort/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Ranch at Rock Creek\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Ranch at Rock Creek The Leading Hotels of the World Hotel\", \"The Ranch at Rock Creek The Leading Hotels of the World Resort\", \"The Ranch at Rock Creek The Leading Hotels of the World\", \"The Ranch at Rock Creek The Leading Hotels of the World Philipsburg, Montana US Hotel\", \"The Ranch at Rock Creek The Leading Hotels of the World Philipsburg, Montana US Resort\", \"The Ranch at Rock Creek The Leading Hotels of the World Philipsburg, Montana US\", \"The Ranch at Rock Creek Hilton Hotel\", \"The Ranch at Rock Creek Hilton Resort\", \"The Ranch at Rock Creek Hilton\", \"The Ranch at Rock Creek Hilton Philipsburg, Montana US Hotel\", \"The Ranch at Rock Creek Hilton Philipsburg, Montana US Resort\", \"The Ranch at Rock Creek Hilton Philipsburg, Montana US\", \"Ranch Rock Creek The Leading Hotels of the World Hotel\", \"Ranch Rock Creek The Leading Hotels of the World Resort\", \"Ranch Rock Creek The Leading Hotels of the World\", \"Ranch Rock Creek The Leading Hotels of the World Philipsburg, Montana US Hotel\", \"Ranch Rock Creek The Leading Hotels of the World Philipsburg, Montana US Resort\", \"Ranch Rock Creek The Leading Hotels of the World Philipsburg, Montana US\", \"Ranch Rock Creek Hilton Hotel\", \"Ranch Rock Creek Hilton Resort\", \"Ranch Rock Creek Hilton\", \"Ranch Rock Creek Hilton Philipsburg, Montana US Hotel\", \"Ranch Rock Creek Hilton Philipsburg, Montana US Resort\", \"Ranch Rock Creek Hilton Philipsburg, Montana US\", \"The Ranch at Rock Creek Hotel\", \"The Ranch at Rock Creek Resort\", \"The Ranch at Rock Creek\", \"The Ranch at Rock Creek Philipsburg, Montana US Hotel\", \"The Ranch at Rock Creek Philipsburg, Montana US Resort\", \"The Ranch at Rock Creek Philipsburg, Montana US\"], \"v\": 3}": {
+    "lat": 46.256424,
+    "lon": -113.522131,
+    "formatted_address": "79 Carriage House Ln, Philipsburg, MT 59858, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJOz3a-R11XFMRDrc9hNViboE",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "79 Carriage House Ln, Philipsburg, MT 59858, USA",
+      "geometry": {
+        "location": {
+          "lat": 46.256424,
+          "lng": -113.522131
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 46.2577882802915,
+            "lng": -113.5206746697085
+          },
+          "southwest": {
+            "lat": 46.2550903197085,
+            "lng": -113.5233726302915
+          }
+        }
+      },
+      "name": "The Ranch at Rock Creek",
+      "place_id": "ChIJOz3a-R11XFMRDrc9hNViboE",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.theranchatrockcreek.com/?utm_source=gmb&utm_medium=organic"
     }
   }
 }
