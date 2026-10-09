@@ -156730,5 +156730,97 @@
       ],
       "website": "https://www.thehari.com/hong-kong/"
     }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Our Habitas Bacalar\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Our Habitas Bacalar Hotel\", \"Our Habitas Bacalar Resort\", \"Our Habitas Bacalar\", \"Our Habitas Bacalar Bacalar, Quintana Roo MX Hotel\", \"Our Habitas Bacalar Bacalar, Quintana Roo MX Resort\", \"Our Habitas Bacalar Bacalar, Quintana Roo MX\"], \"v\": 3}": {
+    "lat": 18.6164999,
+    "lon": -88.4324851,
+    "formatted_address": "Carretera Federal 307 Xul Ha, 77963 Bacalar, Q.R., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJC_3RejexW48R_5Ix2wqoNTs",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carretera Federal 307 Xul Ha, 77963 Bacalar, Q.R., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 18.6164999,
+          "lng": -88.4324851
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 18.6180120802915,
+            "lng": -88.4314278697085
+          },
+          "southwest": {
+            "lat": 18.6153141197085,
+            "lng": -88.4341258302915
+          }
+        }
+      },
+      "name": "Our Habitas Bacalar",
+      "place_id": "ChIJC_3RejexW48R_5Ix2wqoNTs",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://ourhabitas.com/bacalar/?utm_source=google&utm_medium=organic&utm_campaign=google_local"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Kimpton Main Frankfurt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Kimpton Main Frankfurt Kimpton Hotels & Restaurants Hotel\", \"Kimpton Main Frankfurt Kimpton Hotels & Restaurants Resort\", \"Kimpton Main Frankfurt Kimpton Hotels & Restaurants\", \"Kimpton Main Frankfurt Kimpton Hotels & Restaurants Frankfurt, Germany Hotel\", \"Kimpton Main Frankfurt Kimpton Hotels & Restaurants Frankfurt, Germany Resort\", \"Kimpton Main Frankfurt Kimpton Hotels & Restaurants Frankfurt, Germany\", \"Kimpton Main Frankfurt Hilton Hotel\", \"Kimpton Main Frankfurt Hilton Resort\", \"Kimpton Main Frankfurt Hilton\", \"Kimpton Main Frankfurt Hilton Frankfurt, Germany Hotel\", \"Kimpton Main Frankfurt Hilton Frankfurt, Germany Resort\", \"Kimpton Main Frankfurt Hilton Frankfurt, Germany\", \"Kimpton Main Frankfurt Hotel\", \"Kimpton Main Frankfurt Resort\", \"Kimpton Main Frankfurt\", \"Kimpton Main Frankfurt Frankfurt, Germany Hotel\", \"Kimpton Main Frankfurt Frankfurt, Germany Resort\", \"Kimpton Main Frankfurt Frankfurt, Germany\"], \"v\": 3}": {
+    "lat": 50.112689,
+    "lon": 8.6744221,
+    "formatted_address": "Junghofstraße 7, 60315 Frankfurt am Main, Germany",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJwwV8u-kPvUcRgqSBTc-tabw",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Junghofstraße 7, 60315 Frankfurt am Main, Germany",
+      "geometry": {
+        "location": {
+          "lat": 50.112689,
+          "lng": 8.6744221
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 50.11413513029149,
+            "lng": 8.675808580291502
+          },
+          "southwest": {
+            "lat": 50.11143716970849,
+            "lng": 8.673110619708497
+          }
+        }
+      },
+      "name": "Kimpton Main Frankfurt by IHG",
+      "place_id": "ChIJwwV8u-kPvUcRgqSBTc-tabw",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.ihg.com/kimptonhotels/hotels/us/en/frankfurt/frajg/hoteldetail?cm_mmc=GoogleMaps-_-KI-_-DE-_-FRAJG"
+    }
   }
 }
