@@ -24826,5 +24826,136 @@
         "point_of_interest"
       ]
     }
+  },
+  "{\"brand\": \"Hilton Grand Vacation Club\", \"hotel_name\": \"Hilton Vacation Club Bayside Resort Panama City Beach\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Vacation Club Bayside Resort Panama City Beach\"], \"v\": 3}": null,
+  "{\"brand\": \"Hilton Grand Vacation Club\", \"hotel_name\": \"Hilton Vacation Club Palazzo Catalani & Soriano\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Vacation Club Palazzo Catalani & Soriano\"], \"v\": 3}": null,
+  "{\"brand\": \"Hilton Hotels & Resorts\", \"hotel_name\": \"Hilton Hainan Ocean Flower Island\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Hainan Ocean Flower Island\"], \"v\": 3}": null,
+  "{\"brand\": \"Hilton Grand Vacation Club\", \"hotel_name\": \"Hilton Vacation Club Bayside Resort Panama City Beach\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Vacation Club Bayside Resort Panama City Beach Hilton Grand Vacation Club Hotel\", \"Hilton Vacation Club Bayside Resort Panama City Beach Hilton Grand Vacation Club Resort\", \"Hilton Vacation Club Bayside Resort Panama City Beach Hilton Grand Vacation Club\", \"Hilton Vacation Club Bayside Resort Panama City Beach Hilton Hotel\", \"Hilton Vacation Club Bayside Resort Panama City Beach Hilton Resort\", \"Hilton Vacation Club Bayside Resort Panama City Beach Hilton\", \"ecpbsgv Hilton vacation club bayside resort panama city beach Hilton Grand Vacation Club Hotel\", \"ecpbsgv Hilton vacation club bayside resort panama city beach Hilton Grand Vacation Club Resort\", \"ecpbsgv Hilton vacation club bayside resort panama city beach Hilton Grand Vacation Club\", \"ecpbsgv Hilton vacation club bayside resort panama city beach Hilton Hotel\", \"ecpbsgv Hilton vacation club bayside resort panama city beach Hilton Resort\", \"ecpbsgv Hilton vacation club bayside resort panama city beach Hilton\", \"Hilton Vacation Club Bayside Resort Panama City Beach Hotel\", \"Hilton Vacation Club Bayside Resort Panama City Beach Resort\", \"Hilton Vacation Club Bayside Resort Panama City Beach\"], \"v\": 3}": {
+    "lat": 30.1390809,
+    "lon": -85.7233536,
+    "formatted_address": "4114 Jan Cooley Dr, Panama City Beach, FL 32408, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJCySmWf6Gk4gRCLTIiBo2xVU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "4114 Jan Cooley Dr, Panama City Beach, FL 32408, USA",
+      "geometry": {
+        "location": {
+          "lat": 30.1390809,
+          "lng": -85.7233536
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 30.1405101802915,
+            "lng": -85.7219524697085
+          },
+          "southwest": {
+            "lat": 30.1378122197085,
+            "lng": -85.7246504302915
+          }
+        }
+      },
+      "name": "Hilton Vacation Club Bayside Resort Panama City Beach",
+      "place_id": "ChIJCySmWf6Gk4gRCLTIiBo2xVU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/ecpbsgv-hilton-vacation-club-bayside-resort-panama-city-beach/?arrivalDate=2025-10-24&departureDate=2025-10-25&flexibleDates=false&numRooms=1&numAdults=1&numChildren=0&room1ChildAges=&room1AdultAges=&sessionToken=1b51acb4-8e78-4dfd-9458-0171fc22b49c"
+    }
+  },
+  "{\"brand\": \"Hilton Grand Vacation Club\", \"hotel_name\": \"Hilton Vacation Club Palazzo Catalani & Soriano\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Vacation Club Palazzo Catalani & Soriano Hilton Grand Vacation Club Hotel\", \"Hilton Vacation Club Palazzo Catalani & Soriano Hilton Grand Vacation Club Resort\", \"Hilton Vacation Club Palazzo Catalani & Soriano Hilton Grand Vacation Club\", \"Hilton Vacation Club Palazzo Catalani & Soriano Hilton Hotel\", \"Hilton Vacation Club Palazzo Catalani & Soriano Hilton Resort\", \"Hilton Vacation Club Palazzo Catalani & Soriano Hilton\", \"ciapagv Hilton vacation club palazzo catalani soriano Hilton Grand Vacation Club Hotel\", \"ciapagv Hilton vacation club palazzo catalani soriano Hilton Grand Vacation Club Resort\", \"ciapagv Hilton vacation club palazzo catalani soriano Hilton Grand Vacation Club\", \"ciapagv Hilton vacation club palazzo catalani soriano Hilton Hotel\", \"ciapagv Hilton vacation club palazzo catalani soriano Hilton Resort\", \"ciapagv Hilton vacation club palazzo catalani soriano Hilton\", \"Hilton Vacation Club Palazzo Catalani & Soriano Hotel\", \"Hilton Vacation Club Palazzo Catalani & Soriano Resort\", \"Hilton Vacation Club Palazzo Catalani & Soriano\"], \"v\": 3}": {
+    "lat": 42.4177668,
+    "lon": 12.232596,
+    "formatted_address": "Via Montecavallo, 26, 01038 Soriano Nel Cimino VT, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJW-24RWsvLxMRbalDpSVa6I8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Montecavallo, 26, 01038 Soriano Nel Cimino VT, Italy",
+      "geometry": {
+        "location": {
+          "lat": 42.4177668,
+          "lng": 12.232596
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.4193283802915,
+            "lng": 12.2338954802915
+          },
+          "southwest": {
+            "lat": 42.4166304197085,
+            "lng": 12.2311975197085
+          }
+        }
+      },
+      "name": "Hilton Vacation Club Palazzo Catalani & Soriano",
+      "place_id": "ChIJW-24RWsvLxMRbalDpSVa6I8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/ciapagv-hilton-vacation-club-palazzo-catalani-and-soriano/?SEO_id=GMB-EMEA-GV-CIAPAGV"
+    }
+  },
+  "{\"brand\": \"Hilton Hotels & Resorts\", \"hotel_name\": \"Hilton Hainan Ocean Flower Island\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Hainan Ocean Flower Island Hilton Hotels & Resorts Hotel\", \"Hilton Hainan Ocean Flower Island Hilton Hotels & Resorts Resort\", \"Hilton Hainan Ocean Flower Island Hilton Hotels & Resorts\", \"Hilton Hainan Ocean Flower Island Hilton Hotel\", \"Hilton Hainan Ocean Flower Island Hilton Resort\", \"Hilton Hainan Ocean Flower Island Hilton\", \"hakhihi Hilton hainan ocean flower island Hilton Hotels & Resorts Hotel\", \"hakhihi Hilton hainan ocean flower island Hilton Hotels & Resorts Resort\", \"hakhihi Hilton hainan ocean flower island Hilton Hotels & Resorts\", \"hakhihi Hilton hainan ocean flower island Hilton Hotel\", \"hakhihi Hilton hainan ocean flower island Hilton Resort\", \"hakhihi Hilton hainan ocean flower island Hilton\", \"Hilton Hainan Ocean Flower Island Hotel\", \"Hilton Hainan Ocean Flower Island Resort\", \"Hilton Hainan Ocean Flower Island\"], \"v\": 3}": {
+    "lat": 19.6601921,
+    "lon": 109.1759841,
+    "formatted_address": "海南海花岛希尔顿酒店, 滨海新区, Danzhou, Hainan, China, 571742",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ9Xu1vrJqTjERPlpb7TAqQuE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "海南海花岛希尔顿酒店, 滨海新区, Danzhou, Hainan, China, 571742",
+      "geometry": {
+        "location": {
+          "lat": 19.6601921,
+          "lng": 109.1759841
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 19.66154108029151,
+            "lng": 109.1773330802915
+          },
+          "southwest": {
+            "lat": 19.6588431197085,
+            "lng": 109.1746351197085
+          }
+        }
+      },
+      "name": "HILTON HAINAN OCEAN FLOWER ISLAND",
+      "place_id": "ChIJ9Xu1vrJqTjERPlpb7TAqQuE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com.cn/zh-cn/hotel/danzhou/HAKHIHI/index.html?_gl=1*rt3rdz*_gcl_aw*R0NMLjE3MjMxMTAwOTMuQ2p3S0NBanducUsxQmhCdkVpd0FpN28wWDJ4ay1DaTM3bGg1US1wdjVHMkZ4d3VkWHppbzd4V2dPSlRlaGFwS3JkWng2Sm5pWkhSNnVob0MydkVRQXZEX0J3RQ..*_gcl_dc*R0NMLjE3MjMxMTAwOTMuQ2p3S0NBanducUsxQmhCdkVpd0FpN28wWDJ4ay1DaTM3bGg1US1wdjVHMkZ4d3VkWHppbzd4V2dPSlRlaGFwS3JkWng2Sm5pWkhSNnVob0MydkVRQXZEX0J3RQ..*_gcl_au*NDIwMDA3ODc3LjE3MjE4MTEyOTE."
+    }
   }
 }
