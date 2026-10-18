@@ -2365,48 +2365,6 @@
       "website": "http://www.claremontresortandclub.com/"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Regina Experimental Biarritz Hotel\", \"Regina Experimental Biarritz Resort\", \"Regina Experimental Biarritz\", \"Regina Experimental Biarritz Biarritz, France Hotel\", \"Regina Experimental Biarritz Biarritz, France Resort\", \"Regina Experimental Biarritz Biarritz, France\"], \"v\": 3}": {
-    "lat": 43.49137959999999,
-    "lon": -1.5520148,
-    "formatted_address": "52 Av. de l'Impératrice, 64200 Biarritz, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJxaAbD91qUQ0RgsyeyFLd65o",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "CLOSED_TEMPORARILY",
-      "formatted_address": "52 Av. de l'Impératrice, 64200 Biarritz, France",
-      "geometry": {
-        "location": {
-          "lat": 43.49137959999999,
-          "lng": -1.5520148
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 43.49255188029149,
-            "lng": -1.550637069708498
-          },
-          "southwest": {
-            "lat": 43.48985391970849,
-            "lng": -1.553335030291502
-          }
-        }
-      },
-      "name": "Regina Experimental Biarritz",
-      "place_id": "ChIJxaAbD91qUQ0RgsyeyFLd65o",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.reginaexperimental.com/"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Summit Hotel Big Sky Resort Hotel\", \"Summit Hotel Big Sky Resort Resort\", \"Summit Hotel Big Sky Resort\", \"Summit Hotel Big Sky Resort Big Sky, Montana US Hotel\", \"Summit Hotel Big Sky Resort Big Sky, Montana US Resort\", \"Summit Hotel Big Sky Resort Big Sky, Montana US\", \"The Summit Hotel at Big Sky Resort Hotel\", \"The Summit Hotel at Big Sky Resort Resort\", \"The Summit Hotel at Big Sky Resort\", \"The Summit Hotel at Big Sky Resort Big Sky, Montana US Hotel\", \"The Summit Hotel at Big Sky Resort Big Sky, Montana US Resort\", \"The Summit Hotel at Big Sky Resort Big Sky, Montana US\"], \"v\": 3}": {
     "lat": 45.28342259999999,
     "lon": -111.4003678,
@@ -90455,48 +90413,6 @@
         "restaurant"
       ],
       "website": "http://www.claremontresortandclub.com/"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Regina Experimental Biarritz\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Regina Experimental Biarritz Hotel\", \"Regina Experimental Biarritz Resort\", \"Regina Experimental Biarritz\", \"Regina Experimental Biarritz Biarritz, France Hotel\", \"Regina Experimental Biarritz Biarritz, France Resort\", \"Regina Experimental Biarritz Biarritz, France\"], \"v\": 3}": {
-    "lat": 43.49137959999999,
-    "lon": -1.5520148,
-    "formatted_address": "52 Av. de l'Impératrice, 64200 Biarritz, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJxaAbD91qUQ0RgsyeyFLd65o",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "CLOSED_TEMPORARILY",
-      "formatted_address": "52 Av. de l'Impératrice, 64200 Biarritz, France",
-      "geometry": {
-        "location": {
-          "lat": 43.49137959999999,
-          "lng": -1.5520148
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 43.49255188029149,
-            "lng": -1.550637069708498
-          },
-          "southwest": {
-            "lat": 43.48985391970849,
-            "lng": -1.553335030291502
-          }
-        }
-      },
-      "name": "Regina Experimental Biarritz",
-      "place_id": "ChIJxaAbD91qUQ0RgsyeyFLd65o",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.reginaexperimental.com/"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Summit Hotel at Big Sky Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Summit Hotel at Big Sky Resort Hotel\", \"The Summit Hotel at Big Sky Resort Resort\", \"The Summit Hotel at Big Sky Resort\", \"The Summit Hotel at Big Sky Resort Big Sky, Montana US Hotel\", \"The Summit Hotel at Big Sky Resort Big Sky, Montana US Resort\", \"The Summit Hotel at Big Sky Resort Big Sky, Montana US\", \"Summit Hotel Big Sky Resort Hotel\", \"Summit Hotel Big Sky Resort Resort\", \"Summit Hotel Big Sky Resort\", \"Summit Hotel Big Sky Resort Big Sky, Montana US Hotel\", \"Summit Hotel Big Sky Resort Big Sky, Montana US Resort\", \"Summit Hotel Big Sky Resort Big Sky, Montana US\"], \"v\": 3}": {
