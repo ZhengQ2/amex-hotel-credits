@@ -8405,48 +8405,6 @@
       "website": "https://www.aman.com/resorts/amanpuri"
     }
   },
-  "{\"brand\": \"Aman\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amanera Aman Hotel\", \"Amanera Aman Resort\", \"Amanera Aman\", \"Amanera Aman Playa Grande, Dominican Republic Hotel\", \"Amanera Aman Playa Grande, Dominican Republic Resort\", \"Amanera Aman Playa Grande, Dominican Republic\", \"Amanera Hilton Hotel\", \"Amanera Hilton Resort\", \"Amanera Hilton\", \"Amanera Hilton Playa Grande, Dominican Republic Hotel\", \"Amanera Hilton Playa Grande, Dominican Republic Resort\", \"Amanera Hilton Playa Grande, Dominican Republic\", \"Amanera Hotel\", \"Amanera Resort\", \"Amanera\", \"Amanera Playa Grande, Dominican Republic Hotel\", \"Amanera Playa Grande, Dominican Republic Resort\", \"Amanera Playa Grande, Dominican Republic\"], \"v\": 3}": {
-    "lat": 19.6779997,
-    "lon": -70.0179142,
-    "formatted_address": "Auto. 5. Carretera, Carretera, Rio San Juan 33300, Dominican Republic",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ02704Oxsro4RjvvAkUjMbus",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Auto. 5. Carretera, Carretera, Rio San Juan 33300, Dominican Republic",
-      "geometry": {
-        "location": {
-          "lat": 19.6779997,
-          "lng": -70.0179142
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 19.6792984802915,
-            "lng": -70.0166898197085
-          },
-          "southwest": {
-            "lat": 19.6766005197085,
-            "lng": -70.01938778029151
-          }
-        }
-      },
-      "name": "Amanera",
-      "place_id": "ChIJ02704Oxsro4RjvvAkUjMbus",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.aman.com/resorts/amanera?utm_source=Google&utm_medium=Yext&y_source=1_MTU3MDgxMDAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
-    }
-  },
   "{\"brand\": \"Aman\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amanyara Aman Hotel\", \"Amanyara Aman Resort\", \"Amanyara Aman\", \"Amanyara Aman Providenciales, Turks and Caicos Islands Hotel\", \"Amanyara Aman Providenciales, Turks and Caicos Islands Resort\", \"Amanyara Aman Providenciales, Turks and Caicos Islands\", \"Amanyara Hilton Hotel\", \"Amanyara Hilton Resort\", \"Amanyara Hilton\", \"Amanyara Hilton Providenciales, Turks and Caicos Islands Hotel\", \"Amanyara Hilton Providenciales, Turks and Caicos Islands Resort\", \"Amanyara Hilton Providenciales, Turks and Caicos Islands\", \"Amanyara Hotel\", \"Amanyara Resort\", \"Amanyara\", \"Amanyara Providenciales, Turks and Caicos Islands Hotel\", \"Amanyara Providenciales, Turks and Caicos Islands Resort\", \"Amanyara Providenciales, Turks and Caicos Islands\"], \"v\": 3}": {
     "lat": 21.8292,
     "lon": -72.338,
@@ -132655,48 +132613,6 @@
         "point_of_interest"
       ],
       "website": "https://www.aman.com/resorts/amanpuri"
-    }
-  },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Amanera\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amanera Aman Hotel\", \"Amanera Aman Resort\", \"Amanera Aman\", \"Amanera Aman Playa Grande, Dominican Republic Hotel\", \"Amanera Aman Playa Grande, Dominican Republic Resort\", \"Amanera Aman Playa Grande, Dominican Republic\", \"Amanera Hilton Hotel\", \"Amanera Hilton Resort\", \"Amanera Hilton\", \"Amanera Hilton Playa Grande, Dominican Republic Hotel\", \"Amanera Hilton Playa Grande, Dominican Republic Resort\", \"Amanera Hilton Playa Grande, Dominican Republic\", \"Amanera Hotel\", \"Amanera Resort\", \"Amanera\", \"Amanera Playa Grande, Dominican Republic Hotel\", \"Amanera Playa Grande, Dominican Republic Resort\", \"Amanera Playa Grande, Dominican Republic\"], \"v\": 3}": {
-    "lat": 19.6779997,
-    "lon": -70.0179142,
-    "formatted_address": "Auto. 5. Carretera, Carretera, Rio San Juan 33300, Dominican Republic",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ02704Oxsro4RjvvAkUjMbus",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Auto. 5. Carretera, Carretera, Rio San Juan 33300, Dominican Republic",
-      "geometry": {
-        "location": {
-          "lat": 19.6779997,
-          "lng": -70.0179142
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 19.6792984802915,
-            "lng": -70.0166898197085
-          },
-          "southwest": {
-            "lat": 19.6766005197085,
-            "lng": -70.01938778029151
-          }
-        }
-      },
-      "name": "Amanera",
-      "place_id": "ChIJ02704Oxsro4RjvvAkUjMbus",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.aman.com/resorts/amanera?utm_source=Google&utm_medium=Yext&y_source=1_MTU3MDgxMDAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Amanyara\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amanyara Aman Hotel\", \"Amanyara Aman Resort\", \"Amanyara Aman\", \"Amanyara Aman Providenciales, Turks and Caicos Islands Hotel\", \"Amanyara Aman Providenciales, Turks and Caicos Islands Resort\", \"Amanyara Aman Providenciales, Turks and Caicos Islands\", \"Amanyara Hilton Hotel\", \"Amanyara Hilton Resort\", \"Amanyara Hilton\", \"Amanyara Hilton Providenciales, Turks and Caicos Islands Hotel\", \"Amanyara Hilton Providenciales, Turks and Caicos Islands Resort\", \"Amanyara Hilton Providenciales, Turks and Caicos Islands\", \"Amanyara Hotel\", \"Amanyara Resort\", \"Amanyara\", \"Amanyara Providenciales, Turks and Caicos Islands Hotel\", \"Amanyara Providenciales, Turks and Caicos Islands Resort\", \"Amanyara Providenciales, Turks and Caicos Islands\"], \"v\": 3}": {
