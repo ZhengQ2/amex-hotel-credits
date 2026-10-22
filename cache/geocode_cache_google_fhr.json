@@ -211825,5 +211825,241 @@
       ],
       "website": "https://www.theranchatrockcreek.com/?utm_source=gmb&utm_medium=organic"
     }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Mandarin Oriental Makati, Manila\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mandarin Oriental Makati, Manila\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Cala de Mar Resort & Spa Ixtapa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cala de Mar Resort & Spa Ixtapa Hotel\", \"Cala de Mar Resort & Spa Ixtapa Resort\", \"Cala de Mar Resort & Spa Ixtapa\", \"Cala de Mar Resort & Spa Ixtapa Ixtapa, Guerrero MX Hotel\", \"Cala de Mar Resort & Spa Ixtapa Ixtapa, Guerrero MX Resort\", \"Cala de Mar Resort & Spa Ixtapa Ixtapa, Guerrero MX\", \"Cala De Mar Resort Spa Ixtapa Hotel\", \"Cala De Mar Resort Spa Ixtapa Resort\", \"Cala De Mar Resort Spa Ixtapa\", \"Cala De Mar Resort Spa Ixtapa Ixtapa, Guerrero MX Hotel\", \"Cala De Mar Resort Spa Ixtapa Ixtapa, Guerrero MX Resort\", \"Cala De Mar Resort Spa Ixtapa Ixtapa, Guerrero MX\"], \"v\": 3}": {
+    "lat": 17.6674159,
+    "lon": -101.6327055,
+    "formatted_address": "Paseo Punta Ixtapa S/N, Zona Hotelera II, 40884 Ixtapa Zihuatanejo, Gro., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJXddoixN3NIQRPpRx6ijgWJ4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Paseo Punta Ixtapa S/N, Zona Hotelera II, 40884 Ixtapa Zihuatanejo, Gro., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 17.6674159,
+          "lng": -101.6327055
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 17.6686973802915,
+            "lng": -101.6323721197085
+          },
+          "southwest": {
+            "lat": 17.6659994197085,
+            "lng": -101.6350700802915
+          }
+        }
+      },
+      "name": "Cala de Mar Resort & Spa Ixtapa",
+      "place_id": "ChIJXddoixN3NIQRPpRx6ijgWJ4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.calademar.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Mandarin Oriental Makati, Manila\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mandarin Oriental Makati, Manila Mandarin Oriental Hotel Group Hotel\", \"Mandarin Oriental Makati, Manila Mandarin Oriental Hotel Group Resort\", \"Mandarin Oriental Makati, Manila Mandarin Oriental Hotel Group\", \"Mandarin Oriental Makati, Manila Mandarin Oriental Hotel Group Manila, Philippines Hotel\", \"Mandarin Oriental Makati, Manila Mandarin Oriental Hotel Group Manila, Philippines Resort\", \"Mandarin Oriental Makati, Manila Mandarin Oriental Hotel Group Manila, Philippines\", \"Mandarin Oriental Makati, Manila Hilton Hotel\", \"Mandarin Oriental Makati, Manila Hilton Resort\", \"Mandarin Oriental Makati, Manila Hilton\", \"Mandarin Oriental Makati, Manila Hilton Manila, Philippines Hotel\", \"Mandarin Oriental Makati, Manila Hilton Manila, Philippines Resort\", \"Mandarin Oriental Makati, Manila Hilton Manila, Philippines\", \"Mandarin Oriental Makati Manila Mandarin Oriental Hotel Group Hotel\", \"Mandarin Oriental Makati Manila Mandarin Oriental Hotel Group Resort\", \"Mandarin Oriental Makati Manila Mandarin Oriental Hotel Group\", \"Mandarin Oriental Makati Manila Mandarin Oriental Hotel Group Manila, Philippines Hotel\", \"Mandarin Oriental Makati Manila Mandarin Oriental Hotel Group Manila, Philippines Resort\", \"Mandarin Oriental Makati Manila Mandarin Oriental Hotel Group Manila, Philippines\", \"Mandarin Oriental Makati Manila Hilton Hotel\", \"Mandarin Oriental Makati Manila Hilton Resort\", \"Mandarin Oriental Makati Manila Hilton\", \"Mandarin Oriental Makati Manila Hilton Manila, Philippines Hotel\", \"Mandarin Oriental Makati Manila Hilton Manila, Philippines Resort\", \"Mandarin Oriental Makati Manila Hilton Manila, Philippines\", \"Mandarin Oriental Makati, Manila Hotel\", \"Mandarin Oriental Makati, Manila Resort\", \"Mandarin Oriental Makati, Manila\", \"Mandarin Oriental Makati, Manila Manila, Philippines Hotel\", \"Mandarin Oriental Makati, Manila Manila, Philippines Resort\", \"Mandarin Oriental Makati, Manila Manila, Philippines\"], \"v\": 3}": {
+    "lat": 14.5577852,
+    "lon": 121.0252791,
+    "formatted_address": "Ayala Triangle Makati Ave, corner Paseo de Roxas, Makati City, 1226 Metro Manila, Philippines",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
+    "place_id": "ChIJgwHJPTTJlzMRdw8LmyIIwl4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": true,
+    "raw": {
+      "address_components": [
+        {
+          "long_name": "Ayala Triangle Makati Ave",
+          "short_name": "",
+          "types": []
+        },
+        {
+          "long_name": "corner",
+          "short_name": "corner",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Paseo de Roxas",
+          "short_name": "Paseo de Roxas",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Makati City",
+          "short_name": "Makati City",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Metro Manila",
+          "short_name": "NCR",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Philippines",
+          "short_name": "PH",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "1226",
+          "short_name": "1226",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Ayala Triangle Makati Ave, corner Paseo de Roxas, Makati City, 1226 Metro Manila, Philippines",
+      "geometry": {
+        "location": {
+          "lat": 14.5577852,
+          "lng": 121.0252791
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 14.5591341802915,
+            "lng": 121.0266280802915
+          },
+          "southwest": {
+            "lat": 14.5564362197085,
+            "lng": 121.0239301197085
+          }
+        }
+      },
+      "partial_match": true,
+      "place_id": "ChIJgwHJPTTJlzMRdw8LmyIIwl4",
+      "plus_code": {
+        "compound_code": "H25G+44 Makati City, Metro Manila, Philippines",
+        "global_code": "7Q63H25G+44"
+      },
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Wymara Resort + Villas\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Wymara Resort + Villas Preferred Hotels & Resorts Hotel\", \"Wymara Resort + Villas Preferred Hotels & Resorts Resort\", \"Wymara Resort + Villas Preferred Hotels & Resorts\", \"Wymara Resort + Villas Preferred Hotels & Resorts Providenciales, Turks and Caicos Islands Hotel\", \"Wymara Resort + Villas Preferred Hotels & Resorts Providenciales, Turks and Caicos Islands Resort\", \"Wymara Resort + Villas Preferred Hotels & Resorts Providenciales, Turks and Caicos Islands\", \"Wymara Resort + Villas Hilton Hotel\", \"Wymara Resort + Villas Hilton Resort\", \"Wymara Resort + Villas Hilton\", \"Wymara Resort + Villas Hilton Providenciales, Turks and Caicos Islands Hotel\", \"Wymara Resort + Villas Hilton Providenciales, Turks and Caicos Islands Resort\", \"Wymara Resort + Villas Hilton Providenciales, Turks and Caicos Islands\", \"Wymara Resort Villas Preferred Hotels & Resorts Hotel\", \"Wymara Resort Villas Preferred Hotels & Resorts Resort\", \"Wymara Resort Villas Preferred Hotels & Resorts\", \"Wymara Resort Villas Preferred Hotels & Resorts Providenciales, Turks and Caicos Islands Hotel\", \"Wymara Resort Villas Preferred Hotels & Resorts Providenciales, Turks and Caicos Islands Resort\", \"Wymara Resort Villas Preferred Hotels & Resorts Providenciales, Turks and Caicos Islands\", \"Wymara Resort Villas Hilton Hotel\", \"Wymara Resort Villas Hilton Resort\", \"Wymara Resort Villas Hilton\", \"Wymara Resort Villas Hilton Providenciales, Turks and Caicos Islands Hotel\", \"Wymara Resort Villas Hilton Providenciales, Turks and Caicos Islands Resort\", \"Wymara Resort Villas Hilton Providenciales, Turks and Caicos Islands\", \"Wymara Resort + Villas Hotel\", \"Wymara Resort + Villas Resort\", \"Wymara Resort + Villas\", \"Wymara Resort + Villas Providenciales, Turks and Caicos Islands Hotel\", \"Wymara Resort + Villas Providenciales, Turks and Caicos Islands Resort\", \"Wymara Resort + Villas Providenciales, Turks and Caicos Islands\"], \"v\": 3}": {
+    "lat": 21.7821891,
+    "lon": -72.2098,
+    "formatted_address": "British West Indies, 218 Lower Bight Rd, The Bight Settlement TKCA 1ZZ, Turks and Caicos Islands",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ83WsFRxPS4kR6xlOabMWMIE",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "British West Indies, 218 Lower Bight Rd, The Bight Settlement TKCA 1ZZ, Turks and Caicos Islands",
+      "geometry": {
+        "location": {
+          "lat": 21.7821891,
+          "lng": -72.2098
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 21.7834355302915,
+            "lng": -72.20845776970849
+          },
+          "southwest": {
+            "lat": 21.7807375697085,
+            "lng": -72.2111557302915
+          }
+        }
+      },
+      "name": "Wymara Resort Turks & Caicos",
+      "place_id": "ChIJ83WsFRxPS4kR6xlOabMWMIE",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://wymara.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Spicers Peak Lodge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Spicers Peak Lodge Small Luxury Hotels of the World Hotel\", \"Spicers Peak Lodge Small Luxury Hotels of the World Resort\", \"Spicers Peak Lodge Small Luxury Hotels of the World\", \"Spicers Peak Lodge Small Luxury Hotels of the World Maryvale, Australia Hotel\", \"Spicers Peak Lodge Small Luxury Hotels of the World Maryvale, Australia Resort\", \"Spicers Peak Lodge Small Luxury Hotels of the World Maryvale, Australia\", \"Spicers Peak Lodge Hilton Hotel\", \"Spicers Peak Lodge Hilton Resort\", \"Spicers Peak Lodge Hilton\", \"Spicers Peak Lodge Hilton Maryvale, Australia Hotel\", \"Spicers Peak Lodge Hilton Maryvale, Australia Resort\", \"Spicers Peak Lodge Hilton Maryvale, Australia\", \"Spicers Peak Lodge Hotel\", \"Spicers Peak Lodge Resort\", \"Spicers Peak Lodge\", \"Spicers Peak Lodge Maryvale, Australia Hotel\", \"Spicers Peak Lodge Maryvale, Australia Resort\", \"Spicers Peak Lodge Maryvale, Australia\"], \"v\": 3}": {
+    "lat": -28.110294,
+    "lon": 152.3707859,
+    "formatted_address": "1 Wilkinson Rd, Maryvale QLD 4370, Australia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJZ1ub3EIFl2sRk3DMEKqbQa4",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1 Wilkinson Rd, Maryvale QLD 4370, Australia",
+      "geometry": {
+        "location": {
+          "lat": -28.110294,
+          "lng": 152.3707859
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -28.1089894697085,
+            "lng": 152.3721598302915
+          },
+          "southwest": {
+            "lat": -28.1116874302915,
+            "lng": 152.3694618697085
+          }
+        }
+      },
+      "name": "Spicers Peak Lodge",
+      "place_id": "ChIJZ1ub3EIFl2sRk3DMEKqbQa4",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.worldsapart.club/spicers/peak-lodge?utm_source=google&utm_medium=organic&utm_campaign=gmb"
+    }
   }
 }

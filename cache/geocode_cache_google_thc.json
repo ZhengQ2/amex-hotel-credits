@@ -156738,5 +156738,281 @@
       ],
       "website": "https://www.ihg.com/kimptonhotels/hotels/us/en/frankfurt/frajg/hoteldetail?cm_mmc=GoogleMaps-_-KI-_-DE-_-FRAJG"
     }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Ava Hotel Paso Robles, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Ava Hotel Paso Robles, Curio Collection by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Canopy by Hilton Bangkok Sukhumvit\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Bangkok Sukhumvit\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Bangkok Sukhumvit\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Bangkok Sukhumvit Canopy by Hilton Hotel\", \"Canopy by Hilton Bangkok Sukhumvit Canopy by Hilton Resort\", \"Canopy by Hilton Bangkok Sukhumvit Canopy by Hilton\", \"Canopy by Hilton Bangkok Sukhumvit Canopy by Hilton Bangkok, Thailand Hotel\", \"Canopy by Hilton Bangkok Sukhumvit Canopy by Hilton Bangkok, Thailand Resort\", \"Canopy by Hilton Bangkok Sukhumvit Canopy by Hilton Bangkok, Thailand\", \"Canopy by Hilton Bangkok Sukhumvit Hilton Hotel\", \"Canopy by Hilton Bangkok Sukhumvit Hilton Resort\", \"Canopy by Hilton Bangkok Sukhumvit Hilton\", \"Canopy by Hilton Bangkok Sukhumvit Hilton Bangkok, Thailand Hotel\", \"Canopy by Hilton Bangkok Sukhumvit Hilton Bangkok, Thailand Resort\", \"Canopy by Hilton Bangkok Sukhumvit Hilton Bangkok, Thailand\", \"Canopy Hilton Bangkok Sukhumvit Canopy by Hilton Hotel\", \"Canopy Hilton Bangkok Sukhumvit Canopy by Hilton Resort\", \"Canopy Hilton Bangkok Sukhumvit Canopy by Hilton\", \"Canopy Hilton Bangkok Sukhumvit Canopy by Hilton Bangkok, Thailand Hotel\", \"Canopy Hilton Bangkok Sukhumvit Canopy by Hilton Bangkok, Thailand Resort\", \"Canopy Hilton Bangkok Sukhumvit Canopy by Hilton Bangkok, Thailand\", \"Canopy Hilton Bangkok Sukhumvit Hilton Hotel\", \"Canopy Hilton Bangkok Sukhumvit Hilton Resort\", \"Canopy Hilton Bangkok Sukhumvit Hilton\", \"Canopy Hilton Bangkok Sukhumvit Hilton Bangkok, Thailand Hotel\", \"Canopy Hilton Bangkok Sukhumvit Hilton Bangkok, Thailand Resort\", \"Canopy Hilton Bangkok Sukhumvit Hilton Bangkok, Thailand\", \"Canopy by Hilton Bangkok Sukhumvit Hotel\", \"Canopy by Hilton Bangkok Sukhumvit Resort\", \"Canopy by Hilton Bangkok Sukhumvit\", \"Canopy by Hilton Bangkok Sukhumvit Bangkok, Thailand Hotel\", \"Canopy by Hilton Bangkok Sukhumvit Bangkok, Thailand Resort\", \"Canopy by Hilton Bangkok Sukhumvit Bangkok, Thailand\"], \"v\": 3}": {
+    "lat": 13.7374388,
+    "lon": 100.5579072,
+    "formatted_address": "98, 98/1 Soi Sukhumvit 12, Khwaeng Khlong Toei, Khet Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJcRMow5Wf4jARKFmOyHcRFSo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "98, 98/1 Soi Sukhumvit 12, Khwaeng Khlong Toei, Khet Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand",
+      "geometry": {
+        "location": {
+          "lat": 13.7374388,
+          "lng": 100.5579072
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 13.7387854302915,
+            "lng": 100.5593047302915
+          },
+          "southwest": {
+            "lat": 13.7360874697085,
+            "lng": 100.5566067697085
+          }
+        }
+      },
+      "name": "Canopy by Hilton Bangkok Sukhumvit",
+      "place_id": "ChIJcRMow5Wf4jARKFmOyHcRFSo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/bkkthpy-canopy-bangkok-sukhumvit/?SEO_id=GMB-APAC-PY-BKKTHPY"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Ava Hotel Paso Robles, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Ava Hotel Paso Robles, Curio Collection by Hilton Curio Collection Hotel\", \"The Ava Hotel Paso Robles, Curio Collection by Hilton Curio Collection Resort\", \"The Ava Hotel Paso Robles, Curio Collection by Hilton Curio Collection\", \"The Ava Hotel Paso Robles, Curio Collection by Hilton Curio Collection Paso Robles, California US Hotel\", \"The Ava Hotel Paso Robles, Curio Collection by Hilton Curio Collection Paso Robles, California US Resort\", \"The Ava Hotel Paso Robles, Curio Collection by Hilton Curio Collection Paso Robles, California US\", \"The Ava Hotel Paso Robles, Curio Collection by Hilton Hilton Hotel\", \"The Ava Hotel Paso Robles, Curio Collection by Hilton Hilton Resort\", \"The Ava Hotel Paso Robles, Curio Collection by Hilton Hilton\", \"The Ava Hotel Paso Robles, Curio Collection by Hilton Hilton Paso Robles, California US Hotel\", \"The Ava Hotel Paso Robles, Curio Collection by Hilton Hilton Paso Robles, California US Resort\", \"The Ava Hotel Paso Robles, Curio Collection by Hilton Hilton Paso Robles, California US\", \"Ava Hotel Paso Robles Curio Collection Hilton Curio Collection Hotel\", \"Ava Hotel Paso Robles Curio Collection Hilton Curio Collection Resort\", \"Ava Hotel Paso Robles Curio Collection Hilton Curio Collection\", \"Ava Hotel Paso Robles Curio Collection Hilton Curio Collection Paso Robles, California US Hotel\", \"Ava Hotel Paso Robles Curio Collection Hilton Curio Collection Paso Robles, California US Resort\", \"Ava Hotel Paso Robles Curio Collection Hilton Curio Collection Paso Robles, California US\", \"Ava Hotel Paso Robles Curio Collection Hilton Hilton Hotel\", \"Ava Hotel Paso Robles Curio Collection Hilton Hilton Resort\", \"Ava Hotel Paso Robles Curio Collection Hilton Hilton\", \"Ava Hotel Paso Robles Curio Collection Hilton Hilton Paso Robles, California US Hotel\", \"Ava Hotel Paso Robles Curio Collection Hilton Hilton Paso Robles, California US Resort\", \"Ava Hotel Paso Robles Curio Collection Hilton Hilton Paso Robles, California US\", \"The Ava Hotel Paso Robles, Curio Collection by Hilton Hotel\", \"The Ava Hotel Paso Robles, Curio Collection by Hilton Resort\", \"The Ava Hotel Paso Robles, Curio Collection by Hilton\", \"The Ava Hotel Paso Robles, Curio Collection by Hilton Paso Robles, California US Hotel\", \"The Ava Hotel Paso Robles, Curio Collection by Hilton Paso Robles, California US Resort\", \"The Ava Hotel Paso Robles, Curio Collection by Hilton Paso Robles, California US\"], \"v\": 3}": {
+    "lat": 35.6243532,
+    "lon": -120.6883545,
+    "formatted_address": "944 Pine St, Paso Robles, CA 93446, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJT4P1OwDF7IAR2T2DEszfr0Y",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "944 Pine St, Paso Robles, CA 93446, USA",
+      "geometry": {
+        "location": {
+          "lat": 35.6243532,
+          "lng": -120.6883545
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.62569473029151,
+            "lng": -120.6871373197085
+          },
+          "southwest": {
+            "lat": 35.62299676970851,
+            "lng": -120.6898352802915
+          }
+        }
+      },
+      "name": "The Ava Hotel Paso Robles, Curio Collection by Hilton",
+      "place_id": "ChIJT4P1OwDF7IAR2T2DEszfr0Y",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/sbpprqq-the-ava-hotel-paso-robles/?SEO_id=GMB-AMER-QQ-SBPPRQQ"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Sunny Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Sunny Hotel Curio Collection Hotel\", \"The Sunny Hotel Curio Collection Resort\", \"The Sunny Hotel Curio Collection\", \"The Sunny Hotel Curio Collection Sunny Isles Beach, Florida US Hotel\", \"The Sunny Hotel Curio Collection Sunny Isles Beach, Florida US Resort\", \"The Sunny Hotel Curio Collection Sunny Isles Beach, Florida US\", \"The Sunny Hotel Hilton Hotel\", \"The Sunny Hotel Hilton Resort\", \"The Sunny Hotel Hilton\", \"The Sunny Hotel Hilton Sunny Isles Beach, Florida US Hotel\", \"The Sunny Hotel Hilton Sunny Isles Beach, Florida US Resort\", \"The Sunny Hotel Hilton Sunny Isles Beach, Florida US\", \"The Sunny Hotel Hotel\", \"The Sunny Hotel Resort\", \"The Sunny Hotel\", \"The Sunny Hotel Sunny Isles Beach, Florida US Hotel\", \"The Sunny Hotel Sunny Isles Beach, Florida US Resort\", \"The Sunny Hotel Sunny Isles Beach, Florida US\"], \"v\": 3}": {
+    "lat": 25.930644,
+    "lon": -80.121402,
+    "formatted_address": "16701 Collins Ave, Sunny Isles Beach, FL 33160, USA",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
+    "place_id": "ChIJTzFgYhit2YgRVOCp60RQO6s",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": true,
+    "raw": {
+      "address_components": [
+        {
+          "long_name": "16701",
+          "short_name": "16701",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Collins Avenue",
+          "short_name": "Collins Ave",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Sunny Isles Beach",
+          "short_name": "Sunny Isles Beach",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Miami-Dade County",
+          "short_name": "Miami-Dade County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Florida",
+          "short_name": "FL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "33160",
+          "short_name": "33160",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "16701 Collins Ave, Sunny Isles Beach, FL 33160, USA",
+      "geometry": {
+        "location": {
+          "lat": 25.930644,
+          "lng": -80.121402
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 25.9321687802915,
+            "lng": -80.1202630697085
+          },
+          "southwest": {
+            "lat": 25.9294708197085,
+            "lng": -80.1229610302915
+          }
+        }
+      },
+      "partial_match": true,
+      "place_id": "ChIJTzFgYhit2YgRVOCp60RQO6s",
+      "plus_code": {
+        "compound_code": "WVJH+7C Sunny Isles Beach, FL",
+        "global_code": "76QXWVJH+7C"
+      },
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Hari London, Vignette Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Hari London, Vignette Collection IHG Hotels & Resorts Hotel\", \"The Hari London, Vignette Collection IHG Hotels & Resorts Resort\", \"The Hari London, Vignette Collection IHG Hotels & Resorts\", \"The Hari London, Vignette Collection IHG Hotels & Resorts London, England Hotel\", \"The Hari London, Vignette Collection IHG Hotels & Resorts London, England Resort\", \"The Hari London, Vignette Collection IHG Hotels & Resorts London, England\", \"The Hari London, Vignette Collection Hilton Hotel\", \"The Hari London, Vignette Collection Hilton Resort\", \"The Hari London, Vignette Collection Hilton\", \"The Hari London, Vignette Collection Hilton London, England Hotel\", \"The Hari London, Vignette Collection Hilton London, England Resort\", \"The Hari London, Vignette Collection Hilton London, England\", \"Hari London Vignette Collection IHG Hotels & Resorts Hotel\", \"Hari London Vignette Collection IHG Hotels & Resorts Resort\", \"Hari London Vignette Collection IHG Hotels & Resorts\", \"Hari London Vignette Collection IHG Hotels & Resorts London, England Hotel\", \"Hari London Vignette Collection IHG Hotels & Resorts London, England Resort\", \"Hari London Vignette Collection IHG Hotels & Resorts London, England\", \"Hari London Vignette Collection Hilton Hotel\", \"Hari London Vignette Collection Hilton Resort\", \"Hari London Vignette Collection Hilton\", \"Hari London Vignette Collection Hilton London, England Hotel\", \"Hari London Vignette Collection Hilton London, England Resort\", \"Hari London Vignette Collection Hilton London, England\", \"The Hari London, Vignette Collection Hotel\", \"The Hari London, Vignette Collection Resort\", \"The Hari London, Vignette Collection\", \"The Hari London, Vignette Collection London, England Hotel\", \"The Hari London, Vignette Collection London, England Resort\", \"The Hari London, Vignette Collection London, England\"], \"v\": 3}": {
+    "lat": 51.49733,
+    "lon": -0.1562088,
+    "formatted_address": "20 Chesham Pl, London SW1X 8HQ, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJYa44RTwFdkgRUJVKKazdnrA",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "20 Chesham Pl, London SW1X 8HQ, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.49733,
+          "lng": -0.1562088
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.49868293029151,
+            "lng": -0.154726869708498
+          },
+          "southwest": {
+            "lat": 51.49598496970851,
+            "lng": -0.157424830291502
+          }
+        }
+      },
+      "name": "The Hari London, Vignette Collection",
+      "place_id": "ChIJYa44RTwFdkgRUJVKKazdnrA",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.thehari.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Marriott Hotel\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Marriott Resort\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Marriott\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Marriott Chicago, Illinois US Hotel\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Marriott Chicago, Illinois US Resort\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Marriott Chicago, Illinois US\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Hilton Hotel\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Hilton Resort\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Hilton\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Hilton Chicago, Illinois US Hotel\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Hilton Chicago, Illinois US Resort\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Hilton Chicago, Illinois US\", \"Rivvy Chicago Downtown a Tribute Portfolio Hotel Marriott Hotel\", \"Rivvy Chicago Downtown a Tribute Portfolio Hotel Marriott Resort\", \"Rivvy Chicago Downtown a Tribute Portfolio Hotel Marriott\", \"Rivvy Chicago Downtown a Tribute Portfolio Hotel Marriott Chicago, Illinois US Hotel\", \"Rivvy Chicago Downtown a Tribute Portfolio Hotel Marriott Chicago, Illinois US Resort\", \"Rivvy Chicago Downtown a Tribute Portfolio Hotel Marriott Chicago, Illinois US\", \"Rivvy Chicago Downtown a Tribute Portfolio Hotel Hilton Hotel\", \"Rivvy Chicago Downtown a Tribute Portfolio Hotel Hilton Resort\", \"Rivvy Chicago Downtown a Tribute Portfolio Hotel Hilton\", \"Rivvy Chicago Downtown a Tribute Portfolio Hotel Hilton Chicago, Illinois US Hotel\", \"Rivvy Chicago Downtown a Tribute Portfolio Hotel Hilton Chicago, Illinois US Resort\", \"Rivvy Chicago Downtown a Tribute Portfolio Hotel Hilton Chicago, Illinois US\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Hotel\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Resort\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Chicago, Illinois US Hotel\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Chicago, Illinois US Resort\", \"The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel Chicago, Illinois US\"], \"v\": 3}": {
+    "lat": 41.8931911,
+    "lon": -87.62602070000001,
+    "formatted_address": "55 E Ontario St, Chicago, IL 60611, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJlW1EWmctDogRHofRXWsFe2s",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "55 E Ontario St, Chicago, IL 60611, USA",
+      "geometry": {
+        "location": {
+          "lat": 41.8931911,
+          "lng": -87.62602070000001
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.89460123029149,
+            "lng": -87.62459351970848
+          },
+          "southwest": {
+            "lat": 41.89190326970849,
+            "lng": -87.6272914802915
+          }
+        }
+      },
+      "name": "The RIVVY, Chicago Downtown, a Tribute Portfolio Hotel",
+      "place_id": "ChIJlW1EWmctDogRHofRXWsFe2s",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/chidb-the-rivvy-chicago-downtown-a-tribute-portfolio-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
   }
 }
