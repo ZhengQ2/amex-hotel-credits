@@ -24957,5 +24957,48 @@
       ],
       "website": "https://www.hilton.com.cn/zh-cn/hotel/danzhou/HAKHIHI/index.html?_gl=1*rt3rdz*_gcl_aw*R0NMLjE3MjMxMTAwOTMuQ2p3S0NBanducUsxQmhCdkVpd0FpN28wWDJ4ay1DaTM3bGg1US1wdjVHMkZ4d3VkWHppbzd4V2dPSlRlaGFwS3JkWng2Sm5pWkhSNnVob0MydkVRQXZEX0J3RQ..*_gcl_dc*R0NMLjE3MjMxMTAwOTMuQ2p3S0NBanducUsxQmhCdkVpd0FpN28wWDJ4ay1DaTM3bGg1US1wdjVHMkZ4d3VkWHppbzd4V2dPSlRlaGFwS3JkWng2Sm5pWkhSNnVob0MydkVRQXZEX0J3RQ..*_gcl_au*NDIwMDA3ODc3LjE3MjE4MTEyOTE."
     }
+  },
+  "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Hale Hokuala Kauai, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hale Hokuala Kauai, Curio Collection by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Hale Hokuala Kauai, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hale Hokuala Kauai, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"Hale Hokuala Kauai, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"Hale Hokuala Kauai, Curio Collection by Hilton Curio Collection by Hilton\", \"Hale Hokuala Kauai, Curio Collection by Hilton Hilton Hotel\", \"Hale Hokuala Kauai, Curio Collection by Hilton Hilton Resort\", \"Hale Hokuala Kauai, Curio Collection by Hilton Hilton\", \"lihhkqq hale hokuala kauai Curio Collection by Hilton Hotel\", \"lihhkqq hale hokuala kauai Curio Collection by Hilton Resort\", \"lihhkqq hale hokuala kauai Curio Collection by Hilton\", \"lihhkqq hale hokuala kauai Hilton Hotel\", \"lihhkqq hale hokuala kauai Hilton Resort\", \"lihhkqq hale hokuala kauai Hilton\", \"Hale Hokuala Kauai, Curio Collection by Hilton Hotel\", \"Hale Hokuala Kauai, Curio Collection by Hilton Resort\", \"Hale Hokuala Kauai, Curio Collection by Hilton\"], \"v\": 3}": {
+    "lat": 21.9621392,
+    "lon": -159.346846,
+    "formatted_address": "3351 Ho'Olaulea Wy, Lihue, HI 96766, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJK69PUeYfB3wRobSEkyNHUk8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "3351 Ho'Olaulea Wy, Lihue, HI 96766, USA",
+      "geometry": {
+        "location": {
+          "lat": 21.9621392,
+          "lng": -159.346846
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 21.96371943029151,
+            "lng": -159.3456140197085
+          },
+          "southwest": {
+            "lat": 21.9610214697085,
+            "lng": -159.3483119802915
+          }
+        }
+      },
+      "name": "Hale Hokuala Kauai, Curio Collection by Hilton",
+      "place_id": "ChIJK69PUeYfB3wRobSEkyNHUk8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/lihhkqq-hale-hokuala-kauai/?SEO_id=GMB-AMER-QQ-LIHHKQQ"
+    }
   }
 }
