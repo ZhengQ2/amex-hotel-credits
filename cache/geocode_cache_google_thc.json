@@ -21391,48 +21391,6 @@
       "website": "https://www.marriott.com/en-us/hotels/nycte-the-times-square-edition/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"Ennismore\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Our Habitas Bacalar Ennismore Hotel\", \"Our Habitas Bacalar Ennismore Resort\", \"Our Habitas Bacalar Ennismore\", \"Our Habitas Bacalar Ennismore Bacalar, Quintana Roo MX Hotel\", \"Our Habitas Bacalar Ennismore Bacalar, Quintana Roo MX Resort\", \"Our Habitas Bacalar Ennismore Bacalar, Quintana Roo MX\", \"Our Habitas Bacalar Hilton Hotel\", \"Our Habitas Bacalar Hilton Resort\", \"Our Habitas Bacalar Hilton\", \"Our Habitas Bacalar Hilton Bacalar, Quintana Roo MX Hotel\", \"Our Habitas Bacalar Hilton Bacalar, Quintana Roo MX Resort\", \"Our Habitas Bacalar Hilton Bacalar, Quintana Roo MX\", \"Our Habitas Bacalar Hotel\", \"Our Habitas Bacalar Resort\", \"Our Habitas Bacalar\", \"Our Habitas Bacalar Bacalar, Quintana Roo MX Hotel\", \"Our Habitas Bacalar Bacalar, Quintana Roo MX Resort\", \"Our Habitas Bacalar Bacalar, Quintana Roo MX\"], \"v\": 3}": {
-    "lat": 18.6164999,
-    "lon": -88.4324851,
-    "formatted_address": "Carretera Federal 307 Xul Ha, 77963 Bacalar, Q.R., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJC_3RejexW48R_5Ix2wqoNTs",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Carretera Federal 307 Xul Ha, 77963 Bacalar, Q.R., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 18.6164999,
-          "lng": -88.4324851
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 18.6180120802915,
-            "lng": -88.4314278697085
-          },
-          "southwest": {
-            "lat": 18.6153141197085,
-            "lng": -88.4341258302915
-          }
-        }
-      },
-      "name": "Our Habitas Bacalar",
-      "place_id": "ChIJC_3RejexW48R_5Ix2wqoNTs",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://ourhabitas.com/bacalar/?utm_source=google&utm_medium=organic&utm_campaign=google_local"
-    }
-  },
   "{\"brand\": \"Ennismore\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"25hours Hotel Paper Island Ennismore Hotel\", \"25hours Hotel Paper Island Ennismore Resort\", \"25hours Hotel Paper Island Ennismore\", \"25hours Hotel Paper Island Ennismore Copenhagen, Denmark Hotel\", \"25hours Hotel Paper Island Ennismore Copenhagen, Denmark Resort\", \"25hours Hotel Paper Island Ennismore Copenhagen, Denmark\", \"25hours Hotel Paper Island Hilton Hotel\", \"25hours Hotel Paper Island Hilton Resort\", \"25hours Hotel Paper Island Hilton\", \"25hours Hotel Paper Island Hilton Copenhagen, Denmark Hotel\", \"25hours Hotel Paper Island Hilton Copenhagen, Denmark Resort\", \"25hours Hotel Paper Island Hilton Copenhagen, Denmark\", \"25hours Hotel Paper Island Hotel\", \"25hours Hotel Paper Island Resort\", \"25hours Hotel Paper Island\", \"25hours Hotel Paper Island Copenhagen, Denmark Hotel\", \"25hours Hotel Paper Island Copenhagen, Denmark Resort\", \"25hours Hotel Paper Island Copenhagen, Denmark\"], \"v\": 3}": {
     "lat": 55.6792372,
     "lon": 12.5996747,
@@ -111197,48 +111155,6 @@
       "website": "https://www.marriott.com/en-us/hotels/nycte-the-times-square-edition/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Our Habitas Bacalar\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Our Habitas Bacalar Ennismore Hotel\", \"Our Habitas Bacalar Ennismore Resort\", \"Our Habitas Bacalar Ennismore\", \"Our Habitas Bacalar Ennismore Bacalar, Quintana Roo MX Hotel\", \"Our Habitas Bacalar Ennismore Bacalar, Quintana Roo MX Resort\", \"Our Habitas Bacalar Ennismore Bacalar, Quintana Roo MX\", \"Our Habitas Bacalar Hilton Hotel\", \"Our Habitas Bacalar Hilton Resort\", \"Our Habitas Bacalar Hilton\", \"Our Habitas Bacalar Hilton Bacalar, Quintana Roo MX Hotel\", \"Our Habitas Bacalar Hilton Bacalar, Quintana Roo MX Resort\", \"Our Habitas Bacalar Hilton Bacalar, Quintana Roo MX\", \"Our Habitas Bacalar Hotel\", \"Our Habitas Bacalar Resort\", \"Our Habitas Bacalar\", \"Our Habitas Bacalar Bacalar, Quintana Roo MX Hotel\", \"Our Habitas Bacalar Bacalar, Quintana Roo MX Resort\", \"Our Habitas Bacalar Bacalar, Quintana Roo MX\"], \"v\": 3}": {
-    "lat": 18.6164999,
-    "lon": -88.4324851,
-    "formatted_address": "Carretera Federal 307 Xul Ha, 77963 Bacalar, Q.R., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJC_3RejexW48R_5Ix2wqoNTs",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Carretera Federal 307 Xul Ha, 77963 Bacalar, Q.R., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 18.6164999,
-          "lng": -88.4324851
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 18.6180120802915,
-            "lng": -88.4314278697085
-          },
-          "southwest": {
-            "lat": 18.6153141197085,
-            "lng": -88.4341258302915
-          }
-        }
-      },
-      "name": "Our Habitas Bacalar",
-      "place_id": "ChIJC_3RejexW48R_5Ix2wqoNTs",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://ourhabitas.com/bacalar/?utm_source=google&utm_medium=organic&utm_campaign=google_local"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"25hours Hotel Paper Island\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"25hours Hotel Paper Island Ennismore Hotel\", \"25hours Hotel Paper Island Ennismore Resort\", \"25hours Hotel Paper Island Ennismore\", \"25hours Hotel Paper Island Ennismore Copenhagen, Denmark Hotel\", \"25hours Hotel Paper Island Ennismore Copenhagen, Denmark Resort\", \"25hours Hotel Paper Island Ennismore Copenhagen, Denmark\", \"25hours Hotel Paper Island Hilton Hotel\", \"25hours Hotel Paper Island Hilton Resort\", \"25hours Hotel Paper Island Hilton\", \"25hours Hotel Paper Island Hilton Copenhagen, Denmark Hotel\", \"25hours Hotel Paper Island Hilton Copenhagen, Denmark Resort\", \"25hours Hotel Paper Island Hilton Copenhagen, Denmark\", \"25hours Hotel Paper Island Hotel\", \"25hours Hotel Paper Island Resort\", \"25hours Hotel Paper Island\", \"25hours Hotel Paper Island Copenhagen, Denmark Hotel\", \"25hours Hotel Paper Island Copenhagen, Denmark Resort\", \"25hours Hotel Paper Island Copenhagen, Denmark\"], \"v\": 3}": {
     "lat": 55.6792372,
     "lon": 12.5996747,
@@ -156645,48 +156561,6 @@
         "point_of_interest"
       ],
       "website": "https://www.thehari.com/hong-kong/"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Our Habitas Bacalar\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Our Habitas Bacalar Hotel\", \"Our Habitas Bacalar Resort\", \"Our Habitas Bacalar\", \"Our Habitas Bacalar Bacalar, Quintana Roo MX Hotel\", \"Our Habitas Bacalar Bacalar, Quintana Roo MX Resort\", \"Our Habitas Bacalar Bacalar, Quintana Roo MX\"], \"v\": 3}": {
-    "lat": 18.6164999,
-    "lon": -88.4324851,
-    "formatted_address": "Carretera Federal 307 Xul Ha, 77963 Bacalar, Q.R., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJC_3RejexW48R_5Ix2wqoNTs",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Carretera Federal 307 Xul Ha, 77963 Bacalar, Q.R., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 18.6164999,
-          "lng": -88.4324851
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 18.6180120802915,
-            "lng": -88.4314278697085
-          },
-          "southwest": {
-            "lat": 18.6153141197085,
-            "lng": -88.4341258302915
-          }
-        }
-      },
-      "name": "Our Habitas Bacalar",
-      "place_id": "ChIJC_3RejexW48R_5Ix2wqoNTs",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://ourhabitas.com/bacalar/?utm_source=google&utm_medium=organic&utm_campaign=google_local"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Kimpton Main Frankfurt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Kimpton Main Frankfurt Kimpton Hotels & Restaurants Hotel\", \"Kimpton Main Frankfurt Kimpton Hotels & Restaurants Resort\", \"Kimpton Main Frankfurt Kimpton Hotels & Restaurants\", \"Kimpton Main Frankfurt Kimpton Hotels & Restaurants Frankfurt, Germany Hotel\", \"Kimpton Main Frankfurt Kimpton Hotels & Restaurants Frankfurt, Germany Resort\", \"Kimpton Main Frankfurt Kimpton Hotels & Restaurants Frankfurt, Germany\", \"Kimpton Main Frankfurt Hilton Hotel\", \"Kimpton Main Frankfurt Hilton Resort\", \"Kimpton Main Frankfurt Hilton\", \"Kimpton Main Frankfurt Hilton Frankfurt, Germany Hotel\", \"Kimpton Main Frankfurt Hilton Frankfurt, Germany Resort\", \"Kimpton Main Frankfurt Hilton Frankfurt, Germany\", \"Kimpton Main Frankfurt Hotel\", \"Kimpton Main Frankfurt Resort\", \"Kimpton Main Frankfurt\", \"Kimpton Main Frankfurt Frankfurt, Germany Hotel\", \"Kimpton Main Frankfurt Frankfurt, Germany Resort\", \"Kimpton Main Frankfurt Frankfurt, Germany\"], \"v\": 3}": {
