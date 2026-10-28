@@ -212061,5 +212061,47 @@
       ],
       "website": "https://www.worldsapart.club/spicers/peak-lodge?utm_source=google&utm_medium=organic&utm_campaign=gmb"
     }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Capitolo Riviera\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Capitolo Riviera Small Luxury Hotels of the World Hotel\", \"Capitolo Riviera Small Luxury Hotels of the World Resort\", \"Capitolo Riviera Small Luxury Hotels of the World\", \"Capitolo Riviera Small Luxury Hotels of the World Genoa, Italy Hotel\", \"Capitolo Riviera Small Luxury Hotels of the World Genoa, Italy Resort\", \"Capitolo Riviera Small Luxury Hotels of the World Genoa, Italy\", \"Capitolo Riviera Hilton Hotel\", \"Capitolo Riviera Hilton Resort\", \"Capitolo Riviera Hilton\", \"Capitolo Riviera Hilton Genoa, Italy Hotel\", \"Capitolo Riviera Hilton Genoa, Italy Resort\", \"Capitolo Riviera Hilton Genoa, Italy\", \"Capitolo Riviera Hotel\", \"Capitolo Riviera Resort\", \"Capitolo Riviera\", \"Capitolo Riviera Genoa, Italy Hotel\", \"Capitolo Riviera Genoa, Italy Resort\", \"Capitolo Riviera Genoa, Italy\"], \"v\": 3}": {
+    "lat": 44.3827404,
+    "lon": 9.039733,
+    "formatted_address": "Viale Delle Palme, 16A, 16167 Genova GE, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJsZJk061d0xIR7RDW0Vg35Jw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Viale Delle Palme, 16A, 16167 Genova GE, Italy",
+      "geometry": {
+        "location": {
+          "lat": 44.3827404,
+          "lng": 9.039733
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 44.3841498802915,
+            "lng": 9.041090530291504
+          },
+          "southwest": {
+            "lat": 44.3814519197085,
+            "lng": 9.038392569708499
+          }
+        }
+      },
+      "name": "Capitolo Riviera, an SLH Hotel",
+      "place_id": "ChIJsZJk061d0xIR7RDW0Vg35Jw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://capitoloriviera.com/it/"
+    }
   }
 }
