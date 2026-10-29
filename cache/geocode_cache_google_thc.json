@@ -156888,5 +156888,220 @@
       ],
       "website": "https://www.marriott.com/en-us/hotels/chidb-the-rivvy-chicago-downtown-a-tribute-portfolio-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hale Hokuala Kauai, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hale Hokuala Kauai, Curio Collection by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hale Hokuala Kauai, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hale Hokuala Kauai, Curio Collection by Hilton Curio Collection Hotel\", \"Hale Hokuala Kauai, Curio Collection by Hilton Curio Collection Resort\", \"Hale Hokuala Kauai, Curio Collection by Hilton Curio Collection\", \"Hale Hokuala Kauai, Curio Collection by Hilton Curio Collection Lihue, Hawaii US Hotel\", \"Hale Hokuala Kauai, Curio Collection by Hilton Curio Collection Lihue, Hawaii US Resort\", \"Hale Hokuala Kauai, Curio Collection by Hilton Curio Collection Lihue, Hawaii US\", \"Hale Hokuala Kauai, Curio Collection by Hilton Hilton Hotel\", \"Hale Hokuala Kauai, Curio Collection by Hilton Hilton Resort\", \"Hale Hokuala Kauai, Curio Collection by Hilton Hilton\", \"Hale Hokuala Kauai, Curio Collection by Hilton Hilton Lihue, Hawaii US Hotel\", \"Hale Hokuala Kauai, Curio Collection by Hilton Hilton Lihue, Hawaii US Resort\", \"Hale Hokuala Kauai, Curio Collection by Hilton Hilton Lihue, Hawaii US\", \"Hale Hokuala Kauai Curio Collection Hilton Curio Collection Hotel\", \"Hale Hokuala Kauai Curio Collection Hilton Curio Collection Resort\", \"Hale Hokuala Kauai Curio Collection Hilton Curio Collection\", \"Hale Hokuala Kauai Curio Collection Hilton Curio Collection Lihue, Hawaii US Hotel\", \"Hale Hokuala Kauai Curio Collection Hilton Curio Collection Lihue, Hawaii US Resort\", \"Hale Hokuala Kauai Curio Collection Hilton Curio Collection Lihue, Hawaii US\", \"Hale Hokuala Kauai Curio Collection Hilton Hilton Hotel\", \"Hale Hokuala Kauai Curio Collection Hilton Hilton Resort\", \"Hale Hokuala Kauai Curio Collection Hilton Hilton\", \"Hale Hokuala Kauai Curio Collection Hilton Hilton Lihue, Hawaii US Hotel\", \"Hale Hokuala Kauai Curio Collection Hilton Hilton Lihue, Hawaii US Resort\", \"Hale Hokuala Kauai Curio Collection Hilton Hilton Lihue, Hawaii US\", \"Hale Hokuala Kauai, Curio Collection by Hilton Hotel\", \"Hale Hokuala Kauai, Curio Collection by Hilton Resort\", \"Hale Hokuala Kauai, Curio Collection by Hilton\", \"Hale Hokuala Kauai, Curio Collection by Hilton Lihue, Hawaii US Hotel\", \"Hale Hokuala Kauai, Curio Collection by Hilton Lihue, Hawaii US Resort\", \"Hale Hokuala Kauai, Curio Collection by Hilton Lihue, Hawaii US\"], \"v\": 3}": {
+    "lat": 21.9621392,
+    "lon": -159.346846,
+    "formatted_address": "3351 Ho'Olaulea Wy, Lihue, HI 96766, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJK69PUeYfB3wRobSEkyNHUk8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "3351 Ho'Olaulea Wy, Lihue, HI 96766, USA",
+      "geometry": {
+        "location": {
+          "lat": 21.9621392,
+          "lng": -159.346846
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 21.96371943029151,
+            "lng": -159.3456140197085
+          },
+          "southwest": {
+            "lat": 21.9610214697085,
+            "lng": -159.3483119802915
+          }
+        }
+      },
+      "name": "Hale Hokuala Kauai, Curio Collection by Hilton",
+      "place_id": "ChIJK69PUeYfB3wRobSEkyNHUk8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/lihhkqq-hale-hokuala-kauai/?SEO_id=GMB-AMER-QQ-LIHHKQQ"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Graduate by Hilton Annapolis\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Graduate by Hilton Annapolis Graduate by Hilton Hotel\", \"Graduate by Hilton Annapolis Graduate by Hilton Resort\", \"Graduate by Hilton Annapolis Graduate by Hilton\", \"Graduate by Hilton Annapolis Graduate by Hilton Annapolis, Maryland US Hotel\", \"Graduate by Hilton Annapolis Graduate by Hilton Annapolis, Maryland US Resort\", \"Graduate by Hilton Annapolis Graduate by Hilton Annapolis, Maryland US\", \"Graduate by Hilton Annapolis Hilton Hotel\", \"Graduate by Hilton Annapolis Hilton Resort\", \"Graduate by Hilton Annapolis Hilton\", \"Graduate by Hilton Annapolis Hilton Annapolis, Maryland US Hotel\", \"Graduate by Hilton Annapolis Hilton Annapolis, Maryland US Resort\", \"Graduate by Hilton Annapolis Hilton Annapolis, Maryland US\", \"Graduate Hilton Annapolis Graduate by Hilton Hotel\", \"Graduate Hilton Annapolis Graduate by Hilton Resort\", \"Graduate Hilton Annapolis Graduate by Hilton\", \"Graduate Hilton Annapolis Graduate by Hilton Annapolis, Maryland US Hotel\", \"Graduate Hilton Annapolis Graduate by Hilton Annapolis, Maryland US Resort\", \"Graduate Hilton Annapolis Graduate by Hilton Annapolis, Maryland US\", \"Graduate Hilton Annapolis Hilton Hotel\", \"Graduate Hilton Annapolis Hilton Resort\", \"Graduate Hilton Annapolis Hilton\", \"Graduate Hilton Annapolis Hilton Annapolis, Maryland US Hotel\", \"Graduate Hilton Annapolis Hilton Annapolis, Maryland US Resort\", \"Graduate Hilton Annapolis Hilton Annapolis, Maryland US\", \"Graduate by Hilton Annapolis Hotel\", \"Graduate by Hilton Annapolis Resort\", \"Graduate by Hilton Annapolis\", \"Graduate by Hilton Annapolis Annapolis, Maryland US Hotel\", \"Graduate by Hilton Annapolis Annapolis, Maryland US Resort\", \"Graduate by Hilton Annapolis Annapolis, Maryland US\"], \"v\": 3}": {
+    "lat": 38.97823899999999,
+    "lon": -76.49822089999999,
+    "formatted_address": "126 West St, Annapolis, MD 21401, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJJVNvU-H3t4kRi4gU_e80uZc",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "126 West St, Annapolis, MD 21401, USA",
+      "geometry": {
+        "location": {
+          "lat": 38.97823899999999,
+          "lng": -76.49822089999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.9796061802915,
+            "lng": -76.49672056970849
+          },
+          "southwest": {
+            "lat": 38.9769082197085,
+            "lng": -76.4994185302915
+          }
+        }
+      },
+      "name": "Graduate by Hilton Annapolis",
+      "place_id": "ChIJJVNvU-H3t4kRi4gU_e80uZc",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/anpgagu-graduate-annapolis/?SEO_id=GMB-AMER-GU-ANPGAGU"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Graduate by Hilton Auburn, AL\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Graduate by Hilton Auburn, AL Graduate by Hilton Hotel\", \"Graduate by Hilton Auburn, AL Graduate by Hilton Resort\", \"Graduate by Hilton Auburn, AL Graduate by Hilton\", \"Graduate by Hilton Auburn, AL Graduate by Hilton Auburn, Alabama US Hotel\", \"Graduate by Hilton Auburn, AL Graduate by Hilton Auburn, Alabama US Resort\", \"Graduate by Hilton Auburn, AL Graduate by Hilton Auburn, Alabama US\", \"Graduate by Hilton Auburn, AL Hilton Hotel\", \"Graduate by Hilton Auburn, AL Hilton Resort\", \"Graduate by Hilton Auburn, AL Hilton\", \"Graduate by Hilton Auburn, AL Hilton Auburn, Alabama US Hotel\", \"Graduate by Hilton Auburn, AL Hilton Auburn, Alabama US Resort\", \"Graduate by Hilton Auburn, AL Hilton Auburn, Alabama US\", \"Graduate Hilton Auburn Al Graduate by Hilton Hotel\", \"Graduate Hilton Auburn Al Graduate by Hilton Resort\", \"Graduate Hilton Auburn Al Graduate by Hilton\", \"Graduate Hilton Auburn Al Graduate by Hilton Auburn, Alabama US Hotel\", \"Graduate Hilton Auburn Al Graduate by Hilton Auburn, Alabama US Resort\", \"Graduate Hilton Auburn Al Graduate by Hilton Auburn, Alabama US\", \"Graduate Hilton Auburn Al Hilton Hotel\", \"Graduate Hilton Auburn Al Hilton Resort\", \"Graduate Hilton Auburn Al Hilton\", \"Graduate Hilton Auburn Al Hilton Auburn, Alabama US Hotel\", \"Graduate Hilton Auburn Al Hilton Auburn, Alabama US Resort\", \"Graduate Hilton Auburn Al Hilton Auburn, Alabama US\", \"Graduate by Hilton Auburn, AL Hotel\", \"Graduate by Hilton Auburn, AL Resort\", \"Graduate by Hilton Auburn, AL\", \"Graduate by Hilton Auburn, AL Auburn, Alabama US Hotel\", \"Graduate by Hilton Auburn, AL Auburn, Alabama US Resort\", \"Graduate by Hilton Auburn, AL Auburn, Alabama US\"], \"v\": 3}": {
+    "lat": 32.6068604,
+    "lon": -85.4833591,
+    "formatted_address": "202 W Magnolia Ave, Auburn, AL 36830, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJjWE9ZRzzjIgRHUVj0Uc-4VM",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "202 W Magnolia Ave, Auburn, AL 36830, USA",
+      "geometry": {
+        "location": {
+          "lat": 32.6068604,
+          "lng": -85.4833591
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.6081536802915,
+            "lng": -85.4820277197085
+          },
+          "southwest": {
+            "lat": 32.6054557197085,
+            "lng": -85.4847256802915
+          }
+        }
+      },
+      "name": "Graduate by Hilton Auburn, AL",
+      "place_id": "ChIJjWE9ZRzzjIgRHUVj0Uc-4VM",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.hilton.com/en/hotels/aubgagu-graduate-auburn-al/?SEO_id=GMB-AMER-GU-AUBGAGU&y_source=1_MTA1MzY0NDcyNS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Graduate by Hilton Cambridge\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Graduate by Hilton Cambridge Graduate by Hilton Hotel\", \"Graduate by Hilton Cambridge Graduate by Hilton Resort\", \"Graduate by Hilton Cambridge Graduate by Hilton\", \"Graduate by Hilton Cambridge Graduate by Hilton Cambridge, England Hotel\", \"Graduate by Hilton Cambridge Graduate by Hilton Cambridge, England Resort\", \"Graduate by Hilton Cambridge Graduate by Hilton Cambridge, England\", \"Graduate by Hilton Cambridge Hilton Hotel\", \"Graduate by Hilton Cambridge Hilton Resort\", \"Graduate by Hilton Cambridge Hilton\", \"Graduate by Hilton Cambridge Hilton Cambridge, England Hotel\", \"Graduate by Hilton Cambridge Hilton Cambridge, England Resort\", \"Graduate by Hilton Cambridge Hilton Cambridge, England\", \"Graduate Hilton Cambridge Graduate by Hilton Hotel\", \"Graduate Hilton Cambridge Graduate by Hilton Resort\", \"Graduate Hilton Cambridge Graduate by Hilton\", \"Graduate Hilton Cambridge Graduate by Hilton Cambridge, England Hotel\", \"Graduate Hilton Cambridge Graduate by Hilton Cambridge, England Resort\", \"Graduate Hilton Cambridge Graduate by Hilton Cambridge, England\", \"Graduate Hilton Cambridge Hilton Hotel\", \"Graduate Hilton Cambridge Hilton Resort\", \"Graduate Hilton Cambridge Hilton\", \"Graduate Hilton Cambridge Hilton Cambridge, England Hotel\", \"Graduate Hilton Cambridge Hilton Cambridge, England Resort\", \"Graduate Hilton Cambridge Hilton Cambridge, England\", \"Graduate by Hilton Cambridge Hotel\", \"Graduate by Hilton Cambridge Resort\", \"Graduate by Hilton Cambridge\", \"Graduate by Hilton Cambridge Cambridge, England Hotel\", \"Graduate by Hilton Cambridge Cambridge, England Resort\", \"Graduate by Hilton Cambridge Cambridge, England\"], \"v\": 3}": {
+    "lat": 52.200411,
+    "lon": 0.116627,
+    "formatted_address": "Granta Pl, Mill Ln, Cambridge CB2 1RT, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJaf65O6Nw2EcR3cexxXf5GJM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Granta Pl, Mill Ln, Cambridge CB2 1RT, UK",
+      "geometry": {
+        "location": {
+          "lat": 52.200411,
+          "lng": 0.116627
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.20192883029149,
+            "lng": 0.117960930291502
+          },
+          "southwest": {
+            "lat": 52.19923086970849,
+            "lng": 0.115262969708498
+          }
+        }
+      },
+      "name": "Graduate by Hilton Cambridge",
+      "place_id": "ChIJaf65O6Nw2EcR3cexxXf5GJM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/stngagu-graduate-cambridge/?SEO_id=GMB-EMEA-GU-STNGAGU"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Graduate by Hilton Princeton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Graduate by Hilton Princeton Graduate by Hilton Hotel\", \"Graduate by Hilton Princeton Graduate by Hilton Resort\", \"Graduate by Hilton Princeton Graduate by Hilton\", \"Graduate by Hilton Princeton Graduate by Hilton Princeton, New Jersey US Hotel\", \"Graduate by Hilton Princeton Graduate by Hilton Princeton, New Jersey US Resort\", \"Graduate by Hilton Princeton Graduate by Hilton Princeton, New Jersey US\", \"Graduate by Hilton Princeton Hilton Hotel\", \"Graduate by Hilton Princeton Hilton Resort\", \"Graduate by Hilton Princeton Hilton\", \"Graduate by Hilton Princeton Hilton Princeton, New Jersey US Hotel\", \"Graduate by Hilton Princeton Hilton Princeton, New Jersey US Resort\", \"Graduate by Hilton Princeton Hilton Princeton, New Jersey US\", \"Graduate Hilton Princeton Graduate by Hilton Hotel\", \"Graduate Hilton Princeton Graduate by Hilton Resort\", \"Graduate Hilton Princeton Graduate by Hilton\", \"Graduate Hilton Princeton Graduate by Hilton Princeton, New Jersey US Hotel\", \"Graduate Hilton Princeton Graduate by Hilton Princeton, New Jersey US Resort\", \"Graduate Hilton Princeton Graduate by Hilton Princeton, New Jersey US\", \"Graduate Hilton Princeton Hilton Hotel\", \"Graduate Hilton Princeton Hilton Resort\", \"Graduate Hilton Princeton Hilton\", \"Graduate Hilton Princeton Hilton Princeton, New Jersey US Hotel\", \"Graduate Hilton Princeton Hilton Princeton, New Jersey US Resort\", \"Graduate Hilton Princeton Hilton Princeton, New Jersey US\", \"Graduate by Hilton Princeton Hotel\", \"Graduate by Hilton Princeton Resort\", \"Graduate by Hilton Princeton\", \"Graduate by Hilton Princeton Princeton, New Jersey US Hotel\", \"Graduate by Hilton Princeton Princeton, New Jersey US Resort\", \"Graduate by Hilton Princeton Princeton, New Jersey US\"], \"v\": 3}": {
+    "lat": 40.3494359,
+    "lon": -74.6629828,
+    "formatted_address": "10 Chambers St, Princeton, NJ 08542, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJqfgKHwDnw4kRLIVc6k-EYtg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "10 Chambers St, Princeton, NJ 08542, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.3494359,
+          "lng": -74.6629828
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.3507515302915,
+            "lng": -74.6614754197085
+          },
+          "southwest": {
+            "lat": 40.3480535697085,
+            "lng": -74.6641733802915
+          }
+        }
+      },
+      "name": "Graduate by Hilton Princeton",
+      "place_id": "ChIJqfgKHwDnw4kRLIVc6k-EYtg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/pctgpgu-graduate-princeton/?SEO_id=GMB-AMER-GU-PCTGPGU&y_source=1_MTA1Mzc3MTQzMy03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    }
   }
 }
