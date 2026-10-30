@@ -157103,5 +157103,49 @@
       ],
       "website": "https://www.hilton.com/en/hotels/pctgpgu-graduate-princeton/?SEO_id=GMB-AMER-GU-PCTGPGU&y_source=1_MTA1Mzc3MTQzMy03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Randolph Hotel Oxford, a Graduate by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Randolph Hotel Oxford, a Graduate by Hilton Graduate by Hilton Hotel\", \"The Randolph Hotel Oxford, a Graduate by Hilton Graduate by Hilton Resort\", \"The Randolph Hotel Oxford, a Graduate by Hilton Graduate by Hilton\", \"The Randolph Hotel Oxford, a Graduate by Hilton Graduate by Hilton Oxford, England Hotel\", \"The Randolph Hotel Oxford, a Graduate by Hilton Graduate by Hilton Oxford, England Resort\", \"The Randolph Hotel Oxford, a Graduate by Hilton Graduate by Hilton Oxford, England\", \"The Randolph Hotel Oxford, a Graduate by Hilton Hilton Hotel\", \"The Randolph Hotel Oxford, a Graduate by Hilton Hilton Resort\", \"The Randolph Hotel Oxford, a Graduate by Hilton Hilton\", \"The Randolph Hotel Oxford, a Graduate by Hilton Hilton Oxford, England Hotel\", \"The Randolph Hotel Oxford, a Graduate by Hilton Hilton Oxford, England Resort\", \"The Randolph Hotel Oxford, a Graduate by Hilton Hilton Oxford, England\", \"Randolph Hotel Oxford a Graduate Hilton Graduate by Hilton Hotel\", \"Randolph Hotel Oxford a Graduate Hilton Graduate by Hilton Resort\", \"Randolph Hotel Oxford a Graduate Hilton Graduate by Hilton\", \"Randolph Hotel Oxford a Graduate Hilton Graduate by Hilton Oxford, England Hotel\", \"Randolph Hotel Oxford a Graduate Hilton Graduate by Hilton Oxford, England Resort\", \"Randolph Hotel Oxford a Graduate Hilton Graduate by Hilton Oxford, England\", \"Randolph Hotel Oxford a Graduate Hilton Hilton Hotel\", \"Randolph Hotel Oxford a Graduate Hilton Hilton Resort\", \"Randolph Hotel Oxford a Graduate Hilton Hilton\", \"Randolph Hotel Oxford a Graduate Hilton Hilton Oxford, England Hotel\", \"Randolph Hotel Oxford a Graduate Hilton Hilton Oxford, England Resort\", \"Randolph Hotel Oxford a Graduate Hilton Hilton Oxford, England\", \"The Randolph Hotel Oxford, a Graduate by Hilton Hotel\", \"The Randolph Hotel Oxford, a Graduate by Hilton Resort\", \"The Randolph Hotel Oxford, a Graduate by Hilton\", \"The Randolph Hotel Oxford, a Graduate by Hilton Oxford, England Hotel\", \"The Randolph Hotel Oxford, a Graduate by Hilton Oxford, England Resort\", \"The Randolph Hotel Oxford, a Graduate by Hilton Oxford, England\"], \"v\": 3}": {
+    "lat": 51.75508749999999,
+    "lon": -1.2596601,
+    "formatted_address": "Beaumont St, Oxford OX1 2LN, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJEbKH0qXGdkgRUulPBJvwFTo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Beaumont St, Oxford OX1 2LN, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.75508749999999,
+          "lng": -1.2596601
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.7564692802915,
+            "lng": -1.258333369708498
+          },
+          "southwest": {
+            "lat": 51.7537713197085,
+            "lng": -1.261031330291502
+          }
+        }
+      },
+      "name": "The Randolph Hotel Oxford, a Graduate by Hilton",
+      "place_id": "ChIJEbKH0qXGdkgRUulPBJvwFTo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/lonrdgu-graduate-oxford-uk/?SEO_id=GMB-EMEA-GU-LONRDGU"
+    }
   }
 }
