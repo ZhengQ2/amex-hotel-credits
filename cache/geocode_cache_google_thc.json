@@ -157147,5 +157147,1541 @@
       ],
       "website": "https://www.hilton.com/en/hotels/lonrdgu-graduate-oxford-uk/?SEO_id=GMB-EMEA-GU-LONRDGU"
     }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Waldhotel by Buergenstock\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Waldhotel by Buergenstock Hotel\", \"Waldhotel by Buergenstock Resort\", \"Waldhotel by Buergenstock\", \"Waldhotel by Buergenstock Ennetbuergen, Switzerland Hotel\", \"Waldhotel by Buergenstock Ennetbuergen, Switzerland Resort\", \"Waldhotel by Buergenstock Ennetbuergen, Switzerland\", \"Waldhotel By Buergenstock Hotel\", \"Waldhotel By Buergenstock Resort\", \"Waldhotel By Buergenstock\", \"Waldhotel By Buergenstock Ennetbuergen, Switzerland Hotel\", \"Waldhotel By Buergenstock Ennetbuergen, Switzerland Resort\", \"Waldhotel By Buergenstock Ennetbuergen, Switzerland\"], \"v\": 3}": {
+    "lat": 46.9967339,
+    "lon": 8.384720699999999,
+    "formatted_address": "Resort Lake Lucerne, Bürgenstock 30, 6363 Obbürgen, Switzerland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJScXwWDL4j0cRqHSA9gPKOD0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Resort Lake Lucerne, Bürgenstock 30, 6363 Obbürgen, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 46.9967339,
+          "lng": 8.384720699999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 46.99794633029149,
+            "lng": 8.386073430291502
+          },
+          "southwest": {
+            "lat": 46.99524836970849,
+            "lng": 8.383375469708497
+          }
+        }
+      },
+      "name": "Waldhotel by Bürgenstock",
+      "place_id": "ChIJScXwWDL4j0cRqHSA9gPKOD0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://burgenstockresort.com/en/our-hotels/waldhotel-health-and-wellbeing?utm_source=google.com&utm_medium=referral&utm_campaign=gmb"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Salish Lodge & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Salish Lodge & Spa Hotel\", \"Salish Lodge & Spa Resort\", \"Salish Lodge & Spa\", \"Salish Lodge & Spa Fall City, Washington US Hotel\", \"Salish Lodge & Spa Fall City, Washington US Resort\", \"Salish Lodge & Spa Fall City, Washington US\", \"Salish Lodge Spa Hotel\", \"Salish Lodge Spa Resort\", \"Salish Lodge Spa\", \"Salish Lodge Spa Fall City, Washington US Hotel\", \"Salish Lodge Spa Fall City, Washington US Resort\", \"Salish Lodge Spa Fall City, Washington US\"], \"v\": 3}": {
+    "lat": 47.54218239999999,
+    "lon": -121.8365525,
+    "formatted_address": "6501 Railroad Ave, Snoqualmie, WA 98065, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ-WAES-Z7kFQREVvVlCoZud0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "6501 Railroad Ave, Snoqualmie, WA 98065, USA",
+      "geometry": {
+        "location": {
+          "lat": 47.54218239999999,
+          "lng": -121.8365525
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.5435994302915,
+            "lng": -121.8352694697085
+          },
+          "southwest": {
+            "lat": 47.5409014697085,
+            "lng": -121.8379674302915
+          }
+        }
+      },
+      "name": "Salish Lodge & Spa",
+      "place_id": "ChIJ-WAES-Z7kFQREVvVlCoZud0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "http://www.salishlodge.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Silver Lake Pool & Inn\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Silver Lake Pool & Inn Hotel\", \"Silver Lake Pool & Inn Resort\", \"Silver Lake Pool & Inn\", \"Silver Lake Pool & Inn Los Angeles, California US Hotel\", \"Silver Lake Pool & Inn Los Angeles, California US Resort\", \"Silver Lake Pool & Inn Los Angeles, California US\", \"Silver Lake Pool Inn Hotel\", \"Silver Lake Pool Inn Resort\", \"Silver Lake Pool Inn\", \"Silver Lake Pool Inn Los Angeles, California US Hotel\", \"Silver Lake Pool Inn Los Angeles, California US Resort\", \"Silver Lake Pool Inn Los Angeles, California US\"], \"v\": 3}": {
+    "lat": 34.0917787,
+    "lon": -118.2828162,
+    "formatted_address": "4141 Santa Monica Blvd, Los Angeles, CA 90029, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJB7x_3E7HwoARby2w2st4Mwg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "4141 Santa Monica Blvd, Los Angeles, CA 90029, USA",
+      "geometry": {
+        "location": {
+          "lat": 34.0917787,
+          "lng": -118.2828162
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 34.0930612302915,
+            "lng": -118.2814080697085
+          },
+          "southwest": {
+            "lat": 34.0903632697085,
+            "lng": -118.2841060302915
+          }
+        }
+      },
+      "name": "Silver Lake Pool & Inn",
+      "place_id": "ChIJB7x_3E7HwoARby2w2st4Mwg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.palisociety.com/hotels/silverlake"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Inn at Bay Harbor\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Inn at Bay Harbor Hotel\", \"The Inn at Bay Harbor Resort\", \"The Inn at Bay Harbor\", \"The Inn at Bay Harbor Petoskey, Michigan US Hotel\", \"The Inn at Bay Harbor Petoskey, Michigan US Resort\", \"The Inn at Bay Harbor Petoskey, Michigan US\", \"Inn Bay Harbor Hotel\", \"Inn Bay Harbor Resort\", \"Inn Bay Harbor\", \"Inn Bay Harbor Petoskey, Michigan US Hotel\", \"Inn Bay Harbor Petoskey, Michigan US Resort\", \"Inn Bay Harbor Petoskey, Michigan US\"], \"v\": 3}": {
+    "lat": 45.3690316,
+    "lon": -85.01558659999999,
+    "formatted_address": "3600 Village Harbor Dr #134, Bay Harbor, MI 49770, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ8xZkN2WFSk0RYGOo0d4DX60",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "3600 Village Harbor Dr #134, Bay Harbor, MI 49770, USA",
+      "geometry": {
+        "location": {
+          "lat": 45.3690316,
+          "lng": -85.01558659999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.3702651802915,
+            "lng": -85.01416246970848
+          },
+          "southwest": {
+            "lat": 45.3675672197085,
+            "lng": -85.0168604302915
+          }
+        }
+      },
+      "name": "Inn at Bay Harbor",
+      "place_id": "ChIJ8xZkN2WFSk0RYGOo0d4DX60",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.innatbayharbor.com/?utm_campaign=google_profle&utm_medium=search&phone=8558114402"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Aluna Resort Tulum\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aluna Resort Tulum Hotel\", \"Aluna Resort Tulum Resort\", \"Aluna Resort Tulum\", \"Aluna Resort Tulum Tulum, QROO MX Hotel\", \"Aluna Resort Tulum Tulum, QROO MX Resort\", \"Aluna Resort Tulum Tulum, QROO MX\"], \"v\": 3}": {
+    "lat": 20.2015027,
+    "lon": -87.45107510000001,
+    "formatted_address": "Av. Itzamna, Aldea Zama 11-Poligono 0014, Lote 1, 77760 Tulum, Q.R., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJT0HpF0_RT48RfDOUI4sDqC8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Av. Itzamna, Aldea Zama 11-Poligono 0014, Lote 1, 77760 Tulum, Q.R., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 20.2015027,
+          "lng": -87.45107510000001
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 20.2027756302915,
+            "lng": -87.4496884197085
+          },
+          "southwest": {
+            "lat": 20.2000776697085,
+            "lng": -87.4523863802915
+          }
+        }
+      },
+      "name": "Kimpton Aluna Resort Tulum",
+      "place_id": "ChIJT0HpF0_RT48RfDOUI4sDqC8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://alunatulumhotel.com/en/?cm_mmc=WEB-_-KI-_-AMER-_-EN-_-EV-_-Google%20Business%20Profile-_-DD-_-aluna"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Ace Hotel & Swim Club Athens\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Ace Hotel & Swim Club Athens Ace Hotel Hotel\", \"Ace Hotel & Swim Club Athens Ace Hotel Resort\", \"Ace Hotel & Swim Club Athens Ace Hotel\", \"Ace Hotel & Swim Club Athens Ace Hotel Glyfada, Greece Hotel\", \"Ace Hotel & Swim Club Athens Ace Hotel Glyfada, Greece Resort\", \"Ace Hotel & Swim Club Athens Ace Hotel Glyfada, Greece\", \"Ace Hotel & Swim Club Athens Hilton Hotel\", \"Ace Hotel & Swim Club Athens Hilton Resort\", \"Ace Hotel & Swim Club Athens Hilton\", \"Ace Hotel & Swim Club Athens Hilton Glyfada, Greece Hotel\", \"Ace Hotel & Swim Club Athens Hilton Glyfada, Greece Resort\", \"Ace Hotel & Swim Club Athens Hilton Glyfada, Greece\", \"Ace Hotel Swim Club Athens Ace Hotel Hotel\", \"Ace Hotel Swim Club Athens Ace Hotel Resort\", \"Ace Hotel Swim Club Athens Ace Hotel\", \"Ace Hotel Swim Club Athens Ace Hotel Glyfada, Greece Hotel\", \"Ace Hotel Swim Club Athens Ace Hotel Glyfada, Greece Resort\", \"Ace Hotel Swim Club Athens Ace Hotel Glyfada, Greece\", \"Ace Hotel Swim Club Athens Hilton Hotel\", \"Ace Hotel Swim Club Athens Hilton Resort\", \"Ace Hotel Swim Club Athens Hilton\", \"Ace Hotel Swim Club Athens Hilton Glyfada, Greece Hotel\", \"Ace Hotel Swim Club Athens Hilton Glyfada, Greece Resort\", \"Ace Hotel Swim Club Athens Hilton Glyfada, Greece\", \"Ace Hotel & Swim Club Athens Hotel\", \"Ace Hotel & Swim Club Athens Resort\", \"Ace Hotel & Swim Club Athens\", \"Ace Hotel & Swim Club Athens Glyfada, Greece Hotel\", \"Ace Hotel & Swim Club Athens Glyfada, Greece Resort\", \"Ace Hotel & Swim Club Athens Glyfada, Greece\"], \"v\": 3}": {
+    "lat": 37.8736058,
+    "lon": 23.736196,
+    "formatted_address": "Artemisiou 1, Glifada 166 75, Greece",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJS2guvkW_oRQREsejIw_rTxo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Artemisiou 1, Glifada 166 75, Greece",
+      "geometry": {
+        "location": {
+          "lat": 37.8736058,
+          "lng": 23.736196
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.87492913029151,
+            "lng": 23.7376808302915
+          },
+          "southwest": {
+            "lat": 37.87223116970851,
+            "lng": 23.73498286970849
+          }
+        }
+      },
+      "name": "Ace Hotel & Swim Club Athens",
+      "place_id": "ChIJS2guvkW_oRQREsejIw_rTxo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://acehotel.com/athens"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Seychelles Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Seychelles Resort Canopy by Hilton Hotel\", \"Canopy by Hilton Seychelles Resort Canopy by Hilton Resort\", \"Canopy by Hilton Seychelles Resort Canopy by Hilton\", \"Canopy by Hilton Seychelles Resort Canopy by Hilton Mah\\u00e9 Island, Seychelles Hotel\", \"Canopy by Hilton Seychelles Resort Canopy by Hilton Mah\\u00e9 Island, Seychelles Resort\", \"Canopy by Hilton Seychelles Resort Canopy by Hilton Mah\\u00e9 Island, Seychelles\", \"Canopy by Hilton Seychelles Resort Hilton Hotel\", \"Canopy by Hilton Seychelles Resort Hilton Resort\", \"Canopy by Hilton Seychelles Resort Hilton\", \"Canopy by Hilton Seychelles Resort Hilton Mah\\u00e9 Island, Seychelles Hotel\", \"Canopy by Hilton Seychelles Resort Hilton Mah\\u00e9 Island, Seychelles Resort\", \"Canopy by Hilton Seychelles Resort Hilton Mah\\u00e9 Island, Seychelles\", \"Canopy Hilton Seychelles Resort Canopy by Hilton Hotel\", \"Canopy Hilton Seychelles Resort Canopy by Hilton Resort\", \"Canopy Hilton Seychelles Resort Canopy by Hilton\", \"Canopy Hilton Seychelles Resort Canopy by Hilton Mah\\u00e9 Island, Seychelles Hotel\", \"Canopy Hilton Seychelles Resort Canopy by Hilton Mah\\u00e9 Island, Seychelles Resort\", \"Canopy Hilton Seychelles Resort Canopy by Hilton Mah\\u00e9 Island, Seychelles\", \"Canopy Hilton Seychelles Resort Hilton Hotel\", \"Canopy Hilton Seychelles Resort Hilton Resort\", \"Canopy Hilton Seychelles Resort Hilton\", \"Canopy Hilton Seychelles Resort Hilton Mah\\u00e9 Island, Seychelles Hotel\", \"Canopy Hilton Seychelles Resort Hilton Mah\\u00e9 Island, Seychelles Resort\", \"Canopy Hilton Seychelles Resort Hilton Mah\\u00e9 Island, Seychelles\", \"Canopy by Hilton Seychelles Resort Hotel\", \"Canopy by Hilton Seychelles Resort Resort\", \"Canopy by Hilton Seychelles Resort\", \"Canopy by Hilton Seychelles Resort Mah\\u00e9 Island, Seychelles Hotel\", \"Canopy by Hilton Seychelles Resort Mah\\u00e9 Island, Seychelles Resort\", \"Canopy by Hilton Seychelles Resort Mah\\u00e9 Island, Seychelles\"], \"v\": 3}": {
+    "lat": -4.7326742,
+    "lon": 55.4919804,
+    "formatted_address": "Anse La Mouche, Mahé, Seychelles",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJfUjs4VfV4SIRy4F8PaFeIL4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Anse La Mouche, Mahé, Seychelles",
+      "geometry": {
+        "location": {
+          "lat": -4.7326742,
+          "lng": 55.4919804
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -4.731316569708498,
+            "lng": 55.4933474802915
+          },
+          "southwest": {
+            "lat": -4.734014530291502,
+            "lng": 55.49064951970851
+          }
+        }
+      },
+      "name": "Canopy by Hilton Seychelles Resort",
+      "place_id": "ChIJfUjs4VfV4SIRy4F8PaFeIL4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/sezmapy-canopy-seychelles-resort/?SEO_id=GMB-EMEA-PY-SEZMAPY"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Curio Collection Hotel\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Curio Collection Resort\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Curio Collection\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Curio Collection Punta Gorda, Florida US Hotel\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Curio Collection Punta Gorda, Florida US Resort\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Curio Collection Punta Gorda, Florida US\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Hilton Hotel\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Hilton Resort\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Hilton\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Hilton Punta Gorda, Florida US Hotel\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Hilton Punta Gorda, Florida US Resort\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Hilton Punta Gorda, Florida US\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Curio Collection Hotel\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Curio Collection Resort\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Curio Collection\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Curio Collection Punta Gorda, Florida US Hotel\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Curio Collection Punta Gorda, Florida US Resort\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Curio Collection Punta Gorda, Florida US\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Hilton Hotel\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Hilton Resort\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Hilton\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Hilton Punta Gorda, Florida US Hotel\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Hilton Punta Gorda, Florida US Resort\", \"Sunseeker Resort Florida Gulf Coast Curio Hilton Hilton Punta Gorda, Florida US\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Hotel\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Resort\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Punta Gorda, Florida US Hotel\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Punta Gorda, Florida US Resort\", \"Sunseeker Resort Florida Gulf Coast, Curio by Hilton Punta Gorda, Florida US\"], \"v\": 3}": {
+    "lat": 26.9543247,
+    "lon": -82.0643425,
+    "formatted_address": "5500 Sunseeker Way, Charlotte Harbor, FL 33980, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJYXKIC8Wp3IgRNXsR0tfjoFQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "5500 Sunseeker Way, Charlotte Harbor, FL 33980, USA",
+      "geometry": {
+        "location": {
+          "lat": 26.9543247,
+          "lng": -82.0643425
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 26.9558987302915,
+            "lng": -82.0630692197085
+          },
+          "southwest": {
+            "lat": 26.9532007697085,
+            "lng": -82.0657671802915
+          }
+        }
+      },
+      "name": "Sunseeker Resort Florida Gulf Coast, Curio Collection by Hilton",
+      "place_id": "ChIJYXKIC8Wp3IgRNXsR0tfjoFQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/pgdchqq-sunseeker-resort-florida-gulf-coast/?SEO_id=GMB-AMER-QQ-PGDCHQQ"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Singer Oceanfront Resort Singer Island, Curio by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Singer Oceanfront Resort Singer Island, Curio by Hilton Curio Collection Hotel\", \"The Singer Oceanfront Resort Singer Island, Curio by Hilton Curio Collection Resort\", \"The Singer Oceanfront Resort Singer Island, Curio by Hilton Curio Collection\", \"The Singer Oceanfront Resort Singer Island, Curio by Hilton Curio Collection Singer Island, Florida US Hotel\", \"The Singer Oceanfront Resort Singer Island, Curio by Hilton Curio Collection Singer Island, Florida US Resort\", \"The Singer Oceanfront Resort Singer Island, Curio by Hilton Curio Collection Singer Island, Florida US\", \"The Singer Oceanfront Resort Singer Island, Curio by Hilton Hilton Hotel\", \"The Singer Oceanfront Resort Singer Island, Curio by Hilton Hilton Resort\", \"The Singer Oceanfront Resort Singer Island, Curio by Hilton Hilton\", \"The Singer Oceanfront Resort Singer Island, Curio by Hilton Hilton Singer Island, Florida US Hotel\", \"The Singer Oceanfront Resort Singer Island, Curio by Hilton Hilton Singer Island, Florida US Resort\", \"The Singer Oceanfront Resort Singer Island, Curio by Hilton Hilton Singer Island, Florida US\", \"Singer Oceanfront Resort Singer Island Curio Hilton Curio Collection Hotel\", \"Singer Oceanfront Resort Singer Island Curio Hilton Curio Collection Resort\", \"Singer Oceanfront Resort Singer Island Curio Hilton Curio Collection\", \"Singer Oceanfront Resort Singer Island Curio Hilton Curio Collection Singer Island, Florida US Hotel\", \"Singer Oceanfront Resort Singer Island Curio Hilton Curio Collection Singer Island, Florida US Resort\", \"Singer Oceanfront Resort Singer Island Curio Hilton Curio Collection Singer Island, Florida US\", \"Singer Oceanfront Resort Singer Island Curio Hilton Hilton Hotel\", \"Singer Oceanfront Resort Singer Island Curio Hilton Hilton Resort\", \"Singer Oceanfront Resort Singer Island Curio Hilton Hilton\", \"Singer Oceanfront Resort Singer Island Curio Hilton Hilton Singer Island, Florida US Hotel\", \"Singer Oceanfront Resort Singer Island Curio Hilton Hilton Singer Island, Florida US Resort\", \"Singer Oceanfront Resort Singer Island Curio Hilton Hilton Singer Island, Florida US\", \"The Singer Oceanfront Resort Singer Island, Curio by Hilton Hotel\", \"The Singer Oceanfront Resort Singer Island, Curio by Hilton Resort\", \"The Singer Oceanfront Resort Singer Island, Curio by Hilton\", \"The Singer Oceanfront Resort Singer Island, Curio by Hilton Singer Island, Florida US Hotel\", \"The Singer Oceanfront Resort Singer Island, Curio by Hilton Singer Island, Florida US Resort\", \"The Singer Oceanfront Resort Singer Island, Curio by Hilton Singer Island, Florida US\"], \"v\": 3}": {
+    "lat": 26.7910535,
+    "lon": -80.03306959999999,
+    "formatted_address": "3700 N Ocean Dr, Riviera Beach, FL 33404, USA",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
+    "place_id": "ChIJ7_YlkOzU2IgRI_h_VJyHP2o",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": true,
+    "raw": {
+      "address_components": [
+        {
+          "long_name": "3700",
+          "short_name": "3700",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "North Ocean Drive",
+          "short_name": "N Ocean Dr",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Riviera Beach",
+          "short_name": "Riviera Beach",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Palm Beach County",
+          "short_name": "Palm Beach County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Florida",
+          "short_name": "FL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "33404",
+          "short_name": "33404",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "3700 N Ocean Dr, Riviera Beach, FL 33404, USA",
+      "geometry": {
+        "location": {
+          "lat": 26.7910535,
+          "lng": -80.03306959999999
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 26.7925420802915,
+            "lng": -80.0318811697085
+          },
+          "southwest": {
+            "lat": 26.7898441197085,
+            "lng": -80.0345791302915
+          }
+        }
+      },
+      "navigation_points": [
+        {
+          "location": {
+            "latitude": 26.7913327,
+            "longitude": -80.0333202
+          }
+        }
+      ],
+      "partial_match": true,
+      "place_id": "ChIJ7_YlkOzU2IgRI_h_VJyHP2o",
+      "plus_code": {
+        "compound_code": "QXR8+CQ Riviera Beach, FL",
+        "global_code": "76RXQXR8+CQ"
+      },
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Concepcio by Nobis\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Concepcio by Nobis Design Hotels Hotel\", \"Concepcio by Nobis Design Hotels Resort\", \"Concepcio by Nobis Design Hotels\", \"Concepcio by Nobis Design Hotels Palma de Mallorca, Spain Hotel\", \"Concepcio by Nobis Design Hotels Palma de Mallorca, Spain Resort\", \"Concepcio by Nobis Design Hotels Palma de Mallorca, Spain\", \"Concepcio by Nobis Hilton Hotel\", \"Concepcio by Nobis Hilton Resort\", \"Concepcio by Nobis Hilton\", \"Concepcio by Nobis Hilton Palma de Mallorca, Spain Hotel\", \"Concepcio by Nobis Hilton Palma de Mallorca, Spain Resort\", \"Concepcio by Nobis Hilton Palma de Mallorca, Spain\", \"Concepcio By Nobis Design Hotels Hotel\", \"Concepcio By Nobis Design Hotels Resort\", \"Concepcio By Nobis Design Hotels\", \"Concepcio By Nobis Design Hotels Palma de Mallorca, Spain Hotel\", \"Concepcio By Nobis Design Hotels Palma de Mallorca, Spain Resort\", \"Concepcio By Nobis Design Hotels Palma de Mallorca, Spain\", \"Concepcio By Nobis Hilton Hotel\", \"Concepcio By Nobis Hilton Resort\", \"Concepcio By Nobis Hilton\", \"Concepcio By Nobis Hilton Palma de Mallorca, Spain Hotel\", \"Concepcio By Nobis Hilton Palma de Mallorca, Spain Resort\", \"Concepcio By Nobis Hilton Palma de Mallorca, Spain\", \"Concepcio by Nobis Hotel\", \"Concepcio by Nobis Resort\", \"Concepcio by Nobis\", \"Concepcio by Nobis Palma de Mallorca, Spain Hotel\", \"Concepcio by Nobis Palma de Mallorca, Spain Resort\", \"Concepcio by Nobis Palma de Mallorca, Spain\"], \"v\": 3}": {
+    "lat": 39.574501,
+    "lon": 2.6456798,
+    "formatted_address": "C/ de la Concepció, 34, Centre, 07012 Palma, Illes Balears, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ1fTcYyqTlxIRa4SNeVWTLuI",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "night_club",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "C/ de la Concepció, 34, Centre, 07012 Palma, Illes Balears, Spain",
+      "geometry": {
+        "location": {
+          "lat": 39.574501,
+          "lng": 2.6456798
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.57582503029149,
+            "lng": 2.646994630291502
+          },
+          "southwest": {
+            "lat": 39.5731270697085,
+            "lng": 2.644296669708498
+          }
+        }
+      },
+      "name": "Concepció by Nobis",
+      "place_id": "ChIJ1fTcYyqTlxIRa4SNeVWTLuI",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "night_club",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.concepciobynobis.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"25hours Hotel Sydney The Olympia\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"25hours Hotel Sydney The Olympia Ennismore Hotel\", \"25hours Hotel Sydney The Olympia Ennismore Resort\", \"25hours Hotel Sydney The Olympia Ennismore\", \"25hours Hotel Sydney The Olympia Ennismore PADDINGTON, Australia Hotel\", \"25hours Hotel Sydney The Olympia Ennismore PADDINGTON, Australia Resort\", \"25hours Hotel Sydney The Olympia Ennismore PADDINGTON, Australia\", \"25hours Hotel Sydney The Olympia Hilton Hotel\", \"25hours Hotel Sydney The Olympia Hilton Resort\", \"25hours Hotel Sydney The Olympia Hilton\", \"25hours Hotel Sydney The Olympia Hilton PADDINGTON, Australia Hotel\", \"25hours Hotel Sydney The Olympia Hilton PADDINGTON, Australia Resort\", \"25hours Hotel Sydney The Olympia Hilton PADDINGTON, Australia\", \"25hours Hotel Sydney Olympia Ennismore Hotel\", \"25hours Hotel Sydney Olympia Ennismore Resort\", \"25hours Hotel Sydney Olympia Ennismore\", \"25hours Hotel Sydney Olympia Ennismore PADDINGTON, Australia Hotel\", \"25hours Hotel Sydney Olympia Ennismore PADDINGTON, Australia Resort\", \"25hours Hotel Sydney Olympia Ennismore PADDINGTON, Australia\", \"25hours Hotel Sydney Olympia Hilton Hotel\", \"25hours Hotel Sydney Olympia Hilton Resort\", \"25hours Hotel Sydney Olympia Hilton\", \"25hours Hotel Sydney Olympia Hilton PADDINGTON, Australia Hotel\", \"25hours Hotel Sydney Olympia Hilton PADDINGTON, Australia Resort\", \"25hours Hotel Sydney Olympia Hilton PADDINGTON, Australia\", \"25hours Hotel Sydney The Olympia Hotel\", \"25hours Hotel Sydney The Olympia Resort\", \"25hours Hotel Sydney The Olympia\", \"25hours Hotel Sydney The Olympia PADDINGTON, Australia Hotel\", \"25hours Hotel Sydney The Olympia PADDINGTON, Australia Resort\", \"25hours Hotel Sydney The Olympia PADDINGTON, Australia\"], \"v\": 3}": {
+    "lat": -33.8818077,
+    "lon": 151.2192239,
+    "formatted_address": "1 Oxford St, Paddington NSW 2021, Australia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ08YHJxqtEmsRPGRLOWAOU48",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1 Oxford St, Paddington NSW 2021, Australia",
+      "geometry": {
+        "location": {
+          "lat": -33.8818077,
+          "lng": 151.2192239
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -33.8804278697085,
+            "lng": 151.2206008302915
+          },
+          "southwest": {
+            "lat": -33.8831258302915,
+            "lng": 151.2179028697085
+          }
+        }
+      },
+      "name": "25hours Hotel Sydney The Olympia",
+      "place_id": "ChIJ08YHJxqtEmsRPGRLOWAOU48",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://25hours-hotels.com/sydney/the-olympia/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Fairmont Royal Pavilion\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fairmont Royal Pavilion Fairmont Hotel\", \"Fairmont Royal Pavilion Fairmont Resort\", \"Fairmont Royal Pavilion Fairmont\", \"Fairmont Royal Pavilion Fairmont Holetown, Barbados Hotel\", \"Fairmont Royal Pavilion Fairmont Holetown, Barbados Resort\", \"Fairmont Royal Pavilion Fairmont Holetown, Barbados\", \"Fairmont Royal Pavilion Hilton Hotel\", \"Fairmont Royal Pavilion Hilton Resort\", \"Fairmont Royal Pavilion Hilton\", \"Fairmont Royal Pavilion Hilton Holetown, Barbados Hotel\", \"Fairmont Royal Pavilion Hilton Holetown, Barbados Resort\", \"Fairmont Royal Pavilion Hilton Holetown, Barbados\", \"Fairmont Royal Pavilion Hotel\", \"Fairmont Royal Pavilion Resort\", \"Fairmont Royal Pavilion\", \"Fairmont Royal Pavilion Holetown, Barbados Hotel\", \"Fairmont Royal Pavilion Holetown, Barbados Resort\", \"Fairmont Royal Pavilion Holetown, Barbados\"], \"v\": 3}": {
+    "lat": 13.2023662,
+    "lon": -59.640486,
+    "formatted_address": "Highway 1, Holetown, Saint James BB24051Barbados",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ-5iuOBrwQ4wRXh-CD8-8llU",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Highway 1, Holetown, Saint James BB24051Barbados",
+      "geometry": {
+        "location": {
+          "lat": 13.2023662,
+          "lng": -59.640486
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 13.2034007302915,
+            "lng": -59.63916481970849
+          },
+          "southwest": {
+            "lat": 13.2007027697085,
+            "lng": -59.6418627802915
+          }
+        }
+      },
+      "name": "Fairmont Royal Pavilion",
+      "place_id": "ChIJ-5iuOBrwQ4wRXh-CD8-8llU",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.fairmont.com/barbados/?goto=fiche_hotel&code_hotel=A552&merchantid=seo-maps-BB-A552&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hilton Bogota Corferias\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Bogota Corferias Hilton Hotels & Resorts Hotel\", \"Hilton Bogota Corferias Hilton Hotels & Resorts Resort\", \"Hilton Bogota Corferias Hilton Hotels & Resorts\", \"Hilton Bogota Corferias Hilton Hotels & Resorts Bogot\\u00e1, Colombia Hotel\", \"Hilton Bogota Corferias Hilton Hotels & Resorts Bogot\\u00e1, Colombia Resort\", \"Hilton Bogota Corferias Hilton Hotels & Resorts Bogot\\u00e1, Colombia\", \"Hilton Bogota Corferias Hilton Hotel\", \"Hilton Bogota Corferias Hilton Resort\", \"Hilton Bogota Corferias Hilton\", \"Hilton Bogota Corferias Hilton Bogot\\u00e1, Colombia Hotel\", \"Hilton Bogota Corferias Hilton Bogot\\u00e1, Colombia Resort\", \"Hilton Bogota Corferias Hilton Bogot\\u00e1, Colombia\", \"Hilton Bogota Corferias Hotel\", \"Hilton Bogota Corferias Resort\", \"Hilton Bogota Corferias\", \"Hilton Bogota Corferias Bogot\\u00e1, Colombia Hotel\", \"Hilton Bogota Corferias Bogot\\u00e1, Colombia Resort\", \"Hilton Bogota Corferias Bogot\\u00e1, Colombia\"], \"v\": 3}": {
+    "lat": 4.628780799999999,
+    "lon": -74.0906014,
+    "formatted_address": "Cra. 37 #24 29, Teusaquillo, Bogotá, Cundinamarca, Colombia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJW_eQldebP44Rjk7-RiL2u_Q",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Cra. 37 #24 29, Teusaquillo, Bogotá, Cundinamarca, Colombia",
+      "geometry": {
+        "location": {
+          "lat": 4.628780799999999,
+          "lng": -74.0906014
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 4.629994830291503,
+            "lng": -74.08916256970849
+          },
+          "southwest": {
+            "lat": 4.627296869708498,
+            "lng": -74.0918605302915
+          }
+        }
+      },
+      "name": "Hilton Bogota Corferias",
+      "place_id": "ChIJW_eQldebP44Rjk7-RiL2u_Q",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/bogcchh-hilton-bogota-corferias/?SEO_id=GMB-AMER-HH-BOGCCHH"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hilton Cancun, an All-Inclusive Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts Hotel\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts Resort\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts Cancun, QROO MX Hotel\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts Cancun, QROO MX Resort\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts Cancun, QROO MX\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotel\", \"Hilton Cancun, an All-Inclusive Resort Hilton Resort\", \"Hilton Cancun, an All-Inclusive Resort Hilton\", \"Hilton Cancun, an All-Inclusive Resort Hilton Cancun, QROO MX Hotel\", \"Hilton Cancun, an All-Inclusive Resort Hilton Cancun, QROO MX Resort\", \"Hilton Cancun, an All-Inclusive Resort Hilton Cancun, QROO MX\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts Hotel\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts Resort\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts Cancun, QROO MX Hotel\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts Cancun, QROO MX Resort\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts Cancun, QROO MX\", \"Hilton Cancun An All inclusive Resort Hilton Hotel\", \"Hilton Cancun An All inclusive Resort Hilton Resort\", \"Hilton Cancun An All inclusive Resort Hilton\", \"Hilton Cancun An All inclusive Resort Hilton Cancun, QROO MX Hotel\", \"Hilton Cancun An All inclusive Resort Hilton Cancun, QROO MX Resort\", \"Hilton Cancun An All inclusive Resort Hilton Cancun, QROO MX\", \"Hilton Cancun, an All-Inclusive Resort Hotel\", \"Hilton Cancun, an All-Inclusive Resort Resort\", \"Hilton Cancun, an All-Inclusive Resort\", \"Hilton Cancun, an All-Inclusive Resort Cancun, QROO MX Hotel\", \"Hilton Cancun, an All-Inclusive Resort Cancun, QROO MX Resort\", \"Hilton Cancun, an All-Inclusive Resort Cancun, QROO MX\"], \"v\": 3}": {
+    "lat": 20.9538196,
+    "lon": -86.83611169999999,
+    "formatted_address": "Carr Federal Libre 307 Cancun-Tulum Km 248-868, SM-36, LT-1-01 UPE-1E, 77580 Cancun, Q.R., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJFzwYx7uGTo8R7Zvxt7RS1Ac",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carr Federal Libre 307 Cancun-Tulum Km 248-868, SM-36, LT-1-01 UPE-1E, 77580 Cancun, Q.R., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 20.9538196,
+          "lng": -86.83611169999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 20.9550635302915,
+            "lng": -86.8350504197085
+          },
+          "southwest": {
+            "lat": 20.9523655697085,
+            "lng": -86.8377483802915
+          }
+        }
+      },
+      "name": "Hilton Cancun, an All-Inclusive Resort",
+      "place_id": "ChIJFzwYx7uGTo8R7Zvxt7RS1Ac",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/cunqrhh-hilton-cancun/?SEO_id=GMB-AMER-HH-CUNQRHH"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hilton Hotel Tahiti\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Hotel Tahiti Hilton Hotels & Resorts Hotel\", \"Hilton Hotel Tahiti Hilton Hotels & Resorts Resort\", \"Hilton Hotel Tahiti Hilton Hotels & Resorts\", \"Hilton Hotel Tahiti Hilton Hotels & Resorts Faaa, French Polynesia Hotel\", \"Hilton Hotel Tahiti Hilton Hotels & Resorts Faaa, French Polynesia Resort\", \"Hilton Hotel Tahiti Hilton Hotels & Resorts Faaa, French Polynesia\", \"Hilton Hotel Tahiti Hilton Hotel\", \"Hilton Hotel Tahiti Hilton Resort\", \"Hilton Hotel Tahiti Hilton\", \"Hilton Hotel Tahiti Hilton Faaa, French Polynesia Hotel\", \"Hilton Hotel Tahiti Hilton Faaa, French Polynesia Resort\", \"Hilton Hotel Tahiti Hilton Faaa, French Polynesia\", \"Hilton Hotel Tahiti Hotel\", \"Hilton Hotel Tahiti Resort\", \"Hilton Hotel Tahiti\", \"Hilton Hotel Tahiti Faaa, French Polynesia Hotel\", \"Hilton Hotel Tahiti Faaa, French Polynesia Resort\", \"Hilton Hotel Tahiti Faaa, French Polynesia\"], \"v\": 3}": {
+    "lat": -17.5456223,
+    "lon": -149.5862572,
+    "formatted_address": "Auae Faaa, Papeete 98713, French Polynesia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJNW4hpww6mnYRQEzZ3-TecGA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Auae Faaa, Papeete 98713, French Polynesia",
+      "geometry": {
+        "location": {
+          "lat": -17.5456223,
+          "lng": -149.5862572
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -17.5442595697085,
+            "lng": -149.5847685697085
+          },
+          "southwest": {
+            "lat": -17.5469575302915,
+            "lng": -149.5874665302915
+          }
+        }
+      },
+      "name": "Hilton Hotel Tahiti",
+      "place_id": "ChIJNW4hpww6mnYRQEzZ3-TecGA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/ppthihh-hilton-tahiti-resort/?SEO_id=GMB-AMER-HH-PPTHIHH&y_source=1_Mjc5ODc5ODctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Zoetry Agua Punta Cana\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Zoetry Agua Punta Cana Hyatt Hotel\", \"Zoetry Agua Punta Cana Hyatt Resort\", \"Zoetry Agua Punta Cana Hyatt\", \"Zoetry Agua Punta Cana Hyatt Punta Cana, Dominican Republic Hotel\", \"Zoetry Agua Punta Cana Hyatt Punta Cana, Dominican Republic Resort\", \"Zoetry Agua Punta Cana Hyatt Punta Cana, Dominican Republic\", \"Zoetry Agua Punta Cana Hilton Hotel\", \"Zoetry Agua Punta Cana Hilton Resort\", \"Zoetry Agua Punta Cana Hilton\", \"Zoetry Agua Punta Cana Hilton Punta Cana, Dominican Republic Hotel\", \"Zoetry Agua Punta Cana Hilton Punta Cana, Dominican Republic Resort\", \"Zoetry Agua Punta Cana Hilton Punta Cana, Dominican Republic\", \"Zoetry Agua Punta Cana Hotel\", \"Zoetry Agua Punta Cana Resort\", \"Zoetry Agua Punta Cana\", \"Zoetry Agua Punta Cana Punta Cana, Dominican Republic Hotel\", \"Zoetry Agua Punta Cana Punta Cana, Dominican Republic Resort\", \"Zoetry Agua Punta Cana Punta Cana, Dominican Republic\"], \"v\": 3}": {
+    "lat": 18.8366987,
+    "lon": -68.6110849,
+    "formatted_address": "Playas, Punta Cana 23300, Dominican Republic",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ8SxVM6fEqI4RQqDgbPrrsHY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Playas, Punta Cana 23300, Dominican Republic",
+      "geometry": {
+        "location": {
+          "lat": 18.8366987,
+          "lng": -68.6110849
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 18.8380307302915,
+            "lng": -68.60975286970849
+          },
+          "southwest": {
+            "lat": 18.8353327697085,
+            "lng": -68.6124508302915
+          }
+        }
+      },
+      "name": "Zoëtry Agua Punta Cana",
+      "place_id": "ChIJ8SxVM6fEqI4RQqDgbPrrsHY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyattinclusivecollection.com/en/resorts-hotels/zoetry/dominican-republic/agua-punta-cana/?src=corp_lclb_google_seo_zoapc&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"JW Marriott Scottsdale Camelback Inn Resort & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"JW Marriott Scottsdale Camelback Inn Resort & Spa JW Marriott Hotel\", \"JW Marriott Scottsdale Camelback Inn Resort & Spa JW Marriott Resort\", \"JW Marriott Scottsdale Camelback Inn Resort & Spa JW Marriott\", \"JW Marriott Scottsdale Camelback Inn Resort & Spa JW Marriott Paradise Valley, Arizona US Hotel\", \"JW Marriott Scottsdale Camelback Inn Resort & Spa JW Marriott Paradise Valley, Arizona US Resort\", \"JW Marriott Scottsdale Camelback Inn Resort & Spa JW Marriott Paradise Valley, Arizona US\", \"JW Marriott Scottsdale Camelback Inn Resort & Spa Hilton Hotel\", \"JW Marriott Scottsdale Camelback Inn Resort & Spa Hilton Resort\", \"JW Marriott Scottsdale Camelback Inn Resort & Spa Hilton\", \"JW Marriott Scottsdale Camelback Inn Resort & Spa Hilton Paradise Valley, Arizona US Hotel\", \"JW Marriott Scottsdale Camelback Inn Resort & Spa Hilton Paradise Valley, Arizona US Resort\", \"JW Marriott Scottsdale Camelback Inn Resort & Spa Hilton Paradise Valley, Arizona US\", \"Jw Marriott Scottsdale Camelback Inn Resort Spa JW Marriott Hotel\", \"Jw Marriott Scottsdale Camelback Inn Resort Spa JW Marriott Resort\", \"Jw Marriott Scottsdale Camelback Inn Resort Spa JW Marriott\", \"Jw Marriott Scottsdale Camelback Inn Resort Spa JW Marriott Paradise Valley, Arizona US Hotel\", \"Jw Marriott Scottsdale Camelback Inn Resort Spa JW Marriott Paradise Valley, Arizona US Resort\", \"Jw Marriott Scottsdale Camelback Inn Resort Spa JW Marriott Paradise Valley, Arizona US\", \"Jw Marriott Scottsdale Camelback Inn Resort Spa Hilton Hotel\", \"Jw Marriott Scottsdale Camelback Inn Resort Spa Hilton Resort\", \"Jw Marriott Scottsdale Camelback Inn Resort Spa Hilton\", \"Jw Marriott Scottsdale Camelback Inn Resort Spa Hilton Paradise Valley, Arizona US Hotel\", \"Jw Marriott Scottsdale Camelback Inn Resort Spa Hilton Paradise Valley, Arizona US Resort\", \"Jw Marriott Scottsdale Camelback Inn Resort Spa Hilton Paradise Valley, Arizona US\", \"JW Marriott Scottsdale Camelback Inn Resort & Spa Hotel\", \"JW Marriott Scottsdale Camelback Inn Resort & Spa Resort\", \"JW Marriott Scottsdale Camelback Inn Resort & Spa\", \"JW Marriott Scottsdale Camelback Inn Resort & Spa Paradise Valley, Arizona US Hotel\", \"JW Marriott Scottsdale Camelback Inn Resort & Spa Paradise Valley, Arizona US Resort\", \"JW Marriott Scottsdale Camelback Inn Resort & Spa Paradise Valley, Arizona US\"], \"v\": 3}": {
+    "lat": 33.5329326,
+    "lon": -111.9642137,
+    "formatted_address": "5402 E Lincoln Dr, Scottsdale, AZ 85253, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJi2hRWbsMK4cRvgL5oEol20s",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "5402 E Lincoln Dr, Scottsdale, AZ 85253, USA",
+      "geometry": {
+        "location": {
+          "lat": 33.5329326,
+          "lng": -111.9642137
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.5343137802915,
+            "lng": -111.9630294197085
+          },
+          "southwest": {
+            "lat": 33.5316158197085,
+            "lng": -111.9657273802915
+          }
+        }
+      },
+      "name": "JW Marriott Scottsdale Camelback Inn Resort & Spa",
+      "place_id": "ChIJi2hRWbsMK4cRvgL5oEol20s",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/phxcb-jw-marriott-scottsdale-camelback-inn-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Kimpton Mas Olas Resort And Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Kimpton Mas Olas Resort And Spa Kimpton Hotels & Restaurants Hotel\", \"Kimpton Mas Olas Resort And Spa Kimpton Hotels & Restaurants Resort\", \"Kimpton Mas Olas Resort And Spa Kimpton Hotels & Restaurants\", \"Kimpton Mas Olas Resort And Spa Kimpton Hotels & Restaurants El Pescadero, BCS MX Hotel\", \"Kimpton Mas Olas Resort And Spa Kimpton Hotels & Restaurants El Pescadero, BCS MX Resort\", \"Kimpton Mas Olas Resort And Spa Kimpton Hotels & Restaurants El Pescadero, BCS MX\", \"Kimpton Mas Olas Resort And Spa Hilton Hotel\", \"Kimpton Mas Olas Resort And Spa Hilton Resort\", \"Kimpton Mas Olas Resort And Spa Hilton\", \"Kimpton Mas Olas Resort And Spa Hilton El Pescadero, BCS MX Hotel\", \"Kimpton Mas Olas Resort And Spa Hilton El Pescadero, BCS MX Resort\", \"Kimpton Mas Olas Resort And Spa Hilton El Pescadero, BCS MX\", \"Kimpton Mas Olas Resort Spa Kimpton Hotels & Restaurants Hotel\", \"Kimpton Mas Olas Resort Spa Kimpton Hotels & Restaurants Resort\", \"Kimpton Mas Olas Resort Spa Kimpton Hotels & Restaurants\", \"Kimpton Mas Olas Resort Spa Kimpton Hotels & Restaurants El Pescadero, BCS MX Hotel\", \"Kimpton Mas Olas Resort Spa Kimpton Hotels & Restaurants El Pescadero, BCS MX Resort\", \"Kimpton Mas Olas Resort Spa Kimpton Hotels & Restaurants El Pescadero, BCS MX\", \"Kimpton Mas Olas Resort Spa Hilton Hotel\", \"Kimpton Mas Olas Resort Spa Hilton Resort\", \"Kimpton Mas Olas Resort Spa Hilton\", \"Kimpton Mas Olas Resort Spa Hilton El Pescadero, BCS MX Hotel\", \"Kimpton Mas Olas Resort Spa Hilton El Pescadero, BCS MX Resort\", \"Kimpton Mas Olas Resort Spa Hilton El Pescadero, BCS MX\", \"Kimpton Mas Olas Resort And Spa Hotel\", \"Kimpton Mas Olas Resort And Spa Resort\", \"Kimpton Mas Olas Resort And Spa\", \"Kimpton Mas Olas Resort And Spa El Pescadero, BCS MX Hotel\", \"Kimpton Mas Olas Resort And Spa El Pescadero, BCS MX Resort\", \"Kimpton Mas Olas Resort And Spa El Pescadero, BCS MX\"], \"v\": 3}": {
+    "lat": 23.35958,
+    "lon": -110.19285,
+    "formatted_address": "Camino Sin Nombre Lote 545, 23310 El Pescadero, B.C.S., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJj7gPWGX-0YUR6Z76Efbn-Oo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Camino Sin Nombre Lote 545, 23310 El Pescadero, B.C.S., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 23.35958,
+          "lng": -110.19285
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.3609693802915,
+            "lng": -110.1915603197085
+          },
+          "southwest": {
+            "lat": 23.3582714197085,
+            "lng": -110.1942582802915
+          }
+        }
+      },
+      "name": "Kimpton Mas Olas Resort And Spa by IHG",
+      "place_id": "ChIJj7gPWGX-0YUR6Z76Efbn-Oo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.ihg.com/kimptonhotels/hotels/us/en/mas-olas-resort-spa-todos-santos/sjdtd/hoteldetail?cm_mmc=GoogleMaps-_-KI-_-MX-_-SJDTD"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Kimpton Miralina Resort & Villas\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Kimpton Miralina Resort & Villas Kimpton Hotels & Restaurants Hotel\", \"Kimpton Miralina Resort & Villas Kimpton Hotels & Restaurants Resort\", \"Kimpton Miralina Resort & Villas Kimpton Hotels & Restaurants\", \"Kimpton Miralina Resort & Villas Kimpton Hotels & Restaurants Paradise Valley, Arizona US Hotel\", \"Kimpton Miralina Resort & Villas Kimpton Hotels & Restaurants Paradise Valley, Arizona US Resort\", \"Kimpton Miralina Resort & Villas Kimpton Hotels & Restaurants Paradise Valley, Arizona US\", \"Kimpton Miralina Resort & Villas Hilton Hotel\", \"Kimpton Miralina Resort & Villas Hilton Resort\", \"Kimpton Miralina Resort & Villas Hilton\", \"Kimpton Miralina Resort & Villas Hilton Paradise Valley, Arizona US Hotel\", \"Kimpton Miralina Resort & Villas Hilton Paradise Valley, Arizona US Resort\", \"Kimpton Miralina Resort & Villas Hilton Paradise Valley, Arizona US\", \"Kimpton Miralina Resort Villas Kimpton Hotels & Restaurants Hotel\", \"Kimpton Miralina Resort Villas Kimpton Hotels & Restaurants Resort\", \"Kimpton Miralina Resort Villas Kimpton Hotels & Restaurants\", \"Kimpton Miralina Resort Villas Kimpton Hotels & Restaurants Paradise Valley, Arizona US Hotel\", \"Kimpton Miralina Resort Villas Kimpton Hotels & Restaurants Paradise Valley, Arizona US Resort\", \"Kimpton Miralina Resort Villas Kimpton Hotels & Restaurants Paradise Valley, Arizona US\", \"Kimpton Miralina Resort Villas Hilton Hotel\", \"Kimpton Miralina Resort Villas Hilton Resort\", \"Kimpton Miralina Resort Villas Hilton\", \"Kimpton Miralina Resort Villas Hilton Paradise Valley, Arizona US Hotel\", \"Kimpton Miralina Resort Villas Hilton Paradise Valley, Arizona US Resort\", \"Kimpton Miralina Resort Villas Hilton Paradise Valley, Arizona US\", \"Kimpton Miralina Resort & Villas Hotel\", \"Kimpton Miralina Resort & Villas Resort\", \"Kimpton Miralina Resort & Villas\", \"Kimpton Miralina Resort & Villas Paradise Valley, Arizona US Hotel\", \"Kimpton Miralina Resort & Villas Paradise Valley, Arizona US Resort\", \"Kimpton Miralina Resort & Villas Paradise Valley, Arizona US\"], \"v\": 3}": {
+    "lat": 33.5415116,
+    "lon": -111.9261462,
+    "formatted_address": "7200 N Scottsdale Rd, Scottsdale, AZ 85253, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ3wi6OD8LK4cRmXdKJ7P9Qu8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "7200 N Scottsdale Rd, Scottsdale, AZ 85253, USA",
+      "geometry": {
+        "location": {
+          "lat": 33.5415116,
+          "lng": -111.9261462
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.54285228029149,
+            "lng": -111.9248726697085
+          },
+          "southwest": {
+            "lat": 33.5401543197085,
+            "lng": -111.9275706302915
+          }
+        }
+      },
+      "name": "Kimpton Miralina Resort & Villas",
+      "place_id": "ChIJ3wi6OD8LK4cRmXdKJ7P9Qu8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.miralinaresort.com/?cm_mmc=WEB-_-KI-_-AMER-_-EN-_-EV-_-Google%20Business%20Profile-_-DD-_-miralina"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Sheraton Grand at Wild Horse Pass\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sheraton Grand at Wild Horse Pass Marriott Hotel\", \"Sheraton Grand at Wild Horse Pass Marriott Resort\", \"Sheraton Grand at Wild Horse Pass Marriott\", \"Sheraton Grand at Wild Horse Pass Marriott Chandler, Arizona US Hotel\", \"Sheraton Grand at Wild Horse Pass Marriott Chandler, Arizona US Resort\", \"Sheraton Grand at Wild Horse Pass Marriott Chandler, Arizona US\", \"Sheraton Grand at Wild Horse Pass Hilton Hotel\", \"Sheraton Grand at Wild Horse Pass Hilton Resort\", \"Sheraton Grand at Wild Horse Pass Hilton\", \"Sheraton Grand at Wild Horse Pass Hilton Chandler, Arizona US Hotel\", \"Sheraton Grand at Wild Horse Pass Hilton Chandler, Arizona US Resort\", \"Sheraton Grand at Wild Horse Pass Hilton Chandler, Arizona US\", \"Sheraton Grand Wild Horse Pass Marriott Hotel\", \"Sheraton Grand Wild Horse Pass Marriott Resort\", \"Sheraton Grand Wild Horse Pass Marriott\", \"Sheraton Grand Wild Horse Pass Marriott Chandler, Arizona US Hotel\", \"Sheraton Grand Wild Horse Pass Marriott Chandler, Arizona US Resort\", \"Sheraton Grand Wild Horse Pass Marriott Chandler, Arizona US\", \"Sheraton Grand Wild Horse Pass Hilton Hotel\", \"Sheraton Grand Wild Horse Pass Hilton Resort\", \"Sheraton Grand Wild Horse Pass Hilton\", \"Sheraton Grand Wild Horse Pass Hilton Chandler, Arizona US Hotel\", \"Sheraton Grand Wild Horse Pass Hilton Chandler, Arizona US Resort\", \"Sheraton Grand Wild Horse Pass Hilton Chandler, Arizona US\", \"Sheraton Grand at Wild Horse Pass Hotel\", \"Sheraton Grand at Wild Horse Pass Resort\", \"Sheraton Grand at Wild Horse Pass\", \"Sheraton Grand at Wild Horse Pass Chandler, Arizona US Hotel\", \"Sheraton Grand at Wild Horse Pass Chandler, Arizona US Resort\", \"Sheraton Grand at Wild Horse Pass Chandler, Arizona US\"], \"v\": 3}": {
+    "lat": 33.266258,
+    "lon": -111.9930353,
+    "formatted_address": "5594 W Wild Horse Pass Blvd, Chandler, AZ 85226, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ9cRbcKIDK4cR1tc2JL_TDio",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "5594 W Wild Horse Pass Blvd, Chandler, AZ 85226, USA",
+      "geometry": {
+        "location": {
+          "lat": 33.266258,
+          "lng": -111.9930353
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.26761803029149,
+            "lng": -111.9915924197085
+          },
+          "southwest": {
+            "lat": 33.2649200697085,
+            "lng": -111.9942903802915
+          }
+        }
+      },
+      "name": "Sheraton Grand at Wild Horse Pass",
+      "place_id": "ChIJ9cRbcKIDK4cR1tc2JL_TDio",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/phxwp-sheraton-grand-at-wild-horse-pass/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Aruba Marriott Resort & Stellaris Casino\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Aruba Marriott Resort & Stellaris Casino Marriott Hotel\", \"Aruba Marriott Resort & Stellaris Casino Marriott Resort\", \"Aruba Marriott Resort & Stellaris Casino Marriott\", \"Aruba Marriott Resort & Stellaris Casino Marriott Noord, Aruba Hotel\", \"Aruba Marriott Resort & Stellaris Casino Marriott Noord, Aruba Resort\", \"Aruba Marriott Resort & Stellaris Casino Marriott Noord, Aruba\", \"Aruba Marriott Resort & Stellaris Casino Hilton Hotel\", \"Aruba Marriott Resort & Stellaris Casino Hilton Resort\", \"Aruba Marriott Resort & Stellaris Casino Hilton\", \"Aruba Marriott Resort & Stellaris Casino Hilton Noord, Aruba Hotel\", \"Aruba Marriott Resort & Stellaris Casino Hilton Noord, Aruba Resort\", \"Aruba Marriott Resort & Stellaris Casino Hilton Noord, Aruba\", \"Aruba Marriott Resort Stellaris Casino Marriott Hotel\", \"Aruba Marriott Resort Stellaris Casino Marriott Resort\", \"Aruba Marriott Resort Stellaris Casino Marriott\", \"Aruba Marriott Resort Stellaris Casino Marriott Noord, Aruba Hotel\", \"Aruba Marriott Resort Stellaris Casino Marriott Noord, Aruba Resort\", \"Aruba Marriott Resort Stellaris Casino Marriott Noord, Aruba\", \"Aruba Marriott Resort Stellaris Casino Hilton Hotel\", \"Aruba Marriott Resort Stellaris Casino Hilton Resort\", \"Aruba Marriott Resort Stellaris Casino Hilton\", \"Aruba Marriott Resort Stellaris Casino Hilton Noord, Aruba Hotel\", \"Aruba Marriott Resort Stellaris Casino Hilton Noord, Aruba Resort\", \"Aruba Marriott Resort Stellaris Casino Hilton Noord, Aruba\", \"Aruba Marriott Resort & Stellaris Casino Hotel\", \"Aruba Marriott Resort & Stellaris Casino Resort\", \"Aruba Marriott Resort & Stellaris Casino\", \"Aruba Marriott Resort & Stellaris Casino Noord, Aruba Hotel\", \"Aruba Marriott Resort & Stellaris Casino Noord, Aruba Resort\", \"Aruba Marriott Resort & Stellaris Casino Noord, Aruba\"], \"v\": 3}": {
+    "lat": 12.5808123,
+    "lon": -70.0430763,
+    "formatted_address": "L.G. Smith Blvd 101, Noord, Aruba",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJIzMtOgI4hY4RsrYLreXzQbg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "L.G. Smith Blvd 101, Noord, Aruba",
+      "geometry": {
+        "location": {
+          "lat": 12.5808123,
+          "lng": -70.0430763
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 12.5821983302915,
+            "lng": -70.0416570197085
+          },
+          "southwest": {
+            "lat": 12.5795003697085,
+            "lng": -70.0443549802915
+          }
+        }
+      },
+      "name": "Aruba Marriott Resort & Stellaris Casino",
+      "place_id": "ChIJIzMtOgI4hY4RsrYLreXzQbg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/auaar-aruba-marriott-resort-and-stellaris-casino/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Melia Phuket Mai Khao\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Melia Phuket Mai Khao Meli\\u00e1 Hotels & Resorts Hotel\", \"Melia Phuket Mai Khao Meli\\u00e1 Hotels & Resorts Resort\", \"Melia Phuket Mai Khao Meli\\u00e1 Hotels & Resorts\", \"Melia Phuket Mai Khao Meli\\u00e1 Hotels & Resorts Mai Khao, Thailand Hotel\", \"Melia Phuket Mai Khao Meli\\u00e1 Hotels & Resorts Mai Khao, Thailand Resort\", \"Melia Phuket Mai Khao Meli\\u00e1 Hotels & Resorts Mai Khao, Thailand\", \"Melia Phuket Mai Khao Hilton Hotel\", \"Melia Phuket Mai Khao Hilton Resort\", \"Melia Phuket Mai Khao Hilton\", \"Melia Phuket Mai Khao Hilton Mai Khao, Thailand Hotel\", \"Melia Phuket Mai Khao Hilton Mai Khao, Thailand Resort\", \"Melia Phuket Mai Khao Hilton Mai Khao, Thailand\", \"Melia Phuket Mai Khao Hotel\", \"Melia Phuket Mai Khao Resort\", \"Melia Phuket Mai Khao\", \"Melia Phuket Mai Khao Mai Khao, Thailand Hotel\", \"Melia Phuket Mai Khao Mai Khao, Thailand Resort\", \"Melia Phuket Mai Khao Mai Khao, Thailand\"], \"v\": 3}": {
+    "lat": 8.148989,
+    "lon": 98.300969,
+    "formatted_address": "233 Tambon Mai Khao, Amphur Thalang Chang Wat Phuket 83110, Thailand",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJQZi2ZlZFUDARSFmBJGda5_o",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "233 Tambon Mai Khao, Amphur Thalang Chang Wat Phuket 83110, Thailand",
+      "geometry": {
+        "location": {
+          "lat": 8.148989,
+          "lng": 98.300969
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 8.150354230291502,
+            "lng": 98.3023211802915
+          },
+          "southwest": {
+            "lat": 8.147656269708497,
+            "lng": 98.29962321970848
+          }
+        }
+      },
+      "name": "Melia Phuket Mai Khao",
+      "place_id": "ChIJQZi2ZlZFUDARSFmBJGda5_o",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.melia.com/en/hotels/thailand/phuket/melia-phuket-mai-khao?utm_campaign=google&utm_content=5772&utm_medium=organic&utm_source=directories"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"NH Collection Gent\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"NH Collection Gent NH Collection Hotels Hotel\", \"NH Collection Gent NH Collection Hotels Resort\", \"NH Collection Gent NH Collection Hotels\", \"NH Collection Gent NH Collection Hotels Ghent, Belgium Hotel\", \"NH Collection Gent NH Collection Hotels Ghent, Belgium Resort\", \"NH Collection Gent NH Collection Hotels Ghent, Belgium\", \"NH Collection Gent Hilton Hotel\", \"NH Collection Gent Hilton Resort\", \"NH Collection Gent Hilton\", \"NH Collection Gent Hilton Ghent, Belgium Hotel\", \"NH Collection Gent Hilton Ghent, Belgium Resort\", \"NH Collection Gent Hilton Ghent, Belgium\", \"Nh Collection Gent NH Collection Hotels Hotel\", \"Nh Collection Gent NH Collection Hotels Resort\", \"Nh Collection Gent NH Collection Hotels\", \"Nh Collection Gent NH Collection Hotels Ghent, Belgium Hotel\", \"Nh Collection Gent NH Collection Hotels Ghent, Belgium Resort\", \"Nh Collection Gent NH Collection Hotels Ghent, Belgium\", \"Nh Collection Gent Hilton Hotel\", \"Nh Collection Gent Hilton Resort\", \"Nh Collection Gent Hilton\", \"Nh Collection Gent Hilton Ghent, Belgium Hotel\", \"Nh Collection Gent Hilton Ghent, Belgium Resort\", \"Nh Collection Gent Hilton Ghent, Belgium\", \"NH Collection Gent Hotel\", \"NH Collection Gent Resort\", \"NH Collection Gent\", \"NH Collection Gent Ghent, Belgium Hotel\", \"NH Collection Gent Ghent, Belgium Resort\", \"NH Collection Gent Ghent, Belgium\"], \"v\": 3}": {
+    "lat": 51.05474900000001,
+    "lon": 3.725495,
+    "formatted_address": "Hoogpoort 63, 9000 Gent, Belgium",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJx_yfTEZxw0cRMvSYNiMm8oM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Hoogpoort 63, 9000 Gent, Belgium",
+      "geometry": {
+        "location": {
+          "lat": 51.05474900000001,
+          "lng": 3.725495
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.0562296302915,
+            "lng": 3.727234530291503
+          },
+          "southwest": {
+            "lat": 51.0535316697085,
+            "lng": 3.724536569708498
+          }
+        }
+      },
+      "name": "Hotel NH Collection Gent",
+      "place_id": "ChIJx_yfTEZxw0cRMvSYNiMm8oM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.nh-hotels.com/en/hotel/nh-collection-gent?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Omni Orlando Resort at Championsgate\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Omni Orlando Resort at Championsgate Omni Hotels & Resorts Hotel\", \"Omni Orlando Resort at Championsgate Omni Hotels & Resorts Resort\", \"Omni Orlando Resort at Championsgate Omni Hotels & Resorts\", \"Omni Orlando Resort at Championsgate Omni Hotels & Resorts Davenport, Florida US Hotel\", \"Omni Orlando Resort at Championsgate Omni Hotels & Resorts Davenport, Florida US Resort\", \"Omni Orlando Resort at Championsgate Omni Hotels & Resorts Davenport, Florida US\", \"Omni Orlando Resort at Championsgate Hilton Hotel\", \"Omni Orlando Resort at Championsgate Hilton Resort\", \"Omni Orlando Resort at Championsgate Hilton\", \"Omni Orlando Resort at Championsgate Hilton Davenport, Florida US Hotel\", \"Omni Orlando Resort at Championsgate Hilton Davenport, Florida US Resort\", \"Omni Orlando Resort at Championsgate Hilton Davenport, Florida US\", \"Omni Orlando Resort Championsgate Omni Hotels & Resorts Hotel\", \"Omni Orlando Resort Championsgate Omni Hotels & Resorts Resort\", \"Omni Orlando Resort Championsgate Omni Hotels & Resorts\", \"Omni Orlando Resort Championsgate Omni Hotels & Resorts Davenport, Florida US Hotel\", \"Omni Orlando Resort Championsgate Omni Hotels & Resorts Davenport, Florida US Resort\", \"Omni Orlando Resort Championsgate Omni Hotels & Resorts Davenport, Florida US\", \"Omni Orlando Resort Championsgate Hilton Hotel\", \"Omni Orlando Resort Championsgate Hilton Resort\", \"Omni Orlando Resort Championsgate Hilton\", \"Omni Orlando Resort Championsgate Hilton Davenport, Florida US Hotel\", \"Omni Orlando Resort Championsgate Hilton Davenport, Florida US Resort\", \"Omni Orlando Resort Championsgate Hilton Davenport, Florida US\", \"Omni Orlando Resort at Championsgate Hotel\", \"Omni Orlando Resort at Championsgate Resort\", \"Omni Orlando Resort at Championsgate\", \"Omni Orlando Resort at Championsgate Davenport, Florida US Hotel\", \"Omni Orlando Resort at Championsgate Davenport, Florida US Resort\", \"Omni Orlando Resort at Championsgate Davenport, Florida US\"], \"v\": 3}": {
+    "lat": 28.2618097,
+    "lon": -81.62709319999999,
+    "formatted_address": "1500 Masters Blvd, Championsgate, FL 33896, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJtdT-ATl63YgRVrvPfarcWHU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1500 Masters Blvd, Championsgate, FL 33896, USA",
+      "geometry": {
+        "location": {
+          "lat": 28.2618097,
+          "lng": -81.62709319999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 28.2630475802915,
+            "lng": -81.62568131970849
+          },
+          "southwest": {
+            "lat": 28.2603496197085,
+            "lng": -81.6283792802915
+          }
+        }
+      },
+      "name": "Omni Orlando Resort at ChampionsGate",
+      "place_id": "ChIJtdT-ATl63YgRVrvPfarcWHU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.omnihotels.com/hotels/orlando-championsgate?utm_source=gmblisting&utm_medium=organic"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Pridwin Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Pridwin Hotel Preferred Hotels & Resorts Hotel\", \"The Pridwin Hotel Preferred Hotels & Resorts Resort\", \"The Pridwin Hotel Preferred Hotels & Resorts\", \"The Pridwin Hotel Preferred Hotels & Resorts Shelter Island Heights, New York US Hotel\", \"The Pridwin Hotel Preferred Hotels & Resorts Shelter Island Heights, New York US Resort\", \"The Pridwin Hotel Preferred Hotels & Resorts Shelter Island Heights, New York US\", \"The Pridwin Hotel Hilton Hotel\", \"The Pridwin Hotel Hilton Resort\", \"The Pridwin Hotel Hilton\", \"The Pridwin Hotel Hilton Shelter Island Heights, New York US Hotel\", \"The Pridwin Hotel Hilton Shelter Island Heights, New York US Resort\", \"The Pridwin Hotel Hilton Shelter Island Heights, New York US\", \"The Pridwin Hotel Hotel\", \"The Pridwin Hotel Resort\", \"The Pridwin Hotel\", \"The Pridwin Hotel Shelter Island Heights, New York US Hotel\", \"The Pridwin Hotel Shelter Island Heights, New York US Resort\", \"The Pridwin Hotel Shelter Island Heights, New York US\"], \"v\": 3}": {
+    "lat": 41.0696792,
+    "lon": -72.3752441,
+    "formatted_address": "81 Shore Rd, Shelter Island, NY 11964, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJcVzChP6Y6IkRW-eViTD_M94",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "81 Shore Rd, Shelter Island, NY 11964, USA",
+      "geometry": {
+        "location": {
+          "lat": 41.0696792,
+          "lng": -72.3752441
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.0711957302915,
+            "lng": -72.3740051697085
+          },
+          "southwest": {
+            "lat": 41.0684977697085,
+            "lng": -72.3767031302915
+          }
+        }
+      },
+      "name": "The Pridwin Hotel & Cottages",
+      "place_id": "ChIJcVzChP6Y6IkRW-eViTD_M94",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.caperesorts.com/pridwin"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Principi di Piemonte UNA Esperienze\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Principi di Piemonte UNA Esperienze Preferred Hotels & Resorts Hotel\", \"Principi di Piemonte UNA Esperienze Preferred Hotels & Resorts Resort\", \"Principi di Piemonte UNA Esperienze Preferred Hotels & Resorts\", \"Principi di Piemonte UNA Esperienze Preferred Hotels & Resorts Turin, Italy Hotel\", \"Principi di Piemonte UNA Esperienze Preferred Hotels & Resorts Turin, Italy Resort\", \"Principi di Piemonte UNA Esperienze Preferred Hotels & Resorts Turin, Italy\", \"Principi di Piemonte UNA Esperienze Hilton Hotel\", \"Principi di Piemonte UNA Esperienze Hilton Resort\", \"Principi di Piemonte UNA Esperienze Hilton\", \"Principi di Piemonte UNA Esperienze Hilton Turin, Italy Hotel\", \"Principi di Piemonte UNA Esperienze Hilton Turin, Italy Resort\", \"Principi di Piemonte UNA Esperienze Hilton Turin, Italy\", \"Principi Di Piemonte Una Esperienze Preferred Hotels & Resorts Hotel\", \"Principi Di Piemonte Una Esperienze Preferred Hotels & Resorts Resort\", \"Principi Di Piemonte Una Esperienze Preferred Hotels & Resorts\", \"Principi Di Piemonte Una Esperienze Preferred Hotels & Resorts Turin, Italy Hotel\", \"Principi Di Piemonte Una Esperienze Preferred Hotels & Resorts Turin, Italy Resort\", \"Principi Di Piemonte Una Esperienze Preferred Hotels & Resorts Turin, Italy\", \"Principi Di Piemonte Una Esperienze Hilton Hotel\", \"Principi Di Piemonte Una Esperienze Hilton Resort\", \"Principi Di Piemonte Una Esperienze Hilton\", \"Principi Di Piemonte Una Esperienze Hilton Turin, Italy Hotel\", \"Principi Di Piemonte Una Esperienze Hilton Turin, Italy Resort\", \"Principi Di Piemonte Una Esperienze Hilton Turin, Italy\", \"Principi di Piemonte UNA Esperienze Hotel\", \"Principi di Piemonte UNA Esperienze Resort\", \"Principi di Piemonte UNA Esperienze\", \"Principi di Piemonte UNA Esperienze Turin, Italy Hotel\", \"Principi di Piemonte UNA Esperienze Turin, Italy Resort\", \"Principi di Piemonte UNA Esperienze Turin, Italy\"], \"v\": 3}": {
+    "lat": 45.0649945,
+    "lon": 7.6817011,
+    "formatted_address": "Via Piero Gobetti, 15, 10123 Torino TO, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJG8JRQk0UiEcR5Mc4PIkD7ik",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Piero Gobetti, 15, 10123 Torino TO, Italy",
+      "geometry": {
+        "location": {
+          "lat": 45.0649945,
+          "lng": 7.6817011
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.06639038029149,
+            "lng": 7.682909780291501
+          },
+          "southwest": {
+            "lat": 45.0636924197085,
+            "lng": 7.680211819708497
+          }
+        }
+      },
+      "name": "Principi di Piemonte",
+      "place_id": "ChIJG8JRQk0UiEcR5Mc4PIkD7ik",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.unaitalianhospitality.com/it/soggiorni/principi-di-piemonte-una-esperienze"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Schweizerhof Zurich\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Schweizerhof Zurich Preferred Hotels & Resorts Hotel\", \"Hotel Schweizerhof Zurich Preferred Hotels & Resorts Resort\", \"Hotel Schweizerhof Zurich Preferred Hotels & Resorts\", \"Hotel Schweizerhof Zurich Preferred Hotels & Resorts Z\\u00fcrich, Switzerland Hotel\", \"Hotel Schweizerhof Zurich Preferred Hotels & Resorts Z\\u00fcrich, Switzerland Resort\", \"Hotel Schweizerhof Zurich Preferred Hotels & Resorts Z\\u00fcrich, Switzerland\", \"Hotel Schweizerhof Zurich Hilton Hotel\", \"Hotel Schweizerhof Zurich Hilton Resort\", \"Hotel Schweizerhof Zurich Hilton\", \"Hotel Schweizerhof Zurich Hilton Z\\u00fcrich, Switzerland Hotel\", \"Hotel Schweizerhof Zurich Hilton Z\\u00fcrich, Switzerland Resort\", \"Hotel Schweizerhof Zurich Hilton Z\\u00fcrich, Switzerland\", \"Hotel Schweizerhof Zurich Hotel\", \"Hotel Schweizerhof Zurich Resort\", \"Hotel Schweizerhof Zurich\", \"Hotel Schweizerhof Zurich Z\\u00fcrich, Switzerland Hotel\", \"Hotel Schweizerhof Zurich Z\\u00fcrich, Switzerland Resort\", \"Hotel Schweizerhof Zurich Z\\u00fcrich, Switzerland\"], \"v\": 3}": {
+    "lat": 47.37687080000001,
+    "lon": 8.5394332,
+    "formatted_address": "Bahnhofplatz 7, 8001 Zürich, Switzerland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJq2UJnAgKkEcRpogMbETPEI4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Bahnhofplatz 7, 8001 Zürich, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.37687080000001,
+          "lng": 8.5394332
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.3783242802915,
+            "lng": 8.540809680291503
+          },
+          "southwest": {
+            "lat": 47.3756263197085,
+            "lng": 8.538111719708498
+          }
+        }
+      },
+      "name": "Hotel Schweizerhof Zürich",
+      "place_id": "ChIJq2UJnAgKkEcRpogMbETPEI4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hotelschweizerhof.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Radisson Collection Hotel, Magdalena Plaza Sevilla\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Radisson Collection Hotel, Magdalena Plaza Sevilla Radisson Hotel Group Hotel\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Radisson Hotel Group Resort\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Radisson Hotel Group\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Radisson Hotel Group Seville, Spain Hotel\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Radisson Hotel Group Seville, Spain Resort\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Radisson Hotel Group Seville, Spain\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Hilton Hotel\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Hilton Resort\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Hilton\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Hilton Seville, Spain Hotel\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Hilton Seville, Spain Resort\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Hilton Seville, Spain\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Radisson Hotel Group Hotel\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Radisson Hotel Group Resort\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Radisson Hotel Group\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Radisson Hotel Group Seville, Spain Hotel\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Radisson Hotel Group Seville, Spain Resort\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Radisson Hotel Group Seville, Spain\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Hilton Hotel\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Hilton Resort\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Hilton\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Hilton Seville, Spain Hotel\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Hilton Seville, Spain Resort\", \"Radisson Collection Hotel Magdalena Plaza Sevilla Hilton Seville, Spain\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Hotel\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Resort\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Seville, Spain Hotel\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Seville, Spain Resort\", \"Radisson Collection Hotel, Magdalena Plaza Sevilla Seville, Spain\"], \"v\": 3}": {
+    "lat": 37.3911664,
+    "lon": -5.9968222,
+    "formatted_address": "Pl. de la Magdalena, 1, Casco Antiguo, 41001 Sevilla, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJV6Ba74NtEg0R3re-F7TI7Co",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Pl. de la Magdalena, 1, Casco Antiguo, 41001 Sevilla, Spain",
+      "geometry": {
+        "location": {
+          "lat": 37.3911664,
+          "lng": -5.9968222
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.3923040302915,
+            "lng": -5.995525569708499
+          },
+          "southwest": {
+            "lat": 37.3896060697085,
+            "lng": -5.998223530291503
+          }
+        }
+      },
+      "name": "Radisson Collection Hotel, Magdalena Plaza Sevilla",
+      "place_id": "ChIJV6Ba74NtEg0R3re-F7TI7Co",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.radissonhotels.com/en-us/hotels/radisson-collection-magdalena-plaza-sevilla?cid=a:se+b:gmb+c:emea+i:local+e:rco+d:ukirwe+h:ESSEV1"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Torre Vella\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Torre Vella Relais & Ch\\u00e2teaux Hotel\", \"Torre Vella Relais & Ch\\u00e2teaux Resort\", \"Torre Vella Relais & Ch\\u00e2teaux\", \"Torre Vella Relais & Ch\\u00e2teaux Alayor, Spain Hotel\", \"Torre Vella Relais & Ch\\u00e2teaux Alayor, Spain Resort\", \"Torre Vella Relais & Ch\\u00e2teaux Alayor, Spain\", \"Torre Vella Hilton Hotel\", \"Torre Vella Hilton Resort\", \"Torre Vella Hilton\", \"Torre Vella Hilton Alayor, Spain Hotel\", \"Torre Vella Hilton Alayor, Spain Resort\", \"Torre Vella Hilton Alayor, Spain\", \"Torre Vella Hotel\", \"Torre Vella Resort\", \"Torre Vella\", \"Torre Vella Alayor, Spain Hotel\", \"Torre Vella Alayor, Spain Resort\", \"Torre Vella Alayor, Spain\"], \"v\": 3}": {
+    "lat": 39.8921144,
+    "lon": 4.1043119,
+    "formatted_address": "Finca, Torre Vella, Camí de Llucalari, 07730 Alaior, Illes Balears, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ5RIbMHiLlRIRiZbOPDVigQk",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Finca, Torre Vella, Camí de Llucalari, 07730 Alaior, Illes Balears, Spain",
+      "geometry": {
+        "location": {
+          "lat": 39.8921144,
+          "lng": 4.1043119
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.8937334802915,
+            "lng": 4.105331180291502
+          },
+          "southwest": {
+            "lat": 39.8910355197085,
+            "lng": 4.102633219708498
+          }
+        }
+      },
+      "name": "Fontenille Menorca Torre Vella",
+      "place_id": "ChIJ5RIbMHiLlRIRiZbOPDVigQk",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.torre-vella.fontenille-collection.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Saint-Georges\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Saint-Georges Relais & Ch\\u00e2teaux Hotel\", \"Hotel Saint-Georges Relais & Ch\\u00e2teaux Resort\", \"Hotel Saint-Georges Relais & Ch\\u00e2teaux\", \"Hotel Saint-Georges Relais & Ch\\u00e2teaux Megeve, France Hotel\", \"Hotel Saint-Georges Relais & Ch\\u00e2teaux Megeve, France Resort\", \"Hotel Saint-Georges Relais & Ch\\u00e2teaux Megeve, France\", \"Hotel Saint-Georges Hilton Hotel\", \"Hotel Saint-Georges Hilton Resort\", \"Hotel Saint-Georges Hilton\", \"Hotel Saint-Georges Hilton Megeve, France Hotel\", \"Hotel Saint-Georges Hilton Megeve, France Resort\", \"Hotel Saint-Georges Hilton Megeve, France\", \"Hotel Saint georges Relais & Ch\\u00e2teaux Hotel\", \"Hotel Saint georges Relais & Ch\\u00e2teaux Resort\", \"Hotel Saint georges Relais & Ch\\u00e2teaux\", \"Hotel Saint georges Relais & Ch\\u00e2teaux Megeve, France Hotel\", \"Hotel Saint georges Relais & Ch\\u00e2teaux Megeve, France Resort\", \"Hotel Saint georges Relais & Ch\\u00e2teaux Megeve, France\", \"Hotel Saint georges Hilton Hotel\", \"Hotel Saint georges Hilton Resort\", \"Hotel Saint georges Hilton\", \"Hotel Saint georges Hilton Megeve, France Hotel\", \"Hotel Saint georges Hilton Megeve, France Resort\", \"Hotel Saint georges Hilton Megeve, France\", \"Hotel Saint-Georges Hotel\", \"Hotel Saint-Georges Resort\", \"Hotel Saint-Georges\", \"Hotel Saint-Georges Megeve, France Hotel\", \"Hotel Saint-Georges Megeve, France Resort\", \"Hotel Saint-Georges Megeve, France\"], \"v\": 3}": {
+    "lat": 45.85526489999999,
+    "lon": 6.6168985,
+    "formatted_address": "159 Rue Mgr Conseil, 74120 Megève, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJkbKaAcbii0cRbbuRSTAnSlA",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "159 Rue Mgr Conseil, 74120 Megève, France",
+      "geometry": {
+        "location": {
+          "lat": 45.85526489999999,
+          "lng": 6.6168985
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.8566122302915,
+            "lng": 6.618383830291502
+          },
+          "southwest": {
+            "lat": 45.8539142697085,
+            "lng": 6.615685869708498
+          }
+        }
+      },
+      "name": "Hôtel Saint-Georges - Relais & Châteaux",
+      "place_id": "ChIJkbKaAcbii0cRbbuRSTAnSlA",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "https://www.hotelsaintgeorges-megeve.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Chateau St. Gerlach\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Chateau St. Gerlach Relais & Ch\\u00e2teaux Hotel\", \"Chateau St. Gerlach Relais & Ch\\u00e2teaux Resort\", \"Chateau St. Gerlach Relais & Ch\\u00e2teaux\", \"Chateau St. Gerlach Relais & Ch\\u00e2teaux Valkenburg aan de Geul, Netherlands Hotel\", \"Chateau St. Gerlach Relais & Ch\\u00e2teaux Valkenburg aan de Geul, Netherlands Resort\", \"Chateau St. Gerlach Relais & Ch\\u00e2teaux Valkenburg aan de Geul, Netherlands\", \"Chateau St. Gerlach Hilton Hotel\", \"Chateau St. Gerlach Hilton Resort\", \"Chateau St. Gerlach Hilton\", \"Chateau St. Gerlach Hilton Valkenburg aan de Geul, Netherlands Hotel\", \"Chateau St. Gerlach Hilton Valkenburg aan de Geul, Netherlands Resort\", \"Chateau St. Gerlach Hilton Valkenburg aan de Geul, Netherlands\", \"Chateau St Gerlach Relais & Ch\\u00e2teaux Hotel\", \"Chateau St Gerlach Relais & Ch\\u00e2teaux Resort\", \"Chateau St Gerlach Relais & Ch\\u00e2teaux\", \"Chateau St Gerlach Relais & Ch\\u00e2teaux Valkenburg aan de Geul, Netherlands Hotel\", \"Chateau St Gerlach Relais & Ch\\u00e2teaux Valkenburg aan de Geul, Netherlands Resort\", \"Chateau St Gerlach Relais & Ch\\u00e2teaux Valkenburg aan de Geul, Netherlands\", \"Chateau St Gerlach Hilton Hotel\", \"Chateau St Gerlach Hilton Resort\", \"Chateau St Gerlach Hilton\", \"Chateau St Gerlach Hilton Valkenburg aan de Geul, Netherlands Hotel\", \"Chateau St Gerlach Hilton Valkenburg aan de Geul, Netherlands Resort\", \"Chateau St Gerlach Hilton Valkenburg aan de Geul, Netherlands\", \"Chateau St. Gerlach Hotel\", \"Chateau St. Gerlach Resort\", \"Chateau St. Gerlach\", \"Chateau St. Gerlach Valkenburg aan de Geul, Netherlands Hotel\", \"Chateau St. Gerlach Valkenburg aan de Geul, Netherlands Resort\", \"Chateau St. Gerlach Valkenburg aan de Geul, Netherlands\"], \"v\": 3}": {
+    "lat": 50.86921479999999,
+    "lon": 5.7993917,
+    "formatted_address": "Joseph Corneli Allee 1, 6301 KK Valkenburg, Netherlands",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJo3PPcifAwEcRNSc5Bxu0raA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Joseph Corneli Allee 1, 6301 KK Valkenburg, Netherlands",
+      "geometry": {
+        "location": {
+          "lat": 50.86921479999999,
+          "lng": 5.7993917
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 50.8706286302915,
+            "lng": 5.800998480291502
+          },
+          "southwest": {
+            "lat": 50.8679306697085,
+            "lng": 5.798300519708498
+          }
+        }
+      },
+      "name": "Château St. Gerlach",
+      "place_id": "ChIJo3PPcifAwEcRNSc5Bxu0raA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.oostwegelcollection.nl/chateau-st-gerlach/?utm_source=GBP&utm_medium=organic"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"La Casa Que Canta\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Casa Que Canta Small Luxury Hotels of the World Hotel\", \"La Casa Que Canta Small Luxury Hotels of the World Resort\", \"La Casa Que Canta Small Luxury Hotels of the World\", \"La Casa Que Canta Small Luxury Hotels of the World Zihuatanejo, GRO MX Hotel\", \"La Casa Que Canta Small Luxury Hotels of the World Zihuatanejo, GRO MX Resort\", \"La Casa Que Canta Small Luxury Hotels of the World Zihuatanejo, GRO MX\", \"La Casa Que Canta Hilton Hotel\", \"La Casa Que Canta Hilton Resort\", \"La Casa Que Canta Hilton\", \"La Casa Que Canta Hilton Zihuatanejo, GRO MX Hotel\", \"La Casa Que Canta Hilton Zihuatanejo, GRO MX Resort\", \"La Casa Que Canta Hilton Zihuatanejo, GRO MX\", \"La Casa Que Canta Hotel\", \"La Casa Que Canta Resort\", \"La Casa Que Canta\", \"La Casa Que Canta Zihuatanejo, GRO MX Hotel\", \"La Casa Que Canta Zihuatanejo, GRO MX Resort\", \"La Casa Que Canta Zihuatanejo, GRO MX\"], \"v\": 3}": {
+    "lat": 17.635327,
+    "lon": -101.5498233,
+    "formatted_address": "Camino Escénico a, Playa La Ropa S/N, Playa la Ropa, 40880 Zihuatanejo, Gro., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJz4pb0T93NIQRp9jmjNYIXTo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Camino Escénico a, Playa La Ropa S/N, Playa la Ropa, 40880 Zihuatanejo, Gro., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 17.635327,
+          "lng": -101.5498233
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 17.6366940302915,
+            "lng": -101.5484988697085
+          },
+          "southwest": {
+            "lat": 17.6339960697085,
+            "lng": -101.5511968302915
+          }
+        }
+      },
+      "name": "La Casa Que Canta, an SLH Hotel",
+      "place_id": "ChIJz4pb0T93NIQRp9jmjNYIXTo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.lacasaquecanta.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Windjammer Landing Resort & Residences\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Windjammer Landing Resort & Residences The Leading Hotels of the World Hotel\", \"Windjammer Landing Resort & Residences The Leading Hotels of the World Resort\", \"Windjammer Landing Resort & Residences The Leading Hotels of the World\", \"Windjammer Landing Resort & Residences The Leading Hotels of the World Gros Islet, Saint Lucia Hotel\", \"Windjammer Landing Resort & Residences The Leading Hotels of the World Gros Islet, Saint Lucia Resort\", \"Windjammer Landing Resort & Residences The Leading Hotels of the World Gros Islet, Saint Lucia\", \"Windjammer Landing Resort & Residences Hilton Hotel\", \"Windjammer Landing Resort & Residences Hilton Resort\", \"Windjammer Landing Resort & Residences Hilton\", \"Windjammer Landing Resort & Residences Hilton Gros Islet, Saint Lucia Hotel\", \"Windjammer Landing Resort & Residences Hilton Gros Islet, Saint Lucia Resort\", \"Windjammer Landing Resort & Residences Hilton Gros Islet, Saint Lucia\", \"Windjammer Landing Resort Residences The Leading Hotels of the World Hotel\", \"Windjammer Landing Resort Residences The Leading Hotels of the World Resort\", \"Windjammer Landing Resort Residences The Leading Hotels of the World\", \"Windjammer Landing Resort Residences The Leading Hotels of the World Gros Islet, Saint Lucia Hotel\", \"Windjammer Landing Resort Residences The Leading Hotels of the World Gros Islet, Saint Lucia Resort\", \"Windjammer Landing Resort Residences The Leading Hotels of the World Gros Islet, Saint Lucia\", \"Windjammer Landing Resort Residences Hilton Hotel\", \"Windjammer Landing Resort Residences Hilton Resort\", \"Windjammer Landing Resort Residences Hilton\", \"Windjammer Landing Resort Residences Hilton Gros Islet, Saint Lucia Hotel\", \"Windjammer Landing Resort Residences Hilton Gros Islet, Saint Lucia Resort\", \"Windjammer Landing Resort Residences Hilton Gros Islet, Saint Lucia\", \"Windjammer Landing Resort & Residences Hotel\", \"Windjammer Landing Resort & Residences Resort\", \"Windjammer Landing Resort & Residences\", \"Windjammer Landing Resort & Residences Gros Islet, Saint Lucia Hotel\", \"Windjammer Landing Resort & Residences Gros Islet, Saint Lucia Resort\", \"Windjammer Landing Resort & Residences Gros Islet, Saint Lucia\"], \"v\": 3}": {
+    "lat": 14.0590096,
+    "lon": -60.9741993,
+    "formatted_address": "1504, Labrelotte Bay, St Lucia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ61G-cBRoQIwRUHTtBQPFLAg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1504, Labrelotte Bay, St Lucia",
+      "geometry": {
+        "location": {
+          "lat": 14.0590096,
+          "lng": -60.9741993
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 14.0603640802915,
+            "lng": -60.97284536970849
+          },
+          "southwest": {
+            "lat": 14.0576661197085,
+            "lng": -60.9755433302915
+          }
+        }
+      },
+      "name": "Windjammer Landing Resort and Residences",
+      "place_id": "ChIJ61G-cBRoQIwRUHTtBQPFLAg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.windjammer-landing.com/?utm_source=googlelisting&utm_medium=organic"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Amoure Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amoure Hotel The Leading Hotels of the World Hotel\", \"Amoure Hotel The Leading Hotels of the World Resort\", \"Amoure Hotel The Leading Hotels of the World\", \"Amoure Hotel The Leading Hotels of the World Vila Verde, Portugal Hotel\", \"Amoure Hotel The Leading Hotels of the World Vila Verde, Portugal Resort\", \"Amoure Hotel The Leading Hotels of the World Vila Verde, Portugal\", \"Amoure Hotel Hilton Hotel\", \"Amoure Hotel Hilton Resort\", \"Amoure Hotel Hilton\", \"Amoure Hotel Hilton Vila Verde, Portugal Hotel\", \"Amoure Hotel Hilton Vila Verde, Portugal Resort\", \"Amoure Hotel Hilton Vila Verde, Portugal\", \"Amoure Hotel Hotel\", \"Amoure Hotel Resort\", \"Amoure Hotel\", \"Amoure Hotel Vila Verde, Portugal Hotel\", \"Amoure Hotel Vila Verde, Portugal Resort\", \"Amoure Hotel Vila Verde, Portugal\"], \"v\": 3}": {
+    "lat": 41.6374963,
+    "lon": -8.476974199999999,
+    "formatted_address": "Av. da Câmara 22, 4730-304, Portugal",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJqxPQQ3oAJQ0RSq334t-I6pE",
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Av. da Câmara 22, 4730-304, Portugal",
+      "geometry": {
+        "location": {
+          "lat": 41.6374963,
+          "lng": -8.476974199999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.6388354302915,
+            "lng": -8.475585169708497
+          },
+          "southwest": {
+            "lat": 41.63613746970851,
+            "lng": -8.478283130291501
+          }
+        }
+      },
+      "name": "Amoure Hotel",
+      "place_id": "ChIJqxPQQ3oAJQ0RSq334t-I6pE",
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant",
+        "spa"
+      ],
+      "website": "http://www.amourehotel.com/"
+    }
   }
 }
