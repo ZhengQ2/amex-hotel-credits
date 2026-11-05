@@ -158683,5 +158683,47 @@
       ],
       "website": "http://www.amourehotel.com/"
     }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Knickerbocker Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Knickerbocker Hotel Preferred Hotels & Resorts Hotel\", \"The Knickerbocker Hotel Preferred Hotels & Resorts Resort\", \"The Knickerbocker Hotel Preferred Hotels & Resorts\", \"The Knickerbocker Hotel Preferred Hotels & Resorts New York, New York US Hotel\", \"The Knickerbocker Hotel Preferred Hotels & Resorts New York, New York US Resort\", \"The Knickerbocker Hotel Preferred Hotels & Resorts New York, New York US\", \"The Knickerbocker Hotel Hilton Hotel\", \"The Knickerbocker Hotel Hilton Resort\", \"The Knickerbocker Hotel Hilton\", \"The Knickerbocker Hotel Hilton New York, New York US Hotel\", \"The Knickerbocker Hotel Hilton New York, New York US Resort\", \"The Knickerbocker Hotel Hilton New York, New York US\", \"The Knickerbocker Hotel Hotel\", \"The Knickerbocker Hotel Resort\", \"The Knickerbocker Hotel\", \"The Knickerbocker Hotel New York, New York US Hotel\", \"The Knickerbocker Hotel New York, New York US Resort\", \"The Knickerbocker Hotel New York, New York US\"], \"v\": 3}": {
+    "lat": 40.7555831,
+    "lon": -73.9862701,
+    "formatted_address": "6 Times Sq, New York, NY 10036, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJHW6u1FRYwokRg9rrxRT-DP8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "6 Times Sq, New York, NY 10036, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.7555831,
+          "lng": -73.9862701
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.7568473802915,
+            "lng": -73.98486161970848
+          },
+          "southwest": {
+            "lat": 40.7541494197085,
+            "lng": -73.9875595802915
+          }
+        }
+      },
+      "name": "The Knickerbocker",
+      "place_id": "ChIJHW6u1FRYwokRg9rrxRT-DP8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://theknickerbocker.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
+    }
   }
 }
