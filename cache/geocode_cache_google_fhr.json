@@ -213554,5 +213554,52 @@
       ],
       "website": "https://www.marriott.com/en-us/hotels/laxwh-w-hollywood/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Rosewood Amaala\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rosewood Amaala\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Rosewood Amaala\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rosewood Amaala Rosewood Hotels & Resorts Hotel\", \"Rosewood Amaala Rosewood Hotels & Resorts Resort\", \"Rosewood Amaala Rosewood Hotels & Resorts\", \"Rosewood Amaala Rosewood Hotels & Resorts An Nu'aylah, Saudi Arabia Hotel\", \"Rosewood Amaala Rosewood Hotels & Resorts An Nu'aylah, Saudi Arabia Resort\", \"Rosewood Amaala Rosewood Hotels & Resorts An Nu'aylah, Saudi Arabia\", \"Rosewood Amaala Hilton Hotel\", \"Rosewood Amaala Hilton Resort\", \"Rosewood Amaala Hilton\", \"Rosewood Amaala Hilton An Nu'aylah, Saudi Arabia Hotel\", \"Rosewood Amaala Hilton An Nu'aylah, Saudi Arabia Resort\", \"Rosewood Amaala Hilton An Nu'aylah, Saudi Arabia\", \"Rosewood Amaala Hotel\", \"Rosewood Amaala Resort\", \"Rosewood Amaala\", \"Rosewood Amaala An Nu'aylah, Saudi Arabia Hotel\", \"Rosewood Amaala An Nu'aylah, Saudi Arabia Resort\", \"Rosewood Amaala An Nu'aylah, Saudi Arabia\"], \"v\": 3}": {
+    "lat": 21.5765404,
+    "lon": 39.11005189999999,
+    "formatted_address": "Corniche Street, Al Shatie، District، Jeddah 23415, Saudi Arabia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJBZHDYGTQwxURxUdQeWrRPzo",
+    "types": [
+      "establishment",
+      "gym",
+      "health",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Corniche Street, Al Shatie، District، Jeddah 23415, Saudi Arabia",
+      "geometry": {
+        "location": {
+          "lat": 21.5765404,
+          "lng": 39.11005189999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 21.5778463802915,
+            "lng": 39.1112922302915
+          },
+          "southwest": {
+            "lat": 21.5751484197085,
+            "lng": 39.1085942697085
+          }
+        }
+      },
+      "name": "Rosewood Jeddah Hotel",
+      "place_id": "ChIJBZHDYGTQwxURxUdQeWrRPzo",
+      "types": [
+        "establishment",
+        "gym",
+        "health",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.rosewoodhotels.com/en/jeddah"
+    }
   }
 }

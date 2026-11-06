@@ -36362,47 +36362,6 @@
       "website": "https://www.pavilionshotels.com/destinations/italy/thefirstmusica/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
     }
   },
-  "{\"brand\": \"Meli\\u00e1 Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Melia Shanghai Parkside Meli\\u00e1 Hotels & Resorts Hotel\", \"Melia Shanghai Parkside Meli\\u00e1 Hotels & Resorts Resort\", \"Melia Shanghai Parkside Meli\\u00e1 Hotels & Resorts\", \"Melia Shanghai Parkside Meli\\u00e1 Hotels & Resorts Shanghai, China Hotel\", \"Melia Shanghai Parkside Meli\\u00e1 Hotels & Resorts Shanghai, China Resort\", \"Melia Shanghai Parkside Meli\\u00e1 Hotels & Resorts Shanghai, China\", \"Melia Shanghai Parkside Hilton Hotel\", \"Melia Shanghai Parkside Hilton Resort\", \"Melia Shanghai Parkside Hilton\", \"Melia Shanghai Parkside Hilton Shanghai, China Hotel\", \"Melia Shanghai Parkside Hilton Shanghai, China Resort\", \"Melia Shanghai Parkside Hilton Shanghai, China\", \"Melia Shanghai Parkside Hotel\", \"Melia Shanghai Parkside Resort\", \"Melia Shanghai Parkside\", \"Melia Shanghai Parkside Shanghai, China Hotel\", \"Melia Shanghai Parkside Shanghai, China Resort\", \"Melia Shanghai Parkside Shanghai, China\"], \"v\": 3}": {
-    "lat": 31.13384,
-    "lon": 121.65913,
-    "formatted_address": "China, Shang Hai Shi, Pu Dong Xin Qu, 818弄151号CN 上海市 浦东新区 申迪西路 818 邮政编码: 201205",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ3T4ht7uHrTURmvP_QgjQgR4",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "China, Shang Hai Shi, Pu Dong Xin Qu, 818弄151号CN 上海市 浦东新区 申迪西路 818 邮政编码: 201205",
-      "geometry": {
-        "location": {
-          "lat": 31.13384,
-          "lng": 121.65913
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 31.1351889802915,
-            "lng": 121.6604789802915
-          },
-          "southwest": {
-            "lat": 31.1324910197085,
-            "lng": 121.6577810197085
-          }
-        }
-      },
-      "name": "Melia Shanghai Parkside",
-      "place_id": "ChIJ3T4ht7uHrTURmvP_QgjQgR4",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ]
-    }
-  },
   "{\"brand\": \"MGallery Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Niko Seaside Resort Crete Mgallery MGallery Collection Hotel\", \"Niko Seaside Resort Crete Mgallery MGallery Collection Resort\", \"Niko Seaside Resort Crete Mgallery MGallery Collection\", \"Niko Seaside Resort Crete Mgallery MGallery Collection Agios Nikolaos, Greece Hotel\", \"Niko Seaside Resort Crete Mgallery MGallery Collection Agios Nikolaos, Greece Resort\", \"Niko Seaside Resort Crete Mgallery MGallery Collection Agios Nikolaos, Greece\", \"Niko Seaside Resort Crete Mgallery Hilton Hotel\", \"Niko Seaside Resort Crete Mgallery Hilton Resort\", \"Niko Seaside Resort Crete Mgallery Hilton\", \"Niko Seaside Resort Crete Mgallery Hilton Agios Nikolaos, Greece Hotel\", \"Niko Seaside Resort Crete Mgallery Hilton Agios Nikolaos, Greece Resort\", \"Niko Seaside Resort Crete Mgallery Hilton Agios Nikolaos, Greece\", \"NIKO Seaside Resort Crete MGALLERY MGallery Collection Hotel\", \"NIKO Seaside Resort Crete MGALLERY MGallery Collection Resort\", \"NIKO Seaside Resort Crete MGALLERY MGallery Collection\", \"NIKO Seaside Resort Crete MGALLERY MGallery Collection Agios Nikolaos, Greece Hotel\", \"NIKO Seaside Resort Crete MGALLERY MGallery Collection Agios Nikolaos, Greece Resort\", \"NIKO Seaside Resort Crete MGALLERY MGallery Collection Agios Nikolaos, Greece\", \"NIKO Seaside Resort Crete MGALLERY Hilton Hotel\", \"NIKO Seaside Resort Crete MGALLERY Hilton Resort\", \"NIKO Seaside Resort Crete MGALLERY Hilton\", \"NIKO Seaside Resort Crete MGALLERY Hilton Agios Nikolaos, Greece Hotel\", \"NIKO Seaside Resort Crete MGALLERY Hilton Agios Nikolaos, Greece Resort\", \"NIKO Seaside Resort Crete MGALLERY Hilton Agios Nikolaos, Greece\", \"NIKO Seaside Resort Crete MGALLERY Hotel\", \"NIKO Seaside Resort Crete MGALLERY Resort\", \"NIKO Seaside Resort Crete MGALLERY\", \"NIKO Seaside Resort Crete MGALLERY Agios Nikolaos, Greece Hotel\", \"NIKO Seaside Resort Crete MGALLERY Agios Nikolaos, Greece Resort\", \"NIKO Seaside Resort Crete MGALLERY Agios Nikolaos, Greece\"], \"v\": 3}": {
     "lat": 35.1948401,
     "lon": 25.716614,
@@ -127340,47 +127299,6 @@
       "website": "https://www.pavilionshotels.com/destinations/italy/thefirstmusica/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Melia Shanghai Parkside\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Melia Shanghai Parkside Meli\\u00e1 Hotels & Resorts Hotel\", \"Melia Shanghai Parkside Meli\\u00e1 Hotels & Resorts Resort\", \"Melia Shanghai Parkside Meli\\u00e1 Hotels & Resorts\", \"Melia Shanghai Parkside Meli\\u00e1 Hotels & Resorts Shanghai, China Hotel\", \"Melia Shanghai Parkside Meli\\u00e1 Hotels & Resorts Shanghai, China Resort\", \"Melia Shanghai Parkside Meli\\u00e1 Hotels & Resorts Shanghai, China\", \"Melia Shanghai Parkside Hilton Hotel\", \"Melia Shanghai Parkside Hilton Resort\", \"Melia Shanghai Parkside Hilton\", \"Melia Shanghai Parkside Hilton Shanghai, China Hotel\", \"Melia Shanghai Parkside Hilton Shanghai, China Resort\", \"Melia Shanghai Parkside Hilton Shanghai, China\", \"Melia Shanghai Parkside Hotel\", \"Melia Shanghai Parkside Resort\", \"Melia Shanghai Parkside\", \"Melia Shanghai Parkside Shanghai, China Hotel\", \"Melia Shanghai Parkside Shanghai, China Resort\", \"Melia Shanghai Parkside Shanghai, China\"], \"v\": 3}": {
-    "lat": 31.13384,
-    "lon": 121.65913,
-    "formatted_address": "China, Shang Hai Shi, Pu Dong Xin Qu, 818弄151号CN 上海市 浦东新区 申迪西路 818 邮政编码: 201205",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ3T4ht7uHrTURmvP_QgjQgR4",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "China, Shang Hai Shi, Pu Dong Xin Qu, 818弄151号CN 上海市 浦东新区 申迪西路 818 邮政编码: 201205",
-      "geometry": {
-        "location": {
-          "lat": 31.13384,
-          "lng": 121.65913
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 31.1351889802915,
-            "lng": 121.6604789802915
-          },
-          "southwest": {
-            "lat": 31.1324910197085,
-            "lng": 121.6577810197085
-          }
-        }
-      },
-      "name": "Melia Shanghai Parkside",
-      "place_id": "ChIJ3T4ht7uHrTURmvP_QgjQgR4",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ]
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"NIKO Seaside Resort Crete MGALLERY\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"NIKO Seaside Resort Crete MGALLERY MGallery Collection Hotel\", \"NIKO Seaside Resort Crete MGALLERY MGallery Collection Resort\", \"NIKO Seaside Resort Crete MGALLERY MGallery Collection\", \"NIKO Seaside Resort Crete MGALLERY MGallery Collection Agios Nikolaos, Greece Hotel\", \"NIKO Seaside Resort Crete MGALLERY MGallery Collection Agios Nikolaos, Greece Resort\", \"NIKO Seaside Resort Crete MGALLERY MGallery Collection Agios Nikolaos, Greece\", \"NIKO Seaside Resort Crete MGALLERY Hilton Hotel\", \"NIKO Seaside Resort Crete MGALLERY Hilton Resort\", \"NIKO Seaside Resort Crete MGALLERY Hilton\", \"NIKO Seaside Resort Crete MGALLERY Hilton Agios Nikolaos, Greece Hotel\", \"NIKO Seaside Resort Crete MGALLERY Hilton Agios Nikolaos, Greece Resort\", \"NIKO Seaside Resort Crete MGALLERY Hilton Agios Nikolaos, Greece\", \"Niko Seaside Resort Crete Mgallery MGallery Collection Hotel\", \"Niko Seaside Resort Crete Mgallery MGallery Collection Resort\", \"Niko Seaside Resort Crete Mgallery MGallery Collection\", \"Niko Seaside Resort Crete Mgallery MGallery Collection Agios Nikolaos, Greece Hotel\", \"Niko Seaside Resort Crete Mgallery MGallery Collection Agios Nikolaos, Greece Resort\", \"Niko Seaside Resort Crete Mgallery MGallery Collection Agios Nikolaos, Greece\", \"Niko Seaside Resort Crete Mgallery Hilton Hotel\", \"Niko Seaside Resort Crete Mgallery Hilton Resort\", \"Niko Seaside Resort Crete Mgallery Hilton\", \"Niko Seaside Resort Crete Mgallery Hilton Agios Nikolaos, Greece Hotel\", \"Niko Seaside Resort Crete Mgallery Hilton Agios Nikolaos, Greece Resort\", \"Niko Seaside Resort Crete Mgallery Hilton Agios Nikolaos, Greece\", \"NIKO Seaside Resort Crete MGALLERY Hotel\", \"NIKO Seaside Resort Crete MGALLERY Resort\", \"NIKO Seaside Resort Crete MGALLERY\", \"NIKO Seaside Resort Crete MGALLERY Agios Nikolaos, Greece Hotel\", \"NIKO Seaside Resort Crete MGALLERY Agios Nikolaos, Greece Resort\", \"NIKO Seaside Resort Crete MGALLERY Agios Nikolaos, Greece\"], \"v\": 3}": {
     "lat": 35.1948401,
     "lon": 25.716614,
@@ -154520,52 +154438,9 @@
     }
   },
   "{\"brand\": \"THC\", \"hotel_name\": \"Hutton Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hutton Hotel\"], \"v\": 3}": null,
-  "{\"brand\": \"THC\", \"hotel_name\": \"Hilton Cancun, an All-Inclusive Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Cancun, an All-Inclusive Resort\"], \"v\": 3}": null,
   "{\"brand\": \"THC\", \"hotel_name\": \"Lincoln Plaza London, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lincoln Plaza London, Curio Collection by Hilton\"], \"v\": 3}": null,
   "{\"brand\": \"THC\", \"hotel_name\": \"Myconian Naia\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Myconian Naia\"], \"v\": 3}": null,
   "{\"brand\": \"THC\", \"hotel_name\": \"Reykjavik Konsulat Hotel, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Reykjavik Konsulat Hotel, Curio Collection by Hilton\"], \"v\": 3}": null,
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hilton Cancun, an All-Inclusive Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts Hotel\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts Resort\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX Hotel\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX Resort\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotel\", \"Hilton Cancun, an All-Inclusive Resort Hilton Resort\", \"Hilton Cancun, an All-Inclusive Resort Hilton\", \"Hilton Cancun, an All-Inclusive Resort Hilton CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX Hotel\", \"Hilton Cancun, an All-Inclusive Resort Hilton CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX Resort\", \"Hilton Cancun, an All-Inclusive Resort Hilton CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts Hotel\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts Resort\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX Hotel\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX Resort\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX\", \"Hilton Cancun An All inclusive Resort Hilton Hotel\", \"Hilton Cancun An All inclusive Resort Hilton Resort\", \"Hilton Cancun An All inclusive Resort Hilton\", \"Hilton Cancun An All inclusive Resort Hilton CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX Hotel\", \"Hilton Cancun An All inclusive Resort Hilton CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX Resort\", \"Hilton Cancun An All inclusive Resort Hilton CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX\", \"Hilton Cancun, an All-Inclusive Resort Hotel\", \"Hilton Cancun, an All-Inclusive Resort Resort\", \"Hilton Cancun, an All-Inclusive Resort\", \"Hilton Cancun, an All-Inclusive Resort CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX Hotel\", \"Hilton Cancun, an All-Inclusive Resort CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX Resort\", \"Hilton Cancun, an All-Inclusive Resort CANCUN, BENITO JU\\u00c1REZ, QUINTANA ROO MX\"], \"v\": 3}": {
-    "lat": 20.9538196,
-    "lon": -86.83611169999999,
-    "formatted_address": "Carr Federal Libre 307 Cancun-Tulum Km 248-868, SM-36, LT-1-01 UPE-1E, 77580 Cancun, Q.R., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJFzwYx7uGTo8R7Zvxt7RS1Ac",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Carr Federal Libre 307 Cancun-Tulum Km 248-868, SM-36, LT-1-01 UPE-1E, 77580 Cancun, Q.R., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 20.9538196,
-          "lng": -86.83611169999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 20.9550635302915,
-            "lng": -86.8350504197085
-          },
-          "southwest": {
-            "lat": 20.9523655697085,
-            "lng": -86.8377483802915
-          }
-        }
-      },
-      "name": "Hilton Cancun, an All-Inclusive Resort",
-      "place_id": "ChIJFzwYx7uGTo8R7Zvxt7RS1Ac",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hilton.com/en/hotels/cunqrhh-hilton-cancun/?SEO_id=GMB-AMER-HH-CUNQRHH"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Lincoln Plaza London, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotels & Resorts Hotel\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotels & Resorts Resort\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotels & Resorts\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotels & Resorts London, United Kingdom Hotel\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotels & Resorts London, United Kingdom Resort\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotels & Resorts London, United Kingdom\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Hotel\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton Resort\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton London, United Kingdom Hotel\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton London, United Kingdom Resort\", \"Lincoln Plaza London, Curio Collection by Hilton Hilton London, United Kingdom\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotels & Resorts Hotel\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotels & Resorts Resort\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotels & Resorts\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotels & Resorts London, United Kingdom Hotel\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotels & Resorts London, United Kingdom Resort\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotels & Resorts London, United Kingdom\", \"Lincoln Plaza London Curio Collection Hilton Hilton Hotel\", \"Lincoln Plaza London Curio Collection Hilton Hilton Resort\", \"Lincoln Plaza London Curio Collection Hilton Hilton\", \"Lincoln Plaza London Curio Collection Hilton Hilton London, United Kingdom Hotel\", \"Lincoln Plaza London Curio Collection Hilton Hilton London, United Kingdom Resort\", \"Lincoln Plaza London Curio Collection Hilton Hilton London, United Kingdom\", \"Lincoln Plaza London, Curio Collection by Hilton Hotel\", \"Lincoln Plaza London, Curio Collection by Hilton Resort\", \"Lincoln Plaza London, Curio Collection by Hilton\", \"Lincoln Plaza London, Curio Collection by Hilton London, United Kingdom Hotel\", \"Lincoln Plaza London, Curio Collection by Hilton London, United Kingdom Resort\", \"Lincoln Plaza London, Curio Collection by Hilton London, United Kingdom\"], \"v\": 3}": {
     "lat": 51.49850679999999,
     "lon": -0.0194893,
@@ -154900,56 +154775,6 @@
         "spa"
       ],
       "website": "https://www.themontenottehotel.com/?utm_source=knowledge-graph&utm_medium=organic&utm_campaign=gmb-link"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Amoure Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amoure Hotel The Leading Hotels of the World Hotel\", \"Amoure Hotel The Leading Hotels of the World Resort\", \"Amoure Hotel The Leading Hotels of the World\", \"Amoure Hotel The Leading Hotels of the World Moure, Portugal Hotel\", \"Amoure Hotel The Leading Hotels of the World Moure, Portugal Resort\", \"Amoure Hotel The Leading Hotels of the World Moure, Portugal\", \"Amoure Hotel Hilton Hotel\", \"Amoure Hotel Hilton Resort\", \"Amoure Hotel Hilton\", \"Amoure Hotel Hilton Moure, Portugal Hotel\", \"Amoure Hotel Hilton Moure, Portugal Resort\", \"Amoure Hotel Hilton Moure, Portugal\", \"Amoure Hotel Hotel\", \"Amoure Hotel Resort\", \"Amoure Hotel\", \"Amoure Hotel Moure, Portugal Hotel\", \"Amoure Hotel Moure, Portugal Resort\", \"Amoure Hotel Moure, Portugal\"], \"v\": 3}": {
-    "lat": 41.6374963,
-    "lon": -8.476974199999999,
-    "formatted_address": "Av. da Câmara 22, 4730-304, Portugal",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJqxPQQ3oAJQ0RSq334t-I6pE",
-    "types": [
-      "bar",
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Av. da Câmara 22, 4730-304, Portugal",
-      "geometry": {
-        "location": {
-          "lat": 41.6374963,
-          "lng": -8.476974199999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 41.6388354302915,
-            "lng": -8.475585169708497
-          },
-          "southwest": {
-            "lat": 41.63613746970851,
-            "lng": -8.478283130291501
-          }
-        }
-      },
-      "name": "Amoure Hotel",
-      "place_id": "ChIJqxPQQ3oAJQ0RSq334t-I6pE",
-      "types": [
-        "bar",
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "http://www.amourehotel.com/"
     }
   },
   "{\"brand\": \"THC\", \"hotel_name\": \"Lough Eske Castle Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lough Eske Castle Hotel\"], \"v\": 3}": null,
@@ -157782,48 +157607,6 @@
       "website": "https://www.hilton.com/en/hotels/bogcchh-hilton-bogota-corferias/?SEO_id=GMB-AMER-HH-BOGCCHH"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hilton Cancun, an All-Inclusive Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts Hotel\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts Resort\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts Cancun, QROO MX Hotel\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts Cancun, QROO MX Resort\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotels & Resorts Cancun, QROO MX\", \"Hilton Cancun, an All-Inclusive Resort Hilton Hotel\", \"Hilton Cancun, an All-Inclusive Resort Hilton Resort\", \"Hilton Cancun, an All-Inclusive Resort Hilton\", \"Hilton Cancun, an All-Inclusive Resort Hilton Cancun, QROO MX Hotel\", \"Hilton Cancun, an All-Inclusive Resort Hilton Cancun, QROO MX Resort\", \"Hilton Cancun, an All-Inclusive Resort Hilton Cancun, QROO MX\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts Hotel\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts Resort\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts Cancun, QROO MX Hotel\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts Cancun, QROO MX Resort\", \"Hilton Cancun An All inclusive Resort Hilton Hotels & Resorts Cancun, QROO MX\", \"Hilton Cancun An All inclusive Resort Hilton Hotel\", \"Hilton Cancun An All inclusive Resort Hilton Resort\", \"Hilton Cancun An All inclusive Resort Hilton\", \"Hilton Cancun An All inclusive Resort Hilton Cancun, QROO MX Hotel\", \"Hilton Cancun An All inclusive Resort Hilton Cancun, QROO MX Resort\", \"Hilton Cancun An All inclusive Resort Hilton Cancun, QROO MX\", \"Hilton Cancun, an All-Inclusive Resort Hotel\", \"Hilton Cancun, an All-Inclusive Resort Resort\", \"Hilton Cancun, an All-Inclusive Resort\", \"Hilton Cancun, an All-Inclusive Resort Cancun, QROO MX Hotel\", \"Hilton Cancun, an All-Inclusive Resort Cancun, QROO MX Resort\", \"Hilton Cancun, an All-Inclusive Resort Cancun, QROO MX\"], \"v\": 3}": {
-    "lat": 20.9538196,
-    "lon": -86.83611169999999,
-    "formatted_address": "Carr Federal Libre 307 Cancun-Tulum Km 248-868, SM-36, LT-1-01 UPE-1E, 77580 Cancun, Q.R., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJFzwYx7uGTo8R7Zvxt7RS1Ac",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Carr Federal Libre 307 Cancun-Tulum Km 248-868, SM-36, LT-1-01 UPE-1E, 77580 Cancun, Q.R., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 20.9538196,
-          "lng": -86.83611169999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 20.9550635302915,
-            "lng": -86.8350504197085
-          },
-          "southwest": {
-            "lat": 20.9523655697085,
-            "lng": -86.8377483802915
-          }
-        }
-      },
-      "name": "Hilton Cancun, an All-Inclusive Resort",
-      "place_id": "ChIJFzwYx7uGTo8R7Zvxt7RS1Ac",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hilton.com/en/hotels/cunqrhh-hilton-cancun/?SEO_id=GMB-AMER-HH-CUNQRHH"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hilton Hotel Tahiti\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Hotel Tahiti Hilton Hotels & Resorts Hotel\", \"Hilton Hotel Tahiti Hilton Hotels & Resorts Resort\", \"Hilton Hotel Tahiti Hilton Hotels & Resorts\", \"Hilton Hotel Tahiti Hilton Hotels & Resorts Faaa, French Polynesia Hotel\", \"Hilton Hotel Tahiti Hilton Hotels & Resorts Faaa, French Polynesia Resort\", \"Hilton Hotel Tahiti Hilton Hotels & Resorts Faaa, French Polynesia\", \"Hilton Hotel Tahiti Hilton Hotel\", \"Hilton Hotel Tahiti Hilton Resort\", \"Hilton Hotel Tahiti Hilton\", \"Hilton Hotel Tahiti Hilton Faaa, French Polynesia Hotel\", \"Hilton Hotel Tahiti Hilton Faaa, French Polynesia Resort\", \"Hilton Hotel Tahiti Hilton Faaa, French Polynesia\", \"Hilton Hotel Tahiti Hotel\", \"Hilton Hotel Tahiti Resort\", \"Hilton Hotel Tahiti\", \"Hilton Hotel Tahiti Faaa, French Polynesia Hotel\", \"Hilton Hotel Tahiti Faaa, French Polynesia Resort\", \"Hilton Hotel Tahiti Faaa, French Polynesia\"], \"v\": 3}": {
     "lat": -17.5456223,
     "lon": -149.5862572,
@@ -158634,7 +158417,91 @@
       "website": "https://www.windjammer-landing.com/?utm_source=googlelisting&utm_medium=organic"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Amoure Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amoure Hotel The Leading Hotels of the World Hotel\", \"Amoure Hotel The Leading Hotels of the World Resort\", \"Amoure Hotel The Leading Hotels of the World\", \"Amoure Hotel The Leading Hotels of the World Vila Verde, Portugal Hotel\", \"Amoure Hotel The Leading Hotels of the World Vila Verde, Portugal Resort\", \"Amoure Hotel The Leading Hotels of the World Vila Verde, Portugal\", \"Amoure Hotel Hilton Hotel\", \"Amoure Hotel Hilton Resort\", \"Amoure Hotel Hilton\", \"Amoure Hotel Hilton Vila Verde, Portugal Hotel\", \"Amoure Hotel Hilton Vila Verde, Portugal Resort\", \"Amoure Hotel Hilton Vila Verde, Portugal\", \"Amoure Hotel Hotel\", \"Amoure Hotel Resort\", \"Amoure Hotel\", \"Amoure Hotel Vila Verde, Portugal Hotel\", \"Amoure Hotel Vila Verde, Portugal Resort\", \"Amoure Hotel Vila Verde, Portugal\"], \"v\": 3}": {
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Knickerbocker Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Knickerbocker Hotel Preferred Hotels & Resorts Hotel\", \"The Knickerbocker Hotel Preferred Hotels & Resorts Resort\", \"The Knickerbocker Hotel Preferred Hotels & Resorts\", \"The Knickerbocker Hotel Preferred Hotels & Resorts New York, New York US Hotel\", \"The Knickerbocker Hotel Preferred Hotels & Resorts New York, New York US Resort\", \"The Knickerbocker Hotel Preferred Hotels & Resorts New York, New York US\", \"The Knickerbocker Hotel Hilton Hotel\", \"The Knickerbocker Hotel Hilton Resort\", \"The Knickerbocker Hotel Hilton\", \"The Knickerbocker Hotel Hilton New York, New York US Hotel\", \"The Knickerbocker Hotel Hilton New York, New York US Resort\", \"The Knickerbocker Hotel Hilton New York, New York US\", \"The Knickerbocker Hotel Hotel\", \"The Knickerbocker Hotel Resort\", \"The Knickerbocker Hotel\", \"The Knickerbocker Hotel New York, New York US Hotel\", \"The Knickerbocker Hotel New York, New York US Resort\", \"The Knickerbocker Hotel New York, New York US\"], \"v\": 3}": {
+    "lat": 40.7555831,
+    "lon": -73.9862701,
+    "formatted_address": "6 Times Sq, New York, NY 10036, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJHW6u1FRYwokRg9rrxRT-DP8",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "6 Times Sq, New York, NY 10036, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.7555831,
+          "lng": -73.9862701
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.7568473802915,
+            "lng": -73.98486161970848
+          },
+          "southwest": {
+            "lat": 40.7541494197085,
+            "lng": -73.9875595802915
+          }
+        }
+      },
+      "name": "The Knickerbocker",
+      "place_id": "ChIJHW6u1FRYwokRg9rrxRT-DP8",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://theknickerbocker.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel)\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel)\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel)\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel) Meli\\u00e1 Hotels & Resorts Hotel\", \"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel) Meli\\u00e1 Hotels & Resorts Resort\", \"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel) Meli\\u00e1 Hotels & Resorts\", \"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel) Meli\\u00e1 Hotels & Resorts Shanghai, China Hotel\", \"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel) Meli\\u00e1 Hotels & Resorts Shanghai, China Resort\", \"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel) Meli\\u00e1 Hotels & Resorts Shanghai, China\", \"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel) Hilton Hotel\", \"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel) Hilton Resort\", \"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel) Hilton\", \"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel) Hilton Shanghai, China Hotel\", \"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel) Hilton Shanghai, China Resort\", \"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel) Hilton Shanghai, China\", \"Melia Shanghai Parkside shanghai Disney Resort Official Partner Hotel Meli\\u00e1 Hotels & Resorts Hotel\", \"Melia Shanghai Parkside shanghai Disney Resort Official Partner Hotel Meli\\u00e1 Hotels & Resorts Resort\", \"Melia Shanghai Parkside shanghai Disney Resort Official Partner Hotel Meli\\u00e1 Hotels & Resorts\", \"Melia Shanghai Parkside shanghai Disney Resort Official Partner Hotel Meli\\u00e1 Hotels & Resorts Shanghai, China Hotel\", \"Melia Shanghai Parkside shanghai Disney Resort Official Partner Hotel Meli\\u00e1 Hotels & Resorts Shanghai, China Resort\", \"Melia Shanghai Parkside shanghai Disney Resort Official Partner Hotel Meli\\u00e1 Hotels & Resorts Shanghai, China\", \"Melia Shanghai Parkside shanghai Disney Resort Official Partner Hotel Hilton Hotel\", \"Melia Shanghai Parkside shanghai Disney Resort Official Partner Hotel Hilton Resort\", \"Melia Shanghai Parkside shanghai Disney Resort Official Partner Hotel Hilton\", \"Melia Shanghai Parkside shanghai Disney Resort Official Partner Hotel Hilton Shanghai, China Hotel\", \"Melia Shanghai Parkside shanghai Disney Resort Official Partner Hotel Hilton Shanghai, China Resort\", \"Melia Shanghai Parkside shanghai Disney Resort Official Partner Hotel Hilton Shanghai, China\", \"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel) Hotel\", \"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel) Resort\", \"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel)\", \"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel) Shanghai, China Hotel\", \"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel) Shanghai, China Resort\", \"Melia Shanghai Parkside (Shanghai Disney Resort Official Partner Hotel) Shanghai, China\"], \"v\": 3}": {
+    "lat": 31.13384,
+    "lon": 121.65913,
+    "formatted_address": "China, Shang Hai Shi, Pu Dong Xin Qu, 818弄151号CN 上海市 浦东新区 申迪西路 818 邮政编码: 201205",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ3T4ht7uHrTURmvP_QgjQgR4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "China, Shang Hai Shi, Pu Dong Xin Qu, 818弄151号CN 上海市 浦东新区 申迪西路 818 邮政编码: 201205",
+      "geometry": {
+        "location": {
+          "lat": 31.13384,
+          "lng": 121.65913
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 31.1351889802915,
+            "lng": 121.6604789802915
+          },
+          "southwest": {
+            "lat": 31.1324910197085,
+            "lng": 121.6577810197085
+          }
+        }
+      },
+      "name": "Melia Shanghai Parkside",
+      "place_id": "ChIJ3T4ht7uHrTURmvP_QgjQgR4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Amoure Hotel - The Leading Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amoure Hotel - The Leading Hotels of the World The Leading Hotels of the World Hotel\", \"Amoure Hotel - The Leading Hotels of the World The Leading Hotels of the World Resort\", \"Amoure Hotel - The Leading Hotels of the World The Leading Hotels of the World\", \"Amoure Hotel - The Leading Hotels of the World The Leading Hotels of the World Vila Verde, Portugal Hotel\", \"Amoure Hotel - The Leading Hotels of the World The Leading Hotels of the World Vila Verde, Portugal Resort\", \"Amoure Hotel - The Leading Hotels of the World The Leading Hotels of the World Vila Verde, Portugal\", \"Amoure Hotel - The Leading Hotels of the World Hilton Hotel\", \"Amoure Hotel - The Leading Hotels of the World Hilton Resort\", \"Amoure Hotel - The Leading Hotels of the World Hilton\", \"Amoure Hotel - The Leading Hotels of the World Hilton Vila Verde, Portugal Hotel\", \"Amoure Hotel - The Leading Hotels of the World Hilton Vila Verde, Portugal Resort\", \"Amoure Hotel - The Leading Hotels of the World Hilton Vila Verde, Portugal\", \"Amoure Hotel Leading Hotels Of World The Leading Hotels of the World Hotel\", \"Amoure Hotel Leading Hotels Of World The Leading Hotels of the World Resort\", \"Amoure Hotel Leading Hotels Of World The Leading Hotels of the World\", \"Amoure Hotel Leading Hotels Of World The Leading Hotels of the World Vila Verde, Portugal Hotel\", \"Amoure Hotel Leading Hotels Of World The Leading Hotels of the World Vila Verde, Portugal Resort\", \"Amoure Hotel Leading Hotels Of World The Leading Hotels of the World Vila Verde, Portugal\", \"Amoure Hotel Leading Hotels Of World Hilton Hotel\", \"Amoure Hotel Leading Hotels Of World Hilton Resort\", \"Amoure Hotel Leading Hotels Of World Hilton\", \"Amoure Hotel Leading Hotels Of World Hilton Vila Verde, Portugal Hotel\", \"Amoure Hotel Leading Hotels Of World Hilton Vila Verde, Portugal Resort\", \"Amoure Hotel Leading Hotels Of World Hilton Vila Verde, Portugal\", \"Amoure Hotel - The Leading Hotels of the World Hotel\", \"Amoure Hotel - The Leading Hotels of the World Resort\", \"Amoure Hotel - The Leading Hotels of the World\", \"Amoure Hotel - The Leading Hotels of the World Vila Verde, Portugal Hotel\", \"Amoure Hotel - The Leading Hotels of the World Vila Verde, Portugal Resort\", \"Amoure Hotel - The Leading Hotels of the World Vila Verde, Portugal\"], \"v\": 3}": {
     "lat": 41.6374963,
     "lon": -8.476974199999999,
     "formatted_address": "Av. da Câmara 22, 4730-304, Portugal",
@@ -158682,48 +158549,6 @@
         "spa"
       ],
       "website": "http://www.amourehotel.com/"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Knickerbocker Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Knickerbocker Hotel Preferred Hotels & Resorts Hotel\", \"The Knickerbocker Hotel Preferred Hotels & Resorts Resort\", \"The Knickerbocker Hotel Preferred Hotels & Resorts\", \"The Knickerbocker Hotel Preferred Hotels & Resorts New York, New York US Hotel\", \"The Knickerbocker Hotel Preferred Hotels & Resorts New York, New York US Resort\", \"The Knickerbocker Hotel Preferred Hotels & Resorts New York, New York US\", \"The Knickerbocker Hotel Hilton Hotel\", \"The Knickerbocker Hotel Hilton Resort\", \"The Knickerbocker Hotel Hilton\", \"The Knickerbocker Hotel Hilton New York, New York US Hotel\", \"The Knickerbocker Hotel Hilton New York, New York US Resort\", \"The Knickerbocker Hotel Hilton New York, New York US\", \"The Knickerbocker Hotel Hotel\", \"The Knickerbocker Hotel Resort\", \"The Knickerbocker Hotel\", \"The Knickerbocker Hotel New York, New York US Hotel\", \"The Knickerbocker Hotel New York, New York US Resort\", \"The Knickerbocker Hotel New York, New York US\"], \"v\": 3}": {
-    "lat": 40.7555831,
-    "lon": -73.9862701,
-    "formatted_address": "6 Times Sq, New York, NY 10036, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJHW6u1FRYwokRg9rrxRT-DP8",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "6 Times Sq, New York, NY 10036, USA",
-      "geometry": {
-        "location": {
-          "lat": 40.7555831,
-          "lng": -73.9862701
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 40.7568473802915,
-            "lng": -73.98486161970848
-          },
-          "southwest": {
-            "lat": 40.7541494197085,
-            "lng": -73.9875595802915
-          }
-        }
-      },
-      "name": "The Knickerbocker",
-      "place_id": "ChIJHW6u1FRYwokRg9rrxRT-DP8",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://theknickerbocker.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
     }
   }
 }
