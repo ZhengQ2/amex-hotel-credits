@@ -158550,5 +158550,1271 @@
       ],
       "website": "http://www.amourehotel.com/"
     }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Atlanta Midtown\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Atlanta Midtown Canopy Hotels Hotel\", \"Canopy by Hilton Atlanta Midtown Canopy Hotels Resort\", \"Canopy by Hilton Atlanta Midtown Canopy Hotels\", \"Canopy by Hilton Atlanta Midtown Canopy Hotels Atlanta, Georgia US Hotel\", \"Canopy by Hilton Atlanta Midtown Canopy Hotels Atlanta, Georgia US Resort\", \"Canopy by Hilton Atlanta Midtown Canopy Hotels Atlanta, Georgia US\", \"Canopy by Hilton Atlanta Midtown Hilton Hotel\", \"Canopy by Hilton Atlanta Midtown Hilton Resort\", \"Canopy by Hilton Atlanta Midtown Hilton\", \"Canopy by Hilton Atlanta Midtown Hilton Atlanta, Georgia US Hotel\", \"Canopy by Hilton Atlanta Midtown Hilton Atlanta, Georgia US Resort\", \"Canopy by Hilton Atlanta Midtown Hilton Atlanta, Georgia US\", \"Canopy Hilton Atlanta Midtown Canopy Hotels Hotel\", \"Canopy Hilton Atlanta Midtown Canopy Hotels Resort\", \"Canopy Hilton Atlanta Midtown Canopy Hotels\", \"Canopy Hilton Atlanta Midtown Canopy Hotels Atlanta, Georgia US Hotel\", \"Canopy Hilton Atlanta Midtown Canopy Hotels Atlanta, Georgia US Resort\", \"Canopy Hilton Atlanta Midtown Canopy Hotels Atlanta, Georgia US\", \"Canopy Hilton Atlanta Midtown Hilton Hotel\", \"Canopy Hilton Atlanta Midtown Hilton Resort\", \"Canopy Hilton Atlanta Midtown Hilton\", \"Canopy Hilton Atlanta Midtown Hilton Atlanta, Georgia US Hotel\", \"Canopy Hilton Atlanta Midtown Hilton Atlanta, Georgia US Resort\", \"Canopy Hilton Atlanta Midtown Hilton Atlanta, Georgia US\", \"Canopy by Hilton Atlanta Midtown Hotel\", \"Canopy by Hilton Atlanta Midtown Resort\", \"Canopy by Hilton Atlanta Midtown\", \"Canopy by Hilton Atlanta Midtown Atlanta, Georgia US Hotel\", \"Canopy by Hilton Atlanta Midtown Atlanta, Georgia US Resort\", \"Canopy by Hilton Atlanta Midtown Atlanta, Georgia US\"], \"v\": 3}": {
+    "lat": 33.7931798,
+    "lon": -84.3880494,
+    "formatted_address": "1414 W Peachtree St NW, Atlanta, GA 30309, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ477LYFAE9YgR24puh_com0g",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1414 W Peachtree St NW, Atlanta, GA 30309, USA",
+      "geometry": {
+        "location": {
+          "lat": 33.7931798,
+          "lng": -84.3880494
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.79448138029149,
+            "lng": -84.38667936970849
+          },
+          "southwest": {
+            "lat": 33.79178341970849,
+            "lng": -84.38937733029151
+          }
+        }
+      },
+      "name": "Canopy by Hilton Atlanta Midtown",
+      "place_id": "ChIJ477LYFAE9YgR24puh_com0g",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/atlmwpy-canopy-atlanta-midtown/?SEO_id=GMB-AMER-PY-ATLMWPY&y_source=1_MTE2MDM0NTQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Austin Downtown\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Austin Downtown Canopy Hotels Hotel\", \"Canopy by Hilton Austin Downtown Canopy Hotels Resort\", \"Canopy by Hilton Austin Downtown Canopy Hotels\", \"Canopy by Hilton Austin Downtown Canopy Hotels Austin, Texas US Hotel\", \"Canopy by Hilton Austin Downtown Canopy Hotels Austin, Texas US Resort\", \"Canopy by Hilton Austin Downtown Canopy Hotels Austin, Texas US\", \"Canopy by Hilton Austin Downtown Hilton Hotel\", \"Canopy by Hilton Austin Downtown Hilton Resort\", \"Canopy by Hilton Austin Downtown Hilton\", \"Canopy by Hilton Austin Downtown Hilton Austin, Texas US Hotel\", \"Canopy by Hilton Austin Downtown Hilton Austin, Texas US Resort\", \"Canopy by Hilton Austin Downtown Hilton Austin, Texas US\", \"Canopy Hilton Austin Downtown Canopy Hotels Hotel\", \"Canopy Hilton Austin Downtown Canopy Hotels Resort\", \"Canopy Hilton Austin Downtown Canopy Hotels\", \"Canopy Hilton Austin Downtown Canopy Hotels Austin, Texas US Hotel\", \"Canopy Hilton Austin Downtown Canopy Hotels Austin, Texas US Resort\", \"Canopy Hilton Austin Downtown Canopy Hotels Austin, Texas US\", \"Canopy Hilton Austin Downtown Hilton Hotel\", \"Canopy Hilton Austin Downtown Hilton Resort\", \"Canopy Hilton Austin Downtown Hilton\", \"Canopy Hilton Austin Downtown Hilton Austin, Texas US Hotel\", \"Canopy Hilton Austin Downtown Hilton Austin, Texas US Resort\", \"Canopy Hilton Austin Downtown Hilton Austin, Texas US\", \"Canopy by Hilton Austin Downtown Hotel\", \"Canopy by Hilton Austin Downtown Resort\", \"Canopy by Hilton Austin Downtown\", \"Canopy by Hilton Austin Downtown Austin, Texas US Hotel\", \"Canopy by Hilton Austin Downtown Austin, Texas US Resort\", \"Canopy by Hilton Austin Downtown Austin, Texas US\"], \"v\": 3}": {
+    "lat": 30.2651833,
+    "lon": -97.73810329999999,
+    "formatted_address": "500 E 4th St, Austin, TX 78701, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJj9dtEqi1RIYRaUVSQdHpaiA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "500 E 4th St, Austin, TX 78701, USA",
+      "geometry": {
+        "location": {
+          "lat": 30.2651833,
+          "lng": -97.73810329999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 30.26665943029149,
+            "lng": -97.73711091970848
+          },
+          "southwest": {
+            "lat": 30.26396146970849,
+            "lng": -97.7398088802915
+          }
+        }
+      },
+      "name": "Hilton Austin",
+      "place_id": "ChIJj9dtEqi1RIYRaUVSQdHpaiA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/auscvhh-hilton-austin/?SEO_id=GMB-AMER-HH-AUSCVHH&y_source=1_MTIyMDkxMS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Baltimore Harbor Point\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Baltimore Harbor Point Canopy Hotels Hotel\", \"Canopy by Hilton Baltimore Harbor Point Canopy Hotels Resort\", \"Canopy by Hilton Baltimore Harbor Point Canopy Hotels\", \"Canopy by Hilton Baltimore Harbor Point Canopy Hotels Baltimore, Maryland US Hotel\", \"Canopy by Hilton Baltimore Harbor Point Canopy Hotels Baltimore, Maryland US Resort\", \"Canopy by Hilton Baltimore Harbor Point Canopy Hotels Baltimore, Maryland US\", \"Canopy by Hilton Baltimore Harbor Point Hilton Hotel\", \"Canopy by Hilton Baltimore Harbor Point Hilton Resort\", \"Canopy by Hilton Baltimore Harbor Point Hilton\", \"Canopy by Hilton Baltimore Harbor Point Hilton Baltimore, Maryland US Hotel\", \"Canopy by Hilton Baltimore Harbor Point Hilton Baltimore, Maryland US Resort\", \"Canopy by Hilton Baltimore Harbor Point Hilton Baltimore, Maryland US\", \"Canopy Hilton Baltimore Harbor Point Canopy Hotels Hotel\", \"Canopy Hilton Baltimore Harbor Point Canopy Hotels Resort\", \"Canopy Hilton Baltimore Harbor Point Canopy Hotels\", \"Canopy Hilton Baltimore Harbor Point Canopy Hotels Baltimore, Maryland US Hotel\", \"Canopy Hilton Baltimore Harbor Point Canopy Hotels Baltimore, Maryland US Resort\", \"Canopy Hilton Baltimore Harbor Point Canopy Hotels Baltimore, Maryland US\", \"Canopy Hilton Baltimore Harbor Point Hilton Hotel\", \"Canopy Hilton Baltimore Harbor Point Hilton Resort\", \"Canopy Hilton Baltimore Harbor Point Hilton\", \"Canopy Hilton Baltimore Harbor Point Hilton Baltimore, Maryland US Hotel\", \"Canopy Hilton Baltimore Harbor Point Hilton Baltimore, Maryland US Resort\", \"Canopy Hilton Baltimore Harbor Point Hilton Baltimore, Maryland US\", \"Canopy by Hilton Baltimore Harbor Point Hotel\", \"Canopy by Hilton Baltimore Harbor Point Resort\", \"Canopy by Hilton Baltimore Harbor Point\", \"Canopy by Hilton Baltimore Harbor Point Baltimore, Maryland US Hotel\", \"Canopy by Hilton Baltimore Harbor Point Baltimore, Maryland US Resort\", \"Canopy by Hilton Baltimore Harbor Point Baltimore, Maryland US\"], \"v\": 3}": {
+    "lat": 39.2794609,
+    "lon": -76.5977249,
+    "formatted_address": "1215 Wills St, Baltimore, MD 21231, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJPzI6KH8DyIkRReH9Vl1ry4E",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1215 Wills St, Baltimore, MD 21231, USA",
+      "geometry": {
+        "location": {
+          "lat": 39.2794609,
+          "lng": -76.5977249
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.2806986302915,
+            "lng": -76.5965431697085
+          },
+          "southwest": {
+            "lat": 39.2780006697085,
+            "lng": -76.5992411302915
+          }
+        }
+      },
+      "name": "Canopy by Hilton Baltimore Harbor Point",
+      "place_id": "ChIJPzI6KH8DyIkRReH9Vl1ry4E",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/bwihppy-canopy-baltimore-harbor-point/?SEO_id=GMB-AMER-PY-BWIHPPY&y_source=1_MTcxNjI0NzktNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Bangkok Sukhumvit\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Bangkok Sukhumvit Canopy Hotels Hotel\", \"Canopy by Hilton Bangkok Sukhumvit Canopy Hotels Resort\", \"Canopy by Hilton Bangkok Sukhumvit Canopy Hotels\", \"Canopy by Hilton Bangkok Sukhumvit Canopy Hotels Bangkok, Thailand Hotel\", \"Canopy by Hilton Bangkok Sukhumvit Canopy Hotels Bangkok, Thailand Resort\", \"Canopy by Hilton Bangkok Sukhumvit Canopy Hotels Bangkok, Thailand\", \"Canopy by Hilton Bangkok Sukhumvit Hilton Hotel\", \"Canopy by Hilton Bangkok Sukhumvit Hilton Resort\", \"Canopy by Hilton Bangkok Sukhumvit Hilton\", \"Canopy by Hilton Bangkok Sukhumvit Hilton Bangkok, Thailand Hotel\", \"Canopy by Hilton Bangkok Sukhumvit Hilton Bangkok, Thailand Resort\", \"Canopy by Hilton Bangkok Sukhumvit Hilton Bangkok, Thailand\", \"Canopy Hilton Bangkok Sukhumvit Canopy Hotels Hotel\", \"Canopy Hilton Bangkok Sukhumvit Canopy Hotels Resort\", \"Canopy Hilton Bangkok Sukhumvit Canopy Hotels\", \"Canopy Hilton Bangkok Sukhumvit Canopy Hotels Bangkok, Thailand Hotel\", \"Canopy Hilton Bangkok Sukhumvit Canopy Hotels Bangkok, Thailand Resort\", \"Canopy Hilton Bangkok Sukhumvit Canopy Hotels Bangkok, Thailand\", \"Canopy Hilton Bangkok Sukhumvit Hilton Hotel\", \"Canopy Hilton Bangkok Sukhumvit Hilton Resort\", \"Canopy Hilton Bangkok Sukhumvit Hilton\", \"Canopy Hilton Bangkok Sukhumvit Hilton Bangkok, Thailand Hotel\", \"Canopy Hilton Bangkok Sukhumvit Hilton Bangkok, Thailand Resort\", \"Canopy Hilton Bangkok Sukhumvit Hilton Bangkok, Thailand\", \"Canopy by Hilton Bangkok Sukhumvit Hotel\", \"Canopy by Hilton Bangkok Sukhumvit Resort\", \"Canopy by Hilton Bangkok Sukhumvit\", \"Canopy by Hilton Bangkok Sukhumvit Bangkok, Thailand Hotel\", \"Canopy by Hilton Bangkok Sukhumvit Bangkok, Thailand Resort\", \"Canopy by Hilton Bangkok Sukhumvit Bangkok, Thailand\"], \"v\": 3}": {
+    "lat": 13.7374388,
+    "lon": 100.5579072,
+    "formatted_address": "98, 98/1 Soi Sukhumvit 12, Khwaeng Khlong Toei, Khet Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJcRMow5Wf4jARKFmOyHcRFSo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "98, 98/1 Soi Sukhumvit 12, Khwaeng Khlong Toei, Khet Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand",
+      "geometry": {
+        "location": {
+          "lat": 13.7374388,
+          "lng": 100.5579072
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 13.7387854302915,
+            "lng": 100.5593047302915
+          },
+          "southwest": {
+            "lat": 13.7360874697085,
+            "lng": 100.5566067697085
+          }
+        }
+      },
+      "name": "Canopy by Hilton Bangkok Sukhumvit",
+      "place_id": "ChIJcRMow5Wf4jARKFmOyHcRFSo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/bkkthpy-canopy-bangkok-sukhumvit/?SEO_id=GMB-APAC-PY-BKKTHPY"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy By Hilton Cancun La Isla\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy By Hilton Cancun La Isla Canopy Hotels Hotel\", \"Canopy By Hilton Cancun La Isla Canopy Hotels Resort\", \"Canopy By Hilton Cancun La Isla Canopy Hotels\", \"Canopy By Hilton Cancun La Isla Canopy Hotels Canc\\u00fan, Quintana Roo MX Hotel\", \"Canopy By Hilton Cancun La Isla Canopy Hotels Canc\\u00fan, Quintana Roo MX Resort\", \"Canopy By Hilton Cancun La Isla Canopy Hotels Canc\\u00fan, Quintana Roo MX\", \"Canopy By Hilton Cancun La Isla Hilton Hotel\", \"Canopy By Hilton Cancun La Isla Hilton Resort\", \"Canopy By Hilton Cancun La Isla Hilton\", \"Canopy By Hilton Cancun La Isla Hilton Canc\\u00fan, Quintana Roo MX Hotel\", \"Canopy By Hilton Cancun La Isla Hilton Canc\\u00fan, Quintana Roo MX Resort\", \"Canopy By Hilton Cancun La Isla Hilton Canc\\u00fan, Quintana Roo MX\", \"Canopy Hilton Cancun La Isla Canopy Hotels Hotel\", \"Canopy Hilton Cancun La Isla Canopy Hotels Resort\", \"Canopy Hilton Cancun La Isla Canopy Hotels\", \"Canopy Hilton Cancun La Isla Canopy Hotels Canc\\u00fan, Quintana Roo MX Hotel\", \"Canopy Hilton Cancun La Isla Canopy Hotels Canc\\u00fan, Quintana Roo MX Resort\", \"Canopy Hilton Cancun La Isla Canopy Hotels Canc\\u00fan, Quintana Roo MX\", \"Canopy Hilton Cancun La Isla Hilton Hotel\", \"Canopy Hilton Cancun La Isla Hilton Resort\", \"Canopy Hilton Cancun La Isla Hilton\", \"Canopy Hilton Cancun La Isla Hilton Canc\\u00fan, Quintana Roo MX Hotel\", \"Canopy Hilton Cancun La Isla Hilton Canc\\u00fan, Quintana Roo MX Resort\", \"Canopy Hilton Cancun La Isla Hilton Canc\\u00fan, Quintana Roo MX\", \"Canopy By Hilton Cancun La Isla Hotel\", \"Canopy By Hilton Cancun La Isla Resort\", \"Canopy By Hilton Cancun La Isla\", \"Canopy By Hilton Cancun La Isla Canc\\u00fan, Quintana Roo MX Hotel\", \"Canopy By Hilton Cancun La Isla Canc\\u00fan, Quintana Roo MX Resort\", \"Canopy By Hilton Cancun La Isla Canc\\u00fan, Quintana Roo MX\"], \"v\": 3}": {
+    "lat": 21.1123249,
+    "lon": -86.7624316,
+    "formatted_address": "Blvd. Kukulcan S N-Km. 12.5, La Isla, Zona Hotelera, 77500 Cancún, Q.R., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ8aWPWg4pTI8Rmd5RgDo8rj4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Blvd. Kukulcan S N-Km. 12.5, La Isla, Zona Hotelera, 77500 Cancún, Q.R., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 21.1123249,
+          "lng": -86.7624316
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 21.1135669802915,
+            "lng": -86.7608376697085
+          },
+          "southwest": {
+            "lat": 21.1108690197085,
+            "lng": -86.7635356302915
+          }
+        }
+      },
+      "name": "Canopy by Hilton Cancun La Isla",
+      "place_id": "ChIJ8aWPWg4pTI8Rmd5RgDo8rj4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/cunlipy-canopy-cancun-la-isla/?SEO_id=GMB-AMER-PY-CUNLIPY&y_source=1_MTUxMDk1ODMtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Cannes\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Cannes Canopy Hotels Hotel\", \"Canopy by Hilton Cannes Canopy Hotels Resort\", \"Canopy by Hilton Cannes Canopy Hotels\", \"Canopy by Hilton Cannes Canopy Hotels Cannes, France Hotel\", \"Canopy by Hilton Cannes Canopy Hotels Cannes, France Resort\", \"Canopy by Hilton Cannes Canopy Hotels Cannes, France\", \"Canopy by Hilton Cannes Hilton Hotel\", \"Canopy by Hilton Cannes Hilton Resort\", \"Canopy by Hilton Cannes Hilton\", \"Canopy by Hilton Cannes Hilton Cannes, France Hotel\", \"Canopy by Hilton Cannes Hilton Cannes, France Resort\", \"Canopy by Hilton Cannes Hilton Cannes, France\", \"Canopy Hilton Cannes Canopy Hotels Hotel\", \"Canopy Hilton Cannes Canopy Hotels Resort\", \"Canopy Hilton Cannes Canopy Hotels\", \"Canopy Hilton Cannes Canopy Hotels Cannes, France Hotel\", \"Canopy Hilton Cannes Canopy Hotels Cannes, France Resort\", \"Canopy Hilton Cannes Canopy Hotels Cannes, France\", \"Canopy Hilton Cannes Hilton Hotel\", \"Canopy Hilton Cannes Hilton Resort\", \"Canopy Hilton Cannes Hilton\", \"Canopy Hilton Cannes Hilton Cannes, France Hotel\", \"Canopy Hilton Cannes Hilton Cannes, France Resort\", \"Canopy Hilton Cannes Hilton Cannes, France\", \"Canopy by Hilton Cannes Hotel\", \"Canopy by Hilton Cannes Resort\", \"Canopy by Hilton Cannes\", \"Canopy by Hilton Cannes Cannes, France Hotel\", \"Canopy by Hilton Cannes Cannes, France Resort\", \"Canopy by Hilton Cannes Cannes, France\"], \"v\": 3}": {
+    "lat": 43.5484162,
+    "lon": 7.0119414,
+    "formatted_address": "2 Bd Jean Hibert, 06400 Cannes, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ4dn_ZKGBzhIRgUyS4Z00dEE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2 Bd Jean Hibert, 06400 Cannes, France",
+      "geometry": {
+        "location": {
+          "lat": 43.5484162,
+          "lng": 7.0119414
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.5496923802915,
+            "lng": 7.013208630291501
+          },
+          "southwest": {
+            "lat": 43.5469944197085,
+            "lng": 7.010510669708497
+          }
+        }
+      },
+      "name": "Canopy by Hilton Cannes",
+      "place_id": "ChIJ4dn_ZKGBzhIRgUyS4Z00dEE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/ceqcfpy-canopy-cannes/?SEO_id=GMB-EMEA-PY-CEQCFPY"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Cape Town Longkloof\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Cape Town Longkloof Canopy Hotels Hotel\", \"Canopy by Hilton Cape Town Longkloof Canopy Hotels Resort\", \"Canopy by Hilton Cape Town Longkloof Canopy Hotels\", \"Canopy by Hilton Cape Town Longkloof Canopy Hotels Cape Town, South Africa Hotel\", \"Canopy by Hilton Cape Town Longkloof Canopy Hotels Cape Town, South Africa Resort\", \"Canopy by Hilton Cape Town Longkloof Canopy Hotels Cape Town, South Africa\", \"Canopy by Hilton Cape Town Longkloof Hilton Hotel\", \"Canopy by Hilton Cape Town Longkloof Hilton Resort\", \"Canopy by Hilton Cape Town Longkloof Hilton\", \"Canopy by Hilton Cape Town Longkloof Hilton Cape Town, South Africa Hotel\", \"Canopy by Hilton Cape Town Longkloof Hilton Cape Town, South Africa Resort\", \"Canopy by Hilton Cape Town Longkloof Hilton Cape Town, South Africa\", \"Canopy Hilton Cape Town Longkloof Canopy Hotels Hotel\", \"Canopy Hilton Cape Town Longkloof Canopy Hotels Resort\", \"Canopy Hilton Cape Town Longkloof Canopy Hotels\", \"Canopy Hilton Cape Town Longkloof Canopy Hotels Cape Town, South Africa Hotel\", \"Canopy Hilton Cape Town Longkloof Canopy Hotels Cape Town, South Africa Resort\", \"Canopy Hilton Cape Town Longkloof Canopy Hotels Cape Town, South Africa\", \"Canopy Hilton Cape Town Longkloof Hilton Hotel\", \"Canopy Hilton Cape Town Longkloof Hilton Resort\", \"Canopy Hilton Cape Town Longkloof Hilton\", \"Canopy Hilton Cape Town Longkloof Hilton Cape Town, South Africa Hotel\", \"Canopy Hilton Cape Town Longkloof Hilton Cape Town, South Africa Resort\", \"Canopy Hilton Cape Town Longkloof Hilton Cape Town, South Africa\", \"Canopy by Hilton Cape Town Longkloof Hotel\", \"Canopy by Hilton Cape Town Longkloof Resort\", \"Canopy by Hilton Cape Town Longkloof\", \"Canopy by Hilton Cape Town Longkloof Cape Town, South Africa Hotel\", \"Canopy by Hilton Cape Town Longkloof Cape Town, South Africa Resort\", \"Canopy by Hilton Cape Town Longkloof Cape Town, South Africa\"], \"v\": 3}": {
+    "lat": -33.9284225,
+    "lon": 18.4107376,
+    "formatted_address": "Park Rd, Gardens, Cape Town, 8000, South Africa",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJL0i0_HFnzB0Rul39dmhtkYU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Park Rd, Gardens, Cape Town, 8000, South Africa",
+      "geometry": {
+        "location": {
+          "lat": -33.9284225,
+          "lng": 18.4107376
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -33.9271308197085,
+            "lng": 18.4120185302915
+          },
+          "southwest": {
+            "lat": -33.9298287802915,
+            "lng": 18.4093205697085
+          }
+        }
+      },
+      "name": "Canopy by Hilton Cape Town Longkloof",
+      "place_id": "ChIJL0i0_HFnzB0Rul39dmhtkYU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/cptlopy-canopy-cape-town-longkloof/?SEO_id=GMB-EMEA-PY-CPTLOPY"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Chicago Central Loop\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Chicago Central Loop Canopy Hotels Hotel\", \"Canopy by Hilton Chicago Central Loop Canopy Hotels Resort\", \"Canopy by Hilton Chicago Central Loop Canopy Hotels\", \"Canopy by Hilton Chicago Central Loop Canopy Hotels Chicago, Illinois US Hotel\", \"Canopy by Hilton Chicago Central Loop Canopy Hotels Chicago, Illinois US Resort\", \"Canopy by Hilton Chicago Central Loop Canopy Hotels Chicago, Illinois US\", \"Canopy by Hilton Chicago Central Loop Hilton Hotel\", \"Canopy by Hilton Chicago Central Loop Hilton Resort\", \"Canopy by Hilton Chicago Central Loop Hilton\", \"Canopy by Hilton Chicago Central Loop Hilton Chicago, Illinois US Hotel\", \"Canopy by Hilton Chicago Central Loop Hilton Chicago, Illinois US Resort\", \"Canopy by Hilton Chicago Central Loop Hilton Chicago, Illinois US\", \"Canopy Hilton Chicago Central Loop Canopy Hotels Hotel\", \"Canopy Hilton Chicago Central Loop Canopy Hotels Resort\", \"Canopy Hilton Chicago Central Loop Canopy Hotels\", \"Canopy Hilton Chicago Central Loop Canopy Hotels Chicago, Illinois US Hotel\", \"Canopy Hilton Chicago Central Loop Canopy Hotels Chicago, Illinois US Resort\", \"Canopy Hilton Chicago Central Loop Canopy Hotels Chicago, Illinois US\", \"Canopy Hilton Chicago Central Loop Hilton Hotel\", \"Canopy Hilton Chicago Central Loop Hilton Resort\", \"Canopy Hilton Chicago Central Loop Hilton\", \"Canopy Hilton Chicago Central Loop Hilton Chicago, Illinois US Hotel\", \"Canopy Hilton Chicago Central Loop Hilton Chicago, Illinois US Resort\", \"Canopy Hilton Chicago Central Loop Hilton Chicago, Illinois US\", \"Canopy by Hilton Chicago Central Loop Hotel\", \"Canopy by Hilton Chicago Central Loop Resort\", \"Canopy by Hilton Chicago Central Loop\", \"Canopy by Hilton Chicago Central Loop Chicago, Illinois US Hotel\", \"Canopy by Hilton Chicago Central Loop Chicago, Illinois US Resort\", \"Canopy by Hilton Chicago Central Loop Chicago, Illinois US\"], \"v\": 3}": {
+    "lat": 41.8782262,
+    "lon": -87.6348831,
+    "formatted_address": "226 W Jackson Blvd, Chicago, IL 60606, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJIaiDreYtDogRyw-0LbRJUTo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "226 W Jackson Blvd, Chicago, IL 60606, USA",
+      "geometry": {
+        "location": {
+          "lat": 41.8782262,
+          "lng": -87.6348831
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.8795158302915,
+            "lng": -87.63350301970848
+          },
+          "southwest": {
+            "lat": 41.8768178697085,
+            "lng": -87.6362009802915
+          }
+        }
+      },
+      "name": "Canopy by Hilton Chicago Central Loop",
+      "place_id": "ChIJIaiDreYtDogRyw-0LbRJUTo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/chijbpy-canopy-chicago-central-loop/?SEO_id=GMB-AMER-PY-CHIJBPY&y_source=1_Mjc2Mjg4MjYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Dallas Uptown\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Dallas Uptown Canopy Hotels Hotel\", \"Canopy by Hilton Dallas Uptown Canopy Hotels Resort\", \"Canopy by Hilton Dallas Uptown Canopy Hotels\", \"Canopy by Hilton Dallas Uptown Canopy Hotels Dallas, Texas US Hotel\", \"Canopy by Hilton Dallas Uptown Canopy Hotels Dallas, Texas US Resort\", \"Canopy by Hilton Dallas Uptown Canopy Hotels Dallas, Texas US\", \"Canopy by Hilton Dallas Uptown Hilton Hotel\", \"Canopy by Hilton Dallas Uptown Hilton Resort\", \"Canopy by Hilton Dallas Uptown Hilton\", \"Canopy by Hilton Dallas Uptown Hilton Dallas, Texas US Hotel\", \"Canopy by Hilton Dallas Uptown Hilton Dallas, Texas US Resort\", \"Canopy by Hilton Dallas Uptown Hilton Dallas, Texas US\", \"Canopy Hilton Dallas Uptown Canopy Hotels Hotel\", \"Canopy Hilton Dallas Uptown Canopy Hotels Resort\", \"Canopy Hilton Dallas Uptown Canopy Hotels\", \"Canopy Hilton Dallas Uptown Canopy Hotels Dallas, Texas US Hotel\", \"Canopy Hilton Dallas Uptown Canopy Hotels Dallas, Texas US Resort\", \"Canopy Hilton Dallas Uptown Canopy Hotels Dallas, Texas US\", \"Canopy Hilton Dallas Uptown Hilton Hotel\", \"Canopy Hilton Dallas Uptown Hilton Resort\", \"Canopy Hilton Dallas Uptown Hilton\", \"Canopy Hilton Dallas Uptown Hilton Dallas, Texas US Hotel\", \"Canopy Hilton Dallas Uptown Hilton Dallas, Texas US Resort\", \"Canopy Hilton Dallas Uptown Hilton Dallas, Texas US\", \"Canopy by Hilton Dallas Uptown Hotel\", \"Canopy by Hilton Dallas Uptown Resort\", \"Canopy by Hilton Dallas Uptown\", \"Canopy by Hilton Dallas Uptown Dallas, Texas US Hotel\", \"Canopy by Hilton Dallas Uptown Dallas, Texas US Resort\", \"Canopy by Hilton Dallas Uptown Dallas, Texas US\"], \"v\": 3}": {
+    "lat": 32.8068795,
+    "lon": -96.7952538,
+    "formatted_address": "2950 Cityplace W Blvd, Dallas, TX 75204, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJlSDF-tSeToYRvFcS7b9LQQw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2950 Cityplace W Blvd, Dallas, TX 75204, USA",
+      "geometry": {
+        "location": {
+          "lat": 32.8068795,
+          "lng": -96.7952538
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.80813063029151,
+            "lng": -96.7939497197085
+          },
+          "southwest": {
+            "lat": 32.80543266970851,
+            "lng": -96.79664768029151
+          }
+        }
+      },
+      "name": "Canopy by Hilton Dallas Uptown",
+      "place_id": "ChIJlSDF-tSeToYRvFcS7b9LQQw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/dfwrmpy-canopy-dallas-uptown/?SEO_id=GMB-AMER-PY-DFWRMPY&y_source=1_OTU4Njg4NC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Dubai Al Seef\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Dubai Al Seef Canopy Hotels Hotel\", \"Canopy by Hilton Dubai Al Seef Canopy Hotels Resort\", \"Canopy by Hilton Dubai Al Seef Canopy Hotels\", \"Canopy by Hilton Dubai Al Seef Canopy Hotels Dubai, United Arab Emirates Hotel\", \"Canopy by Hilton Dubai Al Seef Canopy Hotels Dubai, United Arab Emirates Resort\", \"Canopy by Hilton Dubai Al Seef Canopy Hotels Dubai, United Arab Emirates\", \"Canopy by Hilton Dubai Al Seef Hilton Hotel\", \"Canopy by Hilton Dubai Al Seef Hilton Resort\", \"Canopy by Hilton Dubai Al Seef Hilton\", \"Canopy by Hilton Dubai Al Seef Hilton Dubai, United Arab Emirates Hotel\", \"Canopy by Hilton Dubai Al Seef Hilton Dubai, United Arab Emirates Resort\", \"Canopy by Hilton Dubai Al Seef Hilton Dubai, United Arab Emirates\", \"Canopy Hilton Dubai Al Seef Canopy Hotels Hotel\", \"Canopy Hilton Dubai Al Seef Canopy Hotels Resort\", \"Canopy Hilton Dubai Al Seef Canopy Hotels\", \"Canopy Hilton Dubai Al Seef Canopy Hotels Dubai, United Arab Emirates Hotel\", \"Canopy Hilton Dubai Al Seef Canopy Hotels Dubai, United Arab Emirates Resort\", \"Canopy Hilton Dubai Al Seef Canopy Hotels Dubai, United Arab Emirates\", \"Canopy Hilton Dubai Al Seef Hilton Hotel\", \"Canopy Hilton Dubai Al Seef Hilton Resort\", \"Canopy Hilton Dubai Al Seef Hilton\", \"Canopy Hilton Dubai Al Seef Hilton Dubai, United Arab Emirates Hotel\", \"Canopy Hilton Dubai Al Seef Hilton Dubai, United Arab Emirates Resort\", \"Canopy Hilton Dubai Al Seef Hilton Dubai, United Arab Emirates\", \"Canopy by Hilton Dubai Al Seef Hotel\", \"Canopy by Hilton Dubai Al Seef Resort\", \"Canopy by Hilton Dubai Al Seef\", \"Canopy by Hilton Dubai Al Seef Dubai, United Arab Emirates Hotel\", \"Canopy by Hilton Dubai Al Seef Dubai, United Arab Emirates Resort\", \"Canopy by Hilton Dubai Al Seef Dubai, United Arab Emirates\"], \"v\": 3}": {
+    "lat": 25.2560297,
+    "lon": 55.31186599999999,
+    "formatted_address": "Al Seef St - Umm Hurair First - Umm Hurair 1 - Dubai - United Arab Emirates",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJmeqSri1DXz4RD9aQhZtvETI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Al Seef St - Umm Hurair First - Umm Hurair 1 - Dubai - United Arab Emirates",
+      "geometry": {
+        "location": {
+          "lat": 25.2560297,
+          "lng": 55.31186599999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.2573926302915,
+            "lng": 55.31313153029149
+          },
+          "southwest": {
+            "lat": 25.2546946697085,
+            "lng": 55.31043356970849
+          }
+        }
+      },
+      "name": "Canopy by Hilton Dubai Al Seef",
+      "place_id": "ChIJmeqSri1DXz4RD9aQhZtvETI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/dxbsepy-canopy-dubai-al-seef/?SEO_id=GMB-EMEA-PY-DXBSEPY"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Grand Rapids Downtown\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Grand Rapids Downtown Canopy Hotels Hotel\", \"Canopy by Hilton Grand Rapids Downtown Canopy Hotels Resort\", \"Canopy by Hilton Grand Rapids Downtown Canopy Hotels\", \"Canopy by Hilton Grand Rapids Downtown Canopy Hotels Grand Rapids, Michigan US Hotel\", \"Canopy by Hilton Grand Rapids Downtown Canopy Hotels Grand Rapids, Michigan US Resort\", \"Canopy by Hilton Grand Rapids Downtown Canopy Hotels Grand Rapids, Michigan US\", \"Canopy by Hilton Grand Rapids Downtown Hilton Hotel\", \"Canopy by Hilton Grand Rapids Downtown Hilton Resort\", \"Canopy by Hilton Grand Rapids Downtown Hilton\", \"Canopy by Hilton Grand Rapids Downtown Hilton Grand Rapids, Michigan US Hotel\", \"Canopy by Hilton Grand Rapids Downtown Hilton Grand Rapids, Michigan US Resort\", \"Canopy by Hilton Grand Rapids Downtown Hilton Grand Rapids, Michigan US\", \"Canopy Hilton Grand Rapids Downtown Canopy Hotels Hotel\", \"Canopy Hilton Grand Rapids Downtown Canopy Hotels Resort\", \"Canopy Hilton Grand Rapids Downtown Canopy Hotels\", \"Canopy Hilton Grand Rapids Downtown Canopy Hotels Grand Rapids, Michigan US Hotel\", \"Canopy Hilton Grand Rapids Downtown Canopy Hotels Grand Rapids, Michigan US Resort\", \"Canopy Hilton Grand Rapids Downtown Canopy Hotels Grand Rapids, Michigan US\", \"Canopy Hilton Grand Rapids Downtown Hilton Hotel\", \"Canopy Hilton Grand Rapids Downtown Hilton Resort\", \"Canopy Hilton Grand Rapids Downtown Hilton\", \"Canopy Hilton Grand Rapids Downtown Hilton Grand Rapids, Michigan US Hotel\", \"Canopy Hilton Grand Rapids Downtown Hilton Grand Rapids, Michigan US Resort\", \"Canopy Hilton Grand Rapids Downtown Hilton Grand Rapids, Michigan US\", \"Canopy by Hilton Grand Rapids Downtown Hotel\", \"Canopy by Hilton Grand Rapids Downtown Resort\", \"Canopy by Hilton Grand Rapids Downtown\", \"Canopy by Hilton Grand Rapids Downtown Grand Rapids, Michigan US Hotel\", \"Canopy by Hilton Grand Rapids Downtown Grand Rapids, Michigan US Resort\", \"Canopy by Hilton Grand Rapids Downtown Grand Rapids, Michigan US\"], \"v\": 3}": {
+    "lat": 42.9603429,
+    "lon": -85.6704633,
+    "formatted_address": "131 Ionia Ave SW, Grand Rapids, MI 49503, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJjx8pvsOtGYgRMr97Qx0R8Gc",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "131 Ionia Ave SW, Grand Rapids, MI 49503, USA",
+      "geometry": {
+        "location": {
+          "lat": 42.9603429,
+          "lng": -85.6704633
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.9616939802915,
+            "lng": -85.6689820197085
+          },
+          "southwest": {
+            "lat": 42.9589960197085,
+            "lng": -85.6716799802915
+          }
+        }
+      },
+      "name": "Portico",
+      "place_id": "ChIJjx8pvsOtGYgRMr97Qx0R8Gc",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.canopygrandrapidsrestaurants.com/portico/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Istanbul Taksim\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Istanbul Taksim Canopy Hotels Hotel\", \"Canopy by Hilton Istanbul Taksim Canopy Hotels Resort\", \"Canopy by Hilton Istanbul Taksim Canopy Hotels\", \"Canopy by Hilton Istanbul Taksim Canopy Hotels Istanbul, Turkey Hotel\", \"Canopy by Hilton Istanbul Taksim Canopy Hotels Istanbul, Turkey Resort\", \"Canopy by Hilton Istanbul Taksim Canopy Hotels Istanbul, Turkey\", \"Canopy by Hilton Istanbul Taksim Hilton Hotel\", \"Canopy by Hilton Istanbul Taksim Hilton Resort\", \"Canopy by Hilton Istanbul Taksim Hilton\", \"Canopy by Hilton Istanbul Taksim Hilton Istanbul, Turkey Hotel\", \"Canopy by Hilton Istanbul Taksim Hilton Istanbul, Turkey Resort\", \"Canopy by Hilton Istanbul Taksim Hilton Istanbul, Turkey\", \"Canopy Hilton Istanbul Taksim Canopy Hotels Hotel\", \"Canopy Hilton Istanbul Taksim Canopy Hotels Resort\", \"Canopy Hilton Istanbul Taksim Canopy Hotels\", \"Canopy Hilton Istanbul Taksim Canopy Hotels Istanbul, Turkey Hotel\", \"Canopy Hilton Istanbul Taksim Canopy Hotels Istanbul, Turkey Resort\", \"Canopy Hilton Istanbul Taksim Canopy Hotels Istanbul, Turkey\", \"Canopy Hilton Istanbul Taksim Hilton Hotel\", \"Canopy Hilton Istanbul Taksim Hilton Resort\", \"Canopy Hilton Istanbul Taksim Hilton\", \"Canopy Hilton Istanbul Taksim Hilton Istanbul, Turkey Hotel\", \"Canopy Hilton Istanbul Taksim Hilton Istanbul, Turkey Resort\", \"Canopy Hilton Istanbul Taksim Hilton Istanbul, Turkey\", \"Canopy by Hilton Istanbul Taksim Hotel\", \"Canopy by Hilton Istanbul Taksim Resort\", \"Canopy by Hilton Istanbul Taksim\", \"Canopy by Hilton Istanbul Taksim Istanbul, Turkey Hotel\", \"Canopy by Hilton Istanbul Taksim Istanbul, Turkey Resort\", \"Canopy by Hilton Istanbul Taksim Istanbul, Turkey\"], \"v\": 3}": {
+    "lat": 41.0366048,
+    "lon": 28.9799747,
+    "formatted_address": "Şehit Muhtar, Tarlabaşı Blv No: 122 D:140, 34435 Beyoğlu/İstanbul, Türkiye",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJW0V5C7a3yhQRqh1Zfb4hW3E",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Şehit Muhtar, Tarlabaşı Blv No: 122 D:140, 34435 Beyoğlu/İstanbul, Türkiye",
+      "geometry": {
+        "location": {
+          "lat": 41.0366048,
+          "lng": 28.9799747
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.03790403029149,
+            "lng": 28.9813365302915
+          },
+          "southwest": {
+            "lat": 41.03520606970849,
+            "lng": 28.9786385697085
+          }
+        }
+      },
+      "name": "Canopy by Hilton Istanbul Taksim",
+      "place_id": "ChIJW0V5C7a3yhQRqh1Zfb4hW3E",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/isttkpy-canopy-istanbul-taksim/?SEO_id=GMB-EMEA-PY-ISTTKPY"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Izmir Bomonti\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Izmir Bomonti Canopy Hotels Hotel\", \"Canopy by Hilton Izmir Bomonti Canopy Hotels Resort\", \"Canopy by Hilton Izmir Bomonti Canopy Hotels\", \"Canopy by Hilton Izmir Bomonti Canopy Hotels \\u0130zmir, Turkey Hotel\", \"Canopy by Hilton Izmir Bomonti Canopy Hotels \\u0130zmir, Turkey Resort\", \"Canopy by Hilton Izmir Bomonti Canopy Hotels \\u0130zmir, Turkey\", \"Canopy by Hilton Izmir Bomonti Hilton Hotel\", \"Canopy by Hilton Izmir Bomonti Hilton Resort\", \"Canopy by Hilton Izmir Bomonti Hilton\", \"Canopy by Hilton Izmir Bomonti Hilton \\u0130zmir, Turkey Hotel\", \"Canopy by Hilton Izmir Bomonti Hilton \\u0130zmir, Turkey Resort\", \"Canopy by Hilton Izmir Bomonti Hilton \\u0130zmir, Turkey\", \"Canopy Hilton Izmir Bomonti Canopy Hotels Hotel\", \"Canopy Hilton Izmir Bomonti Canopy Hotels Resort\", \"Canopy Hilton Izmir Bomonti Canopy Hotels\", \"Canopy Hilton Izmir Bomonti Canopy Hotels \\u0130zmir, Turkey Hotel\", \"Canopy Hilton Izmir Bomonti Canopy Hotels \\u0130zmir, Turkey Resort\", \"Canopy Hilton Izmir Bomonti Canopy Hotels \\u0130zmir, Turkey\", \"Canopy Hilton Izmir Bomonti Hilton Hotel\", \"Canopy Hilton Izmir Bomonti Hilton Resort\", \"Canopy Hilton Izmir Bomonti Hilton\", \"Canopy Hilton Izmir Bomonti Hilton \\u0130zmir, Turkey Hotel\", \"Canopy Hilton Izmir Bomonti Hilton \\u0130zmir, Turkey Resort\", \"Canopy Hilton Izmir Bomonti Hilton \\u0130zmir, Turkey\", \"Canopy by Hilton Izmir Bomonti Hotel\", \"Canopy by Hilton Izmir Bomonti Resort\", \"Canopy by Hilton Izmir Bomonti\", \"Canopy by Hilton Izmir Bomonti \\u0130zmir, Turkey Hotel\", \"Canopy by Hilton Izmir Bomonti \\u0130zmir, Turkey Resort\", \"Canopy by Hilton Izmir Bomonti \\u0130zmir, Turkey\"], \"v\": 3}": {
+    "lat": 38.4346246,
+    "lon": 27.1638896,
+    "formatted_address": "Halkapınar, Mürselpaşa Bulvarı No:172, 35170 Konak/İzmir, Türkiye",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ4VaES2HZuxQRykdJdWsLZ9s",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Halkapınar, Mürselpaşa Bulvarı No:172, 35170 Konak/İzmir, Türkiye",
+      "geometry": {
+        "location": {
+          "lat": 38.4346246,
+          "lng": 27.1638896
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 38.43611713029149,
+            "lng": 27.1654711302915
+          },
+          "southwest": {
+            "lat": 38.4334191697085,
+            "lng": 27.1627731697085
+          }
+        }
+      },
+      "name": "Canopy by Hilton Izmir Bomonti",
+      "place_id": "ChIJ4VaES2HZuxQRykdJdWsLZ9s",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/izmirpy-canopy-izmir-bomonti/?SEO_id=GMB-EMEA-PY-IZMIRPY"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton London City\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton London City Canopy Hotels Hotel\", \"Canopy by Hilton London City Canopy Hotels Resort\", \"Canopy by Hilton London City Canopy Hotels\", \"Canopy by Hilton London City Canopy Hotels London, England Hotel\", \"Canopy by Hilton London City Canopy Hotels London, England Resort\", \"Canopy by Hilton London City Canopy Hotels London, England\", \"Canopy by Hilton London City Hilton Hotel\", \"Canopy by Hilton London City Hilton Resort\", \"Canopy by Hilton London City Hilton\", \"Canopy by Hilton London City Hilton London, England Hotel\", \"Canopy by Hilton London City Hilton London, England Resort\", \"Canopy by Hilton London City Hilton London, England\", \"Canopy Hilton London City Canopy Hotels Hotel\", \"Canopy Hilton London City Canopy Hotels Resort\", \"Canopy Hilton London City Canopy Hotels\", \"Canopy Hilton London City Canopy Hotels London, England Hotel\", \"Canopy Hilton London City Canopy Hotels London, England Resort\", \"Canopy Hilton London City Canopy Hotels London, England\", \"Canopy Hilton London City Hilton Hotel\", \"Canopy Hilton London City Hilton Resort\", \"Canopy Hilton London City Hilton\", \"Canopy Hilton London City Hilton London, England Hotel\", \"Canopy Hilton London City Hilton London, England Resort\", \"Canopy Hilton London City Hilton London, England\", \"Canopy by Hilton London City Hotel\", \"Canopy by Hilton London City Resort\", \"Canopy by Hilton London City\", \"Canopy by Hilton London City London, England Hotel\", \"Canopy by Hilton London City London, England Resort\", \"Canopy by Hilton London City London, England\"], \"v\": 3}": {
+    "lat": 51.5129207,
+    "lon": -0.0752737,
+    "formatted_address": "11-15 Minories, London EC3N 1AX, UK",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJL8TBACMDdkgRM2WT_mKfLx0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "11-15 Minories, London EC3N 1AX, UK",
+      "geometry": {
+        "location": {
+          "lat": 51.5129207,
+          "lng": -0.0752737
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 51.51432563029149,
+            "lng": -0.07413436970849796
+          },
+          "southwest": {
+            "lat": 51.5116276697085,
+            "lng": -0.07683233029150204
+          }
+        }
+      },
+      "name": "Canopy by Hilton London City",
+      "place_id": "ChIJL8TBACMDdkgRM2WT_mKfLx0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/lonpypy-canopy-london-city/?SEO_id=GMB-EMEA-PY-LONPYPY"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Seychelles Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Seychelles Resort Canopy Hotels Hotel\", \"Canopy by Hilton Seychelles Resort Canopy Hotels Resort\", \"Canopy by Hilton Seychelles Resort Canopy Hotels\", \"Canopy by Hilton Seychelles Resort Canopy Hotels Mah\\u00e9 Island, Seychelles Hotel\", \"Canopy by Hilton Seychelles Resort Canopy Hotels Mah\\u00e9 Island, Seychelles Resort\", \"Canopy by Hilton Seychelles Resort Canopy Hotels Mah\\u00e9 Island, Seychelles\", \"Canopy by Hilton Seychelles Resort Hilton Hotel\", \"Canopy by Hilton Seychelles Resort Hilton Resort\", \"Canopy by Hilton Seychelles Resort Hilton\", \"Canopy by Hilton Seychelles Resort Hilton Mah\\u00e9 Island, Seychelles Hotel\", \"Canopy by Hilton Seychelles Resort Hilton Mah\\u00e9 Island, Seychelles Resort\", \"Canopy by Hilton Seychelles Resort Hilton Mah\\u00e9 Island, Seychelles\", \"Canopy Hilton Seychelles Resort Canopy Hotels Hotel\", \"Canopy Hilton Seychelles Resort Canopy Hotels Resort\", \"Canopy Hilton Seychelles Resort Canopy Hotels\", \"Canopy Hilton Seychelles Resort Canopy Hotels Mah\\u00e9 Island, Seychelles Hotel\", \"Canopy Hilton Seychelles Resort Canopy Hotels Mah\\u00e9 Island, Seychelles Resort\", \"Canopy Hilton Seychelles Resort Canopy Hotels Mah\\u00e9 Island, Seychelles\", \"Canopy Hilton Seychelles Resort Hilton Hotel\", \"Canopy Hilton Seychelles Resort Hilton Resort\", \"Canopy Hilton Seychelles Resort Hilton\", \"Canopy Hilton Seychelles Resort Hilton Mah\\u00e9 Island, Seychelles Hotel\", \"Canopy Hilton Seychelles Resort Hilton Mah\\u00e9 Island, Seychelles Resort\", \"Canopy Hilton Seychelles Resort Hilton Mah\\u00e9 Island, Seychelles\", \"Canopy by Hilton Seychelles Resort Hotel\", \"Canopy by Hilton Seychelles Resort Resort\", \"Canopy by Hilton Seychelles Resort\", \"Canopy by Hilton Seychelles Resort Mah\\u00e9 Island, Seychelles Hotel\", \"Canopy by Hilton Seychelles Resort Mah\\u00e9 Island, Seychelles Resort\", \"Canopy by Hilton Seychelles Resort Mah\\u00e9 Island, Seychelles\"], \"v\": 3}": {
+    "lat": -4.7326742,
+    "lon": 55.4919804,
+    "formatted_address": "Anse La Mouche, Mahé, Seychelles",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJfUjs4VfV4SIRy4F8PaFeIL4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Anse La Mouche, Mahé, Seychelles",
+      "geometry": {
+        "location": {
+          "lat": -4.7326742,
+          "lng": 55.4919804
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -4.731316569708498,
+            "lng": 55.4933474802915
+          },
+          "southwest": {
+            "lat": -4.734014530291502,
+            "lng": 55.49064951970851
+          }
+        }
+      },
+      "name": "Canopy by Hilton Seychelles Resort",
+      "place_id": "ChIJfUjs4VfV4SIRy4F8PaFeIL4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/sezmapy-canopy-seychelles-resort/?SEO_id=GMB-EMEA-PY-SEZMAPY"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Minneapolis - Mill District\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Minneapolis - Mill District Canopy Hotels Hotel\", \"Canopy by Hilton Minneapolis - Mill District Canopy Hotels Resort\", \"Canopy by Hilton Minneapolis - Mill District Canopy Hotels\", \"Canopy by Hilton Minneapolis - Mill District Canopy Hotels Minneapolis, Minnesota US Hotel\", \"Canopy by Hilton Minneapolis - Mill District Canopy Hotels Minneapolis, Minnesota US Resort\", \"Canopy by Hilton Minneapolis - Mill District Canopy Hotels Minneapolis, Minnesota US\", \"Canopy by Hilton Minneapolis - Mill District Hilton Hotel\", \"Canopy by Hilton Minneapolis - Mill District Hilton Resort\", \"Canopy by Hilton Minneapolis - Mill District Hilton\", \"Canopy by Hilton Minneapolis - Mill District Hilton Minneapolis, Minnesota US Hotel\", \"Canopy by Hilton Minneapolis - Mill District Hilton Minneapolis, Minnesota US Resort\", \"Canopy by Hilton Minneapolis - Mill District Hilton Minneapolis, Minnesota US\", \"Canopy Hilton Minneapolis Mill District Canopy Hotels Hotel\", \"Canopy Hilton Minneapolis Mill District Canopy Hotels Resort\", \"Canopy Hilton Minneapolis Mill District Canopy Hotels\", \"Canopy Hilton Minneapolis Mill District Canopy Hotels Minneapolis, Minnesota US Hotel\", \"Canopy Hilton Minneapolis Mill District Canopy Hotels Minneapolis, Minnesota US Resort\", \"Canopy Hilton Minneapolis Mill District Canopy Hotels Minneapolis, Minnesota US\", \"Canopy Hilton Minneapolis Mill District Hilton Hotel\", \"Canopy Hilton Minneapolis Mill District Hilton Resort\", \"Canopy Hilton Minneapolis Mill District Hilton\", \"Canopy Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US Hotel\", \"Canopy Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US Resort\", \"Canopy Hilton Minneapolis Mill District Hilton Minneapolis, Minnesota US\", \"Canopy by Hilton Minneapolis - Mill District Hotel\", \"Canopy by Hilton Minneapolis - Mill District Resort\", \"Canopy by Hilton Minneapolis - Mill District\", \"Canopy by Hilton Minneapolis - Mill District Minneapolis, Minnesota US Hotel\", \"Canopy by Hilton Minneapolis - Mill District Minneapolis, Minnesota US Resort\", \"Canopy by Hilton Minneapolis - Mill District Minneapolis, Minnesota US\"], \"v\": 3}": {
+    "lat": 44.9768005,
+    "lon": -93.2588646,
+    "formatted_address": "708 S 3rd St, Minneapolis, MN 55415, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJq6pqh2Ets1IRQ2-AmWPPww4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "708 S 3rd St, Minneapolis, MN 55415, USA",
+      "geometry": {
+        "location": {
+          "lat": 44.9768005,
+          "lng": -93.2588646
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 44.9782762302915,
+            "lng": -93.25752796970848
+          },
+          "southwest": {
+            "lat": 44.9755782697085,
+            "lng": -93.2602259302915
+          }
+        }
+      },
+      "name": "Canopy by Hilton Minneapolis Mill District",
+      "place_id": "ChIJq6pqh2Ets1IRQ2-AmWPPww4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/mspmipy-canopy-minneapolis-mill-district/?SEO_id=GMB-AMER-PY-MSPMIPY&y_source=1_MTE5NTE2MDUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Nashville Downtown the Gulch\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Nashville Downtown the Gulch Canopy Hotels Hotel\", \"Canopy by Hilton Nashville Downtown the Gulch Canopy Hotels Resort\", \"Canopy by Hilton Nashville Downtown the Gulch Canopy Hotels\", \"Canopy by Hilton Nashville Downtown the Gulch Canopy Hotels Nashville, Tennessee US Hotel\", \"Canopy by Hilton Nashville Downtown the Gulch Canopy Hotels Nashville, Tennessee US Resort\", \"Canopy by Hilton Nashville Downtown the Gulch Canopy Hotels Nashville, Tennessee US\", \"Canopy by Hilton Nashville Downtown the Gulch Hilton Hotel\", \"Canopy by Hilton Nashville Downtown the Gulch Hilton Resort\", \"Canopy by Hilton Nashville Downtown the Gulch Hilton\", \"Canopy by Hilton Nashville Downtown the Gulch Hilton Nashville, Tennessee US Hotel\", \"Canopy by Hilton Nashville Downtown the Gulch Hilton Nashville, Tennessee US Resort\", \"Canopy by Hilton Nashville Downtown the Gulch Hilton Nashville, Tennessee US\", \"Canopy Hilton Nashville Downtown Gulch Canopy Hotels Hotel\", \"Canopy Hilton Nashville Downtown Gulch Canopy Hotels Resort\", \"Canopy Hilton Nashville Downtown Gulch Canopy Hotels\", \"Canopy Hilton Nashville Downtown Gulch Canopy Hotels Nashville, Tennessee US Hotel\", \"Canopy Hilton Nashville Downtown Gulch Canopy Hotels Nashville, Tennessee US Resort\", \"Canopy Hilton Nashville Downtown Gulch Canopy Hotels Nashville, Tennessee US\", \"Canopy Hilton Nashville Downtown Gulch Hilton Hotel\", \"Canopy Hilton Nashville Downtown Gulch Hilton Resort\", \"Canopy Hilton Nashville Downtown Gulch Hilton\", \"Canopy Hilton Nashville Downtown Gulch Hilton Nashville, Tennessee US Hotel\", \"Canopy Hilton Nashville Downtown Gulch Hilton Nashville, Tennessee US Resort\", \"Canopy Hilton Nashville Downtown Gulch Hilton Nashville, Tennessee US\", \"Canopy by Hilton Nashville Downtown the Gulch Hotel\", \"Canopy by Hilton Nashville Downtown the Gulch Resort\", \"Canopy by Hilton Nashville Downtown the Gulch\", \"Canopy by Hilton Nashville Downtown the Gulch Nashville, Tennessee US Hotel\", \"Canopy by Hilton Nashville Downtown the Gulch Nashville, Tennessee US Resort\", \"Canopy by Hilton Nashville Downtown the Gulch Nashville, Tennessee US\"], \"v\": 3}": {
+    "lat": 36.1511811,
+    "lon": -86.78199029999999,
+    "formatted_address": "920 Division St, Nashville, TN 37203, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJR8v9J0FnZIgR_nFBPnu-zTw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "920 Division St, Nashville, TN 37203, USA",
+      "geometry": {
+        "location": {
+          "lat": 36.1511811,
+          "lng": -86.78199029999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.1524421302915,
+            "lng": -86.78055391970848
+          },
+          "southwest": {
+            "lat": 36.1497441697085,
+            "lng": -86.7832518802915
+          }
+        }
+      },
+      "name": "Canopy by Hilton Nashville Downtown The Gulch",
+      "place_id": "ChIJR8v9J0FnZIgR_nFBPnu-zTw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/bnaglpy-canopy-nashville-downtown-the-gulch/?SEO_id=GMB-AMER-PY-BNAGLPY&y_source=1_ODE0MDczMjctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton New Orleans - Downtown\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton New Orleans - Downtown Canopy Hotels Hotel\", \"Canopy by Hilton New Orleans - Downtown Canopy Hotels Resort\", \"Canopy by Hilton New Orleans - Downtown Canopy Hotels\", \"Canopy by Hilton New Orleans - Downtown Canopy Hotels New Orleans, Louisiana US Hotel\", \"Canopy by Hilton New Orleans - Downtown Canopy Hotels New Orleans, Louisiana US Resort\", \"Canopy by Hilton New Orleans - Downtown Canopy Hotels New Orleans, Louisiana US\", \"Canopy by Hilton New Orleans - Downtown Hilton Hotel\", \"Canopy by Hilton New Orleans - Downtown Hilton Resort\", \"Canopy by Hilton New Orleans - Downtown Hilton\", \"Canopy by Hilton New Orleans - Downtown Hilton New Orleans, Louisiana US Hotel\", \"Canopy by Hilton New Orleans - Downtown Hilton New Orleans, Louisiana US Resort\", \"Canopy by Hilton New Orleans - Downtown Hilton New Orleans, Louisiana US\", \"Canopy Hilton New Orleans Downtown Canopy Hotels Hotel\", \"Canopy Hilton New Orleans Downtown Canopy Hotels Resort\", \"Canopy Hilton New Orleans Downtown Canopy Hotels\", \"Canopy Hilton New Orleans Downtown Canopy Hotels New Orleans, Louisiana US Hotel\", \"Canopy Hilton New Orleans Downtown Canopy Hotels New Orleans, Louisiana US Resort\", \"Canopy Hilton New Orleans Downtown Canopy Hotels New Orleans, Louisiana US\", \"Canopy Hilton New Orleans Downtown Hilton Hotel\", \"Canopy Hilton New Orleans Downtown Hilton Resort\", \"Canopy Hilton New Orleans Downtown Hilton\", \"Canopy Hilton New Orleans Downtown Hilton New Orleans, Louisiana US Hotel\", \"Canopy Hilton New Orleans Downtown Hilton New Orleans, Louisiana US Resort\", \"Canopy Hilton New Orleans Downtown Hilton New Orleans, Louisiana US\", \"Canopy by Hilton New Orleans - Downtown Hotel\", \"Canopy by Hilton New Orleans - Downtown Resort\", \"Canopy by Hilton New Orleans - Downtown\", \"Canopy by Hilton New Orleans - Downtown New Orleans, Louisiana US Hotel\", \"Canopy by Hilton New Orleans - Downtown New Orleans, Louisiana US Resort\", \"Canopy by Hilton New Orleans - Downtown New Orleans, Louisiana US\"], \"v\": 3}": {
+    "lat": 29.9540438,
+    "lon": -90.0741998,
+    "formatted_address": "1100 Tulane Ave, New Orleans, LA 70112, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJxxg3fgqmIIYRefVaYPFWhWA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1100 Tulane Ave, New Orleans, LA 70112, USA",
+      "geometry": {
+        "location": {
+          "lat": 29.9540438,
+          "lng": -90.0741998
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 29.9554406302915,
+            "lng": -90.07277616970852
+          },
+          "southwest": {
+            "lat": 29.9527426697085,
+            "lng": -90.07547413029152
+          }
+        }
+      },
+      "name": "Canopy by Hilton New Orleans Downtown",
+      "place_id": "ChIJxxg3fgqmIIYRefVaYPFWhWA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/msypypy-canopy-new-orleans-downtown/?SEO_id=GMB-AMER-PY-MSYPYPY&y_source=1_Mjc3Mjg3NTAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Paris Eiffel Tower\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Paris Eiffel Tower Canopy Hotels Hotel\", \"Canopy by Hilton Paris Eiffel Tower Canopy Hotels Resort\", \"Canopy by Hilton Paris Eiffel Tower Canopy Hotels\", \"Canopy by Hilton Paris Eiffel Tower Canopy Hotels Paris, France Hotel\", \"Canopy by Hilton Paris Eiffel Tower Canopy Hotels Paris, France Resort\", \"Canopy by Hilton Paris Eiffel Tower Canopy Hotels Paris, France\", \"Canopy by Hilton Paris Eiffel Tower Hilton Hotel\", \"Canopy by Hilton Paris Eiffel Tower Hilton Resort\", \"Canopy by Hilton Paris Eiffel Tower Hilton\", \"Canopy by Hilton Paris Eiffel Tower Hilton Paris, France Hotel\", \"Canopy by Hilton Paris Eiffel Tower Hilton Paris, France Resort\", \"Canopy by Hilton Paris Eiffel Tower Hilton Paris, France\", \"Canopy Hilton Paris Eiffel Tower Canopy Hotels Hotel\", \"Canopy Hilton Paris Eiffel Tower Canopy Hotels Resort\", \"Canopy Hilton Paris Eiffel Tower Canopy Hotels\", \"Canopy Hilton Paris Eiffel Tower Canopy Hotels Paris, France Hotel\", \"Canopy Hilton Paris Eiffel Tower Canopy Hotels Paris, France Resort\", \"Canopy Hilton Paris Eiffel Tower Canopy Hotels Paris, France\", \"Canopy Hilton Paris Eiffel Tower Hilton Hotel\", \"Canopy Hilton Paris Eiffel Tower Hilton Resort\", \"Canopy Hilton Paris Eiffel Tower Hilton\", \"Canopy Hilton Paris Eiffel Tower Hilton Paris, France Hotel\", \"Canopy Hilton Paris Eiffel Tower Hilton Paris, France Resort\", \"Canopy Hilton Paris Eiffel Tower Hilton Paris, France\", \"Canopy by Hilton Paris Eiffel Tower Hotel\", \"Canopy by Hilton Paris Eiffel Tower Resort\", \"Canopy by Hilton Paris Eiffel Tower\", \"Canopy by Hilton Paris Eiffel Tower Paris, France Hotel\", \"Canopy by Hilton Paris Eiffel Tower Paris, France Resort\", \"Canopy by Hilton Paris Eiffel Tower Paris, France\"], \"v\": 3}": {
+    "lat": 48.8644493,
+    "lon": 2.2850454,
+    "formatted_address": "16 Av. d'Eylau, 75116 Paris, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ88xzcKNv5kcRBf9WdxaYOzk",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "16 Av. d'Eylau, 75116 Paris, France",
+      "geometry": {
+        "location": {
+          "lat": 48.8644493,
+          "lng": 2.2850454
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.8657857802915,
+            "lng": 2.286342080291502
+          },
+          "southwest": {
+            "lat": 48.8630878197085,
+            "lng": 2.283644119708498
+          }
+        }
+      },
+      "name": "Canopy by Hilton Paris Eiffel Tower",
+      "place_id": "ChIJ88xzcKNv5kcRBf9WdxaYOzk",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/parpypy-canopy-paris-eiffel-tower/?SEO_id=GMB-EMEA-PY-PARPYPY"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Philadelphia Center City\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Philadelphia Center City Canopy Hotels Hotel\", \"Canopy by Hilton Philadelphia Center City Canopy Hotels Resort\", \"Canopy by Hilton Philadelphia Center City Canopy Hotels\", \"Canopy by Hilton Philadelphia Center City Canopy Hotels Philadelphia, Pennsylvania US Hotel\", \"Canopy by Hilton Philadelphia Center City Canopy Hotels Philadelphia, Pennsylvania US Resort\", \"Canopy by Hilton Philadelphia Center City Canopy Hotels Philadelphia, Pennsylvania US\", \"Canopy by Hilton Philadelphia Center City Hilton Hotel\", \"Canopy by Hilton Philadelphia Center City Hilton Resort\", \"Canopy by Hilton Philadelphia Center City Hilton\", \"Canopy by Hilton Philadelphia Center City Hilton Philadelphia, Pennsylvania US Hotel\", \"Canopy by Hilton Philadelphia Center City Hilton Philadelphia, Pennsylvania US Resort\", \"Canopy by Hilton Philadelphia Center City Hilton Philadelphia, Pennsylvania US\", \"Canopy Hilton Philadelphia Center City Canopy Hotels Hotel\", \"Canopy Hilton Philadelphia Center City Canopy Hotels Resort\", \"Canopy Hilton Philadelphia Center City Canopy Hotels\", \"Canopy Hilton Philadelphia Center City Canopy Hotels Philadelphia, Pennsylvania US Hotel\", \"Canopy Hilton Philadelphia Center City Canopy Hotels Philadelphia, Pennsylvania US Resort\", \"Canopy Hilton Philadelphia Center City Canopy Hotels Philadelphia, Pennsylvania US\", \"Canopy Hilton Philadelphia Center City Hilton Hotel\", \"Canopy Hilton Philadelphia Center City Hilton Resort\", \"Canopy Hilton Philadelphia Center City Hilton\", \"Canopy Hilton Philadelphia Center City Hilton Philadelphia, Pennsylvania US Hotel\", \"Canopy Hilton Philadelphia Center City Hilton Philadelphia, Pennsylvania US Resort\", \"Canopy Hilton Philadelphia Center City Hilton Philadelphia, Pennsylvania US\", \"Canopy by Hilton Philadelphia Center City Hotel\", \"Canopy by Hilton Philadelphia Center City Resort\", \"Canopy by Hilton Philadelphia Center City\", \"Canopy by Hilton Philadelphia Center City Philadelphia, Pennsylvania US Hotel\", \"Canopy by Hilton Philadelphia Center City Philadelphia, Pennsylvania US Resort\", \"Canopy by Hilton Philadelphia Center City Philadelphia, Pennsylvania US\"], \"v\": 3}": {
+    "lat": 39.9509386,
+    "lon": -75.1599574,
+    "formatted_address": "1180 Ludlow St, Philadelphia, PA 19107, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJz6mP1yjGxokRsRcCOL4-OyU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1180 Ludlow St, Philadelphia, PA 19107, USA",
+      "geometry": {
+        "location": {
+          "lat": 39.9509386,
+          "lng": -75.1599574
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 39.9524143302915,
+            "lng": -75.1584976697085
+          },
+          "southwest": {
+            "lat": 39.9497163697085,
+            "lng": -75.1611956302915
+          }
+        }
+      },
+      "name": "Canopy by Hilton Philadelphia Center City",
+      "place_id": "ChIJz6mP1yjGxokRsRcCOL4-OyU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/phloppy-canopy-philadelphia-center-city/?SEO_id=GMB-AMER-PY-PHLOPPY&y_source=1_MTU1OTMyNjAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Portland Waterfront\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Portland Waterfront Canopy Hotels Hotel\", \"Canopy by Hilton Portland Waterfront Canopy Hotels Resort\", \"Canopy by Hilton Portland Waterfront Canopy Hotels\", \"Canopy by Hilton Portland Waterfront Canopy Hotels Portland, Maine US Hotel\", \"Canopy by Hilton Portland Waterfront Canopy Hotels Portland, Maine US Resort\", \"Canopy by Hilton Portland Waterfront Canopy Hotels Portland, Maine US\", \"Canopy by Hilton Portland Waterfront Hilton Hotel\", \"Canopy by Hilton Portland Waterfront Hilton Resort\", \"Canopy by Hilton Portland Waterfront Hilton\", \"Canopy by Hilton Portland Waterfront Hilton Portland, Maine US Hotel\", \"Canopy by Hilton Portland Waterfront Hilton Portland, Maine US Resort\", \"Canopy by Hilton Portland Waterfront Hilton Portland, Maine US\", \"Canopy Hilton Portland Waterfront Canopy Hotels Hotel\", \"Canopy Hilton Portland Waterfront Canopy Hotels Resort\", \"Canopy Hilton Portland Waterfront Canopy Hotels\", \"Canopy Hilton Portland Waterfront Canopy Hotels Portland, Maine US Hotel\", \"Canopy Hilton Portland Waterfront Canopy Hotels Portland, Maine US Resort\", \"Canopy Hilton Portland Waterfront Canopy Hotels Portland, Maine US\", \"Canopy Hilton Portland Waterfront Hilton Hotel\", \"Canopy Hilton Portland Waterfront Hilton Resort\", \"Canopy Hilton Portland Waterfront Hilton\", \"Canopy Hilton Portland Waterfront Hilton Portland, Maine US Hotel\", \"Canopy Hilton Portland Waterfront Hilton Portland, Maine US Resort\", \"Canopy Hilton Portland Waterfront Hilton Portland, Maine US\", \"Canopy by Hilton Portland Waterfront Hotel\", \"Canopy by Hilton Portland Waterfront Resort\", \"Canopy by Hilton Portland Waterfront\", \"Canopy by Hilton Portland Waterfront Portland, Maine US Hotel\", \"Canopy by Hilton Portland Waterfront Portland, Maine US Resort\", \"Canopy by Hilton Portland Waterfront Portland, Maine US\"], \"v\": 3}": {
+    "lat": 43.6539796,
+    "lon": -70.2559153,
+    "formatted_address": "9 Center St, Portland, ME 04101, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJvfepHD6cskwR6o8_VbT-GCU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "9 Center St, Portland, ME 04101, USA",
+      "geometry": {
+        "location": {
+          "lat": 43.6539796,
+          "lng": -70.2559153
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.6553180802915,
+            "lng": -70.25457291970848
+          },
+          "southwest": {
+            "lat": 43.6526201197085,
+            "lng": -70.2572708802915
+          }
+        }
+      },
+      "name": "Canopy by Hilton Portland Waterfront",
+      "place_id": "ChIJvfepHD6cskwR6o8_VbT-GCU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/pwmoppy-canopy-portland-waterfront/?SEO_id=GMB-AMER-PY-PWMOPPY&y_source=1_MjQyMjczMzMtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Portland - Pearl District\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Portland - Pearl District Canopy Hotels Hotel\", \"Canopy by Hilton Portland - Pearl District Canopy Hotels Resort\", \"Canopy by Hilton Portland - Pearl District Canopy Hotels\", \"Canopy by Hilton Portland - Pearl District Canopy Hotels Portland, Oregon US Hotel\", \"Canopy by Hilton Portland - Pearl District Canopy Hotels Portland, Oregon US Resort\", \"Canopy by Hilton Portland - Pearl District Canopy Hotels Portland, Oregon US\", \"Canopy by Hilton Portland - Pearl District Hilton Hotel\", \"Canopy by Hilton Portland - Pearl District Hilton Resort\", \"Canopy by Hilton Portland - Pearl District Hilton\", \"Canopy by Hilton Portland - Pearl District Hilton Portland, Oregon US Hotel\", \"Canopy by Hilton Portland - Pearl District Hilton Portland, Oregon US Resort\", \"Canopy by Hilton Portland - Pearl District Hilton Portland, Oregon US\", \"Canopy Hilton Portland Pearl District Canopy Hotels Hotel\", \"Canopy Hilton Portland Pearl District Canopy Hotels Resort\", \"Canopy Hilton Portland Pearl District Canopy Hotels\", \"Canopy Hilton Portland Pearl District Canopy Hotels Portland, Oregon US Hotel\", \"Canopy Hilton Portland Pearl District Canopy Hotels Portland, Oregon US Resort\", \"Canopy Hilton Portland Pearl District Canopy Hotels Portland, Oregon US\", \"Canopy Hilton Portland Pearl District Hilton Hotel\", \"Canopy Hilton Portland Pearl District Hilton Resort\", \"Canopy Hilton Portland Pearl District Hilton\", \"Canopy Hilton Portland Pearl District Hilton Portland, Oregon US Hotel\", \"Canopy Hilton Portland Pearl District Hilton Portland, Oregon US Resort\", \"Canopy Hilton Portland Pearl District Hilton Portland, Oregon US\", \"Canopy by Hilton Portland - Pearl District Hotel\", \"Canopy by Hilton Portland - Pearl District Resort\", \"Canopy by Hilton Portland - Pearl District\", \"Canopy by Hilton Portland - Pearl District Portland, Oregon US Hotel\", \"Canopy by Hilton Portland - Pearl District Portland, Oregon US Resort\", \"Canopy by Hilton Portland - Pearl District Portland, Oregon US\"], \"v\": 3}": {
+    "lat": 45.52634,
+    "lon": -122.68052,
+    "formatted_address": "425 NW 9th Ave, Portland, OR 97209, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJO7w-8aoLlVQRnTZs9MM1RX4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "425 NW 9th Ave, Portland, OR 97209, USA",
+      "geometry": {
+        "location": {
+          "lat": 45.52634,
+          "lng": -122.68052
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.52779778029149,
+            "lng": -122.6792147697085
+          },
+          "southwest": {
+            "lat": 45.52509981970849,
+            "lng": -122.6819127302915
+          }
+        }
+      },
+      "name": "Canopy by Hilton Portland Pearl District",
+      "place_id": "ChIJO7w-8aoLlVQRnTZs9MM1RX4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/pdxpepy-canopy-portland-pearl-district/?SEO_id=GMB-AMER-PY-PDXPEPY&y_source=1_OTU3MTQ1MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ=="
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton San Antonio Riverwalk\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton San Antonio Riverwalk Canopy Hotels Hotel\", \"Canopy by Hilton San Antonio Riverwalk Canopy Hotels Resort\", \"Canopy by Hilton San Antonio Riverwalk Canopy Hotels\", \"Canopy by Hilton San Antonio Riverwalk Canopy Hotels San Antonio, Texas US Hotel\", \"Canopy by Hilton San Antonio Riverwalk Canopy Hotels San Antonio, Texas US Resort\", \"Canopy by Hilton San Antonio Riverwalk Canopy Hotels San Antonio, Texas US\", \"Canopy by Hilton San Antonio Riverwalk Hilton Hotel\", \"Canopy by Hilton San Antonio Riverwalk Hilton Resort\", \"Canopy by Hilton San Antonio Riverwalk Hilton\", \"Canopy by Hilton San Antonio Riverwalk Hilton San Antonio, Texas US Hotel\", \"Canopy by Hilton San Antonio Riverwalk Hilton San Antonio, Texas US Resort\", \"Canopy by Hilton San Antonio Riverwalk Hilton San Antonio, Texas US\", \"Canopy Hilton San Antonio Riverwalk Canopy Hotels Hotel\", \"Canopy Hilton San Antonio Riverwalk Canopy Hotels Resort\", \"Canopy Hilton San Antonio Riverwalk Canopy Hotels\", \"Canopy Hilton San Antonio Riverwalk Canopy Hotels San Antonio, Texas US Hotel\", \"Canopy Hilton San Antonio Riverwalk Canopy Hotels San Antonio, Texas US Resort\", \"Canopy Hilton San Antonio Riverwalk Canopy Hotels San Antonio, Texas US\", \"Canopy Hilton San Antonio Riverwalk Hilton Hotel\", \"Canopy Hilton San Antonio Riverwalk Hilton Resort\", \"Canopy Hilton San Antonio Riverwalk Hilton\", \"Canopy Hilton San Antonio Riverwalk Hilton San Antonio, Texas US Hotel\", \"Canopy Hilton San Antonio Riverwalk Hilton San Antonio, Texas US Resort\", \"Canopy Hilton San Antonio Riverwalk Hilton San Antonio, Texas US\", \"Canopy by Hilton San Antonio Riverwalk Hotel\", \"Canopy by Hilton San Antonio Riverwalk Resort\", \"Canopy by Hilton San Antonio Riverwalk\", \"Canopy by Hilton San Antonio Riverwalk San Antonio, Texas US Hotel\", \"Canopy by Hilton San Antonio Riverwalk San Antonio, Texas US Resort\", \"Canopy by Hilton San Antonio Riverwalk San Antonio, Texas US\"], \"v\": 3}": {
+    "lat": 29.4250404,
+    "lon": -98.4914352,
+    "formatted_address": "123 N St Mary's St, San Antonio, TX 78205, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJrTXozqxYXIYR5tkkQd2ekks",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "123 N St Mary's St, San Antonio, TX 78205, USA",
+      "geometry": {
+        "location": {
+          "lat": 29.4250404,
+          "lng": -98.4914352
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 29.4263570802915,
+            "lng": -98.49006091970851
+          },
+          "southwest": {
+            "lat": 29.4236591197085,
+            "lng": -98.49275888029152
+          }
+        }
+      },
+      "name": "Canopy by Hilton San Antonio Riverwalk",
+      "place_id": "ChIJrTXozqxYXIYR5tkkQd2ekks",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/satpypy-canopy-san-antonio-riverwalk/?SEO_id=GMB-AMER-PY-SATPYPY&y_source=1_MjMzNTY3MTgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Scottsdale Old Town\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Scottsdale Old Town Canopy Hotels Hotel\", \"Canopy by Hilton Scottsdale Old Town Canopy Hotels Resort\", \"Canopy by Hilton Scottsdale Old Town Canopy Hotels\", \"Canopy by Hilton Scottsdale Old Town Canopy Hotels Scottsdale, Arizona US Hotel\", \"Canopy by Hilton Scottsdale Old Town Canopy Hotels Scottsdale, Arizona US Resort\", \"Canopy by Hilton Scottsdale Old Town Canopy Hotels Scottsdale, Arizona US\", \"Canopy by Hilton Scottsdale Old Town Hilton Hotel\", \"Canopy by Hilton Scottsdale Old Town Hilton Resort\", \"Canopy by Hilton Scottsdale Old Town Hilton\", \"Canopy by Hilton Scottsdale Old Town Hilton Scottsdale, Arizona US Hotel\", \"Canopy by Hilton Scottsdale Old Town Hilton Scottsdale, Arizona US Resort\", \"Canopy by Hilton Scottsdale Old Town Hilton Scottsdale, Arizona US\", \"Canopy Hilton Scottsdale Old Town Canopy Hotels Hotel\", \"Canopy Hilton Scottsdale Old Town Canopy Hotels Resort\", \"Canopy Hilton Scottsdale Old Town Canopy Hotels\", \"Canopy Hilton Scottsdale Old Town Canopy Hotels Scottsdale, Arizona US Hotel\", \"Canopy Hilton Scottsdale Old Town Canopy Hotels Scottsdale, Arizona US Resort\", \"Canopy Hilton Scottsdale Old Town Canopy Hotels Scottsdale, Arizona US\", \"Canopy Hilton Scottsdale Old Town Hilton Hotel\", \"Canopy Hilton Scottsdale Old Town Hilton Resort\", \"Canopy Hilton Scottsdale Old Town Hilton\", \"Canopy Hilton Scottsdale Old Town Hilton Scottsdale, Arizona US Hotel\", \"Canopy Hilton Scottsdale Old Town Hilton Scottsdale, Arizona US Resort\", \"Canopy Hilton Scottsdale Old Town Hilton Scottsdale, Arizona US\", \"Canopy by Hilton Scottsdale Old Town Hotel\", \"Canopy by Hilton Scottsdale Old Town Resort\", \"Canopy by Hilton Scottsdale Old Town\", \"Canopy by Hilton Scottsdale Old Town Scottsdale, Arizona US Hotel\", \"Canopy by Hilton Scottsdale Old Town Scottsdale, Arizona US Resort\", \"Canopy by Hilton Scottsdale Old Town Scottsdale, Arizona US\"], \"v\": 3}": {
+    "lat": 33.4924679,
+    "lon": -111.9278393,
+    "formatted_address": "7142 E 1st St, Scottsdale, AZ 85251, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ82w3-L8LK4cRSEn5ZIJWELg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "7142 E 1st St, Scottsdale, AZ 85251, USA",
+      "geometry": {
+        "location": {
+          "lat": 33.4924679,
+          "lng": -111.9278393
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.4936839802915,
+            "lng": -111.9265637697085
+          },
+          "southwest": {
+            "lat": 33.4909860197085,
+            "lng": -111.9292617302915
+          }
+        }
+      },
+      "name": "Canopy by Hilton Scottsdale Old Town",
+      "place_id": "ChIJ82w3-L8LK4cRSEn5ZIJWELg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/phxotpy-canopy-scottsdale-old-town/?SEO_id=GMB-AMER-PY-PHXOTPY&y_source=1_MTc4NjUzOTMtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Sioux Falls Downtown\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Sioux Falls Downtown Canopy Hotels Hotel\", \"Canopy by Hilton Sioux Falls Downtown Canopy Hotels Resort\", \"Canopy by Hilton Sioux Falls Downtown Canopy Hotels\", \"Canopy by Hilton Sioux Falls Downtown Canopy Hotels Sioux Falls, South Dakota US Hotel\", \"Canopy by Hilton Sioux Falls Downtown Canopy Hotels Sioux Falls, South Dakota US Resort\", \"Canopy by Hilton Sioux Falls Downtown Canopy Hotels Sioux Falls, South Dakota US\", \"Canopy by Hilton Sioux Falls Downtown Hilton Hotel\", \"Canopy by Hilton Sioux Falls Downtown Hilton Resort\", \"Canopy by Hilton Sioux Falls Downtown Hilton\", \"Canopy by Hilton Sioux Falls Downtown Hilton Sioux Falls, South Dakota US Hotel\", \"Canopy by Hilton Sioux Falls Downtown Hilton Sioux Falls, South Dakota US Resort\", \"Canopy by Hilton Sioux Falls Downtown Hilton Sioux Falls, South Dakota US\", \"Canopy Hilton Sioux Falls Downtown Canopy Hotels Hotel\", \"Canopy Hilton Sioux Falls Downtown Canopy Hotels Resort\", \"Canopy Hilton Sioux Falls Downtown Canopy Hotels\", \"Canopy Hilton Sioux Falls Downtown Canopy Hotels Sioux Falls, South Dakota US Hotel\", \"Canopy Hilton Sioux Falls Downtown Canopy Hotels Sioux Falls, South Dakota US Resort\", \"Canopy Hilton Sioux Falls Downtown Canopy Hotels Sioux Falls, South Dakota US\", \"Canopy Hilton Sioux Falls Downtown Hilton Hotel\", \"Canopy Hilton Sioux Falls Downtown Hilton Resort\", \"Canopy Hilton Sioux Falls Downtown Hilton\", \"Canopy Hilton Sioux Falls Downtown Hilton Sioux Falls, South Dakota US Hotel\", \"Canopy Hilton Sioux Falls Downtown Hilton Sioux Falls, South Dakota US Resort\", \"Canopy Hilton Sioux Falls Downtown Hilton Sioux Falls, South Dakota US\", \"Canopy by Hilton Sioux Falls Downtown Hotel\", \"Canopy by Hilton Sioux Falls Downtown Resort\", \"Canopy by Hilton Sioux Falls Downtown\", \"Canopy by Hilton Sioux Falls Downtown Sioux Falls, South Dakota US Hotel\", \"Canopy by Hilton Sioux Falls Downtown Sioux Falls, South Dakota US Resort\", \"Canopy by Hilton Sioux Falls Downtown Sioux Falls, South Dakota US\"], \"v\": 3}": {
+    "lat": 43.5539162,
+    "lon": -96.7254636,
+    "formatted_address": "120 E 4th Pl, Sioux Falls, SD 57104, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ5W4dY6C1jocRiDcEsq8Kj-Y",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "120 E 4th Pl, Sioux Falls, SD 57104, USA",
+      "geometry": {
+        "location": {
+          "lat": 43.5539162,
+          "lng": -96.7254636
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.55520793029151,
+            "lng": -96.72417886970848
+          },
+          "southwest": {
+            "lat": 43.55250996970851,
+            "lng": -96.7268768302915
+          }
+        }
+      },
+      "name": "Canopy by Hilton Sioux Falls Downtown",
+      "place_id": "ChIJ5W4dY6C1jocRiDcEsq8Kj-Y",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/fsdlapy-canopy-sioux-falls-downtown/?SEO_id=GMB-AMER-PY-FSDLAPY&y_source=1_OTExMjEyMjAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton S\\u00e3o Paulo Jardins\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton S\\u00e3o Paulo Jardins Canopy Hotels Hotel\", \"Canopy by Hilton S\\u00e3o Paulo Jardins Canopy Hotels Resort\", \"Canopy by Hilton S\\u00e3o Paulo Jardins Canopy Hotels\", \"Canopy by Hilton S\\u00e3o Paulo Jardins Canopy Hotels S\\u00e3o Paulo, Brazil Hotel\", \"Canopy by Hilton S\\u00e3o Paulo Jardins Canopy Hotels S\\u00e3o Paulo, Brazil Resort\", \"Canopy by Hilton S\\u00e3o Paulo Jardins Canopy Hotels S\\u00e3o Paulo, Brazil\", \"Canopy by Hilton S\\u00e3o Paulo Jardins Hilton Hotel\", \"Canopy by Hilton S\\u00e3o Paulo Jardins Hilton Resort\", \"Canopy by Hilton S\\u00e3o Paulo Jardins Hilton\", \"Canopy by Hilton S\\u00e3o Paulo Jardins Hilton S\\u00e3o Paulo, Brazil Hotel\", \"Canopy by Hilton S\\u00e3o Paulo Jardins Hilton S\\u00e3o Paulo, Brazil Resort\", \"Canopy by Hilton S\\u00e3o Paulo Jardins Hilton S\\u00e3o Paulo, Brazil\", \"Canopy Hilton Sao Paulo Jardins Canopy Hotels Hotel\", \"Canopy Hilton Sao Paulo Jardins Canopy Hotels Resort\", \"Canopy Hilton Sao Paulo Jardins Canopy Hotels\", \"Canopy Hilton Sao Paulo Jardins Canopy Hotels S\\u00e3o Paulo, Brazil Hotel\", \"Canopy Hilton Sao Paulo Jardins Canopy Hotels S\\u00e3o Paulo, Brazil Resort\", \"Canopy Hilton Sao Paulo Jardins Canopy Hotels S\\u00e3o Paulo, Brazil\", \"Canopy Hilton Sao Paulo Jardins Hilton Hotel\", \"Canopy Hilton Sao Paulo Jardins Hilton Resort\", \"Canopy Hilton Sao Paulo Jardins Hilton\", \"Canopy Hilton Sao Paulo Jardins Hilton S\\u00e3o Paulo, Brazil Hotel\", \"Canopy Hilton Sao Paulo Jardins Hilton S\\u00e3o Paulo, Brazil Resort\", \"Canopy Hilton Sao Paulo Jardins Hilton S\\u00e3o Paulo, Brazil\", \"Canopy by Hilton S\\u00e3o Paulo Jardins Hotel\", \"Canopy by Hilton S\\u00e3o Paulo Jardins Resort\", \"Canopy by Hilton S\\u00e3o Paulo Jardins\", \"Canopy by Hilton S\\u00e3o Paulo Jardins S\\u00e3o Paulo, Brazil Hotel\", \"Canopy by Hilton S\\u00e3o Paulo Jardins S\\u00e3o Paulo, Brazil Resort\", \"Canopy by Hilton S\\u00e3o Paulo Jardins S\\u00e3o Paulo, Brazil\"], \"v\": 3}": {
+    "lat": -23.571245,
+    "lon": -46.6535661,
+    "formatted_address": "R. Saint Hilaire, 40 - Jardim Paulista, São Paulo - SP, 01423-040, Brazil",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJidAU_sBZzpQRHEELXq9kOmI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "R. Saint Hilaire, 40 - Jardim Paulista, São Paulo - SP, 01423-040, Brazil",
+      "geometry": {
+        "location": {
+          "lat": -23.571245,
+          "lng": -46.6535661
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -23.5698809197085,
+            "lng": -46.6522717697085
+          },
+          "southwest": {
+            "lat": -23.57257888029151,
+            "lng": -46.6549697302915
+          }
+        }
+      },
+      "name": "Canopy by Hilton Sao Paulo Jardins",
+      "place_id": "ChIJidAU_sBZzpQRHEELXq9kOmI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/grujapy-canopy-sao-paulo-jardins/?SEO_id=GMB-AMER-PY-GRUJAPY&y_source=1_MjAzODUyNjctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Tempe Downtown\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Tempe Downtown Canopy Hotels Hotel\", \"Canopy by Hilton Tempe Downtown Canopy Hotels Resort\", \"Canopy by Hilton Tempe Downtown Canopy Hotels\", \"Canopy by Hilton Tempe Downtown Canopy Hotels Tempe, Arizona US Hotel\", \"Canopy by Hilton Tempe Downtown Canopy Hotels Tempe, Arizona US Resort\", \"Canopy by Hilton Tempe Downtown Canopy Hotels Tempe, Arizona US\", \"Canopy by Hilton Tempe Downtown Hilton Hotel\", \"Canopy by Hilton Tempe Downtown Hilton Resort\", \"Canopy by Hilton Tempe Downtown Hilton\", \"Canopy by Hilton Tempe Downtown Hilton Tempe, Arizona US Hotel\", \"Canopy by Hilton Tempe Downtown Hilton Tempe, Arizona US Resort\", \"Canopy by Hilton Tempe Downtown Hilton Tempe, Arizona US\", \"Canopy Hilton Tempe Downtown Canopy Hotels Hotel\", \"Canopy Hilton Tempe Downtown Canopy Hotels Resort\", \"Canopy Hilton Tempe Downtown Canopy Hotels\", \"Canopy Hilton Tempe Downtown Canopy Hotels Tempe, Arizona US Hotel\", \"Canopy Hilton Tempe Downtown Canopy Hotels Tempe, Arizona US Resort\", \"Canopy Hilton Tempe Downtown Canopy Hotels Tempe, Arizona US\", \"Canopy Hilton Tempe Downtown Hilton Hotel\", \"Canopy Hilton Tempe Downtown Hilton Resort\", \"Canopy Hilton Tempe Downtown Hilton\", \"Canopy Hilton Tempe Downtown Hilton Tempe, Arizona US Hotel\", \"Canopy Hilton Tempe Downtown Hilton Tempe, Arizona US Resort\", \"Canopy Hilton Tempe Downtown Hilton Tempe, Arizona US\", \"Canopy by Hilton Tempe Downtown Hotel\", \"Canopy by Hilton Tempe Downtown Resort\", \"Canopy by Hilton Tempe Downtown\", \"Canopy by Hilton Tempe Downtown Tempe, Arizona US Hotel\", \"Canopy by Hilton Tempe Downtown Tempe, Arizona US Resort\", \"Canopy by Hilton Tempe Downtown Tempe, Arizona US\"], \"v\": 3}": {
+    "lat": 33.4224437,
+    "lon": -111.9372132,
+    "formatted_address": "108 E University Dr, Tempe, AZ 85281, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJOefnmn4JK4cRTfFauS0AC3k",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "108 E University Dr, Tempe, AZ 85281, USA",
+      "geometry": {
+        "location": {
+          "lat": 33.4224437,
+          "lng": -111.9372132
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.4237496302915,
+            "lng": -111.9356753197085
+          },
+          "southwest": {
+            "lat": 33.4210516697085,
+            "lng": -111.9383732802915
+          }
+        }
+      },
+      "name": "Canopy by Hilton Tempe Downtown",
+      "place_id": "ChIJOefnmn4JK4cRTfFauS0AC3k",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/phxtypy-canopy-tempe-downtown/?SEO_id=GMB-AMER-PY-PHXTYPY&y_source=1_MTYwNzY5MDctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Toronto - Yorkville\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Toronto - Yorkville Canopy Hotels Hotel\", \"Canopy by Hilton Toronto - Yorkville Canopy Hotels Resort\", \"Canopy by Hilton Toronto - Yorkville Canopy Hotels\", \"Canopy by Hilton Toronto - Yorkville Canopy Hotels Toronto, Ontario CA Hotel\", \"Canopy by Hilton Toronto - Yorkville Canopy Hotels Toronto, Ontario CA Resort\", \"Canopy by Hilton Toronto - Yorkville Canopy Hotels Toronto, Ontario CA\", \"Canopy by Hilton Toronto - Yorkville Hilton Hotel\", \"Canopy by Hilton Toronto - Yorkville Hilton Resort\", \"Canopy by Hilton Toronto - Yorkville Hilton\", \"Canopy by Hilton Toronto - Yorkville Hilton Toronto, Ontario CA Hotel\", \"Canopy by Hilton Toronto - Yorkville Hilton Toronto, Ontario CA Resort\", \"Canopy by Hilton Toronto - Yorkville Hilton Toronto, Ontario CA\", \"Canopy Hilton Toronto Yorkville Canopy Hotels Hotel\", \"Canopy Hilton Toronto Yorkville Canopy Hotels Resort\", \"Canopy Hilton Toronto Yorkville Canopy Hotels\", \"Canopy Hilton Toronto Yorkville Canopy Hotels Toronto, Ontario CA Hotel\", \"Canopy Hilton Toronto Yorkville Canopy Hotels Toronto, Ontario CA Resort\", \"Canopy Hilton Toronto Yorkville Canopy Hotels Toronto, Ontario CA\", \"Canopy Hilton Toronto Yorkville Hilton Hotel\", \"Canopy Hilton Toronto Yorkville Hilton Resort\", \"Canopy Hilton Toronto Yorkville Hilton\", \"Canopy Hilton Toronto Yorkville Hilton Toronto, Ontario CA Hotel\", \"Canopy Hilton Toronto Yorkville Hilton Toronto, Ontario CA Resort\", \"Canopy Hilton Toronto Yorkville Hilton Toronto, Ontario CA\", \"Canopy by Hilton Toronto - Yorkville Hotel\", \"Canopy by Hilton Toronto - Yorkville Resort\", \"Canopy by Hilton Toronto - Yorkville\", \"Canopy by Hilton Toronto - Yorkville Toronto, Ontario CA Hotel\", \"Canopy by Hilton Toronto - Yorkville Toronto, Ontario CA Resort\", \"Canopy by Hilton Toronto - Yorkville Toronto, Ontario CA\"], \"v\": 3}": {
+    "lat": 43.6720905,
+    "lon": -79.3774711,
+    "formatted_address": "387 Bloor St E, Toronto, ON M4W 1H7, Canada",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJm4mKeFPL1IkRFPlIsgDaRTI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "387 Bloor St E, Toronto, ON M4W 1H7, Canada",
+      "geometry": {
+        "location": {
+          "lat": 43.6720905,
+          "lng": -79.3774711
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.6735143302915,
+            "lng": -79.37613696970848
+          },
+          "southwest": {
+            "lat": 43.6708163697085,
+            "lng": -79.3788349302915
+          }
+        }
+      },
+      "name": "Canopy by Hilton Toronto Yorkville",
+      "place_id": "ChIJm4mKeFPL1IkRFPlIsgDaRTI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/ytzpypy-canopy-toronto-yorkville/?SEO_id=GMB-AMER-PY-YTZPYPY&y_source=1_Mjc3MjkyMDgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton West Palm Beach - Downtown\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton West Palm Beach - Downtown Canopy Hotels Hotel\", \"Canopy by Hilton West Palm Beach - Downtown Canopy Hotels Resort\", \"Canopy by Hilton West Palm Beach - Downtown Canopy Hotels\", \"Canopy by Hilton West Palm Beach - Downtown Canopy Hotels West Palm Beach, Florida US Hotel\", \"Canopy by Hilton West Palm Beach - Downtown Canopy Hotels West Palm Beach, Florida US Resort\", \"Canopy by Hilton West Palm Beach - Downtown Canopy Hotels West Palm Beach, Florida US\", \"Canopy by Hilton West Palm Beach - Downtown Hilton Hotel\", \"Canopy by Hilton West Palm Beach - Downtown Hilton Resort\", \"Canopy by Hilton West Palm Beach - Downtown Hilton\", \"Canopy by Hilton West Palm Beach - Downtown Hilton West Palm Beach, Florida US Hotel\", \"Canopy by Hilton West Palm Beach - Downtown Hilton West Palm Beach, Florida US Resort\", \"Canopy by Hilton West Palm Beach - Downtown Hilton West Palm Beach, Florida US\", \"Canopy Hilton West Palm Beach Downtown Canopy Hotels Hotel\", \"Canopy Hilton West Palm Beach Downtown Canopy Hotels Resort\", \"Canopy Hilton West Palm Beach Downtown Canopy Hotels\", \"Canopy Hilton West Palm Beach Downtown Canopy Hotels West Palm Beach, Florida US Hotel\", \"Canopy Hilton West Palm Beach Downtown Canopy Hotels West Palm Beach, Florida US Resort\", \"Canopy Hilton West Palm Beach Downtown Canopy Hotels West Palm Beach, Florida US\", \"Canopy Hilton West Palm Beach Downtown Hilton Hotel\", \"Canopy Hilton West Palm Beach Downtown Hilton Resort\", \"Canopy Hilton West Palm Beach Downtown Hilton\", \"Canopy Hilton West Palm Beach Downtown Hilton West Palm Beach, Florida US Hotel\", \"Canopy Hilton West Palm Beach Downtown Hilton West Palm Beach, Florida US Resort\", \"Canopy Hilton West Palm Beach Downtown Hilton West Palm Beach, Florida US\", \"Canopy by Hilton West Palm Beach - Downtown Hotel\", \"Canopy by Hilton West Palm Beach - Downtown Resort\", \"Canopy by Hilton West Palm Beach - Downtown\", \"Canopy by Hilton West Palm Beach - Downtown West Palm Beach, Florida US Hotel\", \"Canopy by Hilton West Palm Beach - Downtown West Palm Beach, Florida US Resort\", \"Canopy by Hilton West Palm Beach - Downtown West Palm Beach, Florida US\"], \"v\": 3}": {
+    "lat": 26.7069416,
+    "lon": -80.05327439999999,
+    "formatted_address": "380 Trinity Pl, West Palm Beach, FL 33401, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJOXWHTtPX2IgRfHWp2vMb4Ro",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "380 Trinity Pl, West Palm Beach, FL 33401, USA",
+      "geometry": {
+        "location": {
+          "lat": 26.7069416,
+          "lng": -80.05327439999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 26.7083553802915,
+            "lng": -80.05193066970848
+          },
+          "southwest": {
+            "lat": 26.7056574197085,
+            "lng": -80.0546286302915
+          }
+        }
+      },
+      "name": "Canopy by Hilton West Palm Beach Downtown",
+      "place_id": "ChIJOXWHTtPX2IgRfHWp2vMb4Ro",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/pbicppy-canopy-west-palm-beach-downtown/?SEO_id=GMB-AMER-PY-PBICPPY&y_source=1_MTUzNjkwNTAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Zagreb\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Zagreb Canopy Hotels Hotel\", \"Canopy by Hilton Zagreb Canopy Hotels Resort\", \"Canopy by Hilton Zagreb Canopy Hotels\", \"Canopy by Hilton Zagreb Canopy Hotels Zagreb, Croatia Hotel\", \"Canopy by Hilton Zagreb Canopy Hotels Zagreb, Croatia Resort\", \"Canopy by Hilton Zagreb Canopy Hotels Zagreb, Croatia\", \"Canopy by Hilton Zagreb Hilton Hotel\", \"Canopy by Hilton Zagreb Hilton Resort\", \"Canopy by Hilton Zagreb Hilton\", \"Canopy by Hilton Zagreb Hilton Zagreb, Croatia Hotel\", \"Canopy by Hilton Zagreb Hilton Zagreb, Croatia Resort\", \"Canopy by Hilton Zagreb Hilton Zagreb, Croatia\", \"Canopy Hilton Zagreb Canopy Hotels Hotel\", \"Canopy Hilton Zagreb Canopy Hotels Resort\", \"Canopy Hilton Zagreb Canopy Hotels\", \"Canopy Hilton Zagreb Canopy Hotels Zagreb, Croatia Hotel\", \"Canopy Hilton Zagreb Canopy Hotels Zagreb, Croatia Resort\", \"Canopy Hilton Zagreb Canopy Hotels Zagreb, Croatia\", \"Canopy Hilton Zagreb Hilton Hotel\", \"Canopy Hilton Zagreb Hilton Resort\", \"Canopy Hilton Zagreb Hilton\", \"Canopy Hilton Zagreb Hilton Zagreb, Croatia Hotel\", \"Canopy Hilton Zagreb Hilton Zagreb, Croatia Resort\", \"Canopy Hilton Zagreb Hilton Zagreb, Croatia\", \"Canopy by Hilton Zagreb Hotel\", \"Canopy by Hilton Zagreb Resort\", \"Canopy by Hilton Zagreb\", \"Canopy by Hilton Zagreb Zagreb, Croatia Hotel\", \"Canopy by Hilton Zagreb Zagreb, Croatia Resort\", \"Canopy by Hilton Zagreb Zagreb, Croatia\"], \"v\": 3}": {
+    "lat": 45.8057242,
+    "lon": 15.9851661,
+    "formatted_address": "Ul. kneza Branimira 29, 10000, Zagreb, Croatia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJvw3XVV3XZUcRbE5RKNLIvQ0",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Ul. kneza Branimira 29, 10000, Zagreb, Croatia",
+      "geometry": {
+        "location": {
+          "lat": 45.8057242,
+          "lng": 15.9851661
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.8071421302915,
+            "lng": 15.9865387802915
+          },
+          "southwest": {
+            "lat": 45.8044441697085,
+            "lng": 15.9838408197085
+          }
+        }
+      },
+      "name": "Canopy by Hilton Zagreb City Centre",
+      "place_id": "ChIJvw3XVV3XZUcRbE5RKNLIvQ0",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/zagzcpy-canopy-zagreb-city-centre/?SEO_id=GMB-EMEA-PY-ZAGZCPY"
+    }
   }
 }
