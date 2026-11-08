@@ -3,47 +3,123 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Amex Credit Map — Hilton · FHR · THC</title>
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="Map of Hilton resort-credit, Amex Fine Hotels + Resorts, and The Hotel Collection properties, refreshed nightly.">
+  <title>Amex Hotel Credits Map — Hilton · FHR · THC</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230b1220'/><path d='M16 6c-4.4 0-8 3.4-8 7.8C8 19.6 16 26 16 26s8-6.4 8-12.2C24 9.4 20.4 6 16 6z' fill='%23d4af37'/><circle cx='16' cy='13.8' r='3' fill='%230b1220'/></svg>">
   <style>
+    :root {
+      --bg: #0b1220; --panel: rgba(11, 18, 32, .92); --line: rgba(148, 163, 184, .16);
+      --text: #f8fafc; --muted: #94a3b8; --gold: #d4af37;
+      --hilton: #3b82f6; --fhr: #f59e0b; --thc: #10b981;
+    }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0f172a; color: #f1f5f9; }
-    #header { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(15, 23, 42, .96); backdrop-filter: blur(10px); border-bottom: 1px solid #1e293b; padding: 10px 16px; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
-    #header h1 { font-size: .95rem; font-weight: 700; white-space: nowrap; color: #f8fafc; }
-    #search { flex: 1; min-width: 160px; max-width: 280px; background: #1e293b; border: 1px solid #334155; color: #f1f5f9; padding: 6px 12px; border-radius: 6px; font-size: .82rem; }
-    #search::placeholder { color: #64748b; } #search:focus { outline: none; border-color: #60a5fa; }
-    #legend { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
-    .leg { display: flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 20px; border: 1.5px solid transparent; cursor: pointer; font-size: .78rem; font-weight: 600; transition: opacity .15s; white-space: nowrap; user-select: none; }
-    .leg.off { opacity: .35; } .leg-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
-    #tally { font-size: .75rem; color: #94a3b8; margin-left: auto; white-space: nowrap; }
-    #map { position: fixed; top: 49px; left: 0; width: 100%; height: calc(100vh - 49px); }
-    .hp { min-width: 210px; max-width: 300px; padding: 2px; }
-    .hp-name { font-size: .88rem; font-weight: 700; color: #0f172a; line-height: 1.35; margin-bottom: 7px; }
-    .hp-badge { display: inline-block; padding: 2px 9px; border-radius: 12px; font-size: .68rem; font-weight: 700; color: #fff; margin-bottom: 6px; }
-    .hp-brand { font-size: .76rem; color: #475569; margin-bottom: 3px; } .hp-addr { font-size: .76rem; color: #64748b; margin-bottom: 9px; }
-    .hp-link { display: inline-block; padding: 5px 13px; background: #2563eb; color: #fff; border-radius: 5px; font-size: .76rem; font-weight: 600; text-decoration: none; }
-    .hp-link:hover { background: #1d4ed8; }
+    html, body { height: 100%; }
+    body { display: flex; flex-direction: column; font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); -webkit-font-smoothing: antialiased; }
+
+    #header { position: relative; z-index: 10; display: flex; align-items: center; gap: 18px; flex-wrap: wrap; padding: 12px 20px; background: var(--panel); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); box-shadow: 0 8px 30px rgba(0, 0, 0, .25); }
+    .brand { display: flex; align-items: center; gap: 11px; min-width: 0; }
+    .brand-mark { width: 36px; height: 36px; border-radius: 10px; display: grid; place-items: center; flex-shrink: 0; background: linear-gradient(135deg, #f5d77a, var(--gold) 55%, #9a7b1c); box-shadow: 0 4px 14px rgba(212, 175, 55, .3); }
+    .brand-mark svg { width: 20px; height: 20px; }
+    .brand h1 { font-size: 1rem; font-weight: 700; letter-spacing: -.01em; white-space: nowrap; }
+    .brand p { font-size: .72rem; color: var(--muted); margin-top: 1px; white-space: nowrap; }
+
+    .search-wrap { position: relative; flex: 1 1 220px; max-width: 340px; }
+    .search-wrap svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 15px; height: 15px; color: var(--muted); pointer-events: none; }
+    #search { width: 100%; background: rgba(30, 41, 59, .7); border: 1px solid rgba(148, 163, 184, .2); color: var(--text); padding: 9px 14px 9px 36px; border-radius: 10px; font-size: .85rem; transition: border-color .15s, box-shadow .15s, background .15s; }
+    #search::placeholder { color: #64748b; }
+    #search:focus { outline: none; background: rgba(30, 41, 59, .95); border-color: var(--gold); box-shadow: 0 0 0 3px rgba(212, 175, 55, .18); }
+
+    #legend { display: flex; gap: 8px; flex-wrap: wrap; }
+    .leg { --c: #fff; display: inline-flex; align-items: center; gap: 8px; padding: 7px 13px; border-radius: 999px; border: 1px solid color-mix(in srgb, var(--c) 45%, transparent); background: color-mix(in srgb, var(--c) 14%, transparent); color: var(--text); cursor: pointer; font: inherit; font-size: .8rem; font-weight: 600; white-space: nowrap; user-select: none; transition: opacity .15s, transform .1s, background .15s; }
+    .leg:hover { background: color-mix(in srgb, var(--c) 24%, transparent); }
+    .leg:active { transform: scale(.97); }
+    .leg:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+    .leg[aria-pressed="false"] { opacity: .4; }
+    .leg[aria-pressed="false"] .leg-dot { background: transparent !important; }
+    .leg-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--c); border: 2px solid var(--c); box-shadow: 0 0 0 3px color-mix(in srgb, var(--c) 25%, transparent); flex-shrink: 0; transition: background .15s; }
+    .leg-count { font-weight: 500; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+    #tally { margin-left: auto; font-size: .8rem; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+    #tally strong { color: var(--text); font-weight: 700; }
+
+    #map-wrap { position: relative; flex: 1; min-height: 0; }
+    #map { position: absolute; inset: 0; background: #e5e7eb; }
+    #loading { position: absolute; inset: 0; display: grid; place-items: center; background: var(--bg); z-index: 5; transition: opacity .4s; }
+    #loading.hidden { opacity: 0; pointer-events: none; }
+    .spinner { width: 34px; height: 34px; border-radius: 50%; border: 3px solid rgba(212, 175, 55, .2); border-top-color: var(--gold); animation: spin .8s linear infinite; margin: 0 auto 12px; }
+    #loading p { font-size: .85rem; color: var(--muted); text-align: center; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    #note { position: absolute; left: 12px; bottom: 26px; z-index: 4; max-width: 340px; padding: 8px 12px; border-radius: 10px; background: rgba(255, 255, 255, .92); color: #475569; font-size: .7rem; line-height: 1.45; box-shadow: 0 2px 10px rgba(15, 23, 42, .15); }
+    #note { padding-right: 28px; }
+    #note-close { position: absolute; top: 4px; right: 6px; border: 0; background: none; color: #94a3b8; font-size: 1rem; line-height: 1; cursor: pointer; padding: 2px 4px; }
+    #note-close:hover { color: #0f172a; }
+
+    /* Info window */
+    .gm-style .gm-style-iw-c { padding: 0 !important; border-radius: 14px !important; box-shadow: 0 12px 40px rgba(15, 23, 42, .3) !important; }
+    .gm-style .gm-style-iw-d { overflow: auto !important; padding: 0 !important; }
+    .gm-style .gm-style-iw-chr { position: absolute; top: 4px; right: 4px; z-index: 1; }
+    .hp { width: 280px; max-width: 72vw; font-family: inherit; }
+    .hp-top { padding: 16px 44px 12px 16px; border-top: 5px solid var(--c); }
+    .hp-badge { display: inline-flex; align-items: center; gap: 6px; font-size: .66rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: color-mix(in srgb, var(--c) 75%, #000); margin-bottom: 6px; }
+    .hp-badge::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--c); }
+    .hp-name { font-size: 1rem; font-weight: 700; color: #0f172a; line-height: 1.3; }
+    .hp-brand { font-size: .78rem; color: #475569; margin-top: 4px; }
+    .hp-addr { display: flex; gap: 6px; font-size: .78rem; color: #64748b; line-height: 1.4; margin-top: 8px; }
+    .hp-addr svg { width: 13px; height: 13px; flex-shrink: 0; margin-top: 2px; }
+    .hp-actions { display: flex; gap: 8px; padding: 0 16px 16px; }
+    .hp-btn { flex: 1; text-align: center; padding: 8px 10px; border-radius: 8px; font-size: .78rem; font-weight: 600; text-decoration: none; transition: background .15s; }
+    .hp-btn.primary { background: #0f172a; color: #fff; }
+    .hp-btn.primary:hover { background: #1e293b; }
+    .hp-btn.ghost { background: #f1f5f9; color: #0f172a; }
+    .hp-btn.ghost:hover { background: #e2e8f0; }
+
+    @media (max-width: 720px) {
+      #header { gap: 10px; padding: 10px 12px; }
+      .brand p { display: none; }
+      .search-wrap { order: 3; flex-basis: 100%; max-width: none; }
+      #legend { order: 4; width: 100%; overflow-x: auto; flex-wrap: nowrap; scrollbar-width: none; }
+      .leg { padding: 6px 11px; font-size: .76rem; }
+      #note { right: 12px; bottom: 24px; max-width: none; }
+    }
   </style>
 </head>
 <body>
-<div id="header">
-  <h1>🏨 Luxury Hotel Map</h1>
-  <input id="search" type="search" placeholder="Search hotels, cities, brands…" autocomplete="off">
-  <div id="legend">
-    <div class="leg" data-key="Hilton Portfolio" style="border-color:#3b82f6; background:rgba(59,130,246,.1)"><div class="leg-dot" style="background:#3b82f6"></div>Hilton&nbsp;<span id="cnt-hilton" style="font-weight:400;color:#94a3b8"></span></div>
-    <div class="leg" data-key="Fine Hotels + Resorts" style="border-color:#f59e0b; background:rgba(245,158,11,.1)"><div class="leg-dot" style="background:#f59e0b"></div>FHR&nbsp;<span id="cnt-fhr" style="font-weight:400;color:#94a3b8"></span></div>
-    <div class="leg" data-key="The Hotel Collection" style="border-color:#22c55e; background:rgba(34,197,94,.1)"><div class="leg-dot" style="background:#22c55e"></div>THC&nbsp;<span id="cnt-thc" style="font-weight:400;color:#94a3b8"></span></div>
+<header id="header">
+  <div class="brand">
+    <div class="brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#0b1220" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4M9 10h.01M15 10h.01M9 14h.01M15 14h.01"/></svg>
+    </div>
+    <div>
+      <h1>Amex Hotel Credits Map</h1>
+      <p>Hilton resort credit · Fine Hotels + Resorts · The Hotel Collection</p>
+    </div>
   </div>
-  <div id="tally">Loading map…</div>
-</div>
-<div id="map"></div>
+  <label class="search-wrap">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input id="search" type="search" placeholder="Search hotels, cities, brands…" autocomplete="off" aria-label="Search hotels">
+  </label>
+  <div id="legend" role="group" aria-label="Filter by program">
+    <button type="button" class="leg" data-key="Hilton Portfolio" aria-pressed="true" style="--c: var(--hilton)"><span class="leg-dot"></span>Hilton <span class="leg-count" id="cnt-hilton"></span></button>
+    <button type="button" class="leg" data-key="Fine Hotels + Resorts" aria-pressed="true" style="--c: var(--fhr)"><span class="leg-dot"></span>FHR <span class="leg-count" id="cnt-fhr"></span></button>
+    <button type="button" class="leg" data-key="The Hotel Collection" aria-pressed="true" style="--c: var(--thc)"><span class="leg-dot"></span>THC <span class="leg-count" id="cnt-thc"></span></button>
+  </div>
+  <div id="tally" aria-live="polite">Loading…</div>
+</header>
+<main id="map-wrap">
+  <div id="map"></div>
+  <div id="loading"><div><div class="spinner"></div><p id="loading-text">Loading map…</p></div></div>
+  <div id="note">Informational only — eligibility, credits, and benefits are set by Hilton and American Express at booking. Refreshed nightly.<button type="button" id="note-close" aria-label="Dismiss">×</button></div>
+</main>
 
 <script src="map-config.js?v=secure-1"></script>
 <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
 <script>
 const PROGRAMS = {
-  "Hilton Portfolio": { color: "#3b82f6", badgeBg: "#1d4ed8" },
-  "Fine Hotels + Resorts": { color: "#f59e0b", badgeBg: "#92400e" },
-  "The Hotel Collection": { color: "#22c55e", badgeBg: "#166534" },
+  "Hilton Portfolio": { color: "#3b82f6", short: "Hilton" },
+  "Fine Hotels + Resorts": { color: "#f59e0b", short: "FHR" },
+  "The Hotel Collection": { color: "#10b981", short: "THC" },
 };
 const CNT_EL = {
   "Hilton Portfolio": document.getElementById("cnt-hilton"),
@@ -51,6 +127,7 @@ const CNT_EL = {
   "The Hotel Collection": document.getElementById("cnt-thc"),
 };
 const tally = document.getElementById("tally");
+const loading = document.getElementById("loading");
 const enabled = Object.fromEntries(Object.keys(PROGRAMS).map(program => [program, true]));
 const markers = {};
 const clusters = {};
@@ -58,23 +135,68 @@ let map;
 let infoWindow;
 let allHotels = [];
 
+// Soft, low-contrast basemap so the colored markers stand out.
+const MAP_STYLE = [
+  { elementType: "geometry", stylers: [{ color: "#f3f4f6" }] },
+  { elementType: "labels.text.fill", stylers: [{ color: "#64748b" }] },
+  { elementType: "labels.text.stroke", stylers: [{ color: "#ffffff" }] },
+  { featureType: "administrative", elementType: "geometry.stroke", stylers: [{ color: "#cbd5e1" }] },
+  { featureType: "administrative.country", elementType: "labels.text.fill", stylers: [{ color: "#475569" }] },
+  { featureType: "poi", stylers: [{ visibility: "off" }] },
+  { featureType: "road", elementType: "geometry", stylers: [{ color: "#ffffff" }] },
+  { featureType: "road", elementType: "labels.icon", stylers: [{ visibility: "off" }] },
+  { featureType: "road.highway", elementType: "geometry", stylers: [{ color: "#e2e8f0" }] },
+  { featureType: "transit", stylers: [{ visibility: "off" }] },
+  { featureType: "water", elementType: "geometry", stylers: [{ color: "#bfdbfe" }] },
+  { featureType: "water", elementType: "labels.text.fill", stylers: [{ color: "#3b82f6" }] },
+];
+
+const PIN_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>';
+
 function esc(value) {
   return String(value || "").replace(/&/g, "&amp;").replace(/</g, "&lt;")
     .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
+function titleCase(value) {
+  return value && value === value.toUpperCase() ? value.toLowerCase().replace(/\b\w/g, c => c.toUpperCase()) : value;
+}
+
 function popupHtml(hotel) {
-  const program = PROGRAMS[hotel.p] || { badgeBg: "#334155" };
-  const brand = hotel.b && hotel.b !== hotel.g ? `<div class="hp-brand">${esc(hotel.b)}</div>` : "";
-  const address = hotel.a ? `<div class="hp-addr">📍 ${esc(hotel.a)}</div>` : "";
-  const link = hotel.u ? `<a class="hp-link" href="${esc(hotel.u)}" target="_blank" rel="noopener noreferrer">View Property →</a>` : "";
-  return `<div class="hp"><div class="hp-name">${esc(hotel.n)}</div><span class="hp-badge" style="background:${program.badgeBg}">${esc(hotel.p)}</span>${brand}${address}${link}</div>`;
+  const program = PROGRAMS[hotel.p] || { color: "#64748b" };
+  const brand = hotel.b && hotel.b !== hotel.g ? `<div class="hp-brand">${esc(hotel.b)}</div>`
+    : hotel.g && hotel.g.toLowerCase() !== hotel.p.toLowerCase() ? `<div class="hp-brand">${esc(titleCase(hotel.g))}</div>` : "";
+  const address = hotel.a ? `<div class="hp-addr">${PIN_ICON}<span>${esc(hotel.a)}</span></div>` : "";
+  const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${hotel.n} ${hotel.a || ""}`.trim())}`;
+  const link = hotel.u ? `<a class="hp-btn primary" href="${esc(hotel.u)}" target="_blank" rel="noopener noreferrer">View property</a>` : "";
+  return `<div class="hp" style="--c:${program.color}">
+    <div class="hp-top"><div class="hp-badge">${esc(hotel.p)}</div><div class="hp-name">${esc(hotel.n)}</div>${brand}${address}</div>
+    <div class="hp-actions">${link}<a class="hp-btn ghost" href="${esc(mapsUrl)}" target="_blank" rel="noopener noreferrer">Google Maps</a></div>
+  </div>`;
+}
+
+function clusterRenderer(color) {
+  return {
+    render({ count, position }) {
+      const size = Math.min(56, 30 + Math.log10(count) * 12);
+      const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 40 40">
+        <circle cx="20" cy="20" r="19" fill="${color}" fill-opacity=".22"/>
+        <circle cx="20" cy="20" r="14.5" fill="${color}" stroke="#fff" stroke-width="2"/></svg>`;
+      return new google.maps.Marker({
+        position,
+        icon: { url: `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`, scaledSize: new google.maps.Size(size, size), anchor: new google.maps.Point(size / 2, size / 2) },
+        label: { text: count.toLocaleString(), color: "#fff", fontSize: count >= 1000 ? "10px" : "11px", fontWeight: "700" },
+        title: `${count.toLocaleString()} hotels`,
+        zIndex: Number(google.maps.Marker.MAX_ZINDEX) + count,
+      });
+    },
+  };
 }
 
 function updateTally() {
   const count = Object.keys(PROGRAMS).filter(program => enabled[program])
     .reduce((total, program) => total + (markers[program] || []).length, 0);
-  tally.textContent = `${count.toLocaleString()} hotels`;
+  tally.innerHTML = `<strong>${count.toLocaleString()}</strong> ${count === 1 ? "hotel" : "hotels"}`;
 }
 
 function clearMarkers() {
@@ -90,7 +212,7 @@ function buildMarkers(hotels) {
     if (!program || !Number.isFinite(hotel.lat) || !Number.isFinite(hotel.lon)) return;
     const marker = new google.maps.Marker({
       position: { lat: hotel.lat, lng: hotel.lon }, title: hotel.n,
-      icon: { path: google.maps.SymbolPath.CIRCLE, fillColor: program.color, fillOpacity: 1, scale: 6, strokeColor: "#fff", strokeOpacity: .9, strokeWeight: 1.5 },
+      icon: { path: google.maps.SymbolPath.CIRCLE, fillColor: program.color, fillOpacity: 1, scale: 7, strokeColor: "#fff", strokeOpacity: 1, strokeWeight: 2 },
     });
     marker.addListener("click", () => { infoWindow.setContent(popupHtml(hotel)); infoWindow.open({ map, anchor: marker }); });
     markers[hotel.p].push(marker);
@@ -99,36 +221,44 @@ function buildMarkers(hotels) {
   Object.keys(PROGRAMS).forEach(program => {
     clusters[program].addMarkers(markers[program]);
     clusters[program].setMap(enabled[program] ? map : null);
-    CNT_EL[program].textContent = `(${(counts[program] || 0).toLocaleString()})`;
+    CNT_EL[program].textContent = (counts[program] || 0).toLocaleString();
   });
   updateTally();
 }
 
+function showError(message) {
+  tally.textContent = message;
+  document.getElementById("loading-text").textContent = message;
+  loading.querySelector(".spinner").style.display = "none";
+}
+
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 20, lng: 10 }, zoom: 2, minZoom: 2, mapTypeControl: false,
-    streetViewControl: false, fullscreenControl: true,
+    center: { lat: 25, lng: 10 }, zoom: 2, minZoom: 2, mapTypeControl: false,
+    streetViewControl: false, fullscreenControl: true, clickableIcons: false,
+    gestureHandling: "greedy", styles: MAP_STYLE,
     renderingType: google.maps.RenderingType.RASTER,
   });
-  infoWindow = new google.maps.InfoWindow();
+  infoWindow = new google.maps.InfoWindow({ maxWidth: 320 });
+  map.addListener("click", () => infoWindow.close());
   Object.keys(PROGRAMS).forEach(program => {
     markers[program] = [];
-    clusters[program] = new markerClusterer.MarkerClusterer({ map, markers: [] });
+    clusters[program] = new markerClusterer.MarkerClusterer({ map, markers: [], renderer: clusterRenderer(PROGRAMS[program].color) });
   });
   fetch("hotels.json")
     .then(response => { if (!response.ok) throw new Error(response.status); return response.json(); })
-    .then(data => { allHotels = data; buildMarkers(data); })
-    .catch(error => { tally.textContent = "Failed to load data"; console.error("Could not load hotels.json:", error); });
+    .then(data => { allHotels = data; buildMarkers(data); loading.classList.add("hidden"); })
+    .catch(error => { showError("Failed to load hotel data"); console.error("Could not load hotels.json:", error); });
 }
 
 function loadGoogleMaps() {
   const key = window.MAP_CONFIG && window.MAP_CONFIG.googleMapsApiKey;
-  if (!key) { tally.textContent = "Google Maps key required"; console.error("Set googleMapsApiKey in docs/map-config.js before publishing."); return; }
+  if (!key || key.startsWith("__")) { showError("Google Maps key required"); console.error("Set googleMapsApiKey in docs/map-config.js before publishing."); return; }
   const script = document.createElement("script");
   script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(key)}&v=weekly&loading=async`;
   script.async = true;
   script.onload = initMap;
-  script.onerror = () => { tally.textContent = "Failed to load Google Maps"; };
+  script.onerror = () => showError("Failed to load Google Maps");
   document.head.appendChild(script);
 }
 
@@ -136,16 +266,19 @@ document.querySelectorAll(".leg").forEach(element => {
   element.addEventListener("click", () => {
     const program = element.dataset.key;
     enabled[program] = !enabled[program];
-    element.classList.toggle("off", !enabled[program]);
+    element.setAttribute("aria-pressed", String(enabled[program]));
     if (clusters[program]) clusters[program].setMap(enabled[program] ? map : null);
     updateTally();
   });
 });
 
+document.getElementById("note-close").addEventListener("click", () => document.getElementById("note").remove());
+
 let searchTimer;
 document.getElementById("search").addEventListener("input", event => {
   clearTimeout(searchTimer);
   searchTimer = setTimeout(() => {
+    if (!map) return;
     const query = event.target.value.trim().toLowerCase();
     buildMarkers(query ? allHotels.filter(hotel => hotel.n.toLowerCase().includes(query) ||
       (hotel.a && hotel.a.toLowerCase().includes(query)) || (hotel.b && hotel.b.toLowerCase().includes(query)) ||

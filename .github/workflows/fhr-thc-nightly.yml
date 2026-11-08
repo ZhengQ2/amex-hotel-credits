@@ -66,7 +66,8 @@ jobs:
           python hotel_changes.py \
             --csv fhr_out:cache/fhr_hotels_geocoded_google.csv \
             --csv thc_out:cache/thc_hotels_geocoded_google.csv \
-            --report hotel_changes.txt
+            --report hotel_changes.txt \
+            --html-report hotel_changes.html
 
       - name: Write Google service account credentials
         if: steps.check_output.outputs.fhr_out == 'true' || steps.check_output.outputs.thc_out == 'true'
@@ -161,6 +162,7 @@ jobs:
           to: ${{ vars.EMAIL_TO }}
           from: ${{ vars.EMAIL_FROM }}
           body: file://hotel_changes.txt
+          html_body: file://hotel_changes.html
           attachments: |
             cache/fhr_hotels_geocoded_google.csv
             cache/thc_hotels_geocoded_google.csv
