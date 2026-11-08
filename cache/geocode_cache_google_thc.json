@@ -7029,48 +7029,6 @@
       "website": "https://hotel.hardrock.com/new-york?utm_campaign=shrss_hotel_hard-rock-hotel-new-york_websitelisting&utm_medium=referral&utm_source=gmb"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Public Hotels Hotel\", \"Public Hotels Resort\", \"Public Hotels\", \"Public Hotels New York, New York US Hotel\", \"Public Hotels New York, New York US Resort\", \"Public Hotels New York, New York US\", \"PUBLIC Hotels Hotel\", \"PUBLIC Hotels Resort\", \"PUBLIC Hotels\", \"PUBLIC Hotels New York, New York US Hotel\", \"PUBLIC Hotels New York, New York US Resort\", \"PUBLIC Hotels New York, New York US\"], \"v\": 3}": {
-    "lat": 40.7231104,
-    "lon": -73.9920935,
-    "formatted_address": "215 Chrystie St, New York, NY 10002, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJYY-OM4RZwokRvA7ECx3HRZw",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "215 Chrystie St, New York, NY 10002, USA",
-      "geometry": {
-        "location": {
-          "lat": 40.7231104,
-          "lng": -73.9920935
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 40.7243709802915,
-            "lng": -73.99039996970849
-          },
-          "southwest": {
-            "lat": 40.7216730197085,
-            "lng": -73.9930979302915
-          }
-        }
-      },
-      "name": "PUBLIC Hotel",
-      "place_id": "ChIJYY-OM4RZwokRvA7ECx3HRZw",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.publichotels.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Soho Grand Hotel Hotel\", \"Soho Grand Hotel Resort\", \"Soho Grand Hotel\", \"Soho Grand Hotel New York, New York US Hotel\", \"Soho Grand Hotel New York, New York US Resort\", \"Soho Grand Hotel New York, New York US\"], \"v\": 3}": {
     "lat": 40.7219844,
     "lon": -74.0043287,
@@ -22097,52 +22055,6 @@
         "restaurant"
       ],
       "website": "https://www.fairmont.com/makati/?goto=fiche_hotel&code_hotel=A5G3&merchantid=seo-maps-PH-A5G3&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
-    }
-  },
-  "{\"brand\": \"Fairmont\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fairmont Royal Palm Marrakech Fairmont Hotel\", \"Fairmont Royal Palm Marrakech Fairmont Resort\", \"Fairmont Royal Palm Marrakech Fairmont\", \"Fairmont Royal Palm Marrakech Fairmont Marrakech, Morocco Hotel\", \"Fairmont Royal Palm Marrakech Fairmont Marrakech, Morocco Resort\", \"Fairmont Royal Palm Marrakech Fairmont Marrakech, Morocco\", \"Fairmont Royal Palm Marrakech Hilton Hotel\", \"Fairmont Royal Palm Marrakech Hilton Resort\", \"Fairmont Royal Palm Marrakech Hilton\", \"Fairmont Royal Palm Marrakech Hilton Marrakech, Morocco Hotel\", \"Fairmont Royal Palm Marrakech Hilton Marrakech, Morocco Resort\", \"Fairmont Royal Palm Marrakech Hilton Marrakech, Morocco\", \"Fairmont Royal Palm Marrakech Hotel\", \"Fairmont Royal Palm Marrakech Resort\", \"Fairmont Royal Palm Marrakech\", \"Fairmont Royal Palm Marrakech Marrakech, Morocco Hotel\", \"Fairmont Royal Palm Marrakech Marrakech, Morocco Resort\", \"Fairmont Royal Palm Marrakech Marrakech, Morocco\"], \"v\": 3}": {
-    "lat": 31.513214,
-    "lon": -8.052152399999999,
-    "formatted_address": "Km 12 Route D'Amizmiz, Marrakech 40000, Morocco",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJEbwRN3zmrw0RQFkRK8M270w",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Km 12 Route D'Amizmiz, Marrakech 40000, Morocco",
-      "geometry": {
-        "location": {
-          "lat": 31.513214,
-          "lng": -8.052152399999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 31.5145301802915,
-            "lng": -8.050925169708497
-          },
-          "southwest": {
-            "lat": 31.51183221970851,
-            "lng": -8.053623130291502
-          }
-        }
-      },
-      "name": "Fairmont Royal Palm Marrakesh",
-      "place_id": "ChIJEbwRN3zmrw0RQFkRK8M270w",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.fairmont.com/marrakech/?goto=fiche_hotel&code_hotel=B147&merchantid=seo-maps-MA-B147&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
     }
   },
   "{\"brand\": \"Fairmont\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fairmont Monte Carlo Fairmont Hotel\", \"Fairmont Monte Carlo Fairmont Resort\", \"Fairmont Monte Carlo Fairmont\", \"Fairmont Monte Carlo Fairmont Monte-Carlo, Monaco Hotel\", \"Fairmont Monte Carlo Fairmont Monte-Carlo, Monaco Resort\", \"Fairmont Monte Carlo Fairmont Monte-Carlo, Monaco\", \"Fairmont Monte Carlo Hilton Hotel\", \"Fairmont Monte Carlo Hilton Resort\", \"Fairmont Monte Carlo Hilton\", \"Fairmont Monte Carlo Hilton Monte-Carlo, Monaco Hotel\", \"Fairmont Monte Carlo Hilton Monte-Carlo, Monaco Resort\", \"Fairmont Monte Carlo Hilton Monte-Carlo, Monaco\", \"Fairmont Monte Carlo Hotel\", \"Fairmont Monte Carlo Resort\", \"Fairmont Monte Carlo\", \"Fairmont Monte Carlo Monte-Carlo, Monaco Hotel\", \"Fairmont Monte Carlo Monte-Carlo, Monaco Resort\", \"Fairmont Monte Carlo Monte-Carlo, Monaco\"], \"v\": 3}": {
@@ -57817,48 +57729,6 @@
         "point_of_interest"
       ],
       "website": "http://www.hotelpeterandpaul.com/"
-    }
-  },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"PUBLIC Hotels Hotel\", \"PUBLIC Hotels Resort\", \"PUBLIC Hotels\", \"PUBLIC Hotels New York, New York US Hotel\", \"PUBLIC Hotels New York, New York US Resort\", \"PUBLIC Hotels New York, New York US\", \"Public Hotels Hotel\", \"Public Hotels Resort\", \"Public Hotels\", \"Public Hotels New York, New York US Hotel\", \"Public Hotels New York, New York US Resort\", \"Public Hotels New York, New York US\"], \"v\": 3}": {
-    "lat": 40.7231104,
-    "lon": -73.9920935,
-    "formatted_address": "215 Chrystie St, New York, NY 10002, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJYY-OM4RZwokRvA7ECx3HRZw",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "215 Chrystie St, New York, NY 10002, USA",
-      "geometry": {
-        "location": {
-          "lat": 40.7231104,
-          "lng": -73.9920935
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 40.7243709802915,
-            "lng": -73.99039996970849
-          },
-          "southwest": {
-            "lat": 40.7216730197085,
-            "lng": -73.9930979302915
-          }
-        }
-      },
-      "name": "PUBLIC Hotel",
-      "place_id": "ChIJYY-OM4RZwokRvA7ECx3HRZw",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.publichotels.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect"
     }
   },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Ned NoMad Hotel\", \"The Ned NoMad Resort\", \"The Ned NoMad\", \"The Ned NoMad New York, New York US Hotel\", \"The Ned NoMad New York, New York US Resort\", \"The Ned NoMad New York, New York US\", \"The Ned Nomad Hotel\", \"The Ned Nomad Resort\", \"The Ned Nomad\", \"The Ned Nomad New York, New York US Hotel\", \"The Ned Nomad New York, New York US Resort\", \"The Ned Nomad New York, New York US\"], \"v\": 3}": {
@@ -95356,48 +95226,6 @@
       "website": "https://hotel.hardrock.com/new-york?utm_campaign=shrss_hotel_hard-rock-hotel-new-york_websitelisting&utm_medium=referral&utm_source=gmb"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"PUBLIC Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"PUBLIC Hotels Hotel\", \"PUBLIC Hotels Resort\", \"PUBLIC Hotels\", \"PUBLIC Hotels New York, New York US Hotel\", \"PUBLIC Hotels New York, New York US Resort\", \"PUBLIC Hotels New York, New York US\", \"Public Hotels Hotel\", \"Public Hotels Resort\", \"Public Hotels\", \"Public Hotels New York, New York US Hotel\", \"Public Hotels New York, New York US Resort\", \"Public Hotels New York, New York US\"], \"v\": 3}": {
-    "lat": 40.7231104,
-    "lon": -73.9920935,
-    "formatted_address": "215 Chrystie St, New York, NY 10002, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJYY-OM4RZwokRvA7ECx3HRZw",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "215 Chrystie St, New York, NY 10002, USA",
-      "geometry": {
-        "location": {
-          "lat": 40.7231104,
-          "lng": -73.9920935
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 40.7243709802915,
-            "lng": -73.99039996970849
-          },
-          "southwest": {
-            "lat": 40.7216730197085,
-            "lng": -73.9930979302915
-          }
-        }
-      },
-      "name": "PUBLIC Hotel",
-      "place_id": "ChIJYY-OM4RZwokRvA7ECx3HRZw",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.publichotels.com/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Soho Grand Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Soho Grand Hotel Hotel\", \"Soho Grand Hotel Resort\", \"Soho Grand Hotel\", \"Soho Grand Hotel New York, New York US Hotel\", \"Soho Grand Hotel New York, New York US Resort\", \"Soho Grand Hotel New York, New York US\"], \"v\": 3}": {
     "lat": 40.7219844,
     "lon": -74.0043287,
@@ -111904,52 +111732,6 @@
         "restaurant"
       ],
       "website": "https://www.fairmont.com/makati/?goto=fiche_hotel&code_hotel=A5G3&merchantid=seo-maps-PH-A5G3&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Fairmont Royal Palm Marrakech\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fairmont Royal Palm Marrakech Fairmont Hotel\", \"Fairmont Royal Palm Marrakech Fairmont Resort\", \"Fairmont Royal Palm Marrakech Fairmont\", \"Fairmont Royal Palm Marrakech Fairmont Marrakech, Morocco Hotel\", \"Fairmont Royal Palm Marrakech Fairmont Marrakech, Morocco Resort\", \"Fairmont Royal Palm Marrakech Fairmont Marrakech, Morocco\", \"Fairmont Royal Palm Marrakech Hilton Hotel\", \"Fairmont Royal Palm Marrakech Hilton Resort\", \"Fairmont Royal Palm Marrakech Hilton\", \"Fairmont Royal Palm Marrakech Hilton Marrakech, Morocco Hotel\", \"Fairmont Royal Palm Marrakech Hilton Marrakech, Morocco Resort\", \"Fairmont Royal Palm Marrakech Hilton Marrakech, Morocco\", \"Fairmont Royal Palm Marrakech Hotel\", \"Fairmont Royal Palm Marrakech Resort\", \"Fairmont Royal Palm Marrakech\", \"Fairmont Royal Palm Marrakech Marrakech, Morocco Hotel\", \"Fairmont Royal Palm Marrakech Marrakech, Morocco Resort\", \"Fairmont Royal Palm Marrakech Marrakech, Morocco\"], \"v\": 3}": {
-    "lat": 31.513214,
-    "lon": -8.052152399999999,
-    "formatted_address": "Km 12 Route D'Amizmiz, Marrakech 40000, Morocco",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJEbwRN3zmrw0RQFkRK8M270w",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Km 12 Route D'Amizmiz, Marrakech 40000, Morocco",
-      "geometry": {
-        "location": {
-          "lat": 31.513214,
-          "lng": -8.052152399999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 31.5145301802915,
-            "lng": -8.050925169708497
-          },
-          "southwest": {
-            "lat": 31.51183221970851,
-            "lng": -8.053623130291502
-          }
-        }
-      },
-      "name": "Fairmont Royal Palm Marrakesh",
-      "place_id": "ChIJEbwRN3zmrw0RQFkRK8M270w",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.fairmont.com/marrakech/?goto=fiche_hotel&code_hotel=B147&merchantid=seo-maps-MA-B147&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Fairmont Monte Carlo\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fairmont Monte Carlo Fairmont Hotel\", \"Fairmont Monte Carlo Fairmont Resort\", \"Fairmont Monte Carlo Fairmont\", \"Fairmont Monte Carlo Fairmont Monte-Carlo, Monaco Hotel\", \"Fairmont Monte Carlo Fairmont Monte-Carlo, Monaco Resort\", \"Fairmont Monte Carlo Fairmont Monte-Carlo, Monaco\", \"Fairmont Monte Carlo Hilton Hotel\", \"Fairmont Monte Carlo Hilton Resort\", \"Fairmont Monte Carlo Hilton\", \"Fairmont Monte Carlo Hilton Monte-Carlo, Monaco Hotel\", \"Fairmont Monte Carlo Hilton Monte-Carlo, Monaco Resort\", \"Fairmont Monte Carlo Hilton Monte-Carlo, Monaco\", \"Fairmont Monte Carlo Hotel\", \"Fairmont Monte Carlo Resort\", \"Fairmont Monte Carlo\", \"Fairmont Monte Carlo Monte-Carlo, Monaco Hotel\", \"Fairmont Monte Carlo Monte-Carlo, Monaco Resort\", \"Fairmont Monte Carlo Monte-Carlo, Monaco\"], \"v\": 3}": {
@@ -159815,6 +159597,48 @@
         "point_of_interest"
       ],
       "website": "https://www.hilton.com/en/hotels/zagzcpy-canopy-zagreb-city-centre/?SEO_id=GMB-EMEA-PY-ZAGZCPY"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"PUBLIC New York\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"PUBLIC New York Hotel\", \"PUBLIC New York Resort\", \"PUBLIC New York\", \"PUBLIC New York New York, New York US Hotel\", \"PUBLIC New York New York, New York US Resort\", \"PUBLIC New York New York, New York US\", \"Public New York Hotel\", \"Public New York Resort\", \"Public New York\", \"Public New York New York, New York US Hotel\", \"Public New York New York, New York US Resort\", \"Public New York New York, New York US\"], \"v\": 3}": {
+    "lat": 40.7231104,
+    "lon": -73.9920935,
+    "formatted_address": "215 Chrystie St, New York, NY 10002, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJYY-OM4RZwokRvA7ECx3HRZw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "215 Chrystie St, New York, NY 10002, USA",
+      "geometry": {
+        "location": {
+          "lat": 40.7231104,
+          "lng": -73.9920935
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 40.7243709802915,
+            "lng": -73.99039996970849
+          },
+          "southwest": {
+            "lat": 40.7216730197085,
+            "lng": -73.9930979302915
+          }
+        }
+      },
+      "name": "PUBLIC Hotel",
+      "place_id": "ChIJYY-OM4RZwokRvA7ECx3HRZw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://publichotels.com/newyork/?y_source=1_MjA1MTM1Mjg0OC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   }
 }
