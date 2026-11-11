@@ -213475,5 +213475,47 @@
       ],
       "website": "https://www.rosewoodhotels.com/en/jeddah"
     }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Banyan Tree Veya Valle de Guadalupe\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Banyan Tree Veya Valle de Guadalupe Banyan Tree Hotels & Resorts Hotel\", \"Banyan Tree Veya Valle de Guadalupe Banyan Tree Hotels & Resorts Resort\", \"Banyan Tree Veya Valle de Guadalupe Banyan Tree Hotels & Resorts\", \"Banyan Tree Veya Valle de Guadalupe Banyan Tree Hotels & Resorts Ensenada, Baja California MX Hotel\", \"Banyan Tree Veya Valle de Guadalupe Banyan Tree Hotels & Resorts Ensenada, Baja California MX Resort\", \"Banyan Tree Veya Valle de Guadalupe Banyan Tree Hotels & Resorts Ensenada, Baja California MX\", \"Banyan Tree Veya Valle de Guadalupe Hilton Hotel\", \"Banyan Tree Veya Valle de Guadalupe Hilton Resort\", \"Banyan Tree Veya Valle de Guadalupe Hilton\", \"Banyan Tree Veya Valle de Guadalupe Hilton Ensenada, Baja California MX Hotel\", \"Banyan Tree Veya Valle de Guadalupe Hilton Ensenada, Baja California MX Resort\", \"Banyan Tree Veya Valle de Guadalupe Hilton Ensenada, Baja California MX\", \"Banyan Tree Veya Valle De Guadalupe Banyan Tree Hotels & Resorts Hotel\", \"Banyan Tree Veya Valle De Guadalupe Banyan Tree Hotels & Resorts Resort\", \"Banyan Tree Veya Valle De Guadalupe Banyan Tree Hotels & Resorts\", \"Banyan Tree Veya Valle De Guadalupe Banyan Tree Hotels & Resorts Ensenada, Baja California MX Hotel\", \"Banyan Tree Veya Valle De Guadalupe Banyan Tree Hotels & Resorts Ensenada, Baja California MX Resort\", \"Banyan Tree Veya Valle De Guadalupe Banyan Tree Hotels & Resorts Ensenada, Baja California MX\", \"Banyan Tree Veya Valle De Guadalupe Hilton Hotel\", \"Banyan Tree Veya Valle De Guadalupe Hilton Resort\", \"Banyan Tree Veya Valle De Guadalupe Hilton\", \"Banyan Tree Veya Valle De Guadalupe Hilton Ensenada, Baja California MX Hotel\", \"Banyan Tree Veya Valle De Guadalupe Hilton Ensenada, Baja California MX Resort\", \"Banyan Tree Veya Valle De Guadalupe Hilton Ensenada, Baja California MX\", \"Banyan Tree Veya Valle de Guadalupe Hotel\", \"Banyan Tree Veya Valle de Guadalupe Resort\", \"Banyan Tree Veya Valle de Guadalupe\", \"Banyan Tree Veya Valle de Guadalupe Ensenada, Baja California MX Hotel\", \"Banyan Tree Veya Valle de Guadalupe Ensenada, Baja California MX Resort\", \"Banyan Tree Veya Valle de Guadalupe Ensenada, Baja California MX\"], \"v\": 3}": {
+    "lat": 32.0321351,
+    "lon": -116.6443015,
+    "formatted_address": "Camino Vecinal #179 Ejido El Porvenir Valle de Guadalupe, 22755 Ensenada, B.C., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJwx4EKnjx2IARekFmu2baw4w",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Camino Vecinal #179 Ejido El Porvenir Valle de Guadalupe, 22755 Ensenada, B.C., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 32.0321351,
+          "lng": -116.6443015
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.03348363029151,
+            "lng": -116.6429534197085
+          },
+          "southwest": {
+            "lat": 32.03078566970851,
+            "lng": -116.6456513802915
+          }
+        }
+      },
+      "name": "Wine Resort | Banyan Tree Veya Valle de Guadalupe",
+      "place_id": "ChIJwx4EKnjx2IARekFmu2baw4w",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.banyantree.com/veya/mexico/valle-de-guadalupe"
+    }
   }
 }
