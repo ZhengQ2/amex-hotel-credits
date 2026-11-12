@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📍</text></svg>">
   <title>Amex Credit Map — Hilton · FHR · THC</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -104,11 +105,17 @@ function buildMarkers(hotels) {
   updateTally();
 }
 
-function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
+async function initMap() {
+  // With loading=async the script's onload fires before classes are ready; load them explicitly.
+  const [{ Map, RenderingType }] = await Promise.all([
+    google.maps.importLibrary("maps"),
+    google.maps.importLibrary("marker"),
+    google.maps.importLibrary("core"),
+  ]);
+  map = new Map(document.getElementById("map"), {
     center: { lat: 20, lng: 10 }, zoom: 2, minZoom: 2, mapTypeControl: false,
     streetViewControl: false, fullscreenControl: true,
-    renderingType: google.maps.RenderingType.RASTER,
+    renderingType: RenderingType.RASTER,
   });
   infoWindow = new google.maps.InfoWindow();
   Object.keys(PROGRAMS).forEach(program => {
@@ -127,7 +134,7 @@ function loadGoogleMaps() {
   const script = document.createElement("script");
   script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(key)}&v=weekly&loading=async`;
   script.async = true;
-  script.onload = initMap;
+  script.onload = () => initMap().catch(error => { tally.textContent = "Failed to load Google Maps"; console.error(error); });
   script.onerror = () => { tally.textContent = "Failed to load Google Maps"; };
   document.head.appendChild(script);
 }
