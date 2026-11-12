@@ -106,7 +106,7 @@ function buildMarkers(hotels) {
 }
 
 async function initMap() {
-  // With loading=async the script's onload fires before classes are ready; load them explicitly.
+  // Called via the Maps &callback= param, once importLibrary is ready; load the classes we use.
   const [{ Map, RenderingType }] = await Promise.all([
     google.maps.importLibrary("maps"),
     google.maps.importLibrary("marker"),
@@ -132,9 +132,9 @@ function loadGoogleMaps() {
   const key = window.MAP_CONFIG && window.MAP_CONFIG.googleMapsApiKey;
   if (!key) { tally.textContent = "Google Maps key required"; console.error("Set googleMapsApiKey in docs/map-config.js before publishing."); return; }
   const script = document.createElement("script");
-  script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(key)}&v=weekly&loading=async`;
+  script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(key)}&v=weekly&loading=async&callback=onGoogleMapsReady`;
   script.async = true;
-  script.onload = () => initMap().catch(error => { tally.textContent = "Failed to load Google Maps"; console.error(error); });
+  window.onGoogleMapsReady = () => initMap().catch(error => { tally.textContent = "Failed to load Google Maps"; console.error(error); });
   script.onerror = () => { tally.textContent = "Failed to load Google Maps"; };
   document.head.appendChild(script);
 }
