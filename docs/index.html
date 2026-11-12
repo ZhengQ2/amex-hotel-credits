@@ -83,6 +83,17 @@ function clearMarkers() {
   Object.keys(PROGRAMS).forEach(program => { markers[program] = []; });
 }
 
+// Classic-marker cluster icons: the default renderer uses Advanced Markers, which need a Map ID this raster map lacks.
+function clusterRenderer(color) {
+  return {
+    render: ({ count, position }) => new google.maps.Marker({
+      position, zIndex: 1000 + count,
+      icon: { path: google.maps.SymbolPath.CIRCLE, fillColor: color, fillOpacity: .85, scale: 11 + Math.min(10, Math.log10(count) * 5), strokeColor: "#fff", strokeOpacity: .9, strokeWeight: 2 },
+      label: { text: String(count), color: "#fff", fontSize: "11px", fontWeight: "700" },
+    }),
+  };
+}
+
 function buildMarkers(hotels) {
   clearMarkers();
   const counts = {};
@@ -99,7 +110,9 @@ function buildMarkers(hotels) {
   });
   Object.keys(PROGRAMS).forEach(program => {
     // Build a fresh clusterer with its markers: markerclusterer 2.6 skips redraw when markers are added to an empty one.
-    clusters[program] = new markerClusterer.MarkerClusterer({ map: enabled[program] ? map : null, markers: markers[program] });
+    clusters[program] = new markerClusterer.MarkerClusterer({
+      map: enabled[program] ? map : null, markers: markers[program], renderer: clusterRenderer(PROGRAMS[program].color),
+    });
     CNT_EL[program].textContent = `(${(counts[program] || 0).toLocaleString()})`;
   });
   updateTally();
