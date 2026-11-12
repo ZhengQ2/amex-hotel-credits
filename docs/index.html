@@ -23,6 +23,8 @@
     .hp-brand { font-size: .76rem; color: #475569; margin-bottom: 3px; } .hp-addr { font-size: .76rem; color: #64748b; margin-bottom: 9px; }
     .hp-link { display: inline-block; padding: 5px 13px; background: #2563eb; color: #fff; border-radius: 5px; font-size: .76rem; font-weight: 600; text-decoration: none; }
     .hp-link:hover { background: #1d4ed8; }
+    .hp-list { max-height: 320px; overflow-y: auto; } .hp-list .hp + .hp { border-top: 1px solid #e2e8f0; margin-top: 9px; padding-top: 9px; }
+    #tip { position: fixed; z-index: 1001; display: none; pointer-events: none; background: rgba(15, 23, 42, .92); color: #f8fafc; font-size: .74rem; font-weight: 600; padding: 4px 8px; border-radius: 5px; white-space: nowrap; box-shadow: 0 2px 8px rgba(0, 0, 0, .25); }
   </style>
 </head>
 <body>
@@ -37,9 +39,10 @@
   <div id="tally">Loading map…</div>
 </div>
 <div id="map"></div>
+<div id="tip"></div>
 
 <script src="map-config.js?v=secure-1"></script>
-<script src="https://unpkg.com/@googlemaps/markerclusterer@2.6.2/dist/index.min.js"></script>
+<script src="https://unpkg.com/supercluster@8.0.1/dist/supercluster.min.js"></script>
 <script>
 const PROGRAMS = {
   "Hilton Portfolio": { color: "#3b82f6", badgeBg: "#1d4ed8" },
@@ -51,12 +54,16 @@ const CNT_EL = {
   "Fine Hotels + Resorts": document.getElementById("cnt-fhr"),
   "The Hotel Collection": document.getElementById("cnt-thc"),
 };
+const CLUSTER_MAX_ZOOM = 16;  // above this zoom every hotel is drawn on its own
 const tally = document.getElementById("tally");
+const tip = document.getElementById("tip");
 const enabled = Object.fromEntries(Object.keys(PROGRAMS).map(program => [program, true]));
-const markers = {};
-const clusters = {};
-let map;
-let infoWindow;
+const indexes = {};  // program -> Supercluster over the current (search-filtered) hotels
+const counts = {};   // program -> hotels in the current filter
+let items = [];      // clusters and single hotels at itemsZoom, all programs, drawn in this order
+let itemsZoom = null;
+let drawn = [];      // screen-space hit targets from the last draw, topmost last
+let map, infoWindow, overlay, frame = 0, cursorIsPointer = false;
 let allHotels = [];
 
 function esc(value) {
@@ -74,55 +81,180 @@ function popupHtml(hotel) {
 
 function updateTally() {
   const count = Object.keys(PROGRAMS).filter(program => enabled[program])
-    .reduce((total, program) => total + (markers[program] || []).length, 0);
+    .reduce((total, program) => total + (counts[program] || 0), 0);
   tally.textContent = `${count.toLocaleString()} hotels`;
 }
 
-function clearMarkers() {
-  Object.values(clusters).forEach(cluster => { cluster.clearMarkers(); cluster.setMap(null); });
-  Object.keys(PROGRAMS).forEach(program => { markers[program] = []; });
+// Web Mercator world coordinates in [0, 1), matching Google's projection.
+const worldX = lon => (lon + 180) / 360;
+function worldY(lat) {
+  const sin = Math.sin(Math.max(-85.05112878, Math.min(85.05112878, lat)) * Math.PI / 180);
+  return 0.5 - Math.log((1 + sin) / (1 - sin)) / (4 * Math.PI);
 }
+const radiusFor = count => count === 1 ? 6 : 11 + Math.min(10, Math.log10(count) * 5);
 
-// Classic-marker cluster icons: the default renderer uses Advanced Markers, which need a Map ID this raster map lacks.
-function clusterRenderer(color) {
-  return {
-    render: ({ count, position }) => new google.maps.Marker({
-      position, zIndex: 1000 + count,
-      icon: { path: google.maps.SymbolPath.CIRCLE, fillColor: color, fillOpacity: .85, scale: 11 + Math.min(10, Math.log10(count) * 5), strokeColor: "#fff", strokeOpacity: .9, strokeWeight: 2 },
-      label: { text: String(count), color: "#fff", fontSize: "11px", fontWeight: "700" },
-    }),
-  };
-}
-
-function buildMarkers(hotels) {
-  clearMarkers();
-  const counts = {};
+function buildIndexes(hotels) {
+  const features = Object.fromEntries(Object.keys(PROGRAMS).map(program => [program, []]));
   hotels.forEach(hotel => {
-    const program = PROGRAMS[hotel.p];
-    if (!program || !Number.isFinite(hotel.lat) || !Number.isFinite(hotel.lon)) return;
-    const marker = new google.maps.Marker({
-      position: { lat: hotel.lat, lng: hotel.lon }, title: hotel.n,
-      icon: { path: google.maps.SymbolPath.CIRCLE, fillColor: program.color, fillOpacity: 1, scale: 6, strokeColor: "#fff", strokeOpacity: .9, strokeWeight: 1.5 },
-    });
-    marker.addListener("click", () => { infoWindow.setContent(popupHtml(hotel)); infoWindow.open({ map, anchor: marker }); });
-    markers[hotel.p].push(marker);
-    counts[hotel.p] = (counts[hotel.p] || 0) + 1;
+    if (!features[hotel.p] || !Number.isFinite(hotel.lat) || !Number.isFinite(hotel.lon)) return;
+    features[hotel.p].push({ type: "Feature", geometry: { type: "Point", coordinates: [hotel.lon, hotel.lat] }, properties: { hotel } });
   });
   Object.keys(PROGRAMS).forEach(program => {
-    // Build a fresh clusterer with its markers: markerclusterer 2.6 skips redraw when markers are added to an empty one.
-    clusters[program] = new markerClusterer.MarkerClusterer({
-      map: enabled[program] ? map : null, markers: markers[program], renderer: clusterRenderer(PROGRAMS[program].color),
-    });
-    CNT_EL[program].textContent = `(${(counts[program] || 0).toLocaleString()})`;
+    indexes[program] = new Supercluster({ radius: 60, maxZoom: CLUSTER_MAX_ZOOM }).load(features[program]);
+    counts[program] = features[program].length;
+    CNT_EL[program].textContent = `(${counts[program].toLocaleString()})`;
   });
+  itemsZoom = null;
   updateTally();
+  drawPoints();
+}
+
+// Clusters are recomputed only when the zoom level or the search filter changes, never while panning.
+function computeItems(zoom) {
+  items = [];
+  Object.keys(PROGRAMS).forEach(program => {
+    if (!indexes[program]) return;
+    indexes[program].getClusters([-180, -90, 180, 90], zoom).forEach(feature => {
+      const [lon, lat] = feature.geometry.coordinates;
+      const isCluster = !!feature.properties.cluster;
+      const count = isCluster ? feature.properties.point_count : 1;
+      items.push({
+        program, color: PROGRAMS[program].color, count, lat, lon, wx: worldX(lon), wy: worldY(lat), r: radiusFor(count),
+        clusterId: isCluster ? feature.properties.cluster_id : null, hotel: isCluster ? null : feature.properties.hotel,
+      });
+    });
+  });
+  items.sort((a, b) => a.count - b.count);  // bigger clusters on top
+  itemsZoom = zoom;
+}
+
+// Everything is painted onto one canvas: far cheaper than thousands of DOM markers, and no deprecated google.maps.Marker.
+function drawPoints() {
+  const projection = overlay && overlay.getProjection();
+  const canvas = overlay && overlay.canvas;
+  const center = map && map.getCenter();
+  if (!projection || !canvas || !center) return;
+  const zoom = map.getZoom();
+  if (Math.round(zoom) !== itemsZoom) computeItems(Math.round(zoom));
+
+  const div = map.getDiv();
+  const width = div.clientWidth, height = div.clientHeight, dpr = window.devicePixelRatio || 1;
+  const origin = projection.fromLatLngToDivPixel(center);
+  canvas.style.left = `${origin.x - width / 2}px`;
+  canvas.style.top = `${origin.y - height / 2}px`;
+  canvas.style.width = `${width}px`;
+  canvas.style.height = `${height}px`;
+  if (canvas.width !== Math.round(width * dpr) || canvas.height !== Math.round(height * dpr)) {
+    canvas.width = Math.round(width * dpr);
+    canvas.height = Math.round(height * dpr);
+  }
+  const ctx = canvas.getContext("2d");
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.clearRect(0, 0, width, height);
+  ctx.font = '700 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif';
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
+
+  const scale = 256 * 2 ** zoom;  // world width in pixels
+  const left = worldX(center.lng()) * scale - width / 2;
+  const top = worldY(center.lat()) * scale - height / 2;
+  drawn = [];
+  for (const item of items) {
+    if (!enabled[item.program]) continue;
+    const y = item.wy * scale - top;
+    if (y < -item.r || y > height + item.r) continue;
+    const base = item.wx * scale - left;
+    // Draw every visible copy of the world (several fit across a wide screen at low zoom).
+    for (let x = base + Math.ceil((-item.r - base) / scale) * scale; x <= width + item.r; x += scale) {
+      ctx.beginPath();
+      ctx.arc(x, y, item.r, 0, 2 * Math.PI);
+      ctx.globalAlpha = item.count === 1 ? 1 : .85;
+      ctx.fillStyle = item.color;
+      ctx.fill();
+      ctx.globalAlpha = .9;
+      ctx.lineWidth = item.count === 1 ? 1.5 : 2;
+      ctx.strokeStyle = "#fff";
+      ctx.stroke();
+      ctx.globalAlpha = 1;
+      if (item.count > 1) { ctx.fillStyle = "#fff"; ctx.fillText(String(item.count), x, y + .5); }
+      drawn.push({ item, x, y });
+    }
+  }
+}
+
+function scheduleDraw() {
+  if (!frame) frame = requestAnimationFrame(() => { frame = 0; drawPoints(); });
+}
+
+// Everything drawn under the pointer, topmost first.
+function hitsAt(event) {
+  const domEvent = event.domEvent || {};
+  const point = domEvent.changedTouches ? domEvent.changedTouches[0] : domEvent;
+  let x, y;
+  if (Number.isFinite(point.clientX)) {
+    const rect = map.getDiv().getBoundingClientRect();
+    x = point.clientX - rect.left;
+    y = point.clientY - rect.top;
+  } else {
+    const pixel = overlay.getProjection().fromLatLngToContainerPixel(event.latLng);
+    x = pixel.x;
+    y = pixel.y;
+  }
+  const hits = [];
+  for (let i = drawn.length - 1; i >= 0; i--) {
+    const { item, x: cx, y: cy } = drawn[i];
+    const r = item.r + 2;
+    if ((x - cx) ** 2 + (y - cy) ** 2 <= r * r) hits.push(item);
+  }
+  return hits;
+}
+
+function openPopup(hotels, lat, lon, offset) {
+  const html = hotels.length === 1 ? popupHtml(hotels[0])
+    : `<div class="hp-list">${hotels.slice(0, 25).map(popupHtml).join("")}</div>`;
+  infoWindow.setOptions({ content: html, position: { lat, lng: lon }, pixelOffset: new google.maps.Size(0, -offset) });
+  infoWindow.open({ map });
+}
+
+function onMapClick(event) {
+  const hits = hitsAt(event);
+  if (!hits.length) return;
+  if (event.stop) event.stop();  // don't also open a Google POI popup
+  const top = hits[0];
+  if (top.clusterId !== null) {
+    const index = indexes[top.program];
+    const expansionZoom = index.getClusterExpansionZoom(top.clusterId);
+    if (expansionZoom > CLUSTER_MAX_ZOOM) {
+      // Hotels this close never split apart: list them instead of zooming forever.
+      openPopup(index.getLeaves(top.clusterId, 25).map(leaf => leaf.properties.hotel), top.lat, top.lon, top.r);
+    } else {
+      map.setZoom(expansionZoom);
+      map.panTo({ lat: top.lat, lng: top.lon });
+    }
+    return;
+  }
+  // Several programs can list the same property at the same spot: show all of them.
+  const singles = hits.filter(item => item.clusterId === null);
+  openPopup(singles.map(item => item.hotel), top.lat, top.lon, top.r);
+}
+
+function onMapMouseMove(event) {
+  const top = hitsAt(event)[0];
+  if (!!top !== cursorIsPointer) {
+    cursorIsPointer = !!top;
+    map.setOptions({ draggableCursor: top ? "pointer" : null });
+  }
+  if (!top) { tip.style.display = "none"; return; }
+  tip.textContent = top.count === 1 ? top.hotel.n : `${top.count.toLocaleString()} hotels · click to zoom`;
+  tip.style.left = `${event.domEvent.clientX + 14}px`;
+  tip.style.top = `${event.domEvent.clientY + 14}px`;
+  tip.style.display = "block";
 }
 
 async function initMap() {
   // Called via the Maps &callback= param, once importLibrary is ready; load the classes we use.
-  const [{ Map, RenderingType }] = await Promise.all([
+  const [{ Map, RenderingType, InfoWindow, OverlayView }] = await Promise.all([
     google.maps.importLibrary("maps"),
-    google.maps.importLibrary("marker"),
     google.maps.importLibrary("core"),
   ]);
   map = new Map(document.getElementById("map"), {
@@ -130,13 +262,29 @@ async function initMap() {
     streetViewControl: false, fullscreenControl: true,
     renderingType: RenderingType.RASTER,
   });
-  infoWindow = new google.maps.InfoWindow();
-  Object.keys(PROGRAMS).forEach(program => {
-    markers[program] = [];
-  });
+  infoWindow = new InfoWindow();
+
+  class CanvasOverlay extends OverlayView {
+    onAdd() {
+      this.canvas = document.createElement("canvas");
+      this.canvas.style.position = "absolute";
+      this.canvas.style.pointerEvents = "none";
+      this.getPanes().overlayLayer.appendChild(this.canvas);
+    }
+    draw() { drawPoints(); }
+    onRemove() { this.canvas.remove(); this.canvas = null; }
+  }
+  overlay = new CanvasOverlay();
+  overlay.setMap(map);
+  map.addListener("bounds_changed", scheduleDraw);
+  map.addListener("click", onMapClick);
+  map.addListener("mousemove", onMapMouseMove);
+  map.addListener("mouseout", () => { tip.style.display = "none"; });
+  map.addListener("dragstart", () => { tip.style.display = "none"; });
+
   fetch("hotels.json")
     .then(response => { if (!response.ok) throw new Error(response.status); return response.json(); })
-    .then(data => { allHotels = data; buildMarkers(data); })
+    .then(data => { allHotels = data; buildIndexes(data); })
     .catch(error => { tally.textContent = "Failed to load data"; console.error("Could not load hotels.json:", error); });
 }
 
@@ -156,7 +304,7 @@ document.querySelectorAll(".leg").forEach(element => {
     const program = element.dataset.key;
     enabled[program] = !enabled[program];
     element.classList.toggle("off", !enabled[program]);
-    if (clusters[program]) clusters[program].setMap(enabled[program] ? map : null);
+    drawPoints();
     updateTally();
   });
 });
@@ -166,7 +314,7 @@ document.getElementById("search").addEventListener("input", event => {
   clearTimeout(searchTimer);
   searchTimer = setTimeout(() => {
     const query = event.target.value.trim().toLowerCase();
-    buildMarkers(query ? allHotels.filter(hotel => hotel.n.toLowerCase().includes(query) ||
+    buildIndexes(query ? allHotels.filter(hotel => hotel.n.toLowerCase().includes(query) ||
       (hotel.a && hotel.a.toLowerCase().includes(query)) || (hotel.b && hotel.b.toLowerCase().includes(query)) ||
       (hotel.g && hotel.g.toLowerCase().includes(query))) : allHotels);
   }, 220);
