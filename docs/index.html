@@ -16,13 +16,23 @@
     .leg { display: flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 20px; border: 1.5px solid transparent; cursor: pointer; font-size: .78rem; font-weight: 600; transition: opacity .15s; white-space: nowrap; user-select: none; }
     .leg.off { opacity: .35; } .leg-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
     #tally { font-size: .75rem; color: #94a3b8; margin-left: auto; white-space: nowrap; }
-    #map { position: fixed; top: 49px; left: 0; width: 100%; height: calc(100vh - 49px); }
+    #map { position: fixed; top: var(--header-height, 49px); bottom: 0; left: 0; width: 100%; }
+    #price-filters { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; font-size: .76rem; color: #cbd5e1; }
+    #max-price { width: 90px; margin-left: 5px; border: 1px solid #475569; border-radius: 5px; padding: 5px 7px; background: #1e293b; color: #f8fafc; font: inherit; }
+    #include-unknown { accent-color: #60a5fa; vertical-align: middle; margin-right: 4px; }
+    #price-status { color: #94a3b8; font-size: .72rem; }
     .hp { min-width: 210px; max-width: 300px; padding: 2px; }
     .hp-name { font-size: .88rem; font-weight: 700; color: #0f172a; line-height: 1.35; margin-bottom: 7px; }
     .hp-badge { display: inline-block; padding: 2px 9px; border-radius: 12px; font-size: .68rem; font-weight: 700; color: #fff; margin-bottom: 6px; }
     .hp-brand { font-size: .76rem; color: #475569; margin-bottom: 3px; } .hp-addr { font-size: .76rem; color: #64748b; margin-bottom: 9px; }
     .hp-link { display: inline-block; padding: 5px 13px; background: #2563eb; color: #fff; border-radius: 5px; font-size: .76rem; font-weight: 600; text-decoration: none; }
     .hp-link:hover { background: #1d4ed8; }
+    .hp-price { font-size: .85rem; font-weight: 700; color: #0f172a; margin: 8px 0 4px; }
+    .hp-price-unknown { color: #64748b; font-size: .76rem; font-weight: 400; margin-bottom: 10px; }
+    .hp-price-meta, .hp-price-details { color: #475569; font-size: .71rem; line-height: 1.45; }
+    .hp-price-details { margin: 4px 0 10px; }
+    .hp-price-details summary { color: #1d4ed8; cursor: pointer; }
+    .hp-price-details p { margin-top: 5px; }
     .hp-list { max-height: 320px; overflow-y: auto; } .hp-list .hp + .hp { border-top: 1px solid #e2e8f0; margin-top: 9px; padding-top: 9px; }
     #tip { position: fixed; z-index: 1001; display: none; pointer-events: none; background: rgba(15, 23, 42, .92); color: #f8fafc; font-size: .74rem; font-weight: 600; padding: 4px 8px; border-radius: 5px; white-space: nowrap; box-shadow: 0 2px 8px rgba(0, 0, 0, .25); }
   </style>
@@ -36,12 +46,18 @@
     <div class="leg" data-key="Fine Hotels + Resorts" style="border-color:#f59e0b; background:rgba(245,158,11,.1)"><div class="leg-dot" style="background:#f59e0b"></div>FHR&nbsp;<span id="cnt-fhr" style="font-weight:400;color:#94a3b8"></span></div>
     <div class="leg" data-key="The Hotel Collection" style="border-color:#22c55e; background:rgba(34,197,94,.1)"><div class="leg-dot" style="background:#22c55e"></div>THC&nbsp;<span id="cnt-thc" style="font-weight:400;color:#94a3b8"></span></div>
   </div>
+  <div id="price-filters" role="group" aria-label="Nightly price filters">
+    <label for="max-price">Max US$ / night<input id="max-price" type="number" min="1" step="10" placeholder="Any" inputmode="numeric"></label>
+    <label><input id="include-unknown" type="checkbox" checked>Include hotels without prices</label>
+    <span id="price-status" role="status">Loading price estimates…</span>
+  </div>
   <div id="tally">Loading map…</div>
 </div>
 <div id="map"></div>
 <div id="tip"></div>
 
 <script src="map-config.js?v=secure-1"></script>
+<script src="prices.js?v=1"></script>
 <script src="https://unpkg.com/supercluster@8.0.1/dist/supercluster.min.js"></script>
 <script>
 const PROGRAMS = {
@@ -65,6 +81,12 @@ let itemsZoom = null;
 let drawn = [];      // screen-space hit targets from the last draw, topmost last
 let map, infoWindow, overlay, frame = 0, cursorIsPointer = false;
 let allHotels = [];
+let hotelPrices = {};
+
+// The controls can wrap on smaller screens; leave room for the whole header.
+new ResizeObserver(entries => {
+  document.documentElement.style.setProperty("--header-height", `${entries[0].target.offsetHeight}px`);
+}).observe(document.getElementById("header"));
 
 function esc(value) {
   return String(value || "").replace(/&/g, "&amp;").replace(/</g, "&lt;")
@@ -76,7 +98,34 @@ function popupHtml(hotel) {
   const brand = hotel.b && hotel.b !== hotel.g ? `<div class="hp-brand">${esc(hotel.b)}</div>` : "";
   const address = hotel.a ? `<div class="hp-addr">📍 ${esc(hotel.a)}</div>` : "";
   const link = hotel.u ? `<a class="hp-link" href="${esc(hotel.u)}" target="_blank" rel="noopener noreferrer">View Property →</a>` : "";
-  return `<div class="hp"><div class="hp-name">${esc(hotel.n)}</div><span class="hp-badge" style="background:${program.badgeBg}">${esc(hotel.p)}</span>${brand}${address}${link}</div>`;
+  return `<div class="hp"><div class="hp-name">${esc(hotel.n)}</div><span class="hp-badge" style="background:${program.badgeBg}">${esc(hotel.p)}</span>${brand}${address}${HotelPrices.popupHtml(hotel, hotelPrices)}${link}</div>`;
+}
+
+function applyFilters() {
+  const query = document.getElementById("search").value.trim().toLowerCase();
+  const value = document.getElementById("max-price").value;
+  const maximum = value !== "" && Number.isFinite(Number(value)) && Number(value) > 0 ? Number(value) : null;
+  const includeUnknown = document.getElementById("include-unknown").checked;
+  const now = Date.now();
+  buildIndexes(allHotels.filter(hotel => HotelPrices.matchesFilters(hotel, query, maximum, includeUnknown, hotelPrices, now)));
+  if (infoWindow) infoWindow.close();
+}
+
+async function loadPrices() {
+  const status = document.getElementById("price-status");
+  try {
+    const response = await fetch("prices.json", { cache: "no-cache", signal: AbortSignal.timeout(8000) });
+    if (!response.ok) throw new Error(response.status);
+    hotelPrices = HotelPrices.parseDataset(await response.json());
+    const now = Date.now();
+    const priced = new Set(allHotels.filter(hotel => HotelPrices.currentPrice(hotel, hotelPrices, now)).map(hotel => hotel.id));
+    status.textContent = priced.size ? `Estimates for ${priced.size.toLocaleString()} properties · USD` : "Price estimates coming soon";
+  } catch (error) {
+    hotelPrices = {};
+    status.textContent = "Price estimates unavailable";
+    console.warn("Could not load optional price estimates:", error);
+  }
+  applyFilters();
 }
 
 function updateTally() {
@@ -284,7 +333,7 @@ async function initMap() {
 
   fetch("hotels.json")
     .then(response => { if (!response.ok) throw new Error(response.status); return response.json(); })
-    .then(data => { allHotels = data; buildIndexes(data); })
+    .then(data => { allHotels = data; applyFilters(); loadPrices(); })
     .catch(error => { tally.textContent = "Failed to load data"; console.error("Could not load hotels.json:", error); });
 }
 
@@ -310,15 +359,12 @@ document.querySelectorAll(".leg").forEach(element => {
 });
 
 let searchTimer;
-document.getElementById("search").addEventListener("input", event => {
+document.getElementById("search").addEventListener("input", () => {
   clearTimeout(searchTimer);
-  searchTimer = setTimeout(() => {
-    const query = event.target.value.trim().toLowerCase();
-    buildIndexes(query ? allHotels.filter(hotel => hotel.n.toLowerCase().includes(query) ||
-      (hotel.a && hotel.a.toLowerCase().includes(query)) || (hotel.b && hotel.b.toLowerCase().includes(query)) ||
-      (hotel.g && hotel.g.toLowerCase().includes(query))) : allHotels);
-  }, 220);
+  searchTimer = setTimeout(applyFilters, 220);
 });
+document.getElementById("max-price").addEventListener("input", applyFilters);
+document.getElementById("include-unknown").addEventListener("change", applyFilters);
 
 loadGoogleMaps();
 </script>

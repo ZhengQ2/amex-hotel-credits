@@ -23,6 +23,7 @@ dist
 # Environment variables
 .env
 .env.local
+.price-cache/
 
 # Credentials materialised by CI from secrets - must never be committed
 service_account.json

@@ -26,6 +26,7 @@ def load_csv(path, program):
             if not (-90 <= lat <= 90 and -180 <= lon <= 180):
                 continue
             hotels.append({
+                "id": row.get("place_id", "").strip(),
                 "n": row["hotel_name"].strip(),
                 "u": row.get("hotel_url", "").strip(),
                 "a": (row.get("formatted_address") or row.get("hotel_location", "")).strip(),

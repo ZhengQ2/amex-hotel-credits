@@ -1,0 +1,117 @@
+name: Refresh approximate hotel prices
+
+on:
+  schedule:
+    # Daily: each run spends its share of the month's searches, so every price is re-checked within 6 months.
+    - cron: "17 9 * * *"
+  workflow_dispatch:
+    inputs:
+      command:
+        description: "rotate is the daily job; pilot, map and refresh are for manual runs"
+        type: choice
+        options: [rotate, pilot, map, refresh]
+        default: rotate
+      max_hotels:
+        description: "Hotel limit (0 means all; pilot is capped at 50)"
+        default: "10"
+      max_requests:
+        description: "Most searches this run may use, retries included; rotate paces itself below this"
+        default: "60"
+      initialize_budget:
+        description: "First-ever CI run only: initialize a new ledger. Restore lost state instead of resetting it."
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  actions: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: hotel-prices
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'workflow_dispatch' || vars.PRICE_REFRESH_ENABLED == 'true')
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    outputs:
+      publish: ${{ steps.publish.outputs.ready }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Restore the latest durable state, including interrupted-run reservations
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          artifact_id=$(gh api --paginate --slurp "repos/$GH_REPO/actions/artifacts?per_page=100" --jq '[.[].artifacts[] | select(.expired == false and .workflow_run.head_branch == "main" and (.name == "google-hotel-price-state" or .name == "google-hotel-price-state-reserved"))] | sort_by(.created_at) | last | .id // empty')
+          if [ -n "$artifact_id" ]; then
+            gh api "repos/$GH_REPO/actions/artifacts/$artifact_id/zip" > "$RUNNER_TEMP/price-state.zip"
+            python scripts/restore_price_state.py "$RUNNER_TEMP/price-state.zip" --directory .price-cache/serpapi
+          fi
+
+      - name: Reserve the entire run allowance before contacting SerpApi
+        id: reserve
+        env:
+          PRICE_MAX_REQUESTS: ${{ inputs.max_requests || vars.PRICE_MAX_REQUESTS || '60' }}
+          PRICE_MONTHLY_LIMIT: ${{ vars.PRICE_MONTHLY_LIMIT || '1000' }}
+          PRICE_INITIALIZE: ${{ inputs.initialize_budget }}
+          PRICE_RESERVATION: ${{ github.run_id }}-${{ github.run_attempt }}
+        run: |
+          extra=()
+          if [ "$PRICE_INITIALIZE" = "true" ]; then extra+=(--initialize-budget); fi
+          python fetch_hotel_prices.py reserve --reservation-id "$PRICE_RESERVATION" \
+            --max-requests "$PRICE_MAX_REQUESTS" --monthly-limit "$PRICE_MONTHLY_LIMIT" "${extra[@]}"
+
+      - name: Persist the reservation before any paid requests
+        id: persisted
+        uses: actions/upload-artifact@v4
+        with:
+          name: google-hotel-price-state-reserved
+          path: .price-cache/serpapi/*.json
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Fetch hotel mappings or prices
+        id: fetch
+        env:
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          PRICE_COMMAND: ${{ inputs.command || 'rotate' }}
+          PRICE_MAX_HOTELS: ${{ inputs.max_hotels || '0' }}
+          PRICE_MAX_REQUESTS: ${{ inputs.max_requests || vars.PRICE_MAX_REQUESTS || '60' }}
+          PRICE_MONTHLY_LIMIT: ${{ vars.PRICE_MONTHLY_LIMIT || '1000' }}
+          PRICE_QUOTA_RESET_DAY: ${{ vars.PRICE_QUOTA_RESET_DAY || '1' }}
+          PRICE_RESERVATION: ${{ github.run_id }}-${{ github.run_attempt }}
+        run: |
+          python fetch_hotel_prices.py "$PRICE_COMMAND" --max-hotels "$PRICE_MAX_HOTELS" \
+            --max-requests "$PRICE_MAX_REQUESTS" --reservation-id "$PRICE_RESERVATION" \
+            --monthly-limit "$PRICE_MONTHLY_LIMIT" --quota-reset-day "$PRICE_QUOTA_RESET_DAY" \
+            --output .price-cache/serpapi/prices.json
+
+      - name: Save completed state even after a failed fetch
+        if: always() && steps.persisted.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: google-hotel-price-state
+          path: .price-cache/serpapi/*.json
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 90
+
+      - name: Prepare optional publication
+        id: publish
+        if: steps.fetch.outcome == 'success' && vars.PRICE_REFRESH_ENABLED == 'true' && (github.event_name == 'schedule' || inputs.command == 'rotate' || inputs.command == 'refresh')
+        run: echo "ready=true" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.publish == 'true'
+    uses: ./.github/workflows/pages.yml
+    secrets: inherit

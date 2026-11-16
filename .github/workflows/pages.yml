@@ -6,10 +6,15 @@ on:
     paths:
       - "docs/**"
       - ".github/workflows/pages.yml"
+      - "fetch_hotel_prices.py"
+      - "config/price-overrides.json"
+      - "scripts/restore_price_state.py"
   workflow_dispatch:
+  workflow_call:
 
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 
@@ -30,6 +35,18 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - name: Restore optional price state
+        if: vars.PRICE_REFRESH_ENABLED == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          artifact_id=$(gh api --paginate --slurp "repos/$GH_REPO/actions/artifacts?per_page=100" --jq '[.[].artifacts[] | select(.expired == false and .workflow_run.head_branch == "main" and (.name == "google-hotel-price-state" or .name == "google-hotel-price-state-reserved"))] | sort_by(.created_at) | last | .id // empty')
+          if [ -n "$artifact_id" ]; then
+            gh api "repos/$GH_REPO/actions/artifacts/$artifact_id/zip" > "$RUNNER_TEMP/price-state.zip"
+            python3 scripts/restore_price_state.py "$RUNNER_TEMP/price-state.zip" --directory .price-cache/serpapi
+          fi
+
       - name: Build Pages artifact
         env:
           GOOGLE_MAPS_BROWSER_API_KEY: ${{ secrets.GOOGLE_MAPS_BROWSER_API_KEY }}
@@ -37,6 +54,10 @@ jobs:
           mkdir _site
           cp -R docs/. _site/
           sed -i "s|__GOOGLE_MAPS_BROWSER_API_KEY__|${GOOGLE_MAPS_BROWSER_API_KEY}|" _site/map-config.js
+
+      - name: Export optional current prices into the deployment artifact
+        if: vars.PRICE_REFRESH_ENABLED == 'true'
+        run: python3 fetch_hotel_prices.py export --output _site/prices.json --max-hotels 0
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
