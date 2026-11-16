@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: write # dispatch pages.yml after pushing a map update
 
     steps:
       - name: Checkout repository
@@ -170,9 +171,24 @@ jobs:
       # not worth an email. The porcelain check below makes this a no-op when
       # there is genuinely nothing to write.
       - name: Commit and push cache and map updates
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # The Hilton job (or a manual push) may have landed while this one
+          # ran. docs/hotels.json is built from every program's CSV, so pick up
+          # their commits before rebuilding it: rebasing after the commit would
+          # always conflict on that one-line file.
+          git pull --rebase --autostash origin "$GITHUB_REF_NAME"
+          # If someone else changed one of this job's own files, re-applying
+          # the autostash conflicts but git still exits 0, and the git add
+          # below would commit the conflict markers. Stop instead.
+          if [ -n "$(git ls-files -u)" ]; then
+            echo "::error::Upstream changes conflict with this run's files:"
+            git diff --name-only --diff-filter=U
+            exit 1
+          fi
 
           git add \
             cache/fhr_hotels_geocoded_google.csv \
@@ -192,4 +208,14 @@ jobs:
           else
             git commit -m "Update FHR/THC cache, geocoded hotels, and map [CI]"
             git push
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # A push made with GITHUB_TOKEN does not start other workflows' push
+      # runs, so pages.yml never sees the commit above on its own. A
+      # workflow_dispatch sent with GITHUB_TOKEN is the exception GitHub allows.
+      - name: Deploy updated map to GitHub Pages
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --repo "$GITHUB_REPOSITORY" --ref main
