@@ -159640,5 +159640,48 @@
       ],
       "website": "http://publichotels.com/newyork/?y_source=1_MjA1MTM1Mjg0OC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton Hilton Hotels & Resorts Hotel\", \"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton Hilton Hotels & Resorts Resort\", \"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton Hilton Hotels & Resorts\", \"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton Hilton Hotels & Resorts Saint Tropez, France Hotel\", \"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton Hilton Hotels & Resorts Saint Tropez, France Resort\", \"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton Hilton Hotels & Resorts Saint Tropez, France\", \"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton Hilton Hotel\", \"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton Hilton Resort\", \"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton Hilton\", \"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton Hilton Saint Tropez, France Hotel\", \"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton Hilton Saint Tropez, France Resort\", \"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton Hilton Saint Tropez, France\", \"Hotel Ventura Saint Tropez Tapestry Collection Hilton Hilton Hotels & Resorts Hotel\", \"Hotel Ventura Saint Tropez Tapestry Collection Hilton Hilton Hotels & Resorts Resort\", \"Hotel Ventura Saint Tropez Tapestry Collection Hilton Hilton Hotels & Resorts\", \"Hotel Ventura Saint Tropez Tapestry Collection Hilton Hilton Hotels & Resorts Saint Tropez, France Hotel\", \"Hotel Ventura Saint Tropez Tapestry Collection Hilton Hilton Hotels & Resorts Saint Tropez, France Resort\", \"Hotel Ventura Saint Tropez Tapestry Collection Hilton Hilton Hotels & Resorts Saint Tropez, France\", \"Hotel Ventura Saint Tropez Tapestry Collection Hilton Hilton Hotel\", \"Hotel Ventura Saint Tropez Tapestry Collection Hilton Hilton Resort\", \"Hotel Ventura Saint Tropez Tapestry Collection Hilton Hilton\", \"Hotel Ventura Saint Tropez Tapestry Collection Hilton Hilton Saint Tropez, France Hotel\", \"Hotel Ventura Saint Tropez Tapestry Collection Hilton Hilton Saint Tropez, France Resort\", \"Hotel Ventura Saint Tropez Tapestry Collection Hilton Hilton Saint Tropez, France\", \"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton Hotel\", \"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton Resort\", \"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton\", \"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton Saint Tropez, France Hotel\", \"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton Saint Tropez, France Resort\", \"Hotel Ventura Saint Tropez, Tapestry Collection by Hilton Saint Tropez, France\"], \"v\": 3}": {
+    "lat": 43.26803,
+    "lon": 6.6347574,
+    "formatted_address": "1 Chem. des Amoureux, 83990 Saint-Tropez, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJhaReQ-DHzhIRvnqwqJdHSSo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1 Chem. des Amoureux, 83990 Saint-Tropez, France",
+      "geometry": {
+        "location": {
+          "lat": 43.26803,
+          "lng": 6.6347574
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.2694471802915,
+            "lng": 6.636247380291503
+          },
+          "southwest": {
+            "lat": 43.2667492197085,
+            "lng": 6.633549419708499
+          }
+        }
+      },
+      "name": "Hotel Ventura Saint-Tropez, Tapestry Collection by Hilton",
+      "place_id": "ChIJhaReQ-DHzhIRvnqwqJdHSSo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/lttopup-hotel-ventura-saint-tropez/?SEO_id=GMB-EMEA-UP-LTTOPUP"
+    }
   }
 }
