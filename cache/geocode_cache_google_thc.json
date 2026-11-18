@@ -35266,48 +35266,6 @@
       "website": "https://www.marriott.com/en-us/hotels/sanbd-alma-san-diego-downtown-a-tribute-portfolio-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Guild Hotel A Marriott Tribute Portfolio Hotel Marriott Hotel\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Marriott Resort\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Marriott\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Marriott San Diego, California US Hotel\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Marriott San Diego, California US Resort\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Marriott San Diego, California US\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Hilton Hotel\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Hilton Resort\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Hilton\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Hilton San Diego, California US Hotel\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Hilton San Diego, California US Resort\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Hilton San Diego, California US\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Marriott Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Marriott Resort\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Marriott\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Marriott San Diego, California US Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Marriott San Diego, California US Resort\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Marriott San Diego, California US\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hilton Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hilton Resort\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hilton\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hilton San Diego, California US Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hilton San Diego, California US Resort\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hilton San Diego, California US\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Resort\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel San Diego, California US Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel San Diego, California US Resort\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel San Diego, California US\"], \"v\": 3}": {
-    "lat": 32.7160035,
-    "lon": -117.1678019,
-    "formatted_address": "500 W Broadway, San Diego, CA 92101, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ-8tHrAlV2YAROk3KqdDheHQ",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "500 W Broadway, San Diego, CA 92101, USA",
-      "geometry": {
-        "location": {
-          "lat": 32.7160035,
-          "lng": -117.1678019
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 32.7172387802915,
-            "lng": -117.1664704197085
-          },
-          "southwest": {
-            "lat": 32.7145408197085,
-            "lng": -117.1691683802915
-          }
-        }
-      },
-      "name": "The Guild Hotel, San Diego Downtown, a Tribute Portfolio Hotel",
-      "place_id": "ChIJ-8tHrAlV2YAROk3KqdDheHQ",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/santx-the-guild-hotel-san-diego-downtown-a-tribute-portfolio-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
   "{\"brand\": \"Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Riomar Marriott Hotel\", \"Hotel Riomar Marriott Resort\", \"Hotel Riomar Marriott\", \"Hotel Riomar Marriott Santa Eulalia del Rio, Spain Hotel\", \"Hotel Riomar Marriott Santa Eulalia del Rio, Spain Resort\", \"Hotel Riomar Marriott Santa Eulalia del Rio, Spain\", \"Hotel Riomar Hilton Hotel\", \"Hotel Riomar Hilton Resort\", \"Hotel Riomar Hilton\", \"Hotel Riomar Hilton Santa Eulalia del Rio, Spain Hotel\", \"Hotel Riomar Hilton Santa Eulalia del Rio, Spain Resort\", \"Hotel Riomar Hilton Santa Eulalia del Rio, Spain\", \"Hotel RioMar Marriott Hotel\", \"Hotel RioMar Marriott Resort\", \"Hotel RioMar Marriott\", \"Hotel RioMar Marriott Santa Eulalia del Rio, Spain Hotel\", \"Hotel RioMar Marriott Santa Eulalia del Rio, Spain Resort\", \"Hotel RioMar Marriott Santa Eulalia del Rio, Spain\", \"Hotel RioMar Hilton Hotel\", \"Hotel RioMar Hilton Resort\", \"Hotel RioMar Hilton\", \"Hotel RioMar Hilton Santa Eulalia del Rio, Spain Hotel\", \"Hotel RioMar Hilton Santa Eulalia del Rio, Spain Resort\", \"Hotel RioMar Hilton Santa Eulalia del Rio, Spain\", \"Hotel RioMar Hotel\", \"Hotel RioMar Resort\", \"Hotel RioMar\", \"Hotel RioMar Santa Eulalia del Rio, Spain Hotel\", \"Hotel RioMar Santa Eulalia del Rio, Spain Resort\", \"Hotel RioMar Santa Eulalia del Rio, Spain\"], \"v\": 3}": {
     "lat": 38.9796973,
     "lon": 1.5306814,
@@ -45764,48 +45722,6 @@
       "website": "https://www.marriott.com/en-us/hotels/msyrf-hotel-de-la-poste-french-quarter-a-renaissance-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"Rixos\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rixos Premium Dubai Rixos Hotel\", \"Rixos Premium Dubai Rixos Resort\", \"Rixos Premium Dubai Rixos\", \"Rixos Premium Dubai Rixos Dubai, United Arab Emirates Hotel\", \"Rixos Premium Dubai Rixos Dubai, United Arab Emirates Resort\", \"Rixos Premium Dubai Rixos Dubai, United Arab Emirates\", \"Rixos Premium Dubai Hilton Hotel\", \"Rixos Premium Dubai Hilton Resort\", \"Rixos Premium Dubai Hilton\", \"Rixos Premium Dubai Hilton Dubai, United Arab Emirates Hotel\", \"Rixos Premium Dubai Hilton Dubai, United Arab Emirates Resort\", \"Rixos Premium Dubai Hilton Dubai, United Arab Emirates\", \"Rixos Premium Dubai Hotel\", \"Rixos Premium Dubai Resort\", \"Rixos Premium Dubai\", \"Rixos Premium Dubai Dubai, United Arab Emirates Hotel\", \"Rixos Premium Dubai Dubai, United Arab Emirates Resort\", \"Rixos Premium Dubai Dubai, United Arab Emirates\"], \"v\": 3}": {
-    "lat": 25.080075,
-    "lon": 55.13585399999999,
-    "formatted_address": "The Walk Jbr - Al Mamsha St - Marsa Dubai - Jumeirah Beach Residence - Dubai - United Arab Emirates",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJOaJqF6sUXz4RxzbhQU9vSas",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "The Walk Jbr - Al Mamsha St - Marsa Dubai - Jumeirah Beach Residence - Dubai - United Arab Emirates",
-      "geometry": {
-        "location": {
-          "lat": 25.080075,
-          "lng": 55.13585399999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.0813944802915,
-            "lng": 55.1372669802915
-          },
-          "southwest": {
-            "lat": 25.0786965197085,
-            "lng": 55.1345690197085
-          }
-        }
-      },
-      "name": "Rixos Premium Dubai JBR",
-      "place_id": "ChIJOaJqF6sUXz4RxzbhQU9vSas",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://allinclusive-collection.com/en/hotel/rixos-premium-dubai-jbr/?utm_source=GMB&utm_medium=metasearch"
-    }
-  },
   "{\"brand\": \"Rixos\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rixos Premium Dubrovnik Rixos Hotel\", \"Rixos Premium Dubrovnik Rixos Resort\", \"Rixos Premium Dubrovnik Rixos\", \"Rixos Premium Dubrovnik Rixos Dubrovnik, Croatia Hotel\", \"Rixos Premium Dubrovnik Rixos Dubrovnik, Croatia Resort\", \"Rixos Premium Dubrovnik Rixos Dubrovnik, Croatia\", \"Rixos Premium Dubrovnik Hilton Hotel\", \"Rixos Premium Dubrovnik Hilton Resort\", \"Rixos Premium Dubrovnik Hilton\", \"Rixos Premium Dubrovnik Hilton Dubrovnik, Croatia Hotel\", \"Rixos Premium Dubrovnik Hilton Dubrovnik, Croatia Resort\", \"Rixos Premium Dubrovnik Hilton Dubrovnik, Croatia\", \"Rixos Premium Dubrovnik Hotel\", \"Rixos Premium Dubrovnik Resort\", \"Rixos Premium Dubrovnik\", \"Rixos Premium Dubrovnik Dubrovnik, Croatia Hotel\", \"Rixos Premium Dubrovnik Dubrovnik, Croatia Resort\", \"Rixos Premium Dubrovnik Dubrovnik, Croatia\"], \"v\": 3}": {
     "lat": 42.64537139999999,
     "lon": 18.0909505,
@@ -48254,48 +48170,6 @@
         "spa"
       ],
       "website": "https://canaves.com/"
-    }
-  },
-  "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Chateau Des Fleurs Small Luxury Hotels of the World Hotel\", \"Chateau Des Fleurs Small Luxury Hotels of the World Resort\", \"Chateau Des Fleurs Small Luxury Hotels of the World\", \"Chateau Des Fleurs Small Luxury Hotels of the World Paris, France Hotel\", \"Chateau Des Fleurs Small Luxury Hotels of the World Paris, France Resort\", \"Chateau Des Fleurs Small Luxury Hotels of the World Paris, France\", \"Chateau Des Fleurs Hilton Hotel\", \"Chateau Des Fleurs Hilton Resort\", \"Chateau Des Fleurs Hilton\", \"Chateau Des Fleurs Hilton Paris, France Hotel\", \"Chateau Des Fleurs Hilton Paris, France Resort\", \"Chateau Des Fleurs Hilton Paris, France\", \"Chateau des Fleurs Small Luxury Hotels of the World Hotel\", \"Chateau des Fleurs Small Luxury Hotels of the World Resort\", \"Chateau des Fleurs Small Luxury Hotels of the World\", \"Chateau des Fleurs Small Luxury Hotels of the World Paris, France Hotel\", \"Chateau des Fleurs Small Luxury Hotels of the World Paris, France Resort\", \"Chateau des Fleurs Small Luxury Hotels of the World Paris, France\", \"Chateau des Fleurs Hilton Hotel\", \"Chateau des Fleurs Hilton Resort\", \"Chateau des Fleurs Hilton\", \"Chateau des Fleurs Hilton Paris, France Hotel\", \"Chateau des Fleurs Hilton Paris, France Resort\", \"Chateau des Fleurs Hilton Paris, France\", \"Chateau des Fleurs Hotel\", \"Chateau des Fleurs Resort\", \"Chateau des Fleurs\", \"Chateau des Fleurs Paris, France Hotel\", \"Chateau des Fleurs Paris, France Resort\", \"Chateau des Fleurs Paris, France\"], \"v\": 3}": {
-    "lat": 48.8718263,
-    "lon": 2.2983964,
-    "formatted_address": "19 Rue Vernet, 75008 Paris, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCZhohOlv5kcRnrqBWeFld6I",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "19 Rue Vernet, 75008 Paris, France",
-      "geometry": {
-        "location": {
-          "lat": 48.8718263,
-          "lng": 2.2983964
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 48.8731665302915,
-            "lng": 2.299841130291501
-          },
-          "southwest": {
-            "lat": 48.8704685697085,
-            "lng": 2.297143169708498
-          }
-        }
-      },
-      "name": "Chateau des Fleurs",
-      "place_id": "ChIJCZhohOlv5kcRnrqBWeFld6I",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://www.chateaudesfleurs.paris/"
     }
   },
   "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Regis Small Luxury Hotels of the World Hotel\", \"San Regis Small Luxury Hotels of the World Resort\", \"San Regis Small Luxury Hotels of the World\", \"San Regis Small Luxury Hotels of the World Paris, France Hotel\", \"San Regis Small Luxury Hotels of the World Paris, France Resort\", \"San Regis Small Luxury Hotels of the World Paris, France\", \"San Regis Hilton Hotel\", \"San Regis Hilton Resort\", \"San Regis Hilton\", \"San Regis Hilton Paris, France Hotel\", \"San Regis Hilton Paris, France Resort\", \"San Regis Hilton Paris, France\", \"San Regis Hotel\", \"San Regis Resort\", \"San Regis\", \"San Regis Paris, France Hotel\", \"San Regis Paris, France Resort\", \"San Regis Paris, France\"], \"v\": 3}": {
@@ -73446,48 +73320,6 @@
       "website": "https://www.marriott.com/en-us/hotels/sanbd-alma-san-diego-downtown-a-tribute-portfolio-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Guild Hotel, A Marriott Tribute Portfolio Hotel Marriott Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Marriott Resort\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Marriott\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Marriott San Diego, California US Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Marriott San Diego, California US Resort\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Marriott San Diego, California US\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hilton Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hilton Resort\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hilton\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hilton San Diego, California US Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hilton San Diego, California US Resort\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hilton San Diego, California US\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Marriott Hotel\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Marriott Resort\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Marriott\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Marriott San Diego, California US Hotel\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Marriott San Diego, California US Resort\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Marriott San Diego, California US\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Hilton Hotel\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Hilton Resort\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Hilton\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Hilton San Diego, California US Hotel\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Hilton San Diego, California US Resort\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Hilton San Diego, California US\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Resort\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel San Diego, California US Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel San Diego, California US Resort\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel San Diego, California US\"], \"v\": 3}": {
-    "lat": 32.7160035,
-    "lon": -117.1678019,
-    "formatted_address": "500 W Broadway, San Diego, CA 92101, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ-8tHrAlV2YAROk3KqdDheHQ",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "500 W Broadway, San Diego, CA 92101, USA",
-      "geometry": {
-        "location": {
-          "lat": 32.7160035,
-          "lng": -117.1678019
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 32.7172387802915,
-            "lng": -117.1664704197085
-          },
-          "southwest": {
-            "lat": 32.7145408197085,
-            "lng": -117.1691683802915
-          }
-        }
-      },
-      "name": "The Guild Hotel, San Diego Downtown, a Tribute Portfolio Hotel",
-      "place_id": "ChIJ-8tHrAlV2YAROk3KqdDheHQ",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/santx-the-guild-hotel-san-diego-downtown-a-tribute-portfolio-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
   "{\"brand\": \"Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel RioMar Marriott Hotel\", \"Hotel RioMar Marriott Resort\", \"Hotel RioMar Marriott\", \"Hotel RioMar Marriott Santa Eulalia del Rio, Spain Hotel\", \"Hotel RioMar Marriott Santa Eulalia del Rio, Spain Resort\", \"Hotel RioMar Marriott Santa Eulalia del Rio, Spain\", \"Hotel RioMar Hilton Hotel\", \"Hotel RioMar Hilton Resort\", \"Hotel RioMar Hilton\", \"Hotel RioMar Hilton Santa Eulalia del Rio, Spain Hotel\", \"Hotel RioMar Hilton Santa Eulalia del Rio, Spain Resort\", \"Hotel RioMar Hilton Santa Eulalia del Rio, Spain\", \"Hotel Riomar Marriott Hotel\", \"Hotel Riomar Marriott Resort\", \"Hotel Riomar Marriott\", \"Hotel Riomar Marriott Santa Eulalia del Rio, Spain Hotel\", \"Hotel Riomar Marriott Santa Eulalia del Rio, Spain Resort\", \"Hotel Riomar Marriott Santa Eulalia del Rio, Spain\", \"Hotel Riomar Hilton Hotel\", \"Hotel Riomar Hilton Resort\", \"Hotel Riomar Hilton\", \"Hotel Riomar Hilton Santa Eulalia del Rio, Spain Hotel\", \"Hotel Riomar Hilton Santa Eulalia del Rio, Spain Resort\", \"Hotel Riomar Hilton Santa Eulalia del Rio, Spain\", \"Hotel RioMar Hotel\", \"Hotel RioMar Resort\", \"Hotel RioMar\", \"Hotel RioMar Santa Eulalia del Rio, Spain Hotel\", \"Hotel RioMar Santa Eulalia del Rio, Spain Resort\", \"Hotel RioMar Santa Eulalia del Rio, Spain\"], \"v\": 3}": {
     "lat": 38.9796973,
     "lon": 1.5306814,
@@ -80519,48 +80351,6 @@
         "spa"
       ],
       "website": "https://www.retreatelcotpark.com/?utm_source=google&utm_medium=local&utm_campaign=hotel-retreatelcotpark"
-    }
-  },
-  "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Chateau des Fleurs Small Luxury Hotels of the World Hotel\", \"Chateau des Fleurs Small Luxury Hotels of the World Resort\", \"Chateau des Fleurs Small Luxury Hotels of the World\", \"Chateau des Fleurs Small Luxury Hotels of the World Paris, France Hotel\", \"Chateau des Fleurs Small Luxury Hotels of the World Paris, France Resort\", \"Chateau des Fleurs Small Luxury Hotels of the World Paris, France\", \"Chateau des Fleurs Hilton Hotel\", \"Chateau des Fleurs Hilton Resort\", \"Chateau des Fleurs Hilton\", \"Chateau des Fleurs Hilton Paris, France Hotel\", \"Chateau des Fleurs Hilton Paris, France Resort\", \"Chateau des Fleurs Hilton Paris, France\", \"Chateau Des Fleurs Small Luxury Hotels of the World Hotel\", \"Chateau Des Fleurs Small Luxury Hotels of the World Resort\", \"Chateau Des Fleurs Small Luxury Hotels of the World\", \"Chateau Des Fleurs Small Luxury Hotels of the World Paris, France Hotel\", \"Chateau Des Fleurs Small Luxury Hotels of the World Paris, France Resort\", \"Chateau Des Fleurs Small Luxury Hotels of the World Paris, France\", \"Chateau Des Fleurs Hilton Hotel\", \"Chateau Des Fleurs Hilton Resort\", \"Chateau Des Fleurs Hilton\", \"Chateau Des Fleurs Hilton Paris, France Hotel\", \"Chateau Des Fleurs Hilton Paris, France Resort\", \"Chateau Des Fleurs Hilton Paris, France\", \"Chateau des Fleurs Hotel\", \"Chateau des Fleurs Resort\", \"Chateau des Fleurs\", \"Chateau des Fleurs Paris, France Hotel\", \"Chateau des Fleurs Paris, France Resort\", \"Chateau des Fleurs Paris, France\"], \"v\": 3}": {
-    "lat": 48.8718263,
-    "lon": 2.2983964,
-    "formatted_address": "19 Rue Vernet, 75008 Paris, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCZhohOlv5kcRnrqBWeFld6I",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "19 Rue Vernet, 75008 Paris, France",
-      "geometry": {
-        "location": {
-          "lat": 48.8718263,
-          "lng": 2.2983964
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 48.8731665302915,
-            "lng": 2.299841130291501
-          },
-          "southwest": {
-            "lat": 48.8704685697085,
-            "lng": 2.297143169708498
-          }
-        }
-      },
-      "name": "Chateau des Fleurs",
-      "place_id": "ChIJCZhohOlv5kcRnrqBWeFld6I",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://www.chateaudesfleurs.paris/"
     }
   },
   "{\"brand\": \"Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Plettenberg Hotel & Spa Small Luxury Hotels of the World Hotel\", \"The Plettenberg Hotel & Spa Small Luxury Hotels of the World Resort\", \"The Plettenberg Hotel & Spa Small Luxury Hotels of the World\", \"The Plettenberg Hotel & Spa Small Luxury Hotels of the World Plettenberg Bay, South Africa Hotel\", \"The Plettenberg Hotel & Spa Small Luxury Hotels of the World Plettenberg Bay, South Africa Resort\", \"The Plettenberg Hotel & Spa Small Luxury Hotels of the World Plettenberg Bay, South Africa\", \"The Plettenberg Hotel & Spa Hilton Hotel\", \"The Plettenberg Hotel & Spa Hilton Resort\", \"The Plettenberg Hotel & Spa Hilton\", \"The Plettenberg Hotel & Spa Hilton Plettenberg Bay, South Africa Hotel\", \"The Plettenberg Hotel & Spa Hilton Plettenberg Bay, South Africa Resort\", \"The Plettenberg Hotel & Spa Hilton Plettenberg Bay, South Africa\", \"Plettenberg Hotel Spa Small Luxury Hotels of the World Hotel\", \"Plettenberg Hotel Spa Small Luxury Hotels of the World Resort\", \"Plettenberg Hotel Spa Small Luxury Hotels of the World\", \"Plettenberg Hotel Spa Small Luxury Hotels of the World Plettenberg Bay, South Africa Hotel\", \"Plettenberg Hotel Spa Small Luxury Hotels of the World Plettenberg Bay, South Africa Resort\", \"Plettenberg Hotel Spa Small Luxury Hotels of the World Plettenberg Bay, South Africa\", \"Plettenberg Hotel Spa Hilton Hotel\", \"Plettenberg Hotel Spa Hilton Resort\", \"Plettenberg Hotel Spa Hilton\", \"Plettenberg Hotel Spa Hilton Plettenberg Bay, South Africa Hotel\", \"Plettenberg Hotel Spa Hilton Plettenberg Bay, South Africa Resort\", \"Plettenberg Hotel Spa Hilton Plettenberg Bay, South Africa\", \"The Plettenberg Hotel & Spa Hotel\", \"The Plettenberg Hotel & Spa Resort\", \"The Plettenberg Hotel & Spa\", \"The Plettenberg Hotel & Spa Plettenberg Bay, South Africa Hotel\", \"The Plettenberg Hotel & Spa Plettenberg Bay, South Africa Resort\", \"The Plettenberg Hotel & Spa Plettenberg Bay, South Africa\"], \"v\": 3}": {
@@ -125905,48 +125695,6 @@
       "website": "https://www.marriott.com/en-us/hotels/sanbd-alma-san-diego-downtown-a-tribute-portfolio-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Guild Hotel, A Marriott Tribute Portfolio Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Guild Hotel, A Marriott Tribute Portfolio Hotel Marriott Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Marriott Resort\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Marriott\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Marriott San Diego, California US Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Marriott San Diego, California US Resort\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Marriott San Diego, California US\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hilton Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hilton Resort\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hilton\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hilton San Diego, California US Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hilton San Diego, California US Resort\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hilton San Diego, California US\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Marriott Hotel\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Marriott Resort\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Marriott\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Marriott San Diego, California US Hotel\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Marriott San Diego, California US Resort\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Marriott San Diego, California US\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Hilton Hotel\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Hilton Resort\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Hilton\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Hilton San Diego, California US Hotel\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Hilton San Diego, California US Resort\", \"Guild Hotel A Marriott Tribute Portfolio Hotel Hilton San Diego, California US\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel Resort\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel San Diego, California US Hotel\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel San Diego, California US Resort\", \"Guild Hotel, A Marriott Tribute Portfolio Hotel San Diego, California US\"], \"v\": 3}": {
-    "lat": 32.7160035,
-    "lon": -117.1678019,
-    "formatted_address": "500 W Broadway, San Diego, CA 92101, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ-8tHrAlV2YAROk3KqdDheHQ",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "500 W Broadway, San Diego, CA 92101, USA",
-      "geometry": {
-        "location": {
-          "lat": 32.7160035,
-          "lng": -117.1678019
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 32.7172387802915,
-            "lng": -117.1664704197085
-          },
-          "southwest": {
-            "lat": 32.7145408197085,
-            "lng": -117.1691683802915
-          }
-        }
-      },
-      "name": "The Guild Hotel, San Diego Downtown, a Tribute Portfolio Hotel",
-      "place_id": "ChIJ-8tHrAlV2YAROk3KqdDheHQ",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/santx-the-guild-hotel-san-diego-downtown-a-tribute-portfolio-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel RioMar\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel RioMar Marriott Hotel\", \"Hotel RioMar Marriott Resort\", \"Hotel RioMar Marriott\", \"Hotel RioMar Marriott Santa Eulalia del Rio, Spain Hotel\", \"Hotel RioMar Marriott Santa Eulalia del Rio, Spain Resort\", \"Hotel RioMar Marriott Santa Eulalia del Rio, Spain\", \"Hotel RioMar Hilton Hotel\", \"Hotel RioMar Hilton Resort\", \"Hotel RioMar Hilton\", \"Hotel RioMar Hilton Santa Eulalia del Rio, Spain Hotel\", \"Hotel RioMar Hilton Santa Eulalia del Rio, Spain Resort\", \"Hotel RioMar Hilton Santa Eulalia del Rio, Spain\", \"Hotel Riomar Marriott Hotel\", \"Hotel Riomar Marriott Resort\", \"Hotel Riomar Marriott\", \"Hotel Riomar Marriott Santa Eulalia del Rio, Spain Hotel\", \"Hotel Riomar Marriott Santa Eulalia del Rio, Spain Resort\", \"Hotel Riomar Marriott Santa Eulalia del Rio, Spain\", \"Hotel Riomar Hilton Hotel\", \"Hotel Riomar Hilton Resort\", \"Hotel Riomar Hilton\", \"Hotel Riomar Hilton Santa Eulalia del Rio, Spain Hotel\", \"Hotel Riomar Hilton Santa Eulalia del Rio, Spain Resort\", \"Hotel Riomar Hilton Santa Eulalia del Rio, Spain\", \"Hotel RioMar Hotel\", \"Hotel RioMar Resort\", \"Hotel RioMar\", \"Hotel RioMar Santa Eulalia del Rio, Spain Hotel\", \"Hotel RioMar Santa Eulalia del Rio, Spain Resort\", \"Hotel RioMar Santa Eulalia del Rio, Spain\"], \"v\": 3}": {
     "lat": 38.9796973,
     "lon": 1.5306814,
@@ -137040,48 +136788,6 @@
       "website": "https://www.marriott.com/en-us/hotels/msyrf-hotel-de-la-poste-french-quarter-a-renaissance-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rixos Premium Dubai\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rixos Premium Dubai Rixos Hotel\", \"Rixos Premium Dubai Rixos Resort\", \"Rixos Premium Dubai Rixos\", \"Rixos Premium Dubai Rixos Dubai, United Arab Emirates Hotel\", \"Rixos Premium Dubai Rixos Dubai, United Arab Emirates Resort\", \"Rixos Premium Dubai Rixos Dubai, United Arab Emirates\", \"Rixos Premium Dubai Hilton Hotel\", \"Rixos Premium Dubai Hilton Resort\", \"Rixos Premium Dubai Hilton\", \"Rixos Premium Dubai Hilton Dubai, United Arab Emirates Hotel\", \"Rixos Premium Dubai Hilton Dubai, United Arab Emirates Resort\", \"Rixos Premium Dubai Hilton Dubai, United Arab Emirates\", \"Rixos Premium Dubai Hotel\", \"Rixos Premium Dubai Resort\", \"Rixos Premium Dubai\", \"Rixos Premium Dubai Dubai, United Arab Emirates Hotel\", \"Rixos Premium Dubai Dubai, United Arab Emirates Resort\", \"Rixos Premium Dubai Dubai, United Arab Emirates\"], \"v\": 3}": {
-    "lat": 25.080075,
-    "lon": 55.13585399999999,
-    "formatted_address": "The Walk Jbr - Al Mamsha St - Marsa Dubai - Jumeirah Beach Residence - Dubai - United Arab Emirates",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJOaJqF6sUXz4RxzbhQU9vSas",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "The Walk Jbr - Al Mamsha St - Marsa Dubai - Jumeirah Beach Residence - Dubai - United Arab Emirates",
-      "geometry": {
-        "location": {
-          "lat": 25.080075,
-          "lng": 55.13585399999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.0813944802915,
-            "lng": 55.1372669802915
-          },
-          "southwest": {
-            "lat": 25.0786965197085,
-            "lng": 55.1345690197085
-          }
-        }
-      },
-      "name": "Rixos Premium Dubai JBR",
-      "place_id": "ChIJOaJqF6sUXz4RxzbhQU9vSas",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://allinclusive-collection.com/en/hotel/rixos-premium-dubai-jbr/?utm_source=GMB&utm_medium=metasearch"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rixos Premium Dubrovnik\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rixos Premium Dubrovnik Rixos Hotel\", \"Rixos Premium Dubrovnik Rixos Resort\", \"Rixos Premium Dubrovnik Rixos\", \"Rixos Premium Dubrovnik Rixos Dubrovnik, Croatia Hotel\", \"Rixos Premium Dubrovnik Rixos Dubrovnik, Croatia Resort\", \"Rixos Premium Dubrovnik Rixos Dubrovnik, Croatia\", \"Rixos Premium Dubrovnik Hilton Hotel\", \"Rixos Premium Dubrovnik Hilton Resort\", \"Rixos Premium Dubrovnik Hilton\", \"Rixos Premium Dubrovnik Hilton Dubrovnik, Croatia Hotel\", \"Rixos Premium Dubrovnik Hilton Dubrovnik, Croatia Resort\", \"Rixos Premium Dubrovnik Hilton Dubrovnik, Croatia\", \"Rixos Premium Dubrovnik Hotel\", \"Rixos Premium Dubrovnik Resort\", \"Rixos Premium Dubrovnik\", \"Rixos Premium Dubrovnik Dubrovnik, Croatia Hotel\", \"Rixos Premium Dubrovnik Dubrovnik, Croatia Resort\", \"Rixos Premium Dubrovnik Dubrovnik, Croatia\"], \"v\": 3}": {
     "lat": 42.64537139999999,
     "lon": 18.0909505,
@@ -139838,48 +139544,6 @@
         "spa"
       ],
       "website": "https://canaves.com/"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Chateau des Fleurs\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Chateau des Fleurs Small Luxury Hotels of the World Hotel\", \"Chateau des Fleurs Small Luxury Hotels of the World Resort\", \"Chateau des Fleurs Small Luxury Hotels of the World\", \"Chateau des Fleurs Small Luxury Hotels of the World Paris, France Hotel\", \"Chateau des Fleurs Small Luxury Hotels of the World Paris, France Resort\", \"Chateau des Fleurs Small Luxury Hotels of the World Paris, France\", \"Chateau des Fleurs Hilton Hotel\", \"Chateau des Fleurs Hilton Resort\", \"Chateau des Fleurs Hilton\", \"Chateau des Fleurs Hilton Paris, France Hotel\", \"Chateau des Fleurs Hilton Paris, France Resort\", \"Chateau des Fleurs Hilton Paris, France\", \"Chateau Des Fleurs Small Luxury Hotels of the World Hotel\", \"Chateau Des Fleurs Small Luxury Hotels of the World Resort\", \"Chateau Des Fleurs Small Luxury Hotels of the World\", \"Chateau Des Fleurs Small Luxury Hotels of the World Paris, France Hotel\", \"Chateau Des Fleurs Small Luxury Hotels of the World Paris, France Resort\", \"Chateau Des Fleurs Small Luxury Hotels of the World Paris, France\", \"Chateau Des Fleurs Hilton Hotel\", \"Chateau Des Fleurs Hilton Resort\", \"Chateau Des Fleurs Hilton\", \"Chateau Des Fleurs Hilton Paris, France Hotel\", \"Chateau Des Fleurs Hilton Paris, France Resort\", \"Chateau Des Fleurs Hilton Paris, France\", \"Chateau des Fleurs Hotel\", \"Chateau des Fleurs Resort\", \"Chateau des Fleurs\", \"Chateau des Fleurs Paris, France Hotel\", \"Chateau des Fleurs Paris, France Resort\", \"Chateau des Fleurs Paris, France\"], \"v\": 3}": {
-    "lat": 48.8718263,
-    "lon": 2.2983964,
-    "formatted_address": "19 Rue Vernet, 75008 Paris, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCZhohOlv5kcRnrqBWeFld6I",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "19 Rue Vernet, 75008 Paris, France",
-      "geometry": {
-        "location": {
-          "lat": 48.8718263,
-          "lng": 2.2983964
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 48.8731665302915,
-            "lng": 2.299841130291501
-          },
-          "southwest": {
-            "lat": 48.8704685697085,
-            "lng": 2.297143169708498
-          }
-        }
-      },
-      "name": "Chateau des Fleurs",
-      "place_id": "ChIJCZhohOlv5kcRnrqBWeFld6I",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://www.chateaudesfleurs.paris/"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Norman Paris\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Norman Paris Small Luxury Hotels of the World Hotel\", \"Norman Paris Small Luxury Hotels of the World Resort\", \"Norman Paris Small Luxury Hotels of the World\", \"Norman Paris Small Luxury Hotels of the World Paris, France Hotel\", \"Norman Paris Small Luxury Hotels of the World Paris, France Resort\", \"Norman Paris Small Luxury Hotels of the World Paris, France\", \"Norman Paris Hilton Hotel\", \"Norman Paris Hilton Resort\", \"Norman Paris Hilton\", \"Norman Paris Hilton Paris, France Hotel\", \"Norman Paris Hilton Paris, France Resort\", \"Norman Paris Hilton Paris, France\", \"Norman Paris Hotel\", \"Norman Paris Resort\", \"Norman Paris\", \"Norman Paris Paris, France Hotel\", \"Norman Paris Paris, France Resort\", \"Norman Paris Paris, France\"], \"v\": 3}": {
@@ -155333,48 +154997,6 @@
       ]
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Chateau des Fleurs Paris\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Chateau des Fleurs Paris Small Luxury Hotels of the World Hotel\", \"Chateau des Fleurs Paris Small Luxury Hotels of the World Resort\", \"Chateau des Fleurs Paris Small Luxury Hotels of the World\", \"Chateau des Fleurs Paris Small Luxury Hotels of the World Paris, France Hotel\", \"Chateau des Fleurs Paris Small Luxury Hotels of the World Paris, France Resort\", \"Chateau des Fleurs Paris Small Luxury Hotels of the World Paris, France\", \"Chateau des Fleurs Paris Hilton Hotel\", \"Chateau des Fleurs Paris Hilton Resort\", \"Chateau des Fleurs Paris Hilton\", \"Chateau des Fleurs Paris Hilton Paris, France Hotel\", \"Chateau des Fleurs Paris Hilton Paris, France Resort\", \"Chateau des Fleurs Paris Hilton Paris, France\", \"Chateau Des Fleurs Paris Small Luxury Hotels of the World Hotel\", \"Chateau Des Fleurs Paris Small Luxury Hotels of the World Resort\", \"Chateau Des Fleurs Paris Small Luxury Hotels of the World\", \"Chateau Des Fleurs Paris Small Luxury Hotels of the World Paris, France Hotel\", \"Chateau Des Fleurs Paris Small Luxury Hotels of the World Paris, France Resort\", \"Chateau Des Fleurs Paris Small Luxury Hotels of the World Paris, France\", \"Chateau Des Fleurs Paris Hilton Hotel\", \"Chateau Des Fleurs Paris Hilton Resort\", \"Chateau Des Fleurs Paris Hilton\", \"Chateau Des Fleurs Paris Hilton Paris, France Hotel\", \"Chateau Des Fleurs Paris Hilton Paris, France Resort\", \"Chateau Des Fleurs Paris Hilton Paris, France\", \"Chateau des Fleurs Paris Hotel\", \"Chateau des Fleurs Paris Resort\", \"Chateau des Fleurs Paris\", \"Chateau des Fleurs Paris Paris, France Hotel\", \"Chateau des Fleurs Paris Paris, France Resort\", \"Chateau des Fleurs Paris Paris, France\"], \"v\": 3}": {
-    "lat": 48.8718263,
-    "lon": 2.2983964,
-    "formatted_address": "19 Rue Vernet, 75008 Paris, France",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJCZhohOlv5kcRnrqBWeFld6I",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "19 Rue Vernet, 75008 Paris, France",
-      "geometry": {
-        "location": {
-          "lat": 48.8718263,
-          "lng": 2.2983964
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 48.8731665302915,
-            "lng": 2.299841130291501
-          },
-          "southwest": {
-            "lat": 48.8704685697085,
-            "lng": 2.297143169708498
-          }
-        }
-      },
-      "name": "Chateau des Fleurs",
-      "place_id": "ChIJCZhohOlv5kcRnrqBWeFld6I",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://www.chateaudesfleurs.paris/"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Limelight Hotel Aspen\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Limelight Hotel Aspen Limelight Hotels Hotel\", \"The Limelight Hotel Aspen Limelight Hotels Resort\", \"The Limelight Hotel Aspen Limelight Hotels\", \"The Limelight Hotel Aspen Limelight Hotels Aspen, Colorado US Hotel\", \"The Limelight Hotel Aspen Limelight Hotels Aspen, Colorado US Resort\", \"The Limelight Hotel Aspen Limelight Hotels Aspen, Colorado US\", \"The Limelight Hotel Aspen Hilton Hotel\", \"The Limelight Hotel Aspen Hilton Resort\", \"The Limelight Hotel Aspen Hilton\", \"The Limelight Hotel Aspen Hilton Aspen, Colorado US Hotel\", \"The Limelight Hotel Aspen Hilton Aspen, Colorado US Resort\", \"The Limelight Hotel Aspen Hilton Aspen, Colorado US\", \"Limelight Hotel Aspen Limelight Hotels Hotel\", \"Limelight Hotel Aspen Limelight Hotels Resort\", \"Limelight Hotel Aspen Limelight Hotels\", \"Limelight Hotel Aspen Limelight Hotels Aspen, Colorado US Hotel\", \"Limelight Hotel Aspen Limelight Hotels Aspen, Colorado US Resort\", \"Limelight Hotel Aspen Limelight Hotels Aspen, Colorado US\", \"Limelight Hotel Aspen Hilton Hotel\", \"Limelight Hotel Aspen Hilton Resort\", \"Limelight Hotel Aspen Hilton\", \"Limelight Hotel Aspen Hilton Aspen, Colorado US Hotel\", \"Limelight Hotel Aspen Hilton Aspen, Colorado US Resort\", \"Limelight Hotel Aspen Hilton Aspen, Colorado US\", \"The Limelight Hotel Aspen Hotel\", \"The Limelight Hotel Aspen Resort\", \"The Limelight Hotel Aspen\", \"The Limelight Hotel Aspen Aspen, Colorado US Hotel\", \"The Limelight Hotel Aspen Aspen, Colorado US Resort\", \"The Limelight Hotel Aspen Aspen, Colorado US\"], \"v\": 3}": {
     "lat": 39.1889152,
     "lon": -106.8213958,
@@ -159682,6 +159304,319 @@
         "point_of_interest"
       ],
       "website": "https://www.hilton.com/en/hotels/lttopup-hotel-ventura-saint-tropez/?SEO_id=GMB-EMEA-UP-LTTOPUP"
+    }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"The Guild Hotel San Diego Downtown\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Guild Hotel San Diego Downtown\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World\"], \"v\": 3}": null,
+  "{\"brand\": \"THC\", \"hotel_name\": \"Rixos Premium Dubai JBR - Full Board Plus\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rixos Premium Dubai JBR - Full Board Plus\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Andaz Savannah, by Hyatt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Andaz Savannah, by Hyatt Andaz Hotel\", \"Andaz Savannah, by Hyatt Andaz Resort\", \"Andaz Savannah, by Hyatt Andaz\", \"Andaz Savannah, by Hyatt Andaz Savannah, Georgia US Hotel\", \"Andaz Savannah, by Hyatt Andaz Savannah, Georgia US Resort\", \"Andaz Savannah, by Hyatt Andaz Savannah, Georgia US\", \"Andaz Savannah, by Hyatt Hilton Hotel\", \"Andaz Savannah, by Hyatt Hilton Resort\", \"Andaz Savannah, by Hyatt Hilton\", \"Andaz Savannah, by Hyatt Hilton Savannah, Georgia US Hotel\", \"Andaz Savannah, by Hyatt Hilton Savannah, Georgia US Resort\", \"Andaz Savannah, by Hyatt Hilton Savannah, Georgia US\", \"Andaz Savannah Hyatt Andaz Hotel\", \"Andaz Savannah Hyatt Andaz Resort\", \"Andaz Savannah Hyatt Andaz\", \"Andaz Savannah Hyatt Andaz Savannah, Georgia US Hotel\", \"Andaz Savannah Hyatt Andaz Savannah, Georgia US Resort\", \"Andaz Savannah Hyatt Andaz Savannah, Georgia US\", \"Andaz Savannah Hyatt Hilton Hotel\", \"Andaz Savannah Hyatt Hilton Resort\", \"Andaz Savannah Hyatt Hilton\", \"Andaz Savannah Hyatt Hilton Savannah, Georgia US Hotel\", \"Andaz Savannah Hyatt Hilton Savannah, Georgia US Resort\", \"Andaz Savannah Hyatt Hilton Savannah, Georgia US\", \"Andaz Savannah, by Hyatt Hotel\", \"Andaz Savannah, by Hyatt Resort\", \"Andaz Savannah, by Hyatt\", \"Andaz Savannah, by Hyatt Savannah, Georgia US Hotel\", \"Andaz Savannah, by Hyatt Savannah, Georgia US Resort\", \"Andaz Savannah, by Hyatt Savannah, Georgia US\"], \"v\": 3}": {
+    "lat": 32.0808834,
+    "lon": -81.09317419999999,
+    "formatted_address": "14 Barnard St, Savannah, GA 31401, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJrycVwWae-4gR0lBvyZN4XPg",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "14 Barnard St, Savannah, GA 31401, USA",
+      "geometry": {
+        "location": {
+          "lat": 32.0808834,
+          "lng": -81.09317419999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.0821807302915,
+            "lng": -81.09201271970849
+          },
+          "southwest": {
+            "lat": 32.07948276970851,
+            "lng": -81.0947106802915
+          }
+        }
+      },
+      "name": "Andaz Savannah, by Hyatt",
+      "place_id": "ChIJrycVwWae-4gR0lBvyZN4XPg",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/andaz/en-US/savrd-andaz-savannah?src=corp_lclb_google_seo_savrd&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"L7 CHICAGO by LOTTE HOTELS\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"L7 CHICAGO by LOTTE HOTELS Lotte Hotels & Resorts Hotel\", \"L7 CHICAGO by LOTTE HOTELS Lotte Hotels & Resorts Resort\", \"L7 CHICAGO by LOTTE HOTELS Lotte Hotels & Resorts\", \"L7 CHICAGO by LOTTE HOTELS Lotte Hotels & Resorts Chicago, Illinois US Hotel\", \"L7 CHICAGO by LOTTE HOTELS Lotte Hotels & Resorts Chicago, Illinois US Resort\", \"L7 CHICAGO by LOTTE HOTELS Lotte Hotels & Resorts Chicago, Illinois US\", \"L7 CHICAGO by LOTTE HOTELS Hilton Hotel\", \"L7 CHICAGO by LOTTE HOTELS Hilton Resort\", \"L7 CHICAGO by LOTTE HOTELS Hilton\", \"L7 CHICAGO by LOTTE HOTELS Hilton Chicago, Illinois US Hotel\", \"L7 CHICAGO by LOTTE HOTELS Hilton Chicago, Illinois US Resort\", \"L7 CHICAGO by LOTTE HOTELS Hilton Chicago, Illinois US\", \"L7 Chicago Lotte Hotels Lotte Hotels & Resorts Hotel\", \"L7 Chicago Lotte Hotels Lotte Hotels & Resorts Resort\", \"L7 Chicago Lotte Hotels Lotte Hotels & Resorts\", \"L7 Chicago Lotte Hotels Lotte Hotels & Resorts Chicago, Illinois US Hotel\", \"L7 Chicago Lotte Hotels Lotte Hotels & Resorts Chicago, Illinois US Resort\", \"L7 Chicago Lotte Hotels Lotte Hotels & Resorts Chicago, Illinois US\", \"L7 Chicago Lotte Hotels Hilton Hotel\", \"L7 Chicago Lotte Hotels Hilton Resort\", \"L7 Chicago Lotte Hotels Hilton\", \"L7 Chicago Lotte Hotels Hilton Chicago, Illinois US Hotel\", \"L7 Chicago Lotte Hotels Hilton Chicago, Illinois US Resort\", \"L7 Chicago Lotte Hotels Hilton Chicago, Illinois US\", \"L7 CHICAGO by LOTTE HOTELS Hotel\", \"L7 CHICAGO by LOTTE HOTELS Resort\", \"L7 CHICAGO by LOTTE HOTELS\", \"L7 CHICAGO by LOTTE HOTELS Chicago, Illinois US Hotel\", \"L7 CHICAGO by LOTTE HOTELS Chicago, Illinois US Resort\", \"L7 CHICAGO by LOTTE HOTELS Chicago, Illinois US\"], \"v\": 3}": {
+    "lat": 41.8866272,
+    "lon": -87.6260811,
+    "formatted_address": "225 N Wabash Ave, Chicago, IL 60601, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJFQmOzY4tDogRmsV7K4xZdoA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "225 N Wabash Ave, Chicago, IL 60601, USA",
+      "geometry": {
+        "location": {
+          "lat": 41.8866272,
+          "lng": -87.6260811
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.8879722302915,
+            "lng": -87.62485151970849
+          },
+          "southwest": {
+            "lat": 41.8852742697085,
+            "lng": -87.6275494802915
+          }
+        }
+      },
+      "name": "L7 CHICAGO BY LOTTE",
+      "place_id": "ChIJFQmOzY4tDogRmsV7K4xZdoA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://l7chicago.com/?utm_source=google&utm_medium=organic&utm_campaign=business_listing"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Guild Hotel San Diego Downtown\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Guild Hotel San Diego Downtown Marriott Hotel\", \"The Guild Hotel San Diego Downtown Marriott Resort\", \"The Guild Hotel San Diego Downtown Marriott\", \"The Guild Hotel San Diego Downtown Marriott San Diego, California US Hotel\", \"The Guild Hotel San Diego Downtown Marriott San Diego, California US Resort\", \"The Guild Hotel San Diego Downtown Marriott San Diego, California US\", \"The Guild Hotel San Diego Downtown Hilton Hotel\", \"The Guild Hotel San Diego Downtown Hilton Resort\", \"The Guild Hotel San Diego Downtown Hilton\", \"The Guild Hotel San Diego Downtown Hilton San Diego, California US Hotel\", \"The Guild Hotel San Diego Downtown Hilton San Diego, California US Resort\", \"The Guild Hotel San Diego Downtown Hilton San Diego, California US\", \"Guild Hotel San Diego Downtown Marriott Hotel\", \"Guild Hotel San Diego Downtown Marriott Resort\", \"Guild Hotel San Diego Downtown Marriott\", \"Guild Hotel San Diego Downtown Marriott San Diego, California US Hotel\", \"Guild Hotel San Diego Downtown Marriott San Diego, California US Resort\", \"Guild Hotel San Diego Downtown Marriott San Diego, California US\", \"Guild Hotel San Diego Downtown Hilton Hotel\", \"Guild Hotel San Diego Downtown Hilton Resort\", \"Guild Hotel San Diego Downtown Hilton\", \"Guild Hotel San Diego Downtown Hilton San Diego, California US Hotel\", \"Guild Hotel San Diego Downtown Hilton San Diego, California US Resort\", \"Guild Hotel San Diego Downtown Hilton San Diego, California US\", \"The Guild Hotel San Diego Downtown Hotel\", \"The Guild Hotel San Diego Downtown Resort\", \"The Guild Hotel San Diego Downtown\", \"The Guild Hotel San Diego Downtown San Diego, California US Hotel\", \"The Guild Hotel San Diego Downtown San Diego, California US Resort\", \"The Guild Hotel San Diego Downtown San Diego, California US\"], \"v\": 3}": {
+    "lat": 32.7160035,
+    "lon": -117.1678019,
+    "formatted_address": "500 W Broadway, San Diego, CA 92101, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ-8tHrAlV2YAROk3KqdDheHQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "500 W Broadway, San Diego, CA 92101, USA",
+      "geometry": {
+        "location": {
+          "lat": 32.7160035,
+          "lng": -117.1678019
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.7172387802915,
+            "lng": -117.1664704197085
+          },
+          "southwest": {
+            "lat": 32.7145408197085,
+            "lng": -117.1691683802915
+          }
+        }
+      },
+      "name": "The Guild Hotel, San Diego Downtown, a Tribute Portfolio Hotel",
+      "place_id": "ChIJ-8tHrAlV2YAROk3KqdDheHQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/santx-the-guild-hotel-san-diego-downtown-a-tribute-portfolio-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Rixos Premium Dubai JBR - Full Board Plus\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Rixos Premium Dubai JBR - Full Board Plus Rixos Hotel\", \"Rixos Premium Dubai JBR - Full Board Plus Rixos Resort\", \"Rixos Premium Dubai JBR - Full Board Plus Rixos\", \"Rixos Premium Dubai JBR - Full Board Plus Rixos Dubai, United Arab Emirates Hotel\", \"Rixos Premium Dubai JBR - Full Board Plus Rixos Dubai, United Arab Emirates Resort\", \"Rixos Premium Dubai JBR - Full Board Plus Rixos Dubai, United Arab Emirates\", \"Rixos Premium Dubai JBR - Full Board Plus Hilton Hotel\", \"Rixos Premium Dubai JBR - Full Board Plus Hilton Resort\", \"Rixos Premium Dubai JBR - Full Board Plus Hilton\", \"Rixos Premium Dubai JBR - Full Board Plus Hilton Dubai, United Arab Emirates Hotel\", \"Rixos Premium Dubai JBR - Full Board Plus Hilton Dubai, United Arab Emirates Resort\", \"Rixos Premium Dubai JBR - Full Board Plus Hilton Dubai, United Arab Emirates\", \"Rixos Premium Dubai Jbr Full Board Plus Rixos Hotel\", \"Rixos Premium Dubai Jbr Full Board Plus Rixos Resort\", \"Rixos Premium Dubai Jbr Full Board Plus Rixos\", \"Rixos Premium Dubai Jbr Full Board Plus Rixos Dubai, United Arab Emirates Hotel\", \"Rixos Premium Dubai Jbr Full Board Plus Rixos Dubai, United Arab Emirates Resort\", \"Rixos Premium Dubai Jbr Full Board Plus Rixos Dubai, United Arab Emirates\", \"Rixos Premium Dubai Jbr Full Board Plus Hilton Hotel\", \"Rixos Premium Dubai Jbr Full Board Plus Hilton Resort\", \"Rixos Premium Dubai Jbr Full Board Plus Hilton\", \"Rixos Premium Dubai Jbr Full Board Plus Hilton Dubai, United Arab Emirates Hotel\", \"Rixos Premium Dubai Jbr Full Board Plus Hilton Dubai, United Arab Emirates Resort\", \"Rixos Premium Dubai Jbr Full Board Plus Hilton Dubai, United Arab Emirates\", \"Rixos Premium Dubai JBR - Full Board Plus Hotel\", \"Rixos Premium Dubai JBR - Full Board Plus Resort\", \"Rixos Premium Dubai JBR - Full Board Plus\", \"Rixos Premium Dubai JBR - Full Board Plus Dubai, United Arab Emirates Hotel\", \"Rixos Premium Dubai JBR - Full Board Plus Dubai, United Arab Emirates Resort\", \"Rixos Premium Dubai JBR - Full Board Plus Dubai, United Arab Emirates\"], \"v\": 3}": {
+    "lat": 25.080075,
+    "lon": 55.13585399999999,
+    "formatted_address": "The Walk Jbr - Al Mamsha St - Marsa Dubai - Jumeirah Beach Residence - Dubai - United Arab Emirates",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJOaJqF6sUXz4RxzbhQU9vSas",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "The Walk Jbr - Al Mamsha St - Marsa Dubai - Jumeirah Beach Residence - Dubai - United Arab Emirates",
+      "geometry": {
+        "location": {
+          "lat": 25.080075,
+          "lng": 55.13585399999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 25.0813944802915,
+            "lng": 55.1372669802915
+          },
+          "southwest": {
+            "lat": 25.0786965197085,
+            "lng": 55.1345690197085
+          }
+        }
+      },
+      "name": "Rixos Premium Dubai JBR",
+      "place_id": "ChIJOaJqF6sUXz4RxzbhQU9vSas",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://allinclusive-collection.com/en/hotel/rixos-premium-dubai-jbr/?utm_source=GMB&utm_medium=metasearch"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World Small Luxury Hotels of the World Hotel\", \"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World Small Luxury Hotels of the World Resort\", \"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World Small Luxury Hotels of the World\", \"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World Small Luxury Hotels of the World Paris, France Hotel\", \"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World Small Luxury Hotels of the World Paris, France Resort\", \"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World Small Luxury Hotels of the World Paris, France\", \"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World Hilton Hotel\", \"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World Hilton Resort\", \"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World Hilton\", \"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World Hilton Paris, France Hotel\", \"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World Hilton Paris, France Resort\", \"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World Hilton Paris, France\", \"Chateau Des Fleurs Spa a Small Luxury Hotel Of World Small Luxury Hotels of the World Hotel\", \"Chateau Des Fleurs Spa a Small Luxury Hotel Of World Small Luxury Hotels of the World Resort\", \"Chateau Des Fleurs Spa a Small Luxury Hotel Of World Small Luxury Hotels of the World\", \"Chateau Des Fleurs Spa a Small Luxury Hotel Of World Small Luxury Hotels of the World Paris, France Hotel\", \"Chateau Des Fleurs Spa a Small Luxury Hotel Of World Small Luxury Hotels of the World Paris, France Resort\", \"Chateau Des Fleurs Spa a Small Luxury Hotel Of World Small Luxury Hotels of the World Paris, France\", \"Chateau Des Fleurs Spa a Small Luxury Hotel Of World Hilton Hotel\", \"Chateau Des Fleurs Spa a Small Luxury Hotel Of World Hilton Resort\", \"Chateau Des Fleurs Spa a Small Luxury Hotel Of World Hilton\", \"Chateau Des Fleurs Spa a Small Luxury Hotel Of World Hilton Paris, France Hotel\", \"Chateau Des Fleurs Spa a Small Luxury Hotel Of World Hilton Paris, France Resort\", \"Chateau Des Fleurs Spa a Small Luxury Hotel Of World Hilton Paris, France\", \"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World Hotel\", \"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World Resort\", \"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World\", \"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World Paris, France Hotel\", \"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World Paris, France Resort\", \"Ch\\u00e2teau des Fleurs & Spa, a Small Luxury Hotel of the World Paris, France\"], \"v\": 3}": {
+    "lat": 48.8718263,
+    "lon": 2.2983964,
+    "formatted_address": "19 Rue Vernet, 75008 Paris, France",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
+    "place_id": "ChIJCZhohOlv5kcRnrqBWeFld6I",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": true,
+    "raw": {
+      "address_components": [
+        {
+          "long_name": "19",
+          "short_name": "19",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Rue Vernet",
+          "short_name": "Rue Vernet",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Paris",
+          "short_name": "Paris",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Paris",
+          "short_name": "Paris",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Île-de-France",
+          "short_name": "IDF",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "France",
+          "short_name": "FR",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "75008",
+          "short_name": "75008",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "19 Rue Vernet, 75008 Paris, France",
+      "geometry": {
+        "location": {
+          "lat": 48.8718263,
+          "lng": 2.2983964
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 48.8731665302915,
+            "lng": 2.299841130291502
+          },
+          "southwest": {
+            "lat": 48.8704685697085,
+            "lng": 2.297143169708498
+          }
+        }
+      },
+      "partial_match": true,
+      "place_id": "ChIJCZhohOlv5kcRnrqBWeFld6I",
+      "plus_code": {
+        "compound_code": "V7CX+P9 Paris, France",
+        "global_code": "8FW4V7CX+P9"
+      },
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Grand Hotel du Louvre\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Hotel du Louvre The Unbound Collection Hotel\", \"Grand Hotel du Louvre The Unbound Collection Resort\", \"Grand Hotel du Louvre The Unbound Collection\", \"Grand Hotel du Louvre The Unbound Collection Paris, France Hotel\", \"Grand Hotel du Louvre The Unbound Collection Paris, France Resort\", \"Grand Hotel du Louvre The Unbound Collection Paris, France\", \"Grand Hotel du Louvre Hilton Hotel\", \"Grand Hotel du Louvre Hilton Resort\", \"Grand Hotel du Louvre Hilton\", \"Grand Hotel du Louvre Hilton Paris, France Hotel\", \"Grand Hotel du Louvre Hilton Paris, France Resort\", \"Grand Hotel du Louvre Hilton Paris, France\", \"Grand Hotel Du Louvre The Unbound Collection Hotel\", \"Grand Hotel Du Louvre The Unbound Collection Resort\", \"Grand Hotel Du Louvre The Unbound Collection\", \"Grand Hotel Du Louvre The Unbound Collection Paris, France Hotel\", \"Grand Hotel Du Louvre The Unbound Collection Paris, France Resort\", \"Grand Hotel Du Louvre The Unbound Collection Paris, France\", \"Grand Hotel Du Louvre Hilton Hotel\", \"Grand Hotel Du Louvre Hilton Resort\", \"Grand Hotel Du Louvre Hilton\", \"Grand Hotel Du Louvre Hilton Paris, France Hotel\", \"Grand Hotel Du Louvre Hilton Paris, France Resort\", \"Grand Hotel Du Louvre Hilton Paris, France\", \"Grand Hotel du Louvre Hotel\", \"Grand Hotel du Louvre Resort\", \"Grand Hotel du Louvre\", \"Grand Hotel du Louvre Paris, France Hotel\", \"Grand Hotel du Louvre Paris, France Resort\", \"Grand Hotel du Louvre Paris, France\"], \"v\": 3}": {
+    "lat": 48.8629906,
+    "lon": 2.3356856,
+    "formatted_address": "Pl. André Malraux, 75001 Paris, France",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJX9h1uSVu5kcR-6dgllIRSrE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Pl. André Malraux, 75001 Paris, France",
+      "geometry": {
+        "location": {
+          "lat": 48.8629906,
+          "lng": 2.3356856
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 48.8644049302915,
+            "lng": 2.337040680291501
+          },
+          "southwest": {
+            "lat": 48.8617069697085,
+            "lng": 2.334342719708498
+          }
+        }
+      },
+      "name": "Hôtel du Louvre - The Unbound Collection by Hyatt",
+      "place_id": "ChIJX9h1uSVu5kcR-6dgllIRSrE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/en-US/hotel/france/hotel-du-louvre/paraz?src=corp_lclb_google_seo_paraz&utm_source=google&utm_medium=organic&utm_campaign=lmr"
     }
   }
 }

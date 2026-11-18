@@ -25214,48 +25214,6 @@
       "website": "https://www.hilton.com/en/hotels/tlvvihi-the-vista-at-hilton-tel-aviv/?SEO_id=GMB-EMEA-HI-TLVVIHI"
     }
   },
-  "{\"brand\": \"Hyatt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Impression Isla Mujeres Secrets Hyatt Hotel\", \"Impression Isla Mujeres Secrets Hyatt Resort\", \"Impression Isla Mujeres Secrets Hyatt\", \"Impression Isla Mujeres Secrets Hyatt Isla Mujeres, Quintana Roo MX Hotel\", \"Impression Isla Mujeres Secrets Hyatt Isla Mujeres, Quintana Roo MX Resort\", \"Impression Isla Mujeres Secrets Hyatt Isla Mujeres, Quintana Roo MX\", \"Impression Isla Mujeres Secrets Hilton Hotel\", \"Impression Isla Mujeres Secrets Hilton Resort\", \"Impression Isla Mujeres Secrets Hilton\", \"Impression Isla Mujeres Secrets Hilton Isla Mujeres, Quintana Roo MX Hotel\", \"Impression Isla Mujeres Secrets Hilton Isla Mujeres, Quintana Roo MX Resort\", \"Impression Isla Mujeres Secrets Hilton Isla Mujeres, Quintana Roo MX\", \"Impression Isla Mujeres by Secrets Hyatt Hotel\", \"Impression Isla Mujeres by Secrets Hyatt Resort\", \"Impression Isla Mujeres by Secrets Hyatt\", \"Impression Isla Mujeres by Secrets Hyatt Isla Mujeres, Quintana Roo MX Hotel\", \"Impression Isla Mujeres by Secrets Hyatt Isla Mujeres, Quintana Roo MX Resort\", \"Impression Isla Mujeres by Secrets Hyatt Isla Mujeres, Quintana Roo MX\", \"Impression Isla Mujeres by Secrets Hilton Hotel\", \"Impression Isla Mujeres by Secrets Hilton Resort\", \"Impression Isla Mujeres by Secrets Hilton\", \"Impression Isla Mujeres by Secrets Hilton Isla Mujeres, Quintana Roo MX Hotel\", \"Impression Isla Mujeres by Secrets Hilton Isla Mujeres, Quintana Roo MX Resort\", \"Impression Isla Mujeres by Secrets Hilton Isla Mujeres, Quintana Roo MX\", \"Impression Isla Mujeres by Secrets Hotel\", \"Impression Isla Mujeres by Secrets Resort\", \"Impression Isla Mujeres by Secrets\", \"Impression Isla Mujeres by Secrets Isla Mujeres, Quintana Roo MX Hotel\", \"Impression Isla Mujeres by Secrets Isla Mujeres, Quintana Roo MX Resort\", \"Impression Isla Mujeres by Secrets Isla Mujeres, Quintana Roo MX\"], \"v\": 3}": {
-    "lat": 21.2097961,
-    "lon": -86.7207294,
-    "formatted_address": "Av. Perimetral Ote. Supermanzana 009 Manzana 055 Lote Pon, 77400 Quintana Roo, Q.R., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJH-a5oWglTI8RgthQW_GBrNM",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Av. Perimetral Ote. Supermanzana 009 Manzana 055 Lote Pon, 77400 Quintana Roo, Q.R., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 21.2097961,
-          "lng": -86.7207294
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 21.2112867302915,
-            "lng": -86.7191768197085
-          },
-          "southwest": {
-            "lat": 21.2085887697085,
-            "lng": -86.7218747802915
-          }
-        }
-      },
-      "name": "Impression Isla Mujeres by Secrets",
-      "place_id": "ChIJH-a5oWglTI8RgthQW_GBrNM",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hyattinclusivecollection.com/en/resorts-hotels/impression-by-secrets/mexico/isla-mujeres/?src=corp_lclb_google_seo_seiim&utm_source=google&utm_medium=organic&utm_campaign=lmr"
-    }
-  },
   "{\"brand\": \"Hyatt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Maison Metier Hyatt Hyatt Hotel\", \"Maison Metier Hyatt Hyatt Resort\", \"Maison Metier Hyatt Hyatt\", \"Maison Metier Hyatt Hyatt New Orleans, Louisiana US Hotel\", \"Maison Metier Hyatt Hyatt New Orleans, Louisiana US Resort\", \"Maison Metier Hyatt Hyatt New Orleans, Louisiana US\", \"Maison Metier Hyatt Hilton Hotel\", \"Maison Metier Hyatt Hilton Resort\", \"Maison Metier Hyatt Hilton\", \"Maison Metier Hyatt Hilton New Orleans, Louisiana US Hotel\", \"Maison Metier Hyatt Hilton New Orleans, Louisiana US Resort\", \"Maison Metier Hyatt Hilton New Orleans, Louisiana US\", \"Maison Metier by Hyatt Hyatt Hotel\", \"Maison Metier by Hyatt Hyatt Resort\", \"Maison Metier by Hyatt Hyatt\", \"Maison Metier by Hyatt Hyatt New Orleans, Louisiana US Hotel\", \"Maison Metier by Hyatt Hyatt New Orleans, Louisiana US Resort\", \"Maison Metier by Hyatt Hyatt New Orleans, Louisiana US\", \"Maison Metier by Hyatt Hilton Hotel\", \"Maison Metier by Hyatt Hilton Resort\", \"Maison Metier by Hyatt Hilton\", \"Maison Metier by Hyatt Hilton New Orleans, Louisiana US Hotel\", \"Maison Metier by Hyatt Hilton New Orleans, Louisiana US Resort\", \"Maison Metier by Hyatt Hilton New Orleans, Louisiana US\", \"Maison Metier by Hyatt Hotel\", \"Maison Metier by Hyatt Resort\", \"Maison Metier by Hyatt\", \"Maison Metier by Hyatt New Orleans, Louisiana US Hotel\", \"Maison Metier by Hyatt New Orleans, Louisiana US Resort\", \"Maison Metier by Hyatt New Orleans, Louisiana US\"], \"v\": 3}": {
     "lat": 29.9487885,
     "lon": -90.07202339999999,
@@ -27668,52 +27626,6 @@
         "point_of_interest"
       ],
       "website": "https://www.kempinski.com/en/hotel-adlon?utm_medium=organic&utm_source=google&utm_campaign=KIBER2&utm_content=gmb&source=S308962248"
-    }
-  },
-  "{\"brand\": \"Kempinski Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Kempinski Hotel Cancun Kempinski Hotels Hotel\", \"Kempinski Hotel Cancun Kempinski Hotels Resort\", \"Kempinski Hotel Cancun Kempinski Hotels\", \"Kempinski Hotel Cancun Kempinski Hotels Canc\\u00fan, Quintana Roo MX Hotel\", \"Kempinski Hotel Cancun Kempinski Hotels Canc\\u00fan, Quintana Roo MX Resort\", \"Kempinski Hotel Cancun Kempinski Hotels Canc\\u00fan, Quintana Roo MX\", \"Kempinski Hotel Cancun Hilton Hotel\", \"Kempinski Hotel Cancun Hilton Resort\", \"Kempinski Hotel Cancun Hilton\", \"Kempinski Hotel Cancun Hilton Canc\\u00fan, Quintana Roo MX Hotel\", \"Kempinski Hotel Cancun Hilton Canc\\u00fan, Quintana Roo MX Resort\", \"Kempinski Hotel Cancun Hilton Canc\\u00fan, Quintana Roo MX\", \"Kempinski Hotel Cancun Hotel\", \"Kempinski Hotel Cancun Resort\", \"Kempinski Hotel Cancun\", \"Kempinski Hotel Cancun Canc\\u00fan, Quintana Roo MX Hotel\", \"Kempinski Hotel Cancun Canc\\u00fan, Quintana Roo MX Resort\", \"Kempinski Hotel Cancun Canc\\u00fan, Quintana Roo MX\"], \"v\": 3}": {
-    "lat": 21.0931947,
-    "lon": -86.7682547,
-    "formatted_address": "Rtno. del Rey 36, Zona Hotelera, 77500 Cancún, Q.R., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJNU9gIUQoTI8RyUT2P2UMFp4",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Rtno. del Rey 36, Zona Hotelera, 77500 Cancún, Q.R., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 21.0931947,
-          "lng": -86.7682547
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 21.0946502302915,
-            "lng": -86.76710731970849
-          },
-          "southwest": {
-            "lat": 21.0919522697085,
-            "lng": -86.7698052802915
-          }
-        }
-      },
-      "name": "Kempinski Hotel Cancún",
-      "place_id": "ChIJNU9gIUQoTI8RyUT2P2UMFp4",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.kempinski.com/en/hotel-cancun?utm_medium=organic&utm_source=google&utm_campaign=KICUN1&utm_content=gmb&source=S308962248"
     }
   },
   "{\"brand\": \"Kempinski Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Taschenbergpalais Kempinski Dresden Kempinski Hotels Hotel\", \"Hotel Taschenbergpalais Kempinski Dresden Kempinski Hotels Resort\", \"Hotel Taschenbergpalais Kempinski Dresden Kempinski Hotels\", \"Hotel Taschenbergpalais Kempinski Dresden Kempinski Hotels Dresden, Germany Hotel\", \"Hotel Taschenbergpalais Kempinski Dresden Kempinski Hotels Dresden, Germany Resort\", \"Hotel Taschenbergpalais Kempinski Dresden Kempinski Hotels Dresden, Germany\", \"Hotel Taschenbergpalais Kempinski Dresden Hilton Hotel\", \"Hotel Taschenbergpalais Kempinski Dresden Hilton Resort\", \"Hotel Taschenbergpalais Kempinski Dresden Hilton\", \"Hotel Taschenbergpalais Kempinski Dresden Hilton Dresden, Germany Hotel\", \"Hotel Taschenbergpalais Kempinski Dresden Hilton Dresden, Germany Resort\", \"Hotel Taschenbergpalais Kempinski Dresden Hilton Dresden, Germany\", \"Hotel Taschenbergpalais Kempinski Dresden Hotel\", \"Hotel Taschenbergpalais Kempinski Dresden Resort\", \"Hotel Taschenbergpalais Kempinski Dresden\", \"Hotel Taschenbergpalais Kempinski Dresden Dresden, Germany Hotel\", \"Hotel Taschenbergpalais Kempinski Dresden Dresden, Germany Resort\", \"Hotel Taschenbergpalais Kempinski Dresden Dresden, Germany\"], \"v\": 3}": {
@@ -36407,48 +36319,6 @@
         "spa"
       ],
       "website": "https://www.postranchinn.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
-    }
-  },
-  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Sanchaya Preferred Hotels & Resorts Hotel\", \"The Sanchaya Preferred Hotels & Resorts Resort\", \"The Sanchaya Preferred Hotels & Resorts\", \"The Sanchaya Preferred Hotels & Resorts Bintan, Indonesia Hotel\", \"The Sanchaya Preferred Hotels & Resorts Bintan, Indonesia Resort\", \"The Sanchaya Preferred Hotels & Resorts Bintan, Indonesia\", \"The Sanchaya Hilton Hotel\", \"The Sanchaya Hilton Resort\", \"The Sanchaya Hilton\", \"The Sanchaya Hilton Bintan, Indonesia Hotel\", \"The Sanchaya Hilton Bintan, Indonesia Resort\", \"The Sanchaya Hilton Bintan, Indonesia\", \"The Sanchaya Hotel\", \"The Sanchaya Resort\", \"The Sanchaya\", \"The Sanchaya Bintan, Indonesia Hotel\", \"The Sanchaya Bintan, Indonesia Resort\", \"The Sanchaya Bintan, Indonesia\"], \"v\": 3}": {
-    "lat": 1.1774665,
-    "lon": 104.3682292,
-    "formatted_address": "Lagoi Bay, Jl. Gurindam Duabelas No.Plot 5, Sebong Lagoi, Kec. Tlk. Sebong, Kabupaten Bintan, Kepulauan Riau 29155, Indonesia",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJKXlN8grW2zERrN4heoRCOp4",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Lagoi Bay, Jl. Gurindam Duabelas No.Plot 5, Sebong Lagoi, Kec. Tlk. Sebong, Kabupaten Bintan, Kepulauan Riau 29155, Indonesia",
-      "geometry": {
-        "location": {
-          "lat": 1.1774665,
-          "lng": 104.3682292
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 1.178678580291502,
-            "lng": 104.3696412802915
-          },
-          "southwest": {
-            "lat": 1.175980619708498,
-            "lng": 104.3669433197085
-          }
-        }
-      },
-      "name": "The Sanchaya",
-      "place_id": "ChIJKXlN8grW2zERrN4heoRCOp4",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.thesanchaya.com/"
     }
   },
   "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Montage Palmetto Bluff Preferred Hotels & Resorts Hotel\", \"Montage Palmetto Bluff Preferred Hotels & Resorts Resort\", \"Montage Palmetto Bluff Preferred Hotels & Resorts\", \"Montage Palmetto Bluff Preferred Hotels & Resorts Bluffton, South Carolina US Hotel\", \"Montage Palmetto Bluff Preferred Hotels & Resorts Bluffton, South Carolina US Resort\", \"Montage Palmetto Bluff Preferred Hotels & Resorts Bluffton, South Carolina US\", \"Montage Palmetto Bluff Hilton Hotel\", \"Montage Palmetto Bluff Hilton Resort\", \"Montage Palmetto Bluff Hilton\", \"Montage Palmetto Bluff Hilton Bluffton, South Carolina US Hotel\", \"Montage Palmetto Bluff Hilton Bluffton, South Carolina US Resort\", \"Montage Palmetto Bluff Hilton Bluffton, South Carolina US\", \"Montage Palmetto Bluff Hotel\", \"Montage Palmetto Bluff Resort\", \"Montage Palmetto Bluff\", \"Montage Palmetto Bluff Bluffton, South Carolina US Hotel\", \"Montage Palmetto Bluff Bluffton, South Carolina US Resort\", \"Montage Palmetto Bluff Bluffton, South Carolina US\"], \"v\": 3}": {
@@ -88986,48 +88856,6 @@
         "spa"
       ],
       "website": "https://www.hilton.com/en/hotels/tlvvihi-the-vista-at-hilton-tel-aviv/?SEO_id=GMB-EMEA-HI-TLVVIHI"
-    }
-  },
-  "{\"brand\": \"Hyatt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Impression Isla Mujeres by Secrets Hyatt Hotel\", \"Impression Isla Mujeres by Secrets Hyatt Resort\", \"Impression Isla Mujeres by Secrets Hyatt\", \"Impression Isla Mujeres by Secrets Hyatt Isla Mujeres, Quintana Roo MX Hotel\", \"Impression Isla Mujeres by Secrets Hyatt Isla Mujeres, Quintana Roo MX Resort\", \"Impression Isla Mujeres by Secrets Hyatt Isla Mujeres, Quintana Roo MX\", \"Impression Isla Mujeres by Secrets Hilton Hotel\", \"Impression Isla Mujeres by Secrets Hilton Resort\", \"Impression Isla Mujeres by Secrets Hilton\", \"Impression Isla Mujeres by Secrets Hilton Isla Mujeres, Quintana Roo MX Hotel\", \"Impression Isla Mujeres by Secrets Hilton Isla Mujeres, Quintana Roo MX Resort\", \"Impression Isla Mujeres by Secrets Hilton Isla Mujeres, Quintana Roo MX\", \"Impression Isla Mujeres Secrets Hyatt Hotel\", \"Impression Isla Mujeres Secrets Hyatt Resort\", \"Impression Isla Mujeres Secrets Hyatt\", \"Impression Isla Mujeres Secrets Hyatt Isla Mujeres, Quintana Roo MX Hotel\", \"Impression Isla Mujeres Secrets Hyatt Isla Mujeres, Quintana Roo MX Resort\", \"Impression Isla Mujeres Secrets Hyatt Isla Mujeres, Quintana Roo MX\", \"Impression Isla Mujeres Secrets Hilton Hotel\", \"Impression Isla Mujeres Secrets Hilton Resort\", \"Impression Isla Mujeres Secrets Hilton\", \"Impression Isla Mujeres Secrets Hilton Isla Mujeres, Quintana Roo MX Hotel\", \"Impression Isla Mujeres Secrets Hilton Isla Mujeres, Quintana Roo MX Resort\", \"Impression Isla Mujeres Secrets Hilton Isla Mujeres, Quintana Roo MX\", \"Impression Isla Mujeres by Secrets Hotel\", \"Impression Isla Mujeres by Secrets Resort\", \"Impression Isla Mujeres by Secrets\", \"Impression Isla Mujeres by Secrets Isla Mujeres, Quintana Roo MX Hotel\", \"Impression Isla Mujeres by Secrets Isla Mujeres, Quintana Roo MX Resort\", \"Impression Isla Mujeres by Secrets Isla Mujeres, Quintana Roo MX\"], \"v\": 3}": {
-    "lat": 21.2097961,
-    "lon": -86.7207294,
-    "formatted_address": "Av. Perimetral Ote. Supermanzana 009 Manzana 055 Lote Pon, 77400 Quintana Roo, Q.R., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJH-a5oWglTI8RgthQW_GBrNM",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Av. Perimetral Ote. Supermanzana 009 Manzana 055 Lote Pon, 77400 Quintana Roo, Q.R., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 21.2097961,
-          "lng": -86.7207294
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 21.2112867302915,
-            "lng": -86.7191768197085
-          },
-          "southwest": {
-            "lat": 21.2085887697085,
-            "lng": -86.7218747802915
-          }
-        }
-      },
-      "name": "Impression Isla Mujeres by Secrets",
-      "place_id": "ChIJH-a5oWglTI8RgthQW_GBrNM",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hyattinclusivecollection.com/en/resorts-hotels/impression-by-secrets/mexico/isla-mujeres/?src=corp_lclb_google_seo_seiim&utm_source=google&utm_medium=organic&utm_campaign=lmr"
     }
   },
   "{\"brand\": \"Hyatt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Maison Metier by Hyatt Hyatt Hotel\", \"Maison Metier by Hyatt Hyatt Resort\", \"Maison Metier by Hyatt Hyatt\", \"Maison Metier by Hyatt Hyatt New Orleans, Louisiana US Hotel\", \"Maison Metier by Hyatt Hyatt New Orleans, Louisiana US Resort\", \"Maison Metier by Hyatt Hyatt New Orleans, Louisiana US\", \"Maison Metier by Hyatt Hilton Hotel\", \"Maison Metier by Hyatt Hilton Resort\", \"Maison Metier by Hyatt Hilton\", \"Maison Metier by Hyatt Hilton New Orleans, Louisiana US Hotel\", \"Maison Metier by Hyatt Hilton New Orleans, Louisiana US Resort\", \"Maison Metier by Hyatt Hilton New Orleans, Louisiana US\", \"Maison Metier Hyatt Hyatt Hotel\", \"Maison Metier Hyatt Hyatt Resort\", \"Maison Metier Hyatt Hyatt\", \"Maison Metier Hyatt Hyatt New Orleans, Louisiana US Hotel\", \"Maison Metier Hyatt Hyatt New Orleans, Louisiana US Resort\", \"Maison Metier Hyatt Hyatt New Orleans, Louisiana US\", \"Maison Metier Hyatt Hilton Hotel\", \"Maison Metier Hyatt Hilton Resort\", \"Maison Metier Hyatt Hilton\", \"Maison Metier Hyatt Hilton New Orleans, Louisiana US Hotel\", \"Maison Metier Hyatt Hilton New Orleans, Louisiana US Resort\", \"Maison Metier Hyatt Hilton New Orleans, Louisiana US\", \"Maison Metier by Hyatt Hotel\", \"Maison Metier by Hyatt Resort\", \"Maison Metier by Hyatt\", \"Maison Metier by Hyatt New Orleans, Louisiana US Hotel\", \"Maison Metier by Hyatt New Orleans, Louisiana US Resort\", \"Maison Metier by Hyatt New Orleans, Louisiana US\"], \"v\": 3}": {
@@ -150505,48 +150333,6 @@
       "website": "https://www.hyatt.com/unbound-collection/en-US/budub-parisi-udvar-hotel?src=corp_lclb_google_seo_budub&utm_source=google&utm_medium=organic&utm_campaign=lmr"
     }
   },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Impression Isla Mujeres by Secrets\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Impression Isla Mujeres by Secrets Hyatt Hotel\", \"Impression Isla Mujeres by Secrets Hyatt Resort\", \"Impression Isla Mujeres by Secrets Hyatt\", \"Impression Isla Mujeres by Secrets Hyatt Isla Mujeres, Quintana Roo MX Hotel\", \"Impression Isla Mujeres by Secrets Hyatt Isla Mujeres, Quintana Roo MX Resort\", \"Impression Isla Mujeres by Secrets Hyatt Isla Mujeres, Quintana Roo MX\", \"Impression Isla Mujeres by Secrets Hilton Hotel\", \"Impression Isla Mujeres by Secrets Hilton Resort\", \"Impression Isla Mujeres by Secrets Hilton\", \"Impression Isla Mujeres by Secrets Hilton Isla Mujeres, Quintana Roo MX Hotel\", \"Impression Isla Mujeres by Secrets Hilton Isla Mujeres, Quintana Roo MX Resort\", \"Impression Isla Mujeres by Secrets Hilton Isla Mujeres, Quintana Roo MX\", \"Impression Isla Mujeres Secrets Hyatt Hotel\", \"Impression Isla Mujeres Secrets Hyatt Resort\", \"Impression Isla Mujeres Secrets Hyatt\", \"Impression Isla Mujeres Secrets Hyatt Isla Mujeres, Quintana Roo MX Hotel\", \"Impression Isla Mujeres Secrets Hyatt Isla Mujeres, Quintana Roo MX Resort\", \"Impression Isla Mujeres Secrets Hyatt Isla Mujeres, Quintana Roo MX\", \"Impression Isla Mujeres Secrets Hilton Hotel\", \"Impression Isla Mujeres Secrets Hilton Resort\", \"Impression Isla Mujeres Secrets Hilton\", \"Impression Isla Mujeres Secrets Hilton Isla Mujeres, Quintana Roo MX Hotel\", \"Impression Isla Mujeres Secrets Hilton Isla Mujeres, Quintana Roo MX Resort\", \"Impression Isla Mujeres Secrets Hilton Isla Mujeres, Quintana Roo MX\", \"Impression Isla Mujeres by Secrets Hotel\", \"Impression Isla Mujeres by Secrets Resort\", \"Impression Isla Mujeres by Secrets\", \"Impression Isla Mujeres by Secrets Isla Mujeres, Quintana Roo MX Hotel\", \"Impression Isla Mujeres by Secrets Isla Mujeres, Quintana Roo MX Resort\", \"Impression Isla Mujeres by Secrets Isla Mujeres, Quintana Roo MX\"], \"v\": 3}": {
-    "lat": 21.2097961,
-    "lon": -86.7207294,
-    "formatted_address": "Av. Perimetral Ote. Supermanzana 009 Manzana 055 Lote Pon, 77400 Quintana Roo, Q.R., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJH-a5oWglTI8RgthQW_GBrNM",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Av. Perimetral Ote. Supermanzana 009 Manzana 055 Lote Pon, 77400 Quintana Roo, Q.R., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 21.2097961,
-          "lng": -86.7207294
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 21.2112867302915,
-            "lng": -86.7191768197085
-          },
-          "southwest": {
-            "lat": 21.2085887697085,
-            "lng": -86.7218747802915
-          }
-        }
-      },
-      "name": "Impression Isla Mujeres by Secrets",
-      "place_id": "ChIJH-a5oWglTI8RgthQW_GBrNM",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hyattinclusivecollection.com/en/resorts-hotels/impression-by-secrets/mexico/isla-mujeres/?src=corp_lclb_google_seo_seiim&utm_source=google&utm_medium=organic&utm_campaign=lmr"
-    }
-  },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Mission Pacific Beach Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mission Pacific Beach Resort Hyatt Hotel\", \"Mission Pacific Beach Resort Hyatt Resort\", \"Mission Pacific Beach Resort Hyatt\", \"Mission Pacific Beach Resort Hyatt Oceanside, California US Hotel\", \"Mission Pacific Beach Resort Hyatt Oceanside, California US Resort\", \"Mission Pacific Beach Resort Hyatt Oceanside, California US\", \"Mission Pacific Beach Resort Hilton Hotel\", \"Mission Pacific Beach Resort Hilton Resort\", \"Mission Pacific Beach Resort Hilton\", \"Mission Pacific Beach Resort Hilton Oceanside, California US Hotel\", \"Mission Pacific Beach Resort Hilton Oceanside, California US Resort\", \"Mission Pacific Beach Resort Hilton Oceanside, California US\", \"Mission Pacific Beach Resort Hotel\", \"Mission Pacific Beach Resort Resort\", \"Mission Pacific Beach Resort\", \"Mission Pacific Beach Resort Oceanside, California US Hotel\", \"Mission Pacific Beach Resort Oceanside, California US Resort\", \"Mission Pacific Beach Resort Oceanside, California US\"], \"v\": 3}": {
     "lat": 33.1945008,
     "lon": -117.3832749,
@@ -153301,52 +153087,6 @@
         "point_of_interest"
       ],
       "website": "https://www.kempinski.com/en/hotel-adlon?utm_medium=organic&utm_source=google&utm_campaign=KIBER2&utm_content=gmb&source=S308962248"
-    }
-  },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Kempinski Hotel Cancun\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Kempinski Hotel Cancun Kempinski Hotels Hotel\", \"Kempinski Hotel Cancun Kempinski Hotels Resort\", \"Kempinski Hotel Cancun Kempinski Hotels\", \"Kempinski Hotel Cancun Kempinski Hotels Canc\\u00fan, Quintana Roo MX Hotel\", \"Kempinski Hotel Cancun Kempinski Hotels Canc\\u00fan, Quintana Roo MX Resort\", \"Kempinski Hotel Cancun Kempinski Hotels Canc\\u00fan, Quintana Roo MX\", \"Kempinski Hotel Cancun Hilton Hotel\", \"Kempinski Hotel Cancun Hilton Resort\", \"Kempinski Hotel Cancun Hilton\", \"Kempinski Hotel Cancun Hilton Canc\\u00fan, Quintana Roo MX Hotel\", \"Kempinski Hotel Cancun Hilton Canc\\u00fan, Quintana Roo MX Resort\", \"Kempinski Hotel Cancun Hilton Canc\\u00fan, Quintana Roo MX\", \"Kempinski Hotel Cancun Hotel\", \"Kempinski Hotel Cancun Resort\", \"Kempinski Hotel Cancun\", \"Kempinski Hotel Cancun Canc\\u00fan, Quintana Roo MX Hotel\", \"Kempinski Hotel Cancun Canc\\u00fan, Quintana Roo MX Resort\", \"Kempinski Hotel Cancun Canc\\u00fan, Quintana Roo MX\"], \"v\": 3}": {
-    "lat": 21.0931947,
-    "lon": -86.7682547,
-    "formatted_address": "Rtno. del Rey 36, Zona Hotelera, 77500 Cancún, Q.R., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJNU9gIUQoTI8RyUT2P2UMFp4",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Rtno. del Rey 36, Zona Hotelera, 77500 Cancún, Q.R., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 21.0931947,
-          "lng": -86.7682547
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 21.0946502302915,
-            "lng": -86.76710731970849
-          },
-          "southwest": {
-            "lat": 21.0919522697085,
-            "lng": -86.7698052802915
-          }
-        }
-      },
-      "name": "Kempinski Hotel Cancún",
-      "place_id": "ChIJNU9gIUQoTI8RyUT2P2UMFp4",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant"
-      ],
-      "website": "https://www.kempinski.com/en/hotel-cancun?utm_medium=organic&utm_source=google&utm_campaign=KICUN1&utm_content=gmb&source=S308962248"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Taschenbergpalais Kempinski Dresden\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Taschenbergpalais Kempinski Dresden Kempinski Hotels Hotel\", \"Hotel Taschenbergpalais Kempinski Dresden Kempinski Hotels Resort\", \"Hotel Taschenbergpalais Kempinski Dresden Kempinski Hotels\", \"Hotel Taschenbergpalais Kempinski Dresden Kempinski Hotels Dresden, Germany Hotel\", \"Hotel Taschenbergpalais Kempinski Dresden Kempinski Hotels Dresden, Germany Resort\", \"Hotel Taschenbergpalais Kempinski Dresden Kempinski Hotels Dresden, Germany\", \"Hotel Taschenbergpalais Kempinski Dresden Hilton Hotel\", \"Hotel Taschenbergpalais Kempinski Dresden Hilton Resort\", \"Hotel Taschenbergpalais Kempinski Dresden Hilton\", \"Hotel Taschenbergpalais Kempinski Dresden Hilton Dresden, Germany Hotel\", \"Hotel Taschenbergpalais Kempinski Dresden Hilton Dresden, Germany Resort\", \"Hotel Taschenbergpalais Kempinski Dresden Hilton Dresden, Germany\", \"Hotel Taschenbergpalais Kempinski Dresden Hotel\", \"Hotel Taschenbergpalais Kempinski Dresden Resort\", \"Hotel Taschenbergpalais Kempinski Dresden\", \"Hotel Taschenbergpalais Kempinski Dresden Dresden, Germany Hotel\", \"Hotel Taschenbergpalais Kempinski Dresden Dresden, Germany Resort\", \"Hotel Taschenbergpalais Kempinski Dresden Dresden, Germany\"], \"v\": 3}": {
@@ -162442,48 +162182,6 @@
         "spa"
       ],
       "website": "https://www.postranchinn.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
-    }
-  },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Sanchaya\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Sanchaya Preferred Hotels & Resorts Hotel\", \"The Sanchaya Preferred Hotels & Resorts Resort\", \"The Sanchaya Preferred Hotels & Resorts\", \"The Sanchaya Preferred Hotels & Resorts Bintan, Indonesia Hotel\", \"The Sanchaya Preferred Hotels & Resorts Bintan, Indonesia Resort\", \"The Sanchaya Preferred Hotels & Resorts Bintan, Indonesia\", \"The Sanchaya Hilton Hotel\", \"The Sanchaya Hilton Resort\", \"The Sanchaya Hilton\", \"The Sanchaya Hilton Bintan, Indonesia Hotel\", \"The Sanchaya Hilton Bintan, Indonesia Resort\", \"The Sanchaya Hilton Bintan, Indonesia\", \"The Sanchaya Hotel\", \"The Sanchaya Resort\", \"The Sanchaya\", \"The Sanchaya Bintan, Indonesia Hotel\", \"The Sanchaya Bintan, Indonesia Resort\", \"The Sanchaya Bintan, Indonesia\"], \"v\": 3}": {
-    "lat": 1.1774665,
-    "lon": 104.3682292,
-    "formatted_address": "Lagoi Bay, Jl. Gurindam Duabelas No.Plot 5, Sebong Lagoi, Kec. Tlk. Sebong, Kabupaten Bintan, Kepulauan Riau 29155, Indonesia",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJKXlN8grW2zERrN4heoRCOp4",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Lagoi Bay, Jl. Gurindam Duabelas No.Plot 5, Sebong Lagoi, Kec. Tlk. Sebong, Kabupaten Bintan, Kepulauan Riau 29155, Indonesia",
-      "geometry": {
-        "location": {
-          "lat": 1.1774665,
-          "lng": 104.3682292
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 1.178678580291502,
-            "lng": 104.3696412802915
-          },
-          "southwest": {
-            "lat": 1.175980619708498,
-            "lng": 104.3669433197085
-          }
-        }
-      },
-      "name": "The Sanchaya",
-      "place_id": "ChIJKXlN8grW2zERrN4heoRCOp4",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.thesanchaya.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Montage Palmetto Bluff\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Montage Palmetto Bluff Preferred Hotels & Resorts Hotel\", \"Montage Palmetto Bluff Preferred Hotels & Resorts Resort\", \"Montage Palmetto Bluff Preferred Hotels & Resorts\", \"Montage Palmetto Bluff Preferred Hotels & Resorts Bluffton, South Carolina US Hotel\", \"Montage Palmetto Bluff Preferred Hotels & Resorts Bluffton, South Carolina US Resort\", \"Montage Palmetto Bluff Preferred Hotels & Resorts Bluffton, South Carolina US\", \"Montage Palmetto Bluff Hilton Hotel\", \"Montage Palmetto Bluff Hilton Resort\", \"Montage Palmetto Bluff Hilton\", \"Montage Palmetto Bluff Hilton Bluffton, South Carolina US Hotel\", \"Montage Palmetto Bluff Hilton Bluffton, South Carolina US Resort\", \"Montage Palmetto Bluff Hilton Bluffton, South Carolina US\", \"Montage Palmetto Bluff Hotel\", \"Montage Palmetto Bluff Resort\", \"Montage Palmetto Bluff\", \"Montage Palmetto Bluff Bluffton, South Carolina US Hotel\", \"Montage Palmetto Bluff Bluffton, South Carolina US Resort\", \"Montage Palmetto Bluff Bluffton, South Carolina US\"], \"v\": 3}": {
@@ -210294,48 +209992,6 @@
       "website": "http://www.palais-coburg.com/"
     }
   },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Sanchaya\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Sanchaya The Leading Hotels of the World Hotel\", \"The Sanchaya The Leading Hotels of the World Resort\", \"The Sanchaya The Leading Hotels of the World\", \"The Sanchaya The Leading Hotels of the World Bintan, Indonesia Hotel\", \"The Sanchaya The Leading Hotels of the World Bintan, Indonesia Resort\", \"The Sanchaya The Leading Hotels of the World Bintan, Indonesia\", \"The Sanchaya Hilton Hotel\", \"The Sanchaya Hilton Resort\", \"The Sanchaya Hilton\", \"The Sanchaya Hilton Bintan, Indonesia Hotel\", \"The Sanchaya Hilton Bintan, Indonesia Resort\", \"The Sanchaya Hilton Bintan, Indonesia\", \"The Sanchaya Hotel\", \"The Sanchaya Resort\", \"The Sanchaya\", \"The Sanchaya Bintan, Indonesia Hotel\", \"The Sanchaya Bintan, Indonesia Resort\", \"The Sanchaya Bintan, Indonesia\"], \"v\": 3}": {
-    "lat": 1.1774665,
-    "lon": 104.3682292,
-    "formatted_address": "Lagoi Bay, Jl. Gurindam Duabelas No.Plot 5, Sebong Lagoi, Kec. Tlk. Sebong, Kabupaten Bintan, Kepulauan Riau 29155, Indonesia",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJKXlN8grW2zERrN4heoRCOp4",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Lagoi Bay, Jl. Gurindam Duabelas No.Plot 5, Sebong Lagoi, Kec. Tlk. Sebong, Kabupaten Bintan, Kepulauan Riau 29155, Indonesia",
-      "geometry": {
-        "location": {
-          "lat": 1.1774665,
-          "lng": 104.3682292
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 1.178678580291502,
-            "lng": 104.3696412802915
-          },
-          "southwest": {
-            "lat": 1.175980619708498,
-            "lng": 104.3669433197085
-          }
-        }
-      },
-      "name": "The Sanchaya",
-      "place_id": "ChIJKXlN8grW2zERrN4heoRCOp4",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.thesanchaya.com/"
-    }
-  },
   "{\"brand\": \"FHR\", \"hotel_name\": \"JA Mar Hall\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"JA Mar Hall\"], \"v\": 3}": null,
   "{\"brand\": \"FHR\", \"hotel_name\": \"Palacio Gran Via Royal Hideaway Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Palacio Gran Via Royal Hideaway Hotel\"], \"v\": 3}": null,
   "{\"brand\": \"FHR\", \"hotel_name\": \"Thyme\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Thyme\"], \"v\": 3}": null,
@@ -213516,6 +213172,138 @@
         "point_of_interest"
       ],
       "website": "https://www.banyantree.com/veya/mexico/valle-de-guadalupe"
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Impression Isla Mujeres, part of the Unbound Collection by Hyatt.\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Impression Isla Mujeres, part of the Unbound Collection by Hyatt.\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Kempinski Hotel Canc\\u00fan - All Inclusive\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Kempinski Hotel Canc\\u00fan - All Inclusive\"], \"v\": 3}": null,
+  "{\"brand\": \"FHR\", \"hotel_name\": \"The Sanchaya - The Leading Hotels of The World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Sanchaya - The Leading Hotels of The World\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Impression Isla Mujeres, part of the Unbound Collection by Hyatt.\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Impression Isla Mujeres, part of the Unbound Collection by Hyatt. Hyatt Hotel\", \"Impression Isla Mujeres, part of the Unbound Collection by Hyatt. Hyatt Resort\", \"Impression Isla Mujeres, part of the Unbound Collection by Hyatt. Hyatt\", \"Impression Isla Mujeres, part of the Unbound Collection by Hyatt. Hyatt Isla Mujeres, Quintana Roo MX Hotel\", \"Impression Isla Mujeres, part of the Unbound Collection by Hyatt. Hyatt Isla Mujeres, Quintana Roo MX Resort\", \"Impression Isla Mujeres, part of the Unbound Collection by Hyatt. Hyatt Isla Mujeres, Quintana Roo MX\", \"Impression Isla Mujeres, part of the Unbound Collection by Hyatt. Hilton Hotel\", \"Impression Isla Mujeres, part of the Unbound Collection by Hyatt. Hilton Resort\", \"Impression Isla Mujeres, part of the Unbound Collection by Hyatt. Hilton\", \"Impression Isla Mujeres, part of the Unbound Collection by Hyatt. Hilton Isla Mujeres, Quintana Roo MX Hotel\", \"Impression Isla Mujeres, part of the Unbound Collection by Hyatt. Hilton Isla Mujeres, Quintana Roo MX Resort\", \"Impression Isla Mujeres, part of the Unbound Collection by Hyatt. Hilton Isla Mujeres, Quintana Roo MX\", \"Impression Isla Mujeres Part Of Unbound Collection Hyatt Hyatt Hotel\", \"Impression Isla Mujeres Part Of Unbound Collection Hyatt Hyatt Resort\", \"Impression Isla Mujeres Part Of Unbound Collection Hyatt Hyatt\", \"Impression Isla Mujeres Part Of Unbound Collection Hyatt Hyatt Isla Mujeres, Quintana Roo MX Hotel\", \"Impression Isla Mujeres Part Of Unbound Collection Hyatt Hyatt Isla Mujeres, Quintana Roo MX Resort\", \"Impression Isla Mujeres Part Of Unbound Collection Hyatt Hyatt Isla Mujeres, Quintana Roo MX\", \"Impression Isla Mujeres Part Of Unbound Collection Hyatt Hilton Hotel\", \"Impression Isla Mujeres Part Of Unbound Collection Hyatt Hilton Resort\", \"Impression Isla Mujeres Part Of Unbound Collection Hyatt Hilton\", \"Impression Isla Mujeres Part Of Unbound Collection Hyatt Hilton Isla Mujeres, Quintana Roo MX Hotel\", \"Impression Isla Mujeres Part Of Unbound Collection Hyatt Hilton Isla Mujeres, Quintana Roo MX Resort\", \"Impression Isla Mujeres Part Of Unbound Collection Hyatt Hilton Isla Mujeres, Quintana Roo MX\", \"Impression Isla Mujeres, part of the Unbound Collection by Hyatt. Hotel\", \"Impression Isla Mujeres, part of the Unbound Collection by Hyatt. Resort\", \"Impression Isla Mujeres, part of the Unbound Collection by Hyatt.\", \"Impression Isla Mujeres, part of the Unbound Collection by Hyatt. Isla Mujeres, Quintana Roo MX Hotel\", \"Impression Isla Mujeres, part of the Unbound Collection by Hyatt. Isla Mujeres, Quintana Roo MX Resort\", \"Impression Isla Mujeres, part of the Unbound Collection by Hyatt. Isla Mujeres, Quintana Roo MX\"], \"v\": 3}": {
+    "lat": 21.2097961,
+    "lon": -86.7207294,
+    "formatted_address": "Av. Perimetral Ote. Supermanzana 009 Manzana 055 Lote Pon, 77400 Quintana Roo, Q.R., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJH-a5oWglTI8RgthQW_GBrNM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Av. Perimetral Ote. Supermanzana 009 Manzana 055 Lote Pon, 77400 Quintana Roo, Q.R., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 21.2097961,
+          "lng": -86.7207294
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 21.2112867302915,
+            "lng": -86.7191768197085
+          },
+          "southwest": {
+            "lat": 21.2085887697085,
+            "lng": -86.7218747802915
+          }
+        }
+      },
+      "name": "Impression Isla Mujeres",
+      "place_id": "ChIJH-a5oWglTI8RgthQW_GBrNM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyattinclusivecollection.com/en/resorts-hotels/impression-by-secrets/mexico/isla-mujeres/?src=corp_lclb_google_seo_seiim&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Kempinski Hotel Canc\\u00fan - All Inclusive\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Kempinski Hotel Canc\\u00fan - All Inclusive Kempinski Hotels Hotel\", \"Kempinski Hotel Canc\\u00fan - All Inclusive Kempinski Hotels Resort\", \"Kempinski Hotel Canc\\u00fan - All Inclusive Kempinski Hotels\", \"Kempinski Hotel Canc\\u00fan - All Inclusive Kempinski Hotels Canc\\u00fan, Quintana Roo MX Hotel\", \"Kempinski Hotel Canc\\u00fan - All Inclusive Kempinski Hotels Canc\\u00fan, Quintana Roo MX Resort\", \"Kempinski Hotel Canc\\u00fan - All Inclusive Kempinski Hotels Canc\\u00fan, Quintana Roo MX\", \"Kempinski Hotel Canc\\u00fan - All Inclusive Hilton Hotel\", \"Kempinski Hotel Canc\\u00fan - All Inclusive Hilton Resort\", \"Kempinski Hotel Canc\\u00fan - All Inclusive Hilton\", \"Kempinski Hotel Canc\\u00fan - All Inclusive Hilton Canc\\u00fan, Quintana Roo MX Hotel\", \"Kempinski Hotel Canc\\u00fan - All Inclusive Hilton Canc\\u00fan, Quintana Roo MX Resort\", \"Kempinski Hotel Canc\\u00fan - All Inclusive Hilton Canc\\u00fan, Quintana Roo MX\", \"Kempinski Hotel Cancun All Inclusive Kempinski Hotels Hotel\", \"Kempinski Hotel Cancun All Inclusive Kempinski Hotels Resort\", \"Kempinski Hotel Cancun All Inclusive Kempinski Hotels\", \"Kempinski Hotel Cancun All Inclusive Kempinski Hotels Canc\\u00fan, Quintana Roo MX Hotel\", \"Kempinski Hotel Cancun All Inclusive Kempinski Hotels Canc\\u00fan, Quintana Roo MX Resort\", \"Kempinski Hotel Cancun All Inclusive Kempinski Hotels Canc\\u00fan, Quintana Roo MX\", \"Kempinski Hotel Cancun All Inclusive Hilton Hotel\", \"Kempinski Hotel Cancun All Inclusive Hilton Resort\", \"Kempinski Hotel Cancun All Inclusive Hilton\", \"Kempinski Hotel Cancun All Inclusive Hilton Canc\\u00fan, Quintana Roo MX Hotel\", \"Kempinski Hotel Cancun All Inclusive Hilton Canc\\u00fan, Quintana Roo MX Resort\", \"Kempinski Hotel Cancun All Inclusive Hilton Canc\\u00fan, Quintana Roo MX\", \"Kempinski Hotel Canc\\u00fan - All Inclusive Hotel\", \"Kempinski Hotel Canc\\u00fan - All Inclusive Resort\", \"Kempinski Hotel Canc\\u00fan - All Inclusive\", \"Kempinski Hotel Canc\\u00fan - All Inclusive Canc\\u00fan, Quintana Roo MX Hotel\", \"Kempinski Hotel Canc\\u00fan - All Inclusive Canc\\u00fan, Quintana Roo MX Resort\", \"Kempinski Hotel Canc\\u00fan - All Inclusive Canc\\u00fan, Quintana Roo MX\"], \"v\": 3}": {
+    "lat": 21.0931947,
+    "lon": -86.7682547,
+    "formatted_address": "Rtno. del Rey 36, Zona Hotelera, 77500 Cancún, Q.R., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJNU9gIUQoTI8RyUT2P2UMFp4",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Rtno. del Rey 36, Zona Hotelera, 77500 Cancún, Q.R., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 21.0931947,
+          "lng": -86.7682547
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 21.0946502302915,
+            "lng": -86.76710731970849
+          },
+          "southwest": {
+            "lat": 21.0919522697085,
+            "lng": -86.7698052802915
+          }
+        }
+      },
+      "name": "Kempinski Hotel Cancún",
+      "place_id": "ChIJNU9gIUQoTI8RyUT2P2UMFp4",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.kempinski.com/en/hotel-cancun?utm_medium=organic&utm_source=google&utm_campaign=KICUN1&utm_content=gmb&source=S308962248"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Sanchaya - The Leading Hotels of The World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Sanchaya - The Leading Hotels of The World The Leading Hotels of the World Hotel\", \"The Sanchaya - The Leading Hotels of The World The Leading Hotels of the World Resort\", \"The Sanchaya - The Leading Hotels of The World The Leading Hotels of the World\", \"The Sanchaya - The Leading Hotels of The World The Leading Hotels of the World Bintan, Indonesia Hotel\", \"The Sanchaya - The Leading Hotels of The World The Leading Hotels of the World Bintan, Indonesia Resort\", \"The Sanchaya - The Leading Hotels of The World The Leading Hotels of the World Bintan, Indonesia\", \"The Sanchaya - The Leading Hotels of The World Hilton Hotel\", \"The Sanchaya - The Leading Hotels of The World Hilton Resort\", \"The Sanchaya - The Leading Hotels of The World Hilton\", \"The Sanchaya - The Leading Hotels of The World Hilton Bintan, Indonesia Hotel\", \"The Sanchaya - The Leading Hotels of The World Hilton Bintan, Indonesia Resort\", \"The Sanchaya - The Leading Hotels of The World Hilton Bintan, Indonesia\", \"Sanchaya Leading Hotels Of World The Leading Hotels of the World Hotel\", \"Sanchaya Leading Hotels Of World The Leading Hotels of the World Resort\", \"Sanchaya Leading Hotels Of World The Leading Hotels of the World\", \"Sanchaya Leading Hotels Of World The Leading Hotels of the World Bintan, Indonesia Hotel\", \"Sanchaya Leading Hotels Of World The Leading Hotels of the World Bintan, Indonesia Resort\", \"Sanchaya Leading Hotels Of World The Leading Hotels of the World Bintan, Indonesia\", \"Sanchaya Leading Hotels Of World Hilton Hotel\", \"Sanchaya Leading Hotels Of World Hilton Resort\", \"Sanchaya Leading Hotels Of World Hilton\", \"Sanchaya Leading Hotels Of World Hilton Bintan, Indonesia Hotel\", \"Sanchaya Leading Hotels Of World Hilton Bintan, Indonesia Resort\", \"Sanchaya Leading Hotels Of World Hilton Bintan, Indonesia\", \"The Sanchaya - The Leading Hotels of The World Hotel\", \"The Sanchaya - The Leading Hotels of The World Resort\", \"The Sanchaya - The Leading Hotels of The World\", \"The Sanchaya - The Leading Hotels of The World Bintan, Indonesia Hotel\", \"The Sanchaya - The Leading Hotels of The World Bintan, Indonesia Resort\", \"The Sanchaya - The Leading Hotels of The World Bintan, Indonesia\"], \"v\": 3}": {
+    "lat": 1.1774665,
+    "lon": 104.3682292,
+    "formatted_address": "Lagoi Bay, Jl. Gurindam Duabelas No.Plot 5, Sebong Lagoi, Kec. Tlk. Sebong, Kabupaten Bintan, Kepulauan Riau 29155, Indonesia",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJKXlN8grW2zERrN4heoRCOp4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Lagoi Bay, Jl. Gurindam Duabelas No.Plot 5, Sebong Lagoi, Kec. Tlk. Sebong, Kabupaten Bintan, Kepulauan Riau 29155, Indonesia",
+      "geometry": {
+        "location": {
+          "lat": 1.1774665,
+          "lng": 104.3682292
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 1.178678580291502,
+            "lng": 104.3696412802915
+          },
+          "southwest": {
+            "lat": 1.175980619708498,
+            "lng": 104.3669433197085
+          }
+        }
+      },
+      "name": "The Sanchaya - The Leading Hotels of The World",
+      "place_id": "ChIJKXlN8grW2zERrN4heoRCOp4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
     }
   }
 }
