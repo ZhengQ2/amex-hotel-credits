@@ -40810,54 +40810,6 @@
       "website": "http://www.mysteryhotelbudapest.com/"
     }
   },
-  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Garza Blanca Resort Spa Los Cabos Preferred Hotels & Resorts Hotel\", \"Garza Blanca Resort Spa Los Cabos Preferred Hotels & Resorts Resort\", \"Garza Blanca Resort Spa Los Cabos Preferred Hotels & Resorts\", \"Garza Blanca Resort Spa Los Cabos Preferred Hotels & Resorts Cabo San Lucas, Baja California Sur MX Hotel\", \"Garza Blanca Resort Spa Los Cabos Preferred Hotels & Resorts Cabo San Lucas, Baja California Sur MX Resort\", \"Garza Blanca Resort Spa Los Cabos Preferred Hotels & Resorts Cabo San Lucas, Baja California Sur MX\", \"Garza Blanca Resort Spa Los Cabos Hilton Hotel\", \"Garza Blanca Resort Spa Los Cabos Hilton Resort\", \"Garza Blanca Resort Spa Los Cabos Hilton\", \"Garza Blanca Resort Spa Los Cabos Hilton Cabo San Lucas, Baja California Sur MX Hotel\", \"Garza Blanca Resort Spa Los Cabos Hilton Cabo San Lucas, Baja California Sur MX Resort\", \"Garza Blanca Resort Spa Los Cabos Hilton Cabo San Lucas, Baja California Sur MX\", \"Garza Blanca Resort & Spa Los Cabos Preferred Hotels & Resorts Hotel\", \"Garza Blanca Resort & Spa Los Cabos Preferred Hotels & Resorts Resort\", \"Garza Blanca Resort & Spa Los Cabos Preferred Hotels & Resorts\", \"Garza Blanca Resort & Spa Los Cabos Preferred Hotels & Resorts Cabo San Lucas, Baja California Sur MX Hotel\", \"Garza Blanca Resort & Spa Los Cabos Preferred Hotels & Resorts Cabo San Lucas, Baja California Sur MX Resort\", \"Garza Blanca Resort & Spa Los Cabos Preferred Hotels & Resorts Cabo San Lucas, Baja California Sur MX\", \"Garza Blanca Resort & Spa Los Cabos Hilton Hotel\", \"Garza Blanca Resort & Spa Los Cabos Hilton Resort\", \"Garza Blanca Resort & Spa Los Cabos Hilton\", \"Garza Blanca Resort & Spa Los Cabos Hilton Cabo San Lucas, Baja California Sur MX Hotel\", \"Garza Blanca Resort & Spa Los Cabos Hilton Cabo San Lucas, Baja California Sur MX Resort\", \"Garza Blanca Resort & Spa Los Cabos Hilton Cabo San Lucas, Baja California Sur MX\", \"Garza Blanca Resort & Spa Los Cabos Hotel\", \"Garza Blanca Resort & Spa Los Cabos Resort\", \"Garza Blanca Resort & Spa Los Cabos\", \"Garza Blanca Resort & Spa Los Cabos Cabo San Lucas, Baja California Sur MX Hotel\", \"Garza Blanca Resort & Spa Los Cabos Cabo San Lucas, Baja California Sur MX Resort\", \"Garza Blanca Resort & Spa Los Cabos Cabo San Lucas, Baja California Sur MX\"], \"v\": 3}": {
-    "lat": 22.9700122,
-    "lon": -109.7887836,
-    "formatted_address": "Carretera Transpeninsular Km. 17.5, Corredor Turístico, Tourist Corridor, 23405 Cabo San Lucas, B.C.S., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJG7c0MthPr4YRRxWMBYt7HME",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Carretera Transpeninsular Km. 17.5, Corredor Turístico, Tourist Corridor, 23405 Cabo San Lucas, B.C.S., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 22.9700122,
-          "lng": -109.7887836
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 22.9715829302915,
-            "lng": -109.7875522697085
-          },
-          "southwest": {
-            "lat": 22.9688849697085,
-            "lng": -109.7902502302915
-          }
-        }
-      },
-      "name": "Garza Blanca Resort & Spa Los Cabos",
-      "place_id": "ChIJG7c0MthPr4YRRxWMBYt7HME",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://www.garzablancaresort.com/los-cabos?partner=8934&utm_source=googlemb&utm_medium=organic&utm_campaign=web_link"
-    }
-  },
   "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lake House On Canandaigua Preferred Hotels & Resorts Hotel\", \"Lake House On Canandaigua Preferred Hotels & Resorts Resort\", \"Lake House On Canandaigua Preferred Hotels & Resorts\", \"Lake House On Canandaigua Preferred Hotels & Resorts Canandaigua, New York US Hotel\", \"Lake House On Canandaigua Preferred Hotels & Resorts Canandaigua, New York US Resort\", \"Lake House On Canandaigua Preferred Hotels & Resorts Canandaigua, New York US\", \"Lake House On Canandaigua Hilton Hotel\", \"Lake House On Canandaigua Hilton Resort\", \"Lake House On Canandaigua Hilton\", \"Lake House On Canandaigua Hilton Canandaigua, New York US Hotel\", \"Lake House On Canandaigua Hilton Canandaigua, New York US Resort\", \"Lake House On Canandaigua Hilton Canandaigua, New York US\", \"The Lake House on Canandaigua Preferred Hotels & Resorts Hotel\", \"The Lake House on Canandaigua Preferred Hotels & Resorts Resort\", \"The Lake House on Canandaigua Preferred Hotels & Resorts\", \"The Lake House on Canandaigua Preferred Hotels & Resorts Canandaigua, New York US Hotel\", \"The Lake House on Canandaigua Preferred Hotels & Resorts Canandaigua, New York US Resort\", \"The Lake House on Canandaigua Preferred Hotels & Resorts Canandaigua, New York US\", \"The Lake House on Canandaigua Hilton Hotel\", \"The Lake House on Canandaigua Hilton Resort\", \"The Lake House on Canandaigua Hilton\", \"The Lake House on Canandaigua Hilton Canandaigua, New York US Hotel\", \"The Lake House on Canandaigua Hilton Canandaigua, New York US Resort\", \"The Lake House on Canandaigua Hilton Canandaigua, New York US\", \"The Lake House on Canandaigua Hotel\", \"The Lake House on Canandaigua Resort\", \"The Lake House on Canandaigua\", \"The Lake House on Canandaigua Canandaigua, New York US Hotel\", \"The Lake House on Canandaigua Canandaigua, New York US Resort\", \"The Lake House on Canandaigua Canandaigua, New York US\"], \"v\": 3}": {
     "lat": 42.8745123,
     "lon": -77.27508619999999,
@@ -76888,54 +76840,6 @@
       "website": "http://www.hoteltheartist.com/"
     }
   },
-  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Garza Blanca Resort & Spa Los Cabos Preferred Hotels & Resorts Hotel\", \"Garza Blanca Resort & Spa Los Cabos Preferred Hotels & Resorts Resort\", \"Garza Blanca Resort & Spa Los Cabos Preferred Hotels & Resorts\", \"Garza Blanca Resort & Spa Los Cabos Preferred Hotels & Resorts Cabo San Lucas, Baja California Sur MX Hotel\", \"Garza Blanca Resort & Spa Los Cabos Preferred Hotels & Resorts Cabo San Lucas, Baja California Sur MX Resort\", \"Garza Blanca Resort & Spa Los Cabos Preferred Hotels & Resorts Cabo San Lucas, Baja California Sur MX\", \"Garza Blanca Resort & Spa Los Cabos Hilton Hotel\", \"Garza Blanca Resort & Spa Los Cabos Hilton Resort\", \"Garza Blanca Resort & Spa Los Cabos Hilton\", \"Garza Blanca Resort & Spa Los Cabos Hilton Cabo San Lucas, Baja California Sur MX Hotel\", \"Garza Blanca Resort & Spa Los Cabos Hilton Cabo San Lucas, Baja California Sur MX Resort\", \"Garza Blanca Resort & Spa Los Cabos Hilton Cabo San Lucas, Baja California Sur MX\", \"Garza Blanca Resort Spa Los Cabos Preferred Hotels & Resorts Hotel\", \"Garza Blanca Resort Spa Los Cabos Preferred Hotels & Resorts Resort\", \"Garza Blanca Resort Spa Los Cabos Preferred Hotels & Resorts\", \"Garza Blanca Resort Spa Los Cabos Preferred Hotels & Resorts Cabo San Lucas, Baja California Sur MX Hotel\", \"Garza Blanca Resort Spa Los Cabos Preferred Hotels & Resorts Cabo San Lucas, Baja California Sur MX Resort\", \"Garza Blanca Resort Spa Los Cabos Preferred Hotels & Resorts Cabo San Lucas, Baja California Sur MX\", \"Garza Blanca Resort Spa Los Cabos Hilton Hotel\", \"Garza Blanca Resort Spa Los Cabos Hilton Resort\", \"Garza Blanca Resort Spa Los Cabos Hilton\", \"Garza Blanca Resort Spa Los Cabos Hilton Cabo San Lucas, Baja California Sur MX Hotel\", \"Garza Blanca Resort Spa Los Cabos Hilton Cabo San Lucas, Baja California Sur MX Resort\", \"Garza Blanca Resort Spa Los Cabos Hilton Cabo San Lucas, Baja California Sur MX\", \"Garza Blanca Resort & Spa Los Cabos Hotel\", \"Garza Blanca Resort & Spa Los Cabos Resort\", \"Garza Blanca Resort & Spa Los Cabos\", \"Garza Blanca Resort & Spa Los Cabos Cabo San Lucas, Baja California Sur MX Hotel\", \"Garza Blanca Resort & Spa Los Cabos Cabo San Lucas, Baja California Sur MX Resort\", \"Garza Blanca Resort & Spa Los Cabos Cabo San Lucas, Baja California Sur MX\"], \"v\": 3}": {
-    "lat": 22.9700122,
-    "lon": -109.7887836,
-    "formatted_address": "Carretera Transpeninsular Km. 17.5, Corredor Turístico, Tourist Corridor, 23405 Cabo San Lucas, B.C.S., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJG7c0MthPr4YRRxWMBYt7HME",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Carretera Transpeninsular Km. 17.5, Corredor Turístico, Tourist Corridor, 23405 Cabo San Lucas, B.C.S., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 22.9700122,
-          "lng": -109.7887836
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 22.9715829302915,
-            "lng": -109.7875522697085
-          },
-          "southwest": {
-            "lat": 22.9688849697085,
-            "lng": -109.7902502302915
-          }
-        }
-      },
-      "name": "Garza Blanca Resort & Spa Los Cabos",
-      "place_id": "ChIJG7c0MthPr4YRRxWMBYt7HME",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://www.garzablancaresort.com/los-cabos?partner=8934&utm_source=googlemb&utm_medium=organic&utm_campaign=web_link"
-    }
-  },
   "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Lake House on Canandaigua Preferred Hotels & Resorts Hotel\", \"The Lake House on Canandaigua Preferred Hotels & Resorts Resort\", \"The Lake House on Canandaigua Preferred Hotels & Resorts\", \"The Lake House on Canandaigua Preferred Hotels & Resorts Canandaigua, New York US Hotel\", \"The Lake House on Canandaigua Preferred Hotels & Resorts Canandaigua, New York US Resort\", \"The Lake House on Canandaigua Preferred Hotels & Resorts Canandaigua, New York US\", \"The Lake House on Canandaigua Hilton Hotel\", \"The Lake House on Canandaigua Hilton Resort\", \"The Lake House on Canandaigua Hilton\", \"The Lake House on Canandaigua Hilton Canandaigua, New York US Hotel\", \"The Lake House on Canandaigua Hilton Canandaigua, New York US Resort\", \"The Lake House on Canandaigua Hilton Canandaigua, New York US\", \"Lake House On Canandaigua Preferred Hotels & Resorts Hotel\", \"Lake House On Canandaigua Preferred Hotels & Resorts Resort\", \"Lake House On Canandaigua Preferred Hotels & Resorts\", \"Lake House On Canandaigua Preferred Hotels & Resorts Canandaigua, New York US Hotel\", \"Lake House On Canandaigua Preferred Hotels & Resorts Canandaigua, New York US Resort\", \"Lake House On Canandaigua Preferred Hotels & Resorts Canandaigua, New York US\", \"Lake House On Canandaigua Hilton Hotel\", \"Lake House On Canandaigua Hilton Resort\", \"Lake House On Canandaigua Hilton\", \"Lake House On Canandaigua Hilton Canandaigua, New York US Hotel\", \"Lake House On Canandaigua Hilton Canandaigua, New York US Resort\", \"Lake House On Canandaigua Hilton Canandaigua, New York US\", \"The Lake House on Canandaigua Hotel\", \"The Lake House on Canandaigua Resort\", \"The Lake House on Canandaigua\", \"The Lake House on Canandaigua Canandaigua, New York US Hotel\", \"The Lake House on Canandaigua Canandaigua, New York US Resort\", \"The Lake House on Canandaigua Canandaigua, New York US\"], \"v\": 3}": {
     "lat": 42.8745123,
     "lon": -77.27508619999999,
@@ -85416,48 +85320,6 @@
         "point_of_interest"
       ],
       "website": "https://thequoinhotel.com/?utm_source=google&utm_medium=Local&utm_campaign=Google+My+Business"
-    }
-  },
-  "{\"brand\": \"The Luxury Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Brickell Arch, Luxury Collection by Marriott The Luxury Collection Hotel\", \"The Brickell Arch, Luxury Collection by Marriott The Luxury Collection Resort\", \"The Brickell Arch, Luxury Collection by Marriott The Luxury Collection\", \"The Brickell Arch, Luxury Collection by Marriott The Luxury Collection Miami, Florida US Hotel\", \"The Brickell Arch, Luxury Collection by Marriott The Luxury Collection Miami, Florida US Resort\", \"The Brickell Arch, Luxury Collection by Marriott The Luxury Collection Miami, Florida US\", \"The Brickell Arch, Luxury Collection by Marriott Hilton Hotel\", \"The Brickell Arch, Luxury Collection by Marriott Hilton Resort\", \"The Brickell Arch, Luxury Collection by Marriott Hilton\", \"The Brickell Arch, Luxury Collection by Marriott Hilton Miami, Florida US Hotel\", \"The Brickell Arch, Luxury Collection by Marriott Hilton Miami, Florida US Resort\", \"The Brickell Arch, Luxury Collection by Marriott Hilton Miami, Florida US\", \"Brickell Arch Luxury Collection Marriott The Luxury Collection Hotel\", \"Brickell Arch Luxury Collection Marriott The Luxury Collection Resort\", \"Brickell Arch Luxury Collection Marriott The Luxury Collection\", \"Brickell Arch Luxury Collection Marriott The Luxury Collection Miami, Florida US Hotel\", \"Brickell Arch Luxury Collection Marriott The Luxury Collection Miami, Florida US Resort\", \"Brickell Arch Luxury Collection Marriott The Luxury Collection Miami, Florida US\", \"Brickell Arch Luxury Collection Marriott Hilton Hotel\", \"Brickell Arch Luxury Collection Marriott Hilton Resort\", \"Brickell Arch Luxury Collection Marriott Hilton\", \"Brickell Arch Luxury Collection Marriott Hilton Miami, Florida US Hotel\", \"Brickell Arch Luxury Collection Marriott Hilton Miami, Florida US Resort\", \"Brickell Arch Luxury Collection Marriott Hilton Miami, Florida US\", \"The Brickell Arch, Luxury Collection by Marriott Hotel\", \"The Brickell Arch, Luxury Collection by Marriott Resort\", \"The Brickell Arch, Luxury Collection by Marriott\", \"The Brickell Arch, Luxury Collection by Marriott Miami, Florida US Hotel\", \"The Brickell Arch, Luxury Collection by Marriott Miami, Florida US Resort\", \"The Brickell Arch, Luxury Collection by Marriott Miami, Florida US\"], \"v\": 3}": {
-    "lat": 25.7604352,
-    "lon": -80.1916854,
-    "formatted_address": "1395 Brickell Ave, Miami, FL 33131, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ9WF3GoG22YgRXEvIGy5Z4s8",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "1395 Brickell Ave, Miami, FL 33131, USA",
-      "geometry": {
-        "location": {
-          "lat": 25.7604352,
-          "lng": -80.1916854
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.7619463802915,
-            "lng": -80.1905284697085
-          },
-          "southwest": {
-            "lat": 25.7592484197085,
-            "lng": -80.19322643029152
-          }
-        }
-      },
-      "name": "Brickell Arch, a Luxury Collection Hotel, Miami",
-      "place_id": "ChIJ9WF3GoG22YgRXEvIGy5Z4s8",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/miald-brickell-arch-a-luxury-collection-hotel-miami/overview/?cid=NAT_google_hotel_url"
     }
   },
   "{\"brand\": \"The Unbound Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Eliza Jane, Autograph Collection The Unbound Collection Hotel\", \"The Eliza Jane, Autograph Collection The Unbound Collection Resort\", \"The Eliza Jane, Autograph Collection The Unbound Collection\", \"The Eliza Jane, Autograph Collection The Unbound Collection New Orleans, Louisiana US Hotel\", \"The Eliza Jane, Autograph Collection The Unbound Collection New Orleans, Louisiana US Resort\", \"The Eliza Jane, Autograph Collection The Unbound Collection New Orleans, Louisiana US\", \"The Eliza Jane, Autograph Collection Hilton Hotel\", \"The Eliza Jane, Autograph Collection Hilton Resort\", \"The Eliza Jane, Autograph Collection Hilton\", \"The Eliza Jane, Autograph Collection Hilton New Orleans, Louisiana US Hotel\", \"The Eliza Jane, Autograph Collection Hilton New Orleans, Louisiana US Resort\", \"The Eliza Jane, Autograph Collection Hilton New Orleans, Louisiana US\", \"Eliza Jane Autograph Collection The Unbound Collection Hotel\", \"Eliza Jane Autograph Collection The Unbound Collection Resort\", \"Eliza Jane Autograph Collection The Unbound Collection\", \"Eliza Jane Autograph Collection The Unbound Collection New Orleans, Louisiana US Hotel\", \"Eliza Jane Autograph Collection The Unbound Collection New Orleans, Louisiana US Resort\", \"Eliza Jane Autograph Collection The Unbound Collection New Orleans, Louisiana US\", \"Eliza Jane Autograph Collection Hilton Hotel\", \"Eliza Jane Autograph Collection Hilton Resort\", \"Eliza Jane Autograph Collection Hilton\", \"Eliza Jane Autograph Collection Hilton New Orleans, Louisiana US Hotel\", \"Eliza Jane Autograph Collection Hilton New Orleans, Louisiana US Resort\", \"Eliza Jane Autograph Collection Hilton New Orleans, Louisiana US\", \"The Eliza Jane, Autograph Collection Hotel\", \"The Eliza Jane, Autograph Collection Resort\", \"The Eliza Jane, Autograph Collection\", \"The Eliza Jane, Autograph Collection New Orleans, Louisiana US Hotel\", \"The Eliza Jane, Autograph Collection New Orleans, Louisiana US Resort\", \"The Eliza Jane, Autograph Collection New Orleans, Louisiana US\"], \"v\": 3}": {
@@ -131533,54 +131395,6 @@
       "website": "http://www.mysteryhotelbudapest.com/"
     }
   },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Garza Blanca Resort & Spa Los Cabos\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Garza Blanca Resort & Spa Los Cabos Preferred Hotels & Resorts Hotel\", \"Garza Blanca Resort & Spa Los Cabos Preferred Hotels & Resorts Resort\", \"Garza Blanca Resort & Spa Los Cabos Preferred Hotels & Resorts\", \"Garza Blanca Resort & Spa Los Cabos Preferred Hotels & Resorts Cabo San Lucas, Baja California Sur MX Hotel\", \"Garza Blanca Resort & Spa Los Cabos Preferred Hotels & Resorts Cabo San Lucas, Baja California Sur MX Resort\", \"Garza Blanca Resort & Spa Los Cabos Preferred Hotels & Resorts Cabo San Lucas, Baja California Sur MX\", \"Garza Blanca Resort & Spa Los Cabos Hilton Hotel\", \"Garza Blanca Resort & Spa Los Cabos Hilton Resort\", \"Garza Blanca Resort & Spa Los Cabos Hilton\", \"Garza Blanca Resort & Spa Los Cabos Hilton Cabo San Lucas, Baja California Sur MX Hotel\", \"Garza Blanca Resort & Spa Los Cabos Hilton Cabo San Lucas, Baja California Sur MX Resort\", \"Garza Blanca Resort & Spa Los Cabos Hilton Cabo San Lucas, Baja California Sur MX\", \"Garza Blanca Resort Spa Los Cabos Preferred Hotels & Resorts Hotel\", \"Garza Blanca Resort Spa Los Cabos Preferred Hotels & Resorts Resort\", \"Garza Blanca Resort Spa Los Cabos Preferred Hotels & Resorts\", \"Garza Blanca Resort Spa Los Cabos Preferred Hotels & Resorts Cabo San Lucas, Baja California Sur MX Hotel\", \"Garza Blanca Resort Spa Los Cabos Preferred Hotels & Resorts Cabo San Lucas, Baja California Sur MX Resort\", \"Garza Blanca Resort Spa Los Cabos Preferred Hotels & Resorts Cabo San Lucas, Baja California Sur MX\", \"Garza Blanca Resort Spa Los Cabos Hilton Hotel\", \"Garza Blanca Resort Spa Los Cabos Hilton Resort\", \"Garza Blanca Resort Spa Los Cabos Hilton\", \"Garza Blanca Resort Spa Los Cabos Hilton Cabo San Lucas, Baja California Sur MX Hotel\", \"Garza Blanca Resort Spa Los Cabos Hilton Cabo San Lucas, Baja California Sur MX Resort\", \"Garza Blanca Resort Spa Los Cabos Hilton Cabo San Lucas, Baja California Sur MX\", \"Garza Blanca Resort & Spa Los Cabos Hotel\", \"Garza Blanca Resort & Spa Los Cabos Resort\", \"Garza Blanca Resort & Spa Los Cabos\", \"Garza Blanca Resort & Spa Los Cabos Cabo San Lucas, Baja California Sur MX Hotel\", \"Garza Blanca Resort & Spa Los Cabos Cabo San Lucas, Baja California Sur MX Resort\", \"Garza Blanca Resort & Spa Los Cabos Cabo San Lucas, Baja California Sur MX\"], \"v\": 3}": {
-    "lat": 22.9700122,
-    "lon": -109.7887836,
-    "formatted_address": "Carretera Transpeninsular Km. 17.5, Corredor Turístico, Tourist Corridor, 23405 Cabo San Lucas, B.C.S., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJG7c0MthPr4YRRxWMBYt7HME",
-    "types": [
-      "establishment",
-      "food",
-      "lodging",
-      "point_of_interest",
-      "restaurant",
-      "spa"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Carretera Transpeninsular Km. 17.5, Corredor Turístico, Tourist Corridor, 23405 Cabo San Lucas, B.C.S., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 22.9700122,
-          "lng": -109.7887836
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 22.9715829302915,
-            "lng": -109.7875522697085
-          },
-          "southwest": {
-            "lat": 22.9688849697085,
-            "lng": -109.7902502302915
-          }
-        }
-      },
-      "name": "Garza Blanca Resort & Spa Los Cabos",
-      "place_id": "ChIJG7c0MthPr4YRRxWMBYt7HME",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
-        "point_of_interest",
-        "restaurant",
-        "spa"
-      ],
-      "website": "https://www.garzablancaresort.com/los-cabos?partner=8934&utm_source=googlemb&utm_medium=organic&utm_campaign=web_link"
-    }
-  },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Lake House on Canandaigua\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Lake House on Canandaigua Preferred Hotels & Resorts Hotel\", \"The Lake House on Canandaigua Preferred Hotels & Resorts Resort\", \"The Lake House on Canandaigua Preferred Hotels & Resorts\", \"The Lake House on Canandaigua Preferred Hotels & Resorts Canandaigua, New York US Hotel\", \"The Lake House on Canandaigua Preferred Hotels & Resorts Canandaigua, New York US Resort\", \"The Lake House on Canandaigua Preferred Hotels & Resorts Canandaigua, New York US\", \"The Lake House on Canandaigua Hilton Hotel\", \"The Lake House on Canandaigua Hilton Resort\", \"The Lake House on Canandaigua Hilton\", \"The Lake House on Canandaigua Hilton Canandaigua, New York US Hotel\", \"The Lake House on Canandaigua Hilton Canandaigua, New York US Resort\", \"The Lake House on Canandaigua Hilton Canandaigua, New York US\", \"Lake House On Canandaigua Preferred Hotels & Resorts Hotel\", \"Lake House On Canandaigua Preferred Hotels & Resorts Resort\", \"Lake House On Canandaigua Preferred Hotels & Resorts\", \"Lake House On Canandaigua Preferred Hotels & Resorts Canandaigua, New York US Hotel\", \"Lake House On Canandaigua Preferred Hotels & Resorts Canandaigua, New York US Resort\", \"Lake House On Canandaigua Preferred Hotels & Resorts Canandaigua, New York US\", \"Lake House On Canandaigua Hilton Hotel\", \"Lake House On Canandaigua Hilton Resort\", \"Lake House On Canandaigua Hilton\", \"Lake House On Canandaigua Hilton Canandaigua, New York US Hotel\", \"Lake House On Canandaigua Hilton Canandaigua, New York US Resort\", \"Lake House On Canandaigua Hilton Canandaigua, New York US\", \"The Lake House on Canandaigua Hotel\", \"The Lake House on Canandaigua Resort\", \"The Lake House on Canandaigua\", \"The Lake House on Canandaigua Canandaigua, New York US Hotel\", \"The Lake House on Canandaigua Canandaigua, New York US Resort\", \"The Lake House on Canandaigua Canandaigua, New York US\"], \"v\": 3}": {
     "lat": 42.8745123,
     "lon": -77.27508619999999,
@@ -144357,48 +144171,6 @@
         "point_of_interest"
       ],
       "website": "https://www.marriott.com/en-us/hotels/laxls-sls-hotel-a-luxury-collection-hotel-beverly-hills/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
-  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Brickell Arch, Luxury Collection by Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Brickell Arch, Luxury Collection by Marriott The Luxury Collection Hotel\", \"The Brickell Arch, Luxury Collection by Marriott The Luxury Collection Resort\", \"The Brickell Arch, Luxury Collection by Marriott The Luxury Collection\", \"The Brickell Arch, Luxury Collection by Marriott The Luxury Collection Miami, Florida US Hotel\", \"The Brickell Arch, Luxury Collection by Marriott The Luxury Collection Miami, Florida US Resort\", \"The Brickell Arch, Luxury Collection by Marriott The Luxury Collection Miami, Florida US\", \"The Brickell Arch, Luxury Collection by Marriott Hilton Hotel\", \"The Brickell Arch, Luxury Collection by Marriott Hilton Resort\", \"The Brickell Arch, Luxury Collection by Marriott Hilton\", \"The Brickell Arch, Luxury Collection by Marriott Hilton Miami, Florida US Hotel\", \"The Brickell Arch, Luxury Collection by Marriott Hilton Miami, Florida US Resort\", \"The Brickell Arch, Luxury Collection by Marriott Hilton Miami, Florida US\", \"Brickell Arch Luxury Collection Marriott The Luxury Collection Hotel\", \"Brickell Arch Luxury Collection Marriott The Luxury Collection Resort\", \"Brickell Arch Luxury Collection Marriott The Luxury Collection\", \"Brickell Arch Luxury Collection Marriott The Luxury Collection Miami, Florida US Hotel\", \"Brickell Arch Luxury Collection Marriott The Luxury Collection Miami, Florida US Resort\", \"Brickell Arch Luxury Collection Marriott The Luxury Collection Miami, Florida US\", \"Brickell Arch Luxury Collection Marriott Hilton Hotel\", \"Brickell Arch Luxury Collection Marriott Hilton Resort\", \"Brickell Arch Luxury Collection Marriott Hilton\", \"Brickell Arch Luxury Collection Marriott Hilton Miami, Florida US Hotel\", \"Brickell Arch Luxury Collection Marriott Hilton Miami, Florida US Resort\", \"Brickell Arch Luxury Collection Marriott Hilton Miami, Florida US\", \"The Brickell Arch, Luxury Collection by Marriott Hotel\", \"The Brickell Arch, Luxury Collection by Marriott Resort\", \"The Brickell Arch, Luxury Collection by Marriott\", \"The Brickell Arch, Luxury Collection by Marriott Miami, Florida US Hotel\", \"The Brickell Arch, Luxury Collection by Marriott Miami, Florida US Resort\", \"The Brickell Arch, Luxury Collection by Marriott Miami, Florida US\"], \"v\": 3}": {
-    "lat": 25.7604352,
-    "lon": -80.1916854,
-    "formatted_address": "1395 Brickell Ave, Miami, FL 33131, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ9WF3GoG22YgRXEvIGy5Z4s8",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "1395 Brickell Ave, Miami, FL 33131, USA",
-      "geometry": {
-        "location": {
-          "lat": 25.7604352,
-          "lng": -80.1916854
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.7619463802915,
-            "lng": -80.1905284697085
-          },
-          "southwest": {
-            "lat": 25.7592484197085,
-            "lng": -80.19322643029152
-          }
-        }
-      },
-      "name": "Brickell Arch, a Luxury Collection Hotel, Miami",
-      "place_id": "ChIJ9WF3GoG22YgRXEvIGy5Z4s8",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/miald-brickell-arch-a-luxury-collection-hotel-miami/overview/?cid=NAT_google_hotel_url"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Sanctuary Cap Cana, a Luxury Collection Resort, Dominican Republic, Adult All-Inclusive\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sanctuary Cap Cana, a Luxury Collection Resort, Dominican Republic, Adult All-Inclusive The Luxury Collection Hotel\", \"Sanctuary Cap Cana, a Luxury Collection Resort, Dominican Republic, Adult All-Inclusive The Luxury Collection Resort\", \"Sanctuary Cap Cana, a Luxury Collection Resort, Dominican Republic, Adult All-Inclusive The Luxury Collection\", \"Sanctuary Cap Cana, a Luxury Collection Resort, Dominican Republic, Adult All-Inclusive The Luxury Collection Punta Cana, Dominican Republic Hotel\", \"Sanctuary Cap Cana, a Luxury Collection Resort, Dominican Republic, Adult All-Inclusive The Luxury Collection Punta Cana, Dominican Republic Resort\", \"Sanctuary Cap Cana, a Luxury Collection Resort, Dominican Republic, Adult All-Inclusive The Luxury Collection Punta Cana, Dominican Republic\", \"Sanctuary Cap Cana, a Luxury Collection Resort, Dominican Republic, Adult All-Inclusive Hilton Hotel\", \"Sanctuary Cap Cana, a Luxury Collection Resort, Dominican Republic, Adult All-Inclusive Hilton Resort\", \"Sanctuary Cap Cana, a Luxury Collection Resort, Dominican Republic, Adult All-Inclusive Hilton\", \"Sanctuary Cap Cana, a Luxury Collection Resort, Dominican Republic, Adult All-Inclusive Hilton Punta Cana, Dominican Republic Hotel\", \"Sanctuary Cap Cana, a Luxury Collection Resort, Dominican Republic, Adult All-Inclusive Hilton Punta Cana, Dominican Republic Resort\", \"Sanctuary Cap Cana, a Luxury Collection Resort, Dominican Republic, Adult All-Inclusive Hilton Punta Cana, Dominican Republic\", \"Sanctuary Cap Cana a Luxury Collection Resort Dominican Republic Adult All inclusive The Luxury Collection Hotel\", \"Sanctuary Cap Cana a Luxury Collection Resort Dominican Republic Adult All inclusive The Luxury Collection Resort\", \"Sanctuary Cap Cana a Luxury Collection Resort Dominican Republic Adult All inclusive The Luxury Collection\", \"Sanctuary Cap Cana a Luxury Collection Resort Dominican Republic Adult All inclusive The Luxury Collection Punta Cana, Dominican Republic Hotel\", \"Sanctuary Cap Cana a Luxury Collection Resort Dominican Republic Adult All inclusive The Luxury Collection Punta Cana, Dominican Republic Resort\", \"Sanctuary Cap Cana a Luxury Collection Resort Dominican Republic Adult All inclusive The Luxury Collection Punta Cana, Dominican Republic\", \"Sanctuary Cap Cana a Luxury Collection Resort Dominican Republic Adult All inclusive Hilton Hotel\", \"Sanctuary Cap Cana a Luxury Collection Resort Dominican Republic Adult All inclusive Hilton Resort\", \"Sanctuary Cap Cana a Luxury Collection Resort Dominican Republic Adult All inclusive Hilton\", \"Sanctuary Cap Cana a Luxury Collection Resort Dominican Republic Adult All inclusive Hilton Punta Cana, Dominican Republic Hotel\", \"Sanctuary Cap Cana a Luxury Collection Resort Dominican Republic Adult All inclusive Hilton Punta Cana, Dominican Republic Resort\", \"Sanctuary Cap Cana a Luxury Collection Resort Dominican Republic Adult All inclusive Hilton Punta Cana, Dominican Republic\", \"Sanctuary Cap Cana, a Luxury Collection Resort, Dominican Republic, Adult All-Inclusive Hotel\", \"Sanctuary Cap Cana, a Luxury Collection Resort, Dominican Republic, Adult All-Inclusive Resort\", \"Sanctuary Cap Cana, a Luxury Collection Resort, Dominican Republic, Adult All-Inclusive\", \"Sanctuary Cap Cana, a Luxury Collection Resort, Dominican Republic, Adult All-Inclusive Punta Cana, Dominican Republic Hotel\", \"Sanctuary Cap Cana, a Luxury Collection Resort, Dominican Republic, Adult All-Inclusive Punta Cana, Dominican Republic Resort\", \"Sanctuary Cap Cana, a Luxury Collection Resort, Dominican Republic, Adult All-Inclusive Punta Cana, Dominican Republic\"], \"v\": 3}": {
@@ -159617,6 +159389,94 @@
         "point_of_interest"
       ],
       "website": "https://www.hyatt.com/en-US/hotel/france/hotel-du-louvre/paraz?src=corp_lclb_google_seo_paraz&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Fairmont Chicago, Millennium Park\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Fairmont Chicago, Millennium Park Fairmont Hotel\", \"Fairmont Chicago, Millennium Park Fairmont Resort\", \"Fairmont Chicago, Millennium Park Fairmont\", \"Fairmont Chicago, Millennium Park Fairmont Chicago, Illinois US Hotel\", \"Fairmont Chicago, Millennium Park Fairmont Chicago, Illinois US Resort\", \"Fairmont Chicago, Millennium Park Fairmont Chicago, Illinois US\", \"Fairmont Chicago, Millennium Park Hilton Hotel\", \"Fairmont Chicago, Millennium Park Hilton Resort\", \"Fairmont Chicago, Millennium Park Hilton\", \"Fairmont Chicago, Millennium Park Hilton Chicago, Illinois US Hotel\", \"Fairmont Chicago, Millennium Park Hilton Chicago, Illinois US Resort\", \"Fairmont Chicago, Millennium Park Hilton Chicago, Illinois US\", \"Fairmont Chicago Millennium Park Fairmont Hotel\", \"Fairmont Chicago Millennium Park Fairmont Resort\", \"Fairmont Chicago Millennium Park Fairmont\", \"Fairmont Chicago Millennium Park Fairmont Chicago, Illinois US Hotel\", \"Fairmont Chicago Millennium Park Fairmont Chicago, Illinois US Resort\", \"Fairmont Chicago Millennium Park Fairmont Chicago, Illinois US\", \"Fairmont Chicago Millennium Park Hilton Hotel\", \"Fairmont Chicago Millennium Park Hilton Resort\", \"Fairmont Chicago Millennium Park Hilton\", \"Fairmont Chicago Millennium Park Hilton Chicago, Illinois US Hotel\", \"Fairmont Chicago Millennium Park Hilton Chicago, Illinois US Resort\", \"Fairmont Chicago Millennium Park Hilton Chicago, Illinois US\", \"Fairmont Chicago, Millennium Park Hotel\", \"Fairmont Chicago, Millennium Park Resort\", \"Fairmont Chicago, Millennium Park\", \"Fairmont Chicago, Millennium Park Chicago, Illinois US Hotel\", \"Fairmont Chicago, Millennium Park Chicago, Illinois US Resort\", \"Fairmont Chicago, Millennium Park Chicago, Illinois US\"], \"v\": 3}": {
+    "lat": 41.8860915,
+    "lon": -87.62089089999999,
+    "formatted_address": "200 N Columbus Dr, Chicago, IL 60601, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJv1DlfKQsDogRhm8x60TVJyo",
+    "types": [
+      "establishment",
+      "food",
+      "lodging",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "200 N Columbus Dr, Chicago, IL 60601, USA",
+      "geometry": {
+        "location": {
+          "lat": 41.8860915,
+          "lng": -87.62089089999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 41.8876016802915,
+            "lng": -87.61948691970849
+          },
+          "southwest": {
+            "lat": 41.8849037197085,
+            "lng": -87.6221848802915
+          }
+        }
+      },
+      "name": "Fairmont Chicago, Millennium Park",
+      "place_id": "ChIJv1DlfKQsDogRhm8x60TVJyo",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "website": "https://www.fairmont.com/chicago/?goto=fiche_hotel&code_hotel=A557&merchantid=seo-maps-US-A557&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul Lotte Hotels & Resorts Hotel\", \"THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul Lotte Hotels & Resorts Resort\", \"THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul Lotte Hotels & Resorts\", \"THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul Lotte Hotels & Resorts Seoul, South Korea Hotel\", \"THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul Lotte Hotels & Resorts Seoul, South Korea Resort\", \"THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul Lotte Hotels & Resorts Seoul, South Korea\", \"THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul Hilton Hotel\", \"THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul Hilton Resort\", \"THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul Hilton\", \"THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul Hilton Seoul, South Korea Hotel\", \"THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul Hilton Seoul, South Korea Resort\", \"THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul Hilton Seoul, South Korea\", \"Grand Lotte Seoul Formerly Lotte Hotel Seoul Lotte Hotels & Resorts Hotel\", \"Grand Lotte Seoul Formerly Lotte Hotel Seoul Lotte Hotels & Resorts Resort\", \"Grand Lotte Seoul Formerly Lotte Hotel Seoul Lotte Hotels & Resorts\", \"Grand Lotte Seoul Formerly Lotte Hotel Seoul Lotte Hotels & Resorts Seoul, South Korea Hotel\", \"Grand Lotte Seoul Formerly Lotte Hotel Seoul Lotte Hotels & Resorts Seoul, South Korea Resort\", \"Grand Lotte Seoul Formerly Lotte Hotel Seoul Lotte Hotels & Resorts Seoul, South Korea\", \"Grand Lotte Seoul Formerly Lotte Hotel Seoul Hilton Hotel\", \"Grand Lotte Seoul Formerly Lotte Hotel Seoul Hilton Resort\", \"Grand Lotte Seoul Formerly Lotte Hotel Seoul Hilton\", \"Grand Lotte Seoul Formerly Lotte Hotel Seoul Hilton Seoul, South Korea Hotel\", \"Grand Lotte Seoul Formerly Lotte Hotel Seoul Hilton Seoul, South Korea Resort\", \"Grand Lotte Seoul Formerly Lotte Hotel Seoul Hilton Seoul, South Korea\", \"THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul Hotel\", \"THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul Resort\", \"THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul\", \"THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul Seoul, South Korea Hotel\", \"THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul Seoul, South Korea Resort\", \"THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul Seoul, South Korea\"], \"v\": 3}": {
+    "lat": 37.5653,
+    "lon": 126.980979,
+    "formatted_address": "30 Eulji-ro, Jung District, Seoul, South Korea",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ92BD_-2ifDURWdfj5R8TWjs",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "30 Eulji-ro, Jung District, Seoul, South Korea",
+      "geometry": {
+        "location": {
+          "lat": 37.5653,
+          "lng": 126.980979
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.5666489802915,
+            "lng": 126.9823279802915
+          },
+          "southwest": {
+            "lat": 37.56395101970851,
+            "lng": 126.9796300197085
+          }
+        }
+      },
+      "name": "The Grand Lotte Seoul",
+      "place_id": "ChIJ92BD_-2ifDURWdfj5R8TWjs",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.lottehotel.com/seoul-grand/ko"
     }
   }
 }

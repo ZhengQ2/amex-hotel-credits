@@ -37671,48 +37671,6 @@
       "website": "https://www.thepostoakhotel.com/"
     }
   },
-  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cala De Mar Resort Spa Ixtapa Preferred Hotels & Resorts Hotel\", \"Cala De Mar Resort Spa Ixtapa Preferred Hotels & Resorts Resort\", \"Cala De Mar Resort Spa Ixtapa Preferred Hotels & Resorts\", \"Cala De Mar Resort Spa Ixtapa Preferred Hotels & Resorts Ixtapa, Guerrero MX Hotel\", \"Cala De Mar Resort Spa Ixtapa Preferred Hotels & Resorts Ixtapa, Guerrero MX Resort\", \"Cala De Mar Resort Spa Ixtapa Preferred Hotels & Resorts Ixtapa, Guerrero MX\", \"Cala De Mar Resort Spa Ixtapa Hilton Hotel\", \"Cala De Mar Resort Spa Ixtapa Hilton Resort\", \"Cala De Mar Resort Spa Ixtapa Hilton\", \"Cala De Mar Resort Spa Ixtapa Hilton Ixtapa, Guerrero MX Hotel\", \"Cala De Mar Resort Spa Ixtapa Hilton Ixtapa, Guerrero MX Resort\", \"Cala De Mar Resort Spa Ixtapa Hilton Ixtapa, Guerrero MX\", \"Cala de Mar Resort & Spa Ixtapa Preferred Hotels & Resorts Hotel\", \"Cala de Mar Resort & Spa Ixtapa Preferred Hotels & Resorts Resort\", \"Cala de Mar Resort & Spa Ixtapa Preferred Hotels & Resorts\", \"Cala de Mar Resort & Spa Ixtapa Preferred Hotels & Resorts Ixtapa, Guerrero MX Hotel\", \"Cala de Mar Resort & Spa Ixtapa Preferred Hotels & Resorts Ixtapa, Guerrero MX Resort\", \"Cala de Mar Resort & Spa Ixtapa Preferred Hotels & Resorts Ixtapa, Guerrero MX\", \"Cala de Mar Resort & Spa Ixtapa Hilton Hotel\", \"Cala de Mar Resort & Spa Ixtapa Hilton Resort\", \"Cala de Mar Resort & Spa Ixtapa Hilton\", \"Cala de Mar Resort & Spa Ixtapa Hilton Ixtapa, Guerrero MX Hotel\", \"Cala de Mar Resort & Spa Ixtapa Hilton Ixtapa, Guerrero MX Resort\", \"Cala de Mar Resort & Spa Ixtapa Hilton Ixtapa, Guerrero MX\", \"Cala de Mar Resort & Spa Ixtapa Hotel\", \"Cala de Mar Resort & Spa Ixtapa Resort\", \"Cala de Mar Resort & Spa Ixtapa\", \"Cala de Mar Resort & Spa Ixtapa Ixtapa, Guerrero MX Hotel\", \"Cala de Mar Resort & Spa Ixtapa Ixtapa, Guerrero MX Resort\", \"Cala de Mar Resort & Spa Ixtapa Ixtapa, Guerrero MX\"], \"v\": 3}": {
-    "lat": 17.6674159,
-    "lon": -101.6327055,
-    "formatted_address": "Paseo Punta Ixtapa S/N, Zona Hotelera II, 40884 Ixtapa Zihuatanejo, Gro., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJXddoixN3NIQRPpRx6ijgWJ4",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Paseo Punta Ixtapa S/N, Zona Hotelera II, 40884 Ixtapa Zihuatanejo, Gro., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 17.6674159,
-          "lng": -101.6327055
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 17.6686973802915,
-            "lng": -101.6323721197085
-          },
-          "southwest": {
-            "lat": 17.6659994197085,
-            "lng": -101.6350700802915
-          }
-        }
-      },
-      "name": "Cala de Mar Resort & Spa Ixtapa",
-      "place_id": "ChIJXddoixN3NIQRPpRx6ijgWJ4",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://www.calademar.com/"
-    }
-  },
   "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Keswick Hall Preferred Hotels & Resorts Hotel\", \"Keswick Hall Preferred Hotels & Resorts Resort\", \"Keswick Hall Preferred Hotels & Resorts\", \"Keswick Hall Preferred Hotels & Resorts Keswick, Virginia US Hotel\", \"Keswick Hall Preferred Hotels & Resorts Keswick, Virginia US Resort\", \"Keswick Hall Preferred Hotels & Resorts Keswick, Virginia US\", \"Keswick Hall Hilton Hotel\", \"Keswick Hall Hilton Resort\", \"Keswick Hall Hilton\", \"Keswick Hall Hilton Keswick, Virginia US Hotel\", \"Keswick Hall Hilton Keswick, Virginia US Resort\", \"Keswick Hall Hilton Keswick, Virginia US\", \"Keswick Hall Hotel\", \"Keswick Hall Resort\", \"Keswick Hall\", \"Keswick Hall Keswick, Virginia US Hotel\", \"Keswick Hall Keswick, Virginia US Resort\", \"Keswick Hall Keswick, Virginia US\"], \"v\": 3}": {
     "lat": 38.01678030000001,
     "lon": -78.3666045,
@@ -97399,48 +97357,6 @@
         "spa"
       ],
       "website": "https://www.thepostoakhotel.com/"
-    }
-  },
-  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cala de Mar Resort & Spa Ixtapa Preferred Hotels & Resorts Hotel\", \"Cala de Mar Resort & Spa Ixtapa Preferred Hotels & Resorts Resort\", \"Cala de Mar Resort & Spa Ixtapa Preferred Hotels & Resorts\", \"Cala de Mar Resort & Spa Ixtapa Preferred Hotels & Resorts Ixtapa, Guerrero MX Hotel\", \"Cala de Mar Resort & Spa Ixtapa Preferred Hotels & Resorts Ixtapa, Guerrero MX Resort\", \"Cala de Mar Resort & Spa Ixtapa Preferred Hotels & Resorts Ixtapa, Guerrero MX\", \"Cala de Mar Resort & Spa Ixtapa Hilton Hotel\", \"Cala de Mar Resort & Spa Ixtapa Hilton Resort\", \"Cala de Mar Resort & Spa Ixtapa Hilton\", \"Cala de Mar Resort & Spa Ixtapa Hilton Ixtapa, Guerrero MX Hotel\", \"Cala de Mar Resort & Spa Ixtapa Hilton Ixtapa, Guerrero MX Resort\", \"Cala de Mar Resort & Spa Ixtapa Hilton Ixtapa, Guerrero MX\", \"Cala De Mar Resort Spa Ixtapa Preferred Hotels & Resorts Hotel\", \"Cala De Mar Resort Spa Ixtapa Preferred Hotels & Resorts Resort\", \"Cala De Mar Resort Spa Ixtapa Preferred Hotels & Resorts\", \"Cala De Mar Resort Spa Ixtapa Preferred Hotels & Resorts Ixtapa, Guerrero MX Hotel\", \"Cala De Mar Resort Spa Ixtapa Preferred Hotels & Resorts Ixtapa, Guerrero MX Resort\", \"Cala De Mar Resort Spa Ixtapa Preferred Hotels & Resorts Ixtapa, Guerrero MX\", \"Cala De Mar Resort Spa Ixtapa Hilton Hotel\", \"Cala De Mar Resort Spa Ixtapa Hilton Resort\", \"Cala De Mar Resort Spa Ixtapa Hilton\", \"Cala De Mar Resort Spa Ixtapa Hilton Ixtapa, Guerrero MX Hotel\", \"Cala De Mar Resort Spa Ixtapa Hilton Ixtapa, Guerrero MX Resort\", \"Cala De Mar Resort Spa Ixtapa Hilton Ixtapa, Guerrero MX\", \"Cala de Mar Resort & Spa Ixtapa Hotel\", \"Cala de Mar Resort & Spa Ixtapa Resort\", \"Cala de Mar Resort & Spa Ixtapa\", \"Cala de Mar Resort & Spa Ixtapa Ixtapa, Guerrero MX Hotel\", \"Cala de Mar Resort & Spa Ixtapa Ixtapa, Guerrero MX Resort\", \"Cala de Mar Resort & Spa Ixtapa Ixtapa, Guerrero MX\"], \"v\": 3}": {
-    "lat": 17.6674159,
-    "lon": -101.6327055,
-    "formatted_address": "Paseo Punta Ixtapa S/N, Zona Hotelera II, 40884 Ixtapa Zihuatanejo, Gro., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJXddoixN3NIQRPpRx6ijgWJ4",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Paseo Punta Ixtapa S/N, Zona Hotelera II, 40884 Ixtapa Zihuatanejo, Gro., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 17.6674159,
-          "lng": -101.6327055
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 17.6686973802915,
-            "lng": -101.6323721197085
-          },
-          "southwest": {
-            "lat": 17.6659994197085,
-            "lng": -101.6350700802915
-          }
-        }
-      },
-      "name": "Cala de Mar Resort & Spa Ixtapa",
-      "place_id": "ChIJXddoixN3NIQRPpRx6ijgWJ4",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://www.calademar.com/"
     }
   },
   "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Sanctuary at Kiawah Island Golf Resort Preferred Hotels & Resorts Hotel\", \"The Sanctuary at Kiawah Island Golf Resort Preferred Hotels & Resorts Resort\", \"The Sanctuary at Kiawah Island Golf Resort Preferred Hotels & Resorts\", \"The Sanctuary at Kiawah Island Golf Resort Preferred Hotels & Resorts Kiawah Island, South Carolina US Hotel\", \"The Sanctuary at Kiawah Island Golf Resort Preferred Hotels & Resorts Kiawah Island, South Carolina US Resort\", \"The Sanctuary at Kiawah Island Golf Resort Preferred Hotels & Resorts Kiawah Island, South Carolina US\", \"The Sanctuary at Kiawah Island Golf Resort Hilton Hotel\", \"The Sanctuary at Kiawah Island Golf Resort Hilton Resort\", \"The Sanctuary at Kiawah Island Golf Resort Hilton\", \"The Sanctuary at Kiawah Island Golf Resort Hilton Kiawah Island, South Carolina US Hotel\", \"The Sanctuary at Kiawah Island Golf Resort Hilton Kiawah Island, South Carolina US Resort\", \"The Sanctuary at Kiawah Island Golf Resort Hilton Kiawah Island, South Carolina US\", \"Sanctuary Kiawah Island Golf Resort Preferred Hotels & Resorts Hotel\", \"Sanctuary Kiawah Island Golf Resort Preferred Hotels & Resorts Resort\", \"Sanctuary Kiawah Island Golf Resort Preferred Hotels & Resorts\", \"Sanctuary Kiawah Island Golf Resort Preferred Hotels & Resorts Kiawah Island, South Carolina US Hotel\", \"Sanctuary Kiawah Island Golf Resort Preferred Hotels & Resorts Kiawah Island, South Carolina US Resort\", \"Sanctuary Kiawah Island Golf Resort Preferred Hotels & Resorts Kiawah Island, South Carolina US\", \"Sanctuary Kiawah Island Golf Resort Hilton Hotel\", \"Sanctuary Kiawah Island Golf Resort Hilton Resort\", \"Sanctuary Kiawah Island Golf Resort Hilton\", \"Sanctuary Kiawah Island Golf Resort Hilton Kiawah Island, South Carolina US Hotel\", \"Sanctuary Kiawah Island Golf Resort Hilton Kiawah Island, South Carolina US Resort\", \"Sanctuary Kiawah Island Golf Resort Hilton Kiawah Island, South Carolina US\", \"The Sanctuary at Kiawah Island Golf Resort Hotel\", \"The Sanctuary at Kiawah Island Golf Resort Resort\", \"The Sanctuary at Kiawah Island Golf Resort\", \"The Sanctuary at Kiawah Island Golf Resort Kiawah Island, South Carolina US Hotel\", \"The Sanctuary at Kiawah Island Golf Resort Kiawah Island, South Carolina US Resort\", \"The Sanctuary at Kiawah Island Golf Resort Kiawah Island, South Carolina US\"], \"v\": 3}": {
@@ -163534,48 +163450,6 @@
       "website": "https://www.thepostoakhotel.com/"
     }
   },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Cala de Mar Resort & Spa Ixtapa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cala de Mar Resort & Spa Ixtapa Preferred Hotels & Resorts Hotel\", \"Cala de Mar Resort & Spa Ixtapa Preferred Hotels & Resorts Resort\", \"Cala de Mar Resort & Spa Ixtapa Preferred Hotels & Resorts\", \"Cala de Mar Resort & Spa Ixtapa Preferred Hotels & Resorts Ixtapa, Guerrero MX Hotel\", \"Cala de Mar Resort & Spa Ixtapa Preferred Hotels & Resorts Ixtapa, Guerrero MX Resort\", \"Cala de Mar Resort & Spa Ixtapa Preferred Hotels & Resorts Ixtapa, Guerrero MX\", \"Cala de Mar Resort & Spa Ixtapa Hilton Hotel\", \"Cala de Mar Resort & Spa Ixtapa Hilton Resort\", \"Cala de Mar Resort & Spa Ixtapa Hilton\", \"Cala de Mar Resort & Spa Ixtapa Hilton Ixtapa, Guerrero MX Hotel\", \"Cala de Mar Resort & Spa Ixtapa Hilton Ixtapa, Guerrero MX Resort\", \"Cala de Mar Resort & Spa Ixtapa Hilton Ixtapa, Guerrero MX\", \"Cala De Mar Resort Spa Ixtapa Preferred Hotels & Resorts Hotel\", \"Cala De Mar Resort Spa Ixtapa Preferred Hotels & Resorts Resort\", \"Cala De Mar Resort Spa Ixtapa Preferred Hotels & Resorts\", \"Cala De Mar Resort Spa Ixtapa Preferred Hotels & Resorts Ixtapa, Guerrero MX Hotel\", \"Cala De Mar Resort Spa Ixtapa Preferred Hotels & Resorts Ixtapa, Guerrero MX Resort\", \"Cala De Mar Resort Spa Ixtapa Preferred Hotels & Resorts Ixtapa, Guerrero MX\", \"Cala De Mar Resort Spa Ixtapa Hilton Hotel\", \"Cala De Mar Resort Spa Ixtapa Hilton Resort\", \"Cala De Mar Resort Spa Ixtapa Hilton\", \"Cala De Mar Resort Spa Ixtapa Hilton Ixtapa, Guerrero MX Hotel\", \"Cala De Mar Resort Spa Ixtapa Hilton Ixtapa, Guerrero MX Resort\", \"Cala De Mar Resort Spa Ixtapa Hilton Ixtapa, Guerrero MX\", \"Cala de Mar Resort & Spa Ixtapa Hotel\", \"Cala de Mar Resort & Spa Ixtapa Resort\", \"Cala de Mar Resort & Spa Ixtapa\", \"Cala de Mar Resort & Spa Ixtapa Ixtapa, Guerrero MX Hotel\", \"Cala de Mar Resort & Spa Ixtapa Ixtapa, Guerrero MX Resort\", \"Cala de Mar Resort & Spa Ixtapa Ixtapa, Guerrero MX\"], \"v\": 3}": {
-    "lat": 17.6674159,
-    "lon": -101.6327055,
-    "formatted_address": "Paseo Punta Ixtapa S/N, Zona Hotelera II, 40884 Ixtapa Zihuatanejo, Gro., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJXddoixN3NIQRPpRx6ijgWJ4",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Paseo Punta Ixtapa S/N, Zona Hotelera II, 40884 Ixtapa Zihuatanejo, Gro., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 17.6674159,
-          "lng": -101.6327055
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 17.6686973802915,
-            "lng": -101.6323721197085
-          },
-          "southwest": {
-            "lat": 17.6659994197085,
-            "lng": -101.6350700802915
-          }
-        }
-      },
-      "name": "Cala de Mar Resort & Spa Ixtapa",
-      "place_id": "ChIJXddoixN3NIQRPpRx6ijgWJ4",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://www.calademar.com/"
-    }
-  },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Keswick Hall\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Keswick Hall Preferred Hotels & Resorts Hotel\", \"Keswick Hall Preferred Hotels & Resorts Resort\", \"Keswick Hall Preferred Hotels & Resorts\", \"Keswick Hall Preferred Hotels & Resorts Keswick, Virginia US Hotel\", \"Keswick Hall Preferred Hotels & Resorts Keswick, Virginia US Resort\", \"Keswick Hall Preferred Hotels & Resorts Keswick, Virginia US\", \"Keswick Hall Hilton Hotel\", \"Keswick Hall Hilton Resort\", \"Keswick Hall Hilton\", \"Keswick Hall Hilton Keswick, Virginia US Hotel\", \"Keswick Hall Hilton Keswick, Virginia US Resort\", \"Keswick Hall Hilton Keswick, Virginia US\", \"Keswick Hall Hotel\", \"Keswick Hall Resort\", \"Keswick Hall\", \"Keswick Hall Keswick, Virginia US Hotel\", \"Keswick Hall Keswick, Virginia US Resort\", \"Keswick Hall Keswick, Virginia US\"], \"v\": 3}": {
     "lat": 38.01678030000001,
     "lon": -78.3666045,
@@ -205184,7 +205058,6 @@
   },
   "{\"brand\": \"FHR\", \"hotel_name\": \"Amrit Ocean Resort & Residences\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amrit Ocean Resort & Residences\"], \"v\": 3}": null,
   "{\"brand\": \"FHR\", \"hotel_name\": \"CASCADA Thermal Springs + Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"CASCADA Thermal Springs + Hotel\"], \"v\": 3}": null,
-  "{\"brand\": \"FHR\", \"hotel_name\": \"Montauk Yacht Club\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Montauk Yacht Club\"], \"v\": 3}": null,
   "{\"brand\": \"FHR\", \"hotel_name\": \"Eagles Villas\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Eagles Villas\"], \"v\": 3}": null,
   "{\"brand\": \"FHR\", \"hotel_name\": \"Giza Palace Hotel & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Giza Palace Hotel & Spa\"], \"v\": 3}": null,
   "{\"brand\": \"FHR\", \"hotel_name\": \"Spicers Sangoma Retreat\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Spicers Sangoma Retreat\"], \"v\": 3}": null,
@@ -205278,48 +205151,6 @@
         "spa"
       ],
       "website": "https://cascada.me/"
-    }
-  },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Montauk Yacht Club\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Montauk Yacht Club Design Hotels Hotel\", \"Montauk Yacht Club Design Hotels Resort\", \"Montauk Yacht Club Design Hotels\", \"Montauk Yacht Club Design Hotels Montauk, New York US Hotel\", \"Montauk Yacht Club Design Hotels Montauk, New York US Resort\", \"Montauk Yacht Club Design Hotels Montauk, New York US\", \"Montauk Yacht Club Hilton Hotel\", \"Montauk Yacht Club Hilton Resort\", \"Montauk Yacht Club Hilton\", \"Montauk Yacht Club Hilton Montauk, New York US Hotel\", \"Montauk Yacht Club Hilton Montauk, New York US Resort\", \"Montauk Yacht Club Hilton Montauk, New York US\", \"Montauk Yacht Club Hotel\", \"Montauk Yacht Club Resort\", \"Montauk Yacht Club\", \"Montauk Yacht Club Montauk, New York US Hotel\", \"Montauk Yacht Club Montauk, New York US Resort\", \"Montauk Yacht Club Montauk, New York US\"], \"v\": 3}": {
-    "lat": 41.0691804,
-    "lon": -71.9325127,
-    "formatted_address": "32 Star Island Rd, Montauk, NY 11954, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ_afXehxV74kR-x2fhiGPvJo",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "32 Star Island Rd, Montauk, NY 11954, USA",
-      "geometry": {
-        "location": {
-          "lat": 41.0691804,
-          "lng": -71.9325127
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 41.07078853029149,
-            "lng": -71.9318526197085
-          },
-          "southwest": {
-            "lat": 41.0680905697085,
-            "lng": -71.93455058029151
-          }
-        }
-      },
-      "name": "Montauk Yacht Club",
-      "place_id": "ChIJ_afXehxV74kR-x2fhiGPvJo",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://montaukyachtclub.com/?utm_source=local-listings&utm_medium=organic&utm_campaign=local-listings"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Amrit Ocean Resort & Residences\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amrit Ocean Resort & Residences Preferred Hotels & Resorts Hotel\", \"Amrit Ocean Resort & Residences Preferred Hotels & Resorts Resort\", \"Amrit Ocean Resort & Residences Preferred Hotels & Resorts\", \"Amrit Ocean Resort & Residences Preferred Hotels & Resorts Riviera Beach, Florida US Hotel\", \"Amrit Ocean Resort & Residences Preferred Hotels & Resorts Riviera Beach, Florida US Resort\", \"Amrit Ocean Resort & Residences Preferred Hotels & Resorts Riviera Beach, Florida US\", \"Amrit Ocean Resort & Residences Hilton Hotel\", \"Amrit Ocean Resort & Residences Hilton Resort\", \"Amrit Ocean Resort & Residences Hilton\", \"Amrit Ocean Resort & Residences Hilton Riviera Beach, Florida US Hotel\", \"Amrit Ocean Resort & Residences Hilton Riviera Beach, Florida US Resort\", \"Amrit Ocean Resort & Residences Hilton Riviera Beach, Florida US\", \"Amrit Ocean Resort Residences Preferred Hotels & Resorts Hotel\", \"Amrit Ocean Resort Residences Preferred Hotels & Resorts Resort\", \"Amrit Ocean Resort Residences Preferred Hotels & Resorts\", \"Amrit Ocean Resort Residences Preferred Hotels & Resorts Riviera Beach, Florida US Hotel\", \"Amrit Ocean Resort Residences Preferred Hotels & Resorts Riviera Beach, Florida US Resort\", \"Amrit Ocean Resort Residences Preferred Hotels & Resorts Riviera Beach, Florida US\", \"Amrit Ocean Resort Residences Hilton Hotel\", \"Amrit Ocean Resort Residences Hilton Resort\", \"Amrit Ocean Resort Residences Hilton\", \"Amrit Ocean Resort Residences Hilton Riviera Beach, Florida US Hotel\", \"Amrit Ocean Resort Residences Hilton Riviera Beach, Florida US Resort\", \"Amrit Ocean Resort Residences Hilton Riviera Beach, Florida US\", \"Amrit Ocean Resort & Residences Hotel\", \"Amrit Ocean Resort & Residences Resort\", \"Amrit Ocean Resort & Residences\", \"Amrit Ocean Resort & Residences Riviera Beach, Florida US Hotel\", \"Amrit Ocean Resort & Residences Riviera Beach, Florida US Resort\", \"Amrit Ocean Resort & Residences Riviera Beach, Florida US\"], \"v\": 3}": {
@@ -209809,48 +209640,6 @@
   },
   "{\"brand\": \"FHR\", \"hotel_name\": \"Palais Coburg\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Palais Coburg\"], \"v\": 3}": null,
   "{\"brand\": \"FHR\", \"hotel_name\": \"The St. Regis London\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The St. Regis London\"], \"v\": 3}": null,
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Montauk Yacht Club\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Montauk Yacht Club Hotel\", \"Montauk Yacht Club Resort\", \"Montauk Yacht Club\", \"Montauk Yacht Club Montauk, New York US Hotel\", \"Montauk Yacht Club Montauk, New York US Resort\", \"Montauk Yacht Club Montauk, New York US\"], \"v\": 3}": {
-    "lat": 41.0691804,
-    "lon": -71.9325127,
-    "formatted_address": "32 Star Island Rd, Montauk, NY 11954, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ_afXehxV74kR-x2fhiGPvJo",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "32 Star Island Rd, Montauk, NY 11954, USA",
-      "geometry": {
-        "location": {
-          "lat": 41.0691804,
-          "lng": -71.9325127
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 41.07078853029149,
-            "lng": -71.9318526197085
-          },
-          "southwest": {
-            "lat": 41.0680905697085,
-            "lng": -71.93455058029151
-          }
-        }
-      },
-      "name": "Montauk Yacht Club",
-      "place_id": "ChIJ_afXehxV74kR-x2fhiGPvJo",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://montaukyachtclub.com/"
-    }
-  },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The St. Regis London\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The St. Regis London St. Regis Hotel\", \"The St. Regis London St. Regis Resort\", \"The St. Regis London St. Regis\", \"The St. Regis London St. Regis London, England Hotel\", \"The St. Regis London St. Regis London, England Resort\", \"The St. Regis London St. Regis London, England\", \"The St. Regis London Hilton Hotel\", \"The St. Regis London Hilton Resort\", \"The St. Regis London Hilton\", \"The St. Regis London Hilton London, England Hotel\", \"The St. Regis London Hilton London, England Resort\", \"The St. Regis London Hilton London, England\", \"St Regis London St. Regis Hotel\", \"St Regis London St. Regis Resort\", \"St Regis London St. Regis\", \"St Regis London St. Regis London, England Hotel\", \"St Regis London St. Regis London, England Resort\", \"St Regis London St. Regis London, England\", \"St Regis London Hilton Hotel\", \"St Regis London Hilton Resort\", \"St Regis London Hilton\", \"St Regis London Hilton London, England Hotel\", \"St Regis London Hilton London, England Resort\", \"St Regis London Hilton London, England\", \"The St. Regis London Hotel\", \"The St. Regis London Resort\", \"The St. Regis London\", \"The St. Regis London London, England Hotel\", \"The St. Regis London London, England Resort\", \"The St. Regis London London, England\"], \"v\": 3}": {
     "lat": 51.5113487,
     "lon": -0.1425567,
@@ -211273,48 +211062,6 @@
     }
   },
   "{\"brand\": \"FHR\", \"hotel_name\": \"Mandarin Oriental Makati, Manila\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mandarin Oriental Makati, Manila\"], \"v\": 3}": null,
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Cala de Mar Resort & Spa Ixtapa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cala de Mar Resort & Spa Ixtapa Hotel\", \"Cala de Mar Resort & Spa Ixtapa Resort\", \"Cala de Mar Resort & Spa Ixtapa\", \"Cala de Mar Resort & Spa Ixtapa Ixtapa, Guerrero MX Hotel\", \"Cala de Mar Resort & Spa Ixtapa Ixtapa, Guerrero MX Resort\", \"Cala de Mar Resort & Spa Ixtapa Ixtapa, Guerrero MX\", \"Cala De Mar Resort Spa Ixtapa Hotel\", \"Cala De Mar Resort Spa Ixtapa Resort\", \"Cala De Mar Resort Spa Ixtapa\", \"Cala De Mar Resort Spa Ixtapa Ixtapa, Guerrero MX Hotel\", \"Cala De Mar Resort Spa Ixtapa Ixtapa, Guerrero MX Resort\", \"Cala De Mar Resort Spa Ixtapa Ixtapa, Guerrero MX\"], \"v\": 3}": {
-    "lat": 17.6674159,
-    "lon": -101.6327055,
-    "formatted_address": "Paseo Punta Ixtapa S/N, Zona Hotelera II, 40884 Ixtapa Zihuatanejo, Gro., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJXddoixN3NIQRPpRx6ijgWJ4",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Paseo Punta Ixtapa S/N, Zona Hotelera II, 40884 Ixtapa Zihuatanejo, Gro., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 17.6674159,
-          "lng": -101.6327055
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 17.6686973802915,
-            "lng": -101.6323721197085
-          },
-          "southwest": {
-            "lat": 17.6659994197085,
-            "lng": -101.6350700802915
-          }
-        }
-      },
-      "name": "Cala de Mar Resort & Spa Ixtapa",
-      "place_id": "ChIJXddoixN3NIQRPpRx6ijgWJ4",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://www.calademar.com/"
-    }
-  },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Mandarin Oriental Makati, Manila\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mandarin Oriental Makati, Manila Mandarin Oriental Hotel Group Hotel\", \"Mandarin Oriental Makati, Manila Mandarin Oriental Hotel Group Resort\", \"Mandarin Oriental Makati, Manila Mandarin Oriental Hotel Group\", \"Mandarin Oriental Makati, Manila Mandarin Oriental Hotel Group Manila, Philippines Hotel\", \"Mandarin Oriental Makati, Manila Mandarin Oriental Hotel Group Manila, Philippines Resort\", \"Mandarin Oriental Makati, Manila Mandarin Oriental Hotel Group Manila, Philippines\", \"Mandarin Oriental Makati, Manila Hilton Hotel\", \"Mandarin Oriental Makati, Manila Hilton Resort\", \"Mandarin Oriental Makati, Manila Hilton\", \"Mandarin Oriental Makati, Manila Hilton Manila, Philippines Hotel\", \"Mandarin Oriental Makati, Manila Hilton Manila, Philippines Resort\", \"Mandarin Oriental Makati, Manila Hilton Manila, Philippines\", \"Mandarin Oriental Makati Manila Mandarin Oriental Hotel Group Hotel\", \"Mandarin Oriental Makati Manila Mandarin Oriental Hotel Group Resort\", \"Mandarin Oriental Makati Manila Mandarin Oriental Hotel Group\", \"Mandarin Oriental Makati Manila Mandarin Oriental Hotel Group Manila, Philippines Hotel\", \"Mandarin Oriental Makati Manila Mandarin Oriental Hotel Group Manila, Philippines Resort\", \"Mandarin Oriental Makati Manila Mandarin Oriental Hotel Group Manila, Philippines\", \"Mandarin Oriental Makati Manila Hilton Hotel\", \"Mandarin Oriental Makati Manila Hilton Resort\", \"Mandarin Oriental Makati Manila Hilton\", \"Mandarin Oriental Makati Manila Hilton Manila, Philippines Hotel\", \"Mandarin Oriental Makati Manila Hilton Manila, Philippines Resort\", \"Mandarin Oriental Makati Manila Hilton Manila, Philippines\", \"Mandarin Oriental Makati, Manila Hotel\", \"Mandarin Oriental Makati, Manila Resort\", \"Mandarin Oriental Makati, Manila\", \"Mandarin Oriental Makati, Manila Manila, Philippines Hotel\", \"Mandarin Oriental Makati, Manila Manila, Philippines Resort\", \"Mandarin Oriental Makati, Manila Manila, Philippines\"], \"v\": 3}": {
     "lat": 14.5577852,
     "lon": 121.0252791,
@@ -213304,6 +213051,132 @@
         "lodging",
         "point_of_interest"
       ]
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Amanoi\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amanoi Aman Hotel\", \"Amanoi Aman Resort\", \"Amanoi Aman\", \"Amanoi Aman Khanh Hoa, Vietnam Hotel\", \"Amanoi Aman Khanh Hoa, Vietnam Resort\", \"Amanoi Aman Khanh Hoa, Vietnam\", \"Amanoi Hilton Hotel\", \"Amanoi Hilton Resort\", \"Amanoi Hilton\", \"Amanoi Hilton Khanh Hoa, Vietnam Hotel\", \"Amanoi Hilton Khanh Hoa, Vietnam Resort\", \"Amanoi Hilton Khanh Hoa, Vietnam\", \"Amanoi Hotel\", \"Amanoi Resort\", \"Amanoi\", \"Amanoi Khanh Hoa, Vietnam Hotel\", \"Amanoi Khanh Hoa, Vietnam Resort\", \"Amanoi Khanh Hoa, Vietnam\"], \"v\": 3}": {
+    "lat": 11.7094081,
+    "lon": 109.1976347,
+    "formatted_address": "Commune, Vĩnh Hy, Ninh Hải, Khánh Hòa, Vietnam",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJUc7XdXC_cDERnMvOwIIE6yA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Commune, Vĩnh Hy, Ninh Hải, Khánh Hòa, Vietnam",
+      "geometry": {
+        "location": {
+          "lat": 11.7094081,
+          "lng": 109.1976347
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 11.7106247802915,
+            "lng": 109.1987996302915
+          },
+          "southwest": {
+            "lat": 11.7079268197085,
+            "lng": 109.1961016697085
+          }
+        }
+      },
+      "name": "Amanoi",
+      "place_id": "ChIJUc7XdXC_cDERnMvOwIIE6yA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.aman.com/resorts/amanoi?utm_source=Google&utm_medium=Yext&y_source=1_MTU3MDc5NjYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Lefay Lago di Garda\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lefay Lago di Garda Preferred Hotels & Resorts Hotel\", \"Lefay Lago di Garda Preferred Hotels & Resorts Resort\", \"Lefay Lago di Garda Preferred Hotels & Resorts\", \"Lefay Lago di Garda Preferred Hotels & Resorts Gargnano, Italy Hotel\", \"Lefay Lago di Garda Preferred Hotels & Resorts Gargnano, Italy Resort\", \"Lefay Lago di Garda Preferred Hotels & Resorts Gargnano, Italy\", \"Lefay Lago di Garda Hilton Hotel\", \"Lefay Lago di Garda Hilton Resort\", \"Lefay Lago di Garda Hilton\", \"Lefay Lago di Garda Hilton Gargnano, Italy Hotel\", \"Lefay Lago di Garda Hilton Gargnano, Italy Resort\", \"Lefay Lago di Garda Hilton Gargnano, Italy\", \"Lefay Lago Di Garda Preferred Hotels & Resorts Hotel\", \"Lefay Lago Di Garda Preferred Hotels & Resorts Resort\", \"Lefay Lago Di Garda Preferred Hotels & Resorts\", \"Lefay Lago Di Garda Preferred Hotels & Resorts Gargnano, Italy Hotel\", \"Lefay Lago Di Garda Preferred Hotels & Resorts Gargnano, Italy Resort\", \"Lefay Lago Di Garda Preferred Hotels & Resorts Gargnano, Italy\", \"Lefay Lago Di Garda Hilton Hotel\", \"Lefay Lago Di Garda Hilton Resort\", \"Lefay Lago Di Garda Hilton\", \"Lefay Lago Di Garda Hilton Gargnano, Italy Hotel\", \"Lefay Lago Di Garda Hilton Gargnano, Italy Resort\", \"Lefay Lago Di Garda Hilton Gargnano, Italy\", \"Lefay Lago di Garda Hotel\", \"Lefay Lago di Garda Resort\", \"Lefay Lago di Garda\", \"Lefay Lago di Garda Gargnano, Italy Hotel\", \"Lefay Lago di Garda Gargnano, Italy Resort\", \"Lefay Lago di Garda Gargnano, Italy\"], \"v\": 3}": {
+    "lat": 45.68689879999999,
+    "lon": 10.6455586,
+    "formatted_address": "Via Angelo Feltrinelli, 136, 25084 Gargnano BS, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJTRELSu6KgUcRua2FgMIrHwA",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Angelo Feltrinelli, 136, 25084 Gargnano BS, Italy",
+      "geometry": {
+        "location": {
+          "lat": 45.68689879999999,
+          "lng": 10.6455586
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 45.68831618029149,
+            "lng": 10.6470240802915
+          },
+          "southwest": {
+            "lat": 45.68561821970849,
+            "lng": 10.6443261197085
+          }
+        }
+      },
+      "name": "Lefay Resort & SPA Lago di Garda",
+      "place_id": "ChIJTRELSu6KgUcRua2FgMIrHwA",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://www.lefayresorts.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Lefay Dolomiti\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lefay Dolomiti Preferred Hotels & Resorts Hotel\", \"Lefay Dolomiti Preferred Hotels & Resorts Resort\", \"Lefay Dolomiti Preferred Hotels & Resorts\", \"Lefay Dolomiti Preferred Hotels & Resorts Pinzolo, Italy Hotel\", \"Lefay Dolomiti Preferred Hotels & Resorts Pinzolo, Italy Resort\", \"Lefay Dolomiti Preferred Hotels & Resorts Pinzolo, Italy\", \"Lefay Dolomiti Hilton Hotel\", \"Lefay Dolomiti Hilton Resort\", \"Lefay Dolomiti Hilton\", \"Lefay Dolomiti Hilton Pinzolo, Italy Hotel\", \"Lefay Dolomiti Hilton Pinzolo, Italy Resort\", \"Lefay Dolomiti Hilton Pinzolo, Italy\", \"Lefay Dolomiti Hotel\", \"Lefay Dolomiti Resort\", \"Lefay Dolomiti\", \"Lefay Dolomiti Pinzolo, Italy Hotel\", \"Lefay Dolomiti Pinzolo, Italy Resort\", \"Lefay Dolomiti Pinzolo, Italy\"], \"v\": 3}": {
+    "lat": 46.1670858,
+    "lon": 10.7663579,
+    "formatted_address": "Via Alpe di Grual, 16, 38086 Pinzolo TN, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJcZHJg_dbgkcRhmrQVwk6YcQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Via Alpe di Grual, 16, 38086 Pinzolo TN, Italy",
+      "geometry": {
+        "location": {
+          "lat": 46.1670858,
+          "lng": 10.7663579
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 46.16846728029149,
+            "lng": 10.7678367302915
+          },
+          "southwest": {
+            "lat": 46.16576931970849,
+            "lng": 10.7651387697085
+          }
+        }
+      },
+      "name": "Lefay Resort & SPA Dolomiti",
+      "place_id": "ChIJcZHJg_dbgkcRhmrQVwk6YcQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://dolomiti.lefayresorts.com/"
     }
   }
 }
