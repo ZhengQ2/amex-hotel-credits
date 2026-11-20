@@ -159478,5 +159478,47 @@
       ],
       "website": "https://www.lottehotel.com/seoul-grand/ko"
     }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection Miches, Dominican Republic Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection Miches, Dominican Republic Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection Miches, Dominican Republic\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton Miches, Dominican Republic Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton Miches, Dominican Republic Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton Miches, Dominican Republic\", \"Zemi Miches Punta Cana All inclusive Resort Curio Hilton Curio Collection Hotel\", \"Zemi Miches Punta Cana All inclusive Resort Curio Hilton Curio Collection Resort\", \"Zemi Miches Punta Cana All inclusive Resort Curio Hilton Curio Collection\", \"Zemi Miches Punta Cana All inclusive Resort Curio Hilton Curio Collection Miches, Dominican Republic Hotel\", \"Zemi Miches Punta Cana All inclusive Resort Curio Hilton Curio Collection Miches, Dominican Republic Resort\", \"Zemi Miches Punta Cana All inclusive Resort Curio Hilton Curio Collection Miches, Dominican Republic\", \"Zemi Miches Punta Cana All inclusive Resort Curio Hilton Hilton Hotel\", \"Zemi Miches Punta Cana All inclusive Resort Curio Hilton Hilton Resort\", \"Zemi Miches Punta Cana All inclusive Resort Curio Hilton Hilton\", \"Zemi Miches Punta Cana All inclusive Resort Curio Hilton Hilton Miches, Dominican Republic Hotel\", \"Zemi Miches Punta Cana All inclusive Resort Curio Hilton Hilton Miches, Dominican Republic Resort\", \"Zemi Miches Punta Cana All inclusive Resort Curio Hilton Hilton Miches, Dominican Republic\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Miches, Dominican Republic Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Miches, Dominican Republic Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Miches, Dominican Republic\"], \"v\": 3}": {
+    "lat": 19.005306,
+    "lon": -69.0041248,
+    "formatted_address": "Carretera Playa Costa Esmeralda Km7, Miches 24000, Dominican Republic",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJSylFVlgpr44RdXY4RnvEXEk",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carretera Playa Costa Esmeralda Km7, Miches 24000, Dominican Republic",
+      "geometry": {
+        "location": {
+          "lat": 19.005306,
+          "lng": -69.0041248
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 19.0063152302915,
+            "lng": -69.0031100697085
+          },
+          "southwest": {
+            "lat": 19.0036172697085,
+            "lng": -69.0058080302915
+          }
+        }
+      },
+      "name": "Zemi Miches Punta Cana All-Inclusive Resort, Curio Collection by Hilton",
+      "place_id": "ChIJSylFVlgpr44RdXY4RnvEXEk",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/pujmiqq-zemi-miches-all-inclusive-resort/?SEO_id=GMB-QQ-PUJMIQQ&y_source=1_MTAzNDU0NjQ4Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    }
   }
 }
