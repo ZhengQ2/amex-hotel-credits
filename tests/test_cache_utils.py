@@ -338,6 +338,263 @@ class CacheUtilsTests(unittest.TestCase):
             )
         )
 
+    def test_is_cached_hotel_in_scraped_preserves_listed_single_core_hotels(self):
+        scraped = {
+            "fhr": {
+                "hotel de rome berlin",
+                "loden hotel",
+                "baccarat hotel and residences new york",
+                "universal's loews portofino bay hotel",
+            },
+            "thc": {
+                "w hong kong",
+                "omni austin hotel",
+            },
+        }
+        self.assertTrue(cache_utils.is_cached_hotel_in_scraped("hotel de rome", "FHR", scraped))
+        self.assertTrue(cache_utils.is_cached_hotel_in_scraped("loden boutique hotel vancouver", "FHR", scraped))
+        self.assertTrue(cache_utils.is_cached_hotel_in_scraped("baccarat hotel new york", "FHR", scraped))
+        self.assertTrue(cache_utils.is_cached_hotel_in_scraped("loews portofino bay hotel universal orlando", "FHR", scraped))
+        self.assertTrue(cache_utils.is_cached_hotel_in_scraped("omni austin hotel downtown", "THC", scraped))
+        # Single-char brand 'W Hong Kong' must NOT keep unrelated Hong Kong FHR hotels in THC.
+        self.assertFalse(cache_utils.is_cached_hotel_in_scraped("rosewood hong kong", "THC", scraped))
+
+    def test_find_fuzzy_cache_key_reuses_older_brand_scoped_and_hilton_rebrand_entries(self):
+        old_brand_key = json.dumps(
+            {
+                "brand": "Grand Hyatt",
+                "hotel_name": "Grand Hyatt Deer Valley",
+                "input_format": "fhrthc",
+                "provider": "google_places_first",
+                "queries": ["Grand Hyatt Deer Valley Park City, Utah US Hotel"],
+                "v": 3,
+            },
+            sort_keys=True,
+        )
+        thc_only_key = json.dumps(
+            {
+                "brand": "THE HOTEL COLLECTION",
+                "hotel_name": "Grand Hyatt Deer Valley",
+                "input_format": "fhrthc",
+                "provider": "google_places_first",
+                "queries": ["Grand Hyatt Deer Valley Park City, Utah US Hotel"],
+                "v": 3,
+            },
+            sort_keys=True,
+        )
+        fhr_cache = {
+            old_brand_key: {
+                "lat": 40.6,
+                "lon": -111.5,
+                "formatted_address": "123 St, Park City, UT 84060, USA",
+                "types": ["lodging", "establishment"],
+            },
+            thc_only_key: {
+                "lat": 40.6,
+                "lon": -111.5,
+                "formatted_address": "123 St, Park City, UT 84060, USA",
+                "types": ["lodging", "establishment"],
+            },
+        }
+        # Older brand-scoped entry is reused for FHR, while conflicting THC bucket is ignored.
+        hit = cache_utils.find_fuzzy_cache_key(
+            "Grand Hyatt Deer Valley",
+            fhr_cache,
+            input_format="fhrthc",
+            hotel_location="Park City, Utah US",
+            scope_key="FINE HOTELS + RESORTS",
+        )
+        self.assertEqual(hit, old_brand_key)
+
+        hilton_key = json.dumps(
+            {
+                "brand": "Curio Collection by Hilton",
+                "hotel_name": "Casa Marina Key West",
+                "input_format": "hilton",
+                "provider": "google_places_first",
+                "queries": ["Casa Marina Key West Curio Collection by Hilton Hotel"],
+                "v": 3,
+            },
+            sort_keys=True,
+        )
+        hilton_cache = {
+            hilton_key: {
+                "lat": 24.5477,
+                "lon": -81.7901,
+                "formatted_address": "1500 Reynolds St, Key West, FL 33040, USA",
+                "types": ["lodging", "establishment"],
+            }
+        }
+        self.assertEqual(
+            cache_utils.find_fuzzy_cache_key(
+                "Casa Marina Key West",
+                hilton_cache,
+                input_format="hilton",
+                scope_key="LXR Hotels & Resorts",
+            ),
+            hilton_key,
+        )
+
+    def test_find_fuzzy_cache_key_requires_city_agreement_for_exact_names(self):
+        cache = {
+            json.dumps(
+                {
+                    "brand": "FINE HOTELS + RESORTS",
+                    "hotel_name": "The Grand Hotel",
+                    "input_format": "fhrthc",
+                    "provider": "google_places_first",
+                    "queries": ["The Grand Hotel Houston, Texas US Hotel"],
+                    "v": 3,
+                },
+                sort_keys=True,
+            ): {
+                "lat": 29.75,
+                "lon": -95.36,
+                "formatted_address": "1 Main St, Houston, TX 77002, USA",
+                "types": ["lodging", "establishment"],
+            },
+            json.dumps(
+                {
+                    "brand": "FINE HOTELS + RESORTS",
+                    "hotel_name": "The Grand Hotel",
+                    "input_format": "fhrthc",
+                    "provider": "google_places_first",
+                    "queries": ["The Grand Hotel Nice, France Hotel"],
+                    "v": 3,
+                },
+                sort_keys=True,
+            ): {
+                "lat": 43.70,
+                "lon": 7.26,
+                "formatted_address": "1 Promenade, 06000 Nice, France",
+                "types": ["lodging", "establishment"],
+            },
+        }
+        self.assertIsNone(
+            cache_utils.find_fuzzy_cache_key(
+                "The Grand Hotel",
+                cache,
+                input_format="fhrthc",
+                hotel_location="Austin, Texas US",
+                scope_key="FINE HOTELS + RESORTS",
+            )
+        )
+        self.assertIsNone(
+            cache_utils.find_fuzzy_cache_key(
+                "Le Grand Hotel",
+                cache,
+                input_format="fhrthc",
+                hotel_location="Paris, France",
+                scope_key="FINE HOTELS + RESORTS",
+            )
+        )
+
+    def test_mid_name_by_hilton_retains_brand_word(self):
+        key = json.dumps(
+            {
+                "brand": "Signia by Hilton",
+                "hotel_name": "Signia by Hilton Orlando Bonnet Creek",
+                "input_format": "hilton",
+                "provider": "google_places_first",
+                "queries": ["Signia by Hilton Orlando Bonnet Creek Hotel"],
+                "v": 3,
+            },
+            sort_keys=True,
+        )
+        cache = {
+            key: {
+                "lat": 28.35,
+                "lon": -81.53,
+                "formatted_address": "14100 Bonnet Creek Resort Ln, Orlando, FL 32821, USA",
+                "types": ["lodging", "establishment"],
+            }
+        }
+        self.assertEqual(
+            cache_utils.find_fuzzy_cache_key(
+                "Signia Hilton Orlando Bonnet Creek",
+                cache,
+                input_format="hilton",
+                scope_key="Signia by Hilton",
+            ),
+            key,
+        )
+
+    def test_us_virgin_islands_location_compatibility(self):
+        self.assertTrue(
+            cache_utils.address_location_compatible(
+                "6900 Great Bay, Nazareth, St Thomas 00802, USVI",
+                "St. Thomas, U.S. Virgin Islands",
+            )
+        )
+        self.assertTrue(
+            cache_utils.address_location_compatible(
+                "1, Lovango Cay, St. John, St John 00830, USVI",
+                "St. John, U.S. Virgin Islands",
+            )
+        )
+
+    def test_no_result_does_not_block_resolved_or_other_cities(self):
+        oslo_no_res = json.dumps(
+            {
+                "brand": "FINE HOTELS + RESORTS",
+                "hotel_name": "The Grand Hotel",
+                "input_format": "fhrthc",
+                "provider": "google_places_first",
+                "queries": ["The Grand Hotel Oslo, Norway Hotel"],
+                "v": 3,
+            },
+            sort_keys=True,
+        )
+        austin_no_res = json.dumps(
+            {
+                "brand": "FINE HOTELS + RESORTS",
+                "hotel_name": "The Grand Hotel",
+                "input_format": "fhrthc",
+                "provider": "google_places_first",
+                "queries": ["The Grand Hotel Austin, Texas US Hotel"],
+                "v": 3,
+            },
+            sort_keys=True,
+        )
+        austin_resolved = json.dumps(
+            {
+                "brand": "FINE HOTELS + RESORTS",
+                "hotel_name": "Grand Hotel, Autograph Collection",
+                "input_format": "fhrthc",
+                "provider": "google_places_first",
+                "queries": ["Grand Hotel, Autograph Collection Austin, Texas US Hotel"],
+                "v": 3,
+            },
+            sort_keys=True,
+        )
+        # Oslo NO_RESULT must not match Austin.
+        self.assertIsNone(
+            cache_utils.find_fuzzy_cache_key(
+                "The Grand Hotel",
+                {oslo_no_res: {"status": "NO_RESULT"}},
+                input_format="fhrthc",
+                hotel_location="Austin, Texas US",
+                scope_key="FINE HOTELS + RESORTS",
+            )
+        )
+        # Resolved Austin entry must beat an exact-name Austin NO_RESULT entry.
+        hit = cache_utils.find_fuzzy_cache_key(
+            "The Grand Hotel",
+            {
+                austin_no_res: {"status": "NO_RESULT"},
+                austin_resolved: {
+                    "lat": 30.26,
+                    "lon": -97.74,
+                    "formatted_address": "100 Main St, Austin, TX 78701, USA",
+                    "types": ["lodging", "establishment"],
+                },
+            },
+            input_format="fhrthc",
+            hotel_location="Austin, Texas US",
+            scope_key="FINE HOTELS + RESORTS",
+        )
+        self.assertEqual(hit, austin_resolved)
+
 
 class UpstreamFixTests(unittest.TestCase):
     def test_canonicalize_amex_url_normalizes_property_prefix(self):
@@ -348,12 +605,60 @@ class UpstreamFixTests(unittest.TestCase):
 
     def test_google_convert_rejects_parking_and_prefers_lodging(self):
         gc = _load_google_convert()
+        self.assertGreaterEqual(gc.SELECTOR_VERSION, 3)
         self.assertFalse(gc._is_lodging_type(["establishment", "parking", "point_of_interest"]))
+        self.assertFalse(gc._is_lodging_type(["establishment", "restaurant", "food"]))
+        self.assertFalse(gc._is_lodging_type(["establishment", "store"]))
         self.assertFalse(gc._is_lodging_type(["natural_feature"]))
-        # A real hotel that also lists parking still carries "lodging".
-        self.assertTrue(gc._is_lodging_type(["establishment", "lodging", "parking"]))
+        # A real hotel that also lists parking/restaurant still carries "lodging".
+        self.assertTrue(gc._is_lodging_type(["establishment", "lodging", "parking", "restaurant"]))
         # Fallback hotel without "lodging" tag (e.g. spa resort) remains accepted.
         self.assertTrue(gc._is_lodging_type(["establishment", "health", "point_of_interest", "spa"]))
+
+        # Accent-folded name matching and restaurant rejection.
+        self.assertTrue(gc._is_name_compatible("Hôtel Métropole", "Hotel Metropole"))
+        self.assertTrue(gc._is_name_compatible("Hotel Zürich", "Hotel Zurich"))
+        self.assertTrue(gc._is_name_compatible("Hotel Xi'an", "Hotel Xian"))
+        metropole_choice = gc.choose_best_place(
+            [
+                {
+                    "name": "Metropole Restaurant",
+                    "place_id": "pid_rest",
+                    "types": ["restaurant", "food", "establishment"],
+                    "formatted_address": "Brussels, Belgium",
+                    "rating": 4.9,
+                    "user_ratings_total": 999,
+                },
+                {
+                    "name": "Hôtel Métropole",
+                    "place_id": "pid_hotel",
+                    "types": ["lodging", "establishment"],
+                    "formatted_address": "Brussels, Belgium",
+                    "rating": 4.5,
+                    "user_ratings_total": 100,
+                },
+            ],
+            "",
+            "Hotel Metropole",
+            "Brussels, Belgium",
+        )
+        self.assertIsNotNone(metropole_choice)
+        self.assertEqual(metropole_choice["place_id"], "pid_hotel")
+
+        # Shared location helper enforces state guard and handles USVI identically.
+        self.assertIs(gc._location_compatible, cache_utils.address_location_compatible)
+        self.assertFalse(
+            gc._location_compatible(
+                "926 J St, Sacramento, CA 95814, USA",
+                "Alexandria, Virginia US",
+            )
+        )
+        self.assertTrue(
+            gc._location_compatible(
+                "6900 Great Bay, Nazareth, St Thomas 00802, USVI",
+                "St. Thomas, U.S. Virgin Islands",
+            )
+        )
 
         results = [
             {
@@ -382,6 +687,54 @@ class UpstreamFixTests(unittest.TestCase):
         self.assertIsNone(
             gc.choose_best_place(only_parking, "The Ritz-Carlton", "The Ritz-Carlton, Xi'an", "Xi'an, China")
         )
+
+    def test_fuzzy_cache_key_skips_parking_entry_and_reuses_valid_lodging(self):
+        parking_key = json.dumps(
+            {
+                "brand": "FINE HOTELS + RESORTS",
+                "hotel_name": "The Ritz-Carlton, Xi'an",
+                "input_format": "fhrthc",
+                "provider": "google_places_first",
+                "queries": ["The Ritz-Carlton, Xi'an Xi'an, China Hotel"],
+                "v": 3,
+            },
+            sort_keys=True,
+        )
+        lodging_key = json.dumps(
+            {
+                "brand": "FINE HOTELS + RESORTS",
+                "hotel_name": "The Ritz-Carlton, Xi'an",
+                "input_format": "fhrthc",
+                "provider": "google_places_first",
+                "queries": ["The Ritz-Carlton, Xi'an Xian, China Hotel"],
+                "v": 3,
+            },
+            sort_keys=True,
+        )
+        cache = {
+            parking_key: {
+                "lat": 34.2237654,
+                "lon": 108.8980399,
+                "formatted_address": "50 Ke Ji Er Lu, 50, Yan Ta Qu, Xi An Shi, Shan Xi Sheng, China, 710065",
+                "place_id": "pid_parking",
+                "types": ["establishment", "parking", "point_of_interest"],
+            },
+            lodging_key: {
+                "lat": 34.2232364,
+                "lon": 108.8985118,
+                "formatted_address": "50 Ke Ji Er Lu, Yan Ta Qu, Xi An Shi, Shan Xi Sheng, China, 710065",
+                "place_id": "pid_lodging",
+                "types": ["establishment", "lodging", "point_of_interest"],
+            },
+        }
+        hit = cache_utils.find_fuzzy_cache_key(
+            "The Ritz-Carlton, Xi'an",
+            cache,
+            input_format="fhrthc",
+            hotel_location="Xi'an, China",
+            scope_key="FINE HOTELS + RESORTS",
+        )
+        self.assertEqual(hit, lodging_key)
 
 
 if __name__ == "__main__":

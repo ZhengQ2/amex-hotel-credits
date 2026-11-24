@@ -4,8 +4,9 @@
 Uses cascading 1-to-1 entity resolution so minor metadata changes (diacritics,
 punctuation, locality granularity, chain/collection taglines) do not produce
 paired false-positive remove+add diffs, while keeping false negatives near zero
-by locking exact matches first, guarding sibling discriminators, and surfacing
-substantive renames in a dedicated `~ Renamed` section.
+by locking exact matches first, guarding sibling discriminators, conflicting
+property codes, and distinct Google place_ids, and surfacing substantive
+renames/brand changes in a dedicated `~ Renamed` section.
 """
 
 from __future__ import annotations
@@ -27,14 +28,17 @@ from cache_utils import (
     DISCRIMINATOR_TOKENS,
     align_compound_tokens,
     core_name_tokens,
+    is_lodging_type,
     locations_compatible,
     normalize_location,
     normalize_name,
 )
 
-# Coordinate shifts smaller than this distance (e.g. entrance vs parking pin
-# jitter) are ignored; larger shifts and None <-> valid transitions are reported.
+# Coordinate shifts smaller than this distance (e.g. entrance vs building pin
+# jitter) are ignored unless the place_id also changed and lost lodging status;
+# larger shifts and None <-> valid transitions are always reported.
 DEFAULT_MOVE_THRESHOLD_M = 250.0
+MAX_DETAILS_PER_CATEGORY = 15
 
 _HILTON_CODE_RE = re.compile(r"/hotels/([a-z0-9]{7})-", re.IGNORECASE)
 
@@ -49,6 +53,7 @@ class HotelRecord:
     place_id: str
     lat: Optional[Decimal]
     lon: Optional[Decimal]
+    types: FrozenSet[str] = frozenset()
 
     @property
     def identity(self) -> Tuple[str, str, str]:
@@ -77,6 +82,7 @@ class MovedHotel:
     old: HotelRecord
     new: HotelRecord
     distance_m: Optional[float]
+    reason: str = ""
 
 
 @dataclass(frozen=True)
@@ -112,6 +118,12 @@ def sheet_rows(rows: Sequence[Dict[str, str]]) -> Counter:
     )
 
 
+def _parse_types(raw: str) -> FrozenSet[str]:
+    if not raw:
+        return frozenset()
+    return frozenset(t.strip().lower() for t in raw.split(";") if t.strip())
+
+
 def parse_records(rows: Sequence[Dict[str, str]]) -> List[HotelRecord]:
     """Validate and parse CSV rows into HotelRecords, rejecting duplicate raw identities."""
     records: List[HotelRecord] = []
@@ -139,6 +151,7 @@ def parse_records(rows: Sequence[Dict[str, str]]) -> List[HotelRecord]:
                 place_id=(row.get("place_id") or "").strip(),
                 lat=Decimal(lat_str) if lat_str else None,
                 lon=Decimal(lon_str) if lon_str else None,
+                types=_parse_types(row.get("types") or ""),
             )
         )
     return records
@@ -166,6 +179,23 @@ def _hilton_property_code(url: str) -> str:
     return match.group(1).lower() if match else ""
 
 
+def _hilton_codes_conflict(old: HotelRecord, new: HotelRecord) -> bool:
+    o_code = _hilton_property_code(old.hotel_url)
+    n_code = _hilton_property_code(new.hotel_url)
+    return bool(o_code and n_code and o_code != n_code)
+
+
+def _lost_lodging_place(old: HotelRecord, new: HotelRecord) -> bool:
+    """True when place_id changed and the geocoded place degraded out of lodging."""
+    if not (old.place_id and new.place_id and old.place_id != new.place_id):
+        return False
+    if not (old.types and new.types):
+        return False
+    if "lodging" in old.types and "lodging" not in new.types:
+        return True
+    return is_lodging_type(old.types) and not is_lodging_type(new.types)
+
+
 def _build_idf(records: Sequence[HotelRecord]) -> Dict[str, float]:
     doc_freq: Counter = Counter()
     n_docs = max(1, len(records))
@@ -183,6 +213,7 @@ class _PreparedRecord:
     record: HotelRecord
     norm_group: str
     norm_brand: str
+    hilton_code: str
     city: str
     country: str
     toks_seq: Tuple[str, ...]
@@ -198,6 +229,7 @@ def _prepare(rec: HotelRecord) -> _PreparedRecord:
         record=rec,
         norm_group=normalize_name(rec.group_label),
         norm_brand=normalize_name(rec.brand_label),
+        hilton_code=_hilton_property_code(rec.hotel_url),
         city=city,
         country=country,
         toks_seq=toks,
@@ -293,7 +325,7 @@ def compare(
             u_old.remove(oi)
             u_new.remove(ni)
 
-    # --- Stage 2: Canonical normalized (name, group) + location/geo agreement ---
+    # --- Stage 2: Canonical normalized (name, group) + city/geo agreement ---
     new_by_norm: Dict[Tuple[str, str], List[int]] = defaultdict(list)
     for ni in u_new:
         rec = new_records[ni]
@@ -305,12 +337,23 @@ def compare(
         key = (normalize_name(o.hotel_name), normalize_name(o.group_label))
         for ni in new_by_norm.get(key, []):
             n = new_records[ni]
+            if _hilton_codes_conflict(o, n):
+                continue
             dist = _distance_between(o, n)
             same_pid = bool(o.place_id and o.place_id == n.place_id)
-            loc_ok = locations_compatible(o.hotel_location, n.hotel_location)
-            if loc_ok or same_pid or (dist is not None and dist <= 50_000.0):
-                rank = (1 if same_pid else 0, 1 if loc_ok else 0, -(dist if dist is not None else 1e9))
-                stage2_candidates.append((rank, oi, ni))
+            if o.hotel_location or n.hotel_location:
+                loc_ok = locations_compatible(o.hotel_location, n.hotel_location)
+                geo_ok = same_pid or (dist is not None and dist <= 25_000.0)
+                if not (loc_ok or geo_ok):
+                    continue
+            else:
+                # Both rows omit hotel_location (e.g. Hilton): require matching
+                # place_id, nearby coords, or missing coords with no code conflict.
+                loc_ok = False
+                if not (same_pid or dist is None or dist <= 25_000.0):
+                    continue
+            rank = (1 if same_pid else 0, 1 if loc_ok else 0, -(dist if dist is not None else 1e9))
+            stage2_candidates.append((rank, oi, ni))
 
     stage2_candidates.sort(key=lambda item: item[0], reverse=True)
     for _, oi, ni in stage2_candidates:
@@ -331,11 +374,16 @@ def compare(
         if code and old_hcode_counts[code] == 1 and code in new_by_hcode:
             ni = new_by_hcode[code]
             if ni in u_new:
-                tier = (
-                    "tier1_silent"
-                    if normalize_name(old_records[oi].hotel_name) == normalize_name(new_records[ni].hotel_name)
-                    else "tier2_rename"
+                same_name = (
+                    normalize_name(old_records[oi].hotel_name)
+                    == normalize_name(new_records[ni].hotel_name)
                 )
+                same_group = (
+                    normalize_name(old_records[oi].group_label)
+                    == normalize_name(new_records[ni].group_label)
+                )
+                # Report brand/group changes (e.g. Curio -> LXR) as notifiable renames.
+                tier = "tier1_silent" if (same_name and same_group) else "tier2_rename"
                 matched.append((oi, ni, tier, "hilton_code"))
                 u_old.remove(oi)
                 u_new.remove(ni)
@@ -366,7 +414,9 @@ def compare(
 
             for ni in cand_nis:
                 np = new_prep[ni]
-                # Hard brand veto when both snapshots explicitly name different brands.
+                # Hard vetoes: conflicting Hilton property codes or different brands.
+                if op.hilton_code and np.hilton_code and op.hilton_code != np.hilton_code:
+                    continue
                 if op.norm_brand and np.norm_brand and op.norm_brand != np.norm_brand:
                     continue
 
@@ -376,6 +426,7 @@ def compare(
                     opid_unique and n.place_id and o.place_id == n.place_id
                     and new_pid_counts[n.place_id] == 1
                 )
+                distinct_pids = bool(o.place_id and n.place_id and o.place_id != n.place_id)
                 same_city = locations_compatible(o.hotel_location, n.hotel_location)
                 if not same_unique_pid and not same_city and (dist is None or dist > 50_000.0):
                     continue
@@ -390,13 +441,15 @@ def compare(
                 if (
                     exact_core
                     and not extra_disc
-                    and same_city
+                    and (same_city or same_unique_pid)
                     and (same_unique_pid or dist is None or dist <= 5_000.0)
                 ):
                     tier = "tier1_silent"
                     reason = "cosmetic_rename"
                 # Tier 2 (surfaced as `~ Renamed` for human review): strong physical
-                # match with substantive name change (never silently swallows a swap).
+                # match with substantive name change. When both records carry
+                # distinct non-empty place_ids and non-identical cores, keep them
+                # separate so adjacent sibling properties do not merge.
                 elif same_unique_pid and not extra_disc and not mutually_exclusive and idf_f1 >= 0.65:
                     tier = "tier2_rename"
                     reason = "unique_place_id+subset_name"
@@ -404,7 +457,8 @@ def compare(
                     tier = "tier2_rename"
                     reason = "unique_place_id+rename"
                 elif (
-                    dist is not None
+                    not distinct_pids
+                    and dist is not None
                     and dist <= 250.0
                     and not extra_disc
                     and not mutually_exclusive
@@ -413,7 +467,8 @@ def compare(
                     tier = "tier2_rename"
                     reason = "tight_geo+high_idf"
                 elif (
-                    same_city
+                    not distinct_pids
+                    and same_city
                     and not extra_disc
                     and not mutually_exclusive
                     and idf_f1 >= 0.80
@@ -448,10 +503,18 @@ def compare(
         elif stage != "exact":
             silent_updates.append(HotelMatch(old=o, new=n, stage=stage))
 
-        if o.coords != n.coords:
-            dist = _distance_between(o, n)
-            if dist is None or dist >= move_threshold_m:
-                moved.append(MovedHotel(old=o, new=n, distance_m=dist))
+        dist = _distance_between(o, n)
+        lost_lodging = _lost_lodging_place(o, n)
+        coords_moved = o.coords != n.coords and (dist is None or dist >= move_threshold_m)
+        if coords_moved or lost_lodging:
+            moved.append(
+                MovedHotel(
+                    old=o,
+                    new=n,
+                    distance_m=dist,
+                    reason="lost lodging type" if lost_lodging else "",
+                )
+            )
 
     added = sorted((new_records[ni] for ni in u_new), key=lambda r: r.identity)
     removed = sorted((old_records[oi] for oi in u_old), key=lambda r: r.identity)
@@ -487,35 +550,66 @@ def describe(record: HotelRecord) -> str:
     return f"{record.hotel_name} ({details})" if details else record.hotel_name
 
 
-def _format_distance(distance_m: Optional[float]) -> str:
+def _format_distance(distance_m: Optional[float], reason: str = "") -> str:
     if distance_m is None:
-        return "coords added/removed"
-    if distance_m >= 1000.0:
-        return f"{distance_m / 1000.0:.1f} km"
-    return f"{distance_m:.0f} m"
+        base = "coords added/removed"
+    elif distance_m >= 1000.0:
+        base = f"{distance_m / 1000.0:.1f} km"
+    else:
+        base = f"{distance_m:.0f} m"
+    return f"{base}, {reason}" if reason else base
 
 
-def report_section(label: str, diff: DiffResult) -> str:
+def _format_rename(match: HotelMatch) -> str:
+    if match.old.group_label != match.new.group_label:
+        return f"  ~ Renamed: {describe(match.old)} -> {describe(match.new)}"
+    return f"  ~ Renamed: {match.old.hotel_name} -> {describe(match.new)}"
+
+
+def _append_capped(lines: List[str], items: List[str], noun: str, limit: int) -> None:
+    lines.extend(items[:limit])
+    if len(items) > limit:
+        lines.append(f"  ... and {len(items) - limit} more {noun}; see attached CSVs")
+
+
+def report_section(
+    label: str,
+    diff: DiffResult,
+    *,
+    max_per_category: int = MAX_DETAILS_PER_CATEGORY,
+) -> str:
     lines = [
         f"{label}: {len(diff.added)} added, {len(diff.removed)} removed, "
         f"{len(diff.renamed)} renamed, {len(diff.moved)} coordinate changes"
     ]
-    details = (
-        [f"  + {describe(rec)}" for rec in diff.added]
-        + [f"  - {describe(rec)}" for rec in diff.removed]
-        + [
-            f"  ~ Renamed: {m.old.hotel_name} -> {describe(m.new)}"
-            for m in diff.renamed
-        ]
-        + [
-            f"  ~ Moved ({_format_distance(m.distance_m)}): {describe(m.new)}: "
+    _append_capped(
+        lines,
+        [f"  + {describe(rec)}" for rec in diff.added],
+        "added",
+        max_per_category,
+    )
+    _append_capped(
+        lines,
+        [f"  - {describe(rec)}" for rec in diff.removed],
+        "removed",
+        max_per_category,
+    )
+    _append_capped(
+        lines,
+        [_format_rename(m) for m in diff.renamed],
+        "renamed",
+        max_per_category,
+    )
+    _append_capped(
+        lines,
+        [
+            f"  ~ Moved ({_format_distance(m.distance_m, m.reason)}): {describe(m.new)}: "
             f"{m.old.lat}, {m.old.lon} -> {m.new.lat}, {m.new.lon}"
             for m in diff.moved
-        ]
+        ],
+        "coordinate changes",
+        max_per_category,
     )
-    lines.extend(details[:25])
-    if len(details) > 25:
-        lines.append(f"  ... and {len(details) - 25} more; see attached CSVs")
     return "\n".join(lines)
 
 

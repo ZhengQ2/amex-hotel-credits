@@ -25,7 +25,6 @@ import time
 import re
 import random
 import argparse
-import unicodedata
 from pathlib import Path
 from typing import Dict, Any, Optional, Tuple, List
 from urllib.parse import urlparse, unquote
@@ -35,7 +34,13 @@ import pandas as pd
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 from dotenv import load_dotenv
 
-from cache_utils import find_fuzzy_cache_key
+from cache_utils import (
+    address_location_compatible,
+    find_fuzzy_cache_key,
+    is_lodging_type,
+    is_strict_lodging_type,
+    normalize_name,
+)
 
 load_dotenv()
 
@@ -264,7 +269,7 @@ GENERIC_NAME_TOKENS = {
 def _meaningful_tokens(text: str) -> set:
     return {
         tok
-        for tok in re.findall(r"[a-z0-9]+", (text or "").lower())
+        for tok in normalize_name(text).split()
         if tok and tok not in GENERIC_NAME_TOKENS and len(tok) > 1
     }
 
@@ -303,42 +308,20 @@ def _is_name_compatible(place_name: str, hotel_name: str) -> bool:
     return overlap >= max(1, min(len(p), len(h)) - 1) and overlap / len(p) >= 0.3
 
 
-_NON_LODGING_NOISE_TYPES = {
-    "parking",
-    "bus_station",
-    "transit_station",
-    "subway_station",
-    "train_station",
-    "atm",
-    "gas_station",
-    "natural_feature",
-}
-
-
-def _is_strict_lodging_type(types: List[str]) -> bool:
-    t = {str(x).lower() for x in (types or [])}
-    return "lodging" in t
-
-
-def _is_lodging_type(types: List[str]) -> bool:
-    t = {str(x).lower() for x in (types or [])}
-    if "lodging" in t:
-        return True
-    if t & _NON_LODGING_NOISE_TYPES:
-        return False
-    return "premise" in t or "establishment" in t
+_is_strict_lodging_type = is_strict_lodging_type
+_is_lodging_type = is_lodging_type
 
 
 def _brand_in_name(name: str, brand: str) -> bool:
-    name_l = (name or "").lower()
-    b = (brand or "").lower()
+    name_l = normalize_name(name or "")
+    b = normalize_name(brand or "")
     if not name_l:
         return False
     # direct brand token
     if b and b in name_l:
         return True
     # any Hilton family hint
-    return any(h.lower() in name_l for h in BRAND_HINTS)
+    return any(normalize_name(h) in name_l for h in BRAND_HINTS)
 
 
 def choose_best_place(
@@ -404,94 +387,19 @@ def acceptable_from_details(details: Dict[str, Any]) -> bool:
     return True
 
 
-# Canonical country name for common spellings/aliases/constituent-country names
-# seen in scraped "City, Region"-style locations and in Google's formatted
-# addresses. Deliberately small and conservative: anything not listed here
-# stays unresolved rather than risk a wrong alias.
-_COUNTRY_ALIASES = {
-    "us": "united states", "usa": "united states", "america": "united states",
-    "united states of america": "united states",
-    "uk": "united kingdom", "britain": "united kingdom", "great britain": "united kingdom",
-    "england": "united kingdom", "scotland": "united kingdom",
-    "wales": "united kingdom", "northern ireland": "united kingdom",
-    "uae": "united arab emirates",
-    "turkiye": "turkey", "turkiy": "turkey",
-    "czechia": "czech republic",
-    "holland": "netherlands",
-    "south korea": "korea", "republic of korea": "korea",
-    "macau": "macao",
-    "ca": "canada", "mx": "mexico",
-}
-
-# Aliases safe to fold into the *middle* of arbitrary address text (used by
-# _normalize_geo_text below). Excludes short codes that collide with common
-# US state / Canadian province postal abbreviations appearing elsewhere in
-# an address - "ca" is both the Canada country code and California's postal
-# abbreviation, so blanket-expanding it there would misclassify a US
-# address as Canadian. Those short codes are only resolved positionally, as
-# a trailing "State CODE" suffix, inside _country_of.
-_TEXT_EXPANSIONS = {k: v for k, v in _COUNTRY_ALIASES.items() if k not in ("ca", "mx")}
-
-
-def _strip_diacritics(s: str) -> str:
-    normalized = unicodedata.normalize("NFKD", s)
-    return "".join(ch for ch in normalized if not unicodedata.combining(ch))
-
-
-def _normalize_geo_text(s: str) -> str:
-    """Lowercase, strip diacritics/punctuation, and fold common abbreviations.
-
-    "St" -> "saint" (St Lucia / St. Thomas / Saint-Barthelemy all end up
-    equal), "USVI" -> "us virgin islands", "&" -> "and" (St Kitts & Nevis
-    vs "Saint Kitts and Nevis"), and short country codes like "USA"/"UK"/
-    "UAE" expand to their full name, so it doesn't matter which spelling
-    Google or the source site happened to use.
-    """
-    s = s.replace("&", " and ")
-    s = _strip_diacritics(s).lower()
-    s = re.sub(r"[^a-z\s]", " ", s)
-    s = re.sub(r"\bu\s+s\b", "us", s)  # "U.S." -> "u s" after punctuation strip -> "us"
-    s = re.sub(r"\busvi\b", "us virgin islands", s)
-    s = re.sub(r"\bst\b", "saint", s)
-    for alias, canonical in _TEXT_EXPANSIONS.items():
-        s = re.sub(rf"\b{re.escape(alias)}\b", canonical, s)
-    return re.sub(r"\s+", " ", s).strip()
-
-
-def _country_of(s: str) -> str:
-    """Best-effort canonical country name from the last comma segment of s.
-
-    Most locations are "City, Country" (or "..., County, Country"), so the
-    last comma segment is the country. But the scraper's domestic-style
-    locations instead append a short ALL-CAPS country code straight after
-    the state/province with a space, no comma (e.g. "Austin, Texas US",
-    "Toronto, Ontario CA") - detect that form first before falling back to
-    treating the whole trailing segment as the country name.
-    """
-    segment = s.split(",")[-1]
-    trailing_code = re.search(r"\b([A-Za-z]{2,3})\s*$", segment.strip())
-    if trailing_code and trailing_code.group(1).isupper():
-        code = trailing_code.group(1).lower()
-        if code in _COUNTRY_ALIASES:
-            return _COUNTRY_ALIASES[code]
-
-    norm = _normalize_geo_text(segment)
-    return _COUNTRY_ALIASES.get(norm, norm)
-
-
-# How long a confirmed location mismatch is trusted before we try again.
+# How long a confirmed location/type mismatch is trusted before we try again.
 #
-# Re-geocoding a geographically wrong cache entry only heals it if Google's
-# answer has actually changed. When it hasn't, the entry is rejected, re-fetched,
-# and rejected again on every run - a paid Places call per hotel per night, with
-# no path to convergence. Re-check on a slow cadence instead, so a genuinely
-# improved Google result is still picked up eventually.
+# Re-geocoding a geographically wrong or non-lodging cache entry only heals it
+# if Google's answer has actually changed. When it hasn't, the entry is
+# rejected, re-fetched, and rejected again on every run - a paid Places call
+# per hotel per night, with no path to convergence. Re-check on a slow cadence
+# instead, so a genuinely improved Google result is still picked up eventually.
 LOCATION_MISMATCH_RECHECK_DAYS = 30
 
-# Stored on a cached result whose location we have re-verified and found still
-# wrong. Leading underscore keeps it clear this is our bookkeeping, not part of
-# the Places payload; output rows are built from named fields, so it is ignored
-# everywhere downstream.
+# Stored on a cached result whose location or place type we have re-verified and
+# found still wrong. Leading underscore keeps it clear this is our bookkeeping,
+# not part of the Places payload; output rows are built from named fields, so it
+# is ignored everywhere downstream.
 _MISMATCH_STAMP = "_location_mismatch_confirmed_at"
 _MISMATCH_SELECTOR_V = "_location_mismatch_selector_v"
 
@@ -501,11 +409,12 @@ _MISMATCH_SELECTOR_V = "_location_mismatch_selector_v"
 # hotel gets one fresh attempt instead of waiting out the recheck window.
 #   1 - selection ignored hotel_location entirely
 #   2 - candidates in the wrong country are filtered out before ranking
-SELECTOR_VERSION = 2
+#   3 - reject non-lodging noise types, fold accents in name check, enforce US/CA state guard
+SELECTOR_VERSION = 3
 
 
 def _mismatch_recheck_due(entry: Dict[str, Any]) -> bool:
-    """True when a known-wrong-location entry is due for another geocode attempt."""
+    """True when a known-wrong-location/type entry is due for another geocode attempt."""
     if not isinstance(entry, dict):
         return True
     stamp = entry.get(_MISMATCH_STAMP)
@@ -516,38 +425,7 @@ def _mismatch_recheck_due(entry: Dict[str, Any]) -> bool:
     return (time.time() - stamp) / 86400.0 >= LOCATION_MISMATCH_RECHECK_DAYS
 
 
-def _location_compatible(formatted_address: str, hotel_location: str) -> bool:
-    """Return False only when we are confident the geocoded place is in the wrong country.
-
-    We resolve the scraped `hotel_location`'s trailing country/region to a
-    canonical name, then check whether that name appears *anywhere* in the
-    full normalized `formatted_address`, not just its own last segment. A
-    pure last-segment-to-last-segment comparison breaks whenever the two
-    sources punctuate differently: Google sometimes separates an address
-    with " - " instead of ", " (common for Arabic-script results), and
-    sometimes repeats the country earlier in the string but not at the very
-    end. Substring containment across the whole address tolerates that,
-    while still rejecting a confidently different country (e.g. a hotel
-    that should be in Italy but the cached match is in Ireland).
-    """
-    if not formatted_address or not hotel_location:
-        return True
-
-    loc_country = _country_of(hotel_location)
-    if not loc_country:
-        return True
-    addr_norm = _normalize_geo_text(formatted_address)
-    if loc_country in addr_norm:
-        return True
-
-    # Hong Kong and Macao are scraped as "..., China" (their sovereign
-    # state), but as Special Administrative Regions Google's formatted
-    # address for them names the SAR itself and never appends "China" - so
-    # accept those specifically rather than flagging every HK/Macau hotel
-    # as a country mismatch.
-    if loc_country == "china" and ("hong kong" in addr_norm or "macao" in addr_norm):
-        return True
-    return False
+_location_compatible = address_location_compatible
 
 
 # -----------------------
@@ -740,24 +618,36 @@ def main():
 
         if cached is not None:
             res = None if cached == {"status": "NO_RESULT"} else cached
-            if res and not _location_compatible(res.get("formatted_address", ""), hotel_location):
+            bad_location = bool(
+                res and not _location_compatible(res.get("formatted_address", ""), hotel_location)
+            )
+            bad_type = bool(
+                res and res.get("types") and not _is_lodging_type(res.get("types", []))
+            )
+            if bad_location or bad_type:
                 if _mismatch_recheck_due(res):
-                    # Cached result is geographically wrong; discard and re-geocode.
+                    # Cached result is geographically wrong or a non-lodging POI
+                    # (e.g. parking lot / standalone restaurant); try fuzzy cache
+                    # reuse or re-geocode.
                     res = None
                     needs_geocode = True
-                    status = "CACHED:LOCATION_MISMATCH"
+                    status = "CACHED:LOCATION_MISMATCH" if bad_location else "CACHED:TYPE_MISMATCH"
                 else:
-                    # Already re-geocoded recently and Google still returned the
-                    # wrong country, so another identical lookup would just burn
-                    # quota. Keep serving it, but keep saying so in the status.
-                    status = "CACHED:LOCATION_MISMATCH_CONFIRMED"
+                    # Already re-geocoded recently under the current selector and
+                    # Google still returned an invalid result; avoid burning quota.
+                    status = (
+                        "CACHED:LOCATION_MISMATCH_CONFIRMED"
+                        if bad_location
+                        else "CACHED:TYPE_MISMATCH_CONFIRMED"
+                    )
             else:
                 status = "CACHED" if res else "CACHED:NO_RESULT"
 
         if needs_geocode:
-            # Fuzzy fallback: reuse cached geocoding when the hotel name changed
-            # slightly (rebrand, punctuation, minor addition) to avoid a paid API call.
-            # Only reuse if the fuzzy match has a real result and passes location check.
+            # Fuzzy fallback: reuse cached geocoding when the hotel name or
+            # location formatting changed slightly, or when an exact entry was
+            # rejected for wrong state/non-lodging type and a valid older entry
+            # already exists.
             fuzzy_key = find_fuzzy_cache_key(
                 hotel,
                 cache,
@@ -768,7 +658,12 @@ def main():
             if fuzzy_key is not None and cache[fuzzy_key] is not None:
                 candidate = cache[fuzzy_key]
                 candidate = None if candidate == {"status": "NO_RESULT"} else candidate
-                if candidate and _location_compatible(candidate.get("formatted_address", ""), hotel_location):
+                candidate_valid = bool(
+                    candidate
+                    and _location_compatible(candidate.get("formatted_address", ""), hotel_location)
+                    and (not candidate.get("types") or _is_lodging_type(candidate.get("types", [])))
+                )
+                if candidate_valid:
                     res = candidate
                     status = "CACHED:RENAMED"
                     # Persist under the new key so future runs hit it exactly.
@@ -777,20 +672,26 @@ def main():
                 elif not candidate:
                     # Fuzzy match was a confirmed NO_RESULT; honour it.
                     status = "CACHED:RENAMED:NO_RESULT"
-                # else: fuzzy match also has wrong location — fall through to geocode
+                # else: fuzzy match also has wrong location/type — fall through to geocode
 
             if res is None and status != "CACHED:RENAMED:NO_RESULT":
                 res, status = geocode_places_first(queries, brand, hotel, BASE_DELAY, hotel_location)
                 to_store = res or {"status": "NO_RESULT"}
-                if res and not _location_compatible(res.get("formatted_address", ""), hotel_location):
-                    # The fresh lookup is in the wrong country too, so this query
-                    # set simply cannot resolve this hotel. Record that we checked
-                    # so the next run doesn't repeat the same paid call; it will
-                    # be retried once LOCATION_MISMATCH_RECHECK_DAYS have passed.
+                fresh_bad_location = bool(
+                    res and not _location_compatible(res.get("formatted_address", ""), hotel_location)
+                )
+                fresh_bad_type = bool(
+                    res and res.get("types") and not _is_lodging_type(res.get("types", []))
+                )
+                if fresh_bad_location or fresh_bad_type:
+                    # The fresh lookup is still invalid, so this query set cannot
+                    # currently resolve this hotel cleanly. Stamp the entry so
+                    # the next run doesn't repeat the same paid call.
                     to_store = dict(res)
                     to_store[_MISMATCH_STAMP] = time.time()
                     to_store[_MISMATCH_SELECTOR_V] = SELECTOR_VERSION
-                    status = f"{status}:LOCATION_MISMATCH"
+                    suffix = "LOCATION_MISMATCH" if fresh_bad_location else "TYPE_MISMATCH"
+                    status = f"{status}:{suffix}"
                 cache[cache_key] = to_store
                 save_cache(cache_path_obj, cache)
 
