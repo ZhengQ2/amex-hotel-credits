@@ -155,6 +155,189 @@ class CacheUtilsTests(unittest.TestCase):
         )
         self.assertIsNone(hit)
 
+    def test_find_fuzzy_cache_key_preserves_conflicting_city_qualifiers(self):
+        # Regression test: subtracting requested city ('austin') must not turn
+        # 'Four Seasons Hotel Austin' into a subset match of 'Four Seasons Hotel Houston'.
+        houston_key = json.dumps(
+            {
+                "brand": "FINE HOTELS + RESORTS",
+                "hotel_name": "Four Seasons Hotel Houston",
+                "input_format": "fhrthc",
+                "provider": "google_places_first",
+                "queries": ["Four Seasons Hotel Houston Houston, Texas US Hotel"],
+                "v": 3,
+            },
+            sort_keys=True,
+        )
+        bare_houston_key = json.dumps(
+            {
+                "brand": "FINE HOTELS + RESORTS",
+                "hotel_name": "Four Seasons Hotel",
+                "input_format": "fhrthc",
+                "provider": "google_places_first",
+                "queries": ["Four Seasons Hotel Houston, Texas US Hotel"],
+                "v": 3,
+            },
+            sort_keys=True,
+        )
+        melbourne_key = json.dumps(
+            {
+                "brand": "FINE HOTELS + RESORTS",
+                "hotel_name": "The Ritz-Carlton, Melbourne",
+                "input_format": "fhrthc",
+                "provider": "google_places_first",
+                "queries": ["The Ritz-Carlton, Melbourne Melbourne, Australia Hotel"],
+                "v": 3,
+            },
+            sort_keys=True,
+        )
+        quebec_key = json.dumps(
+            {
+                "brand": "FINE HOTELS + RESORTS",
+                "hotel_name": "Fairmont Le Chateau Frontenac",
+                "input_format": "fhrthc",
+                "provider": "google_places_first",
+                "queries": ["Fairmont Le Chateau Frontenac Quebec City, Quebec CA Hotel"],
+                "v": 3,
+            },
+            sort_keys=True,
+        )
+        cache = {
+            houston_key: {
+                "lat": 29.7547,
+                "lon": -95.3627,
+                "formatted_address": "1300 Lamar St, Houston, TX 77010, USA",
+            },
+            bare_houston_key: {
+                "lat": 29.7547,
+                "lon": -95.3627,
+                "formatted_address": "1300 Lamar St, Houston, TX 77010, USA",
+            },
+            melbourne_key: {
+                "lat": -37.8136,
+                "lon": 144.9506,
+                "formatted_address": "650 Lonsdale St, Melbourne VIC 3000, Australia",
+            },
+            quebec_key: {
+                "lat": 46.8121,
+                "lon": -71.2053,
+                "formatted_address": "1 Rue des Carrières, Québec, QC G1R 5J5, Canada",
+            },
+        }
+        self.assertIsNone(
+            cache_utils.find_fuzzy_cache_key(
+                "Four Seasons Hotel Austin",
+                cache,
+                input_format="fhrthc",
+                hotel_location="Austin, Texas US",
+                scope_key="FINE HOTELS + RESORTS",
+            )
+        )
+        self.assertIsNone(
+            cache_utils.find_fuzzy_cache_key(
+                "The Ritz-Carlton, Perth",
+                cache,
+                input_format="fhrthc",
+                hotel_location="Perth, Australia",
+                scope_key="FINE HOTELS + RESORTS",
+            )
+        )
+        self.assertIsNone(
+            cache_utils.find_fuzzy_cache_key(
+                "Fairmont Chateau Whistler",
+                cache,
+                input_format="fhrthc",
+                hotel_location="Whistler, British Columbia CA",
+                scope_key="FINE HOTELS + RESORTS",
+            )
+        )
+        # Canadian postal codes with spaces ("QC G1R 5J5") must still trigger province checks.
+        self.assertFalse(
+            cache_utils.address_location_compatible(
+                "1 Rue des Carrières, Québec, QC G1R 5J5, Canada",
+                "Whistler, British Columbia CA",
+            )
+        )
+
+    def test_find_fuzzy_cache_key_does_not_cross_match_same_city_siblings_or_brands(self):
+        lutetia_key = json.dumps(
+            {
+                "brand": "FINE HOTELS + RESORTS",
+                "hotel_name": "Mandarin Oriental Lutetia, Paris",
+                "input_format": "fhrthc",
+                "provider": "google_places_first",
+                "queries": ["Mandarin Oriental Lutetia, Paris Paris, France Hotel"],
+                "v": 3,
+            },
+            sort_keys=True,
+        )
+        marriott_pl_key = json.dumps(
+            {
+                "brand": "THE HOTEL COLLECTION",
+                "hotel_name": "London Marriott Hotel Park Lane",
+                "input_format": "fhrthc",
+                "provider": "google_places_first",
+                "queries": ["London Marriott Hotel Park Lane London, England Hotel"],
+                "v": 3,
+            },
+            sort_keys=True,
+        )
+        bh_key = json.dumps(
+            {
+                "brand": "FINE HOTELS + RESORTS",
+                "hotel_name": "The Beverly Hills Hotel",
+                "input_format": "fhrthc",
+                "provider": "google_places_first",
+                "queries": ["The Beverly Hills Hotel Beverly Hills, California US Hotel"],
+                "v": 3,
+            },
+            sort_keys=True,
+        )
+        cache = {
+            lutetia_key: {
+                "lat": 48.8511,
+                "lon": 2.3275,
+                "formatted_address": "45 Bd Raspail, 75006 Paris, France",
+            },
+            marriott_pl_key: {
+                "lat": 51.5129,
+                "lon": -0.1586,
+                "formatted_address": "140 Park Ln, London W1K 7AA, UK",
+            },
+            bh_key: {
+                "lat": 34.0815,
+                "lon": -118.4136,
+                "formatted_address": "9641 Sunset Blvd, Beverly Hills, CA 90210, USA",
+            },
+        }
+        self.assertIsNone(
+            cache_utils.find_fuzzy_cache_key(
+                "Mandarin Oriental, Paris",
+                cache,
+                input_format="fhrthc",
+                hotel_location="Paris, France",
+                scope_key="FINE HOTELS + RESORTS",
+            )
+        )
+        self.assertIsNone(
+            cache_utils.find_fuzzy_cache_key(
+                "London Hilton on Park Lane",
+                cache,
+                input_format="fhrthc",
+                hotel_location="London, England",
+                scope_key="THE HOTEL COLLECTION",
+            )
+        )
+        self.assertIsNone(
+            cache_utils.find_fuzzy_cache_key(
+                "Waldorf Astoria Beverly Hills",
+                cache,
+                input_format="fhrthc",
+                hotel_location="Beverly Hills, California US",
+                scope_key="FINE HOTELS + RESORTS",
+            )
+        )
+
 
 class UpstreamFixTests(unittest.TestCase):
     def test_canonicalize_amex_url_normalizes_property_prefix(self):

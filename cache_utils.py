@@ -92,11 +92,11 @@ _AFFILIATION_PATTERNS = [
     r"\bmgallery\s+collection\b",
     r"\bpartner\s+of\s+all\s+accor\b",
     r"\bmichelin\s+key\s+award\s+hotel\b",
-    r"\b(?:a\s+)?marriott\s+hotel\b",
-    r"\b(?:a\s+)?hyatt\s+(?:luxury\s+)?(?:hotel|resort|brand)\b",
-    r"\b(?:a\s+)?noble\s+house\s+resort\b",
-    r"\b(?:a\s+)?shangri\s*la\s+hotel\b",
-    r"\b(?:a\s+)?hilton\s+resort\b",
+    r"\ba\s+marriott\s+hotel\b",
+    r"\ba\s+hyatt\s+(?:luxury\s+)?(?:hotel|resort|brand)\b",
+    r"\ba\s+noble\s+house\s+resort\b",
+    r"\ba\s+shangri\s*la\s+hotel\b",
+    r"\ba\s+hilton\s+resort\b",
     r"\bby\s+(?:ihg|hyatt|hilton|marriott|melia|palisociety|library\s+hotel\s+collection)\b",
     r"\badults?\s*(?:-|\s)?\s*(?:only|friendly)\b",
     r"\ball\s*(?:-|\s)?\s*inclusive(?:\s+experience)?\b",
@@ -272,8 +272,8 @@ def _extract_subregion_from_address(formatted_address: str) -> str:
     """Extract US state / Canadian province 2-letter code from Google formatted_address."""
     if not formatted_address:
         return ""
-    # Matches ", FL 33040, USA", ", CA, USA", ", ON M5V 1H2, Canada", etc.
-    for match in re.finditer(r",\s*([A-Z]{2})(?:\s+[A-Z0-9-]+)?(?=,|$)", formatted_address):
+    # Matches ", FL 33040, USA", ", CA, USA", ", QC G1R 5J5, Canada", etc.
+    for match in re.finditer(r",\s*([A-Z]{2})(?:\s+[A-Z0-9][A-Z0-9 -]*)?(?=,|$)", formatted_address):
         code = match.group(1).lower()
         if code in _VALID_SUBREGION_CODES:
             return code
@@ -370,6 +370,7 @@ def _names_match(
     name2: str,
     generic_tokens: FrozenSet[str] = DEFAULT_GENERIC_TOKENS,
     hotel_location: str = "",
+    location_confirmed: bool = True,
 ) -> bool:
     """Fuzzy similarity check between two hotel names.
 
@@ -383,6 +384,7 @@ def _names_match(
         name2,
         generic_tokens=generic_tokens,
         hotel_location=hotel_location,
+        location_confirmed=location_confirmed,
     ) is not None
 
 
@@ -391,14 +393,17 @@ def _match_quality(
     right: str,
     generic_tokens: FrozenSet[str] = DEFAULT_GENERIC_TOKENS,
     hotel_location: str = "",
+    location_confirmed: bool = True,
+    allow_subset: bool = True,
 ) -> Optional[Tuple[int, int, int, int, int]]:
     """Return a sortable quality tuple for a hotel name match, or None.
 
     Tier precedence (first element):
       3 - exact normalized match (case/accent/punctuation/apostrophe insensitive)
       2 - exact core identity match after stripping affiliation taglines
-          (and optional location-redundant qualifiers)
-      1 - conservative subset / high-overlap match with no discriminator conflict
+          (and optional benign location qualifiers when no conflicting tokens remain)
+      1 - conservative subset / high-overlap match on unstripped core tokens
+          with no discriminator conflict (disabled when allow_subset=False)
     """
     l_norm = normalize_name(left)
     r_norm = normalize_name(right)
@@ -416,33 +421,51 @@ def _match_quality(
     if not lt or not rt:
         return None
 
-    # Ignore tokens already present in the hotel's own location when checking
-    # benign city qualifiers (e.g. "Akelarre ... San Sebastian" vs "Akelarre"
-    # when hotel_location is "San Sebastián, Spain"), unless doing so empties a side.
+    # Exact core match after stripping affiliation taglines (no location stripping needed).
+    if lt == rt:
+        return (2, len(lt), 1, 0, -abs(len(l_norm) - len(r_norm)))
+
+    # Allow ignoring tokens from hotel_location ONLY when EVERY differing token
+    # between lt and rt is explained by hotel_location (no conflicting city/word
+    # remains on either side, e.g. "Akelarre" vs "Akelarre San Sebastian" in
+    # "San Sebastián, Spain"), and never before subset/overlap matching —
+    # otherwise stripping "austin" from "Four Seasons Hotel Austin" would turn
+    # it into a subset of "Four Seasons Hotel Houston".
     loc_toks = set(normalize_name(hotel_location).split()) if hotel_location else set()
-    lt_eff = (lt - loc_toks) if (loc_toks and (lt - loc_toks)) else lt
-    rt_eff = (rt - loc_toks) if (loc_toks and (rt - loc_toks)) else rt
+    sym_diff = lt ^ rt
+    if loc_toks and sym_diff.issubset(loc_toks):
+        shared_core = lt & rt
+        # Only bridge a location-only difference when at least one core token is
+        # shared AND either the candidate itself names the requested location
+        # (rt - lt non-empty) or the candidate's cached address/queries agree on city.
+        candidate_confirms_city = bool(rt - lt) or location_confirmed
+        if shared_core and candidate_confirms_city:
+            return (2, len(shared_core), 1, -len(sym_diff), -abs(len(l_norm) - len(r_norm)))
+
+    if not allow_subset:
+        return None
 
     # Never collapse two properties separated by a sub-property/directional qualifier
     # (Downtown, Residence, Villas, Mare, Palm, East/West, Suites, Zilara/Ziva, ...).
-    if ((lt ^ rt) - loc_toks) & DISCRIMINATOR_TOKENS:
+    if sym_diff & DISCRIMINATOR_TOKENS:
         return None
 
-    if lt_eff == rt_eff:
-        return (2, len(lt_eff), 1, 0, -abs(len(l_norm) - len(r_norm)))
-
-    overlap = lt_eff & rt_eff
+    overlap = lt & rt
     if len(overlap) < MIN_FUZZY_MATCH_TOKENS:
         return None
+    # Require at least one non-location overlapping token so two hotels cannot
+    # match solely on their shared city name (e.g. "Beverly Hills").
+    if loc_toks and not (overlap - loc_toks):
+        return None
 
-    smaller_set, larger_set = (lt_eff, rt_eff) if len(lt_eff) <= len(rt_eff) else (rt_eff, lt_eff)
+    smaller_set, larger_set = (lt, rt) if len(lt) <= len(rt) else (rt, lt)
     if smaller_set.issubset(larger_set):
         diff = len(larger_set) - len(smaller_set)
         if diff <= 2:
             return (1, len(overlap), 1, -diff, -abs(len(l_norm) - len(r_norm)))
         return None
 
-    if len(overlap) / len(lt_eff) >= 0.8 and len(overlap) / len(rt_eff) >= 0.8:
+    if len(overlap) / len(lt) >= 0.8 and len(overlap) / len(rt) >= 0.8:
         return (
             1,
             len(overlap),
@@ -633,7 +656,18 @@ def find_fuzzy_cache_key(
         city_bonus = _city_hint_matches(hotel_location, formatted_address, queries)
 
         for candidate in candidates:
-            quality = _match_quality(hotel_name, candidate, hotel_location=hotel_location)
+            # Disallow loose subset matching when reusing cached coordinates:
+            # copying coordinates from a sibling property (e.g. Mandarin Oriental
+            # Paris -> Mandarin Oriental Lutetia, Paris) permanently poisons the
+            # target hotel's exact cache key. Only reuse on exact normalized or
+            # affiliation/location-bridged core matches.
+            quality = _match_quality(
+                hotel_name,
+                candidate,
+                hotel_location=hotel_location,
+                location_confirmed=bool(city_bonus),
+                allow_subset=False,
+            )
             if quality is None:
                 continue
             rank = (quality[0], is_resolved, city_bonus, quality[1], quality[2], quality[3], quality[4])
