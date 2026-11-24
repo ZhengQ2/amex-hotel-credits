@@ -242,6 +242,16 @@ def _dumb_fetch_html(url, opener, timeout=45):
         return resp.read().decode("utf-8", errors="ignore")
 
 
+def _canonicalize_amex_url(url: str) -> str:
+    """Normalize AMEX's oscillating /property/ vs /en-us/travel/discover/property/ prefix."""
+    return re.sub(
+        r"^(https?://www\.americanexpress\.com)/property/",
+        r"\1/en-us/travel/discover/property/",
+        url,
+        flags=re.IGNORECASE,
+    )
+
+
 def _normalize_rows(rows, base_url):
     cleaned = []
     for row in rows:
@@ -260,7 +270,7 @@ def _normalize_rows(rows, base_url):
                 "brand_label": brand,
                 "hotel_location": location,
                 "hotel_name": hotel_name,
-                "hotel_url": urljoin(base_url, hotel_url),
+                "hotel_url": _canonicalize_amex_url(urljoin(base_url, hotel_url)),
                 "group_label": program,
                 "group_type": "Program",
             }

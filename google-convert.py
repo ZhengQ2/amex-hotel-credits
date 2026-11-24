@@ -303,9 +303,30 @@ def _is_name_compatible(place_name: str, hotel_name: str) -> bool:
     return overlap >= max(1, min(len(p), len(h)) - 1) and overlap / len(p) >= 0.3
 
 
+_NON_LODGING_NOISE_TYPES = {
+    "parking",
+    "bus_station",
+    "transit_station",
+    "subway_station",
+    "train_station",
+    "atm",
+    "gas_station",
+    "natural_feature",
+}
+
+
+def _is_strict_lodging_type(types: List[str]) -> bool:
+    t = {str(x).lower() for x in (types or [])}
+    return "lodging" in t
+
+
 def _is_lodging_type(types: List[str]) -> bool:
     t = {str(x).lower() for x in (types or [])}
-    return "lodging" in t or "premise" in t or "establishment" in t
+    if "lodging" in t:
+        return True
+    if t & _NON_LODGING_NOISE_TYPES:
+        return False
+    return "premise" in t or "establishment" in t
 
 
 def _brand_in_name(name: str, brand: str) -> bool:
@@ -347,29 +368,25 @@ def choose_best_place(
             # the next, weaker query rather than accept a known-wrong place.
             return None
 
-    # Rank: (lodging priority, brand-in-name, rating presence, user_ratings_total)
+    # Rank: (acceptable type, name compatibility, strict lodging, brand hit, rating, reviews)
     ranked = []
     for r in results:
         t = r.get("types", [])
-        lodging = 1 if _is_lodging_type(t) else 0
+        acceptable = 1 if _is_lodging_type(t) else 0
+        strict_lodging = 1 if _is_strict_lodging_type(t) else 0
         brand_hit = 1 if _brand_in_name(r.get("name"), brand) else 0
         rating = 1 if r.get("rating") is not None else 0
         ur = int(r.get("user_ratings_total") or 0)
         name_hit = 1 if _is_name_compatible(r.get("name", ""), hotel_name) else 0
-        score = (lodging, name_hit, brand_hit, rating, ur)
+        score = (acceptable, name_hit, strict_lodging, brand_hit, rating, ur)
         ranked.append((score, r))
     ranked.sort(key=lambda x: x[0], reverse=True)
     best = ranked[0][1]
-    # Hard guard against near-miss sibling properties.
+    # Hard guard against near-miss sibling properties and non-lodging noise (e.g. parking).
+    if not _is_lodging_type(best.get("types", [])):
+        return None
     if not _is_name_compatible(best.get("name", ""), hotel_name):
         return None
-    # Require lodging if anything in the set is lodging
-    if any(_is_lodging_type(r.get("types", [])) for _, r in ranked) and not _is_lodging_type(best.get("types", [])):
-        # pick first lodging one
-        for _, r in ranked:
-            if _is_lodging_type(r.get("types", [])):
-                best = r
-                break
     return best
 
 
@@ -741,7 +758,13 @@ def main():
             # Fuzzy fallback: reuse cached geocoding when the hotel name changed
             # slightly (rebrand, punctuation, minor addition) to avoid a paid API call.
             # Only reuse if the fuzzy match has a real result and passes location check.
-            fuzzy_key = find_fuzzy_cache_key(hotel, cache, input_format=input_format)
+            fuzzy_key = find_fuzzy_cache_key(
+                hotel,
+                cache,
+                input_format=input_format,
+                hotel_location=hotel_location,
+                scope_key=cache_scope,
+            )
             if fuzzy_key is not None and cache[fuzzy_key] is not None:
                 candidate = cache[fuzzy_key]
                 candidate = None if candidate == {"status": "NO_RESULT"} else candidate
