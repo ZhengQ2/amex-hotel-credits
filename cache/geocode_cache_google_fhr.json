@@ -215009,5 +215009,852 @@
       ],
       "website": "https://www.hilton.com/en/hotels/ogghowa-ho-olei-at-grand-wailea/?SEO_id=GMB-AMER-WA-OGGHOWA"
     }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Carmel Valley Ranch, in The Unbound Collection by Hyatt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Carmel Valley Ranch, in The Unbound Collection by Hyatt Hotel\", \"Carmel Valley Ranch, in The Unbound Collection by Hyatt Resort\", \"Carmel Valley Ranch, in The Unbound Collection by Hyatt\", \"Carmel Valley Ranch, in The Unbound Collection by Hyatt Carmel, California US Hotel\", \"Carmel Valley Ranch, in The Unbound Collection by Hyatt Carmel, California US Resort\", \"Carmel Valley Ranch, in The Unbound Collection by Hyatt Carmel, California US\", \"Carmel Valley Ranch In Unbound Collection Hyatt Hotel\", \"Carmel Valley Ranch In Unbound Collection Hyatt Resort\", \"Carmel Valley Ranch In Unbound Collection Hyatt\", \"Carmel Valley Ranch In Unbound Collection Hyatt Carmel, California US Hotel\", \"Carmel Valley Ranch In Unbound Collection Hyatt Carmel, California US Resort\", \"Carmel Valley Ranch In Unbound Collection Hyatt Carmel, California US\"], \"v\": 3}": {
+    "lat": 36.51930189999999,
+    "lon": -121.806573,
+    "formatted_address": "1 Old Ranch Rd, Carmel, CA 93923, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJX2-P59zxjYAR-SNVkNFbYlY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1 Old Ranch Rd, Carmel, CA 93923, USA",
+      "geometry": {
+        "location": {
+          "lat": 36.51930189999999,
+          "lng": -121.806573
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.5206237802915,
+            "lng": -121.8052571697085
+          },
+          "southwest": {
+            "lat": 36.5179258197085,
+            "lng": -121.8079551302915
+          }
+        }
+      },
+      "name": "Carmel Valley Ranch - The Unbound Collection by Hyatt",
+      "place_id": "ChIJX2-P59zxjYAR-SNVkNFbYlY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://carmelvalleyranch.com/?src=corp_lclb_google_seo_sjcjc&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Villa Sant'Andrea, A Belmond Hotel, Taormina Mare\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Villa Sant'Andrea, A Belmond Hotel, Taormina Mare Belmond Hotel\", \"Villa Sant'Andrea, A Belmond Hotel, Taormina Mare Belmond Resort\", \"Villa Sant'Andrea, A Belmond Hotel, Taormina Mare Belmond\", \"Villa Sant'Andrea, A Belmond Hotel, Taormina Mare Belmond Taormina, Italy Hotel\", \"Villa Sant'Andrea, A Belmond Hotel, Taormina Mare Belmond Taormina, Italy Resort\", \"Villa Sant'Andrea, A Belmond Hotel, Taormina Mare Belmond Taormina, Italy\", \"Villa Sant'Andrea, A Belmond Hotel, Taormina Mare Hilton Hotel\", \"Villa Sant'Andrea, A Belmond Hotel, Taormina Mare Hilton Resort\", \"Villa Sant'Andrea, A Belmond Hotel, Taormina Mare Hilton\", \"Villa Sant'Andrea, A Belmond Hotel, Taormina Mare Hilton Taormina, Italy Hotel\", \"Villa Sant'Andrea, A Belmond Hotel, Taormina Mare Hilton Taormina, Italy Resort\", \"Villa Sant'Andrea, A Belmond Hotel, Taormina Mare Hilton Taormina, Italy\", \"Villa Santandrea A Belmond Hotel Taormina Mare Belmond Hotel\", \"Villa Santandrea A Belmond Hotel Taormina Mare Belmond Resort\", \"Villa Santandrea A Belmond Hotel Taormina Mare Belmond\", \"Villa Santandrea A Belmond Hotel Taormina Mare Belmond Taormina, Italy Hotel\", \"Villa Santandrea A Belmond Hotel Taormina Mare Belmond Taormina, Italy Resort\", \"Villa Santandrea A Belmond Hotel Taormina Mare Belmond Taormina, Italy\", \"Villa Santandrea A Belmond Hotel Taormina Mare Hilton Hotel\", \"Villa Santandrea A Belmond Hotel Taormina Mare Hilton Resort\", \"Villa Santandrea A Belmond Hotel Taormina Mare Hilton\", \"Villa Santandrea A Belmond Hotel Taormina Mare Hilton Taormina, Italy Hotel\", \"Villa Santandrea A Belmond Hotel Taormina Mare Hilton Taormina, Italy Resort\", \"Villa Santandrea A Belmond Hotel Taormina Mare Hilton Taormina, Italy\", \"Villa Sant'Andrea, A Belmond Hotel, Taormina Mare Hotel\", \"Villa Sant'Andrea, A Belmond Hotel, Taormina Mare Resort\", \"Villa Sant'Andrea, A Belmond Hotel, Taormina Mare\", \"Villa Sant'Andrea, A Belmond Hotel, Taormina Mare Taormina, Italy Hotel\", \"Villa Sant'Andrea, A Belmond Hotel, Taormina Mare Taormina, Italy Resort\", \"Villa Sant'Andrea, A Belmond Hotel, Taormina Mare Taormina, Italy\"], \"v\": 3}": {
+    "lat": 37.8541102,
+    "lon": 15.3027124,
+    "formatted_address": "Via Nazionale, 137, 98039 Taormina ME, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ47PDOZ0RFBMRnbIto0cV8kI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "CLOSED_TEMPORARILY",
+      "formatted_address": "Via Nazionale, 137, 98039 Taormina ME, Italy",
+      "geometry": {
+        "location": {
+          "lat": 37.8541102,
+          "lng": 15.3027124
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 37.8553916302915,
+            "lng": 15.3031725802915
+          },
+          "southwest": {
+            "lat": 37.8526936697085,
+            "lng": 15.3004746197085
+          }
+        }
+      },
+      "name": "Villa Sant'Andrea, A Belmond Hotel, Taormina Mare",
+      "place_id": "ChIJ47PDOZ0RFBMRnbIto0cV8kI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.belmond.com/hotels/europe/italy/taormina/belmond-villa-sant-andrea/?utm_source=local_search&utm_medium=link&utm_campaign=google_business"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Cheval Blanc Seychelles\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cheval Blanc Seychelles Cheval Blanc Hotel\", \"Cheval Blanc Seychelles Cheval Blanc Resort\", \"Cheval Blanc Seychelles Cheval Blanc\", \"Cheval Blanc Seychelles Cheval Blanc Mah\\u00e9, Seychelles Hotel\", \"Cheval Blanc Seychelles Cheval Blanc Mah\\u00e9, Seychelles Resort\", \"Cheval Blanc Seychelles Cheval Blanc Mah\\u00e9, Seychelles\", \"Cheval Blanc Seychelles Hilton Hotel\", \"Cheval Blanc Seychelles Hilton Resort\", \"Cheval Blanc Seychelles Hilton\", \"Cheval Blanc Seychelles Hilton Mah\\u00e9, Seychelles Hotel\", \"Cheval Blanc Seychelles Hilton Mah\\u00e9, Seychelles Resort\", \"Cheval Blanc Seychelles Hilton Mah\\u00e9, Seychelles\", \"Cheval Blanc Seychelles Hotel\", \"Cheval Blanc Seychelles Resort\", \"Cheval Blanc Seychelles\", \"Cheval Blanc Seychelles Mah\\u00e9, Seychelles Hotel\", \"Cheval Blanc Seychelles Mah\\u00e9, Seychelles Resort\", \"Cheval Blanc Seychelles Mah\\u00e9, Seychelles\"], \"v\": 3}": {
+    "lat": -4.782182,
+    "lon": 55.4976628,
+    "formatted_address": "Anse Intendance, Mahe Island, Intendance Rd, Quatre Bornes, Seychelles",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJP2FRiKsrHiMRyfB2_RfVvOI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Anse Intendance, Mahe Island, Intendance Rd, Quatre Bornes, Seychelles",
+      "geometry": {
+        "location": {
+          "lat": -4.782182,
+          "lng": 55.4976628
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -4.780722719708499,
+            "lng": 55.4990511802915
+          },
+          "southwest": {
+            "lat": -4.783420680291504,
+            "lng": 55.4963532197085
+          }
+        }
+      },
+      "name": "Cheval Blanc Seychelles",
+      "place_id": "ChIJP2FRiKsrHiMRyfB2_RfVvOI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.chevalblanc.com/en/maison/seychelles/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Four Seasons Resort Seychelles\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Four Seasons Resort Seychelles Four Seasons Hotels and Resorts Hotel\", \"Four Seasons Resort Seychelles Four Seasons Hotels and Resorts Resort\", \"Four Seasons Resort Seychelles Four Seasons Hotels and Resorts\", \"Four Seasons Resort Seychelles Four Seasons Hotels and Resorts Mah\\u00e9, Seychelles Hotel\", \"Four Seasons Resort Seychelles Four Seasons Hotels and Resorts Mah\\u00e9, Seychelles Resort\", \"Four Seasons Resort Seychelles Four Seasons Hotels and Resorts Mah\\u00e9, Seychelles\", \"Four Seasons Resort Seychelles Hilton Hotel\", \"Four Seasons Resort Seychelles Hilton Resort\", \"Four Seasons Resort Seychelles Hilton\", \"Four Seasons Resort Seychelles Hilton Mah\\u00e9, Seychelles Hotel\", \"Four Seasons Resort Seychelles Hilton Mah\\u00e9, Seychelles Resort\", \"Four Seasons Resort Seychelles Hilton Mah\\u00e9, Seychelles\", \"Four Seasons Resort Seychelles Hotel\", \"Four Seasons Resort Seychelles Resort\", \"Four Seasons Resort Seychelles\", \"Four Seasons Resort Seychelles Mah\\u00e9, Seychelles Hotel\", \"Four Seasons Resort Seychelles Mah\\u00e9, Seychelles Resort\", \"Four Seasons Resort Seychelles Mah\\u00e9, Seychelles\"], \"v\": 3}": {
+    "lat": -4.7534424,
+    "lon": 55.46585589999999,
+    "formatted_address": "Petite Anse, Mahe Island, Seychelles",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJlV9-TG3V4SIR4cmyxq-n_mI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Petite Anse, Mahe Island, Seychelles",
+      "geometry": {
+        "location": {
+          "lat": -4.7534424,
+          "lng": 55.46585589999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -4.752149219708498,
+            "lng": 55.4673589302915
+          },
+          "southwest": {
+            "lat": -4.754847180291502,
+            "lng": 55.4646609697085
+          }
+        }
+      },
+      "name": "Four Seasons Resort Seychelles",
+      "place_id": "ChIJlV9-TG3V4SIR4cmyxq-n_mI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.fourseasons.com/seychelles/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-sey-hre-mid-seo-na&utm_content=na-na&utm_term=na"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Four Seasons Resort and Residences Puerto Rico\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Four Seasons Resort and Residences Puerto Rico Four Seasons Hotels and Resorts Hotel\", \"Four Seasons Resort and Residences Puerto Rico Four Seasons Hotels and Resorts Resort\", \"Four Seasons Resort and Residences Puerto Rico Four Seasons Hotels and Resorts\", \"Four Seasons Resort and Residences Puerto Rico Four Seasons Hotels and Resorts R\\u00edo Grande, Puerto Rico Hotel\", \"Four Seasons Resort and Residences Puerto Rico Four Seasons Hotels and Resorts R\\u00edo Grande, Puerto Rico Resort\", \"Four Seasons Resort and Residences Puerto Rico Four Seasons Hotels and Resorts R\\u00edo Grande, Puerto Rico\", \"Four Seasons Resort and Residences Puerto Rico Hilton Hotel\", \"Four Seasons Resort and Residences Puerto Rico Hilton Resort\", \"Four Seasons Resort and Residences Puerto Rico Hilton\", \"Four Seasons Resort and Residences Puerto Rico Hilton R\\u00edo Grande, Puerto Rico Hotel\", \"Four Seasons Resort and Residences Puerto Rico Hilton R\\u00edo Grande, Puerto Rico Resort\", \"Four Seasons Resort and Residences Puerto Rico Hilton R\\u00edo Grande, Puerto Rico\", \"Four Seasons Resort Residences Puerto Rico Four Seasons Hotels and Resorts Hotel\", \"Four Seasons Resort Residences Puerto Rico Four Seasons Hotels and Resorts Resort\", \"Four Seasons Resort Residences Puerto Rico Four Seasons Hotels and Resorts\", \"Four Seasons Resort Residences Puerto Rico Four Seasons Hotels and Resorts R\\u00edo Grande, Puerto Rico Hotel\", \"Four Seasons Resort Residences Puerto Rico Four Seasons Hotels and Resorts R\\u00edo Grande, Puerto Rico Resort\", \"Four Seasons Resort Residences Puerto Rico Four Seasons Hotels and Resorts R\\u00edo Grande, Puerto Rico\", \"Four Seasons Resort Residences Puerto Rico Hilton Hotel\", \"Four Seasons Resort Residences Puerto Rico Hilton Resort\", \"Four Seasons Resort Residences Puerto Rico Hilton\", \"Four Seasons Resort Residences Puerto Rico Hilton R\\u00edo Grande, Puerto Rico Hotel\", \"Four Seasons Resort Residences Puerto Rico Hilton R\\u00edo Grande, Puerto Rico Resort\", \"Four Seasons Resort Residences Puerto Rico Hilton R\\u00edo Grande, Puerto Rico\", \"Four Seasons Resort and Residences Puerto Rico Hotel\", \"Four Seasons Resort and Residences Puerto Rico Resort\", \"Four Seasons Resort and Residences Puerto Rico\", \"Four Seasons Resort and Residences Puerto Rico R\\u00edo Grande, Puerto Rico Hotel\", \"Four Seasons Resort and Residences Puerto Rico R\\u00edo Grande, Puerto Rico Resort\", \"Four Seasons Resort and Residences Puerto Rico R\\u00edo Grande, Puerto Rico\"], \"v\": 3}": {
+    "lat": 18.4125302,
+    "lon": -65.8199351,
+    "formatted_address": "PR-187 Kilometer 4.2, Río Grande, 00745, Puerto Rico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJhaIHifKdBIwRK5yZaV94YXI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "PR-187 Kilometer 4.2, Río Grande, 00745, Puerto Rico",
+      "geometry": {
+        "location": {
+          "lat": 18.4125302,
+          "lng": -65.8199351
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 18.4138431302915,
+            "lng": -65.8186508697085
+          },
+          "southwest": {
+            "lat": 18.4111451697085,
+            "lng": -65.82134883029151
+          }
+        }
+      },
+      "name": "Four Seasons Resort and Residences Puerto Rico",
+      "place_id": "ChIJhaIHifKdBIwRK5yZaV94YXI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "http://fourseasons.com/puertorico?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-pbb-hre-mid-seo-na&utm_content=na-na&utm_term=na"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Mango House Seychelles, LXR Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mango House Seychelles, LXR Hotels & Resorts LXR Hotels & Resorts Hotel\", \"Mango House Seychelles, LXR Hotels & Resorts LXR Hotels & Resorts Resort\", \"Mango House Seychelles, LXR Hotels & Resorts LXR Hotels & Resorts\", \"Mango House Seychelles, LXR Hotels & Resorts LXR Hotels & Resorts Mah\\u00e9, Seychelles Hotel\", \"Mango House Seychelles, LXR Hotels & Resorts LXR Hotels & Resorts Mah\\u00e9, Seychelles Resort\", \"Mango House Seychelles, LXR Hotels & Resorts LXR Hotels & Resorts Mah\\u00e9, Seychelles\", \"Mango House Seychelles, LXR Hotels & Resorts Hilton Hotel\", \"Mango House Seychelles, LXR Hotels & Resorts Hilton Resort\", \"Mango House Seychelles, LXR Hotels & Resorts Hilton\", \"Mango House Seychelles, LXR Hotels & Resorts Hilton Mah\\u00e9, Seychelles Hotel\", \"Mango House Seychelles, LXR Hotels & Resorts Hilton Mah\\u00e9, Seychelles Resort\", \"Mango House Seychelles, LXR Hotels & Resorts Hilton Mah\\u00e9, Seychelles\", \"Mango House Seychelles Lxr Hotels Resorts LXR Hotels & Resorts Hotel\", \"Mango House Seychelles Lxr Hotels Resorts LXR Hotels & Resorts Resort\", \"Mango House Seychelles Lxr Hotels Resorts LXR Hotels & Resorts\", \"Mango House Seychelles Lxr Hotels Resorts LXR Hotels & Resorts Mah\\u00e9, Seychelles Hotel\", \"Mango House Seychelles Lxr Hotels Resorts LXR Hotels & Resorts Mah\\u00e9, Seychelles Resort\", \"Mango House Seychelles Lxr Hotels Resorts LXR Hotels & Resorts Mah\\u00e9, Seychelles\", \"Mango House Seychelles Lxr Hotels Resorts Hilton Hotel\", \"Mango House Seychelles Lxr Hotels Resorts Hilton Resort\", \"Mango House Seychelles Lxr Hotels Resorts Hilton\", \"Mango House Seychelles Lxr Hotels Resorts Hilton Mah\\u00e9, Seychelles Hotel\", \"Mango House Seychelles Lxr Hotels Resorts Hilton Mah\\u00e9, Seychelles Resort\", \"Mango House Seychelles Lxr Hotels Resorts Hilton Mah\\u00e9, Seychelles\", \"Mango House Seychelles, LXR Hotels & Resorts Hotel\", \"Mango House Seychelles, LXR Hotels & Resorts Resort\", \"Mango House Seychelles, LXR Hotels & Resorts\", \"Mango House Seychelles, LXR Hotels & Resorts Mah\\u00e9, Seychelles Hotel\", \"Mango House Seychelles, LXR Hotels & Resorts Mah\\u00e9, Seychelles Resort\", \"Mango House Seychelles, LXR Hotels & Resorts Mah\\u00e9, Seychelles\"], \"v\": 3}": {
+    "lat": -4.7435269,
+    "lon": 55.4738161,
+    "formatted_address": "Anse Aux Poules Bleues Baie Lazare Victoria Mahé, Seychelles",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ4_klDGrV4SIRYCF_kxTHQ-I",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Anse Aux Poules Bleues Baie Lazare Victoria Mahé, Seychelles",
+      "geometry": {
+        "location": {
+          "lat": -4.7435269,
+          "lng": 55.4738161
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -4.742115819708498,
+            "lng": 55.4752313802915
+          },
+          "southwest": {
+            "lat": -4.744813780291502,
+            "lng": 55.4725334197085
+          }
+        }
+      },
+      "name": "Mango House Seychelles, LXR Hotels & Resorts",
+      "place_id": "ChIJ4_klDGrV4SIRYCF_kxTHQ-I",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/sezitol-mango-house-seychelles/?SEO_id=GMB-EMEA-OL-SEZITOL"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"ME Malaga by Melia\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"ME Malaga by Melia ME by Meli\\u00e1 Hotel\", \"ME Malaga by Melia ME by Meli\\u00e1 Resort\", \"ME Malaga by Melia ME by Meli\\u00e1\", \"ME Malaga by Melia ME by Meli\\u00e1 M\\u00e1laga, Spain Hotel\", \"ME Malaga by Melia ME by Meli\\u00e1 M\\u00e1laga, Spain Resort\", \"ME Malaga by Melia ME by Meli\\u00e1 M\\u00e1laga, Spain\", \"ME Malaga by Melia Hilton Hotel\", \"ME Malaga by Melia Hilton Resort\", \"ME Malaga by Melia Hilton\", \"ME Malaga by Melia Hilton M\\u00e1laga, Spain Hotel\", \"ME Malaga by Melia Hilton M\\u00e1laga, Spain Resort\", \"ME Malaga by Melia Hilton M\\u00e1laga, Spain\", \"Me Malaga Melia ME by Meli\\u00e1 Hotel\", \"Me Malaga Melia ME by Meli\\u00e1 Resort\", \"Me Malaga Melia ME by Meli\\u00e1\", \"Me Malaga Melia ME by Meli\\u00e1 M\\u00e1laga, Spain Hotel\", \"Me Malaga Melia ME by Meli\\u00e1 M\\u00e1laga, Spain Resort\", \"Me Malaga Melia ME by Meli\\u00e1 M\\u00e1laga, Spain\", \"Me Malaga Melia Hilton Hotel\", \"Me Malaga Melia Hilton Resort\", \"Me Malaga Melia Hilton\", \"Me Malaga Melia Hilton M\\u00e1laga, Spain Hotel\", \"Me Malaga Melia Hilton M\\u00e1laga, Spain Resort\", \"Me Malaga Melia Hilton M\\u00e1laga, Spain\", \"ME Malaga by Melia Hotel\", \"ME Malaga by Melia Resort\", \"ME Malaga by Melia\", \"ME Malaga by Melia M\\u00e1laga, Spain Hotel\", \"ME Malaga by Melia M\\u00e1laga, Spain Resort\", \"ME Malaga by Melia M\\u00e1laga, Spain\"], \"v\": 3}": {
+    "lat": 36.723036,
+    "lon": -4.416640999999999,
+    "formatted_address": "C. Victoria, 6, Distrito Centro, 29012 Málaga, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJxay5HL33cg0R9eORmFbyniU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "C. Victoria, 6, Distrito Centro, 29012 Málaga, Spain",
+      "geometry": {
+        "location": {
+          "lat": 36.723036,
+          "lng": -4.416640999999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 36.7244079802915,
+            "lng": -4.415353169708497
+          },
+          "southwest": {
+            "lat": 36.7217100197085,
+            "lng": -4.418051130291501
+          }
+        }
+      },
+      "name": "ME Malaga by Melia",
+      "place_id": "ChIJxay5HL33cg0R9eORmFbyniU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.melia.com/en/hotels/spain/malaga/me-malaga?utm_campaign=google&utm_content=2939&utm_medium=organic&utm_source=directories"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"ME Malta by Meli\\u00e1\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"ME Malta by Meli\\u00e1 ME by Meli\\u00e1 Hotel\", \"ME Malta by Meli\\u00e1 ME by Meli\\u00e1 Resort\", \"ME Malta by Meli\\u00e1 ME by Meli\\u00e1\", \"ME Malta by Meli\\u00e1 ME by Meli\\u00e1 St. Julian's, Malta Hotel\", \"ME Malta by Meli\\u00e1 ME by Meli\\u00e1 St. Julian's, Malta Resort\", \"ME Malta by Meli\\u00e1 ME by Meli\\u00e1 St. Julian's, Malta\", \"ME Malta by Meli\\u00e1 Hilton Hotel\", \"ME Malta by Meli\\u00e1 Hilton Resort\", \"ME Malta by Meli\\u00e1 Hilton\", \"ME Malta by Meli\\u00e1 Hilton St. Julian's, Malta Hotel\", \"ME Malta by Meli\\u00e1 Hilton St. Julian's, Malta Resort\", \"ME Malta by Meli\\u00e1 Hilton St. Julian's, Malta\", \"Me Malta Melia ME by Meli\\u00e1 Hotel\", \"Me Malta Melia ME by Meli\\u00e1 Resort\", \"Me Malta Melia ME by Meli\\u00e1\", \"Me Malta Melia ME by Meli\\u00e1 St. Julian's, Malta Hotel\", \"Me Malta Melia ME by Meli\\u00e1 St. Julian's, Malta Resort\", \"Me Malta Melia ME by Meli\\u00e1 St. Julian's, Malta\", \"Me Malta Melia Hilton Hotel\", \"Me Malta Melia Hilton Resort\", \"Me Malta Melia Hilton\", \"Me Malta Melia Hilton St. Julian's, Malta Hotel\", \"Me Malta Melia Hilton St. Julian's, Malta Resort\", \"Me Malta Melia Hilton St. Julian's, Malta\", \"ME Malta by Meli\\u00e1 Hotel\", \"ME Malta by Meli\\u00e1 Resort\", \"ME Malta by Meli\\u00e1\", \"ME Malta by Meli\\u00e1 St. Julian's, Malta Hotel\", \"ME Malta by Meli\\u00e1 St. Julian's, Malta Resort\", \"ME Malta by Meli\\u00e1 St. Julian's, Malta\"], \"v\": 3}": {
+    "lat": 35.922444,
+    "lon": 14.489111,
+    "formatted_address": "Saint George's Road, Triq Gort, St Julian's, Malta",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ2ZfHIZpFDhMRZ8lSljEjmNU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Saint George's Road, Triq Gort, St Julian's, Malta",
+      "geometry": {
+        "location": {
+          "lat": 35.922444,
+          "lng": 14.489111
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 35.92371033029149,
+            "lng": 14.4904624802915
+          },
+          "southwest": {
+            "lat": 35.92101236970849,
+            "lng": 14.4877645197085
+          }
+        }
+      },
+      "name": "ME Malta",
+      "place_id": "ChIJ2ZfHIZpFDhMRZ8lSljEjmNU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.melia.com/en/hotels/malta/st-julians/me-malta?utm_campaign=google&utm_content=6491&utm_medium=organic&utm_source=directories"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Nobu Hotel San Sebasti\\u00e1n\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Nobu Hotel San Sebasti\\u00e1n Nobu Hotels Hotel\", \"Nobu Hotel San Sebasti\\u00e1n Nobu Hotels Resort\", \"Nobu Hotel San Sebasti\\u00e1n Nobu Hotels\", \"Nobu Hotel San Sebasti\\u00e1n Nobu Hotels San Sebasti\\u00e1n, Spain Hotel\", \"Nobu Hotel San Sebasti\\u00e1n Nobu Hotels San Sebasti\\u00e1n, Spain Resort\", \"Nobu Hotel San Sebasti\\u00e1n Nobu Hotels San Sebasti\\u00e1n, Spain\", \"Nobu Hotel San Sebasti\\u00e1n Hilton Hotel\", \"Nobu Hotel San Sebasti\\u00e1n Hilton Resort\", \"Nobu Hotel San Sebasti\\u00e1n Hilton\", \"Nobu Hotel San Sebasti\\u00e1n Hilton San Sebasti\\u00e1n, Spain Hotel\", \"Nobu Hotel San Sebasti\\u00e1n Hilton San Sebasti\\u00e1n, Spain Resort\", \"Nobu Hotel San Sebasti\\u00e1n Hilton San Sebasti\\u00e1n, Spain\", \"Nobu Hotel San Sebastian Nobu Hotels Hotel\", \"Nobu Hotel San Sebastian Nobu Hotels Resort\", \"Nobu Hotel San Sebastian Nobu Hotels\", \"Nobu Hotel San Sebastian Nobu Hotels San Sebasti\\u00e1n, Spain Hotel\", \"Nobu Hotel San Sebastian Nobu Hotels San Sebasti\\u00e1n, Spain Resort\", \"Nobu Hotel San Sebastian Nobu Hotels San Sebasti\\u00e1n, Spain\", \"Nobu Hotel San Sebastian Hilton Hotel\", \"Nobu Hotel San Sebastian Hilton Resort\", \"Nobu Hotel San Sebastian Hilton\", \"Nobu Hotel San Sebastian Hilton San Sebasti\\u00e1n, Spain Hotel\", \"Nobu Hotel San Sebastian Hilton San Sebasti\\u00e1n, Spain Resort\", \"Nobu Hotel San Sebastian Hilton San Sebasti\\u00e1n, Spain\", \"Nobu Hotel San Sebasti\\u00e1n Hotel\", \"Nobu Hotel San Sebasti\\u00e1n Resort\", \"Nobu Hotel San Sebasti\\u00e1n\", \"Nobu Hotel San Sebasti\\u00e1n San Sebasti\\u00e1n, Spain Hotel\", \"Nobu Hotel San Sebasti\\u00e1n San Sebasti\\u00e1n, Spain Resort\", \"Nobu Hotel San Sebasti\\u00e1n San Sebasti\\u00e1n, Spain\"], \"v\": 3}": {
+    "lat": 43.314184,
+    "lon": -1.993753,
+    "formatted_address": "Mirakontxa Pasealekua, 32, 20007 Donostia / San Sebastián, Gipuzkoa, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJm6sUm6m6UQ0RcqQ9tPaSDRU",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Mirakontxa Pasealekua, 32, 20007 Donostia / San Sebastián, Gipuzkoa, Spain",
+      "geometry": {
+        "location": {
+          "lat": 43.314184,
+          "lng": -1.993753
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.3155582302915,
+            "lng": -1.992334369708498
+          },
+          "southwest": {
+            "lat": 43.3128602697085,
+            "lng": -1.995032330291502
+          }
+        }
+      },
+      "name": "Nobu Hotel San Sebastián",
+      "place_id": "ChIJm6sUm6m6UQ0RcqQ9tPaSDRU",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.nobuhotels.com/san-sebastian/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"One&Only Palmilla, Los Cabos\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"One&Only Palmilla, Los Cabos One&Only Hotel\", \"One&Only Palmilla, Los Cabos One&Only Resort\", \"One&Only Palmilla, Los Cabos One&Only\", \"One&Only Palmilla, Los Cabos One&Only San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"One&Only Palmilla, Los Cabos One&Only San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"One&Only Palmilla, Los Cabos One&Only San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"One&Only Palmilla, Los Cabos Hilton Hotel\", \"One&Only Palmilla, Los Cabos Hilton Resort\", \"One&Only Palmilla, Los Cabos Hilton\", \"One&Only Palmilla, Los Cabos Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"One&Only Palmilla, Los Cabos Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"One&Only Palmilla, Los Cabos Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Oneonly Palmilla Los Cabos One&Only Hotel\", \"Oneonly Palmilla Los Cabos One&Only Resort\", \"Oneonly Palmilla Los Cabos One&Only\", \"Oneonly Palmilla Los Cabos One&Only San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Oneonly Palmilla Los Cabos One&Only San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Oneonly Palmilla Los Cabos One&Only San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Oneonly Palmilla Los Cabos Hilton Hotel\", \"Oneonly Palmilla Los Cabos Hilton Resort\", \"Oneonly Palmilla Los Cabos Hilton\", \"Oneonly Palmilla Los Cabos Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Oneonly Palmilla Los Cabos Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Oneonly Palmilla Los Cabos Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"One&Only Palmilla, Los Cabos Hotel\", \"One&Only Palmilla, Los Cabos Resort\", \"One&Only Palmilla, Los Cabos\", \"One&Only Palmilla, Los Cabos San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"One&Only Palmilla, Los Cabos San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"One&Only Palmilla, Los Cabos San Jos\\u00e9 del Cabo, Baja California Sur MX\"], \"v\": 3}": {
+    "lat": 23.0068212,
+    "lon": -109.7142818,
+    "formatted_address": "Carr. Transpeninsular, Tourist Corridor, 23400 San José del Cabo, B.C.S., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ8cn0LlRQr4YRdMAjeGTMdIw",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carr. Transpeninsular, Tourist Corridor, 23400 San José del Cabo, B.C.S., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 23.0068212,
+          "lng": -109.7142818
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.00817918029151,
+            "lng": -109.7129376197085
+          },
+          "southwest": {
+            "lat": 23.0054812197085,
+            "lng": -109.7156355802915
+          }
+        }
+      },
+      "name": "One&Only Palmilla",
+      "place_id": "ChIJ8cn0LlRQr4YRdMAjeGTMdIw",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.oneandonlyresorts.com/palmilla?utm_medium=organic-search&utm_source=gbp&utm_campaign=gbp_ao_y_oopa_row_wt__ao__kz&utm_content=__&utm_term=one-and-only-palmilla&utm_id=xceo0z"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Awasi Iguaz\\u00fa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Awasi Iguaz\\u00fa Relais & Ch\\u00e2teaux Hotel\", \"Awasi Iguaz\\u00fa Relais & Ch\\u00e2teaux Resort\", \"Awasi Iguaz\\u00fa Relais & Ch\\u00e2teaux\", \"Awasi Iguaz\\u00fa Relais & Ch\\u00e2teaux Puerto Iguaz\\u00fa, Argentina Hotel\", \"Awasi Iguaz\\u00fa Relais & Ch\\u00e2teaux Puerto Iguaz\\u00fa, Argentina Resort\", \"Awasi Iguaz\\u00fa Relais & Ch\\u00e2teaux Puerto Iguaz\\u00fa, Argentina\", \"Awasi Iguaz\\u00fa Hilton Hotel\", \"Awasi Iguaz\\u00fa Hilton Resort\", \"Awasi Iguaz\\u00fa Hilton\", \"Awasi Iguaz\\u00fa Hilton Puerto Iguaz\\u00fa, Argentina Hotel\", \"Awasi Iguaz\\u00fa Hilton Puerto Iguaz\\u00fa, Argentina Resort\", \"Awasi Iguaz\\u00fa Hilton Puerto Iguaz\\u00fa, Argentina\", \"Awasi Iguazu Relais & Ch\\u00e2teaux Hotel\", \"Awasi Iguazu Relais & Ch\\u00e2teaux Resort\", \"Awasi Iguazu Relais & Ch\\u00e2teaux\", \"Awasi Iguazu Relais & Ch\\u00e2teaux Puerto Iguaz\\u00fa, Argentina Hotel\", \"Awasi Iguazu Relais & Ch\\u00e2teaux Puerto Iguaz\\u00fa, Argentina Resort\", \"Awasi Iguazu Relais & Ch\\u00e2teaux Puerto Iguaz\\u00fa, Argentina\", \"Awasi Iguazu Hilton Hotel\", \"Awasi Iguazu Hilton Resort\", \"Awasi Iguazu Hilton\", \"Awasi Iguazu Hilton Puerto Iguaz\\u00fa, Argentina Hotel\", \"Awasi Iguazu Hilton Puerto Iguaz\\u00fa, Argentina Resort\", \"Awasi Iguazu Hilton Puerto Iguaz\\u00fa, Argentina\", \"Awasi Iguaz\\u00fa Hotel\", \"Awasi Iguaz\\u00fa Resort\", \"Awasi Iguaz\\u00fa\", \"Awasi Iguaz\\u00fa Puerto Iguaz\\u00fa, Argentina Hotel\", \"Awasi Iguaz\\u00fa Puerto Iguaz\\u00fa, Argentina Resort\", \"Awasi Iguaz\\u00fa Puerto Iguaz\\u00fa, Argentina\"], \"v\": 3}": {
+    "lat": -25.5996018,
+    "lon": -54.5443955,
+    "formatted_address": "Selva Yriapú S/N, Puerto Iguazú, Misiones, N3370GOA Puerto Iguazú, Misiones, Argentina",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJsR8fPr6T9pQRsKLIE48Q5JQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Selva Yriapú S/N, Puerto Iguazú, Misiones, N3370GOA Puerto Iguazú, Misiones, Argentina",
+      "geometry": {
+        "location": {
+          "lat": -25.5996018,
+          "lng": -54.5443955
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -25.5983235197085,
+            "lng": -54.5430748697085
+          },
+          "southwest": {
+            "lat": -25.6010214802915,
+            "lng": -54.54577283029149
+          }
+        }
+      },
+      "name": "Awasi Iguazú",
+      "place_id": "ChIJsR8fPr6T9pQRsKLIE48Q5JQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://awasi.com/iguazu/?utm_source=local-listings&utm_medium=organic&utm_campaign=local-listings"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Akelarre - Relais & Ch\\u00e2teaux\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Akelarre - Relais & Ch\\u00e2teaux Relais & Ch\\u00e2teaux Hotel\", \"Akelarre - Relais & Ch\\u00e2teaux Relais & Ch\\u00e2teaux Resort\", \"Akelarre - Relais & Ch\\u00e2teaux Relais & Ch\\u00e2teaux\", \"Akelarre - Relais & Ch\\u00e2teaux Relais & Ch\\u00e2teaux San Sebasti\\u00e1n, Spain Hotel\", \"Akelarre - Relais & Ch\\u00e2teaux Relais & Ch\\u00e2teaux San Sebasti\\u00e1n, Spain Resort\", \"Akelarre - Relais & Ch\\u00e2teaux Relais & Ch\\u00e2teaux San Sebasti\\u00e1n, Spain\", \"Akelarre - Relais & Ch\\u00e2teaux Hilton Hotel\", \"Akelarre - Relais & Ch\\u00e2teaux Hilton Resort\", \"Akelarre - Relais & Ch\\u00e2teaux Hilton\", \"Akelarre - Relais & Ch\\u00e2teaux Hilton San Sebasti\\u00e1n, Spain Hotel\", \"Akelarre - Relais & Ch\\u00e2teaux Hilton San Sebasti\\u00e1n, Spain Resort\", \"Akelarre - Relais & Ch\\u00e2teaux Hilton San Sebasti\\u00e1n, Spain\", \"Akelarre Relais Chateaux Relais & Ch\\u00e2teaux Hotel\", \"Akelarre Relais Chateaux Relais & Ch\\u00e2teaux Resort\", \"Akelarre Relais Chateaux Relais & Ch\\u00e2teaux\", \"Akelarre Relais Chateaux Relais & Ch\\u00e2teaux San Sebasti\\u00e1n, Spain Hotel\", \"Akelarre Relais Chateaux Relais & Ch\\u00e2teaux San Sebasti\\u00e1n, Spain Resort\", \"Akelarre Relais Chateaux Relais & Ch\\u00e2teaux San Sebasti\\u00e1n, Spain\", \"Akelarre Relais Chateaux Hilton Hotel\", \"Akelarre Relais Chateaux Hilton Resort\", \"Akelarre Relais Chateaux Hilton\", \"Akelarre Relais Chateaux Hilton San Sebasti\\u00e1n, Spain Hotel\", \"Akelarre Relais Chateaux Hilton San Sebasti\\u00e1n, Spain Resort\", \"Akelarre Relais Chateaux Hilton San Sebasti\\u00e1n, Spain\", \"Akelarre - Relais & Ch\\u00e2teaux Hotel\", \"Akelarre - Relais & Ch\\u00e2teaux Resort\", \"Akelarre - Relais & Ch\\u00e2teaux\", \"Akelarre - Relais & Ch\\u00e2teaux San Sebasti\\u00e1n, Spain Hotel\", \"Akelarre - Relais & Ch\\u00e2teaux San Sebasti\\u00e1n, Spain Resort\", \"Akelarre - Relais & Ch\\u00e2teaux San Sebasti\\u00e1n, Spain\"], \"v\": 3}": {
+    "lat": 43.3074707,
+    "lon": -2.0440199,
+    "formatted_address": "Padre Orkolaga Ibilbidea, 56, 20008 Donostia / San Sebastián, Gipuzkoa, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ4bIaMj-xUQ0RdbwuKAnAh48",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Padre Orkolaga Ibilbidea, 56, 20008 Donostia / San Sebastián, Gipuzkoa, Spain",
+      "geometry": {
+        "location": {
+          "lat": 43.3074707,
+          "lng": -2.0440199
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.30887248029151,
+            "lng": -2.042290919708498
+          },
+          "southwest": {
+            "lat": 43.30617451970851,
+            "lng": -2.044988880291501
+          }
+        }
+      },
+      "name": "Akelarre - Relais & Châteaux",
+      "place_id": "ChIJ4bIaMj-xUQ0RdbwuKAnAh48",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://akelarre.net/el-hotel/?utm_source=google&utm_medium=organic&utm_campaign=gmb_profile&utm_content=website"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Zadun Los Cabos, a Ritz-Carlton Reserve\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Zadun Los Cabos, a Ritz-Carlton Reserve Ritz-Carlton Reserve Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Ritz-Carlton Reserve Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Ritz-Carlton Reserve\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Ritz-Carlton Reserve San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Ritz-Carlton Reserve San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Ritz-Carlton Reserve San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Hilton Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Hilton Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Hilton\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Zadun Los Cabos a Ritz carlton Reserve Ritz-Carlton Reserve Hotel\", \"Zadun Los Cabos a Ritz carlton Reserve Ritz-Carlton Reserve Resort\", \"Zadun Los Cabos a Ritz carlton Reserve Ritz-Carlton Reserve\", \"Zadun Los Cabos a Ritz carlton Reserve Ritz-Carlton Reserve San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Zadun Los Cabos a Ritz carlton Reserve Ritz-Carlton Reserve San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Zadun Los Cabos a Ritz carlton Reserve Ritz-Carlton Reserve San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Zadun Los Cabos a Ritz carlton Reserve Hilton Hotel\", \"Zadun Los Cabos a Ritz carlton Reserve Hilton Resort\", \"Zadun Los Cabos a Ritz carlton Reserve Hilton\", \"Zadun Los Cabos a Ritz carlton Reserve Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Zadun Los Cabos a Ritz carlton Reserve Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Zadun Los Cabos a Ritz carlton Reserve Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve\", \"Zadun Los Cabos, a Ritz-Carlton Reserve San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve San Jos\\u00e9 del Cabo, Baja California Sur MX\"], \"v\": 3}": {
+    "lat": 23.0693949,
+    "lon": -109.64768,
+    "formatted_address": "Blvd. Mar de Cortez, 23403 San José del Cabo, B.C.S., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJn_UrXThXr4YRyozWfYkmbuo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Blvd. Mar de Cortez, 23403 San José del Cabo, B.C.S., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 23.0693949,
+          "lng": -109.64768
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.0707366302915,
+            "lng": -109.6463540197085
+          },
+          "southwest": {
+            "lat": 23.06803866970849,
+            "lng": -109.6490519802915
+          }
+        }
+      },
+      "name": "Zadun Los Cabos, a Ritz-Carlton Reserve",
+      "place_id": "ChIJn_UrXThXr4YRyozWfYkmbuo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ritzcarlton.com/en/hotels/sjdzr-zadun-a-ritz-carlton-reserve/overview/?cid=NAT_google_hotel_url"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Ritz-Carlton Reserve Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Ritz-Carlton Reserve Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Ritz-Carlton Reserve\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Ritz-Carlton Reserve San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Ritz-Carlton Reserve San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Ritz-Carlton Reserve San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Hilton Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Hilton Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Hilton\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Ritz-Carlton Reserve Hotel\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Ritz-Carlton Reserve Resort\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Ritz-Carlton Reserve\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Ritz-Carlton Reserve San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Ritz-Carlton Reserve San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Ritz-Carlton Reserve San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Hilton Hotel\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Hilton Resort\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Hilton\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Zadun Los Cabos a Ritz carlton Reserve Residence Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Zadun Los Cabos, a Ritz-Carlton Reserve Residence San Jos\\u00e9 del Cabo, Baja California Sur MX\"], \"v\": 3}": {
+    "lat": 23.0693949,
+    "lon": -109.64768,
+    "formatted_address": "Blvd. Mar de Cortez, 23403 San José del Cabo, B.C.S., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJn_UrXThXr4YRyozWfYkmbuo",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Blvd. Mar de Cortez, 23403 San José del Cabo, B.C.S., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 23.0693949,
+          "lng": -109.64768
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.0707366302915,
+            "lng": -109.6463540197085
+          },
+          "southwest": {
+            "lat": 23.06803866970849,
+            "lng": -109.6490519802915
+          }
+        }
+      },
+      "name": "Zadun Los Cabos, a Ritz-Carlton Reserve",
+      "place_id": "ChIJn_UrXThXr4YRyozWfYkmbuo",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.ritzcarlton.com/en/hotels/sjdzr-zadun-a-ritz-carlton-reserve/overview/?cid=NAT_google_hotel_url"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Las Ventanas al Paraiso, A Rosewood Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Las Ventanas al Paraiso, A Rosewood Resort Rosewood Hotels & Resorts Hotel\", \"Las Ventanas al Paraiso, A Rosewood Resort Rosewood Hotels & Resorts Resort\", \"Las Ventanas al Paraiso, A Rosewood Resort Rosewood Hotels & Resorts\", \"Las Ventanas al Paraiso, A Rosewood Resort Rosewood Hotels & Resorts San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Las Ventanas al Paraiso, A Rosewood Resort Rosewood Hotels & Resorts San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Las Ventanas al Paraiso, A Rosewood Resort Rosewood Hotels & Resorts San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Las Ventanas al Paraiso, A Rosewood Resort Hilton Hotel\", \"Las Ventanas al Paraiso, A Rosewood Resort Hilton Resort\", \"Las Ventanas al Paraiso, A Rosewood Resort Hilton\", \"Las Ventanas al Paraiso, A Rosewood Resort Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Las Ventanas al Paraiso, A Rosewood Resort Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Las Ventanas al Paraiso, A Rosewood Resort Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Las Ventanas Al Paraiso A Rosewood Resort Rosewood Hotels & Resorts Hotel\", \"Las Ventanas Al Paraiso A Rosewood Resort Rosewood Hotels & Resorts Resort\", \"Las Ventanas Al Paraiso A Rosewood Resort Rosewood Hotels & Resorts\", \"Las Ventanas Al Paraiso A Rosewood Resort Rosewood Hotels & Resorts San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Las Ventanas Al Paraiso A Rosewood Resort Rosewood Hotels & Resorts San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Las Ventanas Al Paraiso A Rosewood Resort Rosewood Hotels & Resorts San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Las Ventanas Al Paraiso A Rosewood Resort Hilton Hotel\", \"Las Ventanas Al Paraiso A Rosewood Resort Hilton Resort\", \"Las Ventanas Al Paraiso A Rosewood Resort Hilton\", \"Las Ventanas Al Paraiso A Rosewood Resort Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Las Ventanas Al Paraiso A Rosewood Resort Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Las Ventanas Al Paraiso A Rosewood Resort Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Las Ventanas al Paraiso, A Rosewood Resort Hotel\", \"Las Ventanas al Paraiso, A Rosewood Resort Resort\", \"Las Ventanas al Paraiso, A Rosewood Resort\", \"Las Ventanas al Paraiso, A Rosewood Resort San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Las Ventanas al Paraiso, A Rosewood Resort San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Las Ventanas al Paraiso, A Rosewood Resort San Jos\\u00e9 del Cabo, Baja California Sur MX\"], \"v\": 3}": {
+    "lat": 22.9788095,
+    "lon": -109.7698828,
+    "formatted_address": "Carretera Transpeninsular Highway Km. 19.5 Cabo Real, Tourist Corridor, 23400 San José del Cabo, B.C.S., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJB2OaS2Jar4YRBfY2bc9HeNI",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carretera Transpeninsular Highway Km. 19.5 Cabo Real, Tourist Corridor, 23400 San José del Cabo, B.C.S., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 22.9788095,
+          "lng": -109.7698828
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 22.9801733802915,
+            "lng": -109.7686487697085
+          },
+          "southwest": {
+            "lat": 22.9774754197085,
+            "lng": -109.7713467302915
+          }
+        }
+      },
+      "name": "Las Ventanas al Paraiso, A Rosewood Resort",
+      "place_id": "ChIJB2OaS2Jar4YRBfY2bc9HeNI",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.rosewoodhotels.com/en/las-ventanas-los-cabos"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Sofitel Legend People's Grand Hotel Xian\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sofitel Legend People's Grand Hotel Xian Sofitel Legend Hotel\", \"Sofitel Legend People's Grand Hotel Xian Sofitel Legend Resort\", \"Sofitel Legend People's Grand Hotel Xian Sofitel Legend\", \"Sofitel Legend People's Grand Hotel Xian Sofitel Legend Xi'an, China Hotel\", \"Sofitel Legend People's Grand Hotel Xian Sofitel Legend Xi'an, China Resort\", \"Sofitel Legend People's Grand Hotel Xian Sofitel Legend Xi'an, China\", \"Sofitel Legend People's Grand Hotel Xian Hilton Hotel\", \"Sofitel Legend People's Grand Hotel Xian Hilton Resort\", \"Sofitel Legend People's Grand Hotel Xian Hilton\", \"Sofitel Legend People's Grand Hotel Xian Hilton Xi'an, China Hotel\", \"Sofitel Legend People's Grand Hotel Xian Hilton Xi'an, China Resort\", \"Sofitel Legend People's Grand Hotel Xian Hilton Xi'an, China\", \"Sofitel Legend Peoples Grand Hotel Xian Sofitel Legend Hotel\", \"Sofitel Legend Peoples Grand Hotel Xian Sofitel Legend Resort\", \"Sofitel Legend Peoples Grand Hotel Xian Sofitel Legend\", \"Sofitel Legend Peoples Grand Hotel Xian Sofitel Legend Xi'an, China Hotel\", \"Sofitel Legend Peoples Grand Hotel Xian Sofitel Legend Xi'an, China Resort\", \"Sofitel Legend Peoples Grand Hotel Xian Sofitel Legend Xi'an, China\", \"Sofitel Legend Peoples Grand Hotel Xian Hilton Hotel\", \"Sofitel Legend Peoples Grand Hotel Xian Hilton Resort\", \"Sofitel Legend Peoples Grand Hotel Xian Hilton\", \"Sofitel Legend Peoples Grand Hotel Xian Hilton Xi'an, China Hotel\", \"Sofitel Legend Peoples Grand Hotel Xian Hilton Xi'an, China Resort\", \"Sofitel Legend Peoples Grand Hotel Xian Hilton Xi'an, China\", \"Sofitel Legend People's Grand Hotel Xian Hotel\", \"Sofitel Legend People's Grand Hotel Xian Resort\", \"Sofitel Legend People's Grand Hotel Xian\", \"Sofitel Legend People's Grand Hotel Xian Xi'an, China Hotel\", \"Sofitel Legend People's Grand Hotel Xian Xi'an, China Resort\", \"Sofitel Legend People's Grand Hotel Xian Xi'an, China\"], \"v\": 3}": {
+    "lat": 34.2649058,
+    "lon": 108.9633467,
+    "formatted_address": "319 Dong Xin Jie, Xin Cheng Qu, Xi An Shi, Shan Xi Sheng, China, 710005",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJXevu6O16YzYRySsiCAyxkCQ",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "319 Dong Xin Jie, Xin Cheng Qu, Xi An Shi, Shan Xi Sheng, China, 710005",
+      "geometry": {
+        "location": {
+          "lat": 34.2649058,
+          "lng": 108.9633467
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 34.2661962302915,
+            "lng": 108.9646964302915
+          },
+          "southwest": {
+            "lat": 34.2634982697085,
+            "lng": 108.9619984697085
+          }
+        }
+      },
+      "name": "索菲特传奇酒店",
+      "place_id": "ChIJXevu6O16YzYRySsiCAyxkCQ",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://sofitel.accorhotels.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"La R\\u00e9serve Eden au Lac Zurich\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La R\\u00e9serve Eden au Lac Zurich The Leading Hotels of the World Hotel\", \"La R\\u00e9serve Eden au Lac Zurich The Leading Hotels of the World Resort\", \"La R\\u00e9serve Eden au Lac Zurich The Leading Hotels of the World\", \"La R\\u00e9serve Eden au Lac Zurich The Leading Hotels of the World Zurich, Switzerland Hotel\", \"La R\\u00e9serve Eden au Lac Zurich The Leading Hotels of the World Zurich, Switzerland Resort\", \"La R\\u00e9serve Eden au Lac Zurich The Leading Hotels of the World Zurich, Switzerland\", \"La R\\u00e9serve Eden au Lac Zurich Hilton Hotel\", \"La R\\u00e9serve Eden au Lac Zurich Hilton Resort\", \"La R\\u00e9serve Eden au Lac Zurich Hilton\", \"La R\\u00e9serve Eden au Lac Zurich Hilton Zurich, Switzerland Hotel\", \"La R\\u00e9serve Eden au Lac Zurich Hilton Zurich, Switzerland Resort\", \"La R\\u00e9serve Eden au Lac Zurich Hilton Zurich, Switzerland\", \"La Reserve Eden Au Lac Zurich The Leading Hotels of the World Hotel\", \"La Reserve Eden Au Lac Zurich The Leading Hotels of the World Resort\", \"La Reserve Eden Au Lac Zurich The Leading Hotels of the World\", \"La Reserve Eden Au Lac Zurich The Leading Hotels of the World Zurich, Switzerland Hotel\", \"La Reserve Eden Au Lac Zurich The Leading Hotels of the World Zurich, Switzerland Resort\", \"La Reserve Eden Au Lac Zurich The Leading Hotels of the World Zurich, Switzerland\", \"La Reserve Eden Au Lac Zurich Hilton Hotel\", \"La Reserve Eden Au Lac Zurich Hilton Resort\", \"La Reserve Eden Au Lac Zurich Hilton\", \"La Reserve Eden Au Lac Zurich Hilton Zurich, Switzerland Hotel\", \"La Reserve Eden Au Lac Zurich Hilton Zurich, Switzerland Resort\", \"La Reserve Eden Au Lac Zurich Hilton Zurich, Switzerland\", \"La R\\u00e9serve Eden au Lac Zurich Hotel\", \"La R\\u00e9serve Eden au Lac Zurich Resort\", \"La R\\u00e9serve Eden au Lac Zurich\", \"La R\\u00e9serve Eden au Lac Zurich Zurich, Switzerland Hotel\", \"La R\\u00e9serve Eden au Lac Zurich Zurich, Switzerland Resort\", \"La R\\u00e9serve Eden au Lac Zurich Zurich, Switzerland\"], \"v\": 3}": {
+    "lat": 47.3628736,
+    "lon": 8.547406600000002,
+    "formatted_address": "Utoquai 45, 8008 Zürich, Switzerland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJu8LY9XynmkcR9-20Ynsto8o",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Utoquai 45, 8008 Zürich, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.3628736,
+          "lng": 8.547406600000002
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.3641252802915,
+            "lng": 8.548635230291502
+          },
+          "southwest": {
+            "lat": 47.3614273197085,
+            "lng": 8.545937269708498
+          }
+        }
+      },
+      "name": "La Réserve Eden au Lac Zurich",
+      "place_id": "ChIJu8LY9XynmkcR9-20Ynsto8o",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://lareserve-zurich.com/"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Solaz, A Luxury Collection Resort, Los Cabos a Marriott Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Solaz, A Luxury Collection Resort, Los Cabos a Marriott Hotel The Luxury Collection Hotel\", \"Solaz, A Luxury Collection Resort, Los Cabos a Marriott Hotel The Luxury Collection Resort\", \"Solaz, A Luxury Collection Resort, Los Cabos a Marriott Hotel The Luxury Collection\", \"Solaz, A Luxury Collection Resort, Los Cabos a Marriott Hotel The Luxury Collection San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Solaz, A Luxury Collection Resort, Los Cabos a Marriott Hotel The Luxury Collection San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Solaz, A Luxury Collection Resort, Los Cabos a Marriott Hotel The Luxury Collection San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Solaz, A Luxury Collection Resort, Los Cabos a Marriott Hotel Hilton Hotel\", \"Solaz, A Luxury Collection Resort, Los Cabos a Marriott Hotel Hilton Resort\", \"Solaz, A Luxury Collection Resort, Los Cabos a Marriott Hotel Hilton\", \"Solaz, A Luxury Collection Resort, Los Cabos a Marriott Hotel Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Solaz, A Luxury Collection Resort, Los Cabos a Marriott Hotel Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Solaz, A Luxury Collection Resort, Los Cabos a Marriott Hotel Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Solaz A Luxury Collection Resort Los Cabos a Marriott Hotel The Luxury Collection Hotel\", \"Solaz A Luxury Collection Resort Los Cabos a Marriott Hotel The Luxury Collection Resort\", \"Solaz A Luxury Collection Resort Los Cabos a Marriott Hotel The Luxury Collection\", \"Solaz A Luxury Collection Resort Los Cabos a Marriott Hotel The Luxury Collection San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Solaz A Luxury Collection Resort Los Cabos a Marriott Hotel The Luxury Collection San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Solaz A Luxury Collection Resort Los Cabos a Marriott Hotel The Luxury Collection San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Solaz A Luxury Collection Resort Los Cabos a Marriott Hotel Hilton Hotel\", \"Solaz A Luxury Collection Resort Los Cabos a Marriott Hotel Hilton Resort\", \"Solaz A Luxury Collection Resort Los Cabos a Marriott Hotel Hilton\", \"Solaz A Luxury Collection Resort Los Cabos a Marriott Hotel Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Solaz A Luxury Collection Resort Los Cabos a Marriott Hotel Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Solaz A Luxury Collection Resort Los Cabos a Marriott Hotel Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Solaz, A Luxury Collection Resort, Los Cabos a Marriott Hotel Hotel\", \"Solaz, A Luxury Collection Resort, Los Cabos a Marriott Hotel Resort\", \"Solaz, A Luxury Collection Resort, Los Cabos a Marriott Hotel\", \"Solaz, A Luxury Collection Resort, Los Cabos a Marriott Hotel San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Solaz, A Luxury Collection Resort, Los Cabos a Marriott Hotel San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Solaz, A Luxury Collection Resort, Los Cabos a Marriott Hotel San Jos\\u00e9 del Cabo, Baja California Sur MX\"], \"v\": 3}": {
+    "lat": 22.974162,
+    "lon": -109.7813192,
+    "formatted_address": "KM 18.5 Carretera Transpeninsular CSL-SJC Access B Cabo Real, Tourist Corridor, 23405 San José del Cabo, B.C.S., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJbcZThzpPr4YR_698UxRzwtM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "KM 18.5 Carretera Transpeninsular CSL-SJC Access B Cabo Real, Tourist Corridor, 23405 San José del Cabo, B.C.S., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 22.974162,
+          "lng": -109.7813192
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 22.9755335802915,
+            "lng": -109.7803188697085
+          },
+          "southwest": {
+            "lat": 22.97283561970849,
+            "lng": -109.7830168302915
+          }
+        }
+      },
+      "name": "Solaz, a Luxury Collection Resort, Los Cabos",
+      "place_id": "ChIJbcZThzpPr4YR_698UxRzwtM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/sjdlc-solaz-a-luxury-collection-resort-los-cabos/overview/?cid=NAT_google_hotel_url"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Maria Cristina, a Luxury Collection Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Maria Cristina, a Luxury Collection Hotel The Luxury Collection Hotel\", \"Hotel Maria Cristina, a Luxury Collection Hotel The Luxury Collection Resort\", \"Hotel Maria Cristina, a Luxury Collection Hotel The Luxury Collection\", \"Hotel Maria Cristina, a Luxury Collection Hotel The Luxury Collection San Sebasti\\u00e1n, Spain Hotel\", \"Hotel Maria Cristina, a Luxury Collection Hotel The Luxury Collection San Sebasti\\u00e1n, Spain Resort\", \"Hotel Maria Cristina, a Luxury Collection Hotel The Luxury Collection San Sebasti\\u00e1n, Spain\", \"Hotel Maria Cristina, a Luxury Collection Hotel Hilton Hotel\", \"Hotel Maria Cristina, a Luxury Collection Hotel Hilton Resort\", \"Hotel Maria Cristina, a Luxury Collection Hotel Hilton\", \"Hotel Maria Cristina, a Luxury Collection Hotel Hilton San Sebasti\\u00e1n, Spain Hotel\", \"Hotel Maria Cristina, a Luxury Collection Hotel Hilton San Sebasti\\u00e1n, Spain Resort\", \"Hotel Maria Cristina, a Luxury Collection Hotel Hilton San Sebasti\\u00e1n, Spain\", \"Hotel Maria Cristina a Luxury Collection Hotel The Luxury Collection Hotel\", \"Hotel Maria Cristina a Luxury Collection Hotel The Luxury Collection Resort\", \"Hotel Maria Cristina a Luxury Collection Hotel The Luxury Collection\", \"Hotel Maria Cristina a Luxury Collection Hotel The Luxury Collection San Sebasti\\u00e1n, Spain Hotel\", \"Hotel Maria Cristina a Luxury Collection Hotel The Luxury Collection San Sebasti\\u00e1n, Spain Resort\", \"Hotel Maria Cristina a Luxury Collection Hotel The Luxury Collection San Sebasti\\u00e1n, Spain\", \"Hotel Maria Cristina a Luxury Collection Hotel Hilton Hotel\", \"Hotel Maria Cristina a Luxury Collection Hotel Hilton Resort\", \"Hotel Maria Cristina a Luxury Collection Hotel Hilton\", \"Hotel Maria Cristina a Luxury Collection Hotel Hilton San Sebasti\\u00e1n, Spain Hotel\", \"Hotel Maria Cristina a Luxury Collection Hotel Hilton San Sebasti\\u00e1n, Spain Resort\", \"Hotel Maria Cristina a Luxury Collection Hotel Hilton San Sebasti\\u00e1n, Spain\", \"Hotel Maria Cristina, a Luxury Collection Hotel Hotel\", \"Hotel Maria Cristina, a Luxury Collection Hotel Resort\", \"Hotel Maria Cristina, a Luxury Collection Hotel\", \"Hotel Maria Cristina, a Luxury Collection Hotel San Sebasti\\u00e1n, Spain Hotel\", \"Hotel Maria Cristina, a Luxury Collection Hotel San Sebasti\\u00e1n, Spain Resort\", \"Hotel Maria Cristina, a Luxury Collection Hotel San Sebasti\\u00e1n, Spain\"], \"v\": 3}": {
+    "lat": 43.32180779999999,
+    "lon": -1.9801059,
+    "formatted_address": "República Argentina K., 4, 20004 Donostia / San Sebastián, Gipuzkoa, Spain",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJkx4kFFClUQ0RCjqo9uELMfs",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "República Argentina K., 4, 20004 Donostia / San Sebastián, Gipuzkoa, Spain",
+      "geometry": {
+        "location": {
+          "lat": 43.32180779999999,
+          "lng": -1.9801059
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.32317268029149,
+            "lng": -1.978592069708498
+          },
+          "southwest": {
+            "lat": 43.32047471970849,
+            "lng": -1.981290030291502
+          }
+        }
+      },
+      "name": "Hotel Maria Cristina, a Luxury Collection Hotel, San Sebastian",
+      "place_id": "ChIJkx4kFFClUQ0RCjqo9uELMfs",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/easlc-hotel-maria-cristina-a-luxury-collection-hotel-san-sebastian/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Ritz-Carlton, Xi'an\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Ritz-Carlton, Xi'an The Ritz-Carlton Hotel\", \"The Ritz-Carlton, Xi'an The Ritz-Carlton Resort\", \"The Ritz-Carlton, Xi'an The Ritz-Carlton\", \"The Ritz-Carlton, Xi'an The Ritz-Carlton Xi'an, China Hotel\", \"The Ritz-Carlton, Xi'an The Ritz-Carlton Xi'an, China Resort\", \"The Ritz-Carlton, Xi'an The Ritz-Carlton Xi'an, China\", \"The Ritz-Carlton, Xi'an Hilton Hotel\", \"The Ritz-Carlton, Xi'an Hilton Resort\", \"The Ritz-Carlton, Xi'an Hilton\", \"The Ritz-Carlton, Xi'an Hilton Xi'an, China Hotel\", \"The Ritz-Carlton, Xi'an Hilton Xi'an, China Resort\", \"The Ritz-Carlton, Xi'an Hilton Xi'an, China\", \"Ritz carlton Xian The Ritz-Carlton Hotel\", \"Ritz carlton Xian The Ritz-Carlton Resort\", \"Ritz carlton Xian The Ritz-Carlton\", \"Ritz carlton Xian The Ritz-Carlton Xi'an, China Hotel\", \"Ritz carlton Xian The Ritz-Carlton Xi'an, China Resort\", \"Ritz carlton Xian The Ritz-Carlton Xi'an, China\", \"Ritz carlton Xian Hilton Hotel\", \"Ritz carlton Xian Hilton Resort\", \"Ritz carlton Xian Hilton\", \"Ritz carlton Xian Hilton Xi'an, China Hotel\", \"Ritz carlton Xian Hilton Xi'an, China Resort\", \"Ritz carlton Xian Hilton Xi'an, China\", \"The Ritz-Carlton, Xi'an Hotel\", \"The Ritz-Carlton, Xi'an Resort\", \"The Ritz-Carlton, Xi'an\", \"The Ritz-Carlton, Xi'an Xi'an, China Hotel\", \"The Ritz-Carlton, Xi'an Xi'an, China Resort\", \"The Ritz-Carlton, Xi'an Xi'an, China\"], \"v\": 3}": {
+    "lat": 34.2237654,
+    "lon": 108.8980399,
+    "formatted_address": "50 Ke Ji Er Lu, 50, Yan Ta Qu, Xi An Shi, Shan Xi Sheng, China, 710065",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJC2GnFTR3YzYRL5JLHX-AQg4",
+    "types": [
+      "establishment",
+      "parking",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "50 Ke Ji Er Lu, 50, Yan Ta Qu, Xi An Shi, Shan Xi Sheng, China, 710065",
+      "geometry": {
+        "location": {
+          "lat": 34.2237654,
+          "lng": 108.8980399
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 34.22511438029149,
+            "lng": 108.8993888802915
+          },
+          "southwest": {
+            "lat": 34.22241641970849,
+            "lng": 108.8966909197085
+          }
+        }
+      },
+      "name": "The Ritz-Carlton Xi'an Parking",
+      "place_id": "ChIJC2GnFTR3YzYRL5JLHX-AQg4",
+      "types": [
+        "establishment",
+        "parking",
+        "point_of_interest"
+      ]
+    }
   }
 }

@@ -165610,5 +165610,428 @@
       ],
       "website": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
+  },
+  "{\"brand\": \"THC\", \"hotel_name\": \"Casa Marina Key West, A Waldorf Astoria Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Casa Marina Key West, A Waldorf Astoria Resort\"], \"v\": 3}": null,
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Wyndham Grand Rio Mar Rainforest Beach and Golf Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Wyndham Grand Rio Mar Rainforest Beach and Golf Resort Hotel\", \"Wyndham Grand Rio Mar Rainforest Beach and Golf Resort Resort\", \"Wyndham Grand Rio Mar Rainforest Beach and Golf Resort\", \"Wyndham Grand Rio Mar Rainforest Beach and Golf Resort R\\u00edo Grande, Puerto Rico Hotel\", \"Wyndham Grand Rio Mar Rainforest Beach and Golf Resort R\\u00edo Grande, Puerto Rico Resort\", \"Wyndham Grand Rio Mar Rainforest Beach and Golf Resort R\\u00edo Grande, Puerto Rico\", \"Wyndham Grand Rio Mar Rainforest Beach Golf Resort Hotel\", \"Wyndham Grand Rio Mar Rainforest Beach Golf Resort Resort\", \"Wyndham Grand Rio Mar Rainforest Beach Golf Resort\", \"Wyndham Grand Rio Mar Rainforest Beach Golf Resort R\\u00edo Grande, Puerto Rico Hotel\", \"Wyndham Grand Rio Mar Rainforest Beach Golf Resort R\\u00edo Grande, Puerto Rico Resort\", \"Wyndham Grand Rio Mar Rainforest Beach Golf Resort R\\u00edo Grande, Puerto Rico\"], \"v\": 3}": {
+    "lat": 18.389079,
+    "lon": -65.756678,
+    "formatted_address": "6000 Blvd. Río Mar, Río Grande, 00745, Puerto Rico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJT4XxK0yZBIwRRfl1CbK81pY",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "6000 Blvd. Río Mar, Río Grande, 00745, Puerto Rico",
+      "geometry": {
+        "location": {
+          "lat": 18.389079,
+          "lng": -65.756678
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 18.3895183302915,
+            "lng": -65.754528
+          },
+          "southwest": {
+            "lat": 18.3868203697085,
+            "lng": -65.7573845
+          }
+        }
+      },
+      "name": "Wyndham Grand Rio Mar Rainforest Beach and Golf Resort",
+      "place_id": "ChIJT4XxK0yZBIwRRfl1CbK81pY",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.wyndhamriomar.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Le Blanc Spa Resort Los Cabos Adults Only All Inclusive\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Le Blanc Spa Resort Los Cabos Adults Only All Inclusive Hotel\", \"Le Blanc Spa Resort Los Cabos Adults Only All Inclusive Resort\", \"Le Blanc Spa Resort Los Cabos Adults Only All Inclusive\", \"Le Blanc Spa Resort Los Cabos Adults Only All Inclusive San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Le Blanc Spa Resort Los Cabos Adults Only All Inclusive San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Le Blanc Spa Resort Los Cabos Adults Only All Inclusive San Jos\\u00e9 del Cabo, Baja California Sur MX\"], \"v\": 3}": {
+    "lat": 22.9717572,
+    "lon": -109.7856389,
+    "formatted_address": "Carr. Transpeninsular, Tourist Corridor, 23405 San José del Cabo, B.C.S., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJERqQdvNPr4YRacjk65e2d4k",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carr. Transpeninsular, Tourist Corridor, 23405 San José del Cabo, B.C.S., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 22.9717572,
+          "lng": -109.7856389
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 22.9731728802915,
+            "lng": -109.7846689197085
+          },
+          "southwest": {
+            "lat": 22.97047491970849,
+            "lng": -109.7873668802915
+          }
+        }
+      },
+      "name": "Le Blanc Spa Resort Los Cabos All Inclusive Adults Only",
+      "place_id": "ChIJERqQdvNPr4YRacjk65e2d4k",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://los-cabos.leblancsparesorts.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Seychelles Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Seychelles Resort Canopy Hotels Hotel\", \"Canopy by Hilton Seychelles Resort Canopy Hotels Resort\", \"Canopy by Hilton Seychelles Resort Canopy Hotels\", \"Canopy by Hilton Seychelles Resort Canopy Hotels Mah\\u00e9, Seychelles Hotel\", \"Canopy by Hilton Seychelles Resort Canopy Hotels Mah\\u00e9, Seychelles Resort\", \"Canopy by Hilton Seychelles Resort Canopy Hotels Mah\\u00e9, Seychelles\", \"Canopy by Hilton Seychelles Resort Hilton Hotel\", \"Canopy by Hilton Seychelles Resort Hilton Resort\", \"Canopy by Hilton Seychelles Resort Hilton\", \"Canopy by Hilton Seychelles Resort Hilton Mah\\u00e9, Seychelles Hotel\", \"Canopy by Hilton Seychelles Resort Hilton Mah\\u00e9, Seychelles Resort\", \"Canopy by Hilton Seychelles Resort Hilton Mah\\u00e9, Seychelles\", \"Canopy Hilton Seychelles Resort Canopy Hotels Hotel\", \"Canopy Hilton Seychelles Resort Canopy Hotels Resort\", \"Canopy Hilton Seychelles Resort Canopy Hotels\", \"Canopy Hilton Seychelles Resort Canopy Hotels Mah\\u00e9, Seychelles Hotel\", \"Canopy Hilton Seychelles Resort Canopy Hotels Mah\\u00e9, Seychelles Resort\", \"Canopy Hilton Seychelles Resort Canopy Hotels Mah\\u00e9, Seychelles\", \"Canopy Hilton Seychelles Resort Hilton Hotel\", \"Canopy Hilton Seychelles Resort Hilton Resort\", \"Canopy Hilton Seychelles Resort Hilton\", \"Canopy Hilton Seychelles Resort Hilton Mah\\u00e9, Seychelles Hotel\", \"Canopy Hilton Seychelles Resort Hilton Mah\\u00e9, Seychelles Resort\", \"Canopy Hilton Seychelles Resort Hilton Mah\\u00e9, Seychelles\", \"Canopy by Hilton Seychelles Resort Hotel\", \"Canopy by Hilton Seychelles Resort Resort\", \"Canopy by Hilton Seychelles Resort\", \"Canopy by Hilton Seychelles Resort Mah\\u00e9, Seychelles Hotel\", \"Canopy by Hilton Seychelles Resort Mah\\u00e9, Seychelles Resort\", \"Canopy by Hilton Seychelles Resort Mah\\u00e9, Seychelles\"], \"v\": 3}": {
+    "lat": -4.7326742,
+    "lon": 55.4919804,
+    "formatted_address": "Anse La Mouche, Mahé, Seychelles",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJfUjs4VfV4SIRy4F8PaFeIL4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Anse La Mouche, Mahé, Seychelles",
+      "geometry": {
+        "location": {
+          "lat": -4.7326742,
+          "lng": 55.4919804
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -4.731316569708498,
+            "lng": 55.4933474802915
+          },
+          "southwest": {
+            "lat": -4.734014530291502,
+            "lng": 55.49064951970851
+          }
+        }
+      },
+      "name": "Canopy by Hilton Seychelles Resort",
+      "place_id": "ChIJfUjs4VfV4SIRy4F8PaFeIL4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/sezmapy-canopy-seychelles-resort/?SEO_id=GMB-EMEA-PY-SEZMAPY"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hilton Los Cabos\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Los Cabos Hilton Hotels & Resorts Hotel\", \"Hilton Los Cabos Hilton Hotels & Resorts Resort\", \"Hilton Los Cabos Hilton Hotels & Resorts\", \"Hilton Los Cabos Hilton Hotels & Resorts San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Hilton Los Cabos Hilton Hotels & Resorts San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Hilton Los Cabos Hilton Hotels & Resorts San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Hilton Los Cabos Hilton Hotel\", \"Hilton Los Cabos Hilton Resort\", \"Hilton Los Cabos Hilton\", \"Hilton Los Cabos Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Hilton Los Cabos Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Hilton Los Cabos Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Hilton Los Cabos Hotel\", \"Hilton Los Cabos Resort\", \"Hilton Los Cabos\", \"Hilton Los Cabos San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Hilton Los Cabos San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Hilton Los Cabos San Jos\\u00e9 del Cabo, Baja California Sur MX\"], \"v\": 3}": {
+    "lat": 22.9814035,
+    "lon": -109.7645158,
+    "formatted_address": "Carr. Transpeninsular, Tourist Corridor, 23400 Cabo San Lucas, B.C.S., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJqd7wrx5Or4YR5DAgkGszvyk",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carr. Transpeninsular, Tourist Corridor, 23400 Cabo San Lucas, B.C.S., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 22.9814035,
+          "lng": -109.7645158
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 22.9829979302915,
+            "lng": -109.7630903197085
+          },
+          "southwest": {
+            "lat": 22.98029996970849,
+            "lng": -109.7657882802915
+          }
+        }
+      },
+      "name": "Hilton Los Cabos Beach & Golf Resort",
+      "place_id": "ChIJqd7wrx5Or4YR5DAgkGszvyk",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/sjdlchh-hilton-los-cabos-beach-and-golf-resort/?SEO_id=GMB-AMER-HH-SJDLCHH&y_source=1_MTIxNjk1NDAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hyatt Regency Grand Reserve Puerto Rico\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hyatt Regency Grand Reserve Puerto Rico Hyatt Regency Hotel\", \"Hyatt Regency Grand Reserve Puerto Rico Hyatt Regency Resort\", \"Hyatt Regency Grand Reserve Puerto Rico Hyatt Regency\", \"Hyatt Regency Grand Reserve Puerto Rico Hyatt Regency R\\u00edo Grande, Puerto Rico Hotel\", \"Hyatt Regency Grand Reserve Puerto Rico Hyatt Regency R\\u00edo Grande, Puerto Rico Resort\", \"Hyatt Regency Grand Reserve Puerto Rico Hyatt Regency R\\u00edo Grande, Puerto Rico\", \"Hyatt Regency Grand Reserve Puerto Rico Hilton Hotel\", \"Hyatt Regency Grand Reserve Puerto Rico Hilton Resort\", \"Hyatt Regency Grand Reserve Puerto Rico Hilton\", \"Hyatt Regency Grand Reserve Puerto Rico Hilton R\\u00edo Grande, Puerto Rico Hotel\", \"Hyatt Regency Grand Reserve Puerto Rico Hilton R\\u00edo Grande, Puerto Rico Resort\", \"Hyatt Regency Grand Reserve Puerto Rico Hilton R\\u00edo Grande, Puerto Rico\", \"Hyatt Regency Grand Reserve Puerto Rico Hotel\", \"Hyatt Regency Grand Reserve Puerto Rico Resort\", \"Hyatt Regency Grand Reserve Puerto Rico\", \"Hyatt Regency Grand Reserve Puerto Rico R\\u00edo Grande, Puerto Rico Hotel\", \"Hyatt Regency Grand Reserve Puerto Rico R\\u00edo Grande, Puerto Rico Resort\", \"Hyatt Regency Grand Reserve Puerto Rico R\\u00edo Grande, Puerto Rico\"], \"v\": 3}": {
+    "lat": 18.4179512,
+    "lon": -65.7933158,
+    "formatted_address": "200 Coco Beach Blvd. Highway, 955-I, Río Grande, 00745, Puerto Rico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJNXOa0CScBIwRI9j79t4UnuM",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "200 Coco Beach Blvd. Highway, 955-I, Río Grande, 00745, Puerto Rico",
+      "geometry": {
+        "location": {
+          "lat": 18.4179512,
+          "lng": -65.7933158
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 18.4192784802915,
+            "lng": -65.7919375697085
+          },
+          "southwest": {
+            "lat": 18.4165805197085,
+            "lng": -65.7946355302915
+          }
+        }
+      },
+      "name": "Hyatt Regency Grand Reserve Puerto Rico",
+      "place_id": "ChIJNXOa0CScBIwRI9j79t4UnuM",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hyatt.com/hyatt-regency/en-US/sjurc-hyatt-regency-grand-reserve-puerto-rico?src=corp_lclb_google_seo_sjurc&utm_source=google&utm_medium=organic&utm_campaign=lmr"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"JW Marriott Los Cabos Beach Resort & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"JW Marriott Los Cabos Beach Resort & Spa JW Marriott Hotel\", \"JW Marriott Los Cabos Beach Resort & Spa JW Marriott Resort\", \"JW Marriott Los Cabos Beach Resort & Spa JW Marriott\", \"JW Marriott Los Cabos Beach Resort & Spa JW Marriott San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"JW Marriott Los Cabos Beach Resort & Spa JW Marriott San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"JW Marriott Los Cabos Beach Resort & Spa JW Marriott San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"JW Marriott Los Cabos Beach Resort & Spa Hilton Hotel\", \"JW Marriott Los Cabos Beach Resort & Spa Hilton Resort\", \"JW Marriott Los Cabos Beach Resort & Spa Hilton\", \"JW Marriott Los Cabos Beach Resort & Spa Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"JW Marriott Los Cabos Beach Resort & Spa Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"JW Marriott Los Cabos Beach Resort & Spa Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Jw Marriott Los Cabos Beach Resort Spa JW Marriott Hotel\", \"Jw Marriott Los Cabos Beach Resort Spa JW Marriott Resort\", \"Jw Marriott Los Cabos Beach Resort Spa JW Marriott\", \"Jw Marriott Los Cabos Beach Resort Spa JW Marriott San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Jw Marriott Los Cabos Beach Resort Spa JW Marriott San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Jw Marriott Los Cabos Beach Resort Spa JW Marriott San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Jw Marriott Los Cabos Beach Resort Spa Hilton Hotel\", \"Jw Marriott Los Cabos Beach Resort Spa Hilton Resort\", \"Jw Marriott Los Cabos Beach Resort Spa Hilton\", \"Jw Marriott Los Cabos Beach Resort Spa Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Jw Marriott Los Cabos Beach Resort Spa Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Jw Marriott Los Cabos Beach Resort Spa Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"JW Marriott Los Cabos Beach Resort & Spa Hotel\", \"JW Marriott Los Cabos Beach Resort & Spa Resort\", \"JW Marriott Los Cabos Beach Resort & Spa\", \"JW Marriott Los Cabos Beach Resort & Spa San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"JW Marriott Los Cabos Beach Resort & Spa San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"JW Marriott Los Cabos Beach Resort & Spa San Jos\\u00e9 del Cabo, Baja California Sur MX\"], \"v\": 3}": {
+    "lat": 23.0659401,
+    "lon": -109.6554218,
+    "formatted_address": "Fraccion Hotelera Fh5-C1 Subdelegacion De La Playita, Puerto, 23403 San José del Cabo, B.C.S., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJAYTON1ZXr4YR5aKaR50js9M",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Fraccion Hotelera Fh5-C1 Subdelegacion De La Playita, Puerto, 23403 San José del Cabo, B.C.S., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 23.0659401,
+          "lng": -109.6554218
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.0677181302915,
+            "lng": -109.6541252197085
+          },
+          "southwest": {
+            "lat": 23.06502016970849,
+            "lng": -109.6568231802915
+          }
+        }
+      },
+      "name": "JW Marriott Los Cabos Beach Resort & Spa",
+      "place_id": "ChIJAYTON1ZXr4YR5aKaR50js9M",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.marriott.com/en-us/hotels/sjdjw-jw-marriott-los-cabos-beach-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Paradisus Los Cabos Adults Only\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Paradisus Los Cabos Adults Only Paradisus by Meli\\u00e1 Hotel\", \"Paradisus Los Cabos Adults Only Paradisus by Meli\\u00e1 Resort\", \"Paradisus Los Cabos Adults Only Paradisus by Meli\\u00e1\", \"Paradisus Los Cabos Adults Only Paradisus by Meli\\u00e1 San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Paradisus Los Cabos Adults Only Paradisus by Meli\\u00e1 San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Paradisus Los Cabos Adults Only Paradisus by Meli\\u00e1 San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Paradisus Los Cabos Adults Only Hilton Hotel\", \"Paradisus Los Cabos Adults Only Hilton Resort\", \"Paradisus Los Cabos Adults Only Hilton\", \"Paradisus Los Cabos Adults Only Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Paradisus Los Cabos Adults Only Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Paradisus Los Cabos Adults Only Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Paradisus Los Cabos Adults Only Hotel\", \"Paradisus Los Cabos Adults Only Resort\", \"Paradisus Los Cabos Adults Only\", \"Paradisus Los Cabos Adults Only San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Paradisus Los Cabos Adults Only San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Paradisus Los Cabos Adults Only San Jos\\u00e9 del Cabo, Baja California Sur MX\"], \"v\": 3}": {
+    "lat": 22.980533,
+    "lon": -109.76642,
+    "formatted_address": "Carretera Cabo San Lucas-San José del Cabo, Tourist Corridor, 23400 San Jose Del Cabo, B.C.S., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ32IT7V5ar4YRN_I_ktPEvys",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Carretera Cabo San Lucas-San José del Cabo, Tourist Corridor, 23400 San Jose Del Cabo, B.C.S., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 22.980533,
+          "lng": -109.76642
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 22.9821163302915,
+            "lng": -109.7651362697085
+          },
+          "southwest": {
+            "lat": 22.9794183697085,
+            "lng": -109.7678342302915
+          }
+        }
+      },
+      "name": "Paradisus Los Cabos - Adults only - The Leading Hotels of the World",
+      "place_id": "ChIJ32IT7V5ar4YRN_I_ktPEvys",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.melia.com/en/hotels/mexico/los-cabos/paradisus-los-cabos?utm_campaign=google&utm_content=5837&utm_medium=organic&utm_source=directories"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Schweizerhof Z\\u00fcrich\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Schweizerhof Z\\u00fcrich Preferred Hotels & Resorts Hotel\", \"Hotel Schweizerhof Z\\u00fcrich Preferred Hotels & Resorts Resort\", \"Hotel Schweizerhof Z\\u00fcrich Preferred Hotels & Resorts\", \"Hotel Schweizerhof Z\\u00fcrich Preferred Hotels & Resorts Zurich, Switzerland Hotel\", \"Hotel Schweizerhof Z\\u00fcrich Preferred Hotels & Resorts Zurich, Switzerland Resort\", \"Hotel Schweizerhof Z\\u00fcrich Preferred Hotels & Resorts Zurich, Switzerland\", \"Hotel Schweizerhof Z\\u00fcrich Hilton Hotel\", \"Hotel Schweizerhof Z\\u00fcrich Hilton Resort\", \"Hotel Schweizerhof Z\\u00fcrich Hilton\", \"Hotel Schweizerhof Z\\u00fcrich Hilton Zurich, Switzerland Hotel\", \"Hotel Schweizerhof Z\\u00fcrich Hilton Zurich, Switzerland Resort\", \"Hotel Schweizerhof Z\\u00fcrich Hilton Zurich, Switzerland\", \"Hotel Schweizerhof Zurich Preferred Hotels & Resorts Hotel\", \"Hotel Schweizerhof Zurich Preferred Hotels & Resorts Resort\", \"Hotel Schweizerhof Zurich Preferred Hotels & Resorts\", \"Hotel Schweizerhof Zurich Preferred Hotels & Resorts Zurich, Switzerland Hotel\", \"Hotel Schweizerhof Zurich Preferred Hotels & Resorts Zurich, Switzerland Resort\", \"Hotel Schweizerhof Zurich Preferred Hotels & Resorts Zurich, Switzerland\", \"Hotel Schweizerhof Zurich Hilton Hotel\", \"Hotel Schweizerhof Zurich Hilton Resort\", \"Hotel Schweizerhof Zurich Hilton\", \"Hotel Schweizerhof Zurich Hilton Zurich, Switzerland Hotel\", \"Hotel Schweizerhof Zurich Hilton Zurich, Switzerland Resort\", \"Hotel Schweizerhof Zurich Hilton Zurich, Switzerland\", \"Hotel Schweizerhof Z\\u00fcrich Hotel\", \"Hotel Schweizerhof Z\\u00fcrich Resort\", \"Hotel Schweizerhof Z\\u00fcrich\", \"Hotel Schweizerhof Z\\u00fcrich Zurich, Switzerland Hotel\", \"Hotel Schweizerhof Z\\u00fcrich Zurich, Switzerland Resort\", \"Hotel Schweizerhof Z\\u00fcrich Zurich, Switzerland\"], \"v\": 3}": {
+    "lat": 47.37687080000001,
+    "lon": 8.5394332,
+    "formatted_address": "Bahnhofplatz 7, 8001 Zürich, Switzerland",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJq2UJnAgKkEcRpogMbETPEI4",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Bahnhofplatz 7, 8001 Zürich, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.37687080000001,
+          "lng": 8.5394332
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.3783242802915,
+            "lng": 8.540809680291503
+          },
+          "southwest": {
+            "lat": 47.3756263197085,
+            "lng": 8.538111719708498
+          }
+        }
+      },
+      "name": "Hotel Schweizerhof Zürich",
+      "place_id": "ChIJq2UJnAgKkEcRpogMbETPEI4",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hotelschweizerhof.com/"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Viceroy Los Cabos\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Viceroy Los Cabos Viceroy Hotels & Resorts Hotel\", \"Viceroy Los Cabos Viceroy Hotels & Resorts Resort\", \"Viceroy Los Cabos Viceroy Hotels & Resorts\", \"Viceroy Los Cabos Viceroy Hotels & Resorts San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Viceroy Los Cabos Viceroy Hotels & Resorts San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Viceroy Los Cabos Viceroy Hotels & Resorts San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Viceroy Los Cabos Hilton Hotel\", \"Viceroy Los Cabos Hilton Resort\", \"Viceroy Los Cabos Hilton\", \"Viceroy Los Cabos Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Viceroy Los Cabos Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Viceroy Los Cabos Hilton San Jos\\u00e9 del Cabo, Baja California Sur MX\", \"Viceroy Los Cabos Hotel\", \"Viceroy Los Cabos Resort\", \"Viceroy Los Cabos\", \"Viceroy Los Cabos San Jos\\u00e9 del Cabo, Baja California Sur MX Hotel\", \"Viceroy Los Cabos San Jos\\u00e9 del Cabo, Baja California Sur MX Resort\", \"Viceroy Los Cabos San Jos\\u00e9 del Cabo, Baja California Sur MX\"], \"v\": 3}": {
+    "lat": 23.0447242,
+    "lon": -109.6983954,
+    "formatted_address": "P.º Malecon San Jose Lote 8, Zona Hotelera, 23405 San José del Cabo, B.C.S., Mexico",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJybZMQJJQr4YRLgiYrTAy1Ms",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "P.º Malecon San Jose Lote 8, Zona Hotelera, 23405 San José del Cabo, B.C.S., Mexico",
+      "geometry": {
+        "location": {
+          "lat": 23.0447242,
+          "lng": -109.6983954
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.0461294802915,
+            "lng": -109.6970843197085
+          },
+          "southwest": {
+            "lat": 23.04343151970849,
+            "lng": -109.6997822802915
+          }
+        }
+      },
+      "name": "Viceroy Los Cabos",
+      "place_id": "ChIJybZMQJJQr4YRLgiYrTAy1Ms",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.viceroyhotelsandresorts.com/loscabos?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
+    }
+  },
+  "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Casa Marina Key West, A Waldorf Astoria Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Casa Marina Key West, A Waldorf Astoria Resort Waldorf Astoria Hotels & Resorts Hotel\", \"Casa Marina Key West, A Waldorf Astoria Resort Waldorf Astoria Hotels & Resorts Resort\", \"Casa Marina Key West, A Waldorf Astoria Resort Waldorf Astoria Hotels & Resorts\", \"Casa Marina Key West, A Waldorf Astoria Resort Waldorf Astoria Hotels & Resorts Key West, Florida US Hotel\", \"Casa Marina Key West, A Waldorf Astoria Resort Waldorf Astoria Hotels & Resorts Key West, Florida US Resort\", \"Casa Marina Key West, A Waldorf Astoria Resort Waldorf Astoria Hotels & Resorts Key West, Florida US\", \"Casa Marina Key West, A Waldorf Astoria Resort Hilton Hotel\", \"Casa Marina Key West, A Waldorf Astoria Resort Hilton Resort\", \"Casa Marina Key West, A Waldorf Astoria Resort Hilton\", \"Casa Marina Key West, A Waldorf Astoria Resort Hilton Key West, Florida US Hotel\", \"Casa Marina Key West, A Waldorf Astoria Resort Hilton Key West, Florida US Resort\", \"Casa Marina Key West, A Waldorf Astoria Resort Hilton Key West, Florida US\", \"Casa Marina Key West A Waldorf Astoria Resort Waldorf Astoria Hotels & Resorts Hotel\", \"Casa Marina Key West A Waldorf Astoria Resort Waldorf Astoria Hotels & Resorts Resort\", \"Casa Marina Key West A Waldorf Astoria Resort Waldorf Astoria Hotels & Resorts\", \"Casa Marina Key West A Waldorf Astoria Resort Waldorf Astoria Hotels & Resorts Key West, Florida US Hotel\", \"Casa Marina Key West A Waldorf Astoria Resort Waldorf Astoria Hotels & Resorts Key West, Florida US Resort\", \"Casa Marina Key West A Waldorf Astoria Resort Waldorf Astoria Hotels & Resorts Key West, Florida US\", \"Casa Marina Key West A Waldorf Astoria Resort Hilton Hotel\", \"Casa Marina Key West A Waldorf Astoria Resort Hilton Resort\", \"Casa Marina Key West A Waldorf Astoria Resort Hilton\", \"Casa Marina Key West A Waldorf Astoria Resort Hilton Key West, Florida US Hotel\", \"Casa Marina Key West A Waldorf Astoria Resort Hilton Key West, Florida US Resort\", \"Casa Marina Key West A Waldorf Astoria Resort Hilton Key West, Florida US\", \"Casa Marina Key West, A Waldorf Astoria Resort Hotel\", \"Casa Marina Key West, A Waldorf Astoria Resort Resort\", \"Casa Marina Key West, A Waldorf Astoria Resort\", \"Casa Marina Key West, A Waldorf Astoria Resort Key West, Florida US Hotel\", \"Casa Marina Key West, A Waldorf Astoria Resort Key West, Florida US Resort\", \"Casa Marina Key West, A Waldorf Astoria Resort Key West, Florida US\"], \"v\": 3}": {
+    "lat": 24.5477352,
+    "lon": -81.7901279,
+    "formatted_address": "1500 Reynolds St, Key West, FL 33040, USA",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJOffyTNm30YgRJQ5EnobQkVE",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "partial_match": false,
+    "raw": {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1500 Reynolds St, Key West, FL 33040, USA",
+      "geometry": {
+        "location": {
+          "lat": 24.5477352,
+          "lng": -81.7901279
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 24.5491990802915,
+            "lng": -81.7887609697085
+          },
+          "southwest": {
+            "lat": 24.54650111970849,
+            "lng": -81.79145893029151
+          }
+        }
+      },
+      "name": "Casa Marina Key West, Curio Collection by Hilton",
+      "place_id": "ChIJOffyTNm30YgRJQ5EnobQkVE",
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "website": "https://www.hilton.com/en/hotels/eywcmqq-casa-marina-key-west/?SEO_id=GMB-AMER-QQ-EYWCMQQ"
+    }
   }
 }
