@@ -28,6 +28,7 @@ from cache_utils import (
     DISCRIMINATOR_TOKENS,
     align_compound_tokens,
     core_name_tokens,
+    identity_words_agree,
     is_lodging_type,
     locations_compatible,
     normalize_location,
@@ -214,7 +215,6 @@ class _PreparedRecord:
     norm_group: str
     norm_brand: str
     hilton_code: str
-    city: str
     country: str
     toks_seq: Tuple[str, ...]
     joined_core: str
@@ -222,7 +222,7 @@ class _PreparedRecord:
 
 
 def _prepare(rec: HotelRecord) -> _PreparedRecord:
-    city, country = normalize_location(rec.hotel_location)
+    _, country = normalize_location(rec.hotel_location)
     toks = tuple(core_name_tokens(rec.hotel_name))
     loc_toks = frozenset(normalize_name(rec.hotel_location).split())
     return _PreparedRecord(
@@ -230,7 +230,6 @@ def _prepare(rec: HotelRecord) -> _PreparedRecord:
         norm_group=normalize_name(rec.group_label),
         norm_brand=normalize_name(rec.brand_label),
         hilton_code=_hilton_property_code(rec.hotel_url),
-        city=city,
         country=country,
         toks_seq=toks,
         joined_core="".join(toks),
@@ -264,6 +263,10 @@ def _name_similarity(
     exact_core = (id1 == id2 and bool(id1)) or (
         bool(op.joined_core) and op.joined_core == np.joined_core
     )
+    if exact_core and used_geo_fallback:
+        # Only place names are left, so the generic words have to agree too:
+        # "Hotel Chicago" is not "The Chicago Inn".
+        exact_core = identity_words_agree(op.record.hotel_name, np.record.hotel_name)
     inter = id1 & id2
     diff = id1 ^ id2
 
@@ -342,7 +345,7 @@ def compare(
             dist = _distance_between(o, n)
             same_pid = bool(o.place_id and o.place_id == n.place_id)
             distinct_pids = bool(o.place_id and n.place_id and o.place_id != n.place_id)
-            very_close = dist is not None and dist <= DEFAULT_MOVE_THRESHOLD_M
+            very_close = dist is not None and dist <= move_threshold_m
             if o.hotel_location or n.hotel_location:
                 loc_ok = locations_compatible(o.hotel_location, n.hotel_location)
                 geo_ok = (
@@ -354,8 +357,8 @@ def compare(
                     continue
             else:
                 # Both rows omit hotel_location (e.g. Hilton): require matching
-                # place_id, very close coords (<=250 m), or non-conflicting
-                # place_ids with nearby/missing coords.
+                # place_id, very close coords, or non-conflicting place_ids
+                # with nearby/missing coords.
                 loc_ok = False
                 if not (
                     same_pid
@@ -449,16 +452,24 @@ def compare(
                 tier: Optional[str] = None
                 reason = ""
 
+                very_close = dist is not None and dist <= move_threshold_m
+                core_agrees = exact_core and not extra_disc and (same_city or same_unique_pid)
+
                 # Tier 1 (silent cosmetic update): identical core identity after
-                # stripping affiliation taglines and shared location tokens.
-                if (
-                    exact_core
-                    and not extra_disc
-                    and (same_city or same_unique_pid)
-                    and (same_unique_pid or dist is None or dist <= 5_000.0)
+                # stripping affiliation taglines and shared location tokens, with
+                # nothing to suggest a different building.
+                if core_agrees and (
+                    same_unique_pid
+                    or very_close
+                    or (not distinct_pids and (dist is None or dist <= 5_000.0))
                 ):
                     tier = "tier1_silent"
                     reason = "cosmetic_rename"
+                # The same name and city at another place is either one hotel with
+                # a corrected pin or two hotels, so let a person decide.
+                elif core_agrees:
+                    tier = "tier2_rename"
+                    reason = "same_core+other_place"
                 # Tier 2 (surfaced as `~ Renamed` for human review): strong physical
                 # match with substantive name change. When both records carry
                 # distinct non-empty place_ids and non-identical cores, keep them
@@ -466,13 +477,12 @@ def compare(
                 elif same_unique_pid and not extra_disc and not mutually_exclusive and idf_f1 >= 0.65:
                     tier = "tier2_rename"
                     reason = "unique_place_id+subset_name"
-                elif same_unique_pid and (dist is None or dist <= DEFAULT_MOVE_THRESHOLD_M):
+                elif same_unique_pid and (dist is None or very_close):
                     tier = "tier2_rename"
                     reason = "unique_place_id+rename"
                 elif (
                     not distinct_pids
-                    and dist is not None
-                    and dist <= 250.0
+                    and very_close
                     and not extra_disc
                     and not mutually_exclusive
                     and idf_f1 >= 0.78
@@ -492,7 +502,7 @@ def compare(
 
                 if tier is not None:
                     tier_bonus = 2.0 if tier == "tier1_silent" else 1.0
-                    geo_bonus = 1.5 if same_unique_pid else (0.8 if (dist is not None and dist <= 250.0) else 0.3)
+                    geo_bonus = 1.5 if same_unique_pid else (0.8 if very_close else 0.3)
                     dist_penalty = 0.00001 * dist if dist is not None else 0.0
                     score = tier_bonus + geo_bonus + idf_f1 - dist_penalty
                     stage4_candidates.append((score, oi, ni, tier, reason))
@@ -655,8 +665,13 @@ def main() -> None:
             raise ValueError(f"Geocoded CSV is empty: {path}")
         diff = compare(committed(path), current)
         outputs[key] = "true" if diff.sheet_changed else "false"
+        # The log keeps what the email leaves out, so a wrong match can be found.
         if diff.silent_updates:
             print(f"{path}: ignored {len(diff.silent_updates)} location/cosmetic metadata update(s)")
+            for match in diff.silent_updates:
+                print(f"  = [{match.stage}] {describe(match.old)} -> {describe(match.new)}")
+        for match in diff.renamed:
+            print(f"  ~ [{match.stage}] {describe(match.old)} -> {describe(match.new)}")
         if diff.has_notifiable_changes:
             notify = True
             sections.append(report_section(path, diff))

@@ -432,6 +432,66 @@ class HotelChangeTests(unittest.TestCase):
                 "No hotel list or coordinate changes.\n",
             )
 
+    def test_city_only_names_are_not_merged(self):
+        diff = compare(
+            csv_doc('"Hotel Chicago, Autograph Collection",u,"Chicago, Illinois US",THC,,41.8880,-87.6290,p1,lodging,C'),
+            csv_doc('The Chicago Inn,u,"Chicago, Illinois US",THC,,41.8990,-87.6240,p2,lodging,C'),
+        )
+        self.assertEqual((len(diff.added), len(diff.removed)), (1, 1))
+        self.assertEqual((diff.renamed, diff.silent_updates), ([], []))
+
+    def test_same_core_at_another_place_is_reported_as_a_rename(self):
+        for new_row in (
+            # A different building 1.7 km away, and a corrected pin far away.
+            '"Hyatt Regency Orlando Convention Center",u,"Orlando, Florida US",THC,Hyatt,28.4400,-81.4700,p2,lodging,C',
+            '"Hyatt Regency Orlando, Autograph Collection",u,"Orlando, Florida US",THC,Hyatt,32.7000,-97.0000,p2,lodging,C',
+        ):
+            diff = compare(
+                csv_doc('Hyatt Regency Orlando,u,"Orlando, Florida US",THC,Hyatt,28.4250,-81.4690,p1,lodging,C'),
+                csv_doc(new_row),
+            )
+            self.assertEqual((diff.added, diff.removed, diff.silent_updates), ([], [], []))
+            self.assertEqual([m.stage for m in diff.renamed], ["same_core+other_place"])
+
+    def test_tagline_change_stays_silent_for_the_same_place(self):
+        old = 'The Sentinel,u,"Portland, Oregon US",THC,,45.5000,-122.6800,p1,lodging,C'
+        for place_id, lat in (("p1", "45.5000"), ("p2", "45.5010"), ("", "45.5100")):
+            diff = compare(
+                csv_doc(old),
+                csv_doc(f'"The Sentinel, Autograph Collection",u,"Portland, Oregon US",THC,,{lat},-122.6800,{place_id},lodging,C'),
+            )
+            self.assertEqual(len(diff.silent_updates), 1, (place_id, lat))
+
+    def test_move_threshold_argument_controls_close_pin_matching(self):
+        old = csv_doc('Hotel Xcaret,u,"Riviera Maya, Quintana Roo MX",FHR,,20.5800,-87.1200,p1,lodging,C')
+        new = csv_doc('Hotel Xcaret,u,"Playa del Carmen, Quintana Roo MX",FHR,,20.5816,-87.1200,p2,lodging,C')
+        self.assertEqual(len(compare(old, new).silent_updates), 1)
+        diff = compare(old, new, move_threshold_m=50.0)
+        self.assertEqual((len(diff.added), len(diff.removed)), (1, 1))
+
+    def test_log_names_every_silent_match_and_rename(self):
+        old = csv_doc(
+            'The Sentinel,u,"Portland, Oregon US",THC,,45.5,-122.68,p1,lodging,C',
+            'Hotel AKA Alexandria,u,"Alexandria, Virginia US",THC,,38.8,-77.04,p2,lodging,C',
+        )
+        new = csv_doc(
+            '"The Sentinel, Autograph Collection",u,"Portland, Oregon US",THC,,45.5,-122.68,p1,lodging,C',
+            '"The Satire, Autograph Collection",u,"Alexandria, Virginia US",THC,,38.8,-77.04,p2,lodging,C',
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            path, report, gh_out = Path(tmp) / "thc.csv", Path(tmp) / "r.txt", Path(tmp) / "o"
+            path.write_text(new, encoding="utf-8")
+            argv = ["hotel_changes.py", "--csv", f"thc_out:{path}", "--report", str(report)]
+            with mock.patch("sys.argv", argv), mock.patch.dict(
+                os.environ, {"GITHUB_OUTPUT": str(gh_out)}
+            ), mock.patch.object(hotel_changes, "committed", return_value=old), mock.patch(
+                "builtins.print"
+            ) as printed:
+                hotel_changes.main()
+        log = "\n".join(str(call.args[0]) for call in printed.call_args_list if call.args)
+        self.assertIn("= [cosmetic_rename] The Sentinel", log)
+        self.assertIn("~ [unique_place_id+rename] Hotel AKA Alexandria", log)
+
 
 if __name__ == "__main__":
     unittest.main()

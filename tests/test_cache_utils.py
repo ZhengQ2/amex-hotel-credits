@@ -1437,6 +1437,190 @@ class UpstreamFixTests(unittest.TestCase):
                     gc.main()
                 self.assertGreater(len(calls), n1_count)
 
+    def test_folding_handles_trademarks_okina_and_unaccented_letters(self):
+        self.assertEqual(
+            cache_utils.normalize_name("Tempo\u2122 by Hilton"), cache_utils.normalize_name("Tempo by Hilton")
+        )
+        self.assertEqual(cache_utils._clean_text("Tempo\u2122 by Hilton"), "Tempo by Hilton")
+        self.assertEqual(
+            cache_utils.normalize_name("Ho\u02bbolei"), cache_utils.normalize_name("Ho\u2018olei")
+        )
+        self.assertEqual(cache_utils.normalize_name("\u00c7\u0131ra\u011fan"), "ciragan")
+
+    def test_brand_that_starts_a_name_is_not_stripped_as_a_tagline(self):
+        self.assertEqual(
+            cache_utils.core_name_tokens("Graduate by Hilton Princeton"), ["graduate", "hilton", "princeton"]
+        )
+        self.assertEqual(cache_utils.core_name_tokens("Rosewood Hotel Georgia"), ["rosewood", "georgia"])
+        # Taglines at the end, and consortium labels anywhere, still go.
+        self.assertEqual(
+            cache_utils.core_name_tokens("The Randolph Hotel Oxford, a Graduate by Hilton"),
+            ["randolph", "oxford"],
+        )
+        self.assertEqual(
+            cache_utils.core_name_tokens("Relais & Châteaux Villa Crespi"), ["villa", "crespi"]
+        )
+
+    def test_city_only_names_do_not_reuse_each_other(self):
+        def lookup(target, donor, location, address):
+            key = cache_utils.make_placeholder_key(donor, "THE HOTEL COLLECTION", "fhrthc")
+            cache = {key: {"lat": 1.0, "lon": 2.0, "formatted_address": address, "types": ["lodging"]}}
+            return cache_utils.find_fuzzy_cache_key(
+                target, cache, input_format="fhrthc", hotel_location=location,
+                scope_key="THE HOTEL COLLECTION",
+            )
+
+        chicago = ("Chicago, Illinois US", "1 Main St, Chicago, IL 60611, USA")
+        self.assertIsNone(lookup("Hotel Chicago, Autograph Collection", "The Chicago Inn", *chicago))
+        self.assertIsNotNone(lookup("Hotel Chicago, Autograph Collection", "Hotel Chicago", *chicago))
+        self.assertIsNone(
+            lookup(
+                "Graduate by Hilton Princeton", "The Princeton Inn",
+                "Princeton, New Jersey US", "1 Nassau St, Princeton, NJ 08540, USA",
+            )
+        )
+        # An extra word on one side only is the same hotel.
+        self.assertIsNotNone(
+            lookup(
+                "Lizard Island Resort", "Lizard Island",
+                "Lizard Island, Australia", "PMB 40, Lizard Island QLD 4871, Australia",
+            )
+        )
+        self.assertIsNotNone(
+            lookup(
+                "The Beverly Hills Hotel - Dorchester Collection", "The Beverly Hills Hotel",
+                "Beverly Hills, California US", "9641 Sunset Blvd, Beverly Hills, CA 90210, USA",
+            )
+        )
+
+    def test_address_parser_keeps_towns_that_look_like_streets(self):
+        for location, address in (
+            ("Catania, Italy", "Via Etnea 1, 95131 Catania CT, Italy"),
+            ("Adria, Italy", "Via Roma 1, 45011 Adria RO, Italy"),
+            ("Federal Way, Washington US", "31611 20th Ave S, Federal Way, WA 98003, USA"),
+            ("Terrace, British Columbia CA", "4702 Lakelse Ave, Terrace, BC V8G 1R6, Canada"),
+            ("Qingdao, China", "9 Ao Men Lu, Shi Nan Qu, Qing Dao Shi, Shan Dong Sheng, China"),
+            ("Con Dao, Vietnam", "Dat Doc, Con Dao, Vietnam"),
+            ("Krabi, Thailand", "279 Tambon Nongtalay Amphoe Muang Chang Wat Krabi 81180, Thailand"),
+            ("Saint Barthelemy, Saint Barthelemy", "Baie de Saint-Jean, 97133, St Barthélemy"),
+        ):
+            self.assertTrue(cache_utils._candidate_city_compatible(location, address, []), (location, address))
+        for location, address in (
+            ("Oxford, England", "Kimpton Clocktower Hotel, Oxford St, Manchester M60 7HA, UK"),
+            ("Broadway, England", "22-28 Broadway, London SW1H 0BH, UK"),
+            ("Venice, Italy", "Corso Venezia, 1, 20121 Milano MI, Italy"),
+            ("Xi'an, China", "26, Jiu Zhai Gou Xian, Si Chuan Sheng, China, 623402"),
+            ("Beijing, China", "1 Bei Jing Lu, Huang Pu Qu, Shang Hai Shi, China, 200000"),
+            ("New York, New York US", "100 Main St, Buffalo, NY 14202, USA"),
+        ):
+            self.assertFalse(cache_utils._candidate_city_compatible(location, address, []), (location, address))
+
+    def test_country_and_state_are_read_exactly(self):
+        compatible = cache_utils.address_location_compatible
+        self.assertFalse(compatible("Punta Cana 23000, Dominican Republic", "Roseau, Dominica"))
+        self.assertTrue(compatible("Portsmouth, Dominica", "Roseau, Dominica"))
+        self.assertFalse(compatible("Bucharest, Romania", "Muscat, Oman"))
+        self.assertFalse(compatible("1 Pitt St, Sydney, New South Wales, Australia", "London, England"))
+        self.assertTrue(compatible("12 Park St, Cardiff CF10 1PR, Wales, UK", "Cardiff, Wales"))
+        self.assertTrue(
+            compatible("1 First St, NE, Washington, DC 20002, USA", "Washington, District of Columbia US")
+        )
+        self.assertFalse(compatible("926 J St, Sacramento, CA 95814, USA", "Alexandria, Virginia US"))
+
+    def _run_geocoder(self, gc, tmp, cache, text_search, hotel="Brand New Hotel"):
+        inp, out, cache_p = Path(tmp) / "in.csv", Path(tmp) / "out.csv", Path(tmp) / "cache.json"
+        inp.write_text(
+            "hotel_name,hotel_url,hotel_location,group_label,brand_label,group_type\n"
+            f'{hotel},,"Paris, France",FINE HOTELS + RESORTS,,Program\n',
+            encoding="utf-8",
+        )
+        cache_p.write_text(json.dumps(cache), encoding="utf-8")
+        argv = ["google-convert.py", "--input", str(inp), "--output", str(out),
+                "--cache", str(cache_p), "--input-format", "fhrthc"]
+        with mock.patch.object(gc, "API_KEY", "test-key"), mock.patch.object(
+            gc, "places_text_search", side_effect=text_search
+        ) as search, mock.patch.object(gc, "geocode_google", return_value=None), mock.patch("sys.argv", argv):
+            gc.main()
+        with open(out, encoding="utf-8") as f:
+            row = next(csv.DictReader(f))
+        return row, json.loads(cache_p.read_text(encoding="utf-8")), search.call_count
+
+    def _exact_key(self, gc, hotel="Brand New Hotel"):
+        return json.dumps({
+            "v": gc.CACHE_VERSION, "provider": "google_places_first", "input_format": "fhrthc",
+            "hotel_name": hotel, "queries": gc.build_queries(hotel, "", "", "Paris, France"),
+            "brand": "FINE HOTELS + RESORTS",
+        }, sort_keys=True)
+
+    def test_transient_error_after_an_empty_query_is_retried_the_next_night(self):
+        gc = _load_google_convert()
+        count = []
+
+        def flaky(q, key):
+            count.append(q)
+            if len(count) == 1:
+                return {"results": []}
+            raise gc.GeocodeError("Places Text Search error: slow down", "OVER_QUERY_LIMIT")
+
+        with tempfile.TemporaryDirectory() as tmp:
+            row, cache, _ = self._run_geocoder(gc, tmp, {}, flaky)
+            self.assertIn("ERR:", row["status"])
+            self.assertEqual(cache, {})
+
+    def test_rejected_query_is_bounded_for_new_and_stale_rows(self):
+        gc = _load_google_convert()
+
+        def one_rejected(q, key):
+            if q.endswith("Resort"):
+                # Google's wording need not contain the status code.
+                raise gc.GeocodeError("Places Text Search error: Missing the query", "INVALID_REQUEST")
+            return {"results": []}
+
+        stale = {"lat": 48.8, "lon": 2.3, "formatted_address": "1 Rue X, 75001 Paris, France",
+                 "types": ["parking"], "place_id": "p"}
+        for start in ({}, {self._exact_key(gc): stale}):
+            with tempfile.TemporaryDirectory() as tmp:
+                _, cache, first = self._run_geocoder(gc, tmp, start, one_rejected)
+                row, _, second = self._run_geocoder(gc, tmp, cache, one_rejected)
+                self.assertGreater(first, 0)
+                self.assertEqual(second, 0)
+                if start:
+                    self.assertTrue(row["lat"])
+
+    def test_every_query_rejected_is_an_api_problem_not_an_answer(self):
+        gc = _load_google_convert()
+
+        def all_rejected(q, key):
+            raise gc.GeocodeError("Places Text Search error: bad request", "INVALID_REQUEST")
+
+        with tempfile.TemporaryDirectory() as tmp:
+            _, cache, _ = self._run_geocoder(gc, tmp, {}, all_rejected)
+            self.assertEqual(cache, {})
+
+    def test_no_result_is_retried_after_the_window_but_old_entries_are_left_alone(self):
+        gc = _load_google_convert()
+        key = self._exact_key(gc)
+        empty = lambda q, k: {"results": []}
+        with tempfile.TemporaryDirectory() as tmp:
+            _, cache, first = self._run_geocoder(gc, tmp, {}, empty)
+            self.assertIn(gc._MISMATCH_STAMP, cache[key])
+            self.assertEqual(self._run_geocoder(gc, tmp, cache, empty)[2], 0)
+            cache[key][gc._MISMATCH_STAMP] = 0.0
+            self.assertEqual(self._run_geocoder(gc, tmp, cache, empty)[2], first)
+            self.assertEqual(self._run_geocoder(gc, tmp, {key: {"status": "NO_RESULT"}}, empty)[2], 0)
+
+    def test_reused_entry_does_not_inherit_the_donor_mismatch_stamp(self):
+        gc = _load_google_convert()
+        donor_key = cache_utils.make_placeholder_key("Brand-New Hotel", "FINE HOTELS + RESORTS", "fhrthc")
+        donor = {"lat": 48.8, "lon": 2.3, "formatted_address": "1 Rue X, 75001 Paris, France",
+                 "types": ["lodging"], "place_id": "p",
+                 gc._MISMATCH_STAMP: 1.0, gc._MISMATCH_SELECTOR_V: gc.SELECTOR_VERSION}
+        with tempfile.TemporaryDirectory() as tmp:
+            row, cache, calls = self._run_geocoder(gc, tmp, {donor_key: donor}, lambda q, k: {"results": []})
+        self.assertEqual((row["status"], calls), ("CACHED:RENAMED", 0))
+        self.assertNotIn(gc._MISMATCH_STAMP, cache[self._exact_key(gc)])
+        self.assertIn(gc._MISMATCH_STAMP, cache[donor_key])
+
 
 if __name__ == "__main__":
     unittest.main()

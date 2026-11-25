@@ -67,7 +67,11 @@ API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 CACHE_VERSION = 3  # bumped for Places pipeline
 
 class GeocodeError(Exception):
-    pass
+    """A Google API failure; `status` is Google's status code when there was one."""
+
+    def __init__(self, message: str, status: str = ""):
+        super().__init__(message)
+        self.status = status
 
 # -----------------------
 # Query building
@@ -182,7 +186,7 @@ def places_text_search(query: str, api_key: str) -> Dict[str, Any]:
     if status in ("ZERO_RESULTS",):
         return {"results": []}
     msg = data.get("error_message") or status or "UNKNOWN"
-    raise GeocodeError(f"Places Text Search error: {msg}")
+    raise GeocodeError(f"Places Text Search error: {msg}", status)
 
 
 @retry(
@@ -206,7 +210,7 @@ def places_details(place_id: str, api_key: str) -> Optional[Dict[str, Any]]:
     if status in ("NOT_FOUND", "ZERO_RESULTS"):
         return None
     msg = data.get("error_message") or status or "UNKNOWN"
-    raise GeocodeError(f"Places Details error: {msg}")
+    raise GeocodeError(f"Places Details error: {msg}", status)
 
 
 # Optional, limited fallback to classic geocoder if Places fails
@@ -244,9 +248,9 @@ def geocode_google(query: str, api_key: str, region_bias: str = "") -> Optional[
         return None
     if status in ("OVER_QUERY_LIMIT", "REQUEST_DENIED", "INVALID_REQUEST", "UNKNOWN_ERROR"):
         msg = data.get("error_message") or status
-        raise GeocodeError(f"Google Geocoding error: {msg}")
+        raise GeocodeError(f"Google Geocoding error: {msg}", status)
     msg = data.get("error_message") or status or "UNKNOWN"
-    raise GeocodeError(f"Google Geocoding error: {msg}")
+    raise GeocodeError(f"Google Geocoding error: {msg}", status)
 
 
 # -----------------------
@@ -432,6 +436,20 @@ _location_compatible = address_location_compatible
 # Orchestration
 # -----------------------
 
+def _is_rejected_query(error: Exception) -> bool:
+    """True when Google rejected this one query, so repeating it cannot help.
+
+    Everything else (rate limits, timeouts, denied requests, server errors) may
+    clear up, and says nothing about whether the hotel can be found.
+    """
+    if getattr(error, "status", ""):
+        return error.status == "INVALID_REQUEST"
+    code = getattr(getattr(error, "response", None), "status_code", None)
+    if code is not None:
+        return code in (400, 404, 414)
+    return "INVALID_REQUEST" in str(error)
+
+
 def geocode_places_first(
     queries: List[str],
     brand: str,
@@ -441,7 +459,7 @@ def geocode_places_first(
 ) -> Tuple[Optional[Dict[str, Any]], str]:
     last = "NO_RESULT"
     last_err: Optional[str] = None
-    had_clean_empty = False
+    completed = False
 
     # Try location-qualified queries first. Each query is a billed Text Search,
     # and for an ambiguous name ("San Antonio", "Mason") the bare-name variants
@@ -486,15 +504,21 @@ def geocode_places_first(
             ):
                 return geo, f"GEOCODE:{q}"
             last = f"WEAK_OR_EMPTY:{q}"
-            had_clean_empty = True
+            completed = True
         except (GeocodeError, requests.RequestException) as e:
-            last = f"ERR:{e}"
-            last_err = last
+            if _is_rejected_query(e):
+                last = f"REJECTED_QUERY:{q}"
+            else:
+                last = f"ERR:{e}"
+                last_err = last
         finally:
             if base_delay > 0:
                 time.sleep(base_delay + random.uniform(0, base_delay * 0.25))
-    if last_err and had_clean_empty:
-        return None, f"PARTIAL_ERR:{last_err}"
+    # A query that could not run might have been the one to find the hotel, so
+    # any such failure outranks the empty results of the others. Every query
+    # being rejected points at the API rather than at this hotel.
+    if not last_err and not completed and last != "NO_RESULT":
+        last_err = f"ERR:{last}"
     return None, (last_err or last)
 
 
@@ -628,7 +652,8 @@ def main():
             is_no_result = isinstance(cached, dict) and cached.get("status") == "NO_RESULT"
             res = None if is_no_result else cached
             if is_no_result and _MISMATCH_STAMP in cached and _mismatch_recheck_due(cached):
-                # Stamped partial-error NO_RESULT whose recheck window elapsed.
+                # Stamped NO_RESULT whose recheck window elapsed. Entries written
+                # before NO_RESULT was stamped are left alone.
                 needs_geocode = True
                 status = "CACHED:NO_RESULT_RECHECK"
             else:
@@ -688,15 +713,18 @@ def main():
                 if candidate_valid:
                     res = candidate
                     status = "CACHED:RENAMED"
-                    # Persist under the new key so future runs hit it exactly.
-                    cache[cache_key] = cache[fuzzy_key]
+                    # Persist under the new key so future runs hit it exactly. The
+                    # donor's mismatch stamp is about its own key, so leave it behind.
+                    cache[cache_key] = {
+                        k: v for k, v in candidate.items()
+                        if k not in (_MISMATCH_STAMP, _MISMATCH_SELECTOR_V)
+                    }
                     save_cache(cache_path_obj, cache)
                 # else: fuzzy match is NO_RESULT or fails validation — fall through to geocode
 
             if res is None:
                 res, status = geocode_places_first(queries, brand, hotel, BASE_DELAY, hotel_location)
                 api_error = bool(status and status.startswith("ERR:"))
-                partial_error = bool(status and status.startswith("PARTIAL_ERR:"))
                 if res is None:
                     if api_error:
                         # Transient Google/network failure: never persist NO_RESULT
@@ -705,21 +733,6 @@ def main():
                         if stale_cached is not None:
                             res = stale_cached
                             status = f"CACHED:RETRY_ERR:{status}"
-                    elif partial_error:
-                        if stale_cached is not None:
-                            res = stale_cached
-                            status = f"CACHED:RETRY_ERR:{status}"
-                        else:
-                            # One query errored (e.g. INVALID_REQUEST) while other
-                            # queries completed cleanly with no result: store a
-                            # stamped NO_RESULT so the lookup is bounded instead of
-                            # repeating every night, yet still retries after the window.
-                            cache[cache_key] = {
-                                "status": "NO_RESULT",
-                                _MISMATCH_STAMP: time.time(),
-                                _MISMATCH_SELECTOR_V: SELECTOR_VERSION,
-                            }
-                            save_cache(cache_path_obj, cache)
                     elif stale_cached is not None and stale_reason == "TYPE_MISMATCH":
                         # Plausibly located pin failed only on place type and the
                         # retry found no replacement: retain and stamp the prior
@@ -732,7 +745,13 @@ def main():
                         cache[cache_key] = stamped
                         save_cache(cache_path_obj, cache)
                     else:
-                        cache[cache_key] = {"status": "NO_RESULT"}
+                        # Stamped so the hotel is tried again after the recheck
+                        # window instead of staying off the map for good.
+                        cache[cache_key] = {
+                            "status": "NO_RESULT",
+                            _MISMATCH_STAMP: time.time(),
+                            _MISMATCH_SELECTOR_V: SELECTOR_VERSION,
+                        }
                         save_cache(cache_path_obj, cache)
                 else:
                     to_store = res

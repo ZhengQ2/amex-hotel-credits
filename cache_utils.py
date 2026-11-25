@@ -85,8 +85,14 @@ _CHAR_TRANSLATIONS = str.maketrans({
     "ß": "ss",
     "æ": "ae", "Æ": "ae",
     "œ": "oe", "Œ": "oe",
+    # Letters NFKD leaves alone (Turkish dotless i, Maltese h-bar, Icelandic).
+    "ı": "i", "ħ": "h", "Ħ": "h", "þ": "th", "Þ": "th", "ð": "d", "Ð": "d",
+    # Apostrophe look-alikes, including the Hawaiian okina.
     "\u2018": "'", "\u2019": "'", "\u02bc": "'", "`": "'",
+    "\u02bb": "'", "\u02b9": "'", "\u2032": "'", "\u00b4": "'", "\u201b": "'",
     "\u2013": "-", "\u2014": "-",
+    # Must go before NFKD, which would expand them to "TM" / "SM".
+    "®": None, "™": None, "\u2120": None,
 })
 
 _NUM_WORDS: Dict[str, str] = {
@@ -140,6 +146,35 @@ _AFFILIATION_PATTERNS = [
     r"\bforbes\s+five\s+star\b",
 ]
 _AFFILIATION_RE = re.compile("|".join(_AFFILIATION_PATTERNS), re.IGNORECASE)
+
+# Consortium labels and descriptors that never identify a hotel, so they can be
+# dropped even when they come first ("Relais & Chateaux Villa Crespi").
+_CONSORTIUM_RE = re.compile(
+    r"relais|leading|small\s+luxury|design\s+hotels|preferred|worldhotels|"
+    r"adults?|inclusive|forbes|michelin|accor|savoy",
+    re.IGNORECASE,
+)
+
+
+def _strip_affiliations(s: str) -> str:
+    """Drop affiliation taglines, keeping a brand that starts the name.
+
+    "The Randolph Hotel Oxford, a Graduate by Hilton" loses its tagline, but
+    "Graduate by Hilton Princeton" and "Rosewood Hotel Georgia" keep theirs:
+    there the brand is the identity and only a place name would be left.
+    """
+    def replace(match: "re.Match[str]") -> str:
+        if _CONSORTIUM_RE.search(match.group(0)):
+            return " "
+        head = re.findall(r"[a-z0-9]+", s[:match.start()].lower())
+        if any(
+            t not in DEFAULT_GENERIC_TOKENS and t not in GENERIC_HOSPITALITY_TOKENS
+            for t in head
+        ):
+            return " "
+        return match.group(0)
+
+    return _AFFILIATION_RE.sub(replace, s)
 
 # Canonical country names for common spellings/aliases/constituent countries.
 _COUNTRY_ALIASES: Dict[str, str] = {
@@ -295,7 +330,12 @@ _STREET_SUFFIX_RE = re.compile(
     r"(?:\s+(?:n|s|e|w|ne|nw|se|sw|suite|ste|unit|#)\b.*)?$)",
     re.IGNORECASE,
 )
-_CN_STREET_WORD_RE = re.compile(r"\b(?:Lu|Jie|Dao)\b")
+# Anchored to the end so "Qing Dao Shi" (a city) is kept while "Shi Ji Da Dao" goes.
+_CN_STREET_WORD_RE = re.compile(r"\b(?:Lu|Jie|Dao)\s*$")
+_CN_ADMIN_SUFFIX_RE = re.compile(r"\s+(?:shi|qu)$")
+# "95131 Catania CT": postal code, town, province. Provinces such as CT and RO
+# would otherwise read as "Court" and the Korean "-ro".
+_IT_TOWN_SEG_RE = re.compile(r"^\d{5}\s+\S.*\s[A-Z]{2}$")
 _CN_PROVINCE_SEG_RE = re.compile(r"\bsheng\s*$", re.IGNORECASE)
 _CN_COUNTY_XIAN_RE = re.compile(r"(?<=[A-Za-z]\s)Xian\b")
 
@@ -325,8 +365,9 @@ def _clean_text(s: str) -> str:
     """Light display-preserving cleanup (retains accents for official names)."""
     if not s:
         return ""
+    # Before NFKC, which would expand the trademark sign to "TM".
+    s = s.replace("®", "").replace("™", "").replace("\u2120", "")
     s = unicodedata.normalize("NFKC", s)
-    s = s.replace("®", "").replace("™", "")
     s = s.replace("\u2013", "-").replace("\u2014", "-").replace("\u2019", "'")
     s = re.sub(r"\s+", " ", s).strip()
     return s
@@ -338,8 +379,7 @@ def fold_ascii(s: str) -> str:
         return ""
     s = s.translate(_CHAR_TRANSLATIONS)
     s = unicodedata.normalize("NFKD", s)
-    s = "".join(ch for ch in s if not unicodedata.combining(ch))
-    return s.replace("®", "").replace("™", "")
+    return "".join(ch for ch in s if not unicodedata.combining(ch))
 
 
 @lru_cache(maxsize=16384)
@@ -379,11 +419,14 @@ def _normalize_geo_text(s: str) -> str:
     s = re.sub(r"\bu\s+s\b", "us", s)
     s = re.sub(r"\busvi\b", "us virgin islands", s)
     s = re.sub(r"\bst\b", "saint", s)
+    # Keep the Australian state from expanding to "new south united kingdom".
+    s = re.sub(r"\bnew south wales\b", "nsw", s)
     for alias, canonical in _TEXT_COUNTRY_EXPANSIONS.items():
         s = re.sub(rf"\b{re.escape(alias)}\b", canonical, s)
     return re.sub(r"\s+", " ", s).strip()
 
 
+@lru_cache(maxsize=16384)
 def normalize_location_parts(loc: str) -> Tuple[str, str, str]:
     """Parse scraped hotel_location into (city, region, canonical_country).
 
@@ -511,12 +554,14 @@ def _extract_subregion_from_address(formatted_address: str) -> str:
     """Extract US state / Canadian province 2-letter code from Google formatted_address."""
     if not formatted_address:
         return ""
-    # Matches ", FL 33040, USA", ", CA, USA", ", QC G1R 5J5, Canada", etc.
+    # Matches ", FL 33040, USA", ", CA, USA", ", QC G1R 5J5, Canada", etc. The
+    # state comes last, after any direction such as ", NE," that looks like one.
+    found = ""
     for match in re.finditer(r",\s*([A-Z]{2})(?:\s+[A-Z0-9][A-Z0-9 -]*)?(?=,|$)", formatted_address):
         code = match.group(1).lower()
         if code in _VALID_SUBREGION_CODES:
-            return code
-    return ""
+            found = code
+    return found
 
 
 def address_location_compatible(formatted_address: str, hotel_location: str) -> bool:
@@ -527,8 +572,10 @@ def address_location_compatible(formatted_address: str, hotel_location: str) -> 
     if not loc_country:
         return True
     addr_norm = _normalize_geo_text(formatted_address)
-    country_ok = loc_country in addr_norm or (
-        loc_country == "china" and ("hong kong" in addr_norm or "macao" in addr_norm)
+    # Whole words only: Dominica is not the Dominican Republic, nor Oman Romania.
+    country_ok = _haystack_has_phrase(addr_norm, loc_country) or (
+        loc_country == "china"
+        and (_haystack_has_phrase(addr_norm, "hong kong") or _haystack_has_phrase(addr_norm, "macao"))
     )
     if not country_ok:
         return False
@@ -566,37 +613,49 @@ def _haystack_has_phrase(haystack: str, phrase: str) -> bool:
     return re.search(rf"(?:^| ){re.escape(phrase)}(?: |$)", haystack) is not None
 
 
-def _is_street_segment(seg: str, *, is_first: bool = False) -> bool:
-    """Return True when an address segment is a street/road line rather than a locality."""
+def _street_kind(seg: str, *, is_first: bool = False, country: str = "") -> str:
+    """Classify a segment as a street ("road"), a bare house number, or neither ("")."""
     folded = fold_ascii(seg).strip()
     if not folded or _POSTAL_HYPHEN_PREFIX_RE.search(folded):
-        return False
-    if (
-        _STREET_PREFIX_RE.search(folded)
-        or _STREET_SUFFIX_RE.search(folded)
-        or _CN_STREET_WORD_RE.search(folded)
-    ):
-        return True
+        return ""
+    if country == "italy" and _IT_TOWN_SEG_RE.match(folded):
+        return ""
+    if _STREET_PREFIX_RE.search(folded) or _STREET_SUFFIX_RE.search(folded):
+        return "road"
+    if country == "china" and _CN_STREET_WORD_RE.search(folded):
+        return "road"
     if is_first and _LEADING_HOUSE_NUM_RE.search(folded):
-        return True
-    return False
+        return "house_number"
+    return ""
 
 
-def _address_locality_text(formatted_address: str) -> str:
-    """Extract only the locality segments of a Google formatted_address.
+def _segment_name(seg: str, country: str) -> str:
+    """Normalize one address segment to the bare place name it contains."""
+    name = " ".join(t for t in normalize_name(seg).split() if not any(c.isdigit() for c in t))
+    if country == "italy" and _IT_TOWN_SEG_RE.match(fold_ascii(seg).strip()):
+        name = name.rsplit(" ", 1)[0]
+    if country == "china":
+        name = _CN_ADMIN_SUFFIX_RE.sub("", name)
+    return name
 
-    Drops street-address segments anywhere in the address (e.g. 'Corso Venezia',
+
+@lru_cache(maxsize=32768)
+def _parse_address_locality(formatted_address: str) -> Tuple[str, FrozenSet[str]]:
+    """Return (locality text, exact segment names) for a Google formatted_address.
+
+    The text drops street segments anywhere in the address (e.g. 'Corso Venezia',
     'Via Roma', 'C. de Sevilla', 'Oxford St', '300 S Doheny Dr'), trailing
     country/postal-only segments, Chinese province segments ('... Sheng'), and
     US/CA state+zip segments (e.g. 'NY 14202'), while preserving first-segment
     cities such as 'Adare, Co. Limerick, V94 W8WR, Ireland' and
-    'St. Helena, CA 94574, USA'.
+    'St. Helena, CA 94574, USA'. The names let a town whose own name reads like a
+    street ('Federal Way', 'Terrace') match when it is the whole segment.
     """
     if not formatted_address:
-        return ""
+        return "", frozenset()
     parts = [p.strip() for p in re.split(r"\s*[,،]\s*|\s+-\s+", formatted_address) if p.strip()]
     if not parts:
-        return ""
+        return "", frozenset()
 
     # Strip trailing pure-numeric postal segments (e.g. "... China, 710065").
     while len(parts) > 1 and re.fullmatch(r"[\d\s-]+", parts[-1]):
@@ -605,15 +664,16 @@ def _address_locality_text(formatted_address: str) -> str:
     # Drop the trailing country segment when multiple segments exist, unless
     # the trailing segment is a city-state / SAR (e.g. "Hong Kong", "Singapore")
     # or contains a glued postal code + locality (e.g. "Saint James BB24024Barbados").
+    country = _normalize_geo_text(parts[-1])
     if (
         len(parts) >= 2
         and not re.search(r"\d", parts[-1])
-        and _normalize_geo_text(parts[-1]) not in _CITY_STATE_NAMES
+        and country not in _CITY_STATE_NAMES
     ):
         parts = parts[:-1]
 
     # Filter out bare US/CA state+postal segments, pure house-number segments,
-    # Chinese province segments, and street segments anywhere in the address.
+    # and Chinese province segments.
     non_meta: List[str] = []
     for seg in parts:
         if re.fullmatch(r"[\d\s-]+", seg):
@@ -625,14 +685,30 @@ def _address_locality_text(formatted_address: str) -> str:
             continue
         non_meta.append(seg)
 
-    locality_parts = [
-        seg for idx, seg in enumerate(non_meta)
-        if not _is_street_segment(seg, is_first=(idx == 0))
+    kinds = [
+        _street_kind(seg, is_first=(idx == 0), country=country)
+        for idx, seg in enumerate(non_meta)
     ]
+    locality_parts = [seg for seg, kind in zip(non_meta, kinds) if not kind]
+    if not locality_parts:
+        # A house number on the only segment is no reason to lose the city
+        # ("279 Tambon Nongtalay ... Krabi 81180, Thailand").
+        locality_parts = [seg for seg, kind in zip(non_meta, kinds) if kind == "house_number"]
     # Strip trailing Chinese administrative county word "Xian" (e.g.
     # "Jiu Zhai Gou Xian" in Sichuan) so it never collides with Xi'an city.
     cleaned = [_CN_COUNTY_XIAN_RE.sub("", seg).strip() for seg in locality_parts]
-    return normalize_name(" ".join(c for c in cleaned if c))
+    text = normalize_name(" ".join(c for c in cleaned if c))
+    # A numbered street is never a town: "22-28 Broadway" is not Broadway.
+    names = frozenset(
+        name for seg, kind in zip(non_meta, kinds)
+        if not (kind and any(c.isdigit() for c in seg)) and (name := _segment_name(seg, country))
+    )
+    return text, names
+
+
+def _address_locality_text(formatted_address: str) -> str:
+    """Return only the locality text of a Google formatted_address."""
+    return _parse_address_locality(formatted_address)[0]
 
 
 def _same_normalized_hotel_and_location(
@@ -687,10 +763,15 @@ def _candidate_city_compatible(
 
     needles = _city_needles(city, region=region, country=country)
     if formatted_address:
-        locality = _address_locality_text(formatted_address)
-        if not locality:
-            return False
-        return any(_haystack_has_phrase(locality, needle) for needle in needles)
+        if city == country:
+            # The place is its own country (Saint Barthelemy, Monaco), which the
+            # caller's country check already covers.
+            return True
+        locality, segment_names = _parse_address_locality(formatted_address)
+        return any(
+            needle in segment_names or _haystack_has_phrase(locality, needle)
+            for needle in needles
+        )
 
     # No formatted_address available: fall back to cached queries.
     query_text = normalize_name(" ".join(queries or ()))
@@ -708,7 +789,7 @@ def _core_name_tokens_cached(
     s = re.sub(r"\bd\.\s*c\.?", "dc", s)
     s = re.sub(r"\b[dl]'(?=[a-z]{3,})", "", s)
     s = re.sub(r"'", "", s)
-    s = _AFFILIATION_RE.sub(" ", s)
+    s = _strip_affiliations(s)
     s = re.sub(r"\bst\.?\b", "saint", s)
     toks: List[str] = []
     for tok in re.findall(r"[a-z0-9]+", s):
@@ -734,6 +815,25 @@ def core_name_tokens(
 ) -> List[str]:
     """Extract ordered identity tokens after stripping diacritics and affiliation taglines."""
     return list(_core_name_tokens_cached(name, generic_tokens))
+
+
+def identity_words_agree(left: str, right: str) -> bool:
+    """Return False when two names each have a word the other lacks.
+
+    Used when the core tokens are only a place name, where "hotel" or "inn" is
+    the only thing telling "Hotel Chicago" from "The Chicago Inn". A word on one
+    side alone is fine ("Lizard Island" and "Lizard Island Resort"). Articles,
+    taglines and plurals are ignored.
+    """
+    def words(name: str) -> Set[str]:
+        return {
+            t[:-1] if len(t) > 3 and t.endswith("s") and not t.endswith("ss") else t
+            for t in _strip_affiliations_norm(name).split()
+            if t not in DEFAULT_GENERIC_TOKENS
+        }
+
+    left_words, right_words = words(left), words(right)
+    return left_words <= right_words or right_words <= left_words
 
 
 def align_compound_tokens(
@@ -845,8 +945,11 @@ def _match_quality_once(
     if not lt or not rt:
         return None
 
-    # Exact core match after stripping affiliation taglines (no location stripping needed).
-    if lt == rt:
+    loc_toks = set(normalize_name(hotel_location).split()) if hotel_location else set()
+
+    # Exact core match after stripping affiliation taglines (no location stripping
+    # needed). A core made only of location words does not identify a hotel.
+    if lt == rt and (not loc_toks or lt - loc_toks or identity_words_agree(left, right)):
         return (2, len(lt), 1, 0, -abs(len(l_norm) - len(r_norm)))
 
     # Allow ignoring tokens from hotel_location ONLY when EVERY differing token
@@ -855,12 +958,12 @@ def _match_quality_once(
     # "San Sebastián, Spain"), and never before subset/overlap matching —
     # otherwise stripping "austin" from "Four Seasons Hotel Austin" would turn
     # it into a subset of "Four Seasons Hotel Houston".
-    loc_toks = set(normalize_name(hotel_location).split()) if hotel_location else set()
     sym_diff = lt ^ rt
-    if loc_toks and sym_diff.issubset(loc_toks):
+    if loc_toks and sym_diff and sym_diff.issubset(loc_toks):
         shared_core = lt & rt
         candidate_confirms_city = bool(rt - lt) or location_confirmed
-        if shared_core and candidate_confirms_city:
+        identifies = bool(shared_core - loc_toks) or identity_words_agree(left, right)
+        if shared_core and identifies and candidate_confirms_city:
             return (2, len(shared_core), 1, -len(sym_diff), -abs(len(l_norm) - len(r_norm)))
 
     if not allow_subset:
@@ -1142,7 +1245,7 @@ def _strip_affiliations_norm(name: str) -> str:
     s = re.sub(r"\bd\.\s*c\.?", "dc", s)
     s = re.sub(r"\b[dl]'(?=[a-z]{3,})", "", s)
     s = re.sub(r"'", "", s)
-    s = _AFFILIATION_RE.sub(" ", s)
+    s = _strip_affiliations(s)
     s = re.sub(r"\bst\.?\b", "saint", s)
     s = re.sub(r"[^a-z0-9]+", " ", s)
     return re.sub(r"\s+", " ", s).strip()
@@ -1209,8 +1312,8 @@ def is_cached_hotel_in_scraped(
 
     For non-programme scopes (Hilton brands), also checks exact normalized and
     exact core-identity matches across other brands in scraped_index so a hotel
-    switching Hilton brands (e.g. Curio -> LXR) retains its old cache entry
-    until geocoding reuses it.
+    switching Hilton brands (e.g. Curio -> LXR) keeps its old cache entry for
+    geocoding to reuse. The entry stays for as long as the hotel is listed.
     """
     name = _clean_text(cached_name).lower()
     sk = _normalize_scope(scope_key)
