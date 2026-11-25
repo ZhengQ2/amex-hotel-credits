@@ -855,48 +855,6 @@
       "website": "https://www.hilton.com/en/hotels/bctbuqq-waterstone-resort-and-marina-boca-raton/?SEO_id=GMB-AMER-QQ-BCTBUQQ&y_source=1_MTM3MjU1Mi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
-  "{\"brand\": \"DoubleTree by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton DoubleTree by Hilton Hotel\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton DoubleTree by Hilton Resort\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton DoubleTree by Hilton\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Hilton Hotel\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Hilton Resort\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Hilton\", \"fllbmdt bahia mar fort lauderdale beach DoubleTree by Hilton Hotel\", \"fllbmdt bahia mar fort lauderdale beach DoubleTree by Hilton Resort\", \"fllbmdt bahia mar fort lauderdale beach DoubleTree by Hilton\", \"fllbmdt bahia mar fort lauderdale beach Hilton Hotel\", \"fllbmdt bahia mar fort lauderdale beach Hilton Resort\", \"fllbmdt bahia mar fort lauderdale beach Hilton\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Hotel\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Resort\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton\"], \"v\": 3}": {
-    "lat": 26.113539,
-    "lon": -80.10620399999999,
-    "formatted_address": "801 Seabreeze Blvd, Fort Lauderdale, FL 33316, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJq81qhSUA2YgRMsuB_GK00j0",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "801 Seabreeze Blvd, Fort Lauderdale, FL 33316, USA",
-      "geometry": {
-        "location": {
-          "lat": 26.113539,
-          "lng": -80.10620399999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 26.1147814302915,
-            "lng": -80.10484721970849
-          },
-          "southwest": {
-            "lat": 26.1120834697085,
-            "lng": -80.1075451802915
-          }
-        }
-      },
-      "name": "Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Hotel",
-      "place_id": "ChIJq81qhSUA2YgRMsuB_GK00j0",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hilton.com/en/hotels/fllbmdt-bahia-mar-fort-lauderdale-beach/?SEO_id=GMB-AMER-DT-FLLBMDT&y_source=1_MTM3Mjc1OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
-    }
-  },
   "{\"brand\": \"DoubleTree by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"DoubleTree Beach Resort by Hilton Tampa Bay - North Redington Beach DoubleTree by Hilton Hotel\", \"DoubleTree Beach Resort by Hilton Tampa Bay - North Redington Beach DoubleTree by Hilton Resort\", \"DoubleTree Beach Resort by Hilton Tampa Bay - North Redington Beach DoubleTree by Hilton\", \"DoubleTree Beach Resort by Hilton Tampa Bay - North Redington Beach Hilton Hotel\", \"DoubleTree Beach Resort by Hilton Tampa Bay - North Redington Beach Hilton Resort\", \"DoubleTree Beach Resort by Hilton Tampa Bay - North Redington Beach Hilton\", \"nornhdt doubletree beach resort tampa bay north redington beach DoubleTree by Hilton Hotel\", \"nornhdt doubletree beach resort tampa bay north redington beach DoubleTree by Hilton Resort\", \"nornhdt doubletree beach resort tampa bay north redington beach DoubleTree by Hilton\", \"nornhdt doubletree beach resort tampa bay north redington beach Hilton Hotel\", \"nornhdt doubletree beach resort tampa bay north redington beach Hilton Resort\", \"nornhdt doubletree beach resort tampa bay north redington beach Hilton\", \"DoubleTree Beach Resort by Hilton Tampa Bay - North Redington Beach Hotel\", \"DoubleTree Beach Resort by Hilton Tampa Bay - North Redington Beach Resort\", \"DoubleTree Beach Resort by Hilton Tampa Bay - North Redington Beach\"], \"v\": 3}": {
     "lat": 27.8195316,
     "lon": -82.8255981,
@@ -2387,48 +2345,6 @@
         "point_of_interest"
       ],
       "website": "https://www.hilton.com/en/hotels/mztdtdt-doubletree-mazatlan/?SEO_id=GMB-AMER-DT-MZTDTDT&y_source=1_MTc5OTc4NTItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
-    }
-  },
-  "{\"brand\": \"DoubleTree by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Naniloa Hotel Hilo - a DoubleTree by Hilton DoubleTree by Hilton Hotel\", \"Grand Naniloa Hotel Hilo - a DoubleTree by Hilton DoubleTree by Hilton Resort\", \"Grand Naniloa Hotel Hilo - a DoubleTree by Hilton DoubleTree by Hilton\", \"Grand Naniloa Hotel Hilo - a DoubleTree by Hilton Hilton Hotel\", \"Grand Naniloa Hotel Hilo - a DoubleTree by Hilton Hilton Resort\", \"Grand Naniloa Hotel Hilo - a DoubleTree by Hilton Hilton\", \"itohndt grand naniloa hotel hilo DoubleTree by Hilton Hotel\", \"itohndt grand naniloa hotel hilo DoubleTree by Hilton Resort\", \"itohndt grand naniloa hotel hilo DoubleTree by Hilton\", \"itohndt grand naniloa hotel hilo Hilton Hotel\", \"itohndt grand naniloa hotel hilo Hilton Resort\", \"itohndt grand naniloa hotel hilo Hilton\", \"Grand Naniloa Hotel Hilo - a DoubleTree by Hilton Hotel\", \"Grand Naniloa Hotel Hilo - a DoubleTree by Hilton Resort\", \"Grand Naniloa Hotel Hilo - a DoubleTree by Hilton\"], \"v\": 3}": {
-    "lat": 19.7295945,
-    "lon": -155.064893,
-    "formatted_address": "93 Banyan Dr, Hilo, HI 96720, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJKWsHxptMUnkRxi4I8Z41mxQ",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "93 Banyan Dr, Hilo, HI 96720, USA",
-      "geometry": {
-        "location": {
-          "lat": 19.7295945,
-          "lng": -155.064893
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 19.7305916302915,
-            "lng": -155.0635802197085
-          },
-          "southwest": {
-            "lat": 19.7278936697085,
-            "lng": -155.0662781802915
-          }
-        }
-      },
-      "name": "Grand Naniloa Hotel Hilo - a DoubleTree by Hilton",
-      "place_id": "ChIJKWsHxptMUnkRxi4I8Z41mxQ",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.hilton.com/en/hotels/itohndt-grand-naniloa-hotel-hilo/?SEO_id=GMB-AMER-DT-ITOHNDT&y_source=1_MzgzNTk5OC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"Embassy Suites by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Embassy Suites St Augustine Beach Oceanfront Resort Embassy Suites by Hilton Hotel\", \"Embassy Suites St Augustine Beach Oceanfront Resort Embassy Suites by Hilton Resort\", \"Embassy Suites St Augustine Beach Oceanfront Resort Embassy Suites by Hilton\", \"Embassy Suites St Augustine Beach Oceanfront Resort Hilton Hotel\", \"Embassy Suites St Augustine Beach Oceanfront Resort Hilton Resort\", \"Embassy Suites St Augustine Beach Oceanfront Resort Hilton\", \"ustboes embassy suites st augustine beach oceanfront resort Embassy Suites by Hilton Hotel\", \"ustboes embassy suites st augustine beach oceanfront resort Embassy Suites by Hilton Resort\", \"ustboes embassy suites st augustine beach oceanfront resort Embassy Suites by Hilton\", \"ustboes embassy suites st augustine beach oceanfront resort Hilton Hotel\", \"ustboes embassy suites st augustine beach oceanfront resort Hilton Resort\", \"ustboes embassy suites st augustine beach oceanfront resort Hilton\", \"Embassy Suites St Augustine Beach Oceanfront Resort Hotel\", \"Embassy Suites St Augustine Beach Oceanfront Resort Resort\", \"Embassy Suites St Augustine Beach Oceanfront Resort\"], \"v\": 3}": {
@@ -11643,45 +11559,45 @@
     }
   },
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Cloudland at McLemore Resort Lookout Mountain, Curio\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Cloudland at McLemore Resort Lookout Mountain, Curio Curio Collection by Hilton Hotel\", \"Cloudland at McLemore Resort Lookout Mountain, Curio Curio Collection by Hilton Resort\", \"Cloudland at McLemore Resort Lookout Mountain, Curio Curio Collection by Hilton\", \"Cloudland at McLemore Resort Lookout Mountain, Curio Hilton Hotel\", \"Cloudland at McLemore Resort Lookout Mountain, Curio Hilton Resort\", \"Cloudland at McLemore Resort Lookout Mountain, Curio Hilton\", \"atlokqq cloudland mclemore resort lookout mountain Curio Collection by Hilton Hotel\", \"atlokqq cloudland mclemore resort lookout mountain Curio Collection by Hilton Resort\", \"atlokqq cloudland mclemore resort lookout mountain Curio Collection by Hilton\", \"atlokqq cloudland mclemore resort lookout mountain Hilton Hotel\", \"atlokqq cloudland mclemore resort lookout mountain Hilton Resort\", \"atlokqq cloudland mclemore resort lookout mountain Hilton\", \"Cloudland at McLemore Resort Lookout Mountain, Curio Hotel\", \"Cloudland at McLemore Resort Lookout Mountain, Curio Resort\", \"Cloudland at McLemore Resort Lookout Mountain, Curio\"], \"v\": 3}": {
-    "lat": 34.7408232,
-    "lon": -85.4464091,
-    "formatted_address": "32 Clubhouse Lane, Rising Fawn, GA 30738, USA",
+    "lat": 34.7391923,
+    "lon": -85.4451267,
+    "formatted_address": "243 Cloudland Dr, Rising Fawn, GA 30738, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJhbUk3oQ3YIgRTWvI6d4VcvM",
+    "place_id": "ChIJmUoQOEA3YIgRaE5OX4dEm-o",
     "types": [
       "establishment",
-      "point_of_interest",
-      "store"
+      "lodging",
+      "point_of_interest"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "32 Clubhouse Lane, Rising Fawn, GA 30738, USA",
+      "formatted_address": "243 Cloudland Dr, Rising Fawn, GA 30738, USA",
       "geometry": {
         "location": {
-          "lat": 34.7408232,
-          "lng": -85.4464091
+          "lat": 34.7391923,
+          "lng": -85.4451267
         },
         "viewport": {
           "northeast": {
-            "lat": 34.74217403029149,
-            "lng": -85.4450599697085
+            "lat": 34.7402905802915,
+            "lng": -85.4442442197085
           },
           "southwest": {
-            "lat": 34.73947606970849,
-            "lng": -85.4477579302915
+            "lat": 34.7375926197085,
+            "lng": -85.44694218029152
           }
         }
       },
-      "name": "McLemore Resort",
-      "place_id": "ChIJhbUk3oQ3YIgRTWvI6d4VcvM",
+      "name": "Cloudland at McLemore Resort Lookout Mountain, Curio by Hilton",
+      "place_id": "ChIJmUoQOEA3YIgRaE5OX4dEm-o",
       "types": [
         "establishment",
-        "point_of_interest",
-        "store"
+        "lodging",
+        "point_of_interest"
       ],
-      "website": "http://www.mclemoreresort.com/"
+      "website": "https://www.hilton.com/en/hotels/atlokqq-cloudland-at-mclemore-resort-lookout-mountain/?SEO_id=GMB-AMER-QQ-ATLOKQQ"
     }
   },
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Domes Aulus Elounda Resort, Curio by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Domes Aulus Elounda Resort, Curio by Hilton Curio Collection by Hilton Hotel\", \"Domes Aulus Elounda Resort, Curio by Hilton Curio Collection by Hilton Resort\", \"Domes Aulus Elounda Resort, Curio by Hilton Curio Collection by Hilton\", \"Domes Aulus Elounda Resort, Curio by Hilton Hilton Hotel\", \"Domes Aulus Elounda Resort, Curio by Hilton Hilton Resort\", \"Domes Aulus Elounda Resort, Curio by Hilton Hilton\", \"herbsqq domes aulus elounda resort Curio Collection by Hilton Hotel\", \"herbsqq domes aulus elounda resort Curio Collection by Hilton Resort\", \"herbsqq domes aulus elounda resort Curio Collection by Hilton\", \"herbsqq domes aulus elounda resort Hilton Hotel\", \"herbsqq domes aulus elounda resort Hilton Resort\", \"herbsqq domes aulus elounda resort Hilton\", \"Domes Aulus Elounda Resort, Curio by Hilton Hotel\", \"Domes Aulus Elounda Resort, Curio by Hilton Resort\", \"Domes Aulus Elounda Resort, Curio by Hilton\"], \"v\": 3}": {
@@ -11813,43 +11729,47 @@
     }
   },
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Grand Hotel des Sablettes Plage, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Hotel des Sablettes Plage, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"Grand Hotel des Sablettes Plage, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"Grand Hotel des Sablettes Plage, Curio Collection by Hilton Curio Collection by Hilton\", \"Grand Hotel des Sablettes Plage, Curio Collection by Hilton Hilton Hotel\", \"Grand Hotel des Sablettes Plage, Curio Collection by Hilton Hilton Resort\", \"Grand Hotel des Sablettes Plage, Curio Collection by Hilton Hilton\", \"tlnspqq grand hotel des sablettes plage Curio Collection by Hilton Hotel\", \"tlnspqq grand hotel des sablettes plage Curio Collection by Hilton Resort\", \"tlnspqq grand hotel des sablettes plage Curio Collection by Hilton\", \"tlnspqq grand hotel des sablettes plage Hilton Hotel\", \"tlnspqq grand hotel des sablettes plage Hilton Resort\", \"tlnspqq grand hotel des sablettes plage Hilton\", \"Grand Hotel des Sablettes Plage, Curio Collection by Hilton Hotel\", \"Grand Hotel des Sablettes Plage, Curio Collection by Hilton Resort\", \"Grand Hotel des Sablettes Plage, Curio Collection by Hilton\"], \"v\": 3}": {
-    "lat": 43.0786544,
-    "lon": 5.8949188,
-    "formatted_address": "Sablettes Beach, France",
+    "lat": 43.07875749999999,
+    "lon": 5.8916996,
+    "formatted_address": "575 Av. Charles de Gaulle, 83500 La Seyne-sur-Mer, France",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJzeENOzQDyRIRUXJoaJoKev8",
+    "place_id": "ChIJMUA3-DUDyRIR7QqxUQtrD4s",
     "types": [
       "establishment",
-      "natural_feature"
+      "lodging",
+      "point_of_interest",
+      "spa"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Sablettes Beach, France",
+      "formatted_address": "575 Av. Charles de Gaulle, 83500 La Seyne-sur-Mer, France",
       "geometry": {
         "location": {
-          "lat": 43.0786544,
-          "lng": 5.8949188
+          "lat": 43.07875749999999,
+          "lng": 5.8916996
         },
         "viewport": {
           "northeast": {
-            "lat": 43.079154709112,
-            "lng": 5.899478424084761
+            "lat": 43.0803128302915,
+            "lng": 5.893402530291501
           },
           "southwest": {
-            "lat": 43.076456748529,
-            "lng": 5.886131724052229
+            "lat": 43.0776148697085,
+            "lng": 5.890704569708498
           }
         }
       },
-      "name": "Sablettes Beach",
-      "place_id": "ChIJzeENOzQDyRIRUXJoaJoKev8",
+      "name": "Grand Hotel des Sablettes Plage, Curio Collection by Hilton",
+      "place_id": "ChIJMUA3-DUDyRIR7QqxUQtrD4s",
       "types": [
         "establishment",
-        "natural_feature"
+        "lodging",
+        "point_of_interest",
+        "spa"
       ],
-      "website": "http://sablettes.info/"
+      "website": "https://www.hilton.com/en/hotels/tlnspqq-grand-hotel-des-sablettes-plage/?SEO_id=GMB-EMEA-QQ-TLNSPQQ"
     }
   },
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Harbor Club St. Lucia, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Harbor Club St. Lucia, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"Harbor Club St. Lucia, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"Harbor Club St. Lucia, Curio Collection by Hilton Curio Collection by Hilton\", \"Harbor Club St. Lucia, Curio Collection by Hilton Hilton Hotel\", \"Harbor Club St. Lucia, Curio Collection by Hilton Hilton Resort\", \"Harbor Club St. Lucia, Curio Collection by Hilton Hilton\", \"sluhcqq harbor club st lucia Curio Collection by Hilton Hotel\", \"sluhcqq harbor club st lucia Curio Collection by Hilton Resort\", \"sluhcqq harbor club st lucia Curio Collection by Hilton\", \"sluhcqq harbor club st lucia Hilton Hotel\", \"sluhcqq harbor club st lucia Hilton Resort\", \"sluhcqq harbor club st lucia Hilton\", \"Harbor Club St. Lucia, Curio Collection by Hilton Hotel\", \"Harbor Club St. Lucia, Curio Collection by Hilton Resort\", \"Harbor Club St. Lucia, Curio Collection by Hilton\"], \"v\": 3}": {
