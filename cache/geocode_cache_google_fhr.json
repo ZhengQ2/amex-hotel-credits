@@ -43564,48 +43564,6 @@
       "website": "http://www.shangri-la.com/fort"
     }
   },
-  "{\"brand\": \"Shangri-La Hotels and Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Shangri la Far Eastern Plaza Shangri-La Hotels and Resorts Hotel\", \"Shangri la Far Eastern Plaza Shangri-La Hotels and Resorts Resort\", \"Shangri la Far Eastern Plaza Shangri-La Hotels and Resorts\", \"Shangri la Far Eastern Plaza Shangri-La Hotels and Resorts Taipei, Taiwan Hotel\", \"Shangri la Far Eastern Plaza Shangri-La Hotels and Resorts Taipei, Taiwan Resort\", \"Shangri la Far Eastern Plaza Shangri-La Hotels and Resorts Taipei, Taiwan\", \"Shangri la Far Eastern Plaza Hilton Hotel\", \"Shangri la Far Eastern Plaza Hilton Resort\", \"Shangri la Far Eastern Plaza Hilton\", \"Shangri la Far Eastern Plaza Hilton Taipei, Taiwan Hotel\", \"Shangri la Far Eastern Plaza Hilton Taipei, Taiwan Resort\", \"Shangri la Far Eastern Plaza Hilton Taipei, Taiwan\", \"Shangri-La Far Eastern Plaza Shangri-La Hotels and Resorts Hotel\", \"Shangri-La Far Eastern Plaza Shangri-La Hotels and Resorts Resort\", \"Shangri-La Far Eastern Plaza Shangri-La Hotels and Resorts\", \"Shangri-La Far Eastern Plaza Shangri-La Hotels and Resorts Taipei, Taiwan Hotel\", \"Shangri-La Far Eastern Plaza Shangri-La Hotels and Resorts Taipei, Taiwan Resort\", \"Shangri-La Far Eastern Plaza Shangri-La Hotels and Resorts Taipei, Taiwan\", \"Shangri-La Far Eastern Plaza Hilton Hotel\", \"Shangri-La Far Eastern Plaza Hilton Resort\", \"Shangri-La Far Eastern Plaza Hilton\", \"Shangri-La Far Eastern Plaza Hilton Taipei, Taiwan Hotel\", \"Shangri-La Far Eastern Plaza Hilton Taipei, Taiwan Resort\", \"Shangri-La Far Eastern Plaza Hilton Taipei, Taiwan\", \"Shangri-La Far Eastern Plaza Hotel\", \"Shangri-La Far Eastern Plaza Resort\", \"Shangri-La Far Eastern Plaza\", \"Shangri-La Far Eastern Plaza Taipei, Taiwan Hotel\", \"Shangri-La Far Eastern Plaza Taipei, Taiwan Resort\", \"Shangri-La Far Eastern Plaza Taipei, Taiwan\"], \"v\": 3}": {
-    "lat": 25.0262249,
-    "lon": 121.5496904,
-    "formatted_address": "No. 201號, Section 2, Dunhua S Rd, Da’an District, Taipei City, Taiwan 10675",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJeUp8ZTKqQjQRG274UZw34LQ",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "No. 201號, Section 2, Dunhua S Rd, Da’an District, Taipei City, Taiwan 10675",
-      "geometry": {
-        "location": {
-          "lat": 25.0262249,
-          "lng": 121.5496904
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.0278904802915,
-            "lng": 121.5506820302915
-          },
-          "southwest": {
-            "lat": 25.0251925197085,
-            "lng": 121.5479840697085
-          }
-        }
-      },
-      "name": "Shangri-La Far Eastern, Taipei",
-      "place_id": "ChIJeUp8ZTKqQjQRG274UZw34LQ",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://tpe.fareasternhotel.com.tw/tc/"
-    }
-  },
   "{\"brand\": \"Shangri-La Hotels and Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Shangri la Tokyo Shangri-La Hotels and Resorts Hotel\", \"Shangri la Tokyo Shangri-La Hotels and Resorts Resort\", \"Shangri la Tokyo Shangri-La Hotels and Resorts\", \"Shangri la Tokyo Shangri-La Hotels and Resorts Tokyo, Japan Hotel\", \"Shangri la Tokyo Shangri-La Hotels and Resorts Tokyo, Japan Resort\", \"Shangri la Tokyo Shangri-La Hotels and Resorts Tokyo, Japan\", \"Shangri la Tokyo Hilton Hotel\", \"Shangri la Tokyo Hilton Resort\", \"Shangri la Tokyo Hilton\", \"Shangri la Tokyo Hilton Tokyo, Japan Hotel\", \"Shangri la Tokyo Hilton Tokyo, Japan Resort\", \"Shangri la Tokyo Hilton Tokyo, Japan\", \"Shangri-La Tokyo Shangri-La Hotels and Resorts Hotel\", \"Shangri-La Tokyo Shangri-La Hotels and Resorts Resort\", \"Shangri-La Tokyo Shangri-La Hotels and Resorts\", \"Shangri-La Tokyo Shangri-La Hotels and Resorts Tokyo, Japan Hotel\", \"Shangri-La Tokyo Shangri-La Hotels and Resorts Tokyo, Japan Resort\", \"Shangri-La Tokyo Shangri-La Hotels and Resorts Tokyo, Japan\", \"Shangri-La Tokyo Hilton Hotel\", \"Shangri-La Tokyo Hilton Resort\", \"Shangri-La Tokyo Hilton\", \"Shangri-La Tokyo Hilton Tokyo, Japan Hotel\", \"Shangri-La Tokyo Hilton Tokyo, Japan Resort\", \"Shangri-La Tokyo Hilton Tokyo, Japan\", \"Shangri-La Tokyo Hotel\", \"Shangri-La Tokyo Resort\", \"Shangri-La Tokyo\", \"Shangri-La Tokyo Tokyo, Japan Hotel\", \"Shangri-La Tokyo Tokyo, Japan Resort\", \"Shangri-La Tokyo Tokyo, Japan\"], \"v\": 3}": {
     "lat": 35.6824303,
     "lon": 139.7693827,
@@ -65206,48 +65164,6 @@
       "website": "https://www.marriott.com/en-us/hotels/melwh-w-melbourne/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"W Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W South Beach W Hotels Hotel\", \"W South Beach W Hotels Resort\", \"W South Beach W Hotels\", \"W South Beach W Hotels Miami Beach, Florida US Hotel\", \"W South Beach W Hotels Miami Beach, Florida US Resort\", \"W South Beach W Hotels Miami Beach, Florida US\", \"W South Beach Hilton Hotel\", \"W South Beach Hilton Resort\", \"W South Beach Hilton\", \"W South Beach Hilton Miami Beach, Florida US Hotel\", \"W South Beach Hilton Miami Beach, Florida US Resort\", \"W South Beach Hilton Miami Beach, Florida US\", \"W South Beach Hotel\", \"W South Beach Resort\", \"W South Beach\", \"W South Beach Miami Beach, Florida US Hotel\", \"W South Beach Miami Beach, Florida US Resort\", \"W South Beach Miami Beach, Florida US\"], \"v\": 3}": {
-    "lat": 25.7973813,
-    "lon": -80.1271903,
-    "formatted_address": "2201 Collins Ave, Miami Beach, FL 33139, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJo6lrf6er2YgRXChlCiesKW8",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "2201 Collins Ave, Miami Beach, FL 33139, USA",
-      "geometry": {
-        "location": {
-          "lat": 25.7973813,
-          "lng": -80.1271903
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.7986648802915,
-            "lng": -80.12596911970849
-          },
-          "southwest": {
-            "lat": 25.79596691970849,
-            "lng": -80.12866708029149
-          }
-        }
-      },
-      "name": "W South Beach",
-      "place_id": "ChIJo6lrf6er2YgRXChlCiesKW8",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/miaws-w-south-beach/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
   "{\"brand\": \"W Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W Maldives W Hotels Hotel\", \"W Maldives W Hotels Resort\", \"W Maldives W Hotels\", \"W Maldives W Hotels North Ari Atoll, Maldives Hotel\", \"W Maldives W Hotels North Ari Atoll, Maldives Resort\", \"W Maldives W Hotels North Ari Atoll, Maldives\", \"W Maldives Hilton Hotel\", \"W Maldives Hilton Resort\", \"W Maldives Hilton\", \"W Maldives Hilton North Ari Atoll, Maldives Hotel\", \"W Maldives Hilton North Ari Atoll, Maldives Resort\", \"W Maldives Hilton North Ari Atoll, Maldives\", \"W Maldives Hotel\", \"W Maldives Resort\", \"W Maldives\", \"W Maldives North Ari Atoll, Maldives Hotel\", \"W Maldives North Ari Atoll, Maldives Resort\", \"W Maldives North Ari Atoll, Maldives\"], \"v\": 3}": {
     "lat": 4.007057,
     "lon": 72.8111931,
@@ -67254,48 +67170,6 @@
       "website": "https://www.thesanderling.com/?utm_source=local-listings&utm_medium=organic&utm_campaign=local-listings"
     }
   },
-  "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Margaritaville Hotel Nashville Hotel\", \"Margaritaville Hotel Nashville Resort\", \"Margaritaville Hotel Nashville\", \"Margaritaville Hotel Nashville Nashville, Tennessee US Hotel\", \"Margaritaville Hotel Nashville Nashville, Tennessee US Resort\", \"Margaritaville Hotel Nashville Nashville, Tennessee US\"], \"v\": 3}": {
-    "lat": 36.1556505,
-    "lon": -86.7754733,
-    "formatted_address": "425 Rep. John Lewis Way S, Nashville, TN 37203, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJX7MOBV5mZIgR-rar5HrNVM4",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "425 Rep. John Lewis Way S, Nashville, TN 37203, USA",
-      "geometry": {
-        "location": {
-          "lat": 36.1556505,
-          "lng": -86.7754733
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 36.1568539302915,
-            "lng": -86.7741007697085
-          },
-          "southwest": {
-            "lat": 36.1541559697085,
-            "lng": -86.7767987302915
-          }
-        }
-      },
-      "name": "Margaritaville Hotel Nashville",
-      "place_id": "ChIJX7MOBV5mZIgR-rar5HrNVM4",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.margaritavilleresorts.com/margaritaville-hotel-nashville?utm_source=local&utm_medium=organic&utm_campaign=website_link"
-    }
-  },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Metropole Hotel Venice Hotel\", \"Metropole Hotel Venice Resort\", \"Metropole Hotel Venice\", \"Metropole Hotel Venice Venice, Italy Hotel\", \"Metropole Hotel Venice Venice, Italy Resort\", \"Metropole Hotel Venice Venice, Italy\", \"Metropole Hotel, Venice Hotel\", \"Metropole Hotel, Venice Resort\", \"Metropole Hotel, Venice\", \"Metropole Hotel, Venice Venice, Italy Hotel\", \"Metropole Hotel, Venice Venice, Italy Resort\", \"Metropole Hotel, Venice Venice, Italy\"], \"v\": 3}": {
     "lat": 45.4341545,
     "lon": 12.3452749,
@@ -67338,48 +67212,6 @@
       "website": "https://www.hotelmetropole.com/?utm_source=GB&utm_medium=organic"
     }
   },
-  "{\"brand\": \"Ace Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Ace Hotel Toronto Ace Hotel Hotel\", \"Ace Hotel Toronto Ace Hotel Resort\", \"Ace Hotel Toronto Ace Hotel\", \"Ace Hotel Toronto Ace Hotel Toronto, Ontario CA Hotel\", \"Ace Hotel Toronto Ace Hotel Toronto, Ontario CA Resort\", \"Ace Hotel Toronto Ace Hotel Toronto, Ontario CA\", \"Ace Hotel Toronto Hilton Hotel\", \"Ace Hotel Toronto Hilton Resort\", \"Ace Hotel Toronto Hilton\", \"Ace Hotel Toronto Hilton Toronto, Ontario CA Hotel\", \"Ace Hotel Toronto Hilton Toronto, Ontario CA Resort\", \"Ace Hotel Toronto Hilton Toronto, Ontario CA\", \"Ace Hotel Toronto Hotel\", \"Ace Hotel Toronto Resort\", \"Ace Hotel Toronto\", \"Ace Hotel Toronto Toronto, Ontario CA Hotel\", \"Ace Hotel Toronto Toronto, Ontario CA Resort\", \"Ace Hotel Toronto Toronto, Ontario CA\"], \"v\": 3}": {
-    "lat": 43.6467366,
-    "lon": -79.3981354,
-    "formatted_address": "51 Camden St, Toronto, ON M5V 1V2, Canada",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJMQFGybY1K4gR2O_N2BB9e0U",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "51 Camden St, Toronto, ON M5V 1V2, Canada",
-      "geometry": {
-        "location": {
-          "lat": 43.6467366,
-          "lng": -79.3981354
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 43.64816528029149,
-            "lng": -79.3967899197085
-          },
-          "southwest": {
-            "lat": 43.64546731970849,
-            "lng": -79.3994878802915
-          }
-        }
-      },
-      "name": "Ace Hotel Toronto",
-      "place_id": "ChIJMQFGybY1K4gR2O_N2BB9e0U",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://acehotel.com/toronto/"
-    }
-  },
   "{\"brand\": \"Andaz\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Andaz Miami Beach Andaz Hotel\", \"Andaz Miami Beach Andaz Resort\", \"Andaz Miami Beach Andaz\", \"Andaz Miami Beach Andaz Miami Beach, Florida US Hotel\", \"Andaz Miami Beach Andaz Miami Beach, Florida US Resort\", \"Andaz Miami Beach Andaz Miami Beach, Florida US\", \"Andaz Miami Beach Hilton Hotel\", \"Andaz Miami Beach Hilton Resort\", \"Andaz Miami Beach Hilton\", \"Andaz Miami Beach Hilton Miami Beach, Florida US Hotel\", \"Andaz Miami Beach Hilton Miami Beach, Florida US Resort\", \"Andaz Miami Beach Hilton Miami Beach, Florida US\", \"Andaz Miami Beach Hotel\", \"Andaz Miami Beach Resort\", \"Andaz Miami Beach\", \"Andaz Miami Beach Miami Beach, Florida US Hotel\", \"Andaz Miami Beach Miami Beach, Florida US Resort\", \"Andaz Miami Beach Miami Beach, Florida US\"], \"v\": 3}": {
     "lat": 25.8127365,
     "lon": -80.1226222,
@@ -67420,90 +67252,6 @@
         "point_of_interest"
       ],
       "website": "https://www.hyatt.com/andaz/en-US/miaob-andaz-miami-beach?src=corp_lclb_google_seo_miaob&utm_source=google&utm_medium=organic&utm_campaign=lmr"
-    }
-  },
-  "{\"brand\": \"Autograph Collection Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lido House Hotel Autograph Collection Autograph Collection Hotels Hotel\", \"Lido House Hotel Autograph Collection Autograph Collection Hotels Resort\", \"Lido House Hotel Autograph Collection Autograph Collection Hotels\", \"Lido House Hotel Autograph Collection Autograph Collection Hotels Newport Beach, California US Hotel\", \"Lido House Hotel Autograph Collection Autograph Collection Hotels Newport Beach, California US Resort\", \"Lido House Hotel Autograph Collection Autograph Collection Hotels Newport Beach, California US\", \"Lido House Hotel Autograph Collection Hilton Hotel\", \"Lido House Hotel Autograph Collection Hilton Resort\", \"Lido House Hotel Autograph Collection Hilton\", \"Lido House Hotel Autograph Collection Hilton Newport Beach, California US Hotel\", \"Lido House Hotel Autograph Collection Hilton Newport Beach, California US Resort\", \"Lido House Hotel Autograph Collection Hilton Newport Beach, California US\", \"Lido House Hotel, Autograph Collection Autograph Collection Hotels Hotel\", \"Lido House Hotel, Autograph Collection Autograph Collection Hotels Resort\", \"Lido House Hotel, Autograph Collection Autograph Collection Hotels\", \"Lido House Hotel, Autograph Collection Autograph Collection Hotels Newport Beach, California US Hotel\", \"Lido House Hotel, Autograph Collection Autograph Collection Hotels Newport Beach, California US Resort\", \"Lido House Hotel, Autograph Collection Autograph Collection Hotels Newport Beach, California US\", \"Lido House Hotel, Autograph Collection Hilton Hotel\", \"Lido House Hotel, Autograph Collection Hilton Resort\", \"Lido House Hotel, Autograph Collection Hilton\", \"Lido House Hotel, Autograph Collection Hilton Newport Beach, California US Hotel\", \"Lido House Hotel, Autograph Collection Hilton Newport Beach, California US Resort\", \"Lido House Hotel, Autograph Collection Hilton Newport Beach, California US\", \"Lido House Hotel, Autograph Collection Hotel\", \"Lido House Hotel, Autograph Collection Resort\", \"Lido House Hotel, Autograph Collection\", \"Lido House Hotel, Autograph Collection Newport Beach, California US Hotel\", \"Lido House Hotel, Autograph Collection Newport Beach, California US Resort\", \"Lido House Hotel, Autograph Collection Newport Beach, California US\"], \"v\": 3}": {
-    "lat": 33.6168378,
-    "lon": -117.9297513,
-    "formatted_address": "3300 Newport Blvd, Newport Beach, CA 92663, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJvThEsAYg3YARGUPqgwFJcWg",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "3300 Newport Blvd, Newport Beach, CA 92663, USA",
-      "geometry": {
-        "location": {
-          "lat": 33.6168378,
-          "lng": -117.9297513
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 33.6182704302915,
-            "lng": -117.9283077697085
-          },
-          "southwest": {
-            "lat": 33.6155724697085,
-            "lng": -117.9310057302915
-          }
-        }
-      },
-      "name": "Lido House, Autograph Collection",
-      "place_id": "ChIJvThEsAYg3YARGUPqgwFJcWg",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/npbak-lido-house-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
-  "{\"brand\": \"Design Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"New Hotel Design Hotels Hotel\", \"New Hotel Design Hotels Resort\", \"New Hotel Design Hotels\", \"New Hotel Design Hotels Athens, Greece Hotel\", \"New Hotel Design Hotels Athens, Greece Resort\", \"New Hotel Design Hotels Athens, Greece\", \"New Hotel Hilton Hotel\", \"New Hotel Hilton Resort\", \"New Hotel Hilton\", \"New Hotel Hilton Athens, Greece Hotel\", \"New Hotel Hilton Athens, Greece Resort\", \"New Hotel Hilton Athens, Greece\", \"NEW Hotel Design Hotels Hotel\", \"NEW Hotel Design Hotels Resort\", \"NEW Hotel Design Hotels\", \"NEW Hotel Design Hotels Athens, Greece Hotel\", \"NEW Hotel Design Hotels Athens, Greece Resort\", \"NEW Hotel Design Hotels Athens, Greece\", \"NEW Hotel Hilton Hotel\", \"NEW Hotel Hilton Resort\", \"NEW Hotel Hilton\", \"NEW Hotel Hilton Athens, Greece Hotel\", \"NEW Hotel Hilton Athens, Greece Resort\", \"NEW Hotel Hilton Athens, Greece\", \"NEW Hotel Hotel\", \"NEW Hotel Resort\", \"NEW Hotel\", \"NEW Hotel Athens, Greece Hotel\", \"NEW Hotel Athens, Greece Resort\", \"NEW Hotel Athens, Greece\"], \"v\": 3}": {
-    "lat": 37.9733621,
-    "lon": 23.7335136,
-    "formatted_address": "Filellinon 16, Athina 105 57, Greece",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJqS90CT69oRQRIUK8eMngc2c",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Filellinon 16, Athina 105 57, Greece",
-      "geometry": {
-        "location": {
-          "lat": 37.9733621,
-          "lng": 23.7335136
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 37.97477398029149,
-            "lng": 23.7348213302915
-          },
-          "southwest": {
-            "lat": 37.9720760197085,
-            "lng": 23.7321233697085
-          }
-        }
-      },
-      "name": "NEW Hotel",
-      "place_id": "ChIJqS90CT69oRQRIUK8eMngc2c",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://donkeyhotels.gr/newhotel/"
     }
   },
   "{\"brand\": \"Grand Hyatt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Grand Hyatt Scottsdale Resort Grand Hyatt Hotel\", \"Grand Hyatt Scottsdale Resort Grand Hyatt Resort\", \"Grand Hyatt Scottsdale Resort Grand Hyatt\", \"Grand Hyatt Scottsdale Resort Grand Hyatt Scottsdale, Arizona US Hotel\", \"Grand Hyatt Scottsdale Resort Grand Hyatt Scottsdale, Arizona US Resort\", \"Grand Hyatt Scottsdale Resort Grand Hyatt Scottsdale, Arizona US\", \"Grand Hyatt Scottsdale Resort Hilton Hotel\", \"Grand Hyatt Scottsdale Resort Hilton Resort\", \"Grand Hyatt Scottsdale Resort Hilton\", \"Grand Hyatt Scottsdale Resort Hilton Scottsdale, Arizona US Hotel\", \"Grand Hyatt Scottsdale Resort Hilton Scottsdale, Arizona US Resort\", \"Grand Hyatt Scottsdale Resort Hilton Scottsdale, Arizona US\", \"Grand Hyatt Scottsdale Resort Hotel\", \"Grand Hyatt Scottsdale Resort Resort\", \"Grand Hyatt Scottsdale Resort\", \"Grand Hyatt Scottsdale Resort Scottsdale, Arizona US Hotel\", \"Grand Hyatt Scottsdale Resort Scottsdale, Arizona US Resort\", \"Grand Hyatt Scottsdale Resort Scottsdale, Arizona US\"], \"v\": 3}": {
@@ -67676,48 +67424,6 @@
       "website": "https://www.marriott.com/en-us/hotels/hktjw-jw-marriott-phuket-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"Kimpton Hotels & Restaurants\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Monaco Seattle a Kimpton Hotel Kimpton Hotels & Restaurants Hotel\", \"Monaco Seattle a Kimpton Hotel Kimpton Hotels & Restaurants Resort\", \"Monaco Seattle a Kimpton Hotel Kimpton Hotels & Restaurants\", \"Monaco Seattle a Kimpton Hotel Kimpton Hotels & Restaurants Seattle, Washington US Hotel\", \"Monaco Seattle a Kimpton Hotel Kimpton Hotels & Restaurants Seattle, Washington US Resort\", \"Monaco Seattle a Kimpton Hotel Kimpton Hotels & Restaurants Seattle, Washington US\", \"Monaco Seattle a Kimpton Hotel Hilton Hotel\", \"Monaco Seattle a Kimpton Hotel Hilton Resort\", \"Monaco Seattle a Kimpton Hotel Hilton\", \"Monaco Seattle a Kimpton Hotel Hilton Seattle, Washington US Hotel\", \"Monaco Seattle a Kimpton Hotel Hilton Seattle, Washington US Resort\", \"Monaco Seattle a Kimpton Hotel Hilton Seattle, Washington US\", \"Monaco Seattle a Kimpton Hotel Hotel\", \"Monaco Seattle a Kimpton Hotel Resort\", \"Monaco Seattle a Kimpton Hotel\", \"Monaco Seattle a Kimpton Hotel Seattle, Washington US Hotel\", \"Monaco Seattle a Kimpton Hotel Seattle, Washington US Resort\", \"Monaco Seattle a Kimpton Hotel Seattle, Washington US\"], \"v\": 3}": {
-    "lat": 47.6068879,
-    "lon": -122.3341301,
-    "formatted_address": "1101 4th Ave, Seattle, WA 98101, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJQXeJQ7FqkFQRwlNZ4OS87bs",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "1101 4th Ave, Seattle, WA 98101, USA",
-      "geometry": {
-        "location": {
-          "lat": 47.6068879,
-          "lng": -122.3341301
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 47.60834983029149,
-            "lng": -122.3326372197085
-          },
-          "southwest": {
-            "lat": 47.6056518697085,
-            "lng": -122.3353351802915
-          }
-        }
-      },
-      "name": "Kimpton Hotel Monaco Seattle",
-      "place_id": "ChIJQXeJQ7FqkFQRwlNZ4OS87bs",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.monaco-seattle.com/?&cm_mmc=WEB-_-KI-_-AMER-_-EN-_-EV-_-Google%20Business%20Profile-_-DD-_-monaco%20seattle"
-    }
-  },
   "{\"brand\": \"Lotte Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lotte New York Palace Lotte Hotels & Resorts Hotel\", \"Lotte New York Palace Lotte Hotels & Resorts Resort\", \"Lotte New York Palace Lotte Hotels & Resorts\", \"Lotte New York Palace Lotte Hotels & Resorts New York, New York US Hotel\", \"Lotte New York Palace Lotte Hotels & Resorts New York, New York US Resort\", \"Lotte New York Palace Lotte Hotels & Resorts New York, New York US\", \"Lotte New York Palace Hilton Hotel\", \"Lotte New York Palace Hilton Resort\", \"Lotte New York Palace Hilton\", \"Lotte New York Palace Hilton New York, New York US Hotel\", \"Lotte New York Palace Hilton New York, New York US Resort\", \"Lotte New York Palace Hilton New York, New York US\", \"Lotte New York Palace Hotel\", \"Lotte New York Palace Resort\", \"Lotte New York Palace\", \"Lotte New York Palace New York, New York US Hotel\", \"Lotte New York Palace New York, New York US Resort\", \"Lotte New York Palace New York, New York US\"], \"v\": 3}": {
     "lat": 40.758019,
     "lon": -73.9749745,
@@ -67760,92 +67466,6 @@
         "spa"
       ],
       "website": "https://www.lottenypalace.com/?utm_source=google&utm_medium=organic&utm_campaign=business-listing"
-    }
-  },
-  "{\"brand\": \"MGM Resorts International\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W Las Vegas MGM Resorts International Hotel\", \"W Las Vegas MGM Resorts International Resort\", \"W Las Vegas MGM Resorts International\", \"W Las Vegas MGM Resorts International Las Vegas, Nevada US Hotel\", \"W Las Vegas MGM Resorts International Las Vegas, Nevada US Resort\", \"W Las Vegas MGM Resorts International Las Vegas, Nevada US\", \"W Las Vegas Hilton Hotel\", \"W Las Vegas Hilton Resort\", \"W Las Vegas Hilton\", \"W Las Vegas Hilton Las Vegas, Nevada US Hotel\", \"W Las Vegas Hilton Las Vegas, Nevada US Resort\", \"W Las Vegas Hilton Las Vegas, Nevada US\", \"W Las Vegas Hotel\", \"W Las Vegas Resort\", \"W Las Vegas\", \"W Las Vegas Las Vegas, Nevada US Hotel\", \"W Las Vegas Las Vegas, Nevada US Resort\", \"W Las Vegas Las Vegas, Nevada US\"], \"v\": 3}": {
-    "lat": 36.1036224,
-    "lon": -115.1675744,
-    "formatted_address": "3799 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJJQ6Ck8zFyIARfxB2vQVF2Z0",
-    "types": [
-      "casino",
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "3799 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
-      "geometry": {
-        "location": {
-          "lat": 36.1036224,
-          "lng": -115.1675744
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 36.10374728029149,
-            "lng": -115.1639587
-          },
-          "southwest": {
-            "lat": 36.1010493197085,
-            "lng": -115.1724987
-          }
-        }
-      },
-      "name": "MGM Grand",
-      "place_id": "ChIJJQ6Ck8zFyIARfxB2vQVF2Z0",
-      "types": [
-        "casino",
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://mgmgrand.mgmresorts.com/en.html"
-    }
-  },
-  "{\"brand\": \"Omni Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Omni Nashville Hotel Omni Hotels & Resorts Hotel\", \"Omni Nashville Hotel Omni Hotels & Resorts Resort\", \"Omni Nashville Hotel Omni Hotels & Resorts\", \"Omni Nashville Hotel Omni Hotels & Resorts Nashville, Tennessee US Hotel\", \"Omni Nashville Hotel Omni Hotels & Resorts Nashville, Tennessee US Resort\", \"Omni Nashville Hotel Omni Hotels & Resorts Nashville, Tennessee US\", \"Omni Nashville Hotel Hilton Hotel\", \"Omni Nashville Hotel Hilton Resort\", \"Omni Nashville Hotel Hilton\", \"Omni Nashville Hotel Hilton Nashville, Tennessee US Hotel\", \"Omni Nashville Hotel Hilton Nashville, Tennessee US Resort\", \"Omni Nashville Hotel Hilton Nashville, Tennessee US\", \"Omni Nashville Hotel Hotel\", \"Omni Nashville Hotel Resort\", \"Omni Nashville Hotel\", \"Omni Nashville Hotel Nashville, Tennessee US Hotel\", \"Omni Nashville Hotel Nashville, Tennessee US Resort\", \"Omni Nashville Hotel Nashville, Tennessee US\"], \"v\": 3}": {
-    "lat": 36.1572862,
-    "lon": -86.7757168,
-    "formatted_address": "250 Rep. John Lewis Way S, Nashville, TN 37203, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJxyAItV1mZIgR-7wmn013dU0",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "250 Rep. John Lewis Way S, Nashville, TN 37203, USA",
-      "geometry": {
-        "location": {
-          "lat": 36.1572862,
-          "lng": -86.7757168
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 36.1583837302915,
-            "lng": -86.77451926970848
-          },
-          "southwest": {
-            "lat": 36.15568576970851,
-            "lng": -86.7772172302915
-          }
-        }
-      },
-      "name": "Omni Nashville Hotel",
-      "place_id": "ChIJxyAItV1mZIgR-7wmn013dU0",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.omnihotels.com/hotels/nashville?utm_source=gmblisting&utm_medium=organic"
     }
   },
   "{\"brand\": \"Pan Pacific Hotels Group\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Pan Pacific Vancouver Pan Pacific Hotels Group Hotel\", \"Pan Pacific Vancouver Pan Pacific Hotels Group Resort\", \"Pan Pacific Vancouver Pan Pacific Hotels Group\", \"Pan Pacific Vancouver Pan Pacific Hotels Group Vancouver, British Columbia CA Hotel\", \"Pan Pacific Vancouver Pan Pacific Hotels Group Vancouver, British Columbia CA Resort\", \"Pan Pacific Vancouver Pan Pacific Hotels Group Vancouver, British Columbia CA\", \"Pan Pacific Vancouver Hilton Hotel\", \"Pan Pacific Vancouver Hilton Resort\", \"Pan Pacific Vancouver Hilton\", \"Pan Pacific Vancouver Hilton Vancouver, British Columbia CA Hotel\", \"Pan Pacific Vancouver Hilton Vancouver, British Columbia CA Resort\", \"Pan Pacific Vancouver Hilton Vancouver, British Columbia CA\", \"Pan Pacific Vancouver Hotel\", \"Pan Pacific Vancouver Resort\", \"Pan Pacific Vancouver\", \"Pan Pacific Vancouver Vancouver, British Columbia CA Hotel\", \"Pan Pacific Vancouver Vancouver, British Columbia CA Resort\", \"Pan Pacific Vancouver Vancouver, British Columbia CA\"], \"v\": 3}": {
@@ -67976,132 +67596,6 @@
         "restaurant"
       ],
       "website": "http://www.hotelangleterre.ch/"
-    }
-  },
-  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mayfair House Hotel Garden Preferred Hotels & Resorts Hotel\", \"Mayfair House Hotel Garden Preferred Hotels & Resorts Resort\", \"Mayfair House Hotel Garden Preferred Hotels & Resorts\", \"Mayfair House Hotel Garden Preferred Hotels & Resorts Miami, Florida US Hotel\", \"Mayfair House Hotel Garden Preferred Hotels & Resorts Miami, Florida US Resort\", \"Mayfair House Hotel Garden Preferred Hotels & Resorts Miami, Florida US\", \"Mayfair House Hotel Garden Hilton Hotel\", \"Mayfair House Hotel Garden Hilton Resort\", \"Mayfair House Hotel Garden Hilton\", \"Mayfair House Hotel Garden Hilton Miami, Florida US Hotel\", \"Mayfair House Hotel Garden Hilton Miami, Florida US Resort\", \"Mayfair House Hotel Garden Hilton Miami, Florida US\", \"Mayfair House Hotel & Garden Preferred Hotels & Resorts Hotel\", \"Mayfair House Hotel & Garden Preferred Hotels & Resorts Resort\", \"Mayfair House Hotel & Garden Preferred Hotels & Resorts\", \"Mayfair House Hotel & Garden Preferred Hotels & Resorts Miami, Florida US Hotel\", \"Mayfair House Hotel & Garden Preferred Hotels & Resorts Miami, Florida US Resort\", \"Mayfair House Hotel & Garden Preferred Hotels & Resorts Miami, Florida US\", \"Mayfair House Hotel & Garden Hilton Hotel\", \"Mayfair House Hotel & Garden Hilton Resort\", \"Mayfair House Hotel & Garden Hilton\", \"Mayfair House Hotel & Garden Hilton Miami, Florida US Hotel\", \"Mayfair House Hotel & Garden Hilton Miami, Florida US Resort\", \"Mayfair House Hotel & Garden Hilton Miami, Florida US\", \"Mayfair House Hotel & Garden Hotel\", \"Mayfair House Hotel & Garden Resort\", \"Mayfair House Hotel & Garden\", \"Mayfair House Hotel & Garden Miami, Florida US Hotel\", \"Mayfair House Hotel & Garden Miami, Florida US Resort\", \"Mayfair House Hotel & Garden Miami, Florida US\"], \"v\": 3}": {
-    "lat": 25.7289547,
-    "lon": -80.2413687,
-    "formatted_address": "3000 Florida Ave, Miami, FL 33133, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJvxlzmgO32YgRvIVYWTPrDkk",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "3000 Florida Ave, Miami, FL 33133, USA",
-      "geometry": {
-        "location": {
-          "lat": 25.7289547,
-          "lng": -80.2413687
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.7303518802915,
-            "lng": -80.24002256970849
-          },
-          "southwest": {
-            "lat": 25.7276539197085,
-            "lng": -80.2427205302915
-          }
-        }
-      },
-      "name": "Mayfair House Hotel & Garden",
-      "place_id": "ChIJvxlzmgO32YgRvIVYWTPrDkk",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.mayfairhousemiami.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
-    }
-  },
-  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Soho Hotel Toronto Preferred Hotels & Resorts Hotel\", \"Soho Hotel Toronto Preferred Hotels & Resorts Resort\", \"Soho Hotel Toronto Preferred Hotels & Resorts\", \"Soho Hotel Toronto Preferred Hotels & Resorts Toronto, Ontario CA Hotel\", \"Soho Hotel Toronto Preferred Hotels & Resorts Toronto, Ontario CA Resort\", \"Soho Hotel Toronto Preferred Hotels & Resorts Toronto, Ontario CA\", \"Soho Hotel Toronto Hilton Hotel\", \"Soho Hotel Toronto Hilton Resort\", \"Soho Hotel Toronto Hilton\", \"Soho Hotel Toronto Hilton Toronto, Ontario CA Hotel\", \"Soho Hotel Toronto Hilton Toronto, Ontario CA Resort\", \"Soho Hotel Toronto Hilton Toronto, Ontario CA\", \"SoHo Hotel Toronto Preferred Hotels & Resorts Hotel\", \"SoHo Hotel Toronto Preferred Hotels & Resorts Resort\", \"SoHo Hotel Toronto Preferred Hotels & Resorts\", \"SoHo Hotel Toronto Preferred Hotels & Resorts Toronto, Ontario CA Hotel\", \"SoHo Hotel Toronto Preferred Hotels & Resorts Toronto, Ontario CA Resort\", \"SoHo Hotel Toronto Preferred Hotels & Resorts Toronto, Ontario CA\", \"SoHo Hotel Toronto Hilton Hotel\", \"SoHo Hotel Toronto Hilton Resort\", \"SoHo Hotel Toronto Hilton\", \"SoHo Hotel Toronto Hilton Toronto, Ontario CA Hotel\", \"SoHo Hotel Toronto Hilton Toronto, Ontario CA Resort\", \"SoHo Hotel Toronto Hilton Toronto, Ontario CA\", \"SoHo Hotel Toronto Hotel\", \"SoHo Hotel Toronto Resort\", \"SoHo Hotel Toronto\", \"SoHo Hotel Toronto Toronto, Ontario CA Hotel\", \"SoHo Hotel Toronto Toronto, Ontario CA Resort\", \"SoHo Hotel Toronto Toronto, Ontario CA\"], \"v\": 3}": {
-    "lat": 43.6447222,
-    "lon": -79.39222219999999,
-    "formatted_address": "318 Wellington St W, Toronto, ON M5V 3T4, Canada",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJT1vL_Nk0K4gRvHuHoFhS-Xc",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "318 Wellington St W, Toronto, ON M5V 3T4, Canada",
-      "geometry": {
-        "location": {
-          "lat": 43.6447222,
-          "lng": -79.39222219999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 43.64599958029149,
-            "lng": -79.39100071970849
-          },
-          "southwest": {
-            "lat": 43.6433016197085,
-            "lng": -79.39369868029151
-          }
-        }
-      },
-      "name": "SoHo Hotel Toronto",
-      "place_id": "ChIJT1vL_Nk0K4gRvHuHoFhS-Xc",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.sohohoteltoronto.com/"
-    }
-  },
-  "{\"brand\": \"Proper Hospitality\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"San Francisco Proper Hotel Proper Hospitality Hotel\", \"San Francisco Proper Hotel Proper Hospitality Resort\", \"San Francisco Proper Hotel Proper Hospitality\", \"San Francisco Proper Hotel Proper Hospitality San Francisco, California US Hotel\", \"San Francisco Proper Hotel Proper Hospitality San Francisco, California US Resort\", \"San Francisco Proper Hotel Proper Hospitality San Francisco, California US\", \"San Francisco Proper Hotel Hilton Hotel\", \"San Francisco Proper Hotel Hilton Resort\", \"San Francisco Proper Hotel Hilton\", \"San Francisco Proper Hotel Hilton San Francisco, California US Hotel\", \"San Francisco Proper Hotel Hilton San Francisco, California US Resort\", \"San Francisco Proper Hotel Hilton San Francisco, California US\", \"San Francisco Proper Hotel Hotel\", \"San Francisco Proper Hotel Resort\", \"San Francisco Proper Hotel\", \"San Francisco Proper Hotel San Francisco, California US Hotel\", \"San Francisco Proper Hotel San Francisco, California US Resort\", \"San Francisco Proper Hotel San Francisco, California US\"], \"v\": 3}": {
-    "lat": 37.780882,
-    "lon": -122.4126728,
-    "formatted_address": "45 McAllister St, San Francisco, CA 94102, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJw-FJ0oSAhYARCwH4NNWTliw",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "45 McAllister St, San Francisco, CA 94102, USA",
-      "geometry": {
-        "location": {
-          "lat": 37.780882,
-          "lng": -122.4126728
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 37.7823194802915,
-            "lng": -122.4113876697085
-          },
-          "southwest": {
-            "lat": 37.7796215197085,
-            "lng": -122.4140856302915
-          }
-        }
-      },
-      "name": "San Francisco Proper Hotel",
-      "place_id": "ChIJw-FJ0oSAhYARCwH4NNWTliw",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.properhotel.com/san-francisco/?utm_source=local-listings&utm_medium=organic&utm_campaign=local-listings"
     }
   },
   "{\"brand\": \"Shangri-La Hotels and Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Shangri la Rasa Sentosa Singapore Shangri-La Hotels and Resorts Hotel\", \"Shangri la Rasa Sentosa Singapore Shangri-La Hotels and Resorts Resort\", \"Shangri la Rasa Sentosa Singapore Shangri-La Hotels and Resorts\", \"Shangri la Rasa Sentosa Singapore Shangri-La Hotels and Resorts Singapore, Singapore Hotel\", \"Shangri la Rasa Sentosa Singapore Shangri-La Hotels and Resorts Singapore, Singapore Resort\", \"Shangri la Rasa Sentosa Singapore Shangri-La Hotels and Resorts Singapore, Singapore\", \"Shangri la Rasa Sentosa Singapore Hilton Hotel\", \"Shangri la Rasa Sentosa Singapore Hilton Resort\", \"Shangri la Rasa Sentosa Singapore Hilton\", \"Shangri la Rasa Sentosa Singapore Hilton Singapore, Singapore Hotel\", \"Shangri la Rasa Sentosa Singapore Hilton Singapore, Singapore Resort\", \"Shangri la Rasa Sentosa Singapore Hilton Singapore, Singapore\", \"Shangri-La Rasa Sentosa, Singapore Shangri-La Hotels and Resorts Hotel\", \"Shangri-La Rasa Sentosa, Singapore Shangri-La Hotels and Resorts Resort\", \"Shangri-La Rasa Sentosa, Singapore Shangri-La Hotels and Resorts\", \"Shangri-La Rasa Sentosa, Singapore Shangri-La Hotels and Resorts Singapore, Singapore Hotel\", \"Shangri-La Rasa Sentosa, Singapore Shangri-La Hotels and Resorts Singapore, Singapore Resort\", \"Shangri-La Rasa Sentosa, Singapore Shangri-La Hotels and Resorts Singapore, Singapore\", \"Shangri-La Rasa Sentosa, Singapore Hilton Hotel\", \"Shangri-La Rasa Sentosa, Singapore Hilton Resort\", \"Shangri-La Rasa Sentosa, Singapore Hilton\", \"Shangri-La Rasa Sentosa, Singapore Hilton Singapore, Singapore Hotel\", \"Shangri-La Rasa Sentosa, Singapore Hilton Singapore, Singapore Resort\", \"Shangri-La Rasa Sentosa, Singapore Hilton Singapore, Singapore\", \"Shangri-La Rasa Sentosa, Singapore Hotel\", \"Shangri-La Rasa Sentosa, Singapore Resort\", \"Shangri-La Rasa Sentosa, Singapore\", \"Shangri-La Rasa Sentosa, Singapore Singapore, Singapore Hotel\", \"Shangri-La Rasa Sentosa, Singapore Singapore, Singapore Resort\", \"Shangri-La Rasa Sentosa, Singapore Singapore, Singapore\"], \"v\": 3}": {
@@ -68278,174 +67772,6 @@
         "point_of_interest"
       ],
       "website": "https://www.grandhotelmiramare.it/?utm_source=gmb&utm_medium=organic"
-    }
-  },
-  "{\"brand\": \"W Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W Hong Kong W Hotels Hotel\", \"W Hong Kong W Hotels Resort\", \"W Hong Kong W Hotels\", \"W Hong Kong W Hotels Hong Kong, China Hotel\", \"W Hong Kong W Hotels Hong Kong, China Resort\", \"W Hong Kong W Hotels Hong Kong, China\", \"W Hong Kong Hilton Hotel\", \"W Hong Kong Hilton Resort\", \"W Hong Kong Hilton\", \"W Hong Kong Hilton Hong Kong, China Hotel\", \"W Hong Kong Hilton Hong Kong, China Resort\", \"W Hong Kong Hilton Hong Kong, China\", \"W Hong Kong Hotel\", \"W Hong Kong Resort\", \"W Hong Kong\", \"W Hong Kong Hong Kong, China Hotel\", \"W Hong Kong Hong Kong, China Resort\", \"W Hong Kong Hong Kong, China\"], \"v\": 3}": {
-    "lat": 22.3048255,
-    "lon": 114.1605667,
-    "formatted_address": "1 Austin Road West Kowloon Station, Tsim Sha Tsui, Hong Kong",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJoxRfzJIABDQRl2mMd4PG1Ts",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "1 Austin Road West Kowloon Station, Tsim Sha Tsui, Hong Kong",
-      "geometry": {
-        "location": {
-          "lat": 22.3048255,
-          "lng": 114.1605667
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 22.3062343802915,
-            "lng": 114.1618246802915
-          },
-          "southwest": {
-            "lat": 22.3035364197085,
-            "lng": 114.1591267197085
-          }
-        }
-      },
-      "name": "W Hong Kong",
-      "place_id": "ChIJoxRfzJIABDQRl2mMd4PG1Ts",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/hkgwh-w-hong-kong/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
-  "{\"brand\": \"W Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W Koh Samui W Hotels Hotel\", \"W Koh Samui W Hotels Resort\", \"W Koh Samui W Hotels\", \"W Koh Samui W Hotels Koh Samui, Thailand Hotel\", \"W Koh Samui W Hotels Koh Samui, Thailand Resort\", \"W Koh Samui W Hotels Koh Samui, Thailand\", \"W Koh Samui Hilton Hotel\", \"W Koh Samui Hilton Resort\", \"W Koh Samui Hilton\", \"W Koh Samui Hilton Koh Samui, Thailand Hotel\", \"W Koh Samui Hilton Koh Samui, Thailand Resort\", \"W Koh Samui Hilton Koh Samui, Thailand\", \"W Koh Samui Hotel\", \"W Koh Samui Resort\", \"W Koh Samui\", \"W Koh Samui Koh Samui, Thailand Hotel\", \"W Koh Samui Koh Samui, Thailand Resort\", \"W Koh Samui Koh Samui, Thailand\"], \"v\": 3}": {
-    "lat": 9.5719696,
-    "lon": 100.0167472,
-    "formatted_address": "4, Tambol Maenam, 1, Tambon Mae Nam, Amphoe Ko Samui, Chang Wat Surat Thani 84330, Thailand",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJa7vY1p7wVDARzXOFnsNEikI",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "4, Tambol Maenam, 1, Tambon Mae Nam, Amphoe Ko Samui, Chang Wat Surat Thani 84330, Thailand",
-      "geometry": {
-        "location": {
-          "lat": 9.5719696,
-          "lng": 100.0167472
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 9.5732342302915,
-            "lng": 100.0179686302915
-          },
-          "southwest": {
-            "lat": 9.570536269708496,
-            "lng": 100.0152706697085
-          }
-        }
-      },
-      "name": "W Koh Samui",
-      "place_id": "ChIJa7vY1p7wVDARzXOFnsNEikI",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/usmwh-w-koh-samui/overview/?cid=NAT_google_hotel_url"
-    }
-  },
-  "{\"brand\": \"W Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W Punta De Mita W Hotels Hotel\", \"W Punta De Mita W Hotels Resort\", \"W Punta De Mita W Hotels\", \"W Punta De Mita W Hotels Punta de Mita, Nayarit MX Hotel\", \"W Punta De Mita W Hotels Punta de Mita, Nayarit MX Resort\", \"W Punta De Mita W Hotels Punta de Mita, Nayarit MX\", \"W Punta De Mita Hilton Hotel\", \"W Punta De Mita Hilton Resort\", \"W Punta De Mita Hilton\", \"W Punta De Mita Hilton Punta de Mita, Nayarit MX Hotel\", \"W Punta De Mita Hilton Punta de Mita, Nayarit MX Resort\", \"W Punta De Mita Hilton Punta de Mita, Nayarit MX\", \"W Punta de Mita W Hotels Hotel\", \"W Punta de Mita W Hotels Resort\", \"W Punta de Mita W Hotels\", \"W Punta de Mita W Hotels Punta de Mita, Nayarit MX Hotel\", \"W Punta de Mita W Hotels Punta de Mita, Nayarit MX Resort\", \"W Punta de Mita W Hotels Punta de Mita, Nayarit MX\", \"W Punta de Mita Hilton Hotel\", \"W Punta de Mita Hilton Resort\", \"W Punta de Mita Hilton\", \"W Punta de Mita Hilton Punta de Mita, Nayarit MX Hotel\", \"W Punta de Mita Hilton Punta de Mita, Nayarit MX Resort\", \"W Punta de Mita Hilton Punta de Mita, Nayarit MX\", \"W Punta de Mita Hotel\", \"W Punta de Mita Resort\", \"W Punta de Mita\", \"W Punta de Mita Punta de Mita, Nayarit MX Hotel\", \"W Punta de Mita Punta de Mita, Nayarit MX Resort\", \"W Punta de Mita Punta de Mita, Nayarit MX\"], \"v\": 3}": {
-    "lat": 20.7486873,
-    "lon": -105.4321982,
-    "formatted_address": "Carr. Federal la Cruz de Huanacaxtle - Punta de Mita Km 8.5, Desarrollo Costa Banderas, 63734 Desarrollo Punta Mita, Nay., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJT2qLJMdqIYQRZMX8o0ib_U8",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Carr. Federal la Cruz de Huanacaxtle - Punta de Mita Km 8.5, Desarrollo Costa Banderas, 63734 Desarrollo Punta Mita, Nay., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 20.7486873,
-          "lng": -105.4321982
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 20.7500343302915,
-            "lng": -105.4306194697085
-          },
-          "southwest": {
-            "lat": 20.7473363697085,
-            "lng": -105.4333174302915
-          }
-        }
-      },
-      "name": "W Punta de Mita",
-      "place_id": "ChIJT2qLJMdqIYQRZMX8o0ib_U8",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/pvrwh-w-punta-de-mita/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
-  "{\"brand\": \"W Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W Bali Seminyak W Hotels Hotel\", \"W Bali Seminyak W Hotels Resort\", \"W Bali Seminyak W Hotels\", \"W Bali Seminyak W Hotels Seminyak, Indonesia Hotel\", \"W Bali Seminyak W Hotels Seminyak, Indonesia Resort\", \"W Bali Seminyak W Hotels Seminyak, Indonesia\", \"W Bali Seminyak Hilton Hotel\", \"W Bali Seminyak Hilton Resort\", \"W Bali Seminyak Hilton\", \"W Bali Seminyak Hilton Seminyak, Indonesia Hotel\", \"W Bali Seminyak Hilton Seminyak, Indonesia Resort\", \"W Bali Seminyak Hilton Seminyak, Indonesia\", \"W Bali Seminyak Hotel\", \"W Bali Seminyak Resort\", \"W Bali Seminyak\", \"W Bali Seminyak Seminyak, Indonesia Hotel\", \"W Bali Seminyak Seminyak, Indonesia Resort\", \"W Bali Seminyak Seminyak, Indonesia\"], \"v\": 3}": {
-    "lat": -8.6772946,
-    "lon": 115.1491632,
-    "formatted_address": "Jl. Petitenget, Kerobokan Kelod, Kec. Kuta Utara, Kabupaten Badung, Bali, Indonesia",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJP7mL_wxH0i0R7pAAg_h9Zqo",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Jl. Petitenget, Kerobokan Kelod, Kec. Kuta Utara, Kabupaten Badung, Bali, Indonesia",
-      "geometry": {
-        "location": {
-          "lat": -8.6772946,
-          "lng": 115.1491632
-        },
-        "viewport": {
-          "northeast": {
-            "lat": -8.675889069708498,
-            "lng": 115.1506711302915
-          },
-          "southwest": {
-            "lat": -8.678587030291503,
-            "lng": 115.1479731697085
-          }
-        }
-      },
-      "name": "W Bali - Seminyak",
-      "place_id": "ChIJP7mL_wxH0i0R7pAAg_h9Zqo",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/dpswh-w-bali-seminyak/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Al Wathba, a Luxury Collection Desert Resort & Spa, Abu Dhabi Hotel\", \"Al Wathba, a Luxury Collection Desert Resort & Spa, Abu Dhabi Resort\", \"Al Wathba, a Luxury Collection Desert Resort & Spa, Abu Dhabi\", \"Al Wathba, a Luxury Collection Desert Resort & Spa, Abu Dhabi Abu Dhabi, United Arab Emirates Hotel\", \"Al Wathba, a Luxury Collection Desert Resort & Spa, Abu Dhabi Abu Dhabi, United Arab Emirates Resort\", \"Al Wathba, a Luxury Collection Desert Resort & Spa, Abu Dhabi Abu Dhabi, United Arab Emirates\", \"Al Wathba a Luxury Collection Desert Resort Spa Abu Dhabi Hotel\", \"Al Wathba a Luxury Collection Desert Resort Spa Abu Dhabi Resort\", \"Al Wathba a Luxury Collection Desert Resort Spa Abu Dhabi\", \"Al Wathba a Luxury Collection Desert Resort Spa Abu Dhabi Abu Dhabi, United Arab Emirates Hotel\", \"Al Wathba a Luxury Collection Desert Resort Spa Abu Dhabi Abu Dhabi, United Arab Emirates Resort\", \"Al Wathba a Luxury Collection Desert Resort Spa Abu Dhabi Abu Dhabi, United Arab Emirates\"], \"v\": 3}": {
@@ -90493,48 +89819,6 @@
       "website": "http://www.shangri-la.com/fort"
     }
   },
-  "{\"brand\": \"Shangri-La Hotels and Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Shangri-La Far Eastern Plaza Shangri-La Hotels and Resorts Hotel\", \"Shangri-La Far Eastern Plaza Shangri-La Hotels and Resorts Resort\", \"Shangri-La Far Eastern Plaza Shangri-La Hotels and Resorts\", \"Shangri-La Far Eastern Plaza Shangri-La Hotels and Resorts Taipei, Taiwan Hotel\", \"Shangri-La Far Eastern Plaza Shangri-La Hotels and Resorts Taipei, Taiwan Resort\", \"Shangri-La Far Eastern Plaza Shangri-La Hotels and Resorts Taipei, Taiwan\", \"Shangri-La Far Eastern Plaza Hilton Hotel\", \"Shangri-La Far Eastern Plaza Hilton Resort\", \"Shangri-La Far Eastern Plaza Hilton\", \"Shangri-La Far Eastern Plaza Hilton Taipei, Taiwan Hotel\", \"Shangri-La Far Eastern Plaza Hilton Taipei, Taiwan Resort\", \"Shangri-La Far Eastern Plaza Hilton Taipei, Taiwan\", \"Shangri la Far Eastern Plaza Shangri-La Hotels and Resorts Hotel\", \"Shangri la Far Eastern Plaza Shangri-La Hotels and Resorts Resort\", \"Shangri la Far Eastern Plaza Shangri-La Hotels and Resorts\", \"Shangri la Far Eastern Plaza Shangri-La Hotels and Resorts Taipei, Taiwan Hotel\", \"Shangri la Far Eastern Plaza Shangri-La Hotels and Resorts Taipei, Taiwan Resort\", \"Shangri la Far Eastern Plaza Shangri-La Hotels and Resorts Taipei, Taiwan\", \"Shangri la Far Eastern Plaza Hilton Hotel\", \"Shangri la Far Eastern Plaza Hilton Resort\", \"Shangri la Far Eastern Plaza Hilton\", \"Shangri la Far Eastern Plaza Hilton Taipei, Taiwan Hotel\", \"Shangri la Far Eastern Plaza Hilton Taipei, Taiwan Resort\", \"Shangri la Far Eastern Plaza Hilton Taipei, Taiwan\", \"Shangri-La Far Eastern Plaza Hotel\", \"Shangri-La Far Eastern Plaza Resort\", \"Shangri-La Far Eastern Plaza\", \"Shangri-La Far Eastern Plaza Taipei, Taiwan Hotel\", \"Shangri-La Far Eastern Plaza Taipei, Taiwan Resort\", \"Shangri-La Far Eastern Plaza Taipei, Taiwan\"], \"v\": 3}": {
-    "lat": 25.0262249,
-    "lon": 121.5496904,
-    "formatted_address": "No. 201號, Section 2, Dunhua S Rd, Da’an District, Taipei City, Taiwan 10675",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJeUp8ZTKqQjQRG274UZw34LQ",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "No. 201號, Section 2, Dunhua S Rd, Da’an District, Taipei City, Taiwan 10675",
-      "geometry": {
-        "location": {
-          "lat": 25.0262249,
-          "lng": 121.5496904
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.0278904802915,
-            "lng": 121.5506820302915
-          },
-          "southwest": {
-            "lat": 25.0251925197085,
-            "lng": 121.5479840697085
-          }
-        }
-      },
-      "name": "Shangri-La Far Eastern, Taipei",
-      "place_id": "ChIJeUp8ZTKqQjQRG274UZw34LQ",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://tpe.fareasternhotel.com.tw/tc/"
-    }
-  },
   "{\"brand\": \"Shangri-La Hotels and Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Shangri-La Tokyo Shangri-La Hotels and Resorts Hotel\", \"Shangri-La Tokyo Shangri-La Hotels and Resorts Resort\", \"Shangri-La Tokyo Shangri-La Hotels and Resorts\", \"Shangri-La Tokyo Shangri-La Hotels and Resorts Tokyo, Japan Hotel\", \"Shangri-La Tokyo Shangri-La Hotels and Resorts Tokyo, Japan Resort\", \"Shangri-La Tokyo Shangri-La Hotels and Resorts Tokyo, Japan\", \"Shangri-La Tokyo Hilton Hotel\", \"Shangri-La Tokyo Hilton Resort\", \"Shangri-La Tokyo Hilton\", \"Shangri-La Tokyo Hilton Tokyo, Japan Hotel\", \"Shangri-La Tokyo Hilton Tokyo, Japan Resort\", \"Shangri-La Tokyo Hilton Tokyo, Japan\", \"Shangri la Tokyo Shangri-La Hotels and Resorts Hotel\", \"Shangri la Tokyo Shangri-La Hotels and Resorts Resort\", \"Shangri la Tokyo Shangri-La Hotels and Resorts\", \"Shangri la Tokyo Shangri-La Hotels and Resorts Tokyo, Japan Hotel\", \"Shangri la Tokyo Shangri-La Hotels and Resorts Tokyo, Japan Resort\", \"Shangri la Tokyo Shangri-La Hotels and Resorts Tokyo, Japan\", \"Shangri la Tokyo Hilton Hotel\", \"Shangri la Tokyo Hilton Resort\", \"Shangri la Tokyo Hilton\", \"Shangri la Tokyo Hilton Tokyo, Japan Hotel\", \"Shangri la Tokyo Hilton Tokyo, Japan Resort\", \"Shangri la Tokyo Hilton Tokyo, Japan\", \"Shangri-La Tokyo Hotel\", \"Shangri-La Tokyo Resort\", \"Shangri-La Tokyo\", \"Shangri-La Tokyo Tokyo, Japan Hotel\", \"Shangri-La Tokyo Tokyo, Japan Resort\", \"Shangri-La Tokyo Tokyo, Japan\"], \"v\": 3}": {
     "lat": 35.6824303,
     "lon": 139.7693827,
@@ -104538,90 +103822,6 @@
       "website": "https://www.hotelmetropole.com/?utm_source=GB&utm_medium=organic"
     }
   },
-  "{\"brand\": \"Autograph Collection Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lido House Hotel, Autograph Collection Autograph Collection Hotels Hotel\", \"Lido House Hotel, Autograph Collection Autograph Collection Hotels Resort\", \"Lido House Hotel, Autograph Collection Autograph Collection Hotels\", \"Lido House Hotel, Autograph Collection Autograph Collection Hotels Newport Beach, California US Hotel\", \"Lido House Hotel, Autograph Collection Autograph Collection Hotels Newport Beach, California US Resort\", \"Lido House Hotel, Autograph Collection Autograph Collection Hotels Newport Beach, California US\", \"Lido House Hotel, Autograph Collection Hilton Hotel\", \"Lido House Hotel, Autograph Collection Hilton Resort\", \"Lido House Hotel, Autograph Collection Hilton\", \"Lido House Hotel, Autograph Collection Hilton Newport Beach, California US Hotel\", \"Lido House Hotel, Autograph Collection Hilton Newport Beach, California US Resort\", \"Lido House Hotel, Autograph Collection Hilton Newport Beach, California US\", \"Lido House Hotel Autograph Collection Autograph Collection Hotels Hotel\", \"Lido House Hotel Autograph Collection Autograph Collection Hotels Resort\", \"Lido House Hotel Autograph Collection Autograph Collection Hotels\", \"Lido House Hotel Autograph Collection Autograph Collection Hotels Newport Beach, California US Hotel\", \"Lido House Hotel Autograph Collection Autograph Collection Hotels Newport Beach, California US Resort\", \"Lido House Hotel Autograph Collection Autograph Collection Hotels Newport Beach, California US\", \"Lido House Hotel Autograph Collection Hilton Hotel\", \"Lido House Hotel Autograph Collection Hilton Resort\", \"Lido House Hotel Autograph Collection Hilton\", \"Lido House Hotel Autograph Collection Hilton Newport Beach, California US Hotel\", \"Lido House Hotel Autograph Collection Hilton Newport Beach, California US Resort\", \"Lido House Hotel Autograph Collection Hilton Newport Beach, California US\", \"Lido House Hotel, Autograph Collection Hotel\", \"Lido House Hotel, Autograph Collection Resort\", \"Lido House Hotel, Autograph Collection\", \"Lido House Hotel, Autograph Collection Newport Beach, California US Hotel\", \"Lido House Hotel, Autograph Collection Newport Beach, California US Resort\", \"Lido House Hotel, Autograph Collection Newport Beach, California US\"], \"v\": 3}": {
-    "lat": 33.6168378,
-    "lon": -117.9297513,
-    "formatted_address": "3300 Newport Blvd, Newport Beach, CA 92663, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJvThEsAYg3YARGUPqgwFJcWg",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "3300 Newport Blvd, Newport Beach, CA 92663, USA",
-      "geometry": {
-        "location": {
-          "lat": 33.6168378,
-          "lng": -117.9297513
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 33.6182704302915,
-            "lng": -117.9283077697085
-          },
-          "southwest": {
-            "lat": 33.6155724697085,
-            "lng": -117.9310057302915
-          }
-        }
-      },
-      "name": "Lido House, Autograph Collection",
-      "place_id": "ChIJvThEsAYg3YARGUPqgwFJcWg",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/npbak-lido-house-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
-  "{\"brand\": \"Design Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"NEW Hotel Design Hotels Hotel\", \"NEW Hotel Design Hotels Resort\", \"NEW Hotel Design Hotels\", \"NEW Hotel Design Hotels Athens, Greece Hotel\", \"NEW Hotel Design Hotels Athens, Greece Resort\", \"NEW Hotel Design Hotels Athens, Greece\", \"NEW Hotel Hilton Hotel\", \"NEW Hotel Hilton Resort\", \"NEW Hotel Hilton\", \"NEW Hotel Hilton Athens, Greece Hotel\", \"NEW Hotel Hilton Athens, Greece Resort\", \"NEW Hotel Hilton Athens, Greece\", \"New Hotel Design Hotels Hotel\", \"New Hotel Design Hotels Resort\", \"New Hotel Design Hotels\", \"New Hotel Design Hotels Athens, Greece Hotel\", \"New Hotel Design Hotels Athens, Greece Resort\", \"New Hotel Design Hotels Athens, Greece\", \"New Hotel Hilton Hotel\", \"New Hotel Hilton Resort\", \"New Hotel Hilton\", \"New Hotel Hilton Athens, Greece Hotel\", \"New Hotel Hilton Athens, Greece Resort\", \"New Hotel Hilton Athens, Greece\", \"NEW Hotel Hotel\", \"NEW Hotel Resort\", \"NEW Hotel\", \"NEW Hotel Athens, Greece Hotel\", \"NEW Hotel Athens, Greece Resort\", \"NEW Hotel Athens, Greece\"], \"v\": 3}": {
-    "lat": 37.9733621,
-    "lon": 23.7335136,
-    "formatted_address": "Filellinon 16, Athina 105 57, Greece",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJqS90CT69oRQRIUK8eMngc2c",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Filellinon 16, Athina 105 57, Greece",
-      "geometry": {
-        "location": {
-          "lat": 37.9733621,
-          "lng": 23.7335136
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 37.97477398029149,
-            "lng": 23.7348213302915
-          },
-          "southwest": {
-            "lat": 37.9720760197085,
-            "lng": 23.7321233697085
-          }
-        }
-      },
-      "name": "NEW Hotel",
-      "place_id": "ChIJqS90CT69oRQRIUK8eMngc2c",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://donkeyhotels.gr/newhotel/"
-    }
-  },
   "{\"brand\": \"JW Marriott\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"JW Marriott Cancun Resort & Spa JW Marriott Hotel\", \"JW Marriott Cancun Resort & Spa JW Marriott Resort\", \"JW Marriott Cancun Resort & Spa JW Marriott\", \"JW Marriott Cancun Resort & Spa JW Marriott Canc\\u00fan, Quintana Roo MX Hotel\", \"JW Marriott Cancun Resort & Spa JW Marriott Canc\\u00fan, Quintana Roo MX Resort\", \"JW Marriott Cancun Resort & Spa JW Marriott Canc\\u00fan, Quintana Roo MX\", \"JW Marriott Cancun Resort & Spa Hilton Hotel\", \"JW Marriott Cancun Resort & Spa Hilton Resort\", \"JW Marriott Cancun Resort & Spa Hilton\", \"JW Marriott Cancun Resort & Spa Hilton Canc\\u00fan, Quintana Roo MX Hotel\", \"JW Marriott Cancun Resort & Spa Hilton Canc\\u00fan, Quintana Roo MX Resort\", \"JW Marriott Cancun Resort & Spa Hilton Canc\\u00fan, Quintana Roo MX\", \"Jw Marriott Cancun Resort Spa JW Marriott Hotel\", \"Jw Marriott Cancun Resort Spa JW Marriott Resort\", \"Jw Marriott Cancun Resort Spa JW Marriott\", \"Jw Marriott Cancun Resort Spa JW Marriott Canc\\u00fan, Quintana Roo MX Hotel\", \"Jw Marriott Cancun Resort Spa JW Marriott Canc\\u00fan, Quintana Roo MX Resort\", \"Jw Marriott Cancun Resort Spa JW Marriott Canc\\u00fan, Quintana Roo MX\", \"Jw Marriott Cancun Resort Spa Hilton Hotel\", \"Jw Marriott Cancun Resort Spa Hilton Resort\", \"Jw Marriott Cancun Resort Spa Hilton\", \"Jw Marriott Cancun Resort Spa Hilton Canc\\u00fan, Quintana Roo MX Hotel\", \"Jw Marriott Cancun Resort Spa Hilton Canc\\u00fan, Quintana Roo MX Resort\", \"Jw Marriott Cancun Resort Spa Hilton Canc\\u00fan, Quintana Roo MX\", \"JW Marriott Cancun Resort & Spa Hotel\", \"JW Marriott Cancun Resort & Spa Resort\", \"JW Marriott Cancun Resort & Spa\", \"JW Marriott Cancun Resort & Spa Canc\\u00fan, Quintana Roo MX Hotel\", \"JW Marriott Cancun Resort & Spa Canc\\u00fan, Quintana Roo MX Resort\", \"JW Marriott Cancun Resort & Spa Canc\\u00fan, Quintana Roo MX\"], \"v\": 3}": {
     "lat": 21.088236,
     "lon": -86.7706319,
@@ -104706,90 +103906,6 @@
       "website": "https://www.marriott.com/en-us/hotels/hktjw-jw-marriott-phuket-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mayfair House Hotel & Garden Preferred Hotels & Resorts Hotel\", \"Mayfair House Hotel & Garden Preferred Hotels & Resorts Resort\", \"Mayfair House Hotel & Garden Preferred Hotels & Resorts\", \"Mayfair House Hotel & Garden Preferred Hotels & Resorts Miami, Florida US Hotel\", \"Mayfair House Hotel & Garden Preferred Hotels & Resorts Miami, Florida US Resort\", \"Mayfair House Hotel & Garden Preferred Hotels & Resorts Miami, Florida US\", \"Mayfair House Hotel & Garden Hilton Hotel\", \"Mayfair House Hotel & Garden Hilton Resort\", \"Mayfair House Hotel & Garden Hilton\", \"Mayfair House Hotel & Garden Hilton Miami, Florida US Hotel\", \"Mayfair House Hotel & Garden Hilton Miami, Florida US Resort\", \"Mayfair House Hotel & Garden Hilton Miami, Florida US\", \"Mayfair House Hotel Garden Preferred Hotels & Resorts Hotel\", \"Mayfair House Hotel Garden Preferred Hotels & Resorts Resort\", \"Mayfair House Hotel Garden Preferred Hotels & Resorts\", \"Mayfair House Hotel Garden Preferred Hotels & Resorts Miami, Florida US Hotel\", \"Mayfair House Hotel Garden Preferred Hotels & Resorts Miami, Florida US Resort\", \"Mayfair House Hotel Garden Preferred Hotels & Resorts Miami, Florida US\", \"Mayfair House Hotel Garden Hilton Hotel\", \"Mayfair House Hotel Garden Hilton Resort\", \"Mayfair House Hotel Garden Hilton\", \"Mayfair House Hotel Garden Hilton Miami, Florida US Hotel\", \"Mayfair House Hotel Garden Hilton Miami, Florida US Resort\", \"Mayfair House Hotel Garden Hilton Miami, Florida US\", \"Mayfair House Hotel & Garden Hotel\", \"Mayfair House Hotel & Garden Resort\", \"Mayfair House Hotel & Garden\", \"Mayfair House Hotel & Garden Miami, Florida US Hotel\", \"Mayfair House Hotel & Garden Miami, Florida US Resort\", \"Mayfair House Hotel & Garden Miami, Florida US\"], \"v\": 3}": {
-    "lat": 25.7289547,
-    "lon": -80.2413687,
-    "formatted_address": "3000 Florida Ave, Miami, FL 33133, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJvxlzmgO32YgRvIVYWTPrDkk",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "3000 Florida Ave, Miami, FL 33133, USA",
-      "geometry": {
-        "location": {
-          "lat": 25.7289547,
-          "lng": -80.2413687
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.7303518802915,
-            "lng": -80.24002256970849
-          },
-          "southwest": {
-            "lat": 25.7276539197085,
-            "lng": -80.2427205302915
-          }
-        }
-      },
-      "name": "Mayfair House Hotel & Garden",
-      "place_id": "ChIJvxlzmgO32YgRvIVYWTPrDkk",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.mayfairhousemiami.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
-    }
-  },
-  "{\"brand\": \"Preferred Hotels & Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"SoHo Hotel Toronto Preferred Hotels & Resorts Hotel\", \"SoHo Hotel Toronto Preferred Hotels & Resorts Resort\", \"SoHo Hotel Toronto Preferred Hotels & Resorts\", \"SoHo Hotel Toronto Preferred Hotels & Resorts Toronto, Ontario CA Hotel\", \"SoHo Hotel Toronto Preferred Hotels & Resorts Toronto, Ontario CA Resort\", \"SoHo Hotel Toronto Preferred Hotels & Resorts Toronto, Ontario CA\", \"SoHo Hotel Toronto Hilton Hotel\", \"SoHo Hotel Toronto Hilton Resort\", \"SoHo Hotel Toronto Hilton\", \"SoHo Hotel Toronto Hilton Toronto, Ontario CA Hotel\", \"SoHo Hotel Toronto Hilton Toronto, Ontario CA Resort\", \"SoHo Hotel Toronto Hilton Toronto, Ontario CA\", \"Soho Hotel Toronto Preferred Hotels & Resorts Hotel\", \"Soho Hotel Toronto Preferred Hotels & Resorts Resort\", \"Soho Hotel Toronto Preferred Hotels & Resorts\", \"Soho Hotel Toronto Preferred Hotels & Resorts Toronto, Ontario CA Hotel\", \"Soho Hotel Toronto Preferred Hotels & Resorts Toronto, Ontario CA Resort\", \"Soho Hotel Toronto Preferred Hotels & Resorts Toronto, Ontario CA\", \"Soho Hotel Toronto Hilton Hotel\", \"Soho Hotel Toronto Hilton Resort\", \"Soho Hotel Toronto Hilton\", \"Soho Hotel Toronto Hilton Toronto, Ontario CA Hotel\", \"Soho Hotel Toronto Hilton Toronto, Ontario CA Resort\", \"Soho Hotel Toronto Hilton Toronto, Ontario CA\", \"SoHo Hotel Toronto Hotel\", \"SoHo Hotel Toronto Resort\", \"SoHo Hotel Toronto\", \"SoHo Hotel Toronto Toronto, Ontario CA Hotel\", \"SoHo Hotel Toronto Toronto, Ontario CA Resort\", \"SoHo Hotel Toronto Toronto, Ontario CA\"], \"v\": 3}": {
-    "lat": 43.6447222,
-    "lon": -79.39222219999999,
-    "formatted_address": "318 Wellington St W, Toronto, ON M5V 3T4, Canada",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJT1vL_Nk0K4gRvHuHoFhS-Xc",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "318 Wellington St W, Toronto, ON M5V 3T4, Canada",
-      "geometry": {
-        "location": {
-          "lat": 43.6447222,
-          "lng": -79.39222219999999
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 43.64599958029149,
-            "lng": -79.39100071970849
-          },
-          "southwest": {
-            "lat": 43.6433016197085,
-            "lng": -79.39369868029151
-          }
-        }
-      },
-      "name": "SoHo Hotel Toronto",
-      "place_id": "ChIJT1vL_Nk0K4gRvHuHoFhS-Xc",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.sohohoteltoronto.com/"
-    }
-  },
   "{\"brand\": \"Shangri-La Hotels and Resorts\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Shangri-La Rasa Sentosa, Singapore Shangri-La Hotels and Resorts Hotel\", \"Shangri-La Rasa Sentosa, Singapore Shangri-La Hotels and Resorts Resort\", \"Shangri-La Rasa Sentosa, Singapore Shangri-La Hotels and Resorts\", \"Shangri-La Rasa Sentosa, Singapore Shangri-La Hotels and Resorts Singapore, Singapore Hotel\", \"Shangri-La Rasa Sentosa, Singapore Shangri-La Hotels and Resorts Singapore, Singapore Resort\", \"Shangri-La Rasa Sentosa, Singapore Shangri-La Hotels and Resorts Singapore, Singapore\", \"Shangri-La Rasa Sentosa, Singapore Hilton Hotel\", \"Shangri-La Rasa Sentosa, Singapore Hilton Resort\", \"Shangri-La Rasa Sentosa, Singapore Hilton\", \"Shangri-La Rasa Sentosa, Singapore Hilton Singapore, Singapore Hotel\", \"Shangri-La Rasa Sentosa, Singapore Hilton Singapore, Singapore Resort\", \"Shangri-La Rasa Sentosa, Singapore Hilton Singapore, Singapore\", \"Shangri la Rasa Sentosa Singapore Shangri-La Hotels and Resorts Hotel\", \"Shangri la Rasa Sentosa Singapore Shangri-La Hotels and Resorts Resort\", \"Shangri la Rasa Sentosa Singapore Shangri-La Hotels and Resorts\", \"Shangri la Rasa Sentosa Singapore Shangri-La Hotels and Resorts Singapore, Singapore Hotel\", \"Shangri la Rasa Sentosa Singapore Shangri-La Hotels and Resorts Singapore, Singapore Resort\", \"Shangri la Rasa Sentosa Singapore Shangri-La Hotels and Resorts Singapore, Singapore\", \"Shangri la Rasa Sentosa Singapore Hilton Hotel\", \"Shangri la Rasa Sentosa Singapore Hilton Resort\", \"Shangri la Rasa Sentosa Singapore Hilton\", \"Shangri la Rasa Sentosa Singapore Hilton Singapore, Singapore Hotel\", \"Shangri la Rasa Sentosa Singapore Hilton Singapore, Singapore Resort\", \"Shangri la Rasa Sentosa Singapore Hilton Singapore, Singapore\", \"Shangri-La Rasa Sentosa, Singapore Hotel\", \"Shangri-La Rasa Sentosa, Singapore Resort\", \"Shangri-La Rasa Sentosa, Singapore\", \"Shangri-La Rasa Sentosa, Singapore Singapore, Singapore Hotel\", \"Shangri-La Rasa Sentosa, Singapore Singapore, Singapore Resort\", \"Shangri-La Rasa Sentosa, Singapore Singapore, Singapore\"], \"v\": 3}": {
     "lat": 1.2577323,
     "lon": 103.8097962,
@@ -104830,48 +103946,6 @@
         "point_of_interest"
       ],
       "website": "http://www.shangri-la.com/singapore/rasasentosaresort/"
-    }
-  },
-  "{\"brand\": \"W Hotels\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W Punta de Mita W Hotels Hotel\", \"W Punta de Mita W Hotels Resort\", \"W Punta de Mita W Hotels\", \"W Punta de Mita W Hotels Punta de Mita, Nayarit MX Hotel\", \"W Punta de Mita W Hotels Punta de Mita, Nayarit MX Resort\", \"W Punta de Mita W Hotels Punta de Mita, Nayarit MX\", \"W Punta de Mita Hilton Hotel\", \"W Punta de Mita Hilton Resort\", \"W Punta de Mita Hilton\", \"W Punta de Mita Hilton Punta de Mita, Nayarit MX Hotel\", \"W Punta de Mita Hilton Punta de Mita, Nayarit MX Resort\", \"W Punta de Mita Hilton Punta de Mita, Nayarit MX\", \"W Punta De Mita W Hotels Hotel\", \"W Punta De Mita W Hotels Resort\", \"W Punta De Mita W Hotels\", \"W Punta De Mita W Hotels Punta de Mita, Nayarit MX Hotel\", \"W Punta De Mita W Hotels Punta de Mita, Nayarit MX Resort\", \"W Punta De Mita W Hotels Punta de Mita, Nayarit MX\", \"W Punta De Mita Hilton Hotel\", \"W Punta De Mita Hilton Resort\", \"W Punta De Mita Hilton\", \"W Punta De Mita Hilton Punta de Mita, Nayarit MX Hotel\", \"W Punta De Mita Hilton Punta de Mita, Nayarit MX Resort\", \"W Punta De Mita Hilton Punta de Mita, Nayarit MX\", \"W Punta de Mita Hotel\", \"W Punta de Mita Resort\", \"W Punta de Mita\", \"W Punta de Mita Punta de Mita, Nayarit MX Hotel\", \"W Punta de Mita Punta de Mita, Nayarit MX Resort\", \"W Punta de Mita Punta de Mita, Nayarit MX\"], \"v\": 3}": {
-    "lat": 20.7486873,
-    "lon": -105.4321982,
-    "formatted_address": "Carr. Federal la Cruz de Huanacaxtle - Punta de Mita Km 8.5, Desarrollo Costa Banderas, 63734 Desarrollo Punta Mita, Nay., Mexico",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJT2qLJMdqIYQRZMX8o0ib_U8",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Carr. Federal la Cruz de Huanacaxtle - Punta de Mita Km 8.5, Desarrollo Costa Banderas, 63734 Desarrollo Punta Mita, Nay., Mexico",
-      "geometry": {
-        "location": {
-          "lat": 20.7486873,
-          "lng": -105.4321982
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 20.7500343302915,
-            "lng": -105.4306194697085
-          },
-          "southwest": {
-            "lat": 20.7473363697085,
-            "lng": -105.4333174302915
-          }
-        }
-      },
-      "name": "W Punta de Mita",
-      "place_id": "ChIJT2qLJMdqIYQRZMX8o0ib_U8",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/pvrwh-w-punta-de-mita/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Patmos Aktis, a Luxury Collection Resort & Spa, Greece Hotel\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece Resort\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece Patmos, Greece Hotel\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece Patmos, Greece Resort\", \"Patmos Aktis, a Luxury Collection Resort & Spa, Greece Patmos, Greece\", \"Patmos Aktis a Luxury Collection Resort Spa Greece Hotel\", \"Patmos Aktis a Luxury Collection Resort Spa Greece Resort\", \"Patmos Aktis a Luxury Collection Resort Spa Greece\", \"Patmos Aktis a Luxury Collection Resort Spa Greece Patmos, Greece Hotel\", \"Patmos Aktis a Luxury Collection Resort Spa Greece Patmos, Greece Resort\", \"Patmos Aktis a Luxury Collection Resort Spa Greece Patmos, Greece\"], \"v\": 3}": {
@@ -113898,47 +112972,49 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Gyp Sea Saint Barth\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Gyp Sea Saint Barth Hotel\", \"Gyp Sea Saint Barth Resort\", \"Gyp Sea Saint Barth\", \"Gyp Sea Saint Barth Saint Barthelemy, Saint Barthelemy Hotel\", \"Gyp Sea Saint Barth Saint Barthelemy, Saint Barthelemy Resort\", \"Gyp Sea Saint Barth Saint Barthelemy, Saint Barthelemy\"], \"v\": 3}": {
-    "lat": 17.9029812,
-    "lon": -62.8338071,
-    "formatted_address": "Baie de Saint-Jean, 97133, St Barthélemy",
+    "lat": 17.9166367,
+    "lon": -62.8622321,
+    "formatted_address": "Colombier Saint-Barthélémy BL, 97133, St Barthélemy",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJRzc-1L51DowRr1fgQGtpQdQ",
+    "place_id": "ChIJWR9l6iR1DowR-5oD4wKbxdo",
     "types": [
+      "bar",
       "establishment",
-      "food",
+      "lodging",
       "point_of_interest",
-      "restaurant"
+      "spa"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Baie de Saint-Jean, 97133, St Barthélemy",
+      "formatted_address": "Colombier Saint-Barthélémy BL, 97133, St Barthélemy",
       "geometry": {
         "location": {
-          "lat": 17.9029812,
-          "lng": -62.8338071
+          "lat": 17.9166367,
+          "lng": -62.8622321
         },
         "viewport": {
           "northeast": {
-            "lat": 17.9038017802915,
-            "lng": -62.83243581970849
+            "lat": 17.9181155802915,
+            "lng": -62.8608317697085
           },
           "southwest": {
-            "lat": 17.9011038197085,
-            "lng": -62.8351337802915
+            "lat": 17.9154176197085,
+            "lng": -62.8635297302915
           }
         }
       },
-      "name": "Gyp Sea Beach Club",
-      "place_id": "ChIJRzc-1L51DowRr1fgQGtpQdQ",
+      "name": "Gyp Sea Hotel - St Barth",
+      "place_id": "ChIJWR9l6iR1DowR-5oD4wKbxdo",
       "types": [
+        "bar",
         "establishment",
-        "food",
+        "lodging",
         "point_of_interest",
-        "restaurant"
+        "spa"
       ],
-      "website": "https://www.gypsea-stbarth.com/beach-club"
+      "website": "https://www.gypsea-stbarth.com/the-hotel"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Llao Llao Resort, Golf & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Llao Llao Resort, Golf & Spa Hotel\", \"Llao Llao Resort, Golf & Spa Resort\", \"Llao Llao Resort, Golf & Spa\", \"Llao Llao Resort, Golf & Spa San Carlos de Bariloche, Argentina Hotel\", \"Llao Llao Resort, Golf & Spa San Carlos de Bariloche, Argentina Resort\", \"Llao Llao Resort, Golf & Spa San Carlos de Bariloche, Argentina\", \"Llao Llao Resort Golf Spa Hotel\", \"Llao Llao Resort Golf Spa Resort\", \"Llao Llao Resort Golf Spa\", \"Llao Llao Resort Golf Spa San Carlos de Bariloche, Argentina Hotel\", \"Llao Llao Resort Golf Spa San Carlos de Bariloche, Argentina Resort\", \"Llao Llao Resort Golf Spa San Carlos de Bariloche, Argentina\"], \"v\": 3}": {
@@ -155545,48 +154621,6 @@
       "website": "http://www.shangri-la.com/fort"
     }
   },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Shangri-La Far Eastern Plaza\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Shangri-La Far Eastern Plaza Shangri-La Hotels and Resorts Hotel\", \"Shangri-La Far Eastern Plaza Shangri-La Hotels and Resorts Resort\", \"Shangri-La Far Eastern Plaza Shangri-La Hotels and Resorts\", \"Shangri-La Far Eastern Plaza Shangri-La Hotels and Resorts Taipei, Taiwan Hotel\", \"Shangri-La Far Eastern Plaza Shangri-La Hotels and Resorts Taipei, Taiwan Resort\", \"Shangri-La Far Eastern Plaza Shangri-La Hotels and Resorts Taipei, Taiwan\", \"Shangri-La Far Eastern Plaza Hilton Hotel\", \"Shangri-La Far Eastern Plaza Hilton Resort\", \"Shangri-La Far Eastern Plaza Hilton\", \"Shangri-La Far Eastern Plaza Hilton Taipei, Taiwan Hotel\", \"Shangri-La Far Eastern Plaza Hilton Taipei, Taiwan Resort\", \"Shangri-La Far Eastern Plaza Hilton Taipei, Taiwan\", \"Shangri la Far Eastern Plaza Shangri-La Hotels and Resorts Hotel\", \"Shangri la Far Eastern Plaza Shangri-La Hotels and Resorts Resort\", \"Shangri la Far Eastern Plaza Shangri-La Hotels and Resorts\", \"Shangri la Far Eastern Plaza Shangri-La Hotels and Resorts Taipei, Taiwan Hotel\", \"Shangri la Far Eastern Plaza Shangri-La Hotels and Resorts Taipei, Taiwan Resort\", \"Shangri la Far Eastern Plaza Shangri-La Hotels and Resorts Taipei, Taiwan\", \"Shangri la Far Eastern Plaza Hilton Hotel\", \"Shangri la Far Eastern Plaza Hilton Resort\", \"Shangri la Far Eastern Plaza Hilton\", \"Shangri la Far Eastern Plaza Hilton Taipei, Taiwan Hotel\", \"Shangri la Far Eastern Plaza Hilton Taipei, Taiwan Resort\", \"Shangri la Far Eastern Plaza Hilton Taipei, Taiwan\", \"Shangri-La Far Eastern Plaza Hotel\", \"Shangri-La Far Eastern Plaza Resort\", \"Shangri-La Far Eastern Plaza\", \"Shangri-La Far Eastern Plaza Taipei, Taiwan Hotel\", \"Shangri-La Far Eastern Plaza Taipei, Taiwan Resort\", \"Shangri-La Far Eastern Plaza Taipei, Taiwan\"], \"v\": 3}": {
-    "lat": 25.0262249,
-    "lon": 121.5496904,
-    "formatted_address": "No. 201號, Section 2, Dunhua S Rd, Da’an District, Taipei City, Taiwan 10675",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJeUp8ZTKqQjQRG274UZw34LQ",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "No. 201號, Section 2, Dunhua S Rd, Da’an District, Taipei City, Taiwan 10675",
-      "geometry": {
-        "location": {
-          "lat": 25.0262249,
-          "lng": 121.5496904
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.0278904802915,
-            "lng": 121.5506820302915
-          },
-          "southwest": {
-            "lat": 25.0251925197085,
-            "lng": 121.5479840697085
-          }
-        }
-      },
-      "name": "Shangri-La Far Eastern, Taipei",
-      "place_id": "ChIJeUp8ZTKqQjQRG274UZw34LQ",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://tpe.fareasternhotel.com.tw/tc/"
-    }
-  },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Shangri-La Tokyo\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Shangri-La Tokyo Shangri-La Hotels and Resorts Hotel\", \"Shangri-La Tokyo Shangri-La Hotels and Resorts Resort\", \"Shangri-La Tokyo Shangri-La Hotels and Resorts\", \"Shangri-La Tokyo Shangri-La Hotels and Resorts Tokyo, Japan Hotel\", \"Shangri-La Tokyo Shangri-La Hotels and Resorts Tokyo, Japan Resort\", \"Shangri-La Tokyo Shangri-La Hotels and Resorts Tokyo, Japan\", \"Shangri-La Tokyo Hilton Hotel\", \"Shangri-La Tokyo Hilton Resort\", \"Shangri-La Tokyo Hilton\", \"Shangri-La Tokyo Hilton Tokyo, Japan Hotel\", \"Shangri-La Tokyo Hilton Tokyo, Japan Resort\", \"Shangri-La Tokyo Hilton Tokyo, Japan\", \"Shangri la Tokyo Shangri-La Hotels and Resorts Hotel\", \"Shangri la Tokyo Shangri-La Hotels and Resorts Resort\", \"Shangri la Tokyo Shangri-La Hotels and Resorts\", \"Shangri la Tokyo Shangri-La Hotels and Resorts Tokyo, Japan Hotel\", \"Shangri la Tokyo Shangri-La Hotels and Resorts Tokyo, Japan Resort\", \"Shangri la Tokyo Shangri-La Hotels and Resorts Tokyo, Japan\", \"Shangri la Tokyo Hilton Hotel\", \"Shangri la Tokyo Hilton Resort\", \"Shangri la Tokyo Hilton\", \"Shangri la Tokyo Hilton Tokyo, Japan Hotel\", \"Shangri la Tokyo Hilton Tokyo, Japan Resort\", \"Shangri la Tokyo Hilton Tokyo, Japan\", \"Shangri-La Tokyo Hotel\", \"Shangri-La Tokyo Resort\", \"Shangri-La Tokyo\", \"Shangri-La Tokyo Tokyo, Japan Hotel\", \"Shangri-La Tokyo Tokyo, Japan Resort\", \"Shangri-La Tokyo Tokyo, Japan\"], \"v\": 3}": {
     "lat": 35.6824303,
     "lon": 139.7693827,
@@ -159487,7 +158521,9 @@
         "point_of_interest",
         "restaurant"
       ]
-    }
+    },
+    "_location_mismatch_confirmed_at": 1795626293.79678,
+    "_location_mismatch_selector_v": 3
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The St. Regis Chicago\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The St. Regis Chicago St. Regis Hotel\", \"The St. Regis Chicago St. Regis Resort\", \"The St. Regis Chicago St. Regis\", \"The St. Regis Chicago St. Regis Chicago, Illinois US Hotel\", \"The St. Regis Chicago St. Regis Chicago, Illinois US Resort\", \"The St. Regis Chicago St. Regis Chicago, Illinois US\", \"The St. Regis Chicago Hilton Hotel\", \"The St. Regis Chicago Hilton Resort\", \"The St. Regis Chicago Hilton\", \"The St. Regis Chicago Hilton Chicago, Illinois US Hotel\", \"The St. Regis Chicago Hilton Chicago, Illinois US Resort\", \"The St. Regis Chicago Hilton Chicago, Illinois US\", \"St Regis Chicago St. Regis Hotel\", \"St Regis Chicago St. Regis Resort\", \"St Regis Chicago St. Regis\", \"St Regis Chicago St. Regis Chicago, Illinois US Hotel\", \"St Regis Chicago St. Regis Chicago, Illinois US Resort\", \"St Regis Chicago St. Regis Chicago, Illinois US\", \"St Regis Chicago Hilton Hotel\", \"St Regis Chicago Hilton Resort\", \"St Regis Chicago Hilton\", \"St Regis Chicago Hilton Chicago, Illinois US Hotel\", \"St Regis Chicago Hilton Chicago, Illinois US Resort\", \"St Regis Chicago Hilton Chicago, Illinois US\", \"The St. Regis Chicago Hotel\", \"The St. Regis Chicago Resort\", \"The St. Regis Chicago\", \"The St. Regis Chicago Chicago, Illinois US Hotel\", \"The St. Regis Chicago Chicago, Illinois US Resort\", \"The St. Regis Chicago Chicago, Illinois US\"], \"v\": 3}": {
     "lat": 41.8875572,
@@ -177801,48 +176837,6 @@
       "website": "https://www.marriott.com/en-us/hotels/melwh-w-melbourne/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"W South Beach\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W South Beach W Hotels Hotel\", \"W South Beach W Hotels Resort\", \"W South Beach W Hotels\", \"W South Beach W Hotels Miami Beach, Florida US Hotel\", \"W South Beach W Hotels Miami Beach, Florida US Resort\", \"W South Beach W Hotels Miami Beach, Florida US\", \"W South Beach Hilton Hotel\", \"W South Beach Hilton Resort\", \"W South Beach Hilton\", \"W South Beach Hilton Miami Beach, Florida US Hotel\", \"W South Beach Hilton Miami Beach, Florida US Resort\", \"W South Beach Hilton Miami Beach, Florida US\", \"W South Beach Hotel\", \"W South Beach Resort\", \"W South Beach\", \"W South Beach Miami Beach, Florida US Hotel\", \"W South Beach Miami Beach, Florida US Resort\", \"W South Beach Miami Beach, Florida US\"], \"v\": 3}": {
-    "lat": 25.7973813,
-    "lon": -80.1271903,
-    "formatted_address": "2201 Collins Ave, Miami Beach, FL 33139, USA",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJo6lrf6er2YgRXChlCiesKW8",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "2201 Collins Ave, Miami Beach, FL 33139, USA",
-      "geometry": {
-        "location": {
-          "lat": 25.7973813,
-          "lng": -80.1271903
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 25.7986648802915,
-            "lng": -80.12596911970849
-          },
-          "southwest": {
-            "lat": 25.79596691970849,
-            "lng": -80.12866708029149
-          }
-        }
-      },
-      "name": "W South Beach",
-      "place_id": "ChIJo6lrf6er2YgRXChlCiesKW8",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "https://www.marriott.com/en-us/hotels/miaws-w-south-beach/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
-    }
-  },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"W New York - Union Square\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"W New York - Union Square W Hotels Hotel\", \"W New York - Union Square W Hotels Resort\", \"W New York - Union Square W Hotels\", \"W New York - Union Square W Hotels New York, New York US Hotel\", \"W New York - Union Square W Hotels New York, New York US Resort\", \"W New York - Union Square W Hotels New York, New York US\", \"W New York - Union Square Hilton Hotel\", \"W New York - Union Square Hilton Resort\", \"W New York - Union Square Hilton\", \"W New York - Union Square Hilton New York, New York US Hotel\", \"W New York - Union Square Hilton New York, New York US Resort\", \"W New York - Union Square Hilton New York, New York US\", \"W New York Union Square W Hotels Hotel\", \"W New York Union Square W Hotels Resort\", \"W New York Union Square W Hotels\", \"W New York Union Square W Hotels New York, New York US Hotel\", \"W New York Union Square W Hotels New York, New York US Resort\", \"W New York Union Square W Hotels New York, New York US\", \"W New York Union Square Hilton Hotel\", \"W New York Union Square Hilton Resort\", \"W New York Union Square Hilton\", \"W New York Union Square Hilton New York, New York US Hotel\", \"W New York Union Square Hilton New York, New York US Resort\", \"W New York Union Square Hilton New York, New York US\", \"W New York - Union Square Hotel\", \"W New York - Union Square Resort\", \"W New York - Union Square\", \"W New York - Union Square New York, New York US Hotel\", \"W New York - Union Square New York, New York US Resort\", \"W New York - Union Square New York, New York US\"], \"v\": 3}": {
     "lat": 40.7366961,
     "lon": -73.9887329,
@@ -189061,7 +188055,6 @@
   "{\"brand\": \"FHR\", \"hotel_name\": \"H\\u00f4tel Royal\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"H\\u00f4tel Royal\"], \"v\": 3}": null,
   "{\"brand\": \"FHR\", \"hotel_name\": \"H\\u00f4tel Villa Marie St Tropez\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"H\\u00f4tel Villa Marie St Tropez\"], \"v\": 3}": null,
   "{\"brand\": \"FHR\", \"hotel_name\": \"Hotel Vil\\u00f2n\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Vil\\u00f2n\"], \"v\": 3}": null,
-  "{\"brand\": \"FHR\", \"hotel_name\": \"Il Sereno Lago di Como\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Il Sereno Lago di Como\"], \"v\": 3}": null,
   "{\"brand\": \"FHR\", \"hotel_name\": \"InterContinental Ath\\u00e9n\\u00e9e Palace Bucharest by IHG\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Ath\\u00e9n\\u00e9e Palace Bucharest by IHG\"], \"v\": 3}": null,
   "{\"brand\": \"FHR\", \"hotel_name\": \"La Sommit\\u00e0 Relais & Chateaux\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Sommit\\u00e0 Relais & Chateaux\"], \"v\": 3}": null,
   "{\"brand\": \"FHR\", \"hotel_name\": \"La Zambra Resort Mijas - Marbella The Unbound Collection By Hyatt\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"La Zambra Resort Mijas - Marbella The Unbound Collection By Hyatt\"], \"v\": 3}": null,
@@ -212022,48 +211015,6 @@
       "website": "http://paraderohotels.com/"
     }
   },
-  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Il Sereno Lago di Como\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Il Sereno Lago di Como The Leading Hotels of the World Hotel\", \"Il Sereno Lago di Como The Leading Hotels of the World Resort\", \"Il Sereno Lago di Como The Leading Hotels of the World\", \"Il Sereno Lago di Como The Leading Hotels of the World Torno, Italy Hotel\", \"Il Sereno Lago di Como The Leading Hotels of the World Torno, Italy Resort\", \"Il Sereno Lago di Como The Leading Hotels of the World Torno, Italy\", \"Il Sereno Lago di Como Hilton Hotel\", \"Il Sereno Lago di Como Hilton Resort\", \"Il Sereno Lago di Como Hilton\", \"Il Sereno Lago di Como Hilton Torno, Italy Hotel\", \"Il Sereno Lago di Como Hilton Torno, Italy Resort\", \"Il Sereno Lago di Como Hilton Torno, Italy\", \"Il Sereno Lago Di Como The Leading Hotels of the World Hotel\", \"Il Sereno Lago Di Como The Leading Hotels of the World Resort\", \"Il Sereno Lago Di Como The Leading Hotels of the World\", \"Il Sereno Lago Di Como The Leading Hotels of the World Torno, Italy Hotel\", \"Il Sereno Lago Di Como The Leading Hotels of the World Torno, Italy Resort\", \"Il Sereno Lago Di Como The Leading Hotels of the World Torno, Italy\", \"Il Sereno Lago Di Como Hilton Hotel\", \"Il Sereno Lago Di Como Hilton Resort\", \"Il Sereno Lago Di Como Hilton\", \"Il Sereno Lago Di Como Hilton Torno, Italy Hotel\", \"Il Sereno Lago Di Como Hilton Torno, Italy Resort\", \"Il Sereno Lago Di Como Hilton Torno, Italy\", \"Il Sereno Lago di Como Hotel\", \"Il Sereno Lago di Como Resort\", \"Il Sereno Lago di Como\", \"Il Sereno Lago di Como Torno, Italy Hotel\", \"Il Sereno Lago di Como Torno, Italy Resort\", \"Il Sereno Lago di Como Torno, Italy\"], \"v\": 3}": {
-    "lat": 45.8590684,
-    "lon": 9.1177082,
-    "formatted_address": "Via Torrazza, 10, 22020 Torno CO, Italy",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJKc2Ipk4nhEcRu3kFKUg1h0Y",
-    "types": [
-      "establishment",
-      "lodging",
-      "point_of_interest"
-    ],
-    "partial_match": false,
-    "raw": {
-      "business_status": "OPERATIONAL",
-      "formatted_address": "Via Torrazza, 10, 22020 Torno CO, Italy",
-      "geometry": {
-        "location": {
-          "lat": 45.8590684,
-          "lng": 9.1177082
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 45.8602823302915,
-            "lng": 9.118958130291503
-          },
-          "southwest": {
-            "lat": 45.8575843697085,
-            "lng": 9.116260169708498
-          }
-        }
-      },
-      "name": "il Sereno Hotel",
-      "place_id": "ChIJKc2Ipk4nhEcRu3kFKUg1h0Y",
-      "types": [
-        "establishment",
-        "lodging",
-        "point_of_interest"
-      ],
-      "website": "http://ilsereno.com/"
-    }
-  },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Sonnenalp\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sonnenalp The Leading Hotels of the World Hotel\", \"Sonnenalp The Leading Hotels of the World Resort\", \"Sonnenalp The Leading Hotels of the World\", \"Sonnenalp The Leading Hotels of the World Vail, Colorado US Hotel\", \"Sonnenalp The Leading Hotels of the World Vail, Colorado US Resort\", \"Sonnenalp The Leading Hotels of the World Vail, Colorado US\", \"Sonnenalp Hilton Hotel\", \"Sonnenalp Hilton Resort\", \"Sonnenalp Hilton\", \"Sonnenalp Hilton Vail, Colorado US Hotel\", \"Sonnenalp Hilton Vail, Colorado US Resort\", \"Sonnenalp Hilton Vail, Colorado US\", \"Sonnenalp Hotel\", \"Sonnenalp Resort\", \"Sonnenalp\", \"Sonnenalp Vail, Colorado US Hotel\", \"Sonnenalp Vail, Colorado US Resort\", \"Sonnenalp Vail, Colorado US\"], \"v\": 3}": {
     "lat": 39.6419092,
     "lon": -106.3780286,
@@ -215817,44 +214768,149 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Ritz-Carlton, Xi'an\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Ritz-Carlton, Xi'an The Ritz-Carlton Hotel\", \"The Ritz-Carlton, Xi'an The Ritz-Carlton Resort\", \"The Ritz-Carlton, Xi'an The Ritz-Carlton\", \"The Ritz-Carlton, Xi'an The Ritz-Carlton Xi'an, China Hotel\", \"The Ritz-Carlton, Xi'an The Ritz-Carlton Xi'an, China Resort\", \"The Ritz-Carlton, Xi'an The Ritz-Carlton Xi'an, China\", \"The Ritz-Carlton, Xi'an Hilton Hotel\", \"The Ritz-Carlton, Xi'an Hilton Resort\", \"The Ritz-Carlton, Xi'an Hilton\", \"The Ritz-Carlton, Xi'an Hilton Xi'an, China Hotel\", \"The Ritz-Carlton, Xi'an Hilton Xi'an, China Resort\", \"The Ritz-Carlton, Xi'an Hilton Xi'an, China\", \"Ritz carlton Xian The Ritz-Carlton Hotel\", \"Ritz carlton Xian The Ritz-Carlton Resort\", \"Ritz carlton Xian The Ritz-Carlton\", \"Ritz carlton Xian The Ritz-Carlton Xi'an, China Hotel\", \"Ritz carlton Xian The Ritz-Carlton Xi'an, China Resort\", \"Ritz carlton Xian The Ritz-Carlton Xi'an, China\", \"Ritz carlton Xian Hilton Hotel\", \"Ritz carlton Xian Hilton Resort\", \"Ritz carlton Xian Hilton\", \"Ritz carlton Xian Hilton Xi'an, China Hotel\", \"Ritz carlton Xian Hilton Xi'an, China Resort\", \"Ritz carlton Xian Hilton Xi'an, China\", \"The Ritz-Carlton, Xi'an Hotel\", \"The Ritz-Carlton, Xi'an Resort\", \"The Ritz-Carlton, Xi'an\", \"The Ritz-Carlton, Xi'an Xi'an, China Hotel\", \"The Ritz-Carlton, Xi'an Xi'an, China Resort\", \"The Ritz-Carlton, Xi'an Xi'an, China\"], \"v\": 3}": {
-    "lat": 34.2237654,
-    "lon": 108.8980399,
-    "formatted_address": "50 Ke Ji Er Lu, 50, Yan Ta Qu, Xi An Shi, Shan Xi Sheng, China, 710065",
-    "provider": "google_places",
-    "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJC2GnFTR3YzYRL5JLHX-AQg4",
+    "lat": 34.2232364,
+    "lon": 108.8985118,
+    "formatted_address": "50 Ke Ji Er Lu, Yan Ta Qu, Xi An Shi, Shan Xi Sheng, China, 710065",
+    "provider": "google_geocoding",
+    "confidence": "ROOFTOP",
+    "place_id": "ChIJ_1T0IJV3YzYRZIf5JXS_Pro",
     "types": [
       "establishment",
-      "parking",
+      "lodging",
       "point_of_interest"
+    ],
+    "partial_match": true,
+    "raw": {
+      "address_components": [
+        {
+          "long_name": "50号",
+          "short_name": "50号",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Ke Ji Er Lu",
+          "short_name": "Ke Ji Er Lu",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Yan Ta Qu",
+          "short_name": "Yan Ta Qu",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "Xi An Shi",
+          "short_name": "Xi An Shi",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Shan Xi Sheng",
+          "short_name": "Shan Xi Sheng",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "China",
+          "short_name": "CN",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "710065",
+          "short_name": "710065",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "50 Ke Ji Er Lu, Yan Ta Qu, Xi An Shi, Shan Xi Sheng, China, 710065",
+      "geometry": {
+        "location": {
+          "lat": 34.2232364,
+          "lng": 108.8985118
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 34.22484378029149,
+            "lng": 108.9000304302915
+          },
+          "southwest": {
+            "lat": 34.2221458197085,
+            "lng": 108.8973324697085
+          }
+        }
+      },
+      "partial_match": true,
+      "place_id": "ChIJ_1T0IJV3YzYRZIf5JXS_Pro",
+      "plus_code": {
+        "compound_code": "6VFX+7C Yanta District, Xi'An, Shaanxi, China",
+        "global_code": "8P6C6VFX+7C"
+      },
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ]
+    }
+  },
+  "{\"brand\": \"FHR\", \"hotel_name\": \"Jumeirah Lake Como\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Jumeirah Lake Como\"], \"v\": 3}": null,
+  "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Jumeirah Lake Como\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Jumeirah Lake Como The Leading Hotels of the World Hotel\", \"Jumeirah Lake Como The Leading Hotels of the World Resort\", \"Jumeirah Lake Como The Leading Hotels of the World\", \"Jumeirah Lake Como The Leading Hotels of the World Torno, Italy Hotel\", \"Jumeirah Lake Como The Leading Hotels of the World Torno, Italy Resort\", \"Jumeirah Lake Como The Leading Hotels of the World Torno, Italy\", \"Jumeirah Lake Como Hilton Hotel\", \"Jumeirah Lake Como Hilton Resort\", \"Jumeirah Lake Como Hilton\", \"Jumeirah Lake Como Hilton Torno, Italy Hotel\", \"Jumeirah Lake Como Hilton Torno, Italy Resort\", \"Jumeirah Lake Como Hilton Torno, Italy\", \"Jumeirah Lake Como Hotel\", \"Jumeirah Lake Como Resort\", \"Jumeirah Lake Como\", \"Jumeirah Lake Como Torno, Italy Hotel\", \"Jumeirah Lake Como Torno, Italy Resort\", \"Jumeirah Lake Como Torno, Italy\"], \"v\": 3}": {
+    "lat": 45.8168805,
+    "lon": 9.064603199999999,
+    "formatted_address": "Via Borgo Vico, 241, 22100 Como CO, Italy",
+    "provider": "google_places",
+    "confidence": "PLACE_DETAILS",
+    "place_id": "ChIJ_QYfmqmdhkcRLMgfNxDXA-E",
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "spa"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "50 Ke Ji Er Lu, 50, Yan Ta Qu, Xi An Shi, Shan Xi Sheng, China, 710065",
+      "formatted_address": "Via Borgo Vico, 241, 22100 Como CO, Italy",
       "geometry": {
         "location": {
-          "lat": 34.2237654,
-          "lng": 108.8980399
+          "lat": 45.8168805,
+          "lng": 9.064603199999999
         },
         "viewport": {
           "northeast": {
-            "lat": 34.22511438029149,
-            "lng": 108.8993888802915
+            "lat": 45.8184184802915,
+            "lng": 9.066133480291501
           },
           "southwest": {
-            "lat": 34.22241641970849,
-            "lng": 108.8966909197085
+            "lat": 45.81572051970851,
+            "lng": 9.063435519708497
           }
         }
       },
-      "name": "The Ritz-Carlton Xi'an Parking",
-      "place_id": "ChIJC2GnFTR3YzYRL5JLHX-AQg4",
+      "name": "Hilton Lake Como",
+      "place_id": "ChIJ_QYfmqmdhkcRLMgfNxDXA-E",
       "types": [
         "establishment",
-        "parking",
-        "point_of_interest"
-      ]
+        "lodging",
+        "point_of_interest",
+        "spa"
+      ],
+      "website": "https://www.hilton.com/en/hotels/mxpcohi-hilton-lake-como/?SEO_id=GMB-EMEA-HI-MXPCOHI"
     }
   }
 }
