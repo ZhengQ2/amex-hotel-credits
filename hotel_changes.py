@@ -342,16 +342,26 @@ def compare(
             dist = _distance_between(o, n)
             same_pid = bool(o.place_id and o.place_id == n.place_id)
             distinct_pids = bool(o.place_id and n.place_id and o.place_id != n.place_id)
+            very_close = dist is not None and dist <= DEFAULT_MOVE_THRESHOLD_M
             if o.hotel_location or n.hotel_location:
                 loc_ok = locations_compatible(o.hotel_location, n.hotel_location)
-                geo_ok = same_pid or (not distinct_pids and dist is not None and dist <= 25_000.0)
+                geo_ok = (
+                    same_pid
+                    or very_close
+                    or (not distinct_pids and dist is not None and dist <= 25_000.0)
+                )
                 if not (loc_ok or geo_ok):
                     continue
             else:
                 # Both rows omit hotel_location (e.g. Hilton): require matching
-                # place_id, or non-conflicting place_ids with nearby/missing coords.
+                # place_id, very close coords (<=250 m), or non-conflicting
+                # place_ids with nearby/missing coords.
                 loc_ok = False
-                if not (same_pid or (not distinct_pids and (dist is None or dist <= 25_000.0))):
+                if not (
+                    same_pid
+                    or very_close
+                    or (not distinct_pids and (dist is None or dist <= 25_000.0))
+                ):
                     continue
             rank = (1 if same_pid else 0, 1 if loc_ok else 0, -(dist if dist is not None else 1e9))
             stage2_candidates.append((rank, oi, ni))
@@ -415,10 +425,8 @@ def compare(
 
             for ni in cand_nis:
                 np = new_prep[ni]
-                # Hard vetoes: conflicting Hilton property codes or different brands.
+                # Hard veto: conflicting Hilton property codes.
                 if op.hilton_code and np.hilton_code and op.hilton_code != np.hilton_code:
-                    continue
-                if op.norm_brand and np.norm_brand and op.norm_brand != np.norm_brand:
                     continue
 
                 n = np.record
@@ -427,6 +435,10 @@ def compare(
                     opid_unique and n.place_id and o.place_id == n.place_id
                     and new_pid_counts[n.place_id] == 1
                 )
+                # Veto brand mismatches unless both rows share the exact same
+                # unique Google place_id (e.g. Bulgari -> Bvlgari brand rename).
+                if not same_unique_pid and op.norm_brand and np.norm_brand and op.norm_brand != np.norm_brand:
+                    continue
                 distinct_pids = bool(o.place_id and n.place_id and o.place_id != n.place_id)
                 same_city = locations_compatible(o.hotel_location, n.hotel_location)
                 if not same_unique_pid and not same_city and (dist is None or dist > 50_000.0):
@@ -454,7 +466,7 @@ def compare(
                 elif same_unique_pid and not extra_disc and not mutually_exclusive and idf_f1 >= 0.65:
                     tier = "tier2_rename"
                     reason = "unique_place_id+subset_name"
-                elif same_unique_pid and idf_f1 >= 0.55 and (dist is None or dist <= 250.0):
+                elif same_unique_pid and (dist is None or dist <= DEFAULT_MOVE_THRESHOLD_M):
                     tier = "tier2_rename"
                     reason = "unique_place_id+rename"
                 elif (

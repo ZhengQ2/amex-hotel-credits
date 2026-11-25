@@ -360,6 +360,53 @@ class HotelChangeTests(unittest.TestCase):
         self.assertIn("... and 15 more renamed; see workflow logs", capped_report)
         self.assertNotIn("more renamed; see attached CSVs", capped_report)
 
+    def test_stage2_accepts_location_edit_with_very_close_new_place_id(self):
+        old = csv_doc(
+            'Hotel Xcaret Mexico,https://example.com/x,"Riviera Maya, Quintana Roo MX",FINE HOTELS + RESORTS,,20.5809,-87.1197,pid_old,establishment;lodging,CACHED',
+        )
+        new = csv_doc(
+            'Hotel Xcaret Mexico,https://example.com/x,"Playa del Carmen, Quintana Roo MX",FINE HOTELS + RESORTS,,20.5810,-87.1197,pid_new,establishment;lodging,CACHED',
+        )
+        diff = compare(old, new)
+        self.assertEqual((diff.added, diff.removed, diff.renamed, diff.moved), ([], [], [], []))
+        self.assertEqual(len(diff.silent_updates), 1)
+        self.assertFalse(diff.has_notifiable_changes)
+
+    def test_possessive_punctuation_rename_matches_silently(self):
+        old = csv_doc(
+            'Grand Hotel Parker\'s,https://example.com/p,"Naples, Italy",THE HOTEL COLLECTION,Relais & Châteaux,40.836,14.222,pid_parker,establishment;lodging,CACHED',
+        )
+        new = csv_doc(
+            'Grand Hotel Parkers,https://example.com/p,"Naples, Italy",THE HOTEL COLLECTION,Relais & Châteaux,40.836,14.222,pid_parker,establishment;lodging,CACHED',
+        )
+        diff = compare(old, new)
+        self.assertEqual((diff.added, diff.removed, diff.renamed, diff.moved), ([], [], [], []))
+        self.assertEqual(len(diff.silent_updates), 1)
+        self.assertFalse(diff.has_notifiable_changes)
+
+    def test_unique_place_id_at_same_coords_surfaces_as_renamed(self):
+        savoy_diff = compare(
+            csv_doc(
+                '"The Savoy London, A Fairmont Managed Hotel",https://example.com/s,"London, England",FINE HOTELS + RESORTS,Fairmont,51.5104,-0.1204,pid_savoy,establishment;lodging,CACHED',
+            ),
+            csv_doc(
+                'The Savoy,https://example.com/s,"London, England",FINE HOTELS + RESORTS,Fairmont,51.5104,-0.1204,pid_savoy,establishment;lodging,CACHED',
+            ),
+        )
+        self.assertEqual((savoy_diff.added, savoy_diff.removed), ([], []))
+        self.assertEqual(len(savoy_diff.renamed), 1)
+
+        bulgari_diff = compare(
+            csv_doc(
+                'Bulgari Hotel Tokyo,https://example.com/b,"Tokyo, Japan",FINE HOTELS + RESORTS,Bulgari,35.679,139.769,pid_bv,establishment;lodging,CACHED',
+            ),
+            csv_doc(
+                'Bvlgari Hotel Tokyo,https://example.com/b,"Tokyo, Japan",FINE HOTELS + RESORTS,Bvlgari,35.679,139.769,pid_bv,establishment;lodging,CACHED',
+            ),
+        )
+        self.assertEqual((bulgari_diff.added, bulgari_diff.removed), ([], []))
+        self.assertEqual(len(bulgari_diff.renamed), 1)
+
     def test_cli_main_writes_github_output_and_report(self):
         old = csv_doc(
             'Akelarre - Relais & Châteaux,https://example.com/1,"San Sebastian, Spain",FINE HOTELS + RESORTS,Relais & Châteaux,43.3075,-2.0439,pid_ak,establishment;lodging,CACHED',

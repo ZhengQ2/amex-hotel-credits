@@ -101,7 +101,7 @@ _NUM_WORDS: Dict[str, str] = {
 # retain "hilton" and still match "Signia Hilton Orlando".
 _AFFILIATION_PATTERNS = [
     r"\b(?:a\s+)?member\s+of\s+design\s+hotels\b",
-    r"\b(?:in\s+)?(?:the\s+)?unbound\s+collection\s+by\s+hyatt\b",
+    r"\b(?:part\s+of\s+)?(?:in\s+)?(?:the\s+)?unbound\s+collection(?:\s+by)?\s+hyatt(?:\s+hilton)?\b",
     r"\b(?:part\s+of\s+)?destination\s+by\s+hyatt\b",
     r"\b(?:a\s+)?luxury\s+collection\s+(?:desert\s+)?(?:hotel|resort)(?:\s*(?:&|and)\s*spa)?\b",
     r"\b(?:a\s+|the\s+)?leading\s+hotels?\s+of\s+the\s+world\b",
@@ -110,10 +110,11 @@ _AFFILIATION_PATTERNS = [
     r"\bdorchester\s+collection\b",
     r"\b(?:a\s+)?rosewood\s+(?:hotel|resort)\b",
     r"\b(?:a\s+)?belmond\s+hotel\b",
-    r"\b(?:a\s+)?tribute\s+portfolio\s+hotel\b",
+    r"\b(?:a\s+)?tribute\s+portfolio(?:\s+hotel)?\b",
     r"\bautograph\s+collection\b",
-    r"\bcurio\s+(?:collection\s+)?by\s+hilton\b",
-    r"\btapestry\s+collection\s+by\s+hilton\b",
+    r"\bcurio(?:\s+collection)?(?:\s+by)?(?:\s+hilton)*\b",
+    r"\btapestry(?:\s+collection)?(?:\s+by)?(?:\s+hilton)*\b",
+    r"\b(?:a\s+)?graduate(?:\s+hotels?|\s+by\s+hilton)(?:\s+hilton)?\b",
     r"\bvignette\s+collection\s+by\s+ihg\b",
     r"\blxr\s+(?:hotels?\s*(?:&|and)\s*)?resorts?\b",
     r"\b(?:a\s+)?paris\s+society\s+collection\s+hotel\b",
@@ -122,7 +123,10 @@ _AFFILIATION_PATTERNS = [
     r"\bpartner\s+of\s+all\s+accor\b",
     r"\bmichelin\s+key\s+award\s+hotel\b",
     r"\ba\s+marriott\s+hotel\b",
+    r"\(\s*marriott\s+international\s*\)",
     r"\ba\s+hyatt\s+(?:luxury\s+)?(?:hotel|resort|brand)\b",
+    r"\b(?:a\s+)?concept\s+by\s+hyatt\b",
+    r"\ba\s+registry\s+collection\s+hotel\b",
     r"\ba\s+noble\s+house\s+resort\b",
     r"\ba\s+shangri\s*la\s+hotel\b",
     r"\ba\s+hilton\s+resort\b",
@@ -159,7 +163,7 @@ _TEXT_COUNTRY_EXPANSIONS: Dict[str, str] = {
 
 # Common English exonym <-> local endonym / spacing city equivalents seen
 # between AMEX scraped locations and Google formatted_address values.
-# Keys match normalize_name() output (possessive 's stripped, St. -> saint).
+# Keys match normalize_name() output (apostrophes collapsed, St. -> saint).
 _CITY_ALIASES: Dict[str, Tuple[str, ...]] = {
     "florence": ("firenze",),
     "athens": ("athina",),
@@ -190,6 +194,7 @@ _CITY_ALIASES: Dict[str, Tuple[str, ...]] = {
     "bruges": ("brugge",),
     "mykonos": ("mikonos",),
     "santorini": ("thira", "oia", "fira", "imerovigli"),
+    "saint julians": ("san giljan", "saint julian", "st julians", "st julian"),
     "saint julian": ("san giljan", "saint julians", "st julians", "st julian"),
     "mexico city": ("ciudad de mexico", "cdmx"),
     "xian": ("xi an",),
@@ -264,15 +269,35 @@ _CITY_STATE_NAMES: FrozenSet[str] = frozenset({
 _STATE_POSTAL_SEGMENT_RE = re.compile(
     r"^\s*([A-Z]{2})(?:\s+[A-Z0-9][A-Z0-9 -]*)?\s*$"
 )
-_LEADING_STREET_NUM_RE = re.compile(r"^\s*\d+")
-_STREET_TYPE_RE = re.compile(
-    r"\b(?:st|street|rd|road|ave|avenue|blvd|boulevard|dr|drive|ln|lane|way|wy|"
-    r"pl|place|pkwy|parkway|hwy|highway|ct|court|cir|circle|ter|terrace|trl|trail|"
-    r"via|viale|corso|piazza|calle|carrer|avenida|av|rue|boulevard|chem|chemin|"
-    r"strasse|str|platz|gasse|allee|paseo|pasealekua|ibilbidea|khasra|lu|jie|dao|"
-    r"chome|dori|ro|gil|moo|soi|thanon|jalan|jl)\b",
+# Short leading house numbers (1-3 digits or hyphenated building numbers like
+# "108-10"), applied only to the first segment and excluding Polish XX-XXX
+# postal codes and 4-6 digit European/Asian postal codes (e.g. "20121 Milano").
+_LEADING_HOUSE_NUM_RE = re.compile(r"^\s*\d{1,3}(?:-\d{1,2})?[a-z]?\s+[a-z]", re.IGNORECASE)
+_POSTAL_HYPHEN_PREFIX_RE = re.compile(r"^\s*\d{2}-\d{3}\s+")
+# Street-prefix tokens appearing at the start of a segment (or right after a
+# house number); includes Spanish "C." ("C. de Sevilla") and intentionally
+# excludes "st." so "St. Helena" / "St. Thomas" are never dropped.
+_STREET_PREFIX_RE = re.compile(
+    r"^(?:\d+[a-z]?(?:-\d+)?\s+)?(?:c\.|via|viale|corso|piazza|calle|carrer|avenida|"
+    r"av\.?|rue|boulevard|bd\.?|chem\.?|chemin|paseo|rte\.?|route|carr\.?|carretera|"
+    r"strasse|str\.?|platz|gasse|allee|jalan|jl\.?|thanon|soi|moo|khasra|triq|pl\.?)(?:\s|$)",
     re.IGNORECASE,
 )
+# Street-suffix tokens: full road words anywhere in a segment, or abbreviated
+# road types ("st", "rd", "ave", "dr", ...) ONLY at the end of a segment (with
+# optional directional/suite tail) so "Oxford St" is dropped while "St. Helena"
+# is preserved. Chinese pinyin road words ("Lu", "Jie", "Dao") are checked
+# case-sensitively so Italian province code "LU" (Lucca) is never matched.
+_STREET_SUFFIX_RE = re.compile(
+    r"(?:\b(?:street|road|avenue|boulevard|drive|lane|parkway|highway|court|"
+    r"circle|terrace|trail|ibilbidea|pasealekua|strasse|chome|dori)\b|"
+    r"\b(?:st|rd|ave|blvd|dr|ln|wy|way|pl|pkwy|hwy|ct|cir|ter|trl|ro|gil)\.?"
+    r"(?:\s+(?:n|s|e|w|ne|nw|se|sw|suite|ste|unit|#)\b.*)?$)",
+    re.IGNORECASE,
+)
+_CN_STREET_WORD_RE = re.compile(r"\b(?:Lu|Jie|Dao)\b")
+_CN_PROVINCE_SEG_RE = re.compile(r"\bsheng\s*$", re.IGNORECASE)
+_CN_COUNTY_XIAN_RE = re.compile(r"(?<=[A-Za-z]\s)Xian\b")
 
 
 def is_strict_lodging_type(types: Iterable[str]) -> bool:
@@ -321,21 +346,25 @@ def fold_ascii(s: str) -> str:
 def normalize_name(s: str) -> str:
     """Canonical ASCII, punctuation- and accent-insensitive name form.
 
-    Strips English possessive "'s" (Universal's == Universal) and French/Italian
-    elided "d'"/"l'" prefixes (Hotel D'Angleterre == Hotel Angleterre),
-    collapses remaining apostrophes (Xi'an == Xian, Ho'olei == Hoolei),
-    normalizes & -> and, St. -> saint, and D.C. -> dc, while preserving
-    single-character brand tokens such as 'w' ('W Rome') and '1' ('1 Hotel').
+    Collapses apostrophes ("Parker's" == "Parkers", "Xi'an" == "Xian",
+    "Ho'olei" == "Hoolei"), strips French/Italian elided "d'"/"l'" prefixes
+    ("Hotel D'Angleterre" == "Hotel Angleterre"), normalizes & -> and,
+    St. -> saint, and D.C. -> dc, while preserving single-character brand
+    tokens such as 'w' ('W Rome') and '1' ('1 Hotel').
     """
     s = fold_ascii(s).lower()
     s = s.replace("&", " and ")
     s = re.sub(r"\bd\.\s*c\.?", "dc", s)
-    s = re.sub(r"'s\b", "", s)
     s = re.sub(r"\b[dl]'(?=[a-z]{3,})", "", s)
     s = re.sub(r"'", "", s)
     s = re.sub(r"\bst\.?\b", "saint", s)
     s = re.sub(r"[^a-z0-9]+", " ", s)
     return re.sub(r"\s+", " ", s).strip()
+
+
+def _strip_possessive(s: str) -> str:
+    """Strip English possessive "'s" for secondary fallback comparisons only."""
+    return re.sub(r"'s\b", "", fold_ascii(s), flags=re.IGNORECASE)
 
 
 def _normalize_geo_text(s: str) -> str:
@@ -537,23 +566,35 @@ def _haystack_has_phrase(haystack: str, phrase: str) -> bool:
     return re.search(rf"(?:^| ){re.escape(phrase)}(?: |$)", haystack) is not None
 
 
+def _is_street_segment(seg: str, *, is_first: bool = False) -> bool:
+    """Return True when an address segment is a street/road line rather than a locality."""
+    folded = fold_ascii(seg).strip()
+    if not folded or _POSTAL_HYPHEN_PREFIX_RE.search(folded):
+        return False
+    if (
+        _STREET_PREFIX_RE.search(folded)
+        or _STREET_SUFFIX_RE.search(folded)
+        or _CN_STREET_WORD_RE.search(folded)
+    ):
+        return True
+    if is_first and _LEADING_HOUSE_NUM_RE.search(folded):
+        return True
+    return False
+
+
 def _address_locality_text(formatted_address: str) -> str:
     """Extract only the locality segments of a Google formatted_address.
 
-    Drops street-address segments (e.g. 'Corso Venezia 1', 'Via Roma 1',
-    '300 S Doheny Dr'), trailing country/postal-only segments, and US/CA
-    state+zip segments (e.g. 'NY 14202') so neither street names nor state
-    names produce false city matches.
+    Drops street-address segments anywhere in the address (e.g. 'Corso Venezia',
+    'Via Roma', 'C. de Sevilla', 'Oxford St', '300 S Doheny Dr'), trailing
+    country/postal-only segments, Chinese province segments ('... Sheng'), and
+    US/CA state+zip segments (e.g. 'NY 14202'), while preserving first-segment
+    cities such as 'Adare, Co. Limerick, V94 W8WR, Ireland' and
+    'St. Helena, CA 94574, USA'.
     """
     if not formatted_address:
         return ""
-    if "," in formatted_address:
-        parts = [p.strip() for p in formatted_address.split(",") if p.strip()]
-    elif " - " in formatted_address:
-        parts = [p.strip() for p in formatted_address.split(" - ") if p.strip()]
-    else:
-        parts = [formatted_address.strip()]
-
+    parts = [p.strip() for p in re.split(r"\s*[,،]\s*|\s+-\s+", formatted_address) if p.strip()]
     if not parts:
         return ""
 
@@ -563,32 +604,67 @@ def _address_locality_text(formatted_address: str) -> str:
 
     # Drop the trailing country segment when multiple segments exist, unless
     # the trailing segment is a city-state / SAR (e.g. "Hong Kong", "Singapore")
-    # where the final segment IS the city itself.
-    if len(parts) >= 2 and _normalize_geo_text(parts[-1]) not in _CITY_STATE_NAMES:
+    # or contains a glued postal code + locality (e.g. "Saint James BB24024Barbados").
+    if (
+        len(parts) >= 2
+        and not re.search(r"\d", parts[-1])
+        and _normalize_geo_text(parts[-1]) not in _CITY_STATE_NAMES
+    ):
         parts = parts[:-1]
 
-    # Drop leading street segments when at least one locality segment follows.
-    if len(parts) >= 2:
-        first = parts[0]
-        if _LEADING_STREET_NUM_RE.search(first) or _STREET_TYPE_RE.search(fold_ascii(first)):
-            parts = parts[1:]
-        elif len(parts) >= 3:
-            # 3+ remaining segments (after country removal): first is almost
-            # always building/street/estate name (e.g. "Petite Anse, Mahe Island").
-            parts = parts[1:]
-
-    # Filter out bare US/CA state+postal segments (e.g. "NY 14202", "CA 90048")
-    # and pure house-number segments (e.g. ", 56, ").
-    locality_parts: List[str] = []
+    # Filter out bare US/CA state+postal segments, pure house-number segments,
+    # Chinese province segments, and street segments anywhere in the address.
+    non_meta: List[str] = []
     for seg in parts:
         if re.fullmatch(r"[\d\s-]+", seg):
             continue
         m = _STATE_POSTAL_SEGMENT_RE.match(seg)
         if m and m.group(1).lower() in _VALID_SUBREGION_CODES:
             continue
-        locality_parts.append(seg)
+        if _CN_PROVINCE_SEG_RE.search(fold_ascii(seg)):
+            continue
+        non_meta.append(seg)
 
-    return normalize_name(" ".join(locality_parts))
+    locality_parts = [
+        seg for idx, seg in enumerate(non_meta)
+        if not _is_street_segment(seg, is_first=(idx == 0))
+    ]
+    # Strip trailing Chinese administrative county word "Xian" (e.g.
+    # "Jiu Zhai Gou Xian" in Sichuan) so it never collides with Xi'an city.
+    cleaned = [_CN_COUNTY_XIAN_RE.sub("", seg).strip() for seg in locality_parts]
+    return normalize_name(" ".join(c for c in cleaned if c))
+
+
+def _same_normalized_hotel_and_location(
+    hotel_name: str,
+    cached_hotel_name: str,
+    hotel_location: str,
+    queries: Iterable[str],
+) -> bool:
+    """Return True when both hotel_name and hotel_location are unchanged after normalization.
+
+    Matches exact normalized "{hotel_name} {hotel_location}" (with optional
+    trailing Hotel/Resort) against the cached key's queries so an existing entry
+    survives accent, punctuation, URL, or brand-metadata tweaks even when AMEX's
+    location names an island, county, or neighboring town absent from Google's
+    formatted_address, while never allowing a different city or state spelling
+    (e.g. 'Buffalo, New York US' vs 'New York, US', or 'San Francisco, CA US'
+    vs 'San Francisco, California US') to bypass the returned-address check.
+    """
+    if not hotel_name or not cached_hotel_name or not hotel_location or not queries:
+        return False
+    name_norm = normalize_name(hotel_name)
+    if not name_norm or name_norm != normalize_name(cached_hotel_name):
+        return False
+    loc_norm = normalize_name(hotel_location)
+    if not loc_norm:
+        return False
+    targets = {
+        f"{name_norm} {loc_norm}",
+        f"{name_norm} {loc_norm} hotel",
+        f"{name_norm} {loc_norm} resort",
+    }
+    return any(normalize_name(q) in targets for q in queries if q)
 
 
 def _candidate_city_compatible(
@@ -630,7 +706,6 @@ def _core_name_tokens_cached(
 ) -> Tuple[str, ...]:
     s = fold_ascii(name).lower().replace("&", " and ")
     s = re.sub(r"\bd\.\s*c\.?", "dc", s)
-    s = re.sub(r"'s\b", "", s)
     s = re.sub(r"\b[dl]'(?=[a-z]{3,})", "", s)
     s = re.sub(r"'", "", s)
     s = _AFFILIATION_RE.sub(" ", s)
@@ -718,6 +793,42 @@ def _match_quality(
       1 - conservative subset / high-overlap match on unstripped core tokens
           with optional discriminator guard (disabled when allow_subset=False)
     """
+    res = _match_quality_once(
+        left,
+        right,
+        generic_tokens=generic_tokens,
+        hotel_location=hotel_location,
+        location_confirmed=location_confirmed,
+        allow_subset=allow_subset,
+        strict_discriminators=strict_discriminators,
+    )
+    if res is not None:
+        return res
+    # Secondary fallback for English possessive "'s" vs non-possessive
+    # (e.g. "Universal's Loews Portofino Bay" vs "Loews Portofino Bay Universal")
+    # without breaking "Parker's" == "Parkers" in the primary apostrophe-collapsed form.
+    if "'s" in fold_ascii(left).lower() or "'s" in fold_ascii(right).lower():
+        return _match_quality_once(
+            _strip_possessive(left),
+            _strip_possessive(right),
+            generic_tokens=generic_tokens,
+            hotel_location=hotel_location,
+            location_confirmed=location_confirmed,
+            allow_subset=allow_subset,
+            strict_discriminators=strict_discriminators,
+        )
+    return None
+
+
+def _match_quality_once(
+    left: str,
+    right: str,
+    generic_tokens: FrozenSet[str] = DEFAULT_GENERIC_TOKENS,
+    hotel_location: str = "",
+    location_confirmed: bool = True,
+    allow_subset: bool = True,
+    strict_discriminators: bool = True,
+) -> Optional[Tuple[int, int, int, int, int]]:
     l_norm = normalize_name(left)
     r_norm = normalize_name(right)
     if not l_norm or not r_norm:
@@ -788,7 +899,13 @@ def _match_quality(
             ):
                 raw_l = {t for t in l_norm.split() if t not in generic_tokens}
                 raw_r = {t for t in r_norm.split() if t not in generic_tokens}
-                prefix_ok = l_norm.startswith(r_norm + " ") or r_norm.startswith(l_norm + " ")
+                ls = _strip_affiliations_norm(left)
+                rs = _strip_affiliations_norm(right)
+                prefix_ok = (
+                    l_norm.startswith(r_norm + " ")
+                    or r_norm.startswith(l_norm + " ")
+                    or (bool(ls) and bool(rs) and (ls.startswith(rs + " ") or rs.startswith(ls + " ")))
+                )
                 if (diff == 1 or prefix_ok) and (
                     len(raw_l & raw_r) >= 2 or len(raw_l) == 1 or len(raw_r) == 1
                 ):
@@ -939,10 +1056,10 @@ def find_fuzzy_cache_key(
     target_scope = _normalize_scope(scope_key)
     target_format = _clean_text(input_format).lower()
     best_key: Optional[str] = None
-    best_rank: Optional[Tuple[int, int, int, int, int, int, int]] = None
+    best_rank: Optional[Tuple[int, int, int, int, int, int, int, int]] = None
 
     for key, value in cache.items():
-        if not isinstance(value, dict) or value == {"status": "NO_RESULT"}:
+        if not isinstance(value, dict) or value.get("status") == "NO_RESULT":
             continue
         try:
             meta = json.loads(key)
@@ -968,14 +1085,26 @@ def find_fuzzy_cache_key(
 
         queries = meta.get("queries", []) or []
         formatted_address = value.get("formatted_address") or ""
+        cached_hotel_name = meta.get("hotel_name", "")
+        city_addr_ok = 1
         if hotel_location:
             if not address_location_compatible(formatted_address, hotel_location):
                 continue
-            if not _candidate_city_compatible(hotel_location, formatted_address, queries):
-                continue
+            addr_city_match = _candidate_city_compatible(hotel_location, formatted_address, queries)
+            if not addr_city_match:
+                # Keep a hotel's own existing entry when both hotel_name and
+                # hotel_location are unchanged after normalization (e.g. an
+                # accent/punctuation/URL tweak on a resort whose AMEX location
+                # names a region, island, or neighboring town absent from the
+                # Google address), while applying the strict address check
+                # whenever the name or location changed.
+                if not _same_normalized_hotel_and_location(
+                    hotel_name, cached_hotel_name, hotel_location, queries
+                ):
+                    continue
+                city_addr_ok = 0
 
         strict_lodging = 1 if is_strict_lodging_type(types) else 0
-        cached_hotel_name = meta.get("hotel_name", "")
         candidates: Iterable[str] = [cached_hotel_name] if cached_hotel_name else queries
 
         for candidate in candidates:
@@ -988,10 +1117,11 @@ def find_fuzzy_cache_key(
             )
             if quality is None:
                 continue
-            # Rank name match tier ahead of strict_lodging so an exact-name
-            # establishment entry beats a looser core-only lodging match.
+            # Rank name match tier ahead of strict_lodging, preferring entries
+            # whose returned address locality also matches hotel_location.
             rank = (
                 quality[0],
+                city_addr_ok,
                 strict_lodging,
                 scope_match,
                 quality[1],
@@ -1010,7 +1140,6 @@ def _strip_affiliations_norm(name: str) -> str:
     """Normalize a hotel name after stripping affiliation taglines (keeps articles)."""
     s = fold_ascii(name).lower().replace("&", " and ")
     s = re.sub(r"\bd\.\s*c\.?", "dc", s)
-    s = re.sub(r"'s\b", "", s)
     s = re.sub(r"\b[dl]'(?=[a-z]{3,})", "", s)
     s = re.sub(r"'", "", s)
     s = _AFFILIATION_RE.sub(" ", s)

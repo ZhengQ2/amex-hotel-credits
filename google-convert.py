@@ -441,6 +441,7 @@ def geocode_places_first(
 ) -> Tuple[Optional[Dict[str, Any]], str]:
     last = "NO_RESULT"
     last_err: Optional[str] = None
+    had_clean_empty = False
 
     # Try location-qualified queries first. Each query is a billed Text Search,
     # and for an ambiguous name ("San Antonio", "Mason") the bare-name variants
@@ -485,12 +486,15 @@ def geocode_places_first(
             ):
                 return geo, f"GEOCODE:{q}"
             last = f"WEAK_OR_EMPTY:{q}"
+            had_clean_empty = True
         except (GeocodeError, requests.RequestException) as e:
             last = f"ERR:{e}"
             last_err = last
         finally:
             if base_delay > 0:
                 time.sleep(base_delay + random.uniform(0, base_delay * 0.25))
+    if last_err and had_clean_empty:
+        return None, f"PARTIAL_ERR:{last_err}"
     return None, (last_err or last)
 
 
@@ -621,34 +625,40 @@ def main():
         stale_reason = ""
 
         if cached is not None:
-            res = None if cached == {"status": "NO_RESULT"} else cached
-            bad_location = bool(
-                res and not _location_compatible(res.get("formatted_address", ""), hotel_location)
-            )
-            bad_type = bool(
-                res and res.get("types") and not _is_lodging_type(res.get("types", []))
-            )
-            if bad_location or bad_type:
-                if _mismatch_recheck_due(res):
-                    # Cached result is geographically wrong or a non-lodging POI
-                    # (e.g. parking lot / standalone restaurant); try fuzzy cache
-                    # reuse or re-geocode while preserving the prior entry in case
-                    # the retry errors or finds no lodging replacement.
-                    stale_cached = res
-                    stale_reason = "LOCATION_MISMATCH" if bad_location else "TYPE_MISMATCH"
-                    res = None
-                    needs_geocode = True
-                    status = f"CACHED:{stale_reason}"
-                else:
-                    # Already re-geocoded recently under the current selector and
-                    # Google still returned an invalid result; avoid burning quota.
-                    status = (
-                        "CACHED:LOCATION_MISMATCH_CONFIRMED"
-                        if bad_location
-                        else "CACHED:TYPE_MISMATCH_CONFIRMED"
-                    )
+            is_no_result = isinstance(cached, dict) and cached.get("status") == "NO_RESULT"
+            res = None if is_no_result else cached
+            if is_no_result and _MISMATCH_STAMP in cached and _mismatch_recheck_due(cached):
+                # Stamped partial-error NO_RESULT whose recheck window elapsed.
+                needs_geocode = True
+                status = "CACHED:NO_RESULT_RECHECK"
             else:
-                status = "CACHED" if res else "CACHED:NO_RESULT"
+                bad_location = bool(
+                    res and not _location_compatible(res.get("formatted_address", ""), hotel_location)
+                )
+                bad_type = bool(
+                    res and res.get("types") and not _is_lodging_type(res.get("types", []))
+                )
+                if bad_location or bad_type:
+                    if _mismatch_recheck_due(res):
+                        # Cached result is geographically wrong or a non-lodging POI
+                        # (e.g. parking lot / standalone restaurant); try fuzzy cache
+                        # reuse or re-geocode while preserving the prior entry in case
+                        # the retry errors or finds no lodging replacement.
+                        stale_cached = res
+                        stale_reason = "LOCATION_MISMATCH" if bad_location else "TYPE_MISMATCH"
+                        res = None
+                        needs_geocode = True
+                        status = f"CACHED:{stale_reason}"
+                    else:
+                        # Already re-geocoded recently under the current selector and
+                        # Google still returned an invalid result; avoid burning quota.
+                        status = (
+                            "CACHED:LOCATION_MISMATCH_CONFIRMED"
+                            if bad_location
+                            else "CACHED:TYPE_MISMATCH_CONFIRMED"
+                        )
+                else:
+                    status = "CACHED" if res else "CACHED:NO_RESULT"
 
         if needs_geocode:
             # Fuzzy fallback: reuse cached geocoding when the hotel name or
@@ -665,7 +675,11 @@ def main():
             )
             if fuzzy_key is not None and cache[fuzzy_key] is not None:
                 candidate = cache[fuzzy_key]
-                candidate = None if candidate == {"status": "NO_RESULT"} else candidate
+                candidate = (
+                    None
+                    if isinstance(candidate, dict) and candidate.get("status") == "NO_RESULT"
+                    else candidate
+                )
                 candidate_valid = bool(
                     candidate
                     and _location_compatible(candidate.get("formatted_address", ""), hotel_location)
@@ -682,6 +696,7 @@ def main():
             if res is None:
                 res, status = geocode_places_first(queries, brand, hotel, BASE_DELAY, hotel_location)
                 api_error = bool(status and status.startswith("ERR:"))
+                partial_error = bool(status and status.startswith("PARTIAL_ERR:"))
                 if res is None:
                     if api_error:
                         # Transient Google/network failure: never persist NO_RESULT
@@ -690,6 +705,21 @@ def main():
                         if stale_cached is not None:
                             res = stale_cached
                             status = f"CACHED:RETRY_ERR:{status}"
+                    elif partial_error:
+                        if stale_cached is not None:
+                            res = stale_cached
+                            status = f"CACHED:RETRY_ERR:{status}"
+                        else:
+                            # One query errored (e.g. INVALID_REQUEST) while other
+                            # queries completed cleanly with no result: store a
+                            # stamped NO_RESULT so the lookup is bounded instead of
+                            # repeating every night, yet still retries after the window.
+                            cache[cache_key] = {
+                                "status": "NO_RESULT",
+                                _MISMATCH_STAMP: time.time(),
+                                _MISMATCH_SELECTOR_V: SELECTOR_VERSION,
+                            }
+                            save_cache(cache_path_obj, cache)
                     elif stale_cached is not None and stale_reason == "TYPE_MISMATCH":
                         # Plausibly located pin failed only on place type and the
                         # retry found no replacement: retain and stamp the prior

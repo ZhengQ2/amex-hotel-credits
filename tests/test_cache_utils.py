@@ -915,12 +915,26 @@ class CacheUtilsTests(unittest.TestCase):
                 "four seasons hotel houston",
                 "the carlton",
                 "nobis hotel stockholm, a member of design hotels",
+                "the marquette hotel, curio collection by hilton",
+                "the dixon, autograph collection",
+                "the alida, savannah, a tribute portfolio hotel",
+                "the randolph hotel oxford, a graduate by hilton",
+                "magma resort santorini, part of the unbound collection by hyatt",
             }
         }
         self.assertTrue(cache_utils.is_cached_hotel_in_scraped("hotel angleterre geneva", "FHR", fhr_scraped))
         self.assertTrue(cache_utils.is_cached_hotel_in_scraped("ka la i waikiki beach, lxr resorts", "FHR", fhr_scraped))
         self.assertTrue(cache_utils.is_cached_hotel_in_scraped("hay adams washington dc", "FHR", fhr_scraped))
         self.assertTrue(cache_utils.is_cached_hotel_in_scraped("inn sea hilton", "FHR", fhr_scraped))
+        self.assertTrue(cache_utils.is_cached_hotel_in_scraped("marquette curio collection hilton hilton", "FHR", fhr_scraped))
+        self.assertTrue(cache_utils.is_cached_hotel_in_scraped("the dixon, tower bridge, autograph collection", "FHR", fhr_scraped))
+        self.assertTrue(cache_utils.is_cached_hotel_in_scraped("the alida hotel, a tribute portfolio", "FHR", fhr_scraped))
+        self.assertTrue(cache_utils.is_cached_hotel_in_scraped("randolph hotel graduate hotels hilton", "FHR", fhr_scraped))
+        self.assertTrue(
+            cache_utils.is_cached_hotel_in_scraped(
+                "magma resort santorini part of unbound collection hyatt hilton", "FHR", fhr_scraped
+            )
+        )
 
         # Removed chain hotels in other cities are NOT falsely retained.
         self.assertFalse(cache_utils.is_cached_hotel_in_scraped("four seasons hotel austin", "FHR", fhr_scraped))
@@ -930,6 +944,111 @@ class CacheUtilsTests(unittest.TestCase):
                 "nobis hotel copenhagen, a member of design hotels", "FHR", fhr_scraped
             )
         )
+
+    def test_same_normalized_name_and_location_preserves_neighboring_town_address(self):
+        cabo_key = json.dumps(
+            {
+                "brand": "THE HOTEL COLLECTION",
+                "hotel_name": "Hilton Los Cabos",
+                "input_format": "fhrthc",
+                "provider": "google_places_first",
+                "queries": [
+                    "Hilton Los Cabos San Jose del Cabo, Baja California Sur MX Hotel",
+                    "Hilton Los Cabos San Jose del Cabo, Baja California Sur MX",
+                ],
+                "v": 3,
+            },
+            sort_keys=True,
+        )
+        buffalo_key = json.dumps(
+            {
+                "brand": "FINE HOTELS + RESORTS",
+                "hotel_name": "The Grand Hotel",
+                "input_format": "fhrthc",
+                "provider": "google_places_first",
+                "queries": ["The Grand Hotel Buffalo, New York US"],
+                "v": 3,
+            },
+            sort_keys=True,
+        )
+        cache = {
+            cabo_key: {
+                "lat": 22.97,
+                "lon": -109.79,
+                "formatted_address": "Carr. Transpeninsular, Tourist Corridor, 23400 Cabo San Lucas, B.C.S., Mexico",
+                "types": ["lodging", "establishment"],
+            },
+            buffalo_key: {
+                "lat": 42.886,
+                "lon": -78.878,
+                "formatted_address": "100 Main St, Buffalo, NY 14202, USA",
+                "types": ["lodging", "establishment"],
+            },
+        }
+        # Accent-only location change on the same hotel reuses its Cabo San Lucas entry.
+        self.assertEqual(
+            cache_utils.find_fuzzy_cache_key(
+                "Hilton Los Cabos",
+                cache,
+                input_format="fhrthc",
+                hotel_location="San José del Cabo, Baja California Sur MX",
+                scope_key="THE HOTEL COLLECTION",
+            ),
+            cabo_key,
+        )
+        # Substring location ("New York, US") must NOT bypass via "Buffalo, New York US".
+        self.assertIsNone(
+            cache_utils.find_fuzzy_cache_key(
+                "The Grand Hotel",
+                cache,
+                input_format="fhrthc",
+                hotel_location="New York, US",
+                scope_key="FINE HOTELS + RESORTS",
+            )
+        )
+
+    def test_possessive_collapse_preserves_parkers_and_retains_universals_fallback(self):
+        self.assertEqual(
+            cache_utils.normalize_name("Grand Hotel Parker's"),
+            cache_utils.normalize_name("Grand Hotel Parkers"),
+        )
+        self.assertTrue(
+            cache_utils._names_match(
+                "Universal's Loews Portofino Bay Hotel",
+                "Loews Portofino Bay Hotel Universal",
+            )
+        )
+
+    def test_address_locality_preserves_first_segment_cities_and_filters_streets_and_xian_county(self):
+        # First-segment cities, mixed separators, Italian LU province, Polish/Icelandic postals, Arabic comma.
+        for loc, addr in (
+            ("Adare, Ireland", "Adare, Co. Limerick, V94 W8WR, Ireland"),
+            ("St. Helena, California US", "St. Helena, CA 94574, USA"),
+            (
+                "Dubai, United Arab Emirates",
+                "GV09 Level GF, Gate Village - Building 9, Unit - Sheikh Zayed Rd - Zaa'beel Second - DIFC - Dubai - United Arab Emirates",
+            ),
+            ("Forte dei Marmi, Italy", "Viale Ammiraglio Morin, 67, 55042 Forte dei Marmi LU, Italy"),
+            ("Warsaw, Poland", "Krakowskie Przedmieście 13, 00-071 Warszawa, Poland"),
+            ("Reykjavik, Iceland", "Austurbakki 2, 101 Reykjavík, Iceland"),
+            ("Marrakech, Morocco", "Rue Abou Abbas El Sebti، Marrakech 40000, Morocco"),
+            ("St. James, Barbados", "Sandy Lane Hotel, 30 South Rd, Holetown, Saint James BB24024Barbados"),
+        ):
+            self.assertTrue(
+                cache_utils._candidate_city_compatible(loc, addr, []),
+                f"Expected locality match for {loc!r} in {addr!r}",
+            )
+
+        # Mid-address street names, Spanish "C." streets, and Chinese county "Xian" must NOT match.
+        for loc, addr in (
+            ("Oxford, England", "Kimpton Clocktower Hotel, Oxford St, Manchester M60 7HA, UK"),
+            ("Seville, Spain", "C. de Sevilla, 3, Centro, 28014 Madrid, Spain"),
+            ("Xi'an, China", "Jiu Zhai Gou Xian, A Ba Zang Zu Qiang Zu Zi Zhi Zhou, Si Chuan Sheng, China"),
+        ):
+            self.assertFalse(
+                cache_utils._candidate_city_compatible(loc, addr, []),
+                f"Expected locality mismatch for {loc!r} in {addr!r}",
+            )
 
 
 class UpstreamFixTests(unittest.TestCase):
@@ -1245,6 +1364,78 @@ class UpstreamFixTests(unittest.TestCase):
             ):
                 gc.main()
             self.assertEqual(n3_calls, [])
+
+    def test_google_convert_partial_error_stores_stamped_no_result_and_bounds_retries(self):
+        gc = _load_google_convert()
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_dir = Path(tmp)
+            inp = tmp_dir / "in.csv"
+            out1 = tmp_dir / "out1.csv"
+            out2 = tmp_dir / "out2.csv"
+            out3 = tmp_dir / "out3.csv"
+            cache_p = tmp_dir / "cache.json"
+
+            with open(inp, "w", newline="", encoding="utf-8") as f:
+                w = csv.DictWriter(
+                    f,
+                    fieldnames=["hotel_name", "hotel_url", "hotel_location", "group_label", "brand_label", "group_type"],
+                )
+                w.writeheader()
+                w.writerow({
+                    "hotel_name": "Phantom Hotel",
+                    "hotel_url": "",
+                    "hotel_location": "Nowhere, France",
+                    "group_label": "FINE HOTELS + RESORTS",
+                    "brand_label": "",
+                    "group_type": "Program",
+                })
+            cache_p.write_text("{}", encoding="utf-8")
+
+            calls = []
+
+            def fake_ts(q, key):
+                calls.append(q)
+                if len(calls) == 1:
+                    raise gc.GeocodeError("INVALID_REQUEST")
+                return {"results": []}
+
+            with mock.patch.object(gc, "API_KEY", "test-key"), mock.patch.object(
+                gc, "BASE_DELAY", 0
+            ), mock.patch.object(gc, "places_text_search", side_effect=fake_ts), mock.patch.object(
+                gc, "geocode_google", return_value=None
+            ):
+                # Night 1: query 1 errors with INVALID_REQUEST, remaining queries return clean empty.
+                with mock.patch(
+                    "sys.argv",
+                    ["google-convert.py", "--input", str(inp), "--output", str(out1), "--cache", str(cache_p), "--input-format", "fhrthc"],
+                ):
+                    gc.main()
+                n1_count = len(calls)
+                self.assertGreater(n1_count, 0)
+
+                saved = json.loads(cache_p.read_text(encoding="utf-8"))
+                entry = next(iter(saved.values()))
+                self.assertEqual(entry.get("status"), "NO_RESULT")
+                self.assertIn(gc._MISMATCH_STAMP, entry)
+
+                # Night 2: stamped NO_RESULT bounds retries (0 API calls).
+                with mock.patch(
+                    "sys.argv",
+                    ["google-convert.py", "--input", str(inp), "--output", str(out2), "--cache", str(cache_p), "--input-format", "fhrthc"],
+                ):
+                    gc.main()
+                self.assertEqual(len(calls), n1_count)
+
+                # After the recheck window elapses, it retries again cleanly.
+                key = next(iter(saved.keys()))
+                saved[key][gc._MISMATCH_STAMP] = 0.0
+                cache_p.write_text(json.dumps(saved), encoding="utf-8")
+                with mock.patch(
+                    "sys.argv",
+                    ["google-convert.py", "--input", str(inp), "--output", str(out3), "--cache", str(cache_p), "--input-format", "fhrthc"],
+                ):
+                    gc.main()
+                self.assertGreater(len(calls), n1_count)
 
 
 if __name__ == "__main__":
