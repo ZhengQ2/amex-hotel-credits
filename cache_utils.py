@@ -16,7 +16,6 @@ existing geocodes without collapsing distinct sibling properties or
 cross-city chains.
 """
 
-from difflib import SequenceMatcher
 from functools import lru_cache
 import json
 import os
@@ -116,7 +115,7 @@ _AFFILIATION_PATTERNS = [
     r"\bcurio\s+(?:collection\s+)?by\s+hilton\b",
     r"\btapestry\s+collection\s+by\s+hilton\b",
     r"\bvignette\s+collection\s+by\s+ihg\b",
-    r"\blxr\s+hotels?\s*(?:&|and)\s*resorts?\b",
+    r"\blxr\s+(?:hotels?\s*(?:&|and)\s*)?resorts?\b",
     r"\b(?:a\s+)?paris\s+society\s+collection\s+hotel\b",
     r"\b(?:the\s+|member\s+of\s+)?melia\s+collection\b",
     r"\bmgallery\s+collection\b",
@@ -158,8 +157,9 @@ _TEXT_COUNTRY_EXPANSIONS: Dict[str, str] = {
     k: v for k, v in _COUNTRY_ALIASES.items() if k not in ("ca", "mx")
 }
 
-# Common English exonym <-> local endonym city equivalents seen between AMEX
-# scraped locations and Google formatted_address values.
+# Common English exonym <-> local endonym / spacing city equivalents seen
+# between AMEX scraped locations and Google formatted_address values.
+# Keys match normalize_name() output (possessive 's stripped, St. -> saint).
 _CITY_ALIASES: Dict[str, Tuple[str, ...]] = {
     "florence": ("firenze",),
     "athens": ("athina",),
@@ -190,12 +190,31 @@ _CITY_ALIASES: Dict[str, Tuple[str, ...]] = {
     "bruges": ("brugge",),
     "mykonos": ("mikonos",),
     "santorini": ("thira", "oia", "fira", "imerovigli"),
-    "saint julians": ("st julians", "san giljan"),
-    "st julians": ("saint julians", "san giljan"),
+    "saint julian": ("san giljan", "saint julians", "st julians", "st julian"),
+    "mexico city": ("ciudad de mexico", "cdmx"),
+    "xian": ("xi an",),
+    "shanghai": ("shang hai",),
+    "beijing": ("bei jing",),
+    "chengdu": ("cheng du",),
+    "suzhou": ("su zhou",),
+    "tianjin": ("tian jin",),
+    "shenzhen": ("shen zhen",),
+    "hangzhou": ("hang zhou",),
+    "nanjing": ("nan jing",),
+    "sanya": ("san ya",),
+    "qingdao": ("qing dao",),
+    "lijiang": ("li jiang",),
+    "guangzhou": ("guang zhou",),
+    "xiamen": ("xia men",),
+    "zhuhai": ("zhu hai",),
 }
 
+# Only strip benign locality qualifiers that never collapse a distinct city
+# into a state/country or separate neighbor (deliberately excludes "city",
+# "beach", and "bay" so Mexico City, Virginia Beach, and Miami Beach remain
+# distinct from Mexico, Virginia, and Miami).
 _CITY_SUFFIX_RE = re.compile(
-    r"\s+(?:island|city|beach|mare|bay|by the sea|metropolitan area)$"
+    r"\s+(?:island|mare|by the sea|metropolitan area)$"
 )
 
 # US state and Canadian province full-name -> postal code mapping used to guard
@@ -236,6 +255,24 @@ _SCOPE_ALIASES = {
     "thc": "thc",
 }
 _PROGRAM_SCOPES: FrozenSet[str] = frozenset({"fhr", "thc"})
+
+# City-states and SARs whose trailing address segment is also the city itself.
+_CITY_STATE_NAMES: FrozenSet[str] = frozenset({
+    "hong kong", "macao", "macau", "singapore", "monaco",
+})
+
+_STATE_POSTAL_SEGMENT_RE = re.compile(
+    r"^\s*([A-Z]{2})(?:\s+[A-Z0-9][A-Z0-9 -]*)?\s*$"
+)
+_LEADING_STREET_NUM_RE = re.compile(r"^\s*\d+")
+_STREET_TYPE_RE = re.compile(
+    r"\b(?:st|street|rd|road|ave|avenue|blvd|boulevard|dr|drive|ln|lane|way|wy|"
+    r"pl|place|pkwy|parkway|hwy|highway|ct|court|cir|circle|ter|terrace|trl|trail|"
+    r"via|viale|corso|piazza|calle|carrer|avenida|av|rue|boulevard|chem|chemin|"
+    r"strasse|str|platz|gasse|allee|paseo|pasealekua|ibilbidea|khasra|lu|jie|dao|"
+    r"chome|dori|ro|gil|moo|soi|thanon|jalan|jl)\b",
+    re.IGNORECASE,
+)
 
 
 def is_strict_lodging_type(types: Iterable[str]) -> bool:
@@ -284,14 +321,17 @@ def fold_ascii(s: str) -> str:
 def normalize_name(s: str) -> str:
     """Canonical ASCII, punctuation- and accent-insensitive name form.
 
-    Strips English possessive "'s" (Universal's == Universal), collapses other
-    apostrophes (Xi'an == Xian, Ho'olei == Hoolei), normalizes & -> and and
-    St. -> saint, and preserves single-character brand tokens such as 'w'
-    ('W Rome') and '1' ('1 Hotel').
+    Strips English possessive "'s" (Universal's == Universal) and French/Italian
+    elided "d'"/"l'" prefixes (Hotel D'Angleterre == Hotel Angleterre),
+    collapses remaining apostrophes (Xi'an == Xian, Ho'olei == Hoolei),
+    normalizes & -> and, St. -> saint, and D.C. -> dc, while preserving
+    single-character brand tokens such as 'w' ('W Rome') and '1' ('1 Hotel').
     """
     s = fold_ascii(s).lower()
     s = s.replace("&", " and ")
+    s = re.sub(r"\bd\.\s*c\.?", "dc", s)
     s = re.sub(r"'s\b", "", s)
+    s = re.sub(r"\b[dl]'(?=[a-z]{3,})", "", s)
     s = re.sub(r"'", "", s)
     s = re.sub(r"\bst\.?\b", "saint", s)
     s = re.sub(r"[^a-z0-9]+", " ", s)
@@ -366,22 +406,41 @@ def normalize_location(loc: str) -> Tuple[str, str]:
     return city, country
 
 
-def _cities_compatible(city1: str, city2: str) -> bool:
-    """Return True when two normalized city names refer to the same city/locality."""
+def _strip_safe_city_suffix(city: str, region: str = "", country: str = "") -> str:
+    """Strip benign locality suffixes without collapsing a city into a state or country."""
+    stem = _CITY_SUFFIX_RE.sub("", city).strip()
+    if not stem or stem == city or len(stem) < 3:
+        return ""
+    if stem in _SUBREGION_CODES or stem in _COUNTRY_ALIASES or stem in _COUNTRY_ALIASES.values():
+        return ""
+    if (region and stem == region) or (country and stem == country):
+        return ""
+    return stem
+
+
+def _cities_compatible(
+    city1: str,
+    city2: str,
+    region: str = "",
+    country: str = "",
+) -> bool:
+    """Return True only for exact city matches, known aliases, or safe suffix variants.
+
+    Never merges distinct cities that merely share a prefix/word (e.g.
+    San Diego vs San Francisco, Santa Monica vs Santa Barbara, Palm Beach vs
+    Miami Beach, Fort Lauderdale vs Fort Myers, Manchester vs Winchester).
+    """
     if not city1 or not city2:
         return False
-    if city1 == city2 or city1 in city2 or city2 in city1:
+    if city1 == city2:
         return True
     if city2 in _CITY_ALIASES.get(city1, ()) or city1 in _CITY_ALIASES.get(city2, ()):
         return True
-    s1 = _CITY_SUFFIX_RE.sub("", city1).strip()
-    s2 = _CITY_SUFFIX_RE.sub("", city2).strip()
-    if s1 and s2 and (s1 == s2 or s1 in s2 or s2 in s1):
+    s1 = _strip_safe_city_suffix(city1, region=region, country=country) or city1
+    s2 = _strip_safe_city_suffix(city2, region=region, country=country) or city2
+    if s1 == s2:
         return True
-    t1, t2 = set(city1.split()), set(city2.split())
-    if t1 & t2 and len(t1 & t2) / min(len(t1), len(t2)) >= 0.5:
-        return True
-    return SequenceMatcher(None, city1, city2).ratio() >= 0.80
+    return s2 in _CITY_ALIASES.get(s1, ()) or s1 in _CITY_ALIASES.get(s2, ())
 
 
 def locations_compatible(loc1: str, loc2: str) -> bool:
@@ -389,7 +448,8 @@ def locations_compatible(loc1: str, loc2: str) -> bool:
 
     Requires both locations to be non-empty so missing locations (e.g. Hilton
     CSVs) never pass as a city match, and compares city separately from state/
-    region so different cities in the same state (Austin vs Houston) return False.
+    region so different cities in the same state (Austin vs Houston, San Diego
+    vs San Francisco) return False.
     """
     if not (loc1 or "").strip() or not (loc2 or "").strip():
         return False
@@ -400,8 +460,7 @@ def locations_compatible(loc1: str, loc2: str) -> bool:
     if reg1 and reg2 and reg1 != reg2:
         return False
     if city1 and city2:
-        return _cities_compatible(city1, city2)
-    # Country/region-only locations (no city component on either side)
+        return _cities_compatible(city1, city2, region=reg1 or reg2, country=co1 or co2)
     return bool(co1 and co1 == co2 and (not city1 and not city2))
 
 
@@ -454,13 +513,13 @@ def address_location_compatible(formatted_address: str, hotel_location: str) -> 
     return True
 
 
-def _city_needles(city: str) -> List[str]:
-    """Return normalized city strings (including stem and endonyms) to search for."""
+def _city_needles(city: str, region: str = "", country: str = "") -> List[str]:
+    """Return normalized city strings (including safe stems and endonyms) to match."""
     if not city:
         return []
     needles: List[str] = [city]
-    stem = _CITY_SUFFIX_RE.sub("", city).strip()
-    if stem and len(stem) >= 3 and stem != city:
+    stem = _strip_safe_city_suffix(city, region=region, country=country)
+    if stem and stem not in needles:
         needles.append(stem)
     for alias in _CITY_ALIASES.get(city, ()):
         if alias not in needles:
@@ -478,43 +537,90 @@ def _haystack_has_phrase(haystack: str, phrase: str) -> bool:
     return re.search(rf"(?:^| ){re.escape(phrase)}(?: |$)", haystack) is not None
 
 
+def _address_locality_text(formatted_address: str) -> str:
+    """Extract only the locality segments of a Google formatted_address.
+
+    Drops street-address segments (e.g. 'Corso Venezia 1', 'Via Roma 1',
+    '300 S Doheny Dr'), trailing country/postal-only segments, and US/CA
+    state+zip segments (e.g. 'NY 14202') so neither street names nor state
+    names produce false city matches.
+    """
+    if not formatted_address:
+        return ""
+    if "," in formatted_address:
+        parts = [p.strip() for p in formatted_address.split(",") if p.strip()]
+    elif " - " in formatted_address:
+        parts = [p.strip() for p in formatted_address.split(" - ") if p.strip()]
+    else:
+        parts = [formatted_address.strip()]
+
+    if not parts:
+        return ""
+
+    # Strip trailing pure-numeric postal segments (e.g. "... China, 710065").
+    while len(parts) > 1 and re.fullmatch(r"[\d\s-]+", parts[-1]):
+        parts.pop()
+
+    # Drop the trailing country segment when multiple segments exist, unless
+    # the trailing segment is a city-state / SAR (e.g. "Hong Kong", "Singapore")
+    # where the final segment IS the city itself.
+    if len(parts) >= 2 and _normalize_geo_text(parts[-1]) not in _CITY_STATE_NAMES:
+        parts = parts[:-1]
+
+    # Drop leading street segments when at least one locality segment follows.
+    if len(parts) >= 2:
+        first = parts[0]
+        if _LEADING_STREET_NUM_RE.search(first) or _STREET_TYPE_RE.search(fold_ascii(first)):
+            parts = parts[1:]
+        elif len(parts) >= 3:
+            # 3+ remaining segments (after country removal): first is almost
+            # always building/street/estate name (e.g. "Petite Anse, Mahe Island").
+            parts = parts[1:]
+
+    # Filter out bare US/CA state+postal segments (e.g. "NY 14202", "CA 90048")
+    # and pure house-number segments (e.g. ", 56, ").
+    locality_parts: List[str] = []
+    for seg in parts:
+        if re.fullmatch(r"[\d\s-]+", seg):
+            continue
+        m = _STATE_POSTAL_SEGMENT_RE.match(seg)
+        if m and m.group(1).lower() in _VALID_SUBREGION_CODES:
+            continue
+        locality_parts.append(seg)
+
+    return normalize_name(" ".join(locality_parts))
+
+
 def _candidate_city_compatible(
     hotel_location: str,
     formatted_address: str,
     queries: Iterable[str],
 ) -> bool:
-    """Verify that a cached entry's address or queries agree with hotel_location's city."""
+    """Verify city agreement using the returned address locality first.
+
+    When a resolved formatted_address is present, only its locality segments
+    are checked (never letting search queries override a conflicting returned
+    address, and never matching street names like 'Corso Venezia' or 'Via Roma').
+    Falls back to queries only when formatted_address is absent.
+    """
     if not hotel_location:
         return True
-    city, _, _ = normalize_location_parts(hotel_location)
+    city, region, country = normalize_location_parts(hotel_location)
     if not city:
         return True
-    haystack = normalize_name(formatted_address + " " + " ".join(queries or ()))
-    if not haystack:
-        return False
-    for needle in _city_needles(city):
-        if _haystack_has_phrase(haystack, needle):
-            return True
-    return False
 
-
-def _no_result_location_compatible(hotel_location: str, queries: Iterable[str]) -> bool:
-    """Verify a cached NO_RESULT entry belongs to the same country and city."""
-    if not hotel_location:
-        return True
-    queries_list = list(queries or ())
-    if not queries_list:
-        return False
-    joined = " ".join(queries_list)
-    _, _, loc_country = normalize_location_parts(hotel_location)
-    if loc_country:
-        geo_hay = _normalize_geo_text(joined)
-        country_ok = loc_country in geo_hay or (
-            loc_country == "china" and ("hong kong" in geo_hay or "macao" in geo_hay)
-        )
-        if not country_ok:
+    needles = _city_needles(city, region=region, country=country)
+    if formatted_address:
+        locality = _address_locality_text(formatted_address)
+        if not locality:
             return False
-    return _candidate_city_compatible(hotel_location, "", queries_list)
+        return any(_haystack_has_phrase(locality, needle) for needle in needles)
+
+    # No formatted_address available: fall back to cached queries.
+    query_text = normalize_name(" ".join(queries or ()))
+    if not query_text:
+        return False
+    return any(_haystack_has_phrase(query_text, needle) for needle in needles)
 
 
 @lru_cache(maxsize=16384)
@@ -523,7 +629,9 @@ def _core_name_tokens_cached(
     generic_tokens: FrozenSet[str],
 ) -> Tuple[str, ...]:
     s = fold_ascii(name).lower().replace("&", " and ")
+    s = re.sub(r"\bd\.\s*c\.?", "dc", s)
     s = re.sub(r"'s\b", "", s)
+    s = re.sub(r"\b[dl]'(?=[a-z]{3,})", "", s)
     s = re.sub(r"'", "", s)
     s = _AFFILIATION_RE.sub(" ", s)
     s = re.sub(r"\bst\.?\b", "saint", s)
@@ -640,9 +748,6 @@ def _match_quality(
     sym_diff = lt ^ rt
     if loc_toks and sym_diff.issubset(loc_toks):
         shared_core = lt & rt
-        # Only bridge a location-only difference when at least one core token is
-        # shared AND either the candidate itself names the requested location
-        # (rt - lt non-empty) or the candidate's cached address/queries agree on city.
         candidate_confirms_city = bool(rt - lt) or location_confirmed
         if shared_core and candidate_confirms_city:
             return (2, len(shared_core), 1, -len(sym_diff), -abs(len(l_norm) - len(r_norm)))
@@ -673,12 +778,20 @@ def _match_quality(
             # Support 1-core-token hotels (e.g. "Hotel De Rome" vs "Hotel De Rome Berlin",
             # "Loden Hotel" vs "Loden Boutique Hotel Vancouver", "Le Sereno" vs
             # "Le Sereno St. Barths") so cache pruning preserves their entries without
-            # letting weak single tokens like "new" or "w" match unrelated hotels.
+            # letting weak single tokens like "new" or "w" — or a trailing word like
+            # "The Carlton" matching every "The Ritz-Carlton, <City>" — match unrelated hotels.
             single_tok = next(iter(overlap))
-            if len(single_tok) >= 3 and single_tok not in _WEAK_SINGLE_CORE_TOKENS:
+            if (
+                len(single_tok) >= 3
+                and single_tok not in _WEAK_SINGLE_CORE_TOKENS
+                and l_seq[0] == r_seq[0]
+            ):
                 raw_l = {t for t in l_norm.split() if t not in generic_tokens}
                 raw_r = {t for t in r_norm.split() if t not in generic_tokens}
-                if len(raw_l & raw_r) >= 2 or len(raw_l) == 1 or len(raw_r) == 1:
+                prefix_ok = l_norm.startswith(r_norm + " ") or r_norm.startswith(l_norm + " ")
+                if (diff == 1 or prefix_ok) and (
+                    len(raw_l & raw_r) >= 2 or len(raw_l) == 1 or len(raw_r) == 1
+                ):
                     return (1, 1, 1, -diff, -abs(len(l_norm) - len(r_norm)))
         return None
 
@@ -699,20 +812,7 @@ def _match_quality(
 def load_geocode_cache_index(
     *cache_paths: str,
 ) -> Tuple[Dict[str, Any], List[Tuple[str, str, str, str]]]:
-    """Load one or more geocode cache files and return (index, entries).
-
-    index layout:
-      "__official__": {scope_key: set(name_lower), "__any__": set(name_lower)}
-          — fuzzy matching pool for new-style entries (have hotel_name field)
-      "__queries__": {scope_key: set(query_lower), "__any__": set(query_lower)}
-          — fuzzy fallback pool for old-style entries that only store queries
-
-    entries: [(canonical_name, scope_key, cache_key_str, cache_file_path), ...]
-        canonical_name  — lowercased official name (new-style) or shortest query (old-style)
-        scope_key       — normalized meta["brand"] from the cache key JSON
-        cache_key_str   — original JSON string used as the dict key in the cache file
-        cache_file_path — which file this entry lives in (for targeted removal/update)
-    """
+    """Load one or more geocode cache files and return (index, entries)."""
     official_index: Dict[str, Set[str]] = {}
     query_index: Dict[str, Set[str]] = {"__any__": set()}
     entries: List[Tuple[str, str, str, str]] = []
@@ -823,23 +923,26 @@ def find_fuzzy_cache_key(
     hotel_location: str = "",
     scope_key: str = "",
 ) -> Optional[str]:
-    """Search a raw cache dict for a key whose hotel_name fuzzily matches.
+    """Search a raw cache dict for a resolved key whose hotel_name matches.
 
     Used by google-convert.py to reuse already-geocoded coordinates when the
     hotel's name or location formatting changed slightly, avoiding an
-    unnecessary paid API call. Skips placeholder (None) entries and non-lodging
-    noise results (e.g. parking lots), prefers resolved entries and matching
-    scopes without blocking older brand-scoped FHR/THC entries or Hilton brand
-    rebrands, and enforces country, US/CA state/province, and city agreement
-    when hotel_location is provided.
+    unnecessary paid API call.
+      - Skips placeholder (None), NO_RESULT (so renamed hotels always get a
+        fresh lookup), and non-lodging noise entries (e.g. parking lots).
+      - Prefers exact name matches ahead of strict_lodging and scope match,
+        while allowing older brand-scoped FHR/THC entries and Hilton brand
+        rebrands as lower-ranked fallbacks.
+      - Verifies country, US/CA state/province, and returned-address locality
+        when hotel_location is provided.
     """
     target_scope = _normalize_scope(scope_key)
     target_format = _clean_text(input_format).lower()
     best_key: Optional[str] = None
-    best_rank: Optional[Tuple[int, int, int, int, int, int, int, int]] = None
+    best_rank: Optional[Tuple[int, int, int, int, int, int, int]] = None
 
     for key, value in cache.items():
-        if value is None:
+        if not isinstance(value, dict) or value == {"status": "NO_RESULT"}:
             continue
         try:
             meta = json.loads(key)
@@ -851,10 +954,6 @@ def find_fuzzy_cache_key(
             continue
 
         entry_scope = _normalize_scope(meta.get("brand", ""))
-        # Only hard-reject conflicting AMEX programme buckets (FHR vs THC).
-        # Older FHR/THC entries store brand_label in meta["brand"], and Hilton
-        # hotels may change brands while keeping the same physical location, so
-        # treat non-matching scopes as a lower-ranked fallback rather than a miss.
         if (
             target_scope in _PROGRAM_SCOPES
             and entry_scope in _PROGRAM_SCOPES
@@ -863,53 +962,37 @@ def find_fuzzy_cache_key(
             continue
         scope_match = 1 if (target_scope and entry_scope == target_scope) else 0
 
+        types = value.get("types", [])
+        if types and not is_lodging_type(types):
+            continue
+
         queries = meta.get("queries", []) or []
-        formatted_address = ""
-        is_resolved = 0
-        strict_lodging = 0
-
-        if isinstance(value, dict) and value != {"status": "NO_RESULT"}:
-            types = value.get("types", [])
-            if types and not is_lodging_type(types):
+        formatted_address = value.get("formatted_address") or ""
+        if hotel_location:
+            if not address_location_compatible(formatted_address, hotel_location):
                 continue
-            formatted_address = value.get("formatted_address") or ""
-            if hotel_location:
-                if not address_location_compatible(formatted_address, hotel_location):
-                    continue
-                if not _candidate_city_compatible(hotel_location, formatted_address, queries):
-                    continue
-            is_resolved = 1
-            strict_lodging = 1 if is_strict_lodging_type(types) else 0
-        else:
-            # Never reuse a NO_RESULT entry from another city/country.
-            if hotel_location and not _no_result_location_compatible(hotel_location, queries):
+            if not _candidate_city_compatible(hotel_location, formatted_address, queries):
                 continue
 
+        strict_lodging = 1 if is_strict_lodging_type(types) else 0
         cached_hotel_name = meta.get("hotel_name", "")
         candidates: Iterable[str] = [cached_hotel_name] if cached_hotel_name else queries
-        city_ok = _candidate_city_compatible(hotel_location, formatted_address, queries) if hotel_location else True
 
         for candidate in candidates:
-            # Disallow loose subset matching when reusing cached coordinates:
-            # copying coordinates from a sibling property (e.g. Mandarin Oriental
-            # Paris -> Mandarin Oriental Lutetia, Paris) permanently poisons the
-            # target hotel's exact cache key. Only reuse on exact normalized or
-            # affiliation/location-bridged core matches.
             quality = _match_quality(
                 hotel_name,
                 candidate,
                 hotel_location=hotel_location,
-                location_confirmed=city_ok,
+                location_confirmed=True,
                 allow_subset=False,
             )
             if quality is None:
                 continue
-            # Always rank resolved lodging entries above NO_RESULT entries so a
-            # failed lookup cannot mask an already-geocoded entry.
+            # Rank name match tier ahead of strict_lodging so an exact-name
+            # establishment entry beats a looser core-only lodging match.
             rank = (
-                is_resolved,
-                strict_lodging,
                 quality[0],
+                strict_lodging,
                 scope_match,
                 quality[1],
                 quality[2],
@@ -923,39 +1006,69 @@ def find_fuzzy_cache_key(
     return best_key
 
 
-def _retention_match(cached_name: str, scraped_name: str) -> bool:
-    """Conservative-against-deletion match used only when pruning cache entries.
+def _strip_affiliations_norm(name: str) -> str:
+    """Normalize a hotel name after stripping affiliation taglines (keeps articles)."""
+    s = fold_ascii(name).lower().replace("&", " and ")
+    s = re.sub(r"\bd\.\s*c\.?", "dc", s)
+    s = re.sub(r"'s\b", "", s)
+    s = re.sub(r"\b[dl]'(?=[a-z]{3,})", "", s)
+    s = re.sub(r"'", "", s)
+    s = _AFFILIATION_RE.sub(" ", s)
+    s = re.sub(r"\bst\.?\b", "saint", s)
+    s = re.sub(r"[^a-z0-9]+", " ", s)
+    return re.sub(r"\s+", " ", s).strip()
 
-    Prevents deleting valid cached geocodes for hotels that are still listed
-    under minor name edits (e.g. adding/removing Downtown, Residences, Villas,
-    city qualifiers, or legacy query spellings), while still pruning genuinely
-    removed or wrong-program entries without letting single-char brands like
-    'W Hong Kong' match unrelated properties.
+
+def _retention_match(cached_name: str, scraped_name: str) -> bool:
+    """Match predicate used only when pruning cache entries in scrapers.
+
+    Preserves valid cached geocodes for still-listed hotels across minor edits
+    (taglines, discriminators like Downtown/Residences/Villas, spacing/apostrophe
+    splits like "Ka La'i" vs "Ka La i", city qualifiers, legacy query spellings)
+    while avoiding false retention of removed same-chain hotels in other cities.
     """
     if _match_quality(cached_name, scraped_name, strict_discriminators=False) is not None:
         return True
-    # Raw normalized-token fallback (preserving 1-char brand tokens like 'w'
-    # and '1', and rejecting weak city-only matches) for legacy query-only
-    # entries and minor typo/endonym renames.
-    l_norm = normalize_name(cached_name)
-    r_norm = normalize_name(scraped_name)
-    if not l_norm or not r_norm:
+    l_stripped = _strip_affiliations_norm(cached_name)
+    r_stripped = _strip_affiliations_norm(scraped_name)
+    if not l_stripped or not r_stripped:
         return False
-    seq1 = [t for t in l_norm.split() if t not in DEFAULT_GENERIC_TOKENS]
-    seq2 = [t for t in r_norm.split() if t not in DEFAULT_GENERIC_TOKENS]
+    # Exact match ignoring whitespace catches apostrophe-split spellings like
+    # "ka la i waikiki beach, lxr resorts" vs "Ka La'i Waikiki Beach, LXR Hotels & Resorts"
+    # even when a split fragment ("la") happens to be a generic article token.
+    l_compact = l_stripped.replace(" ", "")
+    r_compact = r_stripped.replace(" ", "")
+    if len(l_compact) >= 6 and l_compact == r_compact:
+        return True
+
+    # Strip affiliation taglines before tokenizing so shared collection phrases
+    # (e.g. "The Leading Hotels of the World", "a Member of Design Hotels")
+    # cannot inflate token overlap between distinct properties.
+    seq1 = [t for t in l_stripped.split() if t not in DEFAULT_GENERIC_TOKENS]
+    seq2 = [t for t in r_stripped.split() if t not in DEFAULT_GENERIC_TOKENS]
     t1, t2 = align_compound_tokens(seq1, seq2)
     if not t1 or not t2:
         return False
     ov = t1 & t2
+    smaller, larger = (t1, t2) if len(t1) <= len(t2) else (t2, t1)
+    if smaller.issubset(larger):
+        diff = len(larger) - len(smaller)
+        # Legacy query-only entry with appended "hilton" (e.g. "inn sea hilton"
+        # vs "Inn by the Sea", or "marquette hilton" vs "The Marquette Hotel").
+        if diff == 1 and (larger - smaller) == {"hilton"} and ov:
+            return True
+        if len(ov) >= MIN_FUZZY_MATCH_TOKENS and diff <= 2 and (
+            ov - GENERIC_HOSPITALITY_TOKENS - _WEAK_SINGLE_CORE_TOKENS
+        ):
+            return True
+        return False
     if len(ov) < MIN_FUZZY_MATCH_TOKENS:
         return False
-    # Never match solely on generic hospitality words like {"hotel", "resort"}
+    # Require >= 0.80 bidirectional overlap (matching main) on non-tagline
+    # tokens so removed chain hotels in 1-word cities are not falsely retained.
     if not (ov - GENERIC_HOSPITALITY_TOKENS - _WEAK_SINGLE_CORE_TOKENS):
         return False
-    smaller, larger = (t1, t2) if len(t1) <= len(t2) else (t2, t1)
-    if smaller.issubset(larger) and (len(larger) - len(smaller)) <= 2:
-        return True
-    return len(ov) / len(t1) >= 0.75 and len(ov) / len(t2) >= 0.75
+    return len(ov) / len(t1) >= 0.80 and len(ov) / len(t2) >= 0.80
 
 
 def is_cached_hotel_in_scraped(
@@ -963,7 +1076,13 @@ def is_cached_hotel_in_scraped(
     scope_key: str,
     scraped_index: Dict[str, Set[str]],
 ) -> bool:
-    """Return True if cached_name appears in the current scraped list for scope_key."""
+    """Return True if cached_name appears in the current scraped list for scope_key.
+
+    For non-programme scopes (Hilton brands), also checks exact normalized and
+    exact core-identity matches across other brands in scraped_index so a hotel
+    switching Hilton brands (e.g. Curio -> LXR) retains its old cache entry
+    until geocoding reuses it.
+    """
     name = _clean_text(cached_name).lower()
     sk = _normalize_scope(scope_key)
 
@@ -974,7 +1093,22 @@ def is_cached_hotel_in_scraped(
     )
     if name in candidates:
         return True
-    return any(_retention_match(name, s) for s in candidates)
+    if any(_retention_match(name, s) for s in candidates):
+        return True
+
+    # Hilton brand rebrands: keep the old brand's entry when the same hotel
+    # (exact normalized name or exact tagline-stripped core identity) is still
+    # listed under another brand in this scraper run.
+    if sk and sk not in _PROGRAM_SCOPES and scraped_index:
+        for other_scope, other_names in scraped_index.items():
+            if other_scope == sk:
+                continue
+            if name in other_names or any(
+                _match_quality(name, s, allow_subset=False) is not None
+                for s in other_names
+            ):
+                return True
+    return False
 
 
 def update_cache_file(cache_path: str, new_keys: List[Tuple[str, Any]]) -> int:

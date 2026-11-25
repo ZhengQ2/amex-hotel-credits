@@ -283,6 +283,30 @@ class HotelChangeTests(unittest.TestCase):
         self.assertEqual((len(diff_same_state_coords.added), len(diff_same_state_coords.removed)), (1, 1))
         self.assertEqual(diff_same_state_coords.moved, [])
 
+        # Shared city token ("San Diego" vs "San Francisco") and suffix-adjacent
+        # cities ("Miami" vs "Miami Beach") with distinct place_ids must not merge.
+        for old_row, new_row in (
+            (
+                'The Grand Hotel,https://example.com/1,"San Diego, California US",FHR,,32.7157,-117.1611,pid_sd,establishment;lodging,CACHED',
+                'The Grand Hotel,https://example.com/2,"San Francisco, California US",FHR,,37.7749,-122.4194,pid_sf,establishment;lodging,CACHED',
+            ),
+            (
+                'The Grand Hotel,https://example.com/1,"San Diego, California US",FHR,,,,,establishment;lodging,CACHED',
+                'The Grand Hotel,https://example.com/2,"San Francisco, California US",FHR,,,,,establishment;lodging,CACHED',
+            ),
+            (
+                'The Grand Hotel,https://example.com/1,"Miami, Florida US",FHR,,25.7617,-80.1918,pid_mia,establishment;lodging,CACHED',
+                'The Grand Hotel,https://example.com/2,"Miami Beach, Florida US",FHR,,25.7907,-80.1300,pid_mb,establishment;lodging,CACHED',
+            ),
+            (
+                'Hilton Resort,https://www.hilton.com/en/1/,,Hilton,,25.7617,-80.1918,pid_h1,establishment;lodging,CACHED',
+                'Hilton-Resort,https://www.hilton.com/en/2/,,Hilton,,25.7907,-80.1300,pid_h2,establishment;lodging,CACHED',
+            ),
+        ):
+            diff = compare(csv_doc(old_row), csv_doc(new_row))
+            self.assertEqual((len(diff.added), len(diff.removed), len(diff.moved)), (1, 1, 0))
+            self.assertTrue(diff.has_notifiable_changes)
+
     def test_same_city_distinct_st_regis_resorts_do_not_merge(self):
         old = csv_doc(
             'The St. Regis Bal Harbour Resort,https://example.com/1,"Bal Harbour, Florida US",FINE HOTELS + RESORTS,St. Regis,25.8886,-80.1232,pid_same,establishment;lodging,CACHED'
@@ -315,6 +339,26 @@ class HotelChangeTests(unittest.TestCase):
         self.assertIn("... and 5 more removed", report)
         self.assertIn("~ Renamed: Omni Austin Hotel Downtown -> Omni Austin Hotel", report)
         self.assertIn("~ Moved (", report)
+
+    def test_report_lists_all_renames_by_default_without_csv_footer(self):
+        old_rows = [
+            f'Old Property {i} Downtown,https://example.com/r{i},"Austin, Texas US",FHR,,30.{100 + i},-97.{100 + i},pid_r{i},establishment;lodging,CACHED'
+            for i in range(25)
+        ]
+        new_rows = [
+            f'Old Property {i},https://example.com/r{i},"Austin, Texas US",FHR,,30.{100 + i},-97.{100 + i},pid_r{i},establishment;lodging,CACHED'
+            for i in range(25)
+        ]
+        diff = compare(csv_doc(*old_rows), csv_doc(*new_rows))
+        self.assertEqual(len(diff.renamed), 25)
+        full_report = report_section("cache/fhr_hotels_geocoded_google.csv", diff)
+        rename_lines = [line for line in full_report.splitlines() if line.startswith("  ~ Renamed:")]
+        self.assertEqual(len(rename_lines), 25)
+        self.assertNotIn("more renamed", full_report)
+
+        capped_report = report_section("cache/fhr_hotels_geocoded_google.csv", diff, max_renames=10)
+        self.assertIn("... and 15 more renamed; see workflow logs", capped_report)
+        self.assertNotIn("more renamed; see attached CSVs", capped_report)
 
     def test_cli_main_writes_github_output_and_report(self):
         old = csv_doc(

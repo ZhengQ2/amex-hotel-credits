@@ -341,16 +341,17 @@ def compare(
                 continue
             dist = _distance_between(o, n)
             same_pid = bool(o.place_id and o.place_id == n.place_id)
+            distinct_pids = bool(o.place_id and n.place_id and o.place_id != n.place_id)
             if o.hotel_location or n.hotel_location:
                 loc_ok = locations_compatible(o.hotel_location, n.hotel_location)
-                geo_ok = same_pid or (dist is not None and dist <= 25_000.0)
+                geo_ok = same_pid or (not distinct_pids and dist is not None and dist <= 25_000.0)
                 if not (loc_ok or geo_ok):
                     continue
             else:
                 # Both rows omit hotel_location (e.g. Hilton): require matching
-                # place_id, nearby coords, or missing coords with no code conflict.
+                # place_id, or non-conflicting place_ids with nearby/missing coords.
                 loc_ok = False
-                if not (same_pid or dist is None or dist <= 25_000.0):
+                if not (same_pid or (not distinct_pids and (dist is None or dist <= 25_000.0))):
                     continue
             rank = (1 if same_pid else 0, 1 if loc_ok else 0, -(dist if dist is not None else 1e9))
             stage2_candidates.append((rank, oi, ni))
@@ -566,10 +567,20 @@ def _format_rename(match: HotelMatch) -> str:
     return f"  ~ Renamed: {match.old.hotel_name} -> {describe(match.new)}"
 
 
-def _append_capped(lines: List[str], items: List[str], noun: str, limit: int) -> None:
+def _append_capped(
+    lines: List[str],
+    items: List[str],
+    noun: str,
+    limit: Optional[int],
+    *,
+    footer_note: str = "see attached CSVs",
+) -> None:
+    if limit is None:
+        lines.extend(items)
+        return
     lines.extend(items[:limit])
     if len(items) > limit:
-        lines.append(f"  ... and {len(items) - limit} more {noun}; see attached CSVs")
+        lines.append(f"  ... and {len(items) - limit} more {noun}; {footer_note}")
 
 
 def report_section(
@@ -577,6 +588,7 @@ def report_section(
     diff: DiffResult,
     *,
     max_per_category: int = MAX_DETAILS_PER_CATEGORY,
+    max_renames: Optional[int] = None,
 ) -> str:
     lines = [
         f"{label}: {len(diff.added)} added, {len(diff.removed)} removed, "
@@ -594,11 +606,13 @@ def report_section(
         "removed",
         max_per_category,
     )
+    # List all renames by default because old names are not in the attached CSVs.
     _append_capped(
         lines,
         [_format_rename(m) for m in diff.renamed],
         "renamed",
-        max_per_category,
+        max_renames,
+        footer_note="see workflow logs for full rename list",
     )
     _append_capped(
         lines,
