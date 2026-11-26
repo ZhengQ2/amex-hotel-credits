@@ -214862,47 +214862,45 @@
   },
   "{\"brand\": \"FHR\", \"hotel_name\": \"Jumeirah Lake Como\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Jumeirah Lake Como\"], \"v\": 3}": null,
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Jumeirah Lake Como\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Jumeirah Lake Como The Leading Hotels of the World Hotel\", \"Jumeirah Lake Como The Leading Hotels of the World Resort\", \"Jumeirah Lake Como The Leading Hotels of the World\", \"Jumeirah Lake Como The Leading Hotels of the World Torno, Italy Hotel\", \"Jumeirah Lake Como The Leading Hotels of the World Torno, Italy Resort\", \"Jumeirah Lake Como The Leading Hotels of the World Torno, Italy\", \"Jumeirah Lake Como Hilton Hotel\", \"Jumeirah Lake Como Hilton Resort\", \"Jumeirah Lake Como Hilton\", \"Jumeirah Lake Como Hilton Torno, Italy Hotel\", \"Jumeirah Lake Como Hilton Torno, Italy Resort\", \"Jumeirah Lake Como Hilton Torno, Italy\", \"Jumeirah Lake Como Hotel\", \"Jumeirah Lake Como Resort\", \"Jumeirah Lake Como\", \"Jumeirah Lake Como Torno, Italy Hotel\", \"Jumeirah Lake Como Torno, Italy Resort\", \"Jumeirah Lake Como Torno, Italy\"], \"v\": 3}": {
-    "lat": 45.8168805,
-    "lon": 9.064603199999999,
-    "formatted_address": "Via Borgo Vico, 241, 22100 Como CO, Italy",
+    "lat": 45.8590684,
+    "lon": 9.1177082,
+    "formatted_address": "Via Torrazza, 10, 22020 Torno CO, Italy",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ_QYfmqmdhkcRLMgfNxDXA-E",
+    "place_id": "ChIJKc2Ipk4nhEcRu3kFKUg1h0Y",
     "types": [
       "establishment",
       "lodging",
-      "point_of_interest",
-      "spa"
+      "point_of_interest"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Via Borgo Vico, 241, 22100 Como CO, Italy",
+      "formatted_address": "Via Torrazza, 10, 22020 Torno CO, Italy",
       "geometry": {
         "location": {
-          "lat": 45.8168805,
-          "lng": 9.064603199999999
+          "lat": 45.8590684,
+          "lng": 9.1177082
         },
         "viewport": {
           "northeast": {
-            "lat": 45.8184184802915,
-            "lng": 9.066133480291501
+            "lat": 45.8602823302915,
+            "lng": 9.118958130291503
           },
           "southwest": {
-            "lat": 45.81572051970851,
-            "lng": 9.063435519708497
+            "lat": 45.8575843697085,
+            "lng": 9.116260169708498
           }
         }
       },
-      "name": "Hilton Lake Como",
-      "place_id": "ChIJ_QYfmqmdhkcRLMgfNxDXA-E",
+      "name": "il Sereno Hotel",
+      "place_id": "ChIJKc2Ipk4nhEcRu3kFKUg1h0Y",
       "types": [
         "establishment",
         "lodging",
-        "point_of_interest",
-        "spa"
+        "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/mxpcohi-hilton-lake-como/?SEO_id=GMB-EMEA-HI-MXPCOHI"
+      "website": "http://ilsereno.com/"
     }
   }
 }
