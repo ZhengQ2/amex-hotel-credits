@@ -16,6 +16,8 @@
     .leg { display: flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 20px; border: 1.5px solid transparent; cursor: pointer; font-size: .78rem; font-weight: 600; transition: opacity .15s; white-space: nowrap; user-select: none; }
     .leg.off { opacity: .35; } .leg-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
     #tally { font-size: .75rem; color: #94a3b8; margin-left: auto; white-space: nowrap; }
+    #changes-link { font-size: .76rem; font-weight: 600; color: #cbd5e1; text-decoration: none; padding: 4px 10px; border-radius: 6px; border: 1px solid #334155; white-space: nowrap; }
+    #changes-link:hover { color: #f8fafc; background: #1e293b; }
     #map { position: fixed; top: 49px; left: 0; width: 100%; height: calc(100vh - 49px); }
     .hp { min-width: 210px; max-width: 300px; padding: 2px; }
     .hp-name { font-size: .88rem; font-weight: 700; color: #0f172a; line-height: 1.35; margin-bottom: 7px; }
@@ -30,6 +32,7 @@
 <body>
 <div id="header">
   <h1>🏨 Luxury Hotel Map</h1>
+  <a id="changes-link" href="changes.html">What's new</a>
   <input id="search" type="search" placeholder="Search hotels, cities, brands…" autocomplete="off">
   <div id="legend">
     <div class="leg" data-key="Hilton Portfolio" style="border-color:#3b82f6; background:rgba(59,130,246,.1)"><div class="leg-dot" style="background:#3b82f6"></div>Hilton&nbsp;<span id="cnt-hilton" style="font-weight:400;color:#94a3b8"></span></div>
@@ -216,6 +219,21 @@ function openPopup(hotels, lat, lon, offset) {
   infoWindow.open({ map });
 }
 
+// changes.html links here as ?hotel=<name>&at=<lat>,<lon>: zoom to that hotel and open its popup.
+function focusLinkedHotel() {
+  const params = new URLSearchParams(location.search);
+  const [lat, lon] = (params.get("at") || "").split(",").map(Number);
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) return;
+  const distance = hotel => (hotel.lat - lat) ** 2 + (hotel.lon - lon) ** 2;
+  const named = allHotels.filter(hotel => hotel.n === params.get("hotel")).sort((a, b) => distance(a) - distance(b));
+  // More than one program can list the hotel at that spot: show them all, as a click on the pin would.
+  const here = named.filter(hotel => Math.abs(hotel.lat - named[0].lat) < 1e-4 && Math.abs(hotel.lon - named[0].lon) < 1e-4);
+  const target = here.length ? { lat: here[0].lat, lng: here[0].lon } : { lat, lng: lon };
+  map.setZoom(15);
+  map.setCenter(target);
+  if (here.length) openPopup(here, target.lat, target.lng, radiusFor(1));
+}
+
 function onMapClick(event) {
   const hits = hitsAt(event);
   if (!hits.length) return;
@@ -284,7 +302,7 @@ async function initMap() {
 
   fetch("hotels.json")
     .then(response => { if (!response.ok) throw new Error(response.status); return response.json(); })
-    .then(data => { allHotels = data; buildIndexes(data); })
+    .then(data => { allHotels = data; buildIndexes(data); focusLinkedHotel(); })
     .catch(error => { tally.textContent = "Failed to load data"; console.error("Could not load hotels.json:", error); });
 }
 

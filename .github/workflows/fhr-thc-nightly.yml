@@ -197,7 +197,14 @@ jobs:
             cache/geocode_cache_google_thc.json || true
 
           python generate_map_data.py
-          git add docs/hotels.json
+          # Log hotels that joined or left a program for docs/changes.html. It
+          # diffs against HEAD, so it must run after the pull. A failure here
+          # must not hold back the map, so it only warns.
+          python hotel_history.py update \
+            --csv cache/fhr_hotels_geocoded_google.csv \
+            --csv cache/thc_hotels_geocoded_google.csv \
+            || echo "::warning::Could not update docs/changes.json"
+          git add docs/hotels.json docs/changes.json
 
           # Test the index, not the working tree: git status --porcelain also
           # reports untracked files (the scraper log, service_account.json),
