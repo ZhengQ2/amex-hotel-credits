@@ -10,12 +10,18 @@ clean the result up for readers:
 
 - A night that adds or drops far too many hotels (a scraper outage or a reload)
   is left out.
-- An added and a removed hotel at the same spot on the same night are one hotel
-  under a new name (renamed) or moving between programs (kept as a removal and
-  an addition that point at each other).
-- An added and a removed hotel in the same town on the same night whose names
-  agree are kept as an addition and a removal, flagged as a possible rename: the
-  geocoder can put a hotel's old and new names kilometers apart.
+- An added and a removed hotel on the same night can be one hotel. Their names
+  must agree: one name holds all of the other's words, and they are not told
+  apart by a sibling word (Zilara/Ziva, Residences, Downtown), by different
+  Hilton property codes, or by an "X at Y" name for a property inside another.
+  Then they are:
+  - renamed, when Google gives both the same place in one program;
+  - moved between programs (THC -> FHR) at the same place or spot, kept as a
+    removal and an addition that point at each other;
+  - otherwise, in one program and town, kept as an addition and a removal
+    flagged as a possible rename: the geocoder can put a hotel's old and new
+    names kilometers apart, and only a shared place is sure enough to file the
+    pair under renames, which the page hides by default.
 """
 
 from __future__ import annotations
@@ -32,9 +38,15 @@ import sys
 from typing import Dict, Iterable, List, Optional, Sequence, Set, Tuple
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
-from cache_utils import align_compound_tokens, core_name_tokens, locations_compatible, normalize_name
+from cache_utils import (
+    DISCRIMINATOR_TOKENS,
+    align_compound_tokens,
+    core_name_tokens,
+    locations_compatible,
+    normalize_name,
+)
 from generate_map_data import SOURCES
-from hotel_changes import HotelRecord, _haversine_m, committed, compare, read_rows
+from hotel_changes import HotelRecord, _haversine_m, _hilton_codes_conflict, committed, compare, read_rows
 
 CHANGES_PATH = "docs/changes.json"
 LOG_VERSION = 1
@@ -48,13 +60,21 @@ CI_AUTHOR = "github-actions[bot]"
 BULK_MIN = 50
 BULK_FRACTION = 0.25
 
-# An added and a removed hotel this close on the same night that share a
-# distinctive name word are one hotel, relisted under a new name or program.
+# A hotel removed from one program and added to another this close, with
+# agreeing names, moved between programs.
 SAME_SPOT_M = 300.0
 # Hilton rows have no scraped town, so "same town" falls back to this distance.
 SAME_TOWN_M = 25_000.0
 
 Rows = Dict[Tuple[str, str, str], Dict[str, str]]
+
+
+def _fold_plural(word: str) -> str:
+    return word[:-1] if len(word) > 3 and word.endswith("s") and not word.endswith("ss") else word
+
+
+# Words that tell sibling properties apart, in singular form like the name words.
+SIBLING_WORDS = frozenset(_fold_plural(token) for token in DISCRIMINATOR_TOKENS)
 
 
 @dataclass
@@ -88,27 +108,44 @@ def _rows_by_identity(text: str) -> Rows:
 
 def _name_words(old: _Side, new: _Side) -> Tuple[Set[str], Set[str]]:
     """Each name's identity words, without the town both are in: 'atlas' in 'The Atlas Hotel Boston'."""
-    a, b = align_compound_tokens(core_name_tokens(old.record.hotel_name), core_name_tokens(new.record.hotel_name))
+    seq_a, seq_b = (
+        [_fold_plural(word) for word in core_name_tokens(side.record.hotel_name)] for side in (old, new)
+    )
+    a, b = align_compound_tokens(seq_a, seq_b)
     shared_place = old.place_words & new.place_words
     distinctive = (a - shared_place, b - shared_place)
     # A name that is only its town ("The Beverly Hills Hotel") keeps the town.
     return distinctive if all(distinctive) else (a, b)
 
 
+def _inside_other(old_name: str, new_name: str) -> bool:
+    """'The Rif at Mangrove Beach' is a property inside 'Mangrove Beach', not its new name."""
+    for inner, outer in ((new_name, old_name), (old_name, new_name)):
+        head, at, tail = normalize_name(inner).rpartition(" at ")
+        if at and core_name_tokens(head) and set(core_name_tokens(outer)) <= set(core_name_tokens(tail)):
+            return True
+    return False
+
+
 def _pairing(old: _Side, new: _Side) -> Optional[Tuple[float, str]]:
     """Score a removed and an added hotel as one hotel: (score, 'same' or 'possible'), or None."""
     o, n = old.record, new.record
     a, b = _name_words(old, new)
-    common = a & b
-    if not common:
+    # Names that each have a word the other lacks are two hotels, and so are
+    # siblings the email's matcher keeps apart.
+    if not (a & b) or not (a <= b or b <= a):
         return None
-    overlap = len(common) / len(a | b)
+    if (a ^ b) & SIBLING_WORDS or _hilton_codes_conflict(o, n) or _inside_other(o.hotel_name, n.hotel_name):
+        return None
     distance = _haversine_m(o.float_coords, n.float_coords) if o.float_coords and n.float_coords else None
-    tiebreak = overlap - (distance or 0.0) / 1e8
-    if (o.place_id and o.place_id == n.place_id) or (distance is not None and distance <= SAME_SPOT_M):
-        return (30.0 if old.program == new.program else 20.0) + tiebreak, "same"
-    if old.program != new.program or not (a <= b or b <= a):
+    tiebreak = len(a & b) / len(a | b) - (distance or 0.0) / 1e8
+    same_place = bool(o.place_id and o.place_id == n.place_id)
+    if old.program != new.program:
+        if same_place or (distance is not None and distance <= SAME_SPOT_M):
+            return 20.0 + tiebreak, "same"
         return None
+    if same_place:
+        return 30.0 + tiebreak, "same"
     if o.hotel_location or n.hotel_location:
         if not locations_compatible(o.hotel_location, n.hotel_location):
             return None

@@ -73,13 +73,81 @@ class RunEventsTests(unittest.TestCase):
         self.assertEqual([(e["change"], e["name"], e["previous_name"]) for e in events],
                          [("renamed", "Armani Hotel Dubai, Burj Khalifa", "Armani Dubai")])
 
-    def test_same_spot_relisting_is_a_rename(self):
-        # Different place_ids, so the email's matcher keeps them apart; 30 m apart with a shared name word.
-        old = csv_doc(*filler(5), row("Villa Treville", location="Positano, Italy", lat="40.6200", lon="14.4900"))
-        new = csv_doc(*filler(5), row("Treville Positano", location="Positano, Italy", lat="40.6202", lon="14.4901"))
-        events = run_events([ProgramDiff(FHR, old, new)], "2026-11-20")
-        self.assertEqual([(e["change"], e["name"], e.get("previous_name")) for e in events],
-                         [("renamed", "Treville Positano", "Villa Treville")])
+    def test_shared_place_relisting_is_a_rename(self):
+        # Two listings share one Google place, so the email's matcher cannot use it to pair them;
+        # each new name must still go to the right old one (Residences is a sibling word).
+        def nekajui(name):
+            return row(name, location="Liberia, Costa Rica", brand="Ritz-Carlton", lat="10.6300", lon="-85.7000",
+                       place_id="pid_nekajui")
+        old = csv_doc(*filler(5), nekajui("Nekajui, a Ritz-Carlton Reserve"),
+                      nekajui("Nekajui, a Ritz-Carlton Reserve Residences"))
+        new = csv_doc(*filler(5), nekajui("Nekajui Peninsula Papagayo, a Ritz-Carlton Reserve"),
+                      nekajui("Nekajui Peninsula Papagayo, a Ritz-Carlton Reserve Residence"))
+        events = run_events([ProgramDiff(FHR, old, new)], "2026-11-21")
+        self.assertEqual(sorted((e["change"], e["previous_name"], e["name"]) for e in events), [
+            ("renamed", "Nekajui, a Ritz-Carlton Reserve", "Nekajui Peninsula Papagayo, a Ritz-Carlton Reserve"),
+            ("renamed", "Nekajui, a Ritz-Carlton Reserve Residences",
+             "Nekajui Peninsula Papagayo, a Ritz-Carlton Reserve Residence"),
+        ])
+
+    def test_nearby_relisting_without_shared_place_stays_visible(self):
+        # 30 m apart but different Google places: possibly a rename, possibly a neighbor, so
+        # keep the addition and removal (renames are hidden by default) and point them at each other.
+        old = csv_doc(*filler(5), row("W Fort Lauderdale", location="Fort Lauderdale, Florida US",
+                                      lat="26.1300", lon="-80.1000"))
+        new = csv_doc(*filler(5), row("W Fort Lauderdale Beach", location="Fort Lauderdale, Florida US",
+                                      lat="26.1302", lon="-80.1001"))
+        events = {e["change"]: e for e in run_events([ProgramDiff(THC, old, new)], "2026-11-21")}
+        self.assertEqual(set(events), {"added", "removed"})
+        self.assertEqual(events["added"]["maybe_renamed_from"], "W Fort Lauderdale")
+        self.assertEqual(events["removed"]["maybe_renamed_to"], "W Fort Lauderdale Beach")
+
+    def test_sibling_swaps_stay_added_and_removed(self):
+        # The sibling pairs the email's matcher keeps apart (tests/test_hotel_changes.py), even
+        # when they share a Google place: one leaving and the other joining is two changes.
+        pairs = [
+            (dict(name="Four Seasons Hotel New York", location="New York, New York US", lat="40.7623", lon="-73.9713"),
+             dict(name="Four Seasons Hotel New York Downtown", location="New York, New York US", lat="40.7126",
+                  lon="-74.0091")),
+            (dict(name="Zadun Los Cabos, a Ritz-Carlton Reserve", location="San José del Cabo, Baja California Sur MX",
+                  lat="23.0630", lon="-109.6562"),
+             dict(name="Zadun Los Cabos, a Ritz-Carlton Reserve Residence",
+                  location="San José del Cabo, Baja California Sur MX", lat="23.0631", lon="-109.6563")),
+            (dict(name="Hyatt Zilara Cap Cana", location="Punta Cana, Dominican Republic", lat="18.4970", lon="-68.3820"),
+             dict(name="Hyatt Ziva Cap Cana", location="Punta Cana, Dominican Republic", lat="18.4960", lon="-68.3810")),
+            (dict(name="Hilton Dubai Jumeirah", location="", group="Hilton Hotels & Resorts", lat="25.0772", lon="55.1342"),
+             dict(name="Hilton Dubai Palm Jumeirah", location="", group="Hilton Hotels & Resorts", lat="25.1095",
+                  lon="55.1489")),
+            (dict(name="Mangrove Beach Corendon Curacao All-Inclusive Resort, Curio by Hilton",
+                  location="Willemstad, Curacao", lat="12.1110", lon="-68.9480"),
+             dict(name="The Rif at Mangrove Beach Corendon Curacao All-Inclusive, Curio by Hilton",
+                  location="Willemstad, Curacao", lat="12.1100", lon="-68.9475")),
+            # Different Hilton property codes are different hotels.
+            (dict(name="Conrad Algarve", location="", group="Conrad Hotels & Resorts",
+                  url="https://www.hilton.com/en/hotels/faoapci-conrad-algarve/", lat="37.0632", lon="-8.0290"),
+             dict(name="Conrad Algarve Resort", location="", group="Conrad Hotels & Resorts",
+                  url="https://www.hilton.com/en/hotels/faoqlci-conrad-algarve-resort/", lat="37.0633", lon="-8.0291")),
+        ]
+        cases = [(old, new, shared) for old, new in pairs for shared in (False, True)
+                 # On one shared place the email's matcher itself calls this pair a rename.
+                 if not (shared and new["name"].startswith("The Rif at"))]
+        for old_fields, new_fields, shared_place in cases:
+            with self.subTest(old=old_fields["name"], new=new_fields["name"], shared_place=shared_place):
+                others = []
+                if shared_place:
+                    # A third listing on the same Google place, so the email's matcher cannot
+                    # use it as an ID and leaves the pair to this module.
+                    place = {"place_id": "pid_shared"}
+                    others = [row("Neighbor Lodge", location=old_fields["location"], place_id="pid_shared",
+                                  lat=old_fields["lat"], lon=old_fields["lon"])]
+                else:
+                    place = {}
+                old = csv_doc(*filler(5), *others, row(**old_fields, **place))
+                new = csv_doc(*filler(5), *others, row(**new_fields, **place))
+                program = HILTON if "hilton.com" in old_fields.get("url", "") else FHR
+                events = run_events([ProgramDiff(program, old, new)], "2026-11-26")
+                self.assertEqual(sorted(e["change"] for e in events), ["added", "removed"])
+                self.assertFalse([e for e in events if any(key.startswith("maybe_") for key in e)])
 
     def test_same_hotel_moving_between_programs_points_both_ways(self):
         sanderling = row("The Sanderling", location="Duck, North Carolina US", lat="36.2300", lon="-75.7700",
