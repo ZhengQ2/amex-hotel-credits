@@ -178,6 +178,66 @@ class RunEventsTests(unittest.TestCase):
         self.assertTrue(all(not any(k.startswith("maybe_") for k in e) for e in events))
 
 
+class LinkReturnsTests(unittest.TestCase):
+    @staticmethod
+    def event(date, change, name, program=FHR, **extra):
+        return {"date": date, "program": program, "change": change, "name": name,
+                "location": "Shanghai, China", **extra}
+
+    def linked(self, *events):
+        events = [dict(e) for e in events]
+        hotel_history.link_returns(events)
+        return events
+
+    def test_return_under_a_new_spelling_on_the_same_place_is_linked(self):
+        # From the log: FHR dropped "Bulgari Hotel Shanghai" on April 9 and listed "Bvlgari" on April 10.
+        removed, added = self.linked(
+            self.event("2026-04-09", "removed", "Bulgari Hotel Shanghai", place_id="pid_bulgari"),
+            self.event("2026-04-10", "added", "Bvlgari Hotel Shanghai", place_id="pid_bulgari"))
+        self.assertEqual(added["returns_from"], {"date": "2026-04-09", "name": "Bulgari Hotel Shanghai"})
+        self.assertNotIn("added_on", removed)
+
+    def test_same_name_returns_are_linked_without_a_place(self):
+        _, added = self.linked(self.event("2026-04-02", "removed", "Gstaad Palace"),
+                               self.event("2026-04-04", "added", "Gstaad Palace"))
+        self.assertEqual(added["returns_from"]["date"], "2026-04-02")
+
+    def test_a_shared_place_alone_does_not_make_one_hotel(self):
+        # Geocoding mistakes put unrelated hotels on one place, and siblings share places too.
+        for old, new in (("Janu Tokyo", "1 Hotel Tokyo"), ("Hyatt Zilara Cap Cana", "Hyatt Ziva Cap Cana"),
+                         ("Isla Brown Chania Resort", "Aulus Chania Resort")):
+            with self.subTest(old=old, new=new):
+                _, added = self.linked(self.event("2026-06-02", "removed", old, place_id="pid_shared"),
+                                       self.event("2026-06-05", "added", new, place_id="pid_shared"))
+                self.assertNotIn("returns_from", added)
+
+    def test_links_stay_in_one_program_and_skip_the_same_night(self):
+        events = self.linked(self.event("2026-04-03", "removed", "The Sanderling", program=THC),
+                             self.event("2026-04-03", "added", "The Sanderling", program=FHR),
+                             self.event("2026-04-03", "added", "The Sanderling", program=THC))
+        self.assertTrue(all("returns_from" not in e for e in events))
+
+    def test_removal_points_at_the_addition_it_undoes_and_the_newest_wins(self):
+        events = self.linked(self.event("2026-04-30", "added", "The Dominican"),
+                             self.event("2026-06-06", "removed", "The Dominican"),
+                             self.event("2026-06-09", "added", "The Dominican"),
+                             self.event("2026-07-01", "removed", "The Dominican"))
+        first_add, first_removal, second_add, second_removal = events
+        self.assertEqual(first_removal["added_on"]["date"], "2026-04-30")
+        self.assertEqual(second_add["returns_from"]["date"], "2026-06-06")
+        self.assertEqual(second_removal["added_on"]["date"], "2026-06-09")
+        self.assertNotIn("returns_from", first_add)
+
+    def test_merge_recomputes_links_without_touching_earlier_lines(self):
+        log = hotel_history.empty_log()
+        merge_events(log, [self.event("2026-04-09", "removed", "Bulgari Hotel Shanghai", place_id="pid_b")])
+        before = json.dumps(log["events"], sort_keys=True)
+        merge_events(log, [self.event("2026-04-10", "added", "Bvlgari Hotel Shanghai", place_id="pid_b")])
+        newest, oldest = log["events"]
+        self.assertEqual(json.dumps([oldest], sort_keys=True), before)
+        self.assertEqual(newest["returns_from"]["name"], "Bulgari Hotel Shanghai")
+
+
 class LogFileTests(unittest.TestCase):
     def test_merge_skips_duplicates_and_sorts_newest_first(self):
         log = hotel_history.empty_log()

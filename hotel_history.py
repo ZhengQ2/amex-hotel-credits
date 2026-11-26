@@ -22,12 +22,21 @@ clean the result up for readers:
     flagged as a possible rename: the geocoder can put a hotel's old and new
     names kilometers apart, and only a shared place is sure enough to file the
     pair under renames, which the page hides by default.
+
+Across nights, each addition that undoes an earlier removal of the same hotel
+(and each removal that undoes an earlier addition) points at it, so the page
+can hide brief drop-outs. Same hotel means the same name, or the same Google
+place with names that agree by the rules above, spelling variants included
+(Bulgari -> Bvlgari Hotel Shanghai): a shared place alone is not enough, since
+geocoding mistakes put about 1 in 60 places under two hotels.
 """
 
 from __future__ import annotations
 
 import argparse
+from collections import defaultdict
 from dataclasses import dataclass
+from difflib import SequenceMatcher
 from datetime import datetime, timezone
 import json
 import os
@@ -46,7 +55,7 @@ from cache_utils import (
     normalize_name,
 )
 from generate_map_data import SOURCES
-from hotel_changes import HotelRecord, _haversine_m, _hilton_codes_conflict, committed, compare, read_rows
+from hotel_changes import HotelRecord, _haversine_m, _hilton_property_code, committed, compare, read_rows
 
 CHANGES_PATH = "docs/changes.json"
 LOG_VERSION = 1
@@ -86,6 +95,19 @@ class ProgramDiff:
     new_text: str
 
 
+@dataclass(frozen=True)
+class _Listing:
+    """What tells one hotel from another by name: the name, its town, its listing URL."""
+
+    name: str
+    place: str  # the scraped town, or the address for lists without one (Hilton)
+    url: str = ""
+
+    @property
+    def place_words(self) -> Set[str]:
+        return set(normalize_name(self.place).split())
+
+
 @dataclass
 class _Side:
     program: str
@@ -93,9 +115,9 @@ class _Side:
     row: Dict[str, str]
 
     @property
-    def place_words(self) -> Set[str]:
+    def listing(self) -> _Listing:
         place = self.record.hotel_location or (self.row.get("formatted_address") or "")
-        return set(normalize_name(place).split())
+        return _Listing(self.record.hotel_name, place, self.record.hotel_url)
 
 
 def _rows_by_identity(text: str) -> Rows:
@@ -106,11 +128,9 @@ def _rows_by_identity(text: str) -> Rows:
     return rows
 
 
-def _name_words(old: _Side, new: _Side) -> Tuple[Set[str], Set[str]]:
+def _name_words(old: _Listing, new: _Listing) -> Tuple[Set[str], Set[str]]:
     """Each name's identity words, without the town both are in: 'atlas' in 'The Atlas Hotel Boston'."""
-    seq_a, seq_b = (
-        [_fold_plural(word) for word in core_name_tokens(side.record.hotel_name)] for side in (old, new)
-    )
+    seq_a, seq_b = ([_fold_plural(word) for word in core_name_tokens(listing.name)] for listing in (old, new))
     a, b = align_compound_tokens(seq_a, seq_b)
     shared_place = old.place_words & new.place_words
     distinctive = (a - shared_place, b - shared_place)
@@ -127,18 +147,47 @@ def _inside_other(old_name: str, new_name: str) -> bool:
     return False
 
 
+def _alike(x: str, y: str) -> bool:
+    """The same word, or one longer word spelled two ways: 'bulgari' and 'bvlgari'."""
+    return x == y or (min(len(x), len(y)) >= 5 and SequenceMatcher(None, x, y).ratio() >= 0.8)
+
+
+def _codes_conflict(url_a: str, url_b: str) -> bool:
+    code_a, code_b = _hilton_property_code(url_a), _hilton_property_code(url_b)
+    return bool(code_a and code_b and code_a != code_b)
+
+
+def _name_agreement(old: _Listing, new: _Listing) -> Optional[float]:
+    """How far two names agree when they can belong to one hotel; None when they are two hotels.
+
+    One name must hold every word of the other (spelling variants count), and
+    the words only one has must not tell siblings apart; nor may the Hilton
+    property codes differ, or one name be "X at" the other. These are the
+    safeguards the email's matcher uses to keep siblings apart.
+    """
+    a, b = _name_words(old, new)
+    small, big = (a, b) if len(a) <= len(b) else (b, a)
+    unmatched = set(big)
+    for word in sorted(small):
+        twin = word if word in unmatched else next((w for w in sorted(unmatched) if _alike(word, w)), None)
+        if twin is None:
+            return None
+        unmatched.discard(twin)
+    if not small or unmatched & SIBLING_WORDS:
+        return None
+    if _codes_conflict(old.url, new.url) or _inside_other(old.name, new.name):
+        return None
+    return len(small) / len(big)
+
+
 def _pairing(old: _Side, new: _Side) -> Optional[Tuple[float, str]]:
     """Score a removed and an added hotel as one hotel: (score, 'same' or 'possible'), or None."""
     o, n = old.record, new.record
-    a, b = _name_words(old, new)
-    # Names that each have a word the other lacks are two hotels, and so are
-    # siblings the email's matcher keeps apart.
-    if not (a & b) or not (a <= b or b <= a):
-        return None
-    if (a ^ b) & SIBLING_WORDS or _hilton_codes_conflict(o, n) or _inside_other(o.hotel_name, n.hotel_name):
+    agreement = _name_agreement(old.listing, new.listing)
+    if agreement is None:
         return None
     distance = _haversine_m(o.float_coords, n.float_coords) if o.float_coords and n.float_coords else None
-    tiebreak = len(a & b) / len(a | b) - (distance or 0.0) / 1e8
+    tiebreak = agreement - (distance or 0.0) / 1e8
     same_place = bool(o.place_id and o.place_id == n.place_id)
     if old.program != new.program:
         if same_place or (distance is not None and distance <= SAME_SPOT_M):
@@ -280,6 +329,48 @@ def load_log(path: str) -> Dict:
     return log
 
 
+def _event_listing(event: Dict) -> _Listing:
+    return _Listing(event["name"], event.get("location") or event.get("address", ""), event.get("url", ""))
+
+
+def _same_hotel(earlier: Dict, later: Dict) -> bool:
+    """Whether two events in one program, on different nights, are about the same hotel."""
+    if normalize_name(earlier["name"]) == normalize_name(later["name"]):
+        return True
+    shared_place = bool(earlier.get("place_id")) and earlier.get("place_id") == later.get("place_id")
+    return shared_place and _name_agreement(_event_listing(earlier), _event_listing(later)) is not None
+
+
+# An event of this change can undo an earlier event of the other, recorded in this field.
+UNDOES = {"added": ("removed", "returns_from"), "removed": ("added", "added_on")}
+
+
+def link_returns(events: Sequence[Dict]) -> None:
+    """Point each addition at the removal it undoes, and each removal at the addition it undoes.
+
+    The newest open event of the same hotel wins. Only earlier nights count:
+    same-night pairs are run_events' job. Recomputed over the whole log, so
+    existing lines only change when the rules do.
+    """
+    nights: Dict[str, List[Dict]] = defaultdict(list)
+    for event in events:
+        for _, field in UNDOES.values():
+            event.pop(field, None)
+        nights[event["date"]].append(event)
+    still_open: Dict[Tuple[str, str], List[Dict]] = defaultdict(list)
+    for date in sorted(nights):
+        night = [event for event in nights[date] if event["change"] in UNDOES]
+        for event in night:
+            other, field = UNDOES[event["change"]]
+            candidates = still_open[(event["program"], other)]
+            match = next((i for i in range(len(candidates) - 1, -1, -1) if _same_hotel(candidates[i], event)), None)
+            if match is not None:
+                undone = candidates.pop(match)
+                event[field] = {"date": undone["date"], "name": undone["name"]}
+        for event in night:
+            still_open[(event["program"], event["change"])].append(event)
+
+
 def merge_events(log: Dict, events: Iterable[Dict]) -> int:
     """Add events not already in the log; return how many were new."""
     seen = {_event_key(event) for event in log["events"]}
@@ -291,6 +382,7 @@ def merge_events(log: Dict, events: Iterable[Dict]) -> int:
             log["events"].append(event)
             added += 1
     log["events"].sort(key=_sort_key)
+    link_returns(log["events"])
     return added
 
 

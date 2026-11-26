@@ -1,5 +1,6 @@
 // Logic for changes.html: reads changes.json (written by hotel_history.py) and
-// links each removal to the hotel's return, so brief drop-outs can be hidden.
+// follows its links between a removal and the hotel's return, so brief
+// drop-outs can be hidden.
 (function (root) {
   "use strict";
   const DAY = 86400000;
@@ -11,29 +12,31 @@
 
   const dayNumber = date => Date.UTC(+date.slice(0, 4), +date.slice(5, 7) - 1, +date.slice(8, 10)) / DAY;
   const today = (now = Date.now()) => Math.floor(now / DAY);
-  const fold = value => String(value || "").normalize("NFKD").replace(/[̀-ͯ]/g, "")
+  const fold = value => String(value || "").normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
     .toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 
-  // Walk oldest to newest, tying each removal to the next time that hotel is added back.
+  // hotel_history.py decides which events are the same hotel (names, Google place,
+  // sibling safeguards) and links them: an addition that undoes a removal carries
+  // returns_from, a removal that undoes an addition carries added_on.
   function annotate(events) {
-    const lastRemoved = new Map(), lastAdded = new Map();
-    [...events].sort((a, b) => a.day - b.day).forEach(event => {
-      const key = `${event.program}|${fold(event.name)}`;
-      if (event.change === "removed") {
-        const added = lastAdded.get(key);
-        if (added && !added.removedOn) added.removedOn = event.date;
-        lastRemoved.set(key, event);
-      } else if (event.change === "added") {
-        const removed = lastRemoved.get(key);
-        if (removed && !removed.returnedOn) {
-          const gap = event.day - removed.day;
-          removed.returnedOn = event.date;
-          event.previouslyRemovedOn = removed.date;
-          event.gapDays = removed.gapDays = gap;
-          event.blip = removed.blip = gap <= BLIP_DAYS;
-          lastRemoved.delete(key);
+    const key = (program, change, date, name) => `${program}|${change}|${date}|${name}`;
+    const index = new Map(events.map(event => [key(event.program, event.change, event.date, event.name), event]));
+    events.forEach(event => {
+      if (event.change === "added" && event.returns_from) {
+        const removed = index.get(key(event.program, "removed", event.returns_from.date, event.returns_from.name));
+        if (!removed) return;
+        const gap = event.day - removed.day;
+        removed.returnedOn = event.date;
+        event.previouslyRemovedOn = removed.date;
+        event.gapDays = removed.gapDays = gap;
+        event.blip = removed.blip = gap <= BLIP_DAYS;
+        if (removed.name !== event.name) {
+          removed.returnedAs = event.name;
+          event.removedAs = removed.name;
         }
-        lastAdded.set(key, event);
+      } else if (event.change === "removed" && event.added_on) {
+        const added = index.get(key(event.program, "added", event.added_on.date, event.added_on.name));
+        if (added) added.removedOn = event.date;
       }
     });
     return events;

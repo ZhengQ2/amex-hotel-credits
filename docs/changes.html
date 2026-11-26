@@ -116,7 +116,7 @@
   </footer>
 </main>
 
-<script src="changes.js?v=1"></script>
+<script src="changes.js?v=2"></script>
 <script>
 const PROGRAM_STYLE = {
   "Hilton Portfolio": { short: "Hilton", color: "#3b82f6" },
@@ -196,8 +196,13 @@ function notes(event) {
   if (event.to_program) out.push(`Moved to ${esc(short(event.to_program))}`);
   if (event.maybe_renamed_from) out.push(`May be the new listing name of <b>${esc(event.maybe_renamed_from)}</b>, removed the same night`);
   if (event.maybe_renamed_to) out.push(`May have been renamed <b>${esc(event.maybe_renamed_to)}</b>, added the same night`);
-  if (event.previouslyRemovedOn) out.push(`Back after ${plural(event.gapDays, "day")} off the list (removed ${fmtDate(event.previouslyRemovedOn)})`);
-  if (event.returnedOn) out.push(`Back on the list ${fmtDate(event.returnedOn)}`);
+  if (event.previouslyRemovedOn) {
+    const as = event.removedAs ? ` as <b>${esc(event.removedAs)}</b>` : "";
+    out.push(`Back after ${plural(event.gapDays, "day")} off the list (removed ${fmtDate(event.previouslyRemovedOn)}${as})`);
+  }
+  if (event.returnedOn) {
+    out.push(`Back on the list ${fmtDate(event.returnedOn)}${event.returnedAs ? ` as <b>${esc(event.returnedAs)}</b>` : ""}`);
+  }
   else if (event.change === "added" && event.removedOn) out.push(`Removed again ${fmtDate(event.removedOn)}`);
   return out.length ? `<div class="note">${out.join(" · ")}</div>` : "";
 }
