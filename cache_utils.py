@@ -882,6 +882,20 @@ def _place_words(hotel_location: str, formatted_address: str) -> Set[str]:
     return words
 
 
+def address_in_hotel_town(formatted_address: str, hotel_location: str) -> bool:
+    """True when the address names the hotel's town, or there is no town to check.
+
+    Hilton rows have no location, and a location that is its own country
+    (Monaco, Saint Barthelemy) is already covered by the country check.
+    """
+    if not formatted_address or not hotel_location:
+        return True
+    city, _, country = normalize_location_parts(hotel_location)
+    if not city or city == country:
+        return True
+    return _candidate_city_compatible(hotel_location, formatted_address, ())
+
+
 def fresh_candidate_conflicts(
     place_name: str,
     formatted_address: str,
@@ -905,13 +919,11 @@ def fresh_candidate_conflicts(
          hotel's name and location lack ("Four Seasons Hotel Los Angeles At
          Beverly Hills" for "Four Seasons Hotel San Francisco").
     """
-    if not place_name or not formatted_address or not hotel_name or not hotel_location:
+    if not place_name or not hotel_name:
+        return []
+    if address_in_hotel_town(formatted_address, hotel_location):
         return []
     city, region, country = normalize_location_parts(hotel_location)
-    if not city or city == country:
-        return []
-    if _candidate_city_compatible(hotel_location, formatted_address, ()):
-        return []
 
     place_words = _place_words(hotel_location, formatted_address)
     hotel_tokens, place_tokens = align_compound_tokens(

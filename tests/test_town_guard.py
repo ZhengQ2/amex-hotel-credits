@@ -4,6 +4,7 @@ Addresses are Google formatted_address values taken from the committed caches.
 """
 
 import unittest
+from unittest import mock
 
 import cache_utils
 from test_cache_utils import _load_google_convert
@@ -112,6 +113,80 @@ class ChooseBestPlaceTownTests(unittest.TestCase):
         self.assertIsNone(
             self.gc.choose_best_place(results, "", "Jumeirah Lake Como", "Torno, Italy")
         )
+
+
+class GeocodingFallbackIdentityTests(unittest.TestCase):
+    """The Geocoding fallback returns no place name, so it must not bypass the guard."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.gc = _load_google_convert()
+
+    @staticmethod
+    def _geocode(address, place_id):
+        # Shaped like geocode_google(): the raw Geocoding result has no "name".
+        return {
+            "lat": 45.8, "lon": 9.1, "formatted_address": address,
+            "provider": "google_geocoding", "confidence": "ROOFTOP",
+            "place_id": place_id, "types": ["establishment", "lodging", "point_of_interest"],
+            "partial_match": False,
+            "raw": {"formatted_address": address, "place_id": place_id},
+        }
+
+    def _lookup(self, text_results, geocoded, details, hotel_name, location):
+        gc = self.gc
+        with mock.patch.object(gc, "API_KEY", "test-key"), mock.patch.object(
+            gc, "places_text_search", return_value={"results": text_results}
+        ), mock.patch.object(gc, "geocode_google", return_value=geocoded), mock.patch.object(
+            gc, "places_details", side_effect=details
+        ) as places_details:
+            result, status = gc.geocode_places_first(
+                [f"{hotel_name} {location} Hotel"], "", hotel_name, 0, location
+            )
+        return result, status, places_details
+
+    def test_rejects_the_namesake_the_text_search_guard_rejected(self):
+        hilton = {
+            "name": HILTON_LAKE_COMO[0], "formatted_address": HILTON_LAKE_COMO[1],
+            "place_id": "pid_hilton", "types": ["establishment", "lodging"],
+            "rating": 4.6, "user_ratings_total": 4000,
+        }
+        result, _, places_details = self._lookup(
+            [hilton],
+            self._geocode(HILTON_LAKE_COMO[1], "pid_hilton"),
+            lambda place_id, key: {"name": HILTON_LAKE_COMO[0], "place_id": place_id},
+            "Jumeirah Lake Como", "Torno, Italy",
+        )
+        self.assertIsNone(result)
+        places_details.assert_called_once_with("pid_hilton", "test-key")
+
+    def test_rejects_an_out_of_town_result_whose_name_cannot_be_found(self):
+        result, _, _ = self._lookup(
+            [], self._geocode(HILTON_LAKE_COMO[1], "pid_hilton"),
+            lambda place_id, key: None, "Jumeirah Lake Como", "Torno, Italy",
+        )
+        self.assertIsNone(result)
+
+    def test_accepts_an_out_of_town_result_named_for_the_hotel(self):
+        address = "Reserva Privada Mashpi, 150150 Mashpi, Ecuador"
+        result, status, places_details = self._lookup(
+            [], self._geocode(address, "pid_mashpi"),
+            lambda place_id, key: {"name": "Mashpi Lodge", "place_id": place_id},
+            "Mashpi Lodge", "Pacto, Ecuador",
+        )
+        self.assertIsNotNone(result)
+        self.assertTrue(status.startswith("GEOCODE:"))
+        places_details.assert_called_once()
+
+    def test_in_town_result_needs_no_extra_lookup(self):
+        result, status, places_details = self._lookup(
+            [], self._geocode(JUMEIRAH[1], "pid_jumeirah"),
+            lambda place_id, key: self.fail("no Place Details call expected in the hotel's town"),
+            "Jumeirah Lake Como", "Torno, Italy",
+        )
+        self.assertIsNotNone(result)
+        self.assertTrue(status.startswith("GEOCODE:"))
+        places_details.assert_not_called()
 
 
 if __name__ == "__main__":

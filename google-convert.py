@@ -35,6 +35,7 @@ from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_excep
 from dotenv import load_dotenv
 
 from cache_utils import (
+    address_in_hotel_town,
     address_location_compatible,
     find_fuzzy_cache_key,
     fresh_candidate_conflicts,
@@ -451,6 +452,28 @@ _location_compatible = address_location_compatible
 # Orchestration
 # -----------------------
 
+def _fallback_identity_ok(geo: Dict[str, Any], query: str, hotel_name: str, hotel_location: str) -> bool:
+    """Whether a Geocoding fallback result can be trusted to be this hotel.
+
+    Geocoding results carry no place name (none of the committed fallback
+    entries has one), so the name checks have only the query to test. In the
+    hotel's own town that is accepted, as before. Out of town it would let
+    through the very hotel the Text Search guard just rejected (Hilton Lake
+    Como for Jumeirah Lake Como in Torno), so look the place up to learn its
+    name and test that, rejecting the result when no name comes back.
+    """
+    address = geo.get("formatted_address", "")
+    name = (geo.get("raw") or {}).get("name", "")
+    if not name and not address_in_hotel_town(address, hotel_location):
+        details = places_details(geo["place_id"], API_KEY) if geo.get("place_id") else None
+        name = (details or {}).get("name", "")
+        if not name:
+            return False
+    return _is_name_compatible(name or query, hotel_name) and not fresh_candidate_conflicts(
+        name, address, hotel_name, hotel_location
+    )
+
+
 def _is_rejected_query(error: Exception) -> bool:
     """True when Google rejected this one query, so repeating it cannot help.
 
@@ -521,12 +544,8 @@ def geocode_places_first(
                 geo
                 and geo.get("confidence", "").upper() == "ROOFTOP"
                 and _is_lodging_type(geo.get("types", []))
-                and _is_name_compatible(geo.get("raw", {}).get("name", "") or q, hotel_name)
                 and _location_compatible(geo.get("formatted_address", ""), hotel_location)
-                and not fresh_candidate_conflicts(
-                    geo.get("raw", {}).get("name", ""), geo.get("formatted_address", ""),
-                    hotel_name, hotel_location,
-                )
+                and _fallback_identity_ok(geo, q, hotel_name, hotel_location)
             ):
                 return geo, f"GEOCODE:{q}"
             last = f"WEAK_OR_EMPTY:{q}"
