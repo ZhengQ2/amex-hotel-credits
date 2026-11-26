@@ -12379,12 +12379,12 @@
     }
   },
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Mangrove Beach Corendon Curacao All-Inclusive Resort, Curio\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Mangrove Beach Corendon Curacao All-Inclusive Resort, Curio Curio Collection by Hilton Hotel\", \"Mangrove Beach Corendon Curacao All-Inclusive Resort, Curio Curio Collection by Hilton Resort\", \"Mangrove Beach Corendon Curacao All-Inclusive Resort, Curio Curio Collection by Hilton\", \"Mangrove Beach Corendon Curacao All-Inclusive Resort, Curio Hilton Hotel\", \"Mangrove Beach Corendon Curacao All-Inclusive Resort, Curio Hilton Resort\", \"Mangrove Beach Corendon Curacao All-Inclusive Resort, Curio Hilton\", \"curryqq mangrove beach corendon curacao all inclusive resort Curio Collection by Hilton Hotel\", \"curryqq mangrove beach corendon curacao all inclusive resort Curio Collection by Hilton Resort\", \"curryqq mangrove beach corendon curacao all inclusive resort Curio Collection by Hilton\", \"curryqq mangrove beach corendon curacao all inclusive resort Hilton Hotel\", \"curryqq mangrove beach corendon curacao all inclusive resort Hilton Resort\", \"curryqq mangrove beach corendon curacao all inclusive resort Hilton\", \"Mangrove Beach Corendon Curacao All-Inclusive Resort, Curio Hotel\", \"Mangrove Beach Corendon Curacao All-Inclusive Resort, Curio Resort\", \"Mangrove Beach Corendon Curacao All-Inclusive Resort, Curio\"], \"v\": 3}": {
-    "lat": 12.1085467,
-    "lon": -68.94525,
-    "formatted_address": "Pater Euwenswegs, 0000 Netherlands, 31A Antill, Willemstad, Curaçao",
+    "lat": 12.1089459,
+    "lon": -68.9463276,
+    "formatted_address": "31 Pater Euwensweg, Willemstad, Curaçao",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ_-7xGvmChI4RMpAOkAYfHlY",
+    "place_id": "ChIJiVv73fiChI4REgECl1BzOGw",
     "types": [
       "establishment",
       "lodging",
@@ -12393,31 +12393,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Pater Euwenswegs, 0000 Netherlands, 31A Antill, Willemstad, Curaçao",
+      "formatted_address": "31 Pater Euwensweg, Willemstad, Curaçao",
       "geometry": {
         "location": {
-          "lat": 12.1085467,
-          "lng": -68.94525
+          "lat": 12.1089459,
+          "lng": -68.9463276
         },
         "viewport": {
           "northeast": {
-            "lat": 12.1101629302915,
-            "lng": -68.94383226970851
+            "lat": 12.1104901302915,
+            "lng": -68.94492031970849
           },
           "southwest": {
-            "lat": 12.1074649697085,
-            "lng": -68.94653023029151
+            "lat": 12.1077921697085,
+            "lng": -68.94761828029151
           }
         }
       },
-      "name": "The Rif at Mangrove Beach Corendon Curacao All-Inclusive, Curio by Hilton",
-      "place_id": "ChIJ_-7xGvmChI4RMpAOkAYfHlY",
+      "name": "Mangrove Beach Corendon Curacao All-Inclusive Resort, Curio by Hilton",
+      "place_id": "ChIJiVv73fiChI4REgECl1BzOGw",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/curmgqq-the-rif-at-mangrove-beach-corendon-curacao-all-inclusive/?SEO_id=GMB-AMER-QQ-CURMGQQ&y_source=1_MTAwNzk4NDA1OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.hilton.com/en/hotels/curryqq-mangrove-beach-corendon-curacao-all-inclusive-resort/?SEO_id=GMB-AMER-QQ-CURRYQQ&y_source=1_MjYzMDM5MTQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"SAii Lagoon Maldives, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"SAii Lagoon Maldives, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"SAii Lagoon Maldives, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"SAii Lagoon Maldives, Curio Collection by Hilton Curio Collection by Hilton\", \"SAii Lagoon Maldives, Curio Collection by Hilton Hilton Hotel\", \"SAii Lagoon Maldives, Curio Collection by Hilton Hilton Resort\", \"SAii Lagoon Maldives, Curio Collection by Hilton Hilton\", \"mlegsqq saii lagoon maldives Curio Collection by Hilton Hotel\", \"mlegsqq saii lagoon maldives Curio Collection by Hilton Resort\", \"mlegsqq saii lagoon maldives Curio Collection by Hilton\", \"mlegsqq saii lagoon maldives Hilton Hotel\", \"mlegsqq saii lagoon maldives Hilton Resort\", \"mlegsqq saii lagoon maldives Hilton\", \"SAii Lagoon Maldives, Curio Collection by Hilton Hotel\", \"SAii Lagoon Maldives, Curio Collection by Hilton Resort\", \"SAii Lagoon Maldives, Curio Collection by Hilton\"], \"v\": 3}": {
@@ -12465,53 +12465,47 @@
     }
   },
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Sea Breeze Santorini Beach Resort, Curio Collection\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Sea Breeze Santorini Beach Resort, Curio Collection Curio Collection by Hilton Hotel\", \"Sea Breeze Santorini Beach Resort, Curio Collection Curio Collection by Hilton Resort\", \"Sea Breeze Santorini Beach Resort, Curio Collection Curio Collection by Hilton\", \"Sea Breeze Santorini Beach Resort, Curio Collection Hilton Hotel\", \"Sea Breeze Santorini Beach Resort, Curio Collection Hilton Resort\", \"Sea Breeze Santorini Beach Resort, Curio Collection Hilton\", \"jtrsbqq sea breeze santorini beach resort Curio Collection by Hilton Hotel\", \"jtrsbqq sea breeze santorini beach resort Curio Collection by Hilton Resort\", \"jtrsbqq sea breeze santorini beach resort Curio Collection by Hilton\", \"jtrsbqq sea breeze santorini beach resort Hilton Hotel\", \"jtrsbqq sea breeze santorini beach resort Hilton Resort\", \"jtrsbqq sea breeze santorini beach resort Hilton\", \"Sea Breeze Santorini Beach Resort, Curio Collection Hotel\", \"Sea Breeze Santorini Beach Resort, Curio Collection Resort\", \"Sea Breeze Santorini Beach Resort, Curio Collection\"], \"v\": 3}": {
-    "lat": 36.3433262,
-    "lon": 25.4610399,
-    "formatted_address": "Perivolos Perivolos Beach, Santorini 847 00, Greece",
+    "lat": 36.3347252,
+    "lon": 25.4424381,
+    "formatted_address": "Agios Georgios, Perivolos, Exomitis 847 03, Greece",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJd5gTo8LPmRQR5zhVV_tXYCk",
+    "place_id": "ChIJRSE2qY_PmRQRApfXMU-bKpM",
     "types": [
-      "bar",
-      "cafe",
       "establishment",
-      "food",
       "lodging",
       "point_of_interest",
-      "restaurant"
+      "spa"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Perivolos Perivolos Beach, Santorini 847 00, Greece",
+      "formatted_address": "Agios Georgios, Perivolos, Exomitis 847 03, Greece",
       "geometry": {
         "location": {
-          "lat": 36.3433262,
-          "lng": 25.4610399
+          "lat": 36.3347252,
+          "lng": 25.4424381
         },
         "viewport": {
           "northeast": {
-            "lat": 36.3446558302915,
-            "lng": 25.4624097302915
+            "lat": 36.3361217802915,
+            "lng": 25.4436969802915
           },
           "southwest": {
-            "lat": 36.34195786970851,
-            "lng": 25.4597117697085
+            "lat": 36.3334238197085,
+            "lng": 25.4409990197085
           }
         }
       },
-      "name": "Sea View Beach Hotel - Santorini -",
-      "place_id": "ChIJd5gTo8LPmRQR5zhVV_tXYCk",
+      "name": "Sea Breeze Santorini Beach Resort, Curio Collection by Hilton",
+      "place_id": "ChIJRSE2qY_PmRQRApfXMU-bKpM",
       "types": [
-        "bar",
-        "cafe",
         "establishment",
-        "food",
         "lodging",
         "point_of_interest",
-        "restaurant"
+        "spa"
       ],
-      "website": "http://www.seaviewsantorini.com/"
+      "website": "https://www.hilton.com/en/hotels/jtrsbqq-sea-breeze-santorini-beach-resort/?SEO_id=GMB-EMEA-QQ-JTRSBQQ"
     }
   },
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Semeli Coast Mykonos, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Semeli Coast Mykonos, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"Semeli Coast Mykonos, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"Semeli Coast Mykonos, Curio Collection by Hilton Curio Collection by Hilton\", \"Semeli Coast Mykonos, Curio Collection by Hilton Hilton Hotel\", \"Semeli Coast Mykonos, Curio Collection by Hilton Hilton Resort\", \"Semeli Coast Mykonos, Curio Collection by Hilton Hilton\", \"jmkmbqq semeli coast mykonos Curio Collection by Hilton Hotel\", \"jmkmbqq semeli coast mykonos Curio Collection by Hilton Resort\", \"jmkmbqq semeli coast mykonos Curio Collection by Hilton\", \"jmkmbqq semeli coast mykonos Hilton Hotel\", \"jmkmbqq semeli coast mykonos Hilton Resort\", \"jmkmbqq semeli coast mykonos Hilton\", \"Semeli Coast Mykonos, Curio Collection by Hilton Hotel\", \"Semeli Coast Mykonos, Curio Collection by Hilton Resort\", \"Semeli Coast Mykonos, Curio Collection by Hilton\"], \"v\": 3}": {
@@ -12857,47 +12851,45 @@
     }
   },
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"The Scottsdale Resort and Spa, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"The Scottsdale Resort and Spa, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"The Scottsdale Resort and Spa, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"The Scottsdale Resort and Spa, Curio Collection by Hilton Curio Collection by Hilton\", \"The Scottsdale Resort and Spa, Curio Collection by Hilton Hilton Hotel\", \"The Scottsdale Resort and Spa, Curio Collection by Hilton Hilton Resort\", \"The Scottsdale Resort and Spa, Curio Collection by Hilton Hilton\", \"phxssqq scottsdale resort spa Curio Collection by Hilton Hotel\", \"phxssqq scottsdale resort spa Curio Collection by Hilton Resort\", \"phxssqq scottsdale resort spa Curio Collection by Hilton\", \"phxssqq scottsdale resort spa Hilton Hotel\", \"phxssqq scottsdale resort spa Hilton Resort\", \"phxssqq scottsdale resort spa Hilton\", \"The Scottsdale Resort and Spa, Curio Collection by Hilton Hotel\", \"The Scottsdale Resort and Spa, Curio Collection by Hilton Resort\", \"The Scottsdale Resort and Spa, Curio Collection by Hilton\"], \"v\": 3}": {
-    "lat": 33.8004156,
-    "lon": -111.9237056,
-    "formatted_address": "34631 N Tom Darlington Dr, Scottsdale, AZ 85262, USA",
+    "lat": 33.5484573,
+    "lon": -111.9162323,
+    "formatted_address": "7700 E McCormick Pkwy, Scottsdale, AZ 85258, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ38QnRjd5K4cRuwFlJrEVvYY",
+    "place_id": "ChIJ3zVm7y8LK4cReLvdQvyQkqA",
     "types": [
       "establishment",
       "lodging",
-      "point_of_interest",
-      "spa"
+      "point_of_interest"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "34631 N Tom Darlington Dr, Scottsdale, AZ 85262, USA",
+      "formatted_address": "7700 E McCormick Pkwy, Scottsdale, AZ 85258, USA",
       "geometry": {
         "location": {
-          "lat": 33.8004156,
-          "lng": -111.9237056
+          "lat": 33.5484573,
+          "lng": -111.9162323
         },
         "viewport": {
           "northeast": {
-            "lat": 33.8018854302915,
-            "lng": -111.9221956197085
+            "lat": 33.5497257302915,
+            "lng": -111.9139544697085
           },
           "southwest": {
-            "lat": 33.7991874697085,
-            "lng": -111.9248935802915
+            "lat": 33.5470277697085,
+            "lng": -111.9166524302915
           }
         }
       },
-      "name": "Boulders Resort & Spa Scottsdale, Curio Collection by Hilton",
-      "place_id": "ChIJ38QnRjd5K4cRuwFlJrEVvYY",
+      "name": "The Scottsdale Resort and Spa, Curio Collection by Hilton",
+      "place_id": "ChIJ3zVm7y8LK4cReLvdQvyQkqA",
       "types": [
         "establishment",
         "lodging",
-        "point_of_interest",
-        "spa"
+        "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/phxrsqq-boulders-resort-and-spa-scottsdale/?SEO_id=GMB-AMER-QQ-PHXRSQQ&y_source=1_MTE0MDM0MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.hilton.com/en/hotels/phxssqq-the-scottsdale-resort-and-spa/?SEO_id=GMB-AMER-QQ-PHXSSQQ&y_source=1_MzA3ODU0NTQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"The Singer Oceanfront Resort, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"The Singer Oceanfront Resort, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"The Singer Oceanfront Resort, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"The Singer Oceanfront Resort, Curio Collection by Hilton Curio Collection by Hilton\", \"The Singer Oceanfront Resort, Curio Collection by Hilton Hilton Hotel\", \"The Singer Oceanfront Resort, Curio Collection by Hilton Hilton Resort\", \"The Singer Oceanfront Resort, Curio Collection by Hilton Hilton\", \"pbisiqq singer oceanfront resort Curio Collection by Hilton Hotel\", \"pbisiqq singer oceanfront resort Curio Collection by Hilton Resort\", \"pbisiqq singer oceanfront resort Curio Collection by Hilton\", \"pbisiqq singer oceanfront resort Hilton Hotel\", \"pbisiqq singer oceanfront resort Hilton Resort\", \"pbisiqq singer oceanfront resort Hilton\", \"The Singer Oceanfront Resort, Curio Collection by Hilton Hotel\", \"The Singer Oceanfront Resort, Curio Collection by Hilton Resort\", \"The Singer Oceanfront Resort, Curio Collection by Hilton\"], \"v\": 3}": {
@@ -13221,47 +13213,45 @@
     }
   },
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection by Hilton Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection by Hilton Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection by Hilton\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton\", \"pujmiqq zemi miches all inclusive resort Curio Collection by Hilton Hotel\", \"pujmiqq zemi miches all inclusive resort Curio Collection by Hilton Resort\", \"pujmiqq zemi miches all inclusive resort Curio Collection by Hilton\", \"pujmiqq zemi miches all inclusive resort Hilton Hotel\", \"pujmiqq zemi miches all inclusive resort Hilton Resort\", \"pujmiqq zemi miches all inclusive resort Hilton\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton\"], \"v\": 3}": {
-    "lat": 18.9830931,
-    "lon": -69.03408879999999,
-    "formatted_address": "Carr. Miches - Higüey km. 2, Miches 24000, Dominican Republic",
+    "lat": 19.005306,
+    "lon": -69.0041248,
+    "formatted_address": "Carretera Playa Costa Esmeralda Km7, Miches 24000, Dominican Republic",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ9wLTzcovr44RtqkkstsljLs",
+    "place_id": "ChIJSylFVlgpr44RdXY4RnvEXEk",
     "types": [
       "establishment",
       "lodging",
-      "point_of_interest",
-      "spa"
+      "point_of_interest"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Carr. Miches - Higüey km. 2, Miches 24000, Dominican Republic",
+      "formatted_address": "Carretera Playa Costa Esmeralda Km7, Miches 24000, Dominican Republic",
       "geometry": {
         "location": {
-          "lat": 18.9830931,
-          "lng": -69.03408879999999
+          "lat": 19.005306,
+          "lng": -69.0041248
         },
         "viewport": {
           "northeast": {
-            "lat": 18.9844408302915,
-            "lng": -69.03278726970849
+            "lat": 19.0063152302915,
+            "lng": -69.0031100697085
           },
           "southwest": {
-            "lat": 18.9817428697085,
-            "lng": -69.0354852302915
+            "lat": 19.0036172697085,
+            "lng": -69.0058080302915
           }
         }
       },
-      "name": "Temptation Miches Resort",
-      "place_id": "ChIJ9wLTzcovr44RtqkkstsljLs",
+      "name": "Zemi Miches Punta Cana All-Inclusive Resort, Curio Collection by Hilton",
+      "place_id": "ChIJSylFVlgpr44RdXY4RnvEXEk",
       "types": [
         "establishment",
         "lodging",
-        "point_of_interest",
-        "spa"
+        "point_of_interest"
       ],
-      "website": "https://www.temptationpuntacana.com/"
+      "website": "https://www.hilton.com/en/hotels/pujmiqq-zemi-miches-all-inclusive-resort/?SEO_id=GMB-QQ-PUJMIQQ&y_source=1_MTAzNDU0NjQ4Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"DoubleTree by Hilton\", \"hotel_name\": \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton DoubleTree by Hilton Hotel\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton DoubleTree by Hilton Resort\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton DoubleTree by Hilton\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Hilton Hotel\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Hilton Resort\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Hilton\", \"fllbmdt bahia mar fort lauderdale beach DoubleTree by Hilton Hotel\", \"fllbmdt bahia mar fort lauderdale beach DoubleTree by Hilton Resort\", \"fllbmdt bahia mar fort lauderdale beach DoubleTree by Hilton\", \"fllbmdt bahia mar fort lauderdale beach Hilton Hotel\", \"fllbmdt bahia mar fort lauderdale beach Hilton Resort\", \"fllbmdt bahia mar fort lauderdale beach Hilton\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Hotel\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Resort\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton\"], \"v\": 3}": {
@@ -15051,12 +15041,12 @@
     }
   },
   "{\"brand\": \"Embassy Suites by Hilton\", \"hotel_name\": \"Embassy Suites by Hilton Deerfield Beach Resort & Spa\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Embassy Suites by Hilton Deerfield Beach Resort & Spa Embassy Suites by Hilton Hotel\", \"Embassy Suites by Hilton Deerfield Beach Resort & Spa Embassy Suites by Hilton Resort\", \"Embassy Suites by Hilton Deerfield Beach Resort & Spa Embassy Suites by Hilton\", \"Embassy Suites by Hilton Deerfield Beach Resort & Spa Hilton Hotel\", \"Embassy Suites by Hilton Deerfield Beach Resort & Spa Hilton Resort\", \"Embassy Suites by Hilton Deerfield Beach Resort & Spa Hilton\", \"deefles embassy suites deerfield beach resort spa Embassy Suites by Hilton Hotel\", \"deefles embassy suites deerfield beach resort spa Embassy Suites by Hilton Resort\", \"deefles embassy suites deerfield beach resort spa Embassy Suites by Hilton\", \"deefles embassy suites deerfield beach resort spa Hilton Hotel\", \"deefles embassy suites deerfield beach resort spa Hilton Resort\", \"deefles embassy suites deerfield beach resort spa Hilton\", \"Embassy Suites by Hilton Deerfield Beach Resort & Spa Hotel\", \"Embassy Suites by Hilton Deerfield Beach Resort & Spa Resort\", \"Embassy Suites by Hilton Deerfield Beach Resort & Spa\"], \"v\": 3}": {
-    "lat": 42.1505393,
-    "lon": -87.8645858,
-    "formatted_address": "1445 Lake Cook Rd, Deerfield, IL 60015, USA",
+    "lat": 26.3059944,
+    "lon": -80.077164,
+    "formatted_address": "950 S Ocean Dr, Deerfield Beach, FL 33441, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJnZq0UkO_D4gRWsZkwEjF1MU",
+    "place_id": "ChIJSQ5eRovi2IgRSbbtPOEa_cs",
     "types": [
       "establishment",
       "lodging",
@@ -15065,31 +15055,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "1445 Lake Cook Rd, Deerfield, IL 60015, USA",
+      "formatted_address": "950 S Ocean Dr, Deerfield Beach, FL 33441, USA",
       "geometry": {
         "location": {
-          "lat": 42.1505393,
-          "lng": -87.8645858
+          "lat": 26.3059944,
+          "lng": -80.077164
         },
         "viewport": {
           "northeast": {
-            "lat": 42.1518845302915,
-            "lng": -87.86299931970848
+            "lat": 26.3073126802915,
+            "lng": -80.0760345197085
           },
           "southwest": {
-            "lat": 42.1491865697085,
-            "lng": -87.8656972802915
+            "lat": 26.3046147197085,
+            "lng": -80.0787324802915
           }
         }
       },
-      "name": "Embassy Suites by Hilton Chicago North Shore Deerfield",
-      "place_id": "ChIJnZq0UkO_D4gRWsZkwEjF1MU",
+      "name": "Embassy Suites by Hilton Deerfield Beach Resort & Spa",
+      "place_id": "ChIJSQ5eRovi2IgRSbbtPOEa_cs",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/defiles-embassy-suites-chicago-north-shore-deerfield/?SEO_id=GMB-AMER-ES-DEFILES&y_source=1_MTEwOTk0My03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.hilton.com/en/hotels/deefles-embassy-suites-deerfield-beach-resort-and-spa/?SEO_id=GMB-AMER-ES-DEEFLES&y_source=1_MTEwOTk0Mi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"Embassy Suites by Hilton\", \"hotel_name\": \"Embassy Suites by Hilton Dorado del Mar Beach Resort\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Embassy Suites by Hilton Dorado del Mar Beach Resort Embassy Suites by Hilton Hotel\", \"Embassy Suites by Hilton Dorado del Mar Beach Resort Embassy Suites by Hilton Resort\", \"Embassy Suites by Hilton Dorado del Mar Beach Resort Embassy Suites by Hilton\", \"Embassy Suites by Hilton Dorado del Mar Beach Resort Hilton Hotel\", \"Embassy Suites by Hilton Dorado del Mar Beach Resort Hilton Resort\", \"Embassy Suites by Hilton Dorado del Mar Beach Resort Hilton\", \"dorpres embassy suites dorado del mar beach resort Embassy Suites by Hilton Hotel\", \"dorpres embassy suites dorado del mar beach resort Embassy Suites by Hilton Resort\", \"dorpres embassy suites dorado del mar beach resort Embassy Suites by Hilton\", \"dorpres embassy suites dorado del mar beach resort Hilton Hotel\", \"dorpres embassy suites dorado del mar beach resort Hilton Resort\", \"dorpres embassy suites dorado del mar beach resort Hilton\", \"Embassy Suites by Hilton Dorado del Mar Beach Resort Hotel\", \"Embassy Suites by Hilton Dorado del Mar Beach Resort Resort\", \"Embassy Suites by Hilton Dorado del Mar Beach Resort\"], \"v\": 3}": {
@@ -23984,12 +23974,12 @@
     }
   },
   "{\"brand\": \"Hilton Grand Vacation Club\", \"hotel_name\": \"Hilton Club Elara Las Vegas\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Club Elara Las Vegas Hilton Grand Vacation Club Hotel\", \"Hilton Club Elara Las Vegas Hilton Grand Vacation Club Resort\", \"Hilton Club Elara Las Vegas Hilton Grand Vacation Club\", \"Hilton Club Elara Las Vegas Hilton Hotel\", \"Hilton Club Elara Las Vegas Hilton Resort\", \"Hilton Club Elara Las Vegas Hilton\", \"lasehgv Hilton club elara las vegas Hilton Grand Vacation Club Hotel\", \"lasehgv Hilton club elara las vegas Hilton Grand Vacation Club Resort\", \"lasehgv Hilton club elara las vegas Hilton Grand Vacation Club\", \"lasehgv Hilton club elara las vegas Hilton Hotel\", \"lasehgv Hilton club elara las vegas Hilton Resort\", \"lasehgv Hilton club elara las vegas Hilton\", \"Hilton Club Elara Las Vegas Hotel\", \"Hilton Club Elara Las Vegas Resort\", \"Hilton Club Elara Las Vegas\"], \"v\": 3}": {
-    "lat": 36.1398788,
-    "lon": -115.1608993,
-    "formatted_address": "2650 Las Vegas Blvd S, Las Vegas, NV 89109, USA",
+    "lat": 36.1088102,
+    "lon": -115.1683213,
+    "formatted_address": "80 E Harmon Ave, Las Vegas, NV 89109, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ3y2MDjnEyIARGwx3B-xtpvM",
+    "place_id": "ChIJjebzgjbEyIARyLX90AKMMUY",
     "types": [
       "establishment",
       "lodging",
@@ -23998,31 +23988,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2650 Las Vegas Blvd S, Las Vegas, NV 89109, USA",
+      "formatted_address": "80 E Harmon Ave, Las Vegas, NV 89109, USA",
       "geometry": {
         "location": {
-          "lat": 36.1398788,
-          "lng": -115.1608993
+          "lat": 36.1088102,
+          "lng": -115.1683213
         },
         "viewport": {
           "northeast": {
-            "lat": 36.1408420802915,
-            "lng": -115.1590578697085
+            "lat": 36.1101209802915,
+            "lng": -115.1671946197085
           },
           "southwest": {
-            "lat": 36.1381441197085,
-            "lng": -115.1617558302915
+            "lat": 36.1074230197085,
+            "lng": -115.1698925802915
           }
         }
       },
-      "name": "Hilton Grand Vacations Club on the Las Vegas Strip",
-      "place_id": "ChIJ3y2MDjnEyIARGwx3B-xtpvM",
+      "name": "Hilton Grand Vacations Club Elara Center Strip Las Vegas",
+      "place_id": "ChIJjebzgjbEyIARyLX90AKMMUY",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/lasvsgv-hilton-grand-vacations-club-on-the-las-vegas-strip/?SEO_id=GMB-AMER-HH-LASVSGV"
+      "website": "https://www.hilton.com/en/hotels/lascsgv-hilton-grand-vacations-club-elara-center-strip-las-vegas/?SEO_id=GMB-AMER-HH-LASCSGV&y_source=1_MTg1OTY4My03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"Hilton Hotels & Resorts\", \"hotel_name\": \"Hilton Taghazout Bay Beach Resort & Spa\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Hilton Taghazout Bay Beach Resort & Spa Hilton Hotels & Resorts Hotel\", \"Hilton Taghazout Bay Beach Resort & Spa Hilton Hotels & Resorts Resort\", \"Hilton Taghazout Bay Beach Resort & Spa Hilton Hotels & Resorts\", \"Hilton Taghazout Bay Beach Resort & Spa Hilton Hotel\", \"Hilton Taghazout Bay Beach Resort & Spa Hilton Resort\", \"Hilton Taghazout Bay Beach Resort & Spa Hilton\", \"agatmhi Hilton taghazout bay beach resort spa Hilton Hotels & Resorts Hotel\", \"agatmhi Hilton taghazout bay beach resort spa Hilton Hotels & Resorts Resort\", \"agatmhi Hilton taghazout bay beach resort spa Hilton Hotels & Resorts\", \"agatmhi Hilton taghazout bay beach resort spa Hilton Hotel\", \"agatmhi Hilton taghazout bay beach resort spa Hilton Resort\", \"agatmhi Hilton taghazout bay beach resort spa Hilton\", \"Hilton Taghazout Bay Beach Resort & Spa Hotel\", \"Hilton Taghazout Bay Beach Resort & Spa Resort\", \"Hilton Taghazout Bay Beach Resort & Spa\"], \"v\": 3}": {

@@ -86918,51 +86918,47 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Cambridge Beaches Resort & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cambridge Beaches Resort & Spa Benchmark Resorts and Hotels Hotel\", \"Cambridge Beaches Resort & Spa Benchmark Resorts and Hotels Resort\", \"Cambridge Beaches Resort & Spa Benchmark Resorts and Hotels\", \"Cambridge Beaches Resort & Spa Benchmark Resorts and Hotels Sandys, Bermuda Hotel\", \"Cambridge Beaches Resort & Spa Benchmark Resorts and Hotels Sandys, Bermuda Resort\", \"Cambridge Beaches Resort & Spa Benchmark Resorts and Hotels Sandys, Bermuda\", \"Cambridge Beaches Resort & Spa Hilton Hotel\", \"Cambridge Beaches Resort & Spa Hilton Resort\", \"Cambridge Beaches Resort & Spa Hilton\", \"Cambridge Beaches Resort & Spa Hilton Sandys, Bermuda Hotel\", \"Cambridge Beaches Resort & Spa Hilton Sandys, Bermuda Resort\", \"Cambridge Beaches Resort & Spa Hilton Sandys, Bermuda\", \"Cambridge Beaches Resort Spa Benchmark Resorts and Hotels Hotel\", \"Cambridge Beaches Resort Spa Benchmark Resorts and Hotels Resort\", \"Cambridge Beaches Resort Spa Benchmark Resorts and Hotels\", \"Cambridge Beaches Resort Spa Benchmark Resorts and Hotels Sandys, Bermuda Hotel\", \"Cambridge Beaches Resort Spa Benchmark Resorts and Hotels Sandys, Bermuda Resort\", \"Cambridge Beaches Resort Spa Benchmark Resorts and Hotels Sandys, Bermuda\", \"Cambridge Beaches Resort Spa Hilton Hotel\", \"Cambridge Beaches Resort Spa Hilton Resort\", \"Cambridge Beaches Resort Spa Hilton\", \"Cambridge Beaches Resort Spa Hilton Sandys, Bermuda Hotel\", \"Cambridge Beaches Resort Spa Hilton Sandys, Bermuda Resort\", \"Cambridge Beaches Resort Spa Hilton Sandys, Bermuda\", \"Cambridge Beaches Resort & Spa Hotel\", \"Cambridge Beaches Resort & Spa Resort\", \"Cambridge Beaches Resort & Spa\", \"Cambridge Beaches Resort & Spa Sandys, Bermuda Hotel\", \"Cambridge Beaches Resort & Spa Sandys, Bermuda Resort\", \"Cambridge Beaches Resort & Spa Sandys, Bermuda\"], \"v\": 3}": {
-    "lat": 32.352586,
-    "lon": -64.71217399999999,
-    "formatted_address": "11 Blue Hole Hill Hamilton, Hamilton Parish CR 04, Bermuda",
+    "lat": 32.3091682,
+    "lon": -64.8679468,
+    "formatted_address": "30 Kings Point Road Somerset MA, Somerset Village 02, Bermuda",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJu50l7RYTLYoRgIjfltLQue4",
+    "place_id": "ChIJxU7l4RoTLYoR8wsp4z0nFbk",
     "types": [
-      "bar",
       "establishment",
-      "food",
       "lodging",
       "point_of_interest",
-      "restaurant"
+      "spa"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "11 Blue Hole Hill Hamilton, Hamilton Parish CR 04, Bermuda",
+      "formatted_address": "30 Kings Point Road Somerset MA, Somerset Village 02, Bermuda",
       "geometry": {
         "location": {
-          "lat": 32.352586,
-          "lng": -64.71217399999999
+          "lat": 32.3091682,
+          "lng": -64.8679468
         },
         "viewport": {
           "northeast": {
-            "lat": 32.3538798802915,
-            "lng": -64.7108192697085
+            "lat": 32.3105820302915,
+            "lng": -64.86668036970849
           },
           "southwest": {
-            "lat": 32.3511819197085,
-            "lng": -64.7135172302915
+            "lat": 32.3078840697085,
+            "lng": -64.8693783302915
           }
         }
       },
-      "name": "Grotto Bay Beach Resort & Spa",
-      "place_id": "ChIJu50l7RYTLYoRgIjfltLQue4",
+      "name": "Cambridge Beaches Resort & Spa",
+      "place_id": "ChIJxU7l4RoTLYoR8wsp4z0nFbk",
       "types": [
-        "bar",
         "establishment",
-        "food",
         "lodging",
         "point_of_interest",
-        "restaurant"
+        "spa"
       ],
-      "website": "https://www.grottobay.com/"
+      "website": "https://www.cambridgebeaches.com/?utm_source=google&utm_medium=organic_search&utm_campaign=gmb"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Valley Ho\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Valley Ho Benchmark Resorts and Hotels Hotel\", \"Hotel Valley Ho Benchmark Resorts and Hotels Resort\", \"Hotel Valley Ho Benchmark Resorts and Hotels\", \"Hotel Valley Ho Benchmark Resorts and Hotels Scottsdale, Arizona US Hotel\", \"Hotel Valley Ho Benchmark Resorts and Hotels Scottsdale, Arizona US Resort\", \"Hotel Valley Ho Benchmark Resorts and Hotels Scottsdale, Arizona US\", \"Hotel Valley Ho Hilton Hotel\", \"Hotel Valley Ho Hilton Resort\", \"Hotel Valley Ho Hilton\", \"Hotel Valley Ho Hilton Scottsdale, Arizona US Hotel\", \"Hotel Valley Ho Hilton Scottsdale, Arizona US Resort\", \"Hotel Valley Ho Hilton Scottsdale, Arizona US\", \"Hotel Valley Ho Hotel\", \"Hotel Valley Ho Resort\", \"Hotel Valley Ho\", \"Hotel Valley Ho Scottsdale, Arizona US Hotel\", \"Hotel Valley Ho Scottsdale, Arizona US Resort\", \"Hotel Valley Ho Scottsdale, Arizona US\"], \"v\": 3}": {
@@ -110191,49 +110187,45 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Teton Mountain Lodge and Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Teton Mountain Lodge and Spa Noble House Hotels & Resorts Hotel\", \"Teton Mountain Lodge and Spa Noble House Hotels & Resorts Resort\", \"Teton Mountain Lodge and Spa Noble House Hotels & Resorts\", \"Teton Mountain Lodge and Spa Noble House Hotels & Resorts Teton Village, Wyoming US Hotel\", \"Teton Mountain Lodge and Spa Noble House Hotels & Resorts Teton Village, Wyoming US Resort\", \"Teton Mountain Lodge and Spa Noble House Hotels & Resorts Teton Village, Wyoming US\", \"Teton Mountain Lodge and Spa Hilton Hotel\", \"Teton Mountain Lodge and Spa Hilton Resort\", \"Teton Mountain Lodge and Spa Hilton\", \"Teton Mountain Lodge and Spa Hilton Teton Village, Wyoming US Hotel\", \"Teton Mountain Lodge and Spa Hilton Teton Village, Wyoming US Resort\", \"Teton Mountain Lodge and Spa Hilton Teton Village, Wyoming US\", \"Teton Mountain Lodge Spa Noble House Hotels & Resorts Hotel\", \"Teton Mountain Lodge Spa Noble House Hotels & Resorts Resort\", \"Teton Mountain Lodge Spa Noble House Hotels & Resorts\", \"Teton Mountain Lodge Spa Noble House Hotels & Resorts Teton Village, Wyoming US Hotel\", \"Teton Mountain Lodge Spa Noble House Hotels & Resorts Teton Village, Wyoming US Resort\", \"Teton Mountain Lodge Spa Noble House Hotels & Resorts Teton Village, Wyoming US\", \"Teton Mountain Lodge Spa Hilton Hotel\", \"Teton Mountain Lodge Spa Hilton Resort\", \"Teton Mountain Lodge Spa Hilton\", \"Teton Mountain Lodge Spa Hilton Teton Village, Wyoming US Hotel\", \"Teton Mountain Lodge Spa Hilton Teton Village, Wyoming US Resort\", \"Teton Mountain Lodge Spa Hilton Teton Village, Wyoming US\", \"Teton Mountain Lodge and Spa Hotel\", \"Teton Mountain Lodge and Spa Resort\", \"Teton Mountain Lodge and Spa\", \"Teton Mountain Lodge and Spa Teton Village, Wyoming US Hotel\", \"Teton Mountain Lodge and Spa Teton Village, Wyoming US Resort\", \"Teton Mountain Lodge and Spa Teton Village, Wyoming US\"], \"v\": 3}": {
-    "lat": 43.589801,
-    "lon": -110.826799,
-    "formatted_address": "7680 Granite Loop Rd, Teton Village, WY 83025, USA",
+    "lat": 43.5866859,
+    "lon": -110.8300245,
+    "formatted_address": "3385 Cody Ln, Teton Village, WY 83025, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ5b3HFNYFU1MRZs4NFlgaX8A",
+    "place_id": "ChIJZXwlf9cFU1MRenXLA6_RcHU",
     "types": [
       "establishment",
-      "health",
       "lodging",
-      "point_of_interest",
-      "spa"
+      "point_of_interest"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "7680 Granite Loop Rd, Teton Village, WY 83025, USA",
+      "formatted_address": "3385 Cody Ln, Teton Village, WY 83025, USA",
       "geometry": {
         "location": {
-          "lat": 43.589801,
-          "lng": -110.826799
+          "lat": 43.5866859,
+          "lng": -110.8300245
         },
         "viewport": {
           "northeast": {
-            "lat": 43.5909910802915,
-            "lng": -110.8255531697085
+            "lat": 43.5880895302915,
+            "lng": -110.8287839697085
           },
           "southwest": {
-            "lat": 43.5882931197085,
-            "lng": -110.8282511302915
+            "lat": 43.5853915697085,
+            "lng": -110.8314819302915
           }
         }
       },
-      "name": "Four Seasons Resort and Residences Jackson Hole",
-      "place_id": "ChIJ5b3HFNYFU1MRZs4NFlgaX8A",
+      "name": "Teton Mountain Lodge & Spa",
+      "place_id": "ChIJZXwlf9cFU1MRenXLA6_RcHU",
       "types": [
         "establishment",
-        "health",
         "lodging",
-        "point_of_interest",
-        "spa"
+        "point_of_interest"
       ],
-      "website": "https://www.fourseasons.com/jacksonhole/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-jac-hre-mid-seo-na&utm_content=na-na&utm_term=na"
+      "website": "https://www.tetonlodge.com/?utm_source=gmb-skiresort&utm_medium=organic&utm_campaign=gmb"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Omni Amelia Island Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Omni Amelia Island Resort Omni Hotels & Resorts Hotel\", \"Omni Amelia Island Resort Omni Hotels & Resorts Resort\", \"Omni Amelia Island Resort Omni Hotels & Resorts\", \"Omni Amelia Island Resort Omni Hotels & Resorts Amelia Island, Florida US Hotel\", \"Omni Amelia Island Resort Omni Hotels & Resorts Amelia Island, Florida US Resort\", \"Omni Amelia Island Resort Omni Hotels & Resorts Amelia Island, Florida US\", \"Omni Amelia Island Resort Hilton Hotel\", \"Omni Amelia Island Resort Hilton Resort\", \"Omni Amelia Island Resort Hilton\", \"Omni Amelia Island Resort Hilton Amelia Island, Florida US Hotel\", \"Omni Amelia Island Resort Hilton Amelia Island, Florida US Resort\", \"Omni Amelia Island Resort Hilton Amelia Island, Florida US\", \"Omni Amelia Island Resort Hotel\", \"Omni Amelia Island Resort Resort\", \"Omni Amelia Island Resort\", \"Omni Amelia Island Resort Amelia Island, Florida US Hotel\", \"Omni Amelia Island Resort Amelia Island, Florida US Resort\", \"Omni Amelia Island Resort Amelia Island, Florida US\"], \"v\": 3}": {
@@ -112655,12 +112647,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Halepuna Waikiki by Halekulani\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Halepuna Waikiki by Halekulani Preferred Hotels & Resorts Hotel\", \"Halepuna Waikiki by Halekulani Preferred Hotels & Resorts Resort\", \"Halepuna Waikiki by Halekulani Preferred Hotels & Resorts\", \"Halepuna Waikiki by Halekulani Preferred Hotels & Resorts Honolulu, Hawaii US Hotel\", \"Halepuna Waikiki by Halekulani Preferred Hotels & Resorts Honolulu, Hawaii US Resort\", \"Halepuna Waikiki by Halekulani Preferred Hotels & Resorts Honolulu, Hawaii US\", \"Halepuna Waikiki by Halekulani Hilton Hotel\", \"Halepuna Waikiki by Halekulani Hilton Resort\", \"Halepuna Waikiki by Halekulani Hilton\", \"Halepuna Waikiki by Halekulani Hilton Honolulu, Hawaii US Hotel\", \"Halepuna Waikiki by Halekulani Hilton Honolulu, Hawaii US Resort\", \"Halepuna Waikiki by Halekulani Hilton Honolulu, Hawaii US\", \"Halepuna Waikiki Halekulani Preferred Hotels & Resorts Hotel\", \"Halepuna Waikiki Halekulani Preferred Hotels & Resorts Resort\", \"Halepuna Waikiki Halekulani Preferred Hotels & Resorts\", \"Halepuna Waikiki Halekulani Preferred Hotels & Resorts Honolulu, Hawaii US Hotel\", \"Halepuna Waikiki Halekulani Preferred Hotels & Resorts Honolulu, Hawaii US Resort\", \"Halepuna Waikiki Halekulani Preferred Hotels & Resorts Honolulu, Hawaii US\", \"Halepuna Waikiki Halekulani Hilton Hotel\", \"Halepuna Waikiki Halekulani Hilton Resort\", \"Halepuna Waikiki Halekulani Hilton\", \"Halepuna Waikiki Halekulani Hilton Honolulu, Hawaii US Hotel\", \"Halepuna Waikiki Halekulani Hilton Honolulu, Hawaii US Resort\", \"Halepuna Waikiki Halekulani Hilton Honolulu, Hawaii US\", \"Halepuna Waikiki by Halekulani Hotel\", \"Halepuna Waikiki by Halekulani Resort\", \"Halepuna Waikiki by Halekulani\", \"Halepuna Waikiki by Halekulani Honolulu, Hawaii US Hotel\", \"Halepuna Waikiki by Halekulani Honolulu, Hawaii US Resort\", \"Halepuna Waikiki by Halekulani Honolulu, Hawaii US\"], \"v\": 3}": {
-    "lat": 21.2782572,
-    "lon": -157.831802,
-    "formatted_address": "2199 Kālia Rd, Honolulu, HI 96815, USA",
+    "lat": 21.2782477,
+    "lon": -157.8306119,
+    "formatted_address": "2233 Helumoa Rd, Honolulu, HI 96815, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJJVGzGXVyAHwRI2_9brEI5UU",
+    "place_id": "ChIJlyLMR2NzAHwRrkPPx8KW2xo",
     "types": [
       "establishment",
       "lodging",
@@ -112669,31 +112661,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "2199 Kālia Rd, Honolulu, HI 96815, USA",
+      "formatted_address": "2233 Helumoa Rd, Honolulu, HI 96815, USA",
       "geometry": {
         "location": {
-          "lat": 21.2782572,
-          "lng": -157.831802
+          "lat": 21.2782477,
+          "lng": -157.8306119
         },
         "viewport": {
           "northeast": {
-            "lat": 21.2796925302915,
-            "lng": -157.8303969197085
+            "lat": 21.2796315802915,
+            "lng": -157.8292037197085
           },
           "southwest": {
-            "lat": 21.2769945697085,
-            "lng": -157.8330948802915
+            "lat": 21.2769336197085,
+            "lng": -157.8319016802915
           }
         }
       },
-      "name": "Halekulani Hotel",
-      "place_id": "ChIJJVGzGXVyAHwRI2_9brEI5UU",
+      "name": "Halepuna Waikiki by Halekulani",
+      "place_id": "ChIJlyLMR2NzAHwRrkPPx8KW2xo",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.halekulani.com/"
+      "website": "https://www.halepuna.com/"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Houstonian Hotel Club & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Houstonian Hotel Club & Spa Preferred Hotels & Resorts Hotel\", \"The Houstonian Hotel Club & Spa Preferred Hotels & Resorts Resort\", \"The Houstonian Hotel Club & Spa Preferred Hotels & Resorts\", \"The Houstonian Hotel Club & Spa Preferred Hotels & Resorts Houston, Texas US Hotel\", \"The Houstonian Hotel Club & Spa Preferred Hotels & Resorts Houston, Texas US Resort\", \"The Houstonian Hotel Club & Spa Preferred Hotels & Resorts Houston, Texas US\", \"The Houstonian Hotel Club & Spa Hilton Hotel\", \"The Houstonian Hotel Club & Spa Hilton Resort\", \"The Houstonian Hotel Club & Spa Hilton\", \"The Houstonian Hotel Club & Spa Hilton Houston, Texas US Hotel\", \"The Houstonian Hotel Club & Spa Hilton Houston, Texas US Resort\", \"The Houstonian Hotel Club & Spa Hilton Houston, Texas US\", \"Houstonian Hotel Club Spa Preferred Hotels & Resorts Hotel\", \"Houstonian Hotel Club Spa Preferred Hotels & Resorts Resort\", \"Houstonian Hotel Club Spa Preferred Hotels & Resorts\", \"Houstonian Hotel Club Spa Preferred Hotels & Resorts Houston, Texas US Hotel\", \"Houstonian Hotel Club Spa Preferred Hotels & Resorts Houston, Texas US Resort\", \"Houstonian Hotel Club Spa Preferred Hotels & Resorts Houston, Texas US\", \"Houstonian Hotel Club Spa Hilton Hotel\", \"Houstonian Hotel Club Spa Hilton Resort\", \"Houstonian Hotel Club Spa Hilton\", \"Houstonian Hotel Club Spa Hilton Houston, Texas US Hotel\", \"Houstonian Hotel Club Spa Hilton Houston, Texas US Resort\", \"Houstonian Hotel Club Spa Hilton Houston, Texas US\", \"The Houstonian Hotel Club & Spa Hotel\", \"The Houstonian Hotel Club & Spa Resort\", \"The Houstonian Hotel Club & Spa\", \"The Houstonian Hotel Club & Spa Houston, Texas US Hotel\", \"The Houstonian Hotel Club & Spa Houston, Texas US Resort\", \"The Houstonian Hotel Club & Spa Houston, Texas US\"], \"v\": 3}": {
@@ -117126,47 +117118,53 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"NIMB Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"NIMB Hotel Small Luxury Hotels of the World Hotel\", \"NIMB Hotel Small Luxury Hotels of the World Resort\", \"NIMB Hotel Small Luxury Hotels of the World\", \"NIMB Hotel Small Luxury Hotels of the World Copenhagen, Denmark Hotel\", \"NIMB Hotel Small Luxury Hotels of the World Copenhagen, Denmark Resort\", \"NIMB Hotel Small Luxury Hotels of the World Copenhagen, Denmark\", \"NIMB Hotel Hilton Hotel\", \"NIMB Hotel Hilton Resort\", \"NIMB Hotel Hilton\", \"NIMB Hotel Hilton Copenhagen, Denmark Hotel\", \"NIMB Hotel Hilton Copenhagen, Denmark Resort\", \"NIMB Hotel Hilton Copenhagen, Denmark\", \"Nimb Hotel Small Luxury Hotels of the World Hotel\", \"Nimb Hotel Small Luxury Hotels of the World Resort\", \"Nimb Hotel Small Luxury Hotels of the World\", \"Nimb Hotel Small Luxury Hotels of the World Copenhagen, Denmark Hotel\", \"Nimb Hotel Small Luxury Hotels of the World Copenhagen, Denmark Resort\", \"Nimb Hotel Small Luxury Hotels of the World Copenhagen, Denmark\", \"Nimb Hotel Hilton Hotel\", \"Nimb Hotel Hilton Resort\", \"Nimb Hotel Hilton\", \"Nimb Hotel Hilton Copenhagen, Denmark Hotel\", \"Nimb Hotel Hilton Copenhagen, Denmark Resort\", \"Nimb Hotel Hilton Copenhagen, Denmark\", \"NIMB Hotel Hotel\", \"NIMB Hotel Resort\", \"NIMB Hotel\", \"NIMB Hotel Copenhagen, Denmark Hotel\", \"NIMB Hotel Copenhagen, Denmark Resort\", \"NIMB Hotel Copenhagen, Denmark\"], \"v\": 3}": {
-    "lat": 55.68037529999999,
-    "lon": 12.5613464,
-    "formatted_address": "Gyldenløvesgade 19, 1600 København V, Denmark",
+    "lat": 55.6736716,
+    "lon": 12.5661111,
+    "formatted_address": "Bernstorffsgade 5, 1577 København, Denmark",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJL9i32AhTUkYRQQAPZPtt0lg",
+    "place_id": "ChIJm43fcg1TUkYRWyWZGBr4kiA",
     "types": [
+      "bar",
       "establishment",
+      "food",
       "lodging",
       "point_of_interest",
+      "restaurant",
       "spa"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Gyldenløvesgade 19, 1600 København V, Denmark",
+      "formatted_address": "Bernstorffsgade 5, 1577 København, Denmark",
       "geometry": {
         "location": {
-          "lat": 55.68037529999999,
-          "lng": 12.5613464
+          "lat": 55.6736716,
+          "lng": 12.5661111
         },
         "viewport": {
           "northeast": {
-            "lat": 55.6818035302915,
-            "lng": 12.5627871302915
+            "lat": 55.67483093029149,
+            "lng": 12.5674455802915
           },
           "southwest": {
-            "lat": 55.6791055697085,
-            "lng": 12.5600891697085
+            "lat": 55.67213296970849,
+            "lng": 12.5647476197085
           }
         }
       },
-      "name": "Manon Les Suites",
-      "place_id": "ChIJL9i32AhTUkYRQQAPZPtt0lg",
+      "name": "Nimb Hotel, an SLH Hotel",
+      "place_id": "ChIJm43fcg1TUkYRWyWZGBr4kiA",
       "types": [
+        "bar",
         "establishment",
+        "food",
         "lodging",
         "point_of_interest",
+        "restaurant",
         "spa"
       ],
-      "website": "https://guldsmedenhotels.com/manon-les-suites/?utm_source=google&utm_medium=organic&utm_campaign=manon_gbp&utm_content=website_button"
+      "website": "https://www.nimb.dk/?&utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_content=website_button"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Le Marne Relais\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Le Marne Relais Small Luxury Hotels of the World Hotel\", \"Le Marne Relais Small Luxury Hotels of the World Resort\", \"Le Marne Relais Small Luxury Hotels of the World\", \"Le Marne Relais Small Luxury Hotels of the World Costigliole d'Asti, Italy Hotel\", \"Le Marne Relais Small Luxury Hotels of the World Costigliole d'Asti, Italy Resort\", \"Le Marne Relais Small Luxury Hotels of the World Costigliole d'Asti, Italy\", \"Le Marne Relais Hilton Hotel\", \"Le Marne Relais Hilton Resort\", \"Le Marne Relais Hilton\", \"Le Marne Relais Hilton Costigliole d'Asti, Italy Hotel\", \"Le Marne Relais Hilton Costigliole d'Asti, Italy Resort\", \"Le Marne Relais Hilton Costigliole d'Asti, Italy\", \"Le Marne Relais Hotel\", \"Le Marne Relais Resort\", \"Le Marne Relais\", \"Le Marne Relais Costigliole d'Asti, Italy Hotel\", \"Le Marne Relais Costigliole d'Asti, Italy Resort\", \"Le Marne Relais Costigliole d'Asti, Italy\"], \"v\": 3}": {
@@ -133525,12 +133523,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Austin Downtown\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Austin Downtown Canopy Hotels Hotel\", \"Canopy by Hilton Austin Downtown Canopy Hotels Resort\", \"Canopy by Hilton Austin Downtown Canopy Hotels\", \"Canopy by Hilton Austin Downtown Canopy Hotels Austin, Texas US Hotel\", \"Canopy by Hilton Austin Downtown Canopy Hotels Austin, Texas US Resort\", \"Canopy by Hilton Austin Downtown Canopy Hotels Austin, Texas US\", \"Canopy by Hilton Austin Downtown Hilton Hotel\", \"Canopy by Hilton Austin Downtown Hilton Resort\", \"Canopy by Hilton Austin Downtown Hilton\", \"Canopy by Hilton Austin Downtown Hilton Austin, Texas US Hotel\", \"Canopy by Hilton Austin Downtown Hilton Austin, Texas US Resort\", \"Canopy by Hilton Austin Downtown Hilton Austin, Texas US\", \"Canopy Hilton Austin Downtown Canopy Hotels Hotel\", \"Canopy Hilton Austin Downtown Canopy Hotels Resort\", \"Canopy Hilton Austin Downtown Canopy Hotels\", \"Canopy Hilton Austin Downtown Canopy Hotels Austin, Texas US Hotel\", \"Canopy Hilton Austin Downtown Canopy Hotels Austin, Texas US Resort\", \"Canopy Hilton Austin Downtown Canopy Hotels Austin, Texas US\", \"Canopy Hilton Austin Downtown Hilton Hotel\", \"Canopy Hilton Austin Downtown Hilton Resort\", \"Canopy Hilton Austin Downtown Hilton\", \"Canopy Hilton Austin Downtown Hilton Austin, Texas US Hotel\", \"Canopy Hilton Austin Downtown Hilton Austin, Texas US Resort\", \"Canopy Hilton Austin Downtown Hilton Austin, Texas US\", \"Canopy by Hilton Austin Downtown Hotel\", \"Canopy by Hilton Austin Downtown Resort\", \"Canopy by Hilton Austin Downtown\", \"Canopy by Hilton Austin Downtown Austin, Texas US Hotel\", \"Canopy by Hilton Austin Downtown Austin, Texas US Resort\", \"Canopy by Hilton Austin Downtown Austin, Texas US\"], \"v\": 3}": {
-    "lat": 30.2651833,
-    "lon": -97.73810329999999,
-    "formatted_address": "500 E 4th St, Austin, TX 78701, USA",
+    "lat": 30.2698306,
+    "lon": -97.74871979999999,
+    "formatted_address": "604 W 6th St, Austin, TX 78701, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJj9dtEqi1RIYRaUVSQdHpaiA",
+    "place_id": "ChIJ3ZfjzmO1RIYRglpi1Q8Ne4w",
     "types": [
       "establishment",
       "lodging",
@@ -133539,31 +133537,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "500 E 4th St, Austin, TX 78701, USA",
+      "formatted_address": "604 W 6th St, Austin, TX 78701, USA",
       "geometry": {
         "location": {
-          "lat": 30.2651833,
-          "lng": -97.73810329999999
+          "lat": 30.2698306,
+          "lng": -97.74871979999999
         },
         "viewport": {
           "northeast": {
-            "lat": 30.26665943029149,
-            "lng": -97.73711091970848
+            "lat": 30.2711302802915,
+            "lng": -97.7473989697085
           },
           "southwest": {
-            "lat": 30.26396146970849,
-            "lng": -97.7398088802915
+            "lat": 30.2684323197085,
+            "lng": -97.7500969302915
           }
         }
       },
-      "name": "Hilton Austin",
-      "place_id": "ChIJj9dtEqi1RIYRaUVSQdHpaiA",
+      "name": "Canopy by Hilton Austin Downtown",
+      "place_id": "ChIJ3ZfjzmO1RIYRglpi1Q8Ne4w",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/auscvhh-hilton-austin/?SEO_id=GMB-AMER-HH-AUSCVHH&y_source=1_MTIyMDkxMS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.hilton.com/en/hotels/ausskpy-canopy-austin-downtown/?SEO_id=GMB-AMER-PY-AUSSKPY&y_source=1_MTYyNTYzNjgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Baltimore Harbor Point\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Baltimore Harbor Point Canopy Hotels Hotel\", \"Canopy by Hilton Baltimore Harbor Point Canopy Hotels Resort\", \"Canopy by Hilton Baltimore Harbor Point Canopy Hotels\", \"Canopy by Hilton Baltimore Harbor Point Canopy Hotels Baltimore, Maryland US Hotel\", \"Canopy by Hilton Baltimore Harbor Point Canopy Hotels Baltimore, Maryland US Resort\", \"Canopy by Hilton Baltimore Harbor Point Canopy Hotels Baltimore, Maryland US\", \"Canopy by Hilton Baltimore Harbor Point Hilton Hotel\", \"Canopy by Hilton Baltimore Harbor Point Hilton Resort\", \"Canopy by Hilton Baltimore Harbor Point Hilton\", \"Canopy by Hilton Baltimore Harbor Point Hilton Baltimore, Maryland US Hotel\", \"Canopy by Hilton Baltimore Harbor Point Hilton Baltimore, Maryland US Resort\", \"Canopy by Hilton Baltimore Harbor Point Hilton Baltimore, Maryland US\", \"Canopy Hilton Baltimore Harbor Point Canopy Hotels Hotel\", \"Canopy Hilton Baltimore Harbor Point Canopy Hotels Resort\", \"Canopy Hilton Baltimore Harbor Point Canopy Hotels\", \"Canopy Hilton Baltimore Harbor Point Canopy Hotels Baltimore, Maryland US Hotel\", \"Canopy Hilton Baltimore Harbor Point Canopy Hotels Baltimore, Maryland US Resort\", \"Canopy Hilton Baltimore Harbor Point Canopy Hotels Baltimore, Maryland US\", \"Canopy Hilton Baltimore Harbor Point Hilton Hotel\", \"Canopy Hilton Baltimore Harbor Point Hilton Resort\", \"Canopy Hilton Baltimore Harbor Point Hilton\", \"Canopy Hilton Baltimore Harbor Point Hilton Baltimore, Maryland US Hotel\", \"Canopy Hilton Baltimore Harbor Point Hilton Baltimore, Maryland US Resort\", \"Canopy Hilton Baltimore Harbor Point Hilton Baltimore, Maryland US\", \"Canopy by Hilton Baltimore Harbor Point Hotel\", \"Canopy by Hilton Baltimore Harbor Point Resort\", \"Canopy by Hilton Baltimore Harbor Point\", \"Canopy by Hilton Baltimore Harbor Point Baltimore, Maryland US Hotel\", \"Canopy by Hilton Baltimore Harbor Point Baltimore, Maryland US Resort\", \"Canopy by Hilton Baltimore Harbor Point Baltimore, Maryland US\"], \"v\": 3}": {
@@ -136528,12 +136526,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Amor Arenal Adults Friendly\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Amor Arenal Adults Friendly Hotel\", \"Amor Arenal Adults Friendly Resort\", \"Amor Arenal Adults Friendly\", \"Amor Arenal Adults Friendly La Fortuna, Costa Rica Hotel\", \"Amor Arenal Adults Friendly La Fortuna, Costa Rica Resort\", \"Amor Arenal Adults Friendly La Fortuna, Costa Rica\"], \"v\": 3}": {
-    "lat": 10.5024055,
-    "lon": -84.68328960000001,
-    "formatted_address": "7km oeste de la iglesia de La Fortuna y 800 metros noreste de la entrada del Hotel Volcano Lodge, Provincia de Alajuela, La Fortuna, 21007, Costa Rica",
+    "lat": 10.4968478,
+    "lon": -84.69643429999999,
+    "formatted_address": "7 km oeste del centro de La Fortuna en la Ruta 142 camino al, Parque Nacional Volcán Arenal, Provincia de Alajuela, La Fortuna, 21007, Costa Rica",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJQbQk0QcMoI8RIcFh_n8Psqo",
+    "place_id": "ChIJ2zUNLpYOoI8R645qcfQPPpM",
     "types": [
       "establishment",
       "lodging",
@@ -136542,31 +136540,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "7km oeste de la iglesia de La Fortuna y 800 metros noreste de la entrada del Hotel Volcano Lodge, Provincia de Alajuela, La Fortuna, 21007, Costa Rica",
+      "formatted_address": "7 km oeste del centro de La Fortuna en la Ruta 142 camino al, Parque Nacional Volcán Arenal, Provincia de Alajuela, La Fortuna, 21007, Costa Rica",
       "geometry": {
         "location": {
-          "lat": 10.5024055,
-          "lng": -84.68328960000001
+          "lat": 10.4968478,
+          "lng": -84.69643429999999
         },
         "viewport": {
           "northeast": {
-            "lat": 10.5036275302915,
-            "lng": -84.6819574697085
+            "lat": 10.4984439302915,
+            "lng": -84.69474291970849
           },
           "southwest": {
-            "lat": 10.5009295697085,
-            "lng": -84.6846554302915
+            "lat": 10.4957459697085,
+            "lng": -84.6974408802915
           }
         }
       },
-      "name": "Arenal Springs Resort and Spa",
-      "place_id": "ChIJQbQk0QcMoI8RIcFh_n8Psqo",
+      "name": "Amor Arenal",
+      "place_id": "ChIJ2zUNLpYOoI8R645qcfQPPpM",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "http://www.hotelarenalspring.com/"
+      "website": "http://www.amorarenal.com/"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Avidea - Adults Only\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Avidea - Adults Only Hotel\", \"Avidea - Adults Only Resort\", \"Avidea - Adults Only\", \"Avidea - Adults Only Lagundo, Italy Hotel\", \"Avidea - Adults Only Lagundo, Italy Resort\", \"Avidea - Adults Only Lagundo, Italy\", \"Avidea Adults Only Hotel\", \"Avidea Adults Only Resort\", \"Avidea Adults Only\", \"Avidea Adults Only Lagundo, Italy Hotel\", \"Avidea Adults Only Lagundo, Italy Resort\", \"Avidea Adults Only Lagundo, Italy\"], \"v\": 3}": {
@@ -137226,16 +137224,16 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Shade Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Shade Hotel Hotel\", \"Shade Hotel Resort\", \"Shade Hotel\", \"Shade Hotel Manhattan Beach, California US Hotel\", \"Shade Hotel Manhattan Beach, California US Resort\", \"Shade Hotel Manhattan Beach, California US\"], \"v\": 3}": {
-    "lat": 33.8476568,
-    "lon": -118.3954051,
-    "formatted_address": "655 N Harbor Dr, Redondo Beach, CA 90277, USA",
+    "lat": 33.8865391,
+    "lon": -118.4084015,
+    "formatted_address": "1221 N Valley Dr, Manhattan Beach, CA 90266, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJo0dgRWCzwoARifiD1IZNvRc",
+    "place_id": "ChIJZ2-WQeyzwoARzSdZCmxdjJY",
     "types": [
+      "bar",
       "establishment",
       "food",
-      "health",
       "lodging",
       "point_of_interest",
       "restaurant"
@@ -137243,34 +137241,34 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "655 N Harbor Dr, Redondo Beach, CA 90277, USA",
+      "formatted_address": "1221 N Valley Dr, Manhattan Beach, CA 90266, USA",
       "geometry": {
         "location": {
-          "lat": 33.8476568,
-          "lng": -118.3954051
+          "lat": 33.8865391,
+          "lng": -118.4084015
         },
         "viewport": {
           "northeast": {
-            "lat": 33.8489815302915,
-            "lng": -118.3938945697085
+            "lat": 33.8878720802915,
+            "lng": -118.4070260697085
           },
           "southwest": {
-            "lat": 33.8462835697085,
-            "lng": -118.3965925302915
+            "lat": 33.8851741197085,
+            "lng": -118.4097240302915
           }
         }
       },
-      "name": "Shade Hotel Redondo Beach",
-      "place_id": "ChIJo0dgRWCzwoARifiD1IZNvRc",
+      "name": "Shade Hotel Manhattan Beach",
+      "place_id": "ChIJZ2-WQeyzwoARzSdZCmxdjJY",
       "types": [
+        "bar",
         "establishment",
         "food",
-        "health",
         "lodging",
         "point_of_interest",
         "restaurant"
       ],
-      "website": "http://rb.shadehotel.com/"
+      "website": "https://mb.shadehotel.com/"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Sanctuary Beach Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sanctuary Beach Resort Hotel\", \"Sanctuary Beach Resort Resort\", \"Sanctuary Beach Resort\", \"Sanctuary Beach Resort Marina, California US Hotel\", \"Sanctuary Beach Resort Marina, California US Resort\", \"Sanctuary Beach Resort Marina, California US\"], \"v\": 3}": {
@@ -141695,12 +141693,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton New Orleans Downtown\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton New Orleans Downtown Canopy Hotels Hotel\", \"Canopy by Hilton New Orleans Downtown Canopy Hotels Resort\", \"Canopy by Hilton New Orleans Downtown Canopy Hotels\", \"Canopy by Hilton New Orleans Downtown Canopy Hotels New Orleans, Louisiana US Hotel\", \"Canopy by Hilton New Orleans Downtown Canopy Hotels New Orleans, Louisiana US Resort\", \"Canopy by Hilton New Orleans Downtown Canopy Hotels New Orleans, Louisiana US\", \"Canopy by Hilton New Orleans Downtown Hilton Hotel\", \"Canopy by Hilton New Orleans Downtown Hilton Resort\", \"Canopy by Hilton New Orleans Downtown Hilton\", \"Canopy by Hilton New Orleans Downtown Hilton New Orleans, Louisiana US Hotel\", \"Canopy by Hilton New Orleans Downtown Hilton New Orleans, Louisiana US Resort\", \"Canopy by Hilton New Orleans Downtown Hilton New Orleans, Louisiana US\", \"Canopy Hilton New Orleans Downtown Canopy Hotels Hotel\", \"Canopy Hilton New Orleans Downtown Canopy Hotels Resort\", \"Canopy Hilton New Orleans Downtown Canopy Hotels\", \"Canopy Hilton New Orleans Downtown Canopy Hotels New Orleans, Louisiana US Hotel\", \"Canopy Hilton New Orleans Downtown Canopy Hotels New Orleans, Louisiana US Resort\", \"Canopy Hilton New Orleans Downtown Canopy Hotels New Orleans, Louisiana US\", \"Canopy Hilton New Orleans Downtown Hilton Hotel\", \"Canopy Hilton New Orleans Downtown Hilton Resort\", \"Canopy Hilton New Orleans Downtown Hilton\", \"Canopy Hilton New Orleans Downtown Hilton New Orleans, Louisiana US Hotel\", \"Canopy Hilton New Orleans Downtown Hilton New Orleans, Louisiana US Resort\", \"Canopy Hilton New Orleans Downtown Hilton New Orleans, Louisiana US\", \"Canopy by Hilton New Orleans Downtown Hotel\", \"Canopy by Hilton New Orleans Downtown Resort\", \"Canopy by Hilton New Orleans Downtown\", \"Canopy by Hilton New Orleans Downtown New Orleans, Louisiana US Hotel\", \"Canopy by Hilton New Orleans Downtown New Orleans, Louisiana US Resort\", \"Canopy by Hilton New Orleans Downtown New Orleans, Louisiana US\"], \"v\": 3}": {
-    "lat": 29.9475062,
-    "lon": -90.063454,
-    "formatted_address": "Two Poydras St, New Orleans, LA 70130, USA",
+    "lat": 29.9540438,
+    "lon": -90.0741998,
+    "formatted_address": "1100 Tulane Ave, New Orleans, LA 70112, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJvaeaCm2mIIYR4M1eLRsuejI",
+    "place_id": "ChIJxxg3fgqmIIYRefVaYPFWhWA",
     "types": [
       "establishment",
       "lodging",
@@ -141709,31 +141707,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Two Poydras St, New Orleans, LA 70130, USA",
+      "formatted_address": "1100 Tulane Ave, New Orleans, LA 70112, USA",
       "geometry": {
         "location": {
-          "lat": 29.9475062,
-          "lng": -90.063454
+          "lat": 29.9540438,
+          "lng": -90.0741998
         },
         "viewport": {
           "northeast": {
-            "lat": 29.9491329302915,
-            "lng": -90.0624677197085
+            "lat": 29.9554406302915,
+            "lng": -90.07277616970852
           },
           "southwest": {
-            "lat": 29.9464349697085,
-            "lng": -90.0651656802915
+            "lat": 29.9527426697085,
+            "lng": -90.07547413029152
           }
         }
       },
-      "name": "Hilton New Orleans Riverside",
-      "place_id": "ChIJvaeaCm2mIIYR4M1eLRsuejI",
+      "name": "Canopy by Hilton New Orleans Downtown",
+      "place_id": "ChIJxxg3fgqmIIYRefVaYPFWhWA",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/msynhhh-hilton-new-orleans-riverside/?SEO_id=GMB-AMER-HH-MSYNHHH&y_source=1_NzIxNzU5LTcxNS1sb2NhdGlvbi53ZWJzaXRl"
+      "website": "https://www.hilton.com/en/hotels/msypypy-canopy-new-orleans-downtown/?SEO_id=GMB-AMER-PY-MSYPYPY&y_source=1_Mjc3Mjg3NTAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Portland Pearl District\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Portland Pearl District Canopy Hotels Hotel\", \"Canopy by Hilton Portland Pearl District Canopy Hotels Resort\", \"Canopy by Hilton Portland Pearl District Canopy Hotels\", \"Canopy by Hilton Portland Pearl District Canopy Hotels Portland, Oregon US Hotel\", \"Canopy by Hilton Portland Pearl District Canopy Hotels Portland, Oregon US Resort\", \"Canopy by Hilton Portland Pearl District Canopy Hotels Portland, Oregon US\", \"Canopy by Hilton Portland Pearl District Hilton Hotel\", \"Canopy by Hilton Portland Pearl District Hilton Resort\", \"Canopy by Hilton Portland Pearl District Hilton\", \"Canopy by Hilton Portland Pearl District Hilton Portland, Oregon US Hotel\", \"Canopy by Hilton Portland Pearl District Hilton Portland, Oregon US Resort\", \"Canopy by Hilton Portland Pearl District Hilton Portland, Oregon US\", \"Canopy Hilton Portland Pearl District Canopy Hotels Hotel\", \"Canopy Hilton Portland Pearl District Canopy Hotels Resort\", \"Canopy Hilton Portland Pearl District Canopy Hotels\", \"Canopy Hilton Portland Pearl District Canopy Hotels Portland, Oregon US Hotel\", \"Canopy Hilton Portland Pearl District Canopy Hotels Portland, Oregon US Resort\", \"Canopy Hilton Portland Pearl District Canopy Hotels Portland, Oregon US\", \"Canopy Hilton Portland Pearl District Hilton Hotel\", \"Canopy Hilton Portland Pearl District Hilton Resort\", \"Canopy Hilton Portland Pearl District Hilton\", \"Canopy Hilton Portland Pearl District Hilton Portland, Oregon US Hotel\", \"Canopy Hilton Portland Pearl District Hilton Portland, Oregon US Resort\", \"Canopy Hilton Portland Pearl District Hilton Portland, Oregon US\", \"Canopy by Hilton Portland Pearl District Hotel\", \"Canopy by Hilton Portland Pearl District Resort\", \"Canopy by Hilton Portland Pearl District\", \"Canopy by Hilton Portland Pearl District Portland, Oregon US Hotel\", \"Canopy by Hilton Portland Pearl District Portland, Oregon US Resort\", \"Canopy by Hilton Portland Pearl District Portland, Oregon US\"], \"v\": 3}": {
@@ -141863,12 +141861,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton West Palm Beach Downtown\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton West Palm Beach Downtown Canopy Hotels Hotel\", \"Canopy by Hilton West Palm Beach Downtown Canopy Hotels Resort\", \"Canopy by Hilton West Palm Beach Downtown Canopy Hotels\", \"Canopy by Hilton West Palm Beach Downtown Canopy Hotels West Palm Beach, Florida US Hotel\", \"Canopy by Hilton West Palm Beach Downtown Canopy Hotels West Palm Beach, Florida US Resort\", \"Canopy by Hilton West Palm Beach Downtown Canopy Hotels West Palm Beach, Florida US\", \"Canopy by Hilton West Palm Beach Downtown Hilton Hotel\", \"Canopy by Hilton West Palm Beach Downtown Hilton Resort\", \"Canopy by Hilton West Palm Beach Downtown Hilton\", \"Canopy by Hilton West Palm Beach Downtown Hilton West Palm Beach, Florida US Hotel\", \"Canopy by Hilton West Palm Beach Downtown Hilton West Palm Beach, Florida US Resort\", \"Canopy by Hilton West Palm Beach Downtown Hilton West Palm Beach, Florida US\", \"Canopy Hilton West Palm Beach Downtown Canopy Hotels Hotel\", \"Canopy Hilton West Palm Beach Downtown Canopy Hotels Resort\", \"Canopy Hilton West Palm Beach Downtown Canopy Hotels\", \"Canopy Hilton West Palm Beach Downtown Canopy Hotels West Palm Beach, Florida US Hotel\", \"Canopy Hilton West Palm Beach Downtown Canopy Hotels West Palm Beach, Florida US Resort\", \"Canopy Hilton West Palm Beach Downtown Canopy Hotels West Palm Beach, Florida US\", \"Canopy Hilton West Palm Beach Downtown Hilton Hotel\", \"Canopy Hilton West Palm Beach Downtown Hilton Resort\", \"Canopy Hilton West Palm Beach Downtown Hilton\", \"Canopy Hilton West Palm Beach Downtown Hilton West Palm Beach, Florida US Hotel\", \"Canopy Hilton West Palm Beach Downtown Hilton West Palm Beach, Florida US Resort\", \"Canopy Hilton West Palm Beach Downtown Hilton West Palm Beach, Florida US\", \"Canopy by Hilton West Palm Beach Downtown Hotel\", \"Canopy by Hilton West Palm Beach Downtown Resort\", \"Canopy by Hilton West Palm Beach Downtown\", \"Canopy by Hilton West Palm Beach Downtown West Palm Beach, Florida US Hotel\", \"Canopy by Hilton West Palm Beach Downtown West Palm Beach, Florida US Resort\", \"Canopy by Hilton West Palm Beach Downtown West Palm Beach, Florida US\"], \"v\": 3}": {
-    "lat": 26.7053293,
-    "lon": -80.05764099999999,
-    "formatted_address": "600 Okeechobee Blvd, West Palm Beach, FL 33401, USA",
+    "lat": 26.7069416,
+    "lon": -80.05327439999999,
+    "formatted_address": "380 Trinity Pl, West Palm Beach, FL 33401, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJtYweL17W2IgRmGSJm91_PE8",
+    "place_id": "ChIJOXWHTtPX2IgRfHWp2vMb4Ro",
     "types": [
       "establishment",
       "lodging",
@@ -141877,31 +141875,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "600 Okeechobee Blvd, West Palm Beach, FL 33401, USA",
+      "formatted_address": "380 Trinity Pl, West Palm Beach, FL 33401, USA",
       "geometry": {
         "location": {
-          "lat": 26.7053293,
-          "lng": -80.05764099999999
+          "lat": 26.7069416,
+          "lng": -80.05327439999999
         },
         "viewport": {
           "northeast": {
-            "lat": 26.7063392302915,
-            "lng": -80.0559046697085
+            "lat": 26.7083553802915,
+            "lng": -80.05193066970848
           },
           "southwest": {
-            "lat": 26.70364126970849,
-            "lng": -80.0586026302915
+            "lat": 26.7056574197085,
+            "lng": -80.0546286302915
           }
         }
       },
-      "name": "Hilton West Palm Beach",
-      "place_id": "ChIJtYweL17W2IgRmGSJm91_PE8",
+      "name": "Canopy by Hilton West Palm Beach Downtown",
+      "place_id": "ChIJOXWHTtPX2IgRfHWp2vMb4Ro",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/pbiwphh-hilton-west-palm-beach/?SEO_id=GMB-AMER-HH-PBIWPHH&y_source=1_Mjg1Njc1Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.hilton.com/en/hotels/pbicppy-canopy-west-palm-beach-downtown/?SEO_id=GMB-AMER-PY-PBICPPY&y_source=1_MTUzNjkwNTAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Canopy by Hilton Zagreb - City Centre\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Canopy by Hilton Zagreb - City Centre Canopy Hotels Hotel\", \"Canopy by Hilton Zagreb - City Centre Canopy Hotels Resort\", \"Canopy by Hilton Zagreb - City Centre Canopy Hotels\", \"Canopy by Hilton Zagreb - City Centre Canopy Hotels Zagreb, Croatia Hotel\", \"Canopy by Hilton Zagreb - City Centre Canopy Hotels Zagreb, Croatia Resort\", \"Canopy by Hilton Zagreb - City Centre Canopy Hotels Zagreb, Croatia\", \"Canopy by Hilton Zagreb - City Centre Hilton Hotel\", \"Canopy by Hilton Zagreb - City Centre Hilton Resort\", \"Canopy by Hilton Zagreb - City Centre Hilton\", \"Canopy by Hilton Zagreb - City Centre Hilton Zagreb, Croatia Hotel\", \"Canopy by Hilton Zagreb - City Centre Hilton Zagreb, Croatia Resort\", \"Canopy by Hilton Zagreb - City Centre Hilton Zagreb, Croatia\", \"Canopy Hilton Zagreb City Centre Canopy Hotels Hotel\", \"Canopy Hilton Zagreb City Centre Canopy Hotels Resort\", \"Canopy Hilton Zagreb City Centre Canopy Hotels\", \"Canopy Hilton Zagreb City Centre Canopy Hotels Zagreb, Croatia Hotel\", \"Canopy Hilton Zagreb City Centre Canopy Hotels Zagreb, Croatia Resort\", \"Canopy Hilton Zagreb City Centre Canopy Hotels Zagreb, Croatia\", \"Canopy Hilton Zagreb City Centre Hilton Hotel\", \"Canopy Hilton Zagreb City Centre Hilton Resort\", \"Canopy Hilton Zagreb City Centre Hilton\", \"Canopy Hilton Zagreb City Centre Hilton Zagreb, Croatia Hotel\", \"Canopy Hilton Zagreb City Centre Hilton Zagreb, Croatia Resort\", \"Canopy Hilton Zagreb City Centre Hilton Zagreb, Croatia\", \"Canopy by Hilton Zagreb - City Centre Hotel\", \"Canopy by Hilton Zagreb - City Centre Resort\", \"Canopy by Hilton Zagreb - City Centre\", \"Canopy by Hilton Zagreb - City Centre Zagreb, Croatia Hotel\", \"Canopy by Hilton Zagreb - City Centre Zagreb, Croatia Resort\", \"Canopy by Hilton Zagreb - City Centre Zagreb, Croatia\"], \"v\": 3}": {
@@ -141947,12 +141945,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Crown Metropol\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Crown Metropol Crown Resorts Hotel\", \"Crown Metropol Crown Resorts Resort\", \"Crown Metropol Crown Resorts\", \"Crown Metropol Crown Resorts Melbourne, Australia Hotel\", \"Crown Metropol Crown Resorts Melbourne, Australia Resort\", \"Crown Metropol Crown Resorts Melbourne, Australia\", \"Crown Metropol Hilton Hotel\", \"Crown Metropol Hilton Resort\", \"Crown Metropol Hilton\", \"Crown Metropol Hilton Melbourne, Australia Hotel\", \"Crown Metropol Hilton Melbourne, Australia Resort\", \"Crown Metropol Hilton Melbourne, Australia\", \"Crown Metropol Hotel\", \"Crown Metropol Resort\", \"Crown Metropol\", \"Crown Metropol Melbourne, Australia Hotel\", \"Crown Metropol Melbourne, Australia Resort\", \"Crown Metropol Melbourne, Australia\"], \"v\": 3}": {
-    "lat": -31.9609328,
-    "lon": 115.8940197,
-    "formatted_address": "Great Eastern Hwy, Burswood WA 6100, Australia",
+    "lat": -37.8257525,
+    "lon": 144.9576725,
+    "formatted_address": "8 Whiteman St, Southbank VIC 3006, Australia",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJaTXp0Ai7MioR1mPSYU8odtY",
+    "place_id": "ChIJs-Q2IlNd1moRGz76n97nmCg",
     "types": [
       "establishment",
       "lodging",
@@ -141961,31 +141959,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Great Eastern Hwy, Burswood WA 6100, Australia",
+      "formatted_address": "8 Whiteman St, Southbank VIC 3006, Australia",
       "geometry": {
         "location": {
-          "lat": -31.9609328,
-          "lng": 115.8940197
+          "lat": -37.8257525,
+          "lng": 144.9576725
         },
         "viewport": {
           "northeast": {
-            "lat": -31.9595763,
-            "lng": 115.896502
+            "lat": -37.8243547697085,
+            "lng": 144.9590758802915
           },
           "southwest": {
-            "lat": -31.963057,
-            "lng": 115.8917692
+            "lat": -37.8270527302915,
+            "lng": 144.9563779197085
           }
         }
       },
-      "name": "Crown Metropol Perth",
-      "place_id": "ChIJaTXp0Ai7MioR1mPSYU8odtY",
+      "name": "Crown Metropol Melbourne",
+      "place_id": "ChIJs-Q2IlNd1moRGz76n97nmCg",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.crownhotels.com.au/perth/crown-metropol/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect"
+      "website": "https://www.crownhotels.com.au/melbourne/crown-metropol?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel del Coronado, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel del Coronado, Curio Collection by Hilton Curio Collection Hotel\", \"Hotel del Coronado, Curio Collection by Hilton Curio Collection Resort\", \"Hotel del Coronado, Curio Collection by Hilton Curio Collection\", \"Hotel del Coronado, Curio Collection by Hilton Curio Collection Coronado, California US Hotel\", \"Hotel del Coronado, Curio Collection by Hilton Curio Collection Coronado, California US Resort\", \"Hotel del Coronado, Curio Collection by Hilton Curio Collection Coronado, California US\", \"Hotel del Coronado, Curio Collection by Hilton Hilton Hotel\", \"Hotel del Coronado, Curio Collection by Hilton Hilton Resort\", \"Hotel del Coronado, Curio Collection by Hilton Hilton\", \"Hotel del Coronado, Curio Collection by Hilton Hilton Coronado, California US Hotel\", \"Hotel del Coronado, Curio Collection by Hilton Hilton Coronado, California US Resort\", \"Hotel del Coronado, Curio Collection by Hilton Hilton Coronado, California US\", \"Hotel Del Coronado Curio Collection Hilton Curio Collection Hotel\", \"Hotel Del Coronado Curio Collection Hilton Curio Collection Resort\", \"Hotel Del Coronado Curio Collection Hilton Curio Collection\", \"Hotel Del Coronado Curio Collection Hilton Curio Collection Coronado, California US Hotel\", \"Hotel Del Coronado Curio Collection Hilton Curio Collection Coronado, California US Resort\", \"Hotel Del Coronado Curio Collection Hilton Curio Collection Coronado, California US\", \"Hotel Del Coronado Curio Collection Hilton Hilton Hotel\", \"Hotel Del Coronado Curio Collection Hilton Hilton Resort\", \"Hotel Del Coronado Curio Collection Hilton Hilton\", \"Hotel Del Coronado Curio Collection Hilton Hilton Coronado, California US Hotel\", \"Hotel Del Coronado Curio Collection Hilton Hilton Coronado, California US Resort\", \"Hotel Del Coronado Curio Collection Hilton Hilton Coronado, California US\", \"Hotel del Coronado, Curio Collection by Hilton Hotel\", \"Hotel del Coronado, Curio Collection by Hilton Resort\", \"Hotel del Coronado, Curio Collection by Hilton\", \"Hotel del Coronado, Curio Collection by Hilton Coronado, California US Hotel\", \"Hotel del Coronado, Curio Collection by Hilton Coronado, California US Resort\", \"Hotel del Coronado, Curio Collection by Hilton Coronado, California US\"], \"v\": 3}": {
@@ -144570,12 +144568,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"One Washington Circle DC, Tapestry Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"One Washington Circle DC, Tapestry Collection by Hilton Hilton Hotels & Resorts Hotel\", \"One Washington Circle DC, Tapestry Collection by Hilton Hilton Hotels & Resorts Resort\", \"One Washington Circle DC, Tapestry Collection by Hilton Hilton Hotels & Resorts\", \"One Washington Circle DC, Tapestry Collection by Hilton Hilton Hotels & Resorts Washington, District of Columbia US Hotel\", \"One Washington Circle DC, Tapestry Collection by Hilton Hilton Hotels & Resorts Washington, District of Columbia US Resort\", \"One Washington Circle DC, Tapestry Collection by Hilton Hilton Hotels & Resorts Washington, District of Columbia US\", \"One Washington Circle DC, Tapestry Collection by Hilton Hilton Hotel\", \"One Washington Circle DC, Tapestry Collection by Hilton Hilton Resort\", \"One Washington Circle DC, Tapestry Collection by Hilton Hilton\", \"One Washington Circle DC, Tapestry Collection by Hilton Hilton Washington, District of Columbia US Hotel\", \"One Washington Circle DC, Tapestry Collection by Hilton Hilton Washington, District of Columbia US Resort\", \"One Washington Circle DC, Tapestry Collection by Hilton Hilton Washington, District of Columbia US\", \"One Washington Circle Dc Tapestry Collection Hilton Hilton Hotels & Resorts Hotel\", \"One Washington Circle Dc Tapestry Collection Hilton Hilton Hotels & Resorts Resort\", \"One Washington Circle Dc Tapestry Collection Hilton Hilton Hotels & Resorts\", \"One Washington Circle Dc Tapestry Collection Hilton Hilton Hotels & Resorts Washington, District of Columbia US Hotel\", \"One Washington Circle Dc Tapestry Collection Hilton Hilton Hotels & Resorts Washington, District of Columbia US Resort\", \"One Washington Circle Dc Tapestry Collection Hilton Hilton Hotels & Resorts Washington, District of Columbia US\", \"One Washington Circle Dc Tapestry Collection Hilton Hilton Hotel\", \"One Washington Circle Dc Tapestry Collection Hilton Hilton Resort\", \"One Washington Circle Dc Tapestry Collection Hilton Hilton\", \"One Washington Circle Dc Tapestry Collection Hilton Hilton Washington, District of Columbia US Hotel\", \"One Washington Circle Dc Tapestry Collection Hilton Hilton Washington, District of Columbia US Resort\", \"One Washington Circle Dc Tapestry Collection Hilton Hilton Washington, District of Columbia US\", \"One Washington Circle DC, Tapestry Collection by Hilton Hotel\", \"One Washington Circle DC, Tapestry Collection by Hilton Resort\", \"One Washington Circle DC, Tapestry Collection by Hilton\", \"One Washington Circle DC, Tapestry Collection by Hilton Washington, District of Columbia US Hotel\", \"One Washington Circle DC, Tapestry Collection by Hilton Washington, District of Columbia US Resort\", \"One Washington Circle DC, Tapestry Collection by Hilton Washington, District of Columbia US\"], \"v\": 3}": {
-    "lat": 38.9165712,
-    "lon": -77.0454106,
-    "formatted_address": "1919 Connecticut Ave NW, Washington, DC 20009, USA",
+    "lat": 38.9034054,
+    "lon": -77.0497749,
+    "formatted_address": "1 Washington Cir NW, Washington, DC 20037, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJpRVYacW3t4kRdfwMBb3fwLY",
+    "place_id": "ChIJjzzvCXe3t4kROKRKQYO22o0",
     "types": [
       "establishment",
       "lodging",
@@ -144584,31 +144582,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "1919 Connecticut Ave NW, Washington, DC 20009, USA",
+      "formatted_address": "1 Washington Cir NW, Washington, DC 20037, USA",
       "geometry": {
         "location": {
-          "lat": 38.9165712,
-          "lng": -77.0454106
+          "lat": 38.9034054,
+          "lng": -77.0497749
         },
         "viewport": {
           "northeast": {
-            "lat": 38.9176784802915,
-            "lng": -77.0440068197085
+            "lat": 38.9047020302915,
+            "lng": -77.0484491197085
           },
           "southwest": {
-            "lat": 38.9149805197085,
-            "lng": -77.0467047802915
+            "lat": 38.9020040697085,
+            "lng": -77.05114708029151
           }
         }
       },
-      "name": "Washington Hilton",
-      "place_id": "ChIJpRVYacW3t4kRdfwMBb3fwLY",
+      "name": "One Washington Circle, Tapestry Collection by Hilton",
+      "place_id": "ChIJjzzvCXe3t4kROKRKQYO22o0",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/dcawhhh-washington-hilton/?SEO_id=GMB-AMER-HH-DCAWHHH"
+      "website": "https://www.hilton.com/en/hotels/wasnwup-one-washington-circle-dc/"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Indigo Bintan Lagoi Beach by IHG\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Indigo Bintan Lagoi Beach by IHG Hotel Indigo Hotel\", \"Hotel Indigo Bintan Lagoi Beach by IHG Hotel Indigo Resort\", \"Hotel Indigo Bintan Lagoi Beach by IHG Hotel Indigo\", \"Hotel Indigo Bintan Lagoi Beach by IHG Hotel Indigo Bintan, Indonesia Hotel\", \"Hotel Indigo Bintan Lagoi Beach by IHG Hotel Indigo Bintan, Indonesia Resort\", \"Hotel Indigo Bintan Lagoi Beach by IHG Hotel Indigo Bintan, Indonesia\", \"Hotel Indigo Bintan Lagoi Beach by IHG Hilton Hotel\", \"Hotel Indigo Bintan Lagoi Beach by IHG Hilton Resort\", \"Hotel Indigo Bintan Lagoi Beach by IHG Hilton\", \"Hotel Indigo Bintan Lagoi Beach by IHG Hilton Bintan, Indonesia Hotel\", \"Hotel Indigo Bintan Lagoi Beach by IHG Hilton Bintan, Indonesia Resort\", \"Hotel Indigo Bintan Lagoi Beach by IHG Hilton Bintan, Indonesia\", \"Hotel Indigo Bintan Lagoi Beach Ihg Hotel Indigo Hotel\", \"Hotel Indigo Bintan Lagoi Beach Ihg Hotel Indigo Resort\", \"Hotel Indigo Bintan Lagoi Beach Ihg Hotel Indigo\", \"Hotel Indigo Bintan Lagoi Beach Ihg Hotel Indigo Bintan, Indonesia Hotel\", \"Hotel Indigo Bintan Lagoi Beach Ihg Hotel Indigo Bintan, Indonesia Resort\", \"Hotel Indigo Bintan Lagoi Beach Ihg Hotel Indigo Bintan, Indonesia\", \"Hotel Indigo Bintan Lagoi Beach Ihg Hilton Hotel\", \"Hotel Indigo Bintan Lagoi Beach Ihg Hilton Resort\", \"Hotel Indigo Bintan Lagoi Beach Ihg Hilton\", \"Hotel Indigo Bintan Lagoi Beach Ihg Hilton Bintan, Indonesia Hotel\", \"Hotel Indigo Bintan Lagoi Beach Ihg Hilton Bintan, Indonesia Resort\", \"Hotel Indigo Bintan Lagoi Beach Ihg Hilton Bintan, Indonesia\", \"Hotel Indigo Bintan Lagoi Beach by IHG Hotel\", \"Hotel Indigo Bintan Lagoi Beach by IHG Resort\", \"Hotel Indigo Bintan Lagoi Beach by IHG\", \"Hotel Indigo Bintan Lagoi Beach by IHG Bintan, Indonesia Hotel\", \"Hotel Indigo Bintan Lagoi Beach by IHG Bintan, Indonesia Resort\", \"Hotel Indigo Bintan Lagoi Beach by IHG Bintan, Indonesia\"], \"v\": 3}": {
@@ -146697,47 +146695,45 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Moire Hoi An, Vignette Collection by IHG\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Moire Hoi An, Vignette Collection by IHG IHG Hotels & Resorts Hotel\", \"Moire Hoi An, Vignette Collection by IHG IHG Hotels & Resorts Resort\", \"Moire Hoi An, Vignette Collection by IHG IHG Hotels & Resorts\", \"Moire Hoi An, Vignette Collection by IHG IHG Hotels & Resorts Hoi An, Vietnam Hotel\", \"Moire Hoi An, Vignette Collection by IHG IHG Hotels & Resorts Hoi An, Vietnam Resort\", \"Moire Hoi An, Vignette Collection by IHG IHG Hotels & Resorts Hoi An, Vietnam\", \"Moire Hoi An, Vignette Collection by IHG Hilton Hotel\", \"Moire Hoi An, Vignette Collection by IHG Hilton Resort\", \"Moire Hoi An, Vignette Collection by IHG Hilton\", \"Moire Hoi An, Vignette Collection by IHG Hilton Hoi An, Vietnam Hotel\", \"Moire Hoi An, Vignette Collection by IHG Hilton Hoi An, Vietnam Resort\", \"Moire Hoi An, Vignette Collection by IHG Hilton Hoi An, Vietnam\", \"Moire Hoi An Vignette Collection Ihg IHG Hotels & Resorts Hotel\", \"Moire Hoi An Vignette Collection Ihg IHG Hotels & Resorts Resort\", \"Moire Hoi An Vignette Collection Ihg IHG Hotels & Resorts\", \"Moire Hoi An Vignette Collection Ihg IHG Hotels & Resorts Hoi An, Vietnam Hotel\", \"Moire Hoi An Vignette Collection Ihg IHG Hotels & Resorts Hoi An, Vietnam Resort\", \"Moire Hoi An Vignette Collection Ihg IHG Hotels & Resorts Hoi An, Vietnam\", \"Moire Hoi An Vignette Collection Ihg Hilton Hotel\", \"Moire Hoi An Vignette Collection Ihg Hilton Resort\", \"Moire Hoi An Vignette Collection Ihg Hilton\", \"Moire Hoi An Vignette Collection Ihg Hilton Hoi An, Vietnam Hotel\", \"Moire Hoi An Vignette Collection Ihg Hilton Hoi An, Vietnam Resort\", \"Moire Hoi An Vignette Collection Ihg Hilton Hoi An, Vietnam\", \"Moire Hoi An, Vignette Collection by IHG Hotel\", \"Moire Hoi An, Vignette Collection by IHG Resort\", \"Moire Hoi An, Vignette Collection by IHG\", \"Moire Hoi An, Vignette Collection by IHG Hoi An, Vietnam Hotel\", \"Moire Hoi An, Vignette Collection by IHG Hoi An, Vietnam Resort\", \"Moire Hoi An, Vignette Collection by IHG Hoi An, Vietnam\"], \"v\": 3}": {
-    "lat": 15.8754738,
-    "lon": 108.3375462,
-    "formatted_address": "Cồn Hến, Hội An, Quảng Nam 564040, Vietnam",
+    "lat": 15.8747482,
+    "lon": 108.3328995,
+    "formatted_address": "Xuyen Trung Block, Ward, Quảng Nam, Vietnam",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJOcoNTysMQjERTo745Waqjzw",
+    "place_id": "ChIJs1rqfRcPQjERepQmvJmfOYM",
     "types": [
       "establishment",
-      "health",
       "lodging",
       "point_of_interest"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Cồn Hến, Hội An, Quảng Nam 564040, Vietnam",
+      "formatted_address": "Xuyen Trung Block, Ward, Quảng Nam, Vietnam",
       "geometry": {
         "location": {
-          "lat": 15.8754738,
-          "lng": 108.3375462
+          "lat": 15.8747482,
+          "lng": 108.3328995
         },
         "viewport": {
           "northeast": {
-            "lat": 15.8767179302915,
-            "lng": 108.3392853302915
+            "lat": 15.8760615802915,
+            "lng": 108.3342727302915
           },
           "southwest": {
-            "lat": 15.8740199697085,
-            "lng": 108.3365873697085
+            "lat": 15.8733636197085,
+            "lng": 108.3315747697085
           }
         }
       },
-      "name": "HOI AN MEMORIES HOTEL by Fusion",
-      "place_id": "ChIJOcoNTysMQjERTo745Waqjzw",
+      "name": "Moire Hoi An, Vignette Collection by IHG",
+      "place_id": "ChIJs1rqfRcPQjERepQmvJmfOYM",
       "types": [
         "establishment",
-        "health",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://hoianmemoriesresort.com/"
+      "website": "https://www.ihg.com/vignettecollection/hotels/gb/en/hoi-an/dadho/hoteldetail"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"InterContinental Houston by IHG\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Houston by IHG IHG Hotels & Resorts Hotel\", \"InterContinental Houston by IHG IHG Hotels & Resorts Resort\", \"InterContinental Houston by IHG IHG Hotels & Resorts\", \"InterContinental Houston by IHG IHG Hotels & Resorts Houston, Texas US Hotel\", \"InterContinental Houston by IHG IHG Hotels & Resorts Houston, Texas US Resort\", \"InterContinental Houston by IHG IHG Hotels & Resorts Houston, Texas US\", \"InterContinental Houston by IHG Hilton Hotel\", \"InterContinental Houston by IHG Hilton Resort\", \"InterContinental Houston by IHG Hilton\", \"InterContinental Houston by IHG Hilton Houston, Texas US Hotel\", \"InterContinental Houston by IHG Hilton Houston, Texas US Resort\", \"InterContinental Houston by IHG Hilton Houston, Texas US\", \"Intercontinental Houston Ihg IHG Hotels & Resorts Hotel\", \"Intercontinental Houston Ihg IHG Hotels & Resorts Resort\", \"Intercontinental Houston Ihg IHG Hotels & Resorts\", \"Intercontinental Houston Ihg IHG Hotels & Resorts Houston, Texas US Hotel\", \"Intercontinental Houston Ihg IHG Hotels & Resorts Houston, Texas US Resort\", \"Intercontinental Houston Ihg IHG Hotels & Resorts Houston, Texas US\", \"Intercontinental Houston Ihg Hilton Hotel\", \"Intercontinental Houston Ihg Hilton Resort\", \"Intercontinental Houston Ihg Hilton\", \"Intercontinental Houston Ihg Hilton Houston, Texas US Hotel\", \"Intercontinental Houston Ihg Hilton Houston, Texas US Resort\", \"Intercontinental Houston Ihg Hilton Houston, Texas US\", \"InterContinental Houston by IHG Hotel\", \"InterContinental Houston by IHG Resort\", \"InterContinental Houston by IHG\", \"InterContinental Houston by IHG Houston, Texas US Hotel\", \"InterContinental Houston by IHG Houston, Texas US Resort\", \"InterContinental Houston by IHG Houston, Texas US\"], \"v\": 3}": {
@@ -153277,12 +153273,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Mandalay Bay Resort And Casino\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mandalay Bay Resort And Casino MGM Resorts International Hotel\", \"Mandalay Bay Resort And Casino MGM Resorts International Resort\", \"Mandalay Bay Resort And Casino MGM Resorts International\", \"Mandalay Bay Resort And Casino MGM Resorts International Las Vegas, Nevada US Hotel\", \"Mandalay Bay Resort And Casino MGM Resorts International Las Vegas, Nevada US Resort\", \"Mandalay Bay Resort And Casino MGM Resorts International Las Vegas, Nevada US\", \"Mandalay Bay Resort And Casino Hilton Hotel\", \"Mandalay Bay Resort And Casino Hilton Resort\", \"Mandalay Bay Resort And Casino Hilton\", \"Mandalay Bay Resort And Casino Hilton Las Vegas, Nevada US Hotel\", \"Mandalay Bay Resort And Casino Hilton Las Vegas, Nevada US Resort\", \"Mandalay Bay Resort And Casino Hilton Las Vegas, Nevada US\", \"Mandalay Bay Resort Casino MGM Resorts International Hotel\", \"Mandalay Bay Resort Casino MGM Resorts International Resort\", \"Mandalay Bay Resort Casino MGM Resorts International\", \"Mandalay Bay Resort Casino MGM Resorts International Las Vegas, Nevada US Hotel\", \"Mandalay Bay Resort Casino MGM Resorts International Las Vegas, Nevada US Resort\", \"Mandalay Bay Resort Casino MGM Resorts International Las Vegas, Nevada US\", \"Mandalay Bay Resort Casino Hilton Hotel\", \"Mandalay Bay Resort Casino Hilton Resort\", \"Mandalay Bay Resort Casino Hilton\", \"Mandalay Bay Resort Casino Hilton Las Vegas, Nevada US Hotel\", \"Mandalay Bay Resort Casino Hilton Las Vegas, Nevada US Resort\", \"Mandalay Bay Resort Casino Hilton Las Vegas, Nevada US\", \"Mandalay Bay Resort And Casino Hotel\", \"Mandalay Bay Resort And Casino Resort\", \"Mandalay Bay Resort And Casino\", \"Mandalay Bay Resort And Casino Las Vegas, Nevada US Hotel\", \"Mandalay Bay Resort And Casino Las Vegas, Nevada US Resort\", \"Mandalay Bay Resort And Casino Las Vegas, Nevada US\"], \"v\": 3}": {
-    "lat": 36.1036224,
-    "lon": -115.1675744,
-    "formatted_address": "3799 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "lat": 36.0921847,
+    "lon": -115.1748583,
+    "formatted_address": "3950 S Las Vegas Blvd, Las Vegas, NV 89119, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJJQ6Ck8zFyIARfxB2vQVF2Z0",
+    "place_id": "ChIJYUKC-8_FyIAR7920xSWK9pc",
     "types": [
       "casino",
       "establishment",
@@ -153292,32 +153288,32 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "3799 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+      "formatted_address": "3950 S Las Vegas Blvd, Las Vegas, NV 89119, USA",
       "geometry": {
         "location": {
-          "lat": 36.1036224,
-          "lng": -115.1675744
+          "lat": 36.0921847,
+          "lng": -115.1748583
         },
         "viewport": {
           "northeast": {
-            "lat": 36.10374728029149,
-            "lng": -115.1639587
+            "lat": 36.0940784302915,
+            "lng": -115.1736067697085
           },
           "southwest": {
-            "lat": 36.1010493197085,
-            "lng": -115.1724987
+            "lat": 36.0913804697085,
+            "lng": -115.1763047302915
           }
         }
       },
-      "name": "MGM Grand",
-      "place_id": "ChIJJQ6Ck8zFyIARfxB2vQVF2Z0",
+      "name": "Mandalay Bay",
+      "place_id": "ChIJYUKC-8_FyIAR7920xSWK9pc",
       "types": [
         "casino",
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://mgmgrand.mgmresorts.com/en.html"
+      "website": "https://mandalaybay.mgmresorts.com/en.html"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"NH Collection Barcelona Gran Hotel Calder\\u00f3n\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"NH Collection Barcelona Gran Hotel Calder\\u00f3n NH Collection Hotels Hotel\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n NH Collection Hotels Resort\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n NH Collection Hotels\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n NH Collection Hotels Barcelona, Spain Hotel\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n NH Collection Hotels Barcelona, Spain Resort\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n NH Collection Hotels Barcelona, Spain\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Hilton Hotel\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Hilton Resort\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Hilton\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Hilton Barcelona, Spain Hotel\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Hilton Barcelona, Spain Resort\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Hilton Barcelona, Spain\", \"Nh Collection Barcelona Gran Hotel Calderon NH Collection Hotels Hotel\", \"Nh Collection Barcelona Gran Hotel Calderon NH Collection Hotels Resort\", \"Nh Collection Barcelona Gran Hotel Calderon NH Collection Hotels\", \"Nh Collection Barcelona Gran Hotel Calderon NH Collection Hotels Barcelona, Spain Hotel\", \"Nh Collection Barcelona Gran Hotel Calderon NH Collection Hotels Barcelona, Spain Resort\", \"Nh Collection Barcelona Gran Hotel Calderon NH Collection Hotels Barcelona, Spain\", \"Nh Collection Barcelona Gran Hotel Calderon Hilton Hotel\", \"Nh Collection Barcelona Gran Hotel Calderon Hilton Resort\", \"Nh Collection Barcelona Gran Hotel Calderon Hilton\", \"Nh Collection Barcelona Gran Hotel Calderon Hilton Barcelona, Spain Hotel\", \"Nh Collection Barcelona Gran Hotel Calderon Hilton Barcelona, Spain Resort\", \"Nh Collection Barcelona Gran Hotel Calderon Hilton Barcelona, Spain\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Hotel\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Resort\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Barcelona, Spain Hotel\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Barcelona, Spain Resort\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Barcelona, Spain\"], \"v\": 3}": {
@@ -155289,45 +155285,51 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Admiral Hotel Copenhagen\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Admiral Hotel Copenhagen Preferred Hotels & Resorts Hotel\", \"Admiral Hotel Copenhagen Preferred Hotels & Resorts Resort\", \"Admiral Hotel Copenhagen Preferred Hotels & Resorts\", \"Admiral Hotel Copenhagen Preferred Hotels & Resorts Copenhagen, Denmark Hotel\", \"Admiral Hotel Copenhagen Preferred Hotels & Resorts Copenhagen, Denmark Resort\", \"Admiral Hotel Copenhagen Preferred Hotels & Resorts Copenhagen, Denmark\", \"Admiral Hotel Copenhagen Hilton Hotel\", \"Admiral Hotel Copenhagen Hilton Resort\", \"Admiral Hotel Copenhagen Hilton\", \"Admiral Hotel Copenhagen Hilton Copenhagen, Denmark Hotel\", \"Admiral Hotel Copenhagen Hilton Copenhagen, Denmark Resort\", \"Admiral Hotel Copenhagen Hilton Copenhagen, Denmark\", \"Admiral Hotel Copenhagen Hotel\", \"Admiral Hotel Copenhagen Resort\", \"Admiral Hotel Copenhagen\", \"Admiral Hotel Copenhagen Copenhagen, Denmark Hotel\", \"Admiral Hotel Copenhagen Copenhagen, Denmark Resort\", \"Admiral Hotel Copenhagen Copenhagen, Denmark\"], \"v\": 3}": {
-    "lat": 55.6806776,
-    "lon": 12.5719257,
-    "formatted_address": "Krystalgade 22, 1172 København, Denmark",
+    "lat": 55.6817438,
+    "lon": 12.5938583,
+    "formatted_address": "Toldbodgade 24, 28, 1253 København, Denmark",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJewzJQS5TUkYRMC5Lae03fb8",
+    "place_id": "ChIJuUjwBCNTUkYRI2UHKcbTNMQ",
     "types": [
+      "bar",
       "establishment",
+      "food",
       "lodging",
-      "point_of_interest"
+      "point_of_interest",
+      "restaurant"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Krystalgade 22, 1172 København, Denmark",
+      "formatted_address": "Toldbodgade 24, 28, 1253 København, Denmark",
       "geometry": {
         "location": {
-          "lat": 55.6806776,
-          "lng": 12.5719257
+          "lat": 55.6817438,
+          "lng": 12.5938583
         },
         "viewport": {
           "northeast": {
-            "lat": 55.68210988029149,
-            "lng": 12.5737467802915
+            "lat": 55.6832346302915,
+            "lng": 12.5949334802915
           },
           "southwest": {
-            "lat": 55.67941191970849,
-            "lng": 12.5710488197085
+            "lat": 55.6805366697085,
+            "lng": 12.5922355197085
           }
         }
       },
-      "name": "1 Hotel Copenhagen",
-      "place_id": "ChIJewzJQS5TUkYRMC5Lae03fb8",
+      "name": "Admiral Hotel Copenhagen",
+      "place_id": "ChIJuUjwBCNTUkYRI2UHKcbTNMQ",
       "types": [
+        "bar",
         "establishment",
+        "food",
         "lodging",
-        "point_of_interest"
+        "point_of_interest",
+        "restaurant"
       ],
-      "website": "https://www.1hotels.com/copenhagen?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
+      "website": "https://admiralhotel.dk/"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Fitzwilliam Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Fitzwilliam Hotel Preferred Hotels & Resorts Hotel\", \"The Fitzwilliam Hotel Preferred Hotels & Resorts Resort\", \"The Fitzwilliam Hotel Preferred Hotels & Resorts\", \"The Fitzwilliam Hotel Preferred Hotels & Resorts Dublin, Ireland Hotel\", \"The Fitzwilliam Hotel Preferred Hotels & Resorts Dublin, Ireland Resort\", \"The Fitzwilliam Hotel Preferred Hotels & Resorts Dublin, Ireland\", \"The Fitzwilliam Hotel Hilton Hotel\", \"The Fitzwilliam Hotel Hilton Resort\", \"The Fitzwilliam Hotel Hilton\", \"The Fitzwilliam Hotel Hilton Dublin, Ireland Hotel\", \"The Fitzwilliam Hotel Hilton Dublin, Ireland Resort\", \"The Fitzwilliam Hotel Hilton Dublin, Ireland\", \"The Fitzwilliam Hotel Hotel\", \"The Fitzwilliam Hotel Resort\", \"The Fitzwilliam Hotel\", \"The Fitzwilliam Hotel Dublin, Ireland Hotel\", \"The Fitzwilliam Hotel Dublin, Ireland Resort\", \"The Fitzwilliam Hotel Dublin, Ireland\"], \"v\": 3}": {
@@ -159888,12 +159890,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Plettenberg Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Plettenberg Hotel Small Luxury Hotels of the World Hotel\", \"The Plettenberg Hotel Small Luxury Hotels of the World Resort\", \"The Plettenberg Hotel Small Luxury Hotels of the World\", \"The Plettenberg Hotel Small Luxury Hotels of the World Plettenberg Bay, South Africa Hotel\", \"The Plettenberg Hotel Small Luxury Hotels of the World Plettenberg Bay, South Africa Resort\", \"The Plettenberg Hotel Small Luxury Hotels of the World Plettenberg Bay, South Africa\", \"The Plettenberg Hotel Hilton Hotel\", \"The Plettenberg Hotel Hilton Resort\", \"The Plettenberg Hotel Hilton\", \"The Plettenberg Hotel Hilton Plettenberg Bay, South Africa Hotel\", \"The Plettenberg Hotel Hilton Plettenberg Bay, South Africa Resort\", \"The Plettenberg Hotel Hilton Plettenberg Bay, South Africa\", \"The Plettenberg Hotel Hotel\", \"The Plettenberg Hotel Resort\", \"The Plettenberg Hotel\", \"The Plettenberg Hotel Plettenberg Bay, South Africa Hotel\", \"The Plettenberg Hotel Plettenberg Bay, South Africa Resort\", \"The Plettenberg Hotel Plettenberg Bay, South Africa\"], \"v\": 3}": {
-    "lat": -34.0607519,
-    "lon": 23.3797478,
-    "formatted_address": "Beacon Isle Dr, Plettenberg Bay, 6600, South Africa",
+    "lat": -34.05387210000001,
+    "lon": 23.3775134,
+    "formatted_address": "40 Church St, Plettenberg Bay, Cape Town, 6600, South Africa",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJNYku2XTieB4RE-OSq08zD28",
+    "place_id": "ChIJ72JIQQnieB4R5t1CBXJHEOs",
     "types": [
       "establishment",
       "lodging",
@@ -159902,31 +159904,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Beacon Isle Dr, Plettenberg Bay, 6600, South Africa",
+      "formatted_address": "40 Church St, Plettenberg Bay, Cape Town, 6600, South Africa",
       "geometry": {
         "location": {
-          "lat": -34.0607519,
-          "lng": 23.3797478
+          "lat": -34.05387210000001,
+          "lng": 23.3775134
         },
         "viewport": {
           "northeast": {
-            "lat": -34.0595239697085,
-            "lng": 23.3808842802915
+            "lat": -34.0526099197085,
+            "lng": 23.3788115802915
           },
           "southwest": {
-            "lat": -34.0622219302915,
-            "lng": 23.3781863197085
+            "lat": -34.0553078802915,
+            "lng": 23.37611361970849
           }
         }
       },
-      "name": "Beacon Island Resort",
-      "place_id": "ChIJNYku2XTieB4RE-OSq08zD28",
+      "name": "The Plettenberg, an SLH Hotel",
+      "place_id": "ChIJ72JIQQnieB4R5t1CBXJHEOs",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.southernsun.com/beacon-island-resort?utm_source=google&utm_medium=businesslisting&utm_campaign=hotel_beacon-island-resort"
+      "website": "https://www.theplettenberghotel.com/"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Casa Colonial Beach & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Casa Colonial Beach & Spa Small Luxury Hotels of the World Hotel\", \"Casa Colonial Beach & Spa Small Luxury Hotels of the World Resort\", \"Casa Colonial Beach & Spa Small Luxury Hotels of the World\", \"Casa Colonial Beach & Spa Small Luxury Hotels of the World Puerto Plata, Dominican Republic Hotel\", \"Casa Colonial Beach & Spa Small Luxury Hotels of the World Puerto Plata, Dominican Republic Resort\", \"Casa Colonial Beach & Spa Small Luxury Hotels of the World Puerto Plata, Dominican Republic\", \"Casa Colonial Beach & Spa Hilton Hotel\", \"Casa Colonial Beach & Spa Hilton Resort\", \"Casa Colonial Beach & Spa Hilton\", \"Casa Colonial Beach & Spa Hilton Puerto Plata, Dominican Republic Hotel\", \"Casa Colonial Beach & Spa Hilton Puerto Plata, Dominican Republic Resort\", \"Casa Colonial Beach & Spa Hilton Puerto Plata, Dominican Republic\", \"Casa Colonial Beach Spa Small Luxury Hotels of the World Hotel\", \"Casa Colonial Beach Spa Small Luxury Hotels of the World Resort\", \"Casa Colonial Beach Spa Small Luxury Hotels of the World\", \"Casa Colonial Beach Spa Small Luxury Hotels of the World Puerto Plata, Dominican Republic Hotel\", \"Casa Colonial Beach Spa Small Luxury Hotels of the World Puerto Plata, Dominican Republic Resort\", \"Casa Colonial Beach Spa Small Luxury Hotels of the World Puerto Plata, Dominican Republic\", \"Casa Colonial Beach Spa Hilton Hotel\", \"Casa Colonial Beach Spa Hilton Resort\", \"Casa Colonial Beach Spa Hilton\", \"Casa Colonial Beach Spa Hilton Puerto Plata, Dominican Republic Hotel\", \"Casa Colonial Beach Spa Hilton Puerto Plata, Dominican Republic Resort\", \"Casa Colonial Beach Spa Hilton Puerto Plata, Dominican Republic\", \"Casa Colonial Beach & Spa Hotel\", \"Casa Colonial Beach & Spa Resort\", \"Casa Colonial Beach & Spa\", \"Casa Colonial Beach & Spa Puerto Plata, Dominican Republic Hotel\", \"Casa Colonial Beach & Spa Puerto Plata, Dominican Republic Resort\", \"Casa Colonial Beach & Spa Puerto Plata, Dominican Republic\"], \"v\": 3}": {
