@@ -86918,51 +86918,47 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Cambridge Beaches Resort & Spa\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Cambridge Beaches Resort & Spa Benchmark Resorts and Hotels Hotel\", \"Cambridge Beaches Resort & Spa Benchmark Resorts and Hotels Resort\", \"Cambridge Beaches Resort & Spa Benchmark Resorts and Hotels\", \"Cambridge Beaches Resort & Spa Benchmark Resorts and Hotels Sandys, Bermuda Hotel\", \"Cambridge Beaches Resort & Spa Benchmark Resorts and Hotels Sandys, Bermuda Resort\", \"Cambridge Beaches Resort & Spa Benchmark Resorts and Hotels Sandys, Bermuda\", \"Cambridge Beaches Resort & Spa Hilton Hotel\", \"Cambridge Beaches Resort & Spa Hilton Resort\", \"Cambridge Beaches Resort & Spa Hilton\", \"Cambridge Beaches Resort & Spa Hilton Sandys, Bermuda Hotel\", \"Cambridge Beaches Resort & Spa Hilton Sandys, Bermuda Resort\", \"Cambridge Beaches Resort & Spa Hilton Sandys, Bermuda\", \"Cambridge Beaches Resort Spa Benchmark Resorts and Hotels Hotel\", \"Cambridge Beaches Resort Spa Benchmark Resorts and Hotels Resort\", \"Cambridge Beaches Resort Spa Benchmark Resorts and Hotels\", \"Cambridge Beaches Resort Spa Benchmark Resorts and Hotels Sandys, Bermuda Hotel\", \"Cambridge Beaches Resort Spa Benchmark Resorts and Hotels Sandys, Bermuda Resort\", \"Cambridge Beaches Resort Spa Benchmark Resorts and Hotels Sandys, Bermuda\", \"Cambridge Beaches Resort Spa Hilton Hotel\", \"Cambridge Beaches Resort Spa Hilton Resort\", \"Cambridge Beaches Resort Spa Hilton\", \"Cambridge Beaches Resort Spa Hilton Sandys, Bermuda Hotel\", \"Cambridge Beaches Resort Spa Hilton Sandys, Bermuda Resort\", \"Cambridge Beaches Resort Spa Hilton Sandys, Bermuda\", \"Cambridge Beaches Resort & Spa Hotel\", \"Cambridge Beaches Resort & Spa Resort\", \"Cambridge Beaches Resort & Spa\", \"Cambridge Beaches Resort & Spa Sandys, Bermuda Hotel\", \"Cambridge Beaches Resort & Spa Sandys, Bermuda Resort\", \"Cambridge Beaches Resort & Spa Sandys, Bermuda\"], \"v\": 3}": {
-    "lat": 32.352586,
-    "lon": -64.71217399999999,
-    "formatted_address": "11 Blue Hole Hill Hamilton, Hamilton Parish CR 04, Bermuda",
+    "lat": 32.3091682,
+    "lon": -64.8679468,
+    "formatted_address": "30 Kings Point Road Somerset MA, Somerset Village 02, Bermuda",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJu50l7RYTLYoRgIjfltLQue4",
+    "place_id": "ChIJxU7l4RoTLYoR8wsp4z0nFbk",
     "types": [
-      "bar",
       "establishment",
-      "food",
       "lodging",
       "point_of_interest",
-      "restaurant"
+      "spa"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "11 Blue Hole Hill Hamilton, Hamilton Parish CR 04, Bermuda",
+      "formatted_address": "30 Kings Point Road Somerset MA, Somerset Village 02, Bermuda",
       "geometry": {
         "location": {
-          "lat": 32.352586,
-          "lng": -64.71217399999999
+          "lat": 32.3091682,
+          "lng": -64.8679468
         },
         "viewport": {
           "northeast": {
-            "lat": 32.3538798802915,
-            "lng": -64.7108192697085
+            "lat": 32.3105820302915,
+            "lng": -64.86668036970849
           },
           "southwest": {
-            "lat": 32.3511819197085,
-            "lng": -64.7135172302915
+            "lat": 32.3078840697085,
+            "lng": -64.8693783302915
           }
         }
       },
-      "name": "Grotto Bay Beach Resort & Spa",
-      "place_id": "ChIJu50l7RYTLYoRgIjfltLQue4",
+      "name": "Cambridge Beaches Resort & Spa",
+      "place_id": "ChIJxU7l4RoTLYoR8wsp4z0nFbk",
       "types": [
-        "bar",
         "establishment",
-        "food",
         "lodging",
         "point_of_interest",
-        "restaurant"
+        "spa"
       ],
-      "website": "https://www.grottobay.com/"
+      "website": "https://www.cambridgebeaches.com/?utm_source=google&utm_medium=organic_search&utm_campaign=gmb"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel Valley Ho\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Valley Ho Benchmark Resorts and Hotels Hotel\", \"Hotel Valley Ho Benchmark Resorts and Hotels Resort\", \"Hotel Valley Ho Benchmark Resorts and Hotels\", \"Hotel Valley Ho Benchmark Resorts and Hotels Scottsdale, Arizona US Hotel\", \"Hotel Valley Ho Benchmark Resorts and Hotels Scottsdale, Arizona US Resort\", \"Hotel Valley Ho Benchmark Resorts and Hotels Scottsdale, Arizona US\", \"Hotel Valley Ho Hilton Hotel\", \"Hotel Valley Ho Hilton Resort\", \"Hotel Valley Ho Hilton\", \"Hotel Valley Ho Hilton Scottsdale, Arizona US Hotel\", \"Hotel Valley Ho Hilton Scottsdale, Arizona US Resort\", \"Hotel Valley Ho Hilton Scottsdale, Arizona US\", \"Hotel Valley Ho Hotel\", \"Hotel Valley Ho Resort\", \"Hotel Valley Ho\", \"Hotel Valley Ho Scottsdale, Arizona US Hotel\", \"Hotel Valley Ho Scottsdale, Arizona US Resort\", \"Hotel Valley Ho Scottsdale, Arizona US\"], \"v\": 3}": {
@@ -137226,16 +137222,16 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Shade Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Shade Hotel Hotel\", \"Shade Hotel Resort\", \"Shade Hotel\", \"Shade Hotel Manhattan Beach, California US Hotel\", \"Shade Hotel Manhattan Beach, California US Resort\", \"Shade Hotel Manhattan Beach, California US\"], \"v\": 3}": {
-    "lat": 33.8476568,
-    "lon": -118.3954051,
-    "formatted_address": "655 N Harbor Dr, Redondo Beach, CA 90277, USA",
+    "lat": 33.8865391,
+    "lon": -118.4084015,
+    "formatted_address": "1221 N Valley Dr, Manhattan Beach, CA 90266, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJo0dgRWCzwoARifiD1IZNvRc",
+    "place_id": "ChIJZ2-WQeyzwoARzSdZCmxdjJY",
     "types": [
+      "bar",
       "establishment",
       "food",
-      "health",
       "lodging",
       "point_of_interest",
       "restaurant"
@@ -137243,34 +137239,34 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "655 N Harbor Dr, Redondo Beach, CA 90277, USA",
+      "formatted_address": "1221 N Valley Dr, Manhattan Beach, CA 90266, USA",
       "geometry": {
         "location": {
-          "lat": 33.8476568,
-          "lng": -118.3954051
+          "lat": 33.8865391,
+          "lng": -118.4084015
         },
         "viewport": {
           "northeast": {
-            "lat": 33.8489815302915,
-            "lng": -118.3938945697085
+            "lat": 33.8878720802915,
+            "lng": -118.4070260697085
           },
           "southwest": {
-            "lat": 33.8462835697085,
-            "lng": -118.3965925302915
+            "lat": 33.8851741197085,
+            "lng": -118.4097240302915
           }
         }
       },
-      "name": "Shade Hotel Redondo Beach",
-      "place_id": "ChIJo0dgRWCzwoARifiD1IZNvRc",
+      "name": "Shade Hotel Manhattan Beach",
+      "place_id": "ChIJZ2-WQeyzwoARzSdZCmxdjJY",
       "types": [
+        "bar",
         "establishment",
         "food",
-        "health",
         "lodging",
         "point_of_interest",
         "restaurant"
       ],
-      "website": "http://rb.shadehotel.com/"
+      "website": "https://mb.shadehotel.com/"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Sanctuary Beach Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Sanctuary Beach Resort Hotel\", \"Sanctuary Beach Resort Resort\", \"Sanctuary Beach Resort\", \"Sanctuary Beach Resort Marina, California US Hotel\", \"Sanctuary Beach Resort Marina, California US Resort\", \"Sanctuary Beach Resort Marina, California US\"], \"v\": 3}": {
@@ -141947,12 +141943,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Crown Metropol\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Crown Metropol Crown Resorts Hotel\", \"Crown Metropol Crown Resorts Resort\", \"Crown Metropol Crown Resorts\", \"Crown Metropol Crown Resorts Melbourne, Australia Hotel\", \"Crown Metropol Crown Resorts Melbourne, Australia Resort\", \"Crown Metropol Crown Resorts Melbourne, Australia\", \"Crown Metropol Hilton Hotel\", \"Crown Metropol Hilton Resort\", \"Crown Metropol Hilton\", \"Crown Metropol Hilton Melbourne, Australia Hotel\", \"Crown Metropol Hilton Melbourne, Australia Resort\", \"Crown Metropol Hilton Melbourne, Australia\", \"Crown Metropol Hotel\", \"Crown Metropol Resort\", \"Crown Metropol\", \"Crown Metropol Melbourne, Australia Hotel\", \"Crown Metropol Melbourne, Australia Resort\", \"Crown Metropol Melbourne, Australia\"], \"v\": 3}": {
-    "lat": -31.9609328,
-    "lon": 115.8940197,
-    "formatted_address": "Great Eastern Hwy, Burswood WA 6100, Australia",
+    "lat": -37.8257525,
+    "lon": 144.9576725,
+    "formatted_address": "8 Whiteman St, Southbank VIC 3006, Australia",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJaTXp0Ai7MioR1mPSYU8odtY",
+    "place_id": "ChIJs-Q2IlNd1moRGz76n97nmCg",
     "types": [
       "establishment",
       "lodging",
@@ -141961,31 +141957,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Great Eastern Hwy, Burswood WA 6100, Australia",
+      "formatted_address": "8 Whiteman St, Southbank VIC 3006, Australia",
       "geometry": {
         "location": {
-          "lat": -31.9609328,
-          "lng": 115.8940197
+          "lat": -37.8257525,
+          "lng": 144.9576725
         },
         "viewport": {
           "northeast": {
-            "lat": -31.9595763,
-            "lng": 115.896502
+            "lat": -37.8243547697085,
+            "lng": 144.9590758802915
           },
           "southwest": {
-            "lat": -31.963057,
-            "lng": 115.8917692
+            "lat": -37.8270527302915,
+            "lng": 144.9563779197085
           }
         }
       },
-      "name": "Crown Metropol Perth",
-      "place_id": "ChIJaTXp0Ai7MioR1mPSYU8odtY",
+      "name": "Crown Metropol Melbourne",
+      "place_id": "ChIJs-Q2IlNd1moRGz76n97nmCg",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.crownhotels.com.au/perth/crown-metropol/?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect"
+      "website": "https://www.crownhotels.com.au/melbourne/crown-metropol?utm_source=local-directories&utm_medium=organic&utm_campaign=travelclick-localconnect"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Hotel del Coronado, Curio Collection by Hilton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel del Coronado, Curio Collection by Hilton Curio Collection Hotel\", \"Hotel del Coronado, Curio Collection by Hilton Curio Collection Resort\", \"Hotel del Coronado, Curio Collection by Hilton Curio Collection\", \"Hotel del Coronado, Curio Collection by Hilton Curio Collection Coronado, California US Hotel\", \"Hotel del Coronado, Curio Collection by Hilton Curio Collection Coronado, California US Resort\", \"Hotel del Coronado, Curio Collection by Hilton Curio Collection Coronado, California US\", \"Hotel del Coronado, Curio Collection by Hilton Hilton Hotel\", \"Hotel del Coronado, Curio Collection by Hilton Hilton Resort\", \"Hotel del Coronado, Curio Collection by Hilton Hilton\", \"Hotel del Coronado, Curio Collection by Hilton Hilton Coronado, California US Hotel\", \"Hotel del Coronado, Curio Collection by Hilton Hilton Coronado, California US Resort\", \"Hotel del Coronado, Curio Collection by Hilton Hilton Coronado, California US\", \"Hotel Del Coronado Curio Collection Hilton Curio Collection Hotel\", \"Hotel Del Coronado Curio Collection Hilton Curio Collection Resort\", \"Hotel Del Coronado Curio Collection Hilton Curio Collection\", \"Hotel Del Coronado Curio Collection Hilton Curio Collection Coronado, California US Hotel\", \"Hotel Del Coronado Curio Collection Hilton Curio Collection Coronado, California US Resort\", \"Hotel Del Coronado Curio Collection Hilton Curio Collection Coronado, California US\", \"Hotel Del Coronado Curio Collection Hilton Hilton Hotel\", \"Hotel Del Coronado Curio Collection Hilton Hilton Resort\", \"Hotel Del Coronado Curio Collection Hilton Hilton\", \"Hotel Del Coronado Curio Collection Hilton Hilton Coronado, California US Hotel\", \"Hotel Del Coronado Curio Collection Hilton Hilton Coronado, California US Resort\", \"Hotel Del Coronado Curio Collection Hilton Hilton Coronado, California US\", \"Hotel del Coronado, Curio Collection by Hilton Hotel\", \"Hotel del Coronado, Curio Collection by Hilton Resort\", \"Hotel del Coronado, Curio Collection by Hilton\", \"Hotel del Coronado, Curio Collection by Hilton Coronado, California US Hotel\", \"Hotel del Coronado, Curio Collection by Hilton Coronado, California US Resort\", \"Hotel del Coronado, Curio Collection by Hilton Coronado, California US\"], \"v\": 3}": {
@@ -153277,12 +153273,12 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Mandalay Bay Resort And Casino\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mandalay Bay Resort And Casino MGM Resorts International Hotel\", \"Mandalay Bay Resort And Casino MGM Resorts International Resort\", \"Mandalay Bay Resort And Casino MGM Resorts International\", \"Mandalay Bay Resort And Casino MGM Resorts International Las Vegas, Nevada US Hotel\", \"Mandalay Bay Resort And Casino MGM Resorts International Las Vegas, Nevada US Resort\", \"Mandalay Bay Resort And Casino MGM Resorts International Las Vegas, Nevada US\", \"Mandalay Bay Resort And Casino Hilton Hotel\", \"Mandalay Bay Resort And Casino Hilton Resort\", \"Mandalay Bay Resort And Casino Hilton\", \"Mandalay Bay Resort And Casino Hilton Las Vegas, Nevada US Hotel\", \"Mandalay Bay Resort And Casino Hilton Las Vegas, Nevada US Resort\", \"Mandalay Bay Resort And Casino Hilton Las Vegas, Nevada US\", \"Mandalay Bay Resort Casino MGM Resorts International Hotel\", \"Mandalay Bay Resort Casino MGM Resorts International Resort\", \"Mandalay Bay Resort Casino MGM Resorts International\", \"Mandalay Bay Resort Casino MGM Resorts International Las Vegas, Nevada US Hotel\", \"Mandalay Bay Resort Casino MGM Resorts International Las Vegas, Nevada US Resort\", \"Mandalay Bay Resort Casino MGM Resorts International Las Vegas, Nevada US\", \"Mandalay Bay Resort Casino Hilton Hotel\", \"Mandalay Bay Resort Casino Hilton Resort\", \"Mandalay Bay Resort Casino Hilton\", \"Mandalay Bay Resort Casino Hilton Las Vegas, Nevada US Hotel\", \"Mandalay Bay Resort Casino Hilton Las Vegas, Nevada US Resort\", \"Mandalay Bay Resort Casino Hilton Las Vegas, Nevada US\", \"Mandalay Bay Resort And Casino Hotel\", \"Mandalay Bay Resort And Casino Resort\", \"Mandalay Bay Resort And Casino\", \"Mandalay Bay Resort And Casino Las Vegas, Nevada US Hotel\", \"Mandalay Bay Resort And Casino Las Vegas, Nevada US Resort\", \"Mandalay Bay Resort And Casino Las Vegas, Nevada US\"], \"v\": 3}": {
-    "lat": 36.1036224,
-    "lon": -115.1675744,
-    "formatted_address": "3799 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "lat": 36.0921847,
+    "lon": -115.1748583,
+    "formatted_address": "3950 S Las Vegas Blvd, Las Vegas, NV 89119, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJJQ6Ck8zFyIARfxB2vQVF2Z0",
+    "place_id": "ChIJYUKC-8_FyIAR7920xSWK9pc",
     "types": [
       "casino",
       "establishment",
@@ -153292,32 +153288,32 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "3799 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+      "formatted_address": "3950 S Las Vegas Blvd, Las Vegas, NV 89119, USA",
       "geometry": {
         "location": {
-          "lat": 36.1036224,
-          "lng": -115.1675744
+          "lat": 36.0921847,
+          "lng": -115.1748583
         },
         "viewport": {
           "northeast": {
-            "lat": 36.10374728029149,
-            "lng": -115.1639587
+            "lat": 36.0940784302915,
+            "lng": -115.1736067697085
           },
           "southwest": {
-            "lat": 36.1010493197085,
-            "lng": -115.1724987
+            "lat": 36.0913804697085,
+            "lng": -115.1763047302915
           }
         }
       },
-      "name": "MGM Grand",
-      "place_id": "ChIJJQ6Ck8zFyIARfxB2vQVF2Z0",
+      "name": "Mandalay Bay",
+      "place_id": "ChIJYUKC-8_FyIAR7920xSWK9pc",
       "types": [
         "casino",
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://mgmgrand.mgmresorts.com/en.html"
+      "website": "https://mandalaybay.mgmresorts.com/en.html"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"NH Collection Barcelona Gran Hotel Calder\\u00f3n\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"NH Collection Barcelona Gran Hotel Calder\\u00f3n NH Collection Hotels Hotel\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n NH Collection Hotels Resort\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n NH Collection Hotels\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n NH Collection Hotels Barcelona, Spain Hotel\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n NH Collection Hotels Barcelona, Spain Resort\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n NH Collection Hotels Barcelona, Spain\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Hilton Hotel\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Hilton Resort\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Hilton\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Hilton Barcelona, Spain Hotel\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Hilton Barcelona, Spain Resort\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Hilton Barcelona, Spain\", \"Nh Collection Barcelona Gran Hotel Calderon NH Collection Hotels Hotel\", \"Nh Collection Barcelona Gran Hotel Calderon NH Collection Hotels Resort\", \"Nh Collection Barcelona Gran Hotel Calderon NH Collection Hotels\", \"Nh Collection Barcelona Gran Hotel Calderon NH Collection Hotels Barcelona, Spain Hotel\", \"Nh Collection Barcelona Gran Hotel Calderon NH Collection Hotels Barcelona, Spain Resort\", \"Nh Collection Barcelona Gran Hotel Calderon NH Collection Hotels Barcelona, Spain\", \"Nh Collection Barcelona Gran Hotel Calderon Hilton Hotel\", \"Nh Collection Barcelona Gran Hotel Calderon Hilton Resort\", \"Nh Collection Barcelona Gran Hotel Calderon Hilton\", \"Nh Collection Barcelona Gran Hotel Calderon Hilton Barcelona, Spain Hotel\", \"Nh Collection Barcelona Gran Hotel Calderon Hilton Barcelona, Spain Resort\", \"Nh Collection Barcelona Gran Hotel Calderon Hilton Barcelona, Spain\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Hotel\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Resort\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Barcelona, Spain Hotel\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Barcelona, Spain Resort\", \"NH Collection Barcelona Gran Hotel Calder\\u00f3n Barcelona, Spain\"], \"v\": 3}": {
@@ -155289,45 +155285,51 @@
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"Admiral Hotel Copenhagen\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Admiral Hotel Copenhagen Preferred Hotels & Resorts Hotel\", \"Admiral Hotel Copenhagen Preferred Hotels & Resorts Resort\", \"Admiral Hotel Copenhagen Preferred Hotels & Resorts\", \"Admiral Hotel Copenhagen Preferred Hotels & Resorts Copenhagen, Denmark Hotel\", \"Admiral Hotel Copenhagen Preferred Hotels & Resorts Copenhagen, Denmark Resort\", \"Admiral Hotel Copenhagen Preferred Hotels & Resorts Copenhagen, Denmark\", \"Admiral Hotel Copenhagen Hilton Hotel\", \"Admiral Hotel Copenhagen Hilton Resort\", \"Admiral Hotel Copenhagen Hilton\", \"Admiral Hotel Copenhagen Hilton Copenhagen, Denmark Hotel\", \"Admiral Hotel Copenhagen Hilton Copenhagen, Denmark Resort\", \"Admiral Hotel Copenhagen Hilton Copenhagen, Denmark\", \"Admiral Hotel Copenhagen Hotel\", \"Admiral Hotel Copenhagen Resort\", \"Admiral Hotel Copenhagen\", \"Admiral Hotel Copenhagen Copenhagen, Denmark Hotel\", \"Admiral Hotel Copenhagen Copenhagen, Denmark Resort\", \"Admiral Hotel Copenhagen Copenhagen, Denmark\"], \"v\": 3}": {
-    "lat": 55.6806776,
-    "lon": 12.5719257,
-    "formatted_address": "Krystalgade 22, 1172 København, Denmark",
+    "lat": 55.6817438,
+    "lon": 12.5938583,
+    "formatted_address": "Toldbodgade 24, 28, 1253 København, Denmark",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJewzJQS5TUkYRMC5Lae03fb8",
+    "place_id": "ChIJuUjwBCNTUkYRI2UHKcbTNMQ",
     "types": [
+      "bar",
       "establishment",
+      "food",
       "lodging",
-      "point_of_interest"
+      "point_of_interest",
+      "restaurant"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Krystalgade 22, 1172 København, Denmark",
+      "formatted_address": "Toldbodgade 24, 28, 1253 København, Denmark",
       "geometry": {
         "location": {
-          "lat": 55.6806776,
-          "lng": 12.5719257
+          "lat": 55.6817438,
+          "lng": 12.5938583
         },
         "viewport": {
           "northeast": {
-            "lat": 55.68210988029149,
-            "lng": 12.5737467802915
+            "lat": 55.6832346302915,
+            "lng": 12.5949334802915
           },
           "southwest": {
-            "lat": 55.67941191970849,
-            "lng": 12.5710488197085
+            "lat": 55.6805366697085,
+            "lng": 12.5922355197085
           }
         }
       },
-      "name": "1 Hotel Copenhagen",
-      "place_id": "ChIJewzJQS5TUkYRMC5Lae03fb8",
+      "name": "Admiral Hotel Copenhagen",
+      "place_id": "ChIJuUjwBCNTUkYRI2UHKcbTNMQ",
       "types": [
+        "bar",
         "establishment",
+        "food",
         "lodging",
-        "point_of_interest"
+        "point_of_interest",
+        "restaurant"
       ],
-      "website": "https://www.1hotels.com/copenhagen?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp"
+      "website": "https://admiralhotel.dk/"
     }
   },
   "{\"brand\": \"THE HOTEL COLLECTION\", \"hotel_name\": \"The Fitzwilliam Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Fitzwilliam Hotel Preferred Hotels & Resorts Hotel\", \"The Fitzwilliam Hotel Preferred Hotels & Resorts Resort\", \"The Fitzwilliam Hotel Preferred Hotels & Resorts\", \"The Fitzwilliam Hotel Preferred Hotels & Resorts Dublin, Ireland Hotel\", \"The Fitzwilliam Hotel Preferred Hotels & Resorts Dublin, Ireland Resort\", \"The Fitzwilliam Hotel Preferred Hotels & Resorts Dublin, Ireland\", \"The Fitzwilliam Hotel Hilton Hotel\", \"The Fitzwilliam Hotel Hilton Resort\", \"The Fitzwilliam Hotel Hilton\", \"The Fitzwilliam Hotel Hilton Dublin, Ireland Hotel\", \"The Fitzwilliam Hotel Hilton Dublin, Ireland Resort\", \"The Fitzwilliam Hotel Hilton Dublin, Ireland\", \"The Fitzwilliam Hotel Hotel\", \"The Fitzwilliam Hotel Resort\", \"The Fitzwilliam Hotel\", \"The Fitzwilliam Hotel Dublin, Ireland Hotel\", \"The Fitzwilliam Hotel Dublin, Ireland Resort\", \"The Fitzwilliam Hotel Dublin, Ireland\"], \"v\": 3}": {

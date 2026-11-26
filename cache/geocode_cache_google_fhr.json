@@ -108519,12 +108519,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Brando, Tetiaroa Private Island\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Brando, Tetiaroa Private Island Hotel\", \"The Brando, Tetiaroa Private Island Resort\", \"The Brando, Tetiaroa Private Island\", \"The Brando, Tetiaroa Private Island Arue, French Polynesia Hotel\", \"The Brando, Tetiaroa Private Island Arue, French Polynesia Resort\", \"The Brando, Tetiaroa Private Island Arue, French Polynesia\", \"Brando Tetiaroa Private Island Hotel\", \"Brando Tetiaroa Private Island Resort\", \"Brando Tetiaroa Private Island\", \"Brando Tetiaroa Private Island Arue, French Polynesia Hotel\", \"Brando Tetiaroa Private Island Arue, French Polynesia Resort\", \"Brando Tetiaroa Private Island Arue, French Polynesia\"], \"v\": 3}": {
-    "lat": -17.0220869,
-    "lon": -149.5897859,
-    "formatted_address": "Faaa, French Polynesia",
+    "lat": -17.0227819,
+    "lon": -149.5959077,
+    "formatted_address": "Arue 98702, French Polynesia",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJDcLfDVKnkHYR9s7jyJ8LrYQ",
+    "place_id": "ChIJUWiPJxOnkHYR5op_8Zwx0lI",
     "types": [
       "establishment",
       "lodging",
@@ -108533,31 +108533,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Faaa, French Polynesia",
+      "formatted_address": "Arue 98702, French Polynesia",
       "geometry": {
         "location": {
-          "lat": -17.0220869,
-          "lng": -149.5897859
+          "lat": -17.0227819,
+          "lng": -149.5959077
         },
         "viewport": {
           "northeast": {
-            "lat": -17.0205761197085,
-            "lng": -149.5888015197085
+            "lat": -17.0213135197085,
+            "lng": -149.5944692697085
           },
           "southwest": {
-            "lat": -17.0232740802915,
-            "lng": -149.5914994802915
+            "lat": -17.0240114802915,
+            "lng": -149.5971672302915
           }
         }
       },
-      "name": "The Residence at The Brando, Tetiaroa Private Island",
-      "place_id": "ChIJDcLfDVKnkHYR9s7jyJ8LrYQ",
+      "name": "The Brando",
+      "place_id": "ChIJUWiPJxOnkHYR5op_8Zwx0lI",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "http://thebrando.com/"
+      "website": "http://www.thebrando.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"91 Athens Riviera\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"91 Athens Riviera Hotel\", \"91 Athens Riviera Resort\", \"91 Athens Riviera\", \"91 Athens Riviera Athens, Greece Hotel\", \"91 Athens Riviera Athens, Greece Resort\", \"91 Athens Riviera Athens, Greece\"], \"v\": 3}": {
@@ -108989,12 +108989,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Tower at The Boca Raton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Tower at The Boca Raton Hotel\", \"Tower at The Boca Raton Resort\", \"Tower at The Boca Raton\", \"Tower at The Boca Raton Boca Raton, Florida US Hotel\", \"Tower at The Boca Raton Boca Raton, Florida US Resort\", \"Tower at The Boca Raton Boca Raton, Florida US\", \"Tower Boca Raton Hotel\", \"Tower Boca Raton Resort\", \"Tower Boca Raton\", \"Tower Boca Raton Boca Raton, Florida US Hotel\", \"Tower Boca Raton Boca Raton, Florida US Resort\", \"Tower Boca Raton Boca Raton, Florida US\"], \"v\": 3}": {
-    "lat": 26.3059944,
-    "lon": -80.077164,
-    "formatted_address": "950 S Ocean Dr, Deerfield Beach, FL 33441, USA",
+    "lat": 26.3415065,
+    "lon": -80.07752289999999,
+    "formatted_address": "501 E Camino Real, Boca Raton, FL 33432, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJSQ5eRovi2IgRSbbtPOEa_cs",
+    "place_id": "ChIJ0QRE1RXi2IgRDEgnsDdVCqA",
     "types": [
       "establishment",
       "lodging",
@@ -109003,31 +109003,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "950 S Ocean Dr, Deerfield Beach, FL 33441, USA",
+      "formatted_address": "501 E Camino Real, Boca Raton, FL 33432, USA",
       "geometry": {
         "location": {
-          "lat": 26.3059944,
-          "lng": -80.077164
+          "lat": 26.3415065,
+          "lng": -80.07752289999999
         },
         "viewport": {
           "northeast": {
-            "lat": 26.3073126802915,
-            "lng": -80.0760345197085
+            "lat": 26.3427662302915,
+            "lng": -80.0763096697085
           },
           "southwest": {
-            "lat": 26.3046147197085,
-            "lng": -80.0787324802915
+            "lat": 26.34006826970849,
+            "lng": -80.0790076302915
           }
         }
       },
-      "name": "Embassy Suites by Hilton Deerfield Beach Resort & Spa",
-      "place_id": "ChIJSQ5eRovi2IgRSbbtPOEa_cs",
+      "name": "Tower at The Boca Raton",
+      "place_id": "ChIJ0QRE1RXi2IgRDEgnsDdVCqA",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.hilton.com/en/hotels/deefles-embassy-suites-deerfield-beach-resort-and-spa/?SEO_id=GMB-AMER-ES-DEEFLES&y_source=1_MTEwOTk0Mi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+      "website": "https://www.thebocaraton.com/suites-rooms/tower/?utm_source=Google&utm_medium=referral&utm_campaign=Googlebusinesslisting&nck=8559237638"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Yacht Club at The Boca Raton\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Yacht Club at The Boca Raton Hotel\", \"Yacht Club at The Boca Raton Resort\", \"Yacht Club at The Boca Raton\", \"Yacht Club at The Boca Raton Boca Raton, Florida US Hotel\", \"Yacht Club at The Boca Raton Boca Raton, Florida US Resort\", \"Yacht Club at The Boca Raton Boca Raton, Florida US\", \"Yacht Club Boca Raton Hotel\", \"Yacht Club Boca Raton Resort\", \"Yacht Club Boca Raton\", \"Yacht Club Boca Raton Boca Raton, Florida US Hotel\", \"Yacht Club Boca Raton Boca Raton, Florida US Resort\", \"Yacht Club Boca Raton Boca Raton, Florida US\"], \"v\": 3}": {
@@ -131832,12 +131832,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Four Seasons Hotel Tokyo at Marunouchi\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Four Seasons Hotel Tokyo at Marunouchi Four Seasons Hotels and Resorts Hotel\", \"Four Seasons Hotel Tokyo at Marunouchi Four Seasons Hotels and Resorts Resort\", \"Four Seasons Hotel Tokyo at Marunouchi Four Seasons Hotels and Resorts\", \"Four Seasons Hotel Tokyo at Marunouchi Four Seasons Hotels and Resorts Tokyo, Japan Hotel\", \"Four Seasons Hotel Tokyo at Marunouchi Four Seasons Hotels and Resorts Tokyo, Japan Resort\", \"Four Seasons Hotel Tokyo at Marunouchi Four Seasons Hotels and Resorts Tokyo, Japan\", \"Four Seasons Hotel Tokyo at Marunouchi Hilton Hotel\", \"Four Seasons Hotel Tokyo at Marunouchi Hilton Resort\", \"Four Seasons Hotel Tokyo at Marunouchi Hilton\", \"Four Seasons Hotel Tokyo at Marunouchi Hilton Tokyo, Japan Hotel\", \"Four Seasons Hotel Tokyo at Marunouchi Hilton Tokyo, Japan Resort\", \"Four Seasons Hotel Tokyo at Marunouchi Hilton Tokyo, Japan\", \"Four Seasons Hotel Tokyo Marunouchi Four Seasons Hotels and Resorts Hotel\", \"Four Seasons Hotel Tokyo Marunouchi Four Seasons Hotels and Resorts Resort\", \"Four Seasons Hotel Tokyo Marunouchi Four Seasons Hotels and Resorts\", \"Four Seasons Hotel Tokyo Marunouchi Four Seasons Hotels and Resorts Tokyo, Japan Hotel\", \"Four Seasons Hotel Tokyo Marunouchi Four Seasons Hotels and Resorts Tokyo, Japan Resort\", \"Four Seasons Hotel Tokyo Marunouchi Four Seasons Hotels and Resorts Tokyo, Japan\", \"Four Seasons Hotel Tokyo Marunouchi Hilton Hotel\", \"Four Seasons Hotel Tokyo Marunouchi Hilton Resort\", \"Four Seasons Hotel Tokyo Marunouchi Hilton\", \"Four Seasons Hotel Tokyo Marunouchi Hilton Tokyo, Japan Hotel\", \"Four Seasons Hotel Tokyo Marunouchi Hilton Tokyo, Japan Resort\", \"Four Seasons Hotel Tokyo Marunouchi Hilton Tokyo, Japan\", \"Four Seasons Hotel Tokyo at Marunouchi Hotel\", \"Four Seasons Hotel Tokyo at Marunouchi Resort\", \"Four Seasons Hotel Tokyo at Marunouchi\", \"Four Seasons Hotel Tokyo at Marunouchi Tokyo, Japan Hotel\", \"Four Seasons Hotel Tokyo at Marunouchi Tokyo, Japan Resort\", \"Four Seasons Hotel Tokyo at Marunouchi Tokyo, Japan\"], \"v\": 3}": {
-    "lat": 35.6877339,
-    "lon": 139.7632912,
-    "formatted_address": "1-chōme-2-1 Ōtemachi, Chiyoda City, Tokyo 100-0004, Japan",
+    "lat": 35.6781486,
+    "lon": 139.7669907,
+    "formatted_address": "Pacific Century Place Marunouchi, 1-chōme-11-1 Marunouchi, Chiyoda City, Tokyo 100-6277, Japan",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ_3Gd30-NGGARnuBcbf29bPA",
+    "place_id": "ChIJo8OKQ_uLGGARyqJtyEFXiRA",
     "types": [
       "establishment",
       "health",
@@ -131848,25 +131848,25 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "1-chōme-2-1 Ōtemachi, Chiyoda City, Tokyo 100-0004, Japan",
+      "formatted_address": "Pacific Century Place Marunouchi, 1-chōme-11-1 Marunouchi, Chiyoda City, Tokyo 100-6277, Japan",
       "geometry": {
         "location": {
-          "lat": 35.6877339,
-          "lng": 139.7632912
+          "lat": 35.6781486,
+          "lng": 139.7669907
         },
         "viewport": {
           "northeast": {
-            "lat": 35.6893087302915,
-            "lng": 139.7648771802915
+            "lat": 35.6793539802915,
+            "lng": 139.7685216802915
           },
           "southwest": {
-            "lat": 35.6866107697085,
-            "lng": 139.7621792197085
+            "lat": 35.6766560197085,
+            "lng": 139.7658237197085
           }
         }
       },
-      "name": "Four Seasons Hotel Tokyo at Otemachi",
-      "place_id": "ChIJ_3Gd30-NGGARnuBcbf29bPA",
+      "name": "Four Seasons Hotel Tokyo At Marunouchi",
+      "place_id": "ChIJo8OKQ_uLGGARyqJtyEFXiRA",
       "types": [
         "establishment",
         "health",
@@ -131874,7 +131874,7 @@
         "point_of_interest",
         "spa"
       ],
-      "website": "https://www.fourseasons.com/otemachi/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-ote-hre-mid-seo-na&utm_content=na-na&utm_term=na"
+      "website": "https://www.fourseasons.com/tokyo/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-mar-hre-mid-seo-na&utm_content=na-na&utm_term=na"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Four Seasons Hotel Tokyo at Otemachi\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Four Seasons Hotel Tokyo at Otemachi Four Seasons Hotels and Resorts Hotel\", \"Four Seasons Hotel Tokyo at Otemachi Four Seasons Hotels and Resorts Resort\", \"Four Seasons Hotel Tokyo at Otemachi Four Seasons Hotels and Resorts\", \"Four Seasons Hotel Tokyo at Otemachi Four Seasons Hotels and Resorts Tokyo, Japan Hotel\", \"Four Seasons Hotel Tokyo at Otemachi Four Seasons Hotels and Resorts Tokyo, Japan Resort\", \"Four Seasons Hotel Tokyo at Otemachi Four Seasons Hotels and Resorts Tokyo, Japan\", \"Four Seasons Hotel Tokyo at Otemachi Hilton Hotel\", \"Four Seasons Hotel Tokyo at Otemachi Hilton Resort\", \"Four Seasons Hotel Tokyo at Otemachi Hilton\", \"Four Seasons Hotel Tokyo at Otemachi Hilton Tokyo, Japan Hotel\", \"Four Seasons Hotel Tokyo at Otemachi Hilton Tokyo, Japan Resort\", \"Four Seasons Hotel Tokyo at Otemachi Hilton Tokyo, Japan\", \"Four Seasons Hotel Tokyo Otemachi Four Seasons Hotels and Resorts Hotel\", \"Four Seasons Hotel Tokyo Otemachi Four Seasons Hotels and Resorts Resort\", \"Four Seasons Hotel Tokyo Otemachi Four Seasons Hotels and Resorts\", \"Four Seasons Hotel Tokyo Otemachi Four Seasons Hotels and Resorts Tokyo, Japan Hotel\", \"Four Seasons Hotel Tokyo Otemachi Four Seasons Hotels and Resorts Tokyo, Japan Resort\", \"Four Seasons Hotel Tokyo Otemachi Four Seasons Hotels and Resorts Tokyo, Japan\", \"Four Seasons Hotel Tokyo Otemachi Hilton Hotel\", \"Four Seasons Hotel Tokyo Otemachi Hilton Resort\", \"Four Seasons Hotel Tokyo Otemachi Hilton\", \"Four Seasons Hotel Tokyo Otemachi Hilton Tokyo, Japan Hotel\", \"Four Seasons Hotel Tokyo Otemachi Hilton Tokyo, Japan Resort\", \"Four Seasons Hotel Tokyo Otemachi Hilton Tokyo, Japan\", \"Four Seasons Hotel Tokyo at Otemachi Hotel\", \"Four Seasons Hotel Tokyo at Otemachi Resort\", \"Four Seasons Hotel Tokyo at Otemachi\", \"Four Seasons Hotel Tokyo at Otemachi Tokyo, Japan Hotel\", \"Four Seasons Hotel Tokyo at Otemachi Tokyo, Japan Resort\", \"Four Seasons Hotel Tokyo at Otemachi Tokyo, Japan\"], \"v\": 3}": {
@@ -137943,12 +137943,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Mandarin Oriental The Landmark, Hong Kong\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mandarin Oriental The Landmark, Hong Kong Mandarin Oriental Hotel Group Hotel\", \"Mandarin Oriental The Landmark, Hong Kong Mandarin Oriental Hotel Group Resort\", \"Mandarin Oriental The Landmark, Hong Kong Mandarin Oriental Hotel Group\", \"Mandarin Oriental The Landmark, Hong Kong Mandarin Oriental Hotel Group Hong Kong, China Hotel\", \"Mandarin Oriental The Landmark, Hong Kong Mandarin Oriental Hotel Group Hong Kong, China Resort\", \"Mandarin Oriental The Landmark, Hong Kong Mandarin Oriental Hotel Group Hong Kong, China\", \"Mandarin Oriental The Landmark, Hong Kong Hilton Hotel\", \"Mandarin Oriental The Landmark, Hong Kong Hilton Resort\", \"Mandarin Oriental The Landmark, Hong Kong Hilton\", \"Mandarin Oriental The Landmark, Hong Kong Hilton Hong Kong, China Hotel\", \"Mandarin Oriental The Landmark, Hong Kong Hilton Hong Kong, China Resort\", \"Mandarin Oriental The Landmark, Hong Kong Hilton Hong Kong, China\", \"Mandarin Oriental Landmark Hong Kong Mandarin Oriental Hotel Group Hotel\", \"Mandarin Oriental Landmark Hong Kong Mandarin Oriental Hotel Group Resort\", \"Mandarin Oriental Landmark Hong Kong Mandarin Oriental Hotel Group\", \"Mandarin Oriental Landmark Hong Kong Mandarin Oriental Hotel Group Hong Kong, China Hotel\", \"Mandarin Oriental Landmark Hong Kong Mandarin Oriental Hotel Group Hong Kong, China Resort\", \"Mandarin Oriental Landmark Hong Kong Mandarin Oriental Hotel Group Hong Kong, China\", \"Mandarin Oriental Landmark Hong Kong Hilton Hotel\", \"Mandarin Oriental Landmark Hong Kong Hilton Resort\", \"Mandarin Oriental Landmark Hong Kong Hilton\", \"Mandarin Oriental Landmark Hong Kong Hilton Hong Kong, China Hotel\", \"Mandarin Oriental Landmark Hong Kong Hilton Hong Kong, China Resort\", \"Mandarin Oriental Landmark Hong Kong Hilton Hong Kong, China\", \"Mandarin Oriental The Landmark, Hong Kong Hotel\", \"Mandarin Oriental The Landmark, Hong Kong Resort\", \"Mandarin Oriental The Landmark, Hong Kong\", \"Mandarin Oriental The Landmark, Hong Kong Hong Kong, China Hotel\", \"Mandarin Oriental The Landmark, Hong Kong Hong Kong, China Resort\", \"Mandarin Oriental The Landmark, Hong Kong Hong Kong, China\"], \"v\": 3}": {
-    "lat": 22.2818794,
-    "lon": 114.1594433,
-    "formatted_address": "5 Connaught Road, Central, Hong Kong",
+    "lat": 22.280518,
+    "lon": 114.157939,
+    "formatted_address": "15 Queen's Road Central, Central, Hong Kong",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJuY8iZWQABDQR81RwhbR5TXE",
+    "place_id": "ChIJcYGO5GQABDQRac6ASI5lchM",
     "types": [
       "establishment",
       "food",
@@ -137959,25 +137959,25 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "5 Connaught Road, Central, Hong Kong",
+      "formatted_address": "15 Queen's Road Central, Central, Hong Kong",
       "geometry": {
         "location": {
-          "lat": 22.2818794,
-          "lng": 114.1594433
+          "lat": 22.280518,
+          "lng": 114.157939
         },
         "viewport": {
           "northeast": {
-            "lat": 22.2830937302915,
-            "lng": 114.1607285302915
+            "lat": 22.2818531302915,
+            "lng": 114.1591721302915
           },
           "southwest": {
-            "lat": 22.28039576970849,
-            "lng": 114.1580305697085
+            "lat": 22.2791551697085,
+            "lng": 114.1564741697085
           }
         }
       },
-      "name": "Mandarin Oriental, Hong Kong",
-      "place_id": "ChIJuY8iZWQABDQR81RwhbR5TXE",
+      "name": "The Landmark Mandarin Oriental, Hong Kong",
+      "place_id": "ChIJcYGO5GQABDQRac6ASI5lchM",
       "types": [
         "establishment",
         "food",
@@ -137985,7 +137985,7 @@
         "point_of_interest",
         "spa"
       ],
-      "website": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour?src=loc.yext.mohkg.ggl"
+      "website": "https://www.mandarinoriental.com/en/hong-kong/the-landmark?src=loc.yext.lmhkg.ggl"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Mandarin Oriental, Hong Kong\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Mandarin Oriental, Hong Kong Mandarin Oriental Hotel Group Hotel\", \"Mandarin Oriental, Hong Kong Mandarin Oriental Hotel Group Resort\", \"Mandarin Oriental, Hong Kong Mandarin Oriental Hotel Group\", \"Mandarin Oriental, Hong Kong Mandarin Oriental Hotel Group Hong Kong, China Hotel\", \"Mandarin Oriental, Hong Kong Mandarin Oriental Hotel Group Hong Kong, China Resort\", \"Mandarin Oriental, Hong Kong Mandarin Oriental Hotel Group Hong Kong, China\", \"Mandarin Oriental, Hong Kong Hilton Hotel\", \"Mandarin Oriental, Hong Kong Hilton Resort\", \"Mandarin Oriental, Hong Kong Hilton\", \"Mandarin Oriental, Hong Kong Hilton Hong Kong, China Hotel\", \"Mandarin Oriental, Hong Kong Hilton Hong Kong, China Resort\", \"Mandarin Oriental, Hong Kong Hilton Hong Kong, China\", \"Mandarin Oriental Hong Kong Mandarin Oriental Hotel Group Hotel\", \"Mandarin Oriental Hong Kong Mandarin Oriental Hotel Group Resort\", \"Mandarin Oriental Hong Kong Mandarin Oriental Hotel Group\", \"Mandarin Oriental Hong Kong Mandarin Oriental Hotel Group Hong Kong, China Hotel\", \"Mandarin Oriental Hong Kong Mandarin Oriental Hotel Group Hong Kong, China Resort\", \"Mandarin Oriental Hong Kong Mandarin Oriental Hotel Group Hong Kong, China\", \"Mandarin Oriental Hong Kong Hilton Hotel\", \"Mandarin Oriental Hong Kong Hilton Resort\", \"Mandarin Oriental Hong Kong Hilton\", \"Mandarin Oriental Hong Kong Hilton Hong Kong, China Hotel\", \"Mandarin Oriental Hong Kong Hilton Hong Kong, China Resort\", \"Mandarin Oriental Hong Kong Hilton Hong Kong, China\", \"Mandarin Oriental, Hong Kong Hotel\", \"Mandarin Oriental, Hong Kong Resort\", \"Mandarin Oriental, Hong Kong\", \"Mandarin Oriental, Hong Kong Hong Kong, China Hotel\", \"Mandarin Oriental, Hong Kong Hong Kong, China Resort\", \"Mandarin Oriental, Hong Kong Hong Kong, China\"], \"v\": 3}": {
@@ -159156,12 +159156,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The St. Regis Longboat Key Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The St. Regis Longboat Key Resort St. Regis Hotel\", \"The St. Regis Longboat Key Resort St. Regis Resort\", \"The St. Regis Longboat Key Resort St. Regis\", \"The St. Regis Longboat Key Resort St. Regis Longboat Key, Florida US Hotel\", \"The St. Regis Longboat Key Resort St. Regis Longboat Key, Florida US Resort\", \"The St. Regis Longboat Key Resort St. Regis Longboat Key, Florida US\", \"The St. Regis Longboat Key Resort Hilton Hotel\", \"The St. Regis Longboat Key Resort Hilton Resort\", \"The St. Regis Longboat Key Resort Hilton\", \"The St. Regis Longboat Key Resort Hilton Longboat Key, Florida US Hotel\", \"The St. Regis Longboat Key Resort Hilton Longboat Key, Florida US Resort\", \"The St. Regis Longboat Key Resort Hilton Longboat Key, Florida US\", \"St Regis Longboat Key Resort St. Regis Hotel\", \"St Regis Longboat Key Resort St. Regis Resort\", \"St Regis Longboat Key Resort St. Regis\", \"St Regis Longboat Key Resort St. Regis Longboat Key, Florida US Hotel\", \"St Regis Longboat Key Resort St. Regis Longboat Key, Florida US Resort\", \"St Regis Longboat Key Resort St. Regis Longboat Key, Florida US\", \"St Regis Longboat Key Resort Hilton Hotel\", \"St Regis Longboat Key Resort Hilton Resort\", \"St Regis Longboat Key Resort Hilton\", \"St Regis Longboat Key Resort Hilton Longboat Key, Florida US Hotel\", \"St Regis Longboat Key Resort Hilton Longboat Key, Florida US Resort\", \"St Regis Longboat Key Resort Hilton Longboat Key, Florida US\", \"The St. Regis Longboat Key Resort Hotel\", \"The St. Regis Longboat Key Resort Resort\", \"The St. Regis Longboat Key Resort\", \"The St. Regis Longboat Key Resort Longboat Key, Florida US Hotel\", \"The St. Regis Longboat Key Resort Longboat Key, Florida US Resort\", \"The St. Regis Longboat Key Resort Longboat Key, Florida US\"], \"v\": 3}": {
-    "lat": 25.8890934,
-    "lon": -80.1224107,
-    "formatted_address": "9703 Collins Avenue Bal Harbour, Miami Beach, FL 33154, USA",
+    "lat": 27.3527036,
+    "lon": -82.6105377,
+    "formatted_address": "1601 Gulf of Mexico Dr, Longboat Key, FL 34228, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ0U-MIZ-y2YgRG-selIJW58I",
+    "place_id": "ChIJaRL0syxrw4gRHAo4CxKP9IY",
     "types": [
       "establishment",
       "lodging",
@@ -159170,31 +159170,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "9703 Collins Avenue Bal Harbour, Miami Beach, FL 33154, USA",
+      "formatted_address": "1601 Gulf of Mexico Dr, Longboat Key, FL 34228, USA",
       "geometry": {
         "location": {
-          "lat": 25.8890934,
-          "lng": -80.1224107
+          "lat": 27.3527036,
+          "lng": -82.6105377
         },
         "viewport": {
           "northeast": {
-            "lat": 25.8902811302915,
-            "lng": -80.1217929697085
+            "lat": 27.3540211802915,
+            "lng": -82.6091891197085
           },
           "southwest": {
-            "lat": 25.8875831697085,
-            "lng": -80.1244909302915
+            "lat": 27.3513232197085,
+            "lng": -82.61188708029152
           }
         }
       },
-      "name": "The St. Regis Bal Harbour Resort",
-      "place_id": "ChIJ0U-MIZ-y2YgRG-selIJW58I",
+      "name": "The St. Regis Longboat Key Resort",
+      "place_id": "ChIJaRL0syxrw4gRHAo4CxKP9IY",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.marriott.com/en-us/hotels/miaxr-the-st-regis-bal-harbour-resort/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+      "website": "https://www.marriott.com/en-us/hotels/srqls-the-st-regis-longboat-key-resort/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The St. Regis Macao\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The St. Regis Macao St. Regis Hotel\", \"The St. Regis Macao St. Regis Resort\", \"The St. Regis Macao St. Regis\", \"The St. Regis Macao St. Regis Macau, China Hotel\", \"The St. Regis Macao St. Regis Macau, China Resort\", \"The St. Regis Macao St. Regis Macau, China\", \"The St. Regis Macao Hilton Hotel\", \"The St. Regis Macao Hilton Resort\", \"The St. Regis Macao Hilton\", \"The St. Regis Macao Hilton Macau, China Hotel\", \"The St. Regis Macao Hilton Macau, China Resort\", \"The St. Regis Macao Hilton Macau, China\", \"St Regis Macao St. Regis Hotel\", \"St Regis Macao St. Regis Resort\", \"St Regis Macao St. Regis\", \"St Regis Macao St. Regis Macau, China Hotel\", \"St Regis Macao St. Regis Macau, China Resort\", \"St Regis Macao St. Regis Macau, China\", \"St Regis Macao Hilton Hotel\", \"St Regis Macao Hilton Resort\", \"St Regis Macao Hilton\", \"St Regis Macao Hilton Macau, China Hotel\", \"St Regis Macao Hilton Macau, China Resort\", \"St Regis Macao Hilton Macau, China\", \"The St. Regis Macao Hotel\", \"The St. Regis Macao Resort\", \"The St. Regis Macao\", \"The St. Regis Macao Macau, China Hotel\", \"The St. Regis Macao Macau, China Resort\", \"The St. Regis Macao Macau, China\"], \"v\": 3}": {
@@ -168688,12 +168688,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Domes Zeen Chania, a Luxury Collection Resort, Crete\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Domes Zeen Chania, a Luxury Collection Resort, Crete The Luxury Collection Hotel\", \"Domes Zeen Chania, a Luxury Collection Resort, Crete The Luxury Collection Resort\", \"Domes Zeen Chania, a Luxury Collection Resort, Crete The Luxury Collection\", \"Domes Zeen Chania, a Luxury Collection Resort, Crete The Luxury Collection Chania, Greece Hotel\", \"Domes Zeen Chania, a Luxury Collection Resort, Crete The Luxury Collection Chania, Greece Resort\", \"Domes Zeen Chania, a Luxury Collection Resort, Crete The Luxury Collection Chania, Greece\", \"Domes Zeen Chania, a Luxury Collection Resort, Crete Hilton Hotel\", \"Domes Zeen Chania, a Luxury Collection Resort, Crete Hilton Resort\", \"Domes Zeen Chania, a Luxury Collection Resort, Crete Hilton\", \"Domes Zeen Chania, a Luxury Collection Resort, Crete Hilton Chania, Greece Hotel\", \"Domes Zeen Chania, a Luxury Collection Resort, Crete Hilton Chania, Greece Resort\", \"Domes Zeen Chania, a Luxury Collection Resort, Crete Hilton Chania, Greece\", \"Domes Zeen Chania a Luxury Collection Resort Crete The Luxury Collection Hotel\", \"Domes Zeen Chania a Luxury Collection Resort Crete The Luxury Collection Resort\", \"Domes Zeen Chania a Luxury Collection Resort Crete The Luxury Collection\", \"Domes Zeen Chania a Luxury Collection Resort Crete The Luxury Collection Chania, Greece Hotel\", \"Domes Zeen Chania a Luxury Collection Resort Crete The Luxury Collection Chania, Greece Resort\", \"Domes Zeen Chania a Luxury Collection Resort Crete The Luxury Collection Chania, Greece\", \"Domes Zeen Chania a Luxury Collection Resort Crete Hilton Hotel\", \"Domes Zeen Chania a Luxury Collection Resort Crete Hilton Resort\", \"Domes Zeen Chania a Luxury Collection Resort Crete Hilton\", \"Domes Zeen Chania a Luxury Collection Resort Crete Hilton Chania, Greece Hotel\", \"Domes Zeen Chania a Luxury Collection Resort Crete Hilton Chania, Greece Resort\", \"Domes Zeen Chania a Luxury Collection Resort Crete Hilton Chania, Greece\", \"Domes Zeen Chania, a Luxury Collection Resort, Crete Hotel\", \"Domes Zeen Chania, a Luxury Collection Resort, Crete Resort\", \"Domes Zeen Chania, a Luxury Collection Resort, Crete\", \"Domes Zeen Chania, a Luxury Collection Resort, Crete Chania, Greece Hotel\", \"Domes Zeen Chania, a Luxury Collection Resort, Crete Chania, Greece Resort\", \"Domes Zeen Chania, a Luxury Collection Resort, Crete Chania, Greece\"], \"v\": 3}": {
-    "lat": 35.5119612,
-    "lon": 23.9768486,
-    "formatted_address": "5 Strati Pantelaki Street, Στρατή Παντελάκη 5, Chania 731 00, Greece",
+    "lat": 35.5085778,
+    "lon": 23.9971102,
+    "formatted_address": "Apteron Road Parigoria, Kon/nou Paleologou, Chania 731 00, Greece",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJyVjspEJ9nBQRhl-6XlqN1GA",
+    "place_id": "ChIJxb5H6b19nBQR6zj_RWFiuxQ",
     "types": [
       "establishment",
       "lodging",
@@ -168702,31 +168702,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "5 Strati Pantelaki Street, Στρατή Παντελάκη 5, Chania 731 00, Greece",
+      "formatted_address": "Apteron Road Parigoria, Kon/nou Paleologou, Chania 731 00, Greece",
       "geometry": {
         "location": {
-          "lat": 35.5119612,
-          "lng": 23.9768486
+          "lat": 35.5085778,
+          "lng": 23.9971102
         },
         "viewport": {
           "northeast": {
-            "lat": 35.5131805302915,
-            "lng": 23.9783121802915
+            "lat": 35.5098594802915,
+            "lng": 23.9985551802915
           },
           "southwest": {
-            "lat": 35.5104825697085,
-            "lng": 23.9756142197085
+            "lat": 35.5071615197085,
+            "lng": 23.9958572197085
           }
         }
       },
-      "name": "Domes Noruz Chania, Autograph Collection",
-      "place_id": "ChIJyVjspEJ9nBQRhl-6XlqN1GA",
+      "name": "Domes Zeen Chania, a Luxury Collection Resort, Crete",
+      "place_id": "ChIJxb5H6b19nBQR6zj_RWFiuxQ",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.marriott.com/en-us/hotels/herdo-domes-noruz-chania-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+      "website": "https://www.marriott.com/en-us/hotels/chqlc-domes-zeen-chania-a-luxury-collection-resort-crete/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Ballantyne, a Luxury Collection Hotel, Charlotte\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Ballantyne, a Luxury Collection Hotel, Charlotte The Luxury Collection Hotel\", \"The Ballantyne, a Luxury Collection Hotel, Charlotte The Luxury Collection Resort\", \"The Ballantyne, a Luxury Collection Hotel, Charlotte The Luxury Collection\", \"The Ballantyne, a Luxury Collection Hotel, Charlotte The Luxury Collection Charlotte, North Carolina US Hotel\", \"The Ballantyne, a Luxury Collection Hotel, Charlotte The Luxury Collection Charlotte, North Carolina US Resort\", \"The Ballantyne, a Luxury Collection Hotel, Charlotte The Luxury Collection Charlotte, North Carolina US\", \"The Ballantyne, a Luxury Collection Hotel, Charlotte Hilton Hotel\", \"The Ballantyne, a Luxury Collection Hotel, Charlotte Hilton Resort\", \"The Ballantyne, a Luxury Collection Hotel, Charlotte Hilton\", \"The Ballantyne, a Luxury Collection Hotel, Charlotte Hilton Charlotte, North Carolina US Hotel\", \"The Ballantyne, a Luxury Collection Hotel, Charlotte Hilton Charlotte, North Carolina US Resort\", \"The Ballantyne, a Luxury Collection Hotel, Charlotte Hilton Charlotte, North Carolina US\", \"Ballantyne a Luxury Collection Hotel Charlotte The Luxury Collection Hotel\", \"Ballantyne a Luxury Collection Hotel Charlotte The Luxury Collection Resort\", \"Ballantyne a Luxury Collection Hotel Charlotte The Luxury Collection\", \"Ballantyne a Luxury Collection Hotel Charlotte The Luxury Collection Charlotte, North Carolina US Hotel\", \"Ballantyne a Luxury Collection Hotel Charlotte The Luxury Collection Charlotte, North Carolina US Resort\", \"Ballantyne a Luxury Collection Hotel Charlotte The Luxury Collection Charlotte, North Carolina US\", \"Ballantyne a Luxury Collection Hotel Charlotte Hilton Hotel\", \"Ballantyne a Luxury Collection Hotel Charlotte Hilton Resort\", \"Ballantyne a Luxury Collection Hotel Charlotte Hilton\", \"Ballantyne a Luxury Collection Hotel Charlotte Hilton Charlotte, North Carolina US Hotel\", \"Ballantyne a Luxury Collection Hotel Charlotte Hilton Charlotte, North Carolina US Resort\", \"Ballantyne a Luxury Collection Hotel Charlotte Hilton Charlotte, North Carolina US\", \"The Ballantyne, a Luxury Collection Hotel, Charlotte Hotel\", \"The Ballantyne, a Luxury Collection Hotel, Charlotte Resort\", \"The Ballantyne, a Luxury Collection Hotel, Charlotte\", \"The Ballantyne, a Luxury Collection Hotel, Charlotte Charlotte, North Carolina US Hotel\", \"The Ballantyne, a Luxury Collection Hotel, Charlotte Charlotte, North Carolina US Resort\", \"The Ballantyne, a Luxury Collection Hotel, Charlotte Charlotte, North Carolina US\"], \"v\": 3}": {
@@ -168940,47 +168940,45 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Al Maha, a Luxury Collection Desert Resort & Spa, Dubai\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Al Maha, a Luxury Collection Desert Resort & Spa, Dubai The Luxury Collection Hotel\", \"Al Maha, a Luxury Collection Desert Resort & Spa, Dubai The Luxury Collection Resort\", \"Al Maha, a Luxury Collection Desert Resort & Spa, Dubai The Luxury Collection\", \"Al Maha, a Luxury Collection Desert Resort & Spa, Dubai The Luxury Collection Dubai, United Arab Emirates Hotel\", \"Al Maha, a Luxury Collection Desert Resort & Spa, Dubai The Luxury Collection Dubai, United Arab Emirates Resort\", \"Al Maha, a Luxury Collection Desert Resort & Spa, Dubai The Luxury Collection Dubai, United Arab Emirates\", \"Al Maha, a Luxury Collection Desert Resort & Spa, Dubai Hilton Hotel\", \"Al Maha, a Luxury Collection Desert Resort & Spa, Dubai Hilton Resort\", \"Al Maha, a Luxury Collection Desert Resort & Spa, Dubai Hilton\", \"Al Maha, a Luxury Collection Desert Resort & Spa, Dubai Hilton Dubai, United Arab Emirates Hotel\", \"Al Maha, a Luxury Collection Desert Resort & Spa, Dubai Hilton Dubai, United Arab Emirates Resort\", \"Al Maha, a Luxury Collection Desert Resort & Spa, Dubai Hilton Dubai, United Arab Emirates\", \"Al Maha a Luxury Collection Desert Resort Spa Dubai The Luxury Collection Hotel\", \"Al Maha a Luxury Collection Desert Resort Spa Dubai The Luxury Collection Resort\", \"Al Maha a Luxury Collection Desert Resort Spa Dubai The Luxury Collection\", \"Al Maha a Luxury Collection Desert Resort Spa Dubai The Luxury Collection Dubai, United Arab Emirates Hotel\", \"Al Maha a Luxury Collection Desert Resort Spa Dubai The Luxury Collection Dubai, United Arab Emirates Resort\", \"Al Maha a Luxury Collection Desert Resort Spa Dubai The Luxury Collection Dubai, United Arab Emirates\", \"Al Maha a Luxury Collection Desert Resort Spa Dubai Hilton Hotel\", \"Al Maha a Luxury Collection Desert Resort Spa Dubai Hilton Resort\", \"Al Maha a Luxury Collection Desert Resort Spa Dubai Hilton\", \"Al Maha a Luxury Collection Desert Resort Spa Dubai Hilton Dubai, United Arab Emirates Hotel\", \"Al Maha a Luxury Collection Desert Resort Spa Dubai Hilton Dubai, United Arab Emirates Resort\", \"Al Maha a Luxury Collection Desert Resort Spa Dubai Hilton Dubai, United Arab Emirates\", \"Al Maha, a Luxury Collection Desert Resort & Spa, Dubai Hotel\", \"Al Maha, a Luxury Collection Desert Resort & Spa, Dubai Resort\", \"Al Maha, a Luxury Collection Desert Resort & Spa, Dubai\", \"Al Maha, a Luxury Collection Desert Resort & Spa, Dubai Dubai, United Arab Emirates Hotel\", \"Al Maha, a Luxury Collection Desert Resort & Spa, Dubai Dubai, United Arab Emirates Resort\", \"Al Maha, a Luxury Collection Desert Resort & Spa, Dubai Dubai, United Arab Emirates\"], \"v\": 3}": {
-    "lat": 24.8171508,
-    "lon": 55.2308538,
-    "formatted_address": "Al Qudra Road - opposite Endurance City - Mugatrah - Dubai - United Arab Emirates",
+    "lat": 24.7895674,
+    "lon": 55.60762630000001,
+    "formatted_address": "Dubai Desert Conservation Reserve - Al Ain - Dubai Rd - Margab - Dubai - United Arab Emirates",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJFxCH3HZvXz4Rz8fIvmm2WZM",
+    "place_id": "ChIJ05QU19NnXz4RUhDrXuUv8yM",
     "types": [
       "establishment",
       "lodging",
-      "point_of_interest",
-      "spa"
+      "point_of_interest"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Al Qudra Road - opposite Endurance City - Mugatrah - Dubai - United Arab Emirates",
+      "formatted_address": "Dubai Desert Conservation Reserve - Al Ain - Dubai Rd - Margab - Dubai - United Arab Emirates",
       "geometry": {
         "location": {
-          "lat": 24.8171508,
-          "lng": 55.2308538
+          "lat": 24.7895674,
+          "lng": 55.60762630000001
         },
         "viewport": {
           "northeast": {
-            "lat": 24.81850638029151,
-            "lng": 55.2322095802915
+            "lat": 24.7908211302915,
+            "lng": 55.60907468029151
           },
           "southwest": {
-            "lat": 24.8158084197085,
-            "lng": 55.2295116197085
+            "lat": 24.7881231697085,
+            "lng": 55.60637671970851
           }
         }
       },
-      "name": "Bab Al Shams, A Rare Finds Desert Resort, Dubai",
-      "place_id": "ChIJFxCH3HZvXz4Rz8fIvmm2WZM",
+      "name": "Al Maha, a Luxury Collection Desert Resort & Spa, Dubai",
+      "place_id": "ChIJ05QU19NnXz4RUhDrXuUv8yM",
       "types": [
         "establishment",
         "lodging",
-        "point_of_interest",
-        "spa"
+        "point_of_interest"
       ],
-      "website": "https://www.babalshams.com/?utm_medium=organic-search&utm_source=gbp&utm_campaign=gbp_ao_y_bas_pri-mkt_wt__ao__kz&utm_content=__&utm_term=bab-al-shams-a-rare-finds-desert-resort-dubai&utm_id=a26ky4"
+      "website": "https://www.marriott.com/en-us/hotels/dxbam-al-maha-a-luxury-collection-desert-resort-and-spa-dubai/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Marques de Riscal, a Luxury Collection Hotel, Elciego\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Marques de Riscal, a Luxury Collection Hotel, Elciego The Luxury Collection Hotel\", \"Hotel Marques de Riscal, a Luxury Collection Hotel, Elciego The Luxury Collection Resort\", \"Hotel Marques de Riscal, a Luxury Collection Hotel, Elciego The Luxury Collection\", \"Hotel Marques de Riscal, a Luxury Collection Hotel, Elciego The Luxury Collection Elciego, Spain Hotel\", \"Hotel Marques de Riscal, a Luxury Collection Hotel, Elciego The Luxury Collection Elciego, Spain Resort\", \"Hotel Marques de Riscal, a Luxury Collection Hotel, Elciego The Luxury Collection Elciego, Spain\", \"Hotel Marques de Riscal, a Luxury Collection Hotel, Elciego Hilton Hotel\", \"Hotel Marques de Riscal, a Luxury Collection Hotel, Elciego Hilton Resort\", \"Hotel Marques de Riscal, a Luxury Collection Hotel, Elciego Hilton\", \"Hotel Marques de Riscal, a Luxury Collection Hotel, Elciego Hilton Elciego, Spain Hotel\", \"Hotel Marques de Riscal, a Luxury Collection Hotel, Elciego Hilton Elciego, Spain Resort\", \"Hotel Marques de Riscal, a Luxury Collection Hotel, Elciego Hilton Elciego, Spain\", \"Hotel Marques De Riscal a Luxury Collection Hotel Elciego The Luxury Collection Hotel\", \"Hotel Marques De Riscal a Luxury Collection Hotel Elciego The Luxury Collection Resort\", \"Hotel Marques De Riscal a Luxury Collection Hotel Elciego The Luxury Collection\", \"Hotel Marques De Riscal a Luxury Collection Hotel Elciego The Luxury Collection Elciego, Spain Hotel\", \"Hotel Marques De Riscal a Luxury Collection Hotel Elciego The Luxury Collection Elciego, Spain Resort\", \"Hotel Marques De Riscal a Luxury Collection Hotel Elciego The Luxury Collection Elciego, Spain\", \"Hotel Marques De Riscal a Luxury Collection Hotel Elciego Hilton Hotel\", \"Hotel Marques De Riscal a Luxury Collection Hotel Elciego Hilton Resort\", \"Hotel Marques De Riscal a Luxury Collection Hotel Elciego Hilton\", \"Hotel Marques De Riscal a Luxury Collection Hotel Elciego Hilton Elciego, Spain Hotel\", \"Hotel Marques De Riscal a Luxury Collection Hotel Elciego Hilton Elciego, Spain Resort\", \"Hotel Marques De Riscal a Luxury Collection Hotel Elciego Hilton Elciego, Spain\", \"Hotel Marques de Riscal, a Luxury Collection Hotel, Elciego Hotel\", \"Hotel Marques de Riscal, a Luxury Collection Hotel, Elciego Resort\", \"Hotel Marques de Riscal, a Luxury Collection Hotel, Elciego\", \"Hotel Marques de Riscal, a Luxury Collection Hotel, Elciego Elciego, Spain Hotel\", \"Hotel Marques de Riscal, a Luxury Collection Hotel, Elciego Elciego, Spain Resort\", \"Hotel Marques de Riscal, a Luxury Collection Hotel, Elciego Elciego, Spain\"], \"v\": 3}": {
@@ -193420,12 +193418,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Beverly Hills Hotel\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Beverly Hills Hotel Dorchester Collection Hotel\", \"The Beverly Hills Hotel Dorchester Collection Resort\", \"The Beverly Hills Hotel Dorchester Collection\", \"The Beverly Hills Hotel Dorchester Collection Beverly Hills, California US Hotel\", \"The Beverly Hills Hotel Dorchester Collection Beverly Hills, California US Resort\", \"The Beverly Hills Hotel Dorchester Collection Beverly Hills, California US\", \"The Beverly Hills Hotel Hilton Hotel\", \"The Beverly Hills Hotel Hilton Resort\", \"The Beverly Hills Hotel Hilton\", \"The Beverly Hills Hotel Hilton Beverly Hills, California US Hotel\", \"The Beverly Hills Hotel Hilton Beverly Hills, California US Resort\", \"The Beverly Hills Hotel Hilton Beverly Hills, California US\", \"Beverly Hills Hotel Dorchester Collection Hotel\", \"Beverly Hills Hotel Dorchester Collection Resort\", \"Beverly Hills Hotel Dorchester Collection\", \"Beverly Hills Hotel Dorchester Collection Beverly Hills, California US Hotel\", \"Beverly Hills Hotel Dorchester Collection Beverly Hills, California US Resort\", \"Beverly Hills Hotel Dorchester Collection Beverly Hills, California US\", \"Beverly Hills Hotel Hilton Hotel\", \"Beverly Hills Hotel Hilton Resort\", \"Beverly Hills Hotel Hilton\", \"Beverly Hills Hotel Hilton Beverly Hills, California US Hotel\", \"Beverly Hills Hotel Hilton Beverly Hills, California US Resort\", \"Beverly Hills Hotel Hilton Beverly Hills, California US\", \"The Beverly Hills Hotel Hotel\", \"The Beverly Hills Hotel Resort\", \"The Beverly Hills Hotel\", \"The Beverly Hills Hotel Beverly Hills, California US Hotel\", \"The Beverly Hills Hotel Beverly Hills, California US Resort\", \"The Beverly Hills Hotel Beverly Hills, California US\"], \"v\": 3}": {
-    "lat": 34.0726057,
-    "lon": -118.3953843,
-    "formatted_address": "9291 Burton Wy, Beverly Hills, CA 90210, USA",
+    "lat": 34.0812316,
+    "lon": -118.4139956,
+    "formatted_address": "9641 Sunset Blvd, Beverly Hills, CA 90210, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJXd5IXAC8woAR5IO-2qe6gVA",
+    "place_id": "ChIJXVs5lQa8woARSWRNqYGVUNo",
     "types": [
       "establishment",
       "lodging",
@@ -193434,31 +193432,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "9291 Burton Wy, Beverly Hills, CA 90210, USA",
+      "formatted_address": "9641 Sunset Blvd, Beverly Hills, CA 90210, USA",
       "geometry": {
         "location": {
-          "lat": 34.0726057,
-          "lng": -118.3953843
+          "lat": 34.0812316,
+          "lng": -118.4139956
         },
         "viewport": {
           "northeast": {
-            "lat": 34.07383688029149,
-            "lng": -118.3939879697085
+            "lat": 34.0827269302915,
+            "lng": -118.4122117197085
           },
           "southwest": {
-            "lat": 34.0711389197085,
-            "lng": -118.3966859302915
+            "lat": 34.0800289697085,
+            "lng": -118.4149096802915
           }
         }
       },
-      "name": "L'Ermitage Beverly Hills",
-      "place_id": "ChIJXd5IXAC8woAR5IO-2qe6gVA",
+      "name": "The Beverly Hills Hotel",
+      "place_id": "ChIJXVs5lQa8woARSWRNqYGVUNo",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.lermitagebeverlyhills.com/"
+      "website": "https://www.dorchestercollection.com/los-angeles/the-beverly-hills-hotel"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"45 Park Lane - Dorchester Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"45 Park Lane - Dorchester Collection Dorchester Collection Hotel\", \"45 Park Lane - Dorchester Collection Dorchester Collection Resort\", \"45 Park Lane - Dorchester Collection Dorchester Collection\", \"45 Park Lane - Dorchester Collection Dorchester Collection London, England Hotel\", \"45 Park Lane - Dorchester Collection Dorchester Collection London, England Resort\", \"45 Park Lane - Dorchester Collection Dorchester Collection London, England\", \"45 Park Lane - Dorchester Collection Hilton Hotel\", \"45 Park Lane - Dorchester Collection Hilton Resort\", \"45 Park Lane - Dorchester Collection Hilton\", \"45 Park Lane - Dorchester Collection Hilton London, England Hotel\", \"45 Park Lane - Dorchester Collection Hilton London, England Resort\", \"45 Park Lane - Dorchester Collection Hilton London, England\", \"45 Park Lane Dorchester Collection Dorchester Collection Hotel\", \"45 Park Lane Dorchester Collection Dorchester Collection Resort\", \"45 Park Lane Dorchester Collection Dorchester Collection\", \"45 Park Lane Dorchester Collection Dorchester Collection London, England Hotel\", \"45 Park Lane Dorchester Collection Dorchester Collection London, England Resort\", \"45 Park Lane Dorchester Collection Dorchester Collection London, England\", \"45 Park Lane Dorchester Collection Hilton Hotel\", \"45 Park Lane Dorchester Collection Hilton Resort\", \"45 Park Lane Dorchester Collection Hilton\", \"45 Park Lane Dorchester Collection Hilton London, England Hotel\", \"45 Park Lane Dorchester Collection Hilton London, England Resort\", \"45 Park Lane Dorchester Collection Hilton London, England\", \"45 Park Lane - Dorchester Collection Hotel\", \"45 Park Lane - Dorchester Collection Resort\", \"45 Park Lane - Dorchester Collection\", \"45 Park Lane - Dorchester Collection London, England Hotel\", \"45 Park Lane - Dorchester Collection London, England Resort\", \"45 Park Lane - Dorchester Collection London, England\"], \"v\": 3}": {
@@ -197438,12 +197436,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"InterContinental Sydney by IHG\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental Sydney by IHG IHG Hotels & Resorts Hotel\", \"InterContinental Sydney by IHG IHG Hotels & Resorts Resort\", \"InterContinental Sydney by IHG IHG Hotels & Resorts\", \"InterContinental Sydney by IHG IHG Hotels & Resorts Sydney, Australia Hotel\", \"InterContinental Sydney by IHG IHG Hotels & Resorts Sydney, Australia Resort\", \"InterContinental Sydney by IHG IHG Hotels & Resorts Sydney, Australia\", \"InterContinental Sydney by IHG Hilton Hotel\", \"InterContinental Sydney by IHG Hilton Resort\", \"InterContinental Sydney by IHG Hilton\", \"InterContinental Sydney by IHG Hilton Sydney, Australia Hotel\", \"InterContinental Sydney by IHG Hilton Sydney, Australia Resort\", \"InterContinental Sydney by IHG Hilton Sydney, Australia\", \"Intercontinental Sydney Ihg IHG Hotels & Resorts Hotel\", \"Intercontinental Sydney Ihg IHG Hotels & Resorts Resort\", \"Intercontinental Sydney Ihg IHG Hotels & Resorts\", \"Intercontinental Sydney Ihg IHG Hotels & Resorts Sydney, Australia Hotel\", \"Intercontinental Sydney Ihg IHG Hotels & Resorts Sydney, Australia Resort\", \"Intercontinental Sydney Ihg IHG Hotels & Resorts Sydney, Australia\", \"Intercontinental Sydney Ihg Hilton Hotel\", \"Intercontinental Sydney Ihg Hilton Resort\", \"Intercontinental Sydney Ihg Hilton\", \"Intercontinental Sydney Ihg Hilton Sydney, Australia Hotel\", \"Intercontinental Sydney Ihg Hilton Sydney, Australia Resort\", \"Intercontinental Sydney Ihg Hilton Sydney, Australia\", \"InterContinental Sydney by IHG Hotel\", \"InterContinental Sydney by IHG Resort\", \"InterContinental Sydney by IHG\", \"InterContinental Sydney by IHG Sydney, Australia Hotel\", \"InterContinental Sydney by IHG Sydney, Australia Resort\", \"InterContinental Sydney by IHG Sydney, Australia\"], \"v\": 3}": {
-    "lat": -33.9225467,
-    "lon": 151.2559425,
-    "formatted_address": "242 Arden St, Coogee NSW 2034, Australia",
+    "lat": -33.8629015,
+    "lon": 151.2122407,
+    "formatted_address": "16 Phillip St, Sydney NSW 2000, Australia",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJqaQc7z-yEmsRyiVMOspG64Q",
+    "place_id": "ChIJV2sXvWmuEmsRcr4eLuIQ8wc",
     "types": [
       "establishment",
       "lodging",
@@ -197452,31 +197450,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "242 Arden St, Coogee NSW 2034, Australia",
+      "formatted_address": "16 Phillip St, Sydney NSW 2000, Australia",
       "geometry": {
         "location": {
-          "lat": -33.9225467,
-          "lng": 151.2559425
+          "lat": -33.8629015,
+          "lng": 151.2122407
         },
         "viewport": {
           "northeast": {
-            "lat": -33.9212819697085,
-            "lng": 151.2572175802915
+            "lat": -33.8616099697085,
+            "lng": 151.2134112302915
           },
           "southwest": {
-            "lat": -33.9239799302915,
-            "lng": 151.2545196197085
+            "lat": -33.8643079302915,
+            "lng": 151.2107132697085
           }
         }
       },
-      "name": "InterContinental Sydney Coogee Beach by IHG",
-      "place_id": "ChIJqaQc7z-yEmsRyiVMOspG64Q",
+      "name": "InterContinental Sydney by IHG",
+      "place_id": "ChIJV2sXvWmuEmsRcr4eLuIQ8wc",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.ihg.com/intercontinental/hotels/us/en/sydney/sydcb/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-AU-_-SYDCB"
+      "website": "https://www.ihg.com/intercontinental/hotels/us/en/sydney/sydha/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-AU-_-SYDHA"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"InterContinental David Tel Aviv by IHG\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"InterContinental David Tel Aviv by IHG IHG Hotels & Resorts Hotel\", \"InterContinental David Tel Aviv by IHG IHG Hotels & Resorts Resort\", \"InterContinental David Tel Aviv by IHG IHG Hotels & Resorts\", \"InterContinental David Tel Aviv by IHG IHG Hotels & Resorts Tel Aviv, Israel Hotel\", \"InterContinental David Tel Aviv by IHG IHG Hotels & Resorts Tel Aviv, Israel Resort\", \"InterContinental David Tel Aviv by IHG IHG Hotels & Resorts Tel Aviv, Israel\", \"InterContinental David Tel Aviv by IHG Hilton Hotel\", \"InterContinental David Tel Aviv by IHG Hilton Resort\", \"InterContinental David Tel Aviv by IHG Hilton\", \"InterContinental David Tel Aviv by IHG Hilton Tel Aviv, Israel Hotel\", \"InterContinental David Tel Aviv by IHG Hilton Tel Aviv, Israel Resort\", \"InterContinental David Tel Aviv by IHG Hilton Tel Aviv, Israel\", \"Intercontinental David Tel Aviv Ihg IHG Hotels & Resorts Hotel\", \"Intercontinental David Tel Aviv Ihg IHG Hotels & Resorts Resort\", \"Intercontinental David Tel Aviv Ihg IHG Hotels & Resorts\", \"Intercontinental David Tel Aviv Ihg IHG Hotels & Resorts Tel Aviv, Israel Hotel\", \"Intercontinental David Tel Aviv Ihg IHG Hotels & Resorts Tel Aviv, Israel Resort\", \"Intercontinental David Tel Aviv Ihg IHG Hotels & Resorts Tel Aviv, Israel\", \"Intercontinental David Tel Aviv Ihg Hilton Hotel\", \"Intercontinental David Tel Aviv Ihg Hilton Resort\", \"Intercontinental David Tel Aviv Ihg Hilton\", \"Intercontinental David Tel Aviv Ihg Hilton Tel Aviv, Israel Hotel\", \"Intercontinental David Tel Aviv Ihg Hilton Tel Aviv, Israel Resort\", \"Intercontinental David Tel Aviv Ihg Hilton Tel Aviv, Israel\", \"InterContinental David Tel Aviv by IHG Hotel\", \"InterContinental David Tel Aviv by IHG Resort\", \"InterContinental David Tel Aviv by IHG\", \"InterContinental David Tel Aviv by IHG Tel Aviv, Israel Hotel\", \"InterContinental David Tel Aviv by IHG Tel Aviv, Israel Resort\", \"InterContinental David Tel Aviv by IHG Tel Aviv, Israel\"], \"v\": 3}": {
@@ -203288,51 +203286,49 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Domaine de Fontenille - Fontenille Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Domaine de Fontenille - Fontenille Collection Relais & Ch\\u00e2teaux Hotel\", \"Domaine de Fontenille - Fontenille Collection Relais & Ch\\u00e2teaux Resort\", \"Domaine de Fontenille - Fontenille Collection Relais & Ch\\u00e2teaux\", \"Domaine de Fontenille - Fontenille Collection Relais & Ch\\u00e2teaux Lauris, France Hotel\", \"Domaine de Fontenille - Fontenille Collection Relais & Ch\\u00e2teaux Lauris, France Resort\", \"Domaine de Fontenille - Fontenille Collection Relais & Ch\\u00e2teaux Lauris, France\", \"Domaine de Fontenille - Fontenille Collection Hilton Hotel\", \"Domaine de Fontenille - Fontenille Collection Hilton Resort\", \"Domaine de Fontenille - Fontenille Collection Hilton\", \"Domaine de Fontenille - Fontenille Collection Hilton Lauris, France Hotel\", \"Domaine de Fontenille - Fontenille Collection Hilton Lauris, France Resort\", \"Domaine de Fontenille - Fontenille Collection Hilton Lauris, France\", \"Domaine De Fontenille Fontenille Collection Relais & Ch\\u00e2teaux Hotel\", \"Domaine De Fontenille Fontenille Collection Relais & Ch\\u00e2teaux Resort\", \"Domaine De Fontenille Fontenille Collection Relais & Ch\\u00e2teaux\", \"Domaine De Fontenille Fontenille Collection Relais & Ch\\u00e2teaux Lauris, France Hotel\", \"Domaine De Fontenille Fontenille Collection Relais & Ch\\u00e2teaux Lauris, France Resort\", \"Domaine De Fontenille Fontenille Collection Relais & Ch\\u00e2teaux Lauris, France\", \"Domaine De Fontenille Fontenille Collection Hilton Hotel\", \"Domaine De Fontenille Fontenille Collection Hilton Resort\", \"Domaine De Fontenille Fontenille Collection Hilton\", \"Domaine De Fontenille Fontenille Collection Hilton Lauris, France Hotel\", \"Domaine De Fontenille Fontenille Collection Hilton Lauris, France Resort\", \"Domaine De Fontenille Fontenille Collection Hilton Lauris, France\", \"Domaine de Fontenille - Fontenille Collection Hotel\", \"Domaine de Fontenille - Fontenille Collection Resort\", \"Domaine de Fontenille - Fontenille Collection\", \"Domaine de Fontenille - Fontenille Collection Lauris, France Hotel\", \"Domaine de Fontenille - Fontenille Collection Lauris, France Resort\", \"Domaine de Fontenille - Fontenille Collection Lauris, France\"], \"v\": 3}": {
-    "lat": 48.91234650000001,
-    "lon": 1.4615169,
-    "formatted_address": "D16, 28260 Guainville, France",
+    "lat": 43.7627798,
+    "lon": 5.3013107,
+    "formatted_address": "1681 Rte de Roquefraiche, 84360 Lauris, France",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJvVN0M_Wz5kcRNAXn7pckbzk",
+    "place_id": "ChIJR3PH6ucbyhIRgpST_FoTnd0",
     "types": [
       "establishment",
       "food",
       "lodging",
       "point_of_interest",
-      "restaurant",
-      "spa"
+      "restaurant"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "D16, 28260 Guainville, France",
+      "formatted_address": "1681 Rte de Roquefraiche, 84360 Lauris, France",
       "geometry": {
         "location": {
-          "lat": 48.91234650000001,
-          "lng": 1.4615169
+          "lat": 43.7627798,
+          "lng": 5.3013107
         },
         "viewport": {
           "northeast": {
-            "lat": 48.9135550302915,
-            "lng": 1.463720030291502
+            "lat": 43.7641449302915,
+            "lng": 5.302693880291502
           },
           "southwest": {
-            "lat": 48.91085706970851,
-            "lng": 1.461022069708498
+            "lat": 43.7614469697085,
+            "lng": 5.299995919708498
           }
         }
       },
-      "name": "Domaine de Primard",
-      "place_id": "ChIJvVN0M_Wz5kcRNAXn7pckbzk",
+      "name": "Domaine de Fontenille",
+      "place_id": "ChIJR3PH6ucbyhIRgpST_FoTnd0",
       "types": [
         "establishment",
         "food",
         "lodging",
         "point_of_interest",
-        "restaurant",
-        "spa"
+        "restaurant"
       ],
-      "website": "https://www.domainedeprimard.fontenille-collection.com/"
+      "website": "https://www.domainedefontenille.fontenille-collection.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Lizard Island Resort\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Lizard Island Resort Relais & Ch\\u00e2teaux Hotel\", \"Lizard Island Resort Relais & Ch\\u00e2teaux Resort\", \"Lizard Island Resort Relais & Ch\\u00e2teaux\", \"Lizard Island Resort Relais & Ch\\u00e2teaux Lizard Island, Australia Hotel\", \"Lizard Island Resort Relais & Ch\\u00e2teaux Lizard Island, Australia Resort\", \"Lizard Island Resort Relais & Ch\\u00e2teaux Lizard Island, Australia\", \"Lizard Island Resort Hilton Hotel\", \"Lizard Island Resort Hilton Resort\", \"Lizard Island Resort Hilton\", \"Lizard Island Resort Hilton Lizard Island, Australia Hotel\", \"Lizard Island Resort Hilton Lizard Island, Australia Resort\", \"Lizard Island Resort Hilton Lizard Island, Australia\", \"Lizard Island Resort Hotel\", \"Lizard Island Resort Resort\", \"Lizard Island Resort\", \"Lizard Island Resort Lizard Island, Australia Hotel\", \"Lizard Island Resort Lizard Island, Australia Resort\", \"Lizard Island Resort Lizard Island, Australia\"], \"v\": 3}": {
@@ -206529,12 +206525,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Emiliano\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Emiliano Small Luxury Hotels of the World Hotel\", \"Hotel Emiliano Small Luxury Hotels of the World Resort\", \"Hotel Emiliano Small Luxury Hotels of the World\", \"Hotel Emiliano Small Luxury Hotels of the World S\\u00e3o Paulo, Brazil Hotel\", \"Hotel Emiliano Small Luxury Hotels of the World S\\u00e3o Paulo, Brazil Resort\", \"Hotel Emiliano Small Luxury Hotels of the World S\\u00e3o Paulo, Brazil\", \"Hotel Emiliano Hilton Hotel\", \"Hotel Emiliano Hilton Resort\", \"Hotel Emiliano Hilton\", \"Hotel Emiliano Hilton S\\u00e3o Paulo, Brazil Hotel\", \"Hotel Emiliano Hilton S\\u00e3o Paulo, Brazil Resort\", \"Hotel Emiliano Hilton S\\u00e3o Paulo, Brazil\", \"Hotel Emiliano Hotel\", \"Hotel Emiliano Resort\", \"Hotel Emiliano\", \"Hotel Emiliano S\\u00e3o Paulo, Brazil Hotel\", \"Hotel Emiliano S\\u00e3o Paulo, Brazil Resort\", \"Hotel Emiliano S\\u00e3o Paulo, Brazil\"], \"v\": 3}": {
-    "lat": -22.9822203,
-    "lon": -43.1903566,
-    "formatted_address": "Av. Atlântica, 3804 - Copacabana, Rio de Janeiro - RJ, 22070-001, Brazil",
+    "lat": -23.5660418,
+    "lon": -46.6652509,
+    "formatted_address": "R. Oscar Freire, 384 - Jardim Paulista, São Paulo - SP, 01426-000, Brazil",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJPRfpuT7VmwAR2l_60dDBDok",
+    "place_id": "ChIJ38q4OIBXzpQRNNbRjnZZFB0",
     "types": [
       "establishment",
       "lodging",
@@ -206543,25 +206539,25 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Av. Atlântica, 3804 - Copacabana, Rio de Janeiro - RJ, 22070-001, Brazil",
+      "formatted_address": "R. Oscar Freire, 384 - Jardim Paulista, São Paulo - SP, 01426-000, Brazil",
       "geometry": {
         "location": {
-          "lat": -22.9822203,
-          "lng": -43.1903566
+          "lat": -23.5660418,
+          "lng": -46.6652509
         },
         "viewport": {
           "northeast": {
-            "lat": -22.9808616197085,
-            "lng": -43.18878961970849
+            "lat": -23.5647838697085,
+            "lng": -46.6640008197085
           },
           "southwest": {
-            "lat": -22.9835595802915,
-            "lng": -43.19148758029149
+            "lat": -23.56748183029151,
+            "lng": -46.6666987802915
           }
         }
       },
-      "name": "Emiliano Rio, an SLH Hotel",
-      "place_id": "ChIJPRfpuT7VmwAR2l_60dDBDok",
+      "name": "Emiliano Sao Paulo, an SLH Hotel",
+      "place_id": "ChIJ38q4OIBXzpQRNNbRjnZZFB0",
       "types": [
         "establishment",
         "lodging",
@@ -212334,12 +212330,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Ritz-Carlton Naples, Tibur\\u00f3n\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Ritz-Carlton Naples, Tibur\\u00f3n The Ritz-Carlton Hotel\", \"The Ritz-Carlton Naples, Tibur\\u00f3n The Ritz-Carlton Resort\", \"The Ritz-Carlton Naples, Tibur\\u00f3n The Ritz-Carlton\", \"The Ritz-Carlton Naples, Tibur\\u00f3n The Ritz-Carlton Naples, Florida US Hotel\", \"The Ritz-Carlton Naples, Tibur\\u00f3n The Ritz-Carlton Naples, Florida US Resort\", \"The Ritz-Carlton Naples, Tibur\\u00f3n The Ritz-Carlton Naples, Florida US\", \"The Ritz-Carlton Naples, Tibur\\u00f3n Hilton Hotel\", \"The Ritz-Carlton Naples, Tibur\\u00f3n Hilton Resort\", \"The Ritz-Carlton Naples, Tibur\\u00f3n Hilton\", \"The Ritz-Carlton Naples, Tibur\\u00f3n Hilton Naples, Florida US Hotel\", \"The Ritz-Carlton Naples, Tibur\\u00f3n Hilton Naples, Florida US Resort\", \"The Ritz-Carlton Naples, Tibur\\u00f3n Hilton Naples, Florida US\", \"Ritz carlton Naples Tiburon The Ritz-Carlton Hotel\", \"Ritz carlton Naples Tiburon The Ritz-Carlton Resort\", \"Ritz carlton Naples Tiburon The Ritz-Carlton\", \"Ritz carlton Naples Tiburon The Ritz-Carlton Naples, Florida US Hotel\", \"Ritz carlton Naples Tiburon The Ritz-Carlton Naples, Florida US Resort\", \"Ritz carlton Naples Tiburon The Ritz-Carlton Naples, Florida US\", \"Ritz carlton Naples Tiburon Hilton Hotel\", \"Ritz carlton Naples Tiburon Hilton Resort\", \"Ritz carlton Naples Tiburon Hilton\", \"Ritz carlton Naples Tiburon Hilton Naples, Florida US Hotel\", \"Ritz carlton Naples Tiburon Hilton Naples, Florida US Resort\", \"Ritz carlton Naples Tiburon Hilton Naples, Florida US\", \"The Ritz-Carlton Naples, Tibur\\u00f3n Hotel\", \"The Ritz-Carlton Naples, Tibur\\u00f3n Resort\", \"The Ritz-Carlton Naples, Tibur\\u00f3n\", \"The Ritz-Carlton Naples, Tibur\\u00f3n Naples, Florida US Hotel\", \"The Ritz-Carlton Naples, Tibur\\u00f3n Naples, Florida US Resort\", \"The Ritz-Carlton Naples, Tibur\\u00f3n Naples, Florida US\"], \"v\": 3}": {
-    "lat": 26.2518828,
-    "lon": -81.8213853,
-    "formatted_address": "280 Vanderbilt Beach Rd, Naples, FL 34108, USA",
+    "lat": 26.249055,
+    "lon": -81.7665105,
+    "formatted_address": "2600 Tiburon Dr, Naples, FL 34109, USA",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJi30UkuEe24gRhkuVM5pLihk",
+    "place_id": "ChIJ1dWvvDwc24gR9yIR-YKLBFM",
     "types": [
       "establishment",
       "lodging",
@@ -212348,31 +212344,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "280 Vanderbilt Beach Rd, Naples, FL 34108, USA",
+      "formatted_address": "2600 Tiburon Dr, Naples, FL 34109, USA",
       "geometry": {
         "location": {
-          "lat": 26.2518828,
-          "lng": -81.8213853
+          "lat": 26.249055,
+          "lng": -81.7665105
         },
         "viewport": {
           "northeast": {
-            "lat": 26.2533101802915,
-            "lng": -81.8199883697085
+            "lat": 26.2503814302915,
+            "lng": -81.7651380197085
           },
           "southwest": {
-            "lat": 26.25061221970849,
-            "lng": -81.8226863302915
+            "lat": 26.24768346970849,
+            "lng": -81.76783598029151
           }
         }
       },
-      "name": "The Ritz-Carlton, Naples",
-      "place_id": "ChIJi30UkuEe24gRhkuVM5pLihk",
+      "name": "The Ritz-Carlton Naples, Tiburón",
+      "place_id": "ChIJ1dWvvDwc24gR9yIR-YKLBFM",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+      "website": "https://www.ritzcarlton.com/en/hotels/rswgr-the-ritz-carlton-naples-tiburon/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Ritz-Carlton, Suzhou\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Ritz-Carlton, Suzhou The Ritz-Carlton Hotel\", \"The Ritz-Carlton, Suzhou The Ritz-Carlton Resort\", \"The Ritz-Carlton, Suzhou The Ritz-Carlton\", \"The Ritz-Carlton, Suzhou The Ritz-Carlton Suzhou, China Hotel\", \"The Ritz-Carlton, Suzhou The Ritz-Carlton Suzhou, China Resort\", \"The Ritz-Carlton, Suzhou The Ritz-Carlton Suzhou, China\", \"The Ritz-Carlton, Suzhou Hilton Hotel\", \"The Ritz-Carlton, Suzhou Hilton Resort\", \"The Ritz-Carlton, Suzhou Hilton\", \"The Ritz-Carlton, Suzhou Hilton Suzhou, China Hotel\", \"The Ritz-Carlton, Suzhou Hilton Suzhou, China Resort\", \"The Ritz-Carlton, Suzhou Hilton Suzhou, China\", \"Ritz carlton Suzhou The Ritz-Carlton Hotel\", \"Ritz carlton Suzhou The Ritz-Carlton Resort\", \"Ritz carlton Suzhou The Ritz-Carlton\", \"Ritz carlton Suzhou The Ritz-Carlton Suzhou, China Hotel\", \"Ritz carlton Suzhou The Ritz-Carlton Suzhou, China Resort\", \"Ritz carlton Suzhou The Ritz-Carlton Suzhou, China\", \"Ritz carlton Suzhou Hilton Hotel\", \"Ritz carlton Suzhou Hilton Resort\", \"Ritz carlton Suzhou Hilton\", \"Ritz carlton Suzhou Hilton Suzhou, China Hotel\", \"Ritz carlton Suzhou Hilton Suzhou, China Resort\", \"Ritz carlton Suzhou Hilton Suzhou, China\", \"The Ritz-Carlton, Suzhou Hotel\", \"The Ritz-Carlton, Suzhou Resort\", \"The Ritz-Carlton, Suzhou\", \"The Ritz-Carlton, Suzhou Suzhou, China Hotel\", \"The Ritz-Carlton, Suzhou Suzhou, China Resort\", \"The Ritz-Carlton, Suzhou Suzhou, China\"], \"v\": 3}": {
