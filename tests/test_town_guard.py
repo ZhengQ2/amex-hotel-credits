@@ -26,6 +26,16 @@ class FreshCandidateConflictTests(unittest.TestCase):
             "Waldorf Astoria Helsinki", "Helsinki, Finland",
         ))
 
+    def test_rejects_other_hotel_sharing_only_the_program_suffix(self):
+        # The 21 Nov 2026 nightly, before this guard existed, pinned the
+        # renamed Phaea Blue (Elounda, Crete) at Eagles Villas, 580 km away in
+        # Halkidiki: both names end in "Small Luxury Hotels of the World".
+        self.assertTrue(conflicts(
+            "Eagles Villas, Small Luxury Hotels of the World",
+            "Skala Neon Rodon, Ouranoupolis, Halkidiki 630 75, Greece",
+            "Phaea Blue - Small Luxury Hotels of the World", "Elounda, Greece",
+        ))
+
     def test_rejects_candidate_that_drops_the_hotels_town(self):
         self.assertTrue(conflicts(
             "The St. Regis Bal Harbour Resort",
@@ -73,6 +83,8 @@ class FreshCandidateConflictTests(unittest.TestCase):
              "La Sultana Marrakech", "Marrakech, Morocco"),
             ("Amrit Ocean Resort", "3100 N Ocean Dr, Riviera Beach, FL 33404, USA",
              "Amrit Ocean Resort and Residences - Singer Island", "Singer Island, Florida US"),
+            ("Phaea Blue, a member of SLH | Elounda, Crete", "Plaka 720 53, Greece",
+             "Phaea Blue - Small Luxury Hotels of the World", "Elounda, Greece"),
         ]
         for place_name, address, hotel_name, location in cases:
             with self.subTest(hotel_name):
