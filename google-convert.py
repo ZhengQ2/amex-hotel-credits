@@ -37,6 +37,7 @@ from dotenv import load_dotenv
 from cache_utils import (
     address_location_compatible,
     find_fuzzy_cache_key,
+    fresh_candidate_conflicts,
     is_lodging_type,
     is_strict_lodging_type,
     normalize_name,
@@ -355,6 +356,20 @@ def choose_best_place(
             # the next, weaker query rather than accept a known-wrong place.
             return None
 
+        # In-country is not enough: Text Search for "Jumeirah Lake Como" in
+        # Torno ranks Hilton Lake Como, a different hotel in the city of Como,
+        # and the name check accepts it on "Lake Como" alone. Drop candidates
+        # in another town whose name shows they are a different hotel.
+        plausible = [
+            r for r in results
+            if not fresh_candidate_conflicts(
+                r.get("name", ""), r.get("formatted_address", ""), hotel_name, hotel_location
+            )
+        ]
+        if not plausible:
+            return None
+        results = plausible
+
     # Rank: (acceptable type, name compatibility, strict lodging, brand hit, rating, reviews)
     ranked = []
     for r in results:
@@ -480,7 +495,14 @@ def geocode_places_first(
             cand = choose_best_place(ts.get("results", []), brand, hotel_name, hotel_location)
             if cand:
                 det = places_details(cand["place_id"], API_KEY)
-                if det and acceptable_from_details(det):
+                if (
+                    det
+                    and acceptable_from_details(det)
+                    and not fresh_candidate_conflicts(
+                        det.get("name", ""), det.get("formatted_address", ""),
+                        hotel_name, hotel_location,
+                    )
+                ):
                     loc = det["geometry"]["location"]
                     return {
                         "lat": float(loc["lat"]),
@@ -501,6 +523,10 @@ def geocode_places_first(
                 and _is_lodging_type(geo.get("types", []))
                 and _is_name_compatible(geo.get("raw", {}).get("name", "") or q, hotel_name)
                 and _location_compatible(geo.get("formatted_address", ""), hotel_location)
+                and not fresh_candidate_conflicts(
+                    geo.get("raw", {}).get("name", ""), geo.get("formatted_address", ""),
+                    hotel_name, hotel_location,
+                )
             ):
                 return geo, f"GEOCODE:{q}"
             last = f"WEAK_OR_EMPTY:{q}"

@@ -852,6 +852,114 @@ def align_compound_tokens(
     return t1, t2
 
 
+# Words that describe a hotel's setting rather than which hotel it is, so two
+# names agreeing only on them ("Jumeirah Lake Como" / "Hilton Lake Como") do
+# not identify the same property.
+_SETTING_TOKENS: FrozenSet[str] = _WEAK_SINGLE_CORE_TOKENS | frozenset({
+    "lago", "lac", "isla", "ile", "isle", "islands", "mount", "mountain",
+    "mountains", "valley", "coast", "shore", "cove", "harbor", "harbour",
+    "marina", "lagoon", "springs", "peninsula", "cay", "atoll", "hills", "hill",
+    "canyon", "desert", "forest", "point", "sands", "reef", "gulf", "old",
+    "town", "village", "downtown", "saint", "slh", "lhw",
+})
+
+
+def _fold_umlaut_spelling(s: str) -> str:
+    """Fold German-style umlaut spellings so 'Buergenstock' equals 'Burgenstock'."""
+    return s.replace("ue", "u").replace("oe", "o").replace("ae", "a")
+
+
+def _place_words(hotel_location: str, formatted_address: str) -> Set[str]:
+    """Words naming a place: the scraped location, plus the address locality and country."""
+    words = set(normalize_name(hotel_location).split())
+    text, names = _parse_address_locality(formatted_address)
+    words.update(text.split())
+    for name in names:
+        words.update(name.split())
+    parts = [p for p in re.split(r"\s*[,،]\s*|\s+-\s+", formatted_address or "") if p.strip()]
+    if parts:
+        words.update(normalize_name(parts[-1]).split())
+    return words
+
+
+def fresh_candidate_conflicts(
+    place_name: str,
+    formatted_address: str,
+    hotel_name: str,
+    hotel_location: str,
+) -> List[str]:
+    """Why a freshly geocoded place in another town is probably a different hotel.
+
+    Returns an empty list when the place is plausible. Only applies when the
+    place's address does not name the hotel's own town: AMEX often lists a
+    neighbouring town or island (Coconut Grove for Miami, Southbank for
+    Melbourne), so the town alone is never a reason to reject. In another town,
+    the candidate is rejected when
+      1. its name agrees with the hotel's only on place or setting words, and
+         each name has its own identifying word ("Hilton Lake Como" for
+         "Jumeirah Lake Como" in Torno);
+      2. the hotel's name contains its own town, the candidate's does not, and
+         the candidate adds a word of its own ("The St. Regis Bal Harbour
+         Resort" for "The St. Regis Longboat Key Resort");
+      3. the candidate's name carries a town from its own address that the
+         hotel's name and location lack ("Four Seasons Hotel Los Angeles At
+         Beverly Hills" for "Four Seasons Hotel San Francisco").
+    """
+    if not place_name or not formatted_address or not hotel_name or not hotel_location:
+        return []
+    city, region, country = normalize_location_parts(hotel_location)
+    if not city or city == country:
+        return []
+    if _candidate_city_compatible(hotel_location, formatted_address, ()):
+        return []
+
+    place_words = _place_words(hotel_location, formatted_address)
+    hotel_tokens, place_tokens = align_compound_tokens(
+        core_name_tokens(hotel_name), core_name_tokens(place_name)
+    )
+    ignorable = place_words | _SETTING_TOKENS
+    hotel_only = hotel_tokens - place_tokens - ignorable
+    place_only = place_tokens - hotel_tokens - ignorable
+    conflicts: List[str] = []
+
+    if not (hotel_tokens & place_tokens) - ignorable and hotel_only and place_only:
+        conflicts.append("names share only place words")
+
+    hotel_norm = normalize_name(hotel_name)
+    place_norm = normalize_name(place_name)
+    own_town = [
+        needle for needle in _city_needles(city, region=region, country=country)
+        if _haystack_has_phrase(hotel_norm, needle)
+    ]
+    if own_town and place_only and not any(
+        _haystack_has_phrase(place_norm, needle) for needle in own_town
+    ):
+        conflicts.append("candidate drops the hotel's town")
+
+    text, names = _parse_address_locality(formatted_address)
+    hotel_words = {
+        _fold_umlaut_spelling(w)
+        for w in (hotel_norm + " " + normalize_name(hotel_location)).split()
+    }
+    hotel_joined = _fold_umlaut_spelling(
+        (hotel_norm + normalize_name(hotel_location)).replace(" ", "")
+    )
+    for town in sorted(names | ({text} if text else set())):
+        # Setting words do not tie a town to the hotel: Redondo Beach is not
+        # Manhattan Beach.
+        words = {_fold_umlaut_spelling(w) for w in town.split()} - _SETTING_TOKENS
+        if (
+            len(town) >= 3
+            and words
+            and _haystack_has_phrase(place_norm, town)
+            and not words & hotel_words
+            and _fold_umlaut_spelling(town.replace(" ", "")) not in hotel_joined
+        ):
+            conflicts.append(f"candidate is named for {town}")
+            break
+    return conflicts
+
+
 def _names_match(
     name1: str,
     name2: str,
