@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📍</text></svg>">
+  <title>What's new — Hilton · FHR · THC hotel list changes</title>
+  <meta name="description" content="Hotels added to and removed from the Hilton resort-credit, Amex Fine Hotels + Resorts and The Hotel Collection lists, found by a nightly check.">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --bg: #0f172a; --panel: #131d33; --line: #1e293b; --line-strong: #334155; --text: #f1f5f9; --soft: #cbd5e1; --muted: #94a3b8; --faint: #64748b;
+            --added: #4ade80; --removed: #f87171; --renamed: #94a3b8; --link: #93c5fd; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.45; }
+    a { color: var(--link); text-decoration: none; } a:hover { text-decoration: underline; }
+    :focus-visible { outline: 2px solid #60a5fa; outline-offset: 2px; }
+    .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+    #header { position: sticky; top: 0; z-index: 10; background: rgba(15, 23, 42, .96); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); padding: 10px 16px; display: flex; align-items: center; gap: 14px; }
+    #header .site { font-size: .95rem; font-weight: 700; color: #f8fafc; white-space: nowrap; }
+    #header nav { display: flex; gap: 4px; }
+    #header nav a { font-size: .8rem; font-weight: 600; color: var(--muted); padding: 4px 10px; border-radius: 6px; }
+    #header nav a:hover { color: var(--text); background: var(--line); text-decoration: none; }
+    #header nav a[aria-current="page"] { color: var(--text); background: var(--line); }
+
+    main { max-width: 880px; margin: 0 auto; padding: 28px 16px 60px; }
+    .intro h1 { font-size: 1.45rem; font-weight: 750; letter-spacing: -.01em; }
+    .intro p { color: var(--muted); font-size: .88rem; margin-top: 6px; max-width: 640px; }
+
+    #summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-top: 22px; }
+    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+    .card-name { display: flex; align-items: center; gap: 7px; font-size: .8rem; font-weight: 650; color: var(--soft); }
+    .card-nums { display: flex; gap: 14px; margin-top: 6px; font-variant-numeric: tabular-nums; }
+    .card-nums div { font-size: 1.35rem; font-weight: 700; line-height: 1.1; }
+    .card-nums small { display: block; font-size: .68rem; font-weight: 500; color: var(--muted); }
+    .card-nums .zero { color: var(--faint); }
+    .dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; display: inline-block; }
+    .card-name .short { display: none; }
+
+    #controls { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-top: 22px; padding: 12px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+    .chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 20px; border: 1.5px solid var(--line-strong); background: transparent; color: var(--soft); font: 600 .76rem/1.3 inherit; font-family: inherit; cursor: pointer; }
+    .chip[aria-pressed="false"] { opacity: .4; }
+    .chip .glyph { font-weight: 800; }
+    select, input[type="search"] { background: #1e293b; border: 1px solid var(--line-strong); color: var(--text); padding: 6px 10px; border-radius: 6px; font: .8rem inherit; font-family: inherit; }
+    input[type="search"] { flex: 1; min-width: 170px; } input::placeholder { color: var(--faint); }
+    .check { font-size: .78rem; color: var(--soft); display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
+    .check input { accent-color: #60a5fa; }
+
+    #status { color: var(--muted); font-size: .8rem; margin: 14px 0 0; min-height: 1.2em; }
+    #timeline { list-style: none; }
+    .day { margin-top: 26px; }
+    .day-head { display: flex; align-items: baseline; gap: 10px; font-size: .95rem; font-weight: 700; padding-bottom: 6px; }
+    .day-head .ago { font-size: .75rem; font-weight: 500; color: var(--faint); }
+    .group { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; margin-top: 8px; overflow: hidden; }
+    .group-head { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 10px; padding: 9px 14px; border-bottom: 1px solid var(--line); font-size: .8rem; font-weight: 650; color: var(--soft); }
+    .group-head .tally { font-weight: 500; color: var(--muted); font-variant-numeric: tabular-nums; }
+    .group-head .src { margin-left: auto; font-size: .72rem; font-weight: 500; }
+    .rows { list-style: none; }
+    .row { display: grid; grid-template-columns: 22px 1fr auto; gap: 10px; align-items: start; padding: 10px 14px; }
+    .row + .row { border-top: 1px solid rgba(30, 41, 59, .7); }
+    .icon { width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: .85rem; margin-top: 1px; }
+    .added .icon { color: var(--added); background: rgba(74, 222, 128, .12); }
+    .removed .icon { color: var(--removed); background: rgba(248, 113, 113, .12); }
+    .renamed .icon { color: var(--renamed); background: rgba(148, 163, 184, .14); font-size: .75rem; }
+    .name { font-size: .9rem; font-weight: 650; color: var(--text); }
+    .removed .name { color: var(--soft); }
+    a.name:hover { color: var(--link); }
+    .meta { font-size: .76rem; color: var(--muted); margin-top: 2px; }
+    .note { font-size: .74rem; color: var(--soft); margin-top: 4px; }
+    .note b { font-weight: 600; }
+    .maplink { font-size: .74rem; font-weight: 600; white-space: nowrap; padding-top: 2px; }
+    .empty { color: var(--muted); font-size: .88rem; text-align: center; padding: 40px 0; }
+    footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--faint); font-size: .74rem; }
+    footer p + p { margin-top: 6px; }
+    @media (max-width: 560px) {
+      #summary { grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); gap: 6px; }
+      .card { padding: 9px 10px; } .card-nums { gap: 10px; } .card-nums div { font-size: 1.1rem; }
+      .card-name .long { display: none; } .card-name .short { display: inline; }
+      .row { grid-template-columns: 22px 1fr; } .maplink { grid-column: 2; padding-top: 0; }
+      .group-head .src { margin-left: 0; width: 100%; }
+    }
+  </style>
+</head>
+<body>
+<header id="header">
+  <a class="site" href="./">🏨 Luxury Hotel Map</a>
+  <nav aria-label="Pages"><a href="./">Map</a><a href="changes.html" aria-current="page">What's new</a></nav>
+</header>
+<main>
+  <section class="intro">
+    <h1>Hotel list changes</h1>
+    <p>Hotels joining or leaving the Hilton resort-credit list, Amex Fine Hotels + Resorts and The Hotel Collection, as found by the nightly check. <span id="since"></span></p>
+  </section>
+
+  <section id="summary" aria-label="Totals for the selected period"></section>
+
+  <section id="controls" aria-label="Filters">
+    <div class="chips" role="group" aria-label="Programs" id="program-chips"></div>
+    <div class="chips" role="group" aria-label="Change types" id="change-chips"></div>
+    <select id="period" aria-label="Period">
+      <option value="30">Last 30 days</option>
+      <option value="90" selected>Last 90 days</option>
+      <option value="365">Last 12 months</option>
+      <option value="all">All</option>
+    </select>
+    <input id="search" type="search" placeholder="Search hotels, brands, places…" autocomplete="off" aria-label="Search">
+    <label class="check"><input id="hide-blips" type="checkbox" checked>Hide brief drop-outs</label>
+  </section>
+
+  <p id="status" role="status">Loading changes…</p>
+  <ol id="timeline"></ol>
+
+  <footer>
+    <p>Each night the CI job scrapes the three lists and compares them with the night before. A hotel that drops off and is back within <span id="blip-days">14</span> days is a glitch on the source site; those drop-outs are hidden unless you untick “Hide brief drop-outs”. Renames are mostly the programs updating a listing's name.</p>
+    <p>Eligibility, credits and benefits are set by Hilton and American Express at booking time. Raw data: <a href="changes.json">changes.json</a>.</p>
+  </footer>
+</main>
+
+<script src="changes.js?v=2"></script>
+<script>
+const PROGRAM_STYLE = {
+  "Hilton Portfolio": { short: "Hilton", color: "#3b82f6" },
+  "Fine Hotels + Resorts": { short: "FHR", color: "#f59e0b" },
+  "The Hotel Collection": { short: "THC", color: "#22c55e" },
+};
+const CHANGE_STYLE = {
+  added: { label: "Added", glyph: "+" },
+  removed: { label: "Removed", glyph: "−" },
+  renamed: { label: "Renamed", glyph: "→" },
+};
+const state = {
+  programs: new Set(HotelChanges.PROGRAMS),
+  changes: new Set(["added", "removed"]),  // renames are mostly listing-name tweaks: opt in
+  period: "90",
+  query: "",
+  hideBlips: true,
+};
+let log = { trackingSince: {}, events: [] };
+
+const $ = id => document.getElementById(id);
+const esc = value => String(value ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+const dateFormat = new Intl.DateTimeFormat("en-US", { weekday: "short", month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
+const shortDate = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
+const fmtDate = (date, format = shortDate) => format.format(new Date(`${date}T00:00:00Z`));
+const plural = (n, word) => `${n.toLocaleString()} ${word}${n === 1 ? "" : "s"}`;
+
+function ago(day) {
+  const days = HotelChanges.today() - day;
+  if (days <= 0) return "today";
+  if (days === 1) return "yesterday";
+  if (days < 60) return `${days} days ago`;
+  return `${Math.round(days / 30.4)} months ago`;
+}
+
+function sinceDay() {
+  return state.period === "all" ? null : HotelChanges.today() - Number(state.period) + 1;
+}
+
+function chip(group, key, label, color, glyph) {
+  const pressed = state[group].has(key);
+  const mark = color ? `<span class="dot" style="background:${color}"></span>` : `<span class="glyph" style="color:var(--${key})">${glyph}</span>`;
+  return `<button type="button" class="chip" data-group="${group}" data-key="${esc(key)}" aria-pressed="${pressed}">${mark}${esc(label)}</button>`;
+}
+
+function renderChips() {
+  $("program-chips").innerHTML = HotelChanges.PROGRAMS.map(program =>
+    chip("programs", program, PROGRAM_STYLE[program].short, PROGRAM_STYLE[program].color)).join("");
+  $("change-chips").innerHTML = HotelChanges.CHANGES.map(change =>
+    chip("changes", change, CHANGE_STYLE[change].label, null, CHANGE_STYLE[change].glyph)).join("");
+}
+
+function renderSummary(events) {
+  const totals = HotelChanges.summarize(events);
+  const num = (n, word, cls, sign) => `<div class="${n ? "" : "zero"}" style="${n ? `color:var(--${cls})` : ""}">${n ? sign : ""}${n.toLocaleString()}<small>${word}</small></div>`;
+  $("summary").innerHTML = HotelChanges.PROGRAMS.filter(program => state.programs.has(program)).map(program => {
+    const t = totals[program];
+    const renamed = state.changes.has("renamed") ? num(t.renamed, "renamed", "renamed", "") : "";
+    return `<div class="card"><div class="card-name"><span class="dot" style="background:${PROGRAM_STYLE[program].color}"></span><span class="long">${esc(program)}</span><span class="short">${esc(PROGRAM_STYLE[program].short)}</span></div>
+      <div class="card-nums">${num(t.added, "added", "added", "+")}${num(t.removed, "removed", "removed", "−")}${renamed}</div></div>`;
+  }).join("");
+}
+
+function mapLink(event) {
+  if (event.change === "removed" || event.removedOn || !Number.isFinite(event.lat) || !Number.isFinite(event.lon)) return "";
+  const params = new URLSearchParams({ hotel: event.name, at: `${event.lat},${event.lon}` });
+  return `<a class="maplink" href="./?${esc(params.toString())}">View on map</a>`;
+}
+
+function notes(event) {
+  const out = [];
+  const short = program => PROGRAM_STYLE[program] ? PROGRAM_STYLE[program].short : program;
+  if (event.change === "renamed") {
+    out.push(`Formerly <b>${esc(event.previous_name)}</b>${event.previous_brand ? ` (${esc(event.previous_brand)})` : ""}`);
+  }
+  if (event.from_program) out.push(`Moved from ${esc(short(event.from_program))}`);
+  if (event.to_program) out.push(`Moved to ${esc(short(event.to_program))}`);
+  if (event.maybe_renamed_from) out.push(`May be the new listing name of <b>${esc(event.maybe_renamed_from)}</b>, removed the same night`);
+  if (event.maybe_renamed_to) out.push(`May have been renamed <b>${esc(event.maybe_renamed_to)}</b>, added the same night`);
+  if (event.previouslyRemovedOn) {
+    const as = event.removedAs ? ` as <b>${esc(event.removedAs)}</b>` : "";
+    out.push(`Back after ${plural(event.gapDays, "day")} off the list (removed ${fmtDate(event.previouslyRemovedOn)}${as})`);
+  }
+  if (event.returnedOn) {
+    out.push(`Back on the list ${fmtDate(event.returnedOn)}${event.returnedAs ? ` as <b>${esc(event.returnedAs)}</b>` : ""}`);
+  }
+  else if (event.change === "added" && event.removedOn) out.push(`Removed again ${fmtDate(event.removedOn)}`);
+  return out.length ? `<div class="note">${out.join(" · ")}</div>` : "";
+}
+
+function row(event) {
+  const style = CHANGE_STYLE[event.change];
+  const name = event.url
+    ? `<a class="name" href="${esc(event.url)}" target="_blank" rel="noopener noreferrer">${esc(event.name)}</a>`
+    : `<span class="name">${esc(event.name)}</span>`;
+  const meta = [event.brand, event.location || event.address].filter(Boolean).map(esc).join(" · ");
+  return `<li class="row ${event.change}"><span class="icon" aria-hidden="true">${style.glyph}</span>
+    <div><span class="sr">${style.label}: </span>${name}${meta ? `<div class="meta">${meta}</div>` : ""}${notes(event)}</div>${mapLink(event)}</li>`;
+}
+
+function tally(counts) {
+  return HotelChanges.CHANGES.filter(change => counts[change])
+    .map(change => `<span style="color:var(--${change})">${CHANGE_STYLE[change].glyph}${counts[change]}</span> ${CHANGE_STYLE[change].label.toLowerCase()}`).join(" · ");
+}
+
+function sourceLinks(sources) {
+  return sources.map(url => `<a class="src" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${url.includes("/actions/runs/") ? "CI run" : "CI commit"} ↗</a>`).join(" ");
+}
+
+function render() {
+  const base = { sinceDay: sinceDay(), query: state.query, hideBlips: state.hideBlips };
+  renderSummary(HotelChanges.filterEvents(log.events, { ...base, programs: state.programs }));
+  const shown = HotelChanges.filterEvents(log.events, { ...base, programs: state.programs, changes: state.changes });
+  const hidden = state.hideBlips
+    ? HotelChanges.filterEvents(log.events, { ...base, programs: state.programs, changes: state.changes, hideBlips: false }).length - shown.length
+    : 0;
+  const days = HotelChanges.groupByDay(shown);
+  const status = shown.length
+    ? `${plural(shown.length, "change")} on ${plural(days.length, "day")}`
+    : "No changes match these filters.";
+  $("status").textContent = hidden ? `${status} · ${plural(hidden, "brief drop-out")} hidden` : status;
+  $("timeline").innerHTML = days.map(day => `<li class="day">
+      <h2 class="day-head"><time datetime="${day.date}">${fmtDate(day.date, dateFormat)}</time><span class="ago">${ago(day.day)}</span></h2>
+      ${day.groups.map(group => `<section class="group" aria-label="${esc(group.program)}">
+        <h3 class="group-head"><span class="dot" style="background:${PROGRAM_STYLE[group.program].color}"></span>${esc(group.program)}
+          <span class="tally">${tally(group.counts)}</span>${sourceLinks(group.sources)}</h3>
+        <ul class="rows">${group.events.map(row).join("")}</ul></section>`).join("")}
+    </li>`).join("");
+}
+
+function renderSince() {
+  const dates = Object.values(log.trackingSince).filter(Boolean).sort();
+  if (dates.length) $("since").textContent = `Tracking since ${fmtDate(dates[dates.length - 1])}.`;
+  const all = $("period").querySelector('option[value="all"]');
+  if (dates.length) all.textContent = `All (since ${fmtDate(dates[0])})`;
+}
+
+document.addEventListener("click", event => {
+  const button = event.target.closest(".chip");
+  if (!button) return;
+  const set = state[button.dataset.group];
+  const key = button.dataset.key;
+  set.has(key) ? set.delete(key) : set.add(key);
+  button.setAttribute("aria-pressed", set.has(key));
+  render();
+});
+$("period").addEventListener("change", event => { state.period = event.target.value; render(); });
+$("hide-blips").addEventListener("change", event => { state.hideBlips = event.target.checked; render(); });
+let searchTimer;
+$("search").addEventListener("input", event => {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(() => { state.query = event.target.value; render(); }, 150);
+});
+$("blip-days").textContent = HotelChanges.BLIP_DAYS;
+
+renderChips();
+fetch("changes.json", { cache: "no-cache" })
+  .then(response => { if (!response.ok) throw new Error(response.status); return response.json(); })
+  .then(data => { log = HotelChanges.parseLog(data); renderSince(); render(); })
+  .catch(error => { $("status").textContent = "Could not load the change log."; console.error("Could not load changes.json:", error); });
+</script>
+</body>
+</html>

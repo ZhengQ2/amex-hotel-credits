@@ -10,7 +10,8 @@ An automatically refreshed map of hotels participating in these programs:
 
 The published site is a static Google Map in [`docs/`](docs/) with searchable,
 filterable hotel markers. Its data is generated from the geocoded CSVs in
-[`cache/`](cache/).
+[`cache/`](cache/). A [What's new](https://zhengq2.github.io/amex-hotel-credits/changes.html)
+page lists the hotels each program added or dropped, night by night.
 
 ## How it works
 
@@ -23,6 +24,12 @@ filterable hotel markers. Its data is generated from the geocoded CSVs in
    successful lookups and preserve unresolved results.
 4. `generate_map_data.py` combines the three geocoded CSVs into
    `docs/hotels.json`, which `docs/index.html` renders as the map.
+5. `hotel_history.py update` compares each geocoded CSV with its last committed
+   version and appends the hotels that joined or left a program to
+   `docs/changes.json`, which `docs/changes.html` shows. It uses the same
+   matcher as the nightly email (`hotel_changes.py`), leaves out nights where
+   a scrape lost or reloaded most of a list, and pairs an old and new listing
+   name for one hotel as a rename.
 
 GitHub Actions runs the Hilton and FHR/THC pipelines nightly. When the hotel
 data changes, the workflows update the map data, commit the cache and map
@@ -71,6 +78,10 @@ python google-convert.py \
 python generate_map_data.py
 ```
 
+`python hotel_history.py backfill` rebuilds `docs/changes.json` from the CI
+commits in git history; the nightly jobs only append to it. Run the tests with
+`python -m unittest discover -s tests` and `node --test tests/test_changes.js`.
+
 Run `python hilton.py --headed` to watch the Hilton browser session while
 troubleshooting a scrape.
 
@@ -83,8 +94,10 @@ troubleshooting a scrape.
 | `google-convert.py` | Places-first geocoding command-line tool. |
 | `cache_utils.py` | Shared cache normalization, fuzzy matching, and maintenance helpers. |
 | `generate_map_data.py` | Produces the compact map dataset. |
+| `hotel_changes.py` | Diffs a geocoded CSV against its committed version for the nightly email. |
+| `hotel_history.py` | Keeps `docs/changes.json`, the dated log of hotels added to and removed from each program. |
 | `cache/` | Geocode caches and generated geocoded CSVs. Raw scraper CSVs are intentionally ignored. |
-| `docs/` | Static map page and generated `hotels.json` for GitHub Pages. |
+| `docs/` | Static map and What's new pages, with generated `hotels.json` and `changes.json`, for GitHub Pages. |
 | `.github/workflows/` | Scheduled refresh, optional Sheets/email notification, and automatic commit workflows. |
 
 ## Notes
