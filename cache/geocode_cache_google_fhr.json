@@ -205767,12 +205767,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Phaea Blue - Small Luxury Hotels of the World\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Phaea Blue - Small Luxury Hotels of the World Small Luxury Hotels of the World Hotel\", \"Phaea Blue - Small Luxury Hotels of the World Small Luxury Hotels of the World Resort\", \"Phaea Blue - Small Luxury Hotels of the World Small Luxury Hotels of the World\", \"Phaea Blue - Small Luxury Hotels of the World Small Luxury Hotels of the World Elounda, Greece Hotel\", \"Phaea Blue - Small Luxury Hotels of the World Small Luxury Hotels of the World Elounda, Greece Resort\", \"Phaea Blue - Small Luxury Hotels of the World Small Luxury Hotels of the World Elounda, Greece\", \"Phaea Blue - Small Luxury Hotels of the World Hilton Hotel\", \"Phaea Blue - Small Luxury Hotels of the World Hilton Resort\", \"Phaea Blue - Small Luxury Hotels of the World Hilton\", \"Phaea Blue - Small Luxury Hotels of the World Hilton Elounda, Greece Hotel\", \"Phaea Blue - Small Luxury Hotels of the World Hilton Elounda, Greece Resort\", \"Phaea Blue - Small Luxury Hotels of the World Hilton Elounda, Greece\", \"Phaea Blue Small Luxury Hotels Of World Small Luxury Hotels of the World Hotel\", \"Phaea Blue Small Luxury Hotels Of World Small Luxury Hotels of the World Resort\", \"Phaea Blue Small Luxury Hotels Of World Small Luxury Hotels of the World\", \"Phaea Blue Small Luxury Hotels Of World Small Luxury Hotels of the World Elounda, Greece Hotel\", \"Phaea Blue Small Luxury Hotels Of World Small Luxury Hotels of the World Elounda, Greece Resort\", \"Phaea Blue Small Luxury Hotels Of World Small Luxury Hotels of the World Elounda, Greece\", \"Phaea Blue Small Luxury Hotels Of World Hilton Hotel\", \"Phaea Blue Small Luxury Hotels Of World Hilton Resort\", \"Phaea Blue Small Luxury Hotels Of World Hilton\", \"Phaea Blue Small Luxury Hotels Of World Hilton Elounda, Greece Hotel\", \"Phaea Blue Small Luxury Hotels Of World Hilton Elounda, Greece Resort\", \"Phaea Blue Small Luxury Hotels Of World Hilton Elounda, Greece\", \"Phaea Blue - Small Luxury Hotels of the World Hotel\", \"Phaea Blue - Small Luxury Hotels of the World Resort\", \"Phaea Blue - Small Luxury Hotels of the World\", \"Phaea Blue - Small Luxury Hotels of the World Elounda, Greece Hotel\", \"Phaea Blue - Small Luxury Hotels of the World Elounda, Greece Resort\", \"Phaea Blue - Small Luxury Hotels of the World Elounda, Greece\"], \"v\": 3}": {
-    "lat": 40.3544054,
-    "lon": 23.9524274,
-    "formatted_address": "Skala Neon Rodon, Ouranoupolis, Halkidiki 630 75, Greece",
+    "lat": 35.2925567,
+    "lon": 25.7262549,
+    "formatted_address": "Plaka 720 53, Greece",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJp_JtnCfGqBQRTwUIGSo06Zk",
+    "place_id": "ChIJDblxVMGckBQR2o6hYtEj_xo",
     "types": [
       "establishment",
       "lodging",
@@ -205781,31 +205781,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Skala Neon Rodon, Ouranoupolis, Halkidiki 630 75, Greece",
+      "formatted_address": "Plaka 720 53, Greece",
       "geometry": {
         "location": {
-          "lat": 40.3544054,
-          "lng": 23.9524274
+          "lat": 35.2925567,
+          "lng": 25.7262549
         },
         "viewport": {
           "northeast": {
-            "lat": 40.3556742302915,
-            "lng": 23.9534640802915
+            "lat": 35.2939523302915,
+            "lng": 25.7275449802915
           },
           "southwest": {
-            "lat": 40.3529762697085,
-            "lng": 23.9507661197085
+            "lat": 35.2912543697085,
+            "lng": 25.7248470197085
           }
         }
       },
-      "name": "Eagles Villas, Small Luxury Hotels of the World",
-      "place_id": "ChIJp_JtnCfGqBQRTwUIGSo06Zk",
+      "name": "Phaea Blue, a member of SLH | Elounda, Crete",
+      "place_id": "ChIJDblxVMGckBQR2o6hYtEj_xo",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.eaglesvillas.gr/"
+      "website": "http://www.phaeablue.com/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"Hotel Lungarno - Lungarno Collection\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"Hotel Lungarno - Lungarno Collection Small Luxury Hotels of the World Hotel\", \"Hotel Lungarno - Lungarno Collection Small Luxury Hotels of the World Resort\", \"Hotel Lungarno - Lungarno Collection Small Luxury Hotels of the World\", \"Hotel Lungarno - Lungarno Collection Small Luxury Hotels of the World Florence, Italy Hotel\", \"Hotel Lungarno - Lungarno Collection Small Luxury Hotels of the World Florence, Italy Resort\", \"Hotel Lungarno - Lungarno Collection Small Luxury Hotels of the World Florence, Italy\", \"Hotel Lungarno - Lungarno Collection Hilton Hotel\", \"Hotel Lungarno - Lungarno Collection Hilton Resort\", \"Hotel Lungarno - Lungarno Collection Hilton\", \"Hotel Lungarno - Lungarno Collection Hilton Florence, Italy Hotel\", \"Hotel Lungarno - Lungarno Collection Hilton Florence, Italy Resort\", \"Hotel Lungarno - Lungarno Collection Hilton Florence, Italy\", \"Hotel Lungarno Lungarno Collection Small Luxury Hotels of the World Hotel\", \"Hotel Lungarno Lungarno Collection Small Luxury Hotels of the World Resort\", \"Hotel Lungarno Lungarno Collection Small Luxury Hotels of the World\", \"Hotel Lungarno Lungarno Collection Small Luxury Hotels of the World Florence, Italy Hotel\", \"Hotel Lungarno Lungarno Collection Small Luxury Hotels of the World Florence, Italy Resort\", \"Hotel Lungarno Lungarno Collection Small Luxury Hotels of the World Florence, Italy\", \"Hotel Lungarno Lungarno Collection Hilton Hotel\", \"Hotel Lungarno Lungarno Collection Hilton Resort\", \"Hotel Lungarno Lungarno Collection Hilton\", \"Hotel Lungarno Lungarno Collection Hilton Florence, Italy Hotel\", \"Hotel Lungarno Lungarno Collection Hilton Florence, Italy Resort\", \"Hotel Lungarno Lungarno Collection Hilton Florence, Italy\", \"Hotel Lungarno - Lungarno Collection Hotel\", \"Hotel Lungarno - Lungarno Collection Resort\", \"Hotel Lungarno - Lungarno Collection\", \"Hotel Lungarno - Lungarno Collection Florence, Italy Hotel\", \"Hotel Lungarno - Lungarno Collection Florence, Italy Resort\", \"Hotel Lungarno - Lungarno Collection Florence, Italy\"], \"v\": 3}": {
