@@ -35,8 +35,10 @@ from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_excep
 from dotenv import load_dotenv
 
 from cache_utils import (
+    address_in_hotel_town,
     address_location_compatible,
     find_fuzzy_cache_key,
+    fresh_candidate_conflicts,
     is_lodging_type,
     is_strict_lodging_type,
     normalize_name,
@@ -355,6 +357,20 @@ def choose_best_place(
             # the next, weaker query rather than accept a known-wrong place.
             return None
 
+        # In-country is not enough: Text Search for "Jumeirah Lake Como" in
+        # Torno ranks Hilton Lake Como, a different hotel in the city of Como,
+        # and the name check accepts it on "Lake Como" alone. Drop candidates
+        # in another town whose name shows they are a different hotel.
+        plausible = [
+            r for r in results
+            if not fresh_candidate_conflicts(
+                r.get("name", ""), r.get("formatted_address", ""), hotel_name, hotel_location
+            )
+        ]
+        if not plausible:
+            return None
+        results = plausible
+
     # Rank: (acceptable type, name compatibility, strict lodging, brand hit, rating, reviews)
     ranked = []
     for r in results:
@@ -436,6 +452,28 @@ _location_compatible = address_location_compatible
 # Orchestration
 # -----------------------
 
+def _fallback_identity_ok(geo: Dict[str, Any], query: str, hotel_name: str, hotel_location: str) -> bool:
+    """Whether a Geocoding fallback result can be trusted to be this hotel.
+
+    Geocoding results carry no place name (none of the committed fallback
+    entries has one), so the name checks have only the query to test. In the
+    hotel's own town that is accepted, as before. Out of town it would let
+    through the very hotel the Text Search guard just rejected (Hilton Lake
+    Como for Jumeirah Lake Como in Torno), so look the place up to learn its
+    name and test that, rejecting the result when no name comes back.
+    """
+    address = geo.get("formatted_address", "")
+    name = (geo.get("raw") or {}).get("name", "")
+    if not name and not address_in_hotel_town(address, hotel_location):
+        details = places_details(geo["place_id"], API_KEY) if geo.get("place_id") else None
+        name = (details or {}).get("name", "")
+        if not name:
+            return False
+    return _is_name_compatible(name or query, hotel_name) and not fresh_candidate_conflicts(
+        name, address, hotel_name, hotel_location
+    )
+
+
 def _is_rejected_query(error: Exception) -> bool:
     """True when Google rejected this one query, so repeating it cannot help.
 
@@ -480,7 +518,14 @@ def geocode_places_first(
             cand = choose_best_place(ts.get("results", []), brand, hotel_name, hotel_location)
             if cand:
                 det = places_details(cand["place_id"], API_KEY)
-                if det and acceptable_from_details(det):
+                if (
+                    det
+                    and acceptable_from_details(det)
+                    and not fresh_candidate_conflicts(
+                        det.get("name", ""), det.get("formatted_address", ""),
+                        hotel_name, hotel_location,
+                    )
+                ):
                     loc = det["geometry"]["location"]
                     return {
                         "lat": float(loc["lat"]),
@@ -499,8 +544,8 @@ def geocode_places_first(
                 geo
                 and geo.get("confidence", "").upper() == "ROOFTOP"
                 and _is_lodging_type(geo.get("types", []))
-                and _is_name_compatible(geo.get("raw", {}).get("name", "") or q, hotel_name)
                 and _location_compatible(geo.get("formatted_address", ""), hotel_location)
+                and _fallback_identity_ok(geo, q, hotel_name, hotel_location)
             ):
                 return geo, f"GEOCODE:{q}"
             last = f"WEAK_OR_EMPTY:{q}"
