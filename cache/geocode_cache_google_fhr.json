@@ -166851,12 +166851,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"SIGNIEL SEOUL\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"SIGNIEL SEOUL The Leading Hotels of the World Hotel\", \"SIGNIEL SEOUL The Leading Hotels of the World Resort\", \"SIGNIEL SEOUL The Leading Hotels of the World\", \"SIGNIEL SEOUL The Leading Hotels of the World Seoul, South Korea Hotel\", \"SIGNIEL SEOUL The Leading Hotels of the World Seoul, South Korea Resort\", \"SIGNIEL SEOUL The Leading Hotels of the World Seoul, South Korea\", \"SIGNIEL SEOUL Hilton Hotel\", \"SIGNIEL SEOUL Hilton Resort\", \"SIGNIEL SEOUL Hilton\", \"SIGNIEL SEOUL Hilton Seoul, South Korea Hotel\", \"SIGNIEL SEOUL Hilton Seoul, South Korea Resort\", \"SIGNIEL SEOUL Hilton Seoul, South Korea\", \"Signiel Seoul The Leading Hotels of the World Hotel\", \"Signiel Seoul The Leading Hotels of the World Resort\", \"Signiel Seoul The Leading Hotels of the World\", \"Signiel Seoul The Leading Hotels of the World Seoul, South Korea Hotel\", \"Signiel Seoul The Leading Hotels of the World Seoul, South Korea Resort\", \"Signiel Seoul The Leading Hotels of the World Seoul, South Korea\", \"Signiel Seoul Hilton Hotel\", \"Signiel Seoul Hilton Resort\", \"Signiel Seoul Hilton\", \"Signiel Seoul Hilton Seoul, South Korea Hotel\", \"Signiel Seoul Hilton Seoul, South Korea Resort\", \"Signiel Seoul Hilton Seoul, South Korea\", \"SIGNIEL SEOUL Hotel\", \"SIGNIEL SEOUL Resort\", \"SIGNIEL SEOUL\", \"SIGNIEL SEOUL Seoul, South Korea Hotel\", \"SIGNIEL SEOUL Seoul, South Korea Resort\", \"SIGNIEL SEOUL Seoul, South Korea\"], \"v\": 3}": {
-    "lat": 37.511534,
-    "lon": 127.099981,
-    "formatted_address": "240 Olympic-ro, Songpa District, Seoul, South Korea",
+    "lat": 37.51260389999999,
+    "lon": 127.1025242,
+    "formatted_address": "300 Olympic-ro, Songpa District, Seoul, South Korea",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJxzVCx6ClfDURekmwNEb-hvE",
+    "place_id": "ChIJy7zIwQqlfDURT2im2oOhtL4",
     "types": [
       "establishment",
       "lodging",
@@ -166865,31 +166865,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "240 Olympic-ro, Songpa District, Seoul, South Korea",
+      "formatted_address": "300 Olympic-ro, Songpa District, Seoul, South Korea",
       "geometry": {
         "location": {
-          "lat": 37.511534,
-          "lng": 127.099981
+          "lat": 37.51260389999999,
+          "lng": 127.1025242
         },
         "viewport": {
           "northeast": {
-            "lat": 37.51288298029149,
-            "lng": 127.1013299802915
+            "lat": 37.51395288029149,
+            "lng": 127.1038731802915
           },
           "southwest": {
-            "lat": 37.51018501970849,
-            "lng": 127.0986320197085
+            "lat": 37.5112549197085,
+            "lng": 127.1011752197085
           }
         }
       },
-      "name": "LOTTE HOTEL WORLD",
-      "place_id": "ChIJxzVCx6ClfDURekmwNEb-hvE",
+      "name": "SIGNIEL SEOUL",
+      "place_id": "ChIJy7zIwQqlfDURT2im2oOhtL4",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "https://www.lottehotel.com/world-hotel/en"
+      "website": "https://www.lottehotel.com/seoul-signiel/en"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Shilla Seoul\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Shilla Seoul The Leading Hotels of the World Hotel\", \"The Shilla Seoul The Leading Hotels of the World Resort\", \"The Shilla Seoul The Leading Hotels of the World\", \"The Shilla Seoul The Leading Hotels of the World Seoul, South Korea Hotel\", \"The Shilla Seoul The Leading Hotels of the World Seoul, South Korea Resort\", \"The Shilla Seoul The Leading Hotels of the World Seoul, South Korea\", \"The Shilla Seoul Hilton Hotel\", \"The Shilla Seoul Hilton Resort\", \"The Shilla Seoul Hilton\", \"The Shilla Seoul Hilton Seoul, South Korea Hotel\", \"The Shilla Seoul Hilton Seoul, South Korea Resort\", \"The Shilla Seoul Hilton Seoul, South Korea\", \"The Shilla Seoul Hotel\", \"The Shilla Seoul Resort\", \"The Shilla Seoul\", \"The Shilla Seoul Seoul, South Korea Hotel\", \"The Shilla Seoul Seoul, South Korea Resort\", \"The Shilla Seoul Seoul, South Korea\"], \"v\": 3}": {
@@ -170116,12 +170116,12 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Naka Island, a Luxury Collection Resort & Spa, Phuket\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Naka Island, a Luxury Collection Resort & Spa, Phuket The Luxury Collection Hotel\", \"The Naka Island, a Luxury Collection Resort & Spa, Phuket The Luxury Collection Resort\", \"The Naka Island, a Luxury Collection Resort & Spa, Phuket The Luxury Collection\", \"The Naka Island, a Luxury Collection Resort & Spa, Phuket The Luxury Collection Phuket, Thailand Hotel\", \"The Naka Island, a Luxury Collection Resort & Spa, Phuket The Luxury Collection Phuket, Thailand Resort\", \"The Naka Island, a Luxury Collection Resort & Spa, Phuket The Luxury Collection Phuket, Thailand\", \"The Naka Island, a Luxury Collection Resort & Spa, Phuket Hilton Hotel\", \"The Naka Island, a Luxury Collection Resort & Spa, Phuket Hilton Resort\", \"The Naka Island, a Luxury Collection Resort & Spa, Phuket Hilton\", \"The Naka Island, a Luxury Collection Resort & Spa, Phuket Hilton Phuket, Thailand Hotel\", \"The Naka Island, a Luxury Collection Resort & Spa, Phuket Hilton Phuket, Thailand Resort\", \"The Naka Island, a Luxury Collection Resort & Spa, Phuket Hilton Phuket, Thailand\", \"Naka Island a Luxury Collection Resort Spa Phuket The Luxury Collection Hotel\", \"Naka Island a Luxury Collection Resort Spa Phuket The Luxury Collection Resort\", \"Naka Island a Luxury Collection Resort Spa Phuket The Luxury Collection\", \"Naka Island a Luxury Collection Resort Spa Phuket The Luxury Collection Phuket, Thailand Hotel\", \"Naka Island a Luxury Collection Resort Spa Phuket The Luxury Collection Phuket, Thailand Resort\", \"Naka Island a Luxury Collection Resort Spa Phuket The Luxury Collection Phuket, Thailand\", \"Naka Island a Luxury Collection Resort Spa Phuket Hilton Hotel\", \"Naka Island a Luxury Collection Resort Spa Phuket Hilton Resort\", \"Naka Island a Luxury Collection Resort Spa Phuket Hilton\", \"Naka Island a Luxury Collection Resort Spa Phuket Hilton Phuket, Thailand Hotel\", \"Naka Island a Luxury Collection Resort Spa Phuket Hilton Phuket, Thailand Resort\", \"Naka Island a Luxury Collection Resort Spa Phuket Hilton Phuket, Thailand\", \"The Naka Island, a Luxury Collection Resort & Spa, Phuket Hotel\", \"The Naka Island, a Luxury Collection Resort & Spa, Phuket Resort\", \"The Naka Island, a Luxury Collection Resort & Spa, Phuket\", \"The Naka Island, a Luxury Collection Resort & Spa, Phuket Phuket, Thailand Hotel\", \"The Naka Island, a Luxury Collection Resort & Spa, Phuket Phuket, Thailand Resort\", \"The Naka Island, a Luxury Collection Resort & Spa, Phuket Phuket, Thailand\"], \"v\": 3}": {
-    "lat": 7.926395100000001,
-    "lon": 98.2689789,
-    "formatted_address": "1/18, 1/20 Tambon Kamala, Amphoe Kathu, Chang Wat Phuket 83150, Thailand",
+    "lat": 8.057352999999999,
+    "lon": 98.458411,
+    "formatted_address": "32 Moo 5 Tambol Paklok, Amphur Thalang, Naka Yai Island, Tambon Pa Klok, Phuket, Chang Wat Phuket 83110, Thailand",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJPWsdRVA6UDARU428NCi98KM",
+    "place_id": "ChIJo7XvmZlKUDARnUvb6mxk-2I",
     "types": [
       "establishment",
       "lodging",
@@ -170130,31 +170130,31 @@
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "1/18, 1/20 Tambon Kamala, Amphoe Kathu, Chang Wat Phuket 83150, Thailand",
+      "formatted_address": "32 Moo 5 Tambol Paklok, Amphur Thalang, Naka Yai Island, Tambon Pa Klok, Phuket, Chang Wat Phuket 83110, Thailand",
       "geometry": {
         "location": {
-          "lat": 7.926395100000001,
-          "lng": 98.2689789
+          "lat": 8.057352999999999,
+          "lng": 98.458411
         },
         "viewport": {
           "northeast": {
-            "lat": 7.927770480291503,
-            "lng": 98.27035408029151
+            "lat": 8.058772630291504,
+            "lng": 98.4599355302915
           },
           "southwest": {
-            "lat": 7.925072519708499,
-            "lng": 98.26765611970849
+            "lat": 8.056074669708499,
+            "lng": 98.4572375697085
           }
         }
       },
-      "name": "The Naka Phuket, a member of Design Hotels",
-      "place_id": "ChIJPWsdRVA6UDARU428NCi98KM",
+      "name": "The Naka Island, a Luxury Collection Resort & Spa, Phuket",
+      "place_id": "ChIJo7XvmZlKUDARnUvb6mxk-2I",
       "types": [
         "establishment",
         "lodging",
         "point_of_interest"
       ],
-      "website": "http://www.thenakaphuket.com/"
+      "website": "https://www.marriott.com/en-us/hotels/pyxlc-the-naka-island-a-luxury-collection-resort-and-spa-phuket/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"the Nines, a Luxury Collection Hotel, Portland\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"the Nines, a Luxury Collection Hotel, Portland The Luxury Collection Hotel\", \"the Nines, a Luxury Collection Hotel, Portland The Luxury Collection Resort\", \"the Nines, a Luxury Collection Hotel, Portland The Luxury Collection\", \"the Nines, a Luxury Collection Hotel, Portland The Luxury Collection Portland, Oregon US Hotel\", \"the Nines, a Luxury Collection Hotel, Portland The Luxury Collection Portland, Oregon US Resort\", \"the Nines, a Luxury Collection Hotel, Portland The Luxury Collection Portland, Oregon US\", \"the Nines, a Luxury Collection Hotel, Portland Hilton Hotel\", \"the Nines, a Luxury Collection Hotel, Portland Hilton Resort\", \"the Nines, a Luxury Collection Hotel, Portland Hilton\", \"the Nines, a Luxury Collection Hotel, Portland Hilton Portland, Oregon US Hotel\", \"the Nines, a Luxury Collection Hotel, Portland Hilton Portland, Oregon US Resort\", \"the Nines, a Luxury Collection Hotel, Portland Hilton Portland, Oregon US\", \"Nines a Luxury Collection Hotel Portland The Luxury Collection Hotel\", \"Nines a Luxury Collection Hotel Portland The Luxury Collection Resort\", \"Nines a Luxury Collection Hotel Portland The Luxury Collection\", \"Nines a Luxury Collection Hotel Portland The Luxury Collection Portland, Oregon US Hotel\", \"Nines a Luxury Collection Hotel Portland The Luxury Collection Portland, Oregon US Resort\", \"Nines a Luxury Collection Hotel Portland The Luxury Collection Portland, Oregon US\", \"Nines a Luxury Collection Hotel Portland Hilton Hotel\", \"Nines a Luxury Collection Hotel Portland Hilton Resort\", \"Nines a Luxury Collection Hotel Portland Hilton\", \"Nines a Luxury Collection Hotel Portland Hilton Portland, Oregon US Hotel\", \"Nines a Luxury Collection Hotel Portland Hilton Portland, Oregon US Resort\", \"Nines a Luxury Collection Hotel Portland Hilton Portland, Oregon US\", \"the Nines, a Luxury Collection Hotel, Portland Hotel\", \"the Nines, a Luxury Collection Hotel, Portland Resort\", \"the Nines, a Luxury Collection Hotel, Portland\", \"the Nines, a Luxury Collection Hotel, Portland Portland, Oregon US Hotel\", \"the Nines, a Luxury Collection Hotel, Portland Portland, Oregon US Resort\", \"the Nines, a Luxury Collection Hotel, Portland Portland, Oregon US\"], \"v\": 3}": {
@@ -208411,49 +208411,45 @@
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"ESPACIO The Hakone Geihinkan Rin-Poh-Ki-Ryu\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"ESPACIO The Hakone Geihinkan Rin-Poh-Ki-Ryu The Leading Hotels of the World Hotel\", \"ESPACIO The Hakone Geihinkan Rin-Poh-Ki-Ryu The Leading Hotels of the World Resort\", \"ESPACIO The Hakone Geihinkan Rin-Poh-Ki-Ryu The Leading Hotels of the World\", \"ESPACIO The Hakone Geihinkan Rin-Poh-Ki-Ryu The Leading Hotels of the World Hakone, Japan Hotel\", \"ESPACIO The Hakone Geihinkan Rin-Poh-Ki-Ryu The Leading Hotels of the World Hakone, Japan Resort\", \"ESPACIO The Hakone Geihinkan Rin-Poh-Ki-Ryu The Leading Hotels of the World Hakone, Japan\", \"ESPACIO The Hakone Geihinkan Rin-Poh-Ki-Ryu Hilton Hotel\", \"ESPACIO The Hakone Geihinkan Rin-Poh-Ki-Ryu Hilton Resort\", \"ESPACIO The Hakone Geihinkan Rin-Poh-Ki-Ryu Hilton\", \"ESPACIO The Hakone Geihinkan Rin-Poh-Ki-Ryu Hilton Hakone, Japan Hotel\", \"ESPACIO The Hakone Geihinkan Rin-Poh-Ki-Ryu Hilton Hakone, Japan Resort\", \"ESPACIO The Hakone Geihinkan Rin-Poh-Ki-Ryu Hilton Hakone, Japan\", \"Espacio Hakone Geihinkan Rin poh ki ryu The Leading Hotels of the World Hotel\", \"Espacio Hakone Geihinkan Rin poh ki ryu The Leading Hotels of the World Resort\", \"Espacio Hakone Geihinkan Rin poh ki ryu The Leading Hotels of the World\", \"Espacio Hakone Geihinkan Rin poh ki ryu The Leading Hotels of the World Hakone, Japan Hotel\", \"Espacio Hakone Geihinkan Rin poh ki ryu The Leading Hotels of the World Hakone, Japan Resort\", \"Espacio Hakone Geihinkan Rin poh ki ryu The Leading Hotels of the World Hakone, Japan\", \"Espacio Hakone Geihinkan Rin poh ki ryu Hilton Hotel\", \"Espacio Hakone Geihinkan Rin poh ki ryu Hilton Resort\", \"Espacio Hakone Geihinkan Rin poh ki ryu Hilton\", \"Espacio Hakone Geihinkan Rin poh ki ryu Hilton Hakone, Japan Hotel\", \"Espacio Hakone Geihinkan Rin poh ki ryu Hilton Hakone, Japan Resort\", \"Espacio Hakone Geihinkan Rin poh ki ryu Hilton Hakone, Japan\", \"ESPACIO The Hakone Geihinkan Rin-Poh-Ki-Ryu Hotel\", \"ESPACIO The Hakone Geihinkan Rin-Poh-Ki-Ryu Resort\", \"ESPACIO The Hakone Geihinkan Rin-Poh-Ki-Ryu\", \"ESPACIO The Hakone Geihinkan Rin-Poh-Ki-Ryu Hakone, Japan Hotel\", \"ESPACIO The Hakone Geihinkan Rin-Poh-Ki-Ryu Hakone, Japan Resort\", \"ESPACIO The Hakone Geihinkan Rin-Poh-Ki-Ryu Hakone, Japan\"], \"v\": 3}": {
-    "lat": 35.251053,
-    "lon": 139.0476858,
-    "formatted_address": "1320-179 Gōra, Hakone, Ashigarashimo District, Kanagawa 250-0408, Japan",
+    "lat": 35.2426603,
+    "lon": 139.0631452,
+    "formatted_address": "72 Miyanoshita, Hakone, Ashigarashimo District, Kanagawa 250-0404, Japan",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJPYiJbi-hGWARfqtEqU8xelc",
+    "place_id": "ChIJN6ih-VOjGWARYOTqrnbwH50",
     "types": [
       "establishment",
-      "food",
       "lodging",
-      "point_of_interest",
-      "restaurant"
+      "point_of_interest"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "1320-179 Gōra, Hakone, Ashigarashimo District, Kanagawa 250-0408, Japan",
+      "formatted_address": "72 Miyanoshita, Hakone, Ashigarashimo District, Kanagawa 250-0404, Japan",
       "geometry": {
         "location": {
-          "lat": 35.251053,
-          "lng": 139.0476858
+          "lat": 35.2426603,
+          "lng": 139.0631452
         },
         "viewport": {
           "northeast": {
-            "lat": 35.25240823029149,
-            "lng": 139.0491812802915
+            "lat": 35.2439919302915,
+            "lng": 139.0644588802915
           },
           "southwest": {
-            "lat": 35.24971026970849,
-            "lng": 139.0464833197085
+            "lat": 35.2412939697085,
+            "lng": 139.0617609197085
           }
         }
       },
-      "name": "WPÜ HAKONE",
-      "place_id": "ChIJPYiJbi-hGWARfqtEqU8xelc",
+      "name": "ESPACIO HAKONE GEIHINNKAN Rin-Po-Ki-Ryu",
+      "place_id": "ChIJN6ih-VOjGWARYOTqrnbwH50",
       "types": [
         "establishment",
-        "food",
         "lodging",
-        "point_of_interest",
-        "restaurant"
+        "point_of_interest"
       ],
-      "website": "https://hotel.wpu.co/hakone/"
+      "website": "http://www.houoh.jp/"
     }
   },
   "{\"brand\": \"FINE HOTELS + RESORTS\", \"hotel_name\": \"The Fontenay\", \"input_format\": \"fhrthc\", \"provider\": \"google_places_first\", \"queries\": [\"The Fontenay The Leading Hotels of the World Hotel\", \"The Fontenay The Leading Hotels of the World Resort\", \"The Fontenay The Leading Hotels of the World\", \"The Fontenay The Leading Hotels of the World Hamburg, Germany Hotel\", \"The Fontenay The Leading Hotels of the World Hamburg, Germany Resort\", \"The Fontenay The Leading Hotels of the World Hamburg, Germany\", \"The Fontenay Hilton Hotel\", \"The Fontenay Hilton Resort\", \"The Fontenay Hilton\", \"The Fontenay Hilton Hamburg, Germany Hotel\", \"The Fontenay Hilton Hamburg, Germany Resort\", \"The Fontenay Hilton Hamburg, Germany\", \"The Fontenay Hotel\", \"The Fontenay Resort\", \"The Fontenay\", \"The Fontenay Hamburg, Germany Hotel\", \"The Fontenay Hamburg, Germany Resort\", \"The Fontenay Hamburg, Germany\"], \"v\": 3}": {

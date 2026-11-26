@@ -12465,53 +12465,47 @@
     }
   },
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Sea Breeze Santorini Beach Resort, Curio Collection\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Sea Breeze Santorini Beach Resort, Curio Collection Curio Collection by Hilton Hotel\", \"Sea Breeze Santorini Beach Resort, Curio Collection Curio Collection by Hilton Resort\", \"Sea Breeze Santorini Beach Resort, Curio Collection Curio Collection by Hilton\", \"Sea Breeze Santorini Beach Resort, Curio Collection Hilton Hotel\", \"Sea Breeze Santorini Beach Resort, Curio Collection Hilton Resort\", \"Sea Breeze Santorini Beach Resort, Curio Collection Hilton\", \"jtrsbqq sea breeze santorini beach resort Curio Collection by Hilton Hotel\", \"jtrsbqq sea breeze santorini beach resort Curio Collection by Hilton Resort\", \"jtrsbqq sea breeze santorini beach resort Curio Collection by Hilton\", \"jtrsbqq sea breeze santorini beach resort Hilton Hotel\", \"jtrsbqq sea breeze santorini beach resort Hilton Resort\", \"jtrsbqq sea breeze santorini beach resort Hilton\", \"Sea Breeze Santorini Beach Resort, Curio Collection Hotel\", \"Sea Breeze Santorini Beach Resort, Curio Collection Resort\", \"Sea Breeze Santorini Beach Resort, Curio Collection\"], \"v\": 3}": {
-    "lat": 36.3433262,
-    "lon": 25.4610399,
-    "formatted_address": "Perivolos Perivolos Beach, Santorini 847 00, Greece",
+    "lat": 36.3347252,
+    "lon": 25.4424381,
+    "formatted_address": "Agios Georgios, Perivolos, Exomitis 847 03, Greece",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJd5gTo8LPmRQR5zhVV_tXYCk",
+    "place_id": "ChIJRSE2qY_PmRQRApfXMU-bKpM",
     "types": [
-      "bar",
-      "cafe",
       "establishment",
-      "food",
       "lodging",
       "point_of_interest",
-      "restaurant"
+      "spa"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Perivolos Perivolos Beach, Santorini 847 00, Greece",
+      "formatted_address": "Agios Georgios, Perivolos, Exomitis 847 03, Greece",
       "geometry": {
         "location": {
-          "lat": 36.3433262,
-          "lng": 25.4610399
+          "lat": 36.3347252,
+          "lng": 25.4424381
         },
         "viewport": {
           "northeast": {
-            "lat": 36.3446558302915,
-            "lng": 25.4624097302915
+            "lat": 36.3361217802915,
+            "lng": 25.4436969802915
           },
           "southwest": {
-            "lat": 36.34195786970851,
-            "lng": 25.4597117697085
+            "lat": 36.3334238197085,
+            "lng": 25.4409990197085
           }
         }
       },
-      "name": "Sea View Beach Hotel - Santorini -",
-      "place_id": "ChIJd5gTo8LPmRQR5zhVV_tXYCk",
+      "name": "Sea Breeze Santorini Beach Resort, Curio Collection by Hilton",
+      "place_id": "ChIJRSE2qY_PmRQRApfXMU-bKpM",
       "types": [
-        "bar",
-        "cafe",
         "establishment",
-        "food",
         "lodging",
         "point_of_interest",
-        "restaurant"
+        "spa"
       ],
-      "website": "http://www.seaviewsantorini.com/"
+      "website": "https://www.hilton.com/en/hotels/jtrsbqq-sea-breeze-santorini-beach-resort/?SEO_id=GMB-EMEA-QQ-JTRSBQQ"
     }
   },
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Semeli Coast Mykonos, Curio Collection by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Semeli Coast Mykonos, Curio Collection by Hilton Curio Collection by Hilton Hotel\", \"Semeli Coast Mykonos, Curio Collection by Hilton Curio Collection by Hilton Resort\", \"Semeli Coast Mykonos, Curio Collection by Hilton Curio Collection by Hilton\", \"Semeli Coast Mykonos, Curio Collection by Hilton Hilton Hotel\", \"Semeli Coast Mykonos, Curio Collection by Hilton Hilton Resort\", \"Semeli Coast Mykonos, Curio Collection by Hilton Hilton\", \"jmkmbqq semeli coast mykonos Curio Collection by Hilton Hotel\", \"jmkmbqq semeli coast mykonos Curio Collection by Hilton Resort\", \"jmkmbqq semeli coast mykonos Curio Collection by Hilton\", \"jmkmbqq semeli coast mykonos Hilton Hotel\", \"jmkmbqq semeli coast mykonos Hilton Resort\", \"jmkmbqq semeli coast mykonos Hilton\", \"Semeli Coast Mykonos, Curio Collection by Hilton Hotel\", \"Semeli Coast Mykonos, Curio Collection by Hilton Resort\", \"Semeli Coast Mykonos, Curio Collection by Hilton\"], \"v\": 3}": {
@@ -13219,47 +13213,45 @@
     }
   },
   "{\"brand\": \"Curio Collection by Hilton\", \"hotel_name\": \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection by Hilton Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection by Hilton Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Curio Collection by Hilton\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hilton\", \"pujmiqq zemi miches all inclusive resort Curio Collection by Hilton Hotel\", \"pujmiqq zemi miches all inclusive resort Curio Collection by Hilton Resort\", \"pujmiqq zemi miches all inclusive resort Curio Collection by Hilton\", \"pujmiqq zemi miches all inclusive resort Hilton Hotel\", \"pujmiqq zemi miches all inclusive resort Hilton Resort\", \"pujmiqq zemi miches all inclusive resort Hilton\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Hotel\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton Resort\", \"Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton\"], \"v\": 3}": {
-    "lat": 18.9830931,
-    "lon": -69.03408879999999,
-    "formatted_address": "Carr. Miches - Higüey km. 2, Miches 24000, Dominican Republic",
+    "lat": 19.005306,
+    "lon": -69.0041248,
+    "formatted_address": "Carretera Playa Costa Esmeralda Km7, Miches 24000, Dominican Republic",
     "provider": "google_places",
     "confidence": "PLACE_DETAILS",
-    "place_id": "ChIJ9wLTzcovr44RtqkkstsljLs",
+    "place_id": "ChIJSylFVlgpr44RdXY4RnvEXEk",
     "types": [
       "establishment",
       "lodging",
-      "point_of_interest",
-      "spa"
+      "point_of_interest"
     ],
     "partial_match": false,
     "raw": {
       "business_status": "OPERATIONAL",
-      "formatted_address": "Carr. Miches - Higüey km. 2, Miches 24000, Dominican Republic",
+      "formatted_address": "Carretera Playa Costa Esmeralda Km7, Miches 24000, Dominican Republic",
       "geometry": {
         "location": {
-          "lat": 18.9830931,
-          "lng": -69.03408879999999
+          "lat": 19.005306,
+          "lng": -69.0041248
         },
         "viewport": {
           "northeast": {
-            "lat": 18.9844408302915,
-            "lng": -69.03278726970849
+            "lat": 19.0063152302915,
+            "lng": -69.0031100697085
           },
           "southwest": {
-            "lat": 18.9817428697085,
-            "lng": -69.0354852302915
+            "lat": 19.0036172697085,
+            "lng": -69.0058080302915
           }
         }
       },
-      "name": "Temptation Miches Resort",
-      "place_id": "ChIJ9wLTzcovr44RtqkkstsljLs",
+      "name": "Zemi Miches Punta Cana All-Inclusive Resort, Curio Collection by Hilton",
+      "place_id": "ChIJSylFVlgpr44RdXY4RnvEXEk",
       "types": [
         "establishment",
         "lodging",
-        "point_of_interest",
-        "spa"
+        "point_of_interest"
       ],
-      "website": "https://www.temptationpuntacana.com/"
+      "website": "https://www.hilton.com/en/hotels/pujmiqq-zemi-miches-all-inclusive-resort/?SEO_id=GMB-QQ-PUJMIQQ&y_source=1_MTAzNDU0NjQ4Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   },
   "{\"brand\": \"DoubleTree by Hilton\", \"hotel_name\": \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton\", \"input_format\": \"hilton\", \"provider\": \"google_places_first\", \"queries\": [\"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton DoubleTree by Hilton Hotel\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton DoubleTree by Hilton Resort\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton DoubleTree by Hilton\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Hilton Hotel\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Hilton Resort\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Hilton\", \"fllbmdt bahia mar fort lauderdale beach DoubleTree by Hilton Hotel\", \"fllbmdt bahia mar fort lauderdale beach DoubleTree by Hilton Resort\", \"fllbmdt bahia mar fort lauderdale beach DoubleTree by Hilton\", \"fllbmdt bahia mar fort lauderdale beach Hilton Hotel\", \"fllbmdt bahia mar fort lauderdale beach Hilton Resort\", \"fllbmdt bahia mar fort lauderdale beach Hilton\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Hotel\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Resort\", \"Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton\"], \"v\": 3}": {
